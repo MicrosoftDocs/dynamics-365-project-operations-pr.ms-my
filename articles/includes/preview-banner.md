@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Fungsi yang dinyatakan dalam artikel ini tersedia untuk pengguna yang disasarkan sebagai sebahagian daripada siaran pratonton. Kandungan dan fungsi adalah tertakluk kepada perubahan. Untuk maklumat lebih lanjut tentang siaran pratonton, lihat [Soalan Lazim kemas kini perkhidmatan satu versi](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
