@@ -1,0 +1,45 @@
+---
+title: Tutup sebut harga
+description: Topik ini menyediakan maklumat tentang penutupan sebut harga dalam Project Operations.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 3c429fa14b4b95420c67a91a6a59af7db2660f68
+ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.translationtype: HT
+ms.contentlocale: ms-MY
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3898902"
+---
+# <a name="close-a-quote"></a><span data-ttu-id="35ae8-103">Tutup sebut harga</span><span class="sxs-lookup"><span data-stu-id="35ae8-103">Close a quote</span></span>
+
+<span data-ttu-id="35ae8-104">_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_</span><span class="sxs-lookup"><span data-stu-id="35ae8-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="35ae8-105">Sebut harga projek boleh ditutup sebagai Menang atau Hilang.</span><span class="sxs-lookup"><span data-stu-id="35ae8-105">A project quote can be closed as Won or Lost.</span></span> <span data-ttu-id="35ae8-106">Kerana fungsi Aktifkan dan Semak semula tidak disokong pada sebut harga dalam Microsoft Dynamics 365 Project Operations, anda boleh tutup sebut harga draf.</span><span class="sxs-lookup"><span data-stu-id="35ae8-106">Because the functions Activate and Revise are not supported on quotes in Microsoft Dynamics 365 Project Operations, you can close a draft quote.</span></span>
+
+## <a name="close-a-quote-as-won"></a><span data-ttu-id="35ae8-107">Tutup sebut harga sebagai Menang</span><span class="sxs-lookup"><span data-stu-id="35ae8-107">Close a quote as Won</span></span>
+
+<span data-ttu-id="35ae8-108">Menutup sebut harga projek sebagai Menang akan menetapkan status sebut harga kepada **Tutup** dan sebab status kepada **Menang**.</span><span class="sxs-lookup"><span data-stu-id="35ae8-108">Closing a project quote as Won will set the status of the quote to **Closed** and status reason to **Won**.</span></span> <span data-ttu-id="35ae8-109">Menutup sebut harga menjadikan ia baca sahaja dan mencipta draf kontrak projek dengan semua maklumat sebut harga.</span><span class="sxs-lookup"><span data-stu-id="35ae8-109">Closing the quotes makes it read-only and creates a draft project contract with all the quote information.</span></span> <span data-ttu-id="35ae8-110">Oleh kerana sebut harga ditutup tidak boleh dibuka semula, sebelum anda tutup sebut harga, dialog pengesahan akan mengesahkan perubahan anda.</span><span class="sxs-lookup"><span data-stu-id="35ae8-110">Because a closed quote can't be reopened, before you close a quote, a confirmation dialog will confirm your changes.</span></span>
+
+<span data-ttu-id="35ae8-111">Kontrak projek yang dicipta daripada sebut harga projek juga akan tersedia dalam modul Pengurusan projek dan perakaunan Project Operations.</span><span class="sxs-lookup"><span data-stu-id="35ae8-111">The project contract created from a project quote is also made available in the Project management and accounting module of Project Operations.</span></span> <span data-ttu-id="35ae8-112">Jika kontrak projek tidak dipetakan kepada projek pada sebarang baris, kontrak projek ini akan tersedia sebagai kontrak projek yang tidak aktif dan menjadi aktif sebaik sahaja projek dipetakan kepada sekurang-kurangnya satu daripada baris kontrak.</span><span class="sxs-lookup"><span data-stu-id="35ae8-112">If a project contract is not mapped to a project on any of its lines, this project contract is made available as an inactive project contract and becomes active as soon as a project is mapped to at least one of its contract lines.</span></span>
+
+<span data-ttu-id="35ae8-113">Jika sebut harga dilampirkan kepada peluang, sebarang sebut harga projek lain untuk peluang ditutup secara automatik sebagai hilang.</span><span class="sxs-lookup"><span data-stu-id="35ae8-113">If the quote is attached to an opportunity, any other project quotes on the opportunity are automatically closed as Lost.</span></span>
+
+### <a name="financial-impact-of-closing-a-quote-as-won"></a><span data-ttu-id="35ae8-114">Kesan kewangan untuk menutup sebut harga sebagai Menang</span><span class="sxs-lookup"><span data-stu-id="35ae8-114">Financial impact of closing a quote as Won</span></span>
+
+<span data-ttu-id="35ae8-115">Jika telah ada sebarang masa yang sebenar direkodkan pada projek semasa ia masih dilampirkan pada draf sebut harga, hanya kos masa atau perbelanjaan direkodkan.</span><span class="sxs-lookup"><span data-stu-id="35ae8-115">If there have been any actuals for time recorded on a project while it is still attached to a draft quote, only the cost of the time or expense is recorded.</span></span> <span data-ttu-id="35ae8-116">Selepas sebut harga ditutup sebagai Menang, aplikasi itu akan faktor semula kos dengan menterbalikkan kos sebenar yang lebih lama dan mencipta semula kos sebenar yang baharu.</span><span class="sxs-lookup"><span data-stu-id="35ae8-116">After a quote is closed as Won, the application will refactor the costs by reversing the older cost actuals and re-creating new cost actuals.</span></span> <span data-ttu-id="35ae8-117">Aplikasi akan memproses kos sebenar berdasarkan kepada Kaedah pengebilan bagi baris kontrak projek berkaitan.</span><span class="sxs-lookup"><span data-stu-id="35ae8-117">The application will process these cost actuals based on the Billing method of the associated project contract line.</span></span> <span data-ttu-id="35ae8-118">Jika kos sebenar merujuk pada masa dan baris kontrak bahan, sistem akan secara automatik akan mencipta jualan sebenar yang belum dibilkan untuk apabila sebut harga ditutup dan kontrak projek dicipta.</span><span class="sxs-lookup"><span data-stu-id="35ae8-118">If the cost actuals reference a time and material contract line, the system will automatically create corresponding unbilled sales actuals for when the quote is closed and the project contract is created.</span></span> <span data-ttu-id="35ae8-119">Jika kos sebenar merujuk kepada baris kontrak harga tetap, aplikasi akan berhenti untuk memproses semula kos sebenar berdasarkan peraturan pengebilan pecahan untuk pelanggan kontrak projek.</span><span class="sxs-lookup"><span data-stu-id="35ae8-119">If the cost actuals reference a fixed price contract line, the application will stop reprocessing the cost actuals based on the split billing rules for the project contract customers.</span></span>
+
+<span data-ttu-id="35ae8-120">Semua aktual yang diproses semula boleh tersedia di dalam Modul pengurusan projek dan perakaunan bagi Akauntan projek menyemak, mengemas kini, dan siaran ke Lejar Umum.</span><span class="sxs-lookup"><span data-stu-id="35ae8-120">All reprocessed actuals are available in the Project management and accounting module for the Project accountant to review, update, and post to the General ledger.</span></span> 
+
+## <a name="close-a-quote-as-lost"></a><span data-ttu-id="35ae8-121">Tutup sebut harga sebagai Hilang</span><span class="sxs-lookup"><span data-stu-id="35ae8-121">Close a quote as Lost</span></span>
+
+<span data-ttu-id="35ae8-122">Menutup sebut harga projek sebagai Hilang akan menetapkan status sebut harga kepada **Tutup** dan sebab status kepada **Hilang**.</span><span class="sxs-lookup"><span data-stu-id="35ae8-122">Closing a project quote as Lost will set the status to **Closed** and status reason to **Lost**.</span></span> <span data-ttu-id="35ae8-123">Tutup sebut harga menjadikan ia baca sahaja.</span><span class="sxs-lookup"><span data-stu-id="35ae8-123">Closing the quote makes it read-only.</span></span> <span data-ttu-id="35ae8-124">Oleh kerana sebut harga ditutup tidak boleh dibuka semula dan, sebelum anda tutup sebut harga, dialog pengesahan akan mengesahkan perubahan anda.</span><span class="sxs-lookup"><span data-stu-id="35ae8-124">Because a closed quote can't be reopened and, before you close a quote, a confirmation dialog will confirm your changes.</span></span>
+
+<span data-ttu-id="35ae8-125">Jika projek sebut harga yang ditutup sebagai Hilang mempunyai projek yang dirujuk pada sebarang baris, projek tersebut juga ditandakan sebagai Tutup dan sebarang penempahan sumber dari hari ke hadapan dibatalkan.</span><span class="sxs-lookup"><span data-stu-id="35ae8-125">If the project quote that is closed as Lost has a project referenced on any of its lines, that project is also marked as Closed and any resource bookings from that day forward are canceled.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="35ae8-126">Dalam Project Operations, menutup sebut harga sebagai Menang atau Hilang tidak akan memberi kesan bahawa status Peluang, yang akan kekal terbuka sehingga ia secara manual ditutup.</span><span class="sxs-lookup"><span data-stu-id="35ae8-126">In Project Operations, closing a quote as Won or Lost will not impact that status of the Opportunity, which will remain open until it is manually closed.</span></span>
