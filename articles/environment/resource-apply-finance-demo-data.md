@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948995"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096633"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Gunakan Operasi Projek data demo ke persekitaran yang dihoskan Awan Kewangan
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
->[Penting] Topik ini hanya diguna pakai bagi Microsoft Dynamics 365 Finance versi 10.0.13 dan hanya boleh dilakukan pada persekitaran yang dihoskan Awan. Lengkapkan langkah dalam topik ini **SEBELUM** anda menggunakan kemas kini kualiti kepada persekitaran.
+> [!IMPORTANT]
+> Topik ini hanya diguna pakai bagi Microsoft Dynamics 365 Finance versi 10.0.13 dan hanya boleh dilakukan pada persekitaran berhos Awan. Lengkapkan langkah dalam topik ini **SEBELUM** anda menggunakan kemas kini kualiti kepada persekitaran.
 
 1. Dalam projek LCS anda, buka halaman **Butiran persekitaran**. Perhatikan bahawa ia termasuk butiran yang diperlukan untuk menyambung ke persekitaran dengan menggunakan Protokol Desktop Jarak Jauh (RDP).
 
@@ -45,7 +46,7 @@ Set kelayakan pertama yang diserlahkan ialah kelayakan akaun tempatan dan mengan
 
 6. Dalam Explorer Objek, **Pangkalan Data** dan cari **AXDB**. Anda akan menggantikan pangkalan data dengan pangkalan data baru yang terletak di [Pusat Muat turun](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Salin fail zip ke VM yang anda akan diasingkan dan ekstrak kandungan zip.
-8. Dalam Studio Pengurusan Pelayan SQL, klik kanan **AxDB**, dan kemudian pilih **Tugas** > **Pulihkan** > **Pangkalan Data**.
+8. Dalam Studio Pengurusan Pelayan SQL, klik kanan **AxDB** , dan kemudian pilih **Tugas** > **Pulihkan** > **Pangkalan Data**.
 
 ![Pulihkan Pangkalan Data](./media/5RestoreDatabase.png)
 
