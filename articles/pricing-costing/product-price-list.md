@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3570aeb78804e9b267caa55a27e02d6c8df9a5c6
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898182"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081296"
 ---
 # <a name="product-price-lists"></a>Senarai harga produk
 
@@ -43,11 +42,11 @@ Anda boleh menambah produk daripada katalog produk kepada senarai harga yang ber
 
 PSA menyokong pelbagai pilihan pembundaran apabila harga dikonfigurasikan sebagai fungsi harga senarai, kos standard atau kos semasa. Selain mengambil kesempatan daripada pelbagai kaedah penetapan harga dan pilihan pembundaran, anda boleh mengaitkan senarai diskaun dengan item senarai harga. 
 
-Apabila anda mencipta senarai harga tersuai baharu untuk sebut harga dengan memilih **Cipta Penetapan Harga Tersuai** pada halaman **Sebut Harga Projek**, salinan senarai harga dibuat dan medan **Entiti** pada pengepala senarai harga baharu ditetapkan kepada **Entiti Jualan**. Nama senarai harga baharu akan ditambah dengan nama sebut harga dan cap masa. Anda juga boleh menggunakan nama senarai harga baharu dan nama sebut harga dalam aliran kerja tersuai untuk mencetuskan semakan tambahan dan kelulusan untuk sebut harga yang menggunakan penetapan harga tersuai.
+Apabila anda mencipta senarai harga tersuai baharu untuk sebut harga dengan memilih **Cipta Penetapan Harga Tersuai** pada halaman **Sebut Harga Projek** , salinan senarai harga dibuat dan medan **Entiti** pada pengepala senarai harga baharu ditetapkan kepada **Entiti Jualan**. Nama senarai harga baharu akan ditambah dengan nama sebut harga dan cap masa. Anda juga boleh menggunakan nama senarai harga baharu dan nama sebut harga dalam aliran kerja tersuai untuk mencetuskan semakan tambahan dan kelulusan untuk sebut harga yang menggunakan penetapan harga tersuai.
 
  
 ## <a name="default-product-price-list"></a>Senarai harga produk lalai
-Setiap rekod pelanggan mempunyai medan **Senarai Harga Lalai**, tempat anda boleh tentukan senarai harga yang sepadan dengan mata wang pelanggan. Nilai lalai tidak dimasukkan secara automatik dalam medan ini. Apabila perjanjian penetapan harga tersuai dengan pelanggan tertentu wujud, anda boleh menggunakan medan ini untuk mengaitkan senarai harga dengan pelanggan tersebut.
+Setiap rekod pelanggan mempunyai medan **Senarai Harga Lalai** , tempat anda boleh tentukan senarai harga yang sepadan dengan mata wang pelanggan. Nilai lalai tidak dimasukkan secara automatik dalam medan ini. Apabila perjanjian penetapan harga tersuai dengan pelanggan tertentu wujud, anda boleh menggunakan medan ini untuk mengaitkan senarai harga dengan pelanggan tersebut.
 
 Entiti Peluang, Sebut Harga dan Kontrak Projek menggunakan pesanan berikut untuk memasukkan senarai harga produk lalai. Pesanan yang sama digunakan untuk senarai harga projek.
 

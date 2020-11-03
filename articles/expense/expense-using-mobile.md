@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897057"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081230"
 ---
 # <a name="expense-using-mobile"></a>Perbelanjaan menggunakan mudah alih
 
@@ -64,7 +63,7 @@ Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu dilaksanakan untu
 <tr class="header">
 <th>Prasyarat</th>
 <th>Peranan</th>
-<th>Penerangan </th>
+<th>Penerangan</th>
 </tr>
 </thead>
 <tbody>
@@ -106,13 +105,13 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 3. Pilih **Ambil gambar** atau **Pilih imej**.
 4. Ikuti salah satu langkah ini:
 
-   - Jika anda memilih **Ambil gambar**, ikuti langkah ini:
+   - Jika anda memilih **Ambil gambar** , ikuti langkah ini:
 
       1. Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu. 
       2. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
       3. Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.
 
-    - Jika anda memilih **Pilih imej**, ikuti langkah ini:
+    - Jika anda memilih **Pilih imej** , ikuti langkah ini:
 
         1. Pilih imej dalam senarai.
         2. Pilihan: Masukkan nama untuk imej dan masukkan sebarang nota.
@@ -131,8 +130,8 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 8. Pilih **Ambil gambar** atau **Pilih imej**.
 9. Ikuti salah satu langkah ini:
 
-    - Jika anda memilih **Ambil gambar**, anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
-    - Jika anda memilih **Pilih imej**, pilih imej dalam senarai.
+    - Jika anda memilih **Ambil gambar** , anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
+    - Jika anda memilih **Pilih imej** , pilih imej dalam senarai.
 
 10. Pilih **Selesai**.
 
@@ -145,7 +144,7 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
     
 3. Pilih laporan perbelanjaan untuk melihat butiran perbelanjaan untuknya.
 4. Pilih perbelanjaan untuk melihat butiran perbelanjaan untuknya. Maklumat yang ditunjukkan untuk perbelanjaan termasuk sebarang resit, tetamu dan butiran perincian.
-5. Kembali ke halaman **Laporan perbelanjaan**, pilih untuk melulus atau menolak laporan perbelanjaan.
+5. Kembali ke halaman **Laporan perbelanjaan** , pilih untuk melulus atau menolak laporan perbelanjaan.
 6. Masukkan sebarang komen untuk tindakan kelulusan.
 7. Pilih **Selesai**.
 
@@ -172,24 +171,24 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
     1. Pilih **Tangkap resit** atau **lampirkan resit**.
     2. Ikuti salah satu langkah ini:
 
-        - Jika anda memilih **Tangkap resit**, ikuti langkah ini:
+        - Jika anda memilih **Tangkap resit** , ikuti langkah ini:
 
             1. Pilih **Ambil gambar** atau **Pilih imej**.
             2. Ikuti salah satu langkah ini:
 
-                - Jika anda memilih **Ambil gambar**, ikuti langkah ini:
+                - Jika anda memilih **Ambil gambar** , ikuti langkah ini:
 
                     1. Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
                     2. Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.
 
-                - Jika anda memilih **Pilih imej**, ikuti langkah ini:
+                - Jika anda memilih **Pilih imej** , ikuti langkah ini:
 
                     1. Pilih imej dalam senarai.
                     2. Pilihan: Masukkan nama untuk imej dan masukkan sebarang nota.
 
             3.  Pilih **Selesai**.
 
-        - Jika anda memilih **Lampirkan resit**, ikuti langkah ini:
+        - Jika anda memilih **Lampirkan resit** , ikuti langkah ini:
 
             1.  Pilih satu atau lebih imej dalam senarai.
             2.  Pilih **Selesai**.
@@ -198,22 +197,22 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 
 18. Jika polisi syarikat memerlukan tetamu untuk perbelanjaan, pilih **Tetamu** dan kemudian ikuti langkah ini:
 
-    1. Pilih **Tetamu**, **Tetamu terdahulu** atau **Rakan sekerja**.
+    1. Pilih **Tetamu** , **Tetamu terdahulu** atau **Rakan sekerja**.
     2. Ikuti salah satu langkah ini:
 
-        - Jika anda memilih **Tetamu**, ikuti langkah ini:
+        - Jika anda memilih **Tetamu** , ikuti langkah ini:
 
             1. Masukkan nama tetamu.
             2. Pilihan: masukkan organisasi dan/atau negara tetamu.
             3. Pilihan: Masukkan gelaran tetamu.
             4. Pilih **Selesai**.
 
-        - Jika anda memilih **Tetamu terdahulu**, ikuti langkah ini:
+        - Jika anda memilih **Tetamu terdahulu** , ikuti langkah ini:
 
             1. Pilih satu atau lebih tetamu terdahulu dalam senarai. Anda lihat senarai tetamu terdahulu yang anda telah tambahkan kepada laporan perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika tetamu terdahulu anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut nama atau bertukar kepada carian mengikut organisasi, negara atau gelaran.
             2. Pilih **Selesai**.
 
-        - Jika anda memilih **Rakan sekerja**, ikuti langkah ini:
+        - Jika anda memilih **Rakan sekerja** , ikuti langkah ini:
 
             1. Pilih satu atau lebih rakan sekerja dalam senarai. Anda lihat senarai rakan sekerja yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika rakan sekerja anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut nama atau bertukar kepada carian mengikut syarikat atau gelaran.
             2. Pilih **Selesai**.

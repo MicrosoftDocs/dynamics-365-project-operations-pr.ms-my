@@ -1,5 +1,5 @@
 ---
-title: Halaman utama sebenar
+title: Aktual
 description: Topik ini memberikan maklumat tentang cara bekerja dengan aktual dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081218"
 ---
-# <a name="actuals"></a>Aktual
+# <a name="actuals"></a>Aktual 
 
 _**Gunakan pada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
@@ -46,7 +45,7 @@ Apabila entri masa yang telah diserahkan dipautkan kepada projek yang dipetakan 
 
 Logik untuk mencipta harga lalai terletak pada garisan jurnal. Nilai medan daripada entri masa disalin kepada garisan jurnal. Nilai-nilai ini termasuk tarikh transaksi, baris kontrak yang projek dipetakan padanya, dan mata wang yang menghasilkan senarai harga yang sesuai.
 
-Medan-medan yang mempengaruhi penetapan harga lalai, seperti **Peranan** dan **Unit Organisasi**, digunakan untuk menentukan harga yang sesuai pada garisan jurnal. Anda boleh menambah medan tersuai pada entri masa. Jika anda mahu nilai medan disebarkan kepada aktual, cipta medan pada entiti Aktual dan gunakan pemetaan medan untuk menyalin medan daripada entri masa kepada aktual.
+Medan-medan yang mempengaruhi penetapan harga lalai, seperti **Peranan** dan **Unit Organisasi** , digunakan untuk menentukan harga yang sesuai pada garisan jurnal. Anda boleh menambah medan tersuai pada entri masa. Jika anda mahu nilai medan disebarkan kepada aktual, cipta medan pada entiti Aktual dan gunakan pemetaan medan untuk menyalin medan daripada entri masa kepada aktual.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Serahan garisan jurnal dan perbelanjaan asas
 

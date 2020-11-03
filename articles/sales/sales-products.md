@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081325"
 ---
 # <a name="products"></a>Produk
 
@@ -34,27 +33,27 @@ Produk adalah teras perniagaan anda. Katalog produk dalam Dynamics 365 Sales Pro
 ## <a name="add-a-product"></a>Tambah produk
 
 1.  Pastikan anda mempunyai Pengurus Jualan Profesional atau peranan Pentadbir Sistem agar anda boleh menambah produk dalam Dynamics 365 Sales Professional.
-2.  Dalam peta tapak, di bawah **Persediaan**, pilih **Produk**.
+2.  Dalam peta tapak, di bawah **Persediaan** , pilih **Produk**.
 3.  Pilih **Tambah Produk** dan isi maklumat berikut:
 
     -  **Nama**
     -  **ID Produk**
-    -  **Induk**: Pilih keluarga produk induk untuk produk. Jika anda mencipta produk anak dalam keluarga produk, nama keluarga produk induk dipopulasikan di sini. Ini tidak boleh diubah selepas rekod disimpan.
-    -  **Sah Dari**/**Sah Sehingga**: Takrifkan tempoh produk sah dengan memilih tarikh **Sah Dari** dan **Sah Sehingga**.
-    -  **Kumpulan Unit**: Pilih kumpulan unit. Kumpulan unit adalah koleksi pelbagai unit yang mana produk dijual dan mendefinisikan bagaimana barang individu dikumpulkan dalam kuantiti lebih besar. Contohnya, jika anda menambah benih sebagai produk, anda mungkin telah mencipta kumpulan unit yang dipanggil "Benih" dan mentakrifkan unit utamanya sebagai "paket."
-    -  **Unit Lalai**: Pilih unit paling umum yang mana produk akan dijual. Unit ialah kuantiti atau ukuran bahawa anda menjual produk anda. Contohnya, jika anda menambah benih sebagai produk, anda boleh menjualnya dalam paket, kotak atau palet. Kesemua ini menjadi satu unit produk. Jika benih kebanyakannya dijual di paket, pilih paket sebagai unit.
-    -  **Senarai Pilihan Lalai**: Jika ini adalah produk baharu, medan ini adalah baca sahaja. Sebelum anda boleh memilih senarai harga lalai, anda harus melengkapkan semua medan yang diperlukan, kemudian simpan rekod. Walaupun senarai harga lalai tidak diperlukan, selepas anda menyimpan rekod produk, adalah idea yang bagus untuk menetapkan senarai harga lalai untuk setiap produk. Kemudian, jika rekod pelanggan tidak mengandungi senarai harga, Jualan boleh menggunakan senarai harga lalai untuk menjana sebut harga, pesanan dan invois.
-    -  **Perpuluhan Disokong**: Masukkan nombor bulat antara 0 dan 5. Jika produk tidak boleh dibahagikan kepada kuantiti pecahan, masukkan 0. Ketepatan medan **Kuantiti** dalam sebut harga, pesanan, atau rekod produk invois disahkan terhadap nilai dalam medan ini jika produk tidak mempunyai senarai harga yang berkaitan.
-    -  **SubjeK**: Kaitkan produk ini dengan subjek. Anda boleh menggunakan subjek untuk mengkategorikan produk anda dan untuk menapis laporan.
+    -  **Induk** : Pilih keluarga produk induk untuk produk. Jika anda mencipta produk anak dalam keluarga produk, nama keluarga produk induk dipopulasikan di sini. Ini tidak boleh diubah selepas rekod disimpan.
+    -  **Sah Dari**/**Sah Sehingga** : Takrifkan tempoh produk sah dengan memilih tarikh **Sah Dari** dan **Sah Sehingga**.
+    -  **Kumpulan Unit** : Pilih kumpulan unit. Kumpulan unit adalah koleksi pelbagai unit yang mana produk dijual dan mendefinisikan bagaimana barang individu dikumpulkan dalam kuantiti lebih besar. Contohnya, jika anda menambah benih sebagai produk, anda mungkin telah mencipta kumpulan unit yang dipanggil "Benih" dan mentakrifkan unit utamanya sebagai "paket."
+    -  **Unit Lalai** : Pilih unit paling umum yang mana produk akan dijual. Unit ialah kuantiti atau ukuran bahawa anda menjual produk anda. Contohnya, jika anda menambah benih sebagai produk, anda boleh menjualnya dalam paket, kotak atau palet. Kesemua ini menjadi satu unit produk. Jika benih kebanyakannya dijual di paket, pilih paket sebagai unit.
+    -  **Senarai Pilihan Lalai** : Jika ini adalah produk baharu, medan ini adalah baca sahaja. Sebelum anda boleh memilih senarai harga lalai, anda harus melengkapkan semua medan yang diperlukan, kemudian simpan rekod. Walaupun senarai harga lalai tidak diperlukan, selepas anda menyimpan rekod produk, adalah idea yang bagus untuk menetapkan senarai harga lalai untuk setiap produk. Kemudian, jika rekod pelanggan tidak mengandungi senarai harga, Jualan boleh menggunakan senarai harga lalai untuk menjana sebut harga, pesanan dan invois.
+    -  **Perpuluhan Disokong** : Masukkan nombor bulat antara 0 dan 5. Jika produk tidak boleh dibahagikan kepada kuantiti pecahan, masukkan 0. Ketepatan medan **Kuantiti** dalam sebut harga, pesanan, atau rekod produk invois disahkan terhadap nilai dalam medan ini jika produk tidak mempunyai senarai harga yang berkaitan.
+    -  **SubjeK** : Kaitkan produk ini dengan subjek. Anda boleh menggunakan subjek untuk mengkategorikan produk anda dan untuk menapis laporan.
 
 4.  Pilih **Simpan**.
-5.  Pada tab **Butiran Tambahan**, dalam bahagian **Item Senarai Harga**, pilih **Lebih perintah** dan kemudian pilih **Tambah Item Senarai Harga Baharu**.
-7.  Pada tab **Butiran Tambahan**, dalam bahagian **Perhubungan Produk**, pilih ikon **Lebih perintah** dan kemudian pilih **Tambah Perhubungan Produk Baharu.**
-8.  Dalam borang **Hubungan Produk Baharu**, masukkan butiran berikut, dan pada bar perintah, pilih **Simpan dan Tutup**:
+5.  Pada tab **Butiran Tambahan** , dalam bahagian **Item Senarai Harga** , pilih **Lebih perintah** dan kemudian pilih **Tambah Item Senarai Harga Baharu**.
+7.  Pada tab **Butiran Tambahan** , dalam bahagian **Perhubungan Produk** , pilih ikon **Lebih perintah** dan kemudian pilih **Tambah Perhubungan Produk Baharu.**
+8.  Dalam borang **Hubungan Produk Baharu** , masukkan butiran berikut, dan pada bar perintah, pilih **Simpan dan Tutup** :
 
-    -   **Produk Berkaitan**: Pilih produk yang anda mahu tambah sebagai produk berkaitan ke rekod produk sedia ada yang sedang anda usahakan.
-    -   **Jenis Hubungan Jualan**: Pilih sama ada anda ingin tambah produk sebagai jualan tambahan, jualan silang, aksesori atau produk gantian.
-    -   **Arah**:Pilih sama ada hubungan antara produk akan menjadi searah atau dwiarah. Apabila anda memilih searah, produk yang anda pilih dalam **Produk Berkaitan** akan ditunjukkan sebagai pengesyoran untuk produk yang sedia ada tetapi tidak sebaliknya.
+    -   **Produk Berkaitan** : Pilih produk yang anda mahu tambah sebagai produk berkaitan ke rekod produk sedia ada yang sedang anda usahakan.
+    -   **Jenis Hubungan Jualan** : Pilih sama ada anda ingin tambah produk sebagai jualan tambahan, jualan silang, aksesori atau produk gantian.
+    -   **Arah** :Pilih sama ada hubungan antara produk akan menjadi searah atau dwiarah. Apabila anda memilih searah, produk yang anda pilih dalam **Produk Berkaitan** akan ditunjukkan sebagai pengesyoran untuk produk yang sedia ada tetapi tidak sebaliknya.
 
 9.  Pada borang Produk, pilih **Simpan**.
 
@@ -69,7 +68,7 @@ Pastikan inventori produk dikemas kini dengan menyemak sifat untuk produk secara
 1.  Pastikan anda mempunyai salah satu daripada peranan keselamatan berikut atau keizinan yang setara: Pentadbir Sistem, Penyesuai Sistem, Pengurus Jualan, Naib Presiden Jualan, Naib Presiden Pemasaran atau CEO-Pengurus Perniagaan.
 2.  Dalam peta tapak, pilih **Produk**.
 3.  Buka produk aktif yang anda ingin ubah dan pada bar perintah, pilih **Semak**.
-4.  Dalam kotak dialog **Sahkan Semak Semula**, pilih **Sahkan**. Ini akan menukar status produk kepada **Dalam Semakan**.
+4.  Dalam kotak dialog **Sahkan Semak Semula** , pilih **Sahkan**. Ini akan menukar status produk kepada **Dalam Semakan**.
 5.  Setelah anda selesai membuat perubahan, pada bar perintah, pilih **Terbit**.
 
     > [!TIP]
@@ -93,7 +92,7 @@ Jika organisasi anda tidak menjual produk lagi, tamatkannya supaya produk tidak 
 1.  Pastikan anda mempunyai peranan Pentadbir Sistem atau Pengurus Sales Professional atau keizinan yang setara.
 2.  Dalam peta tapak, pilih **Produk**.
 3.  Buka produk aktif yang anda ingin hentikan, dan pada bar perintah, pilih **Henti**.
-4.  Dalam kotak dialog **Sahkan Berhenti**, pilih **Sahkan**.
+4.  Dalam kotak dialog **Sahkan Berhenti** , pilih **Sahkan**.
 
 
 ## <a name="delete-a-product"></a>Padamkan produk
@@ -106,7 +105,7 @@ Untuk berhenti menjual produk, padamkannya.
 1.  Pastikan anda mempunyai peranan Pentadbir Sistem atau Pengurus Sales Professional atau keizinan yang setara.
 2.  Dalam peta tapak, pilih **Produk**.
 3.  Pilih rekod produk yang anda ingin padamkan dan pada bar perintah, pilih **Padam**.
-4.  Dalam kotak dialog **Sahkan Pemadaman**, pilih **Teruskan**.
+4.  Dalam kotak dialog **Sahkan Pemadaman** , pilih **Teruskan**.
  
  ## <a name="quantity-factors-for-products"></a>Faktor kuantiti bagi produk
 
@@ -120,8 +119,8 @@ Sistem mengesahkan bahawa hanya sifat angka atau sifat produk yang mempunyai jen
 
 Contohnya, jika terdapat sifat berikut: 
 
-- **Bilangan pengguna**: Bilangan pengguna 
-- **Bilangan bulan**: Bilangan bulan langganan
+- **Bilangan pengguna** : Bilangan pengguna 
+- **Bilangan bulan** : Bilangan bulan langganan
 - **SKU Produk** 
 
 Sifat **Bilangan Pengguna** dan **Bilangan Bulan** boleh ditanda sebagai faktor kuantiti dengan mengedit sifat baris produk. 

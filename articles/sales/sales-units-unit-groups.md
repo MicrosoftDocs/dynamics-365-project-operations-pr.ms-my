@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898767"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081351"
 ---
 # <a name="units-and-unit-groups"></a>Unit dan kumpulan unit
 
@@ -36,14 +35,14 @@ Untuk melengkapkan langkah dalam topik ini, pastikan anda ditugaskan kepada Pent
 ## <a name="create-a-unit-group"></a>Cipta kumpulan unit
 
 1. Dalam peta tapak, pilih **Unit**.
-2. Pilih **Baharu** dan dalam kotak dialog **Cipta Kumpulan Unit**, masukkan nama unit.
-3. Medan **Unit utama**, masukkan unit ukuran lazim terendah yang akan digunakan dalam jualan produk. Contohnya, anda mungkin memasukkan "potongan" atau "auns".
+2. Pilih **Baharu** dan dalam kotak dialog **Cipta Kumpulan Unit** , masukkan nama unit.
+3. Medan **Unit utama** , masukkan unit ukuran lazim terendah yang akan digunakan dalam jualan produk. Contohnya, anda mungkin memasukkan "potongan" atau "auns".
 4. Pilih **OK**.
 
 ## <a name="add-units-to-a-unit-group"></a>Tambah unit ke kumpulan unit
 
-1. Buka kumpulan unit dan pada tab **Berkaitan**, pilih **Unit**. Anda akan melihat unit utama telah ditambah.
-2. Pilih **Tambah Unit Baharu** dan pada halaman **Cipta Pantas: Unit**, dalam medan **Nama**, masukkan nama unit.
-3. Dalam medan **Kuantiti**, masukkan kuantiti bagi unit. Contohnya, jika kotak mengandungi dua bahagian, masukkan "2". 
-4. Dalam medan **Unit Asas**, pilih unit asas untuk mewujudkan unit terendah bagi ukuran unit. Contohnya, anda mungkin memilih "Bahagian".
-5. Pilih **Simpan**:
+1. Buka kumpulan unit dan pada tab **Berkaitan** , pilih **Unit**. Anda akan melihat unit utama telah ditambah.
+2. Pilih **Tambah Unit Baharu** dan pada halaman **Cipta Pantas: Unit** , dalam medan **Nama** , masukkan nama unit.
+3. Dalam medan **Kuantiti** , masukkan kuantiti bagi unit. Contohnya, jika kotak mengandungi dua bahagian, masukkan "2". 
+4. Dalam medan **Unit Asas** , pilih unit asas untuk mewujudkan unit terendah bagi ukuran unit. Contohnya, anda mungkin memilih "Bahagian".
+5. Pilih **Simpan** :
