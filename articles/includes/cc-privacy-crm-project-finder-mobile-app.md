@@ -1,17 +1,25 @@
-Dengan mendayakan aplikasi Project Finder mobile, anda memberi pengguna dalam organisasi dengan keterlihatan ke dalam kerja projek dan keupayaan untuk mendaftarkan diri bagi tugasan. Pengguna juga boleh bekerja dengan aplikasi Project Finder untuk melihat dan mengemas kini kemahiran mereka. Aplikasi Project Finder mobile didayakan melalui Tetapan Parameter Project Service, dengan menetapkan nilai keperluan Sumber boleh dilihat oleh sumber dan Membenarkan kemahiran dikemas kini oleh atribut sumber kepada Ya. Mengubah nilai atribut ini kepada Tidak menyahdayakan fungsi ini.  
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: ms-MY
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069982"
+---
+<span data-ttu-id="1501c-101">Dengan mendayakan aplikasi Project Finder mobile, anda memberi pengguna dalam organisasi dengan keterlihatan ke dalam kerja projek dan keupayaan untuk mendaftarkan diri bagi tugasan.</span><span class="sxs-lookup"><span data-stu-id="1501c-101">By enabling the Project Finder mobile app, you provide users in the organization with visibility into project work and the ability to sign up for work.</span></span> <span data-ttu-id="1501c-102">Pengguna juga boleh bekerja dengan aplikasi Project Finder untuk melihat dan mengemas kini kemahiran mereka.</span><span class="sxs-lookup"><span data-stu-id="1501c-102">Users can also work with the Project Finder app to view and update their skills.</span></span> <span data-ttu-id="1501c-103">Aplikasi Project Finder mobile didayakan melalui Tetapan Parameter Project Service, dengan menetapkan nilai keperluan Sumber boleh dilihat oleh sumber dan Membenarkan kemahiran dikemas kini oleh atribut sumber kepada Ya.</span><span class="sxs-lookup"><span data-stu-id="1501c-103">The Project Finder mobile app is enabled via the Project Service Parameters Setting, by setting the value of the Resource requirements visible to resources and Allow skill update by resource attributes to Yes.</span></span> <span data-ttu-id="1501c-104">Mengubah nilai atribut ini kepada Tidak menyahdayakan fungsi ini.</span><span class="sxs-lookup"><span data-stu-id="1501c-104">Changing the value of these attributes to No disables this functionality.</span></span>  
   
- Apabila menggunakan ciri ini, pastikan anda pertimbangkan isi utama yang berikut:  
+ <span data-ttu-id="1501c-105">Apabila menggunakan ciri ini, pastikan anda pertimbangkan isi utama yang berikut:</span><span class="sxs-lookup"><span data-stu-id="1501c-105">When using this feature, be sure to consider the following key points:</span></span>  
   
--   Keperluan sumber boleh dilihat oleh sumber. Menetapkan atribut ini kepada Ya memberi pengguna keterlihatan ke dalam kerja projek yang mengemukakan maklumat berikut mengenai projek:  
+-   <span data-ttu-id="1501c-106">Keperluan sumber boleh dilihat oleh sumber.</span><span class="sxs-lookup"><span data-stu-id="1501c-106">Resource requirements visible to resources.</span></span> <span data-ttu-id="1501c-107">Menetapkan atribut ini kepada Ya memberi pengguna keterlihatan ke dalam kerja projek yang mengemukakan maklumat berikut mengenai projek:</span><span class="sxs-lookup"><span data-stu-id="1501c-107">Setting this attribute to Yes provides users with visibility into project work exposes the following information about a project:</span></span>  
   
-    -   Nama projek  
+    -   <span data-ttu-id="1501c-108">Nama projek</span><span class="sxs-lookup"><span data-stu-id="1501c-108">Project name</span></span>  
   
-    -   Nama peranan  
+    -   <span data-ttu-id="1501c-109">Nama peranan</span><span class="sxs-lookup"><span data-stu-id="1501c-109">Role name</span></span>  
   
-    -   Nama pelanggan  
+    -   <span data-ttu-id="1501c-110">Nama pelanggan</span><span class="sxs-lookup"><span data-stu-id="1501c-110">Customer name</span></span>  
   
-    -   Alamat pelanggan  
+    -   <span data-ttu-id="1501c-111">Alamat pelanggan</span><span class="sxs-lookup"><span data-stu-id="1501c-111">Customer address</span></span>  
   
-    -   Tempoh kerja  
+    -   <span data-ttu-id="1501c-112">Tempoh kerja</span><span class="sxs-lookup"><span data-stu-id="1501c-112">Work duration</span></span>  
   
--   Benarkan kemas kini kemahiran oleh sumber. Menetapkan atribut ini kepada Ya memberi pengguna keupayaan untuk menambah kemahiran kepada profil mereka dan untuk menetapkan tahap kecekapan mereka untuk kemahiran yang ditambah oleh mereka.
+-   <span data-ttu-id="1501c-113">Benarkan kemas kini kemahiran oleh sumber.</span><span class="sxs-lookup"><span data-stu-id="1501c-113">Allow skill update by resource.</span></span> <span data-ttu-id="1501c-114">Menetapkan atribut ini kepada Ya memberi pengguna keupayaan untuk menambah kemahiran kepada profil mereka dan untuk menetapkan tahap kecekapan mereka untuk kemahiran yang ditambah oleh mereka.</span><span class="sxs-lookup"><span data-stu-id="1501c-114">Setting this attribute to Yes provides users with the ability to add skills to their profiles and to set their level of proficiency for the skills they add.</span></span>
