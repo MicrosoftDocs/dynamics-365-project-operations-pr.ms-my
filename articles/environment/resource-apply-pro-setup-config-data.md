@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081101"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Sediakan dan gunakan data konfigurasi dalam Common Data Service untuk Operasi Projek
 
@@ -27,7 +27,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
 
-4. Pada halaman 2 dalam Wizard CMT, pilih **Office 365** sebagai **Jenis Pelaksanaan**.
+4. Pada Halaman 2 dalam Wizard CMT, pilih **Microsoft 365** sebagai **Jenis Perlaksanaan**.
 5. Pilih **Paparkan senarai organisasi tersedia** dan kotak semak **Tunjukkan Lanjutan**.
 6. Pilih rantau penyewa anda, masukkan kelayakan anda dan pilih **Log masuk**.
 
@@ -79,11 +79,11 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 ![Sumber Boleh Ditempah](./media/8BookableResources.png)
 
-3. Pada tab **Umum**, pilih pengguna pentadbir anda. Sahkan bahawa zon waktu sepadan dengan yang anda berada. 
+3. Pada tab **Umum** , pilih pengguna pentadbir anda. Sahkan bahawa zon waktu sepadan dengan yang anda berada. 
 
 ![Sumber Boleh Ditempah Baharu](./media/9NewBookableResource.png)
 
-4. Pada tab **Penjadualan**, dalam medan **Syarikat**, pilih syarikat **USPM** dan kemudian pilih **Simpan**. 
+4. Pada tab **Penjadualan** , dalam medan **Syarikat** , pilih syarikat **USPM** dan kemudian pilih **Simpan**. 
 
 ![Tab Penjadualan](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
  
 12. Kemas kini medan berikut:
 
- - **Syarikat lalai**: USPM
+ - **Syarikat lalai** : USPM
  - **Unit Organisasi Lalai** : Contoso Robotics Global
- - **Frekuensi Invois**: Ketujuh dan Hari Terakhir
- - **Templat jam kerja**: Tukar ke templat yang anda cipta.
+ - **Frekuensi Invois** : Ketujuh dan Hari Terakhir
+ - **Templat jam kerja** : Tukar ke templat yang anda cipta.
 
 13. Pilih **Simpan**. 
 

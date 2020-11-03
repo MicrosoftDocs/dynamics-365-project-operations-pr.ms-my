@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898632"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081086"
 ---
 # <a name="manage-leads"></a>Urus bakal pelanggan
 
@@ -23,7 +23,7 @@ Bakal pelanggan berasaskan projek boleh diuruskan dan layak dalam Project Operat
 
 ## <a name="project-sales-leads"></a>Bakal pelanggan jualan projek
 
-Dalam bahagian **Jualan**, dalam anak tetingkap navigasi kiri, buka halaman senarai **Bakal Pelanggan** untuk melihat senarai semua rekod bakal pelanggan dalam sistem. Senarai bakal pelanggan ditunjukkan adalah berasaskan kerja dan jenis bakal pelanggan lain yang boleh dicipta jika anda juga mempunyai aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
+Dalam bahagian **Jualan** , dalam anak tetingkap navigasi kiri, buka halaman senarai **Bakal Pelanggan** untuk melihat senarai semua rekod bakal pelanggan dalam sistem. Senarai bakal pelanggan ditunjukkan adalah berasaskan kerja dan jenis bakal pelanggan lain yang boleh dicipta jika anda juga mempunyai aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
 
 Anda boleh mencipta pandangan ditapis untuk hanya melihat bakal pelanggan berasaskan projek dengan mencipta penapis pada nilai **Jenis**. Contohnya, anda boleh memilih untuk menunjukkan hanya bakal pelanggan berasaskan kerja.
 

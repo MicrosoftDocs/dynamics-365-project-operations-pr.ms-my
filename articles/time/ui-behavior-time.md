@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081163"
 ---
 # <a name="time-entry-ui-behavior"></a>Entri masa tingkah laku UI
 
@@ -39,8 +39,8 @@ Bahagian Tempoh menunjukkan hari minggu sebagai pengepala lajur. Bahagian ini me
 ## <a name="create-a-new-time-entry"></a>Cipta entri masa baharu
 
 1. Dalam grid entri masa, pilih **Baharu**. 
-2. Dalam kotak dialog **Cipta Pantas Entri Masa**, pilih tarikh entri masa.
-3. Masukkan data untuk **Projek**, **Tugas Projek**, **Peranan**, dan dimensi **Tempoh**. Maklumat ini sepatutnya ditambah dalam minit, jam, atau hari dengan menaip **h**, **m**, atau **d**, bersama dengan nombor. 
+2. Dalam kotak dialog **Cipta Pantas Entri Masa** , pilih tarikh entri masa.
+3. Masukkan data untuk **Projek** , **Tugas Projek** , **Peranan** , dan dimensi **Tempoh**. Maklumat ini sepatutnya ditambah dalam minit, jam, atau hari dengan menaip **h** , **m** , atau **d** , bersama dengan nombor. 
 4. Masukkan perihalan untuk entri dan sebarang komen yang boleh dikongsi secara luaran berkenaan entri masa. 
 
 Apabila anda menyimpan entri, nilai yang dimasukkan muncul dalam bahagian **Dimensi**. Maklumat yang dimasukkan dalam medan **Tempoh** muncul pada tarikh entri masa diciptakan.
@@ -57,7 +57,7 @@ Butiran daripada beberapa medan pada halaman entri masa, seperti **Perihalan** d
 Selepas baris telah dicipta, anda boleh pilih **Salin Baris** untuk menyalin keseluruhan baris ke baris baharu. Apabila baris disalin dengan cara ini, dimensi dan tempoh juga disalin. Anda juga boleh pilih **Edit Baris** untuk mengemas kini nilai dimensi dan tempoh dalam bahagian **Tempoh**.
 
 ## <a name="open-a-time-entry-behavior"></a>Buka tingkah laku entri masa
-Untuk menyokong entri yang optimum dan pantas dalam medan paling penting, grid entri masa mingguan menunjukkan subset dimensi yang dipilih dan tempoh masa. Untuk melihat semua butiran kemasukan satu masa, di bawah **Edit Entri**, pilih **Buka.**
+Untuk menyokong entri yang optimum dan pantas dalam medan paling penting, grid entri masa mingguan menunjukkan subset dimensi yang dipilih dan tempoh masa. Untuk melihat semua butiran kemasukan satu masa, di bawah **Edit Entri** , pilih **Buka.**
 
 ## <a name="submit-a-time-entry"></a>Serahkan entri masa
 Anda boleh menyerahkan entri masa tunggal atau kumpulan entri masa dengan memilih satu blok sel atau baris entri masa keseluruhan, dan kemudian memilih **Serahkan**. Penyertaan masa yang dihantar akan muncul sebagai entri yang menunggu kelulusan pada halaman **Kelulusan**. Selepas penyertaan masa berjaya diserahkan, ia tidak boleh diedit.
@@ -67,10 +67,10 @@ Anda boleh mengingati entri masa yang telah anda serahkan. Anda boleh mengingati
 
 ## <a name="time-entry-status"></a>Status entri masa
 
-- **Draf**: Entri masa baharu secara automatik ditugaskan status **Draf**. Hanya entri masa yang mempunyai status **Draf** boleh dipadamkan.
-- **Diserahkan**: Apabila entri masa diserahkan, status dikemas kini kepada **Diserahkan**. 
-- **Diluluskan**: Apabila entri masa yang diserahkan diluluskan, status dikemas kini kepada **Diluluskan**. 
-- **Dikembalikan**: Jika entri masa ditolak, status dikemas kini kepada **Dikembalikan**, dan entri menjadi tersedia untuk pembetulan dan diserahkan semula. 
+- **Draf** : Entri masa baharu secara automatik ditugaskan status **Draf**. Hanya entri masa yang mempunyai status **Draf** boleh dipadamkan.
+- **Diserahkan** : Apabila entri masa diserahkan, status dikemas kini kepada **Diserahkan**. 
+- **Diluluskan** : Apabila entri masa yang diserahkan diluluskan, status dikemas kini kepada **Diluluskan**. 
+- **Dikembalikan** : Jika entri masa ditolak, status dikemas kini kepada **Dikembalikan** , dan entri menjadi tersedia untuk pembetulan dan diserahkan semula. 
 
 ## <a name="view-rejection-comments"></a>Lihat komen penolakan
 Apabila entri masa telah ditolak oleh pelulus, pelulus mungkin menambah komen untuk membantu sumber memahami sebab kepada penolakan. Untuk melihat komen penolakan untuk kemasukan masa, pilih **Buka entri.** Komen penolakan akan ditunjukkan dalam garis masa. Pengguna boleh respons kepada komen penolakan sebelum mereka menyerahkan semula entri.
@@ -78,10 +78,10 @@ Apabila entri masa telah ditolak oleh pelulus, pelulus mungkin menambah komen un
 ## <a name="copy-week"></a>Salin minggu
 Selepas beberapa entri masa telah dicipta, pengguna boleh mencipta berbilang entri masa pada masa yang sama.
 
-1. Dalam borang **Entri Masa**, pilih **Salin Minggu** kepada cipta pukal entri masa tambahan. 
-2. Dalam kotak dialog **Salin**, dalam bahagian **Dari tempoh**, gunakan medan **Tarikh Mula** dan **Tarikh Akhir** untuk mentakrif julat tarikh untuk menyalin entri masa. 
+1. Dalam borang **Entri Masa** , pilih **Salin Minggu** kepada cipta pukal entri masa tambahan. 
+2. Dalam kotak dialog **Salin** , dalam bahagian **Dari tempoh** , gunakan medan **Tarikh Mula** dan **Tarikh Akhir** untuk mentakrif julat tarikh untuk menyalin entri masa. 
 3. Dalam bahagian **Ke Tempoh** dalam medan **Tarikh Mula** tentukan tarikh untuk mencipta entri masa. 
-4. Pilih **Salin**. Untuk tarikh yang ditentukan dalam **Pada tempoh**, salinan entri masa untuk hari dalam minggu yang berkaitan dalam **Dari tempoh** dicipta. Contohnya, entri masa hari Isnin dari minggu lepas disalin ke hari Isnin minggu yang ditentukan sebagai **Pada tempoh**.
+4. Pilih **Salin**. Untuk tarikh yang ditentukan dalam **Pada tempoh** , salinan entri masa untuk hari dalam minggu yang berkaitan dalam **Dari tempoh** dicipta. Contohnya, entri masa hari Isnin dari minggu lepas disalin ke hari Isnin minggu yang ditentukan sebagai **Pada tempoh**.
 
 ## <a name="import"></a>Import
 Proses asas yang sama digunakan untuk mengimport daripada tempahan, tugas dan pertukaran. Anda boleh tentukan julat tarikh bagi penempahan yang diimport daripada dan kemudian secara eksplisit memilih penempahan yang sepatutnya disalin ke dalam draf entiti masa. 

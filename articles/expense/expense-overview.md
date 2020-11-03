@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967377"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081108"
 ---
 # <a name="expense-home-page"></a>Halaman utama perbelanjaan
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations menyokong keupayaan untuk memproses perbelanjaan
 
 Dalam Project Operations, Terdapat dua model pelaksanaan yang disokong untuk Perbelanjaan: 
 
-- **Penuh**: Pelaksanaan penuh tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** atau **Project Operations untuk senario berasaskan pesanan pengeluaran**.
-- **Asas**: Pelaksanaan asas tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** dan **Pelaksanaan Lite – berurusan dengan penginvoisan proforma**.
+- **Penuh** : Pelaksanaan penuh tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** atau **Project Operations untuk senario berasaskan pesanan pengeluaran**.
+- **Asas** : Pelaksanaan asas tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** dan **Pelaksanaan Lite – berurusan dengan penginvoisan proforma**.
 
 ## <a name="full"></a>Penuh 
 Pelaksanaan Perbelanjaan Penuh menyediakan penguatkuasaan dasar yang lengkap yang termasuk keupayaan untuk mencipta dasar, seperti:

@@ -3,43 +3,43 @@ title: Import anggaran untuk projek pada baris sebut harga berasaskan projek
 description: Topik ini menyediakan maklumat tentang cara mengimport anggaran daripada projek kepada baris sebut harga.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908403"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081144"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Import anggaran untuk projek pada baris sebut harga berasaskan projek
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 
 Jika projek dicipta semasa peringkat prajualan, anda boleh memilih untuk mengimport anggaran kewangan daripada projek kepada baris sebut harga berasaskan projek.
 
 1. Pastikan baris sebut harga berasaskan projek mempunyai maklumat projek dalam medan **Project**.
-2. Pada tab **Butiran baris sebut harga**, pilih **Import daripada Anggaran Project**.
-3. Pada halaman dialog yang dibuka, pilih salah satu pilihan peringkasan berikut.
+2. Pada tab **Butiran baris sebut harga** , pilih **Import daripada Anggaran Project**.
+3. Pada halaman dialog yang terbuka, pilih salah satu pilihan perumusan berikut:
 
   - **Kelas transaksi**
   - **Kategori**
   - **Peranan** 
   - **Tugas projek**
 
-Berdasarkan pemilihan anda, anggaran daripada projek untuk semua kelas urus niaga termasuk pada baris sebut harga ini disalin. Untuk menyemak jenis kelas urus niaga yang disertakan, pilih tab **Umum** pada baris sebut harga berasaskan projek dan semak nilai untuk **Termasuk Masa**, **Termasuk Perbelanjaan** dan **Termasuk Yuran**.
+Berdasarkan pemilihan anda, anggaran daripada projek untuk semua kelas urus niaga termasuk pada baris sebut harga ini disalin. Untuk menyemak jenis kelas urus niaga yang disertakan, pilih tab **Umum** pada baris sebut harga berasaskan projek dan semak nilai untuk **Termasuk Masa** , **Termasuk Perbelanjaan** dan **Termasuk Yuran**.
 
-Apabila anda mengimport anggaran, sistem akan melalaikan penetapan harga berdasarkan senarai harga projek yang dilampirkan pada sebut harga dan jenis pengebilan yang ditetapkan pada baris sebut harga berasaskan projek. Jika peranan atau kategori ditetapkan pada baris sebut harga berasaskan projek sebagai tidak boleh dikenakan, baris anggaran yang diimport akan ditetapkan sebagai tidak boleh dikenakan cukai dan tidak akan menambah pada nilai baris sebut harga yang disebut harga.
+Apabila anda mengimport anggaran, sistem akan melalaikan penetapan harga berdasarkan senarai harga projek yang dilampirkan pada sebut harga dan jenis pengebilan yang disediakan pada baris sebut harga berasaskan projek. Jika peranan atau kategori ditetapkan pada baris sebut harga berasaskan projek sebagai tidak boleh dikenakan, baris anggaran yang diimport akan ditetapkan sebagai tidak boleh dikenakan cukai dan tidak akan menambah pada nilai baris sebut harga yang disebut harga.
 
 Apabila baris sebut harga mempunyai butiran baris, medan **Nilai Sebut Harga** dan **Anggaran Cukai** pada baris sebut harga diringkaskan dan tidak boleh diedit.
 
-Apabila pilihan berbilang peringkasan dipilih, peringkasan cuba untuk meringkaskan dengan semua pilihan yang dipilih. Ini bererti bahawa output baris sebut harga yang diimport akan menjadi lebih banyak jika anda memilih hanya satu pilihan peringkasan.
+Apabila berbilang pilihan perumusan dipilih, sistem akan cuba merumuskan mengikut semua pilihan yang dipilih. Hasilnya adalah bahawa output baris sebut harga yang diimport akan menjadi lebih banyak berbanding dengan jika anda memilih hanya satu pilihan perumusan.
 
-Contohnya, jika projek mempunyai baris anggaran berikut untuk perbelanjaan.
+Contohnya, sama ada projek mempunyai baris anggaran berikut untuk perbelanjaan.
 
 | Tugas | Kategori | Tarikh | Kuantiti | Harga unit | Amaun |
 | --- | --- | --- | --- | --- | --- |

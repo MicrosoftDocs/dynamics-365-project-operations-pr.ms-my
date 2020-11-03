@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081104"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Urus berbilang pelanggan pada baris sebut harga berasaskan projek
+
+_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 Baris sebut harga berasaskan projek menyokong senario yang setiap baris sebut harga mempunyai senarai pelanggan yang membayarnya. Senarai pelanggan pada baris sebut harga berasaskan projek boleh sama dengan senarai pelanggan pada sebut harga. Anda juga boleh mengubah senarai pelanggan yang akan berbeza. Untuk mewujudkan kontrak projek akhir apabila sebut harga projek dimenangi, senarai pelanggan pada baris sebut harga projek akan disalin ke baris kontrak berasaskan projek yang sepadan. Pelanggan pada sebut harga berasaskan projek disalin ke kontrak projek.
 
@@ -31,11 +33,11 @@ Jadual berikut menunjukkan medan pada rekod pelanggan baris sebut harga bagi bar
 
 | Medan | Lokasi | Description dan panduan | Kesan hiliran |
 | --- | --- | --- | --- |
-| **Akaun** | Grid boleh diedit pada tab **Sebut harga pelanggan**, borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Senarai semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Jika anda perlu mengemas kini medan, hapus dan cipta semula rekod. Jika anda merekod sebarang aktual, anda tidak boleh memadam rekod. | Apabila anda memilih akaun daripada senarai induk akaun untuk ditambah, pelanggan baris Sebut Harga juga ditambah sebagai pelanggan Sebut Harga. Pelanggan baris sebut harga disalin ke pelanggan baris kontrak projek apabila sebut harga dimenangi. |
-| **Peratusan Pecahan Pengebilan** | Grid boleh diedit pada tab **Sebut harga pelanggan**, borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Mewakili peratusan bagi setiap transaksi jualan tidak dibilkan yang akan diatribut dengan pelanggan baris sebut harga ini. | Disalin ke atas pelanggan baris kontrak projek. |
-| **Had yang tidak melebihi** | Grid boleh diedit pada tab **Sebut harga pelanggan**, borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Menunjukkan sama ada terdapat had atau atas yang dirunding ke jumlah keseluruhan yang akan diinvois kepada pelanggan ini untuk baris yang dipetik ini. | Disalin ke atas pelanggan baris kontrak projek apabila sebut harga dimenangi. |
-| **Syarikat pemilikan** | Grid boleh diedit pada tab **Pelanggan baris sebut harga**, borang utama dan borang cipta cepat untuk pelanggan baris sebut harga, | Entiti sah yang disediakan oleh pelanggan dalam modul **Pengurusan projek dan perakaunan**. Medan ini adalah baca sahaja dan ditetapkan kepada syarikat pemilikan sebut harga itu sendiri. Senarai pelanggan untuk ditambah dalam medan **Akaun** sudah ditapis ke senarai daripada syarikat pemilikan dalam modul Project Operations **Pengurusan projek dan perakaunan**. | Syarikat yang dimiliki menyamai konsep entiti undang-undang. Semua kos dan pendapatan yang terakru daripada projek ini diambil kira dalam Lejar Am syarikat pemilik. |
-| **adalah pembundaran** | Grid boleh diedit pada tab **Sebut harga pelanggan**, borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Menunjukkan sama ada pelanggan ini adalah pelanggan pembundaran lalai untuk baris sebut harga berasaskan projek ini. | Disalin ke atas pelanggan baris kontrak projek apabila sebut harga dimenangi. |
+| **Akaun** | Grid boleh diedit pada tab **Sebut harga pelanggan** , borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Senarai semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Jika anda perlu mengemas kini medan, hapus dan cipta semula rekod. Jika anda merekod sebarang aktual, anda tidak boleh memadam rekod. | Apabila anda memilih akaun daripada senarai induk akaun untuk ditambah, pelanggan baris Sebut Harga juga ditambah sebagai pelanggan Sebut Harga. Pelanggan baris sebut harga disalin ke pelanggan baris kontrak projek apabila sebut harga dimenangi. |
+| **Peratusan Pecahan Pengebilan** | Grid boleh diedit pada tab **Sebut harga pelanggan** , borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Mewakili peratusan bagi setiap transaksi jualan tidak dibilkan yang akan diatribut dengan pelanggan baris sebut harga ini. | Disalin ke atas pelanggan baris kontrak projek. |
+| **Had yang tidak melebihi** | Grid boleh diedit pada tab **Sebut harga pelanggan** , borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Menunjukkan sama ada terdapat had atau atas yang dirunding ke jumlah keseluruhan yang akan diinvois kepada pelanggan ini untuk baris yang dipetik ini. | Disalin ke atas pelanggan baris kontrak projek apabila sebut harga dimenangi. |
+| **Syarikat pemilikan** | Grid boleh diedit pada tab **Pelanggan baris sebut harga** , borang utama dan borang cipta cepat untuk pelanggan baris sebut harga, | Entiti sah yang disediakan oleh pelanggan dalam modul **Pengurusan projek dan perakaunan**. Medan ini adalah baca sahaja dan ditetapkan kepada syarikat pemilikan sebut harga itu sendiri. Senarai pelanggan untuk ditambah dalam medan **Akaun** sudah ditapis ke senarai daripada syarikat pemilikan dalam modul Project Operations **Pengurusan projek dan perakaunan**. | Syarikat yang dimiliki menyamai konsep entiti undang-undang. Semua kos dan pendapatan yang terakru daripada projek ini diambil kira dalam Lejar Am syarikat pemilik. |
+| **adalah pembundaran** | Grid boleh diedit pada tab **Sebut harga pelanggan** , borang utama dan borang cipta cepat untuk pelanggan baris sebut harga. | Menunjukkan sama ada pelanggan ini adalah pelanggan pembundaran lalai untuk baris sebut harga berasaskan projek ini. | Disalin ke atas pelanggan baris kontrak projek apabila sebut harga dimenangi. |
 
 ## <a name="edit-billing-split-percentages"></a>Edit peratusan pecahan pengebilan
 

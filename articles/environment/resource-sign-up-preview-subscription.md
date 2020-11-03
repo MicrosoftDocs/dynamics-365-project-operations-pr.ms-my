@@ -3,17 +3,17 @@ title: Daftar untuk langganan pratonton Operasi Projek untuk senario sumber/buka
 description: Topik ini memberikan maklumat mengenai cara untuk melanggan dan menggunakan Operasi Projek untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948992"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081114"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Daftar untuk langganan pratonton Operasi Projek untuk senario sumber/bukan stok
 
@@ -29,48 +29,53 @@ Topik ini menerangkan cara untuk melanggan tawaran pratonton/rakan kongsi dan me
 
 ## <a name="subscribe"></a>Melanggan
 
-Apabila [permintaan pratonton](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) anda diluluskan, anda akan menerima dua tawaran daripada Microsoft melalui e-mel. Tawaran ini membolehkan anda menggunakan Pratonton Project Operations:
+Apabila [permintaan pratonton](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) anda diluluskan, anda akan menerima tiga tawaran daripada Microsoft melalui e-mel. Tawaran ini membolehkan anda menggunakan Pratonton Project Operations:
 
-- Operasi Projek Dynamics 365 – Percubaan Pratonton
-- Percubaan Pratonton Dynamics 365 for Finance and Operations.
+- Operasi Projek Dynamics 365 (CRM) – Percubaan Pratonton
+- Operasi Projek Office 365- Percubaan Pratonton
+- Dynamics 365 Finance - Percubaan Pratonton
 
 > [!IMPORTANT]
 > Hanya satu orang, pentadbir penyewa, dalam organisasi perlu melaksanakan tugas ini. Jika anda bukan pelanggan kepada keluaran ini, tunggu sehingga organisasi anda didaftarkan dan anda menerima kelayakan pengguna anda.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Percubaan pratonton
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Operasi Projek Dynamics 365 (CRM) – Percubaan Pratonton 
 
-1. Tebus tawaran pertama, **Percubaan Operasi Projek Dynamics 365**, dengan URL yang diberikan dalam e-mel alu-aluan anda.
+Sebelum anda mulakan, pastikan anda dilog masuk ke pelayar dengan akaun kerja pengguna dalam penyewa yang anda mahu pratonton Operasi Projek.
 
-![Tawaran Pertama](./media/1FirstOffer.png)
+1. Tebus kod tawaran pertama, **Operasi Projek Dynamics 365(CRM)- Percubaan Pratonton** dengan menampal ke dalam URL pelayar.
 
-2. Sahkan bahawa anda log masuk sebagai pengguna yang tergolong dalam organisasi yang akan melanggan perkhidmatan tersebut.
-3. Teruskan dengan penebusan tawaran. 
-4. Pilih **Ya, tambahkan pada akaun saya**.
+![Tebus Tawaran](./media/16RedeemFirstOfferNew.png)
 
-![Tebus Tawaran](./media/2RedeemFirstOffer.png)
+2. Sahkan pesanan anda.
 
-![Sahkan Tawaran](./media/3ConfirmFirstOffer.png)
+![Sahkan pesanan](./media/17ConfirmOrderNew.png)
 
-![Tawaran Ditebus](./media/4OfferSuccessfulyRedeemed.png)
+Anda akan melihat tawaran pengesahan berjaya ditebus.
+
+![Pengesahan](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Operasi Projek Office 365- Percubaan Pratonton
+
+Ulangi langkah yang sama dengan kod tawaran pertama. Pastikan untuk menambah kod tawaran kedua menggunakan akaun pengguna yang sama yang digunakan dengan kod tawaran pertama.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Percubaan pratonton Dynamics 365 Finance
 
-Ulangi langkah yang sama dengan tawaran kedua daripada e-mel alu-aluan.
+Ulangi langkah yang sama dengan tawaran terakhir daripada e-mel alu-aluan.
 
-## <a name="assign-licenses"></a>Tugaskan Lesen
+## <a name="assign-licenses"></a>Tugaskan lesen
 
 > [!IMPORTANT]
-> Anda akan memerlukan akses pentadbiran ke portal Office 365 organisasi anda untuk melengkapkan langkah berikut.
+> Anda akan memerlukan akses pentadbiran ke portal organisasi Microsoft 365 anda untuk melengkapkan langkah berikut.
 
-1. Pergi ke [Pusat pentadbir Microsoft 365](https://portal.office.com/) untuk tugaskan lesen kepada pengguna anda.
+1. Pergi ke [pusat pentadbir Microsoft 365](https://portal.office.com/) untuk tugaskan lesen kepada pengguna anda.
 
-![Portal Pentadbir Pejabat](./media/5OfficeAdminPortal.png)
+![Laman utama pusat pentadbiran](./media/14AdminPortal.png)
 
-2. Pada halaman **Pengguna aktif**, pilih pengguna yang anda mahu peruntukkan lesen.
+2. Pada halaman **Pengguna aktif** , pilih pengguna yang anda mahu peruntukkan lesen.
 
-![Tugaskan Lesen](./media/6AssignLicenses.png)
+![Tugaskan Lesen](./media/15AssignLicenses.png)
 
-3. Sahkan bahawa lesen Operasi Projek telah dipilih dan pilih **Simpan perubahan**. 
+3. Sahkan bahawa lesen **Pratonton Dynamics 365 Project Operations (CRM)** dan **Office 365 Project Operations - Pratonton** telah dipilih dan pilih **Simpan perubahan**.
 
 > [!NOTE]
 > Tawaran percubaan kewangan tidak perlu ditugaskan kepada pengguna.
@@ -85,9 +90,9 @@ Untuk menyelesaikan tugas ini, ikuti langkah dalam topik, [Tambah langganan Azur
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Mengatur persekitaran demo kewangan dengan Operasi Projek untuk senario sumber/bukan stok
 
-Ikuti panduan dalam topik, [Peruntukan persekitaran baharu](resource-provision-new-environment.md) untuk melengkapkan pelaksanaan. Gunakan jenis pelaksanaan untuk pratonton [persekitaran demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment).
+Ikuti panduan dalam topik, [Peruntukan persekitaran baharu](resource-provision-new-environment.md) untuk melengkapkan pelaksanaan. Gunakan jenis pelaksanaan untuk pratonton [persekitaran demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Pasangkan data persediaan dan konfigurasi CDS
 
 Pasangkan data persediaan dan konfigurasi CD seperti yang diterangkan dalam topik, [Sediakan dan gunakan data konfigurasi dalam Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Lengkapkan langkah ini hanya selepas persekitaran demo Kewangan digunakan dan data demo dalam FO sudah bersedia.

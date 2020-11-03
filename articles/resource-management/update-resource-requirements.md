@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081081"
 ---
 # <a name="edit-a-resource-requirement"></a>Edit keperluan sumber
 
@@ -26,7 +26,7 @@ Selepas keperluan sumber ditakrifkan oleh tindakan **Jana Keperluan** dalam grid
 Sebagai Pengurus Projek, lengkapkan langkah berikut untuk mengedit keperluan sumber ahli pasukan.
 
 1. Pergi ke grid ahli pasukan, cari ahli pasukan dalam senarai, dan pilih pautan kepada keperluan sumber berkaitan.
-2. Pada borang **Butiran keperluan**, kemas kini atribut berikut jika perlu.
+2. Pada borang **Butiran keperluan** , kemas kini atribut berikut jika perlu.
 
 - Kemahiran
 - Peranan

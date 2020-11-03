@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081105"
 ---
 # <a name="copy-project-based-quotes"></a>Salin sebut harga berasaskan projek
 
@@ -21,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Anda dengan mudah boleh mencipta sebut harga Projek baharu dengan menyalin yang sedia ada. 
 
-- Untuk menyalin sebut harga Projek, pada halaman senarai **Sebut Harga Projek** atau halaman butiran **Sebut Harga Projek**, pilih sebut harga Projek yang anda mahu salin dan kemudian pilih **Salin**.
+- Untuk menyalin sebut harga Projek, pada halaman senarai **Sebut Harga Projek** atau halaman butiran **Sebut Harga Projek** , pilih sebut harga Projek yang anda mahu salin dan kemudian pilih **Salin**.
 
 Ini akan membuka halaman dialog yang anda boleh memasukkan parameter bagi salinan. Jadual berikut menyenaraikan medan yang disertakan dalam halaman dialog. Bergantung pada nilai yang anda pilih, proses penyalinan mungkin berubah.
 

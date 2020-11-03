@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896292"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081152"
 ---
 # <a name="project-quote-key-concepts"></a>Konsep utama sebut harga projek
 
@@ -78,7 +78,7 @@ Urus niaga berbilang pelanggan berlaku apabila terdapat lebih daripada satu pela
 
 ## <a name="invoice-schedules"></a>Jadual invois
 
-Jadual invois adalah khusus untuk setiap baris sebut harga dan juga pilihan. Jadual invois dicipta berdasarkan tarikh mula dan tamat tertentu dan kekerapan invois. Jadual invois digunakan dalam peringkat kontrak apabila proses ciptaan invois automatik dikonfigurasikan. Dalam peringkat sebut harga, jadual adalah pilihan. Apabila jadual invois dicipta dalam peringkat **Sebut Harga**, ia disalin kepada kontrak projek yang dicipta apabila sebut harga projek dimenangi.
+Jadual invois adalah khusus untuk setiap baris sebut harga dan juga pilihan. Jadual invois dicipta berdasarkan tarikh mula dan tamat tertentu dan kekerapan invois. Jadual invois digunakan dalam peringkat kontrak apabila proses ciptaan invois automatik dikonfigurasikan. Dalam peringkat sebut harga, jadual adalah pilihan. Apabila jadual invois dicipta dalam peringkat **Sebut Harga** , ia disalin kepada kontrak projek yang dicipta apabila sebut harga projek dimenangi.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Perubahan daripada sebut harga Dynamics 365 Sales:
 

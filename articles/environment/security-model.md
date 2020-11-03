@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896742"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081113"
 ---
 # <a name="security-model"></a>Model Keselamatan
 
@@ -36,10 +36,11 @@ Project Operations keupayaan bahagian depan termasuk peranan berikut:
 
 
 Microsoft Project untuk Web termasuk peranan berikut:
-| Peranan                          | Penerangan                                                                                                           | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Pengguna projek | Pengguna kerjasama projek yang mampu mencipta projek mereka sendiri dan melihat sebarang projek yang dikongsi dengan mereka.| Pengguna|
-| Sistem projek | Peranan yang digunakan untuk konteks aplikasi. Pelanggan tidak sepatutnya menggunakan peranan sistem ini. | Global|
+
+| Peranan           | Penerangan                                                                                                         | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Pengguna projek   | Kerjasama pengguna Projek yang mampu mencipta projek mereka sendiri dan pandangan sebarang projek yang dikongsi dengan mereka. | Pengguna   |
+| Sistem projek | Peranan yang digunakan untuk konteks aplikasi. Pelanggan tidak sepatutnya menggunakan peranan sistem ini.                                    | Global |
 
 ## <a name="security-enforcement"></a>Penguatkuasaan keselamatan
 Tindakan yang dilakukan pada peringkat projek dilaksanakan dalam konteks pengguna log masuk. Ini bermaksud untuk mencipta, membuka, atau memadam projek, pengguna perlu mempunyai akses tersedia dalam CDS. Akses dalam CDS mungkin diberikan melalui sebarang mekanisma yang mungkin disertakan dalam platform. Contohnya, pengguna dengan skop yang lebih besar boleh mengakses projek atau jika tindakan perkongsian projek eksplisit telah dilaksanakan yang memberikan akses kepada pengguna.
@@ -55,7 +56,9 @@ Kumpulan membenarkan keizinan projek dan artifak kerjasama sokongan untuk dilaku
 
 Project Operations tidak mencipta kumpulan melalui tindakan tersirat dan hanya berbuat demikian melalui tindakan yang jelas dalam kumpulan yang mendesak.
 
-Ahli kumpulan carian dalam dialog **Pengurusan kumpulan**, adalah terhad kepada mereka yang ditetapkan sebagai sebahagian daripada kumpulan keselamatan persekitaran. Untuk mendapatkan maklumat lanjut, lihat [Kawal akses pengguna kepada persekitaran: kumpulan keselamatan dan lesen](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Ahli kumpulan carian dalam dialog **Pengurusan kumpulan** , adalah terhad kepada mereka yang ditetapkan sebagai sebahagian daripada kumpulan keselamatan persekitaran. Untuk mendapatkan maklumat lanjut, lihat [Kawal akses pengguna kepada persekitaran: kumpulan keselamatan dan lesen](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Mod kumpulan](./media/groupsmode.png)
 
 1. Projek dicipta dan dimiliki oleh Pengguna yang mencipta.
 2. Pemilik projek dikemas kini kepada pasukan.

@@ -3,23 +3,23 @@ title: Salin projek
 description: Topik ini memberikan maklumat tentang menyalin projek dalam Operasi Projek Dynamics 365.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908407"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081169"
 ---
 # <a name="copy-a-project"></a>Salin projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dengan operasi Projek Dynamics 365, anda boleh dengan cepat membina projek baru dengan menggunakan tindakan **Salin Projek** pada **Projek**. Untuk menyalin projek, pilih projek dan kemudian pilih **Salin**. Tindakan akan disalin:
+Dengan Dynamics 365 Project Operations, anda boleh membina projek baharu secara pantas dengan memilih **Salin Projek** pada borang **Projek**. Untuk menyalin projek, buka projek yang anda mahu salin dan kemudian pilih **Salin projek**. Tindakan akan disalin:
 
 - Sifat projek
 - Struktur pecahan kerja
@@ -58,4 +58,6 @@ Apabila pasukan projek disalin daripada projek sumber, sumber generik akan disal
 
 ## <a name="estimates"></a>Anggaran
 
-Apabila projek disalin, kedua-dua sumber dan anggaran had baris disalin daripada projek sumber.
+Apabila projek disalin, kedua-dua sumber dan anggaran had baris disalin daripada projek sumber. 
+
+Untuk maklumat tentang cara mengakses Salin Projek secara programatik, lihat [Membangun templat projek dengan Salin Projek](dev-copy-project.md).

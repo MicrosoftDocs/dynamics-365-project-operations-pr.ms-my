@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1b60ed9d15f51ff01f27bcc231f5db27513a838f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897462"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081170"
 ---
 # <a name="resource-reconciliation-overview"></a>Gambaran keseluruhan penyelarasan sumber
 
@@ -47,7 +46,7 @@ Dalam situasi tertentu, apabila anda melihat masa pada tahap lebih tingi daripad
 Apabila anda melihat masa pada tahap lebih tinggi, sel dalam tab **Penyelarasan** mempunyai penunjuk untuk memaklumkan anda terdapat perbezaan pada tahap lebih rendah. Dengan mengklik dua kali dalam sel, anda boleh zum dekat untuk melihat perbezaan. Anda kemudian boleh klik kanan untuk zum jauh. Dengan memilih sumber dan menggunakan kawalan **Perbezaan seterusnya** pada bar alat grid, anda boleh pergi ke perbezaan seterusnya antara tempahan dan tugasan untuk sumber tersebut. Anda kemudian boleh menggunakan kawalan **Perbezaan sebelumnya** untuk kembali. Anda juga boleh mematikan penunjuk perbezaan dan tingkah laku navigasi di bawah **Tetapan**.
 
 
-Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pada halaman **Projek**, pada tab **Penyelarasan**, pilih kekurangan tempahan dan kemudian pilih **Lanjutkan Tempahan**. Kotak dialog **Lanjutkan Tempahan** muncul dan menunjukkan tempahan yang diperlukan untuk menyelesaikan kekurangan sumber. Ia juga menunjukkan tempahan sedia ada sumber dalam semua projek atau entiti boleh dijadual lain. Jika anda pilih **OK** untuk mencipta tempahan untuk sumber, tanpa mengira ketersediaan sumber tersebut, anda mungkin menyebabkan tempahan berlebihan.
+Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pada halaman **Projek** , pada tab **Penyelarasan** , pilih kekurangan tempahan dan kemudian pilih **Lanjutkan Tempahan**. Kotak dialog **Lanjutkan Tempahan** muncul dan menunjukkan tempahan yang diperlukan untuk menyelesaikan kekurangan sumber. Ia juga menunjukkan tempahan sedia ada sumber dalam semua projek atau entiti boleh dijadual lain. Jika anda pilih **OK** untuk mencipta tempahan untuk sumber, tanpa mengira ketersediaan sumber tersebut, anda mungkin menyebabkan tempahan berlebihan.
 
 Pengurus projek atau pengurus sumber kemudian boleh menggunakan Papan Jadual untuk mengurus sebarang situasi di mana sumber ditempah berlebihan di luar kapasitinya.
 

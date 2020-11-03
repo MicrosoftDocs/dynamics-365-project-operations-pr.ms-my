@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081122"
 ---
 # <a name="submit-a-resource-request"></a>Serahkan permintaan sumber
 
@@ -21,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Anda boleh menyerahkan keperluan sumber yang dijana sebagai permintaan sumber. Permintaan kemudian dihantar kepada pengurus sumber untuk memenuhi keperluan.
 
-1. Dalam Dynamics 365 Project Operations, pada halaman **Projek**, pilih tab **Pasukan** untuk melihat senarai sumber boleh ditempah. 
+1. Dalam Dynamics 365 Project Operations, pada halaman **Projek** , pilih tab **Pasukan** untuk melihat senarai sumber boleh ditempah. 
 2. Pilih sumber generik yang mempunyai keperluan sumber daripada senarai, dan kemudian klik **Serahkan Permintaan**.
 
 Status permintaan ahli pasukan generik akan bertukar kepada **Diserahkan.**

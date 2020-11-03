@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906264"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081097"
 ---
 # <a name="travel-requisitions"></a>Permintaan perjalanan
 
@@ -31,9 +31,9 @@ Permintaan perjalanan boleh dikonfigurasikan sebagai "mandatori" dengan mendayak
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Cipta dan serahkan permintaan perjalanan
 
-1. Pergi ke **Perbelanjaan saya: Permintaan Perjalanan**, dan pilih **Permintaan perjalanan baharu**.
+1. Pergi ke **Perbelanjaan saya: Permintaan Perjalanan** , dan pilih **Permintaan perjalanan baharu**.
 2. Masukkan tujuan dan destinasi untuk permintaan.
-3. Dalam medan  **Perihalan perjalanan**, masukkan sebarang maklumat tambahan. 
+3. Dalam medan  **Perihalan perjalanan** , masukkan sebarang maklumat tambahan. 
 4. Untuk setiap perbelanjaan yang dijangka, seperti Penerbangan, hidangan atau sewaan kereta, cipta item baris perbelanjaan. Masukkan anggaran tarikh, jumlah anggaran, dan mata wang untuk setiap perbelanjaan. 
 5. Apabila anda telah selesai menambah anggaran perbelanjaan, pilih **Simpan**.
 6. Apabila anda bersedia untuk menyerahkan permintaan perjalanan, pilih **Aliran kerja** > **Serahkan**.

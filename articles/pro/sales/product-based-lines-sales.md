@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896247"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081154"
 ---
 # <a name="product-based-opportunity-lines"></a>Baris peluang berdasarkan produk
 
@@ -25,4 +25,4 @@ Baris berdasarkan produk boleh menjadi item katalog atau produk masukan manual. 
 
 Satu konsep tentang baris peluang berdasarkan produk yang khusus untuk peluang berdasarkan produk ialah **Belanjawan Pelanggan**. Gunakan medan ini untuk menjejaki amaun yang pelanggan sanggup bayar untuk item baris.
 
-Jika kaedah hasil bagi ringkasan Peluang ditetapkan kepada **Dikira Sistem**, nilai belanjawan pelanggan merentasi baris berdasarkan produk dan projek diringkaskan untuk mengira anggaran hasil.
+Jika kaedah hasil bagi ringkasan Peluang ditetapkan kepada **Dikira Sistem** , nilai belanjawan pelanggan merentasi baris berdasarkan produk dan projek diringkaskan untuk mengira anggaran hasil.

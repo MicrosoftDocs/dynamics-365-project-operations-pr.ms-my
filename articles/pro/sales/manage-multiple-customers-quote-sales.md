@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081128"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Mengurus berbilang pelanggan pada sebut harga projek (Jualan)
 
@@ -31,7 +31,7 @@ Pelanggan sebut harga dan pelanggan baris sebut harga boleh ditambah, dikemas ki
 
 Pelanggan yang disenaraikan pada tab ringkasan projek sebut harga sebagai pelanggan berpotensi adalah pelanggan utama sebut harga. Apabila anda cuba memadam pelanggan utama daripada senarai pelanggan pada sebut harga, anda akan melihat ralat yang rekod pelanggan utama pada sebut harga tidak boleh dipadamkan.
 
-Pelanggan utama tidak boleh dikemas kini daripada senarai pelanggan pada sebut harga. Walau bagaimanapun, anda boleh mempengaruhi pelanggan utama dengan mengubah pelanggan berpotensi pada tab **Ringkasan** sebut harga. Apabila medan ini dikemas kini pada tab **Ringkasan Sebut Harga**, pelanggan berpotensi yang terpilih ditambah sebagai pelanggan sebut harga baharu dengan set bendera **Utama**. Pelanggan berpotensi lama masih akan menjadi pelanggan pada sebut harga.
+Pelanggan utama tidak boleh dikemas kini daripada senarai pelanggan pada sebut harga. Walau bagaimanapun, anda boleh mempengaruhi pelanggan utama dengan mengubah pelanggan berpotensi pada tab **Ringkasan** sebut harga. Apabila medan ini dikemas kini pada tab **Ringkasan Sebut Harga** , pelanggan berpotensi yang terpilih ditambah sebagai pelanggan sebut harga baharu dengan set bendera **Utama**. Pelanggan berpotensi lama masih akan menjadi pelanggan pada sebut harga.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Cipta, Kemas kini atau Padam rekod pelanggan baris sebut harga
 

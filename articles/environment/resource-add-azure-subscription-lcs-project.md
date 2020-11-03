@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948991"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081099"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Tambah langganan Azure untuk projek LCS
 
@@ -23,11 +23,11 @@ Persekitaran berhos awan mesti dilaksanakan dengan menggunakan langganan Azure y
 
 ## <a name="grant-admin-consent"></a>Berikan persetujuan pentadbir
 
-1. Dalam projek LCS anda, dalam bahagian **persekitaran**, pilih tetapan **Microsoft Azure**.
+1. Dalam projek LCS anda, dalam bahagian **persekitaran** , pilih tetapan **Microsoft Azure**.
 
 ![Tetapan Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Pada halaman **tetapan projek**, pada tab **penyambung Azure**, pilih **Benarkan**. Ini membolehkan persekitaran digunakan untuk projek ini.
+2. Pada halaman **tetapan projek** , pada tab **penyambung Azure** , pilih **Benarkan**. Ini membolehkan persekitaran digunakan untuk projek ini.
 
 ![Penyambung Azure](./media/2AzureConnectors.png)
 
@@ -57,11 +57,11 @@ Pengesahan kini selesai.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Tambah penyambung langganan ke projek LCS
 
-1. Dalam projek LCS anda, pada halaman tetapan **Microsoft Azure**, pilih **Tambah** untuk menambah penyambung baharu.
+1. Dalam projek LCS anda, pada halaman tetapan **Microsoft Azure** , pilih **Tambah** untuk menambah penyambung baharu.
 2. Masukkan ID langganan Azure anda. Anda boleh mencari ID langganan Azure anda dalam [Portal Azure](https://ms.portal.azure.com/), di bawah  **Tetapan**  di sebelah kiri bawah skrin.
-3. Dalam **Konfigurasi untuk menggunakan medan Pengurus Sumber Azure**, pilih **Ya**.
+3. Dalam **Konfigurasi untuk menggunakan medan Pengurus Sumber Azure** , pilih **Ya**.
 4. Pastikan Langganan Azure AAD Domain Penyewa yang sepadan dengan domain-memiliki langganan Azure yang anda gunakan dan pilih **Seterusnya**.
-5. Pada skrin **Persediaan Microsoft Azure**, pilih **Seterusnya** untuk mengesahkannya. Jika anda menerima ralat pada skrin ini, kembali ke bahagian [Berikan akses kepada Perkhidmatan Pelaksanaan Dynamics kepada Langganan Azure](#provide) dalam topik ini dan pastikan anda telah melengkapkan semua langkah tersebut.
+5. Pada skrin **Persediaan Microsoft Azure** , pilih **Seterusnya** untuk mengesahkannya. Jika anda menerima ralat pada skrin ini, kembali ke bahagian [Berikan akses kepada Perkhidmatan Pelaksanaan Dynamics kepada Langganan Azure](#provide) dalam topik ini dan pastikan anda telah melengkapkan semua langkah tersebut.
 6. Muat turun Sijil Pengurusan Azure ke folder tempatan pada komputer anda dan kemudian muat naik fail tersebut ke Portal Pengurusan Azure dengan pergi ke **Tetapan** > **Sijil Pengurusan**. Sijil ini akan mendayakan LCS untuk berhubung dengan Azure bagi pihak anda. Anda boleh melangkau langkah ini jika pengguna anda mempunyai akses kepada langganan.
 7. Pilih  **Seterusnya**.
 8. Pilih rantau Azure untuk menggunakan dan pilih pusat data yang berdekatan dengan tempat anda merancang untuk menggunakan sistem ini.

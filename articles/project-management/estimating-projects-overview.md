@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968054"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081117"
 ---
 # <a name="estimate-projects-overview"></a>Anggarkan gambaran keseluruhan projek
 
@@ -71,11 +71,11 @@ Gunakan jadual berikut sebagai panduan untuk memahami logik perniagaan dalam fas
 Jika anda menambah medan tersuai pada butiran baris sebut harga dan mahu sistem memasukkan nilai medan sebagai nilai lalai pada baris kos berkaitan yang dicipta, gunakan alat pendaftaran pasang masuk **PreOperationContractLineDetailUpdate** dan **PreOperationQuoteLineDetailUpdate**. Pasang masuk ini mestilah didaftarkan selepas butiran baris sebut harga atau butiran baris kontrak diubah. Ikuti langkah-langkah ini untuk menyelesaikan proses.
 
 1. Buka Alat Pendaftaran Pasang Masuk, dan sambungkan ke tika dalam talian anda.
-2. Pilih **Cari**, dan cari pasang masuk untuk kemas kini.
+2. Pilih **Cari** , dan cari pasang masuk untuk kemas kini.
 3. Pilih pasang masuk dan kemudian pada halaman utama, klik **Pilih**.
 4. Pilih langkah pasang masuk untuk kemas kini, klik kanan, kemudian pilih **Kemas Kini**.
-5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada**, dalam medan **Menapis Atribut**, pilih butang elipsis (**...**):
-6. Dalam kotak dialog **Pilih Atribut**, pilih kotak semak untuk atribut tersuai.
+5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada** , dalam medan **Menapis Atribut** , pilih butang elipsis ( **...** ):
+6. Dalam kotak dialog **Pilih Atribut** , pilih kotak semak untuk atribut tersuai.
 7. Pilih **OK** untuk menutup kotak dialog, kemudian pilih **Kemas Kini Langkah**.
 8. Ulangan langkah 1 hingga 7 untuk pasang masuk kedua.
 9. Tutup **PluginRegistrationTool**.

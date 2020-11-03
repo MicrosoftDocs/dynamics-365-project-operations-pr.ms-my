@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908408"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081096"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Pemulihan VAT dalam Pengurusan perbelanjaan
 
@@ -21,7 +21,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Untuk menerima bayaran balik bagi transaksi cukai (VAT) nilai ditambah yang layak, syarikat atau organisasi mesti mengenal pasti, mengumpul, mengesahkan, dan menyerahkan maklumat yang tepat. Proses ini termasuk berbilang tugas dan, bergantung pada saiz syarikat anda, boleh termasuk beberapa pekerja atau peranan.
 
-Untuk memulihkan VAT dalam modul **Pengurusan perbelanjaan**, prasyarat berikut mesti dilengkapkan:
+Untuk memulihkan VAT dalam modul **Pengurusan perbelanjaan** , prasyarat berikut mesti dilengkapkan:
 
 - Kod cukai mesti dicipta untuk negara/rantau yang diperuntukkan kepada kategori perbelanjaan.
 - Kumpulan cukai jualan mesti dicipta untuk setiap kod cukai.
