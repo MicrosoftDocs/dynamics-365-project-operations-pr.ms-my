@@ -3,122 +3,91 @@ title: Daftar untuk langganan pratonton
 description: Topik ini memberikan maklumat mengenai cara untuk melanggan dan melaksanakan pelaksanaan lite Project Operations - berurusan dengan penginvoisan proforma.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081091"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Daftar untuk langganan pratonton untuk pelaksanaan Lite – urusan untuk penginvoisan proforma
+# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a><span data-ttu-id="074f1-103">Daftar untuk langganan pratonton untuk pelaksanaan Lite – urusan untuk penginvoisan proforma</span><span class="sxs-lookup"><span data-stu-id="074f1-103">Sign up for a preview subscription for lite deployment – deal to proforma invoicing</span></span>
 
-Topik ini menjelaskan cara untuk melanggan tawaran rakan kongsi pratonton dan melaksanakan pelaksanaan lite Dynamics 365 Project Operations - urusan untuk penginvoisan proforma.
-
-> [!NOTE]
-> Proses ini akan berubah dalam keluaran Project Operations yang akan datang.
-
-## <a name="prerequisites"></a>Prasyarat
-
-- Anda akan menerima e-mel yang menjemput anda menyertai pratonton. Anda boleh meminta pratonton pada [tapak web Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Pengguna yang menggunakan pratonton mesti mempunyai hak pentadbir global penyewa Azure.
-- Pengguna yang menggunakan pratonton akan memerlukan nombor telefon dan kad kredit yang sah. Semasa mendaftar, tiada caj dikenakan untuk kad selama enam bulan. Selepas enam bulan, anda perlu membatalkan langganan. 
-- Semak semua terma dan syarat.
-
-## <a name="subscribe"></a>Melanggan
-
-Apabila anda menerima kelulusan [permintaan pratonton](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), anda akan menerima dua tawaran daripada Microsoft melalui e-mel. Tawaran ini membolehkan anda menggunakan Pratonton Project Operations:
-
-- Percubaan pratonton Dynamics 365 Customer Service - kod penggunaan tunggal
-- Dynamics 365 Project Operations – percubaan pratonton
-
-### <a name="dynamics-365-customer-service-paid-offer"></a>Tawaran berbayar Dynamics 365 Customer Service
-
-1. Menggunakan tetingkap pelayar InPrivate/Inkognito, tebus kod tawaran pertama untuk Dynamics 365 Customer Service. Untuk mendaftar untuk Customer Service, anda akan memerlukan:
-
-- Nombor telefon
-- Kad kredit. Apabila mendaftar, tiada caj dikenakan untuk kad selama enam bulan. Selepas enam bulan, anda perlu membatalkan langganan.
-- Semak semua terma dan syarat.
-
-2. Berikan maklumat hubungan anda.
-
-![Maklumat Kenalan](./media/1ContactInformation.png)
-
-3. Berikan butiran penyewa baharu.
-
-![Cipta ID Pengguna](./media/2CreateUserID.png)
-
-4. Sahkan identiti anda, simpan ID pengguna baharu anda dan kemudian pilih **Sediakan**.
-
-![Simpan Maklumat](./media/3SaveInfo.png)
-
-5. Lengkapkan pendaftaran kad kredit dan semak semua terma dan syarat. 
-
-![Lengkapkan Kad Kredit](./media/4CompleteCreditCard.png)
-
-![Daftar Keluar Kad Kredit](./media/5CreditCardCheckout.png)
-
-![Simpan Pesanan](./media/6SaveOrder.png)
-
-![Maklumat kad kredit](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Batalkan tawaran perusahaan Dynamics 365 Customer Service
-
-Tawaran Perusahaan Dynamics 365 Customer Service disediakan secara percuma selama enam bulan. Tawaran ini akan diperbaharui pada kadar penuh pada akhir tempoh enam bulan. Untuk membatalkan sebelum tarikh pembaharuan, lengkapkan arahan berikut. 
+<span data-ttu-id="074f1-104">Topik ini menjelaskan cara untuk melanggan tawaran rakan kongsi pratonton dan melaksanakan pelaksanaan lite Dynamics 365 Project Operations - urusan untuk penginvoisan proforma.</span><span class="sxs-lookup"><span data-stu-id="074f1-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> Selepas anda melengkapkan langkah ini, anda tidak akan lagi dapat menggunakan persekitaran pratonton awam Project Operations.
+> <span data-ttu-id="074f1-105">Proses ini akan berubah dalam keluaran Project Operations yang akan datang.</span><span class="sxs-lookup"><span data-stu-id="074f1-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-1. Pergi ke [Portal pentadbir](https://admin.microsoft.com/) dan di bawah **Pengebilan**, pilih **Produk Anda**.
+## <a name="prerequisites"></a><span data-ttu-id="074f1-106">Prasyarat</span><span class="sxs-lookup"><span data-stu-id="074f1-106">Prerequisites</span></span>
 
-![Portal Pentadbir, Halaman produk anda](./media/8AdminPortal.png)
+- <span data-ttu-id="074f1-107">Anda akan menerima e-mel yang menjemput anda menyertai pratonton.</span><span class="sxs-lookup"><span data-stu-id="074f1-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="074f1-108">Anda boleh meminta pratonton pada [tapak web Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="074f1-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
+- <span data-ttu-id="074f1-109">Pengguna yang menggunakan pratonton mesti mempunyai hak pentadbir global penyewa Azure.</span><span class="sxs-lookup"><span data-stu-id="074f1-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
+- <span data-ttu-id="074f1-110">Semak semua terma dan syarat.</span><span class="sxs-lookup"><span data-stu-id="074f1-110">Review all terms and conditions.</span></span>
 
-2. Pilih **Tawaran Perusahaan Dynamics 365 Customer Service**.
+## <a name="subscribe"></a><span data-ttu-id="074f1-111">Melanggan</span><span class="sxs-lookup"><span data-stu-id="074f1-111">Subscribe</span></span>
 
-![Batalkan Langganan](./media/9CancelSubscription.png)
+<span data-ttu-id="074f1-112">Apabila anda menerima kelulusan [permintaan pratonton](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), anda akan menerima dua tawaran daripada Microsoft melalui e-mel.</span><span class="sxs-lookup"><span data-stu-id="074f1-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="074f1-113">Tawaran ini membolehkan anda menggunakan Pratonton Project Operations:</span><span class="sxs-lookup"><span data-stu-id="074f1-113">These offers allow you to deploy the Project Operations Preview:</span></span>
 
-3. Pilih **Tetapan** > **Tindakan** > **Batalkan Langganan**.
-4. Pada borang **Pembatalan langganan**, masukkan maklumat dalam medan yang diperlukan.
-5. Pilih **Batalkan** > **Langganan.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Percubaan pratonton
-
-1. Tebus tawaran kedua, Percubaan Dynamics 365 Project Operations dengan URL yang diberikan dalam e-mel alu-aluan anda.
-
-![Tebus Tawaran 2](./media/10RedeemOffer2.png)
-
-2. Sahkan bahawa anda telah log masuk sebagai pengguna yang tergolong dalam organisasi yang sama yang dilanggan menggunakan kod tawaran pertama dan teruskan penebusan tawaran. 
-3. Pilih **Ya, tambahkan pada akaun saya**.
-
-![Tambah pada Akaun](./media/11AddToAccount.png)
-
-![Cuba Skrin Sekarang](./media/12TryNow.png)
-
-![Butiran pesanan](./media/13Confirmation.png)
-
-## <a name="assign-licenses"></a>Tugaskan lesen
+- <span data-ttu-id="074f1-114">Operasi Projek Dynamics 365 (CRM) – Percubaan Pratonton</span><span class="sxs-lookup"><span data-stu-id="074f1-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
+- <span data-ttu-id="074f1-115">Operasi Projek Office 365- Percubaan Pratonton</span><span class="sxs-lookup"><span data-stu-id="074f1-115">Office 365 Project Operations - Preview Trial</span></span>
 
 > [!IMPORTANT]
-> Anda akan memerlukan akses pentadbiran ke portal Office 365 organisasi anda untuk melengkapkan langkah berikut.
+> <span data-ttu-id="074f1-116">Hanya satu orang, pentadbir penyewa, dalam organisasi perlu melaksanakan tugas ini.</span><span class="sxs-lookup"><span data-stu-id="074f1-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="074f1-117">Jika anda bukan pelanggan kepada keluaran ini, tunggu sehingga organisasi anda didaftarkan dan anda menerima kelayakan pengguna anda.</span><span class="sxs-lookup"><span data-stu-id="074f1-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
 
-1. Pergi ke [pusat pentadbir Microsoft 365](https://portal.office.com/) untuk tugaskan lesen kepada pengguna anda.
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="074f1-118">Operasi Projek Dynamics 365 (CRM) – Percubaan Pratonton</span><span class="sxs-lookup"><span data-stu-id="074f1-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+
+<span data-ttu-id="074f1-119">Sebelum anda mulakan, pastikan anda dilog masuk ke pelayar dengan akaun kerja pengguna dalam penyewa yang anda mahu pratonton Operasi Projek.</span><span class="sxs-lookup"><span data-stu-id="074f1-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+
+1. <span data-ttu-id="074f1-120">Tebus kod tawaran pertama, **Operasi Projek Dynamics 365(CRM)- Percubaan Pratonton** dengan menampal ke dalam URL pelayar.</span><span class="sxs-lookup"><span data-stu-id="074f1-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+
+![Tebus Tawaran](./media/16RedeemFirstOfferNew.png)
+
+2. <span data-ttu-id="074f1-122">Sahkan pesanan anda.</span><span class="sxs-lookup"><span data-stu-id="074f1-122">Confirm your order.</span></span>
+<span data-ttu-id="074f1-123">![Sahkan pesanan](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="074f1-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
+
+<span data-ttu-id="074f1-124">Anda akan melihat tawaran pengesahan berjaya ditebus.</span><span class="sxs-lookup"><span data-stu-id="074f1-124">You'll see confirmation offer was successfully redeemed.</span></span>
+
+![Pengesahan](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="074f1-126">Operasi Projek Office 365- Percubaan Pratonton</span><span class="sxs-lookup"><span data-stu-id="074f1-126">Office 365 Project Operations - Preview Trial</span></span>
+
+<span data-ttu-id="074f1-127">Ulangi langkah yang sama dengan kod tawaran pertama.</span><span class="sxs-lookup"><span data-stu-id="074f1-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="074f1-128">Pastikan untuk menambah kod tawaran kedua menggunakan akaun pengguna yang sama yang digunakan dengan kod tawaran pertama.</span><span class="sxs-lookup"><span data-stu-id="074f1-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
+
+## <a name="assign-licenses"></a><span data-ttu-id="074f1-129">Tugaskan lesen</span><span class="sxs-lookup"><span data-stu-id="074f1-129">Assign licenses</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="074f1-130">Anda akan memerlukan akses pentadbiran ke portal organisasi Microsoft 365 anda untuk melengkapkan langkah berikut.</span><span class="sxs-lookup"><span data-stu-id="074f1-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+
+
+1. <span data-ttu-id="074f1-131">Pergi ke [pusat pentadbir Microsoft 365](https://portal.office.com/) untuk tugaskan lesen kepada pengguna anda.</span><span class="sxs-lookup"><span data-stu-id="074f1-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
 
 ![Laman utama pusat pentadbiran](./media/14AdminPortal.png)
 
-2. Pada halaman **Pengguna aktif**, pilih pengguna yang anda mahu peruntukkan lesen.
+2. <span data-ttu-id="074f1-133">Pada halaman **Pengguna aktif** , pilih pengguna yang anda mahu peruntukkan lesen.</span><span class="sxs-lookup"><span data-stu-id="074f1-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
 
 ![Tugaskan Lesen](./media/15AssignLicenses.png)
 
-3. Sahkan bahawa **Perusahaan Customer Service** dan lesen **Project Operations** telah dipilih dan pilih **Simpan perubahan**.
+3. <span data-ttu-id="074f1-135">Sahkan bahawa lesen **Pratonton Operasi Projek Dynamics 365 (CRM)** dan lesen **Operasi Projek Office 365 - Pratonton** telah dipilih.</span><span class="sxs-lookup"><span data-stu-id="074f1-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
+4. <span data-ttu-id="074f1-136">Pilih **Simpan perubahan**.</span><span class="sxs-lookup"><span data-stu-id="074f1-136">Select **Save changes**.</span></span>
 
-## <a name="create-a-new-cds-environment"></a>Cipta persekitaran CDS
+## <a name="create-a-new-cds-environment"></a><span data-ttu-id="074f1-137">Cipta persekitaran CDS</span><span class="sxs-lookup"><span data-stu-id="074f1-137">Create a new CDS environment</span></span>
 
-Peruntukkan persekitaran pelaksanaan CDS Project Operations baharu dengan mengikuti arahan dalam topik, [model pelaksanaan CDS](lite-deployment.md).
+1. <span data-ttu-id="074f1-138">Peruntukkan persekitaran pelaksanaan CDS Project Operations baharu dengan mengikuti arahan dalam topik, [model pelaksanaan CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="074f1-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="074f1-139">Apabila anda memilih jenis persekitaran, pastikan untuk menggunakan **Percubaan (Berasaskan langganan)**.</span><span class="sxs-lookup"><span data-stu-id="074f1-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
+<span data-ttu-id="074f1-140">![Persekitaran baru](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="074f1-140">![New environment](./media/19CreateEnvironment.png)</span></span>
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Pasangkan konfigurasi CDS dan data demo persediaan
+2. <span data-ttu-id="074f1-141">Pilih **Dayakan tetapan Dynamics 365** , dan biarkan **Laksanakan secara automatik aplikasi ini** kosong.</span><span class="sxs-lookup"><span data-stu-id="074f1-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="074f1-142">Pilih **Simpan** untuk mencipta persekitaran.</span><span class="sxs-lookup"><span data-stu-id="074f1-142">Select **Save** to create the environment.</span></span>
 
-Pasang konfigurasi CDS dan sediakan data demo dengan mengikut arahan berikut dalam topik, [Gunakan persediaan demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
+![Tambah pangkalan data](./media/20CreateEnvironment1.png)
+
+4. <span data-ttu-id="074f1-144">Selepas persekitaran dicipta, pasang penyelesaian **Operasi Projek Microsoft Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="074f1-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+
+![Pasang Penyelesaian](./media/21InstallSolution.png)
+
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="074f1-146">Pasangkan konfigurasi CDS dan data demo persediaan</span><span class="sxs-lookup"><span data-stu-id="074f1-146">Install a CDS configuration and setup demo data</span></span>
+
+<span data-ttu-id="074f1-147">Pasang konfigurasi CDS dan sediakan data demo dengan mengikut arahan berikut dalam topik, [Gunakan persediaan demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="074f1-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>

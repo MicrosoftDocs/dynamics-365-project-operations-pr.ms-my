@@ -9,27 +9,27 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 17b377eab5bcbc1a2327cb3ff87cc75d8de40953
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906262"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081131"
 ---
-# <a name="costing-product-based-quote-lines"></a>Penetapan kos baris sebut harga berdasarkan produk
+# <a name="costing-product-based-quote-lines"></a><span data-ttu-id="73f27-103">Penetapan kos baris sebut harga berdasarkan produk</span><span class="sxs-lookup"><span data-stu-id="73f27-103">Costing product-based quote lines</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="73f27-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="73f27-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-Baris sebut harga berasaskan produk dalam Operasi Projek Dynamics 365 juga mempunyai medan **Harga Kos**. Medan ini digunakan untuk menjejaki harga kos untuk produk pada baris sebut harga dan untuk pengiraan keuntungan hiliran.
+<span data-ttu-id="73f27-105">Baris sebut harga berasaskan produk dalam Operasi Projek Dynamics 365 juga mempunyai medan **Harga Kos**.</span><span class="sxs-lookup"><span data-stu-id="73f27-105">Product-based quote lines in Dynamics 365 Project Operations also have a **Cost Price** field.</span></span> <span data-ttu-id="73f27-106">Medan ini digunakan untuk menjejaki harga kos untuk produk pada baris sebut harga dan untuk pengiraan keuntungan hiliran.</span><span class="sxs-lookup"><span data-stu-id="73f27-106">This field is used to track the cost price for the product on the quote line and for downstream profitability calculations.</span></span>
 
-Apabila baris sebut harga berdasarkan produk dicipta untuk produk katalog, kos baris sebut harga berdasarkan produk ditetapkan daripada medan **Kos Standard** dalam katalog produk. Medan kos standard dalam katalog produk ditetapkan dalam mata wang asas Organisasi. Kos unit lalai pada baris sebut harga berasaskan produk ditukar kepada mata wang jualan pada sebut harga.
+<span data-ttu-id="73f27-107">Apabila baris sebut harga berdasarkan produk dicipta untuk produk katalog, kos baris sebut harga berdasarkan produk ditetapkan daripada medan **Kos Standard** dalam katalog produk.</span><span class="sxs-lookup"><span data-stu-id="73f27-107">When a product-based quote line is created for a catalog product, the cost of the product-based quote line is defaulted from the **Standard Cost** field in the product catalog.</span></span> <span data-ttu-id="73f27-108">Medan kos standard dalam katalog produk ditetapkan dalam mata wang asas Organisasi.</span><span class="sxs-lookup"><span data-stu-id="73f27-108">The standard cost field in the product catalog is set up in the Organization's base currency.</span></span> <span data-ttu-id="73f27-109">Kos unit lalai pada baris sebut harga berasaskan produk ditukar kepada mata wang jualan pada sebut harga.</span><span class="sxs-lookup"><span data-stu-id="73f27-109">The default unit cost on the product-based quote line is converted to the sales currency on the quote.</span></span>
 
-## <a name="unit-cost-on-a-product-based-quote-line"></a>Kos unit pada barisan sebut harga berasaskan produk
+## <a name="unit-cost-on-a-product-based-quote-line"></a><span data-ttu-id="73f27-110">Kos unit pada barisan sebut harga berasaskan produk</span><span class="sxs-lookup"><span data-stu-id="73f27-110">Unit cost on a product-based quote line</span></span>
 
-Tujuan mempunyai kos unit pada baris sebut harga berasaskan produk ialah untuk membolehkan kos yang berbeza untuk produk untuk setiap jualan. Ini bukan senario biasa, tetapi kadangkala kos produk mungkin didiskaunkan oleh pembekal bergantung pada pelanggan jualan akhir.
+<span data-ttu-id="73f27-111">Tujuan mempunyai kos unit pada baris sebut harga berasaskan produk ialah untuk membolehkan kos yang berbeza untuk produk untuk setiap jualan.</span><span class="sxs-lookup"><span data-stu-id="73f27-111">The purpose of having a unit cost on a product-based quote line is to allow for different costs for a product for each sale.</span></span> <span data-ttu-id="73f27-112">Ini bukan senario biasa, tetapi kadangkala kos produk mungkin didiskaunkan oleh pembekal bergantung pada pelanggan jualan akhir.</span><span class="sxs-lookup"><span data-stu-id="73f27-112">This is not a typical scenario, but sometimes the cost of the product may be discounted by the supplier depending on the customer of the final sale.</span></span>
 
-Contohnya:
+<span data-ttu-id="73f27-113">Contohnya:</span><span class="sxs-lookup"><span data-stu-id="73f27-113">For example:</span></span>
 
-Fabrikam Robotics sedang memasang lengan robot pada barisan pemasangan Datum Corporation. Fabrikam menyediakan perkhidmatan pemasangan tetapi lengan robot diperolehi daripada Trey robotics. Jika pemasangan senjata robot di sebuah Datum Corporation membuka industri baru menegak untuk lengan robot Trey, Trey boleh memberikan diskaun khas untuk urusan ini ke Fabrikam.
+<span data-ttu-id="73f27-114">Fabrikam Robotics sedang memasang lengan robot pada barisan pemasangan Datum Corporation.</span><span class="sxs-lookup"><span data-stu-id="73f27-114">Fabrikam Robotics is installing robotic arms at A Datum Corporation's assembly lines.</span></span> <span data-ttu-id="73f27-115">Fabrikam menyediakan perkhidmatan pemasangan tetapi lengan robot diperolehi daripada Trey robotics.</span><span class="sxs-lookup"><span data-stu-id="73f27-115">Fabrikam provides installation services but the robotic arms are procured from Trey robotics.</span></span> <span data-ttu-id="73f27-116">Jika pemasangan senjata robot di sebuah Datum Corporation membuka industri baru menegak untuk lengan robot Trey, Trey boleh memberikan diskaun khas untuk urusan ini ke Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="73f27-116">If the installation of robotic arms at A Datum Corporation opens a new industry vertical for Trey's robotic arms, Trey could give a special discount for this deal to Fabrikam.</span></span>
 
-Dalam kes ini, Fabrikam akan mencipta talian sebut harga berdasarkan produk untuk Senjata Robot dan masukkan kos khas bagi setiap unit untuk sebut harga ini. Kos ini berbeza daripada kos Standard Lengan Robot Trey.
+<span data-ttu-id="73f27-117">Dalam kes ini, Fabrikam akan mencipta talian sebut harga berdasarkan produk untuk Senjata Robot dan masukkan kos khas bagi setiap unit untuk sebut harga ini.</span><span class="sxs-lookup"><span data-stu-id="73f27-117">In this case, Fabrikam will create product-based quote line for Robotic Arms and input a special per unit cost for this quote.</span></span> <span data-ttu-id="73f27-118">Kos ini berbeza daripada kos Standard Lengan Robot Trey.</span><span class="sxs-lookup"><span data-stu-id="73f27-118">This cost is different from the standard cost of Trey Robotic Arms.</span></span>

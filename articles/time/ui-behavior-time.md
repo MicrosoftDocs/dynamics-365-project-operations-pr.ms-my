@@ -9,79 +9,79 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081163"
 ---
-# <a name="time-entry-ui-behavior"></a>Entri masa tingkah laku UI
+# <a name="time-entry-ui-behavior"></a><span data-ttu-id="542a0-103">Entri masa tingkah laku UI</span><span class="sxs-lookup"><span data-stu-id="542a0-103">Time entry UI behavior</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="542a0-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="542a0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-Grid **Entri masa mingguan** adalah kawalan tersuai yang mempunyai dua bahagian utama, **Dimensi** dan **Tempoh**.
+<span data-ttu-id="542a0-105">Grid **Entri masa mingguan** adalah kawalan tersuai yang mempunyai dua bahagian utama, **Dimensi** dan **Tempoh**.</span><span class="sxs-lookup"><span data-stu-id="542a0-105">The **Weekly time entry** grid is a custom control that has two main sections, **Dimensions** and **Duration**.</span></span>
 
-## <a name="dimensions"></a>Dimensi
-Bahagian **Dimensi** menunjukkan dimensi yang boleh dimasuki masa. Dimensi berikut adalah disokong di luar kotak:
+## <a name="dimensions"></a><span data-ttu-id="542a0-106">Dimensi</span><span class="sxs-lookup"><span data-stu-id="542a0-106">Dimensions</span></span>
+<span data-ttu-id="542a0-107">Bahagian **Dimensi** menunjukkan dimensi yang boleh dimasuki masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-107">The **Dimensions** section shows the dimensions that time can be entered against.</span></span> <span data-ttu-id="542a0-108">Dimensi berikut adalah disokong di luar kotak:</span><span class="sxs-lookup"><span data-stu-id="542a0-108">The following dimensions are supported out-of-the-box:</span></span>
 
-  - Project
-  - Tugas Projek
-  - Peranan
-  - Jenis
-  - Status Entri
+  - <span data-ttu-id="542a0-109">Project</span><span class="sxs-lookup"><span data-stu-id="542a0-109">Project</span></span>
+  - <span data-ttu-id="542a0-110">Tugas Projek</span><span class="sxs-lookup"><span data-stu-id="542a0-110">Project Task</span></span>
+  - <span data-ttu-id="542a0-111">Peranan</span><span class="sxs-lookup"><span data-stu-id="542a0-111">Role</span></span>
+  - <span data-ttu-id="542a0-112">Jenis</span><span class="sxs-lookup"><span data-stu-id="542a0-112">Type</span></span>
+  - <span data-ttu-id="542a0-113">Status Entri</span><span class="sxs-lookup"><span data-stu-id="542a0-113">Entry Status</span></span>
 
-Bahagian **Dimensi** tidak membenarkan pengeditan sebaris. Bahagian ini disokong oleh pandangan yang mendayakan medan tersuai untuk ditambah ke grid kemasukan masa mingguan.
+<span data-ttu-id="542a0-114">Bahagian **Dimensi** tidak membenarkan pengeditan sebaris.</span><span class="sxs-lookup"><span data-stu-id="542a0-114">The **Dimensions** section doesn't allow inline editing.</span></span> <span data-ttu-id="542a0-115">Bahagian ini disokong oleh pandangan yang mendayakan medan tersuai untuk ditambah ke grid kemasukan masa mingguan.</span><span class="sxs-lookup"><span data-stu-id="542a0-115">This section is backed by a view that enables custom fields to be added to the weekly time entry grid.</span></span>
 
-## <a name="duration"></a>Tempoh
-Bahagian Tempoh menunjukkan hari minggu sebagai pengepala lajur. Bahagian ini membenarkan pengeditan sebaris. Selepas baris entri masa dicipta dengan dimensi yang sesuai, pengguna dengan pantasnya boleh memasukkan jumlah masa yang mereka belanjakan pada dimensi tersebut.
+## <a name="duration"></a><span data-ttu-id="542a0-116">Tempoh</span><span class="sxs-lookup"><span data-stu-id="542a0-116">Duration</span></span>
+<span data-ttu-id="542a0-117">Bahagian Tempoh menunjukkan hari minggu sebagai pengepala lajur.</span><span class="sxs-lookup"><span data-stu-id="542a0-117">The Duration section shows the days of the week as column headers.</span></span> <span data-ttu-id="542a0-118">Bahagian ini membenarkan pengeditan sebaris.</span><span class="sxs-lookup"><span data-stu-id="542a0-118">This section allows inline editing.</span></span> <span data-ttu-id="542a0-119">Selepas baris entri masa dicipta dengan dimensi yang sesuai, pengguna dengan pantasnya boleh memasukkan jumlah masa yang mereka belanjakan pada dimensi tersebut.</span><span class="sxs-lookup"><span data-stu-id="542a0-119">After a time entry row is created with the appropriate dimensions, users can quickly enter the amount of time that they spent on those dimensions.</span></span>
 
-## <a name="create-a-new-time-entry"></a>Cipta entri masa baharu
+## <a name="create-a-new-time-entry"></a><span data-ttu-id="542a0-120">Cipta entri masa baharu</span><span class="sxs-lookup"><span data-stu-id="542a0-120">Create a new time entry</span></span>
 
-1. Dalam grid entri masa, pilih **Baharu**. 
-2. Dalam kotak dialog **Cipta Pantas Entri Masa**, pilih tarikh entri masa.
-3. Masukkan data untuk **Projek**, **Tugas Projek**, **Peranan**, dan dimensi **Tempoh**. Maklumat ini sepatutnya ditambah dalam minit, jam, atau hari dengan menaip **h**, **m**, atau **d**, bersama dengan nombor. 
-4. Masukkan perihalan untuk entri dan sebarang komen yang boleh dikongsi secara luaran berkenaan entri masa. 
+1. <span data-ttu-id="542a0-121">Dalam grid entri masa, pilih **Baharu**.</span><span class="sxs-lookup"><span data-stu-id="542a0-121">In the time entry grid, select **New**.</span></span> 
+2. <span data-ttu-id="542a0-122">Dalam kotak dialog **Cipta Pantas Entri Masa** , pilih tarikh entri masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-122">In the **Time Entry Quick Create** dialog box, select the time entry date.</span></span>
+3. <span data-ttu-id="542a0-123">Masukkan data untuk **Projek** , **Tugas Projek** , **Peranan** , dan dimensi **Tempoh**.</span><span class="sxs-lookup"><span data-stu-id="542a0-123">Enter data for the **Project** , **Project Task** , **Role** , and **Duration** dimensions.</span></span> <span data-ttu-id="542a0-124">Maklumat ini sepatutnya ditambah dalam minit, jam, atau hari dengan menaip **h** , **m** , atau **d** , bersama dengan nombor.</span><span class="sxs-lookup"><span data-stu-id="542a0-124">This information should be added in minutes, hours, or days by typing **h** , **m** , or **d** , together with the number.</span></span> 
+4. <span data-ttu-id="542a0-125">Masukkan perihalan untuk entri dan sebarang komen yang boleh dikongsi secara luaran berkenaan entri masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-125">Enter a description for the entry and any comments that can be shared externally regarding time entry.</span></span> 
 
-Apabila anda menyimpan entri, nilai yang dimasukkan muncul dalam bahagian **Dimensi**. Maklumat yang dimasukkan dalam medan **Tempoh** muncul pada tarikh entri masa diciptakan.
+<span data-ttu-id="542a0-126">Apabila anda menyimpan entri, nilai yang dimasukkan muncul dalam bahagian **Dimensi**.</span><span class="sxs-lookup"><span data-stu-id="542a0-126">When you save the entry, the entered values appear in the **Dimensions** section.</span></span> <span data-ttu-id="542a0-127">Maklumat yang dimasukkan dalam medan **Tempoh** muncul pada tarikh entri masa diciptakan.</span><span class="sxs-lookup"><span data-stu-id="542a0-127">The information entered in the **Duration** field appears on the date that the time entry was created for.</span></span>
 
-Medan carian disokong oleh pandangan sistem. Sebagai contoh, selepas pengguna memasuki projek, medan **Tugas Projek** ditetapkan kepada pandangan **Salinan** secara lalai. Bagi mencipta entri masa untuk tugas yang tidak ditugaskan kepada pengguna, pilih **Ubah pandangan** pada kotak dialog carian dan kemudian pilih pandangan **Semua Tugas Projek Aktif**.
+<span data-ttu-id="542a0-128">Medan carian disokong oleh pandangan sistem.</span><span class="sxs-lookup"><span data-stu-id="542a0-128">Lookup fields are backed by system views.</span></span> <span data-ttu-id="542a0-129">Sebagai contoh, selepas pengguna memasuki projek, medan **Tugas Projek** ditetapkan kepada pandangan **Salinan** secara lalai.</span><span class="sxs-lookup"><span data-stu-id="542a0-129">For example, after a user enters a project, the **Project Task** field is set to the **Copy** view by default.</span></span> <span data-ttu-id="542a0-130">Bagi mencipta entri masa untuk tugas yang tidak ditugaskan kepada pengguna, pilih **Ubah pandangan** pada kotak dialog carian dan kemudian pilih pandangan **Semua Tugas Projek Aktif**.</span><span class="sxs-lookup"><span data-stu-id="542a0-130">To create time entries for tasks that aren't assigned to a user, select **Change View** in the lookup dialog box, and then select the **All Active Project Tasks** view.</span></span>
 
-## <a name="edit-a-time-entry"></a>Edit entri masa 
-Butiran daripada beberapa medan pada halaman entri masa, seperti **Perihalan** dan **Komen Luaran** tidak ditunjukkan dalam grid entri masa mingguan. Sebaliknya, penunjuk segi tiga yang kecil muncul dalam sel **Tempoh** yang mempunyai butiran tambahan ini. 
+## <a name="edit-a-time-entry"></a><span data-ttu-id="542a0-131">Edit entri masa</span><span class="sxs-lookup"><span data-stu-id="542a0-131">Edit a time entry</span></span> 
+<span data-ttu-id="542a0-132">Butiran daripada beberapa medan pada halaman entri masa, seperti **Perihalan** dan **Komen Luaran** tidak ditunjukkan dalam grid entri masa mingguan.</span><span class="sxs-lookup"><span data-stu-id="542a0-132">Details from some fields on the time entry page, such as **Description** and **External Comments** , aren't shown in the weekly time entry grid.</span></span> <span data-ttu-id="542a0-133">Sebaliknya, penunjuk segi tiga yang kecil muncul dalam sel **Tempoh** yang mempunyai butiran tambahan ini.</span><span class="sxs-lookup"><span data-stu-id="542a0-133">Instead, a small triangular indicator appears in the **Duration** cells that have these additional details.</span></span> 
 
-1. Untuk mengedit entri masa, pilih sel yang anda mahu kemas kini dalam entri masa.
-2. Pilih **Edit Butiran** untuk mengemas kini data dalam anak tetingkap **BorangUtama Entri Masa**. 
+1. <span data-ttu-id="542a0-134">Untuk mengedit entri masa, pilih sel yang anda mahu kemas kini dalam entri masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-134">To edit a time entry, select the cell you want to update in the time entry.</span></span>
+2. <span data-ttu-id="542a0-135">Pilih **Edit Butiran** untuk mengemas kini data dalam anak tetingkap **BorangUtama Entri Masa**.</span><span class="sxs-lookup"><span data-stu-id="542a0-135">Select **Edit Details** to update the data in the **Time Entry Mainform** pane.</span></span> 
 
-## <a name="copy-a-time-entry-row"></a>Salin baris entri masa
-Selepas baris telah dicipta, anda boleh pilih **Salin Baris** untuk menyalin keseluruhan baris ke baris baharu. Apabila baris disalin dengan cara ini, dimensi dan tempoh juga disalin. Anda juga boleh pilih **Edit Baris** untuk mengemas kini nilai dimensi dan tempoh dalam bahagian **Tempoh**.
+## <a name="copy-a-time-entry-row"></a><span data-ttu-id="542a0-136">Salin baris entri masa</span><span class="sxs-lookup"><span data-stu-id="542a0-136">Copy a time entry row</span></span>
+<span data-ttu-id="542a0-137">Selepas baris telah dicipta, anda boleh pilih **Salin Baris** untuk menyalin keseluruhan baris ke baris baharu.</span><span class="sxs-lookup"><span data-stu-id="542a0-137">After the row has been created, you can select **Copy Row** to copy the whole row to a new row.</span></span> <span data-ttu-id="542a0-138">Apabila baris disalin dengan cara ini, dimensi dan tempoh juga disalin.</span><span class="sxs-lookup"><span data-stu-id="542a0-138">When a row is copied in this way, dimensions and durations are also copied.</span></span> <span data-ttu-id="542a0-139">Anda juga boleh pilih **Edit Baris** untuk mengemas kini nilai dimensi dan tempoh dalam bahagian **Tempoh**.</span><span class="sxs-lookup"><span data-stu-id="542a0-139">You can also select **Edit Row** to update dimension values and durations in the **Duration** section.</span></span>
 
-## <a name="open-a-time-entry-behavior"></a>Buka tingkah laku entri masa
-Untuk menyokong entri yang optimum dan pantas dalam medan paling penting, grid entri masa mingguan menunjukkan subset dimensi yang dipilih dan tempoh masa. Untuk melihat semua butiran kemasukan satu masa, di bawah **Edit Entri**, pilih **Buka.**
+## <a name="open-a-time-entry-behavior"></a><span data-ttu-id="542a0-140">Buka tingkah laku entri masa</span><span class="sxs-lookup"><span data-stu-id="542a0-140">Open a time entry behavior</span></span>
+<span data-ttu-id="542a0-141">Untuk menyokong entri yang optimum dan pantas dalam medan paling penting, grid entri masa mingguan menunjukkan subset dimensi yang dipilih dan tempoh masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-141">To support optimal and quick entry in the most prominent fields, the weekly time entry grid shows a subset of selected dimensions and time durations.</span></span> <span data-ttu-id="542a0-142">Untuk melihat semua butiran kemasukan satu masa, di bawah **Edit Entri** , pilih **Buka.**</span><span class="sxs-lookup"><span data-stu-id="542a0-142">To view all the details of a single time entry, under **Edit Entry** , select **Open**.</span></span>
 
-## <a name="submit-a-time-entry"></a>Serahkan entri masa
-Anda boleh menyerahkan entri masa tunggal atau kumpulan entri masa dengan memilih satu blok sel atau baris entri masa keseluruhan, dan kemudian memilih **Serahkan**. Penyertaan masa yang dihantar akan muncul sebagai entri yang menunggu kelulusan pada halaman **Kelulusan**. Selepas penyertaan masa berjaya diserahkan, ia tidak boleh diedit.
+## <a name="submit-a-time-entry"></a><span data-ttu-id="542a0-143">Serahkan entri masa</span><span class="sxs-lookup"><span data-stu-id="542a0-143">Submit a time entry</span></span>
+<span data-ttu-id="542a0-144">Anda boleh menyerahkan entri masa tunggal atau kumpulan entri masa dengan memilih satu blok sel atau baris entri masa keseluruhan, dan kemudian memilih **Serahkan**.</span><span class="sxs-lookup"><span data-stu-id="542a0-144">You can submit a single time entry or a group of time entries by selecting a block of cells or a whole time entry row, and then selecting **Submit**.</span></span> <span data-ttu-id="542a0-145">Penyertaan masa yang dihantar akan muncul sebagai entri yang menunggu kelulusan pada halaman **Kelulusan**.</span><span class="sxs-lookup"><span data-stu-id="542a0-145">Submitted time entries appear as entries that are pending approval on the approvers' **Approval** page.</span></span> <span data-ttu-id="542a0-146">Selepas penyertaan masa berjaya diserahkan, ia tidak boleh diedit.</span><span class="sxs-lookup"><span data-stu-id="542a0-146">After time entries are successfully submitted, they can't be edited.</span></span>
 
-## <a name="recall-a-time-entry"></a>Tarik balik entri masa
-Anda boleh mengingati entri masa yang telah anda serahkan. Anda boleh mengingati kemasukan satu kali, blok baris masa atau keseluruhan entri masa. Entri masa yang ditarik balik boleh diedit.
+## <a name="recall-a-time-entry"></a><span data-ttu-id="542a0-147">Tarik balik entri masa</span><span class="sxs-lookup"><span data-stu-id="542a0-147">Recall a time entry</span></span>
+<span data-ttu-id="542a0-148">Anda boleh mengingati entri masa yang telah anda serahkan.</span><span class="sxs-lookup"><span data-stu-id="542a0-148">You can recall time entries that you've submitted.</span></span> <span data-ttu-id="542a0-149">Anda boleh mengingati kemasukan satu kali, blok baris masa atau keseluruhan entri masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-149">You can recall a single time entry, a block of time entries, or a whole row of time entries.</span></span> <span data-ttu-id="542a0-150">Entri masa yang ditarik balik boleh diedit.</span><span class="sxs-lookup"><span data-stu-id="542a0-150">Recalled time entries can be edited.</span></span>
 
-## <a name="time-entry-status"></a>Status entri masa
+## <a name="time-entry-status"></a><span data-ttu-id="542a0-151">Status entri masa</span><span class="sxs-lookup"><span data-stu-id="542a0-151">Time entry status</span></span>
 
-- **Draf**: Entri masa baharu secara automatik ditugaskan status **Draf**. Hanya entri masa yang mempunyai status **Draf** boleh dipadamkan.
-- **Diserahkan**: Apabila entri masa diserahkan, status dikemas kini kepada **Diserahkan**. 
-- **Diluluskan**: Apabila entri masa yang diserahkan diluluskan, status dikemas kini kepada **Diluluskan**. 
-- **Dikembalikan**: Jika entri masa ditolak, status dikemas kini kepada **Dikembalikan**, dan entri menjadi tersedia untuk pembetulan dan diserahkan semula. 
+- <span data-ttu-id="542a0-152">**Draf** : Entri masa baharu secara automatik ditugaskan status **Draf**.</span><span class="sxs-lookup"><span data-stu-id="542a0-152">**Draft** : New time entries are automatically assigned a status of **Draft**.</span></span> <span data-ttu-id="542a0-153">Hanya entri masa yang mempunyai status **Draf** boleh dipadamkan.</span><span class="sxs-lookup"><span data-stu-id="542a0-153">Only time entries that have a status of **Draft** can be deleted.</span></span>
+- <span data-ttu-id="542a0-154">**Diserahkan** : Apabila entri masa diserahkan, status dikemas kini kepada **Diserahkan**.</span><span class="sxs-lookup"><span data-stu-id="542a0-154">**Submitted** : When a time entry is submitted, the status is updated to **Submitted**.</span></span> 
+- <span data-ttu-id="542a0-155">**Diluluskan** : Apabila entri masa yang diserahkan diluluskan, status dikemas kini kepada **Diluluskan**.</span><span class="sxs-lookup"><span data-stu-id="542a0-155">**Approved** : When a submitted time entry is approved, the status is updated to **Approved**.</span></span> 
+- <span data-ttu-id="542a0-156">**Dikembalikan** : Jika entri masa ditolak, status dikemas kini kepada **Dikembalikan** , dan entri menjadi tersedia untuk pembetulan dan diserahkan semula.</span><span class="sxs-lookup"><span data-stu-id="542a0-156">**Returned** : If a time entry is rejected, the status is updated to **Returned** , and the entry becomes available for correction and resubmission.</span></span> 
 
-## <a name="view-rejection-comments"></a>Lihat komen penolakan
-Apabila entri masa telah ditolak oleh pelulus, pelulus mungkin menambah komen untuk membantu sumber memahami sebab kepada penolakan. Untuk melihat komen penolakan untuk kemasukan masa, pilih **Buka entri.** Komen penolakan akan ditunjukkan dalam garis masa. Pengguna boleh respons kepada komen penolakan sebelum mereka menyerahkan semula entri.
+## <a name="view-rejection-comments"></a><span data-ttu-id="542a0-157">Lihat komen penolakan</span><span class="sxs-lookup"><span data-stu-id="542a0-157">View rejection comments</span></span>
+<span data-ttu-id="542a0-158">Apabila entri masa telah ditolak oleh pelulus, pelulus mungkin menambah komen untuk membantu sumber memahami sebab kepada penolakan.</span><span class="sxs-lookup"><span data-stu-id="542a0-158">When a time entry is rejected by an approver, the approver might add comments to help the resource understand the reason for the rejection.</span></span> <span data-ttu-id="542a0-159">Untuk melihat komen penolakan untuk kemasukan masa, pilih **Buka entri.**</span><span class="sxs-lookup"><span data-stu-id="542a0-159">To view the rejection comments for a time entry, select **Open entry**.</span></span> <span data-ttu-id="542a0-160">Komen penolakan akan ditunjukkan dalam garis masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-160">The rejection comments will be shown in the timeline.</span></span> <span data-ttu-id="542a0-161">Pengguna boleh respons kepada komen penolakan sebelum mereka menyerahkan semula entri.</span><span class="sxs-lookup"><span data-stu-id="542a0-161">The user can respond to the rejection comments before they resubmit the entry.</span></span>
 
-## <a name="copy-week"></a>Salin minggu
-Selepas beberapa entri masa telah dicipta, pengguna boleh mencipta berbilang entri masa pada masa yang sama.
+## <a name="copy-week"></a><span data-ttu-id="542a0-162">Salin minggu</span><span class="sxs-lookup"><span data-stu-id="542a0-162">Copy week</span></span>
+<span data-ttu-id="542a0-163">Selepas beberapa entri masa telah dicipta, pengguna boleh mencipta berbilang entri masa pada masa yang sama.</span><span class="sxs-lookup"><span data-stu-id="542a0-163">After a few time entries have been created, users can create multiple time entries at the same time.</span></span>
 
-1. Dalam borang **Entri Masa**, pilih **Salin Minggu** kepada cipta pukal entri masa tambahan. 
-2. Dalam kotak dialog **Salin**, dalam bahagian **Dari tempoh**, gunakan medan **Tarikh Mula** dan **Tarikh Akhir** untuk mentakrif julat tarikh untuk menyalin entri masa. 
-3. Dalam bahagian **Ke Tempoh** dalam medan **Tarikh Mula** tentukan tarikh untuk mencipta entri masa. 
-4. Pilih **Salin**. Untuk tarikh yang ditentukan dalam **Pada tempoh**, salinan entri masa untuk hari dalam minggu yang berkaitan dalam **Dari tempoh** dicipta. Contohnya, entri masa hari Isnin dari minggu lepas disalin ke hari Isnin minggu yang ditentukan sebagai **Pada tempoh**.
+1. <span data-ttu-id="542a0-164">Dalam borang **Entri Masa** , pilih **Salin Minggu** kepada cipta pukal entri masa tambahan.</span><span class="sxs-lookup"><span data-stu-id="542a0-164">In the **Time Entries** form, select **Copy Week** to bulk-create additional time entries.</span></span> 
+2. <span data-ttu-id="542a0-165">Dalam kotak dialog **Salin** , dalam bahagian **Dari tempoh** , gunakan medan **Tarikh Mula** dan **Tarikh Akhir** untuk mentakrif julat tarikh untuk menyalin entri masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-165">In the **Copy** dialog box, in the **From period** section, use the **Start Date** and **End Date** fields to define the date range to copy time entries from.</span></span> 
+3. <span data-ttu-id="542a0-166">Dalam bahagian **Ke Tempoh** dalam medan **Tarikh Mula** tentukan tarikh untuk mencipta entri masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-166">In the **To Period** section, in the **Start Date** field, specify the date to create time entries for.</span></span> 
+4. <span data-ttu-id="542a0-167">Pilih **Salin**.</span><span class="sxs-lookup"><span data-stu-id="542a0-167">Select **Copy**.</span></span> <span data-ttu-id="542a0-168">Untuk tarikh yang ditentukan dalam **Pada tempoh** , salinan entri masa untuk hari dalam minggu yang berkaitan dalam **Dari tempoh** dicipta.</span><span class="sxs-lookup"><span data-stu-id="542a0-168">For the specified date in the **To period** , a copy of the time entries for the corresponding day of the week in the **From period** is created.</span></span> <span data-ttu-id="542a0-169">Contohnya, entri masa hari Isnin dari minggu lepas disalin ke hari Isnin minggu yang ditentukan sebagai **Pada tempoh**.</span><span class="sxs-lookup"><span data-stu-id="542a0-169">For example, Monday's time entry from last week is copied into Monday of the week that is specified as the **To period**.</span></span>
 
-## <a name="import"></a>Import
-Proses asas yang sama digunakan untuk mengimport daripada tempahan, tugas dan pertukaran. Anda boleh tentukan julat tarikh bagi penempahan yang diimport daripada dan kemudian secara eksplisit memilih penempahan yang sepatutnya disalin ke dalam draf entiti masa. 
+## <a name="import"></a><span data-ttu-id="542a0-170">Import</span><span class="sxs-lookup"><span data-stu-id="542a0-170">Import</span></span>
+<span data-ttu-id="542a0-171">Proses asas yang sama digunakan untuk mengimport daripada tempahan, tugas dan pertukaran.</span><span class="sxs-lookup"><span data-stu-id="542a0-171">The same basic process is used to import from bookings, assignments, and exchanges.</span></span> <span data-ttu-id="542a0-172">Anda boleh tentukan julat tarikh bagi penempahan yang diimport daripada dan kemudian secara eksplisit memilih penempahan yang sepatutnya disalin ke dalam draf entiti masa.</span><span class="sxs-lookup"><span data-stu-id="542a0-172">You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries.</span></span> 

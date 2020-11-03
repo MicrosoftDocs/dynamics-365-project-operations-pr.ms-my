@@ -3,139 +3,144 @@ title: Melanjutkan entri masa
 description: Topik ini memberikan maklumat mengenai cara pemaju dapat melanjutkan kawalan kemasukan masa.
 author: stsporen
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 93f411ad7c86beefcc35e7799a03987dacdcd62b
-ms.sourcegitcommit: 5a29adce48133e09f051929e8544d6c2c93c025d
+ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081127"
 ---
-# <a name="extending-time-entries"></a>Melanjutkan entri masa
+# <a name="extending-time-entries"></a><span data-ttu-id="0cf17-103">Melanjutkan entri masa</span><span class="sxs-lookup"><span data-stu-id="0cf17-103">Extending time entries</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="0cf17-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="0cf17-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Operasi Projek Dynamics 365 termasuk kawalan tersuai kemasukan masa yang boleh dipanjangkan. Kawalan ini termasuk ciri-ciri berikut:
+<span data-ttu-id="0cf17-105">Operasi Projek Dynamics 365 termasuk kawalan tersuai kemasukan masa yang boleh dipanjangkan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-105">Dynamics 365 Project Operations includes an extendable time entry custom control.</span></span> <span data-ttu-id="0cf17-106">Kawalan ini termasuk ciri-ciri berikut:</span><span class="sxs-lookup"><span data-stu-id="0cf17-106">This control includes the following features:</span></span>
 
-- Masukkan masa secara mendatar selama seminggu
-- Jumlah mengikut hari, baris atau minggu
-- Salin baris atau minggu
-- Masa penyertaan melalui HH:mm atau HH.hh (secara automatik memeluk HH.hh)
-- Import daripada tugasan, penempahan atau janji temu
+- <span data-ttu-id="0cf17-107">Masukkan masa secara mendatar selama seminggu</span><span class="sxs-lookup"><span data-stu-id="0cf17-107">Enter time horizontally over a week</span></span>
+- <span data-ttu-id="0cf17-108">Jumlah mengikut hari, baris atau minggu</span><span class="sxs-lookup"><span data-stu-id="0cf17-108">Totals by day, row, or week</span></span>
+- <span data-ttu-id="0cf17-109">Salin baris atau minggu</span><span class="sxs-lookup"><span data-stu-id="0cf17-109">Copy rows or weeks</span></span>
+- <span data-ttu-id="0cf17-110">Masa penyertaan melalui HH:mm atau HH.hh (secara automatik memeluk HH.hh)</span><span class="sxs-lookup"><span data-stu-id="0cf17-110">Time entry through HH:mm or HH.hh (automatically converts to HH.hh)</span></span>
+- <span data-ttu-id="0cf17-111">Import daripada tugasan, tempahan atau janji temu</span><span class="sxs-lookup"><span data-stu-id="0cf17-111">Import from assignments, bookings, or appointments</span></span>
 
-Memanjangkan penyertaan masa kini mungkin dalam dua bahagian:
-- [Tambah entri masa tersuai untuk kegunaan anda sendiri](#add)
-- [Sesuaikan grid Entri Masa mingguan](#customize)
+<span data-ttu-id="0cf17-112">Memanjangkan penyertaan masa kini mungkin dalam dua bahagian:</span><span class="sxs-lookup"><span data-stu-id="0cf17-112">Extending time entries is possible in two areas:</span></span>
+- [<span data-ttu-id="0cf17-113">Tambah entri masa tersuai untuk kegunaan anda sendiri</span><span class="sxs-lookup"><span data-stu-id="0cf17-113">Add custom time entries for your own use</span></span>](#add)
+- [<span data-ttu-id="0cf17-114">Sesuaikan grid Entri Masa mingguan</span><span class="sxs-lookup"><span data-stu-id="0cf17-114">Customize the weekly Time Entry control</span></span>](#customize)
 
-## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Tambah entri masa tersuai untuk kegunaan anda sendiri.
+## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a><span data-ttu-id="0cf17-115">Tambah entri masa tersuai untuk kegunaan anda sendiri</span><span class="sxs-lookup"><span data-stu-id="0cf17-115">Add custom time entries for your own use</span></span>
 
-Penyertaan masa ialah entiti teras yang direka untuk digunakan untuk berbilang senario. Dalam April Wave 1 2020, penyelesaian teras TESA telah diperkenalkan, yang menyediakan entiti **Tetapan** dan peranan keselamatan **Pengguna entri kali baharu**. Medan baharu, **msdyn_start** dan **msdyn_end** yang mempunyai hubungan langsung dengan **msdyn_duration** juga disertakan. Entiti, peranan keselamatan dan medan baharu membenarkan pendekatan yang lebih bersepadu untuk masa yang merentasi berbilang produk.
+<span data-ttu-id="0cf17-116">Entri masa ialah entiti teras yang digunakan dalam berbilang senario.</span><span class="sxs-lookup"><span data-stu-id="0cf17-116">Time entries are a core entity used in multiple scenarios.</span></span> <span data-ttu-id="0cf17-117">Dalam Gelombang April 1 2020, penyelesaian teras TESA telah diperkenalkan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-117">In April Wave 1 2020, the TESA core solution was introduced.</span></span> <span data-ttu-id="0cf17-118">TESA menyediakan entiti **Tetapan** dan peranan keselamatan **Pengguna Entri Masa** baharu.</span><span class="sxs-lookup"><span data-stu-id="0cf17-118">TESA provides a **Settings** entity and a new **Time Entry User** security role.</span></span> <span data-ttu-id="0cf17-119">Medan baharu, **msdyn_start** dan **msdyn_end** , yang mempunyai hubungan langsung dengan **msdyn_duration** juga disertakan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-119">The new fields, **msdyn_start** and **msdyn_end** , which have a direct relation to **msdyn_duration** , were also included.</span></span> <span data-ttu-id="0cf17-120">Entiti, peranan keselamatan dan medan baharu membenarkan pendekatan yang lebih bersepadu untuk masa yang merentasi berbilang produk.</span><span class="sxs-lookup"><span data-stu-id="0cf17-120">The new entity, security role, and fields allow for a more unified approach to time across multiple products.</span></span>
 
 
-### <a name="time-source-entity"></a>Entiti Sumber Masa
-| Medan | Penerangan  | 
+### <a name="time-source-entity"></a><span data-ttu-id="0cf17-121">Entiti sumber masa</span><span class="sxs-lookup"><span data-stu-id="0cf17-121">Time source entity</span></span>
+| <span data-ttu-id="0cf17-122">Medan</span><span class="sxs-lookup"><span data-stu-id="0cf17-122">Field</span></span> | <span data-ttu-id="0cf17-123">Penerangan</span><span class="sxs-lookup"><span data-stu-id="0cf17-123">Description</span></span> | 
 |-------|------------|
-| Nama  | Nama entri Sumber Masa yang digunakan sebagai nilai pemilihan semasa penciptaan entri masa. |
-| Sumber Masa Lalai [Sumber Masa: isdefault] | Secara lalai, hanya satu Sumber Masa mungkin ditandakan pada sumber masa lalai. Keupayaan ini membenarkan penyertaan untuk lalai kepada sumber masa jika seseorang tidak ditentukan. |
-|Jenis Sumber Masa [Sumber Masa: sourcetype] | Jenis sumber ialah pilihan (Jenis Sumber Entri Masa) yang membolehkan perkaitan sumber masa untuk aplikasi. Nilai tambahan akan ditambah ke set pilihan ini kerana aplikasi tambahan ditambah. Ambil perhatian bahawa Microsoft mempunyai nilai yang lebih besar daripada 190,000,000.|
+| <span data-ttu-id="0cf17-124">Nama</span><span class="sxs-lookup"><span data-stu-id="0cf17-124">Name</span></span>  | <span data-ttu-id="0cf17-125">Nama entri Sumber masa yang digunakan sebagai nilai pemilihan apabila mencipta entri masa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-125">The name of the Time source entry used as the selection value when creating time entries.</span></span> |
+| <span data-ttu-id="0cf17-126">Sumber Masa Lalai [Sumber Masa: isdefault]</span><span class="sxs-lookup"><span data-stu-id="0cf17-126">Default Time Source [Time Source: isdefault]</span></span> | <span data-ttu-id="0cf17-127">Secara lalai, hanya satu Sumber Masa boleh ditandakan pada lalai.</span><span class="sxs-lookup"><span data-stu-id="0cf17-127">By default, only one Time Source can be marked at the default.</span></span> <span data-ttu-id="0cf17-128">Ini membolehkan entri untuk lalai kepada sumber masa jika nilai tidak ditentukan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-128">This allows for entries to default to a time source if one isn't specified.</span></span> |
+|<span data-ttu-id="0cf17-129">Jenis Sumber Masa [Sumber Masa: sourcetype]</span><span class="sxs-lookup"><span data-stu-id="0cf17-129">Time Source Type [Time Source: sourcetype]</span></span> | <span data-ttu-id="0cf17-130">Jenis sumber ialah pilihan (Jenis Sumber Entri Masa) yang membolehkan perkaitan sumber masa untuk aplikasi.</span><span class="sxs-lookup"><span data-stu-id="0cf17-130">The source type is an option (Time Entry Source Type) that allows for the association of the time source to an app.</span></span> <span data-ttu-id="0cf17-131">Microsoft mempunyai nilai yang lebih besar daripada 190,000,000.</span><span class="sxs-lookup"><span data-stu-id="0cf17-131">Microsoft reserves values greater than 190,000,000.</span></span>|
 
 
-### <a name="time-entries-and-the-time-source-entity"></a>Entri masa dan Entiti Sumber Masa
-Setiap kali penyertaan adalah berkaitan dengan rekod sumber masa. Rekod ini menentukan cara dan aplikasi perlu memproses penyertaan masa.
+### <a name="time-entries-and-the-time-source-entity"></a><span data-ttu-id="0cf17-132">Entri masa dan Entiti sumber masa</span><span class="sxs-lookup"><span data-stu-id="0cf17-132">Time entries and the Time source entity</span></span>
+<span data-ttu-id="0cf17-133">Setiap kali penyertaan adalah berkaitan dengan rekod sumber masa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-133">Each time entry is associated to a time source record.</span></span> <span data-ttu-id="0cf17-134">Rekod ini menentukan cara dan aplikasi perlu memproses penyertaan masa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-134">This record determines how and which applications should process the time entry.</span></span>
 
-Penyertaan masa sentiasa satu blok masa bersama dengan permulaan, akhir, dan tempoh yang berkaitan.
+<span data-ttu-id="0cf17-135">Penyertaan masa sentiasa satu blok masa bersama dengan permulaan, akhir, dan tempoh yang berkaitan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-135">Time entries are always one contiguous block of time with the start, end, and duration linked.</span></span>
 
-Logik akan secara automatik mengemas kini rekod kemasukan dalam situasi berikut:
+<span data-ttu-id="0cf17-136">Logik akan secara automatik mengemas kini rekod kemasukan dalam situasi berikut:</span><span class="sxs-lookup"><span data-stu-id="0cf17-136">The logic will automatically update the time entry record in the following situations:</span></span>
 
-- Jika dua daripada tiga medan berikut disediakan, ketiga dikira secara automatik 
+- <span data-ttu-id="0cf17-137">Jika dua daripada tiga medan berikut disediakan, medan ketiga dikira secara automatik:</span><span class="sxs-lookup"><span data-stu-id="0cf17-137">If two of the three following fields are provided, the third is calculated automatically:</span></span> 
 
-    - **msdyn_start**
-    - **msdyn_end**
-    - **msdyn_duration**
+    - <span data-ttu-id="0cf17-138">**msdyn_start**</span><span class="sxs-lookup"><span data-stu-id="0cf17-138">**msdyn_start**</span></span>
+    - <span data-ttu-id="0cf17-139">**msdyn_end**</span><span class="sxs-lookup"><span data-stu-id="0cf17-139">**msdyn_end**</span></span>
+    - <span data-ttu-id="0cf17-140">**msdyn_duration**</span><span class="sxs-lookup"><span data-stu-id="0cf17-140">**msdyn_duration**</span></span>
 
-- Medan, **msdyn_start** dan **msdyn_end** adalah peka zon masa.
-- Entri masa dicipta dengan hanya **msdyn_date** dan **msdyn_duration** ditetapkan akan bermula pada waktu tengah malam dan **msdyn_start** dan **msdyn_end** akan dikemas kini dengan sewajarnya.
+- <span data-ttu-id="0cf17-141">Medan, **msdyn_start** dan **msdyn_end** adalah peka zon masa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-141">The fields, **msdyn_start** and **msdyn_end** are timezone aware.</span></span>
+- <span data-ttu-id="0cf17-142">Entri masa yang dicipta dengan hanya **msdyn_date** dan **msdyn_duration** ditetapkan akan bermula pada waktu tengah malam.</span><span class="sxs-lookup"><span data-stu-id="0cf17-142">Time entries created with only **msdyn_date** and **msdyn_duration** specified will start at midnight.</span></span> <span data-ttu-id="0cf17-143">Medan **msdyn_start** dan **msdyn_end** akan dikemas kini dengan sewajarnya.</span><span class="sxs-lookup"><span data-stu-id="0cf17-143">The **msdyn_start** and **msdyn_end** fields will update accordingly.</span></span>
 
-#### <a name="time-entry-types"></a>Jenis entri masa
+#### <a name="time-entry-types"></a><span data-ttu-id="0cf17-144">Jenis entri masa</span><span class="sxs-lookup"><span data-stu-id="0cf17-144">Time entry types</span></span>
 
-Rekod entri masa mempunyai jenis berkaitan yang mentakrifkan tingkah laku dalam aliran penyerahan untuk permohonan yang berkaitan.
+<span data-ttu-id="0cf17-145">Rekod entri masa mempunyai jenis berkaitan yang mentakrifkan tingkah laku dalam aliran penyerahan untuk permohonan yang berkaitan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-145">Time entry records have an associated type that defines the behavior in the submission flow for the associated application.</span></span>
 
-|Label | Nilai|
+|<span data-ttu-id="0cf17-146">Label</span><span class="sxs-lookup"><span data-stu-id="0cf17-146">Label</span></span> | <span data-ttu-id="0cf17-147">Nilai</span><span class="sxs-lookup"><span data-stu-id="0cf17-147">Value</span></span>|
 |-----|-----|
-|Sedang rehat   |192,355,000|
-|Pelancongan | 192,355,001|
-|Kerja Lebih Masa   | 192,354,320|
-|Kerja   | 192,350,000|
-|Ketidakhadiran    | 192,350,001|
-|Percutian   | 192,350,002|
+|<span data-ttu-id="0cf17-148">Sedang rehat</span><span class="sxs-lookup"><span data-stu-id="0cf17-148">On break</span></span>   |<span data-ttu-id="0cf17-149">192,355,000</span><span class="sxs-lookup"><span data-stu-id="0cf17-149">192,355,000</span></span>|
+|<span data-ttu-id="0cf17-150">Pelancongan</span><span class="sxs-lookup"><span data-stu-id="0cf17-150">Travel</span></span> | <span data-ttu-id="0cf17-151">192,355,001</span><span class="sxs-lookup"><span data-stu-id="0cf17-151">192,355,001</span></span>|
+|<span data-ttu-id="0cf17-152">Kerja Lebih Masa</span><span class="sxs-lookup"><span data-stu-id="0cf17-152">Overtime</span></span>   | <span data-ttu-id="0cf17-153">192,354,320</span><span class="sxs-lookup"><span data-stu-id="0cf17-153">192,354,320</span></span>|
+|<span data-ttu-id="0cf17-154">Kerja</span><span class="sxs-lookup"><span data-stu-id="0cf17-154">Work</span></span>   | <span data-ttu-id="0cf17-155">192,350,000</span><span class="sxs-lookup"><span data-stu-id="0cf17-155">192,350,000</span></span>|
+|<span data-ttu-id="0cf17-156">Ketidakhadiran</span><span class="sxs-lookup"><span data-stu-id="0cf17-156">Absence</span></span>    | <span data-ttu-id="0cf17-157">192,350,001</span><span class="sxs-lookup"><span data-stu-id="0cf17-157">192,350,001</span></span>|
+|<span data-ttu-id="0cf17-158">Percutian</span><span class="sxs-lookup"><span data-stu-id="0cf17-158">Vacation</span></span>   | <span data-ttu-id="0cf17-159">192,350,002</span><span class="sxs-lookup"><span data-stu-id="0cf17-159">192,350,002</span></span>|
 
 
 
-## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Sesuaikan kawalan Entri Masa mingguan
-Pembangun boleh menambah medan dan carian tambahan kepada entiti lain dan melaksanakan peraturan perniagaan tersuai untuk menyokong senario perniagaan mereka.
+## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a><span data-ttu-id="0cf17-160">Sesuaikan kawalan Entri masa mingguan</span><span class="sxs-lookup"><span data-stu-id="0cf17-160">Customize the weekly Time entry control</span></span>
+<span data-ttu-id="0cf17-161">Pembangun boleh menambah medan dan carian tambahan kepada entiti lain dan melaksanakan peraturan perniagaan tersuai untuk menyokong senario perniagaan mereka.</span><span class="sxs-lookup"><span data-stu-id="0cf17-161">Developers can add additional fields and lookups to other entities, and implement custom business rules to support their business scenarios.</span></span>
 
-### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Tambah medan tersuai dengan carian ke entiti lain
-Terdapat tiga langkah utama untuk menambah medan tersuai ke grid kemasukan masa mingguan.
+### <a name="add-custom-fields-with-lookups-to-other-entities"></a><span data-ttu-id="0cf17-162">Tambah medan tersuai dengan carian ke entiti lain</span><span class="sxs-lookup"><span data-stu-id="0cf17-162">Add custom fields with lookups to other entities</span></span>
+<span data-ttu-id="0cf17-163">Terdapat tiga langkah utama untuk menambah medan tersuai ke grid kemasukan masa mingguan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-163">There are three main steps to adding a custom field to the weekly time entry grid.</span></span>
 
-- Tambah medan tersuai ke kotak dialog cipta pantas.
-- Konfigurasikan grid untuk menunjukkan medan tersuai.
-- Tambah medan tersuai kepada sama ada baris edit aliran tugas atau sel edit aliran tugas.
+1. <span data-ttu-id="0cf17-164">Tambah medan tersuai ke kotak dialog cipta pantas.</span><span class="sxs-lookup"><span data-stu-id="0cf17-164">Add the custom field to the quick create dialog box.</span></span>
+2. <span data-ttu-id="0cf17-165">Konfigurasikan grid untuk menunjukkan medan tersuai.</span><span class="sxs-lookup"><span data-stu-id="0cf17-165">Configure the grid to show the custom field.</span></span>
+3. <span data-ttu-id="0cf17-166">Tambah medan tersuai pada baris edit aliran tugas atau sel edit aliran tugas.</span><span class="sxs-lookup"><span data-stu-id="0cf17-166">Add the custom field to the row edit task flow or the cell edit task flow.</span></span>
 
-Anda juga mesti memastikan bahawa medan baharu mempunyai pengesahan yang diperlukan dalam baris atau edit aliran tugas. Sebagai sebahagian daripada langkah ini anda mesti mengunci medan, berdasarkan status entri masa.
+<span data-ttu-id="0cf17-167">Pastikan bahawa medan baharu mempunyai pengesahan yang diperlukan dalam baris atau sel edit aliran tugas.</span><span class="sxs-lookup"><span data-stu-id="0cf17-167">Make sure that the new field has the required validations in the row or cell edit task flow.</span></span> <span data-ttu-id="0cf17-168">Sebagai sebahagian daripada langkah ini, kunci medan berdasarkan status entri masa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-168">As part of this step, lock the field based on the time entry status.</span></span>
 
-#### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Tambah medan tersuai ke kotak dialog cipta pantas
-Anda mesti menambah medan tersuai kepada kotak dialog **Cipta Pantas Entri Masa**. Pengguna kemudian boleh memasukkan nilai apabila mereka menambahkan penyertaan masa dengan memilih **Baharu**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a><span data-ttu-id="0cf17-169">Tambah medan tersuai ke kotak dialog cipta pantas</span><span class="sxs-lookup"><span data-stu-id="0cf17-169">Add the custom field to the quick create dialog box</span></span>
+<span data-ttu-id="0cf17-170">Tambah medan tersuai kepada kotak dialog **Cipta Cipta Pantas Entri Masa**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-170">Add the custom field to the **Create Time Entry Quick Create** dialog box.</span></span> <span data-ttu-id="0cf17-171">Kemudian, apabila entri masa ditambahkan, nilai boleh dimasukkan dengan memilih **Baharu**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-171">Then, when time entries are added, a value can be entered by selecting **New**.</span></span>
 
-#### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurasikan grid untuk menunjukkan medan tersuai
-Terdapat dua langkah utama untuk menambah medan tersuai ke grid kemasukan masa mingguan:
+### <a name="configure-the-grid-to-show-the-custom-field"></a><span data-ttu-id="0cf17-172">Konfigurasikan grid untuk menunjukkan medan tersuai</span><span class="sxs-lookup"><span data-stu-id="0cf17-172">Configure the grid to show the custom field</span></span>
+<span data-ttu-id="0cf17-173">Terdapat dua langkah utama untuk menambah medan tersuai ke grid kemasukan masa mingguan:</span><span class="sxs-lookup"><span data-stu-id="0cf17-173">There are two ways add a custom field to the weekly time entry grid:</span></span>
 
-  - Sesuaikan pandangan dan tambah medan tersuai
-  - Cipta entri masa tersuai lalai baharu 
+  - <span data-ttu-id="0cf17-174">Sesuaikan pandangan dan tambah medan tersuai</span><span class="sxs-lookup"><span data-stu-id="0cf17-174">Customize a view and add a custom field</span></span>
+  - <span data-ttu-id="0cf17-175">Cipta entri masa tersuai lalai baharu</span><span class="sxs-lookup"><span data-stu-id="0cf17-175">Create a new default custom time entry</span></span> 
 
 
-**Sesuaikan pandangan dan tambah medan tersuai**
+#### <a name="customize-a-view-and-add-a-custom-field"></a><span data-ttu-id="0cf17-176">Sesuaikan pandangan dan tambah medan tersuai</span><span class="sxs-lookup"><span data-stu-id="0cf17-176">Customize a view and add a custom field</span></span>
 
-Anda boleh menyesuaikan pandangan **Entri Masa Mingguan Saya** dan tambah medan tersuai kepadanya. Anda boleh memilih kedudukan dan saiz medan tersuai dalam grid dengan mengedit sifat tersebut dalam pandangan.
+<span data-ttu-id="0cf17-177">Sesuaikan pandangan **Entri Masa Mingguan Saya** dan tambah medan tersuai padanya.</span><span class="sxs-lookup"><span data-stu-id="0cf17-177">Customize the **My Weekly Time Entries** view and add the custom field to it.</span></span> <span data-ttu-id="0cf17-178">Anda boleh memilih kedudukan dan saiz medan tersuai dalam grid dengan mengedit sifat tersebut dalam pandangan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-178">You can choose the position and size of the custom field in the grid by editing the properties in the view.</span></span>
 
-**Cipta entri masa tersuai lalai baharu** 
+#### <a name="create-a-new-default-custom-time-entry"></a><span data-ttu-id="0cf17-179">Cipta entri masa tersuai lalai baharu</span><span class="sxs-lookup"><span data-stu-id="0cf17-179">Create a new default custom time entry</span></span>
 
-Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran**, sebagai tambahan kepada lajur yang anda mahu ada dalam grid. 
+<span data-ttu-id="0cf17-180">Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran** , sebagai tambahan kepada lajur yang anda mahu ada dalam grid.</span><span class="sxs-lookup"><span data-stu-id="0cf17-180">This view should contain the **Description** and **External Comments** fields, in addition to the columns that you want to have in the grid.</span></span> 
 
-1. Pilih kedudukan, saiz dan isih pesanan lalai grid dengan mengedit sifat tersebut dalam pandangan. 
-2. Konfigurasikan kawalan tersuai untuk pandangan ini supaya ia adalah kawalan **Grid Entri Masa**. 
-3. Tambah kawalan ini ke pandangan, dan pilih ia untuk web, telefon dan tablet. 
-4. Konfigurasikan parameter untuk grid entri masa mingguan. Tetapkan medan **Tarikh Mula** ke **msdyn_date**, tetapkan medan **Tempoh** untuk **msdyn_duration** dan tetapkan medan **Status** kepada **msdyn_entrystatus**. 
-5. Untuk pandangan lalai, medan **Senarai Status Baca Sahaja** ditetapkan kepada **192350002, 192350003, 192350004**, medan **Baris Edit Aliran Tugas** ditetapkan kepada **msdyn_timeentryrowedit** dan **Sel Edit Aliran Tugas** ditetapkan kepada **msdyn_timeentryedit.** 
-6. Anda boleh menyesuaikan medan ini untuk menambah atau mengeluarkan status baca sahaja atau untuk menggunakan pengalaman berasaskan tugas berbeza (TBX) untuk pengeditan baris atau sel. Medan ini sepatutnya terikat dengan nilai statik.
+1. <span data-ttu-id="0cf17-181">Pilih kedudukan, saiz dan isih pesanan lalai grid dengan mengedit sifat tersebut dalam pandangan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-181">Choose the position, size, and default sort order of the grid by editing those properties in the view.</span></span> 
+2. <span data-ttu-id="0cf17-182">Konfigurasikan kawalan tersuai untuk pandangan ini supaya ia adalah kawalan **Grid Entri Masa**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-182">Configure the custom control for this view so that it's a **Time Entry Grid** control.</span></span> 
+3. <span data-ttu-id="0cf17-183">Tambah kawalan ini ke pandangan, dan pilih ia untuk web, telefon dan tablet.</span><span class="sxs-lookup"><span data-stu-id="0cf17-183">Add this control to the view, and select it for web, phone, and tablet.</span></span> 
+4. <span data-ttu-id="0cf17-184">Konfigurasikan parameter untuk grid entri masa mingguan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-184">Configure the parameters for the weekly time entry grid.</span></span> 
+5. <span data-ttu-id="0cf17-185">Tetapkan medan **Tarikh Mula** ke **msdyn_date** , tetapkan medan **Tempoh** untuk **msdyn_duration** dan tetapkan medan **Status** kepada **msdyn_entrystatus**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-185">Set the **Start Date** field to **msdyn_date** , set the **Duration** field to **msdyn_duration** , and set the **Status** field to **msdyn_entrystatus**.</span></span> 
+6. <span data-ttu-id="0cf17-186">Untuk pandangan lalai, medan **Senarai Status Baca Sahaja** ditetapkan kepada **192350002,192350003,192350004**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-186">For the default view, the **Read-only Status List** field is set to **192350002,192350003,192350004**.</span></span> <span data-ttu-id="0cf17-187">Medan **Aliran Tugas Edit Baris** ditetapkan kepada **msdyn_timeentryrowedit**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-187">The **Row Edit Task Flow** field is set to **msdyn_timeentryrowedit**.</span></span> <span data-ttu-id="0cf17-188">Medan **Aliran Tugas Edit Sel** ditetapkan kepada **msdyn_timeentryedit**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-188">The **Cell Edit Task Flow** field is set to **msdyn_timeentryedit**.</span></span> 
+7. <span data-ttu-id="0cf17-189">Anda boleh menyesuaikan medan ini untuk menambah atau mengeluarkan status baca sahaja atau untuk menggunakan pengalaman berasaskan tugas berbeza (TBX) untuk pengeditan baris atau sel.</span><span class="sxs-lookup"><span data-stu-id="0cf17-189">You can customize these fields to add or remove read-only status, or to use a different task-based experience (TBX) for row or cell editing.</span></span> <span data-ttu-id="0cf17-190">Medan ini kini terikat dengan nilai statik.</span><span class="sxs-lookup"><span data-stu-id="0cf17-190">These fields are now bound to a static value.</span></span>
 
 
 > [!NOTE] 
-> Kedua-dua pilihan akan mengeluarkan beberapa penapisan keluar kotak **Projek** dan entiti **Tugas Projek** supaya semua pandangan carian untuk entiti akan boleh dilihat. Keluar dari kotak, hanya pandangan carian yang berkaitan boleh dilihat.
-Anda mesti menentukan aliran tugas yang sesuai untuk medan tersuai. Kemungkinan besar, jika anda menambah medan ke grid, ia perlu pergi dalam baris edit aliran tugas yang digunakan untuk medan yang diguna pakai pada seluruh baris entri masa. Jika medan tersuai mempunyai nilai unik setiap hari, seperti medan tersuai untuk **Masa akhir**, ia harus pergi dalam edit aliran tugas sel.
+> <span data-ttu-id="0cf17-191">Kedua-dua pilihan akan mengalih keluar beberapa penapisan siap guna pada entiti **Projek** dan **Tugas Projek** supaya semua pandangan carian untuk entiti tersebut akan boleh dilihat.</span><span class="sxs-lookup"><span data-stu-id="0cf17-191">Both options will remove some out-of-box filtering on the **Project** and **Project Task** entities so that all lookup views for the entities will be visible.</span></span> <span data-ttu-id="0cf17-192">Keluar dari kotak, hanya pandangan carian yang berkaitan boleh dilihat.</span><span class="sxs-lookup"><span data-stu-id="0cf17-192">Out-of-the-box, only the relevant lookup views are visible.</span></span>
 
-Untuk menambah medan tersuai kepada aliran tugas, seret elemen **Medan** ke kedudukan yang sesuai pada halaman dan kemudian tetapkan sifat medan. Tetapkan sifat **Sumber** ke **Entri Masa** dan set sifat **Medan Data** ke medan tersuai. Sifat **Medan** menentukan nama paparan pada halaman TBX. Pilih **Gunakan** untuk menyimpan perubahan anda pada medan dan kemudian pilih **Kemas kini** untuk menyimpan perubahan anda pada halaman.
+<span data-ttu-id="0cf17-193">Tentukan aliran tugas yang sesuai untuk medan tersuai.</span><span class="sxs-lookup"><span data-stu-id="0cf17-193">Determine the appropriate task flow for the custom field.</span></span> <span data-ttu-id="0cf17-194">Jika anda menambah medan kepada grid, ia perlu ditambah dalam aliran tugas edit baris yang digunakan untuk medan yang digunakan pada seluruh baris entri masa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-194">If you added the field to the grid, it should go in the row edit task flow that is used for fields that apply to the whole row of time entries.</span></span> <span data-ttu-id="0cf17-195">Jika medan tersuai mempunyai nilai unik setiap hari, seperti medan tersuai untuk **Masa akhir** , ia harus pergi dalam edit aliran tugas sel.</span><span class="sxs-lookup"><span data-stu-id="0cf17-195">If the custom field has a unique value every day, such as a custom field for **End time** , it should go in the cell edit task flow.</span></span>
 
-Untuk menggunakan halaman TBX tersuai baharu sebagai ganti, cipta proses baharu. Tetapkan kategori untuk **Aliran Proses Perniagaan**, tetapkan entiti ke **Entri Masa** dan tetapkan jenis proses perniagaan untuk **Menjalankan proses sebagai aliran tugas**. Di bawah **Sifat**, sifat **Nama halaman** patut ditetapkan ke nama paparan untuk halaman. Tambah semua medan yang berkaitan dengan halaman TBX. Simpan dan aktifkan proses, dan kemudian kemas kini sifat kawalan tersuai untuk aliran tugas yang relevan kepada nilai **Nama** pada proses.
+<span data-ttu-id="0cf17-196">Untuk menambah medan tersuai kepada aliran tugas, seret elemen **Medan** ke kedudukan yang sesuai pada halaman dan kemudian tetapkan sifat medan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-196">To add the custom field to a task flow, drag a **Field** element into the appropriate position on the page, and then set the field properties.</span></span> <span data-ttu-id="0cf17-197">Tetapkan sifat **Sumber** ke **Entri Masa** dan set sifat **Medan Data** ke medan tersuai.</span><span class="sxs-lookup"><span data-stu-id="0cf17-197">Set the **Source** property to **Time Entry** , and set the **Data Field** property to the custom field.</span></span> <span data-ttu-id="0cf17-198">Sifat **Medan** menentukan nama paparan pada halaman TBX.</span><span class="sxs-lookup"><span data-stu-id="0cf17-198">The **Field** property specifies the display name on the TBX page.</span></span> <span data-ttu-id="0cf17-199">Pilih **Gunakan** untuk menyimpan perubahan anda pada medan dan kemudian pilih **Kemas kini** untuk menyimpan perubahan anda pada halaman.</span><span class="sxs-lookup"><span data-stu-id="0cf17-199">Select **Apply** to save your changes to the field, and then select **Update** to save your changes to the page.</span></span>
 
-### <a name="add-new-option-set-values"></a>Tambah nilai set pilihan baharu
-Untuk menambah nilai set pilihan ke medan luar, buka halaman pengeditan untuk medan dan kemudian, di bawah **Jenis**, pilih **Edit** di sebelah set pilihan. Seterusnya, tambah pilihan baru yang mempunyai label tersuai dan warna. Jika anda mahu menambah status kemasukan masa baharu, medan di luar kotak dinamakan **Status Entri** bukan **Status**.
+<span data-ttu-id="0cf17-200">Untuk menggunakan halaman TBX tersuai baharu sebagai ganti, cipta proses baharu.</span><span class="sxs-lookup"><span data-stu-id="0cf17-200">To use a new custom TBX page instead, create a new process.</span></span> <span data-ttu-id="0cf17-201">Tetapkan kategori untuk **Aliran Proses Perniagaan** , tetapkan entiti ke **Entri Masa** dan tetapkan jenis proses perniagaan untuk **Menjalankan proses sebagai aliran tugas**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-201">Set the category to **Business Process Flow** , set the entity to **Time Entry** , and set the business process type to **Run process as a task flow**.</span></span> <span data-ttu-id="0cf17-202">Di bawah **Sifat** , sifat **Nama halaman** patut ditetapkan ke nama paparan untuk halaman.</span><span class="sxs-lookup"><span data-stu-id="0cf17-202">Under **Properties** , the **Page name** property should be set to the display name for the page.</span></span> <span data-ttu-id="0cf17-203">Tambah semua medan yang berkaitan dengan halaman TBX.</span><span class="sxs-lookup"><span data-stu-id="0cf17-203">Add all the relevant fields to the TBX page.</span></span> <span data-ttu-id="0cf17-204">Simpan dan aktifkan proses.</span><span class="sxs-lookup"><span data-stu-id="0cf17-204">Save and activate the process.</span></span> <span data-ttu-id="0cf17-205">Kemas kini sifat kawalan tersuai untuk aliran tugas yang relevan kepada nilai **Nama** pada proses.</span><span class="sxs-lookup"><span data-stu-id="0cf17-205">Update the custom control property for the relevant task flow to the value of **Name** on the process.</span></span>
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Tetapkan status kemasukan masa baharu sebagai baca sahaja
-Untuk memilih status entri masa baharu sebagai baca sahaja, tambah nilai masukan masa baharu ke sifat senarai **Senarai Status Baca Sahaja** sahaja. Bahagian yang boleh diedit bagi grid kemasukan masa akan dikunci untuk baris yang mempunyai status baharu.
-Seterusnya, tambah peraturan perniagaan untuk mengunci semua medan **Edit Baris Entri Masa** dan **Edit Entri Masa** halaman TBX. Anda boleh mengakses peraturan perniagaan untuk halaman ini dengan membuka editor aliran proses perniagaan untuk halaman dan kemudian memilih **Peraturan Perniagaan**. Anda boleh menambahkan status baharu pada keadaan dalam peraturan perniagaan sedia ada atau anda boleh menambah peraturan perniagaan baharu untuk status baharu.
+### <a name="add-new-option-set-values"></a><span data-ttu-id="0cf17-206">Tambah nilai set pilihan baharu</span><span class="sxs-lookup"><span data-stu-id="0cf17-206">Add new option set values</span></span>
+<span data-ttu-id="0cf17-207">Untuk menambah nilai set pilihan kepada medan siap guna, buka halaman pengeditan untuk medan tersebut dan di bawah **Jenis** , pilih **Edit** di sebelah set pilihan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-207">To add option set values to an out-of-the-box field, open the editing page for the field, and under **Type** , select **Edit** next to the option set.</span></span> <span data-ttu-id="0cf17-208">Tambah pilihan baharu yang mempunyai label tersuai dan warna.</span><span class="sxs-lookup"><span data-stu-id="0cf17-208">Add a new option that has a custom label and color.</span></span> <span data-ttu-id="0cf17-209">Jika anda mahu menambah status entri masa baharu, medan siap guna dinamakan **Status Entri** bukan **Status**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-209">If you want to add a new time entry status, the out-of-the-box field is named **Entry Status** , not **Status**.</span></span>
 
-### <a name="add-custom-validation-rules"></a>Tambah peraturan pengesahan tersuai
-Terdapat dua jenis peraturan pengesahan yang anda boleh tambah untuk pengalaman grid kemasukan masa mingguan:
+### <a name="designate-a-new-time-entry-status-as-read-only"></a><span data-ttu-id="0cf17-210">Tetapkan status kemasukan masa baharu sebagai baca sahaja</span><span class="sxs-lookup"><span data-stu-id="0cf17-210">Designate a new time entry status as read-only</span></span>
+<span data-ttu-id="0cf17-211">Untuk memilih status entri masa baharu sebagai baca sahaja, tambah nilai masukan masa baharu ke sifat senarai **Senarai Status Baca Sahaja** sahaja.</span><span class="sxs-lookup"><span data-stu-id="0cf17-211">To designate a new time entry status as read-only, add the new time entry value to the **Read-only Status List** property.</span></span> <span data-ttu-id="0cf17-212">Bahagian yang boleh diedit bagi grid kemasukan masa akan dikunci untuk baris yang mempunyai status baharu.</span><span class="sxs-lookup"><span data-stu-id="0cf17-212">The editable part of the time entry grid will be locked for rows that have the new status.</span></span>
+<span data-ttu-id="0cf17-213">Seterusnya, tambah peraturan perniagaan untuk mengunci semua medan **Edit Baris Entri Masa** dan **Edit Entri Masa** halaman TBX.</span><span class="sxs-lookup"><span data-stu-id="0cf17-213">Next, add business rules to lock all the fields on the **Time Entry Row Edit** and **Time Entry Edit** TBX pages.</span></span> <span data-ttu-id="0cf17-214">Anda boleh mengakses peraturan perniagaan untuk halaman ini dengan membuka editor aliran proses perniagaan untuk halaman dan kemudian memilih **Peraturan Perniagaan**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-214">You can access the business rules for these pages by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="0cf17-215">Anda boleh menambahkan status baharu pada keadaan dalam peraturan perniagaan sedia ada atau anda boleh menambah peraturan perniagaan baharu untuk status baharu.</span><span class="sxs-lookup"><span data-stu-id="0cf17-215">You can add the new status to the condition in the existing business rules, or you can add a new business rule for the new status.</span></span>
 
-- Peraturan perniagaan pihak klien yang berfungsi dalam kotak dialog cipta pantas dan pada halaman TBX.
-- Pengesahan pasang masuk bahagian pelayan yang diguna pakai untuk semua kemas kini kemasukan.
+### <a name="add-custom-validation-rules"></a><span data-ttu-id="0cf17-216">Tambah peraturan pengesahan tersuai</span><span class="sxs-lookup"><span data-stu-id="0cf17-216">Add custom validation rules</span></span>
+<span data-ttu-id="0cf17-217">Terdapat dua jenis peraturan pengesahan yang anda boleh tambah untuk pengalaman grid kemasukan masa mingguan:</span><span class="sxs-lookup"><span data-stu-id="0cf17-217">There are two types of validation rules that you can add for the weekly time entry grid experience:</span></span>
 
-#### <a name="business-rules"></a>Peraturan perniagaan
-Gunakan peraturan perniagaan untuk mengunci dan membuka kunci medan, masukkan nilai lalai dalam medan dan takrifkan pengesahan yang memerlukan maklumat hanya dari rekod kemasukan masa semasa. Anda boleh mengakses peraturan perniagaan untuk halaman TBX dengan membuka editor aliran proses perniagaan untuk halaman dan kemudian memilih **Peraturan Perniagaan**. Anda kemudian boleh mengedit peraturan perniagaan sedia ada atau menambah peraturan perniagaan baharu. Untuk pengesahan yang lebih tersuai malah, anda boleh menggunakan peraturan perniagaan untuk menjalankan JavaScript.
+- <span data-ttu-id="0cf17-218">Peraturan perniagaan pihak klien yang berfungsi dalam kotak dialog cipta pantas dan pada halaman TBX.</span><span class="sxs-lookup"><span data-stu-id="0cf17-218">Client-side business rules that work in quick create dialog boxes and on TBX pages.</span></span>
+- <span data-ttu-id="0cf17-219">Pengesahan pasang masuk bahagian pelayan yang diguna pakai untuk semua kemas kini kemasukan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-219">Server-side plug-in validations that apply to all time entry updates.</span></span>
 
-#### <a name="plug-in-validations"></a>Pengesahan pasang masuk
-Anda patut menggunakan pengesahan pasang masuk untuk sebarang pengesahan yang memerlukan lebih banyak konteks daripada tersedia dalam rekod kemasukan tunggal atau sebarang pengesahan yang anda mahu jalankan pada kemas kini dalam baris dalam grid. Untuk melengkapkan pengesahan, cipta pasang masuk tersuai pada **Entiti Masa**.
+#### <a name="business-rules"></a><span data-ttu-id="0cf17-220">Peraturan perniagaan</span><span class="sxs-lookup"><span data-stu-id="0cf17-220">Business rules</span></span>
+<span data-ttu-id="0cf17-221">Gunakan peraturan perniagaan untuk mengunci dan membuka kunci medan, masukkan nilai lalai dalam medan dan takrifkan pengesahan yang memerlukan maklumat hanya dari rekod kemasukan masa semasa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-221">Use business rules to lock and unlock fields, enter default values in fields, and define validations that require information only from the current time entry record.</span></span> <span data-ttu-id="0cf17-222">Anda boleh mengakses peraturan perniagaan untuk halaman TBX dengan membuka editor aliran proses perniagaan untuk halaman dan kemudian memilih **Peraturan Perniagaan**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-222">You can access the business rules for a TBX page by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="0cf17-223">Anda kemudian boleh mengedit peraturan perniagaan sedia ada atau menambah peraturan perniagaan baharu.</span><span class="sxs-lookup"><span data-stu-id="0cf17-223">You can then edit the existing business rules or add a new business rule.</span></span> <span data-ttu-id="0cf17-224">Untuk pengesahan yang lebih tersuai malah, anda boleh menggunakan peraturan perniagaan untuk menjalankan JavaScript.</span><span class="sxs-lookup"><span data-stu-id="0cf17-224">For even more customized validations, you can use a business rule to run JavaScript.</span></span>
+
+#### <a name="plug-in-validations"></a><span data-ttu-id="0cf17-225">Pengesahan pasang masuk</span><span class="sxs-lookup"><span data-stu-id="0cf17-225">Plug-in validations</span></span>
+<span data-ttu-id="0cf17-226">Gunakan pengesahan pasang masuk untuk sebarang pengesahan yang memerlukan lebih banyak konteks daripada yang tersedia dalam rekod entri tunggal atau untuk sebarang pengesahan yang anda mahu jalankan pada kemas kini sebaris dalam grid.</span><span class="sxs-lookup"><span data-stu-id="0cf17-226">Use plug-in validations for any validations that require more context than is available in a single time entry record, or for any validations that you want to run on inline updates in the grid.</span></span> <span data-ttu-id="0cf17-227">Untuk melengkapkan pengesahan, cipta pasang masuk tersuai pada **Entiti Masa**.</span><span class="sxs-lookup"><span data-stu-id="0cf17-227">To complete the validation, create a custom plug-in on the **Time Entry** entity.</span></span>
+
+### <a name="copying-time-entries"></a><span data-ttu-id="0cf17-228">Menyalin entri masa</span><span class="sxs-lookup"><span data-stu-id="0cf17-228">Copying time entries</span></span>
+<span data-ttu-id="0cf17-229">Gunakan pandangan **Salin Lajur Entri Masa** untuk mentakrifkan senarai medan untuk disalin semasa entri masa.</span><span class="sxs-lookup"><span data-stu-id="0cf17-229">Use the view **Copy Time Entry Columns** to define the list of fields to copy during time entry.</span></span> <span data-ttu-id="0cf17-230">**Tarikh** dan **Tempoh** adalah medan yang diperlukan dan tidak boleh dialih keluar daripada pandangan.</span><span class="sxs-lookup"><span data-stu-id="0cf17-230">**Date** and **Duration** are required fields and shouldn't be removed from the view.</span></span>

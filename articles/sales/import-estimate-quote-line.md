@@ -3,67 +3,67 @@ title: Import anggaran untuk projek pada baris sebut harga berasaskan projek
 description: Topik ini menyediakan maklumat tentang cara mengimport anggaran daripada projek kepada baris sebut harga.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908403"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081144"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Import anggaran untuk projek pada baris sebut harga berasaskan projek
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="c468e-103">Import anggaran untuk projek pada baris sebut harga berasaskan projek</span><span class="sxs-lookup"><span data-stu-id="c468e-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="c468e-104">_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_</span><span class="sxs-lookup"><span data-stu-id="c468e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-Jika projek dicipta semasa peringkat prajualan, anda boleh memilih untuk mengimport anggaran kewangan daripada projek kepada baris sebut harga berasaskan projek.
+<span data-ttu-id="c468e-105">Jika projek dicipta semasa peringkat prajualan, anda boleh memilih untuk mengimport anggaran kewangan daripada projek kepada baris sebut harga berasaskan projek.</span><span class="sxs-lookup"><span data-stu-id="c468e-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. Pastikan baris sebut harga berasaskan projek mempunyai maklumat projek dalam medan **Project**.
-2. Pada tab **Butiran baris sebut harga**, pilih **Import daripada Anggaran Project**.
-3. Pada halaman dialog yang dibuka, pilih salah satu pilihan peringkasan berikut.
+1. <span data-ttu-id="c468e-106">Pastikan baris sebut harga berasaskan projek mempunyai maklumat projek dalam medan **Project**.</span><span class="sxs-lookup"><span data-stu-id="c468e-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="c468e-107">Pada tab **Butiran baris sebut harga** , pilih **Import daripada Anggaran Project**.</span><span class="sxs-lookup"><span data-stu-id="c468e-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="c468e-108">Pada halaman dialog yang terbuka, pilih salah satu pilihan perumusan berikut:</span><span class="sxs-lookup"><span data-stu-id="c468e-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **Kelas transaksi**
-  - **Kategori**
-  - **Peranan** 
-  - **Tugas projek**
+  - <span data-ttu-id="c468e-109">**Kelas transaksi**</span><span class="sxs-lookup"><span data-stu-id="c468e-109">**Transaction class**</span></span>
+  - <span data-ttu-id="c468e-110">**Kategori**</span><span class="sxs-lookup"><span data-stu-id="c468e-110">**Category**</span></span>
+  - <span data-ttu-id="c468e-111">**Peranan**</span><span class="sxs-lookup"><span data-stu-id="c468e-111">**Role**</span></span> 
+  - <span data-ttu-id="c468e-112">**Tugas projek**</span><span class="sxs-lookup"><span data-stu-id="c468e-112">**Project task**</span></span>
 
-Berdasarkan pemilihan anda, anggaran daripada projek untuk semua kelas urus niaga termasuk pada baris sebut harga ini disalin. Untuk menyemak jenis kelas urus niaga yang disertakan, pilih tab **Umum** pada baris sebut harga berasaskan projek dan semak nilai untuk **Termasuk Masa**, **Termasuk Perbelanjaan** dan **Termasuk Yuran**.
+<span data-ttu-id="c468e-113">Berdasarkan pemilihan anda, anggaran daripada projek untuk semua kelas urus niaga termasuk pada baris sebut harga ini disalin.</span><span class="sxs-lookup"><span data-stu-id="c468e-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="c468e-114">Untuk menyemak jenis kelas urus niaga yang disertakan, pilih tab **Umum** pada baris sebut harga berasaskan projek dan semak nilai untuk **Termasuk Masa** , **Termasuk Perbelanjaan** dan **Termasuk Yuran**.</span><span class="sxs-lookup"><span data-stu-id="c468e-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-Apabila anda mengimport anggaran, sistem akan melalaikan penetapan harga berdasarkan senarai harga projek yang dilampirkan pada sebut harga dan jenis pengebilan yang ditetapkan pada baris sebut harga berasaskan projek. Jika peranan atau kategori ditetapkan pada baris sebut harga berasaskan projek sebagai tidak boleh dikenakan, baris anggaran yang diimport akan ditetapkan sebagai tidak boleh dikenakan cukai dan tidak akan menambah pada nilai baris sebut harga yang disebut harga.
+<span data-ttu-id="c468e-115">Apabila anda mengimport anggaran, sistem akan melalaikan penetapan harga berdasarkan senarai harga projek yang dilampirkan pada sebut harga dan jenis pengebilan yang disediakan pada baris sebut harga berasaskan projek.</span><span class="sxs-lookup"><span data-stu-id="c468e-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="c468e-116">Jika peranan atau kategori ditetapkan pada baris sebut harga berasaskan projek sebagai tidak boleh dikenakan, baris anggaran yang diimport akan ditetapkan sebagai tidak boleh dikenakan cukai dan tidak akan menambah pada nilai baris sebut harga yang disebut harga.</span><span class="sxs-lookup"><span data-stu-id="c468e-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-Apabila baris sebut harga mempunyai butiran baris, medan **Nilai Sebut Harga** dan **Anggaran Cukai** pada baris sebut harga diringkaskan dan tidak boleh diedit.
+<span data-ttu-id="c468e-117">Apabila baris sebut harga mempunyai butiran baris, medan **Nilai Sebut Harga** dan **Anggaran Cukai** pada baris sebut harga diringkaskan dan tidak boleh diedit.</span><span class="sxs-lookup"><span data-stu-id="c468e-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-Apabila pilihan berbilang peringkasan dipilih, peringkasan cuba untuk meringkaskan dengan semua pilihan yang dipilih. Ini bererti bahawa output baris sebut harga yang diimport akan menjadi lebih banyak jika anda memilih hanya satu pilihan peringkasan.
+<span data-ttu-id="c468e-118">Apabila berbilang pilihan perumusan dipilih, sistem akan cuba merumuskan mengikut semua pilihan yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="c468e-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="c468e-119">Hasilnya adalah bahawa output baris sebut harga yang diimport akan menjadi lebih banyak berbanding dengan jika anda memilih hanya satu pilihan perumusan.</span><span class="sxs-lookup"><span data-stu-id="c468e-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-Contohnya, jika projek mempunyai baris anggaran berikut untuk perbelanjaan.
+<span data-ttu-id="c468e-120">Contohnya, sama ada projek mempunyai baris anggaran berikut untuk perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="c468e-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| Tugas | Kategori | Tarikh | Kuantiti | Harga unit | Amaun |
+| <span data-ttu-id="c468e-121">Tugas</span><span class="sxs-lookup"><span data-stu-id="c468e-121">Task</span></span> | <span data-ttu-id="c468e-122">Kategori</span><span class="sxs-lookup"><span data-stu-id="c468e-122">Category</span></span> | <span data-ttu-id="c468e-123">Tarikh</span><span class="sxs-lookup"><span data-stu-id="c468e-123">Date</span></span> | <span data-ttu-id="c468e-124">Kuantiti</span><span class="sxs-lookup"><span data-stu-id="c468e-124">Quantity</span></span> | <span data-ttu-id="c468e-125">Harga unit</span><span class="sxs-lookup"><span data-stu-id="c468e-125">Unit price</span></span> | <span data-ttu-id="c468e-126">Amaun</span><span class="sxs-lookup"><span data-stu-id="c468e-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Tugas A | Tambang penerbangan | 10/1/2020 | 4 | 400 | 1600 |
-| Tugas B | Hotel | 10/1/2020 | 4 | 200 | 800 |
-| Tugas C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="c468e-127">Tugas A</span><span class="sxs-lookup"><span data-stu-id="c468e-127">Task A</span></span> | <span data-ttu-id="c468e-128">Tambang penerbangan</span><span class="sxs-lookup"><span data-stu-id="c468e-128">Airfare</span></span> | <span data-ttu-id="c468e-129">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-129">10/1/2020</span></span> | <span data-ttu-id="c468e-130">4</span><span class="sxs-lookup"><span data-stu-id="c468e-130">4</span></span> | <span data-ttu-id="c468e-131">400</span><span class="sxs-lookup"><span data-stu-id="c468e-131">400</span></span> | <span data-ttu-id="c468e-132">1600</span><span class="sxs-lookup"><span data-stu-id="c468e-132">1600</span></span> |
+| <span data-ttu-id="c468e-133">Tugas B</span><span class="sxs-lookup"><span data-stu-id="c468e-133">Task B</span></span> | <span data-ttu-id="c468e-134">Hotel</span><span class="sxs-lookup"><span data-stu-id="c468e-134">Hotel</span></span> | <span data-ttu-id="c468e-135">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-135">10/1/2020</span></span> | <span data-ttu-id="c468e-136">4</span><span class="sxs-lookup"><span data-stu-id="c468e-136">4</span></span> | <span data-ttu-id="c468e-137">200</span><span class="sxs-lookup"><span data-stu-id="c468e-137">200</span></span> | <span data-ttu-id="c468e-138">800</span><span class="sxs-lookup"><span data-stu-id="c468e-138">800</span></span> |
+| <span data-ttu-id="c468e-139">Tugas C</span><span class="sxs-lookup"><span data-stu-id="c468e-139">Task C</span></span> | <span data-ttu-id="c468e-140">Hotel</span><span class="sxs-lookup"><span data-stu-id="c468e-140">Hotel</span></span> | <span data-ttu-id="c468e-141">11/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-141">11/1/2020</span></span> | <span data-ttu-id="c468e-142">2</span><span class="sxs-lookup"><span data-stu-id="c468e-142">2</span></span> | <span data-ttu-id="c468e-143">200</span><span class="sxs-lookup"><span data-stu-id="c468e-143">200</span></span> | <span data-ttu-id="c468e-144">400</span><span class="sxs-lookup"><span data-stu-id="c468e-144">400</span></span> |
 
-Apabila pengguna memilih untuk meringkaskan dengan kelas Urus Niaga, maklumat berikut akan diimport.
+<span data-ttu-id="c468e-145">Apabila pengguna memilih untuk meringkaskan dengan kelas Urus Niaga, maklumat berikut akan diimport.</span><span class="sxs-lookup"><span data-stu-id="c468e-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| Tugas | Kategori | Tarikh | Kuantiti | Harga unit | Amaun |
+| <span data-ttu-id="c468e-146">Tugas</span><span class="sxs-lookup"><span data-stu-id="c468e-146">Task</span></span> | <span data-ttu-id="c468e-147">Kategori</span><span class="sxs-lookup"><span data-stu-id="c468e-147">Category</span></span> | <span data-ttu-id="c468e-148">Tarikh</span><span class="sxs-lookup"><span data-stu-id="c468e-148">Date</span></span> | <span data-ttu-id="c468e-149">Kuantiti</span><span class="sxs-lookup"><span data-stu-id="c468e-149">Quantity</span></span> | <span data-ttu-id="c468e-150">Harga unit</span><span class="sxs-lookup"><span data-stu-id="c468e-150">Unit price</span></span> | <span data-ttu-id="c468e-151">Amaun</span><span class="sxs-lookup"><span data-stu-id="c468e-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 10/1/2020 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="c468e-152">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-152">10/1/2020</span></span> | <span data-ttu-id="c468e-153">3.34</span><span class="sxs-lookup"><span data-stu-id="c468e-153">3.34</span></span> | <span data-ttu-id="c468e-154">840</span><span class="sxs-lookup"><span data-stu-id="c468e-154">840</span></span> | <span data-ttu-id="c468e-155">2800</span><span class="sxs-lookup"><span data-stu-id="c468e-155">2800</span></span> |
 
-Apabila pengguna memilih untuk meringkaskan dengan kelas Urus Niaga dan Kategori, maklumat berikut akan diimport.
+<span data-ttu-id="c468e-156">Apabila pengguna memilih untuk meringkaskan dengan kelas Urus Niaga dan Kategori, maklumat berikut akan diimport.</span><span class="sxs-lookup"><span data-stu-id="c468e-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| Tugas | Kategori | Tarikh | Kuantiti | Harga unit | Amaun |
+| <span data-ttu-id="c468e-157">Tugas</span><span class="sxs-lookup"><span data-stu-id="c468e-157">Task</span></span> | <span data-ttu-id="c468e-158">Kategori</span><span class="sxs-lookup"><span data-stu-id="c468e-158">Category</span></span> | <span data-ttu-id="c468e-159">Tarikh</span><span class="sxs-lookup"><span data-stu-id="c468e-159">Date</span></span> | <span data-ttu-id="c468e-160">Kuantiti</span><span class="sxs-lookup"><span data-stu-id="c468e-160">Quantity</span></span> | <span data-ttu-id="c468e-161">Harga unit</span><span class="sxs-lookup"><span data-stu-id="c468e-161">Unit price</span></span> | <span data-ttu-id="c468e-162">Amaun</span><span class="sxs-lookup"><span data-stu-id="c468e-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Tugas A | Tambang penerbangan | 10/1/2020 | 4 | 400 | 1600 |
-| | Hotel | 10/1/2020 | 6 | 200 | 1200 |
+| <span data-ttu-id="c468e-163">Tugas A</span><span class="sxs-lookup"><span data-stu-id="c468e-163">Task A</span></span> | <span data-ttu-id="c468e-164">Tambang penerbangan</span><span class="sxs-lookup"><span data-stu-id="c468e-164">Airfare</span></span> | <span data-ttu-id="c468e-165">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-165">10/1/2020</span></span> | <span data-ttu-id="c468e-166">4</span><span class="sxs-lookup"><span data-stu-id="c468e-166">4</span></span> | <span data-ttu-id="c468e-167">400</span><span class="sxs-lookup"><span data-stu-id="c468e-167">400</span></span> | <span data-ttu-id="c468e-168">1600</span><span class="sxs-lookup"><span data-stu-id="c468e-168">1600</span></span> |
+| | <span data-ttu-id="c468e-169">Hotel</span><span class="sxs-lookup"><span data-stu-id="c468e-169">Hotel</span></span> | <span data-ttu-id="c468e-170">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-170">10/1/2020</span></span> | <span data-ttu-id="c468e-171">6</span><span class="sxs-lookup"><span data-stu-id="c468e-171">6</span></span> | <span data-ttu-id="c468e-172">200</span><span class="sxs-lookup"><span data-stu-id="c468e-172">200</span></span> | <span data-ttu-id="c468e-173">1200</span><span class="sxs-lookup"><span data-stu-id="c468e-173">1200</span></span> |
 
-Apabila pengguna memilih untuk meringkaskan dengan kelas Urus Niaga, Kategori dan Tugas Nod Leaf, maklumat berikut akan diimport. Perhatikan bahawa keputusan ini adalah sama seperti apa yang ada pada projek.
+<span data-ttu-id="c468e-174">Apabila pengguna memilih untuk meringkaskan dengan kelas Urus Niaga, Kategori dan Tugas Nod Leaf, maklumat berikut akan diimport.</span><span class="sxs-lookup"><span data-stu-id="c468e-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="c468e-175">Perhatikan bahawa keputusan ini adalah sama seperti apa yang ada pada projek.</span><span class="sxs-lookup"><span data-stu-id="c468e-175">Notice that this result is the same as what was on the project.</span></span>
 
-| Tugas | Kategori | Tarikh | Kuantiti | Harga unit | Amaun |
+| <span data-ttu-id="c468e-176">Tugas</span><span class="sxs-lookup"><span data-stu-id="c468e-176">Task</span></span> | <span data-ttu-id="c468e-177">Kategori</span><span class="sxs-lookup"><span data-stu-id="c468e-177">Category</span></span> | <span data-ttu-id="c468e-178">Tarikh</span><span class="sxs-lookup"><span data-stu-id="c468e-178">Date</span></span> | <span data-ttu-id="c468e-179">Kuantiti</span><span class="sxs-lookup"><span data-stu-id="c468e-179">Quantity</span></span> | <span data-ttu-id="c468e-180">Harga unit</span><span class="sxs-lookup"><span data-stu-id="c468e-180">Unit price</span></span> | <span data-ttu-id="c468e-181">Amaun</span><span class="sxs-lookup"><span data-stu-id="c468e-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Tugas A | Tambang penerbangan | 10/1/2020 | 4 | 400 | 1600 |
-| Tugas B | Hotel | 10/1/2020 | 4 | 200 | 800 |
-| Tugas C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="c468e-182">Tugas A</span><span class="sxs-lookup"><span data-stu-id="c468e-182">Task A</span></span> | <span data-ttu-id="c468e-183">Tambang penerbangan</span><span class="sxs-lookup"><span data-stu-id="c468e-183">Airfare</span></span> | <span data-ttu-id="c468e-184">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-184">10/1/2020</span></span> | <span data-ttu-id="c468e-185">4</span><span class="sxs-lookup"><span data-stu-id="c468e-185">4</span></span> | <span data-ttu-id="c468e-186">400</span><span class="sxs-lookup"><span data-stu-id="c468e-186">400</span></span> | <span data-ttu-id="c468e-187">1600</span><span class="sxs-lookup"><span data-stu-id="c468e-187">1600</span></span> |
+| <span data-ttu-id="c468e-188">Tugas B</span><span class="sxs-lookup"><span data-stu-id="c468e-188">Task B</span></span> | <span data-ttu-id="c468e-189">Hotel</span><span class="sxs-lookup"><span data-stu-id="c468e-189">Hotel</span></span> | <span data-ttu-id="c468e-190">10/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-190">10/1/2020</span></span> | <span data-ttu-id="c468e-191">4</span><span class="sxs-lookup"><span data-stu-id="c468e-191">4</span></span> | <span data-ttu-id="c468e-192">200</span><span class="sxs-lookup"><span data-stu-id="c468e-192">200</span></span> | <span data-ttu-id="c468e-193">800</span><span class="sxs-lookup"><span data-stu-id="c468e-193">800</span></span> |
+| <span data-ttu-id="c468e-194">Tugas C</span><span class="sxs-lookup"><span data-stu-id="c468e-194">Task C</span></span> | <span data-ttu-id="c468e-195">Hotel</span><span class="sxs-lookup"><span data-stu-id="c468e-195">Hotel</span></span> | <span data-ttu-id="c468e-196">11/1/2020</span><span class="sxs-lookup"><span data-stu-id="c468e-196">11/1/2020</span></span> | <span data-ttu-id="c468e-197">2</span><span class="sxs-lookup"><span data-stu-id="c468e-197">2</span></span> | <span data-ttu-id="c468e-198">200</span><span class="sxs-lookup"><span data-stu-id="c468e-198">200</span></span> | <span data-ttu-id="c468e-199">400</span><span class="sxs-lookup"><span data-stu-id="c468e-199">400</span></span> |
