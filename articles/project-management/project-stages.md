@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,49 +17,49 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b11c67ebd21fdf423eeae2db8154f26787c2e64f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081355"
 ---
-# <a name="project-stages"></a>Peringkat projek
+# <a name="project-stages"></a><span data-ttu-id="c37bc-103">Peringkat projek</span><span class="sxs-lookup"><span data-stu-id="c37bc-103">Project stages</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="c37bc-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="c37bc-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Peringkat projek direka bentuk untuk menggambarkan keadaan projek semasa ia berjalan. Penyesuaian boleh digunakan untuk mengemas kini peringkat secara automatik dengan aliran proses perniagaan, Power Automate atau sambungan pasang masuk.
+<span data-ttu-id="c37bc-105">Peringkat projek direka bentuk untuk menggambarkan keadaan projek semasa ia berjalan.</span><span class="sxs-lookup"><span data-stu-id="c37bc-105">Project stages are designed to reflect the state of the project as it progresses.</span></span> <span data-ttu-id="c37bc-106">Penyesuaian boleh digunakan untuk mengemas kini peringkat secara automatik dengan aliran proses perniagaan, Power Automate atau sambungan pasang masuk.</span><span class="sxs-lookup"><span data-stu-id="c37bc-106">Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.</span></span>
 
-Peringkat berikut ditakrifkan dalam aliran proses perniagaan lalai:
+<span data-ttu-id="c37bc-107">Peringkat berikut ditakrifkan dalam aliran proses perniagaan lalai:</span><span class="sxs-lookup"><span data-stu-id="c37bc-107">The following stages are defined in the default business process flow:</span></span>
 
-- Baru
-- Sebut Harga
-- Pelan
-- Hantar
-- Dilengkapkan
-- Tutup 
+- <span data-ttu-id="c37bc-108">Baru</span><span class="sxs-lookup"><span data-stu-id="c37bc-108">New</span></span>
+- <span data-ttu-id="c37bc-109">Sebut Harga</span><span class="sxs-lookup"><span data-stu-id="c37bc-109">Quote</span></span>
+- <span data-ttu-id="c37bc-110">Pelan</span><span class="sxs-lookup"><span data-stu-id="c37bc-110">Plan</span></span>
+- <span data-ttu-id="c37bc-111">Hantar</span><span class="sxs-lookup"><span data-stu-id="c37bc-111">Deliver</span></span>
+- <span data-ttu-id="c37bc-112">Dilengkapkan</span><span class="sxs-lookup"><span data-stu-id="c37bc-112">Complete</span></span>
+- <span data-ttu-id="c37bc-113">Tutup</span><span class="sxs-lookup"><span data-stu-id="c37bc-113">Close</span></span> 
 
-## <a name="new"></a>Baru
+## <a name="new"></a><span data-ttu-id="c37bc-114">Baru</span><span class="sxs-lookup"><span data-stu-id="c37bc-114">New</span></span>
 
-Apabila anda mencipta projek, peringkat projek ditetapkan kepada **Baharu**. Jika projek dicipta daripada templat, ia mungkin mempunyai jadual, anggaran dan data pasukan. Sebaliknya, ia adalah satu garis panduan projek dan komponen yang tinggal mesti dimasukkan.
+<span data-ttu-id="c37bc-115">Apabila anda mencipta projek, peringkat projek ditetapkan kepada **Baharu**.</span><span class="sxs-lookup"><span data-stu-id="c37bc-115">When you create a project, the project stage is set to **New**.</span></span> <span data-ttu-id="c37bc-116">Jika projek dicipta daripada templat, ia mungkin mempunyai jadual, anggaran dan data pasukan.</span><span class="sxs-lookup"><span data-stu-id="c37bc-116">If the project was created from a template, it might have schedule, estimate, and team data.</span></span> <span data-ttu-id="c37bc-117">Sebaliknya, ia adalah satu garis panduan projek dan komponen yang tinggal mesti dimasukkan.</span><span class="sxs-lookup"><span data-stu-id="c37bc-117">Otherwise, it's an outline of the project, and the remaining components must be entered.</span></span>
 
-## <a name="quote"></a>Sebut Harga
+## <a name="quote"></a><span data-ttu-id="c37bc-118">Sebut Harga</span><span class="sxs-lookup"><span data-stu-id="c37bc-118">Quote</span></span>
 
-Apabila anda mengaitkan projek dengan sebut harga atau apabila anda mencipta projek daripada sebut harga, peringkat projek ditetapkan kepada **Sebut Harga** dan anggaran tarikh mula dan tamat dikemas kini. Semasa projek berada dalam peringkat **Sebut harga**, tab **Jualan** pada halaman **Entiti Projek** menunjukkan butiran sebut harga tersebut.
+<span data-ttu-id="c37bc-119">Apabila anda mengaitkan projek dengan sebut harga atau apabila anda mencipta projek daripada sebut harga, peringkat projek ditetapkan kepada **Sebut Harga** dan anggaran tarikh mula dan tamat dikemas kini.</span><span class="sxs-lookup"><span data-stu-id="c37bc-119">When you associate a project with a quote, or when you create a project from a quote, the project stage is set to **Quote** , and the estimated start and end dates are updated.</span></span> <span data-ttu-id="c37bc-120">Semasa projek berada dalam peringkat **Sebut harga** , tab **Jualan** pada halaman **Entiti Projek** menunjukkan butiran sebut harga tersebut.</span><span class="sxs-lookup"><span data-stu-id="c37bc-120">While the project is in the **Quote** stage, the **Sales** tab on the **Project Entity** page shows details of the quote.</span></span>
 
-## <a name="plan"></a>Pelan
+## <a name="plan"></a><span data-ttu-id="c37bc-121">Pelan</span><span class="sxs-lookup"><span data-stu-id="c37bc-121">Plan</span></span>
 
-Apabila anda menang sebut harga yang dikaitkan dengan sesuatu projek dan projek tersebut beralih ke peringkat **Kontrak**, peringkat projek dikemas kini kepada **Pelan**. Semasa projek berada dalam peringkat **Pelan**, halaman **Entiti Projek** menunjukkan butiran kontrak tersebut.
+<span data-ttu-id="c37bc-122">Apabila anda menang sebut harga yang dikaitkan dengan sesuatu projek dan projek tersebut beralih ke peringkat **Kontrak** , peringkat projek dikemas kini kepada **Pelan**.</span><span class="sxs-lookup"><span data-stu-id="c37bc-122">When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**.</span></span> <span data-ttu-id="c37bc-123">Semasa projek berada dalam peringkat **Pelan** , halaman **Entiti Projek** menunjukkan butiran kontrak tersebut.</span><span class="sxs-lookup"><span data-stu-id="c37bc-123">While the project is in the **Plan** stage, the **Project Entity** page shows details of the contract.</span></span>
 
-## <a name="deliver"></a>Hantar
+## <a name="deliver"></a><span data-ttu-id="c37bc-124">Hantar</span><span class="sxs-lookup"><span data-stu-id="c37bc-124">Deliver</span></span>
 
-Apabila pelan projek selesai dan anda bersedia untuk memulakan projek, pengurus projek harus mengemas kini peringkat projek kepada **Hantar** untuk menunjukkan yang projek telah dimulakan.
+<span data-ttu-id="c37bc-125">Apabila pelan projek selesai dan anda bersedia untuk memulakan projek, pengurus projek harus mengemas kini peringkat projek kepada **Hantar** untuk menunjukkan yang projek telah dimulakan.</span><span class="sxs-lookup"><span data-stu-id="c37bc-125">When the project plan is completed, and you're ready to start the project, the project manager should update the project stage to **Deliver** to show that the project has started.</span></span>
 
-## <a name="complete"></a>Selesai 
+## <a name="complete"></a><span data-ttu-id="c37bc-126">Selesai</span><span class="sxs-lookup"><span data-stu-id="c37bc-126">Complete</span></span> 
 
-Apabila kerja untuk projek selesai, pengurus projek boleh mengemas kini peringkat kepada **Selesai**. Dengan mengemas kini peringkat projek kepada **Selesai**, pengurus projek menunjukkan bahawa kerja tersebut telah 100 peratus selesai, tetapi projek itu dibiarkan terbuka supaya sebarang masa atau perbelanjaan yang tertangguh boleh direkodkan.
+<span data-ttu-id="c37bc-127">Apabila kerja untuk projek selesai, pengurus projek boleh mengemas kini peringkat kepada **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="c37bc-127">When the work for the project is completed, the project manager can update the stage to **Complete**.</span></span> <span data-ttu-id="c37bc-128">Dengan mengemas kini peringkat projek kepada **Selesai** , pengurus projek menunjukkan bahawa kerja tersebut telah 100 peratus selesai, tetapi projek itu dibiarkan terbuka supaya sebarang masa atau perbelanjaan yang tertangguh boleh direkodkan.</span><span class="sxs-lookup"><span data-stu-id="c37bc-128">By updating the project stage to **Complete** , the project manager indicates that the work is 100-percent completed, but that the project is being kept open so that any pending time or expense entries can be recorded.</span></span>
 
-## <a name="close"></a>Tutup
+## <a name="close"></a><span data-ttu-id="c37bc-129">Tutup</span><span class="sxs-lookup"><span data-stu-id="c37bc-129">Close</span></span>
 
-Apabila semua transaksi direkodkan untuk projek, pengurus projek boleh mengemas kini peringkat kepada **Tutup**. Pada ketika itu, tiada transaksi boleh direkodkan dan projek itu ditetapkan kepada baca sahaja.
+<span data-ttu-id="c37bc-130">Apabila semua transaksi direkodkan untuk projek, pengurus projek boleh mengemas kini peringkat kepada **Tutup**.</span><span class="sxs-lookup"><span data-stu-id="c37bc-130">When all transactions are recorded for the project, the project manager can update the stage to **Close**.</span></span> <span data-ttu-id="c37bc-131">Pada ketika itu, tiada transaksi boleh direkodkan dan projek itu ditetapkan kepada baca sahaja.</span><span class="sxs-lookup"><span data-stu-id="c37bc-131">At that point, no transactions can be recorded, and the project is set to read-only.</span></span>
 

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,78 +17,78 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898272"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081266"
 ---
-# <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
+# <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a><span data-ttu-id="9dcac-103">Cipta medan dan entiti tersuai sebagai dimensi penentuan harga</span><span class="sxs-lookup"><span data-stu-id="9dcac-103">Create custom fields and entities as pricing dimensions</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="9dcac-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="9dcac-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Lengkapkan langkah berikut pada bila-bila masa anda mahu mencipta set pilihan atau entiti tersuai.
+<span data-ttu-id="9dcac-105">Lengkapkan langkah berikut pada bila-bila masa anda mahu mencipta set pilihan atau entiti tersuai.</span><span class="sxs-lookup"><span data-stu-id="9dcac-105">Complete the following steps any time that you want to create a custom option set or entity.</span></span>
 
 > [!IMPORTANT]
-> Kami mengesyorkan agar anda membuat semua perubahan dimensi penentuan harga dalam penyelesaian berasingan. Amalan terbaik penting ini memberikan kefleksibelan pada masa akan datang untuk mengemas kini atau mengalih keluar perubahan seperti yang diperlukan, akan membantu menggunakan semula kerja anda, dan memudahkan untuk port perubahan ini kepada tika lain. Selepas anda membuat semua perubahan yang diperlukan, eksport penyelesaian ini sebagai **Penyelesaian terurus** dan import ini ke dalam tika lain untuk guna semula persediaan penentuan harga anda.
+> <span data-ttu-id="9dcac-106">Kami mengesyorkan agar anda membuat semua perubahan dimensi penentuan harga dalam penyelesaian berasingan.</span><span class="sxs-lookup"><span data-stu-id="9dcac-106">We recommend that you make all custom pricing dimension changes in a separate solution.</span></span> <span data-ttu-id="9dcac-107">Amalan terbaik penting ini memberikan kefleksibelan pada masa akan datang untuk mengemas kini atau mengalih keluar perubahan seperti yang diperlukan, akan membantu menggunakan semula kerja anda, dan memudahkan untuk port perubahan ini kepada tika lain.</span><span class="sxs-lookup"><span data-stu-id="9dcac-107">This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance.</span></span> <span data-ttu-id="9dcac-108">Selepas anda membuat semua perubahan yang diperlukan, eksport penyelesaian ini sebagai **Penyelesaian terurus** dan import ini ke dalam tika lain untuk guna semula persediaan penentuan harga anda.</span><span class="sxs-lookup"><span data-stu-id="9dcac-108">After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.</span></span>
 
 
-## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Cipta penyelesaian tersuai untuk dimensi penentuan harga
-1. Pergi ke **Tetapan** > **Penyelesaian** dan, kemudian pilih **Baharu** untuk mencipta penyelesaian baharu. 
-2. Namakan penyelesaian, **\<your organization name> dimensi penetapan harga**, masukkan baki maklumat yang diperlukan dan kemudian pilih **Simpan**.
+## <a name="create-a-custom-solution-for-pricing-dimensions"></a><span data-ttu-id="9dcac-109">Cipta penyelesaian tersuai untuk dimensi penentuan harga</span><span class="sxs-lookup"><span data-stu-id="9dcac-109">Create a custom solution for pricing dimensions</span></span>
+1. <span data-ttu-id="9dcac-110">Pergi ke **Tetapan** > **Penyelesaian** dan, kemudian pilih **Baharu** untuk mencipta penyelesaian baharu.</span><span class="sxs-lookup"><span data-stu-id="9dcac-110">Go to **Settings** > **Solutions** , and then select **New** to create a new solution.</span></span> 
+2. <span data-ttu-id="9dcac-111">Namakan penyelesaian, **\<your organization name> dimensi penetapan harga** , masukkan baki maklumat yang diperlukan dan kemudian pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-111">Name the solution, **\<your organization name> pricing dimensions** , enter the remaining required information, and then select **Save**.</span></span>
   
-## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Cipta medan tersuai dan seti pilihan dalam penyelesaian dimensi penentuan harga
+## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a><span data-ttu-id="9dcac-112">Cipta medan tersuai dan seti pilihan dalam penyelesaian dimensi penentuan harga</span><span class="sxs-lookup"><span data-stu-id="9dcac-112">Create custom fields and option sets in the pricing dimension solution</span></span>
 
-Dimensi penentuan harga boleh menjadi set pilihan atau entiti. Kedua-duanya mesti dicipta dalam penyelesaian penentuan harga anda. Langkah-langkah dalam prosedur ini menerangkan cara mencipta dimensi berasaskan entiti dan dimensi berasaskan set pilihan.
+<span data-ttu-id="9dcac-113">Dimensi penentuan harga boleh menjadi set pilihan atau entiti.</span><span class="sxs-lookup"><span data-stu-id="9dcac-113">A pricing dimension can be an option set or an entity.</span></span> <span data-ttu-id="9dcac-114">Kedua-duanya mesti dicipta dalam penyelesaian penentuan harga anda.</span><span class="sxs-lookup"><span data-stu-id="9dcac-114">Both must be created in your pricing solution.</span></span> <span data-ttu-id="9dcac-115">Langkah-langkah dalam prosedur ini menerangkan cara mencipta dimensi berasaskan entiti dan dimensi berasaskan set pilihan.</span><span class="sxs-lookup"><span data-stu-id="9dcac-115">The steps in this procedure explain how to create entity-based dimensions and option set-based dimensions.</span></span>
 
-### <a name="entity-based-dimensions"></a>Dimensi berasaskan entiti
+### <a name="entity-based-dimensions"></a><span data-ttu-id="9dcac-116">Dimensi berasaskan entiti</span><span class="sxs-lookup"><span data-stu-id="9dcac-116">Entity-based dimensions</span></span>
 
-1. Pergi ke **Tetapan** > **Penyelesaian** dan kemudian klik dua kali **\<your organization name> dimensi penetapan harga**.
-2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti**.
-3. Pilih **Baharu** untuk mencipta entiti baharu dipanggil **Tajuk Standard**. 
-4. Masukkan baki maklumat diperlukan dan kemudian pilih **Simpan**.
-
-
-### <a name="option-set-based-dimensions"></a>Dimensi berasaskan set pilihan 
-Anda boleh mencipta dua dimensi berasaskan set pilihan. Guna **Lokasi Kerja Sumber** untuk menjejaki harga kerja lokasi **Rumah** dan kerja **Di Tapak** dan menggunakan **Jam Bekerja Sumber** dengan nilai **Biasa** dan **Lebih Masa** untuk mengenakan tokokan apabila kerja selesai.
+1. <span data-ttu-id="9dcac-117">Pergi ke **Tetapan** > **Penyelesaian** dan kemudian klik dua kali **\<your organization name> dimensi penetapan harga**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-117">Go to **Settings** > **Solutions** , and then double-click **\<your organization name> pricing dimensions**.</span></span>
+2. <span data-ttu-id="9dcac-118">Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-118">In Solution Explorer, on the left navigation pane, select **Entities**.</span></span>
+3. <span data-ttu-id="9dcac-119">Pilih **Baharu** untuk mencipta entiti baharu dipanggil **Tajuk Standard**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-119">Select **New** to create a new entity called **Standard Title**.</span></span> 
+4. <span data-ttu-id="9dcac-120">Masukkan baki maklumat diperlukan dan kemudian pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-120">Enter the remaining required information, and then select **Save**.</span></span>
 
 
-1. Pergi ke **Tetapan** > **Penyelesaian** dan klik dua kali **\<your organization name> dimensi penetapan harga**. 
-2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Set Pilihan**. 
-3. Pilih **Baharu** untuk mencipta set pilihan baharu, masukkan baki maklumat yang diperlukan, kemudian pilih **Simpan**.
+### <a name="option-set-based-dimensions"></a><span data-ttu-id="9dcac-121">Dimensi berasaskan set pilihan</span><span class="sxs-lookup"><span data-stu-id="9dcac-121">Option set-based dimensions</span></span> 
+<span data-ttu-id="9dcac-122">Anda boleh mencipta dua dimensi berasaskan set pilihan.</span><span class="sxs-lookup"><span data-stu-id="9dcac-122">You can create two option set-based dimensions.</span></span> <span data-ttu-id="9dcac-123">Guna **Lokasi Kerja Sumber** untuk menjejaki harga kerja lokasi **Rumah** dan kerja **Di Tapak** dan menggunakan **Jam Bekerja Sumber** dengan nilai **Biasa** dan **Lebih Masa** untuk mengenakan tokokan apabila kerja selesai.</span><span class="sxs-lookup"><span data-stu-id="9dcac-123">Use **Resource Work Location** to track the price of **Home** location work and **Onsite** work and use **Resource Work hours** with values **Regular** and **Overtime** to apply a markup when work is completed.</span></span>
 
-## <a name="create-data-for-entity-based-dimensions"></a>Cipta data untuk dimensi berasaskan entiti
 
-Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau menggunakan panggilan import atau perkhidmatan Microsoft Excel. Guna langkah-langkah dalam prosedur ini untuk mencipta dua jawatan standard **Jurutera Sistem** dan **Jurutera Sistem Kanan** daripada dimensi berasaskan entiti, **Jawatan Standard**. Jika data yang anda mahu cipta adalah kecil, seperti dalam contoh berikut, anda boleh menggunakan borang standard.
+1. <span data-ttu-id="9dcac-124">Pergi ke **Tetapan** > **Penyelesaian** dan klik dua kali **\<your organization name> dimensi penetapan harga**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-124">Go to **Settings** > **Solutions** , and double-click  **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="9dcac-125">Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Set Pilihan**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-125">In Solution Explorer, on the left navigation pane, select  **Option Sets**.</span></span> 
+3. <span data-ttu-id="9dcac-126">Pilih **Baharu** untuk mencipta set pilihan baharu, masukkan baki maklumat yang diperlukan, kemudian pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-126">Select **New** to create a new option set, enter the remaining required information, and then select **Save**.</span></span>
 
-1. Pilih **Carian Lanjutan**, pilih entiti **Tajuk Standard** dan kemudian pilih **Keputusan**. Semua baris dalam entiti **Jawatan Standard** akan ditunjukkan.
-2. Pilih **Baharu** dan dalam medan **Nama**, masukkan "Jurutera Sistem" dan kemudian pilih **Simpan**.
-3. Tutup borang. 
-4. Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".
+## <a name="create-data-for-entity-based-dimensions"></a><span data-ttu-id="9dcac-127">Cipta data untuk dimensi berasaskan entiti</span><span class="sxs-lookup"><span data-stu-id="9dcac-127">Create data for entity-based dimensions</span></span>
 
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambah semua entiti yang diperlukan dan dokumen berkaitan ke Penyelesaian Dimensi Penetapan Harga
-Anda perlu menambah entiti berikut ke penyelesaian penetapan harga anda. Guna langkah-langkah dalam prosedur untuk membuat perubahan penting dalam penyelesaian penentuan harga agar entiti maklum dengan dimensi penentuan harga baharu.
+<span data-ttu-id="9dcac-128">Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau menggunakan panggilan import atau perkhidmatan Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="9dcac-128">You can create data for entity-based dimensions manually, or by using Microsoft Excel import or service calls.</span></span> <span data-ttu-id="9dcac-129">Guna langkah-langkah dalam prosedur ini untuk mencipta dua jawatan standard **Jurutera Sistem** dan **Jurutera Sistem Kanan** daripada dimensi berasaskan entiti, **Jawatan Standard**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-129">Use the steps in this procedure to create two standard titles, **Systems Engineer** and **Senior Systems Engineer** from the entity-based dimension, **Standard Title**.</span></span> <span data-ttu-id="9dcac-130">Jika data yang anda mahu cipta adalah kecil, seperti dalam contoh berikut, anda boleh menggunakan borang standard.</span><span class="sxs-lookup"><span data-stu-id="9dcac-130">If the data that you want to create is small, as in the following example, you can use a standard form.</span></span>
 
-1. Pilih **Tetapan** > **Penyelesaian** dan klik dua kali **\<your organization name> dimensi penetapan harga**. 
-2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Tambah Sedia Ada** > **Entiti**.
-3. Dalam kotak dialog **Komponen Penyelesaian**, pilih entiti berikut:
+1. <span data-ttu-id="9dcac-131">Pilih **Carian Lanjutan** , pilih entiti **Tajuk Standard** dan kemudian pilih **Keputusan**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-131">Select **Advanced Find** , select the entity **Standard Title** , and then select **Results**.</span></span> <span data-ttu-id="9dcac-132">Semua baris dalam entiti **Jawatan Standard** akan ditunjukkan.</span><span class="sxs-lookup"><span data-stu-id="9dcac-132">All of the rows in the **Standard Title** entity will be shown.</span></span>
+2. <span data-ttu-id="9dcac-133">Pilih **Baharu** dan dalam medan **Nama** , masukkan "Jurutera Sistem" dan kemudian pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-133">Select **New** , and in the **Name** field, enter "Systems Engineer" and then select **Save**.</span></span>
+3. <span data-ttu-id="9dcac-134">Tutup borang.</span><span class="sxs-lookup"><span data-stu-id="9dcac-134">Close the form.</span></span> 
+4. <span data-ttu-id="9dcac-135">Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".</span><span class="sxs-lookup"><span data-stu-id="9dcac-135">Repeat steps 1 - 3 to create another standard title for "Senior Systems Engineer".</span></span>
 
-  - Sebenar
-  - Sumber Boleh Ditempah
-  - Garisan Anggaran
-  - Butiran Baris Invois
-  - Garisan Jurnal
-  - Butiran Baris Kontrak Projek
-  - Ahli Pasukan Projek
-  - Butiran Baris Sebut Harga
-  - Tokokan Harga Peranan
-  - Harga Peranan 
-  - Entri Masa 
+## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a><span data-ttu-id="9dcac-136">Tambah semua entiti yang diperlukan dan dokumen berkaitan ke Penyelesaian Dimensi Penetapan Harga</span><span class="sxs-lookup"><span data-stu-id="9dcac-136">Add all required entities and related components to the Pricing Dimension Solution</span></span>
+<span data-ttu-id="9dcac-137">Anda perlu menambah entiti berikut ke penyelesaian penetapan harga anda.</span><span class="sxs-lookup"><span data-stu-id="9dcac-137">You will need to add the following entities to your pricing solution.</span></span> <span data-ttu-id="9dcac-138">Guna langkah-langkah dalam prosedur untuk membuat perubahan penting dalam penyelesaian penentuan harga agar entiti maklum dengan dimensi penentuan harga baharu.</span><span class="sxs-lookup"><span data-stu-id="9dcac-138">Use the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.</span></span>
+
+1. <span data-ttu-id="9dcac-139">Pilih **Tetapan** > **Penyelesaian** dan klik dua kali **\<your organization name> dimensi penetapan harga**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-139">Select **Settings** > **Solutions** , and double-click **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="9dcac-140">Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Tambah Sedia Ada** > **Entiti**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-140">In Solution Explorer, on the left navigation pane, select **Add Existing** > **Entities**.</span></span>
+3. <span data-ttu-id="9dcac-141">Dalam kotak dialog **Komponen Penyelesaian** , pilih entiti berikut:</span><span class="sxs-lookup"><span data-stu-id="9dcac-141">In the **Solution Components** dialog box, select the following entities:</span></span>
+
+  - <span data-ttu-id="9dcac-142">Sebenar</span><span class="sxs-lookup"><span data-stu-id="9dcac-142">Actual</span></span>
+  - <span data-ttu-id="9dcac-143">Sumber Boleh Ditempah</span><span class="sxs-lookup"><span data-stu-id="9dcac-143">Bookable Resource</span></span>
+  - <span data-ttu-id="9dcac-144">Garisan Anggaran</span><span class="sxs-lookup"><span data-stu-id="9dcac-144">Estimate Line</span></span>
+  - <span data-ttu-id="9dcac-145">Butiran Baris Invois</span><span class="sxs-lookup"><span data-stu-id="9dcac-145">Invoice Line Detail</span></span>
+  - <span data-ttu-id="9dcac-146">Garisan Jurnal</span><span class="sxs-lookup"><span data-stu-id="9dcac-146">Journal Line</span></span>
+  - <span data-ttu-id="9dcac-147">Butiran Baris Kontrak Projek</span><span class="sxs-lookup"><span data-stu-id="9dcac-147">Project Contract Line Detail</span></span>
+  - <span data-ttu-id="9dcac-148">Ahli Pasukan Projek</span><span class="sxs-lookup"><span data-stu-id="9dcac-148">Project Team Member</span></span>
+  - <span data-ttu-id="9dcac-149">Butiran Baris Sebut Harga</span><span class="sxs-lookup"><span data-stu-id="9dcac-149">Quote Line Detail</span></span>
+  - <span data-ttu-id="9dcac-150">Tokokan Harga Peranan</span><span class="sxs-lookup"><span data-stu-id="9dcac-150">Role Price Markup</span></span>
+  - <span data-ttu-id="9dcac-151">Harga Peranan</span><span class="sxs-lookup"><span data-stu-id="9dcac-151">Role Price</span></span> 
+  - <span data-ttu-id="9dcac-152">Entri Masa</span><span class="sxs-lookup"><span data-stu-id="9dcac-152">Time Entry</span></span> 
 
 
 > [!NOTE]
-> Pastikan anda memasukkan semua borang dan pandangan bagi setiap entiti yang dipilih.
+> <span data-ttu-id="9dcac-153">Pastikan anda memasukkan semua borang dan pandangan bagi setiap entiti yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="9dcac-153">Make sure to include all forms and views for each of the entities selected.</span></span>
 
-4. Apabila digesa untuk memasukkan sebarang entiti bersandar bagi entiti yang dipilih di atas, pilih **Tidak**.
+4. <span data-ttu-id="9dcac-154">Apabila digesa untuk memasukkan sebarang entiti bersandar bagi entiti yang dipilih di atas, pilih **Tidak**.</span><span class="sxs-lookup"><span data-stu-id="9dcac-154">When prompted to include any dependent entities for the entities selected above, select **No**.</span></span>
 

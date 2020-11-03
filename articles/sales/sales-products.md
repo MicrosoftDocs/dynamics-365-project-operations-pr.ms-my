@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,110 +17,110 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081325"
 ---
-# <a name="products"></a>Produk
+# <a name="products"></a><span data-ttu-id="d0509-103">Produk</span><span class="sxs-lookup"><span data-stu-id="d0509-103">Products</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="d0509-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="d0509-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Produk adalah teras perniagaan anda. Katalog produk dalam Dynamics 365 Sales Professional ialah koleksi produk dan maklumat penentuan harga. Permudahkan wakil jualan anda untuk meningkatkan jualan mereka dengan mencipta katalog produk secara cepat.
+<span data-ttu-id="d0509-105">Produk adalah teras perniagaan anda.</span><span class="sxs-lookup"><span data-stu-id="d0509-105">Products are the backbone of your business.</span></span> <span data-ttu-id="d0509-106">Katalog produk dalam Dynamics 365 Sales Professional ialah koleksi produk dan maklumat penentuan harga.</span><span class="sxs-lookup"><span data-stu-id="d0509-106">The product catalog in Dynamics 365 Sales Professional is a collection of products and pricing information.</span></span> <span data-ttu-id="d0509-107">Permudahkan wakil jualan anda untuk meningkatkan jualan mereka dengan mencipta katalog produk secara cepat.</span><span class="sxs-lookup"><span data-stu-id="d0509-107">Make it easier for your sales reps to increase their sales by creating a product catalog quickly.</span></span>
 
-## <a name="add-a-product"></a>Tambah produk
+## <a name="add-a-product"></a><span data-ttu-id="d0509-108">Tambah produk</span><span class="sxs-lookup"><span data-stu-id="d0509-108">Add a product</span></span>
 
-1.  Pastikan anda mempunyai Pengurus Jualan Profesional atau peranan Pentadbir Sistem agar anda boleh menambah produk dalam Dynamics 365 Sales Professional.
-2.  Dalam peta tapak, di bawah **Persediaan**, pilih **Produk**.
-3.  Pilih **Tambah Produk** dan isi maklumat berikut:
+1.  <span data-ttu-id="d0509-109">Pastikan anda mempunyai Pengurus Jualan Profesional atau peranan Pentadbir Sistem agar anda boleh menambah produk dalam Dynamics 365 Sales Professional.</span><span class="sxs-lookup"><span data-stu-id="d0509-109">Make sure you have the Sales Manager Professional or a System Administrator role so you can add products in Dynamics 365 Sales Professional.</span></span>
+2.  <span data-ttu-id="d0509-110">Dalam peta tapak, di bawah **Persediaan** , pilih **Produk**.</span><span class="sxs-lookup"><span data-stu-id="d0509-110">In the site map, under **Setup** , select **Products**.</span></span>
+3.  <span data-ttu-id="d0509-111">Pilih **Tambah Produk** dan isi maklumat berikut:</span><span class="sxs-lookup"><span data-stu-id="d0509-111">Select **Add Product** and fill in the following information:</span></span>
 
-    -  **Nama**
-    -  **ID Produk**
-    -  **Induk**: Pilih keluarga produk induk untuk produk. Jika anda mencipta produk anak dalam keluarga produk, nama keluarga produk induk dipopulasikan di sini. Ini tidak boleh diubah selepas rekod disimpan.
-    -  **Sah Dari**/**Sah Sehingga**: Takrifkan tempoh produk sah dengan memilih tarikh **Sah Dari** dan **Sah Sehingga**.
-    -  **Kumpulan Unit**: Pilih kumpulan unit. Kumpulan unit adalah koleksi pelbagai unit yang mana produk dijual dan mendefinisikan bagaimana barang individu dikumpulkan dalam kuantiti lebih besar. Contohnya, jika anda menambah benih sebagai produk, anda mungkin telah mencipta kumpulan unit yang dipanggil "Benih" dan mentakrifkan unit utamanya sebagai "paket."
-    -  **Unit Lalai**: Pilih unit paling umum yang mana produk akan dijual. Unit ialah kuantiti atau ukuran bahawa anda menjual produk anda. Contohnya, jika anda menambah benih sebagai produk, anda boleh menjualnya dalam paket, kotak atau palet. Kesemua ini menjadi satu unit produk. Jika benih kebanyakannya dijual di paket, pilih paket sebagai unit.
-    -  **Senarai Pilihan Lalai**: Jika ini adalah produk baharu, medan ini adalah baca sahaja. Sebelum anda boleh memilih senarai harga lalai, anda harus melengkapkan semua medan yang diperlukan, kemudian simpan rekod. Walaupun senarai harga lalai tidak diperlukan, selepas anda menyimpan rekod produk, adalah idea yang bagus untuk menetapkan senarai harga lalai untuk setiap produk. Kemudian, jika rekod pelanggan tidak mengandungi senarai harga, Jualan boleh menggunakan senarai harga lalai untuk menjana sebut harga, pesanan dan invois.
-    -  **Perpuluhan Disokong**: Masukkan nombor bulat antara 0 dan 5. Jika produk tidak boleh dibahagikan kepada kuantiti pecahan, masukkan 0. Ketepatan medan **Kuantiti** dalam sebut harga, pesanan, atau rekod produk invois disahkan terhadap nilai dalam medan ini jika produk tidak mempunyai senarai harga yang berkaitan.
-    -  **SubjeK**: Kaitkan produk ini dengan subjek. Anda boleh menggunakan subjek untuk mengkategorikan produk anda dan untuk menapis laporan.
+    -  <span data-ttu-id="d0509-112">**Nama**</span><span class="sxs-lookup"><span data-stu-id="d0509-112">**Name**</span></span>
+    -  <span data-ttu-id="d0509-113">**ID Produk**</span><span class="sxs-lookup"><span data-stu-id="d0509-113">**Product ID**</span></span>
+    -  <span data-ttu-id="d0509-114">**Induk** : Pilih keluarga produk induk untuk produk.</span><span class="sxs-lookup"><span data-stu-id="d0509-114">**Parent** : Select a parent product family for the product.</span></span> <span data-ttu-id="d0509-115">Jika anda mencipta produk anak dalam keluarga produk, nama keluarga produk induk dipopulasikan di sini.</span><span class="sxs-lookup"><span data-stu-id="d0509-115">If you're creating a child product in a product family, the name of the parent product family is populated here.</span></span> <span data-ttu-id="d0509-116">Ini tidak boleh diubah selepas rekod disimpan.</span><span class="sxs-lookup"><span data-stu-id="d0509-116">This can't be changed after the record is saved.</span></span>
+    -  <span data-ttu-id="d0509-117">**Sah Dari**/**Sah Sehingga** : Takrifkan tempoh produk sah dengan memilih tarikh **Sah Dari** dan **Sah Sehingga**.</span><span class="sxs-lookup"><span data-stu-id="d0509-117">**Valid From**/**Valid To** : Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.</span></span>
+    -  <span data-ttu-id="d0509-118">**Kumpulan Unit** : Pilih kumpulan unit.</span><span class="sxs-lookup"><span data-stu-id="d0509-118">**Unit Group** : Select a unit group.</span></span> <span data-ttu-id="d0509-119">Kumpulan unit adalah koleksi pelbagai unit yang mana produk dijual dan mendefinisikan bagaimana barang individu dikumpulkan dalam kuantiti lebih besar.</span><span class="sxs-lookup"><span data-stu-id="d0509-119">A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities.</span></span> <span data-ttu-id="d0509-120">Contohnya, jika anda menambah benih sebagai produk, anda mungkin telah mencipta kumpulan unit yang dipanggil "Benih" dan mentakrifkan unit utamanya sebagai "paket."</span><span class="sxs-lookup"><span data-stu-id="d0509-120">For example, if you're adding seeds as a product, you might have created a unit group called "Seeds" and defined its primary unit as "packet."</span></span>
+    -  <span data-ttu-id="d0509-121">**Unit Lalai** : Pilih unit paling umum yang mana produk akan dijual.</span><span class="sxs-lookup"><span data-stu-id="d0509-121">**Default Unit** : Select the most common unit in which the product will be sold.</span></span> <span data-ttu-id="d0509-122">Unit ialah kuantiti atau ukuran bahawa anda menjual produk anda.</span><span class="sxs-lookup"><span data-stu-id="d0509-122">Units are the quantities or measurements that you sell your products in.</span></span> <span data-ttu-id="d0509-123">Contohnya, jika anda menambah benih sebagai produk, anda boleh menjualnya dalam paket, kotak atau palet.</span><span class="sxs-lookup"><span data-stu-id="d0509-123">For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets.</span></span> <span data-ttu-id="d0509-124">Kesemua ini menjadi satu unit produk.</span><span class="sxs-lookup"><span data-stu-id="d0509-124">Each of these becomes a unit of the product.</span></span> <span data-ttu-id="d0509-125">Jika benih kebanyakannya dijual di paket, pilih paket sebagai unit.</span><span class="sxs-lookup"><span data-stu-id="d0509-125">If seeds are mostly sold in packets, select that as the unit.</span></span>
+    -  <span data-ttu-id="d0509-126">**Senarai Pilihan Lalai** : Jika ini adalah produk baharu, medan ini adalah baca sahaja.</span><span class="sxs-lookup"><span data-stu-id="d0509-126">**Default Price List** : If this is a new product, this field is read-only.</span></span> <span data-ttu-id="d0509-127">Sebelum anda boleh memilih senarai harga lalai, anda harus melengkapkan semua medan yang diperlukan, kemudian simpan rekod.</span><span class="sxs-lookup"><span data-stu-id="d0509-127">Before you can select a default price list, you must complete all the required fields and then save the record.</span></span> <span data-ttu-id="d0509-128">Walaupun senarai harga lalai tidak diperlukan, selepas anda menyimpan rekod produk, adalah idea yang bagus untuk menetapkan senarai harga lalai untuk setiap produk.</span><span class="sxs-lookup"><span data-stu-id="d0509-128">Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product.</span></span> <span data-ttu-id="d0509-129">Kemudian, jika rekod pelanggan tidak mengandungi senarai harga, Jualan boleh menggunakan senarai harga lalai untuk menjana sebut harga, pesanan dan invois.</span><span class="sxs-lookup"><span data-stu-id="d0509-129">Then, if a customer record does not contain a price list, Sales can use the default price list for generating quotes, orders, and invoices.</span></span>
+    -  <span data-ttu-id="d0509-130">**Perpuluhan Disokong** : Masukkan nombor bulat antara 0 dan 5.</span><span class="sxs-lookup"><span data-stu-id="d0509-130">**Decimals Supported** : Enter a whole number between 0 and 5.</span></span> <span data-ttu-id="d0509-131">Jika produk tidak boleh dibahagikan kepada kuantiti pecahan, masukkan 0.</span><span class="sxs-lookup"><span data-stu-id="d0509-131">If the product can't be divided into fractional quantities, enter 0.</span></span> <span data-ttu-id="d0509-132">Ketepatan medan **Kuantiti** dalam sebut harga, pesanan, atau rekod produk invois disahkan terhadap nilai dalam medan ini jika produk tidak mempunyai senarai harga yang berkaitan.</span><span class="sxs-lookup"><span data-stu-id="d0509-132">The precision of the **Quantity** field in the quote, order, or invoice product record is validated against the value in this field if the product does not have an associated price list.</span></span>
+    -  <span data-ttu-id="d0509-133">**SubjeK** : Kaitkan produk ini dengan subjek.</span><span class="sxs-lookup"><span data-stu-id="d0509-133">**Subject** : Associate this product with a subject.</span></span> <span data-ttu-id="d0509-134">Anda boleh menggunakan subjek untuk mengkategorikan produk anda dan untuk menapis laporan.</span><span class="sxs-lookup"><span data-stu-id="d0509-134">You can use subjects to categorize your products and to filter reports.</span></span>
 
-4.  Pilih **Simpan**.
-5.  Pada tab **Butiran Tambahan**, dalam bahagian **Item Senarai Harga**, pilih **Lebih perintah** dan kemudian pilih **Tambah Item Senarai Harga Baharu**.
-7.  Pada tab **Butiran Tambahan**, dalam bahagian **Perhubungan Produk**, pilih ikon **Lebih perintah** dan kemudian pilih **Tambah Perhubungan Produk Baharu.**
-8.  Dalam borang **Hubungan Produk Baharu**, masukkan butiran berikut, dan pada bar perintah, pilih **Simpan dan Tutup**:
+4.  <span data-ttu-id="d0509-135">Pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="d0509-135">Select **Save**.</span></span>
+5.  <span data-ttu-id="d0509-136">Pada tab **Butiran Tambahan** , dalam bahagian **Item Senarai Harga** , pilih **Lebih perintah** dan kemudian pilih **Tambah Item Senarai Harga Baharu**.</span><span class="sxs-lookup"><span data-stu-id="d0509-136">On the **Additional Details** tab, in the **Price List Items** section, select **More commands** , and then select **Add New Price List Item**.</span></span>
+7.  <span data-ttu-id="d0509-137">Pada tab **Butiran Tambahan** , dalam bahagian **Perhubungan Produk** , pilih ikon **Lebih perintah** dan kemudian pilih **Tambah Perhubungan Produk Baharu.**</span><span class="sxs-lookup"><span data-stu-id="d0509-137">On the **Additional Details** tab, in the **Product Relationship** section, select the **More commands** icon, and then select **Add New Product Relationship.**</span></span>
+8.  <span data-ttu-id="d0509-138">Dalam borang **Hubungan Produk Baharu** , masukkan butiran berikut, dan pada bar perintah, pilih **Simpan dan Tutup** :</span><span class="sxs-lookup"><span data-stu-id="d0509-138">In the **New Product Relationship** form, enter the following details, and on the command bar, select **Save and Close** :</span></span>
 
-    -   **Produk Berkaitan**: Pilih produk yang anda mahu tambah sebagai produk berkaitan ke rekod produk sedia ada yang sedang anda usahakan.
-    -   **Jenis Hubungan Jualan**: Pilih sama ada anda ingin tambah produk sebagai jualan tambahan, jualan silang, aksesori atau produk gantian.
-    -   **Arah**:Pilih sama ada hubungan antara produk akan menjadi searah atau dwiarah. Apabila anda memilih searah, produk yang anda pilih dalam **Produk Berkaitan** akan ditunjukkan sebagai pengesyoran untuk produk yang sedia ada tetapi tidak sebaliknya.
+    -   <span data-ttu-id="d0509-139">**Produk Berkaitan** : Pilih produk yang anda mahu tambah sebagai produk berkaitan ke rekod produk sedia ada yang sedang anda usahakan.</span><span class="sxs-lookup"><span data-stu-id="d0509-139">**Related Product** : Select a product that you want to add as a related product to the existing product record you're working on.</span></span>
+    -   <span data-ttu-id="d0509-140">**Jenis Hubungan Jualan** : Pilih sama ada anda ingin tambah produk sebagai jualan tambahan, jualan silang, aksesori atau produk gantian.</span><span class="sxs-lookup"><span data-stu-id="d0509-140">**Sales Relation Type** : Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product.</span></span>
+    -   <span data-ttu-id="d0509-141">**Arah** :Pilih sama ada hubungan antara produk akan menjadi searah atau dwiarah.</span><span class="sxs-lookup"><span data-stu-id="d0509-141">**Direction** :Select whether the relationship between the products will be unidirectional or bidirectional.</span></span> <span data-ttu-id="d0509-142">Apabila anda memilih searah, produk yang anda pilih dalam **Produk Berkaitan** akan ditunjukkan sebagai pengesyoran untuk produk yang sedia ada tetapi tidak sebaliknya.</span><span class="sxs-lookup"><span data-stu-id="d0509-142">When you select unidirectional, the product that you select in **Related Product** will be shown as a recommendation for the existing product but not vice versa.</span></span>
 
-9.  Pada borang Produk, pilih **Simpan**.
+9.  <span data-ttu-id="d0509-143">Pada borang Produk, pilih **Simpan**.</span><span class="sxs-lookup"><span data-stu-id="d0509-143">On the Product form, select **Save**.</span></span>
 
-## <a name="import-products"></a>Produk import
+## <a name="import-products"></a><span data-ttu-id="d0509-144">Produk import</span><span class="sxs-lookup"><span data-stu-id="d0509-144">Import products</span></span>
 
-Anda juga boleh menggunakan templat import untuk membawa data produk pukal ke dalam Dynamics 365 Sales.
+<span data-ttu-id="d0509-145">Anda juga boleh menggunakan templat import untuk membawa data produk pukal ke dalam Dynamics 365 Sales.</span><span class="sxs-lookup"><span data-stu-id="d0509-145">You can use import templates to bring bulk product data into Dynamics 365 Sales.</span></span>
 
-## <a name="revise-a-product"></a>Ubah suai produk
+## <a name="revise-a-product"></a><span data-ttu-id="d0509-146">Ubah suai produk</span><span class="sxs-lookup"><span data-stu-id="d0509-146">Revise a product</span></span>
 
-Pastikan inventori produk dikemas kini dengan menyemak sifat untuk produk secara cepat, seperti yang diperlukan, dan menerbitkan semula maklumat supaya ejen jualan anda dapat melihat perubahan terkini pada inventori.
+<span data-ttu-id="d0509-147">Pastikan inventori produk dikemas kini dengan menyemak sifat untuk produk secara cepat, seperti yang diperlukan, dan menerbitkan semula maklumat supaya ejen jualan anda dapat melihat perubahan terkini pada inventori.</span><span class="sxs-lookup"><span data-stu-id="d0509-147">Keep the product inventory updated by quickly revising properties for the products, as required, and republishing the information so that your sales agents can see the latest changes to the inventory.</span></span>
 
-1.  Pastikan anda mempunyai salah satu daripada peranan keselamatan berikut atau keizinan yang setara: Pentadbir Sistem, Penyesuai Sistem, Pengurus Jualan, Naib Presiden Jualan, Naib Presiden Pemasaran atau CEO-Pengurus Perniagaan.
-2.  Dalam peta tapak, pilih **Produk**.
-3.  Buka produk aktif yang anda ingin ubah dan pada bar perintah, pilih **Semak**.
-4.  Dalam kotak dialog **Sahkan Semak Semula**, pilih **Sahkan**. Ini akan menukar status produk kepada **Dalam Semakan**.
-5.  Setelah anda selesai membuat perubahan, pada bar perintah, pilih **Terbit**.
+1.  <span data-ttu-id="d0509-148">Pastikan anda mempunyai salah satu daripada peranan keselamatan berikut atau keizinan yang setara: Pentadbir Sistem, Penyesuai Sistem, Pengurus Jualan, Naib Presiden Jualan, Naib Presiden Pemasaran atau CEO-Pengurus Perniagaan.</span><span class="sxs-lookup"><span data-stu-id="d0509-148">Make sure that you have one of the following security roles or equivalent permissions: System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager.</span></span>
+2.  <span data-ttu-id="d0509-149">Dalam peta tapak, pilih **Produk**.</span><span class="sxs-lookup"><span data-stu-id="d0509-149">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="d0509-150">Buka produk aktif yang anda ingin ubah dan pada bar perintah, pilih **Semak**.</span><span class="sxs-lookup"><span data-stu-id="d0509-150">Open an active product that you want to change, and on the command bar, select **Revise**.</span></span>
+4.  <span data-ttu-id="d0509-151">Dalam kotak dialog **Sahkan Semak Semula** , pilih **Sahkan**.</span><span class="sxs-lookup"><span data-stu-id="d0509-151">In the **Confirm Revise** dialog box, select **Confirm**.</span></span> <span data-ttu-id="d0509-152">Ini akan menukar status produk kepada **Dalam Semakan**.</span><span class="sxs-lookup"><span data-stu-id="d0509-152">This will change the product status to **Under Revision**.</span></span>
+5.  <span data-ttu-id="d0509-153">Setelah anda selesai membuat perubahan, pada bar perintah, pilih **Terbit**.</span><span class="sxs-lookup"><span data-stu-id="d0509-153">After you're done making changes, on the command bar, select **Publish**.</span></span>
 
     > [!TIP]
-    > Untuk mengembalikan perubahan dan meneruskan dengan versi produk aktif yang terakhir, pilih **Kembali**. Ini menukar status produk kembali kepada **Aktif**.
+    > <span data-ttu-id="d0509-154">Untuk mengembalikan perubahan dan meneruskan dengan versi produk aktif yang terakhir, pilih **Kembali**.</span><span class="sxs-lookup"><span data-stu-id="d0509-154">To revert the changes and continue with the last active version of the product, select **Revert**.</span></span> <span data-ttu-id="d0509-155">Ini menukar status produk kembali kepada **Aktif**.</span><span class="sxs-lookup"><span data-stu-id="d0509-155">This changes the status of the product back to **Active**.</span></span>
 
-## <a name="clone-a-product"></a>Klon produk 
+## <a name="clone-a-product"></a><span data-ttu-id="d0509-156">Klon produk</span><span class="sxs-lookup"><span data-stu-id="d0509-156">Clone a product</span></span> 
 
-Apabila anda mencipta produk baharu, jimatkan masa dengan mengklon yang sedia ada. Ini mencipta satu salinan rekod asal dengan semua butiran kecuali nama dan ID.
+<span data-ttu-id="d0509-157">Apabila anda mencipta produk baharu, jimatkan masa dengan mengklon yang sedia ada.</span><span class="sxs-lookup"><span data-stu-id="d0509-157">When you're creating a new product, save time by cloning an existing one.</span></span> <span data-ttu-id="d0509-158">Ini mencipta satu salinan rekod asal dengan semua butiran kecuali nama dan ID.</span><span class="sxs-lookup"><span data-stu-id="d0509-158">This creates a copy of the original record with all the details except for the name and ID.</span></span>
 
-1.  Pastikan anda mempunyai salah satu daripada peranan keselamatan berikut atau keizinan yang setara: Pentadbir Sistem, Penyesuai Sistem, Pengurus Jualan, Naib Presiden Jualan, Naib Presiden Pemasaran atau CEO-Pengurus Perniagaan.
-2.  Dalam peta tapak, pilih **Produk**.
-3.  Pilih rekod produk yang anda ingin klonkan dan pada bar perintah, pilih **Klon**. Kotak dialog pengesahan muncul.
-4.  Pilih **Sahkan**.
+1.  <span data-ttu-id="d0509-159">Pastikan anda mempunyai salah satu daripada peranan keselamatan berikut atau keizinan yang setara: Pentadbir Sistem, Penyesuai Sistem, Pengurus Jualan, Naib Presiden Jualan, Naib Presiden Pemasaran atau CEO-Pengurus Perniagaan.</span><span class="sxs-lookup"><span data-stu-id="d0509-159">Make sure that you have one of the following security roles or equivalent permissions: System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager.</span></span>
+2.  <span data-ttu-id="d0509-160">Dalam peta tapak, pilih **Produk**.</span><span class="sxs-lookup"><span data-stu-id="d0509-160">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="d0509-161">Pilih rekod produk yang anda ingin klonkan dan pada bar perintah, pilih **Klon**.</span><span class="sxs-lookup"><span data-stu-id="d0509-161">Select a product record that you want to clone, and on the command bar, select **Clone**.</span></span> <span data-ttu-id="d0509-162">Kotak dialog pengesahan muncul.</span><span class="sxs-lookup"><span data-stu-id="d0509-162">A confirmation dialog box appears.</span></span>
+4.  <span data-ttu-id="d0509-163">Pilih **Sahkan**.</span><span class="sxs-lookup"><span data-stu-id="d0509-163">Select **Confirm**.</span></span>
 
-Rekod produk baharu dibuka dengan butiran sama seperti asal kecuali nama dan ID.
+<span data-ttu-id="d0509-164">Rekod produk baharu dibuka dengan butiran sama seperti asal kecuali nama dan ID.</span><span class="sxs-lookup"><span data-stu-id="d0509-164">A new product record opens with the same details as the original one except for the name and ID.</span></span>
 
-## <a name="retire-a-product"></a>Tamatkan produk 
+## <a name="retire-a-product"></a><span data-ttu-id="d0509-165">Tamatkan produk</span><span class="sxs-lookup"><span data-stu-id="d0509-165">Retire a product</span></span> 
 
-Jika organisasi anda tidak menjual produk lagi, tamatkannya supaya produk tidak lagi tersedia kepada ejen jualan anda.
+<span data-ttu-id="d0509-166">Jika organisasi anda tidak menjual produk lagi, tamatkannya supaya produk tidak lagi tersedia kepada ejen jualan anda.</span><span class="sxs-lookup"><span data-stu-id="d0509-166">If your organization doesn't sell a product anymore, retire it so that the product is no longer available to your sales agents.</span></span>
 
-1.  Pastikan anda mempunyai peranan Pentadbir Sistem atau Pengurus Sales Professional atau keizinan yang setara.
-2.  Dalam peta tapak, pilih **Produk**.
-3.  Buka produk aktif yang anda ingin hentikan, dan pada bar perintah, pilih **Henti**.
-4.  Dalam kotak dialog **Sahkan Berhenti**, pilih **Sahkan**.
+1.  <span data-ttu-id="d0509-167">Pastikan anda mempunyai peranan Pentadbir Sistem atau Pengurus Sales Professional atau keizinan yang setara.</span><span class="sxs-lookup"><span data-stu-id="d0509-167">Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.</span></span>
+2.  <span data-ttu-id="d0509-168">Dalam peta tapak, pilih **Produk**.</span><span class="sxs-lookup"><span data-stu-id="d0509-168">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="d0509-169">Buka produk aktif yang anda ingin hentikan, dan pada bar perintah, pilih **Henti**.</span><span class="sxs-lookup"><span data-stu-id="d0509-169">Open an active product that you want to retire, and on the command bar, select **Retire**.</span></span>
+4.  <span data-ttu-id="d0509-170">Dalam kotak dialog **Sahkan Berhenti** , pilih **Sahkan**.</span><span class="sxs-lookup"><span data-stu-id="d0509-170">In the **Confirm Retire** dialog box, select **Confirm**.</span></span>
 
 
-## <a name="delete-a-product"></a>Padamkan produk
+## <a name="delete-a-product"></a><span data-ttu-id="d0509-171">Padamkan produk</span><span class="sxs-lookup"><span data-stu-id="d0509-171">Delete a product</span></span>
 
-Untuk berhenti menjual produk, padamkannya.
+<span data-ttu-id="d0509-172">Untuk berhenti menjual produk, padamkannya.</span><span class="sxs-lookup"><span data-stu-id="d0509-172">To stop selling a product, delete it.</span></span>
 
 > [!IMPORTANT]
-> Anda tidak boleh memulihkan rekod yang telah dipadamkan.
+> <span data-ttu-id="d0509-173">Anda tidak boleh memulihkan rekod yang telah dipadamkan.</span><span class="sxs-lookup"><span data-stu-id="d0509-173">You can't recover a deleted record.</span></span>
 
-1.  Pastikan anda mempunyai peranan Pentadbir Sistem atau Pengurus Sales Professional atau keizinan yang setara.
-2.  Dalam peta tapak, pilih **Produk**.
-3.  Pilih rekod produk yang anda ingin padamkan dan pada bar perintah, pilih **Padam**.
-4.  Dalam kotak dialog **Sahkan Pemadaman**, pilih **Teruskan**.
+1.  <span data-ttu-id="d0509-174">Pastikan anda mempunyai peranan Pentadbir Sistem atau Pengurus Sales Professional atau keizinan yang setara.</span><span class="sxs-lookup"><span data-stu-id="d0509-174">Make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions.</span></span>
+2.  <span data-ttu-id="d0509-175">Dalam peta tapak, pilih **Produk**.</span><span class="sxs-lookup"><span data-stu-id="d0509-175">In the site map, select **Products**.</span></span>
+3.  <span data-ttu-id="d0509-176">Pilih rekod produk yang anda ingin padamkan dan pada bar perintah, pilih **Padam**.</span><span class="sxs-lookup"><span data-stu-id="d0509-176">Select a product record you want to delete, and on the command bar, select **Delete**.</span></span>
+4.  <span data-ttu-id="d0509-177">Dalam kotak dialog **Sahkan Pemadaman** , pilih **Teruskan**.</span><span class="sxs-lookup"><span data-stu-id="d0509-177">In the **Confirm Deletion** dialog box, select **Continue**.</span></span>
  
- ## <a name="quantity-factors-for-products"></a>Faktor kuantiti bagi produk
+ ## <a name="quantity-factors-for-products"></a><span data-ttu-id="d0509-178">Faktor kuantiti bagi produk</span><span class="sxs-lookup"><span data-stu-id="d0509-178">Quantity factors for products</span></span>
 
-Faktor kuantiti menyokong jualan produk berasaskan langganan. Untuk produk berdasarkan langganan, kuantiti pada sebut harga atau baris kontrak projek dinyatakan sebagai bilangan bulan pengguna.
+<span data-ttu-id="d0509-179">Faktor kuantiti menyokong jualan produk berasaskan langganan.</span><span class="sxs-lookup"><span data-stu-id="d0509-179">Quantity factors support the sale of subscription-based products.</span></span> <span data-ttu-id="d0509-180">Untuk produk berdasarkan langganan, kuantiti pada sebut harga atau baris kontrak projek dinyatakan sebagai bilangan bulan pengguna.</span><span class="sxs-lookup"><span data-stu-id="d0509-180">For subscription-based products, the quantity on the quote or project contract line is expressed as the number of user months.</span></span>
 
-Biasanya, harga perisian langganan disimpan dalam katalog sebagai harga bagi setiap pengguna setiap bulan. Walau bagaimanapun, anda boleh menggunakan perihalan masa lain sebagai ganti. Semasa proses jualan, harga pada baris sebut harga biasanya adalah harga bagi setiap pengguna, setiap bulan yang telah dirundingkan dan terdiskaun oleh ejen jualan IT. Setiap urusan mempunyai bilangan pengguna yang berbeza dan bilangan bulan langganan yang berbeza. Kuantiti yang digunakan untuk mengira jumlah baris sebut harga adalah produk bilangan pengguna dan bilangan bulan langganan.
+<span data-ttu-id="d0509-181">Biasanya, harga perisian langganan disimpan dalam katalog sebagai harga bagi setiap pengguna setiap bulan.</span><span class="sxs-lookup"><span data-stu-id="d0509-181">Usually, the price of subscription software is stored in the catalog as the price per user per month.</span></span> <span data-ttu-id="d0509-182">Walau bagaimanapun, anda boleh menggunakan perihalan masa lain sebagai ganti.</span><span class="sxs-lookup"><span data-stu-id="d0509-182">However, you can use other time descriptions instead.</span></span> <span data-ttu-id="d0509-183">Semasa proses jualan, harga pada baris sebut harga biasanya adalah harga bagi setiap pengguna, setiap bulan yang telah dirundingkan dan terdiskaun oleh ejen jualan IT.</span><span class="sxs-lookup"><span data-stu-id="d0509-183">During the sales process, the price on the quote line is usually the per-user, per-month price that was negotiated and discounted by the IT sales agent.</span></span> <span data-ttu-id="d0509-184">Setiap urusan mempunyai bilangan pengguna yang berbeza dan bilangan bulan langganan yang berbeza.</span><span class="sxs-lookup"><span data-stu-id="d0509-184">Each deal has a different number of users and a different number of subscription months.</span></span> <span data-ttu-id="d0509-185">Kuantiti yang digunakan untuk mengira jumlah baris sebut harga adalah produk bilangan pengguna dan bilangan bulan langganan.</span><span class="sxs-lookup"><span data-stu-id="d0509-185">The quantity that is used to compute the amount of the quote line is a product of the number of users and the number of subscription months.</span></span>
 
-Faktor kuantiti bergantung pada atribut produk. Apabila anda mengkonfigurasikan sifat khusus untuk produk, anda boleh menandakan subset sifat itu atau semua sifat itu, sebagai faktor kuantiti.
+<span data-ttu-id="d0509-186">Faktor kuantiti bergantung pada atribut produk.</span><span class="sxs-lookup"><span data-stu-id="d0509-186">Quantity factors rely on product attributes.</span></span> <span data-ttu-id="d0509-187">Apabila anda mengkonfigurasikan sifat khusus untuk produk, anda boleh menandakan subset sifat itu atau semua sifat itu, sebagai faktor kuantiti.</span><span class="sxs-lookup"><span data-stu-id="d0509-187">When you configure specific properties for a product, you can flag a subset of those properties, or all the properties, as quantity factors.</span></span>
 
-Sistem mengesahkan bahawa hanya sifat angka atau sifat produk yang mempunyai jenis data berangka ditandakan sebagai faktor kuantiti. Apabila produk yang faktor kuantiti dikonfigurasikan ditambah pada baris sebut harga, medan **Kuantiti** pada baris sebut harga akan menjadi medan baca sahaja. Selepas anda memasukkan nilai untuk sifat produk yang merupakan faktor kuantiti, kuantiti baris sebut harga dikira.
+<span data-ttu-id="d0509-188">Sistem mengesahkan bahawa hanya sifat angka atau sifat produk yang mempunyai jenis data berangka ditandakan sebagai faktor kuantiti.</span><span class="sxs-lookup"><span data-stu-id="d0509-188">The system validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors.</span></span> <span data-ttu-id="d0509-189">Apabila produk yang faktor kuantiti dikonfigurasikan ditambah pada baris sebut harga, medan **Kuantiti** pada baris sebut harga akan menjadi medan baca sahaja.</span><span class="sxs-lookup"><span data-stu-id="d0509-189">When a product that quantity factors are configured for is added to a quote line, the **Quantity** field on the quote line becomes a read-only field.</span></span> <span data-ttu-id="d0509-190">Selepas anda memasukkan nilai untuk sifat produk yang merupakan faktor kuantiti, kuantiti baris sebut harga dikira.</span><span class="sxs-lookup"><span data-stu-id="d0509-190">After you enter values for product properties that are quantity factors, the quantity of the quote line is calculated.</span></span>
 
-Contohnya, jika terdapat sifat berikut: 
+<span data-ttu-id="d0509-191">Contohnya, jika terdapat sifat berikut:</span><span class="sxs-lookup"><span data-stu-id="d0509-191">For example, if there are the following properties:</span></span> 
 
-- **Bilangan pengguna**: Bilangan pengguna 
-- **Bilangan bulan**: Bilangan bulan langganan
-- **SKU Produk** 
+- <span data-ttu-id="d0509-192">**Bilangan pengguna** : Bilangan pengguna</span><span class="sxs-lookup"><span data-stu-id="d0509-192">**No of users** : The number of users</span></span> 
+- <span data-ttu-id="d0509-193">**Bilangan bulan** : Bilangan bulan langganan</span><span class="sxs-lookup"><span data-stu-id="d0509-193">**No of Months** : The number of subscription months</span></span>
+- <span data-ttu-id="d0509-194">**SKU Produk**</span><span class="sxs-lookup"><span data-stu-id="d0509-194">**Product SKU**</span></span> 
 
-Sifat **Bilangan Pengguna** dan **Bilangan Bulan** boleh ditanda sebagai faktor kuantiti dengan mengedit sifat baris produk. 
+<span data-ttu-id="d0509-195">Sifat **Bilangan Pengguna** dan **Bilangan Bulan** boleh ditanda sebagai faktor kuantiti dengan mengedit sifat baris produk.</span><span class="sxs-lookup"><span data-stu-id="d0509-195">The **No of Users** and **No of Months** properties can be flagged as quantity factors by editing the properties of the product line.</span></span> 

@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897057"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081230"
 ---
-# <a name="expense-using-mobile"></a>Perbelanjaan menggunakan mudah alih
+# <a name="expense-using-mobile"></a><span data-ttu-id="86556-103">Perbelanjaan menggunakan mudah alih</span><span class="sxs-lookup"><span data-stu-id="86556-103">Expense using mobile</span></span>
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+<span data-ttu-id="86556-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="86556-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Topik ini menyediakan maklumat tentang ruang kerja mudah alih **Pengurusan perbelanjaan**. Ruang kerja ini membolehkan pengguna mengambil dan memuat naik resit supaya ianya boleh melampirkannya ke laporan perbelanjaan kemudian. Pengguna juga boleh mencipta baris perbelanjaan dengan pantas menggunakan resit yang dilampirkan dan menguruskan laporan perbelanjaan mereka. Selain itu, pelulus boleh menggunakan ruang kerja mudah alih **Pengurusan perbelanjaan** untuk melihat laporan perbelanjaan yang ditugaskan kepadanya dan sama ada melulus atau menolak laporan perbelanjaan itu.
+<span data-ttu-id="86556-105">Topik ini menyediakan maklumat tentang ruang kerja mudah alih **Pengurusan perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="86556-106">Ruang kerja ini membolehkan pengguna mengambil dan memuat naik resit supaya ianya boleh melampirkannya ke laporan perbelanjaan kemudian.</span><span class="sxs-lookup"><span data-stu-id="86556-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="86556-107">Pengguna juga boleh mencipta baris perbelanjaan dengan pantas menggunakan resit yang dilampirkan dan menguruskan laporan perbelanjaan mereka.</span><span class="sxs-lookup"><span data-stu-id="86556-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="86556-108">Selain itu, pelulus boleh menggunakan ruang kerja mudah alih **Pengurusan perbelanjaan** untuk melihat laporan perbelanjaan yang ditugaskan kepadanya dan sama ada melulus atau menolak laporan perbelanjaan itu.</span><span class="sxs-lookup"><span data-stu-id="86556-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Ruang kerja mudah alih ini bertujuan untuk digunakan bersama dengan aplikasi mudah alih Dynamics 365 Unified Ops.
+<span data-ttu-id="86556-109">Ruang kerja mudah alih ini bertujuan untuk digunakan bersama dengan aplikasi mudah alih Dynamics 365 Unified Ops.</span><span class="sxs-lookup"><span data-stu-id="86556-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-Banyak organisasi memerlukan salinan resit yang dilampirkan kepada laporan perbelanjaan berkaitan pelancongan atau berkaitan perniagaan yang diserahkan oleh pekerja untuk bayaran ganti. Ruang kerja mudah alih **Pengurusan perbelanjaan** membolehkan pengguna mencipta baris perbelanjaan baharu dengan pantas pada peranti pilihannya menggunakan gambar resit yang dilampirkan. Sebagai alternatif, pengguna boleh mengambil gambar resit dan kemudian melampirkannya kepada laporan perbelanjaan kemudian. Pekerja juga boleh mencipta dan menguruskan laporan perbelanjaan mereka dan kemudian menyerahkannya untuk kelulusan dan pembayaran balik menggunakan peranti mudah alih mereka.
+<span data-ttu-id="86556-110">Banyak organisasi memerlukan salinan resit yang dilampirkan kepada laporan perbelanjaan berkaitan pelancongan atau berkaitan perniagaan yang diserahkan oleh pekerja untuk bayaran ganti.</span><span class="sxs-lookup"><span data-stu-id="86556-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="86556-111">Ruang kerja mudah alih **Pengurusan perbelanjaan** membolehkan pengguna mencipta baris perbelanjaan baharu dengan pantas pada peranti pilihannya menggunakan gambar resit yang dilampirkan.</span><span class="sxs-lookup"><span data-stu-id="86556-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="86556-112">Sebagai alternatif, pengguna boleh mengambil gambar resit dan kemudian melampirkannya kepada laporan perbelanjaan kemudian.</span><span class="sxs-lookup"><span data-stu-id="86556-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="86556-113">Pekerja juga boleh mencipta dan menguruskan laporan perbelanjaan mereka dan kemudian menyerahkannya untuk kelulusan dan pembayaran balik menggunakan peranti mudah alih mereka.</span><span class="sxs-lookup"><span data-stu-id="86556-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Secara khususnya, ruang kerja mudah alih **Pengurusan perbelanjaan** membolehkan pengguna melakukan tugas ini:
+<span data-ttu-id="86556-114">Secara khususnya, ruang kerja mudah alih **Pengurusan perbelanjaan** membolehkan pengguna melakukan tugas ini:</span><span class="sxs-lookup"><span data-stu-id="86556-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Mengambil gambar resit. Memuat naik gambar resit dan melampirkannya kepada laporan perbelanjaan kemudian.
-- Memuat naik fail sebagai resit ditangkap. Anda kemudiannya boleh melampirkan fail itu ke dalam laporan perbelanjaan kemudian.
-- Cipta baris perbelanjaan baharu dengan menggunakan resit yang dilampirkan. Anda kemudian boleh menambah item baris ke laporan perbelanjaan kemudian dan menyerahkannya untuk kelulusan dan pembayaran balik.
+- <span data-ttu-id="86556-115">Mengambil gambar resit.</span><span class="sxs-lookup"><span data-stu-id="86556-115">Take a photo of a receipt.</span></span> <span data-ttu-id="86556-116">Memuat naik gambar resit dan melampirkannya kepada laporan perbelanjaan kemudian.</span><span class="sxs-lookup"><span data-stu-id="86556-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="86556-117">Memuat naik fail sebagai resit ditangkap.</span><span class="sxs-lookup"><span data-stu-id="86556-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="86556-118">Anda kemudiannya boleh melampirkan fail itu ke dalam laporan perbelanjaan kemudian.</span><span class="sxs-lookup"><span data-stu-id="86556-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="86556-119">Cipta baris perbelanjaan baharu dengan menggunakan resit yang dilampirkan.</span><span class="sxs-lookup"><span data-stu-id="86556-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="86556-120">Anda kemudian boleh menambah item baris ke laporan perbelanjaan kemudian dan menyerahkannya untuk kelulusan dan pembayaran balik.</span><span class="sxs-lookup"><span data-stu-id="86556-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Anda juga boleh menggunakan ciri ini:
+<span data-ttu-id="86556-121">Anda juga boleh menggunakan ciri ini:</span><span class="sxs-lookup"><span data-stu-id="86556-121">You can also use these features:</span></span>
 
-- Cipta laporan perbelanjaan baharu.
-- Lampirkan transaksi kad kredit dan perbelanjaan lain yang dicipta sebelum ini dengan laporan perbelanjaan.
-- Cipta perbelanjaan baharu untuk laporan perbelanjaan.
-- Lampirkan resit ke sebarang perbelanjaan untuk laporan perbelanjaan sama ada dengan mengambil gambar resit atau dengan memuat naik fail sebagai resit ditangkap.
-- Bergantung kepada polisi perbelanjaan syarikat, tambah senarai tetamu kepada perbelanjaan.
-- Bergantung kepada polisi perbelanjaan syarikat, perincikan perbelanjaan.
-- Serahkan laporan perbelanjaan untuk kelulusan dan pembayaran balik.
-- Lulus atau tolak Laporan perbelanjaan yang ditugaskan kepada anda sebagai pelulus.
+- <span data-ttu-id="86556-122">Cipta laporan perbelanjaan baharu.</span><span class="sxs-lookup"><span data-stu-id="86556-122">Create a new expense report.</span></span>
+- <span data-ttu-id="86556-123">Lampirkan transaksi kad kredit dan perbelanjaan lain yang dicipta sebelum ini dengan laporan perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="86556-124">Cipta perbelanjaan baharu untuk laporan perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="86556-125">Lampirkan resit ke sebarang perbelanjaan untuk laporan perbelanjaan sama ada dengan mengambil gambar resit atau dengan memuat naik fail sebagai resit ditangkap.</span><span class="sxs-lookup"><span data-stu-id="86556-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="86556-126">Bergantung kepada polisi perbelanjaan syarikat, tambah senarai tetamu kepada perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="86556-127">Bergantung kepada polisi perbelanjaan syarikat, perincikan perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="86556-128">Serahkan laporan perbelanjaan untuk kelulusan dan pembayaran balik.</span><span class="sxs-lookup"><span data-stu-id="86556-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="86556-129">Lulus atau tolak Laporan perbelanjaan yang ditugaskan kepada anda sebagai pelulus.</span><span class="sxs-lookup"><span data-stu-id="86556-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Prasyarat
-Prasyarat berbeza berdasarkan pada versi yang telah dilaksanakan untuk organisasi anda.
+## <a name="prerequisites"></a><span data-ttu-id="86556-130">Prasyarat</span><span class="sxs-lookup"><span data-stu-id="86556-130">Prerequisites</span></span>
+<span data-ttu-id="86556-131">Prasyarat berbeza berdasarkan pada versi yang telah dilaksanakan untuk organisasi anda.</span><span class="sxs-lookup"><span data-stu-id="86556-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika anda menggunakan Dynamics 365 Finance 
-Jika Kewangan telah dilaksanakan untuk organisasi anda, pentadbir sistem mesti menerbitkan ruang kerja mudah alih **Pengurusan perbelanjaan**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="86556-132">Prasyarat jika anda menggunakan Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="86556-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="86556-133">Jika Kewangan telah dilaksanakan untuk organisasi anda, pentadbir sistem mesti menerbitkan ruang kerja mudah alih **Pengurusan perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prasyarat jika anda menggunakan versi 1611 dengan kemas kini platform 3 atau lebih baharu
-Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu dilaksanakan untuk organisasi anda, pentadbir sistem mesti melengkapkan prasyarat berikut. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="86556-134">Prasyarat jika anda menggunakan versi 1611 dengan kemas kini platform 3 atau lebih baharu</span><span class="sxs-lookup"><span data-stu-id="86556-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="86556-135">Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu dilaksanakan untuk organisasi anda, pentadbir sistem mesti melengkapkan prasyarat berikut.</span><span class="sxs-lookup"><span data-stu-id="86556-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Prasyarat</th>
-<th>Peranan</th>
-<th>Penerangan </th>
+<th><span data-ttu-id="86556-136">Prasyarat</span><span class="sxs-lookup"><span data-stu-id="86556-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="86556-137">Peranan</span><span class="sxs-lookup"><span data-stu-id="86556-137">Role</span></span></th>
+<th><span data-ttu-id="86556-138">Penerangan</span><span class="sxs-lookup"><span data-stu-id="86556-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Melaksanakan KB 4019015.</td>
-<td>Pentadbir sistem</td>
-<td>KB 4019015 adalah kemas kini X++ atau hotfix metadata yang mengandungi ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>. Untuk melaksanakan KB 4019015, pentadbir sistem anda mesti mengikut langkah ini.
+<td><span data-ttu-id="86556-139">Melaksanakan KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="86556-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="86556-140">Pentadbir sistem</span><span class="sxs-lookup"><span data-stu-id="86556-140">System administrator</span></span></td>
+<td><span data-ttu-id="86556-141">KB 4019015 adalah kemas kini X++ atau hotfix metadata yang mengandungi ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>.</span><span class="sxs-lookup"><span data-stu-id="86556-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="86556-142">Untuk melaksanakan KB 4019015, pentadbir sistem anda mesti mengikut langkah ini.</span><span class="sxs-lookup"><span data-stu-id="86556-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Muat turun kemas kini daripada Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Pasang hotfix metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cipta pakej boleh dilaksanakan</a> yang mengandungi model <strong>ApplicationSuite</strong> dan <strong>ExpenseMobile</strong> dan kemudian muat naik pakej boleh dilaksanakan ke LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Gunakan pakej boleh dilaksanakan</a>.</li>
+<li><span data-ttu-id="86556-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Muat turun kemas kini daripada Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="86556-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="86556-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Pasang hotfix metadata</a>.</span><span class="sxs-lookup"><span data-stu-id="86556-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="86556-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cipta pakej boleh dilaksanakan</a> yang mengandungi model <strong>ApplicationSuite</strong> dan <strong>ExpenseMobile</strong> dan kemudian muat naik pakej boleh dilaksanakan ke LCS.</span><span class="sxs-lookup"><span data-stu-id="86556-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="86556-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Gunakan pakej boleh dilaksanakan</a>.</span><span class="sxs-lookup"><span data-stu-id="86556-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Terbitkan ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>.</td>
-<td>Pentadbir sistem</td>
-<td>Liht <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Terbitkan ruang kerja mudah alih</a>.</td>
+<td><span data-ttu-id="86556-147">Terbitkan ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>.</span><span class="sxs-lookup"><span data-stu-id="86556-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="86556-148">Pentadbir sistem</span><span class="sxs-lookup"><span data-stu-id="86556-148">System administrator</span></span></td>
+<td><span data-ttu-id="86556-149">Liht <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Terbitkan ruang kerja mudah alih</a>.</span><span class="sxs-lookup"><span data-stu-id="86556-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops
-Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="86556-150">Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops</span><span class="sxs-lookup"><span data-stu-id="86556-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="86556-151">Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:</span><span class="sxs-lookup"><span data-stu-id="86556-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Untuk telefon Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Untuk iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="86556-152">Untuk telefon Android</span><span class="sxs-lookup"><span data-stu-id="86556-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="86556-153">Untuk iPhone</span><span class="sxs-lookup"><span data-stu-id="86556-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Daftar masuk ke aplikasi mudah alih
-1. Mulakan peranti mudah alih anda.
-2. Masukkan URL Dynamics 365.
-4. Kali pertama anda mendaftar masuk, anda akan diprom untuk nama pengguna dan kata laluan anda. Masukkan kelayakan anda.
-5. Selepas anda mendaftar masuk, ruang kerja yang tersedia untuk syarikat anda ditunjukkan. Jika pentadbir sistem anda menerbitkan ruang kerja baharu kemudian, anda perlu menyegar semula senarai ruang kerja mudah alih.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="86556-154">Daftar masuk ke aplikasi mudah alih</span><span class="sxs-lookup"><span data-stu-id="86556-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="86556-155">Mulakan peranti mudah alih anda.</span><span class="sxs-lookup"><span data-stu-id="86556-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="86556-156">Masukkan URL Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="86556-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="86556-157">Kali pertama anda mendaftar masuk, anda akan diprom untuk nama pengguna dan kata laluan anda.</span><span class="sxs-lookup"><span data-stu-id="86556-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="86556-158">Masukkan kelayakan anda.</span><span class="sxs-lookup"><span data-stu-id="86556-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="86556-159">Selepas anda mendaftar masuk, ruang kerja yang tersedia untuk syarikat anda ditunjukkan.</span><span class="sxs-lookup"><span data-stu-id="86556-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="86556-160">Jika pentadbir sistem anda menerbitkan ruang kerja baharu kemudian, anda perlu menyegar semula senarai ruang kerja mudah alih.</span><span class="sxs-lookup"><span data-stu-id="86556-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Tangkap resit menggunakan ruang kerja mudah alih pengurusan Perbelanjaan
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="86556-161">Tangkap resit menggunakan ruang kerja mudah alih pengurusan Perbelanjaan</span><span class="sxs-lookup"><span data-stu-id="86556-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
-2. Pilih **Tangkap resit**.
-3. Pilih **Ambil gambar** atau **Pilih imej**.
-4. Ikuti salah satu langkah ini:
+1. <span data-ttu-id="86556-162">Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="86556-163">Pilih **Tangkap resit**.</span><span class="sxs-lookup"><span data-stu-id="86556-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="86556-164">Pilih **Ambil gambar** atau **Pilih imej**.</span><span class="sxs-lookup"><span data-stu-id="86556-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="86556-165">Ikuti salah satu langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-165">Follow one of these steps:</span></span>
 
-   - Jika anda memilih **Ambil gambar**, ikuti langkah ini:
+   - <span data-ttu-id="86556-166">Jika anda memilih **Ambil gambar** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu. 
-      2. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
-      3. Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.
+      1. <span data-ttu-id="86556-167">Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu.</span><span class="sxs-lookup"><span data-stu-id="86556-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="86556-168">Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.</span><span class="sxs-lookup"><span data-stu-id="86556-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="86556-169">Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.</span><span class="sxs-lookup"><span data-stu-id="86556-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Jika anda memilih **Pilih imej**, ikuti langkah ini:
+    - <span data-ttu-id="86556-170">Jika anda memilih **Pilih imej** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Pilih imej dalam senarai.
-        2. Pilihan: Masukkan nama untuk imej dan masukkan sebarang nota.
+        1. <span data-ttu-id="86556-171">Pilih imej dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="86556-172">Pilihan: Masukkan nama untuk imej dan masukkan sebarang nota.</span><span class="sxs-lookup"><span data-stu-id="86556-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Pilih **Selesai**.
+5. <span data-ttu-id="86556-173">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Masukan dengan pantas perbelanjaan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="86556-174">Masukan dengan pantas perbelanjaan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan</span><span class="sxs-lookup"><span data-stu-id="86556-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
-2. Pilih **Entri perbelanjaan pantas**.
-3. Pilih kategori perbelanjaan. Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.
-4. Masukkan tarikh transaksi perbelanjaan.
-5. Pilihan: Masukkan peniaga untuk perbelanjaan.
-6. Masukkan amaun perbelanjaan.
-7. Pilih mata wang perbelanjaan. Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut mata wang atau tukar ke carian mengikut nama.
-8. Pilih **Ambil gambar** atau **Pilih imej**.
-9. Ikuti salah satu langkah ini:
+1. <span data-ttu-id="86556-175">Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="86556-176">Pilih **Entri perbelanjaan pantas**.</span><span class="sxs-lookup"><span data-stu-id="86556-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="86556-177">Pilih kategori perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-177">Select the expense category.</span></span> <span data-ttu-id="86556-178">Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian.</span><span class="sxs-lookup"><span data-stu-id="86556-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="86556-179">Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini.</span><span class="sxs-lookup"><span data-stu-id="86556-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="86556-180">Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="86556-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="86556-181">Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian.</span><span class="sxs-lookup"><span data-stu-id="86556-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="86556-182">Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="86556-183">Masukkan tarikh transaksi perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="86556-184">Pilihan: Masukkan peniaga untuk perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="86556-185">Masukkan amaun perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="86556-186">Pilih mata wang perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-186">Select the currency of the expense.</span></span> <span data-ttu-id="86556-187">Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian.</span><span class="sxs-lookup"><span data-stu-id="86556-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="86556-188">Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini.</span><span class="sxs-lookup"><span data-stu-id="86556-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="86556-189">Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="86556-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="86556-190">Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian.</span><span class="sxs-lookup"><span data-stu-id="86556-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="86556-191">Cari mengikut mata wang atau tukar ke carian mengikut nama.</span><span class="sxs-lookup"><span data-stu-id="86556-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="86556-192">Pilih **Ambil gambar** atau **Pilih imej**.</span><span class="sxs-lookup"><span data-stu-id="86556-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="86556-193">Ikuti salah satu langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-193">Follow one of these steps:</span></span>
 
-    - Jika anda memilih **Ambil gambar**, anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
-    - Jika anda memilih **Pilih imej**, pilih imej dalam senarai.
+    - <span data-ttu-id="86556-194">Jika anda memilih **Ambil gambar** , anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit.</span><span class="sxs-lookup"><span data-stu-id="86556-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="86556-195">Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.</span><span class="sxs-lookup"><span data-stu-id="86556-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="86556-196">Jika anda memilih **Pilih imej** , pilih imej dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Pilih **Selesai**.
+10. <span data-ttu-id="86556-197">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Luluskan laporan perbelanjaan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan (jika anda menggunakan kemas kini Julai 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="86556-198">Luluskan laporan perbelanjaan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan (jika anda menggunakan kemas kini Julai 2017)</span><span class="sxs-lookup"><span data-stu-id="86556-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
-2. **Kelulusan perbelanjaan** menunjukkan bilangan laporan perbelanjaan yang ditugaskan kepada anda untuk kelulusan. Nombor dikemas kini kira-kira setiap 30 minit. Pilih **Kelulusan Perbelanjaan**.
+1. <span data-ttu-id="86556-199">Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="86556-200">**Kelulusan perbelanjaan** menunjukkan bilangan laporan perbelanjaan yang ditugaskan kepada anda untuk kelulusan.</span><span class="sxs-lookup"><span data-stu-id="86556-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="86556-201">Nombor dikemas kini kira-kira setiap 30 minit.</span><span class="sxs-lookup"><span data-stu-id="86556-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="86556-202">Pilih **Kelulusan Perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-202">Select **Expense approvals**.</span></span>
 
-    Senarai laporan perbelanjaan yang ditugaskan kepada anda untuk kelulusan ditunjukkan.
+    <span data-ttu-id="86556-203">Senarai laporan perbelanjaan yang ditugaskan kepada anda untuk kelulusan ditunjukkan.</span><span class="sxs-lookup"><span data-stu-id="86556-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Pilih laporan perbelanjaan untuk melihat butiran perbelanjaan untuknya.
-4. Pilih perbelanjaan untuk melihat butiran perbelanjaan untuknya. Maklumat yang ditunjukkan untuk perbelanjaan termasuk sebarang resit, tetamu dan butiran perincian.
-5. Kembali ke halaman **Laporan perbelanjaan**, pilih untuk melulus atau menolak laporan perbelanjaan.
-6. Masukkan sebarang komen untuk tindakan kelulusan.
-7. Pilih **Selesai**.
+3. <span data-ttu-id="86556-204">Pilih laporan perbelanjaan untuk melihat butiran perbelanjaan untuknya.</span><span class="sxs-lookup"><span data-stu-id="86556-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="86556-205">Pilih perbelanjaan untuk melihat butiran perbelanjaan untuknya.</span><span class="sxs-lookup"><span data-stu-id="86556-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="86556-206">Maklumat yang ditunjukkan untuk perbelanjaan termasuk sebarang resit, tetamu dan butiran perincian.</span><span class="sxs-lookup"><span data-stu-id="86556-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="86556-207">Kembali ke halaman **Laporan perbelanjaan** , pilih untuk melulus atau menolak laporan perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="86556-208">Masukkan sebarang komen untuk tindakan kelulusan.</span><span class="sxs-lookup"><span data-stu-id="86556-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="86556-209">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Cipta laporan perbelanjaan baharu dan serahkannya untuk kelulusan dengan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan (jika anda menggunakan kemas kini Julai 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="86556-210">Cipta laporan perbelanjaan baharu dan serahkannya untuk kelulusan dengan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan (jika anda menggunakan kemas kini Julai 2017)</span><span class="sxs-lookup"><span data-stu-id="86556-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
-2. Pilih **Entri perbelanjaan**.
-3. Pilih **Laporan baharu** atau pilih laporan perbelanjaan sedia ada dalam senarai.
-4. Untuk laporan perbelanjaan baharu, masukkan tujuan dan sebarang maklumat tambahan yang tersedia. Maklumat ini berbeza-beza bergantung pada cara pengurusan perbelanjaan dikonfigurasikan untuk syarikat anda.
-5. Pilih **Selesai**.
-6. Untuk menambah perbelanjaan sedia ada seperti transaksi kad kredit kepada laporan perbelanjaan, pilih **Lampirkan**.
-7. Pilih satu atau lebih perbelanjaan dalam senarai.
-8. Pilih **Selesai**.
-9. Untuk menambahkan perbelanjaan baharu kepada laporan perbelanjaan, pilih **Perbelanjaan baharu**.
-10. Pilih kategori untuk perbelanjaan. Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.
-11. Pilihan: Masukkan peniaga untuk perbelanjaan.
-12. Masukkan tarikh transaksi perbelanjaan.
-13. Masukkan amaun perbelanjaan.
-14. Pilih mata wang perbelanjaan. Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut mata wang atau tukar ke carian mengikut nama.
-15. Pilih **Selesai**.
-16. Untuk menambah lebih banyak butiran pada perbelanjaan, pilih **Tambah lebih butiran**. Medan yang tersedia bergantung kepada konfigurasi pengurusan perbelanjaan untuk syarikat anda.
-17. Jika polisi syarikat memerlukan resit untuk perbelanjaan, pilih **Resit** dan kemudian ikuti langkah ini:
+1. <span data-ttu-id="86556-211">Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="86556-212">Pilih **Entri perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="86556-213">Pilih **Laporan baharu** atau pilih laporan perbelanjaan sedia ada dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="86556-214">Untuk laporan perbelanjaan baharu, masukkan tujuan dan sebarang maklumat tambahan yang tersedia.</span><span class="sxs-lookup"><span data-stu-id="86556-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="86556-215">Maklumat ini berbeza-beza bergantung pada cara pengurusan perbelanjaan dikonfigurasikan untuk syarikat anda.</span><span class="sxs-lookup"><span data-stu-id="86556-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="86556-216">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-216">Select **Done**.</span></span>
+6. <span data-ttu-id="86556-217">Untuk menambah perbelanjaan sedia ada seperti transaksi kad kredit kepada laporan perbelanjaan, pilih **Lampirkan**.</span><span class="sxs-lookup"><span data-stu-id="86556-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="86556-218">Pilih satu atau lebih perbelanjaan dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="86556-219">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-219">Select **Done**.</span></span>
+9. <span data-ttu-id="86556-220">Untuk menambahkan perbelanjaan baharu kepada laporan perbelanjaan, pilih **Perbelanjaan baharu**.</span><span class="sxs-lookup"><span data-stu-id="86556-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="86556-221">Pilih kategori untuk perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-221">Select the category for the expense.</span></span> <span data-ttu-id="86556-222">Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian.</span><span class="sxs-lookup"><span data-stu-id="86556-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="86556-223">Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini.</span><span class="sxs-lookup"><span data-stu-id="86556-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="86556-224">Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="86556-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="86556-225">Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian.</span><span class="sxs-lookup"><span data-stu-id="86556-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="86556-226">Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="86556-227">Pilihan: Masukkan peniaga untuk perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="86556-228">Masukkan tarikh transaksi perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="86556-229">Masukkan amaun perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="86556-230">Pilih mata wang perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-230">Select the currency of the expense.</span></span> <span data-ttu-id="86556-231">Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian.</span><span class="sxs-lookup"><span data-stu-id="86556-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="86556-232">Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini.</span><span class="sxs-lookup"><span data-stu-id="86556-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="86556-233">Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="86556-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="86556-234">Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian.</span><span class="sxs-lookup"><span data-stu-id="86556-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="86556-235">Cari mengikut mata wang atau tukar ke carian mengikut nama.</span><span class="sxs-lookup"><span data-stu-id="86556-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="86556-236">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-236">Select **Done**.</span></span>
+16. <span data-ttu-id="86556-237">Untuk menambah lebih banyak butiran pada perbelanjaan, pilih **Tambah lebih butiran**.</span><span class="sxs-lookup"><span data-stu-id="86556-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="86556-238">Medan yang tersedia bergantung kepada konfigurasi pengurusan perbelanjaan untuk syarikat anda.</span><span class="sxs-lookup"><span data-stu-id="86556-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="86556-239">Jika polisi syarikat memerlukan resit untuk perbelanjaan, pilih **Resit** dan kemudian ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Pilih **Tangkap resit** atau **lampirkan resit**.
-    2. Ikuti salah satu langkah ini:
+    1. <span data-ttu-id="86556-240">Pilih **Tangkap resit** atau **lampirkan resit**.</span><span class="sxs-lookup"><span data-stu-id="86556-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="86556-241">Ikuti salah satu langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-241">Follow one of these steps:</span></span>
 
-        - Jika anda memilih **Tangkap resit**, ikuti langkah ini:
+        - <span data-ttu-id="86556-242">Jika anda memilih **Tangkap resit** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Pilih **Ambil gambar** atau **Pilih imej**.
-            2. Ikuti salah satu langkah ini:
+            1. <span data-ttu-id="86556-243">Pilih **Ambil gambar** atau **Pilih imej**.</span><span class="sxs-lookup"><span data-stu-id="86556-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="86556-244">Ikuti salah satu langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-244">Follow one of these steps:</span></span>
 
-                - Jika anda memilih **Ambil gambar**, ikuti langkah ini:
+                - <span data-ttu-id="86556-245">Jika anda memilih **Ambil gambar** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
-                    2. Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.
+                    1. <span data-ttu-id="86556-246">Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu.</span><span class="sxs-lookup"><span data-stu-id="86556-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="86556-247">Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.</span><span class="sxs-lookup"><span data-stu-id="86556-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="86556-248">Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.</span><span class="sxs-lookup"><span data-stu-id="86556-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Jika anda memilih **Pilih imej**, ikuti langkah ini:
+                - <span data-ttu-id="86556-249">Jika anda memilih **Pilih imej** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Pilih imej dalam senarai.
-                    2. Pilihan: Masukkan nama untuk imej dan masukkan sebarang nota.
+                    1. <span data-ttu-id="86556-250">Pilih imej dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="86556-251">Pilihan: Masukkan nama untuk imej dan masukkan sebarang nota.</span><span class="sxs-lookup"><span data-stu-id="86556-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Pilih **Selesai**.
+            3.  <span data-ttu-id="86556-252">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-252">Select **Done**.</span></span>
 
-        - Jika anda memilih **Lampirkan resit**, ikuti langkah ini:
+        - <span data-ttu-id="86556-253">Jika anda memilih **Lampirkan resit** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  Pilih satu atau lebih imej dalam senarai.
-            2.  Pilih **Selesai**.
+            1.  <span data-ttu-id="86556-254">Pilih satu atau lebih imej dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="86556-255">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-255">Select **Done**.</span></span>
 
-    3. Pilih butang **Kembali** untuk kembali ke butiran perbelanjaan..
+    3. <span data-ttu-id="86556-256">Pilih butang **Kembali** untuk kembali ke butiran perbelanjaan..</span><span class="sxs-lookup"><span data-stu-id="86556-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Jika polisi syarikat memerlukan tetamu untuk perbelanjaan, pilih **Tetamu** dan kemudian ikuti langkah ini:
+18. <span data-ttu-id="86556-257">Jika polisi syarikat memerlukan tetamu untuk perbelanjaan, pilih **Tetamu** dan kemudian ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Pilih **Tetamu**, **Tetamu terdahulu** atau **Rakan sekerja**.
-    2. Ikuti salah satu langkah ini:
+    1. <span data-ttu-id="86556-258">Pilih **Tetamu** , **Tetamu terdahulu** atau **Rakan sekerja**.</span><span class="sxs-lookup"><span data-stu-id="86556-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="86556-259">Ikuti salah satu langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-259">Follow one of these steps:</span></span>
 
-        - Jika anda memilih **Tetamu**, ikuti langkah ini:
+        - <span data-ttu-id="86556-260">Jika anda memilih **Tetamu** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Masukkan nama tetamu.
-            2. Pilihan: masukkan organisasi dan/atau negara tetamu.
-            3. Pilihan: Masukkan gelaran tetamu.
-            4. Pilih **Selesai**.
+            1. <span data-ttu-id="86556-261">Masukkan nama tetamu.</span><span class="sxs-lookup"><span data-stu-id="86556-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="86556-262">Pilihan: masukkan organisasi dan/atau negara tetamu.</span><span class="sxs-lookup"><span data-stu-id="86556-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="86556-263">Pilihan: Masukkan gelaran tetamu.</span><span class="sxs-lookup"><span data-stu-id="86556-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="86556-264">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-264">Select **Done**.</span></span>
 
-        - Jika anda memilih **Tetamu terdahulu**, ikuti langkah ini:
+        - <span data-ttu-id="86556-265">Jika anda memilih **Tetamu terdahulu** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. Pilih satu atau lebih tetamu terdahulu dalam senarai. Anda lihat senarai tetamu terdahulu yang anda telah tambahkan kepada laporan perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika tetamu terdahulu anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut nama atau bertukar kepada carian mengikut organisasi, negara atau gelaran.
-            2. Pilih **Selesai**.
+            1. <span data-ttu-id="86556-266">Pilih satu atau lebih tetamu terdahulu dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="86556-267">Anda lihat senarai tetamu terdahulu yang anda telah tambahkan kepada laporan perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian.</span><span class="sxs-lookup"><span data-stu-id="86556-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="86556-268">Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini.</span><span class="sxs-lookup"><span data-stu-id="86556-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="86556-269">Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="86556-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="86556-270">Jika tetamu terdahulu anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian.</span><span class="sxs-lookup"><span data-stu-id="86556-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="86556-271">Cari mengikut nama atau bertukar kepada carian mengikut organisasi, negara atau gelaran.</span><span class="sxs-lookup"><span data-stu-id="86556-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="86556-272">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-272">Select **Done**.</span></span>
 
-        - Jika anda memilih **Rakan sekerja**, ikuti langkah ini:
+        - <span data-ttu-id="86556-273">Jika anda memilih **Rakan sekerja** , ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. Pilih satu atau lebih rakan sekerja dalam senarai. Anda lihat senarai rakan sekerja yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika rakan sekerja anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut nama atau bertukar kepada carian mengikut syarikat atau gelaran.
-            2. Pilih **Selesai**.
+            1. <span data-ttu-id="86556-274">Pilih satu atau lebih rakan sekerja dalam senarai.</span><span class="sxs-lookup"><span data-stu-id="86556-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="86556-275">Anda lihat senarai rakan sekerja yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian.</span><span class="sxs-lookup"><span data-stu-id="86556-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="86556-276">Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini.</span><span class="sxs-lookup"><span data-stu-id="86556-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="86556-277">Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="86556-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="86556-278">Jika rakan sekerja anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian.</span><span class="sxs-lookup"><span data-stu-id="86556-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="86556-279">Carian mengikut nama atau bertukar kepada carian mengikut syarikat atau gelaran.</span><span class="sxs-lookup"><span data-stu-id="86556-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="86556-280">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-280">Select **Done**.</span></span>
 
-    3. Pilih butang **Kembali** untuk kembali ke butiran perbelanjaan..
+    3. <span data-ttu-id="86556-281">Pilih butang **Kembali** untuk kembali ke butiran perbelanjaan..</span><span class="sxs-lookup"><span data-stu-id="86556-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Jika polisi syarikat memerlukan perbelanjaan untuk diperincikan, pilih **Perincikan** dan kemudian ikuti langkah ini:
+19. <span data-ttu-id="86556-282">Jika polisi syarikat memerlukan perbelanjaan untuk diperincikan, pilih **Perincikan** dan kemudian ikuti langkah ini:</span><span class="sxs-lookup"><span data-stu-id="86556-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Pilih tarikh pertama untuk perincian.
-    2. Pilih **Tambah perincian**.
-    3. Pilih subkategori untuk perincian perbelanjaan. Anda lihat senarai subkategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Jika subkategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut nama subkategori perbelanjaan.
-    4. Masukkan amaun transaksi untuk perincian.
-    5. Edit tarikh transaksi jika diperlukan.
-    6. Pilih **Selesai**.
-    7. Ulangi langkah sebelum ini hingga anda selesai menambah semua perincian untuk tarikh yang dipilih.
-    8. Untuk hari tambahan, anda boleh memilih **Salin ke hari seterusnya** untuk menyalin perincian ke hari seterusnya. Sebagai alternatif, anda boleh memilih tarikh untuk diperincikan dan kemudian menambah perincian seperti yang anda lakukan untuk tarikh pertama.
-    9. Selepas anda selesai memperincikan perbelanjaan, pilih butang **Kembali** untuk kembali ke butiran perbelanjaan.
+    1. <span data-ttu-id="86556-283">Pilih tarikh pertama untuk perincian.</span><span class="sxs-lookup"><span data-stu-id="86556-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="86556-284">Pilih **Tambah perincian**.</span><span class="sxs-lookup"><span data-stu-id="86556-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="86556-285">Pilih subkategori untuk perincian perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="86556-286">Anda lihat senarai subkategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian.</span><span class="sxs-lookup"><span data-stu-id="86556-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="86556-287">Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini.</span><span class="sxs-lookup"><span data-stu-id="86556-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="86556-288">Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="86556-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="86556-289">Jika subkategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian.</span><span class="sxs-lookup"><span data-stu-id="86556-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="86556-290">Carian mengikut nama subkategori perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="86556-291">Masukkan amaun transaksi untuk perincian.</span><span class="sxs-lookup"><span data-stu-id="86556-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="86556-292">Edit tarikh transaksi jika diperlukan.</span><span class="sxs-lookup"><span data-stu-id="86556-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="86556-293">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="86556-294">Ulangi langkah sebelum ini hingga anda selesai menambah semua perincian untuk tarikh yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="86556-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="86556-295">Untuk hari tambahan, anda boleh memilih **Salin ke hari seterusnya** untuk menyalin perincian ke hari seterusnya.</span><span class="sxs-lookup"><span data-stu-id="86556-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="86556-296">Sebagai alternatif, anda boleh memilih tarikh untuk diperincikan dan kemudian menambah perincian seperti yang anda lakukan untuk tarikh pertama.</span><span class="sxs-lookup"><span data-stu-id="86556-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="86556-297">Selepas anda selesai memperincikan perbelanjaan, pilih butang **Kembali** untuk kembali ke butiran perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Pilih butang **Kembali** untuk kembali ke halaman **Laporan perbelanjaan**.
-21. Ulangi langkah sebelum ini hingga anda selesai menambah semua perbelanjaan.
-22. Pilih **Serahkan**.
-23. Masukkan sebarang komen untuk pelulus.
-24. Pilih **Selesai**.
+20. <span data-ttu-id="86556-298">Pilih butang **Kembali** untuk kembali ke halaman **Laporan perbelanjaan**.</span><span class="sxs-lookup"><span data-stu-id="86556-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="86556-299">Ulangi langkah sebelum ini hingga anda selesai menambah semua perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="86556-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="86556-300">Pilih **Serahkan**.</span><span class="sxs-lookup"><span data-stu-id="86556-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="86556-301">Masukkan sebarang komen untuk pelulus.</span><span class="sxs-lookup"><span data-stu-id="86556-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="86556-302">Pilih **Selesai**.</span><span class="sxs-lookup"><span data-stu-id="86556-302">Select **Done**.</span></span>
