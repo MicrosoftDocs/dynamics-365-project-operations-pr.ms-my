@@ -34,7 +34,7 @@ Subset komponen yang termasuk boleh ditandakan sebagai boleh dituntut menggunaka
 
 Komponen boleh dituntut boleh ditakrifkan pada tugas, peranan dan kategori transaksi.
 
-Boleh dituntut ditakrifkan pada tugas untuk baris kontrak projek dan terpakai untuk semua kelas transaksi yang dimasukkan ke dalam talian. Jika medan **Tugas Termasuk** pada baris kontrak adalah kosong atau ditetapkan kepada * *Seluruh projek* , tab **Tugas boleh dituntut** tidak akan tersedia.
+Boleh dituntut ditakrifkan pada tugas untuk baris kontrak projek dan terpakai untuk semua kelas transaksi yang dimasukkan ke dalam talian. Jika medan **Tugas Termasuk** pada baris kontrak adalah kosong atau ditetapkan kepada * *Seluruh projek* *, tab **Tugas boleh dituntut** tidak akan tersedia.
 
 Boleh dituntut ditakrifkan pada peranan untuk baris kontrak projek hanya terpakai untuk kelas transaksi **Masa**. Jika medan **Sertakan Masa** pada baris kontrak ditetapkan kepada **Tidak** , tab **Peranan boleh dituntut** tidak akan tersedia.
 
