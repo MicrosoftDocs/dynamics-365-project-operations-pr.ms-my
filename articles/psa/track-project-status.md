@@ -3,7 +3,7 @@ title: Jejaki status projek
 description: Cara untuk menjejaki status projek dalam Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081314"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127844"
 ---
 # <a name="track-a-projects-status-project-service"></a>Jejak status projek (Project Service)
 
@@ -40,7 +40,7 @@ Sebagaimana kemajuan penglibatan, peringkat projek dikemas kini untuk menunjukka
 |  **Sebut Harga**   |      Apabila anda mengaitkan projek dengan sebut harga atau menciptanya daripada sebut harga, peringkat projek ditetapkan kepada **Sebut Harga** dan anggaran tarikh mula dan tamat juga dikemas kini. Apabila projek berada dalam peringkat sebut harga, butiran sebut harga dipaparkan pada tab **Sales** di halaman **Projek**.      |
 |   **Pelan**   |                                     Apabila anda menang sebut harga yang dikaitkan dengan projek dan apabila penglibatan mara ke peringkat kontrak, peringkat projek dikemas kini kepada **Pelan**. Butiran kontrak dipaparkan pada tab **Sales** di halaman **Projek**.                                      |
 | **Selesai** |                    Apabila kerja projek selesai, anda boleh menukar peringkat kepada **Selesai**. Apabila peringkat projek ditetapkan kepada selesai, difahami bahawa kerja 100% selesai tetapi projek terus dibuka untuk sebarang masa menunggu atau entri perbelanjaan direkodkan.                     |
-|  **Tutup**   |           Apabila semua transaksi telah direkodkan pada projek dan tiada lagi transaksi untuk dilogkan, anda boleh menetapkan peringkat secara manual kepada **Tutup**. Apabila projek ditetapkan kepada **Tutup** , tiada lagi transaksi boleh dilogkan pada projek dan projek akan menjadi baca sahaja.           |
+|  **Tutup**   |           Apabila semua transaksi telah direkodkan pada projek dan tiada lagi transaksi untuk dilogkan, anda boleh menetapkan peringkat secara manual kepada **Tutup**. Apabila projek ditetapkan kepada **Tutup**, tiada lagi transaksi boleh dilogkan pada projek dan projek akan menjadi baca sahaja.           |
 
 ## <a name="to-track-a-projects-status"></a>Untuk menjejaki status projek  
 

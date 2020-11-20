@@ -3,7 +3,7 @@ title: Konfigurasikan kategori perbelanjaan
 description: Cara untuk mengkonfigurasikan kategori perbelanjaan dalam Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081200"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129284"
 ---
 # <a name="configure-expense-categories-project-service"></a>Konfigurasikan kategori perbelanjaan (Project Service)
 
@@ -37,7 +37,7 @@ Setiap kategori perbelanjaan boleh mempunyai kumpulan unit dan juga unitnya send
   
 2.  Klik **Baharu**.  
   
-3.  Dalam kawasan **Umum** , isikan medan seperti yang diperlukan. Menyediakan kategori perbelanjaan berikut pada tahap minimum adalah amalan yang baik:  
+3.  Dalam kawasan **Umum**, isikan medan seperti yang diperlukan. Menyediakan kategori perbelanjaan berikut pada tahap minimum adalah amalan yang baik:  
   
     -   Tambang penerbangan  
   

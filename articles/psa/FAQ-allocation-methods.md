@@ -3,7 +3,7 @@ title: Kaedah peruntukan tempahan dalam Project Service Automation
 description: Topik ini memberikan maklumat tentang cara berbeza anda boleh tempah peruntukan.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,16 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081222"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131378"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Kaedah peruntukan tempahan dalam Project Service Automation
 
-Apabila anda menambah ahli pasukan secara terus kepada projek pada tab **Pasukan** , atau tempah sumber pada projek atau keperluan dari papan Jadualm terdapat beberapa kaedah peruntukan tempahan berbeza yang anda boleh gunakan. Topik ini menerangkan cara setiap fungsi kaedah, dan kaedah yang mana membawa kepada sumber tempah berlebihan
+Apabila anda menambah ahli pasukan secara terus kepada projek pada tab **Pasukan**, atau tempah sumber pada projek atau keperluan dari papan Jadualm terdapat beberapa kaedah peruntukan tempahan berbeza yang anda boleh gunakan. Topik ini menerangkan cara setiap fungsi kaedah, dan kaedah yang mana membawa kepada sumber tempah berlebihan
 
 ## <a name="full-capacity"></a>Kapasiti Penuh 
 Kaedah Kapasiti Penuh menempah kapasiti penuh sumber utnuk tarikh dari dan sehingga khusus. Contohnya, jika kalendar sumber ditetapkan untuk bekerja lapan jam setiap hari, lima hari dalam semingu, menetapkan tarikh mula dan tamat yang merangkumi lima hari bekerja akan menempah sumber selama 40 jam. Tempahan dilakukan tanpa mengambil kira baki kapasiti sumber. Jika sumber telah ditempah pada projek lain semasa tempah tersebut, 40 jam ditempah sebagai jam tambahan, yang berpotensi membawa kepada tempah berlebihan.

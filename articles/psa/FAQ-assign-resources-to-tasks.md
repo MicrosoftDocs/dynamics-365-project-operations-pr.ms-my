@@ -3,7 +3,7 @@ title: Tugaskan sumber kepada tugas
 description: Topik ini memberikan maklumat tentang cara menugaskan sumber kepada tugas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081417"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125144"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Tugaskan sumber kepada tugas
 
@@ -45,10 +45,10 @@ Anda boleh menambah sumber kepada pasukan projek, kemudian tugaskan sumber kepad
     - **Mengikut Jam Muatan Depan** menempah sumber untuk bilangan jam yang dinyatakan, memuatkan depan masa setiap hari selama tarikh dari dan sehingga.
     - **Tiada** menambah sumber kepada pasukan tetapi tidak mencipta sebarang tempahan yang menyerap kapasiti mereka.
 
-3. Pada grid **Jadual** untuk tugas, pilih ikon **Sumber** dalam sel sumber, kemudian di bawah **Ahli Pasukan** , pilih ahli pasukan yang anda baharu tambah. 
+3. Pada grid **Jadual** untuk tugas, pilih ikon **Sumber** dalam sel sumber, kemudian di bawah **Ahli Pasukan**, pilih ahli pasukan yang anda baharu tambah. 
 
 > [!NOTE]
-> Pada tab **Ahli Pasukan** dan **Penyesuaian** , sumber menunjukkan jam ditempah dan ditugaskan. Jam hendaklah sama, tetapi tidak diperlukan memandangkan tempahan dan tugasan tidaklah terlalu bergandingan. Tab **Penyesuaian** memberikan butiran kepada anda apabila ia berbeza, seperti apabila anda menugaskan sumber lebih jam berbanding yang anda telah tempah. Jika perlu, anda boleh membetulkan maklumat dengan melanjutkan tempahan sumber atau menukar tugasan.
+> Pada tab **Ahli Pasukan** dan **Penyesuaian**, sumber menunjukkan jam ditempah dan ditugaskan. Jam hendaklah sama, tetapi tidak diperlukan memandangkan tempahan dan tugasan tidaklah terlalu bergandingan. Tab **Penyesuaian** memberikan butiran kepada anda apabila ia berbeza, seperti apabila anda menugaskan sumber lebih jam berbanding yang anda telah tempah. Jika perlu, anda boleh membetulkan maklumat dengan melanjutkan tempahan sumber atau menukar tugasan.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Cipta ahli pasukan generik melalui tugasan tugas
 
@@ -58,11 +58,11 @@ Apabila anda mencipta ahli pasukan generik melalui tugasan tugas, anda mencipta 
 
 2. Taipkan nama untuk berfungsi sebagai nama sumber pemegang ruang. Contohnya, Pengurus Program.
 
-3. Pilih **Cipta** , dan dalam medan **Cipta Pantas Ahli Pasukan Projek** , tetapkan peranan untuk sumber generik.
+3. Pilih **Cipta**, dan dalam medan **Cipta Pantas Ahli Pasukan Projek**, tetapkan peranan untuk sumber generik.
 
 4. Anda boleh teruskan menugaskan tugas kepada sumber pemegang ruang ini dengan memilih sumber pada **Pemilih Sumber** untuk tugas tersebut. Ia tersenarai di bawah **Ahli Pasukan**.
 
-5. Apabila anda selesai menugaskan sumber generik, pilih sumber generik pada tab **Pasukan** , kemudian pilih **Jana Keperluan** untuk mencipta keperluan sumber untuk sumber generik.
+5. Apabila anda selesai menugaskan sumber generik, pilih sumber generik pada tab **Pasukan**, kemudian pilih **Jana Keperluan** untuk mencipta keperluan sumber untuk sumber generik.
 
 6. Pilih **Tempah** untuk sumber generik. Kemudian, anda boleh menggunakan papan Jadual untuk mencari dan menempah sumber sebenar. Anda juga boleh menghantar keperluan untuk pemenuhan oleh pengurus sumber.
 

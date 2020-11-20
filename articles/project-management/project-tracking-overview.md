@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081079"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127371"
 ---
 # <a name="project-tracking-overview"></a>Gambaran keseluruhan penjejakan projek
 
@@ -25,10 +25,10 @@ Keperluan untuk menjejaki kemajuan terhadap jadual berbeza-beza mengikut industr
 
 Pandangan **Penjejakan usaha** menjejaki kemajuan tugas dalam jadual dengan membandingkan jam usaha sebenar yang diluangkan pada tugas dengan jam usaha tugas yang dirancang. Dynamics 365 Project Operations menggunakan formula yang berikut untuk mengira metrik penjejakan:
 
-- **Peratusan kemajuan** :  Usaha sebenar diluangkan sehingga kini ÷ Anggaran ketika selesai (EAC) 
-- **Anggaran untuk selesai (ETC)** : Usaha dirancang – Usaha sebenar diluangkan sehingga kini 
-- **EAC** : Usaha selebihnya + Usaha sebenar diluangkan sehingga kini 
-- **Varians usaha yang diunjurkan** : Usaha dirancang – EAC
+- **Peratusan kemajuan**:  Usaha sebenar diluangkan sehingga kini ÷ Anggaran ketika selesai (EAC) 
+- **Anggaran untuk selesai (ETC)**: Usaha dirancang – Usaha sebenar diluangkan sehingga kini 
+- **EAC**: Usaha selebihnya + Usaha sebenar diluangkan sehingga kini 
+- **Varians usaha yang diunjurkan**: Usaha dirancang – EAC
 
 Project Operations menunjukkan unjuran varians usaha pada tugas. Jika EAC adalah lebih daripada usaha yang dirancang, tugas itu diunjurkan untuk mengambil masa yang lebih lama daripada yang dirancang pada asalnya dan di belakang jadual. Jika EAC adalah kurang daripada usaha yang dirancang, tugas itu diunjurkan untuk mengambil masa yang lebih pendek daripada yang dirancang pada asalnya dan mendahului jadual.
 
@@ -60,10 +60,10 @@ Pandangan **Penjejakan kos** membandingkan kos sebenar yang dibelanjakan pada tu
 > [!NOTE]
 > Pandangan ini hanya menunjukkan kos buruh dan tidak termasuk kos daripada anggaran perbelanjaan. Project Operations menggunakan formula yang berikut untuk mengira metrik penjejakan:
 
-- **Peratusan kos yang digunakan** : Kos sebenar dibelanjakan sehingga kini ÷ Anggaran kos ketika selesai
-- **Kos untuk selesai (CTC)** : Kos dirancang – Kos sebenar dibelanjakan sehingga kini
-- **EAC** : Kos selebihnya + Kos sebenar dibelanjakan sehingga kini
-- **Varians kos yang diunjurkan** : Kos dirancang – EAC
+- **Peratusan kos yang digunakan**: Kos sebenar dibelanjakan sehingga kini ÷ Anggaran kos ketika selesai
+- **Kos untuk selesai (CTC)**: Kos dirancang – Kos sebenar dibelanjakan sehingga kini
+- **EAC**: Kos selebihnya + Kos sebenar dibelanjakan sehingga kini
+- **Varians kos yang diunjurkan**: Kos dirancang – EAC
 
 Unjuran varians kos ditunjukkan pada tugas. Jika EAC adalah lebih daripada kos yang dirancang, tugas itu diunjurkan menelan belanja lebih daripada yang dirancang pada asalnya. Oleh itu, ia akan berkembang melebihi belanjawan. Jika EAC adalah kurang daripada kos yang dirancang, tugas itu diunjurkan menelan belanja kurang daripada yang dirancang pada asalnya. Oleh itu, ia berkembang di bawah belanjawan.
 

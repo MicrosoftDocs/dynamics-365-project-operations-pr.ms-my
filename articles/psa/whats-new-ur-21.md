@@ -3,7 +3,7 @@ title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Auto
 description: Topik ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation 21, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081179"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126719"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation, Keluaran Kemas kini 21, V3
 
@@ -54,7 +54,7 @@ Isu berikut telah dibaiki:
 
 Isu berikut telah dibaiki:
 
-- Grid borang **Projek** ( **Tugasan Sumber** , **Tugas** , pandangan **Penyelarasan** , **Anggaran Perbelanjaan** ) tetap boleh diedit walaupun semasa projek tidak aktif.
+- Grid borang **Projek** ( **Tugasan Sumber**, **Tugas**, pandangan **Penyelarasan**, **Anggaran Perbelanjaan**) tetap boleh diedit walaupun semasa projek tidak aktif.
 - Pelanggan duplikasi tidak boleh digabungkan dengan pelanggan yang dipautkan kepada kontrak projek yang telah disahkan.
 - Apabila sumber yang tidak mempunyai kalendar yang sah ditambah, sistem tidak akan mengembalikan mesej ralat mesra pengguna.
 - Butang **Tambah Tugas** pada grid tugas didayakan apabila projek dipautkan kepada **Tambahan Projek Microsoft**.
@@ -71,7 +71,7 @@ Isu berikut telah dibaiki:
 - **Jumlah Harga Jualan** ialah sifar (0) bagi **Kategori** walaupun **Peranan** mempunyai jumlah harga jualan yang bukan sifar.
 - Pelanggan tidak boleh mengubah nilai medan **Status Invois** untuk **Bersedia untuk penginvoisan** apabila proses tersuai lain mengemas kini medan tambahan.
 - Butang **Segar Semula Baris Invois** boleh mencipta beberapa baris pendua jika ia dipilih berulang kali.
-- Butang **Kemas Kini Harga** tidak berfungsi pada sub grid **Harga Peranan** dalam borang **Pandangan Cepat**.
+- Butang **Kemas Kini Harga** tidak berfungsi pada subgrid **Harga Peranan** dalam borang **Pandangan Cepat**.
 - Logik **Ketetapan Senarai Harga Jualan** tidak mengendalikan zon masa dengan betul, menyebabkan pemilihan senarai harga yang salah.
 - **Jumlah Kos Sebenar** projek boleh dimatikan oleh jumlah pecahan selepas entri masa tunggal diluluskan.
 - Logik **Ketetapan Harga** tidak memberikan mesej ralat mesra pengguna jika **RolePrice yang didapatkan semula** tidak mempunyai nilai dalam medan **'Unit utama'** dan **'Harga Dalam Unit Utama**.

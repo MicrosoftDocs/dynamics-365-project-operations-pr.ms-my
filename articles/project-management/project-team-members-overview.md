@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081119"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127439"
 ---
 # <a name="project-team-members"></a>Ahli pasukan projek
 
@@ -47,16 +47,16 @@ Jadual yang berikut menyenaraikan atribut utama ahli pasukan projek.
 
 Daripada grid ahli pasukan, tindakan yang berikut boleh diambil:
 
-- **Tempah** : Untuk organisasi yang melaksanakan manfaat metodologi tempahan hibrid, tindakan tempah akan membolehkan pengguna menempah sumber bernama berdasarkan keperluan yang diperlukan yang dijanakan daripada ahli pasukan generik
-- **Jana Keperluan** : Tindakan ini menjanakan keperluan.
-- **Tentukan Corak** : Membolehkan pengurus projek melaraskan kontur keperluan sumber pada tahap berbutir. Pengurus projek boleh melaraskan keperluan projek tertentu dalam tika yang pengagihan lalainya tidak sesuai.
-- **Serahkan Permintaan** : Untuk organisasi yang menggunakan metodologi tempahan pusat.
-- **Edit** : Atribut ahli pasukan boleh diedit termasuk unit organisasi, peranan dan nama jawatan.
-- **Kekalkan Tempahan** : Apabila tempahan sumber perlu dikemas kini, kekalkan tempahan membolehkan Pengurus projek melaraskan:
+- **Tempah**: Untuk organisasi yang melaksanakan manfaat metodologi tempahan hibrid, tindakan tempah akan membolehkan pengguna menempah sumber bernama berdasarkan keperluan yang diperlukan yang dijanakan daripada ahli pasukan generik
+- **Jana Keperluan**: Tindakan ini menjanakan keperluan.
+- **Tentukan Corak**: Membolehkan pengurus projek melaraskan kontur keperluan sumber pada tahap berbutir. Pengurus projek boleh melaraskan keperluan projek tertentu dalam tika yang pengagihan lalainya tidak sesuai.
+- **Serahkan Permintaan**: Untuk organisasi yang menggunakan metodologi tempahan pusat.
+- **Edit**: Atribut ahli pasukan boleh diedit termasuk unit organisasi, peranan dan nama jawatan.
+- **Kekalkan Tempahan**: Apabila tempahan sumber perlu dikemas kini, kekalkan tempahan membolehkan Pengurus projek melaraskan:
 
     - Mulakan
     - Hujung
     - Jumlah peruntukan usaha
 
-- **Baharu** : Selain menambahkan sumber secara langsung daripada jadual, Pengurus projek boleh menambahkan ahli pasukan bernama atau generik daripada grid ahli pasukan.
-- **Padam** : Dengan memilih satu atau lebih ahli pasukan, Pengurus projek boleh memadamkan sumber yang tidak lagi akan menyertai projek. Memadamkan ahli pasukan juga akan memadamkan semua tugasan sumber yang berkaitan dan membatalkan semua tempahan sedia ada.
+- **Baharu**: Selain menambahkan sumber secara langsung daripada jadual, Pengurus projek boleh menambahkan ahli pasukan bernama atau generik daripada grid ahli pasukan.
+- **Padam**: Dengan memilih satu atau lebih ahli pasukan, Pengurus projek boleh memadamkan sumber yang tidak lagi akan menyertai projek. Memadamkan ahli pasukan juga akan memadamkan semua tugasan sumber yang berkaitan dan membatalkan semua tempahan sedia ada.

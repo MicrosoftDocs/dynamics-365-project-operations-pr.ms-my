@@ -3,7 +3,7 @@ title: Konfigurasi tetapan parameter tambahan
 description: Cara untuk mengkonfigurasikan tetapan parameter tambahan dalam Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081228"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129374"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfigurasikan tetapan parameter tambahan (Project Service)
 
@@ -54,9 +54,9 @@ Untuk menetapkan parameter projek:
   
 2. Klik tetapan parameter yang anda mahu konfigurasikan (tetapan yang anda cipta ketika pertama kali anda memasang [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]) atau klik **Baharu** untuk mencipta tetapan baharu.  
   
-3. Dalam kawasan **Umum** , tetapkan pilihan untuk parameter projek anda.  
+3. Dalam kawasan **Umum**, tetapkan pilihan untuk parameter projek anda.  
   
-4. Dalam kawasan **Senarai Harga** , klik **+** untuk menambah senarai harga dalam senarai juntai bawah **Senarai Harga Parameter Projek** dan kemudian klik **Simpan**.  
+4. Dalam kawasan **Senarai Harga**, klik **+** untuk menambah senarai harga dalam senarai juntai bawah **Senarai Harga Parameter Projek** dan kemudian klik **Simpan**.  
   
 5. Klik butang **Simpan** di sudut kanan bawah skrin.  
 

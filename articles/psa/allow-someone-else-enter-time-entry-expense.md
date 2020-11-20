@@ -3,7 +3,7 @@ title: Benarkan orang lain memasukkan entri masa atau perbelanjaan anda
 description: Cara untuk membenarkan orang lain memasukkan entri masa atau perbelanjaan anda dalam Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081201"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130390"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Benarkan orang lain memasukkan entri masa atau perbelanjaan anda (Project Service)
 
@@ -37,13 +37,13 @@ Sediakan wakil untuk membolehkan orang lain membuat entri masa dan perbelanjaan 
   
 2.  Pada bar perintah, klik **Baharu**.  
   
-3. **Nama** : Masukkan nama untuk rekod.  
+3. **Nama**: Masukkan nama untuk rekod.  
   
-4. **Jenis** : Pilih sama ada wakil boleh memasukkan entri masa atau perbelanjaan bagi pihak anda.  
+4. **Jenis**: Pilih sama ada wakil boleh memasukkan entri masa atau perbelanjaan bagi pihak anda.  
   
-5. **Wakil** : Pilih nama orang yang anda ingin jadikan wakil.  
+5. **Wakil**: Pilih nama orang yang anda ingin jadikan wakil.  
   
-6. **Tarikh mula dan tamat** : Pilih tarikh untuk perwakilan bermula dan tamat.  
+6. **Tarikh mula dan tamat**: Pilih tarikh untuk perwakilan bermula dan tamat.  
   
 7.  Apabila anda selesai, klik **Simpan & Tutup**.  
   
@@ -55,7 +55,7 @@ Sediakan wakil untuk membolehkan orang lain membuat entri masa dan perbelanjaan 
   
 3.  Pada bar perintah, klik **Nyahaktifkan**.  
   
-4.  Pada kotak dialog **Sahkan Penyahaktifan** , pilih **Nyahaktifkan**.  
+4.  Pada kotak dialog **Sahkan Penyahaktifan**, pilih **Nyahaktifkan**.  
   
 ## <a name="enter-time-for-someone-else"></a>Masukkan masa untuk orang lain  
   

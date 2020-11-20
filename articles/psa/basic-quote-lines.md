@@ -3,7 +3,7 @@ title: Sebut harga dan baris sebut harga
 description: Topik ini memberikan maklumat tentang sebut harga dan baris sebut harga.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081343"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129464"
 ---
 # <a name="quotes-and-quote-lines"></a>Sebut harga dan baris sebut harga
 
@@ -35,7 +35,7 @@ Dalam Dynamics 365 Project Service Automation, terdapat dua jenis sebut harga: s
 - Sebut harga jualan menyokong pengaktifan dan semakan. Sebut harga projek tidak menyokong proses tersebut.
 - Anda boleh melampirkan berbilang pesanan kepada sebut harga jualan. Anda boleh melampirkan hanya satu kontrak projek kepada sebut harga projek.
 - Anda boleh memenangi sebut harga jualan dan menyimpan peluang yang berkaitan dibuka. Selepas sebut harga projek dimenangi, peluang yang berkaitan akan ditutup.
-- Sebut harga jualan tidak termasuk beberapa medan dan konsep yang disertakan pada sebut harga projek yang mempunyai medan. Medan termasuk **Unit Kontrak** , **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.  
+- Sebut harga jualan tidak termasuk beberapa medan dan konsep yang disertakan pada sebut harga projek yang mempunyai medan. Medan termasuk **Unit Kontrak**, **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.  
 - Sebut harga jualan dan sebut harga projek juga dikenal pasti oleh medan berasaskan set pilihan yang dinamakan **Jenis**. Untuk sebut harga jualan, medan ini mempunyai nilai **Berasaskan item**. Untuk sebut harga projek, ia mempunyai nilai **Berasaskan kerjas**.
 
 Topik ini akan memberi tumpuan kepada butiran sebut harga projek.
@@ -76,7 +76,7 @@ PSA menyokong kesemua tiga jenis jadual invois untuk baris sebut harga tetap.
 Organisasi perkhidmatan profesional biasanya sebut harga dan invois pelanggan mereka dengan pengelasan kos. Dalam PSA, kos akan diwakili oleh pengelasan transaksi berikut:
 
 - **Masa** – Klasifikasi ini mewakili kos buruh atau masa sumber manusia untuk projek.
-- **Perbelanjaan** : – Pengelasan ini mewakili semua jenis perbelanjaan lain pada projek. Kerana perbelanjaan boleh secara umum dikelaskan, kebanyakan organisasi mencipta subkategori, seperti perjalanan, sewa kereta, hotel atau bekalan pejabat.
+- **Perbelanjaan**: – Pengelasan ini mewakili semua jenis perbelanjaan lain pada projek. Kerana perbelanjaan boleh secara umum dikelaskan, kebanyakan organisasi mencipta subkategori, seperti perjalanan, sewa kereta, hotel atau bekalan pejabat.
 - **Yuran** – Pengelasan ini mewakili overhed pelbagai, penalti dan barangan lain yang dikenakan kepada pelanggan. 
 - **Cukai** – Pengelasan ini mewakili jumlah cukai yang pengguna tambah apabila mereka memasuki perbelanjaan.
 - **Transaksi bahan** – Pengelasan ini mewakili aktual daripada barisan produk pada invois projek yang telah disahkan.
@@ -91,7 +91,7 @@ Sebagai contoh, sebut harga mungkin mengandungi dua baris sebut harga berikut:
 - Perbelanjaan perjalanan berkaitan yang menggunakan kaedah pengebilan harga tetap. Contohnya, semua perbelanjaan perjalanan untuk projek contoh **Pelaksanaan Dynamiscs AX** ialah invois pada nilai wang tetap.
 
 > [!NOTE]
-> Gabungan klasifikasi projek dan transaksi **Masa** , **Perbelanjaan** dan **Yuran** yang dikaitkan dengan baris sebut harga atau baris kontrak mesti unik. Jika gabungan projek dan transaksi yang sama kelas yang dikaitkan dengan lebih daripada satu baris kontrak atau baris sebut harga, PSA tidak akan berfungsi dengan betul.
+> Gabungan klasifikasi projek dan transaksi **Masa**, **Perbelanjaan** dan **Yuran** yang dikaitkan dengan baris sebut harga atau baris kontrak mesti unik. Jika gabungan projek dan transaksi yang sama kelas yang dikaitkan dengan lebih daripada satu baris kontrak atau baris sebut harga, PSA tidak akan berfungsi dengan betul.
 
 ## <a name="billing-types"></a>Jenis pengebilan
 

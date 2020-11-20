@@ -3,7 +3,7 @@ title: Gambaran keseluruhan aktual
 description: Topik ini memberikan maklumat tentang aktual projek.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081426"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129779"
 ---
 # <a name="actuals-overview"></a>Gambaran keseluruhan aktual
 
@@ -39,7 +39,7 @@ Dalam PSA, apabila entri masa telah diserahkan untuk projek yang dipetakan kepad
 
 Logik untuk memasukkan harga lalai pada garisan jurnal. Semua nilai medan daripada entri masa disalin ke garisan jurnal. Medan-medan ini termasuk tarikh transaksi, baris kontrak yang projek dipetakan dan keputusan mata wang dalam senarai harga bersesuaian. 
 
-Medan-medan yang menjejaskan harga lalai, seperti **Peranan** dan **Unit Organisasi** , menyebabkan harga bersesuaian akan dimasukkan secara lalai pada garisan jurnal. Jika anda menambah medan tersuai pada entri masa dan anda mahu nilai medan disebarkan kepada aktual, cipta medan pada entiti Aktual dan gunakan pemetaan medan untuk menyalin medan daripada entri masa kepada aktual.
+Medan-medan yang menjejaskan harga lalai, seperti **Peranan** dan **Unit Organisasi**, menyebabkan harga bersesuaian akan dimasukkan secara lalai pada garisan jurnal. Jika anda menambah medan tersuai pada entri masa dan anda mahu nilai medan disebarkan kepada aktual, cipta medan pada entiti Aktual dan gunakan pemetaan medan untuk menyalin medan daripada entri masa kepada aktual.
 
 ## <a name="submitting-an-expense-entry"></a>Menyerahkan entri perbelanjaan
 

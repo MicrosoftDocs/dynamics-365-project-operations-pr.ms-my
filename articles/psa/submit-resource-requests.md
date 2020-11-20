@@ -3,7 +3,7 @@ title: Serahkan permintaan sumber
 description: Cara untuk menyerahkan permintaan sumber dalam Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081320"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126899"
 ---
 # <a name="submit-resource-requests-project-service"></a>Serahkan permintaan sumber (Project Service)
 
@@ -41,7 +41,7 @@ Sebaik sahaja anda memenangi kontrak projek, anda perlu menyediakan kakitangan u
   
 5.  Untuk sebaliknya membuat tempahan sah sumber, pilih peranan dan kemudian klik **Tempahan Sah**. Ini menunjukkan pandangan kalendar semua sumber dan ketersediaan mereka dengan pengekodan warna yang menyediakan pandangan visual status penempahan sumber. Lakukan mana-mana yang berikut untuk mengoptimumkan carian anda:  
   
-    -   Pilih pandangan atau tertib isihan daripada bahagian atas skrin. Anda juga boleh memilih sama ada hendak menunjukkan ketersediaan untuk **Hari** , **Minggu** atau **Bulan** dan menggunakan anak panah untuk melihat tempoh masa sebelumnya atau seterusnya. Gunakan kotak carian untuk mencari sumber khusus.  
+    -   Pilih pandangan atau tertib isihan daripada bahagian atas skrin. Anda juga boleh memilih sama ada hendak menunjukkan ketersediaan untuk **Hari**, **Minggu** atau **Bulan** dan menggunakan anak panah untuk melihat tempoh masa sebelumnya atau seterusnya. Gunakan kotak carian untuk mencari sumber khusus.  
   
     -   Klik **Pilihan** untuk mengubah paparan. Sebagai contoh, anda boleh menunjukkan petunjuk yang menunjukkan skema warna bagi jenis penempahan berbeza atau anda boleh memilih untuk menunjukkan hanya jenis penempahan tertentu (sebagai contoh, penempahan tetap atau penempahan sementara).  
   

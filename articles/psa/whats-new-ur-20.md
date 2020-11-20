@@ -3,7 +3,7 @@ title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Auto
 description: Topik ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation 20, V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081177"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126764"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation Keluaran Kemas kini 20, V3
 
@@ -48,7 +48,7 @@ Isu berikut telah dibaiki:
 
 Isu berikut telah dibaiki:
 
-- Pada borang **Kontrak** , klik dua kali  **Cipta invois** mencipta dua invois untuk rekod aktual tunggal.
+- Pada borang **Kontrak**, klik dua kali  **Cipta invois** mencipta dua invois untuk rekod aktual tunggal.
 - Dalam Internet Explorer 11, pengguna tidak dapat mencipta entri perbelanjaan.
 - Pembalikan Kos dan pembalikan Jualan yang Tidak Dibilkan adalah tidak berkaitan.
 - Butang **Segar semula Aktual** pada borang **Projek** tidak menyegarkan semula **Tugas Masa Sebenar**.
@@ -59,4 +59,4 @@ Isu berikut telah dibaiki:
 - Unit dan unit nilai kumpulan tidak lalai dengan betul untuk kategori perbelanjaan pada **Butiran Baris Kontrak** dan borang **Butiran Baris Sebut Harga**.
 - Senarai permit **Harga Kos Organisasi Unit** bertindih pada tarikh penguatkuasaan.
 - Pengguna tidak dibenarkan untuk mengubah **OrgUnit** apabila jenis pesanan tidak berasaskan kerja kerana ia akan membawa kepada ralat pengecualian rujukan yang tidak sah.
-- Apabila cuba untuk menavigasi dari borang **Butiran Baris Sebut Harga** , kembali ke tab **Sebut Harga** , borang menyegar semula dan memaparkan tab **Ringkasan**.
+- Apabila cuba untuk menavigasi dari borang **Butiran Baris Sebut Harga**, kembali ke tab **Sebut Harga**, borang menyegar semula dan memaparkan tab **Ringkasan**.

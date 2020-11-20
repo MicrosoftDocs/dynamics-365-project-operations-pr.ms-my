@@ -3,7 +3,7 @@ title: Urus permintaan sumber
 description: Cara untuk menguruskan permintaan sumber dalam Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081227"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129014"
 ---
 # <a name="manage-resource-requests-project-service"></a>Urus permintaan sumber (Project Service)
 
@@ -37,7 +37,7 @@ Pengurus akaun dan pengurus projek sentiasa meminta sumber untuk projek mereka. 
   
     Lakukan mana-mana yang berikut untuk mengoptimumkan carian anda:  
   
-   -   Pilih pandangan atau tertib isihan daripada bahagian atas skrin. Anda juga boleh memilih sama ada hendak menunjukkan ketersediaan untuk **Hari** , **Minggu** atau **Bulan** dan menggunakan anak panah untuk melihat tempoh masa sebelumnya atau seterusnya. Gunakan kotak carian untuk mencari sumber khusus.  
+   -   Pilih pandangan atau tertib isihan daripada bahagian atas skrin. Anda juga boleh memilih sama ada hendak menunjukkan ketersediaan untuk **Hari**, **Minggu** atau **Bulan** dan menggunakan anak panah untuk melihat tempoh masa sebelumnya atau seterusnya. Gunakan kotak carian untuk mencari sumber khusus.  
   
    -   Klik **Pilihan** untuk mengubah paparan. Sebagai contoh, anda boleh menunjukkan petunjuk yang menunjukkan skema warna bagi jenis penempahan berbeza atau anda boleh memilih untuk menunjukkan hanya jenis penempahan tertentu (sebagai contoh, penempahan tetap atau penempahan sementara).  
   

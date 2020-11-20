@@ -3,7 +3,7 @@ title: Cipta entri masa
 description: Topik ini memberikan maklumat tentang cara untuk mencipta entri masa.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081319"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131294"
 ---
 # <a name="create-time-entries"></a>Cipta entri masa
 
@@ -36,12 +36,12 @@ Dalam versi sebelumnya Dynamics 365 Project Service Automation, entri masa penye
 Ikuti langkah ini untuk mencipta entri masa.
 
 1. Pada halaman **Entri Masa** , pilih **Baharu**.
-2. Dalam kotak dialog **Cipta Pantas: Entri Masa** , masukkan tempoh masa penyertaan dalam minit, jam, atau hari. Tempoh mesti di masukkan dalam format berikut: *x* minit , *x* jam atau *x* hari. Jam dan hari boleh juga dimasukkan menggunakan nilai perpuluhan, seperti *x.x* jam atau *x.x* hari.
+2. Dalam kotak dialog **Cipta Pantas: Entri Masa**, masukkan tempoh masa penyertaan dalam minit, jam, atau hari. Tempoh mesti di masukkan dalam format berikut: *x* minit , *x* jam atau *x* hari. Jam dan hari boleh juga dimasukkan menggunakan nilai perpuluhan, seperti *x.x* jam atau *x.x* hari.
 3. Pilih jenis kemasukan masa dan projek yang anda masukkan entri masa untuk anda.
-4. Dalam medan **Tugas Projek** , cari tugas untuk entri masa ini.
+4. Dalam medan **Tugas Projek**, cari tugas untuk entri masa ini.
 
     > [!NOTE]
-    > Jika anda mencipta entri masa untuk tugas yang tidak ditugaskan kepada pengguna, dalam medan **Tugas Projek** , pilih butang **Carian** , pilih **Ubah Pandangan** dan kemudian pilih **Semua Tugas Projek Aktif** ke senarai semua tugas.
+    > Jika anda mencipta entri masa untuk tugas yang tidak ditugaskan kepada pengguna, dalam medan **Tugas Projek**, pilih butang **Carian**, pilih **Ubah Pandangan** dan kemudian pilih **Semua Tugas Projek Aktif** ke senarai semua tugas.
 
 5. Masukkan perihalan, jika perihalan diperlukan dan kemudian pilih **Simpan dan Tutup.**
 
@@ -67,4 +67,4 @@ Anda boleh mengimport data daripada penempahan projek dan tugasan. Apabila anda 
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Kumpul mengikut, isih, cari dan keupayaan menapis
 
-Anda boleh mengumpulkan dan menapis entri masa dengan dimensi yang ditetapkan dalam lajur. Dalam medan **Kumpulkan dengan** , pilih dimensi yang akan digunakan untuk menapis entri masa. Anda juga boleh mengisih rekod kemasukan masa dalam urutan menaik atau menurun dengan menggunakan anak panah isih pada pengepala lajur. Selain itu, anda boleh menunjukkan atau menyembunyikan entri dengan memilih butang **Tapis** pada tajuk lajur dan kemudian, dalam kotak **Carian** , memasukkan teks yang sepatutnya digunakan untuk mencari penyertaan masa dengan nama projek, tugas projek, masa entri atau sumber.
+Anda boleh mengumpulkan dan menapis entri masa dengan dimensi yang ditetapkan dalam lajur. Dalam medan **Kumpulkan dengan**, pilih dimensi yang akan digunakan untuk menapis entri masa. Anda juga boleh mengisih rekod kemasukan masa dalam urutan menaik atau menurun dengan menggunakan anak panah isih pada pengepala lajur. Selain itu, anda boleh menunjukkan atau menyembunyikan entri dengan memilih butang **Tapis** pada tajuk lajur dan kemudian, dalam kotak **Carian**, memasukkan teks yang sepatutnya digunakan untuk mencari penyertaan masa dengan nama projek, tugas projek, masa entri atau sumber.

@@ -3,7 +3,7 @@ title: Proses jualan
 description: Topik ini menyediakan maklumat mengenai proses jualan asas.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129329"
 ---
 # <a name="sales-processes"></a>Proses jualan
 
@@ -70,12 +70,12 @@ Enam peringkat ini diwakili oleh chevrons (\>) yang anda pilih untuk mengembangk
  
 Organisasi anda mungkin menggunakan entiti berbeza untuk mewakili urusan yang sama semasa ia berkembang. Pada awal proses jualan, urusan diwakili oleh entiti Peluang. Apabila masa berlalu dan butiran lanjut muncul, anda mungkin menggunakan anggaran peringkat tinggi untuk mencipta satu atau lebih sebut harga. Jika salah satu daripada sebut harga ini disemak oleh pemegang amanah pelanggan dan dalaman, entiti Sebut Harga mewakili urusan. Selepas pelanggan menerima sebut harga, kontrak projek atau SOW mewakili perjanjian tersebut. Untuk menyokong tingkah laku ini, BPFs berstruktur supaya setiap peringkat dalam proses dihubungkan kepada jadual pangkalan data yang berbeza.
 
-Peringkat **Kelayakan** dalam proses jualan boleh disokong oleh entiti Peluang. Peringkat **Anggaran** dan **Semakan Dalaman** boleh disokong oleh entiti Sebut Harga. Peringkat **Kontrak** , **Penghantaran** dan **Tutup** boleh disokong oleh entiti Kontrak Projek.
+Peringkat **Kelayakan** dalam proses jualan boleh disokong oleh entiti Peluang. Peringkat **Anggaran** dan **Semakan Dalaman** boleh disokong oleh entiti Sebut Harga. Peringkat **Kontrak**, **Penghantaran** dan **Tutup** boleh disokong oleh entiti Kontrak Projek.
 
 Apabila anda memindahkan transaksi melalui peringkat, anda akan digesa untuk mencipta rekod entiti yang sesuai untuk membantu dan membimbing anda melalui proses. Peringkat boleh bersyarat. Contohnya, jika anda memerlukan semakan dalaman sebut harga hanya jika sebut harga menggunakan senarai harga tersuai, anda boleh mengkonfigurasi keadaan tersebut dalam peringkat proses perniagaan yang sesuai. Peringkat **Semakan Dalaman** kemudian ditunjukkan hanya untuk sebut harga yang menggunakan senarai harga tersuai. Untuk semua tawaran dan sebut harga lain, peringkat **Anggaran** diikuti oleh peringkat **Kontrak**.
 
 > [!NOTE]
-> PSA mempunyai halaman khusus untuk entiti Peluang, Sebut Harga, Pesanan dan Invois. Anda mesti mencipta peluang perkhidmatan projek, sebut harga, pesanan dan invois menggunakan halaman maklumat projek untuk entiti tersebut. Jika anda menggunakan halaman lain untuk mencipta rekod, anda tidak akan dapat membuka rekod daripada halaman **Maklumat Projek**. Jika anda mahu membuka rekod daripada halaman **Maklumat Projek** , anda mesti memadamkan rekod dan menciptanya semula menggunakan halaman **Maklumat Projek**. Pada halaman **Maklumat Projek** , logik perniagaan untuk setiap jenis entiti ini memastikan medan **Jenis** rekod ditetapkan dengan betul, dan semua konsep mandatori telah dimulakan dengan betul.
+> PSA mempunyai halaman khusus untuk entiti Peluang, Sebut Harga, Pesanan dan Invois. Anda mesti mencipta peluang perkhidmatan projek, sebut harga, pesanan dan invois menggunakan halaman maklumat projek untuk entiti tersebut. Jika anda menggunakan halaman lain untuk mencipta rekod, anda tidak akan dapat membuka rekod daripada halaman **Maklumat Projek**. Jika anda mahu membuka rekod daripada halaman **Maklumat Projek**, anda mesti memadamkan rekod dan menciptanya semula menggunakan halaman **Maklumat Projek**. Pada halaman **Maklumat Projek**, logik perniagaan untuk setiap jenis entiti ini memastikan medan **Jenis** rekod ditetapkan dengan betul, dan semua konsep mandatori telah dimulakan dengan betul.
 
 > ![Maklumat projek untuk arahan baharu](media/basic-guide-4.png)
  

@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081173"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130319"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Pemenuhan keperluan sumber generik
 
@@ -21,9 +21,9 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Anda boleh menempah sumber bernama untuk menggantikan sumber generik yang mempunyai keperluan sumber.
 
-1. Pada halaman **Projek** , pilih tab **Pasukan**.
+1. Pada halaman **Projek**, pilih tab **Pasukan**.
 2. Pilih sumber generik yang mempunyai keperluan sumber daripada senarai dan kemudian pilih **Tempah**. Atau buka keperluan sumber dan kemudian pilih **Tempah**.
-3. Pada halaman **Pembantu Jadual** , pilih sumber dinamakan untuk menempah ke dalam pasukan projek anda dan kemudian pilih **Tempah**.
+3. Pada halaman **Pembantu Jadual**, pilih sumber dinamakan untuk menempah ke dalam pasukan projek anda dan kemudian pilih **Tempah**.
 
 Apabila tempahan selesai dan diisi dengan sumber bernama, sumber generik digantikan dengan sumber bernama.
 

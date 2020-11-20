@@ -3,7 +3,7 @@ title: Kumpulan unit dan unit
 description: Topik ini menyediakan maklumat mengenai kumpulan unit dan unit.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081244"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130589"
 ---
 # <a name="unit-groups-and-units"></a>Kumpulan unit dan unit
 
@@ -33,16 +33,16 @@ Kumpulan unit dan unit adalah entiti asas dalam Microsoft Dynamics 365. Sebuah u
 
 Berikut adalah beberapa contoh unit dan kumpulan unit:
  
-- **Kumpulan unik** : Jarak 
-    - **Unit** : Batu, Kiilometer dan sebagainya.
-- **Kumpulan unit** : Masa
-    - **Unit** : Jam, hari, minggu dan sebagainya. 
+- **Kumpulan unik**: Jarak 
+    - **Unit**: Batu, Kiilometer dan sebagainya.
+- **Kumpulan unit**: Masa
+    - **Unit**: Jam, hari, minggu dan sebagainya. 
 
 Apabila anda menyediakan berbilang unit dalam kumpulan unit, anda juga mesti menyediakan faktor penukaran antara mereka dengan menunjukkan unit pertama yang anda sediakan sebagai unit lalai atau utama bagi kumpulan unit. 
 
-Sebagai contoh, dalam kumpulan unit **Masa** , jika anda meyediakan **Jam** sebagai unit pertama, sistem menetapkan **Jam** sebagai unit lalai. Jika unit seterusnya yang anda sediakan ialah **Hari** , anda mesti menyediakan faktor penukaran untuk **Hari** kepada **Jam**. Jika anda kemudian menambah **Minggu** sebagai unit ketiga, anda mesti menyediakan faktor penukaran untuk **Minggu** dari segi **Hari** atau **Jam**. 
+Sebagai contoh, dalam kumpulan unit **Masa**, jika anda meyediakan **Jam** sebagai unit pertama, sistem menetapkan **Jam** sebagai unit lalai. Jika unit seterusnya yang anda sediakan ialah **Hari**, anda mesti menyediakan faktor penukaran untuk **Hari** kepada **Jam**. Jika anda kemudian menambah **Minggu** sebagai unit ketiga, anda mesti menyediakan faktor penukaran untuk **Minggu** dari segi **Hari** atau **Jam**. 
 
-Imej berikut menunjukkan persediaan contoh untuk unit **Hari** , tempat medan **Kuantiti** menunjukkan bilangan jam yang berada dalam sehari dan **Minggu** , di mana medan **Kuantiti** menunjukkan bilangan hari dalam seminggu.
+Imej berikut menunjukkan persediaan contoh untuk unit **Hari**, tempat medan **Kuantiti** menunjukkan bilangan jam yang berada dalam sehari dan **Minggu**, di mana medan **Kuantiti** menunjukkan bilangan hari dalam seminggu.
 
 > ![Unit kumpulan: Halaman maklumat](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation menggunakan unit dan kumpulan unit untuk
 
 Untuk perbelanjaan, setiap kategori perbelanjaan mempunyai kumpulan unit dan unit lalai. Nilai ini dimasukkan sebagai nilai lalai pada senarai harga entri untuk kategori perbelanjaan. 
 
-Sebagai contoh, anda mempunyai kategori perbelanjaan yang dinamakan **Perbatuan**. Ia mempunyai kumpulan unit yang dinamakan **Jarak** dan unit lalai yang dinamakan **Batu**. Jika anda menyediakan kumpulan unit **Jarak** supaya ia mempunyai dua unit ( **Batu** dan **Kilometer** ), anda boleh menetapkan dua harga untuk kategori **Perbatuan** pada satu senarai harga: harga setiap batu dan harga setiap kilometer.
+Sebagai contoh, anda mempunyai kategori perbelanjaan yang dinamakan **Perbatuan**. Ia mempunyai kumpulan unit yang dinamakan **Jarak** dan unit lalai yang dinamakan **Batu**. Jika anda menyediakan kumpulan unit **Jarak** supaya ia mempunyai dua unit (**Batu** dan **Kilometer**), anda boleh menetapkan dua harga untuk kategori **Perbatuan** pada satu senarai harga: harga setiap batu dan harga setiap kilometer.
 
 | Kategori perbelanjaan  | Kumpulan unit  | Unit      | Kaedah penetapan harga  | Harga seunit  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Baris anggaran untuk medan **Masa pada Sebut Harga** boleh dinyatakan dalam unit
 Contoh berikut menunjukkan cara PSA menggunakan faktor kumpulan unit, unit dan penukaran.
 - Unit
 
-   - **Kumpulan unit** : Masa 
-   - **Unit** : Jam 
+   - **Kumpulan unit**: Masa 
+   - **Unit**: Jam 
     
     - **Hari** - Faktor penukaran: 8 jam       
     - **Minggu** - Faktor penukaran: 40 jam  
         
 - Senarai harga persediaan pada Projek A:
 
-    - **Nama** : Harga jualan UK 2016 
-    - **Unit masa lalai** : hari 
-    - **Mata wang** : GBP
+    - **Nama**: Harga jualan UK 2016 
+    - **Unit masa lalai**: hari 
+    - **Mata wang**: GBP
 
 | Peranan      | Kumpulan unit | Unit | Unit organisasi | Harga   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ Di sesetengah negara atau rantau, terdapat keperluan perundangan yang mana kadar
 Tidak. Anggaran jadual adalah terhad kepada jam dan tidak boleh ditukar.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Bolehkan unit dan kumpulan unit diedit, dipadamkan dan ditambah?
-Ya. Dengan pengecualian kumpuan unit **Masa** dan unit **Jam** , semua unit boleh dipadamkan atau diedit, dan unit baharu boleh ditambah. Pada PSA, kumpulan unit **Masa** dan unit **Jam** tidak boleh dipadamkan. Walau bagaimanapun, ia boleh dikemas kini dengan teks terjemahan untuk medan **Nama**.
+Ya. Dengan pengecualian kumpuan unit **Masa** dan unit **Jam**, semua unit boleh dipadamkan atau diedit, dan unit baharu boleh ditambah. Pada PSA, kumpulan unit **Masa** dan unit **Jam** tidak boleh dipadamkan. Walau bagaimanapun, ia boleh dikemas kini dengan teks terjemahan untuk medan **Nama**.

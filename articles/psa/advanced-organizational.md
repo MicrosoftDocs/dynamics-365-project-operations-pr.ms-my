@@ -3,7 +3,7 @@ title: Unit organisasi
 description: Topik ini menyediakan maklumat mengenai unit organisasi dalam Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081340"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130634"
 ---
 # <a name="organizational-units"></a>Unit organisasi 
 
@@ -50,7 +50,7 @@ Di samping itu, terdapat atribut untuk unit organisasi pada entiti Sumber. Setia
 
 Unit organisasi memainkan dua peranan dalam PSA:
 
-- **Unit kontrak** – Unit organisasi yang mewakili kumpulan atau bahagian syarikat yang bertanggungjawab terutamanya untuk memenangi jualan dan menguruskan penyampaian kerja dan perkhidmatan kepada pelanggan. Unit kontrak dikenal pasti oleh medan **Unit kontrak** dalam bahagian pengepala halaman **Peluang** , **Sebut Harga** , **Kontrak Projek** dan **Projek**.
+- **Unit kontrak** – Unit organisasi yang mewakili kumpulan atau bahagian syarikat yang bertanggungjawab terutamanya untuk memenangi jualan dan menguruskan penyampaian kerja dan perkhidmatan kepada pelanggan. Unit kontrak dikenal pasti oleh medan **Unit kontrak** dalam bahagian pengepala halaman **Peluang**, **Sebut Harga**, **Kontrak Projek** dan **Projek**.
 - **Unit Sumber** – Unit organisasi yang mana sumber tergolong dalam atau ditugaskan. Unit organisasi ini boleh menyediakan sumber untuk beberapa peranan mengenai pernyataan kerja (SOWs) dan projek yang dimiliki oleh unit kontrak.
 
 > ![Unit kontrak dan unit sumber](media/advanced-1.png)

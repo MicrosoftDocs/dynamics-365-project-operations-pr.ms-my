@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081225"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127773"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Cipta dan sahkan jurnal Pembetulan
 
@@ -36,31 +36,31 @@ Untuk melengkapkan prosedur dalam topik ini, anda akan memerlukan keizinan Penta
 
 Lengkapkan langkah berikut untuk membetulkan entri masa tunggal atau berbilang bagi projek.
 
-1. Dalam kawasan **Jualan** , pilih **Urus niaga** dan kemudian pilih **Masa yang Diluluskan**. 
+1. Dalam kawasan **Jualan**, pilih **Urus niaga** dan kemudian pilih **Masa yang Diluluskan**. 
 
-2. Dalam senarai **Masa yang Diluluskan** , cari dan pilih satu atau lebih entri masa yang diluluskan untuk dibetulkan. Anda boleh menggunakan penapis untuk mengesan entri yang berkaitan. Contohnya, anda boleh menapis ID Projek dan memilih semua entri masa yang diluluskan dengan ID Projek tersebut.
+2. Dalam senarai **Masa yang Diluluskan**, cari dan pilih satu atau lebih entri masa yang diluluskan untuk dibetulkan. Anda boleh menggunakan penapis untuk mengesan entri yang berkaitan. Contohnya, anda boleh menapis ID Projek dan memilih semua entri masa yang diluluskan dengan ID Projek tersebut.
 
 3. Pilih **Entri yang betul**. Jurnal pembetulan baharu dicipta secara automatik, dengan jenis ditugaskan **Pembetulan masa**. Entri yang anda pilih ditambah kepada jurnal tersebut. 
 
-4. Pada halaman **Jurnal Baharu** , masukkan **Perihalan** untuk jurnal pembetulan anda dan kemudian pilih tab **Pembetulan Entri Masa**.  
+4. Pada halaman **Jurnal Baharu**, masukkan **Perihalan** untuk jurnal pembetulan anda dan kemudian pilih tab **Pembetulan Entri Masa**.  
 
-5. Dalam bahagian **Nilai Baharu untuk Entri Masa** , kemas kini medan dengan maklumat yang betul mengikut keperluan. Contohnya, anda boleh mengubah projek yang ditugaskan atau sumber boleh ditempah.
+5. Dalam bahagian **Nilai Baharu untuk Entri Masa**, kemas kini medan dengan maklumat yang betul mengikut keperluan. Contohnya, anda boleh mengubah projek yang ditugaskan atau sumber boleh ditempah.
 
-6. Pilih **Pratonton**. Dalam kotak dialog, pilih **OK**. Pada tab **Garisan jurnal** , anda boleh melihat senarai aktual asal yang berkaitan dengan entri masa terpilih yang telah diterbalikkan dan baris sepadan yang dibetulkan yang telah dicipta. Jika pembetulan tambahan perlu dibuat, ulangi langkah 5 dan 6. 
+6. Pilih **Pratonton**. Dalam kotak dialog, pilih **OK**. Pada tab **Garisan jurnal**, anda boleh melihat senarai aktual asal yang berkaitan dengan entri masa terpilih yang telah diterbalikkan dan baris sepadan yang dibetulkan yang telah dicipta. Jika pembetulan tambahan perlu dibuat, ulangi langkah 5 dan 6. 
 
 > [!NOTE]
 > Semua aktual yang dibetulkan akan mempunyai nilai yang sama yang anda pilih dalam bahagian **Nilai Baharu untuk Entri Masa**.
 
 7. Jika pembetulan muncul seperti yang dijangka, pilih **Sahkan**. Dalam kotak dialog, pilih **OK**.
 
-8. Kembali ke kawasan **Jualan** , pilih **Projek** , dan kemudian buka projek yang anda baru sahaja kemas kini entri masanya. 
+8. Kembali ke kawasan **Jualan**, pilih **Projek**, dan kemudian buka projek yang anda baru sahaja kemas kini entri masanya. 
 
-9. Pada halaman **Projek** , pada tab **Aktual** , lihat perubahan yang anda lakukan. 
+9. Pada halaman **Projek**, pada tab **Aktual**, lihat perubahan yang anda lakukan. 
 
 > [!NOTE]
 > Jika tab **Aktual** tidak kelihatan, pilih **Berkaitan** > **Aktual**.  
 
-10. Dalam senarai **Pandangan Berkaitan Aktual** , anda boleh melihat bahawa entri masa asal yang telah diterbalikkan masih disenaraikan, seperti entri masa dibetulkan yang sepadan. 
+10. Dalam senarai **Pandangan Berkaitan Aktual**, anda boleh melihat bahawa entri masa asal yang telah diterbalikkan masih disenaraikan, seperti entri masa dibetulkan yang sepadan. 
 
 Sebagai contoh, dalam grafik berikut, terdapat dua baris item dengan kuantiti 8.00 yang mempunyai debit disenaraikan dalam lajur Amaun. Selain itu, terdapat dua baris item dengan kuantiti -8.00 yang menunjukkan amaun yang dikreditkan dalam lajur Amaun. Pembetulan ini membawa kuantiti kepada sifar.
 
@@ -69,11 +69,11 @@ Sebagai contoh, dalam grafik berikut, terdapat dua baris item dengan kuantiti 8.
 
 Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan. 
 
-1. Dalam kawasan **Jualan** , dalam anak tetingkap navigasi kiri, di bawah **Urus niaga** , pilih **Perbelanjaan Diluluskan**.
+1. Dalam kawasan **Jualan**, dalam anak tetingkap navigasi kiri, di bawah **Urus niaga**, pilih **Perbelanjaan Diluluskan**.
 
-2. Dalam senarai **Perbelanjaan Diluluskan** , pilih projek yang anda mahu betulkan dan kemudian pilih **Entri yang betul**. Jurnal pembetulan akan dicipta secara automatik dengan jenis ditugaskan **Pembetulan perbelanjaan**. 
+2. Dalam senarai **Perbelanjaan Diluluskan**, pilih projek yang anda mahu betulkan dan kemudian pilih **Entri yang betul**. Jurnal pembetulan akan dicipta secara automatik dengan jenis ditugaskan **Pembetulan perbelanjaan**. 
 
-3. Pada halaman **Jurnal Baharu** , masukkan **Perihalan** untuk pembetulan dan pada tab **Pembetulan Perbelanjaan** , dalam bahagian **Nilai Baharu untuk Perbelanjaan** , pilih medan data yang anda mahu betulkan untuk baris perbelanjaan yang dipilih. Contohnya, anda boleh menugaskan perbelanjaan ke **Projek** lain atau membetulkan **Kategori Perbelanjaan** , **Tarikh Perbelanjaan** atau **Sumber Boleh Ditempah**.
+3. Pada halaman **Jurnal Baharu**, masukkan **Perihalan** untuk pembetulan dan pada tab **Pembetulan Perbelanjaan**, dalam bahagian **Nilai Baharu untuk Perbelanjaan**, pilih medan data yang anda mahu betulkan untuk baris perbelanjaan yang dipilih. Contohnya, anda boleh menugaskan perbelanjaan ke **Projek** lain atau membetulkan **Kategori Perbelanjaan**, **Tarikh Perbelanjaan** atau **Sumber Boleh Ditempah**.
 
 4. Pilih **Pratonton**. Dalam kotak dialog, pilih **OK**. 
 
@@ -86,6 +86,6 @@ Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan.
 
 7. Selepas anda mengesahkan jurnal pembetulan, navigasi kembali ke projek atau projek yang anda kemas kini, untuk melihat perubahan anda.  
 
-8. Dalam halaman projek, pada tab **Aktual** , semak **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan. Grafik berikut menunjukkan jumlah entri perbelanjaan asal dan jumlah entri perbelanjaan dibetulkan yang sepadan. 
+8. Dalam halaman projek, pada tab **Aktual**, semak **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan. Grafik berikut menunjukkan jumlah entri perbelanjaan asal dan jumlah entri perbelanjaan dibetulkan yang sepadan. 
 
 

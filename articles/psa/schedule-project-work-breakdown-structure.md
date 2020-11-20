@@ -3,7 +3,7 @@ title: Jadualkan projek dengan struktur pecahan kerja
 description: Cara untuk menjadualkan projek dengan struktur pecahan kerja dalam Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081410"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127889"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Jadualkan projek dengan struktur pecahan kerja (Project Service)
 
@@ -86,14 +86,14 @@ Anda akan menggunakan jenis tugas berikut ketika mencipta struktur pecahan kerja
   
 ### <a name="schedule-attributes"></a>Atribut jadual
 
- - Tetapkan nilai untuk **Jam usaha** , **Bilangan sumber** , **Tarikh mula** , **Tarikh tamat** dan **Tempoh** untuk menentukan jadual untuk tugas. 
+ - Tetapkan nilai untuk **Jam usaha**, **Bilangan sumber**, **Tarikh mula**, **Tarikh tamat** dan **Tempoh** untuk menentukan jadual untuk tugas. 
  - **Usaha** ialah anggaran jam yang diperlukan untuk melengkapkan tugas.
  - **Bilangan sumber** ialah anggaran yang pengurus projek letak dalam tugas untuk membantu menghasilkan jadual yang sebaik mungkin. 
  - **Tempoh** (dalam hari) menunjukkan bilangan hari bekerja yang diperlukan untuk melengkapkan tugas.  
   
 ### <a name="staffing-attributes"></a>Atribut kakitangan
 
- - **Peranan** , **Unit organisasi sumber** , **Bilangan sumber** dan **Sumber** menghuraikan keperluan kakitangan untuk tugas. 
+ - **Peranan**, **Unit organisasi sumber**, **Bilangan sumber** dan **Sumber** menghuraikan keperluan kakitangan untuk tugas. 
  - **Peranan** menghuraikan jenis sumber yang diperlukan untuk melaksanakan tugas. 
  - **Unit organisasi sumber** menunjukkan unit organisasi dari mana sumber patut diambil bekerja untuk tugas tersebut; ini juga memberi kesan kepada anggaran kos dan jualan tugas, kerana ini diambil kira ketika menentukan harga jualan unit untuk sumber. 
  - **Sumber** mempunyai sumber generik atau sumber bernama apabila ia ditemui.  

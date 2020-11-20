@@ -3,7 +3,7 @@ title: Konfigurasikan peranan sumber
 description: Cara untuk mengkonfigurasikan peranan sumber dalam Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081226"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129149"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfigurasikan peranan sumber (Project Service)
 
@@ -41,13 +41,13 @@ Peranan memainkan peranan penting dalam perancangan projek, apabila menentukan k
   
 2.  Klik **Baharu**.  
   
-3.  Dalam kawasan **Umum** , masukkan nama untuk peranan dalam **Nama** dan kemudian isikan medan lain seperti yang diperlukan.  
+3.  Dalam kawasan **Umum**, masukkan nama untuk peranan dalam **Nama** dan kemudian isikan medan lain seperti yang diperlukan.  
   
 4.  Klik **Simpan** untuk mencipta rekod supaya anda boleh terus mengeditnya.  
   
-5.  Dalam kawasan **Kemahiran** , klik **+** untuk menambah kemahiran.  
+5.  Dalam kawasan **Kemahiran**, klik **+** untuk menambah kemahiran.  
   
-6.  Dalam anak tetingkap **Keperluan kompetensi peranan** , klik dalam medan **Kemahiran.** , klik butang **Cari** dan kemudian pilih kemahiran.  
+6.  Dalam anak tetingkap **Keperluan kompetensi peranan**, klik dalam medan **Kemahiran.**, klik butang **Cari** dan kemudian pilih kemahiran.  
   
 7.  Pilih kecekapan untuk kemahiran tersebut dan kemudian klik **Simpan**.  
   

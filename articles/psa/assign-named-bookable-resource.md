@@ -3,7 +3,7 @@ title: Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaska
 description: Topik ini memberikan maklumat tentang cara menempah sumber dinamakan kepada pasukan projek dan tugaskannya kepada tugasan.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081347"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130184"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugasan 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4081347"
 Anda boleh menambahkan sumber yang dinamakan kepada pasukan projek anda dengan menempahnya secara langsung kepada pasukan. Untuk melakukan ini, lengkapkan langkah-langkah berikut.
 
 1. Dalam Project Service Automation, pergi ke **Projek** dan pilih buka projek yang anda tempah.
-2. Pada halaman **Projek** , pada tab **Pasuka** , klik **Baharu**. 
+2. Pada halaman **Projek**, pada tab **Pasuka**, klik **Baharu**. 
 
 ![Menambah ahli pasukan daripada tab pasukan](media/RM-how-to-1.png)
 
-3. Dalam kotak dialog **Ahli Pasukan Projek Cipta Pantas** , pilih sumber boleh ditempah. Medan **Peranan** akan mengisi peranan lalai sumber jika mereka mempunyai satu yang ditugaskan. Anda boleh mengubahnya peranan jika perlu. 
+3. Dalam kotak dialog **Ahli Pasukan Projek Cipta Pantas**, pilih sumber boleh ditempah. Medan **Peranan** akan mengisi peranan lalai sumber jika mereka mempunyai satu yang ditugaskan. Anda boleh mengubahnya peranan jika perlu. 
 4. Pilih tarikh dari dan hingga yang sumber akan perlu dan pilih kaedah peruntukan bagi kapasiti sumber. 
 5. Jika anda mahu ahli pasukan untuk menjadi pelulus projek, pilih **Ya** dalam medan **Pelulus Projek**. Ini bermakna ahli pasukan boleh meluluskan entri masa dan perbelanjaan yang diserahkan untuk projek ini. 
 6. Klik **Simpan**.
@@ -44,7 +44,7 @@ Anda boleh menambahkan sumber yang dinamakan kepada pasukan projek anda dengan m
 ![Menambah ahli pasukan pada borang cipta cepat](media/RM-how-to-2.png)
 
 
-Anda kini boleh menugaskan sumber boleh ditempah kepada tugasan pada projek. Pada halaman **Projek** , klik tab **Jadual** untuk menugaskan tugasan ke sumber baharu. Pemilih sumber yang dilancarkan daripada medan **Sumber** dalam grid tugas akan menunjukkan ahli pasukan yang anda boleh pilih.
+Anda kini boleh menugaskan sumber boleh ditempah kepada tugasan pada projek. Pada halaman **Projek**, klik tab **Jadual** untuk menugaskan tugasan ke sumber baharu. Pemilih sumber yang dilancarkan daripada medan **Sumber** dalam grid tugas akan menunjukkan ahli pasukan yang anda boleh pilih.
 
 ![Menugaskan ahli pasukan kepada tugas pada tab jadual](media/RM-how-to-3.png)
 

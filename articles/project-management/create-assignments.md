@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081141"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131759"
 ---
 # <a name="create-resource-assignments"></a>Cipta tugas sumber
 
@@ -29,9 +29,9 @@ Apabila anda mencipta ahli pasukan generik melalui tugasan tugas, anda mencipta 
 
 1. Pada grid Jadual untuk tugas, pilih ikon Sumber dalam sel **Sumber**.
 2. Taipkan nama untuk berfungsi sebagai nama sumber pemegang ruang. Contohnya, Pengurus Program.
-3. Pilih **Cipta** , dan dalam medan **Cipta Pantas Ahli Pasukan Projek** , tetapkan peranan untuk sumber generik.
+3. Pilih **Cipta**, dan dalam medan **Cipta Pantas Ahli Pasukan Projek**, tetapkan peranan untuk sumber generik.
 4. Tugaskan tugas seperti yang diperlukan kepada sumber pemegang ruang ini dengan memilih sumber pada **Pemilih Sumber** untuk tugas tersebut. Sumber tersenarai di bawah **Ahli Pasukan**.
-5. Apabila anda sudah selesai menugaskan sumber generik, pilih sumber generik pada tab **Pasukan** ,pilih sumber generik dan kemudian pilih **Jana Keperluan** untuk mencipta keperluan sumber untuk sumber generik.
+5. Apabila anda sudah selesai menugaskan sumber generik, pilih sumber generik pada tab **Pasukan**,pilih sumber generik dan kemudian pilih **Jana Keperluan** untuk mencipta keperluan sumber untuk sumber generik.
 6. Pilih **Tempah** untuk sumber generik, dan kemudian anda boleh menggunakan papan Jadual untuk mencari dan menempah sumber sebenar. Anda juga boleh menghantar keperluan untuk pemenuhan oleh pengurus sumber.
 7. Apabila sumber generik dipenuhi sepenuhnya (memenuhi keperluan sumber sebahagian tidak akan menyebabkan tugas sumber) dengan sumber yang dinamakan, sumber generik dialih keluar daripada pasukan. Tugasan tugas untuk sumber generik ditugaskan kepada sumber yang dinamakan yang memenuhi keperluan sumber sumber generik.
 

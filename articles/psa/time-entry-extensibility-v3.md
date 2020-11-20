@@ -3,7 +3,7 @@ title: Sesuaikan kemasukan masa mingguan
 description: Topik ini memberikan maklumat mengenai cara untuk melaksanakan peraturan perniagaan tersuai yang menyokong amalan organisasi.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081315"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127934"
 ---
 # <a name="customize-weekly-time-entry"></a>Sesuaikan kemasukan masa mingguan 
 
@@ -51,7 +51,7 @@ Bahagian **Dimensi** tidak membenarkan pengeditan sebaris. Bahagian ini disokong
 Bahagian Tempoh menunjukkan hari minggu sebagai pengepala lajur. Bahagian ini membenarkan pengeditan dalam baris. Selepas baris entri masa ialah dicipta yang mempunyai dimensi yang sesuai, pengguna boleh memasukkan dengan cepat, mengikut baris, jumlah masa yang mereka belanjakan pada dimensi tersebut.
 
 ## <a name="create-a-new-time-entry"></a>Cipta entri masa baharu
-Untuk mencipta entri masa baharu dalam grid kemasukan masa, pilih **Baharu.** Kotak dialog **Cipta Pantas Entri Masa** akan muncul. Dalam kotak dialog pengguna boleh memilih tarikh kemasukan masa dan kemudian memasukkan data untuk **Projek** , **Tugas Projek** , dan, **Peranan** dan **Tempoh** dalam minit, jam atau hari dengan menaip **h** , **m** atau **d** bersama dengan nombor. Pengguna juga boleh memasukkan perihalan dan komen yang boleh dikongsi secara luaran untuk masa kemasukan. Apabila pengguna menyimpan perubahan mereka, nilai yang telah mereka masukkan terhadap dimensi muncul dalam bahagian **Dimensi**. Tempoh maklumat yang mereka masukkan dalam medan **Tempoh** muncul pada tarikh kemasukan telah dicipta.
+Untuk mencipta entri masa baharu dalam grid kemasukan masa, pilih **Baharu.** Kotak dialog **Cipta Pantas Entri Masa** akan muncul. Dalam kotak dialog pengguna boleh memilih tarikh kemasukan masa dan kemudian memasukkan data untuk **Projek**, **Tugas Projek**, dan, **Peranan** dan **Tempoh** dalam minit, jam atau hari dengan menaip **h**, **m** atau **d** bersama dengan nombor. Pengguna juga boleh memasukkan perihalan dan komen yang boleh dikongsi secara luaran untuk masa kemasukan. Apabila pengguna menyimpan perubahan mereka, nilai yang telah mereka masukkan terhadap dimensi muncul dalam bahagian **Dimensi**. Tempoh maklumat yang mereka masukkan dalam medan **Tempoh** muncul pada tarikh kemasukan telah dicipta.
 
 Medan carian disokong oleh pandangan sistem. Sebagai contoh, selepas pengguna memasuki projek, medan **Tugas Projek** ditetapkan kepada pandangan **Salinan** secara lalai. Bagi mencipta entri masa untuk tugas yang tidak ditugaskan kepada pengguna, pilih **Ubah pandangan** pada kotak dialog carian dan kemudian pilih pandangan **Semua Tugas Projek Aktif**.
 
@@ -62,7 +62,7 @@ Butiran daripada beberapa medan pada halaman entri masa, seperti **Perihalan** d
 Selepas baris entri masa pertama telah dicipta, pengguna boleh memilih **Salin Baris** untuk menyalin keseluruhan baris ke baris baharu. Apabila baris disalin dengan cara ini, dimensi dan tempoh juga disalin. Pengguna juga boleh memilih **Edit baris** untuk mengemas kini nilai dimensi dan talian tempoh dalam bahagian **Tempoh**.
 
 ## <a name="open-a-time-entry"></a>Buka entri masa
-Untuk menyokong entri yang optimum dan pantas dalam medan paling terkemuka, grid kemasukan masa mingguan menunjukkan subset dimensi yang dipilih dan tempoh masa. Untuk melihat semua butiran kemasukan satu masa, di bawah **Edit Entri** , pilih **Buka.**
+Untuk menyokong entri yang optimum dan pantas dalam medan paling terkemuka, grid kemasukan masa mingguan menunjukkan subset dimensi yang dipilih dan tempoh masa. Untuk melihat semua butiran kemasukan satu masa, di bawah **Edit Entri**, pilih **Buka.**
 
 ## <a name="submit-a-time-entry"></a>Serahkan entri masa
 Pengguna boleh menyerahkan satu kali entri atau kumpulan penyertaan masa dengan memilih satu blok sel atau baris entri keseluruhan masa dan kemudian memilih **Serahkan**. Penyertaan masa yang dihantar akan muncul sebagai entri yang menunggu kelulusan pada halaman **Kelulusan**. Selepas penyertaan masa berjaya diserahkan, ia tidak boleh diedit.
@@ -98,7 +98,7 @@ Anda mesti menambah medan tersuai kepada kotak dialog Cipta Pantas Entri Masa. s
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurasikan grid untuk menunjukkan medan tersuai
 Terdapat dua langkah utama untuk menambah medan tersuai ke grid kemasukan masa mingguan. Pilihan pertama ialah sesuaikan pandangan **Entri Masa Mingguan Saya** dan tambah medan tersuai kepadanya. Anda boleh memilih kedudukan dan saiz medan tersuai dalam grid dengan mengedit sifat tersebut dalam pandangan.
 
-Pilihan kedua ialah cipta pandangan entri masa tersuai baharu dan setkan sebagai pandangan lalai. Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran** , sebagai tambahan kepada lajur yang anda mahu ada dalam grid. Anda boleh memilih kedudukan, saiz dan isih pesanan lalai grid dengan mengedit sifat tersebut dalam pandangan. Seterusnya, konfigurasikan kawalan tersuai untuk pandangan ini supaya ia adalah kawalan **Grid Entri Masa**. Tambah kawalan ini ke pandangan, dan pilih ia untuk web, telefon dan tablet. Seterusnya, konfigurasikan parameter untuk grid entri masa mingguan. Tetapkan medan **Tarikh Mula** ke **msdyn_date** , tetapkan medan **Tempoh** untuk **msdyn_duration** dan tetapkan medan **Status** kepada **msdyn_entrystatus**. Untuk pandangan lalai, medan **Senarai Status Baca Sahaja** ditetapkan kepada **192350002, 192350003, 192350004** , medan **Baris Edit Aliran Tugas** ditetapkan kepada **msdyn_timeentryrowedit** dan **Sel Edit Aliran Tugas** ditetapkan kepada **msdyn_timeentryedit.** Anda boleh menyesuaikan medan ini untuk menambah atau mengeluarkan status baca sahaja atau untuk menggunakan pengalaman berasaskan tugas berbeza (TBX) untuk pengeditan baris atau sel. Medan ini sepatutnya terikat dengan nilai statik.
+Pilihan kedua ialah cipta pandangan entri masa tersuai baharu dan setkan sebagai pandangan lalai. Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran**, sebagai tambahan kepada lajur yang anda mahu ada dalam grid. Anda boleh memilih kedudukan, saiz dan isih pesanan lalai grid dengan mengedit sifat tersebut dalam pandangan. Seterusnya, konfigurasikan kawalan tersuai untuk pandangan ini supaya ia adalah kawalan **Grid Entri Masa**. Tambah kawalan ini ke pandangan, dan pilih ia untuk web, telefon dan tablet. Seterusnya, konfigurasikan parameter untuk grid entri masa mingguan. Tetapkan medan **Tarikh Mula** ke **msdyn_date**, tetapkan medan **Tempoh** untuk **msdyn_duration** dan tetapkan medan **Status** kepada **msdyn_entrystatus**. Untuk pandangan lalai, medan **Senarai Status Baca Sahaja** ditetapkan kepada **192350002, 192350003, 192350004**, medan **Baris Edit Aliran Tugas** ditetapkan kepada **msdyn_timeentryrowedit** dan **Sel Edit Aliran Tugas** ditetapkan kepada **msdyn_timeentryedit.** Anda boleh menyesuaikan medan ini untuk menambah atau mengeluarkan status baca sahaja atau untuk menggunakan pengalaman berasaskan tugas berbeza (TBX) untuk pengeditan baris atau sel. Medan ini sepatutnya terikat dengan nilai statik.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Tambah medan tersuai kepada edit aliran tugas yang sesuai
 Laman TBX yang digunakan untuk mengedit boleh didapati di bawah **Proses**. Halaman lalai adalah **Project Service-Edit Baris Entri Masa** dan **Project Service-Edit Entri Masa**. Anda boleh sama ada mengedit halaman lalai ini atau mencipta halaman TBX tersuai yang baharu.
@@ -106,14 +106,14 @@ Laman TBX yang digunakan untuk mengedit boleh didapati di bawah **Proses**. Hala
 > [!NOTE] 
 > Kedua-dua pilihan akan mengeluarkan beberapa penapisan keluar kotak **Projek** dan entiti **Tugas Projek** supaya semua pandangan carian untuk entiti akan boleh dilihat. Keluar dari kotak, hanya pandangan carian yang berkaitan boleh dilihat.
 
-Anda mesti menentukan aliran tugas yang sesuai untuk medan tersuai. Kemungkinan besar, jika anda menambah medan ke grid, ia perlu pergi dalam baris edit aliran tugas yang digunakan untuk medan yang diguna pakai pada seluruh baris entri masa. Jika medan tersuai mempunyai nilai unik setiap hari, seperti medan tersuai untuk **Masa akhir** , ia harus pergi dalam edit aliran tugas sel.
+Anda mesti menentukan aliran tugas yang sesuai untuk medan tersuai. Kemungkinan besar, jika anda menambah medan ke grid, ia perlu pergi dalam baris edit aliran tugas yang digunakan untuk medan yang diguna pakai pada seluruh baris entri masa. Jika medan tersuai mempunyai nilai unik setiap hari, seperti medan tersuai untuk **Masa akhir**, ia harus pergi dalam edit aliran tugas sel.
 
 Untuk menambah medan tersuai kepada aliran tugas, seret elemen **Medan** ke kedudukan yang sesuai pada halaman dan kemudian tetapkan sifatnya. Tetapkan sifat **Sumber** ke **Entri Masa** dan set sifat **Medan Data** ke medan tersuai. Sifat **Medan** menentukan nama paparan pada halaman TBX. Pilih **Gunakan** untuk menyimpan perubahan ke medan. Kemudia pilih **Kemas Kini** untuk menyimpan perubahan ke halaman.
 
-Untuk menggunakan halaman TBX tersuai baharu sebagai ganti, cipta proses baharu. Tetapkan kategori untuk **Aliran Proses Perniagaan** , tetapkan entiti ke **Entri Masa** dan tetapkan jenis proses perniagaan untuk **Menjalankan proses sebagai aliran tugas**. Di bawah **Sifat** , sifat **Nama halaman** patut ditetapkan ke nama paparan untuk halaman. Tambah semua medan yang berkaitan dengan halaman TBX. Simpan dan aktifkan proses, dan kemudian kemas kini sifat kawalan tersuai untuk aliran tugas yang relevan kepada nilai **Nama** pada proses.
+Untuk menggunakan halaman TBX tersuai baharu sebagai ganti, cipta proses baharu. Tetapkan kategori untuk **Aliran Proses Perniagaan**, tetapkan entiti ke **Entri Masa** dan tetapkan jenis proses perniagaan untuk **Menjalankan proses sebagai aliran tugas**. Di bawah **Sifat**, sifat **Nama halaman** patut ditetapkan ke nama paparan untuk halaman. Tambah semua medan yang berkaitan dengan halaman TBX. Simpan dan aktifkan proses, dan kemudian kemas kini sifat kawalan tersuai untuk aliran tugas yang relevan kepada nilai **Nama** pada proses.
 
 ### <a name="add-new-option-set-values"></a>Tambah nilai set pilihan baharu
-Untuk menambah nilai set pilihan ke medan luar, buka halaman pengeditan untuk medan dan kemudian, di bawah **Jenis** , pilih **Edit** di sebelah set pilihan. Seterusnya, tambah pilihan baru yang mempunyai label tersuai dan warna. Jika anda mahu menambah status kemasukan masa baharu, medan di luar kotak dinamakan **Status Entri** bukan **Status**.
+Untuk menambah nilai set pilihan ke medan luar, buka halaman pengeditan untuk medan dan kemudian, di bawah **Jenis**, pilih **Edit** di sebelah set pilihan. Seterusnya, tambah pilihan baru yang mempunyai label tersuai dan warna. Jika anda mahu menambah status kemasukan masa baharu, medan di luar kotak dinamakan **Status Entri** bukan **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Tetapkan status kemasukan masa baharu sebagai baca sahaja
 Untuk memilih status entri masa baharu sebagai baca sahaja, tambah nilai masukan masa baharu (nombor tersebut, bukan label) ke sifat senarai **Senarai Status Baca Sahaja** sahaja. Bahagian yang boleh diedit bagi grid kemasukan masa akan dikunci untuk baris yang mempunyai status baharu.
