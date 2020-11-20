@@ -1,23 +1,30 @@
 ---
-title: Gunakan tetapan demo dan data konfigurasi
+title: Gunakan persediaan tunjuk cara dan data konfigurasi - lite
 description: Topik ini memberikan maklumat tentang cara menggunakan persediaan demo dan data konfigurasi untuk Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081093"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401274"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Gunakan persediaan demo dan data konfigurasi untuk pelaksanaan lite Project Operations - urusan untuk penginvoisan proforma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Gunakan persediaan tunjuk cara dan data konfigurasi dalam untuk Project Operations - lite 
 
 _**Pelaksanaan lite - urusan untuk penginvoisan proforma_
+
+## <a name="prerequisites"></a>Prasyarat
+
+Sebelum anda mulakan konfigurasi, anda mesti mempunyai persekitaran Common Data Service (CDS) yang diperuntukkan untuk Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Arahan
 
 1. Muat turun [Pakej Data Induk](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navigasi kepada folder *ProjOpsDemoDataSetupAndMaster - CMT Disepadukan* dan jalankan fail yang boleh dilaksanakan, *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Pelaksanaan lite - urusan untuk penginvoisan proforma_
 10. Import akan berjalan selama kira-kira 2-10 minit bergantung pada kelajuan rangkaian anda. Selepas import selesai, keluar dari Wizard CMT. 
 11. Semak organisasi anda untuk data dalam 20 entiti berikut:
 
-- Mata wang
-- Unit Organisasi
-- Orang Hubungan
-- Cukai Kumpulan
-- Kumpulan Pelanggan
-- Unit
-- Kumpulan Unit
-- Senarai Harga
-- Senarai Harga Parameter Projek
-- Kekerapan Invois
-- Butiran Kekerapan Invois
-- Kategori Sumber Boleh Ditempah
-- Kategori Transaksi
-- Kategori Perbelanjaan
-- Harga Peranan
-- Harga Kategori Transaksi
-- Ciri
-- Sumber Boleh Ditempah
-- Penyekutuan kategori sumber boleh ditempah
-- Penyekutuan Cirian Sumber Boleh Ditempah
+-   Mata wang
+-   Akaun
+-   Unit Organisasi
+-   Orang Hubungan
+-   Cukai Kumpulan
+-   Kumpulan Pelanggan
+-   Unit
+-   Kumpulan Unit
+-   Senarai Harga
+-   Senarai Harga Parameter Projek 
+-   Kekerapan Invois
+-   Kategori Sumber Boleh Ditempah
+-   Kategori Transaksi
+-   Kategori Perbelanjaan
+-   Harga Peranan
+-   Harga Kategori Transaksi
+-   Ciri
+-   Sumber Boleh Ditempah
+-   Penyekutuan kategori sumber boleh ditempah
+-   Penyekutuan Cirian Sumber Boleh Ditempah
 
 ![Lengkapkan Import](./media/6CompleteImport.png)

@@ -1,23 +1,33 @@
 ---
-title: Sediakan dan gunakan data konfigurasi dalam Common Data Service untuk Operasi Projek
+title: Sediakan dan gunakan data konfigurasi dalam Common Data Service
 description: Topik ini memberikan maklumat tentang menyediakan dan menggunakan data konfigurasi dalam Operasi Projek.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081101"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401139"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Sediakan dan gunakan data konfigurasi dalam Common Data Service untuk Operasi Projek
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Sediakan dan gunakan data konfigurasi dalam Common Data Service 
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
+
+## <a name="prerequisites"></a>Prasyarat
+
+Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasyarat berikut mesti dipenuhi:
+
+1.  Peruntukan persekitaran CDS dan persekitaran Dynamics 365 Finance untuk Project Operations.
+2.  Maklumat entiti sah daripada Dynamics 365 Finance dikongsi pada persekitaran CDS. Ini bermaksud bahawa entiti **Syarikat** dalam CDS mempunyai rekod syarikat berikut:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Memasang data persediaan dan konfigurasi
 
@@ -79,11 +89,11 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 ![Sumber Boleh Ditempah](./media/8BookableResources.png)
 
-3. Pada tab **Umum** , pilih pengguna pentadbir anda. Sahkan bahawa zon waktu sepadan dengan yang anda berada. 
+3. Pada tab **Umum**, pilih pengguna pentadbir anda. Sahkan bahawa zon waktu sepadan dengan yang anda berada. 
 
 ![Sumber Boleh Ditempah Baharu](./media/9NewBookableResource.png)
 
-4. Pada tab **Penjadualan** , dalam medan **Syarikat** , pilih syarikat **USPM** dan kemudian pilih **Simpan**. 
+4. Pada tab **Penjadualan**, dalam medan **Syarikat**, pilih syarikat **USPM** dan kemudian pilih **Simpan**. 
 
 ![Tab Penjadualan](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
  
 12. Kemas kini medan berikut:
 
- - **Syarikat lalai** : USPM
+ - **Syarikat lalai**: USPM
  - **Unit Organisasi Lalai** : Contoso Robotics Global
- - **Frekuensi Invois** : Ketujuh dan Hari Terakhir
- - **Templat jam kerja** : Tukar ke templat yang anda cipta.
+ - **Frekuensi Invois**: Ketujuh dan Hari Terakhir
+ - **Templat jam kerja**: Tukar ke templat yang anda cipta.
 
 13. Pilih **Simpan**. 
 

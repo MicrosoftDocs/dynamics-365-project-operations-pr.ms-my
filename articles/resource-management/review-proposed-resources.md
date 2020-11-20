@@ -3,10 +3,10 @@ title: Semak sumber yang dicadangkan
 description: Topik ini memberikan maklumat tentang cara untuk mencadang sumber projek.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081195"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401184"
 ---
 # <a name="review-proposed-resources"></a>Semak sumber yang dicadangkan
 
@@ -31,11 +31,11 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 Pengurus sumber boleh mencadangkan sumber kepada pengurus projek menggunakan permintaan sumber.
 
 1. Daripada grid permintaan atau permintaan itu sendiri, pilih **Cari sumber.**
-2. Pada halaman **Pembantu Jadual** , pilih sumber dan kemudian, dalam anak tetingkap **Cipta Tempahan Sumber** dalam medan status **Status Tempahan** , pilih **Tempah.**
+2. Pada halaman **Pembantu Jadual** , pilih sumber dan kemudian, dalam anak tetingkap **Cipta Tempahan Sumber** dalam medan status **Status Tempahan**, pilih **Tempah.**
 
 Kemas kini status berikut berlaku:
 
-- Pada halaman **Pembantu Jadual** , penunjuk status dikemas kini untuk menunjukkan bahawa penempahan dicadangkan, tidak ditempah cetak.
+- Pada halaman **Pembantu Jadual**, penunjuk status dikemas kini untuk menunjukkan bahawa penempahan dicadangkan, tidak ditempah cetak.
 - Pada permintaan sumber, status ditukar kepada **Keperluan Semakan Semula.**
 - Pada tab **Pasukan** projek, permintaan ahli pasukan generik **Status Permintaan** ditukar kepada **Keperluan Semakan Semula.**
 
@@ -47,35 +47,6 @@ Apabila pengurus sumber memproses permintaan sumber, mereka boleh menggunakan se
 - Mencadangkan lebih sedikit sumber daripada keperluan. Dalam senario ini, kapasiti sumber yang dicadangkan adalah kurang daripada jam yang diperlukan yang ditentukan oleh peminta. Oleh itu, apabila peminta menerima sumber yang dicadangkan, keperluan sumber yang tidak dipatuhi dicipta untuk menawan permintaan yang berbaki.
 - Tempah berbilang sumber untuk memenuhi permintaan jika tiada sumber tunggal tersedia untuk menyelesaikan kerja.
 - Menempah lebih sedikit sumber daripada keperluan. Dalam senario ini, masa yang ditempah adalah lebih sedikit daripada jam yang diperlukan. Sistem ini memberi panduan kepada anda untuk mencadangkan sumber dan bukannya penempahan, supaya peminta boleh mengesahkan dan menjejaki permintaan yang berbaki.
-
-## <a name="billable-utilization"></a>Penggunaan boleh dibilkan
-
-Sumber boleh mempunyai sasaran penggunaan boleh dibilkan. Penggunaan sasaran ini sama ada ditakrifkan sebagai atribut pada peranan lalai sumber atau ditetapkan pada rekod sumber boleh ditempah individu. Pengiraan penggunaan adalah berdasarkan masa sebenar bahawa sumber telah dilaporkan dengan menggunakan kemasukan penyertaan yang diluluskan.
-
-Formula berikut digunakan untuk mengira penggunaan:
-
-- Penggunaan boleh dibilkan = Jam sebenar ÷ Kapasiti sumber boleh dituntut.
-- Penggunaan tidak boleh dibilkan = Masa sebenar dengan ID jenis bil = Tidak dikenakan caj, Pelengkap atau Tidak tersedia yang boleh ÷ Kapasiti sumber
-- Dalaman = Masa sebenar dengan tiada kontrak jualan ÷ Kapasiti sumber
-- Kapasiti sumber = Waktu kerja sumber – Keluar dari pejabat – Hari tidak bekerja
-
-Anda boleh mencari pandangan **Penggunaan Sumber** dalam anak tetingkap **Sumber**.
-
-Setiap sel dalam grid mewakili peratusan penggunaan boleh dibilkan bagi sumber dalam tempoh, seperti hari, minggu atau bulan. Formula berikut digunakan untuk mewarnakan sel:
-
-- **Hijau:** Penggunaan boleh dibilkan \>= Penggunaan sasaran sumber
-- **Kuning:** Penggunaan sasaran – 20 \<= Penggunaan boleh dibilkan \< Penggunaan sasaran
-- **Merah:** Penggunaan boleh dibilkan \< Penggunaan sasaran – 20
-
-Oleh kerana pandangan **Penggunaan Sumber** adalah berdasarkan Papan Jadual, anda boleh menggunakan keupayaan penapisan Papan Jadual untuk menapis hasil anda.
-
-Grid memerlukan anda menetapkan penggunaan sasaran pada sama ada peranan atau sumber individu. Untuk melakukan persediaan ini, pergi ke **Peranan** \> **Peranan sumber**.
-
-Selain itu, peranan lalai mesti ditugaskan kepada setiap sumber boleh ditempah. Pergi ke **Sumber** \> **Sumber**. Pada tab **Project Service** sahkan peranan sumber ditakrifkan dan medan **Adalah Lalai** untuk ia disetkan kepada **Ya.** Anda boleh menambah peranan tambahan di mana **Adalah Lalai = No**. Peranan di mana **Adalah Lalai = Ya** digunakan untuk menilai penggunaan sumber terhadap sasaran untuk peranan tersebut.
-
-Pada tab **Project Service** , anda juga boleh menetapkan penggunaan sasaran individu untuk sumber. Pengiraan penggunaan ini kemudian menggunakan penggunaan sasaran yang akan menilai sasaran sumber bukan sasaran peranan lalai sumber.
-
-Penggunaan ditunjukkan untuk sumber hanya jika sumber tersebut telah diluluskan dan masa boleh dikenakan dalam tempoh yang ditunjukkan dalam grid.
 
 ## <a name="resource-availability"></a>Ketersediaan sumber
 

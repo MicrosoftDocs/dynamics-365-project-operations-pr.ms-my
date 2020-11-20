@@ -3,17 +3,17 @@ title: Tentukan jenis pelaksanaan anda
 description: Topik ini menyediakan maklumat untuk membantu anda menentukan jenis pelaksanaan Project Operations yang betul untuk syarikat anda.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081232"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401229"
 ---
 # <a name="determine-your-deployment-type"></a>Tentukan jenis pelaksanaan anda
 
@@ -25,11 +25,11 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Pelanggan sedia ada Dynamics menggunakan Dynamics 365 Project Service Automation
-Project Operations termasuk keupayaan yang dihantar dengan Project Service Automation. Laluan naik taraf akan dilepaskan untuk pelanggan ini pada masa akan datang.
+Project Operations termasuk keupayaan yang dihantar dengan Project Service Automation. Laluan naik taraf akan dilepaskan untuk pelanggan dalam 2021 release wave 1.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan sedia ada Dynamics 365 Finance menggunakan pengurusan dan perakaunan Project 
 
-Pelanggan Finance yang sedia ada yang menggunakan kefungsian Pengurusan dan perakaunan projek boleh terus menggunakan ini sebagaimana seadanya. Lihat [Project Operations untuk senario pesanan stok/pengeluaran](#pma).
+Pelanggan sedia ada Kewangan yang menggunakan fungsi Pengurusan projek dan perakaunan boleh terus menggunakannya seperti itu. Lihat [Project Operations untuk senario pesanan stok/pengeluaran](#pma).
 
 
 ## <a name="deployment-types"></a>Jenis pelaksanaan
@@ -47,12 +47,13 @@ Project Operations menyokong senario pesanan stok/pengeluaran dan senario yang b
 
 Pelaksanaan Lite termasuk keupayaan berikut:
 
+- Proses jualan projek yang meluas pengalaman aplikasi Dynamics 365 Sales
 - Perancangan projek menggunakan Microsoft Project untuk Web
 - Penentuan harga berbilang dimensi
-- Pengurusan Sumber Disatukan
-- Penjejakan Masa
-- Perbelanjaan Asas
-- Cadangan Invois
+- Pengurusan sumber disatukan
+- Penjejakan masa
+- Perbelanjaan asas
+- Proforma dan penginvoisan menghadapi pelanggan 
 
 #### <a name="deployment-steps"></a>Langkah pelaksanaan
 Tentukan model pelaksanaan Project Operations terbaik menggunakan [Soal selidik pelaksanaan](https://aka.ms/provisionprojectoperations).
@@ -62,16 +63,17 @@ Untuk pelaksanaan ini, lihat [Pendaftaran untuk langganan pratonton](lite-previe
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations untuk senario sumber/tidak distok
 Project Operations untuk senario sumber/bukan stok termasuk keupayaan berikut:
-  
+ 
+- Proses jualan projek yang meluaskan aplikasi Dynamics 365 Sales
 - Perancangan projek menggunakan Microsoft Project untuk Web
 - Penentuan harga berbilang dimensi
-- Pengurusan Sumber Disatukan
-- Penjejakan Masa
-- Perbelanjaan Asas
-- Perbelanjaan Penuh
+- Pengurusan sumber disatukan
+- Penjejakan masa
+- Perbelanjaan asas
+- Perbelanjaan penuh
 - Penerimaan Pengesahan Pengembalian Barang (OCR)
-- Penginvoisan Penuh
-- Pengiktirafan Hasil
+- Proforma dan penginvoisan menghadapi pelanggan 
+- Pengiktirafan hasil untuk projek
 
 #### <a name="deployment-steps"></a>Langkah pelaksanaan
 Tentukan model pelaksanaan Project Operations terbaik menggunakan [Soal selidik pelaksanaan](https://aka.ms/provisionprojectoperations).
