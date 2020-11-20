@@ -3,7 +3,7 @@ title: Pemasangan data sampel
 description: Topik ini menyediakan maklumat tentang cara memasang data sampel dalam Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081293"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132434"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Pemasangan data sampel untuk aplikasi Project Service
 
@@ -43,15 +43,15 @@ Pakej data **demo** terakhir ialah:
 Pakej data sampel ini ini hanya boleh didapati dalam Bahasa Inggeris.
 
 > [!IMPORTANT]
-> **Data sampel tidak boleh dinyahpasang dengan apa cara sekali pun.** Anda hendaklah hanya memasang pakej ini pada sistem demonstrasi, penilaian, latihan atau ujian. Juga, sila ambil perhatian bahawa memasang pakej individu dan kemudian memasang dalam pakej lain individu, tidak disokong. (Dengan kata lain, anda tidak boleh memasang **FSMasterData** diikuti dengan **PSMasterData** , atau sebaliknya.) Jika anda merasakan diri anda memerlukan data sampel untuk kedua-dua aplikasi pada bila-bila pada masa hadapan, anda perlu memasang pakej **v902FPSMasterData**.
+> **Data sampel tidak boleh dinyahpasang dengan apa cara sekali pun.** Anda hendaklah hanya memasang pakej ini pada sistem demonstrasi, penilaian, latihan atau ujian. Juga, sila ambil perhatian bahawa memasang pakej individu dan kemudian memasang dalam pakej lain individu, tidak disokong. (Dengan kata lain, anda tidak boleh memasang **FSMasterData** diikuti dengan **PSMasterData**, atau sebaliknya.) Jika anda merasakan diri anda memerlukan data sampel untuk kedua-dua aplikasi pada bila-bila pada masa hadapan, anda perlu memasang pakej **v902FPSMasterData**.
 
 Apabila anda memasang mana-mana pakej data sampel, proses pemasangan menjalankan tindakan berikut:
 
 - Mencipta atau menetapkan parameter lalai untuk menggunakan Project Service, Field Service, atau kedua-dua aplikasi (jika berkenaan).
 
-- Mengimport sampel data untuk aplikasi, seperti sumber boleh tempah, peranan khusus aplikasi, jualan dan senarai harga kos, unit organisasi, rekod proses jualan dan entiti-entiti lain untuk menunjukkan keupayaan utama.  
+- Mengimport sampel data untuk aplikasi, seperti sumber boleh tempah, peranan khusus aplikasi, jualan dan senarai harga kos, unit organisasi, rekod proses jualan dan entiti-entiti lain untuk menunjukkan keupayaan utama.  
 
-Dengan pakej **data demo** , anda mendapat yang di atas dan data transaksi tambahan seperti pesanan kerja dan projek.
+Dengan pakej **data demo**, anda mendapat yang di atas dan data transaksi tambahan seperti pesanan kerja dan projek.
 
 Tertanya-tanya apakah keupayaan yang anda boleh tunjukkan dengan data sampel? Lihat senario rekaan Fabrikam Robotics dalam [Nota teknikal](#technical-notes).
 
@@ -80,7 +80,7 @@ Protokol pemasangan menjangkakan perkara berikut mengenai tika sasaran (organisa
 
 Anda perlu menjalankan pemasang pada komputer dengan versi Windows terkini (Windows 10 diutamakan).
 
-Anda perlu merancang supaya komputer tetap bersambung ke rangkaian dan pemasangannya berjalan sehingga **1 jam** untuk **data persediaan/rujukan**. (Biasanya pemasangan mengambil masa kira-kira 30 minit untuk **FPSMasterData** , yang merangkumi data sampel bagi kedua-dua aplikasi.) Bagi **FPSDemoData** , pemasangan akan mengambil masa kira-kira **3 jam**.
+Anda perlu merancang supaya komputer tetap bersambung ke rangkaian dan pemasangannya berjalan sehingga **1 jam** untuk **data persediaan/rujukan**. (Biasanya pemasangan mengambil masa kira-kira 30 minit untuk **FPSMasterData**, yang merangkumi data sampel bagi kedua-dua aplikasi.) Bagi **FPSDemoData**, pemasangan akan mengambil masa kira-kira **3 jam**.
 
 Komputer hendaklah mematikan fungsi penyelamat skrin. Sebaliknya, kelayakan sesi untuk pemasangan mungkin hilang apabila penyelamat skrin terlibat sama (melainkan anda mengekalkan sesi anda kepada aktif sepanjang masa).
 
@@ -112,15 +112,15 @@ Pakej **FPSDemoData** memerlukan enam pengguna sementara pakej **FPSMasterData**
 
 Pakej **FPSMasterData** direka untuk dipasang dengan seorang pengguna bernama Spencer Low dengan tetapan yang digambarkan di sini. Untuk memasang pakej dengan betul, anda perlu mencipta (atau menamakan semula buat sementara) pengguna dalam persekitaran anda untuk dipadankan dengan konfigurasi data sampel masuk.
 
-Untuk mencipta atau mengkonfigurasi pengguna, pergi ke **Tetapan** > **Keselamatan** > **Pengguna** , dan lakukan perkara berikut:
+Untuk mencipta atau mengkonfigurasi pengguna, pergi ke **Tetapan** > **Keselamatan** > **Pengguna**, dan lakukan perkara berikut:
 
-1. Tetapkan UserFullname="Spencer Low" dengan nama pengguna "spencerl" ( **huruf kecil** ) kepada peranan Pengurus Projek dan Pengurus Latihan.
+1. Tetapkan UserFullname="Spencer Low" dengan nama pengguna "spencerl" (**huruf kecil**) kepada peranan Pengurus Projek dan Pengurus Latihan.
 
-2. Pilih pengguna **Spencer Low** , kemudian pilih **Urus Peranan**. Cari dan pilih peranan **Pentadbir Sistem** , dan kemudian pilih **OK** untuk memberi hak pentadbir penuh kepada Spencer Low. Langkah ini perlu untuk memastikan rekod sampel dicipta dengan pemilikan pengguna yang betul dan oleh itu mengisi pandangan dengan betul.
+2. Pilih pengguna **Spencer Low**, kemudian pilih **Urus Peranan**. Cari dan pilih peranan **Pentadbir Sistem**, dan kemudian pilih **OK** untuk memberi hak pentadbir penuh kepada Spencer Low. Langkah ini perlu untuk memastikan rekod sampel dicipta dengan pemilikan pengguna yang betul dan oleh itu mengisi pandangan dengan betul.
 
 3. Daripada pakej boleh dimuat turun, anda perlu mengemas kini fail pemetaan data dengan alamat e-mel konteks pengguna lalai. Untuk melakukan ini, buka **PkgFolder** dan kemudian cari dan buka fail **ImportUserMapFile.xml** dalam Notepad (atau Visual Studio atau editor XML lain). Tetapkan medan **DefaultUserToMapTo=** kepada alamat e-mel pengguna Spencer Low.
 
-4. Jika anda tidak menggunakan Spencer Low dengan nama pengguna **spencerl** , anda perlu mengemas kini satu fail tambahan. Buka fail **DemoDataPreImportConfig.xml** , dan kemudian cari tag **userstocreateandconfigure**. Kemas kini tag **\<login\>** dengan nama pengguna bagi pengguna Spencer Low. Untuk maklumat tambahan, lihat [Nota teknikal](#technical-notes).
+4. Jika anda tidak menggunakan Spencer Low dengan nama pengguna **spencerl**, anda perlu mengemas kini satu fail tambahan. Buka fail **DemoDataPreImportConfig.xml**, dan kemudian cari tag **userstocreateandconfigure**. Kemas kini tag **\<login\>** dengan nama pengguna bagi pengguna Spencer Low. Untuk maklumat tambahan, lihat [Nota teknikal](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Cipta atau konfigurasikan pengguna - pakej data demo
 
@@ -143,9 +143,9 @@ Pakej data demo memerlukan enam pengguna. Untuk pakej memasang dengan betul, lak
    > [!div class="mx-imgBorder"]
    > ![Tangkap skrin UserMapFile](media/sample-data-7.png)
 
-4. Jika pengguna nama penuh "Spencer Low" anda mempunyai ID pengguna yang berbeza daripada **"spencerl"** , maka anda perlu mengemas kini satu fail tambahan. Buka **DemoDataPreImportConfig.xml** dan kemudian cari tag **userstocreateandconfigure**. Kemas kini tag **\<login\>** dengan loginId (sensitif huruf). 
+4. Jika pengguna nama penuh "Spencer Low" anda mempunyai ID pengguna yang berbeza daripada **"spencerl"**, maka anda perlu mengemas kini satu fail tambahan. Buka **DemoDataPreImportConfig.xml** dan kemudian cari tag **userstocreateandconfigure**. Kemas kini tag **\<login\>** dengan loginId (sensitif huruf). 
 
-5. Kalendar pengguna pertama (dalam tag **userstocreateandconfigure** ) digunakan untuk mengisi waktu bekerja untuk semua sumber yang boleh ditempah pada import data demo. Navigasi ke **Tetapan** > **Keselamatan** > **Pengguna** , cari pengguna "Spencer Low" anda dan buka pilihan "Waktu Bekerja". Edit waktu bekerja sedia ada, pilih pilihan **Seluruh jadual mingguan berulang dari awal hingga akhir**. Pastikan yang **waktu bekerja ditetapkan kepada 8 PG - 5 PTG (9 jam), Isnin hingga Jumaat dan dengan Zon Waktu ditetapkan kepada Waktu Pasifik (AS & Kanada)**. Ini diperlukan untuk memastikan yang papan Projek dan Jadual menunjukkan seperti yang dijangkakan.
+5. Kalendar pengguna pertama (dalam tag **userstocreateandconfigure**) digunakan untuk mengisi waktu bekerja untuk semua sumber yang boleh ditempah pada import data demo. Navigasi ke **Tetapan** > **Keselamatan** > **Pengguna**, cari pengguna "Spencer Low" anda dan buka pilihan "Waktu Bekerja". Edit waktu bekerja sedia ada, pilih pilihan **Seluruh jadual mingguan berulang dari awal hingga akhir**. Pastikan yang **waktu bekerja ditetapkan kepada 8 PG - 5 PTG (9 jam), Isnin hingga Jumaat dan dengan Zon Waktu ditetapkan kepada Waktu Pasifik (AS & Kanada)**. Ini diperlukan untuk memastikan yang papan Projek dan Jadual menunjukkan seperti yang dijangkakan.
 
 **Pengesyoran:** Pertimbangkan mencipta sandaran organisasi anda sekarang, jika anda perlu kembali ke titik permulaan anda jika sesuatu yang tidak kena berlaku semasa pemasangan data sampel. Untuk maklumat lanjut, lihat [Sandarkan dan pulihkan tika](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -241,7 +241,7 @@ Terdapat beberapa komponen konfigurasi lain dalam fail konfigurasi pra-import in
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Senario rekaan Fabrikam Robotics
 
-Pakej data rujukan sampel Field Service dan Project Service memasang **penyelesaian Fabrikam Manufacturing Master Data (v3.0.0.0)** , bersama dengan kira-kira 4,000 rekod dan kira-kira 40 entiti yang berbeza. Pakej data sampel berasingan untuk Field Service atau Project Service mengandungi sebahagian daripada data sampel **v902FPSMasterData** untuk aplikasi tersebut. Pakej **Data Demo** memasang **penyelesaian Fabrikam Manufacturing Demo Data (v3.0.0.7)** dengan kira-kira 22,000 rekod merentasi 148 entiti.
+Pakej data rujukan sampel Field Service dan Project Service memasang **penyelesaian Fabrikam Manufacturing Master Data (v3.0.0.0)**, bersama dengan kira-kira 4,000 rekod dan kira-kira 40 entiti yang berbeza. Pakej data sampel berasingan untuk Field Service atau Project Service mengandungi sebahagian daripada data sampel **v902FPSMasterData** untuk aplikasi tersebut. Pakej **Data Demo** memasang **penyelesaian Fabrikam Manufacturing Demo Data (v3.0.0.7)** dengan kira-kira 22,000 rekod merentasi 148 entiti.
 
 Syarikat rekaan, Fabrikam Robotics, adalah pengeluar robot talian pemasangan peranti elektronik dan dikenali dengan kualiti produk, inovasi dan perkhidmatan pelanggan mereka yang kukuh, termasuk perancangan pemasangan, pelaksanaan dan perkhidmatan penyelenggaraan yang berterusan. Fabrikam beribu pejabat di Amerika Syarikat (Fabrikam AS), dan mempunyai operasi perkhidmatan berasaskan projek di Perancis, India, United Kingdom dan Switzerland.
 
@@ -291,7 +291,7 @@ Secara lalai, semua sumber yang boleh ditempah mempunyai kalendar waktu bekerja 
 
 Jika anda perlu mengubah waktu bekerja untuk sumber boleh tempah sampel, pergi ke **Universal Resource Scheduling** > **Penjadualan** > **Sumber**.
 
-Pilih pengguna (contohnya, Spencer Low) dan ubah waktu bekerja Spencer kepada jam yang anda mahu gunakan pada berbilang pengguna. Pergi ke **Universal Resource Scheduling** > **Tetapan** > **Templat Waktu Bekerja** dan edit rekod **Templat Kerja Lalai**. Dalam medan **Sumber Templat** , pilih pengguna dengan waktu bekerja yang anda mahu gunakan pada sumber lain. Pergi ke **Universal Resource Scheduling** > **Penjadualan** > **Sumber** > **Sumber Boleh Ditempah Sktif**. Pilih sumber yang anda mahu ubah, dan kemudian pilih **Tetapkan Kalendar**. Pada senarai juntai ke bawah **Templat Kerja** , pilih templat **Waktu Bekerja Lalai** atau templat lain dengan sumber templat yang betul. Apabila anda pergi ke papan Jadual, anda akan dapat melihat sumber sekarang telah mengemas kini waktu bekerja.
+Pilih pengguna (contohnya, Spencer Low) dan ubah waktu bekerja Spencer kepada jam yang anda mahu gunakan pada berbilang pengguna. Pergi ke **Universal Resource Scheduling** > **Tetapan** > **Templat Waktu Bekerja** dan edit rekod **Templat Kerja Lalai**. Dalam medan **Sumber Templat**, pilih pengguna dengan waktu bekerja yang anda mahu gunakan pada sumber lain. Pergi ke **Universal Resource Scheduling** > **Penjadualan** > **Sumber** > **Sumber Boleh Ditempah Sktif**. Pilih sumber yang anda mahu ubah, dan kemudian pilih **Tetapkan Kalendar**. Pada senarai juntai ke bawah **Templat Kerja**, pilih templat **Waktu Bekerja Lalai** atau templat lain dengan sumber templat yang betul. Apabila anda pergi ke papan Jadual, anda akan dapat melihat sumber sekarang telah mengemas kini waktu bekerja.
 
 > [!div class="mx-imgBorder"]
 > ![Tangkap layar sumber boleh tempah aktif](media/sample-data-6.png)

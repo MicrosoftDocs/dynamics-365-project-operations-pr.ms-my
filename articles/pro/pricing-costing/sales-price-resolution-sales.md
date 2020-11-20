@@ -1,21 +1,21 @@
 ---
-title: Penyelesaian harga jualan untuk anggaran dan sebenar
+title: Selesaikan harga jualan untuk anggaran dan sebenar - ringan
 description: Topik ini memberikan maklumat tentang penyelesaian harga jualan pada anggaran dan sebenar.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088025"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176757"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>Penyelesaian harga jualan untuk anggaran dan sebenar
+# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Selesaikan harga jualan untuk anggaran dan sebenar - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -27,9 +27,9 @@ Dalam Operasi Projek, baris anggaran bagi masa digunakan untuk menandakan butira
 
 Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-langkah berikut untuk menetapkan kadar bil lalai.
 
-1. Sistem menggunakan medan **Peranan** dan **Unit Sumber** pada baris anggaran bagi masa, untuk dipadankan dengan baris harga peranan dalam senarai harga diselesaikan. Pemadanan ini menganggap bahawa dimensi penetapan harga luar kotak untuk kadar bil sedang digunakan. Jika anda mengkonfigurasi penetapan harga berdasarkan sebarang medan lain atau sebagai tambahan kepada **Peranan** dan **Unit Sumber** , maka gabungan tersebut akan digunakan untuk mendapatkan baris harga peranan yang sepadan.
-2. Jika sistem mendapati baris harga peranan yang mempunyai kadar bil untuk gabungan medan **Peranan** dan **Unit Sumber** , maka kadar bil tersebut dilalaikan.
-3. Jika sistem tidak dapat memadankan nilai medan **Peranan** dan **Unit Sumber** , maka ia akan mendapatkan baris harga peranan dengan peranan yang sepadan tetapi nilai nol **Unit Sumber**. Setelah sistem menemukan rekod harga peranan yang sepadan, ia akan menetapkan kadar bil daripada rekod tersebut. Pemadanan ini menganggap konfigurasi luar kotak untuk keutamaan relatif **Peranan** berbanding **Unit Sumber** sebagai dimensi penetapan harga jualan.
+1. Sistem menggunakan medan **Peranan** dan **Unit Sumber** pada baris anggaran bagi masa, untuk dipadankan dengan baris harga peranan dalam senarai harga diselesaikan. Pemadanan ini menganggap bahawa dimensi penetapan harga luar kotak untuk kadar bil sedang digunakan. Jika anda mengkonfigurasi penetapan harga berdasarkan sebarang medan lain atau sebagai tambahan kepada **Peranan** dan **Unit Sumber**, maka gabungan tersebut akan digunakan untuk mendapatkan baris harga peranan yang sepadan.
+2. Jika sistem mendapati baris harga peranan yang mempunyai kadar bil untuk gabungan medan **Peranan** dan **Unit Sumber**, maka kadar bil tersebut dilalaikan.
+3. Jika sistem tidak dapat memadankan nilai medan **Peranan** dan **Unit Sumber**, maka ia akan mendapatkan baris harga peranan dengan peranan yang sepadan tetapi nilai nol **Unit Sumber**. Setelah sistem menemukan rekod harga peranan yang sepadan, ia akan menetapkan kadar bil daripada rekod tersebut. Pemadanan ini menganggap konfigurasi luar kotak untuk keutamaan relatif **Peranan** berbanding **Unit Sumber** sebagai dimensi penetapan harga jualan.
 
 > [!NOTE]
 > Jika anda mengkonfigurasi keutamaan **Peranan** dan **Unit Sumber** yang berbeza atau jika anda mempunyai dimensi lain yang keutamaannya lebih tinggi, tingkah laku ini akan berubah dengan sewajarnya. Sistem akan mendapatkan rekod harga peranan dengan nilai yang sepadan daripada setiap nilai dimensi penetapan harga mengikut urutan keutamaan dengan baris yang mempunyai nilai nol untuk dimensi merupakan yang terakhir.
@@ -41,7 +41,7 @@ Dalam Operasi Projek, baris anggaran untuk perbelanjaan digunakan bagi menandaka
 Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-langkah berikut untuk menetapkan harga jualan unit lalai.
 
 1. Sistem menggunakan gabungan medan **Kategori** dan **Unit** pada baris anggaran bagi perbelanjaan untuk dipadankan dengan baris harga kategori dalam senarai harga yang telah diselesaikan.
-2. Jika sistem mendapati baris harga kategori yang mempunyai kadar jualan untuk kombinasi medan **Kategori** dan **Unit** , maka kadar jualan tersebut dilalaikan.
+2. Jika sistem mendapati baris harga kategori yang mempunyai kadar jualan untuk kombinasi medan **Kategori** dan **Unit**, maka kadar jualan tersebut dilalaikan.
 3. Jika sistem mendapati baris harga kategori yang sepadan, kaedah penetapan harga boleh digunakan untuk menetapkan harga jualan lalai. Jadual di bawah menunjukkan kelakuan penetapan lalai harga perbelanjaan dalam Operasi Projek.
 
     | Konteks | Kaedah penetapan harga | Harga dilalaikan |
@@ -53,4 +53,4 @@ Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-lan
     | &nbsp; | Pada kos | Berdasarkan kos sebenar yang berkaitan |
     | &nbsp; | Tokokan terhadap kos | Gunakan tokokan seperti yang ditakrifkan oleh baris harga kategori pada kadar kos unit bagi kos berkaitan yang sebenar |
 
-4. Jika sistem tidak dapat memadankan nilai medan **Kategori** dan **Unit** , kadar jualan ditetapkan lalai kepada sifar(0).
+4. Jika sistem tidak dapat memadankan nilai medan **Kategori** dan **Unit**, kadar jualan ditetapkan lalai kepada sifar(0).

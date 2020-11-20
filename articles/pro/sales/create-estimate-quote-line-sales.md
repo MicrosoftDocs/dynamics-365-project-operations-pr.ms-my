@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081132"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180383"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Menganggarkan baris sebut harga berdasarkan projek
 
@@ -30,11 +30,11 @@ Untuk menganggarkan baris sebut harga berdasarkan projek, pada baris sebut harga
 
 Untuk mencipta anggaran pada baris sebut harga berasaskan projek, pilih tab **Butiran Baris Sebut Harga**. Item baris yang anda cipta pada tab ini akan merumuskan nilai sebut harga untuk baris sebut harga ini. 
 
-Untuk mencipta butiran baris sebut harga, pilih **+ Sebut harga butiran baharu** pada sub grid **Butiran Baris Sebut Harga**. Gelangsar cipta pantas akan dibuka. Medan berikut pada borang **Baris Sebut Harga** :
+Untuk mencipta butiran baris sebut harga, pilih **+ Butiran baharu baris sebut harga** pada subgrid **Butiran Baris Sebut harga**. Gelangsar cipta pantas akan dibuka. Medan berikut pada borang **Baris Sebut Harga**:
 
-| **Medan** | **Lokasi** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
+| **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
-| Penerangan | Cipta cepat | Perihalan mengenai anggaran tertentu. | Medan ini ingkar kepada butiran baris sebut harga yang berkaitan untuk kos yang dicipta secara automatik. |
+| Penerangan  | Cipta cepat | Perihalan mengenai anggaran tertentu. | Medan ini ingkar kepada butiran baris sebut harga yang berkaitan untuk kos yang dicipta secara automatik. |
 | Kelas Transaksi | Cipta cepat | Senarai juntai bawah ini menyediakan kelas transaksi yang dimasukkan pada tab **Umum** baris sebut harga berasaskan projek.  | Medan ini ingkar kepada butiran baris sebut harga yang berkaitan untuk kos yang dicipta secara automatik. |
 | Peranan | Cipta cepat | Orang yang akan melaksanakan kerja ini atau menanggung perbelanjaan ini. | Medan ini ingkar kepada butiran baris sebut harga yang berkaitan untuk kos yang dicipta secara automatik. |
 | Kategori | Cipta cepat | Kategori kerja atau perbelanjaan. | Medan ini ingkar kepada butiran baris sebut harga yang berkaitan untuk kos yang dicipta secara automatik. |
@@ -50,11 +50,11 @@ Untuk mencipta butiran baris sebut harga, pilih **+ Sebut harga butiran baharu**
 
 ## <a name="update-prices-on-quote-line-details"></a>Kemas kini harga untuk butiran baris sebut harga
 
-Jika anda telah mengubah harga pada senarai harga projek yang dilampirkan dengan sebut harga, atau pada senarai harga kos unit kontrak, anda boleh memilih **Mengira semula** pada halaman **Sebut harga** , untuk menyegarkan harganya pada butiran baris sebut harga individu untuk mencerminkan perubahan ini. Apabila anda memilih **Mengira semula** , amaran berlaku yang memberitahu anda bahawa harga pada butiran baris sebut harga untuk semua baris sebut harga pada sebut harga ini akan ditetapkan. Pilih **Ya** , untuk menyegarkan semula harga untuk jualan dan butiran baris sebut harga.
+Jika anda telah mengubah harga pada senarai harga projek yang dilampirkan dengan sebut harga, atau pada senarai harga kos unit kontrak, anda boleh memilih **Mengira semula** pada halaman **Sebut harga**, untuk menyegarkan harganya pada butiran baris sebut harga individu untuk mencerminkan perubahan ini. Apabila anda memilih **Mengira semula**, amaran berlaku yang memberitahu anda bahawa harga pada butiran baris sebut harga untuk semua baris sebut harga pada sebut harga ini akan ditetapkan. Pilih **Ya**, untuk menyegarkan semula harga untuk jualan dan butiran baris sebut harga.
 
 ## <a name="access-quote-line-details-for-cost"></a>Akses butiran baris sebut harga untuk kos
 
-Pada tab **Butiran baris sebut harga** , pilih baris dalam grid untuk mendayakan sesetengah tindakan pada bar alat sub grid. Tindakan pertama pada bar alat sub grid apabila butiran baris sebut harga dipilih ialah **Buka Butiran Kos**. Pilih **Buka Butiran Kos** untuk melihat kadar kos dan jumlah yang berkaitan untuk baris sebut harga ini.
+Pada tab **Butiran baris sebut harga**, pilih baris dalam grid untuk mendayakan sesetengah tindakan pada bar alat subgrid. Tindakan pertama pada bar alat subgrid apabila butiran baris sebut harga dipilih adalah **Buka Butiran Kos**. Pilih **Buka Butiran Kos** untuk melihat kadar kos dan jumlah yang berkaitan untuk baris sebut harga ini.
 
 > [!NOTE]
 > Mengubah unit sumber, kuantiti, tarikh, peranan atau nilai kategori pada baris sebut harga butiran untuk kos akan mengubah nilai yang sesuai pada butiran baris sebut harga untuk jualan.

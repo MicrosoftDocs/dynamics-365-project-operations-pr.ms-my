@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081252"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180715"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Sediakan kadar bil untuk pengebilan kadar buruh 
+# <a name="set-up-labor-bill-rates"></a>Sediakan kadar bil buruh
 
 _ **Gunakan Pada:** Operasi Projek untuk senario berasaskan sumber/bukan stok
 
 Setiap senarai harga mempunyai set harga peranan atau kadar buruh yang efektif untuk konteks dan tarikh kuat kuasa disertakan pada pengepala senarai harga. Kadar bil untuk masa dalam Dynamics 365 Project Operations boleh ditetapkan dalam hanya satu mata wang, iaitu mata wang pada pengepala senarai Harga.
 
 1. Untuk menyediakan kadar bil buruh bagi senarai harga jualan, cipta senarai harga berdasarkan pengepala senarai harga. 
-2. Pada tab **Harga Peranan** , dalam sub grid, pilih **+ Harga Peranan Baharu**. 
-3. Pada anak tetingkap **Cipta Pantas** , masukkan peranan dan gabungan unit organisasi yang anda perlukan untuk menyediakan kadar bil.
+2. Pada tab **Harga Peranan**, dalam sub grid, pilih **+ Harga Peranan Baharu**. 
+3. Pada anak tetingkap **Cipta Pantas**, masukkan peranan dan gabungan unit organisasi yang anda perlukan untuk menyediakan kadar bil.
 
    Jadual berikut merangkumi medan pada tab **Umum** dan anak tetingkap **Cipta Pantas** bagi baris harga peranan yang perlu diingati apabila anda mencipta harga peranan pada senarai harga jualan.
 
-    | Medan | Lokasi | Keterkaitan, tujuan dan panduan | Kesan hiliran |
+    | Medan | Lokasi | Penerangan  | Kesan hiliran |
     | --- | --- | --- | --- |
     | Peranan | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih peranan yang anda tetapkan untuk kadar bil. | Peranan pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |
     | Syarikat Penyumberan | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih syarikat atau entiti sah yang peranan ini berasal. Sebagai contoh, pemaju dari Fabrikam India atau pemaju dari Fabrikam USA. | Syarikat sumber pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |
@@ -35,7 +35,7 @@ Setiap senarai harga mempunyai set harga peranan atau kadar buruh yang efektif u
     | Harga | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Sediakan kadar bil untuk peranan, syarikat sumber dan gabungan unit sumber. Contohnya, pemaju daripada Fabrikam India mempunyai kadar bil 100 USD atau pemaju daripada Fabrikam USA mempunyai kadar bil 150 USD. | Harga ini merupakan kadar bil lalai pada harga setiap unit bagi baris anggaran atau sebenar yang masuk untuk kelas transaksi Masa. |
     | Mata wang | Tab **Umum** dan anak tetingkap **Cipta Pantas**| Secara lalai, nilai mata wang diperoleh daripada mata wang pada pengepala senarai harga jualan. Pada senarai harga jualan, mata wang tidak boleh ditulis ganti. | Mata wang ini ialah mata wang lalai pada harga setiap unit bagi baris jualan sebenar yang masuk untuk kelas transaksi Masa. |
     | Jadual Unit | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Jadual unit ini lalai kepada Masa dan tidak boleh ditukar pada entiti harga Peranan kerana ia digunakan untuk menyatakan kadar mengikut unit masa. | Tiada kesan hiliran untuk medan ini. |
-    | Unit | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Nilai unit diperoleh daripada medan **Unit Masa** pada pengepala senarai harga jualan. Tetapi nilai boleh ditulis ganti. Contohnya, pemaju daripada Fabrikam India mempunyai kadar bil 1000 USD setiap **Hari India**. Pemaju daripada Fabrikam USA mempunyai kadar bil untuk 1500 USD setiap **Hari AS**. | Apabila harga setiap unit lalai pada baris anggaran atau sebenar yang masuk, sistem ini menggunakan sistem unit dan penukaran dalam unit asas untuk mengira harga setiap unit. Contohnya, anggaran untuk 10 **Hari India** , nilai kerja untuk Pemaju dari India dan unit Hari India ditakrifkan sebagai 10 jam. Semasa penetapan harga garisan anggaran, aplikasi mengira harga unit pada anggaran 1000 USD/10 jam = 100 USD setiap jam. |
+    | Unit | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Nilai unit diperoleh daripada medan **Unit Masa** pada pengepala senarai harga jualan. Tetapi nilai boleh ditulis ganti. Contohnya, pemaju daripada Fabrikam India mempunyai kadar bil 1000 USD setiap **Hari India**. Pemaju daripada Fabrikam USA mempunyai kadar bil untuk 1500 USD setiap **Hari AS**. | Apabila harga setiap unit lalai pada baris anggaran atau sebenar yang masuk, sistem ini menggunakan sistem unit dan penukaran dalam unit asas untuk mengira harga setiap unit. Contohnya, anggaran untuk 10 **Hari India**, nilai kerja untuk Pemaju dari India dan unit Hari India ditakrifkan sebagai 10 jam. Semasa penetapan harga garisan anggaran, aplikasi mengira harga unit pada anggaran 1000 USD/10 jam = 100 USD setiap jam. |
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>Pindahkan harga atau sediakan kadar bil untuk sumber daripada unit atau divisyen organisasi yang lain 
 

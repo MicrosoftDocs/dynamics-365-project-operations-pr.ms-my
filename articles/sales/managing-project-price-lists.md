@@ -1,12 +1,12 @@
 ---
-title: Senarai harga projek
+title: Urus senarai harga projek pada sebut harga
 description: Topik ini menyediakan maklumat tentang entiti senarai harga Projek.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081454"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177207"
 ---
-# <a name="project-price-lists"></a>Senarai harga projek
+# <a name="manage-project-price-lists-on-a-quote"></a>Urus senarai harga projek pada sebut harga
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations melanjutkan entiti senarai harga dalam Dynamics 
 
 Senarai harga termasuk maklumat yang disediakan oleh empat entiti yang berbeza:
 
-- **Senarai Harga** : Entiti ini menyimpan maklumat tentang konteks, mata wang, tarikh kuat kuasa dan unit masa untuk masa penetapan harga. Konteks menunjukkan sama ada senarai harga menunjukkan kadar kos atau kadar jualan. 
-- **Mata wang** : Entiti ini menyimpan mata wang harga pada senarai harga. 
-- **Tarikh** : Entiti ini digunakan apabila sistem cuba memasukkan harga lalai pada transaksi. Penetapan harga yang mengandungi tarikh kuat kuasa termasuk tarikh transaksi dipilih. Jika lebih daripada satu senarai harga ditemui efektif untuk tarikh transaksi dan dilampirkan ke sebut harga, kontrak atau unit organisasi berkaitan maka tiada harga dilalaikan. 
-- **Masa** : Entiti ini menyimpan unit masa yang ditunjukkan oleh harga untuk seperti kadar harian atau jam. 
+- **Senarai Harga**: Entiti ini menyimpan maklumat tentang konteks, mata wang, tarikh kuat kuasa dan unit masa untuk masa penetapan harga. Konteks menunjukkan sama ada senarai harga menunjukkan kadar kos atau kadar jualan. 
+- **Mata wang**: Entiti ini menyimpan mata wang harga pada senarai harga. 
+- **Tarikh**: Entiti ini digunakan apabila sistem cuba memasukkan harga lalai pada transaksi. Penetapan harga yang mengandungi tarikh kuat kuasa termasuk tarikh transaksi dipilih. Jika lebih daripada satu senarai harga ditemui efektif untuk tarikh transaksi dan dilampirkan ke sebut harga, kontrak atau unit organisasi berkaitan maka tiada harga dilalaikan. 
+- **Masa**: Entiti ini menyimpan unit masa yang ditunjukkan oleh harga untuk seperti kadar harian atau jam. 
 
 Entiti Senarai harga mempunyai tiga jadual berkaitan yang menyimpan harga:
 
-  - **Harga Peranan** : Jadual ini menyimpan kadar untuk gabungan nilai unit peranan dan organisasi dan digunakan untuk menyediakan harga berasaskan peranan untuk sumber manusia.
-  - **Harga Kategori Transaksi** : Jadual ini menyimpan harga mengikut kategori transaksi dan digunakan untuk menyediakan harga kategori perbelanjaan.
-  - **Item Senarai Harga** : Jadual ini menyimpan harga untuk produk katalog.
+  - **Harga Peranan**: Jadual ini menyimpan kadar untuk gabungan nilai unit peranan dan organisasi dan digunakan untuk menyediakan harga berasaskan peranan untuk sumber manusia.
+  - **Harga Kategori Transaksi**: Jadual ini menyimpan harga mengikut kategori transaksi dan digunakan untuk menyediakan harga kategori perbelanjaan.
+  - **Item Senarai Harga**: Jadual ini menyimpan harga untuk produk katalog.
  
 Senarai harga ialah kad kadar. Kad kadar ialah kombinasi entiti Senarai Harga dan baris berkaitan dalam jadual Harga Peranan, Harga Kategori Transaksi dan Item Senarai Harga.
 
@@ -53,15 +53,15 @@ Istilah *peranan sumber* merujuk kepada set kemahiran, kecekapan dan pensijilan 
 
 Masa sumber manusia biasanya diberi sebut harga berasaskan peranan yang sumber isi pada projek tertentu. Untuk masa sumber manusia, pengekosan dan pengebilan adalah berasaskan pada peranan sumber. Masa boleh ditetapkan harga dalam mana-mana unit dalam kumpulan unit **Masa**.
 
-Kumpulan unit **Masa** dicipta apabila anda memasang Project Operations. Ia mempunyai unit **Jam** lalai. Anda tidak boleh memadam, menamakan semula atau mengedit atribut dalam unit kumpulan **Masa** atau unit **Jam**. Walau bagaimanapun, anda boleh menambah unit lain kepada kumpulan unit **Masa**. Jika anda cuba memadam sama ada kumpulan unit **Masa** atau unit **Jam** , anda mungkin menyebabkan kegagalan dalam logik perniagaan.
+Kumpulan unit **Masa** dicipta apabila anda memasang Project Operations. Ia mempunyai unit **Jam** lalai. Anda tidak boleh memadam, menamakan semula atau mengedit atribut dalam unit kumpulan **Masa** atau unit **Jam**. Walau bagaimanapun, anda boleh menambah unit lain kepada kumpulan unit **Masa**. Jika anda cuba memadam sama ada kumpulan unit **Masa** atau unit **Jam**, anda mungkin menyebabkan kegagalan dalam logik perniagaan.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategori transaksi dan kategori perbelanjaan
 
 Perbelanjaan perjalanan dan lain-lain yang ditanggung oleh perunding projek dibilkan kepada pelanggan. Penetapan harga kategori perbelanjaan dilengkapkan menggunakan senarai harga. Tambang kapal terbang, hotel dan sewa kereta ialah contoh kategori perbelanjaan. Setiap baris senarai harga untuk perbelanjaan menentukan penetapan harga untuk kategori perbelanjaan tertentu. Tiga kaedah berikut digunakan untuk kategori perbelanjaan harga:
 
-- **Pada kos** : Kos perbelanjaan dibilkan kepada pelanggan dan tiada tokokan digunakan.
-- **Peratusan tokokan** : Peratusan yang melebihi kos sebenar akan dibilkan kepada pelanggan. 
-- **Harga setiap unit** : Harga pengebilan ditetapkan untuk setiap unit kategori perbelanjaan. Jumlah yang dibilkan kepada pelanggan dikira berdasarkan bilangan unit perbelanjaan yang perunding laporkan. Perbatuan menggunakan kaedah penetapan harga setiap unit. Sebagai contoh, kategori perbelanjaan perbatuan boleh dikonfigurasikan kepada 30 dolar AS (USD) setiap hari atau 2 USD setiap batu. Apabila perunding melaporkan perbatuan ke atas projek, jumlah kepada bil dikira berdasarkan bilangan batu yang dilaporkan oleh perunding.
+- **Pada kos**: Kos perbelanjaan dibilkan kepada pelanggan dan tiada tokokan digunakan.
+- **Peratusan tokokan**: Peratusan yang melebihi kos sebenar akan dibilkan kepada pelanggan. 
+- **Harga setiap unit**: Harga pengebilan ditetapkan untuk setiap unit kategori perbelanjaan. Jumlah yang dibilkan kepada pelanggan dikira berdasarkan bilangan unit perbelanjaan yang perunding laporkan. Perbatuan menggunakan kaedah penetapan harga setiap unit. Sebagai contoh, kategori perbelanjaan perbatuan boleh dikonfigurasikan kepada 30 dolar AS (USD) setiap hari atau 2 USD setiap batu. Apabila perunding melaporkan perbatuan ke atas projek, jumlah kepada bil dikira berdasarkan bilangan batu yang dilaporkan oleh perunding.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Penetapan harga jualan projek dan ganti
 
@@ -103,7 +103,7 @@ Anda boleh mencipta gantian urusan khusus untuk harga terpilih pada senarai harg
 
 Secara lalai, kontrak projek sentiasa mendapat salinan senarai harga jualan indukr dan bukannya pautan langsung kepadanya. Tingkah laku ini membantu menjamin perjanjian harga yang dibuat dengan pelanggan untuk pernyataan kerja (SOW) tidak berubah jika senarai harga induk ditukar.
 
-Walau bagaimanapun, pada sebut harga, anda boleh menggunakan senarai harga induk. Sebagai alternatif, anda boleh menyalin senarai harga induk dan mengeditnya untuk mencipta senarai harga tersuai yang digunakan hanya untuk sebut harga tersebut. Untuk mencipta senarai harga baharu yang khusus untuk sebut harga, pada halaman **Sebut Harga** , pilih **Cipta penetapan harga tersuai**. Anda boleh mengakses senarai harga projek khusus urusan hanya daripada sebut harga. 
+Walau bagaimanapun, pada sebut harga, anda boleh menggunakan senarai harga induk. Sebagai alternatif, anda boleh menyalin senarai harga induk dan mengeditnya untuk mencipta senarai harga tersuai yang digunakan hanya untuk sebut harga tersebut. Untuk mencipta senarai harga baharu yang khusus untuk sebut harga, pada halaman **Sebut Harga**, pilih **Cipta penetapan harga tersuai**. Anda boleh mengakses senarai harga projek khusus urusan hanya daripada sebut harga. 
 
 Apabila anda mencipta senarai harga projek tersuai, hanya komponen projek senarai harga yang disalin. Dalam erti kata lain, senarai harga baharu yang dicipta sebagai salinan senarai harga projek sedia ada yang dilampirkan pada sebut harga, dan senarai harga baru ini hanya mengandungi harga peranan dan harga kategori transaksi yang berkaitan.
   

@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081082"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182003"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Urus berbilang pelanggan pada sebut harga projek
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Urus berbilang pelanggan pada sebut harga projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
@@ -29,13 +29,13 @@ Pelanggan sebut harga dan pelanggan baris sebut harga boleh ditambah, dikemas ki
 
 Pelanggan yang disenaraikan pada tab **Ringkasan** projek sebut harga sebagai pelanggan berpotensi adalah pelanggan utama sebut harga. Jika anda cuba memadam pelanggan utama daripada senarai pelanggan pada sebut harga, anda akan menerima ralat yang rekod pelanggan utama pada sebut harga tidak boleh dipadamkan.
 
-Pelanggan utama tidak boleh dikemas kini daripada senarai pelanggan pada sebut harga. Walau bagaimanapun, anda boleh mempengaruhi pelanggan utama dengan mengubah pelanggan berpotensi pada tab **Ringkasan** sebut harga. Apabila medan ini dikemas kini pada tab **Ringkasan Sebut Harga** , pelanggan berpotensi yang terpilih ditambah sebagai pelanggan sebut harga baharu dengan set bendera **Utama**. Pelanggan berpotensi lama masih akan menjadi pelanggan pada sebut harga.
+Pelanggan utama tidak boleh dikemas kini daripada senarai pelanggan pada sebut harga. Walau bagaimanapun, anda boleh mempengaruhi pelanggan utama dengan mengubah pelanggan berpotensi pada tab **Ringkasan** sebut harga. Apabila medan ini dikemas kini pada tab **Ringkasan Sebut Harga**, pelanggan berpotensi yang terpilih ditambah sebagai pelanggan sebut harga baharu dengan set bendera **Utama**. Pelanggan berpotensi lama masih akan menjadi pelanggan pada sebut harga.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Cipta, Kemas kini atau Padam rekod pelanggan baris sebut harga
 
 Pelanggan sebut harga boleh dicipta, dikemas kini atau dipadam daripada tab **Pelanggan sebut harga** pada halaman **Sebut Harga**. Medan yang disenaraikan dalam jadual berikut adalah pada rekod pelanggan sebut harga bagi sebut harga projek.
 
-| **Medan** | **Lokasi** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
+| **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
 | Akaun | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Senaraikan semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Jika anda mahu mengemaskinikannya, padam rekod dan ciptanya semula. Jika anda telah merekod sebarang aktual atau jika rekod pelanggan sebut harga adalah pelanggan utama, anda akan dibenarkan untuk memadam rekod itu. | Pelanggan sebut harga disalin sebagai pelanggan baris sebut harga apabila baris sebut harga dicipta. Pelanggan sebut harga juga disalin ke pelanggan kontrak projek apabila sebut harga dimenangi. |
 | Peratusan Pecahan Pengebilan | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Mewakili peratusan bagi setiap transaksi jualan tidak dibilkan yang akan diatribut ke pelanggan sebut harga ini. | Disalin ke baris sebut harga baharu yang dicipta dan untuk melindungi pelanggan kontrak projek. |
@@ -50,4 +50,4 @@ Pelanggan sebut harga boleh dicipta, dikemas kini atau dipadam daripada tab **Pe
 
 Anda boleh edit peratusan pecahan pengebilan menggunakan pengalaman edit grid dalam baris. Apabila peratusan pecahan pengebilan tidak berjumlah 100%, ralat akan berlaku. Selepas anda mengemas kini peratusan pecahan pengebilan, segar semula halaman untuk mengalih keluar ralat.
 
-Anda juga boleh cuba memilih **Agihkan Dengan Sekata** pada subgrid sebut harga pelanggan. Tindakan ini memperuntukkan pecahan pengebilan ke semua pelanggan sebut harga. Jika terdapat faktor pembundaran yang akan ditambah ke pelanggan pembundaran. Salah satu pelanggan sebut harga sentiasa ditag sebagai pelanggan pembundaran. Ini bermaksud bahawa rekod pelanggan sebut harga mempunyai bendera **Pembundaran** ditetapkan ke **Ya**. Kebiasaannya ini adalah pelanggan utama sebut harga tetapi yang boleh ditukar.
+Anda juga boleh cuba memilih **Agihkan Secara Sekata** pada subgrid pelanggan sebut harga. Tindakan ini memperuntukkan pecahan pengebilan ke semua pelanggan sebut harga. Jika terdapat faktor pembundaran yang akan ditambah ke pelanggan pembundaran. Salah satu pelanggan sebut harga sentiasa ditag sebagai pelanggan pembundaran. Ini bermaksud bahawa rekod pelanggan sebut harga mempunyai bendera **Pembundaran** ditetapkan ke **Ya**. Kebiasaannya ini adalah pelanggan utama sebut harga tetapi yang boleh ditukar.

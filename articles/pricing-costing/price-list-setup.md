@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 578f5641659a5d05785781afe7055fe4449cf799
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088030"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180203"
 ---
 # <a name="set-up-price-lists"></a>Sediakan senarai harga
 
@@ -23,20 +23,20 @@ Senarai harga dalam Dynamics 365 Project Operations mewakili katalog kadar. Kada
 
 Sambungan berikut adalah khusus untuk Project Operations dan digunakan pada senarai harga daripada Dynamics 365 Sales.
 
-- **Konteks** : Medan ini mempunyai nilai yang disokong, **Kos** dan **Jualan**. Nilai, **Belian** adalah tidak disokong. Tetapkan konteks kepada **Kos** untuk membuat senarai harga kos atau tetapkan konteks kepada **Jualan** untuk senarai harga jualan. Senarai harga kos selesaikan harga bagi jenis kos pada anggaran dan rekod sebenar. Senarai harga jualan selesaikan harga pada anggaran dan rekod sebenar jenis jualan yang belum dibilkan dan dibilkan.
-- **Unit Masa** : Ini adalah unit lalai masa yang harga ditetapkan dalam jadual **Harga Peranan** yang berkaitan untuk senarai harga ini.
-- **Entiti Senarai Harga** : Medan tersembunyi ini adalah oleh Project Operations untuk membezakan senarai harga yang sebut harga atau khusus kontrak daripada digunakan yang standard dan peringkat global.
+- **Konteks**: Medan ini mempunyai nilai yang disokong, **Kos** dan **Jualan**. Nilai, **Belian** adalah tidak disokong. Tetapkan konteks kepada **Kos** untuk membuat senarai harga kos atau tetapkan konteks kepada **Jualan** untuk senarai harga jualan. Senarai harga kos selesaikan harga bagi jenis kos pada anggaran dan rekod sebenar. Senarai harga jualan selesaikan harga pada anggaran dan rekod sebenar jenis jualan yang belum dibilkan dan dibilkan.
+- **Unit Masa**: Ini adalah unit lalai masa yang harga ditetapkan dalam jadual **Harga Peranan** yang berkaitan untuk senarai harga ini.
+- **Entiti Senarai Harga**: Medan tersembunyi ini adalah oleh Project Operations untuk membezakan senarai harga yang sebut harga atau khusus kontrak daripada digunakan yang standard dan peringkat global.
 
 ## <a name="price-list-header"></a>Pengepala senarai harga
 
 Jadual berikut termasuk medan pada tab senarai harga **Umum** yang unik pada Project Operations atau mempunyai perubahan ketara dalam tingkah laku daripada senarai harga dalam Jualan.
 
-| Medan | Lokasi | Keterkaitan, tujuan dan panduan | Kesan hiliran |
+| Medan | Lokasi | Penerangan  | Kesan hiliran |
 | --- | --- | --- | --- |
 | Nama | Tab **Umum** dan borang **Cipta Pantas** | Identiti senarai harga. | Senarai harga ditunjukkan dengan nilai ini pada semua halaman senarai dan pilihan juntai bawah.|
 | Konteks | Tab **Umum** dan borang **Cipta Pantas** | Medan ini boleh ditetapkan kepada **Kos** atau **Jualan**. | Senarai harga ditetapkan kepada **Kos** adalah digunakan untuk mencari harga untuk anggaran kos dan kos sebenar. Senarai harga ditetapkan kepada **Jualan** adalah digunakan untuk mencari harga untuk anggaran jualan dan jualan sebenar. Hanya senarai harga yang mempunyai konteks ditetapkan kepada **Jualan** boleh dilampirkan ke senarai harga projek untuk pelanggan, sebut harga projek, dan kontrak projek. |
-| Tarikh Mula | Tab **Umum** dan borang **Cipta Pantas** | Tarikh mula tempoh senarai harga berkuat kuasa. | Dengan medan **Tarikh Akhir** , medan ini digunakan untuk menentukan senarai harga yang berkenaan digunakan untuk anggaran tertentu atau baris sebenar. |
-| Tarikh Tamat | Tab **Umum** dan borang **Cipta Pantas** | Tarikh akhir tempoh senarai harga berkuat kuasa. | Dengan medan **Tarikh Mula** , medan ini digunakan untuk menentukan senarai harga yang berkenaan digunakan untuk anggaran tertentu atau baris sebenar. |
-| Mata wang | Tab **Umum** dan borang **Cipta Pantas** | Medan ini digunakan untuk melalaikan mata wang pada setiap peranan, kategori, atau baris item senarai harga yang berkaitan dengan senarai harga ini. | Pada senarai harga, peranan, kategori, atau baris item senarai harga **Jualan** tidak boleh dicipta dalam sebarang mata wang selain daripada mata wang ini. Pada senarai harga **Kos** , anda boleh mencipta baris harga peranan dalam sebarang mata wang. Mata wang yang ditakrifkan di sini digunakan sebagai lalai. Persediaan pengguna yang berkaitan dengan harga peranan boleh ganti nilai ini untuk mendayakan persediaan kadar kos buruh dalam sebarang mata wang. Kategori kadar kos dan kos item senarai harga boleh ditetapkan hanya dalam mata wang yang ditakrifkan di sini. |
-| Unit Masa | Tab **Umum** dan borang **Cipta Pantas** | Medan ini digunakan untuk melalaikan unit masa pada setiap baris peranan yang berkaitan dengan senarai harga ini. | Nilai medan ini hanya digunakan pada persediaan harga peranan yang berkaitan. Pada senarai harga **Kos** dan **Jualan** , anda boleh mencipta baris harga peranan dalam sebarang unit masa. Unit masa yang ditakrifkan di sini digunakan sebagai lalai. Persediaan pengguna yang berkaitan dengan harga peranan boleh ganti nilai ini untuk mendayakan persediaan kadar kos buruh dan kadar bil dalam sebarang unit masa. |
+| Tarikh Mula | Tab **Umum** dan borang **Cipta Pantas** | Tarikh mula tempoh senarai harga berkuat kuasa. | Dengan medan **Tarikh Akhir**, medan ini digunakan untuk menentukan senarai harga yang berkenaan digunakan untuk anggaran tertentu atau baris sebenar. |
+| Tarikh Tamat | Tab **Umum** dan borang **Cipta Pantas** | Tarikh akhir tempoh senarai harga berkuat kuasa. | Dengan medan **Tarikh Mula**, medan ini digunakan untuk menentukan senarai harga yang berkenaan digunakan untuk anggaran tertentu atau baris sebenar. |
+| Mata wang | Tab **Umum** dan borang **Cipta Pantas** | Medan ini digunakan untuk melalaikan mata wang pada setiap peranan, kategori, atau baris item senarai harga yang berkaitan dengan senarai harga ini. | Pada senarai harga, peranan, kategori, atau baris item senarai harga **Jualan** tidak boleh dicipta dalam sebarang mata wang selain daripada mata wang ini. Pada senarai harga **Kos**, anda boleh mencipta baris harga peranan dalam sebarang mata wang. Mata wang yang ditakrifkan di sini digunakan sebagai lalai. Persediaan pengguna yang berkaitan dengan harga peranan boleh ganti nilai ini untuk mendayakan persediaan kadar kos buruh dalam sebarang mata wang. Kategori kadar kos dan kos item senarai harga boleh ditetapkan hanya dalam mata wang yang ditakrifkan di sini. |
+| Unit Masa | Tab **Umum** dan borang **Cipta Pantas** | Medan ini digunakan untuk melalaikan unit masa pada setiap baris peranan yang berkaitan dengan senarai harga ini. | Nilai medan ini hanya digunakan pada persediaan harga peranan yang berkaitan. Pada senarai harga **Kos** dan **Jualan**, anda boleh mencipta baris harga peranan dalam sebarang unit masa. Unit masa yang ditakrifkan di sini digunakan sebagai lalai. Persediaan pengguna yang berkaitan dengan harga peranan boleh ganti nilai ini untuk mendayakan persediaan kadar kos buruh dan kadar bil dalam sebarang unit masa. |
 | Penerangan  | Tab **Umum** dan borang **Cipta Pantas** | Medan teks ini membenarkan anda untuk memberikan perihalan berbilang baris senarai harga. | Medan ini ditunjukkan dalam pandangan **Berkaitan** pada senarai harga dalam pelbagai entiti yang mempunyai senarai harga berkaitan.. |

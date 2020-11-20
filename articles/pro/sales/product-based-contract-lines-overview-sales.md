@@ -1,21 +1,21 @@
 ---
-title: Gambaran keseluruhan baris kontrak berdasarkan produk
+title: Gambaran keseluruhan baris kontrak berasaskan produk - lite
 description: Topik ini memberikan maklumat tentang baris kontrak berdasarkan produk.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081155"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177882"
 ---
-# <a name="product-based-contract-lines-overview"></a>Gambaran keseluruhan baris kontrak berdasarkan produk
+# <a name="product-based-contract-lines-overview---lite"></a>Gambaran keseluruhan baris kontrak berasaskan produk - lite
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -43,6 +43,6 @@ Jika baris kontrak adalah berdasarkan pada katalog produk, anda boleh ganti harg
 - **Ganti penetapan harga**
 - **Gunakan lalai**
 
-Jika anda menetapkan medan **Harga** kepada **Harga ganti** , harga lalai tidak ditetapkan. Masukkan harga untuk produk pada baris kontrak. Jika anda menetapkan medan kepada **Gunakan lalai** , harga jualan lalai digunakan dan medan tidak boleh diedit.
+Jika anda menetapkan medan **Harga** kepada **Harga ganti**, harga lalai tidak ditetapkan. Masukkan harga untuk produk pada baris kontrak. Jika anda menetapkan medan kepada **Gunakan lalai**, harga jualan lalai digunakan dan medan tidak boleh diedit.
 
 Selepas anda memasang Project Operations, harga jualan lalai dimasukkan pada baris berdasarkan produk pada kontrak. Medan **Harga** ditetapkan kepada **Ganti harga** supaya anda boleh mengedit harga lalai pada baris kontrak. Ini adalah ganti khusus Project Operations kepada tingkah laku baris berdasarkan produk dalam Dynamics 365 Sales.

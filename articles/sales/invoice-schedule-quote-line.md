@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081161"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180833"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Jadual invois pada baris sebut harga berasaskan projek
 
@@ -28,11 +28,11 @@ Pada keseluruhannya, tujuan jadual invois adalah untuk membenarkan penciptaan au
 Apabila kaedah pengebilan untuk baris sebut harga berdasarkan projek ialah Masa dan bahan, sistem menjana jadual invois berdasarkan tarikh. Untuk menjana jadual invois berdasarkan tarikh secara automatik, lengkapkan langkah berikut.
 
 1. Pergi ke **Tetapan** > **kekerapan invois** dan sediakan kekerapan invois.
-2. Pada halaman **Sebut harga** , buka sebut harga Project dan pada tab **Ringkasan** , tetapkan tarikh penghantaran yang diminta.
+2. Pada halaman **Sebut harga**, buka sebut harga Project dan pada tab **Ringkasan**, tetapkan tarikh penghantaran yang diminta.
 3. Buka baris sebut harga masa dan bahan yang anda perlukan untuk mencipta jadual invois berasaskan tarikh. 
-4. Pada tab **Jadual Invois** , pilih nilai dalam medan **Mula pengebilan** dan **Kekerapan Invois**. 
-5. Pada sub-grid, pilih **Jana Jadual Invois**.
-6. Aplikasi ini menjana jadual invois dengan medan **Tarikh Jalanan Invois** , **Tarikh Tamat Urus Niaga** dan **Status Jalanan** ditetapkan mengikut cara berikut:
+4. Pada tab **Jadual Invois**, pilih nilai dalam medan **Mula pengebilan** dan **Kekerapan Invois**. 
+5. Pada subgrid, pilih **Jana Jadual Invois**.
+6. Aplikasi ini menjana jadual invois dengan medan **Tarikh Jalanan Invois**, **Tarikh Tamat Urus Niaga** dan **Status Jalanan** ditetapkan mengikut cara berikut:
 
     - **Tarikh Jalanan Invois** ditetapkan kepada tarikh yang ditentukan berdasarkan kekerapan invois.
     - **Tarikh tamat urus niaga** ditetapkan pada hari sebelum **Tarikh Jalanan Invois**.
@@ -40,13 +40,13 @@ Apabila kaedah pengebilan untuk baris sebut harga berdasarkan projek ialah Masa 
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Cipta jadual invois harga Tetap untuk baris sebut harga projek
 
-Apabila baris sebut harga berasaskan projek mempunyai kaedah pengebilan **Tetap** , sistem mencipta jadual invois berasaskan pencapaian. Lengkapkan langkah berikut untuk menjana jadual ini secara automatik untuk set pencapaian tetap yang diagihkan sama rata untuk tempoh kalendar.
+Apabila baris sebut harga berasaskan projek mempunyai kaedah pengebilan **Tetap**, sistem mencipta jadual invois berasaskan pencapaian. Lengkapkan langkah berikut untuk menjana jadual ini secara automatik untuk set pencapaian tetap yang diagihkan sama rata untuk tempoh kalendar.
 
 1. Pergi ke **Tetapan** > **kekerapan invois** dan sediakan kekerapan invois.
-2. Pada halaman **Sebut harga** , buka sebut harga Project dan pada tab **Ringkasan** , tetapkan tarikh penghantaran yang diminta.
+2. Pada halaman **Sebut harga**, buka sebut harga Project dan pada tab **Ringkasan**, tetapkan tarikh penghantaran yang diminta.
 3. Buka baris sebut harga tetap yang anda perlukan untuk mencipta jadual pencapaian. 
-4. Pada tab **Jadual Invois** , pilih nilai dalam medan **Mula pengebilan** dan **Kekerapan Invois**. 
-5. Pada sub-grid, pilih **Jana Pencapaian Berkala**.
+4. Pada tab **Jadual Invois**, pilih nilai dalam medan **Mula pengebilan** dan **Kekerapan Invois**. 
+5. Pada subgrid, pilih **Jana Pencapaian Berkala**.
 6. Aplikasi ini menjana jadual invois dengan nama, tarikh dan jumlah pencapaian.
 
     - Nama pencapaian ditetapkan kepada tarikh yang ditentukan berasaskan kekerapan invois.
@@ -58,9 +58,9 @@ Apabila baris sebut harga berasaskan projek mempunyai kaedah pengebilan **Tetap*
 
 Pencapaian harga tetap juga boleh dijana secara manual apabila tidak berpecah secara berkala. Untuk mencipta pencapaian secara manual:
 
-Buka baris sebut harga Tetap yang anda perlukan untuk mencipta pencapaian. Pada tab **Jadual invois** , pada sub-grid, pilih **+ Cipta pencapaian baris sebut harga baharu** dan masukkan maklumat yang diperlukan berdasarkan jadual berikut.
+Buka baris sebut harga Tetap yang anda perlukan untuk mencipta pencapaian. Pada tab **Jadual Invois**, dalam subgrid, pilih **+ Cipta pencapaian baris sebut harga baharu** dan masukkan maklumat yang diperlukan berdasarkan jadual berikut.
 
-| **Medan** | **Lokasi** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
+| **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
 | Nama pencapaian | Cipta cepat | Nama pencapaian. | Ini telah disebarkan kepada pencapaian baris kontrak projek dan kepada invois |
 | Tugas Projek | Cipta cepat | Jika pencapaian tersebut terikat dengan tugas projek, anda boleh menggunakan rujukan ini untuk menambah logik tersuai dan menetapkan status pencapaian berdasarkan status tugas. | Aplikasi ini tidak mempunyai sebarang kesan hiliran bagi rujukan ini kepada tugas. |

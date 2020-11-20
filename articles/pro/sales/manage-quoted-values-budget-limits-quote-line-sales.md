@@ -1,21 +1,21 @@
 ---
-title: Baris sebut harga berasaskan projek (Pro)
+title: Gambaran keseluruhan baris sebut harga berdasarkan projek - lite
 description: Topik ini menyediakan maklumat tentang menggunakan baris sebut harga berasaskan projek untuk kerja projek. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081158"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181103"
 ---
-# <a name="project-based-quote-lines-pro"></a>Baris sebut harga berasaskan projek (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Gambaran keseluruhan baris sebut harga berdasarkan projek - lite
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -31,7 +31,7 @@ Baris sebut harga berasaskan projek direka untuk membantu menganggar kerja proje
 
 Jadual berikut menyediakan maklumat mengenai medan pada tab **Umum** baris sebut harga berasaskan projek. Medan ini membantu menyediakan asas untuk anggaran terperinci dan dari bawah untuk kerja projek.
 
-| **Medan** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
+| **Medan** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- |
 | Nama | Nama baris sebut harga yang sepatutnya boleh membantu anda mengenal pasti komponen tunggal sebut harga yang dianggarkan. | Disalin kepada baris kontrak projek yang dicipta daripada baris sebut harga ini apabila sebut harga dimenangi. |
 | Kaedah Pengebilan | Pada sebut harga dicipta daripada peluang, nilai ini disalin daripada medan berkaitan dengan baris peluang. Medan ini termasuk dua model kontrak utama yang disokong oleh Dynamics 365 Project Operations:</br>- Harga tetap</br>- Masa dan bahan.| Nilai medan ini disalin kepada baris kontrak projek yang dicipta daripada baris sebut harga ini apabila sebut harga dimenangi. |
@@ -49,15 +49,15 @@ Jadual berikut menyediakan maklumat mengenai medan pada tab **Umum** baris sebut
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Peraturan pengesahan untuk medan pada tab Umum bagi baris sebut harga berasaskan projek
 
-**Peraturan 1** : Jika medan **Tugas yang termasuk** adalah kosong atau jika ia ditetapkan kepada **Semua tugas projek** , projek dimasukkan dalam baris sebut harga.
+**Peraturan 1**: Jika medan **Tugas yang termasuk** adalah kosong atau jika ia ditetapkan kepada **Semua tugas projek**, projek dimasukkan dalam baris sebut harga.
 
-**Peraturan 2** : Jika medan **Tugas yang termasuk** adalah kosong, atau jika ia ditetapkan kepada **Semua tugas projek** , projek dan kelas transaksi tertentu hanya boleh dimasukkan pada satu baris sebut harga berasaskan projek bagi sebut harga.
+**Peraturan 2**: Jika medan **Tugas yang termasuk** adalah kosong, atau jika ia ditetapkan kepada **Semua tugas projek**, projek dan kelas transaksi tertentu hanya boleh dimasukkan pada satu baris sebut harga berasaskan projek bagi sebut harga.
 
-**Peraturan 3** : Jika medan **Tugas yang termasuk** ditetapkan kepada **Hanya tugas projek terpilih** , projek dan kelas transaksi tertentu boleh dimasukkan pada berbilang baris sebut harga berasaskan projek bagi sebut harga.
+**Peraturan 3**: Jika medan **Tugas yang termasuk** ditetapkan kepada **Hanya tugas projek terpilih**, projek dan kelas transaksi tertentu boleh dimasukkan pada berbilang baris sebut harga berasaskan projek bagi sebut harga.
 
-**Peraturan 4** : Jika peluang mempunyai berbilang sebut harga, boleh terdapat baris sebut harga daripada sebut harga berbeza yang semuanya merujuk kepada projek yang sama dan termasuk kelas transaksi yang sama.
+**Peraturan 4**: Jika peluang mempunyai berbilang sebut harga, boleh terdapat baris sebut harga daripada sebut harga berbeza yang semuanya merujuk kepada projek yang sama dan termasuk kelas transaksi yang sama.
 
-**Peraturan 5** : Jika sebut harga tidak tergolong kepada peluang yang sama, ia tidak boleh termasuk projek dan kelas transaksi yang sama.
+**Peraturan 5**: Jika sebut harga tidak tergolong kepada peluang yang sama, ia tidak boleh termasuk projek dan kelas transaksi yang sama.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

@@ -1,21 +1,21 @@
 ---
-title: Mengurus unit kompleks seperti setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk
+title: Mengurus unit kompleks seperti mengikut setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk - lite
 description: Topik ini menyediakan maklumat tentang mengurus unit kompleks untuk baris sebut harga berasaskan projek.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081160"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175587"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Mengurus unit kompleks seperti setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Mengurus unit kompleks seperti mengikut setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk - lite
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -29,8 +29,8 @@ Project Operations mengesahkan bahawa hanya sifat angka atau sifat produk yang m
 
 Contohnya, Dynamics 365 Sales mungkin mempunyai sifat berikut:
 
-- **Bilangan pengguna** : Bilangan pengguna
-- **Bilangan bulan** : Bilangan bulan langganan
+- **Bilangan pengguna**: Bilangan pengguna
+- **Bilangan bulan**: Bilangan bulan langganan
 - **SKU Produk**
 
 Anda boleh menandakan sifat **Bilangan Pengguna** dan **Bilangan Bulan** sebagai faktor kuantiti dengan mengedit sifat baris produk.

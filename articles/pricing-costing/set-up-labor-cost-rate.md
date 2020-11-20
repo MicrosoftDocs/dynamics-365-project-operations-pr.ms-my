@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081125"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180608"
 ---
 # <a name="set-up-labor-cost-rates"></a>Tetapkan kadar kos buruh
 
@@ -22,13 +22,13 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Setiap senarai harga mempunyai set kadar buruh (harga peranan) yang selaras dengan kandungan dan tarikh keberkesanan untuk senarai harga.
 
-1. Cipta senarai harga dan pada tab **Harga Peranan** , dalam sub-grid, pilih **Peranan Baharu**.
-2. Pada halaman **Cipta Pantas** , pilih peranan dan unit organisasi.
+1. Cipta senarai harga dan pada tab **Harga Peranan**, dalam subgrid, pilih **Peranan Baharu**.
+2. Pada halaman **Cipta Pantas**, pilih peranan dan unit organisasi.
 3. Masukkan maklumat medan lain yang diperlukan.
 
 Jadual berikut termasuk beberapa medan yang penting apabila mencipta kadar buruh pada senarai harga kos.
 
-| Medan | Lokasi | Keterkaitan, tujuan dan panduan | Kesan hiliran |
+| Medan | Lokasi | Penerangan  | Kesan hiliran |
 | --- | --- | --- | --- |
 | Peranan | Tab **Umum** dan halaman **Cipta Pantas** | Pilih peranan yang tertakluk kepada kadar kos tersebut. | Peranan pada anggaran masuk atau sebenar akan dipadankan dengan baris ini untuk memberi nilai lalai kos peranan. |
 | Syarikat Penyumberan | Tab **Umum** dan halaman **Cipta Pantas** | Pilih entiti sah yang peranan ditugaskan kepadanya. Sebagai contoh, pemaju dari Fabrikam India atau pemaju dari Fabrikam USA. | Penggunaan sumber syarikat pada anggaran masuk atau sebenar akan dipadankan dengan baris ini untuk memberi nilai lalai kadar kos peranan. |
@@ -54,7 +54,7 @@ Pemaju daripada Fabrikam India-Robotic mengenakan caj $100 apabila dipinjamkan k
 | Peranan | Syarikat Penyumberan | Unit Sumber | Kadar kos |
 | --- | --- | --- | --- |
 | Pemaju | Fabrikam India | Fabrikam India-Robotics | $100 |
-| Pemaju | Fabrikam Philippines | Fabrikam Philippines-Robotics | $90 |
+| Pemaju | Fabrikam Filipina | Fabrikam Philippines-Robotics | $90 |
 | Pemaju | Fabrikam US | Fabrikam US-Robotics | $150 |
 
 3. Lampirkan senarai harga kos ini kepada unit organisasi Fabrikam US-Robotics.

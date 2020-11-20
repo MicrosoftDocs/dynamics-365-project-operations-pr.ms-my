@@ -1,22 +1,22 @@
 ---
-title: Konfigurasikan penciptaan invois proforma automatik
+title: Konfigurasi penciptaan invois automatik - ringan
 description: Topik ini menyediakan maklumat tentang mengkonfigurasi penciptaan automatik invois proforma.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081137"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176577"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfigurasikan penciptaan invois proforma automatik
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurasi penciptaan invois automatik - ringan
+ 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 Anda boleh mengkonfigurasikan penciptaan invois automatik dalam Dynamics 365 Project Operations. Sistem mencipta invois draf proforma berdasarkan jadual invois untuk setiap kontrak projek dan baris kontrak. Jadual invois dikonfigurasikan pada peringkat baris kontrak. Setiap baris pada kontrak boleh mempunyai jadual invois yang berbeza, atau jadual invois yang sama boleh dimasukkan pada setiap baris kontrak.
@@ -48,44 +48,44 @@ Jadual invois ditakrifkan pada setiap dua item baris ini ini kelihatan seperti j
 
 Dalam contoh ini apabila penginvoisan automatik berjalan pada:
 
-- **4 Oktober atau pada sebarang tarikh sebelum** : Tiada invois dijana untuk kontrak ini kerana jadual **Jadual Invois** untuk setiap baris kontrak ini tidak memanggil 4 Oktober, Ahad sebagai tarikh jalanan invois.
-- **5 Oktober Isnin** : Satu invois dijana untuk:
+- **4 Oktober atau pada sebarang tarikh sebelum**: Tiada invois dijana untuk kontrak ini kerana jadual **Jadual Invois** untuk setiap baris kontrak ini tidak memanggil 4 Oktober, Ahad sebagai tarikh jalanan invois.
+- **5 Oktober Isnin**: Satu invois dijana untuk:
 
     - Kerja prototaip yang termasuk pencapaian, jika ia ditandakan sebagai **Sedia untuk Invois**.
     - Kerja pelaksanaan yang merangkumi semua transaksi Masa yang dicipta sebelum tarikh tamat transaksi pada 4 Oktober, Ahad, yang ditandakan sebagai **Sedia untuk Invois**.
     - Perbelanjaan yang ditanggung yang merangkumi semua transaksi Perbelanjaan yang dicipta sebelum tarikh tamat transaksi pada 4 Oktober, Ahad, yang ditandakan sebagai **Sedia untuk Invois**.
   
-- **Pada 6 Oktober atau pada sebarang tarikh sebelum 19 Oktober** : Tiada invois dijana untuk kontrak ini oleh kerana jadual **Jadual Invois** untuk setiap baris kontrak ini tidak memanggil 6 Oktober sebagai tarikh sebelum 19 Oktober sebagai tarikh jalanan invois.
-- **19 Oktober, Isnin** : Satu invois dijana untuk kerja pelaksanaan yang merangkumi semua transaksi Masa yang dicipta sebelum tarikh tamat transaksi pada 18 Oktober, Ahad, yang ditandakan sebagai **Sedia untuk Invois**.
-- **2 November Isnin** : Satu invois dijana untuk:
+- **Pada 6 Oktober atau pada sebarang tarikh sebelum 19 Oktober**: Tiada invois dijana untuk kontrak ini oleh kerana jadual **Jadual Invois** untuk setiap baris kontrak ini tidak memanggil 6 Oktober sebagai tarikh sebelum 19 Oktober sebagai tarikh jalanan invois.
+- **19 Oktober, Isnin**: Satu invois dijana untuk kerja pelaksanaan yang merangkumi semua transaksi Masa yang dicipta sebelum tarikh tamat transaksi pada 18 Oktober, Ahad, yang ditandakan sebagai **Sedia untuk Invois**.
+- **2 November Isnin**: Satu invois dijana untuk:
 
     - Kerja pelaksanaan yang merangkumi semua transaksi Masa yang dicipta sebelum tarikh tamat transaksi pada 1 November, Ahad, yang ditandakan sebagai **Sedia untuk Invois**.
     - Perbelanjaan yang ditanggung yang merangkumi semua transaksi Perbelanjaan yang dicipta sebelum tarikh tamat transaksi pada 1 November, Ahad, yang ditandakan sebagai **Sedia untuk Invois**.
 
-- **3 November, Selasa** : Satu invois dijana untuk kerja prototaip yang termasuk pencapaian untuk 12000 USD, jika ia ditanda sebagai **Sedia untuk Invois**.
+- **3 November, Selasa**: Satu invois dijana untuk kerja prototaip yang termasuk pencapaian untuk 12000 USD, jika ia ditanda sebagai **Sedia untuk Invois**.
 
 ## <a name="configure-automatic-invoicing"></a>Konfigurasikan penginvoisan automatik
 
 Lengkapkan langkah yang berikut untuk mengkonfigurasikan jalanan invois automatik.
 
-1. Dalam **Operasi Projek** , pergi ke **Tetapan** > **Persediaan Invois Berulang**.
+1. Dalam **Operasi Projek**, pergi ke **Tetapan** > **Persediaan Invois Berulang**.
 2. Cipta kerja kelompok dan namakannya **Operasi Projek Mencipta Invois**. Nama kerja kelompok mesti termasuk perkataan terma "cipta invois".
-3. Dalam medan **Jenis Kerja** , pilih **Tiada**. Secara lalai, medan **Kekerapan Harian** dan **Adalah Aktif** ditetapkan kepada **Ya**.
-4. Pilih **Jalankan Aliran Kerja**. Dalam kotak dialog **Cari Rekod** , anda akan melihat tiga aliran tugas:
+3. Dalam medan **Jenis Kerja**, pilih **Tiada**. Secara lalai, medan **Kekerapan Harian** dan **Adalah Aktif** ditetapkan kepada **Ya**.
+4. Pilih **Jalankan Aliran Kerja**. Dalam kotak dialog **Cari Rekod**, anda akan melihat tiga aliran tugas:
 
 - ProcessRunCaller
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Pilih **ProcessRunCaller** , kemudian pilih **Tambah**.
+5. Pilih **ProcessRunCaller**, kemudian pilih **Tambah**.
 6. Dalam kotak dialog seterusnya, pilih **OK**. Aliran tugas **Tidur** diikuti dengan aliran tugas **Proses**. 
 
 > [!NOTE]
-> Anda juga boleh memilih **ProcessRunner** dalam langkah 5. Kemudian, apabila anda pilih **OK** , aliran tugas **Proses** diikuti oleh aliran kerja **Tidur**.
+> Anda juga boleh memilih **ProcessRunner** dalam langkah 5. Kemudian, apabila anda pilih **OK**, aliran tugas **Proses** diikuti oleh aliran kerja **Tidur**.
 
 Aliran kerja **ProcessRunCaller** dan **ProcessRunner** mencipta invois. **ProcessRunCaller** memanggil **ProcessRunner**. **ProcessRunner** ialah aliran kerja yang sebenarnya mencipta invois. Aliran kerja merangkumi semua baris kontrak yang perlu dicipta invois, dan mencipta invois untuk baris tersebut. Untuk menentukan baris kontrak yang perlu dicipta invois, kerja dilihat pada tarikh jalanan invois untuk baris kontrak. Jika baris kontrak milik satu kontrak yang mempunyai tarikh jalanan invois sama, transaksi digabungkan ke dalam satu invois yang mempunyai dua baris invois. Jika tiada transaksi untuk mencipta invois, kerja melangkau mencipta invois.
 
-Selepas **ProcessRunner** selesai berjalan, ia memanggil **ProcessRunCaller** , memberikan masa akhir, dan ditutup. **ProcessRunCaller** kemudian memulakan pemasa yang berjalan 24-jam dari tarikh akhir khusus. Pada penghujung pemasa, **ProcessRunCaller** ditutup.
+Selepas **ProcessRunner** selesai berjalan, ia memanggil **ProcessRunCaller**, memberikan masa akhir, dan ditutup. **ProcessRunCaller** kemudian memulakan pemasa yang berjalan 24-jam dari tarikh akhir khusus. Pada penghujung pemasa, **ProcessRunCaller** ditutup.
 
 Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses kelompok ini berjalan banyak kali, berbilang tika kerja dicipta dan menyebabkan ralat. Maka, anda perlu memulakan proses kelompol hanya satu kali, dan kemudian mulakan semula jika ia berhenti berjalan.
 

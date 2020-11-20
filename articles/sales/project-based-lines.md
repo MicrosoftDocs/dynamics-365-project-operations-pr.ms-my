@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081089"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181958"
 ---
 # <a name="project-based-opportunity-lines"></a>Baris peluang berdasarkan projek
 
@@ -26,7 +26,7 @@ Baris peluang berdasarkan projek ialah item baris yang akan disampaikan kepada p
 
 Di bawah ialah medan pada baris peluang berdasarkan projek:
 
-| **Medan** | **Lokasi** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
+| **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
 | Jenis Produk | Tab umum (tersembunyi) | Ini ialah medan set pilihan. Jika anda telah memasang Dynamics 365 Operations, satu pilihan yang tersedia ialah, **Perkhidmatan berdasarkan projek**.  | Nilai medan ini ditetapkan kepada **Peluang berdasarkan projek** apabila anda mencipta baris peluang berdasarkan projek daripada grid baris berdasarkan projek pada Peluang. <br> Jika anda mengubah atau menulis ganti nilai ini, kefungsian projek tidak akan didayakan pada item baris berdasarkan projek anda. |
 | Peluang | Tab umum | Medan ini ialah baca sahaja dan rujukan rekod Peluang induk yang item baris ini digolongkan. | Tiada kesan hiliran bagi medan ini. |

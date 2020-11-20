@@ -1,21 +1,21 @@
 ---
-title: Gunakan Operasi Projek data demo ke persekitaran yang dihoskan Awan Kewangan
+title: Gunakan data demo pada persekitaran berhos Awan Kewangan
 description: Topik ini menerangkan cara menggunakan data demo daripada Operasi Projek kepada Dynamics 365 Finance persekitaran berhos Awan.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096633"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365249"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Gunakan Operasi Projek data demo ke persekitaran yang dihoskan Awan Kewangan
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Gunakan data demo pada persekitaran berhos Awan Kewangan
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
@@ -46,7 +46,7 @@ Set kelayakan pertama yang diserlahkan ialah kelayakan akaun tempatan dan mengan
 
 6. Dalam Explorer Objek, **Pangkalan Data** dan cari **AXDB**. Anda akan menggantikan pangkalan data dengan pangkalan data baru yang terletak di [Pusat Muat turun](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Salin fail zip ke VM yang anda akan diasingkan dan ekstrak kandungan zip.
-8. Dalam Studio Pengurusan Pelayan SQL, klik kanan **AxDB** , dan kemudian pilih **Tugas** > **Pulihkan** > **Pangkalan Data**.
+8. Dalam Studio Pengurusan Pelayan SQL, klik kanan **AxDB**, dan kemudian pilih **Tugas** > **Pulihkan** > **Pangkalan Data**.
 
 ![Pulihkan Pangkalan Data](./media/5RestoreDatabase.png)
 

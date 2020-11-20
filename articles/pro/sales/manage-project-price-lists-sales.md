@@ -1,21 +1,21 @@
 ---
-title: Urus senarai harga projek pada sebut harga projek
+title: Urus senarai harga projek pada sebut harga projek - lite
 description: Topik ini menyediakan maklumat tentang bekerja dengan senarai harga projek pada sebut harga. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081151"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175992"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Urus senarai harga projek pada sebut harga projek (Jualan)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Urus senarai harga projek pada sebut harga projek - lite
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -48,8 +48,8 @@ Senarai harga projek boleh ditetapkan secara lalai pada sebut harga projek. Pers
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Sediakan organisasi lalai untuk senarai harga projek
 
 1. Pergi ke **Tetapan** > **Umum** > **Parameter**.
-2. Pada halaman senarai **Parameter Aktif** , cari rekod dan klik dua kali untuk membukanya. 
-3. Pada halaman **Parameter** , pilih tab **Senarai Harga**. Anda boleh melihat senarai bagi senarai harga lalai ditunjukkan. Ini ialah senarai kos standard dan senarai harga jualan. Mempunyai senarai harga jualan yang berkaitan di sini untuk setiap mata wang yang anda jual, akan memastikan bahawa senarai harga jualan ini telah dilalaikan pada sebarang sebut harga yang anda cipta untuk pelanggan yang melakukan transaksi dalam mata wang ini.
+2. Pada halaman senarai **Parameter Aktif**, cari rekod dan klik dua kali untuk membukanya. 
+3. Pada halaman **Parameter**, pilih tab **Senarai Harga**. Anda boleh melihat senarai bagi senarai harga lalai ditunjukkan. Ini ialah senarai kos standard dan senarai harga jualan. Mempunyai senarai harga jualan yang berkaitan di sini untuk setiap mata wang yang anda jual, akan memastikan bahawa senarai harga jualan ini telah dilalaikan pada sebarang sebut harga yang anda cipta untuk pelanggan yang melakukan transaksi dalam mata wang ini.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Sediakan senarai harga projek berkhususkan pelanggan
 
@@ -57,13 +57,13 @@ Senarai harga projek berkhususkan pelanggan juga boleh ditetapkan apabila anda t
 
 Untuk menetapkan senarai harga projek berkhususkan pelanggan, lengkapkan langkah berikut.
 
-1. Dalam kawasan **Jualan** , pilih **Pelanggan**.
+1. Dalam kawasan **Jualan**, pilih **Pelanggan**.
 2. Dalam senarai akaun aktif anda, pilih dan buka rekod pelanggan yang anda mempunyai senarai harga istimewa untuknya.
-3. Pada tab **Senarai Harga Projek** , anda boleh mencipta mengaitkan senarai harga baharu untuk mempunyai senarai harga projek yang khusus untuk pelanggan ini.
+3. Pada tab **Senarai Harga Projek**, anda boleh mencipta mengaitkan senarai harga baharu untuk mempunyai senarai harga projek yang khusus untuk pelanggan ini.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Cipta penetapan harga tersuai pada sebut harga projek
 
 Selepas anda mempunyai senarai harga projek lalai organisasi berkhususkan organisasi dan pelanggan, sebut harga projek anda akan dicipta secara automatik dengan perkaitan senarai harga projek ini. Walau bagaimanapun, dalam kes tertentu, anda mungkin perlu mencipta penetapan harga tersuai untuk sebut harga projek tertentu. 
 
-1. Pada **Sebut Harga Projek** , pada tab **Senarai Harga Projek** , sahkan di dalam subgrid bahawa tiada rekod senarai harga tertentu dipilih.
+1. Pada **Sebut Harga Projek**, pada tab **Senarai Harga Projek**, sahkan di dalam subgrid bahawa tiada rekod senarai harga tertentu dipilih.
 2. Pilih **Cipta Penetapan Harga Tersuai**. Ini akan membuat salinan semua senarai harga standard pada masa ini yang berkaitan dengan sebut harga dan mengaitkan salinan ini kepada sebut harga. Perkaitan sedia ada kepada senarai harga standard akan dialih keluar. Jurujual kemudian boleh mula membuat edit kepada harga pada salinan ini. Harga yang ditukar ini akan digunakan untuk sebut harga projek ini sahaja.

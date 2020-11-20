@@ -3,7 +3,7 @@ title: Jadualkan sumber untuk projek
 description: Cara untuk menjadual sumber bagi projek dalam Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081434"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132158"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Jadualkan sumber bagi projek (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4081434"
 
 Anda boleh menyemak ketersediaan sumber untuk mendapatkan pandangan keseluruhan tentang cara sumber anda ditempah atau anda boleh menapis pandang mengikut kemahiran, pasukan, lokasi dan pilihan lain.  
   
-Papan jadual menunjukkan senarai sumber dan ketersediaannya. Pilih mod pandangan untuk menunjukkan ketersediaan mengikut **Jam** , **Hari** , **Minggu** atau **Bulan**.  
+Papan jadual menunjukkan senarai sumber dan ketersediaannya. Pilih mod pandangan untuk menunjukkan ketersediaan mengikut **Jam**, **Hari**, **Minggu** atau **Bulan**.  
   
 Sebelum anda menggunakan papan jadual, penting untuk menyediakannya. Untuk maklumat lanjut, lihat [Konfigurasikan papan jadual (Field Service atau Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -43,16 +43,16 @@ Jika anda menggunakan versi lebih lama, untuk ketersediaan sumber, lihat [Lihat 
 > 1. Pada menu utama, pilih **Penjadualan Sumber** > **Pentadbiran**.  
 > 2. Klik **Parameter penjadualan**.  
 > 3. Buka rekod dan tatal ke bawah ke bahagian **Resource Scheduling Optimization**.  
-> 4. Pada medan **Sambungkan ke Peta** , pilih **Ya**.  
+> 4. Pada medan **Sambungkan ke Peta**, pilih **Ya**.  
 > 5. Terima terma dan simpan rekod.  
 > 6. Pada menu utama, pilih **Project Service** > **Papan jadual**. Dari sini, terdapat beberapa cara untuk menjadualkan secara manual keperluan penempahan. Pilih kaedah yang sesuai untuk anda.
   
 ## <a name="find-available-resources"></a>Cari sumber tersedia
 
-1.  Daripada senarai **Keperluan Penempahan** , klik kanan pada penempahan tidak berjadual dan pilih satu daripada yang berikut:  
+1.  Daripada senarai **Keperluan Penempahan**, klik kanan pada penempahan tidak berjadual dan pilih satu daripada yang berikut:  
   
 - Pilih **Cari ketersediaan - Sumber Semasa** untuk mencari sumber yang tersedia daripada senarai pada papan jadual.  
-- Pilih **Cari ketersediaan - Semua Sumber** , untuk mencari sumber yang tersedia daripada sumber dalam sistem  
+- Pilih **Cari ketersediaan - Semua Sumber**, untuk mencari sumber yang tersedia daripada sumber dalam sistem  
    > [!NOTE]
    >  Apabila anda melakukannya, penapis akan menunjukkan pilihan untuk keperluan penempahan yang dipilih.  
   
@@ -67,7 +67,7 @@ Jika anda menggunakan versi lebih lama, untuk ketersediaan sumber, lihat [Lihat 
   
 2.  Klik nama sumber yang anda mahu tempah dan kemudian pilih **Tempah**.  
   
-3.  Pada kotak dialog **Penempahan sumber (cipta)** , pilih projek yang anda mahu tempah sumbernya bersama dengan kaedah penempahan serta masa mula dan tamat.  
+3.  Pada kotak dialog **Penempahan sumber (cipta)**, pilih projek yang anda mahu tempah sumbernya bersama dengan kaedah penempahan serta masa mula dan tamat.  
   
 4.  Apabila anda telah selesai, pilih **Tempah**.  
   

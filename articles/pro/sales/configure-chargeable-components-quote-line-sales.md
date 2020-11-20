@@ -1,21 +1,21 @@
 ---
-title: Konfigurasikan komponen boleh dituntut bagi baris sebut harga
+title: Konfigurasikan komponen boleh dikenakan bagi baris sebut harga - ringan
 description: Topik ini menyediakan maklumat tentang menyediakan komponen boleh dituntut dan tidak boleh dituntut pada baris sebut harga berasaskan projek.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081349"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177117"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurasikan komponen boleh dituntut bagi baris sebut harga
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurasikan komponen boleh dikenakan bagi baris sebut harga - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -44,21 +44,21 @@ Boleh dituntut ditakrifkan pada kategori transaksi untuk baris sebut harga dan h
 
 Satu tugas projek boleh dituntut atau tidak boleh dituntut dalam konteks baris sebut harga berasaskan projek khusus yang membuat persediaan yang mungkin berikut:
 
-Jika baris sebut harga berasaskan projek termasuk **Masa** dan tugas **T1** , tugas itu dikaitkan dengan baris sebut harga sebagai boleh dituntut. Jika terdapat baris sebut harga kedua yang menyertakan **Perbelanjaan** , anda boleh mengaitkan tugas **T1** pada baris ssebut harga sebagai tidak boleh dituntut. Hasilnya adalah semua masa yang direkodkan pada tugas boleh dituntut dan semua perbelanjaan yang direkodkan pada tugas adalah tidak boleh dituntut.
+Jika baris sebut harga berasaskan projek termasuk **Masa** dan tugas **T1**, tugas itu dikaitkan dengan baris sebut harga sebagai boleh dituntut. Jika terdapat baris sebut harga kedua yang menyertakan **Perbelanjaan**, anda boleh mengaitkan tugas **T1** pada baris ssebut harga sebagai tidak boleh dituntut. Hasilnya adalah semua masa yang direkodkan pada tugas boleh dituntut dan semua perbelanjaan yang direkodkan pada tugas adalah tidak boleh dituntut.
 
-Jenis pengebilan tugas boleh dikonfigurasikan pada tab **Tugas Boleh Dituntut** bagi sebut harga berasaskan projek dengan mengemas kini medan **Jenis Pengebilan** pada sub grid **Tugas Baris Sebut Harga**. Sebagai alternatif, anda boleh mengemas kini jenis pengebilan untuk tugas projek dalam medan **Jenis Pengebilan** pada sub grid pada persediaan pengebilan yang menunjukkan baris sebut harga yang dikaitkan dengan tugas.
+Jenis pengebilan tugas boleh dikonfigurasikan pada tab **Tugas Boleh Dituntut** baris kontrak dengan mengemas kini medan **Jenis Pengebilan** pada subgrid **Tugas Baris Sebut Harga**. Sebagai alternatif, anda boleh mengemas kini jenis pengebilan untuk tugas projek dalam medan **Jenis Pengebilan** pada subgrid pada penyediaan pengebilan tugas bagi projek yang menunjukkan baris sebut harga yang berkaitan dengan tugas.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Kemas kini peranan menjadi boleh dituntut atau tidak boleh dituntut
 
 Peranan boleh jadi boleh dituntut atau tidak boleh dituntut dalam konteks baris sebut harga berasaskan projek tertentu.
 
-Jenis pengebilan peranan boleh dikonfigurasikan pada tab **Peranan Boleh Dituntut** bagi baris sebut harga dengan mengemas kini **Jenis Pengebilan** pada sub grid **Peranan Boleh Dituntut**.
+Jenis pengebilan tugas peranan boleh dikonfigurasikan pada tab **Tugas Boleh Dituntut** baris kontrak dengan mengemas kini medan **Jenis Pengebilan** pada subgrid **Peranan Boleh Dituntut**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Kemas kini kategori transaksi menjadi boleh dituntut atau tidak boleh dituntut
 
 Kategori transaksi boleh jadi boleh dituntut atau tidak boleh dituntut ke atas baris sebut harga tertentu.
 
-Jenis pengebilan transaksi boleh dikonfigurasikan pada tab **Kategori Boleh Dituntut** bagi baris sebut harga dengan mengemas kini **Jenis Pengebilan** pada sub grid **Kategori Boleh Dituntut**.
+Jenis pengebilan tugas transaksi boleh dikonfigurasikan pada tab **Kategori Boleh Dituntut** baris kontrak dengan mengemas kini medan **Jenis Pengebilan** pada subgrid **Kategori Boleh Dituntut**.
 
 ### <a name="resolve-chargeability"></a>Menyelesaikan kebolehtuntutan
 Anggaran atau yang dicipta sebenar untuk masa hanya akan dianggap boleh dituntut jika **Masa** dimasukkan dalam baris sebut harga, dan jika **Tugas** dan **Peranan** dikonfigurasikan sebagai boleh dituntut ke atas baris sebut harga.

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4081460"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180788"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Buat jadual invois pada baris kontrak berdasarkan projek 
 
@@ -26,14 +26,14 @@ Anda boleh menjadualkan invois kepada baris kontrak berdasarkan projek. Invois h
 Apabila baris kontrak berasaskan projek mempunyai kaedah pengebilan masa dan bahan, anda boleh membuat jadual invois berdasarkan tarikh. Untuk menjana jadual invois berdasarkan tarikh secara automatik, lengkapkan langkah berikut.
 
 1. Pergi ke **Tetapan** > **Kekerapan invois** dan sediakan kekerapan invois.
-2. Pergi ke rekod kontrak projek, dan pada tab **Ringkasan** dalam medan **Tarikh Penghantaran yang Diminta** , pilih tarikh.
+2. Pergi ke rekod kontrak projek, dan pada tab **Ringkasan** dalam medan **Tarikh Penghantaran yang Diminta**, pilih tarikh.
 3. Buka baris kontrak **Masa dan Bahan** yang anda ciptakan jadual invois berasaskan tarikh. 
 4. Pada tab **Jadual Invois** , pilih tarikh mula pengebilan dan kekerapan invois.
-5. Pada subgrid, pilih **Jana Jadual Invois**. Jadual invois dijana dengan **Tarikh Jalanan Invois** , **Tarikh Tamat Urus Niaga** dan **Status Jalanan** ditetapkan seperti berikut:
+5. Pada subgrid, pilih **Jana Jadual Invois**. Jadual invois dijana dengan **Tarikh Jalanan Invois**, **Tarikh Tamat Urus Niaga** dan **Status Jalanan** ditetapkan seperti berikut:
 
-    - **Tarikh Jalanan Invois** : Tarikh ini yang ditentukan oleh kekerapan invois.
-    - **Tarikh Tamat Urus Niaga** : Hari sebelum tarikh jalanan invois.
-    - **Status Jalanan** : Secara automatik ditetapkan kepada **Jangan Jalankan**. Apabila kerja penciptaan invois automatik berjalan untuk tarikh jalanan invois tertentu, medan ini akan dikemas kini kepada **Jalanan Berjaya** atau **Jalanan Gagal**.
+    - **Tarikh Jalanan Invois**: Tarikh ini yang ditentukan oleh kekerapan invois.
+    - **Tarikh Tamat Urus Niaga**: Hari sebelum tarikh jalanan invois.
+    - **Status Jalanan**: Secara automatik ditetapkan kepada **Jangan Jalankan**. Apabila kerja penciptaan invois automatik berjalan untuk tarikh jalanan invois tertentu, medan ini akan dikemas kini kepada **Jalanan Berjaya** atau **Jalanan Gagal**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Cipta jadual invois harga tetap untuk baris kontrak
 
@@ -45,15 +45,15 @@ Apabila baris kontrak mempunyai kaedah pengebilan tetap, anda boleh mencipta jad
 Lengkapkan langkah berikut untuk menjana jadual jadual invois berasaskan pencapaian untuk set pencapaian tetap yang diagihkan sama rata untuk tempoh kalendar.
 
 1. Pergi ke **Tetapan** > **Kekerapan invois** dan sediakan kekerapan invois.
-2. Pergi ke rekod kontrak projek, dan pada tab **Ringkasan** dalam medan **Tarikh Penghantaran yang Diminta** , pilih tarikh.
+2. Pergi ke rekod kontrak projek, dan pada tab **Ringkasan** dalam medan **Tarikh Penghantaran yang Diminta**, pilih tarikh.
 3. Buka baris kontrak **Harga Tetap** yang anda ciptakan jadual pencapaian. Pada tab **Pencapaian Pengebilan** , pilih tarikh mula pengebilan dan kekerapan invois. 
-4. Pada subgrid, pilih **Jana Pencapaian Berkala**. Jadual invois dijana dengan **Nama Pencapaian** , **Tarikh Pencapaian** dan medan **Jumlah Pencapaian** ditetapkan seperti berikut:
+4. Pada subgrid, pilih **Jana Pencapaian Berkala**. Jadual invois dijana dengan **Nama Pencapaian**, **Tarikh Pencapaian** dan medan **Jumlah Pencapaian** ditetapkan seperti berikut:
 
-    - **Nama Pencapaian** : Tarikh ini yang ditentukan oleh kekerapan invois.
-    - **Tarikh Pencapaian** : Tarikh ini yang ditentukan oleh kekerapan invois.
-    - **Jumah Pencapaian** : Jumlah ini dikira dengan membahagikan jumlah kontrak pada baris kontrak dengan bilangan pencapaian yang ditentukan oleh kekerapan dan tarikh mula pengebilan dan tarikh penghantaran yang diminta.
+    - **Nama Pencapaian**: Tarikh ini yang ditentukan oleh kekerapan invois.
+    - **Tarikh Pencapaian**: Tarikh ini yang ditentukan oleh kekerapan invois.
+    - **Jumah Pencapaian**: Jumlah ini dikira dengan membahagikan jumlah kontrak pada baris kontrak dengan bilangan pencapaian yang ditentukan oleh kekerapan dan tarikh mula pengebilan dan tarikh penghantaran yang diminta.
 
-    Jika baris kontrak mempunyai nilai dalam medan **Anggaran jumlah Cukai** , maka medan ini juga didiagihkan kepada setiap pencapaian yang sama apabila menjana pencapaian berkala.
+    Jika baris kontrak mempunyai nilai dalam medan **Anggaran jumlah Cukai**, maka medan ini juga didiagihkan kepada setiap pencapaian yang sama apabila menjana pencapaian berkala.
 
 Pencapaian pengebilan sepatutnya sama dengan nilai berkontrak baris kontrak. Jika tidak, anda akan menerima ralat pada halaman **Baris Kontrak**. Anda boleh membetulkan ralat dengan mengesahkan bahawa kontrak telah mencapai jumlah nilai kontrak baris dengan mencipta, mengedit atau memadamkan pencapaian. Selepas perubahan dibuat, segar semula halaman untuk mengalih keluar ralat.
 
@@ -61,10 +61,10 @@ Pencapaian pengebilan sepatutnya sama dengan nilai berkontrak baris kontrak. Jik
 
 Anda boleh menjana pencapaian harga tetap apabila tidak berpecah secara berkala. Lengkapkan langkah berikut untuk mencipta pencapaian secara manual.
 
-1. Buka baris kontrak harga tetap yang anda akan mencipta pencapaian dan pada tab **Jadual Invois** , pada subgrid, pilih **+Cipta pencapaian Baris kontrak baharu**. 
-2. Pada halaman **Penciptaan pencapaian** , masukkan maklumat yang diperlukan berdasarkan jadual berikut.
+1. Buka baris kontrak harga tetap yang anda akan mencipta pencapaian dan pada tab **Jadual Invois**, pada subgrid, pilih **+Cipta pencapaian Baris kontrak baharu**. 
+2. Pada halaman **Penciptaan pencapaian**, masukkan maklumat yang diperlukan berdasarkan jadual berikut.
 
-| Medan | Lokasi | Keterkaitan, tujuan dan panduan | Kesan hiliran |
+| Medan | Lokasi | Penerangan  | Kesan hiliran |
 | --- | --- | --- | --- |
 | Nama Pencapaian | Cipta Cepat | Medan teks untuk nama pencapaian. | Ini telah dibawa kepada pencapaian baris kontrak pencapaian dan invois. |
 | Tugas Projek | Cipta Cepat | Jika pencapaian tersebut terikat dengan tugas projek, gunakan rujukan ini untuk menambah logik tersuai untuk menetapkan status pencapaian berdasarkan status tugas. | Aplikasi ini tidak mempunyai sebarang kesan hiliran bagi rujukan ini kepada tugas. |

@@ -1,21 +1,21 @@
 ---
-title: Kontrak berasaskan pendahuluan dan retainer
+title: Kontrak berasaskan pendahuluan dan retainer - ringan
 description: Topik ini memberikan maklumat tentang model kontrak berasaskan retainer dan pendahuluan dalam Operasi Projek.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088024"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180878"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Kontrak berasaskan pendahuluan dan retainer 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Kontrak berasaskan pendahuluan dan retainer - ringan
 
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
@@ -33,7 +33,7 @@ Sebagai tambahan kepada jadual berasaskan retainer berkala, Operasi Projek boleh
 
 Retainer dalam Operasi Projek tidak tersedia untuk digunakan sehingga ia diinvoiskan kepada pelanggan. Ini ditunjukkan oleh medan berikut pada subgrid untuk pendahuluan dan retainer.
 
-| Medan | Keterkaitan, tujuan dan panduan | Kesan hiliran |
+| Medan | Penerangan  | Kesan hiliran |
 | --- | --- | --- |
 | Amaun Tersedia | Jumlah yang tersedia untuk digunakan pada rekod retainer atau pendahuluan. | Sehingga pendahuluan atau retainer diinvoiskan, ia tidak tersedia untuk digunakan yang bermaksud jumlah yang tersedia adalah sifar. |
 | Amaun Digunakan | Jumlah yang sudah digunakan pada rekod retainer atau pendahuluan. | Pendahuluan atau retainer boleh diselaraskan sebahagian pada invois dengan kos sebenar yang akan mempunyai beberapa bahagian yang ditanda sebagai sudah digunakan atau habis. Jumlah baki pendahuluan atau retainer tersedia untuk diselaraskan pada invois masa hadapan dengan kos sebenar. |

@@ -3,7 +3,7 @@ title: Urus sumber
 description: Topik ini memberikan maklumat tentang cara anda boleh mengurus sumber.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081429"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132344"
 ---
 # <a name="manage-resources"></a>Urus sumber
 
@@ -44,11 +44,11 @@ Pengurus projek boleh menggunakan papan pemuka pengurus sumber untuk mengurus su
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Tambah ahli pasukan secara terus kepada projek
 
-Untuk menambah ahli pasukan secara terus kepada projek, pada halaman **Projek** , pada tab **Pasukan** , pilih **Baharu**. Kotak dialog **Cipta Pantas: Ahli Pasukan Projek** muncul. Dalam kotak dialog ini, anda boleh menjalankan tugas ini:
+Untuk menambah ahli pasukan secara terus kepada projek, pada halaman **Projek**, pada tab **Pasukan**, pilih **Baharu**. Kotak dialog **Cipta Pantas: Ahli Pasukan Projek** muncul. Dalam kotak dialog ini, anda boleh menjalankan tugas ini:
 
-- **Tempah sumber bernama** – Dalam medan **Sumber Boleh Tempah** , pilih nama sumber. Kemudian pilih sumber, tetapkan tempoh, kemudian pilih kaedah peruntukan. Sumber bernama yang anda pilih ditambah pada projek menggunakan kaedah peruntukan dipilih dan kalendar sumber.
+- **Tempah sumber bernama** – Dalam medan **Sumber Boleh Tempah**, pilih nama sumber. Kemudian pilih sumber, tetapkan tempoh, kemudian pilih kaedah peruntukan. Sumber bernama yang anda pilih ditambah pada projek menggunakan kaedah peruntukan dipilih dan kalendar sumber.
 - **Tambah sumber generik** – Biarkan medan **Sumber boleh tempah** kosong, kemudian pilih peranan, tetapkan period, dan pilih kaedah peruntukkan pilihan. Sumber generik ditambah pada pasukan sebagai pemegang ruang untuk memegang corak permintaan yang digunakan untuk menempah sumber bernama pada pasukan. Keperluan dibuat mengikut kalendar projek.
-- **Tambah sumber bernama pada pasukan tanpa menggunakan kapasiti sumber** – Dalam medan **Sumber Boleh Tempah** , pilih sumber. Kemudian pilih tempoh, dan pilih **Tiada** sebagai kaedah peruntukan. Sumber ditambah pada pasukan, tetapi kapasiti sumber tidak digunakan melalui tempahan.
+- **Tambah sumber bernama pada pasukan tanpa menggunakan kapasiti sumber** – Dalam medan **Sumber Boleh Tempah**, pilih sumber. Kemudian pilih tempoh, dan pilih **Tiada** sebagai kaedah peruntukan. Sumber ditambah pada pasukan, tetapi kapasiti sumber tidak digunakan melalui tempahan.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Tempah ahli pasukan untuk mengisi keperluan sumber untuk sumber generik
 
@@ -56,23 +56,23 @@ Dalam PSA, anda boleh menempah sumber generik pada pasukan projek, dan boleh men
 
 Ikuti langkah-langkah ini untuk menyatakan kemahiran yang diperlukan pada sumber generik untuk pembangun.
 
-1. Pada halaman **Projek** , pada tab **Pasukan** , pilih **Baharu** untuk menempah sumber generik.
+1. Pada halaman **Projek**, pada tab **Pasukan**, pilih **Baharu** untuk menempah sumber generik.
 
     ![Sumber generik ditempah pada pasukan](media/Resource-Management-image9.png)
 
-2. Dalam pandangan **Semua Ahli Pasukan** , dalam lajur **Keperluan Sumber** , pilih pautan untuk menambah kemahiran diperlukan untuk sumber generik.
+2. Dalam pandangan **Semua Ahli Pasukan**, dalam lajur **Keperluan Sumber**, pilih pautan untuk menambah kemahiran diperlukan untuk sumber generik.
 
     ![Pautan keperluan](media/Resource-Management-image10.png)
 
-3. Pada halaman **Keperluan Sumber** yang muncul, dalam grid **Kemahiran** , pilih elipsis ( **...** ) kemudian pilih **Tambah Sifat Keperluan Baharu** untuk menambah kemahiran yang diperlukan untuk pembangun anda.
+3. Pada halaman **Keperluan Sumber** yang muncul, dalam grid **Kemahiran**, pilih elipsis (**...**) kemudian pilih **Tambah Sifat Keperluan Baharu** untuk menambah kemahiran yang diperlukan untuk pembangun anda.
 
     ![Tambah perintah Sifat Keperluan Baharu](media/Resource-Management-image11.png)
 
-4. Dalam kotak dialog **Cipta Pantas: Sifat Keperluan** yang muncul, dalam medan **Sifat** , pilih kemahiran diperlukan. Kemudian dalam medan **Nilai Penarafan** , pilih tahap kecekapan untuk kemahiran tersebut. Akhir sekali, dalam medan **Keperluan Sumber** , tetapkan keperluan untuk sumber sumber daripada unit organiasi atau bahkan sumber bernama. Apabila anda telah selesai, pilih **Simpan**.
+4. Dalam kotak dialog **Cipta Pantas: Sifat Keperluan** yang muncul, dalam medan **Sifat**, pilih kemahiran diperlukan. Kemudian dalam medan **Nilai Penarafan**, pilih tahap kecekapan untuk kemahiran tersebut. Akhir sekali, dalam medan **Keperluan Sumber**, tetapkan keperluan untuk sumber sumber daripada unit organiasi atau bahkan sumber bernama. Apabila anda telah selesai, pilih **Simpan**.
 
     ![Cari Cepat: kotak dialog Sifat Keperluan](media/Resource-Management-image12.png)
 
-5. Pada halaman **Keperluan Sumber** , pilih **Tempah** untuk memenuhi keperluan sumber.
+5. Pada halaman **Keperluan Sumber**, pilih **Tempah** untuk memenuhi keperluan sumber.
 
     ![Butang tempah pada halaman Keperluan Sumber](media/Resource-Management-image13.png)
 
@@ -83,7 +83,7 @@ Ikuti langkah-langkah ini untuk menyatakan kemahiran yang diperlukan pada sumber
     > [!NOTE]
     > Dalam contoh ini, terdapat 40 jam diperlukan tetapi tiada jam ditempah aktual, kerana sumber generik tidak mempunyai tempahan. Selain itu, tiada jam ditugaskan, kerana sumber generik ditambah terus kepada pasukan. Ia tidak ditambah menggunakan tugasan tugas.
 
-    Pada halaman **Menjadualkan Pembantu** , anda boleh menapis sumber tersedia melalui keperluan yang dinyatakan dalam keperluan sumber. Sumber diisih mengikut parameter pengisihan yang dinyatakan dalam papan Jadual.
+    Pada halaman **Menjadualkan Pembantu**, anda boleh menapis sumber tersedia melalui keperluan yang dinyatakan dalam keperluan sumber. Sumber diisih mengikut parameter pengisihan yang dinyatakan dalam papan Jadual.
 
     ![Halaman Menjadualkan Pembantu](media/Resource-Management-image15.png)
 
@@ -120,11 +120,11 @@ Ikuti langkah-langkah ini untuk menyatakan kemahiran yang diperlukan pada sumber
 
 Dalam PSA, anda boleh mencipta tugas, kemudian tugaskan sumber generik kepada mereka. Dengan cara ini, permintaan sumber boleh diwakili oleh pemegang ruang sementara anda menganggarkan jadual dan angka kewangan anda. Anda kemudian boleh menjana keperluan sumber untuk sumber generik dan memenuhinya.
 
-1. Pada halaman **Projek** , pada tab **Jadual** , pilih **Tambah** untuk mencipta tugas.
+1. Pada halaman **Projek**, pada tab **Jadual**, pilih **Tambah** untuk mencipta tugas.
 
     ![Tugas baharu dicipta](media/Resource-Management-image21.png)
 
-2. Dalam medan **Sumber** , pilih simbol **Pemilih Sumber**. Pemilih Sumber muncul dan menunjukkan ahli pasukan sedia ada untuk projek.
+2. Dalam medan **Sumber**, pilih simbol **Pemilih Sumber**. Pemilih Sumber muncul dan menunjukkan ahli pasukan sedia ada untuk projek.
 
     ![Pemilih Sumber](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ Dalam PSA, anda boleh mencipta tugas, kemudian tugaskan sumber generik kepada me
 
     ![Nama sumber generik baharu dimasukkan](media/Resource-Management-image23.png)
 
-4. Dalam kotak dialog **Cipta Pantas: Ahli Pasukan Projek** yang muncul, dalam medan **Peranan** , pilih peranan untuk sumber generik. Dalam medan **Unit Penyumberan** , pilih unit organisasi untuk sumber generik. Kemudian pilih **Simpan**.
+4. Dalam kotak dialog **Cipta Pantas: Ahli Pasukan Projek** yang muncul, dalam medan **Peranan**, pilih peranan untuk sumber generik. Dalam medan **Unit Penyumberan**, pilih unit organisasi untuk sumber generik. Kemudian pilih **Simpan**.
 
     ![Kotak dialog Cipta Pantas: Ahli Pasukan Projek](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ Dalam PSA, anda boleh mencipta tugas, kemudian tugaskan sumber generik kepada me
 
     ![Ahli pasukan generik ditugaskan kepada tugas](media/Resource-Management-image25.png)
 
-    Pada tab **Pasukan** , anda akan melihat ahli pasukan generik baharu. Sila maklum bahawa ia hanya mempunyai jam ditugaskan. Jam ini adalah jumlah semua tugas yang ditugaskan kepada ahli pasukan generik. Ahli pasukan generik belum lagi mempunyai jam diperlukan atau keperluan sumber.
+    Pada tab **Pasukan**, anda akan melihat ahli pasukan generik baharu. Sila maklum bahawa ia hanya mempunyai jam ditugaskan. Jam ini adalah jumlah semua tugas yang ditugaskan kepada ahli pasukan generik. Ahli pasukan generik belum lagi mempunyai jam diperlukan atau keperluan sumber.
 
     ![Ahli pasukan generik pada tab Pasukan](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ Dalam PSA, anda boleh mencipta tugas, kemudian tugaskan sumber generik kepada me
 
     Apabila anda selesai menugaskan sumber generik kepada tugas, anda boleh menjana keperluan sumber untuk sumber generik.
 
-5. Pada tab **Pasukan** , pilih sumber generik dan kemudian pilih **Jana Keperluan**.
+5. Pada tab **Pasukan**, pilih sumber generik dan kemudian pilih **Jana Keperluan**.
 
     ![Jana perintah Keperluan](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ Dalam PSA, anda boleh mencipta tugas, kemudian tugaskan sumber generik kepada me
 
     ![Sumber generik digantikan oleh sumber bernama](media/Resource-Management-image30.png)
 
-    Pada tab **Jadual** , tugasan sumber generik dialih keluar dan digantikan dengan sumber bernama.
+    Pada tab **Jadual**, tugasan sumber generik dialih keluar dan digantikan dengan sumber bernama.
 
     ![Tugasan sumber generik digantikan dengan sumber bernama pada tab Jadual](media/Resource-Management-image31.png)
 
@@ -181,11 +181,11 @@ Dalam PSA, anda boleh mencipta tugas, kemudian tugaskan sumber generik kepada me
 
     ![Sumber kedua](media/Resource-Management-image35.png)
 
-    Pada tab **Pasukan** , anda kini boleh melihat sumber generik tiada jam diperlukan, tetapi jam ditugaskan masih muncul bersama dengan dua sumber bernama yang mengisi keperluan.
+    Pada tab **Pasukan**, anda kini boleh melihat sumber generik tiada jam diperlukan, tetapi jam ditugaskan masih muncul bersama dengan dua sumber bernama yang mengisi keperluan.
 
     ![Dua sumber bernama pada tab Pasukan](media/Resource-Management-image36.png)
 
-    Pada tab **Jadual** , sumber generik kekal ditugaskan kepada tugas.
+    Pada tab **Jadual**, sumber generik kekal ditugaskan kepada tugas.
 
     ![Sumber generik pada tab Jadual](media/Resource-Management-image37.png)
 
@@ -197,7 +197,7 @@ Maka, dalam senario ini, pengurus projek bertanggungjawab menghuraikan berbilang
 
 Selepas keperluan sumber dicipta, pengurus projek atau pengurus sumber mungkin mahu mengedit butiran untuk menghalusi kriteria carian apabila Papan Jadual digunakan. Untuk mengedit keperluan sumber, ikut langkah ini.
 
-1. Pada halaman **Projek** , pada tab **Pasukan** , pilih pautan ke mana-mana keperluan pada sumber generik.
+1. Pada halaman **Projek**, pada tab **Pasukan**, pilih pautan ke mana-mana keperluan pada sumber generik.
 2. Pada halaman **Keperluan Sumber** yang muncul, anda boleh mengemas kini beberapa atribut. Berikut adalah beberapa contoh:
 
     - Nama
@@ -206,7 +206,7 @@ Selepas keperluan sumber dicipta, pengurus projek atau pengurus sumber mungkin m
     - Tempoh
     - Jenis Sumber
 
-Pada halaman **Keperluan Sumber** , pengurus projek atau pengurus sumber boleh juga mentakrifkan maklumat berikut:
+Pada halaman **Keperluan Sumber**, pengurus projek atau pengurus sumber boleh juga mentakrifkan maklumat berikut:
 
 - Kemahiran
 - Peranan
@@ -217,7 +217,7 @@ Pada halaman **Keperluan Sumber** , pengurus projek atau pengurus sumber boleh j
 
 Selepas anda menambah sumber generik atau bernama kepada pasukan projek, anda boleh mengubah tempahan sumber.
 
-1. Pada halaman **Projek** , pada tab **Pasukan** , pilih ahli pasukan kemudian pilih **Kekalkan Tempahan**.
+1. Pada halaman **Projek**, pada tab **Pasukan**, pilih ahli pasukan kemudian pilih **Kekalkan Tempahan**.
 
     ![Papan Jadual dibuka untuk ahli pasukan terpilih](media/Resource-Management-image40.png)
 
@@ -286,7 +286,7 @@ Pilih **Terima Semua Cadangan** untuk menerima semua sumber dicadangkan atau **T
 
 Kadangkala, pengurus projek mestilah menggantikan ahli pasukan ditempah dalam projek.
 
-1. Pada halaman **Projek** , pada tab **Pasukan** , pilih sumber yang perlu diganti, kemudian pilih **Kekalkan Tempahan**.
+1. Pada halaman **Projek**, pada tab **Pasukan**, pilih sumber yang perlu diganti, kemudian pilih **Kekalkan Tempahan**.
 2. Kembangkan sumber untuk melihat projek yang ditugaskan.
 
     ![Sumber dikembangkan untuk menunjukkan projek yang ditugaskan](media/Resource-Management-image50.png)
@@ -337,7 +337,7 @@ Apabila anda melihat masa pada tahap lebih tinggi, sel dalam tab **Penyelarasan*
 
 ![Penunjuk perbezaan](media/Resource-Management-image57.png)
 
-Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pada halaman **Projek** , pada tab **Penyelarasan** , pilih kekurangan tempahan dan kemudian pilih **Lanjutkan Tempahan**. Kotak dialog **Lanjutkan Tempahan** muncul dan menunjukkan tempahan yang diperlukan untuk menyelesaikan kekurangan sumber. Ia juga menunjukkan tempahan sedia ada sumber dalam semua projek atau entiti boleh dijadual lain. Jika anda pilih **OK** untuk mencipta tempahan untuk sumber, tanpa mengira ketersediaan sumber tersebut, anda mungkin menyebabkan tempahan berlebihan.
+Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pada halaman **Projek**, pada tab **Penyelarasan**, pilih kekurangan tempahan dan kemudian pilih **Lanjutkan Tempahan**. Kotak dialog **Lanjutkan Tempahan** muncul dan menunjukkan tempahan yang diperlukan untuk menyelesaikan kekurangan sumber. Ia juga menunjukkan tempahan sedia ada sumber dalam semua projek atau entiti boleh dijadual lain. Jika anda pilih **OK** untuk mencipta tempahan untuk sumber, tanpa mengira ketersediaan sumber tersebut, anda mungkin menyebabkan tempahan berlebihan.
 
 ![Kotak dialog Lanjutkan Tempahan](media/Resource-Management-image58.png)
 

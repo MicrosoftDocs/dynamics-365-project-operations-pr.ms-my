@@ -3,7 +3,7 @@ title: Cipta peluang projek
 description: Cara untuk mencipta peluang projek dalam Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081420"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133244"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Cipta peluang projek (Project Service)
 
@@ -35,15 +35,15 @@ Peluang ialah petunjuk yang mesra daripada pelanggan yang berminat dalam mengika
   
 2.  Klik **Baharu**.  
   
-3.  Dalam kawasan **Ringkasan** , masukkan syarikat peluang anda dan maklumat lain.  
+3.  Dalam kawasan **Ringkasan**, masukkan syarikat peluang anda dan maklumat lain.  
   
 4.  Tambah sebarang nota dan aktiviti (contohnya, panggilan telefon atau e-mel) yang berkaitan dengan bakal pelanggan ini. Untuk mengetahui lebih lanjut tentang penambahan nota dan aktiviti, lihat [Terus menjejaki nota, tugas, panggilan atau e-mel dengan aktiviti](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Untuk menambah pemegang saham, dalam kawasan **Pemegang Saham** , klik **+**.  
+5.  Untuk menambah pemegang saham, dalam kawasan **Pemegang Saham**, klik **+**.  
   
-6.  Untuk menambah ahli pasukan jualan, dalam kawasan **Pasukan Jualan** , klik **+**.  
+6.  Untuk menambah ahli pasukan jualan, dalam kawasan **Pasukan Jualan**, klik **+**.  
   
-7.  Untuk menambah pesaing, dalam kawasan **Pesaing** , klik **+**.  
+7.  Untuk menambah pesaing, dalam kawasan **Pesaing**, klik **+**.  
   
 8.  Untuk menambah produk pada peluang, klik **Baharu** di bawah **Baris Berasaskan Produk** dalam kawasan **Baris Peluang**. Pilih item di bawah **Nama Produk** dan kemudian tentukan kuantiti, harga jualan dan belanjawan pelanggan.  
   

@@ -1,21 +1,21 @@
 ---
-title: Invois retainer atau pendahuluan
+title: Menginvois retainer atau pendahuluan - ringan
 description: Topik ini menyediakan maklumat tentang cara mengeluarkan invois retainer atau pendahuluan dalam Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088027"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180563"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Invois retainer atau pendahuluan
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Menginvois retainer atau pendahuluan - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations menyokong kontrak berasaskan retainer dan pendah
 Lengkapkan langkah yang berikut untuk mengeluarkan invois retainer atau pendahuluan.
 
 1. Pilih **Jualan** > **Pengebilan** > **Retainer dan Pendahuluan**. 
-2. Pada halaman **Pendahuluan dan Retainer** , gunakan penapis untuk memilih retainer khusus atau pendahuluan untuk diinvois dan menandakannya sebagai **Bersedia untuk Invois**.
+2. Pada halaman **Pendahuluan dan Retainer**, gunakan penapis untuk memilih retainer khusus atau pendahuluan untuk diinvois dan menandakannya sebagai **Bersedia untuk Invois**.
 3. Cipta invois sama ada secara manual daripada senarai **Kontrak Projek** atau halaman butiran. Retainer atau pendahuluan ditunjukkan pada invois Draf dalam bahagian **Pendahuluan dan Retainer** pada halaman **Invois**.
 4. Sahkan invois. Ini akan membuat retainer atau pendahuluan boleh digunakan. Anda boleh mengesahkan invois pada halaman senarai **Retainer dan Pendahuluan**. Untuk Pendahuluan atau Retainer yang diinvoiskan, jumlah tersedia ditunjukkan dalam grid.
 
@@ -32,8 +32,8 @@ Lengkapkan langkah yang berikut untuk mengeluarkan invois retainer atau pendahul
 
 Anda boleh mencipta retainer atau pendahuluan secara langsung pada invois.
 
-1. Pada invois draf, pada subgrid **Pendahuluan dan Retainer** , pilih **Baharu** untuk mencipta retainer atau pendahuluan baharu. 
-2. Pada halaman **Cipta pantas** , tambah maklumat yang diperlukan dan kemudian pilih **Simpan**. Retainer atau pendahuluan dibuat pada kontrak projek yang berkaitan dengan invois. Retainer atau pendahuluan secara automatik ditandakan sebagai **Sedia untuk Invois** dan kemudian ditambahkan ke subgrid **Pendahuluan dan Retainer** pada halaman **Invois**.
+1. Pada invois draf, pada subgrid **Pendahuluan dan Retainer**, pilih **Baharu** untuk mencipta retainer atau pendahuluan baharu. 
+2. Pada halaman **Cipta pantas**, tambah maklumat yang diperlukan dan kemudian pilih **Simpan**. Retainer atau pendahuluan dibuat pada kontrak projek yang berkaitan dengan invois. Retainer atau pendahuluan secara automatik ditandakan sebagai **Sedia untuk Invois** dan kemudian ditambahkan ke subgrid **Pendahuluan dan Retainer** pada halaman **Invois**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Selaraskan retainer atau pendahuluan yang diinvois
 
@@ -43,7 +43,7 @@ Pada setiap invois yang dijana untuk kontrak projek yang mempunyai redeomer invo
 
 Ini boleh dilihat dalam grid **Retainer dan Pendahuluan yang digunakan** pada halaman **Invois**. Jadual berikut menyediakan maklumat mengenai medan mengenai grid **Retainer dan Pendahuluan Digunakan** halaman **Invois Projek**.
 
-| Medan | Lokasi | Keterkaitan, tujuan dan panduan | Kesan hiliran |
+| Medan | Lokasi | Penerangan  | Kesan hiliran |
 | --- | --- | --- | --- |
 | Penerangan  | Grid **Retainer dan Pendahuluan yang Digunakan** pada halaman **Invois Projek** |Medan baca sahaja ini memberikan perihalan retainer atau pendahuluan yang digunakan pada invois ini. Nilai ini tidak dapat diubah pada invois. Nilai ini boleh dikemas kini pada subgrid pada halaman **Kontrak Projek**. | Medan ini boleh dipaparkan kepada pelanggan pada invois bercetak untuk menunjukkan retainer atau pendahuluan yang digunakan pada invois. |
 | Dihantar Pada | Grid **Retainer dan Pendahuluan yang Digunakan** pada halaman **Invois Projek**  | Medan baca sahaja ini memberikan tarikh invois retainer atau pendahuluan yang digunakan pada invois ini. Nilai ini tidak dapat diubah pada invois. Nilai ini boleh dikemas kini pada subgrid pada halaman **Kontrak Projek**. | Medan ini boleh dipaparkan kepada pelanggan pada invois bercetak untuk menunjukkan tarikh retainer atau pendahuluan diinvoiskan kali pertama kepada pengguna. |

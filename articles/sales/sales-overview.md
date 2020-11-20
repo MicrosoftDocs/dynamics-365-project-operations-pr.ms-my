@@ -2,28 +2,22 @@
 title: Gambaran keseluruhan proses jualan
 description: Topik ini memberikan maklumat tentang proses jualan asas.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081427"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177612"
 ---
-# <a name="sales-processes-overview"></a>Gambaran keseluruhan proses jualan
+# <a name="sales-process-overview"></a>Gambaran keseluruhan proses jualan
+
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Proses jualan yang digunakan dalam organisasi berasaskan projek berbeza daripada proses jualan yang digunakan dalam organisasi berasaskan produk. Ini adalah kerana kitaran jualan untuk organisasi berasaskan projek adalah lebih lama dan memerlukan teknik anggaran tersuai untuk menganalisis dan mencipta sebut harga untuk setiap urusan. Dynamics 365 Project Operations menggunakan beberapa fungsian berikut yang digunakan dalam proses jualan.
 
@@ -56,12 +50,12 @@ Sebagai contoh, syarikat anda mungkin mempunyai enam peringkat berikut dalam pro
  
 Organisasi anda mungkin menggunakan entiti berbeza untuk mewakili urusan yang sama semasa ia berkembang. Pada awal proses jualan, urusan diwakili oleh entiti Peluang. Apabila masa berlalu dan butiran lanjut muncul, anda mungkin menggunakan anggaran peringkat tinggi untuk mencipta satu atau lebih sebut harga. Jika salah satu daripada sebut harga ini disemak oleh pemegang amanah pelanggan dan dalaman, entiti Sebut Harga mewakili urusan. Selepas pelanggan menerima sebut harga, kontrak projek atau SOW mewakili perjanjian tersebut. Untuk menyokong tingkah laku ini, BPFs berstruktur supaya setiap peringkat dalam proses dihubungkan kepada jadual pangkalan data yang berbeza.
 
-Peringkat **Kelayakan** dalam proses jualan boleh disokong oleh entiti Peluang. Peringkat **Anggaran** dan **Semakan Dalaman** boleh disokong oleh entiti Sebut Harga. Peringkat **Kontrak** , **Penghantaran** dan **Tutup** boleh disokong oleh entiti Kontrak Projek.
+Peringkat **Kelayakan** dalam proses jualan boleh disokong oleh entiti Peluang. Peringkat **Anggaran** dan **Semakan Dalaman** boleh disokong oleh entiti Sebut Harga. Peringkat **Kontrak**, **Penghantaran** dan **Tutup** boleh disokong oleh entiti Kontrak Projek.
 
 Apabila anda memindahkan transaksi melalui peringkat, anda akan digesa untuk mencipta rekod entiti yang sesuai untuk membantu dan membimbing anda melalui proses. Peringkat boleh bersyarat. Contohnya, jika anda memerlukan semakan dalaman sebut harga hanya jika sebut harga menggunakan senarai harga tersuai, anda boleh mengkonfigurasi keadaan tersebut dalam peringkat proses perniagaan yang sesuai. Peringkat **Semakan Dalaman** kemudian ditunjukkan hanya untuk sebut harga yang menggunakan senarai harga tersuai. Untuk semua tawaran dan sebut harga lain, peringkat **Anggaran** diikuti oleh peringkat **Kontrak**.
 
 > [!NOTE]
-> Project Operations mempunyai halaman khusus untuk rekod Peluang, Sebut Harga dan Entiti Invois. Anda mesti mencipta rekod ini menggunakan halaman maklumat projek untuk entiti ini. Jika tidak, anda tidak akan dapat membuka rekod daripada halaman **Maklumat projek**. Jika anda mahu membuka rekod daripada halaman **Maklumat projek** , anda mesti memadam dan menciptanya semula menggunakan halaman **Maklumat projek** yang memastikan logik perniagaan untuk setiap jenis entiti ini  bagi medan **Jenis** rekod ditetapkan dengan betul dan semua konsep mandatori dimulakan dengan betul.
+> Project Operations mempunyai halaman khusus untuk rekod Peluang, Sebut Harga dan Entiti Invois. Anda mesti mencipta rekod ini menggunakan halaman maklumat projek untuk entiti ini. Jika tidak, anda tidak akan dapat membuka rekod daripada halaman **Maklumat projek**. Jika anda mahu membuka rekod daripada halaman **Maklumat projek**, anda mesti memadam dan menciptanya semula menggunakan halaman **Maklumat projek** yang memastikan logik perniagaan untuk setiap jenis entiti ini  bagi medan **Jenis** rekod ditetapkan dengan betul dan semua konsep mandatori dimulakan dengan betul.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Jejak semakan ke sebut harga dan rancangan projek dalam kitaran jualan

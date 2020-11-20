@@ -3,7 +3,7 @@ title: Tetapan harga katalog produk
 description: Topik ini memberikan maklumat tentang cara penetapan harga produk berfungsi dalam Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081259"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132299"
 ---
 # <a name="product-catalog-pricing"></a>Tetapan harga katalog produk 
 
@@ -46,11 +46,11 @@ PSA menyokong pelbagai pilihan pembundaran apabila harga dikonfigurasikan sebaga
 
 > ![Menambah produk dari katalog kepada senarai harga yang berbeza](media/basic-guide-16.png)
 
-Apabila anda mencipta senarai harga tersuai baharu untuk sebut harga dengan memilih **Cipta Penetapan Harga Tersuai** pada halaman **Sebut Harga Projek** , PSA membuat salinan senarai harga dan medan **Entiti** pada pengepala senarai harga baharu ditetapkan kepada **Entiti Jualan**. Nama senarai harga baharu akan ditambah dengan nama sebut harga dan cap masa. Anda juga boleh menggunakan nama senarai harga baharu dan nama sebut harga dalam aliran kerja tersuai untuk mencetuskan semakan tambahan dan kelulusan untuk sebut harga yang menggunakan penetapan harga tersuai.
+Apabila anda mencipta senarai harga tersuai baharu untuk sebut harga dengan memilih **Cipta Penetapan Harga Tersuai** pada halaman **Sebut Harga Projek**, PSA membuat salinan senarai harga dan medan **Entiti** pada pengepala senarai harga baharu ditetapkan kepada **Entiti Jualan**. Nama senarai harga baharu akan ditambah dengan nama sebut harga dan cap masa. Anda juga boleh menggunakan nama senarai harga baharu dan nama sebut harga dalam aliran kerja tersuai untuk mencetuskan semakan tambahan dan kelulusan untuk sebut harga yang menggunakan penetapan harga tersuai.
 
  
 ## <a name="default-product-price-list"></a>Senarai harga produk lalai
-Setiap rekod pelanggan mempunyai medan **Senarai Harga Lalai** , tempat anda boleh tentukan senarai harga yang sepadan dengan mata wang pelanggan. Dalam PSA, nilai lalai tidak dimasukkan secara automatik dalam medan ini. Apabila perjanjian penetapan harga tersuai dengan pelanggan tertentu wujud, anda boleh menggunakan medan ini untuk mengaitkan senarai harga dengan pelanggan tersebut.
+Setiap rekod pelanggan mempunyai medan **Senarai Harga Lalai**, tempat anda boleh tentukan senarai harga yang sepadan dengan mata wang pelanggan. Dalam PSA, nilai lalai tidak dimasukkan secara automatik dalam medan ini. Apabila perjanjian penetapan harga tersuai dengan pelanggan tertentu wujud, anda boleh menggunakan medan ini untuk mengaitkan senarai harga dengan pelanggan tersebut.
 
 Entiti Peluang, Sebut Harga dan Kontrak Projek menggunakan pesanan berikut untuk memasukkan senarai harga produk lalai. Pesanan yang sama digunakan untuk senarai harga projek.
 

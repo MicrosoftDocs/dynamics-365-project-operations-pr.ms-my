@@ -1,21 +1,21 @@
 ---
-title: Urus bakal pelanggan (Pro)
+title: Urus bakal pelanggan - lite
 description: Topik ini memberikan maklumat tentang mengurus bakal pelanggan berasaskan projek (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081157"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180518"
 ---
-# <a name="manage-leads-pro"></a>Urus bakal pelanggan (Pro)
+# <a name="manage-leads---lite"></a>Urus bakal pelanggan - lite
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -23,7 +23,7 @@ Bakal pelanggan berasaskan projek boleh diuruskan dan layak dalam Project Operat
 
 ## <a name="list-of-project-sales-leads"></a>Senarai bakal pelanggan Projek
 
-Dalam bahagian **Jualan** , dalam anak tetingkap navigasi kiri, buka halaman senarai **Bakal Pelanggan** untuk melihat senarai semua rekod bakal pelanggan dalam sistem. Senarai bakal pelanggan ditunjukkan adalah berasaskan kerja dan jenis bakal pelanggan lain yang boleh dicipta jika anda juga mempunyai aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
+Dalam bahagian **Jualan**, dalam anak tetingkap navigasi kiri, buka halaman senarai **Bakal Pelanggan** untuk melihat senarai semua rekod bakal pelanggan dalam sistem. Senarai bakal pelanggan ditunjukkan adalah berasaskan kerja dan jenis bakal pelanggan lain yang boleh dicipta jika anda juga mempunyai aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
 
 Anda boleh mencipta pandangan ditapis untuk hanya melihat bakal pelanggan berasaskan projek dengan mencipta penapis pada nilai **Jenis**. Contohnya, anda boleh memilih untuk menunjukkan hanya bakal pelanggan berasaskan kerja.
 
@@ -38,7 +38,7 @@ Untuk bakal pelanggan yang layak mencipta peluang secara automatik, tetapkan atr
 
 Jadual berikut termasuk maklumat medan yang penting untuk bakal pelanggan dan implikasi hiliran medan tersebut.
 
-| **Medan** | **Lokasi** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
+| **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
 | Topik | Tab umum | Medan teks ini dan hendaklah mengandungi perihalan ringkas tentang urusan. | Topik bakal pelanggan akan lalai sebagai topik Peluang dan nama Sebut Harga dan kontrak Projek. |
 | Jenis | Tab umum | Medan set pilihan ini mempunyai pilihan berikut:</br>- -Berasaskan kerja (tersedia hanya apabila Project Operations dipasang)</br>- Berasaskan item (tersedia hanya apabila Project Operations and Sales dipasang)</br>- Berasaskan perkhidmatan penyelenggaraan (tersedia apabila Field Service dipasang) | Apabila nilai medan ini ditetapkan ke **Berasaskan kerja** pada bakal pelanggan, bakal pelanggan layak untuk mencipta peluang berasaskan Projek. Peluang berasaskan projek diperlukan untuk mendayakan semua sambungan dan kefungsian khusus projek dalam proses jualan hiliran untuk urusan ini. |
@@ -53,7 +53,7 @@ Bakal pelanggan yang mempunyai nilai **Jenis** ditetapkan ke **Berasaskan kerja*
 
 - Akaun yang menggunakan medan **Syarikat** daripada bakal pelanggan.
 - Rekod kenalan yang berkaitan dengan akaun berasaskan pada nilai dalam medan **Nama Pertama** dan **Nama Akhir** pada bakal pelanggan.
-- Peluang berasaskan projek yang mempunyai medan **Jenis** ditetapkan ke &quot;**Berasaskan kerja**.
+- Peluang berasaskan projek yang mempunyai medan **Jenis** ditetapkan ke **Berasaskan kerja**.
 
 Untuk maklumat terperinci tentang bakal pelanggan yang layak, lihat[Pelanggan yang layak atau tukar](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

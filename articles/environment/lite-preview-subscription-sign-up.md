@@ -1,21 +1,21 @@
 ---
-title: Daftar untuk langganan pratonton
+title: Daftar untuk langganan pratonton - lite
 description: Topik ini memberikan maklumat mengenai cara untuk melanggan dan melaksanakan pelaksanaan lite Project Operations - berurusan dengan penginvoisan proforma.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081091"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175902"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Daftar untuk langganan pratonton untuk pelaksanaan Lite – urusan untuk penginvoisan proforma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Daftar untuk langganan pratonton - lite 
 
 Topik ini menjelaskan cara untuk melanggan tawaran rakan kongsi pratonton dan melaksanakan pelaksanaan lite Dynamics 365 Project Operations - urusan untuk penginvoisan proforma.
 
@@ -67,7 +67,7 @@ Ulangi langkah yang sama dengan kod tawaran pertama. Pastikan untuk menambah kod
 
 ![Laman utama pusat pentadbiran](./media/14AdminPortal.png)
 
-2. Pada halaman **Pengguna aktif** , pilih pengguna yang anda mahu peruntukkan lesen.
+2. Pada halaman **Pengguna aktif**, pilih pengguna yang anda mahu peruntukkan lesen.
 
 ![Tugaskan Lesen](./media/15AssignLicenses.png)
 
@@ -79,7 +79,7 @@ Ulangi langkah yang sama dengan kod tawaran pertama. Pastikan untuk menambah kod
 1. Peruntukkan persekitaran pelaksanaan CDS Project Operations baharu dengan mengikuti arahan dalam topik, [model pelaksanaan CDS](lite-deployment.md). Apabila anda memilih jenis persekitaran, pastikan untuk menggunakan **Percubaan (Berasaskan langganan)**.
 ![Persekitaran baru](./media/19CreateEnvironment.png)
 
-2. Pilih **Dayakan tetapan Dynamics 365** , dan biarkan **Laksanakan secara automatik aplikasi ini** kosong.  
+2. Pilih **Dayakan tetapan Dynamics 365**, dan biarkan **Laksanakan secara automatik aplikasi ini** kosong.  
 3. Pilih **Simpan** untuk mencipta persekitaran.
 
 ![Tambah pangkalan data](./media/20CreateEnvironment1.png)

@@ -3,7 +3,7 @@ title: Anggaran
 description: Topik ini memberikan maklumat tentang anggaran dalam Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081430"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132783"
 ---
 # <a name="estimates"></a>Anggaran
 
@@ -81,7 +81,7 @@ Gunakan jadual berikut sebagai panduan untuk memahami logik perniagaan dalam fas
 Jika anda menambah medan tersuai pada butiran baris sebut harga dan mahu sistem memasukkan nilai medan sebagai nilai lalai pada baris kos berkaitan yang dicipta, gunakan alat pendaftaran pasang masuk PreOperationContractLineDetailUpdate dan PreOperationQuoteLineDetailUpdate. Pasang masuk ini mestilah didaftarkan selepas butiran baris sebut harga atau butiran baris kontrak diubah. Ikuti langkah-langkah ini untuk menyelesaikan proses.
 
 1. Buka Alat Pendaftaran Pasang Masuk, dan sambungkan ke tika dalam talian anda.
-2. Pilih **Cari** , dan cari pasang masuk untuk kemas kini.
+2. Pilih **Cari**, dan cari pasang masuk untuk kemas kini.
 
     ![Cari kotak dialog Pohon](media/basic-guide-19.png)
 
@@ -90,11 +90,11 @@ Jika anda menambah medan tersuai pada butiran baris sebut harga dan mahu sistem 
 
     ![Pilih langkah dalam pasang masuk](media/basic-guide-20.png)
 
-5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada** , dalam medan **Menapis Atribut** , pilih butang elipsis ( **...** ):
+5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada**, dalam medan **Menapis Atribut**, pilih butang elipsis (**...**):
  
     ![Kemas kini kotak dialog Langkah Sedia Ada](media/basic-guide-21.png)
 
-6. Dalam kotak dialog **Pilih Atribut** , pilih kotak semak untuk atribut tersuai.
+6. Dalam kotak dialog **Pilih Atribut**, pilih kotak semak untuk atribut tersuai.
 
     ![Pilih kotak dialog Atribut](media/basic-guide-22.png)
 
