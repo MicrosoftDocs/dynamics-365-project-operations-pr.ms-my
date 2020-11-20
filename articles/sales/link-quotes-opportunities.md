@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081140"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118124"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Cipta sebut harga projek daripada peluang
 
@@ -30,7 +30,7 @@ Sebut harga boleh dicipta daripada peluang projek dengan cara berikut:
 Untuk mencipta sebut harga projek daripada peluang, lengkapkan langkah berikut.
 
 1. Buka halaman **Peluang Project** dan pilih tab **Sebut Harga**. 
-2. Pada sub-grid **Sebut Harga** , pilih **+** untuk mencipta sebut harga projek baharu berdasarkan peluang. Semua baris peluang dan senarai harga Project berkaitan disalin pada sebut harga baharu daripada peluang.
+2. Pada subgrid **Sebut harga**, pilih **+** untuk mencipta sebut harga projek baharu berdasarkan peluang. Semua baris peluang dan senarai harga Project berkaitan disalin pada sebut harga baharu daripada peluang.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>Daripada aliran proses jualan Peluang
 
@@ -50,7 +50,7 @@ Untuk mencipta sebut harga daripada aliran proses jualan Peluang, lengkapkan lan
 Sebut harga sedia ada boleh dipautkan kepada Peluang. Lengkapkan langkah berikut untuk mengemas kini maklumat Peluang mengenai sebut harga sedia ada.
 
 1. Buka halaman **Sebut Harga** dan pilih tab **Ringkasan**.
-2. Dalam medan **Peluang** , pilih peluang yang anda mahu pautkan kepada sebut harga. Anda boleh melihat sebut harga dalam grid **Sebut Harga** dalam Peluang. 
+2. Dalam medan **Peluang**, pilih peluang yang anda mahu pautkan kepada sebut harga. Anda boleh melihat sebut harga dalam grid **Sebut Harga** dalam Peluang. 
 3. Dengan menggunakan proses jualan Peluang, peluang boleh digerakkan ke peringkat seterusnya, **Cadangkan**. 
 
    Apabila anda menggerakkan peluang ke peringkat ini, anda boleh memilih sebut harga daripada senarai sebut harga yang berkaitan dengan peluang ini. Memilih sebut harga ini menunjukkan bahawa anda bergerak ke hadapan bersama-sama.

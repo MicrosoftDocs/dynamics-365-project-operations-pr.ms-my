@@ -3,7 +3,7 @@ title: Menyelaraskan tempahan dan tugasan
 description: Topik ini memberikan maklumat tentang aktual.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081274"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120464"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Menyelaraskan tempahan dan tugasan
 
@@ -35,7 +35,7 @@ Oleh sebab gandingan longgar penempahan projek dan tugasan tugas, tab **Penyelar
 
 Bagi setiap ahli pasukan yang dinamakan, tab **Penyesuaian** menunjukkan penempahan dan tugasan sehingga kepada tugasan tugas individu. Ia menunjukkan jam dalam sel yang boleh mewakili tempoh dari bulan hingga ke hari.
 
-Dalam medan **Skala masa** , anda boleh pilih **Bulan** , **Minggu** atau **hari.** Secara lalai, **Minggu** dipilih. Walau bagaimanapun, anda boleh mengubah nilai lalai tersebut dengan memilih butang **Tetapan**. Apabila tab **Penyesuaian** dibuka, ia menunjukkan tarikh semasa, tetapi anda boleh menggunakan kawalan kalendar untuk bergerak ke hadapan atau ke belakang dalam masa. Apabila projek mempunyai tarikh mula yang berada pada masa hadapan, tab menunjukkan tarikh tersebut apabila ia dibuka. Kawalan kalendar juga mempunyai pilihan yang membolehkan anda bergerak ke tarikh mula dan tamat projek.
+Dalam medan **Skala masa**, anda boleh pilih **Bulan**, **Minggu** atau **hari.** Secara lalai, **Minggu** dipilih. Walau bagaimanapun, anda boleh mengubah nilai lalai tersebut dengan memilih butang **Tetapan**. Apabila tab **Penyesuaian** dibuka, ia menunjukkan tarikh semasa, tetapi anda boleh menggunakan kawalan kalendar untuk bergerak ke hadapan atau ke belakang dalam masa. Apabila projek mempunyai tarikh mula yang berada pada masa hadapan, tab menunjukkan tarikh tersebut apabila ia dibuka. Kawalan kalendar juga mempunyai pilihan yang membolehkan anda bergerak ke tarikh mula dan tamat projek.
 
 Anda boleh menggunakan kawalan pengembang pada setiap sumber untuk menunjukkan butiran bagi penempahan sumber tersebut. Anda juga boleh mengembangkan tugasan setiap sumber ke peringkat tugas individu.
 
@@ -47,9 +47,9 @@ Bahagian bawah tab **Penyesuaian** menunjukkan keseluruhan jumlah bersih bagi pr
 > [!NOTE]
 > Petunjuk bagi keadaan ini mungkin tersembunyi untuk meninggalkan lebih banyak ruang untuk grid. Dalam kes ini, anda boleh menjadikan petunjuk dapat dilihat dengan memilih butang **Tetapan**.
 
-Dalam sesetengah kes, apabila medan **Skala masa** ditetapkan kepada peringkat yang lebih tinggi daripada **Hari** , perbezaan mungkin dikira sebagai 0 (sifar). Sebagai contoh, pada peringkat **Bulan** , perbezaan bersih bagi sumber mungkin 0 (sifar) untuk menunjukkan bahawa tempahan adalah sama dengan tugasan. Walau bagaimanapun, jika anda melihat pada peringkat **Minggu** , anda mungkin melihat bahawa terdapat tugasan 0 (sifar) jam dan penempahan 40 jam pada minggu pertama bulan ini serta tugasan 40 jam dan tempahan 0 (sifar) jam pada minggu kedua bulan tersebut. Walaupun jumlah tempahan dan tugasan untuk bulan tersebut adalah sama, ia berbeza mengikut minggu.
+Dalam sesetengah kes, apabila medan **Skala masa** ditetapkan kepada peringkat yang lebih tinggi daripada **Hari**, perbezaan mungkin dikira sebagai 0 (sifar). Sebagai contoh, pada peringkat **Bulan**, perbezaan bersih bagi sumber mungkin 0 (sifar) untuk menunjukkan bahawa tempahan adalah sama dengan tugasan. Walau bagaimanapun, jika anda melihat pada peringkat **Minggu**, anda mungkin melihat bahawa terdapat tugasan 0 (sifar) jam dan penempahan 40 jam pada minggu pertama bulan ini serta tugasan 40 jam dan tempahan 0 (sifar) jam pada minggu kedua bulan tersebut. Walaupun jumlah tempahan dan tugasan untuk bulan tersebut adalah sama, ia berbeza mengikut minggu.
 
-Apabila anda melihat tahap masa yang lebih tinggi, tab **Penyesuaian** menunjukkan penunjuk sel untuk memberitahu anda bahawa terdapat perbezaan pada tahap masa yang lebih rendah. Sebagai contoh, dalam ilustrasi berikut, penunjuk sel muncul dalam sel untuk bulan Oktober 2018 bagi sumber yang dinamakan Faziah Karim. Oleh itu, anda boleh melihat bahawa, walaupun tempahan sumber dan tugasan adalah sama apabila ia diagregat pada peringkat **Bulan** , ia tidak sepadan pada peringkat yang lebih rendah.
+Apabila anda melihat tahap masa yang lebih tinggi, tab **Penyesuaian** menunjukkan penunjuk sel untuk memberitahu anda bahawa terdapat perbezaan pada tahap masa yang lebih rendah. Sebagai contoh, dalam ilustrasi berikut, penunjuk sel muncul dalam sel untuk bulan Oktober 2018 bagi sumber yang dinamakan Faziah Karim. Oleh itu, anda boleh melihat bahawa, walaupun tempahan sumber dan tugasan adalah sama apabila ia diagregat pada peringkat **Bulan**, ia tidak sepadan pada peringkat yang lebih rendah.
 
 ![Tempahan salah padan dan tugasan pada peringkat bulanan](media/reconcile-assignments-01.JPG)
 

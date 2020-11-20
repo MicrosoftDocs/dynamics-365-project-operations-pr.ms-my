@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081127"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124649"
 ---
 # <a name="extending-time-entries"></a>Melanjutkan entri masa
 
@@ -33,7 +33,7 @@ Memanjangkan penyertaan masa kini mungkin dalam dua bahagian:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Tambah entri masa tersuai untuk kegunaan anda sendiri
 
-Entri masa ialah entiti teras yang digunakan dalam berbilang senario. Dalam Gelombang April 1 2020, penyelesaian teras TESA telah diperkenalkan. TESA menyediakan entiti **Tetapan** dan peranan keselamatan **Pengguna Entri Masa** baharu. Medan baharu, **msdyn_start** dan **msdyn_end** , yang mempunyai hubungan langsung dengan **msdyn_duration** juga disertakan. Entiti, peranan keselamatan dan medan baharu membenarkan pendekatan yang lebih bersepadu untuk masa yang merentasi berbilang produk.
+Entri masa ialah entiti teras yang digunakan dalam berbilang senario. Dalam Gelombang April 1 2020, penyelesaian teras TESA telah diperkenalkan. TESA menyediakan entiti **Tetapan** dan peranan keselamatan **Pengguna Entri Masa** baharu. Medan baharu, **msdyn_start** dan **msdyn_end**, yang mempunyai hubungan langsung dengan **msdyn_duration** juga disertakan. Entiti, peranan keselamatan dan medan baharu membenarkan pendekatan yang lebih bersepadu untuk masa yang merentasi berbilang produk.
 
 
 ### <a name="time-source-entity"></a>Entiti sumber masa
@@ -103,13 +103,13 @@ Sesuaikan pandangan **Entri Masa Mingguan Saya** dan tambah medan tersuai padany
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Cipta entri masa tersuai lalai baharu
 
-Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran** , sebagai tambahan kepada lajur yang anda mahu ada dalam grid. 
+Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran**, sebagai tambahan kepada lajur yang anda mahu ada dalam grid. 
 
 1. Pilih kedudukan, saiz dan isih pesanan lalai grid dengan mengedit sifat tersebut dalam pandangan. 
 2. Konfigurasikan kawalan tersuai untuk pandangan ini supaya ia adalah kawalan **Grid Entri Masa**. 
 3. Tambah kawalan ini ke pandangan, dan pilih ia untuk web, telefon dan tablet. 
 4. Konfigurasikan parameter untuk grid entri masa mingguan. 
-5. Tetapkan medan **Tarikh Mula** ke **msdyn_date** , tetapkan medan **Tempoh** untuk **msdyn_duration** dan tetapkan medan **Status** kepada **msdyn_entrystatus**. 
+5. Tetapkan medan **Tarikh Mula** ke **msdyn_date**, tetapkan medan **Tempoh** untuk **msdyn_duration** dan tetapkan medan **Status** kepada **msdyn_entrystatus**. 
 6. Untuk pandangan lalai, medan **Senarai Status Baca Sahaja** ditetapkan kepada **192350002,192350003,192350004**. Medan **Aliran Tugas Edit Baris** ditetapkan kepada **msdyn_timeentryrowedit**. Medan **Aliran Tugas Edit Sel** ditetapkan kepada **msdyn_timeentryedit**. 
 7. Anda boleh menyesuaikan medan ini untuk menambah atau mengeluarkan status baca sahaja atau untuk menggunakan pengalaman berasaskan tugas berbeza (TBX) untuk pengeditan baris atau sel. Medan ini kini terikat dengan nilai statik.
 
@@ -117,14 +117,14 @@ Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran** , sebagai tam
 > [!NOTE] 
 > Kedua-dua pilihan akan mengalih keluar beberapa penapisan siap guna pada entiti **Projek** dan **Tugas Projek** supaya semua pandangan carian untuk entiti tersebut akan boleh dilihat. Keluar dari kotak, hanya pandangan carian yang berkaitan boleh dilihat.
 
-Tentukan aliran tugas yang sesuai untuk medan tersuai. Jika anda menambah medan kepada grid, ia perlu ditambah dalam aliran tugas edit baris yang digunakan untuk medan yang digunakan pada seluruh baris entri masa. Jika medan tersuai mempunyai nilai unik setiap hari, seperti medan tersuai untuk **Masa akhir** , ia harus pergi dalam edit aliran tugas sel.
+Tentukan aliran tugas yang sesuai untuk medan tersuai. Jika anda menambah medan kepada grid, ia perlu ditambah dalam aliran tugas edit baris yang digunakan untuk medan yang digunakan pada seluruh baris entri masa. Jika medan tersuai mempunyai nilai unik setiap hari, seperti medan tersuai untuk **Masa akhir**, ia harus pergi dalam edit aliran tugas sel.
 
 Untuk menambah medan tersuai kepada aliran tugas, seret elemen **Medan** ke kedudukan yang sesuai pada halaman dan kemudian tetapkan sifat medan. Tetapkan sifat **Sumber** ke **Entri Masa** dan set sifat **Medan Data** ke medan tersuai. Sifat **Medan** menentukan nama paparan pada halaman TBX. Pilih **Gunakan** untuk menyimpan perubahan anda pada medan dan kemudian pilih **Kemas kini** untuk menyimpan perubahan anda pada halaman.
 
-Untuk menggunakan halaman TBX tersuai baharu sebagai ganti, cipta proses baharu. Tetapkan kategori untuk **Aliran Proses Perniagaan** , tetapkan entiti ke **Entri Masa** dan tetapkan jenis proses perniagaan untuk **Menjalankan proses sebagai aliran tugas**. Di bawah **Sifat** , sifat **Nama halaman** patut ditetapkan ke nama paparan untuk halaman. Tambah semua medan yang berkaitan dengan halaman TBX. Simpan dan aktifkan proses. Kemas kini sifat kawalan tersuai untuk aliran tugas yang relevan kepada nilai **Nama** pada proses.
+Untuk menggunakan halaman TBX tersuai baharu sebagai ganti, cipta proses baharu. Tetapkan kategori untuk **Aliran Proses Perniagaan**, tetapkan entiti ke **Entri Masa** dan tetapkan jenis proses perniagaan untuk **Menjalankan proses sebagai aliran tugas**. Di bawah **Sifat**, sifat **Nama halaman** patut ditetapkan ke nama paparan untuk halaman. Tambah semua medan yang berkaitan dengan halaman TBX. Simpan dan aktifkan proses. Kemas kini sifat kawalan tersuai untuk aliran tugas yang relevan kepada nilai **Nama** pada proses.
 
 ### <a name="add-new-option-set-values"></a>Tambah nilai set pilihan baharu
-Untuk menambah nilai set pilihan kepada medan siap guna, buka halaman pengeditan untuk medan tersebut dan di bawah **Jenis** , pilih **Edit** di sebelah set pilihan. Tambah pilihan baharu yang mempunyai label tersuai dan warna. Jika anda mahu menambah status entri masa baharu, medan siap guna dinamakan **Status Entri** bukan **Status**.
+Untuk menambah nilai set pilihan kepada medan siap guna, buka halaman pengeditan untuk medan tersebut dan di bawah **Jenis**, pilih **Edit** di sebelah set pilihan. Tambah pilihan baharu yang mempunyai label tersuai dan warna. Jika anda mahu menambah status entri masa baharu, medan siap guna dinamakan **Status Entri** bukan **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Tetapkan status kemasukan masa baharu sebagai baca sahaja
 Untuk memilih status entri masa baharu sebagai baca sahaja, tambah nilai masukan masa baharu ke sifat senarai **Senarai Status Baca Sahaja** sahaja. Bahagian yang boleh diedit bagi grid kemasukan masa akan dikunci untuk baris yang mempunyai status baharu.

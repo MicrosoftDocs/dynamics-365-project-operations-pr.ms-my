@@ -3,7 +3,7 @@ title: Tarik balik entri masa atau perbelanjaan yang diluluskan
 description: Topik ini memberikan maklumat tentang cara untuk menarik balik transaksi masa atau perbelanjaan yang diluluskan sebelumnya.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081275"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120554"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Tarik balik entri masa atau perbelanjaan yang diluluskan
 
@@ -60,13 +60,13 @@ Ikut langkah ini untuk meminta tarik balik entri masa atau perbelanjaan yang dil
 Ikuti langkah ini untuk meluluskan atau menolak permintaan tarik balik.
 
 1. Pergi ke **Projek** \> **Kerja Saya** \> **Kelulusan**.
-2. Pada halaman senarai **Kelulusan** , tukar pandangan kepada **Permintaan tarik balik untuk kelulusan**. Senarai permintaan tarik balik yang diserahkan ditunjukkan.
+2. Pada halaman senarai **Kelulusan**, tukar pandangan kepada **Permintaan tarik balik untuk kelulusan**. Senarai permintaan tarik balik yang diserahkan ditunjukkan.
 3. Pilih satu atau lebih entri dan kemudian pilih sama ada **Luluskan** atau **Tolak**.
-4. Jika anda memilih **Luluskan** , anda menerima mesej amaran yang menerangkan tentang kesan kelulusan tersebut. Pilih **OK** untuk mengesahkan operasi. Permintaan tarik balik diluluskan.
+4. Jika anda memilih **Luluskan**, anda menerima mesej amaran yang menerangkan tentang kesan kelulusan tersebut. Pilih **OK** untuk mengesahkan operasi. Permintaan tarik balik diluluskan.
 
     –atau–
 
-    Jika anda memilih **Tolak** , permintaan tarik balik ditolak.
+    Jika anda memilih **Tolak**, permintaan tarik balik ditolak.
 
 > [!NOTE]
 > Seperti apabila tarik balik diminta, apabila tarik balik diluluskan, sistem menyemak sebarang aktiviti penginvoisan pada entri masa atau perbelanjaan. Jika entri telah pun diinvoiskan, atau jika ia berada pada invois draf, pelulus akan menerima mesej ralat yang menyatakan bahawa masa atau perbelanjaan tersebut tidak boleh diluluskan untuk tarik balik kerana ia sudah diinvoiskan.
@@ -77,7 +77,7 @@ Apabila kelulusan ditarik balik, terdapat kesan operasi dan kesan kewangan.
 
 ### <a name="operational-impact"></a>Kesan operasi
 
-Jika permintaan tarik balik diluluskan, rekod kelulusan akan ditandakan sebagai **Ditolak.** Status entri ditukar kepada sama ada **Dikembalikan** atau **Ditolak** , bergantung pada sama ada ia ialah entri masa atau entri perbelanjaan.
+Jika permintaan tarik balik diluluskan, rekod kelulusan akan ditandakan sebagai **Ditolak.** Status entri ditukar kepada sama ada **Dikembalikan** atau **Ditolak**, bergantung pada sama ada ia ialah entri masa atau entri perbelanjaan.
 
 Ahli pasukan projek boleh melihat entri, mengedit dan kemudian menghantar semula entri atau memadamkan entri sepenuhnya.
 

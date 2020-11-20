@@ -3,7 +3,7 @@ title: Soalan Lazim Pengurusan sumber
 description: Topik ini memberikan jawapan kepada soalan lazim mengenai pengurusan sumber.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120149"
 ---
 # <a name="resource-management-faq"></a>Soalan Lazim Pengurusan sumber
 
@@ -47,7 +47,7 @@ Selepas sumber ditempah, pilih **Kekalkan Penempahan** untuk membuat sebarang pe
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Apakah jenis sumber yang disokong Project Service Automation?
 
-**Pengguna** dan **Kenalan** ialah satu-satunya jenis sumber yang disokong Dynamics 365 Project Service Automation. Walaupun anda boleh mencipta jenis sumber lain (contohnya **Peralatan** dan **Kumpulan** ), tidak menggunakan kes penggunaan hujung ke hujung disokong untuk mereka.
+**Pengguna** dan **Kenalan** ialah satu-satunya jenis sumber yang disokong Dynamics 365 Project Service Automation. Walaupun anda boleh mencipta jenis sumber lain (contohnya **Peralatan** dan **Kumpulan**), tidak menggunakan kes penggunaan hujung ke hujung disokong untuk mereka.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Apakah perbezaan antara tugasan dengan sesuatu penempahan?
 

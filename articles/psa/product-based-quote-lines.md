@@ -3,7 +3,7 @@ title: Baris sebut harga berdasarkan produk
 description: Topik ini memberikan maklumat tentang baris sebut harga berdasarkan produk.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081408"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123216"
 ---
 # <a name="product-based-quote-lines"></a>Baris sebut harga berdasarkan produk
 
@@ -54,7 +54,7 @@ Jika baris sebut harga adalah berdasarkan katalog produk, anda boleh ganti harga
 - Ganti penetapan harga  
 - Gunakan lalai
 
-Jika anda menetapkan medan ini kepada **Ganti penetapan harga** , Dynamics 365 tidak menetapkan harga lalai. Anda mesti masukkan harga untuk produk pada baris sebut harga. Jika anda menetapkan medan ini kepada **Gunakan lalai** , Dynamics 365 menggunakan harga jualan lalai dan mengunci medan tersebut untuk mengelakkan pengeditan.
+Jika anda menetapkan medan ini kepada **Ganti penetapan harga**, Dynamics 365 tidak menetapkan harga lalai. Anda mesti masukkan harga untuk produk pada baris sebut harga. Jika anda menetapkan medan ini kepada **Gunakan lalai**, Dynamics 365 menggunakan harga jualan lalai dan mengunci medan tersebut untuk mengelakkan pengeditan.
 
 Selepas anda memasang PSA, harga jualan lalai dimasukkan pada baris berdasarkan produk pada sebut harga. Medan **Penetapan harga** kemudian ditetapkan kepada **Ganti penetapan harga** supaya anda boleh mengedit harga lalai pada baris sebut harga.
 

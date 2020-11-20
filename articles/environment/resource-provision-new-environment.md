@@ -3,17 +3,17 @@ title: Peruntukan persekitaran baharu
 description: Topik ini memberikan maklumat tentang cara menyediakan persekitaran Operasi Projek baru.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081115"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121184"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -26,7 +26,7 @@ Topik ini memberikan maklumat mengenai cara untuk menyediakan persekitaran Opera
 Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Projek untuk projek LCS anda.
 
 1. Pergi ke [LCS](https://lcs.dynamics.com/v2) dan pilih jubin **Pengurusan ciri pratonton**.
-2. Dalam senarai **Ciri pratonton** , pilih **Ciri Operasi Projek** , kemudian pilih **Ciri pratonton didayakan** untuk mendayakan Operasi Projek.
+2. Dalam senarai **Ciri pratonton**, pilih **Ciri Operasi Projek**, kemudian pilih **Ciri pratonton didayakan** untuk mendayakan Operasi Projek.
 
 > [!NOTE]
 > Langkah ini dilaksanakan hanya satu kali bagi setiap projek LCS.
@@ -39,7 +39,7 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
 > [!IMPORTANT]
 > Pastikan versi aplikasi yang dipilih adalah 10.0.13 atau lebih tinggi.
 
-3. Untuk memperuntukkan Operasi Projek, di bawah **Tetapan awal** , pilih **Common Data Service**. 
+3. Untuk memperuntukkan Operasi Projek, di bawah **Tetapan awal**, pilih **Common Data Service**. 
 4. Dayakan Tetapan **Common Data Service** dengan memilih **Ya** dan kemudian masukkan maklumat dalam medan yang diperlukan:
 
   - Nama
@@ -47,7 +47,7 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
   - Bahasa
   - Mata wang
  
-5. Dalam medan Templat **Common Data Service** , pilih **Operasi Projek** 
+5. Dalam medan Templat **Common Data Service**, pilih **Operasi Projek** 
 
 6. Pilih jenis persekitaran untuk pelaksanaan anda. Percubaan berasaskan langganan membolehkan anda melaksanakan persekitaran CDS selama 30 hari. 
 
@@ -76,11 +76,11 @@ Operasi Projek memerlukan persekitaran kewangan dengan versi aplikasi **10.0.13 
 
 Anda mungkin perlu menggunakan kemas kini kualiti kepada persekitaran kewangan anda untuk menerima versi ini.
 
-1. Dalam LCS, pada halaman **Butiran persekitaran** , dalam bahagian **Kemas Kini Tersedia** , pilih **Lihat Kemas Kini**.
+1. Dalam LCS, pada halaman **Butiran persekitaran**, dalam bahagian **Kemas Kini Tersedia**, pilih **Lihat Kemas Kini**.
 
 ![Lihat Kemas Kini](./media/5ViewUpdates.png)
 
-2. Pada halaman **Kemas kini Penduaan** , pilih **Simpan pakej.**
+2. Pada halaman **Kemas kini Penduaan**, pilih **Simpan pakej.**
 
 ![Simpan pakej](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekit
 ## <a name="establish-a-dual-write-connection"></a>Wujudkan sambungan Dual Write 
 
 1. Dalam projek LCS anda, pergi ke halaman **Butiran persekitaran**.
-2. Di bawah Maklumat Persekitaran **Common Data Service** , pilih **Pautan ke CDS untuk Aplikasi**.
+2. Di bawah Maklumat Persekitaran **Common Data Service**, pilih **Pautan ke CDS untuk Aplikasi**.
 3. Selepas pautan selesai, pilih **Pautkan ke CDS untuk Aplikasi** semula. Anda akan dihalakan semula ke Dual Write dalam kewangan.
 
 ![Pautkan ke CDS](./media/12LinktoCDS.png)
@@ -120,7 +120,7 @@ Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekit
 
 ![Gunakan Penyelesaian](./media/13ApplySolutions.png)
 
-5. Pilih kedua-dua penyelesaian, Peta Entiti Dual Write **Dynamics 365 Finance and Operations** dan **Peta Entiti Dual Write Operasi Projek Dynamics 365** , dan kemudian pilih **Gunakan**.
+5. Pilih kedua-dua penyelesaian, Peta Entiti Dual Write **Dynamics 365 Finance and Operations** dan **Peta Entiti Dual Write Operasi Projek Dynamics 365**, dan kemudian pilih **Gunakan**.
 
 ![Sahkan Penyelesaian](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Selepas entiti digunakan, semua pemetaan yang sedia ada disenaraikan dalam perse
 
 ![Parameter Rangka Kerja](./media/17FrameworkParameters.png)
 
-3. Pada halaman **Tetapan entiti** , pilih senarai **Entiti Segar Semula**.
+3. Pada halaman **Tetapan entiti**, pilih senarai **Entiti Segar Semula**.
 
 ![Senarai Entiti Segar Semula](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
 ## <a name="run-project-operations-dual-write-maps"></a>Jalankan peta Dual Write Operasi Projek
 
 1. Dalam projek LCS anda, pergi ke halaman **Butiran persekitaran**.
-2. Di bawah Maklumat Persekitaran **Common Data Service** , pilih **Pautkan ke CDS untuk Aplikasi.** Selepas anda memilih pautan tersebut, anda akan dihalakan semula ke senarai entiti dalam pemetaan.
+2. Di bawah Maklumat Persekitaran **Common Data Service**, pilih **Pautkan ke CDS untuk Aplikasi.** Selepas anda memilih pautan tersebut, anda akan dihalakan semula ke senarai entiti dalam pemetaan.
 3. Mulakan peta seperti yang diterangkan dalam jadual berikut. Pastikan anda mengikuti urutan seperti yang disenaraikan.
 
 | **Peta Entiti** | **Entiti segar semula** | **Penyegerakan awal** | **Induk untuk penyegerakan awal** | **Jalankan prasyarat:** | **Segerakkan permulaan prasyarat** |
@@ -177,7 +177,7 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
 
 5. Selepas segar semula selesai, jalankan peta. Sebelum anda mendayakan peta seterusnya, sahkan bahawa peta dalam jadual dalam keadaan **Berjalan**. Jalankan peta dengan bilangan prasyarat yang lebih besar mungkin mengambil sedikit masa.
 
-Untuk menjalankan peta dengan prasyarat, dayakan togol **Tunjukkan peta entiti berkaitan**. Jika jadual menunjukkan **Penyegerakkan awal pra-syarat** **Tidak** , sahkan bahawa bendera **Penyegerakkan awal** **Dipadamkan** dalam semua peta pra-syarat sebelum anda menjalankannya.
+Untuk menjalankan peta dengan prasyarat, dayakan togol **Tunjukkan peta entiti berkaitan**. Jika jadual menunjukkan **Penyegerakkan awal pra-syarat** **Tidak**, sahkan bahawa bendera **Penyegerakkan awal** **Dipadamkan** dalam semua peta pra-syarat sebelum anda menjalankannya.
 
 ![Jalankan Peta](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Untuk menjalankan peta dengan prasyarat, dayakan togol **Tunjukkan peta entiti b
 
 ![Semua Peta Berjalan](./media/22AllMapsRunning.png)
 
-Persekitaran Operasi Projek anda kini diperuntukkan dan dikonfigurasikan.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Gunakan data konfigurasi dalam CDS untuk Project Operations (pilihan)
+
+Jika anda telah menggunakan data demo pada persekitaran Kewangan, lihat [sediakan dan gunakan data konfigurasi dalam Common Data Service untuk Project Operations](resource-apply-pro-setup-config-data.md) untuk menggunakan data demo pada persekitaran CDS.
+
+
+Persekitaran Operasi Projek anda kini diperuntukkan dan dikonfigurasikan. 

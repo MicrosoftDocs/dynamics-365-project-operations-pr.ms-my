@@ -3,7 +3,7 @@ title: Mencadangkan sumber projek
 description: Topik ini memberikan maklumat tentang cadangan sumber projek.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,25 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081447"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120194"
 ---
 # <a name="propose-project-resources"></a>Mencadangkan sumber projek
 
 Pengurus sumber boleh mencadangkan sumber kepada pengurus projek menggunakan permintaan sumber.
 
 1. Daripada grid permintaan atau permintaan itu sendiri, pilih **Cari sumber.**
-2. Pada halaman **Pembantu Jadual** , pilih sumber dan kemudian, dalam anak tetingkap **Cipta Tempahan Sumber** dalam medan status **Status Tempahan** , pilih **Tempah.**
+2. Pada halaman **Pembantu Jadual** , pilih sumber dan kemudian, dalam anak tetingkap **Cipta Tempahan Sumber** dalam medan status **Status Tempahan**, pilih **Tempah.**
 
     ![Sumber terpilih yang dicadangkan.](media/Resource-Management-image62.png)
 
 Kemas kini status berikut berlaku:
 
-- Pada halaman **Pembantu Jadual** , penunjuk status dikemas kini untuk menunjukkan bahawa penempahan dicadangkan, tidak ditempah cetak.
+- Pada halaman **Pembantu Jadual**, penunjuk status dikemas kini untuk menunjukkan bahawa penempahan dicadangkan, tidak ditempah cetak.
 
     ![Petunjuk status untuk tempahan yang dicadangkan pada halaman Pembantu Jadual](media/Resource-Management-image63.png)
 
@@ -86,7 +86,7 @@ Selain itu, peranan lalai mesti ditugaskan kepada setiap sumber boleh ditempah. 
 
 ![Peranan lalai ditetapkan](media/Resource-Management-image67.png)
 
-Pada tab **Project Service** , anda juga boleh menetapkan penggunaan sasaran individu untuk sumber. Pengiraan penggunaan ini kemudian menggunakan penggunaan sasaran yang akan menilai sasaran sumber bukan sasaran peranan lalai sumber.
+Pada tab **Project Service**, anda juga boleh menetapkan penggunaan sasaran individu untuk sumber. Pengiraan penggunaan ini kemudian menggunakan penggunaan sasaran yang akan menilai sasaran sumber bukan sasaran peranan lalai sumber.
 
 Penggunaan ditunjukkan untuk sumber hanya jika sumber tersebut telah diluluskan dan masa boleh dikenakan dalam tempoh yang ditunjukkan dalam grid.
 

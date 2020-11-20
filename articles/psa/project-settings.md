@@ -3,7 +3,7 @@ title: Tetapan projek
 description: Topik ini memberikan maklumat tentang tetapan pengurusan projek.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081391"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123119"
 ---
 # <a name="project-settings"></a>Tetapan projek
 
@@ -36,12 +36,12 @@ Gunakan tetapan berikut untuk mengakses ciri perancangan projek.
 Untuk mencipta jadual projek, anda cipta templat kalendar projek yang mentakrifkan bilangan jam kerja setiap hari dan sebarang penutupan perniagaan. Untuk mencipta templat kalendar projek, anda kaitkan templat kerja dengan medan **Templat kalendar** untuk projek. Ikuti langkah ini untuk mencipta templat kerja.
 
 1. Dalam PSA, dalam anak tetingkap navigasi kiri, klik **Sumber**. 
-2. Pada halaman senarai **Sumber** , buka rekod pengguna dan kemudian pilih **Tunjuk Jam Kerja**.
+2. Pada halaman senarai **Sumber**, buka rekod pengguna dan kemudian pilih **Tunjuk Jam Kerja**.
 
   > [!NOTE]
   > Pastikan anda membenarkan tetimbul pada halaman pelayar. Ini membenarkan anda melihat jam kerja yang ditetapkan untuk sumber.
   
-3. Pada tab **Pandangan Bulanan** , klik **Sediakan**. Satu senarai tiga pilihan muncul: 
+3. Pada tab **Pandangan Bulanan**, klik **Sediakan**. Satu senarai tiga pilihan muncul: 
 
   - Jadual Mingguan Baharu
   - Jadual Kerja untuk Satu Hari
@@ -53,7 +53,7 @@ Untuk mencipta jadual projek, anda cipta templat kalendar projek yang mentakrifk
 5. Tetapkan julat tarikh, pilih **Simpan** dan kemudian klik **Tutup**. 
 6. Kembali ke halaman senarai **Sumber** dan pilih sumber yang anda tetapkan jam kerja. 
 7. Pilih **Tetapkan Kalendar Sebagai** untuk menetapkan templat kerja. 
-8. Dalam kotak dialog **Templat Kerja** , masukkan nama untuk templat kerja dan kemudian pilih **Gunakan**. 
+8. Dalam kotak dialog **Templat Kerja**, masukkan nama untuk templat kerja dan kemudian pilih **Gunakan**. 
 
 Kini anda boleh mengaitkan templat kerja dengan templat kalendar projek.
 
@@ -65,4 +65,4 @@ Setiap organisasi mesti menyediakan peranan ini pada halaman **Kategori Sumber A
 
 ## <a name="price-lists"></a>Senarai harga
 
-Senarai harga membolehkan anda menetapkan kos dan harga jualan untuk peranan sumber, kategori perbelanjaan, produk dan elemen lain dalam organisasi. Sebelum anda menetapkan anggaran kewangan untuk kerja yang mesti dihantar bagi sesuatu projek, anda harus mencipta senarai kos sokongan dan harga jualan. Dalam bahagian parameter, anda juga perlu menyediakan senarai kos dan harga jualan lalai yang digunakan pada semua projek yang dicipta dalam organisasi. Pada halaman **Parameter Projek Aktif** , pastikan anda menyediakan senarai kos dan harga jualan lalai.
+Senarai harga membolehkan anda menetapkan kos dan harga jualan untuk peranan sumber, kategori perbelanjaan, produk dan elemen lain dalam organisasi. Sebelum anda menetapkan anggaran kewangan untuk kerja yang mesti dihantar bagi sesuatu projek, anda harus mencipta senarai kos sokongan dan harga jualan. Dalam bahagian parameter, anda juga perlu menyediakan senarai kos dan harga jualan lalai yang digunakan pada semua projek yang dicipta dalam organisasi. Pada halaman **Parameter Projek Aktif**, pastikan anda menyediakan senarai kos dan harga jualan lalai.

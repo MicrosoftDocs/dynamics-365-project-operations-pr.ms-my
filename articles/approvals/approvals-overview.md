@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081088"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123839"
 ---
 # <a name="approvals-overview"></a>Gambaran keseluruhan kelulusan
 
@@ -27,7 +27,7 @@ Apabila anda mencipta dan menyerahkan entri masa atau perbelanjaan, entri kelulu
 ## <a name="approve-an-entry"></a>Meluluskan entri
 Borang **Kelulusan** membolehkan anda bertukar antara pandangan yang berbeza supaya anda boleh melihat jenis kelulusan yang berbeza.
   
-1. Pergi ke borang **Kelulusan** dan pilih **Perbelanjaan** , **Masa** atau **Tarik balik**.
+1. Pergi ke borang **Kelulusan** dan pilih **Perbelanjaan**, **Masa** atau **Tarik balik**.
 2. Semak setiap kelulusan dan pilih kelulusan yang anda mahu luluskan.
 3. Pilih **Luluskan** untuk meluluskan entri yang dipilih.
 Sistem akan memproses entri ini dan mencipta aktual atau tempahan.
@@ -47,7 +47,7 @@ Pada satu ketika, anda mungkin perlu menarik balik entri yang telah diserahkan. 
 Setiap projek mempunyai beberapa orang ahli pasukan projek. Anda boleh menentukan ahli pasukan yang juga merupakan pelulus projek.
 
 1. Pergi ke borang **Projek** dan buka projek daripada senarai.
-2. Pada tab **Pasukan** , pilih ahli pasukan yang akan menjadi Pelulus projek dan kemudian pilih **Edit**.
+2. Pada tab **Pasukan**, pilih ahli pasukan yang akan menjadi Pelulus projek dan kemudian pilih **Edit**.
 3. Tetapkan medan **Pelulus Projek** kepada **Ya**.
 4. Pilih **Simpan**.
 5. Ulangi langkah 2-4 untuk menambah Pelulus projek tambahan.
@@ -55,7 +55,7 @@ Setiap projek mempunyai beberapa orang ahli pasukan projek. Anda boleh menentuka
 ## <a name="configure-the-users-manager"></a>Konfigurasikan pengurus pengguna
 
 1. Pergi ke **Tetapan** > **Keselamatan** > **Pengguna**.
-2. Pilih pengguna yang anda akan tugaskan seorang pengurus dan dalam kawasan **Maklumat Organisasi** , pilih pengurus daripada senarai. 
+2. Pilih pengguna yang anda akan tugaskan seorang pengurus dan dalam kawasan **Maklumat Organisasi**, pilih pengurus daripada senarai. 
 3. Pilih **Simpan**.
 
 

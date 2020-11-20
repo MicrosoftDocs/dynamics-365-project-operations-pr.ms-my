@@ -3,7 +3,7 @@ title: Cipta senarai harga
 description: Cara untuk mencipta senarai harga dalam Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081264"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122039"
 ---
 # <a name="create-a-price-list-project-service"></a>Cipta senarai harga (Project Service)
 
@@ -39,33 +39,33 @@ Senarai harga bergantung pada kategori peranan dan perbelanjaan, jadi sebelum an
   
 2.  Klik **Baharu**.  
   
-3.  Dalam **Konteks** , pilih sama ada senarai harga ini adalah untuk **Kos** , **Pembelian** atau **Jualan**.  
+3.  Dalam **Konteks**, pilih sama ada senarai harga ini adalah untuk **Kos**, **Pembelian** atau **Jualan**.  
   
-4.  Dalam **Nama** , masukkan nama untuk senarai harga.  
+4.  Dalam **Nama**, masukkan nama untuk senarai harga.  
   
-5.  Dalam **Mata Wang** , pilih mata wang yang akan anda gunakan untuk pengebilan dan pengekosan.  
+5.  Dalam **Mata Wang**, pilih mata wang yang akan anda gunakan untuk pengebilan dan pengekosan.  
   
-6.  Dalam **Unit Masa** , tentukan tempoh masa harga digunakan seperti hari atau jam.  
+6.  Dalam **Unit Masa**, tentukan tempoh masa harga digunakan seperti hari atau jam.  
   
-7.  Isikan **Tarikh Mula** , **Tarikh Tamat** dan **Perihalan** seperti yang diperlukan.  
+7.  Isikan **Tarikh Mula**, **Tarikh Tamat** dan **Perihalan** seperti yang diperlukan.  
   
 8.  Klik **Simpan** untuk mencipta rekod supaya anda boleh terus mengeditnya.  
   
 9. Untuk menambah harga peranan pada senarai harga, klik **+** di bawah **Harga peranan**.  
   
-10. Dalam anak tetingkap **Harga Peranan** , isikan butiran dan kemudian klik **Simpan**. Teruskan menambah harga peranan seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
+10. Dalam anak tetingkap **Harga Peranan**, isikan butiran dan kemudian klik **Simpan**. Teruskan menambah harga peranan seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
   
 11. Untuk menambah harga kategori perbelanjaan pada senarai harga, klik **+** di bawah **Harga Kategori**.  
   
-12. Dalam anak tetingkap **Harga Kategori Transaksi** , isikan butiran dan kemudian klik **Simpan**. Teruskan menambah harga kategori seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
+12. Dalam anak tetingkap **Harga Kategori Transaksi**, isikan butiran dan kemudian klik **Simpan**. Teruskan menambah harga kategori seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
   
 13. Untuk menambah item senarai harga pada senarai harga, klik **+** di bawah **Item Senarai Harga**.  
   
-14. Dalam anak tetingkap **Item Senarai Harga** , isikan butiran dan kemudian klik **Simpan**. Teruskan menambah item senarai harga seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
+14. Dalam anak tetingkap **Item Senarai Harga**, isikan butiran dan kemudian klik **Simpan**. Teruskan menambah item senarai harga seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
   
 15. Untuk menambah perhubungan wilayah pada senarai harga, klik **+** di bawah **Perhubungan Wilayah**.  
   
-16. Dalam tetingkap **Sambungan Baharu** , isikan butiran dan kemudian klik **Simpan**. Teruskan menambah perhubungan wilayah seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
+16. Dalam tetingkap **Sambungan Baharu**, isikan butiran dan kemudian klik **Simpan**. Teruskan menambah perhubungan wilayah seperti yang diperlukan. Apabila anda selesai, klik **Simpan** di sudut kanan bawah skrin.  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasikan Project Service Automation](../psa/configure.md)

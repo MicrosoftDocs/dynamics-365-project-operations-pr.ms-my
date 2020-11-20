@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081111"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122760"
 ---
 # <a name="cash-advance"></a>Pendahuluan tunai
 
@@ -25,16 +25,16 @@ Pendahuluan tunai membolehkan pekerja meminjam wang daripada syarikat mereka seb
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Cipta dan serahkan permintaan pendahuluan tunai
 
-1. Di bawah **Perbelanjaan Saya** , pilih **Pendahuluan tunai** > **Baharu** untuk mencipta pendahuluan tunai baharu. 
-2. Pada halaman **Permintaan pendahuluan tunai baharu** , masukkan tujuan perbelanjaan dan pilih lokasi tempat perbelanjaan akan ditanggung.
+1. Di bawah **Perbelanjaan Saya**, pilih **Pendahuluan tunai** > **Baharu** untuk mencipta pendahuluan tunai baharu. 
+2. Pada halaman **Permintaan pendahuluan tunai baharu**, masukkan tujuan perbelanjaan dan pilih lokasi tempat perbelanjaan akan ditanggung.
 3. Masukkan jumlah yang diminta dan mata wang, dan kemudian pilih **Simpan**. 
-4. Apabila anda bersedia untuk menyerahkan permintaan pendahuluan tunai, pada halaman **Permintaan pendahuluan tunai** , pilih **Aliran kerja** > **Serah**.
+4. Apabila anda bersedia untuk menyerahkan permintaan pendahuluan tunai, pada halaman **Permintaan pendahuluan tunai**, pilih **Aliran kerja** > **Serah**.
 
 ## <a name="modify-a-cash-advance-request"></a>Ubah suai permintaan pendahuluan tunai
 
 Anda boleh mengubah suai permintaan pendahuluan tunai jika ia belum diserahkan untuk kelulusan.
 
-1. Di bawah **Perbelanjaan Saya: Pendahuluan Tunai** , cari dan pilih pendahuluan tunai yang anda mahu edit.
+1. Di bawah **Perbelanjaan Saya: Pendahuluan Tunai**, cari dan pilih pendahuluan tunai yang anda mahu edit.
 2. Pilih **Edit** dan buat perubahan yang perlu pada permintaan pendahuluan tunai. 
 3. Pilih **Simpan dan tutup**.
 
@@ -46,7 +46,7 @@ Anda boleh menyemak senarai semua pendahuluan tunai yang dalam draf, diserahkan,
 
 Pengurus atau pengguna yang dikonfigurasikan sebagai pelulus dalam aliran kerja akan dapat meluluskan pendahuluan tunai yang diserahkan kepada mereka untuk disemak. 
 
-1. Untuk meluluskan pendahuluan tunai, di bawah **Proses pendahuluan tunai** , pilih **Pendahuluan tunai untuk semakan saya**.
+1. Untuk meluluskan pendahuluan tunai, di bawah **Proses pendahuluan tunai**, pilih **Pendahuluan tunai untuk semakan saya**.
 2. Pilih pendahuluan tunai yang anda perlu semak dan pilih **Luluskan**.  
 
 ## <a name="pay-cash-advances"></a>Bayar pendahuluan tunai 

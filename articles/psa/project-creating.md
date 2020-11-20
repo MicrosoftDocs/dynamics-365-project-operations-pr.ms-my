@@ -3,7 +3,7 @@ title: Jadual projek
 description: Topik ini memberikan maklumat tentang cara untuk mencipta jadual.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081263"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123253"
 ---
 # <a name="project-schedules"></a>Jadual projek 
 
@@ -83,12 +83,12 @@ Butang **Gerak ke atas** dan **Gerak ke bawah** mengubah kedudukan tugas dalam h
 
 Grid **Jadual** boleh diakses sepenuhnya dan boleh digunakan dengan pembaca skrin seperti Pencerita, JAWS atau NVDA. Anda boleh bergerak melalui kawasan grid dengan menggunakan kekunci anak panah (seperti dalam Microsoft Excel), anda boleh menggunakan kekunci Tab untuk maju melalui elemen UI interaktif dan anda boleh menggunakan kekunci anak panah Bawah, kekunci Enter atau Bar Ruang untuk memilih dan menggunakan menu ke bawah. Pengepala lajur juga interaktif. Anda boleh sembunyikan dan tunjukkan lajur, gunakan kekunci Tab dan kekunci anak panah untuk bergerak melalui pengepala lajur dan menggunakan butang tindakan pada bar alat. Selain itu, anda boleh menggunakan pintasan papan kekunci berikut:
 
-- **Segar semula** : ALT+SHIFT+F5
-- **Tambah** : ALT+SHIFT+Insert
-- **Padam** : ALT+SHIFT+Delete
-- **Bergerak ke atas/bawah** : ALT+SHIFT+anak panah Atas/Bawah
-- **Engsot/Engsot keluar** : ALT_SHIFT+anak panah Kiri/Kanan
-- **Kembangkan/Runtuhkan Hierarki** : Alt + Shift +kekunci Tambah/Tolak
+- **Segar semula**: ALT+SHIFT+F5
+- **Tambah**: ALT+SHIFT+Insert
+- **Padam**: ALT+SHIFT+Delete
+- **Bergerak ke atas/bawah**: ALT+SHIFT+anak panah Atas/Bawah
+- **Engsot/Engsot keluar**: ALT_SHIFT+anak panah Kiri/Kanan
+- **Kembangkan/Runtuhkan Hierarki**: Alt + Shift +kekunci Tambah/Tolak
 
 ## <a name="task-attributes"></a>Atribut tugas
 
@@ -98,19 +98,19 @@ Nama tugas menerangkan kerja yang mesti dilengkapkan. Dalam PSA, atribut yang be
  
 ### <a name="schedule-attributes"></a>Atribut jadual
 
-Atribut **Usaha** , **Tarikh mula** , **Tarikh tamat** dan **Tempoh** menentukan jadual untuk tugas.
+Atribut **Usaha**, **Tarikh mula**, **Tarikh tamat** dan **Tempoh** menentukan jadual untuk tugas.
 
 Atribut jadual tambahan termasuk:
 
-- **Jam usaha** : Masukkan anggaran jam yang diperlukan untuk melengkapkan tugas. 
-- **Tempoh** : Tentukan bilangan hari kerja yang diperlukan untuk melengkapkan tugas.
-- **ID Jadual** : ID yang dijana secara automatik ini digunakan untuk memesan tugas dalam hierarki. Kebergantungan antara tugas menguruskan pesanan sebenar bagi tugas diusahakan di dalamnya.
+- **Jam usaha**: Masukkan anggaran jam yang diperlukan untuk melengkapkan tugas. 
+- **Tempoh**: Tentukan bilangan hari kerja yang diperlukan untuk melengkapkan tugas.
+- **ID Jadual**: ID yang dijana secara automatik ini digunakan untuk memesan tugas dalam hierarki. Kebergantungan antara tugas menguruskan pesanan sebenar bagi tugas diusahakan di dalamnya.
  
 ### <a name="staffing-attributes"></a>Atribut kakitangan
 
-Atribut kakitangan diakses melalui medan **Sumber** dalam Jadual. Anda boleh sama ada mencari sumber sedia ada atau klik **Cipta** dan dalam anak tetingkap **Cipta Cepat** , tambah ahli pasukan projek sebagai sumber baharu.
+Atribut kakitangan diakses melalui medan **Sumber** dalam Jadual. Anda boleh sama ada mencari sumber sedia ada atau klik **Cipta** dan dalam anak tetingkap **Cipta Cepat**, tambah ahli pasukan projek sebagai sumber baharu.
 
-Medan **Peranan** , **Unit Sumber** dan **Nama Kedudukan** digunakan untuk menerangkan keperluan kakitangan untuk tugas tersebut. Atribut kakitangan ini berserta dengan jadual tugas digunakan untuk mencari sumber tersedia untuk melakukan tugas ini.
+Medan **Peranan**, **Unit Sumber** dan **Nama Kedudukan** digunakan untuk menerangkan keperluan kakitangan untuk tugas tersebut. Atribut kakitangan ini berserta dengan jadual tugas digunakan untuk mencari sumber tersedia untuk melakukan tugas ini.
 
 **Peranan** - Tentukan jenis sumber yang diperlukan untuk melakukan tugas.
 

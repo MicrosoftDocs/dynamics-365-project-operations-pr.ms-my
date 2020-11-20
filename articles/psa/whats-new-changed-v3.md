@@ -2,7 +2,7 @@
 title: Perkara baharu atau berubah dalam Project Service Automation versi 3
 description: Topik ini menyediakan maklumat tentang perkara baharu dan diubah dalam Project Service Automation versi 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081190"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120014"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Perkara baharu atau berubah dalam Project Service Automation versi 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Anggaran telah dibahagikan kepada dua tab, **Tugasan sumber** dan **Anggaran**. 
 
 ![Tab tugasan sumber menunjukkan anggaran usaha dan tugasan sumber untuk tugas](media/resource-assignments-tab-02.png)
 
-Tab **Anggaran** menunjukkan kos dan jumlah jualan untuk tugasan sumber. Jumlah baca sahaja. Penentuan harga pengekosan dan jualan kini didorong oleh tugasan ahli pasukan pada jadual. Ini bermakna jika anda mempunyai tugas tanpa sebarang tugasan, tugas itu akan ditunjukkan di bawah baldi tidak ditugaskan. Ini juga bermakna tanpa **peranan** , yang merupakan dimensi penentuan harga lalai, tiada kos atau jualan anggaran jika anda mempunyai pelanggan atau kontrak/sebut harga yang berkaitan dengan projek. 
+Tab **Anggaran** menunjukkan kos dan jumlah jualan untuk tugasan sumber. Jumlah baca sahaja. Penentuan harga pengekosan dan jualan kini didorong oleh tugasan ahli pasukan pada jadual. Ini bermakna jika anda mempunyai tugas tanpa sebarang tugasan, tugas itu akan ditunjukkan di bawah baldi tidak ditugaskan. Ini juga bermakna tanpa **peranan**, yang merupakan dimensi penentuan harga lalai, tiada kos atau jualan anggaran jika anda mempunyai pelanggan atau kontrak/sebut harga yang berkaitan dengan projek. 
 
 ![Anggaran tab menunjukkan jumlah kos dan jualan](media/estimates-tab-03.png)
   
@@ -158,7 +158,7 @@ Klik **Baharu** dalam reben untuk membuka halaman cipta pantas untuk entri masa 
 Medan carian disokong oleh pandangan sistem. Contohnya, selepas anda memasukkan maklumat projek, medan **Tugas projek** ditetapkan secara lalai kepada pandangan **Tugas projek terbuka saya**. Bagi mencipta entri masa untuk tugas yang tidak ditugaskan kepada pengguna, klik **Ubah pandangan** pada carian dan pilih **Semua tugas projek Aktif**. Selepas entri masa telah dicipta dan ditunjukkan dalam grid, anda boleh mengedit sebarang nilai baris secara langsung dalam grid.  
 
 ### <a name="bulk-createcopy"></a>Cipta/salinan pukal 
-Selepas beberapa kali entri telah dicipta, anda boleh menggunakan fungsi salin untuk mencipta entri masa tambahan. Klik **Salin** untuk membuka dialog **Salin**. Dalam **daripada tempoh: Tarikh Mula** , tetapkan julat tarikh dari tempoh masa yang mesti disalin. Dalam **Hingga Tempoh: Tarikh Mula** , tentukan tarikh untuk entri masa mesti dicipta. Klik **Salin** untuk menyalin entri masa pada hari sama dalam seminggu yang ditunjukkan dalam **Hingga Tempoh**. Contohnya, entri masa Isnin dari minggu lepas akan disalin ke Isnin untuk minggu yang dinyatakan dalam **Hingga Tempoh**. 
+Selepas beberapa kali entri telah dicipta, anda boleh menggunakan fungsi salin untuk mencipta entri masa tambahan. Klik **Salin** untuk membuka dialog **Salin**. Dalam **daripada tempoh: Tarikh Mula**, tetapkan julat tarikh dari tempoh masa yang mesti disalin. Dalam **Hingga Tempoh: Tarikh Mula**, tentukan tarikh untuk entri masa mesti dicipta. Klik **Salin** untuk menyalin entri masa pada hari sama dalam seminggu yang ditunjukkan dalam **Hingga Tempoh**. Contohnya, entri masa Isnin dari minggu lepas akan disalin ke Isnin untuk minggu yang dinyatakan dalam **Hingga Tempoh**. 
 
 ![Salin entri masa dalam pukal](media/bulk-copy-time-entry-09.png)
  
@@ -192,11 +192,11 @@ Platform Common Data Service tidak menyokong seorang pengguna menyamar sebagai p
 Penyesuaian membenarkan anda menambah **Sumber boleh ditempah** untuk mencipta dan mengedit pengalaman, yang akan membenarkan pengguna bertindak sebagai wakil dengan mengubah medan **Sumber boleh ditempah** kepada pengguna lain yang entri masa dan perbelanjaan perlu direkodkan. Langkah-langkah berikut meliputi perwakilan entri masa. Maklumat sama digunakan ke atas perbelanjaan perwakilan entri. 
  
 1.  Pastikan bahawa pengguna yang diwakilkan mempunyai akses keselamatan global ke atas projek dan tugas projek. 
-1.  Oleh sebab medan **Sumber boleh ditempah** pada entiti **Entri masa** tidak didedahkan pada halaman **Cipta pantas** , anda perlu menambahkannya.
+1.  Oleh sebab medan **Sumber boleh ditempah** pada entiti **Entri masa** tidak didedahkan pada halaman **Cipta pantas**, anda perlu menambahkannya.
 
     -atau-
 
-    Cipta pandangan tersuai, yang termasuk lajur **Sumber boleh ditempah** , untuk melihat hanya entri masa yang dicipta untuk sumber. Terbitkan penyesuaian pada pereka bentuk modul aplikasi untuk pandangan ini ditunjukkan di bawah **Lihat pemilih** pada halaman **Entri masa**. Terdapat dua pasang masuk yang mengendalikan tetapan pengurus untuk entri masa bukan projek:
+    Cipta pandangan tersuai, yang termasuk lajur **Sumber boleh ditempah**, untuk melihat hanya entri masa yang dicipta untuk sumber. Terbitkan penyesuaian pada pereka bentuk modul aplikasi untuk pandangan ini ditunjukkan di bawah **Lihat pemilih** pada halaman **Entri masa**. Terdapat dua pasang masuk yang mengendalikan tetapan pengurus untuk entri masa bukan projek:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate

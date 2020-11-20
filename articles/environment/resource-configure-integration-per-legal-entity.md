@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096763"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122894"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurasikan integrasi Operasi Projek setiap entiti sah 
 
@@ -26,7 +26,7 @@ Topik ini membimbing anda melalui langkah-langkah yang diperlukan untuk mengkonf
 Lengkapkan langkah-langkah berikut untuk mendayakan ciri yang diperlukan.
 
 1. Dalam Dynamics 365 Finance, pergi ke ruang kerja **Pengurusan Ciri**.
-2. Dalam **Senarai ciri** , cari dan dayakan ciri berikut:
+2. Dalam **Senarai ciri**, cari dan dayakan ciri berikut:
   
     - **Dayakan berbilang baris kontrak untuk projek**
     - **Dayakan Operasi Projek pada Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Anda boleh mendayakan Operasi Projek pada Dynamics 365 Customer Engagement pada 
 
 Setiap entiti sah yang menggunakan Operasi Projek pada Dynamics 365 Customer Engagement memerlukan set parameter lalai. Parameter ini dikonfigurasikan pada tab **Operasi Projek** pada halaman **Parameter pengurusan projek dan perakaunan**. Parameter ialah:
 
-  - **Jenis pengebilan lalai** : Operasi Projek menggunakan set tetap jenis pengebilan lalai yang mesti dipetakan kepada sifat baris Kewangan. Cipta rekod untuk setiap jenis pengebilan: **Tidak ditentukan** , **Boleh caj** , **Tidak boleh caj** , **Percuma** dan **Tidak tersedia**.
-  - **Kategori projek lalai** : Pilih kategori projek lalai yang akan digunakan untuk setiap jenis transaksi. Kategori lalai ini akan digunakan dalam **Jurnal Integrasi Operasi Projek** dan dalam anggaran yang mana tiada kategori transaksi ditentukan untuk projek sebenar.
+  - **Jenis pengebilan lalai**: Operasi Projek menggunakan set tetap jenis pengebilan lalai yang mesti dipetakan kepada sifat baris Kewangan. Cipta rekod untuk setiap jenis pengebilan: **Tidak ditentukan**, **Boleh caj**, **Tidak boleh caj**, **Percuma** dan **Tidak tersedia**.
+  - **Kategori projek lalai**: Pilih kategori projek lalai yang akan digunakan untuk setiap jenis transaksi. Kategori lalai ini akan digunakan dalam **Jurnal Integrasi Operasi Projek** dan dalam anggaran yang mana tiada kategori transaksi ditentukan untuk projek sebenar.
   - **Ramalan** : Pilih model ramalan untuk digunakan bagi anggaran masa dan perbelanjaan.

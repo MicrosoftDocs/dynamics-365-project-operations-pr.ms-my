@@ -2,7 +2,7 @@
 title: Bagaimanakah saya menyesuaikan aliran proses perniagaan Project Stages?
 description: Gambaran keseluruhan tentang cara menyesuaikan aliran proses perniagaan Peringkat Projek.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081414"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125054"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Bagaimanakah saya menyesuaikan aliran proses perniagaan Project Stages?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Terdapat pengehadan yang diketahui dalam versi awal aplikasi Project Service yang nama peringkat dalam aliran proses perniagaan Project Stages mesti betul-betul sepadan dengan nama Bahasa Inggeris yang dijangka ( **Quote** , **Plan** , **Close** ). Jika tidak, logik perniagaan, yang bergantung pada nama peringkat bahasa Inggeris, tidak berfungsi seperti yang diharapkan. Itulah sebabnya anda tidak melihat tindakan biasa seperti **Tukar Proses** atau **Edit Proses** tersedia pada borang projek dan menyesuaikan aliran proses perniagaan adalah tidak digalakkan. 
+Terdapat pengehadan yang diketahui dalam versi awal aplikasi Project Service yang nama peringkat dalam aliran proses perniagaan Project Stages mesti betul-betul sepadan dengan nama Bahasa Inggeris yang dijangka (**Quote**, **Plan**, **Close**). Jika tidak, logik perniagaan, yang bergantung pada nama peringkat bahasa Inggeris, tidak berfungsi seperti yang diharapkan. Itulah sebabnya anda tidak melihat tindakan biasa seperti **Tukar Proses** atau **Edit Proses** tersedia pada borang projek dan menyesuaikan aliran proses perniagaan adalah tidak digalakkan. 
 
 Had ini telah ditangani dalam versi 2.4.5.48 dan kemudian. Artikel ini menyediakan penyelesaian sementara yang dicadangkan jika anda perlu menyesuaikan aliran proses perniagaan lalai untuk versi terdahulu.  
 
@@ -38,7 +38,7 @@ Had ini telah ditangani dalam versi 2.4.5.48 dan kemudian. Artikel ini menyediak
 Aliran proses perniagaan Project Stages termasuk logik perniagaan yang mendorong tingkah laku yang berikut dalam aplikasi:
 - Apabila projek dikaitkan dengan sebut harga, kod ini menetapkan aliran proses perniagaan kepada peringkat **Quote**.
 - Apabila projek dikaitkan dengan kontrak, kod ini menetapkan aliran proses perniagaan kepada peringkat **Plan**.
-- Apabila aliran proses perniagaan maju ke peringkat **Close** , rekod projek dinyahaktifkan. Apabila projek dinyahaktifkan, borang projek dan struktur pecahan kerja (WBS) ditetapkan kepada baca sahaja, tempahan sumber yang dinamakan dikeluarkan dan sebarang senarai harga yang berkaitan dinyahaktifkan.
+- Apabila aliran proses perniagaan maju ke peringkat **Close**, rekod projek dinyahaktifkan. Apabila projek dinyahaktifkan, borang projek dan struktur pecahan kerja (WBS) ditetapkan kepada baca sahaja, tempahan sumber yang dinamakan dikeluarkan dan sebarang senarai harga yang berkaitan dinyahaktifkan.
 
 Logik perniagaan ini bergantung pada nama Bahasa Inggeris untuk peringkat projek. Pergantungan pada nama Bahasa Inggeris peringkat ini adalah sebab utama penyesuaian aliran proses perniagaan Project Stages tidak digalakkan, serta sebab anda tidak dapat melihat tindakan aliran proses perniagaan biasa seperti **Tukar Proses** atau **Edit Proses** pada entiti projek.
 
@@ -48,7 +48,7 @@ Dalam aplikasi Project Service versi 1.x pada platform 8.2, apabila nama peringk
 
 Dalam versi aplikasi Project Service 2.4.4.30 atau lebih awal pada platform 9.0, terdapat perubahan seni bina yang ketara kepada aliran proses perniagaan yang memerlukan logik perniagaan aliran proses perniagaan ditulis semula. Akibatnya, jika nama peringkat proses tidak sepadan dengan nama Bahasa Inggeris yang dijangkakan, anda akan menerima mesej ralat. 
 
-Oleh itu, jika anda mahu untuk menyesuaikan aliran proses perniagaan Project Stages bagi entiti projek, anda hanya boleh menambah peringkat baru kepada aliran proses perniagaan lalai bagi entiti projek, sambil mengekalkan peringkat **Quote** , **Plan** dan **Close** seadanya. Pengehadan ini memastikan yang anda tidak mendapat ralat daripada logik perniagaan yang menjangkakan nama Bahasa Inggeris peringkat dalam aliran proses perniagaan.
+Oleh itu, jika anda mahu untuk menyesuaikan aliran proses perniagaan Project Stages bagi entiti projek, anda hanya boleh menambah peringkat baru kepada aliran proses perniagaan lalai bagi entiti projek, sambil mengekalkan peringkat **Quote**, **Plan** dan **Close** seadanya. Pengehadan ini memastikan yang anda tidak mendapat ralat daripada logik perniagaan yang menjangkakan nama Bahasa Inggeris peringkat dalam aliran proses perniagaan.
 
 Dalam versi 2.4.5.48 atau kemudian, logik perniagaan yang diterangkan dalam artikel ini telah dikeluarkan dari aliran proses perniagaan lalai bagi entiti projek. Menaik taraf kepada versi itu atau kemudian akan membolehkan anda menyesuaikan atau menggantikan aliran proses perniagaan lalai dengan salah satu daripada aliran proses perniagaan anda sendiri. 
 
@@ -56,12 +56,12 @@ Dalam versi 2.4.5.48 atau kemudian, logik perniagaan yang diterangkan dalam arti
 
 Jika menaik taraf bukan satu pilihan, anda boleh menyesuaikan aliran proses perniagaan Project Stages bagi entiti projek dalam satu daripada dua cara ini:
 
-1. Tambah peringkat tambahan kepada konfigurasi lalai, sementara mengekalkan nama Bahasa Inggeris peringkat untuk **Quote** , **Plan** dan **Close**.
+1. Tambah peringkat tambahan kepada konfigurasi lalai, sementara mengekalkan nama Bahasa Inggeris peringkat untuk **Quote**, **Plan** dan **Close**.
 
 
 ![Tangkap layar bagi penambahan peringkat kepada konfigurasi lalai](media/FAQ-Customize-BPF-1.png)
  
-2. Cipta aliran proses perniagaan anda sendiri dan jadikannya aliran proses perniagaan utama bagi entiti projek yang membolehkan anda mempunyai sebarang nama peringkat yang anda inginkan. Walau bagaimanapun, jika anda mahu menggunakan standard peringkat projek **Quote** , **Plan** dan **Close** yang sama, anda perlu melakukan beberapa penyesuaian yang memaksa keluar nama peringkat tersuai anda. Logik yang lebih kompleks adalah dalam penutupan projek, yang anda masih boleh cetuskan dengan hanya menyahaktifkan rekod projek.
+2. Cipta aliran proses perniagaan anda sendiri dan jadikannya aliran proses perniagaan utama bagi entiti projek yang membolehkan anda mempunyai sebarang nama peringkat yang anda inginkan. Walau bagaimanapun, jika anda mahu menggunakan standard peringkat projek **Quote**, **Plan** dan **Close** yang sama, anda perlu melakukan beberapa penyesuaian yang memaksa keluar nama peringkat tersuai anda. Logik yang lebih kompleks adalah dalam penutupan projek, yang anda masih boleh cetuskan dengan hanya menyahaktifkan rekod projek.
 
 ![Penyesuaian BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Untuk mencipta aliran proses perniagaan anda sendiri bagi entiti projek, lakukan
 
   ![Cipta proses](media/FAQ-Customize-BPF-3.png)
 
-2. Gunakan Pereka Proses untuk mencipta nama peringkat yang anda inginkan. Jika anda mahu fungsi yang sama sebagai peringkat lalai untuk **Quote** , **Plan** dan **Close** , anda perlu mencipta fungsi itu berdasarkan nama peringkat aliran proses perniagaan tersuai anda.
+2. Gunakan Pereka Proses untuk mencipta nama peringkat yang anda inginkan. Jika anda mahu fungsi yang sama sebagai peringkat lalai untuk **Quote**, **Plan** dan **Close**, anda perlu mencipta fungsi itu berdasarkan nama peringkat aliran proses perniagaan tersuai anda.
 
    ![Tangkap layar Pereka Proses yang digunakan untuk menyesuaikan BPF](media/FAQ-Customize-BPF-4.png) 
 

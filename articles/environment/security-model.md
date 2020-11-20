@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081113"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124379"
 ---
 # <a name="security-model"></a>Model Keselamatan
 
@@ -56,7 +56,7 @@ Kumpulan membenarkan keizinan projek dan artifak kerjasama sokongan untuk dilaku
 
 Project Operations tidak mencipta kumpulan melalui tindakan tersirat dan hanya berbuat demikian melalui tindakan yang jelas dalam kumpulan yang mendesak.
 
-Ahli kumpulan carian dalam dialog **Pengurusan kumpulan** , adalah terhad kepada mereka yang ditetapkan sebagai sebahagian daripada kumpulan keselamatan persekitaran. Untuk mendapatkan maklumat lanjut, lihat [Kawal akses pengguna kepada persekitaran: kumpulan keselamatan dan lesen](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Ahli kumpulan carian dalam dialog **Pengurusan kumpulan**, adalah terhad kepada mereka yang ditetapkan sebagai sebahagian daripada kumpulan keselamatan persekitaran. Untuk mendapatkan maklumat lanjut, lihat [Kawal akses pengguna kepada persekitaran: kumpulan keselamatan dan lesen](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
 ![Mod kumpulan](./media/groupsmode.png)
 

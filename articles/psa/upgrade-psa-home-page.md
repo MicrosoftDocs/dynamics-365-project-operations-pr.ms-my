@@ -2,7 +2,7 @@
 title: Naik taraf laman utama
 description: Topik ini menunjukkan di mana untuk mencari maklumat penting mengenai ciri baharu dan diubah dalam Dynamics 365 Project Service Automation dan proses untuk menaik taraf kepada versi terbaharu.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081309"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121769"
 ---
 # <a name="upgrade-home-page"></a>Naik taraf laman utama
 
@@ -61,4 +61,4 @@ Pada 17 Mei, 2019, semua tika baru akan mempunyai UCI sebagai klien lalai. Untuk
 Mulai 1 Mac 2020, pelanggan Dynamics PSA tidak lagi akan dapat mencipta persekitaran baharu dengan versi PSA yang lebih lama, contohnya PSA versi 2.x atau lebih rendah. Sebarang persekitaran baharu akan hanya mendapat versi 3.x PSA.
 
 > [!NOTE]
-> Untuk pengalaman terbaik apabila anda menggunakan versi lebih lama daripada Field Service dan aplikasi PSA, pergi ke halaman **Tetapan sistem** dan untuk medan **Gunakan medan baru Antara Muka Disatukan hanya (disyorkan)** , pilih **Tidak** sebagai versi ini tidak direka untuk dimuatkan dengan betul dalam UCI. Selepas anda memadamkan UCI, anda boleh buka dan jalankan versi Field Service ini dan PSA dengan menggunakan klien web lama. 
+> Untuk pengalaman terbaik apabila anda menggunakan versi lebih lama daripada Field Service dan aplikasi PSA, pergi ke halaman **Tetapan sistem** dan untuk medan **Gunakan medan baru Antara Muka Disatukan hanya (disyorkan)**, pilih **Tidak** sebagai versi ini tidak direka untuk dimuatkan dengan betul dalam UCI. Selepas anda memadamkan UCI, anda boleh buka dan jalankan versi Field Service ini dan PSA dengan menggunakan klien web lama. 

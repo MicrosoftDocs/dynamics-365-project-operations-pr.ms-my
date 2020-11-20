@@ -3,7 +3,7 @@ title: Model kemahiran dan kecekapan
 description: Topik ini memberikan maklumat mengenai cara untuk menggunakan model kemahiran dan kecekapan.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081448"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124199"
 ---
 # <a name="skills-and-proficiency-models"></a>Model kemahiran dan kecekapan
 
@@ -41,8 +41,8 @@ Kemahiran untuk sumber dinilai oleh model kecekapan. Pengkadaran individu dalam 
 
 1. Untuk mencipta model kecekapan, pergi ke **Sumber** \> **Model Kecekapan** dan kemudian pilih **Baharu**.
 2. Dalam model pengkadaran baharu, tentukan nilai penarafan minimum, nilai penarafan maksimum dan entiti yang akan dikadarkan.
-3. Dalam sub grid **Nilai Pengkadaran** anda boleh mentakrifkan nilai penarafan yang berbeza, daripada minimum kepada maksimum.
+3. Dalam subgrid **Nilai Rating**, anda boleh mentakrifkan nilai rating yang berbeza, daripada minimum kepada maksimum.
 
 > ![Pengkadaran minimum dan maksimum ditakrifkan](media/Resource-Management-image85.png)
 
-Nilai pengkadaran ini ditunjukkan pada **Keperluan Sumber** , **Papan Jadual** dan penapis **Pembantu Jadual**.
+Nilai pengkadaran ini ditunjukkan pada **Keperluan Sumber**, **Papan Jadual** dan penapis **Pembantu Jadual**.

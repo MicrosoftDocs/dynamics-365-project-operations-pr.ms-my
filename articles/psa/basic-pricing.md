@@ -3,7 +3,7 @@ title: Penetapan harga projek
 description: Topik ini menyediakan maklumat mengenai cara penetapan harga berfungsi dalam Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081425"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120779"
 ---
 # <a name="project-pricing"></a>Penetapan harga projek 
 
@@ -56,7 +56,7 @@ Istilah *peranan sumber* merujuk kepada set kemahiran, kecekapan dan pensijilan 
 
 Masa sumber manusia biasanya dipetik berdasarkan peranan bahawa sumber mengisi projek tertentu. Untuk masa sumber manusia, PSA menyokong kos dan pengebilan berdasarkan peranan sumber. Masa boleh ditetapkan harga dalam mana-mana unit dalam kumpulan unit **Masa**.
 
-Kumpulan unit **Masa** dicipta apabila PSA dipasang. Ia mempunyai unit **Jam** lalai. Anda tidak boleh memadamkan, menamakan semula atau mengedit atribut dalam unit kumpulan **Masa** atau unit **Jam**. Walau bagaimanapun, anda boleh menambah unit lain kepada kumpulan unit **Masa**. Jika anda cuba untuk memadam sama ada kumpulan unit **Masa** atau unit **Jam** , anda mungkin menyebabkan kegagalan dalam logik perniagaan PSA.
+Kumpulan unit **Masa** dicipta apabila PSA dipasang. Ia mempunyai unit **Jam** lalai. Anda tidak boleh memadamkan, menamakan semula atau mengedit atribut dalam unit kumpulan **Masa** atau unit **Jam**. Walau bagaimanapun, anda boleh menambah unit lain kepada kumpulan unit **Masa**. Jika anda cuba untuk memadam sama ada kumpulan unit **Masa** atau unit **Jam**, anda mungkin menyebabkan kegagalan dalam logik perniagaan PSA.
 
 > ![Mengkonfigurasi harga mengikut peranan](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ Dalam PSA, anda boleh membuat menggantikan urusan khusus untuk harga terpilih pa
 
 Secara lalai, kontrak projek sentiasa mendapat salinan senarai harga jualan indukr dan bukannya pautan langsung kepadanya. Tingkah laku ini membantu menjamin bahawa perjanjian harga yang dibuat dengan pelanggan untuk pernyataan kerja (SOW) tidak berubah jika senarai harga induk ditukar.
 
-Walau bagaimanapun, pada sebut harga, anda boleh menggunakan senarai harga induk. Sebagai alternatif, anda boleh menyalin senarai harga induk dan mengeditnya untuk mencipta senarai harga tersuai yang digunakan hanya untuk sebut harga tersebut. Untuk mencipta senarai harga baharu yang khusus untuk sebut harga, pada halaman **Sebut Harga** , pilih **Cipta penetapan harga tersuai**. Anda boleh mengakses senarai harga projek khusus urusan hanya daripada sebut harga. 
+Walau bagaimanapun, pada sebut harga, anda boleh menggunakan senarai harga induk. Sebagai alternatif, anda boleh menyalin senarai harga induk dan mengeditnya untuk mencipta senarai harga tersuai yang digunakan hanya untuk sebut harga tersebut. Untuk mencipta senarai harga baharu yang khusus untuk sebut harga, pada halaman **Sebut Harga**, pilih **Cipta penetapan harga tersuai**. Anda boleh mengakses senarai harga projek khusus urusan hanya daripada sebut harga. 
 
 Apabila anda mencipta senarai harga projek tersuai, hanya komponen projek senarai harga yang disalin. Dalam erti kata lain, senarai harga baharu yang dicipta sebagai salinan senarai harga projek sedia ada yang dilampirkan pada sebut harga, dan senarai harga baru ini hanya mengandungi harga peranan dan harga kategori transaksi yang berkaitan.
 

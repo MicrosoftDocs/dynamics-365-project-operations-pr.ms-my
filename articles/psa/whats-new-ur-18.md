@@ -3,7 +3,7 @@ title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Auto
 description: Topik ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation 18, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081182"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119879"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation, Keluaran Kemas kini 18, V3
 
@@ -36,7 +36,7 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Projec
 
 **Masa dan Perbelanjaan**
 
-- Dibaiki: Aliran **Ingat semula** , **Minta** dan **Batalkan Kelulusan** menghasilkan pengecualian dengan mesej ralat tidak jelas.
+- Dibaiki: Aliran **Ingat semula**, **Minta** dan **Batalkan Kelulusan** menghasilkan pengecualian dengan mesej ralat tidak jelas.
 - Dibaiki: Apabila **Batal Kelulusan** gagal untuk perbelanjaan, ralat pengecualian yang berkaitan tidak dibuang.
 - Dibaiki: Grid Entri Masa secara salah mengendalikan hari tidak bekerja di Australia selepas pertukaran waktu penjimatan siang (DST) pada bulan Oktober.
 - Dibaiki: Logik lalai yang salah menghalang penghantaran perbelanjaan.
@@ -60,4 +60,4 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Projec
 
 **Sales**
 
-- Dibaiki: Apabila entri masa telah diluluskan semula ( **Lulus > Batal >** lulus semula), pendua sebenar tidak boleh dikenakan bayaran dibuat.
+- Dibaiki: Apabila entri masa telah diluluskan semula (**Lulus > Batal >** lulus semula), pendua sebenar tidak boleh dikenakan bayaran dibuat.

@@ -3,7 +3,7 @@ title: Panduan masa dan perbelanjaan dan kerjasama
 description: Panduan kepada masa, perbelanjaan dan kerjasama untuk Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081317"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120059"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Panduan masa, perbelanjaan dan kerjasama (Project Service)
 

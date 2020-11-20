@@ -3,7 +3,7 @@ title: Cipta tempahan projek daripada papan Jadual
 description: Topik ini memberikan maklumat tentang cara mencipta tempahan projek daripada papan jadual.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081245"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122309"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Cipta tempahan projek daripada papan Jadual
 
@@ -79,9 +79,9 @@ Mencipta projek dalam Project Service secara automatik mencipta keperluan sumber
 ## <a name="book-from-a-new-resource-requirement"></a>Tempah daripada keperluan sumber baharu.
 Lengkapkan langkah-langkah berikut untuk menempah daripada keperluan sumber baharu. 
 
-1. Pergi ke **Keperluan Sumber** , kemudian pilih **Baharu** untuk mencipta keperluan sumber baharu.
+1. Pergi ke **Keperluan Sumber**, kemudian pilih **Baharu** untuk mencipta keperluan sumber baharu.
 
-2. Pada tab **Projek** , pilih projek untuk mengaitkan keperluan dengan projek.
+2. Pada tab **Projek**, pilih projek untuk mengaitkan keperluan dengan projek.
  
     Pada papan Jadual, keperluan baharu ini ditunjukkan sebagai **Keperluan Terbuka** yang anda boleh isi.
 

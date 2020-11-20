@@ -3,7 +3,7 @@ title: Bekerja dengan model data Project Service Automation
 description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan model data.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081413"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120284"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation melangkaui entiti aplikasi lain dan memp
 
 ## <a name="reporting-on-opportunities"></a>Pelaporan berkenaan peluang
 
-Project Service Automation melanjutkan entiti **Peluang** Dynamics 365 Sales dengan menambah medan yang mendayakan senario berasaskan projek. Medan ini dikenal pasti oleh nama skema dengan awalan **msdyn.\_**. Satu medan baharu yang penting untuk pelaporan berkenaan peluang PSA ialah **Jenis Pesanan**. Nilai **Berdasarkan Kerja** untuk medan ini menunjukkan yang peluang tersebut ialah peluang PSA. Medan lain yang telah ditambah pada entiti tersebut termasuk **Organisasi Kontrak** , yang merekodkan organisasi yang memegang peluang tersebut dan **Pengurus Akaun** , yang merekodkan nama pengurus akaun yang bertanggungjawab bagi peluang tersebut.
+Project Service Automation melanjutkan entiti **Peluang** Dynamics 365 Sales dengan menambah medan yang mendayakan senario berasaskan projek. Medan ini dikenal pasti oleh nama skema dengan awalan **msdyn.\_**. Satu medan baharu yang penting untuk pelaporan berkenaan peluang PSA ialah **Jenis Pesanan**. Nilai **Berdasarkan Kerja** untuk medan ini menunjukkan yang peluang tersebut ialah peluang PSA. Medan lain yang telah ditambah pada entiti tersebut termasuk **Organisasi Kontrak**, yang merekodkan organisasi yang memegang peluang tersebut dan **Pengurus Akaun**, yang merekodkan nama pengurus akaun yang bertanggungjawab bagi peluang tersebut.
 
 Entiti **Baris Peluang** juga termasuk medan yang berkaitan dengan Project Service. **Kaedah Pengebilan** menunjukkan sama ada baris peluang harus dibilkan berdasarkan masa dan bahan atau berdasarkan harga tetap, dan **Projek** merekodkan nama projek yang menyokong peluang tersebut. Medan lain yang boleh anda laporkan merekodkan jumlah kos dan belanjawan pelanggan untuk item baris.
 
 ## <a name="reporting-on-quotes"></a>Pelaporan berkenaan sebut harga
 
-PSA melanjutkan entiti **Sebut Harga** Jualan dengan menambah medan berkaitan projek. **Jenis Pesanan** membezakan sebut harga PSA daripada sebut harga bukan PSA. Nilai **Berdasarkan Kerja** untuk medan ini menunjukkan yang sebut harga tersebut ialah sebut harga PSA. Medan lain yang mungkin berkaitan dengan laporan berkenaan sebut harga PSA termasuk medan jumlah, seperti **Kos Boleh Dituntut** , **Kos Tidak Boleh Dituntut** , **Margin Kasar** , **Anggaran** dan **Belanjawan**. Lain-lain medan berguna menunjukkan sama ada sebut harga menguntungkan, sama ada ia akan diselesaikan mengikut jadual dan sama ada ia memenuhi jangkaan belanjawan pelanggan.
+PSA melanjutkan entiti **Sebut Harga** Jualan dengan menambah medan berkaitan projek. **Jenis Pesanan** membezakan sebut harga PSA daripada sebut harga bukan PSA. Nilai **Berdasarkan Kerja** untuk medan ini menunjukkan yang sebut harga tersebut ialah sebut harga PSA. Medan lain yang mungkin berkaitan dengan laporan berkenaan sebut harga PSA termasuk medan jumlah, seperti **Kos Boleh Dituntut**, **Kos Tidak Boleh Dituntut**, **Margin Kasar**, **Anggaran** dan **Belanjawan**. Lain-lain medan berguna menunjukkan sama ada sebut harga menguntungkan, sama ada ia akan diselesaikan mengikut jadual dan sama ada ia memenuhi jangkaan belanjawan pelanggan.
 
-PSA juga melanjutkan entiti **Baris Sebut Harga** Jualan. Satu medan yang PSA tambah ialah **Kaedah Pengebilan** , yang menunjukkan cara baris sebut harga akan dibilkan (masa dan bahan atau harga tetap). Medan lain yang telah ditambah pada entiti merekodkan projek berkaitan yang menyokong baris sebut harga, invois, kos dan bajet.
+PSA juga melanjutkan entiti **Baris Sebut Harga** Jualan. Satu medan yang PSA tambah ialah **Kaedah Pengebilan**, yang menunjukkan cara baris sebut harga akan dibilkan (masa dan bahan atau harga tetap). Medan lain yang telah ditambah pada entiti merekodkan projek berkaitan yang menyokong baris sebut harga, invois, kos dan bajet.
 
 PSA juga menambah entiti berkaitan sebut harga baharu kepada model data Dynamics 365. Berikut adalah beberapa contoh:
 
@@ -50,13 +50,13 @@ PSA juga menambah entiti berkaitan sebut harga baharu kepada model data Dynamics
 - **Pencapaian Baris Sebut Harga** – Entiti ini mengandungi pencapaian pengebilan untuk baris sebut harga tetap.
 - **Pecahan Analisis Baris Sebut Harga** – Entiti ini mengandungi butiran kewangan bagi baris sebut harga. Butiran ini boleh berguna untuk melaporkan jualan sebut harga dan anggaran jumlah kos oleh pelbagai dimensi.
 
-Entiti lain yang PSA tambah kepada sebut harga ialah **Senarai Projek Baris Sebut Harga** , **Kategori Sumber Baris Sebut Harga** dan **Kategori Transaksi Baris Sebut Harga**.
+Entiti lain yang PSA tambah kepada sebut harga ialah **Senarai Projek Baris Sebut Harga**, **Kategori Sumber Baris Sebut Harga** dan **Kategori Transaksi Baris Sebut Harga**.
 
 ![Gambarajah menunjukkan sebut harga, baris sebut harga dan perhubungan projek](media/PS-Reporting-image2.png "Gambarajah menunjukkan sebut harga, baris sebut harga dan perhubungan projek")
 
 ## <a name="reporting-on-project-contracts"></a>Pelaporan berkenaan kontrak projek
 
-PSA melanjutkan entiti **Pesanan** Jualan yang digunakan apabila kontrak projek direkodkan. Ia menambah medan baharu yang penting, **Jenis Pesanan** , yang mengenal pasti kontrak sebagai kontrak projek PSA bukan pesanan jualan. Nilai **Berdasarkan Kerja** untuk medan ini menunjukkan yang pesanan tersebut ialah kontrak projek PSA. Medan baharu lain yang ditambahkan pada entiti **Pesanan** merekodkan butiran tentang kos, status kontrak PSA dan organisasi yang memiliki kontrak tersebut.
+PSA melanjutkan entiti **Pesanan** Jualan yang digunakan apabila kontrak projek direkodkan. Ia menambah medan baharu yang penting, **Jenis Pesanan**, yang mengenal pasti kontrak sebagai kontrak projek PSA bukan pesanan jualan. Nilai **Berdasarkan Kerja** untuk medan ini menunjukkan yang pesanan tersebut ialah kontrak projek PSA. Medan baharu lain yang ditambahkan pada entiti **Pesanan** merekodkan butiran tentang kos, status kontrak PSA dan organisasi yang memiliki kontrak tersebut.
 
 PSA juga melanjutkan entiti **Baris Pesanan Jualan**. Antara medan yang ditambah ialah medan yang merekodkan kaedah pengebilan (masa dan bahan atau harga tetap), jumlah belanjawan pelanggan, dan projek dasar.
 
@@ -66,7 +66,7 @@ PSA juga menambah entiti baharu yang direka bentuk untuk kontrak projek. Berikut
 - **Jadual Invois Baris Kontrak** – Entiti ini mengandungi jadual pengebilan yang dijana berdasarkan kekerapan invois yang ditugaskan kepada baris kontrak.
 - **Pencapaian Kontrak** – Entiti ini mengandungi pencapaian pengebilan untuk baris kontrak yang mempunyai tempoh pengebilan harga tetap.
 
-Entiti lain yang PSA tambah kepada kontrak ialah **Senarai Harga Projek Baris Kontrak Projek** , **Kategori Sumber Baris Kontrak Projek** dan **Kategori Transaksi Baris Kontrak Projek**.
+Entiti lain yang PSA tambah kepada kontrak ialah **Senarai Harga Projek Baris Kontrak Projek**, **Kategori Sumber Baris Kontrak Projek** dan **Kategori Transaksi Baris Kontrak Projek**.
 
 ![Gambarajah menunjukkan pesanan, baris pesanan dan perhubungan projek](media/PS-Reporting-image3.png "Gambarajah menunjukkan pesanan, baris pesanan dan perhubungan projek")
 
@@ -97,7 +97,7 @@ Sumber projek menggunakan entiti **Sumber boleh ditempah** dari Universal Resour
 
 Apabila anda meluluskan satu lembar masa atau perbelanjaan, atau menginvoiskan kontrak dalam PSA, transaksi perniagaan direkodkan dalam entiti **Aktual**. Entiti ini boleh berfungsi sebagai asas bagi hampir semua laporan berkaitan kewangan dalam PSA. Entiti **Aktual** merekodkan transaksi kos dan jualan bagi peristiwa perniagaan. Ia juga merekodkan banyak atribut yang berkaitan.
 
-Apabila anda bekerja dengan entiti **Aktual** , adalah penting anda untuk memahami transaksi atau transaksi-transaksi yang direkodkan dalam entiti dan masa transaksi direkodkan. Berikut ialah aliran biasa apabila anda bekerja dengan entri masa (aliran untuk entri perbelanjaan adalah serupa):
+Apabila anda bekerja dengan entiti **Aktual**, adalah penting anda untuk memahami transaksi atau transaksi-transaksi yang direkodkan dalam entiti dan masa transaksi direkodkan. Berikut ialah aliran biasa apabila anda bekerja dengan entri masa (aliran untuk entri perbelanjaan adalah serupa):
 
 1. Apabila entri masa disimpan, tiada rekod dicipta dalam entiti **Aktual**.
 2. Apabila entri masa diserahkan, tiada rekod dicipta dalam entiti **Aktual**.

@@ -3,7 +3,7 @@ title: Bagaimanakah saya "menempah sementara" sumber dalam versi aplikasi 2.x?
 description: Artikel ini menghuraikan cara menempah sementara ahli pasukan projek dengan Project Service.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9e5d1c91f8ea98117583996552c2f2834be9c537
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a35799b422fa338c2666e1b2aa11bc2a54f5cce3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081251"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122264"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Bagaimanakah saya "menempah sementara" sumber dalam aplikasi web (aplikasi Project Service v2.x)?
 

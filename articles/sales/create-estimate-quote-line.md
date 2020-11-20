@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081256"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122939"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Cipta anggaran pada baris sebut harga
 
@@ -80,11 +80,11 @@ Gunakan jadual berikut sebagai panduan untuk memahami logik perniagaan dalam fas
 Jika anda menambah medan tersuai pada butiran baris sebut harga dan mahu sistem memasukkan nilai medan sebagai nilai lalai pada baris kos berkaitan yang dicipta, gunakan alat pendaftaran pasang masuk PreOperationContractLineDetailUpdate dan PreOperationQuoteLineDetailUpdate. Pasang masuk ini mestilah didaftarkan selepas butiran baris sebut harga atau butiran baris kontrak diubah. Ikuti langkah-langkah ini untuk menyelesaikan proses.
 
 1. Buka Alat Pendaftaran Pasang Masuk, dan sambungkan ke tika dalam talian anda.
-2. Pilih **Cari** , dan cari pasang masuk untuk kemas kini.
+2. Pilih **Cari**, dan cari pasang masuk untuk kemas kini.
 3. Pilih pasang masuk, kemudian pada halaman utama, pilih **Pilih**.
 4. Pilih langkah pasang masuk untuk kemas kini, klik kanan, kemudian pilih **Kemas Kini**.
-5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada** , dalam medan **Menapis Atribut** , pilih butang elipsis ( **...** ):
-6. Dalam kotak dialog **Pilih Atribut** , pilih kotak semak untuk atribut tersuai.
+5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada**, dalam medan **Menapis Atribut**, pilih butang elipsis (**...**):
+6. Dalam kotak dialog **Pilih Atribut**, pilih kotak semak untuk atribut tersuai.
 7. Pilih **OK** untuk menutup kotak dialog, kemudian pilih **Kemas Kini Langkah**.
 8. Ulangan langkah 1 hingga 7 untuk pasang masuk kedua.
 9. Tutup Alat Pendaftaran Pasang Masuk.

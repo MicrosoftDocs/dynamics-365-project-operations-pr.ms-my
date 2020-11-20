@@ -3,7 +3,7 @@ title: Gunakan Papan Jadual untuk menempah sumber projek
 description: Topik ini memberikan maklumat tentang cara untuk menempah sumber.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081450"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120239"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Gunakan Papan Jadual untuk menempah sumber projek
 
@@ -32,7 +32,7 @@ Selain daripada menempah sumber pada projek dari dalam projek, anda boleh membuk
 Sebelum anda boleh menempah daripada papan Jadual, anda mesti mencipta atau menjana keperluan sumber. Ikuti langkah ini untuk mencipta keperluan sumber daripada Papan Jadual.
 
 1. Jika anak tetingkap **Keperluan Penempahan** pada bahagian bawah halaman runtuh, pilih kawalan Bar yang ada untuk mengembangkan.
-2. Dalam anak tetingkap **Keperluan penempahan** , pada tab **Projek** , pilih keperluan untuk menempah.
+2. Dalam anak tetingkap **Keperluan penempahan**, pada tab **Projek**, pilih keperluan untuk menempah.
 
     ![Keperluan yang dipilih pada tab Projek](media/Resource-Management-image73.png)
 
@@ -42,12 +42,12 @@ Sebelum anda boleh menempah daripada papan Jadual, anda mesti mencipta atau menj
 
     ![Cipta anak Tetingkap Penempahan sumber untuk sumber boleh ditempah yang dipilih](media/Resource-Management-image74.png)
 
-6. Sementara keperluan dipilih dalam tetingkap **Cipta Penempahan Sumber** , pilih satu atau lebih sel sumber untuk membuat penempahan.
+6. Sementara keperluan dipilih dalam tetingkap **Cipta Penempahan Sumber**, pilih satu atau lebih sel sumber untuk membuat penempahan.
 
     ![Berbilang sel yang dipilih untuk sumber](media/Resource-Management-image75.png)
 
 7. Pilih **Tempah**.
 
-Keperluan dipenuhi dengan menggunakan sumber yang dipilih. Dalam anak tetingkap **Keperluan Penempahan** , perhatikan bahawa keperluan telah dikemas kini dan sumber ditunjukkan seperti yang ditempah dalam projek.
+Keperluan dipenuhi dengan menggunakan sumber yang dipilih. Dalam anak tetingkap **Keperluan Penempahan**, perhatikan bahawa keperluan telah dikemas kini dan sumber ditunjukkan seperti yang ditempah dalam projek.
 
 ![Sumber yang ditempah dalam projek](media/Resource-Management-image76.png)

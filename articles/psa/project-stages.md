@@ -3,7 +3,7 @@ title: Jenis peringkat projek
 description: Topik ini memberikan maklumat tentang peringkat projek.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081279"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123073"
 ---
 # <a name="project-stage-types"></a>Jenis peringkat projek 
 
@@ -46,11 +46,11 @@ Apabila anda mencipta projek, peringkat projek ditetapkan kepada **Baharu**. Jik
 
 ## <a name="quote"></a>Sebut Harga
 
-Apabila anda mengaitkan projek dengan sebut harga atau apabila anda mencipta projek daripada sebut harga, peringkat projek ditetapkan kepada **Sebut Harga** dan anggaran tarikh mula dan tamat dikemas kini. Semasa projek berada dalam peringkat **Sebut harga** , tab **Jualan** pada halaman **Entiti Projek** menunjukkan butiran sebut harga tersebut.
+Apabila anda mengaitkan projek dengan sebut harga atau apabila anda mencipta projek daripada sebut harga, peringkat projek ditetapkan kepada **Sebut Harga** dan anggaran tarikh mula dan tamat dikemas kini. Semasa projek berada dalam peringkat **Sebut harga**, tab **Jualan** pada halaman **Entiti Projek** menunjukkan butiran sebut harga tersebut.
 
 ## <a name="plan"></a>Pelan
 
-Apabila anda menang sebut harga yang dikaitkan dengan sesuatu projek dan projek tersebut beralih ke peringkat **Kontrak** , peringkat projek dikemas kini kepada **Pelan**. Semasa projek berada dalam peringkat **Pelan** , halaman **Entiti Projek** menunjukkan butiran kontrak tersebut.
+Apabila anda menang sebut harga yang dikaitkan dengan sesuatu projek dan projek tersebut beralih ke peringkat **Kontrak**, peringkat projek dikemas kini kepada **Pelan**. Semasa projek berada dalam peringkat **Pelan**, halaman **Entiti Projek** menunjukkan butiran kontrak tersebut.
 
 ## <a name="deliver"></a>Hantar
 
@@ -58,7 +58,7 @@ Apabila pelan projek selesai dan anda bersedia untuk memulakan projek, pengurus 
 
 ## <a name="complete"></a>Selesai 
 
-Apabila kerja untuk projek selesai, pengurus projek boleh mengemas kini peringkat kepada **Selesai**. Dengan mengemas kini peringkat projek kepada **Selesai** , pengurus projek menunjukkan bahawa kerja tersebut telah 100 peratus selesai, tetapi projek itu dibiarkan terbuka supaya sebarang masa atau perbelanjaan yang tertangguh boleh direkodkan.
+Apabila kerja untuk projek selesai, pengurus projek boleh mengemas kini peringkat kepada **Selesai**. Dengan mengemas kini peringkat projek kepada **Selesai**, pengurus projek menunjukkan bahawa kerja tersebut telah 100 peratus selesai, tetapi projek itu dibiarkan terbuka supaya sebarang masa atau perbelanjaan yang tertangguh boleh direkodkan.
 
 ## <a name="close"></a>Tutup
 
