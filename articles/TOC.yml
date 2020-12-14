@@ -4,7 +4,7 @@
   items:
     - name: Tentukan jenis pelaksanaan anda
       href: environment/determine-deployment-type.md
-    - name: Pilih kemaskinian Project Operations
+    - name: Kemas kini Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations untuk senario berdasarkan sumber/bukan stok
   items:
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Ciri baharu
       items:
+        - name: Disember 2020 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proses jualan projek
@@ -87,7 +89,7 @@
                 - name: Urus berbilang pelanggan pada baris sebut harga berdasarkan projek
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Konfigurasikan komponen boleh dikenakan bagi baris sebut harga projek
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Cipta anggaran pada baris sebut harga
                   href: sales/create-estimate-quote-line.md
                 - name: Import anggaran daripada projek ke baris sebut harga berdasarkan projek
@@ -109,7 +111,7 @@
             - name: Urus senarai harga projek pada kontrak projek
               href: sales/contracts-manage-project-price-lists.md
             - name: Urus berbilang pelanggan pada kontrak projek
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Baris kontrak berdasarkan projek
               items:
                 - name: Gambaran keseluruhan baris kontrak berdasarkan projek
@@ -126,11 +128,19 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Sahkan kontrak projek
               href: pro/sales/confirm-contract-sales.md
-            - name: Salin satu kontrak projek
+            - name: Salin kontrak projek
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Pendahuluan dan retainer
+              items:
+                - name: Pendahuluan dan kontrak berdasarkan retainer - ringan
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Sediakan jadual retainer - ringan
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Cipta pendahuluan ad hoc pada kontrak - ringan
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Penentuan harga dan kos
       items:
-        - name: Tetapan senarai harga
+        - name: Penyediaan senarai harga
           items:
             - name: Sediakan senarai harga
               href: pricing-costing/price-list-setup.md
@@ -158,19 +168,29 @@
           items:
             - name: Gambaran keseluruhan dimensi penentuan harga
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Cipta penyelesaian untuk dimensi penentuan harga tersuai
+              href: sales/create-solution-custompd.md
             - name: Gunakan medan sedia ada sebagai dimensi penentuan harga
               items:
                 - name: Medan Project Operations sebagai dimensi penentuan harga
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Gunakan sumber boleh ditempah sebagai dimensi penentuan harga
+                  href: sales/use-br-as-pd.md
+                - name: Gunakan Kategori Transaksi sebagai dimensi penentuan harga
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Sumber boleh ditempah dengan berbilang peranan pada projek
+                  href: sales/br-playing-multiple-roles.md
             - name: Medan tersuai sebagai dimensi penentuan harga
               items:
                 - name: Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Tambah medan tersuai pada persediaan harga dan entiti transaksi
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Sediakan medan tersuai sebagai dimensi penetapan harga
+                - name: Sediakan medan tersuai sebagai dimensi penentuan harga
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-            - name: Matikan dimensi penetapan harga
+                - name: Kemas kini atribut pasang masuk untuk memasukkan dimensi penentuan harga baharu
+                  href: pricing-costing/update-plugin-attributes-pd.md
+            - name: Matikan dimensi penentuan harga
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Pengurusan projek
       items:
@@ -250,17 +270,23 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Pentadbiran sumber
           items:
+            - name: Cipta sumber
+              href: resource-management/create-resources.md
             - name: Takrifkan kemahiran dan kecekapan
               href: resource-management/define-skills-proficiencies.md
+            - name: Takrifkan peranan
+              href: resource-management/define-roles.md
             - name: Takrifkan kalendar sumber
               href: resource-management/define-resource-calendars.md
         - name: Kaedah peruntukan tempahan
           href: resource-management/booking-allocation-methods.md
+        - name: Status tempahan
+          href: resource-management/booking-status.md
         - name: Model kemahiran dan kecekapan
           href: resource-management/skills-proficiency-models.md
-        - name: "Penyelarasan\_sumber"
+        - name: Penyelarasan sumber
           items:
-            - name: "Gambaran keseluruhan penyelarasan\_sumber"
+            - name: Gambaran keseluruhan penyelarasan sumber
               href: resource-management/resource-reconciliation-overview.md
             - name: Urus zon masa
               href: resource-management/manage-multiple-time-zones.md
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Urus invois projek proforma
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Menginvois retainer atau pendahuluan
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Sahkan invois projek proforma
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Konfigurasikan automasi invois projek
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Jurnal integrasi dalam Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Penginvoisan antara syarikat
+          items:
+            - name: Gambaran keseluruhan penginvoisan antara syarikat
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Konfigurasikan penginvoisan antara syarikat
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Cipta invois pelanggan dan vendor antara syarikat
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Cipta transaksi antara syarikat
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Pengiktirafan hasil
+      items:
+        - name: Gambaran keseluruhan pengiktirafan hasil
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Sediakan pengiktirafan hasil
+          items:
+            - name: Sediakan jenis tempoh
+              href: project-accounting/period-types.md
+            - name: Sediakan templat kos
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Uruskan anggaran hasil
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Projek anggaran hasil harga tetap
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Kos untuk melengkapkan kaedah
+          href: revenue-recognition/cost-complete-methods.md
 - name: Pelaksanaan ringan - urusan untuk penginvoisan proforma
   items:
     - name: Mari bermula
@@ -380,13 +434,15 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Laksanakan Project Operations - ringan
           href: environment/lite-deployment.md
-        - name: Gunakan tetapan demo dan data konfigurasi - ringan
+        - name: Gunakan persediaan demo dan data konfigurasi - ringan
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model keselamatan
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Perkara baharu November 2020 - pelaksanaan ringan - urusan untuk penginvoisan proforma
+        - name: Ciri baharu Disember 2020 - pelaksanaan ringan - urusan untuk penginvoisan proforma
+          href: pro/whats-new/whats-new-dec-2020-lite.md
+        - name: Ciri baharu November 2020 - pelaksanaan ringan - urusan untuk penginvoisan proforma
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proses jualan projek
       items:
@@ -500,7 +556,7 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Pendahuluan dan retainer
               items:
-                - name: Pendahuluan dan retainer berdasarkan kontrak - ringan
+                - name: Pendahuluan dan kontrak berdasarkan retainer - ringan
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Sediakan jadual retainer - ringan
                   href: pro/sales/set-up-schedule-retainers-sales.md
@@ -508,7 +564,7 @@
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Penentuan harga dan kos
       items:
-        - name: Tetapan senarai harga
+        - name: Penyediaan senarai harga
           items:
             - name: Sediakan senarai harga
               href: pricing-costing/price-list-setup.md
@@ -538,19 +594,29 @@
           items:
             - name: Gambaran keseluruhan dimensi penentuan harga
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Cipta penyelesaian untuk dimensi penentuan harga tersuai
+              href: sales/create-solution-custompd.md
             - name: Gunakan medan sedia ada sebagai dimensi penentuan harga
               items:
-                - name: Gunakan medan sedia ada sebagai dimensi penentuan harga
+                - name: Medan Project Operations sebagai dimensi penentuan harga
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Gunakan sumber boleh ditempah sebagai dimensi penentuan harga
+                  href: sales/use-br-as-pd.md
+                - name: Gunakan Kategori Transaksi sebagai dimensi penentuan harga
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Sumber boleh ditempah dengan berbilang peranan pada projek
+                  href: sales/br-playing-multiple-roles.md
             - name: Medan tersuai sebagai dimensi penentuan harga
               items:
                 - name: Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Tambah medan tersuai pada persediaan harga dan entiti transaksi
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Sediakan medan tersuai sebagai dimensi penetapan harga
+                - name: Sediakan medan tersuai sebagai dimensi penentuan harga
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-            - name: Matikan dimensi penetapan harga
+                - name: Kemas kini atribut pasang masuk untuk memasukkan dimensi penentuan harga baharu
+                  href: pricing-costing/update-plugin-attributes-pd.md
+            - name: Matikan dimensi penentuan harga
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Pengurusan projek
       items:
@@ -626,17 +692,23 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Pentadbiran sumber
           items:
+            - name: Cipta sumber
+              href: resource-management/create-resources.md
             - name: Takrifkan kemahiran dan kecekapan
               href: resource-management/define-skills-proficiencies.md
+            - name: Takrifkan peranan
+              href: resource-management/define-roles.md
             - name: Takrifkan kalendar sumber
               href: resource-management/define-resource-calendars.md
         - name: Tempah kaedah peruntukan
           href: resource-management/booking-allocation-methods.md
+        - name: Status tempahan
+          href: resource-management/booking-status.md
         - name: Model kemahiran dan kecekapan
           href: resource-management/skills-proficiency-models.md
-        - name: "Penyelarasan\_sumber"
+        - name: Penyelarasan sumber
           items:
-            - name: "Gambaran keseluruhan penyelarasan\_sumber"
+            - name: Gambaran keseluruhan penyelarasan sumber
               href: resource-management/resource-reconciliation-overview.md
             - name: Urus zon masa
               href: resource-management/manage-multiple-time-zones.md
@@ -832,11 +904,13 @@
       href: psa/overview.md
     - name: Ciri baharu
       items:
-        - name: Kemas Kini Jadual Keluaran untuk Project Service 3.x
+        - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 25, V3'
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 26, V3'
+          href: psa/whats-new-ur-26.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 25, V3'
           href: psa/whats-new-ur-25.md
-        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 24, V3'
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 24, V3'
           href: psa/whats-new-ur-24.md
         - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 23, V3'
           href: psa/whats-new-ur-23.md
@@ -928,7 +1002,7 @@
               href: psa/create-custom-fields-entities.md
             - name: Tambah medan tersuai pada persediaan harga dan entiti transaksi
               href: psa/field-references.md
-            - name: 'Sediakan medan tersuai sebagai dimensi penetapan harga '
+            - name: Sediakan medan tersuai sebagai dimensi penentuan harga
               href: psa/set-up-pricing-dimensions.md
             - name: Kemas kini atribut pasang masuk untuk memasukkan dimensi penentuan harga baharu
               href: psa/update-plug-in-attributes.md
@@ -942,7 +1016,7 @@
                   href: psa/transaction-category-pricing-dimension.md
             - name: Sumber boleh ditempah dengan berbilang peranan pada projek
               href: psa/bookable-resource-multiple-roles.md
-            - name: Matikan dimensi penetapan harga
+            - name: Matikan dimensi penentuan harga
               href: psa/turn-off-pricing-dimension.md
         - name: 'Penyebutan harga, penentuan harga dan pengebilan'
           items:
