@@ -3,7 +3,7 @@ title: Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
 description: Topik ini menyediakan maklumat tentang cara mencipta set pilihan atau entiti tersuai.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,42 +17,50 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130904"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642824"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Lengkapkan langkah berikut pada bila-bila masa anda mahu mencipta set pilihan atau entiti tersuai.
+Lengkapkan langkah berikut apabila anda mahu mencipta set pilihan atau entiti tersuai untuk menggunakan sebagai dimensi penentuan harga. Untuk mendapatkan maklumat lanjut, lihat [Gambaran keseluruhan dimensi penentuan harga](pricing-dimensions-overview.md).  
 
 > [!IMPORTANT]
-> Kami mengesyorkan agar anda membuat semua perubahan dimensi penentuan harga dalam penyelesaian berasingan. Amalan terbaik penting ini memberikan kefleksibelan pada masa akan datang untuk mengemas kini atau mengalih keluar perubahan seperti yang diperlukan, akan membantu menggunakan semula kerja anda, dan memudahkan untuk port perubahan ini kepada tika lain. Selepas anda membuat semua perubahan yang diperlukan, eksport penyelesaian ini sebagai **Penyelesaian terurus** dan import ini ke dalam tika lain untuk guna semula persediaan penentuan harga anda.
+> Kami mengesyorkan agar anda membuat semua perubahan dimensi penentuan harga dalam penyelesaian berasingan. Amalan terbaik yang penting ini memberikan fleksibiliti pada masa depan untuk mengemas kini atau mengalih keluar perubahan seperti yang diperlukan. Ini juga akan membantu dengan penggunaan semula kerja anda dan menjadikan ia lebih mudah untuk port perubahan ini kepada tika lain. Selepas anda membuat semua perubahan yang diperlukan, eksport penyelesaian ini sebagai **Penyelesaian terurus** dan mengimport ke dalam tika lain untuk menggunakan semula persediaan penentuan harga anda.
 
-
-## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Cipta penyelesaian tersuai untuk dimensi penentuan harga
-1. Pergi ke **Tetapan** > **Penyelesaian** dan, kemudian pilih **Baharu** untuk mencipta penyelesaian baharu. 
-2. Namakan penyelesaian, **\<your organization name> dimensi penetapan harga**, masukkan baki maklumat yang diperlukan dan kemudian pilih **Simpan**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Cipta medan tersuai dan seti pilihan dalam penyelesaian dimensi penentuan harga
 
 Dimensi penentuan harga boleh menjadi set pilihan atau entiti. Kedua-duanya mesti dicipta dalam penyelesaian penentuan harga anda. Langkah-langkah dalam prosedur ini menerangkan cara mencipta dimensi berasaskan entiti dan dimensi berasaskan set pilihan.
 
 ### <a name="entity-based-dimensions"></a>Dimensi berasaskan entiti
+Untuk mencipta dimensi berasaskan entiti, ikuti langkah ini:
 
 1. Pergi ke **Tetapan** > **Penyelesaian** dan kemudian klik dua kali **\<your organization name> dimensi penetapan harga**.
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti**.
 3. Pilih **Baharu** untuk mencipta entiti baharu dipanggil **Tajuk Standard**. 
 4. Masukkan baki maklumat diperlukan dan kemudian pilih **Simpan**.
 
+> ![Definisi entiti tajuk standard](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensi berasaskan set pilihan 
-Anda boleh mencipta dua dimensi berasaskan set pilihan. Guna **Lokasi Kerja Sumber** untuk menjejaki harga kerja lokasi **Rumah** dan kerja **Di Tapak** dan menggunakan **Jam Bekerja Sumber** dengan nilai **Biasa** dan **Lebih Masa** untuk mengenakan tokokan apabila kerja selesai.
+Anda boleh mencipta dua dimensi berasaskan set pilihan. 
 
+- Gunakan **Lokasi Kerja Sumber** untuk menjejaki harga kerja lokasi **Rumah** dan kerja **Di Tapak**. 
+- Gunakan **jam Kerja Sumber** dengan nilai **Biasa** dan **Kerja Lebih Masa** untuk menggunakan tokokan apabila kerja selesai.
+
+Grafik berikut menyediakan pandangan dimensi **Lokasi Kerja Sumber**. 
+
+> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Lokasi Kerja Sumber](media/Option-set-PD-called-Resource-Work-Location.png)
+
+Grafik berikut menyediakan pandangan dimensi **Waktu Kerja Sumber**. 
+
+> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Waktu Kerja Sumber](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Pergi ke **Tetapan** > **Penyelesaian** dan klik dua kali **\<your organization name> dimensi penetapan harga**. 
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Set Pilihan**. 
@@ -62,33 +70,10 @@ Anda boleh mencipta dua dimensi berasaskan set pilihan. Guna **Lokasi Kerja Sumb
 
 Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau menggunakan panggilan import atau perkhidmatan Microsoft Excel. Guna langkah-langkah dalam prosedur ini untuk mencipta dua jawatan standard **Jurutera Sistem** dan **Jurutera Sistem Kanan** daripada dimensi berasaskan entiti, **Jawatan Standard**. Jika data yang anda mahu cipta adalah kecil, seperti dalam contoh berikut, anda boleh menggunakan borang standard.
 
-1. Pilih **Carian Lanjutan**, pilih entiti **Tajuk Standard** dan kemudian pilih **Keputusan**. Semua baris dalam entiti **Jawatan Standard** akan ditunjukkan.
-2. Pilih **Baharu** dan dalam medan **Nama**, masukkan "Jurutera Sistem" dan kemudian pilih **Simpan**.
-3. Tutup borang. 
-4. Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".
+1. Pilih **Carian Lanjutan**.
+2. Pilih entiti **Jawatan Standard** dan kemudian pilih **Hasil**. Semua baris dalam entiti **Jawatan Standard** akan ditunjukkan.
+3. Pilih **Baharu** dan dalam medan **Nama**, masukkan "Jurutera Sistem" dan kemudian pilih **Simpan**.
+4. Tutup halaman. 
+5. Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".
 
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambah semua entiti yang diperlukan dan dokumen berkaitan ke Penyelesaian Dimensi Penetapan Harga
-Anda perlu menambah entiti berikut ke penyelesaian penetapan harga anda. Guna langkah-langkah dalam prosedur untuk membuat perubahan penting dalam penyelesaian penentuan harga agar entiti maklum dengan dimensi penentuan harga baharu.
-
-1. Pilih **Tetapan** > **Penyelesaian** dan klik dua kali **\<your organization name> dimensi penetapan harga**. 
-2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Tambah Sedia Ada** > **Entiti**.
-3. Dalam kotak dialog **Komponen Penyelesaian**, pilih entiti berikut:
-
-  - Sebenar
-  - Sumber Boleh Ditempah
-  - Garisan Anggaran
-  - Butiran Baris Invois
-  - Garisan Jurnal
-  - Butiran Baris Kontrak Projek
-  - Ahli Pasukan Projek
-  - Butiran Baris Sebut Harga
-  - Tokokan Harga Peranan
-  - Harga Peranan 
-  - Entri Masa 
-
-
-> [!NOTE]
-> Pastikan anda memasukkan semua borang dan pandangan bagi setiap entiti yang dipilih.
-
-4. Apabila digesa untuk memasukkan sebarang entiti bersandar bagi entiti yang dipilih di atas, pilih **Tidak**.
-
+> ![Data sampel untuk entiti Jawatan Standard](media/ST-data.png)

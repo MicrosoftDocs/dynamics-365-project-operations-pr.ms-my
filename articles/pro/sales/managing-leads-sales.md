@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180518"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513800"
 ---
 # <a name="manage-leads---lite"></a>Urus bakal pelanggan - lite
 
@@ -23,7 +23,7 @@ Bakal pelanggan berasaskan projek boleh diuruskan dan layak dalam Project Operat
 
 ## <a name="list-of-project-sales-leads"></a>Senarai bakal pelanggan Projek
 
-Dalam bahagian **Jualan**, dalam anak tetingkap navigasi kiri, buka halaman senarai **Bakal Pelanggan** untuk melihat senarai semua rekod bakal pelanggan dalam sistem. Senarai bakal pelanggan ditunjukkan adalah berasaskan kerja dan jenis bakal pelanggan lain yang boleh dicipta jika anda juga mempunyai aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
+Dalam bahagian **Jualan**, dalam anak tetingkap navigasi kiri, buka halaman senarai **Bakal Pelanggan** untuk melihat senarai semua rekod bakal pelanggan dalam sistem. Bakal pelanggan dalam senarai adalah berasaskan kerja dan jenis bakal pelanggan lain yang boleh dicipta jika anda juga mempunyai aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
 
 Anda boleh mencipta pandangan ditapis untuk hanya melihat bakal pelanggan berasaskan projek dengan mencipta penapis pada nilai **Jenis**. Contohnya, anda boleh memilih untuk menunjukkan hanya bakal pelanggan berasaskan kerja.
 
@@ -53,9 +53,9 @@ Bakal pelanggan yang mempunyai nilai **Jenis** ditetapkan ke **Berasaskan kerja*
 
 - Akaun yang menggunakan medan **Syarikat** daripada bakal pelanggan.
 - Rekod kenalan yang berkaitan dengan akaun berasaskan pada nilai dalam medan **Nama Pertama** dan **Nama Akhir** pada bakal pelanggan.
-- Peluang berasaskan projek yang mempunyai medan **Jenis** ditetapkan ke **Berasaskan kerja**.
+- Peluang berasaskan projek yang mempunyai medan **Jenis** ditetapkan kepada **Berasaskan kerja**.
 
-Untuk maklumat terperinci tentang bakal pelanggan yang layak, lihat[Pelanggan yang layak atau tukar](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Untuk maklumat terperinci tentang bakal pelanggan yang layak, lihat [Pelanggan yang layak atau tukar](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Aliran proses perniagaan untuk urusan berasaskan projek
 

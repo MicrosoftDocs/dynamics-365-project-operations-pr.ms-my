@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129689"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642779"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Gunakan tambahan Project Service Automation untuk merancang kerja anda dalam Microsoft Project
 
@@ -92,7 +92,7 @@ Projek akan mengimport ke dalam [!INCLUDE[pn_project_service_auto](../includes/p
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Carta Gantt**   | Mengimport ke dalam skrin **Struktur Pecahan Kerja** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Lembaran Sumber** |   Mengimport ke dalam skrin **Ahli Pasukan Projek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gunakan Penggunaan**    |    Mengimport ke dalam skrin **Anggaran Projek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gunakan Penggunaan**    |    Import ke dalam skrin **Anggaran Projek** [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Untuk mengimport dan menerbitkan projek anda**  
 1. Daripada tab **Project Service**, klik **Terbitkan** > **Projek Project Service Automation Baharu**.  
@@ -173,6 +173,59 @@ Projek akan mengimport ke dalam [!INCLUDE[pn_project_service_auto](../includes/p
 4. Klik **Terbitkan**.  
 
 Memautkan fail Projek kepada [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] menjadikan fail Projek sebagai fail induk dan menetapkan struktur pecahan kerja dalam templat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] kepada baca sahaja.  Untuk membuat perubahan kepada rancangan projek, anda perlu membuatnya dalam [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dan menerbitkannya sebagai kemas kini untuk [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Baca jadual yang dimuatkan sumber
+
+Apabila membaca projek daripada Project Service Automation, kalendar sumber tidak disegerakkan dengan klien desktop. Jika terdapat perbezaan dalam tempoh, usaha atau tamat tugas, ia mungkin kerana sumber dan klien desktop tidak mempunyai kalendar templat waktu kerja yang sama yang digunakan pada projek.
+
+
+## <a name="data-synchronization"></a>Penyegerakan Data
+
+Jadual berikut menggariskan cara data disegerakkan antara Project Service Automation dengan tambahan desktop Microsoft Project.
+
+| **Entiti** | **Medan** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Tugas Projek | Tarikh Siap | ● | - |
+| Tugas Projek | Anggaran Usaha | ● | - |
+| Tugas Projek | ID Klien MS Project | ● | - |
+| Tugas Projek | Tugas Induk | ● | - |
+| Tugas Projek | Project | ● | - |
+| Tugas Projek | Tugas projek | ● | - |
+| Tugas Projek | Nama Tugas Projek | ● | - |
+| Tugas Projek | Unit sumber (Ditamatkan dalam v3.0) | ● | - |
+| Tugas Projek | Tempoh Dijadualkan | ● | - |
+| Tugas Projek | Tarikh Mula | ● | - |
+| Tugas Projek | ID WBS | ● | - |
+
+| **Entiti** | **Medan** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Ahli Pasukan | ID Klien MS Project | ● | - |
+| Ahli Pasukan | Nama Kedudukan | ● | - |
+| Ahli Pasukan | projek | ● | ● |
+| Ahli Pasukan | Pasukan Projek | ● | ● |
+| Ahli Pasukan | Unit Sumber | - | ● |
+| Ahli Pasukan | Peranan | - | ● |
+| Ahli Pasukan | Waktu Bekerja | Tidak disegerakkan | Tidak disegerakkan |
+
+| **Entiti** | **Medan** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Tugasan Sumber | Dari Tarikh | ● | - |
+| Tugasan Sumber | Jam | ● | - |
+| Tugasan Sumber | ID Klien MS Project | ● | - |
+| Tugasan Sumber | Kerja Dirancang | ● | - |
+| Tugasan Sumber | Project | ● | - |
+| Tugasan Sumber | Pasukan Projek | ● | - |
+| Tugasan Sumber | Tugasan Sumber | ● | - |
+| Tugasan Sumber | Tugas | ● | - |
+| Tugasan Sumber | Hingga Tarikh | ● | - |
+
+| **Entiti** | **Medan** | **Microsoft Project ke Project Service Automation** | **Project Service Automation ke Microsoft Project** |
+| --- | --- | --- | --- |
+| Kebergantungan Tugas Projek | Kebergantungan Tugas Projek | ● | - |
+| Kebergantungan Tugas Projek | Jenis Pautan | ● | - |
+| Kebergantungan Tugas Projek | Tugas Pendahulu | ● | - |
+| Kebergantungan Tugas Projek | Project | ● | - |
+| Kebergantungan Tugas Projek | Tugas Pengganti | ● | - |
 
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)

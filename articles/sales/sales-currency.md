@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121229"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642284"
 ---
 # <a name="currency"></a>Mata wang
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Mata wang menentukan harga produk dalam katalog produk dan kos transaksi, seperti pesanan jualan. Jika pelanggan anda tersebar di seluruh dunia, tambah mata wang mereka untuk mengurus transaksi anda. Tambah mata wang yang paling sesuai dengan mata wang dan keperluan perniagaan akan datang anda.  
 

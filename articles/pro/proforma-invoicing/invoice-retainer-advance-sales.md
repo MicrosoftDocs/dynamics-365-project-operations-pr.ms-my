@@ -1,5 +1,5 @@
 ---
-title: Menginvois retainer atau pendahuluan - ringan
+title: Invois retainer atau pendahuluan
 description: Topik ini menyediakan maklumat tentang cara mengeluarkan invois retainer atau pendahuluan dalam Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180563"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596203"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Menginvois retainer atau pendahuluan - ringan
+# <a name="invoice-a-retainer-or-an-advance"></a>Menginvois retainer atau pendahuluan
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations menyokong kontrak berasaskan retainer dan pendahuluan satu kali. Pada kontrak projek, anda boleh merekod jadual retainer atau pendahuluan satu kali. Walau bagaimanapun, rakaman pada peringkat kontrak projek tidak akan membuat retainer atau pendahuluan boleh digunakan. Untuk menggunakan retainer atau pendahuluan pada invois yang benar-benar mengenakan bayaran kepada pelanggan, retainer atau pendahuluan mestilah diinvois terlebih dahulu.
+Dynamics 365 Project Operations menyokong kontrak berasaskan pendahuluan dan pendahuluan satu kali. Pada kontrak projek, anda boleh merekod jadual retainer atau pendahuluan satu kali. Walau bagaimanapun, rakaman pada peringkat kontrak projek tidak akan membuat retainer atau pendahuluan boleh digunakan. Untuk menggunakan retainer atau pendahuluan pada invois yang benar-benar mengenakan bayaran kepada pelanggan, retainer atau pendahuluan mestilah diinvois terlebih dahulu.
 
 Lengkapkan langkah yang berikut untuk mengeluarkan invois retainer atau pendahuluan.
 

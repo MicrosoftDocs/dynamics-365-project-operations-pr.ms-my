@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081362"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642644"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Topik ini menghuraikan templat dan tugas asas yang digunakan untuk menyegerakkan kontrak projek dan projek secara terus daripada Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 
@@ -133,9 +135,9 @@ Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan tempat dalam integrasi Data
 
 > [!NOTE] 
-> Medan **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** dan **AddressZipCode** tidak disertakan dalam pemetaan lalai untuk kontrak projek. Anda boleh menambahkan pemetaan jika anda memerlukan data ini disegerakkan untuk kontrak projek.
+> Medan **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** dan **AddressZipCode** tidak disertakan dalam pemetaan lalai untuk kontrak projek. Anda boleh menambahkan pemetaan jika anda memerlukan data ini disegerakkan untuk kontrak projek.
 >
-> Medan **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** dan **ProjectType** tidak disertakan dalam pemetaan lalai untuk projek. Anda boleh menambahkan pemetaan jika anda memerlukan data ini disegerakkan untuk projek.
+> Medan **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** dan **ProjectType** tidak disertakan dalam pemetaan lalai untuk projek. Anda boleh menambahkan pemetaan jika anda memerlukan data ini disegerakkan untuk projek.
 
 Ilustrasi yang berikut menunjukkan contoh pemetaan tugas templat dalam integrasi Data. Pemetaan menunjukkan maklumat medan yang akan disegerakkan daripada Project Service Automation kepada Finance.
 

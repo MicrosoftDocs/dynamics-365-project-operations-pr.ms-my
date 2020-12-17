@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181778"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513845"
 ---
 # <a name="manage-leads"></a>Urus bakal pelanggan
 
@@ -53,9 +53,9 @@ Bakal pelanggan yang mempunyai nilai **Jenis** ditetapkan ke **Berasaskan kerja*
 
 - Akaun yang menggunakan medan **Syarikat** daripada bakal pelanggan.
 - Rekod kenalan yang berkaitan dengan akaun berasaskan pada nilai dalam medan **Nama Pertama** dan **Nama Akhir** pada bakal pelanggan.
-- Peluang berasaskan projek yang mempunyai medan **Jenis** ditetapkan ke **Berasaskan kerja**.
+- Peluang berasaskan projek yang mempunyai medan **Jenis** ditetapkan kepada **Berasaskan kerja**.
 
-Untuk maklumat terperinci tentang bakal pelanggan yang layak, lihat[Pelanggan yang layak atau tukar](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Untuk maklumat terperinci tentang bakal pelanggan yang layak, lihat [Pelanggan yang layak atau tukar](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kelayakan bakal pelanggan dan maklumat entiti sah 
 

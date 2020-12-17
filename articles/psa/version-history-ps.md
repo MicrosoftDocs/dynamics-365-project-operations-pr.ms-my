@@ -2,8 +2,9 @@
 title: Kemas kini jadual keluaran untuk Project Service 3. x
 description: Topik ini menyediakan maklumat mengenai keluaran sedia ada dan akan datang bagi Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 11/01/2020
+ms.date: 12/07/2020
 ms.reviewer: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -23,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf1203884cb4e49e0982bffb3092730122b2be9c
-ms.sourcegitcommit: 2848a8a654df601911593da8e2f9b6ffd6adc702
+ms.openlocfilehash: 8e9a29b05e07bb59ade00c8f4acdf0275538d5bd
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "4404826"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689466"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Kemas kini jadual keluaran untuk Project Service 3. x
 
@@ -36,7 +37,7 @@ ms.locfileid: "4404826"
 
 | Penyelesaian  | Versi terkini |
 |-------|----|
-| Automasi Perkhidmatan Projek    | 3.10.43.76 |
+| Automasi Perkhidmatan Projek    | 3.10.44.59 |
 | Tambahan desktop untuk Project Service Automation                | 3.15          |
 
 Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pelan keluaran Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -44,27 +45,27 @@ Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pe
 | Stesen  | Rantau | Versi semasa | Versi seterusnya |  Tarikh dijadualkan
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stesen 1</strong> | |  |  | |
-| | <i>Keluaran Pertama</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 20 November 2020
+| | <i>Keluaran Pertama</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 8 Januari 2021
 |<strong>Stesen 2</strong> | |  |  | |
-| | <i>Amerika Selatan</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 November 2020
-| | <i>Kanada</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 November 2020 
-| | <i>India</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 November 2020
-| | <i>Perancis</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 November 2020
-| | <i>Emiriah Arab Bersatu</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 November 2020
-| | <i>Afrika Selatan</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 November 2020
-| | <i>Jerman</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 November 2020
+| | <i>Amerika Selatan</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 Januari 2021
+| | <i>Kanada</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 Januari 2021
+| | <i>India</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 Januari 2021
+| | <i>Perancis</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 Januari 2021
+| | <i>Emiriah Arab Bersatu</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 Januari 2021
+| | <i>Afrika Selatan</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 Januari 2021
+| | <i>Jerman</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 Januari 2021
 |<strong>Stesen 3</strong> | |  |  | |
-| | <i>Jepun</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 Disember 2020
-| | <i>Asia Pasifik</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 Disember 2020
-| | <i>Great Britain</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 Disember 2020
-| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 Disember 2020
+| | <i>Jepun</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 Disember 2020
+| | <i>Asia Pasifik</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 Disember 2020
+| | <i>Great Britain</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 Disember 2020
+| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 Disember 2020
 |<strong>Stesen 4</strong> | |  |  | |
-| | <i>Eropah</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 13 November 2020
+| | <i>Eropah</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 18 Disember 2020
 |<strong>Stesen 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 November 2020
+| | <i>Amerika Utara</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 Januari 2021
 |<strong>Stesen 6</strong> | |  |  | |
-| | <i>Awan Komuniti Kerajaan</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 November 2020
-| | <i>Kumpulan Skala Berdedikasi</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 27 November 2020
+| | <i>Awan Komuniti Kerajaan</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 Januari 2021
+| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 15 Januari 2021
 
 >[!Note]
 > - Tarikh di semua wilayah kecuali Awan Komuniti Kerajaan (GCC) menunjukkan masa kemas kini automatik seterusnya. Tarikh dalam GCC menunjukkan ketersediaan versi; pada masa ini, tiada kemas kini automatik untuk wilayah ini.

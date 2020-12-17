@@ -1,28 +1,20 @@
 ---
 title: Gambaran keseluruhan dimensi penentuan harga
-description: Topik ini menyediakan maklumat tentang dimensi penetapan harga dalam Dynamics 365 Project Operations.
+description: Topik ini memberikan maklumat tentang dimensi penetapan harga dalam Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128474"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650213"
 ---
 # <a name="pricing-dimensions-overview"></a>Gambaran keseluruhan dimensi penentuan harga
 
@@ -40,9 +32,21 @@ Disebabkan ini, terdapat dua jenis nilai dimensi penetapan harga tersedia:
 
 ## <a name="pricing-dimensions"></a>Dimensi penentuan harga
 
-Operasi Projek Dynamics 365 dihantar dengan set dimensi penetapan harga lalai. Anda boleh melihat ini dengan pergi ke **Project Service** > **Parameter**. Dalam rekod parameter, pada tab **Dimensi penetapan harga berdasarkan jumlah**, sahkan bahawa peranan, **msdyn_resourcecategory** dan unit organisasi sumber, **msdyn_organizationalunit** mempunyai medan **Digunakan pada jualan** dan **Digunakan pada kos** yang ditetapkan kepada **Ya**. Anda boleh menyediakan harga dan kos untuk setiap peranan dan kombinasi unit organisasi dengan medan ini didayakan.
+Dynamics 365 Project Operations didatangkan dengan set dimensi penetapan harga lalai. Anda boleh melihat ini dengan pergi ke **Project Service** > **Parameter**. Dalam rekod parameter, pada tab **Dimensi penetapan harga berdasarkan jumlah**, sahkan bahawa peranan, **msdyn_resourcecategory** dan unit organisasi sumber, **msdyn_organizationalunit** mempunyai medan **Digunakan pada jualan** dan **Digunakan pada kos** yang ditetapkan kepada **Ya**. Anda boleh menyediakan harga dan kos untuk setiap peranan dan kombinasi unit organisasi dengan medan ini didayakan.
 
-Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai.
+![Petikan skrin parameter Project Service dengan "Digunakan pada Jualan" diserlahkan](media/PS-OOB-parameters.png)
+
+Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk maklumat lanjut, lihat topik yang berikut. 
+  
+  > [!NOTE]
+  > Prosedur mesti dilengkapkan mengikut susunan yang disenaraikan.
+
+1. [Cipta penyelesaian untuk dimensi penetapan harga tersuai](../sales/create-solution-custompd.md)
+2. [Cipta medan dan entiti tersuai](create-custom-fields-entities-pricing-dimensions.md)
+3. [Tambah medan tersuai kepada persediaan harga dan entiti transaksi ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Sediakan medan tersuai sebagai dimensi penetapan harga ](set-up-custom-fields-pricing-dimensions.md)
+5. [Kemas kini atribut pasang masuk untuk memasukkan dimensi penetapan harga baharu](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Masa penetapan harga sumber manusia
 Cara sebuah organisasi menilai masa sumber manusia sering menjadi pertimbangan strategik yang penting yang secara langsung mempengaruhi keuntungan organisasi. Bekerja dengan pasukan kewangan dan ketua latihan apabila organisasi anda bersedia untuk mengenal pasti cara ia mahu menyediakan kadar bil dan kos untuk masa sumber manusia.

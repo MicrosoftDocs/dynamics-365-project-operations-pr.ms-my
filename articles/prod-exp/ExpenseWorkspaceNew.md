@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081271"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650150"
 ---
 # <a name="redesigned-expense-reports"></a>Laporan perbelanjaan direka semula
 [!include[banner](../includes/banner.md)]
@@ -46,7 +46,7 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-[Pengalaman perbelanjaan dalam video Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditunjukkan di atas) termasuk dalam [senarai main Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
+[Pengalaman perbelanjaan dalam video Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditunjukkan di atas) termasuk dalam senarai main [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
 
 ## <a name="new-features"></a>Ciri-ciri baru
 

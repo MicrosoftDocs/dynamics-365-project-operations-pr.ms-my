@@ -3,17 +3,17 @@ title: Entri perbelanjaan (ringan)
 description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan entri perbelanjaan dalam pelaksanaan ringan.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121094"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590957"
 ---
 # <a name="expense-entry-lite"></a>Entri perbelanjaan (ringan)
 
@@ -36,6 +36,10 @@ Selepas anda selesai merekodkan semua perbelanjaan anda, dan anda bersedia untuk
 
 1. Pergi ke **Perbelanjaan** dan pilih perbelanjaan. Atau, pilih semua perbelanjaan dengan menggunakan kotak semak pada pengepala.
 2. Pilih **Serahkan**. Sistem memproses entri yang dipilih dan kemudian mencipta permintaan kelulusan perbelanjaan.
+
+## <a name="add-an-attachment"></a>Tambah lampiran
+
+Anda mungkin perlu menyediakan pelulus dengan dokumentasi tambahan mengenai perbelanjaan anda. Anda boleh melampirkan resit dalam garis masa entri perbelanjaan. Pilih **Edit** dan dalam bahagian **Garis masa** dan kemudian pilih ikon klip kertas untuk melampirkan resit anda.
 
 ## <a name="recall-a-basic-expense"></a>Tarik balik perbelanjaan asas
 

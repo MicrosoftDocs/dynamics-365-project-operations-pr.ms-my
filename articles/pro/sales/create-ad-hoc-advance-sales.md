@@ -1,5 +1,5 @@
 ---
-title: Mencipta pendahuluan ad hoc dalam kontrak - ringan
+title: Mencipta pendahuluan ad hoc pada kontrak
 description: Topik ini memberikan maklumat tentang mewujudkan pendahuluan pada kontrak yang diperlukan.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181373"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596015"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Mencipta pendahuluan ad hoc dalam kontrak - ringan
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Mencipta pendahuluan ad hoc pada kontrak
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Microsoft Dynamics 365 Project Operations menyokong senario penginvoisan yang melibatkan prapembayaran dan pendahuluan. Proses untuk menggunakan **Pendahuluan** dalam **Project Operations** adalah sama dengan kontrak **Retainer**. 
 

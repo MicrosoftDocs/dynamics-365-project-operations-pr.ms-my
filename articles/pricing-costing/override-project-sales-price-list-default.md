@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130859"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672242"
 ---
 # <a name="override-project-sales-price-lists"></a>Ganti senarai harga jualan projek
 
@@ -27,7 +28,7 @@ Untuk menyediakan senarai harga projek khusus pelanggan, dalam kawasan **Jualan*
 
 1. Buka halaman senarai **Akaun**.
 2. Cari dan klik dua kali rekod pelanggan untuk membuka halaman butiran **Akaun**.
-3. Pada tab **Senarai Harga Projek**, pilih **+ Senarai Harga Projek Baharu^^.
+3. Pada tab **Senarai Harga Projek**, pilih **+ Senarai Harga Projek Baharu**.
 4. Pada halaman **Senarai Harga Projek Baharu**, pilih senarai harga daripada juntai bawah. Hanya senarai harga yang mempunyai konteks ditetapkan ke **Jualan** dan mata wang yang sepadan dengan mata wang akaun dimasukkan.
 5. Namakan perkaitan dan kemudian pilih **Simpan**. Senarai harga projek khusus pelanggan dicipta. Senarai harga ini akan digunakan untuk harga projek lalai pada sebut harga projek atau kontrak yang dicipta untuk pelanggan ini dengan tarikh sebut harga atau kontrak projek yang dicipta berada dalam penguatkuasaan tarikh senarai harga.
 

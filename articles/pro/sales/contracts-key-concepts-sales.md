@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177072"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643049"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>Kontrak project - Konsep utama - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Topik ini menyediakan konsep utama yang perlu diberi perhatian sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Topik ini memberikan konsep utama untuk mengetahui sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unit Pengkontrakan
 

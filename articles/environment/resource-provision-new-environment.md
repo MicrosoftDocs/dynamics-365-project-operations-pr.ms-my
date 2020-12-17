@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121184"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642993"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini memberikan maklumat mengenai cara untuk menyediakan persekitaran Operasi Projek Dynamics 365 baru untuk senario berasaskan sumber/bukan stok.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Topik ini menyediakan maklumat tentang cara untuk memperuntukkan persekitaran Dynamics 365 Project Operations baharu untuk senarroi berdasarkan sumber/tidak distok.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Dayakan peruntukan automatik Operasi Projek dalam projek LCS
 
@@ -120,7 +122,7 @@ Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekit
 
 ![Gunakan Penyelesaian](./media/13ApplySolutions.png)
 
-5. Pilih kedua-dua penyelesaian, Peta Entiti Dual Write **Dynamics 365 Finance and Operations** dan **Peta Entiti Dual Write Operasi Projek Dynamics 365**, dan kemudian pilih **Gunakan**.
+5. Pilih kedua-dua penyelesaian, **Peta Entiti Dwi Tulis Dynamics 365 Finance and Operations** dan **Peta Entiti Dwi Tulis Dynamics 365 Project Operations**, dan kemudian pilih **Gunakan**.
 
 ![Sahkan Penyelesaian](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
 | --- | --- | --- | --- | --- | --- |
 | **Peranan Sumber Projek untuk Semua Syarikat (bookableresourcecategories)** | Tidak | Ya | Common Data Service | Tidak | T\A |
 | **Entiti sah (cdm\_syarikat)** | Tidak | Ya | Aplikasi Finance and Operations | Tidak | T\A |
+| **Lejar (msdyn_ledgers)** | Tidak | Ya | Aplikasi Finance and Operations | Ya | Ya, aplikasi Finance and Operations |
 | **Aktual integrasi Operasi Projek (msdyn\_aktual)** | Tidak | Tidak | T\A | Ya | Tidak |
 | **Baris kontrak projek (salesorderdetails)** | Tidak | Tidak | T\A | Tidak | Tidak |
 | **Entiti integrasi untuk hubungan transaksi projek (msdyn\_transactionconnections)** | Tidak | Tidak | T\A | Tidak | T\A |

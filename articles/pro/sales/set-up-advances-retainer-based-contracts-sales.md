@@ -1,5 +1,5 @@
 ---
-title: Kontrak berasaskan pendahuluan dan retainer - ringan
+title: Kontrak berasaskan pendahuluan dan retainer
 description: Topik ini memberikan maklumat tentang model kontrak berasaskan retainer dan pendahuluan dalam Operasi Projek.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180878"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596113"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Kontrak berasaskan pendahuluan dan retainer - ringan
+# <a name="advances-and-retainer-based-contracts"></a>Kontrak berasaskan pendahuluan dan retainer
 
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations menyokong kontrak berasaskan retainer. Kontrak berasaskan retainer merupakan set rundingan pembayaran yang diagihkan sama rata yang mana pelanggan akan diinvoiskan untuk sepanjang tempoh projek. Jenis kontrak ini biasanya digunakan untuk model pengebilan berasaskan masa dan material atau penggunaan yang mana terdapat keperluan untuk memberi pelanggan invois dan jadual pembayaran yang boleh diramal. Hasil sebenar terakru setiap tempoh akan diselaraskan dengan pembayaran yang diterima daripada pelanggan pada awal tempoh tersebut. Menurut konsep model pengebilan Masa dan Bahan, nilai hasil terakru dalam setiap tempoh mungkin berbeza dengan kos yang ditanggung. Jika hasil terakru lebih daripada jumlah yang diterima pada awal tempoh tersebut, syarikat penghantaran projek boleh:
+Dynamics 365 Project Operations menyokong kontrak berdasarkan retainer. Kontrak berasaskan retainer merupakan set rundingan pembayaran yang diagihkan sama rata yang mana pelanggan akan diinvoiskan untuk sepanjang tempoh projek. Jenis kontrak ini biasanya digunakan untuk model pengebilan berasaskan masa dan material atau penggunaan yang mana terdapat keperluan untuk memberi pelanggan invois dan jadual pembayaran yang boleh diramal. Hasil sebenar terakru setiap tempoh akan diselaraskan dengan pembayaran yang diterima daripada pelanggan pada awal tempoh tersebut. Menurut konsep model pengebilan Masa dan Bahan, nilai hasil terakru dalam setiap tempoh mungkin berbeza dengan kos yang ditanggung. Jika hasil terakru lebih daripada jumlah yang diterima pada awal tempoh tersebut, syarikat penghantaran projek boleh:
 
 - Hanya invois pelanggan untuk lebihan 
 - Tangguhkan penyelarasan hasil kepada tempoh penginvoisan yang seterusnya dan buat satu bil akhir pada penghujung projek untuk sebarang hasil berbaki yang tidak diselaraskan
@@ -33,7 +33,7 @@ Sebagai tambahan kepada jadual berasaskan retainer berkala, Operasi Projek boleh
 
 Retainer dalam Operasi Projek tidak tersedia untuk digunakan sehingga ia diinvoiskan kepada pelanggan. Ini ditunjukkan oleh medan berikut pada subgrid untuk pendahuluan dan retainer.
 
-| Medan | Penerangan  | Kesan hiliran |
+| Medan | Penerangan | Kesan hiliran |
 | --- | --- | --- |
 | Amaun Tersedia | Jumlah yang tersedia untuk digunakan pada rekod retainer atau pendahuluan. | Sehingga pendahuluan atau retainer diinvoiskan, ia tidak tersedia untuk digunakan yang bermaksud jumlah yang tersedia adalah sifar. |
 | Amaun Digunakan | Jumlah yang sudah digunakan pada rekod retainer atau pendahuluan. | Pendahuluan atau retainer boleh diselaraskan sebahagian pada invois dengan kos sebenar yang akan mempunyai beberapa bahagian yang ditanda sebagai sudah digunakan atau habis. Jumlah baki pendahuluan atau retainer tersedia untuk diselaraskan pada invois masa hadapan dengan kos sebenar. |
