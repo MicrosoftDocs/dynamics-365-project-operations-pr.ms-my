@@ -20,17 +20,15 @@
           items:
             - name: Mulakan projek LCS baharu
               href: environment/create-lcs-project.md
-            - name: Tambah langganan Azure untuk satu projek LCS
+            - name: Tambahkan langganan Azure pada projek LCS
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Guna data demo
           items:
-            - name: Guna data demo Project Operations ke persekitaran berhos awan Finance
-              href: environment/resource-apply-finance-demo-data.md
             - name: Gunakan data konfigurasi dalam Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Laksanakan persekitaran
           items:
-            - name: Peruntukkan persekitaran baharu
+            - name: Peruntukan persekitaran baharu
               href: environment/resource-provision-new-environment.md
             - name: Model keselamatan
               href: environment/security-model.md
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Ciri baharu
       items:
+        - name: Februari 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Januari 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: Disember 2020 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 - Project Operations untuk senario berdasarkan sumber/bukan stok
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Pendahuluan dan retainer
               items:
-                - name: Pendahuluan dan kontrak berdasarkan retainer - ringan
+                - name: Kontrak berdasarkan pendahuluan dan retainer
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Sediakan jadual retainer - ringan
+                - name: Sediakan jadual retainer
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Cipta pendahuluan ad hoc pada kontrak - ringan
+                - name: Cipta pendahuluan ad hoc pada kontrak
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Penentuan harga dan kos
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Perancangan struktur pecahan kerja
           items:
+            - name: Cipta struktur pecahan kerja
+              href: project-management/create-wbs.md
             - name: Cipta tugasan
               href: project-management/create-assignments.md
         - name: Anggarkan projek
@@ -230,8 +234,10 @@
           items:
             - name: Gambaran keseluruhan ahli pasukan projek
               href: project-management/project-team-members-overview.md
-            - name: Mengekalkan ahli pasukan
+            - name: Kekalkan ahli pasukan
               href: project-management/maintain-team-members.md
+        - name: Selesaikan masalah kerja dalam grid Tugas
+          href: project-management/projectplanningUIFAQ.md
         - name: Kerjasama
           items:
             - name: Kerjasama dengan Kumpulan Office
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Semak sumber yang dicadangkan
               href: resource-management/review-proposed-resources.md
+            - name: Edit tempahan
+              href: resource-management/edit-existing-bookings.md
         - name: Tempahan sumber tak terpusat (hibrid)
           items:
             - name: Tambah ahli pasukan daripada grid Ahli Pasukan
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Sediakan kategori perbelanjaan
                   href: expense/set-up-expense-categories.md
+            - name: Gunakan perbelanjaan peribadi pada laporan perbelanjaan
+              href: expense/personal-expenses-expense-report.md
             - name: Cipta laporan perbelanjaan
               items:
                 - name: Pengedaran pada laporan perbelanjaan
@@ -370,22 +380,28 @@
           items:
             - name: Cipta dan sahkan jurnal Pembetulan
               href: actuals/create-confirm-correction-journals.md
-    - name: Penginvoisan proforma
+    - name: Penginvoisan
       items:
-        - name: Urus tunggakan pengebilan projek
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Urus status dan pengesahan yang tidak boleh melebihi
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Cipta invois projek proforma secara manual
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Urus invois projek proforma
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Menginvois retainer atau pendahuluan
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Sahkan invois projek proforma
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Konfigurasikan automasi invois projek
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Gambaran keseluruhan proses penginvoisan
+          href: invoicing/post-project-invoices.md
+        - name: Urus cadangan invois projek
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Penginvoisan proforma
+          items:
+            - name: Urus tunggakan pengebilan projek
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Urus status dan pengesahan yang tidak boleh melebihi
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Cipta invois projek proforma secara manual
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Urus invois projek proforma
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Menginvois retainer atau pendahuluan
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Sahkan invois projek proforma
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Konfigurasikan automasi invois projek
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Perakaunan projek
       items:
         - name: Dimensi perakaunan lalai
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Konfigurasikan penginvoisan antara syarikat
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Cipta invois pelanggan dan vendor antara syarikat
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Cipta transaksi antara syarikat
               href: project-accounting/create-intercompany-transactions.md
+            - name: Cipta invois pelanggan dan vendor antara syarikat
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Pengiktirafan hasil
       items:
         - name: Gambaran keseluruhan pengiktirafan hasil
@@ -418,12 +434,12 @@
               href: project-accounting/period-types.md
             - name: Sediakan templat kos
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Uruskan anggaran hasil
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Projek anggaran hasil harga tetap
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Kos untuk melengkapkan kaedah
           href: revenue-recognition/cost-complete-methods.md
+        - name: Uruskan anggaran hasil
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Pelaksanaan ringan - urusan untuk penginvoisan proforma
   items:
     - name: Mari bermula
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Ciri baharu Disember 2020 - pelaksanaan ringan - urusan untuk penginvoisan proforma
+        - name: Perkara baharu Februari 2021 - pelaksanaan lite
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Perkara baharu Januari 2021 - pelaksanaan lite
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Perkara baharu Disember 2020 - pelaksanaan lite
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Ciri baharu November 2020 - pelaksanaan ringan - urusan untuk penginvoisan proforma
+        - name: Perkara baharu November 2020 - pelaksanaan lite
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proses jualan projek
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Perancangan struktur pecahan kerja
           items:
+            - name: Cipta struktur pecahan kerja
+              href: project-management/create-wbs.md
             - name: Cipta tugasan
               href: project-management/create-assignments.md
         - name: Anggarkan projek
@@ -656,12 +678,18 @@
           items:
             - name: Gambaran keseluruhan ahli pasukan projek
               href: project-management/project-team-members-overview.md
-            - name: Mengekalkan ahli pasukan
+            - name: Kekalkan ahli pasukan
               href: project-management/maintain-team-members.md
+        - name: Selesaikan masalah kerja dalam grid Tugas
+          href: project-management/projectplanningUIFAQ.md
         - name: Kerjasama
           items:
             - name: Kerjasama dengan Kumpulan Office
               href: project-management/collaboration-groups.md
+        - name: Nota pembangun
+          items:
+            - name: Bangunkan templat projek dengan Salin Projek
+              href: project-management/dev-copy-project.md
     - name: Pengurusan sumber
       items:
         - name: Konsep utama
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Semak sumber yang dicadangkan
               href: resource-management/review-proposed-resources.md
+            - name: Edit tempahan
+              href: resource-management/edit-existing-bookings.md
         - name: Tempahan sumber tak terpusat (hibrid)
           items:
             - name: Tambah ahli pasukan daripada grid Ahli Pasukan
@@ -772,7 +802,11 @@
   items:
     - name: Ciri baharu
       items:
-        - name: Perkara baharu November 2020 - Project Operations untuk senario berasaskan distok/pengeluaran
+        - name: Perkara baharu Januari 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Perkara baharu Disember 2020 - Project Operations untuk senario berdasarkan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+        - name: Perkara baharu November 2020 - Project Operations untuk senario berdasarkan distok/pengeluaran
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations untuk gambaran keseluruhan pelaksanaan senario berdasarkan distok/pengeluaran
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -906,9 +940,17 @@
       items:
         - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 26, V3'
+        - name: Perkara baharu atau perubahan dalam Keluaran Kemas kini 28.5 Hotfix V3
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 27.5 Hotfix, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 27, V3'
+          href: psa/whats-new-ur-27.md
+        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 26, V3'
           href: psa/whats-new-ur-26.md
-        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 25, V3'
+        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 24, V3'
           href: psa/whats-new-ur-24.md
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: Perkara baharu atau perubahan dalam Project Service Automation V3.x gelombang 1 2021
+          href: psa/whats-new-2021-wave1.md
         - name: Perkara baharu atau perubahan dalam Project Service Automation V3.x gelombang 1 2020
           href: psa/whats-new-v3-2020-wave1.md
         - name: Perkara baharu atau perubahan dalam Project Service Automation versi V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Tetapan projek
               href: psa/project-settings.md
+            - name: Rancang kerja anda dalam Microsoft Project dengan tambahan Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: Dimensi penentuan harga dan kos
           items:
             - name: Laman utama dimensi penentuan harga dan kos
