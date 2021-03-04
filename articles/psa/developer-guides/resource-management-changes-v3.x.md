@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081419"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148654"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Perubahan pengurusan sumber (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Bahagian topik ini menyediakan maklumat mengenai perubahan yang telah dibuat ke kawasan pengurusan Sumber Dynamics 365 Project Service Automation versi 3. x.
 
 ## <a name="project-estimates"></a>Anggaran projek
 
-Selain daripada yang berasaskan entiti **msdyn\_projecttask** ( **Tugas Projek** ), anggaran projek adalah berdasarkan kepada entiti **msdyn\_resourceassignment** ( **Tugasan sumber** ). Tugasan sumber telah menjadi "sumber kebenaran" untuk penjadualan tugas dan penetapan harga.
+Selain daripada yang berasaskan entiti **msdyn\_projecttask** (**Tugas Projek**), anggaran projek adalah berdasarkan kepada entiti **msdyn\_resourceassignment** (**Tugasan sumber**). Tugasan sumber telah menjadi "sumber kebenaran" untuk penjadualan tugas dan penetapan harga.
 
 ## <a name="line-tasks"></a>Tugas talian
 
@@ -65,7 +67,7 @@ Dalam PSA 3.x, tugasan yang tidak ditugaskan ialah tugasan yang ditugaskan kepad
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Medan penjadualan pada entiti Tugas Projek
 
-Medan pada **entiti msdyn\_projecttask** telah ditamatkan atau dipindahkan ke entiti **msdyn\_resourceassignment** atau ia kini dirujuk daripada entiti **msdyn\_projectteam** ( **Ahli Pasukan Projek** ).
+Medan pada **entiti msdyn\_projecttask** telah ditamatkan atau dipindahkan ke entiti **msdyn\_resourceassignment** atau ia kini dirujuk daripada entiti **msdyn\_projectteam**(**Ahli Pasukan Projek**).
 
 | Medan ditamatkan pada msdyn\_projecttask (Tugas projek) | Medan baharu tentang msdyn\_resourceassignment (Tugasan Sumber) | Komen |
 |---|---|---|
@@ -77,7 +79,7 @@ Medan pada **entiti msdyn\_projecttask** telah ditamatkan atau dipindahkan ke en
 
 ## <a name="schedule-contour"></a>Jadual kontur
 
-Kontur jadual tersebut disimpan dalam medan **Kerja Terancang** ( **msdyn\_plannedwork** ) bagi setiap entiti **Tugasan Sumber** ( **msdyn\_sumber** ).
+Kontur jadual tersebut disimpan dalam medan **Kerja Terancang** (**msdyn\_plannedwork**) bagi setiap entiti **Tugasan Sumber**(**msdyn\_sumber**).
 
 ### <a name="structure"></a>Struktur
 
@@ -139,7 +141,7 @@ Dalam contoh ini, tugas itu ditugaskan kepada dua sumber dan dijadualkan automat
 
 ## <a name="pricing-dimensions"></a>Dimensi penentuan harga
 
-Dalam PSA 3.x, medan dimensi penetapan harga khusus (seperti **Peranan** dan **Unit Organisasi** ) telah dialih keluar daripada entiti **msdyn\_projecttask**. Medan ini kini boleh diambil daripada ahli pasukan projek yang berkaitan ( **msdyn\_projectteam** ) daripada tugasan sumber ( **msdyn\_resourceassignment** ) apabila anggaran projek dijana. Medan baharu, **msdyn\_organizationalunit** , telah ditambah kepada entiti **msdyn\_projectteam**.
+Dalam PSA 3.x, medan dimensi penetapan harga khusus (seperti **Peranan** dan **Unit Organisasi**) telah dialih keluar daripada entiti **msdyn\_projecttask**. Medan ini kini boleh diambil daripada ahli pasukan projek yang berkaitan (**msdyn\_projectteam**) daripada tugasan sumber (**msdyn\_resourceassignment**) apabila anggaran projek dijana. Medan baharu, **msdyn\_organizationalunit**, telah ditambah kepada entiti **msdyn\_projectteam**.
 
 | Medan ditamatkan pada msdyn\_projecttask (Tugas projek) | Medan daripada msdyn\_projectteam (Ahli Pasukan Projek) yang digunakan sebagai ganti |
 |---|---|
@@ -155,12 +157,12 @@ Penetapan harga dan penganggaran medan kontur telah ditamatkan pada entiti **msd
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Medan berikut ditambah ke entiti **msdyn\_resourceassignment** :
+Medan berikut ditambah ke entiti **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Medan berikut untuk dirancang, sebenar dan baki kos dan jualan tidak berubah pada entiti **msdyn\_projecttask** :
+Medan berikut untuk dirancang, sebenar dan baki kos dan jualan tidak berubah pada entiti **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

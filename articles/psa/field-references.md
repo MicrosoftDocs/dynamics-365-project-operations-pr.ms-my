@@ -17,29 +17,32 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32d0dbc3a69d713dcae8d27e52f2a0c6fc296127
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081334"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148474"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Tambah medan tersuai untuk persediaan harga dan entiti transaksi 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Topik ini menganggap bahawa anda telah melengkapkan prosedur dalam topik, [Cipta medan dan entiti tersuai](create-custom-fields-entities.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkan mereka dan kemudian kembali ke topik ini. 
 
 Dalam topik ini, prosedur akan menunjukkan anda cara menambah medan tersuai diperlukan yang merujuk kepada entiti dan kepada unsur antara muka pengguna (UI) seperti borang dan pandangan.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Tambah medan dimensi penentuan harga tersuai 
-Selepas medan dan entiti tersuai dicipta, langkah seterusnya ialah untuk membuat persediaan harga dan entiti yang maklum dengan entiti tersuai atau set pilihan dengan mencipta medan keutamaan. Bergantung pada sama ada senarai dimensi penentuan harga anda memasukkan dimensi set pilihan atau dimensi entiti atau kedua-duanya, ikuti hanya langkah dalam **Dimensi penentuan harga tersuai berasaskan set pilihan** atau **Dimensi penentuan harga tersuai berasaskan entiti** , atau kedua-duanya, masing-masing.
+Selepas medan dan entiti tersuai dicipta, langkah seterusnya ialah untuk membuat persediaan harga dan entiti yang maklum dengan entiti tersuai atau set pilihan dengan mencipta medan keutamaan. Bergantung pada sama ada senarai dimensi penentuan harga anda memasukkan dimensi set pilihan atau dimensi entiti atau kedua-duanya, ikuti hanya langkah dalam **Dimensi penentuan harga tersuai berasaskan set pilihan** atau **Dimensi penentuan harga tersuai berasaskan entiti**, atau kedua-duanya, masing-masing.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Dimensi penentuan harga tersuai berasaskan set pilihan
 Apabila dimensi penentuan harga tersuai adalah berasaskan set pilihan, tambah ia sebagai medan pada entiti Project Service utama. Dalam prosedur berikut, **Lokasi Kerja Sumber** dan **Waktu Bekerja Sumber** digunakan sebagai dimensi penentuan harga berasaskan set pilihan. Ini mestilah terlebih dahulu ditambah sebagai medan untuk entiti penentuan harga, **Harga Peranan** dan **Tokokan Harga Peranan**.
 
-1. Dalam Project Service Automation (PSA), klik **Tetapan** > **Penyelesaian** , kemudian klik dua kali dimensi penentuan harga **\<your organization name>**. 
+1. Dalam Project Service Automation (PSA), klik **Tetapan** > **Penyelesaian**, kemudian klik dua kali dimensi penentuan harga **\<your organization name>**. 
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti > Harga Peranan**.
 3. Kembangkan entiti **Harga Peranan** dan pilih **Medan**.
 4. Klik **Baharu** untuk mencipta medan baharu dipanggil **Lokasi Kerja Sumber** dan pilih **Set Pilihan** sebagai jenis medan. 
-5. Pilih **Guna set pilihan sedia ada** , pilih set pilihan **Lokasi Kerja Sumber** , kemudian klik **Simpan**.
+5. Pilih **Guna set pilihan sedia ada**, pilih set pilihan **Lokasi Kerja Sumber**, kemudian klik **Simpan**.
 6. Ulangi langkah 1 - 5 untuk menambah medan pada entiti **Tokokan Harga Peranan**. 
 7. Ulangi langkah 1 - 5 untuk set pilihan **Waktu Bekerja Sumber**.
 
@@ -48,27 +51,27 @@ Apabila dimensi penentuan harga tersuai adalah berasaskan set pilihan, tambah ia
 
 > ![Menambah Lokasi Kerja Sumber pada Harga Peranan](media/RWL-Field.png)
 
-Dalam jualan dan fasa anggaran untuk projek, anggaran untuk usaha kerja yang diperlukan untuk melengkapkan kerja **Tempatan** dan **Di Tapak** , dalam **Jam biasa** dan **Jam lebih masa**  digunakan untuk menganggarkan nilai Sebut Harga/Projek Medan **Lokasi Kerja Sumber** dan **Waktu Kerja Sumber** akan ditambah pada entiti anggaran, **Butiran Baris Sebut Harga** , **Butiran Baris Kontrak** , **Tugas Projek** , **Ahli Pasukan Projek** , dan **Baris Anggaran**.
+Dalam jualan dan fasa anggaran untuk projek, anggaran untuk usaha kerja yang diperlukan untuk melengkapkan kerja **Tempatan** dan **Di Tapak**, dalam **Jam biasa** dan **Jam lebih masa**  digunakan untuk menganggarkan nilai Sebut Harga/Projek Medan **Lokasi Kerja Sumber** dan **Waktu Kerja Sumber** akan ditambah pada entiti anggaran, **Butiran Baris Sebut Harga**, **Butiran Baris Kontrak**, **Tugas Projek**, **Ahli Pasukan Projek**, dan **Baris Anggaran**.
 
 1. Dalam PSA, klik **Tetapan** > **Penyelesaian** dan kemudian klik dua kali dimensi penetapan harga **\<your organization name>**. 
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti > Butiran Baris Sebut Harga**.
 3. Kembangkan entiti **Butiran Baris Sebut Harga** dan pilih **Medan**.
 4. Klik **Baharu** untuk mencipta medan baharu dipanggil **Lokasi Kerja Sumber** dan pilih jenis medan **Set Pilihan**. 
-5. Pilih **Guna set pilihan sedia ada** , dan **Lokasi Kerja Sumber** , kemudian klik **Simpan**.
-6. Ulangi langkah 1 - 5 untuk menambah medan ini pada entiti **Butiran Baris Kontrak Projek** , **Tugas Projek** , **Ahli Pasukan Projek** , dan **Baris Anggaran**.
+5. Pilih **Guna set pilihan sedia ada**, dan **Lokasi Kerja Sumber**, kemudian klik **Simpan**.
+6. Ulangi langkah 1 - 5 untuk menambah medan ini pada entiti **Butiran Baris Kontrak Projek**,**Tugas Projek**, **Ahli Pasukan Projek**, dan **Baris Anggaran**.
 7. Ulangi langkah 1 - 6 untuk set pilihan **Waktu Bekerja Sumber**. 
 
 > ![Menambah Lokasi Kerja Sumber pada Baris Anggaran](media/RWL-Default-Value.png)
 
 
-Untuk penghantaran dan pengivoisan, kerja yang telah selesai perlukan diberikan harga dengan tepat untuk memilih sama ada ia dijalankan secara **Tempatan** atau **Di Tapak** , dan sama ada ia dilengkapkan semasa **Jam biasa** atau **lebih masa** dalam Aktual Projek. Medan **Lokasi Kerja Sumber** dan **Jam Kerja Sumber** hendaklah ditambah pada entiti **Entri Masa** , **Aktual** , **Butiran Baris Invois** , dan **Baris Jurnal**.
+Untuk penghantaran dan pengivoisan, kerja yang telah selesai perlukan diberikan harga dengan tepat untuk memilih sama ada ia dijalankan secara **Tempatan** atau **Di Tapak**, dan sama ada ia dilengkapkan semasa **Jam biasa** atau **lebih masa** dalam Aktual Projek. Medan **Lokasi Kerja Sumber** dan **Jam Kerja Sumber** hendaklah ditambah pada entiti **Entri Masa**, **Aktual**, **Butiran Baris Invois**, dan **Baris Jurnal**.
 
 1. Dalam PSA, klik **Tetapan** > **Penyelesaian** dan kemudian klik dua kali dimensi penetapan harga **\<your organization name>**.
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti > Entri Masa**.
 3. Kembangkan entiti **Butiran Baris Sebut Harga** dan pilih **Medan**.
 4. Klik **Baharu** untuk mencipta medan baharu dipanggil **Lokasi Kerja Sumber** dan pilih **Set Pilihan** sebagai jenis medan. 
-5. Pilih **Guna set pilihan sedia ada** , pilih set pilihan **Lokasi Kerja Sumber** , kemudian klik **Simpan**.
-6. Ulangi langkah 1 - 5 untuk menambah medan pada entiti **Aktual** , **Butiran Baris Invois** , dan **Baris Jurnal**.
+5. Pilih **Guna set pilihan sedia ada**, pilih set pilihan **Lokasi Kerja Sumber**, kemudian klik **Simpan**.
+6. Ulangi langkah 1 - 5 untuk menambah medan pada entiti **Aktual**, **Butiran Baris Invois**, dan **Baris Jurnal**.
 7. Ulangi langkah 1 - 6 untuk set pilihan **Waktu Bekerja Sumber**. 
 
 > ![Menambah Lokasi Kerja Sumber pada Entri Masa](media/RWL-time-entry.png)
@@ -91,7 +94,7 @@ Jawatan Standard juga perlu ditambah pada entiti Penentuan Harga Project Service
 1. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti > Jawatan Standard**.
 2. Kembangkan entiti **Jawatan Standard** dan pilih **Hubungan 1:N**.
 3. Klik **Baharu** untuk mencipta hubungan 1:N baharu yang dipanggil **Jawatan Standard untuk Harga Peranan**. Masukkan maklumat diperlukan, kemudian klik **Simpan**.
-4. Ulangi langkah 1 - 4 untuk mencipta hubungan 1:N antara entiti **Jawatan Standard** dan **Tokokan Harga Peranan** ,
+4. Ulangi langkah 1 - 4 untuk mencipta hubungan 1:N antara entiti **Jawatan Standard** dan **Tokokan Harga Peranan**,
 
 Dalam jualan dan fasa anggaran untuk projek, untuk memberikan harga bagi Sebut Harga/Projek, anggaran usaha kerja diperlukan untuk setiap jawatan standard. Ini bermakna hubungan 1:N daripada Jawatan Standard untuk setiap entiti anggaran ini dalam Project Service diperlukan: 
 
@@ -101,13 +104,13 @@ Dalam jualan dan fasa anggaran untuk projek, untuk memberikan harga bagi Sebut H
 - **Ahli Pasukan Projek**
 - **Garisan Anggaran**
 
-5. Ulangi langkah 1 - 5 untuk mencipta hubungan 1:N daripada **Tajuk Standard** kepada **Butiran Baris Sebut Harga** , **Butiran Baris Kontrak Projek** , **Tugas Projek** , **Ahli Pasukan Projek** , dan **Baris Anggaran**.
+5. Ulangi langkah 1 - 5 untuk mencipta hubungan 1:N daripada **Tajuk Standard** kepada **Butiran Baris Sebut Harga**, **Butiran Baris Kontrak Projek**, **Tugas Projek**, **Ahli Pasukan Projek**, dan **Baris Anggaran**.
 
 > ![Menambah Jawatan Standard sebagai medan rujukan untuk Baris Anggaran](media/ST-Estimate-Line.png)
 
-Dalam fasa Penghantaran dan Penginvoisan, kerja yang selesai oleh setiap jawatan standard mestilah diberikan harga dengan tepat dalam Aktual Projek. Ini bermakna perlulah ada hubungan 1:N dari **Jawatan Standard** kepada **Entri Masa** , **Aktual** , **Butiran Baris Invois** , dan **Entiti Baris Jurnal**.
+Dalam fasa Penghantaran dan Penginvoisan, kerja yang selesai oleh setiap jawatan standard mestilah diberikan harga dengan tepat dalam Aktual Projek. Ini bermakna perlulah ada hubungan 1:N dari **Jawatan Standard** kepada **Entri Masa**, **Aktual**, **Butiran Baris Invois**, dan **Entiti Baris Jurnal**.
 
-6. Ulangi langkah 1- 6 untuk mencipta hubungan 1:N dari **Jawatan Standard** kepada **Entri Masa** , **Aktual** , **Butiran Baris Invois** , dan **Entiti Baris Jurnal**.
+6. Ulangi langkah 1- 6 untuk mencipta hubungan 1:N dari **Jawatan Standard** kepada **Entri Masa**, **Aktual**, **Butiran Baris Invois**, dan **Entiti Baris Jurnal**.
 
 > ![Menambah Jawatan Standard sebagai medan rujukan untuk Entri Masa](media/ST-Mapping.png)
 
@@ -116,7 +119,7 @@ Untuk Entri Masa, ia tentu membantu mempunyai lalai sistem jawatan standard dala
 
 1. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti > Jawatan Standard**.
 2. Kembangkan entiti **Jawatan Standard** dan pilih **Hubungan 1:N**.
-3. Klik dua kali **Sumber Boleh Tempah untuk Entri Masa**. Dalam halaman **Hubungan** , klik **Guna pemetaan Medan**. 
+3. Klik dua kali **Sumber Boleh Tempah untuk Entri Masa**. Dalam halaman **Hubungan**, klik **Guna pemetaan Medan**. 
 4. Klik **Baharu** untuk mencipta pemetaan medan baharu antara medan **Jawatan Standard** dalam entiti **Sumber Boleh Ditempah** kepada medan rujukan **Jawatan Standard** dalam entiti **Entri Masa**. 
 
 > ![Menyediakan pemetaan medan untuk membolehkan lalai Jawatan Standard daripada Sumber Boleh Ditempah kepada Entri Masa](media/ST-Mapping2.png)
@@ -129,7 +132,7 @@ Ini melengkapkan perubahan skema yang diperlukan untuk dimensi tersuai berasaska
 Selepas anda membuat semua perubahan skema yang diperlukan, langkah seterusnya adalah menjadikan medan boleh dilihat dalam UI dengan menambah medan pada borang dan pandangan.
 
 1. Buka borang atau pandangan. Dalam anak tetingkap navigasi kanan, pilih medan dan seret ke atas kanvas borang. 
-2. Jika anda mengedit pandangan, guna anak tetingkap navigasi kanan, klik **Tambah Medan** , dan dalam kotak dialog **Penyenaraian Medan** , pilih medan yang anda perlukan dan klik **Ok**.
+2. Jika anda mengedit pandangan, guna anak tetingkap navigasi kanan, klik **Tambah Medan**, dan dalam kotak dialog **Penyenaraian Medan**, pilih medan yang anda perlukan dan klik **Ok**.
 
 Jadual berikut memberikan senarai penyeluruh borang dan pandangan luar kotak, mengikut entiti, yang perlu dikemas kini dengan medan baharu. Jika anda ada pandangan atau borang tambahan dalam penyesuaian anda ke atas entiti ini, tambah medan baharu ke atasnya juga.
 

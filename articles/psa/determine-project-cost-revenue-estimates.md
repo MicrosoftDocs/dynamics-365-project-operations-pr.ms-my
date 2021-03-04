@@ -3,6 +3,7 @@ title: Tentukan kos projek dan anggaran hasil
 description: Cara untuk menentukan kos projek dan anggaran hasil dalam Project Service
 author: ruhercul
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133019"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148834"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Tentukan kos projek dan anggaran hasil 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,9 +49,9 @@ Jika gabungan peranan dan unit organisasi tidak menghasilkan harga kos, unit org
  Semua amaun kos pada garisan anggaran kos projek berada dalam mata wang unit organisasi pemilikan.  
   
 ## <a name="sales-price-defaulting"></a>Penetapan nilai lalai harga jualan  
-Senarai harga jualan adalah berdasarkan entiti jualan yang dilampirkan pada projek. Senarai harga jualan yang berkaitan dengan sebut harga atau kontrak menentukan harga jualan unit. Jika sebut harga atau kontrak mempunyai senarai harga tersuai, ini akan menjadi senarai harga jualan lalai untuk anggaran projek. Jika tiada kaitan dengan entiti jualan, maka senarai harga jualan lalai yang dikonfigurasikan dalam tetapan parameter akan menjadi senarai harga jualan lalai bagi projek tersebut. Setiap garisan anggaran mempunyai unit organisasi sumber yang berkaitan untuk menunjukkan unit organisasi bagi sumber yang akan ditempah untuk melengkapkan tugas. Harga jualan untuk peranan berkaitan ditentukan dengan mencari gabungan peranan, unit dan unit organisasi sumber dalam senarai harga jualan untuk mendapatkan harga jualan yang betul untuk tarikh berkuat kuasa pada garisan anggaran.  
+Senarai harga jualan adalah berdasarkan entiti jualan yang dilampirkan pada projek. Senarai harga jualan yang berkaitan dengan sebut harga atau kontrak menentukan harga jualan unit. Jika sebut harga atau kontrak mempunyai senarai harga tersuai, ia adalah senarai harga jualan lalai untuk anggaran projek. Jika tiada kaitan dengan entiti jualan, maka senarai harga jualan lalai yang dikonfigurasikan dalam tetapan parameter akan menjadi senarai harga jualan lalai bagi projek tersebut. Setiap garisan anggaran mempunyai unit organisasi sumber yang berkaitan untuk menunjukkan unit organisasi bagi sumber yang akan ditempah untuk melengkapkan tugas. Harga jualan untuk peranan berkaitan ditentukan dengan mencari gabungan peranan, unit dan unit organisasi sumber dalam senarai harga jualan untuk mendapatkan harga jualan yang betul untuk tarikh berkuat kuasa pada garisan anggaran.  
   
-Jika gabungan peranan, unit dan unit organisasi sumber tidak menghasilkan harga jualan daripada senarai harga jualan, sistem akan mengabaikan unit dan mencari gabungan peranan dan unit organisasi sumber. Jika harga jualan ditemui, ini akan ditukar kepada unit yang anda pilih pada garisan anggaran jualan.  
+Jika gabungan peranan, unit dan unit organisasi sumber tidak menghasilkan harga jualan daripada senarai harga jualan, sistem akan mengabaikan unit dan mencari gabungan peranan dan unit organisasi sumber. Jika harga jualan ditemui, ia ditukar kepada unit yang anda pilih pada garisan anggaran jualan.  
   
 Jika sistem tidak menemui harga untuk peranan, maka harga jualan mesti menjadi lalai kepada 0.00 pada garisan anggaran.  
   
@@ -58,9 +61,9 @@ Pandangan anggaran mempunyai pandangan grid y ang memaparkan grid rata garisan a
 Dalam pandangan berfasa masa untuk anggaran projek, data anggaran daripada pandangan grid dipangsi secara lalai mengikut peranan dan menunjukkan penyebaran data anggaran merentasi garis masa dalam skala masa yang dipilih.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Peruntukan anggaran usaha berdasarkan mod tugas  
-Dalam pandangan berfasa masa, jumlah anggaran usaha untuk tugas diagihkan dengan memperuntukkan beberapa jam usaha tertentu per tempoh masa unit skala masa yang dipilih. Dalam Project Service, mod tugas menentukan bagaimana usaha diperuntukkan merentasi tempoh tugas. Dua jenis peruntukan ialah peruntukan sekata dan jam kerja berdasarkan peruntukan  
+Dalam pandangan berfasa masa, jumlah anggaran usaha untuk tugas diagihkan dengan memperuntukkan beberapa jam usaha tertentu per tempoh masa unit skala masa yang dipilih. Dalam Project Service, mod tugas menentukan bagaimana usaha diperuntukkan merentasi tempoh tugas. Dua jenis peruntukan ialah peruntukan sekata dan peruntukan berdasarkan jam kerja. 
   
-## <a name="work-hours-based-allocation"></a>Jam kerja berdasarkan peruntukan  
+## <a name="work-hours-based-allocation"></a>Peruntukan berasaskan jam kerja  
 Penjadualan auto mod tugas bagi tugas mengawal peruntukan tersebut untuk bilangan sumber yang dianggarkan dalam tugas, ia dianggarkan akan digunakan untuk jam kerja penuh setiap hari. Ini digunakan apabila memperuntukkan usaha dengan memisahkannya merentasi tempoh tugas juga dalam pandangan berfasa masa. Contohnya, pada skala masa 'Hari', untuk tugas yang dianggarkan akan dilengkapkan oleh satu sumber, usaha yang diperuntukkan setiap hari tidak akan melebihi jam kerja setiap hari yang ditakrifkan dalam kalendar projek. Oleh itu, peruntukan usaha sentiasa memastikan bahawa sumber dianggarkan akan digunakan untuk sepanjang hari.  
   
 ## <a name="even-distribution"></a>Pengagihan sekata  
@@ -69,12 +72,12 @@ Mod tugas yang dijadualkan secara manual tidak menghormati jam kerja, kalendar p
 Dengan cara ini, mod tugas yang ditakrifkan dalam tugas menentukan pengagihan usaha atau peruntukan usaha setiap tempoh masa unit dalam anggaran berfasa masa.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Pengumpulan dan pilihan pemfasaan masa  
-Pandangan ini membantu anda memahami pengagihan usaha, kos dan anggaran jualan berasaskan setiap hari, minggu, bulan atau tahun. Pilihan Himpun Mengikut membenarkan pemangsian data anggaran pada dua dimensi lain: kategori dan sumber. Pada kedua-dua pandangan grid dan pandangan berfasa masa, anda boleh memilih medan untuk dipaparkan. Jumlah untuk setiap blok masa dipaparkan di bahagian bawah yang menunjukkan jumlah usaha, kos dan jualan yang dianggarkan untuk hari, minggu, bulan atau tahun.  
+Pandangan ini membantu anda memahami pengagihan usaha, kos dan anggaran jualan berasaskan setiap hari, minggu, bulan atau tahun. Pilihan Himpun Mengikut membenarkan pemangsian data anggaran pada dua dimensi lain: kategori dan sumber. Pada kedua-dua pandangan grid dan pandangan berfasa masa, anda boleh memilih medan untuk dipaparkan. Jumlah untuk setiap blok masa dipaparkan di bahagian bawah yang menunjukkan jumlah usaha, kos dan jualan bagi hari, minggu, bulan atau tahun.  
   
-Penetapan nilai lalai harga kos dan jualan adalah tarikh berkuat kuasa—apabila kadar untuk peranan berubah, ia akan menjadi lebih telus dalam pandangan berfasa masa ketika memaparkan data anggaran yang dipangsikan pada 'Sumber' dan berfasa masa mengikut minggu.  
+Harga kos dan harga jualan lalai adalah berkesan tarikh. Aapbila kadar untuk peranan berubah, ia akan menjadi lebih telus dalam pandangan berfasa masa ketika memaparkan data anggaran yang dipangsikan pada 'Sumber' dan berfasa masa mengikut minggu.  
   
 ## <a name="expense-estimates"></a>Anggaran perbelanjaan  
-Sebarang perbelanjaan yang akan dikenakan dalam projek yang tidak berkaitan secara terus dengan buruh untuk dibelanjakan boleh direkodkan dalam anggaran projek dalam pandangan grid. Anda boleh melaksanakan ini menggunakan pilihan **Tambah anggaran perbelanjaan** dalam pandangan grid. Anggaran perbelanjaan boleh direkodkan untuk tugas khusus atau untuk keseluruhan projek; anda boleh memilih kategori perbelanjaan pada garisan ini dan memilih tarikh tentatif perbelanjaan dijangka akan ditanggung. Jika senarai harga kos dan jualan yang berkaitan mempunyai harga lalai atau peratusan tokokan yang ditakrifkan untuk kategori perbelanjaan, ia akan ditetapkan kepada nilai lalai pada garisan anggaran dalam perkaitan.  
+Sebarang perbelanjaan yang akan dikenakan dalam projek yang tidak berkaitan secara terus dengan buruh untuk dibelanjakan boleh direkodkan dalam anggaran projek dalam pandangan grid. Anda boleh melaksanakan ini menggunakan pilihan **Tambah anggaran perbelanjaan** dalam pandangan grid. Anggaran perbelanjaan boleh direkodkan untuk tugas tertentu atau untuk keseluruhan projek. Anda boleh memilih kategori perbelanjaan pada baris ini dan pilih tarikh tentatif apabila perbelanjaan tersebut dijangka akan berlaku. Jika senarai harga kos dan jualan yang berkaitan mempunyai harga lalai atau peratusan tokokan yang ditakrifkan untuk kategori perbelanjaan, ia akan ditetapkan kepada nilai lalai pada garisan anggaran dalam perkaitan.  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)

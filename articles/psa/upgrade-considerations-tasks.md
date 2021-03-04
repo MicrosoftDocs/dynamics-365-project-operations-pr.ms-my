@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121814"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149554"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Peningkatan pertimbangan untuk struktur pecahan kerja
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Topik ini memberikan maklumat mengenai menaik taraf struktur pecahan kerja daripada Project Service Automation 2.x ke 3.x. Topik ini mentakrifkan keadaan sihat projek dalam Project Service Automation (PSA) yang diperlukan untuk naik taraf yang berjaya. Terdapat juga maklumat mengenai syarat menyekat umum yang akan menyebabkan peningkatan untuk gagal. Untuk mendapatkan maklumat lanjut tentang mentakrifkan tugas projek dan fungsi mereka dalam jadual projek, lihat [Jadual project](project-creating.md).
 
 ## <a name="key-entities"></a>Entiti utama

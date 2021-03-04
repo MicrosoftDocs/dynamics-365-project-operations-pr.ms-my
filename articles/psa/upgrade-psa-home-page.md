@@ -2,6 +2,7 @@
 title: Naik taraf laman utama
 description: Topik ini menunjukkan di mana untuk mencari maklumat penting mengenai ciri baharu dan diubah dalam Dynamics 365 Project Service Automation dan proses untuk menaik taraf kepada versi terbaharu.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121769"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150094"
 ---
 # <a name="upgrade-home-page"></a>Naik taraf laman utama
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Pada 17 Mei 2019, apabila Project Service Automation dipilih semasa peruntukan t
 
 ### <a name="existing-instances"></a>Tika sedia ada
 
-Sebelum ini, pelanggan yang mempunyai tika PSA versi 2. x dan perlu menaik taraf kepada versi 3.x, yang merupakan versi Berasaskan antara muka klien disatukan (UCI) bagi PSA, mesti menghubungi Sokongan Microsoft dan menyediakan butiran tika mereka, supaya sokongan boleh mendayakan tika bagi naik taraf kepada versi 3.x. Pada 1 Mac 2020, pelanggan yang mempunyai tika PSA versi 2.x dan perlu menaik taraf kepada versi 3.x, akan dapat menaik taraf tika mereka secara terus daripada portal Pentadbir tanpa perlu menghubungi Sokongan Microsoft.  
+Sebelum ini, pelanggan yang mempunyai tika versi PSA 2.x dan perlu menaik taraf kepada versi 3.x, yang berasaskan antara muka klien Disatukan (UCI) versi PSA, mesti menghubungi Sokongan Microsoft dan menyediakan butiran tika mereka, supaya sokongan boleh mendayakan tika untuk naik taraf kepada versi 3.x. Bermula 1 Mac 2020, pelanggan yang mempunyai tika PSA versi 2.x dan perlu menaik taraf kepada versi 3.x akan dapat menaik taraf tika mereka secara terus daripada portal Pentadbir tanpa perlu menghubungi Sokongan Microsoft.  
 
 > [!NOTE]
 > PSA versi 3.x termasuk perubahan ketara. Ia telah dibina pada rangka kerja Antara Muka Disatukan untuk membantu menyediakan pengalaman pengguna yang lebih baik. Aplikasi direka bentuk semula menghantar yang konsisten dan seragam (UI) dan ia mengikut prinsip reka bentuk responsif untuk pandangan optimum pada sebarang saiz skrin atau peranti. Telah ada perubahan lain di seluruh aplikasi. Antara kawasan yang telah ditukar termasuk penetapan harga, penempahan dan pemberian sumber, masa, perbelanjaan dan kelulusan.
@@ -58,7 +61,7 @@ Selepas anda menyemak topik yang disebutkan sebelum ini dan bersedia untuk menai
 
 Pada 17 Mei, 2019, semua tika baru akan mempunyai UCI sebagai klien lalai. Untuk penjajaran dengan perubahan ini, PSA versi 3.x dan Field Service Version 8.x akan diperuntukkan secara lalai, kerana versi ini direka untuk berfungsi dengan klien UCI.
 
-Mulai 1 Mac 2020, pelanggan Dynamics PSA tidak lagi akan dapat mencipta persekitaran baharu dengan versi PSA yang lebih lama, contohnya PSA versi 2.x atau lebih rendah. Sebarang persekitaran baharu akan hanya mendapat versi 3.x PSA.
+Bermula 1 Mac 2020, pelanggan Dynamics PSA tidak lagi perlu mencipta persekitaran baharu dengan versi PSA yang lama, contohnya PSA versi 2.x atau ke bawah. Sebarang persekitaran baharu akan hanya mendapat versi 3.x PSA.
 
 > [!NOTE]
 > Untuk pengalaman terbaik apabila anda menggunakan versi lebih lama daripada Field Service dan aplikasi PSA, pergi ke halaman **Tetapan sistem** dan untuk medan **Gunakan medan baru Antara Muka Disatukan hanya (disyorkan)**, pilih **Tidak** sebagai versi ini tidak direka untuk dimuatkan dengan betul dalam UCI. Selepas anda memadamkan UCI, anda boleh buka dan jalankan versi Field Service ini dan PSA dengan menggunakan klien web lama. 
