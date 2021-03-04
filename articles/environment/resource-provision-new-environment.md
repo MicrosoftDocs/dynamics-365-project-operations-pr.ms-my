@@ -3,17 +3,18 @@ title: Peruntukan persekitaran baharu
 description: Topik ini memberikan maklumat tentang cara menyediakan persekitaran Operasi Projek baru.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642993"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727801"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -60,17 +61,15 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
 
 ![Persetujuan Pelaksanaan](./media/2DeploymentConsent.png)
 
-7. Lengkapkan baki medan yang diperlukan dalam wizard dan sahkan pelaksanaan. Masa peruntukan persekitaran berbeza mengikut jenis persekitaran. Peruntukan mungkin mengambil masa sehingga enam jam.
+7. Pilihan - Gunakan data demo pada persekitaran. Pergi ke **Tetapan lanjutan**, pilih **Sesuaikan Konfigurasi Pangkalan Data SQL**, dan tetapkan **Nyatakan set data untuk pangkalan data Aplikasi** kepada **Demo**.
+
+8. Lengkapkan baki medan yang diperlukan dalam wizard dan sahkan pelaksanaan. Masa untuk peruntukan persekitaran berbeza berdasarkan pada jenis persekitaran. Peruntukan mungkin mengambil masa sehingga enam jam.
 
   Selepas pelaksanaan berjaya diselesaikan, persekitaran akan ditunjukkan seperti yang **Dilaksanakan**.
 
-8. Untuk mengesahkan persekitaran yang berjaya dilaksanakan, pilih **Log Masuk** dan log pada persekitaran untuk mengesahkan.
+9. Untuk mengesahkan bahawa persekitaran telah berjaya digunakan, pilih **Log masuk** dan log masuk pada persekitaran untuk mengesahkan.
 
 ![Butiran Persekitaran](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Mohon data demo Kewangan Operasi Projek (langkah pilihan)
-
-Mohon data demo Kewangan Operasi Projek ke Persekitaran Berhos Awan keluaran perkhidmatan 10.0.13 seperti yang diterangkan dalam [artikel ini](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Gunakan kemas kini kepada persekitaran kewangan
 
@@ -82,7 +81,7 @@ Anda mungkin perlu menggunakan kemas kini kualiti kepada persekitaran kewangan a
 
 ![Lihat Kemas Kini](./media/5ViewUpdates.png)
 
-2. Pada halaman **Kemas kini Penduaan**, pilih **Simpan pakej.**
+2. Pada halaman **Kemas kini binari**, pilih **Simpan pakej.**
 
 ![Simpan pakej](./media/6SavePackage.png)
 
@@ -152,6 +151,21 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
 
 ![Pengesahan Segar Semula](./media/19RefreshConfirmation.png)
 
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Kemas kini tetapan keselamatan pada Project Operations pada Dataverse
+
+1. Pergi ke Project Operations pada persekitaran Dataverse anda. 
+2. Pergi ke **Tetapan** > **Keselamatan** > **Peranan keselamatan**. 
+3. Pada halaman **Peranan keselamatan**, dalam senarai peranan, pilih **pengguna aplikasi dwitulis** dan pilih tab **Entiti Tersuai**.  
+4. Sahkan bahawa peranan mempunyai keizinan **Baca** dan **Tambah Pada** untuk:
+      
+      - **Jenis Kadar Tukaran Mata Wang**
+      - **Carta Akaun**
+      - **Kalendar Fiskal**
+      - **Lejar**
+
+5. Selepas peranan keselamatan dikemas kini, pergi ke **Tetapan** > **Keselamatan** > **Pasukan**, dan pilih pasukan lalai dalam paparan pasukan **Pemilik Perniagaan Tempatan**.
+6. Pilih **Urus Peranan** dan sahkan bahawa kelayakan keselamatan **pengguna aplikasi dwitulis** telah dikenakan kepada mereka.
+
 ## <a name="run-project-operations-dual-write-maps"></a>Jalankan peta Dual Write Operasi Projek
 
 1. Dalam projek LCS anda, pergi ke halaman **Butiran persekitaran**.
@@ -163,7 +177,7 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
 | **Peranan Sumber Projek untuk Semua Syarikat (bookableresourcecategories)** | Tidak | Ya | Common Data Service | Tidak | T\A |
 | **Entiti sah (cdm\_syarikat)** | Tidak | Ya | Aplikasi Finance and Operations | Tidak | T\A |
 | **Lejar (msdyn_ledgers)** | Tidak | Ya | Aplikasi Finance and Operations | Ya | Ya, aplikasi Finance and Operations |
-| **Aktual integrasi Operasi Projek (msdyn\_aktual)** | Tidak | Tidak | T\A | Ya | Tidak |
+| **Aktual integrasi Project Operations (msdyn\_aktual)** | Tidak | Tidak | T\A | Ya | Tidak |
 | **Baris kontrak projek (salesorderdetails)** | Tidak | Tidak | T\A | Tidak | Tidak |
 | **Entiti integrasi untuk hubungan transaksi projek (msdyn\_transactionconnections)** | Tidak | Tidak | T\A | Tidak | T\A |
 | **Pencapaian baris kontrak integrasi Operasi Projek (msdyn\_contractlinesscheduleofvalues)** | Tidak | Tidak | T\A | Tidak | T\A |

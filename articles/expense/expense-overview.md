@@ -5,15 +5,16 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122848"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764920"
 ---
 # <a name="expense-home-page"></a>Halaman utama perbelanjaan
 
@@ -28,7 +29,7 @@ Dalam Project Operations, Terdapat dua model pelaksanaan yang disokong untuk Per
 - **Asas**: Pelaksanaan asas tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** dan **Pelaksanaan Lite – berurusan dengan penginvoisan proforma**.
 
 ## <a name="full"></a>Penuh 
-Pelaksanaan Perbelanjaan Penuh menyediakan penguatkuasaan dasar yang lengkap yang termasuk keupayaan untuk mencipta dasar, seperti:
+Pelaksanaan Perbelanjaan Penuh menyediakan penguatkuasaan dasar yang lengkap yang merangkumi keupayaan untuk mencipta dasar, seperti:
 
   - Had kategori perbelanjaan
   - Pelancongan

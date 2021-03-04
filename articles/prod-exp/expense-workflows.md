@@ -16,22 +16,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081382"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960528"
 ---
 # <a name="set-up-expense-management-workflows"></a>Sediakan aliran kerja Pengurusan perbelanjaan
-
-[!include [banner](../includes/banner.md)]
 
 Anda boleh menyediakan proses aliran kerja yang digunakan untuk menyemak dan meluluskan dokumen perjalanan dan perbelanjaan. Dokumen yang aliran kerja boleh ditakrifkan termasuk laporan perbelanjaan, permintaan perjalanan dan permintaan pendahuluan tunai.
 
 Aliran kerja mewakili proses perniagaan. Ia menentukan cara dokumen dialirkan melalui sistem dan menandakan orang yang harus melengkapkan tugas atau meluluskan dokumen. Terdapat beberapa faedah menggunakan sistem aliran kerja dalam organisasi anda:
 
--   **Proses konsisten** : — Anda boleh menentukan proses kelulusan untuk dokumen tertentu seperti permintaan pembelian dan laporan perbelanjaan. Menggunakan sistem aliran kerja membantu anda memastikan dokumen diproses dan diluluskan dengan cara yang konsisten dan berkesan.
+-   **Proses konsisten**: — Anda boleh menentukan proses kelulusan untuk dokumen tertentu seperti permintaan pembelian dan laporan perbelanjaan. Menggunakan sistem aliran kerja membantu anda memastikan dokumen diproses dan diluluskan dengan cara yang konsisten dan berkesan.
 
 -   Keterlihatan proses: — Anda boleh menjejak status, sejarah dan metrik prestasi tika aliran kerja tertentu. Ini membantu anda menentukan sama ada perubahan harus dibuat pada aliran kerja untuk meningkatkan kecekapan.
 

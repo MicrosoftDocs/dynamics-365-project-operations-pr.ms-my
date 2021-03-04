@@ -1,9 +1,9 @@
 ---
-title: Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Finance and Operations
+title: Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Kewangan
 description: Topik ini menghuraikan templat dan tugas asas yang digunakan untuk menyegerakkan kontrak projek dan projek secara terus daripada Microsoft Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642644"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764830"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Kewangan 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Untuk mengakses templat yang tersedia, dalam pusat pentadbiran Microsoft Power A
 Templat dan tugas asas yang berikut digunakan untuk menyegerakkan kontrak projek dan projek daripada Project Service Automation kepada Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Berintegrasi dengan Dynamics 365 Project Service Automation v2.x
-- **Nama templat dalam integrasi Data:** Projek dan kontrak (PSA kepada Fin dan Ops)
+- **Nama templat dalam integrasi Data:** Projek dan kontrak (Project Service Automation kepada Kewangan)
 - **Nama tugas dalam projek:**
 
-    - Kontrak projek PSA kepada Fin dan Ops
-    - Projek PSA kepada Fin dan Ops
-    - Baris kontrak projek PSA kepada Fin dan Ops
-    - Pencapaian baris kontrak projek PSA kepada Fin dan Ops
+    - Kontrak projek Project Service Automation kepada Kewangan
+    - Projek Project Service Automation kepada Kewangan
+    - Baris kontrak projek Project Service Automation kepada Kewangan
+    - Pencapaian baris kontrak projek Project Service Automation kepada Kewangan
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Berintegrasi dengan Dynamics 365 Project Service Automation v3.x
 Terdapat perubahan skema dalam Project Service Automation yang memberi kesan kepada templat pencapaian baris kontrak projek dan penggunaan versi V2 templat diperlukan untuk mengintegrasikan Project Service Automation v3.x dengan Dynamics 365.
 
-- **Nama templat dalam integrasi Data:** Projek dan Kontrak (PSA 3.x kepada Fin dan Ops) - v2
+- **Nama templat dalam integrasi Data:** Projek dan Kontrak (Project Service Automation 3.x kepada Kewangan) - v2
 - **Nama tugas dalam projek:**
 
-    - Kontrak projek PSA kepada Fin dan Ops
-    - Projek PSA kepada Fin dan Ops
-    - Baris kontrak projek PSA kepada Fin dan Ops
-    - Pencapaian baris kontrak projek PSA kepada Fin dan Ops
+    - Kontrak projek Project Service Automation kepada Kewangan
+    - Projek Project Service Automation kepada Kewangan
+    - Baris kontrak projek Project Service Automation kepada Kewangan
+    - Pencapaian baris kontrak projek Project Service Automation kepada Kewangan
 
 Selepas penyegerakan kontrak projek dan projek boleh berlaku, anda mesti menyegerakkan akaun.
 
@@ -87,7 +87,8 @@ Selepas penyegerakan kontrak projek dan projek boleh berlaku, anda mesti menyege
 
 Kontrak projek diuruskan dalam Project Service Automation dan disegerakkan kepada Finance sebagai kontrak projek. Sebagai sebahagian daripada templat integrasi, anda boleh menetapkan sumber integrasi dalam Finance untuk kontrak projek.
 
-Projek masa dan bahan serta projek harga Tetap diuruskan dalam Project Service Automation dan disegerakkan kepada Finance sebagai projek. Sebagai sebahagian daripada integrasi templat, anda boleh menetapkan sumber integrasi dalam Finance untuk projek.
+Masa dan bahan dan projek harga tetap diuruskan dalam Project Service Automation dan disegerakkan kepada Kewangan sebagai projek. Sebagai sebahagian daripada integrasi templat, anda boleh menetapkan sumber integrasi untuk projek dalam Kewangan. Pada masa ini, hanya masa dan bahan serta projek harga tetap disokong.
+
 
 Baris kontrak projek diuruskan dalam Project Service Automation dan disegerakkan kepada Finance sebagai peraturan pengebilan kontrak projek. Jika kaedah pengebilan berbeza daripada jenis projek lalai, penyegerakan mengemas kini jenis projek untuk projek baris kontrak dan kumpulan projek.
 
@@ -122,7 +123,7 @@ Apabila penyelesaian integrasi Project Service Automation kepada Finance digunak
 
 ## <a name="power-query"></a>Pertanyaan Kuasa
 
-Anda mesti menggunakan Microsoft Power Query untuk Excel bagi menapis data jika syarat yang berikut dipenuhi:
+Gunakan Microsoft Power Query for Excel untuk menapis data jika syarat berikut dicapai:
 
 - Anda mempunyai pesanan jualan dalam Dynamics 365 Sales.
 - Anda mempunyai berbilang unit organisasi dalam Project Service Automation dan unit organisasi ini akan dipetakan kepada berbilang entiti sah dalam Finance.
@@ -130,7 +131,7 @@ Anda mesti menggunakan Microsoft Power Query untuk Excel bagi menapis data jika 
 Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 
 - Templat Projek dan kontrak (PSA kepada Fin dan Ops) mempunyai penapis lalai yang mengandungi hanya pesanan jualan jenis **Item kerja (msdyn\_ordertype = 192350001)**. Penapis ini membantu menjamin bahawa kontrak projek tidak dicipta untuk pesanan jualan dalam Finance. Jika anda mencipta templat anda sendiri, anda mesti menambahkan penapis ini.
-- Anda mesti mencipta penapis Power Query yang mengandungi hanya organisasi kontrak yang perlu disegerakkan kepada entiti sah bagi set sambungan integrasi. Contohnya, kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso US perlu disegerakkan kepada entiti sah USSI tetapi kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso Global perlu disegerakkan kepada entiti sah USMF. Jika anda tidak menambahkan penapis ini pada pemetaan tugas anda, semua kontrak projek akan disegerakkan kepada entiti sah yang ditakrifkan untuk set sambungan, tanpa mengira unit organisasi kontrak.
+- Cipta penapis Power Query yang menyertakan hanya organisasi kontrak yang perlu disegarakkan kepada entiti undang-undang bagi set sambungan integrasi. Contohnya, kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso US perlu disegerakkan kepada entiti sah USSI tetapi kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso Global perlu disegerakkan kepada entiti sah USMF. Jika anda tidak menambahkan penapis ini pada pemetaan tugas anda, semua kontrak projek akan disegerakkan kepada entiti sah yang ditakrifkan untuk set sambungan, tanpa mengira unit organisasi kontrak.
 
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan tempat dalam integrasi Data
 

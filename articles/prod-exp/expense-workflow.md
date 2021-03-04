@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bbee90450749c89f643d96e4d41a387c45e9abc5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081383"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960573"
 ---
 # <a name="expense-management-workflow"></a>Aliran kerja Pengurusan perbelanjaan
-
-[!include [banner](../includes/banner.md)]
 
 Anda boleh menggunakan sistem aliran kerja untuk menyediakan proses semakan untuk laporan perbelanjaan dalam Pengurusan perbelanjaan. Anda boleh menyediakan aliran kerja yang menggunakan kriteria berikut untuk menentukan orang yang meluluskan laporan perbelanjaan:
 

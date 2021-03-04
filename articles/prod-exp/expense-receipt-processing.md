@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081386"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960303"
 ---
 # <a name="expense-receipt-processing"></a>Pemprosesan resit perbelanjaan
-
-[!include [banner](../includes/banner.md)]
 
 Entri perbelanjaan telah dipertingkatkan melalui pengenalan pemprosesan pengecaman aksara optik (OCR) untuk resit. Ciri ini direka untuk menambah baik pengalamanan pengguna apabila laporan perbelanjaan dicipta.
 
@@ -39,17 +37,17 @@ Entri perbelanjaan telah dipertingkatkan melalui pengenalan pemprosesan pengecam
 Untuk melampirkan resit secara automatik termasuk transaksi kad kredit apabila laporan perbelanjaan dicipta, lakukan langkah berikut:
 
   1. Buka ruang kerja **Pengurusan perbelanjaan**.
-  2. Pada tab **Resit** , sahkan resit tidak dilampirkan wujud. Anda juga boleh muat naik resit pada tab **Resit**.
-  3. Pada tab **Perbelanjaan** , sahkan perbelanjaan tidak dilampirkan wujud. Kebiasaannya, pentadbir perbelanjaan mengimport perbelanjaan ini daripada pembekal kad kredit.
+  2. Pada tab **Resit**, sahkan resit tidak dilampirkan wujud. Anda juga boleh muat naik resit pada tab **Resit**.
+  3. Pada tab **Perbelanjaan**, sahkan perbelanjaan tidak dilampirkan wujud. Kebiasaannya, pentadbir perbelanjaan mengimport perbelanjaan ini daripada pembekal kad kredit.
   4. Pilih **Laporan perbelanjaan baharu**. Perhatikan bahawa anda boleh memasukkan perbelanjaan dan resit, kini juga, apabila anda mencipta laporan perbelanjaan. Jika anda menambah kedua-dua perbelanjaan dan resit, pemadanan automatik bagi resit berbanding perbelanjaan dicetuskan.
 
 Untuk mencipta perbelanjaan atau memadankan perbelanjaan daripada resit, lakukan langkah berikut:
 
-  1. Pada laporan perbelanjaan, pada tab **Resit** , lampirkan resit dengan memilih **Tambah resit**.
+  1. Pada laporan perbelanjaan, pada tab **Resit**, lampirkan resit dengan memilih **Tambah resit**.
   2. Di bawah imej yang dimuat naik resit, perhatikan pilihan **Cipta** dan **Padan**.
 
       - Pilih **Cipta** untuk mencipta transaksi perbelanjaan yang dimasukkan secara manual dan isikan nilai yang diekstrak daripada resit.
-      - Jika anda memilih **Padan** , sistem cuba memadankan perbelanjaan sedia ada kepada resit.
+      - Jika anda memilih **Padan**, sistem cuba memadankan perbelanjaan sedia ada kepada resit.
 
 ## <a name="installation"></a>Pemasangan
 
@@ -65,7 +63,7 @@ Untuk menggunakan keupayaan perbelanjaan lanjutan ini, pasang tambahan Perkhidma
 6. Ikuti panduan pemasangan dan bersetuju dengan terma dan syarat.
 7. Pilih **Pasang**.
 
-Dalam ruang kerja **Pengurusan ciri** , hidupkan ciri berikut:
+Dalam ruang kerja **Pengurusan ciri**, hidupkan ciri berikut:
 
 - Laporan perbelanjaan digambarkan semula
 - Padankan secara automatik dan cipta perbelanjaan daripada resit
