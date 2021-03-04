@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081297"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144874"
 ---
 # <a name="create-custom-fields-and-entities"></a>Cipta medan tersuai dan entiti 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Lengkapkan langkah-langkah berikut pada bila-bila masa anda mahu mencipta set pilihan atau entiti tersuai pada platform Power Apps.  
 Prosedur dalam topik ini hendaklah diselesaikan menggunakan antara muka web Project Service Automation (PSA).
@@ -64,7 +66,7 @@ Anda boleh mencipta dua dimensi berasaskan set pilihan. Guna **Lokasi Kerja Sumb
 Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau menggunakan panggilan import atau perkhidmatan Microsoft Excel. Guna langkah-langkah dalam prosedur ini untuk mencipta dua jawatan standard **Jurutera Sistem** dan **Jurutera Sistem Kanan** daripada dimensi berasaskan entiti, **Jawatan Standard**. Jika data yang anda mahu cipta adalah kecil, seperti dalam contoh berikut, anda boleh menggunakan borang standard.
 
 1. Dalam PSA, klik **Carian Lanjutan**. Pilih entiti **Jawatan Standard** dan kemudian klik **Hasil**. Semua baris dalam entiti **Jawatan Standard** akan ditunjukkan.
-2. Klik **Baharu**. Dalam medan **Nama** , masukkan "Jurutera Sistem" dan kemudian klik **Simpan**.
+2. Klik **Baharu**. Dalam medan **Nama**, masukkan "Jurutera Sistem" dan kemudian klik **Simpan**.
 3. Tutup borang. 
 4. Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".
 

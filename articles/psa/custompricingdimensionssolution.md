@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081237"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144650"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Cipta penyelesaian tersuai untuk dimensi penentuan harga
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Semua perubahan dimensi penetapan harga tersuai hendaklah dalam penyelesaian yang berasingan. Amalan terbaik penting ini memberikan kefleksibelan pada masa akan datang untuk mengemas kini atau mengalih keluar perubahan seperti yang diperlukan, akan membantu menggunakan semula kerja anda, dan memudahkan untuk port perubahan ini kepada tika lain. Selepas anda membuat perubahan yang diperlukan, eksport penyelesaian ini sebagai **Penyelesaian terurus** dan import ini ke dalam tika lain untuk guna semula persediaan penentuan harga anda.
 
-1. Pilih **Tetapan** > **Penyelesaian** , dan kemudian pilih **Baharu**. 
-2. Namakan penyelesaian, **\<your organization name> dimensi penetapan harga** , masukkan baki maklumat yang diperlukan dan kemudian pilih **Simpan**.
+1. Pilih **Tetapan** > **Penyelesaian**, dan kemudian pilih **Baharu**. 
+2. Namakan penyelesaian, **\<your organization name> dimensi penetapan harga**, masukkan baki maklumat yang diperlukan dan kemudian pilih **Simpan**.
 
 > ![Mencipta penyelesaian tersuai untuk dimensi penentuan harga](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
@@ -39,7 +41,7 @@ Anda perlu menambah entiti Project Service berikut pada penyelesaian penentuan h
 
 1. Pilih **Tetapan** > **Penyelesaian** dan kemudian klik dua kali **\<your organization name> dimensi penetapan harga**. 
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Tambah Sedia Ada** > **Entiti**.
-3. Dalam kotak dialog **Komponen Penyelesaian** , pilih entiti berikut:
+3. Dalam kotak dialog **Komponen Penyelesaian**, pilih entiti berikut:
 
 - Sebenar
 - Sumber Boleh Ditempah

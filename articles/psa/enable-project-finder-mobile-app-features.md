@@ -3,6 +3,7 @@ title: Dayakan ciri-ciri aplikasi Project Finder Mobile
 description: Cara untuk mendayakan ciri aplikasi Project Finder Mobile untuk Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132974"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144559"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Dayakan ciri aplikasi Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Sumber anda boleh menggunakan aplikasi Project Finder Mobile pada telefon mereka dengan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] untuk mencari projek baharu untuk diusahakan dan mengemas kini set kemahiran mereka.  
   
  Aplikasi tersedia untuk [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], telefon [!INCLUDE[tn_android](../includes/tn-android.md)] dan [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Anda perlu menetapkan beberapa pilihan dalam tetapan parameter untuk unit organisasi anda bagi membolehkan pengguna melihat keperluan sumber projek dan mengemas kini kemahiran mereka.  
+    
+ Untuk membenark pengguna melihat keperluan sumber projek dan mengemas kini kemahiran mereka, pilihan mesti dipilih dalam tetapan parameter untuk unit organisasi anda.
   
 > [!NOTE]
 >  Aplikasi Project Finder Mobile hanya berfungsi dengan [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], bukan dengan pemasangan di premis.  
@@ -57,8 +60,8 @@ Sumber anda boleh menggunakan aplikasi Project Finder Mobile pada telefon mereka
   
 |Penerima|Peristiwa|  
 |---------------|-----------|  
-|Pengurus projek|-   Apabila sumber mendaftar untuk projek dengan aplikasi Project Finder Mobile.|  
-|Sumber|-   Apabila kerja projek yang sumber telah daftarkan telah dipenuhi oleh sumber lain.<br />-   Apabila permintaan kelulusan kemahiran mereka telah diluluskan atau ditolak.<br />-   Apabila permintaan pendaftaran projek telah diluluskan atau ditolak.|  
+|Pengurus projek|- Seorang sumber mendaftar untuk projek dengan aplikasi Project Finder Mobile.|  
+|Sumber|- Kerja projek yang sumber telah daftarkan telah dipenuhi oleh sumber lain.<br />- Permintaan kelulusan kemahiran telah diluluskan atau ditolak.<br />- Permintaan pendaftaran projek telah diluluskan atau ditolak.|  
   
 ## <a name="privacy-notice"></a>Notis privasi  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

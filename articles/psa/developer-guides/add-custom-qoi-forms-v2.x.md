@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081422"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144604"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Tambah borang entiti tersuai baharu (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Medan jenis 
 
-Dynamics 365 Project Service Automation bergantung pada **Jenis** medan ( **msdyn\_ordertype** ) bagi entiti Peluang, Sebut Harga, Pesanan dan Invois untuk membezakan versi **berasaskan kerja** bagi entiti-entiti ini daripada versi **berasaskan item** dan **berasaskan perkhidmatan**. Versi berasaskan kerja bagi entiti-entiti ini diuruskan oleh PSA. Banyak logik perniagaan pada sisi klien dan pelayan bagi penyelesaian bergantung pada medan **Jenis**. Oleh itu, adalah penting bahawa medan diawalkan dengan nilai yang betul apabila entiti dicipta. Nilai yang salah boleh menyebabkan tingkah laku yang salah, dan sesetengah logik perniagaan mungkin tidak berjalan dengan betul.
+Dynamics 365 Project Service Automation bergantung pada **Jenis** medan (**msdyn\_ordertype**) bagi entiti Peluang, Sebut Harga, Pesanan dan Invois untuk membezakan versi **berasaskan kerja** bagi entiti-entiti ini daripada versi **berasaskan item** dan **berasaskan perkhidmatan**. Versi berasaskan kerja bagi entiti-entiti ini diuruskan oleh PSA. Banyak logik perniagaan pada sisi klien dan pelayan bagi penyelesaian bergantung pada medan **Jenis**. Oleh itu, adalah penting bahawa medan diawalkan dengan nilai yang betul apabila entiti dicipta. Nilai yang salah boleh menyebabkan tingkah laku yang salah, dan sesetengah logik perniagaan mungkin tidak berjalan dengan betul.
 
 ## <a name="automatic-form-switching"></a>Penukaran borang automatik
 
@@ -37,7 +39,7 @@ Logik penukaran borang automatik bergantung pada pemetaan antara nilai **formid*
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Tambah borang tersuai dan hidupkan logik penukaran borang
 
-Contoh berikut menunjukkan cara untuk menambah borang tersuai, **Maklumat Projek Saya** , supaya ia berfungsi dengan peluang berasaskan kerja. Proses yang sama digunakan untuk menambah borang tersuai supaya ia berfungsi dengan sebut harga, pesanan dan invois.
+Contoh berikut menunjukkan cara untuk menambah borang tersuai, **Maklumat Projek Saya**, supaya ia berfungsi dengan peluang berasaskan kerja. Proses yang sama digunakan untuk menambah borang tersuai supaya ia berfungsi dengan sebut harga, pesanan dan invois.
 
 Ikuti langkah ini untuk mencipta versi tersuai borang **Maklumat Projek**.
 
@@ -47,7 +49,7 @@ Ikuti langkah ini untuk mencipta versi tersuai borang **Maklumat Projek**.
     > [!IMPORTANT]
     > Jangan keluarkan skrip. Jika tidak, sesetengah data mungkin dimulakan dengan tidak betul.
 
-3. Sahkan bahawa medan **Jenis** ( **msdyn\_ordertype** ) hadir dalam borang. 
+3. Sahkan bahawa medan **Jenis** (**msdyn\_ordertype**) hadir dalam borang. 
 
     > [!IMPORTANT]
     > Jangan keluarkan medan ini. Jika tidak, skrip permulaan akan gagal.

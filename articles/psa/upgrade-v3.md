@@ -2,6 +2,7 @@
 title: Pertimbangan naik taraf - Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x kepada versi 3
 description: Topik ini menyediakan maklumat tentang pertimbangan yang perlu anda lakukan apabila anda menaik taraf daripada Project Service Automation versi 2.x atau 1.x kepada versi 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121724"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144184"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan naik taraf - PSA versi 2.x atau 1.x kepada versi 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation dan Field service
-Dynamics 365 Project Service Automation dan Dynamics 365 Field Service menggunakan penyelesaian Universal Resourcing Scheduling (URS) untuk penjadualan sumber. Jika anda mempunyai Project Service Automation dan Field Service dalam tika anda, anda harus merancang untuk menaik taraf kedua-dua penyelesaian kepada versi terkini (versi 3.x untuk Project Service Automation, versi 8.x untuk Field Service). Menaik taraf Project Service Automation atau Field Service akan memasang versi URS yang terkini , yang bermaksud bahawa tingkah laku yang tidak konsisten mungkin berlaku jika penyelesaian Project Service Automation dan Field Service dalam tika yang sama tidak dinaik taraf kepada versi terkini.
+Dynamics 365 Project Service Automation dan Dynamics 365 Field Service menggunakan penyelesaian Universal Resourcing Scheduling (URS) untuk penjadualan sumber. Jika anda mempunyai Project Service Automation dan Field Service dalam tika anda, naik taraf kedua-dua penyelesaian kepada versi terkini. Untuk Project Service Automation, iaitu versi 3.x. Untuk Field Service, iaitu versi 8.x. Menaik taraf Project Service Automation atau Field Service akan memasang versi URS yang terkini. Jika kedua-dua penyelesaian Project Service Automation dan Field Service berada dalam tika sama yang tidak dinaik taraf kepada versi terkini, mungkin akan terdapat sedikit tingkah laku yang tidak konsisten.
 
 ## <a name="resource-assignments"></a>Penugasan sumber
 Dalam Project Service Automation versi 2 dan versi 1, penugasan tugasan disimpan sebagai tugas anak (juga dipanggil tugas baris) dalam **Entiti tugas** dan berkaitan secara tidak langsung dengan entiti **Penugasan Sumber**. Tugas baris kelihatan pada tetingkap timbul tugasan pada Struktur Pecahan Kerja (WBS).
@@ -42,7 +46,7 @@ Perubahan ini memberi kesan kepada naik taraf mana-mana projek yang mempunyai tu
 ### <a name="tasks-assigned-to-named-resources"></a>Tugas ditugaskan kepada sumber yang dinamakan
 Menggunakan entiti tugas dasar, tugas dalam versi 2 dan versi 1 membenarkan ahli pasukan untuk menggambarkan peranan selain daripada peranan tertakrif lalai mereka. Contohnya, Farziah Fairuz yang secara lalai ditugaskan peranan Pengurus Program, boleh ditugaskan untuk tugas dengan peranan Pembangun. Dalam versi 3, peranan ahli pasukan yang dinamakan sentiasa menjadi lalai, maka apa-apa tugas yang ditugaskan kepada Farziah Fairuz menggunakan peranan lalainya sebagai Pengurus Program.
 
-Jika anda telah menugaskan sumber kepada tugas di luar peranan lalai mereka dalam versi 2 dan versi 1, apabila anda menaik taraf, sumber yang dinamakan akan ditugaskan dengan peranan lalai untuk semua tugasan tugas tanpa mengira tugasan peranan dalam versi 2. Ini menghasilkan perbezaan dalam anggaran yang dikira daripada versi 2 atau versi 1 hingga versi 3 kerana anggaran dikira berdasarkan pada peranan sumber dan bukan tugasan tugas baris. Contohnya, dalam versi 2, dua tugas telah ditugaskan kepada Rokiah Awang. Peranan pada tugas baris untuk tugas 1 ialah Pembangun dan untuk tugas 2, Pengurus Program. Rokiah Awang mempunyai peranan lalai Pengurus Program.
+Jika anda telah menugaskan sumber kepada tugas di luar peranan lalai mereka dalam versi 2 dan versi 1, apabila anda menaik taraf, sumber yang dinamakan akan ditugaskan dengan peranan lalai untuk semua tugasan tugas tanpa mengira tugasan peranan dalam versi 2. Tugasan ini menghasilkan perbezaan dalam anggaran yang dikira daripada versi 2 atau versi 1 hingga versi 3 kerana anggaran dikira berdasarkan pada peranan sumber dan bukan tugasan tugas baris. Contohnya, dalam versi 2, dua tugas telah ditugaskan kepada Rokiah Awang. Peranan pada tugas baris untuk tugas 1 ialah Pembangun dan untuk tugas 2, Pengurus Program. Rokiah Awang mempunyai peranan lalai Pengurus Program.
 
 ![Berbilang peranan ditugaskan kepada satu sumber](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Apabila anda menaik taraf kepada versi 3, tugas baris digantikan dengan tugasan 
 
 ![Penugasan sumber](media/resource-assignment-v2-05.png)
 
-Oleh sebab anggaran adalah berdasarkan pada peranan lalai untuk sumber, anggaran jualan dan kos mungkin berubah. Ambil perhatian bahawa dalam grafik berikut, anda tidak lagi melihat peranan **Pembangun** kerana peranan kini diambil daripada peranan lalai sumber oleh ditempah.
+Oleh sebab anggaran adalah berdasarkan pada peranan lalai untuk sumber, anggaran jualan dan kos mungkin berubah. Dalam grafik berikut, anda tidak lagi melihat peranan **Pembangun** kerana peranan kini diambil daripada peranan lalai sumber boleh ditempah.
 
 ![Anggaran kos untuk peranan lalai](media/resource-assignment-cost-estimate-06.png)
 ![Anggaran jualan untuk peranan lalai](media/resource-assignment-sales-estimate-07.png)
 
-Selepas naik taraf selesai, anda boleh mengedit peranan ahli pasukan menjadi sesuatu selain daripada lalai yang ditugaskan. Walau bagaimanapun, jika anda mengubah peranan ahli pasukan, ia akan diubah kepada semua tugas yang ditetapkan kerana ahli pasukan tidak lagi dibenarkan untuk ditugaskan dengan berbilang peranan dalam versi 3.
+Selepas naik taraf selesai, anda boleh mengedit peranan ahli pasukan menjadi sesuatu selain daripada lalai yang ditugaskan. Walau bagaimanapun, jika anda mengubah peranan ahli pasukan, ia akan diubah kepada semua tugas yang ditetapkan kerana ahli pasukan tidak lagi boleh ditugaskan dengan berbilang peranan dalam versi 3.
 
 ![Mengemas kini peranan sumber](media/resource-role-assignment-08.png)
 
@@ -100,9 +104,9 @@ Anda boleh melihat unit organisasi pada pandangan anggaran.
 
 ![Anggaran unit organisasi](media/org-unit-estimates-view-13.png)
  
-Apabila naik taraf selesai, unit organisasi pada tugas baris yang sepadan dengan ahli pasukan generik ditambah kepada ahli pasukan generik dan tugas baris dialih keluar. Oleh sebab ini, kami mengesyorkan bahawa sebelum anda menaik taraf, anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik.
+Apabila naik taraf selesai, unit organisasi pada tugas baris yang sepadan dengan ahli pasukan generik ditambah kepada ahli pasukan generik dan tugas baris dialih keluar. Oleh sebab ini, kami mengesyorkan agar sebelum anda menaik taraf, anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik.
 
-Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, ini bermaksud unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam Fasa implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
+Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam fasa Implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
  
 Mengubah lalai unit organisasi yang berbeza pada ahli pasukan yang tidak dijana adalah sebab kami mengesyorkan supaya anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik sebelum naik taraf supaya tugasan unit organisasi tidak hilang.
 
