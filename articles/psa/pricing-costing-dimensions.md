@@ -77,3 +77,6 @@ Contoh berikut menunjukkan kadar bil yang ditetapkan berdasarkan peranan dan uni
 | ----------------|-------------|----------|----------:|----------|
 | Syarikat saya_Jalur1 | Contoso AS  |Hour | 145|USD     |
 | Syarikat saya_Jalur2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

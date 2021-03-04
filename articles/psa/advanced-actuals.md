@@ -34,3 +34,6 @@ ms.locfileid: "5145729"
 Semua transaksi kewangan yang berlaku semasa projek direkodkan. Transaksi ini direkodkan sebagai **aktual**. Jadual berikut menunjukkan jenis sebenar berbeza yang dicipta, bergantung pada sama ada projek itu adalah projek masa dan bahan atau projek harga tetap, atau projek dalaman, atau sama ada ia berada dalam peringkat prajualan.
 
 > ![Jadual menunjukkan cara aktual direkodkan](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

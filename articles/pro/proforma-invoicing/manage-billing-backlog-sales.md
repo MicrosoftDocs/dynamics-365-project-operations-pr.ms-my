@@ -60,3 +60,6 @@ Aktual jualan yang belum dibilkan dengan status **Tidak Melebihi** bagi **Gagal*
 Jika baris kontrak berbilang pelanggan mempunyai kaedah pengebilan masa dan bahan, apabila masa dan perbelanjaan diluluskan, satu aktual jualan yang tidak dibilkan dicipta untuk setiap pelanggan pada baris kontrak mengikut pecahan peratusan pengebilan yang ditakrifkan untuk setiap pelanggan. Dalam pandangan **Tunggakan Pengebilan Masa dan Bahan**, anda akan melihat aktual jualan yang tidak dibilkan khusus pelanggan individu. Setiap rekod jualan sebenar belum dibilkan ini boleh ditandakan sebagai **Bersedia untuk Diinvois** secara berasingan daripada pandangan ini.
 
 Aktual jualan yang tidak dibilkan yang ada pada invois draf ditunjukkan dalam pandangan ini dengan status pengebilan **Invois Pelanggan Dicipta**. Apabila invois draf disahkan, status pengebilan pada rekod ini dikemas kini kepada **Invois Pelanggan Disiarkan**. Jangan kemas kini nilai status ini menggunakan kod tersuai. Project Operations tidak berfungsi dengan betul apabila nilai status ini dikemas kini dengan kod tersuai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

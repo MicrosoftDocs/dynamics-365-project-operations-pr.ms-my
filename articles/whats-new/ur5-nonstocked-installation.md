@@ -125,3 +125,6 @@ Kemas kini berikut pada kelayakan keselamatan untuk entiti diperlukan sebagai se
  
  ![Penyegerakan peta lejar](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

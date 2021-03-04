@@ -43,3 +43,6 @@ Jika projek sebut harga yang ditutup sebagai Hilang mempunyai projek yang diruju
 
 > [!NOTE]
 > Dalam Project Operations, menutup sebut harga sebagai Menang atau Hilang tidak akan memberi kesan bahawa status Peluang, yang akan kekal terbuka sehingga ia secara manual ditutup.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

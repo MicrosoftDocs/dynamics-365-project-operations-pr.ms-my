@@ -257,3 +257,6 @@ Grafik berikut ditunjukkan selepas senarai harga tersuai telah dicipta.
 
 > [!NOTE]
 > Sela pendek mungkin berlaku ketika anda mengklik **Cipta Penentuan Harga Tersuai** sehingga senarai harga tersuai dicipta. Kami mengesyorkan menyegar semula grid dan bukannya mengklik berbilang kali. Senarai harga tersuai telah dicipta jika nama senarai harga berkaitan mempunyai nama sebut harga atau nama kontrak projek yang ditambahkan kepadanya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

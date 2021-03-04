@@ -75,3 +75,6 @@ Selepas tugas sebelum ini dilengkapkan, anda boleh melengkapkan tugas berikut se
 - Penuhi permintaan sumber.
 - Minta sumber yang diperlukan daripada WBS.
 - Tempah sumber untuk projek tanpa mempunyai permintaan untuk sumber yang diperlukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

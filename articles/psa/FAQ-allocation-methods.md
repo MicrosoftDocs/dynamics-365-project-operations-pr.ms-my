@@ -71,3 +71,6 @@ Ringkasnya, kaedah peruntukan yang berikut menyebabkan terlebih tempahan jika su
 - Jam Diagihkan dengan Sekata
 
 Semasa menggunakan salah satu daripada tiga kaedah peruntukan ini, anda tidak akan diberi amaran bahawa sumber telah terlebih tempah. Untuk membetulkan tempahan berlebihan, anda perlu menggunakan papan Jadual.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

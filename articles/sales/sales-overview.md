@@ -63,3 +63,6 @@ Dalam Project Operations, anda tidak boleh menjejak semakan yang dibuat kepada s
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Jejak komen dan kelulusan sebut harga dan kontrak projek
 Anda boleh mengurus semakan dan kelulusan sebut harga dan kontrak projek dengan menggunakan dinding rekod dan siaran. Organisasi anda boleh mencipta aliran kerja tersuai dan pasang masuk untuk menugas, menghala semula, meningkat dan mengurus pemberitahuan semakan dan kelulusan item kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

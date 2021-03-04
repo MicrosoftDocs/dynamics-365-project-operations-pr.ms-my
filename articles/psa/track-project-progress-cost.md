@@ -40,3 +40,6 @@ Kadang-kadang anda mungkin perlu menyemak semula anggaran asal dalam tugas. Tuga
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

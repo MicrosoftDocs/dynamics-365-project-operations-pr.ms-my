@@ -33,3 +33,6 @@ ms.locfileid: "5148969"
 
 Project Service Automation (PSA) tidak membenarkan anda memadam aktual kerana mereka berfungsi sebagai sumber kebenaran untuk transaksi yang mempunyai implikasi kewangan kepada sistem hiliran, seperti lejar am. Jika aktual boleh dipadamkan, integriti transaksi pelaporan kewangan boleh dipersoalkan. Untuk mewujudkan jejak audit, pelanggan hendaklah menggunakan jurnal untuk mencipta transaksi pampasan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Untuk melengkapkan langkah dalam topik ini, pastikan anda ditugaskan kepada Pent
 3. Dalam medan **Kuantiti**, masukkan kuantiti bagi unit. Contohnya, jika kotak mengandungi dua bahagian, masukkan "2". 
 4. Dalam medan **Unit Asas**, pilih unit asas untuk mewujudkan unit terendah bagi ukuran unit. Contohnya, anda mungkin memilih "Bahagian".
 5. Pilih **Simpan**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

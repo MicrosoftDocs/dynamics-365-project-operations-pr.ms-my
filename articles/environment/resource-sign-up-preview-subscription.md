@@ -98,3 +98,6 @@ Ikuti panduan dalam topik, [Peruntukan persekitaran baharu](resource-provision-n
 
 Pasangkan data persediaan dan konfigurasi CD seperti yang diterangkan dalam topik, [Sediakan dan gunakan data konfigurasi dalam Common Data Service](resource-apply-pro-setup-config-data.md).
 Lengkapkan langkah ini hanya selepas persekitaran demo Kewangan digunakan dan data demo dalam FO sudah bersedia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

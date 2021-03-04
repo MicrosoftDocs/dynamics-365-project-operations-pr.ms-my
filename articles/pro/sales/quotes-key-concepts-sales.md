@@ -89,3 +89,6 @@ Sebut harga Project Operations dibina pada sebut harga Dynamics 365 Sales. Walau
 - Sebut harga Project Operations mempunyai borang dan elemen UI, peraturan perniagaan, logik perniagaan dalam pasang masuk dan skrip bahagian klien mereka sendiri yang menjadikannya unik daripada sebut harga Sales.
 
 Untuk sebab ini, penggunaan sebut harga Sales dan sebut harga Project Operations secara bergantian tidak disyorkan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

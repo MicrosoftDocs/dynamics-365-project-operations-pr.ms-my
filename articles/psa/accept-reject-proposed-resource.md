@@ -45,3 +45,6 @@ Untuk menolak cadangan, klik **Tolak Sumber**.
 ![Menerima cadangan sumber](media/RM-how-to-20.png) 
 
 Sama seperti memenuhi permintaan sumber generik dengan sumber yang dinamakan, sumber generik akan diganti dan tugas yang ditugaskan akan dikemas kini dengan ahli pasukan yang dinamakan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

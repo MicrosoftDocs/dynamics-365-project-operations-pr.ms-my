@@ -32,3 +32,6 @@ Jika perbelanjaan pada laporan perbelanjaan dicajkan kepada syarikat selain dari
 Untuk menyiarkan laporan perbelanjaan, pada halaman **Laporan perbelanjaan yang diluluskan**, pilih laporan perbelanjaan dan kemudian, pada Anak Tetingkap Tindakan, pilih **Siarkan**.
 
 Anda juga boleh menyiarkan semua laporan perbelanjaan dalam senarai pada masa yang sama. Pilih semua laporan perbelanjaan dan kemudian pilih **Siarkan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

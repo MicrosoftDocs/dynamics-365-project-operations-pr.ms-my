@@ -43,3 +43,6 @@ Gambar rajah berikut menunjukkan penginvoisan antara syarikat kerana ia berkaita
 - [Konfigurasikan penginvoisan antara syarikat](configure-intercompany-invoicing.md)
 - [Rekodkan transaksi antara syarikat](create-intercompany-transactions.md)
 - [Cipta invois pelanggan dan vendor antara syarikat](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

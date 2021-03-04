@@ -74,3 +74,6 @@ Pencapaian harga tetap boleh dijana secara manual apabila ia tidak berpecah seca
 | Cukai | Cipta Cepat | Jumlah cukai yang dikenakan ke atas pencapaian tersebut. | Ini disertakan pada pencapaian baris kontrak projek dan invois. |
 
 4. Pilih **Simpan dan Tutup**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

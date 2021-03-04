@@ -70,3 +70,6 @@ Pengesahan kini selesai.
 Anda telah berjaya menyambungkan langganan Azure anda. Anda kini boleh menggunakan Dynamics 365 Finance persekitaran berhos awan.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

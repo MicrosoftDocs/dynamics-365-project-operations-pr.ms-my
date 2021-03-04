@@ -36,3 +36,6 @@ Jadual yang berikut mengandungi medan dalam peluang berdasarkan projek yang sama
 | Unit Pengkontrakan | Tab umum | Unit organisasi yang bertanggungjawab untuk penyampaian projek yang berkaitan dengan urus niaga ini. | Unit pengkontrakan ialah divisyen syarikat yang akan melengkapkan projek selepas urus niaga ditutup. Setiap unit pengkontrakan mempunyai mata wang dan mata wang ini digunakan untuk melaporkan kos anggaran dan sebenar yang berlaku semasa projek. |
 
 Untuk semua medan dan bahagian lain pada tab **Ringkasan** peluang, lihat [Cipta atau edit peluang (Jualan dan Hab Jualan)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

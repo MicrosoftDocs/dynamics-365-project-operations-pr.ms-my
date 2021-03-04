@@ -47,3 +47,6 @@ Kini anda telah memenangi sebut harga untuk projek anda, tiba masanya untuk menc
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Akaun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

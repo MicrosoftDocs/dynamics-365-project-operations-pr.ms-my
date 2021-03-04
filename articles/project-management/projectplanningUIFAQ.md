@@ -106,3 +106,6 @@ Apabila satu atau lebih kemas kini dibuat kepada struktur pecahan kerja, perubah
   - Sistem Project Operations
   - Sistem Projek
   - Sistem Dwitulis Project Operations (Peranan ini diperlukan jika anda menggunakan senario berdasarkan sumber/bukan stok bagi Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3
 - Dibetulkan: Apabila kelas transaksi ialah **Masa**, **UnitGroup** adalah tidak boleh diedit untuk semua entiti termasuk, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, dan **ContractLineDetails.** Walau bagaimanapun, **Unit** adalah tidak boleh diedit hanya untuk **JournalLine** dan **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

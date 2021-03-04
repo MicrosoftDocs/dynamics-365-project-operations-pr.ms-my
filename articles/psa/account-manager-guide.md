@@ -48,3 +48,6 @@ Keupayaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)   
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)   
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

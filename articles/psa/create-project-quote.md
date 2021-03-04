@@ -55,3 +55,6 @@ Mencipta sebut harga serupa dengan mencipta peluang. Sementara peluang adalah un
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Akaun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

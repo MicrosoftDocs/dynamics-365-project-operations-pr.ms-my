@@ -52,3 +52,6 @@ Pelanggan sebut harga boleh dicipta, dikemas kini atau dipadam daripada tab **Pe
 Anda boleh edit peratusan pecahan pengebilan menggunakan pengalaman edit grid dalam baris. Apabila peratusan pecahan pengebilan tidak berjumlah 100%, ralat akan berlaku. Selepas anda mengemas kini peratusan pecahan pengebilan, segar semula halaman untuk mengalih keluar ralat.
 
 Anda juga boleh cuba memilih **Agihkan Secara Sekata** pada subgrid pelanggan sebut harga. Tindakan ini memperuntukkan pecahan pengebilan ke semua pelanggan sebut harga. Jika terdapat faktor pembundaran yang akan ditambah ke pelanggan pembundaran. Salah satu pelanggan sebut harga sentiasa ditag sebagai pelanggan pembundaran. Ini bermaksud bahawa rekod pelanggan sebut harga mempunyai bendera **Pembundaran** ditetapkan ke **Ya**. Kebiasaannya ini adalah pelanggan utama sebut harga tetapi yang boleh ditukar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

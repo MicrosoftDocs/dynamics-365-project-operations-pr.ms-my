@@ -101,3 +101,6 @@ Selepas fungsi Lanjutkan Tempahan telah dilaksanakan pada setiap sumber, tempaha
 
 Walau bagaimanapun, pandangan yang lebih dekat pada butiran tempahan menunjukkan perbezaan dalam masa mula tempahan. Tempahan tidak akan bermula lebih awal daripada masa mula kontur tugasan dan tidak lebih awal daripada masa mula sumber yang tersedia.
  ![Tempahan baharu sumber dalam papan jadual](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

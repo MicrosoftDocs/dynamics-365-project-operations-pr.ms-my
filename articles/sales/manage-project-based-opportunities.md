@@ -65,3 +65,6 @@ Proses jualan Peluang dalam Operasi Projek merupakan tambahan kepada aliran pern
 > Jika urusan berasaskan projek anda bermula dengan Peluang, proses jualan Peluang diberi keutamaan.
 
 Anda boleh mengedit aliran proses perniagaan produk atau mencipta aliran proses perniagaan anda sendiri untuk menjejak proses jualan anda seperti yang diperlukan. Untuk mendapatkan maklumat lanjut tentang aliran proses perniagaan, lihat [Gambaran keseluruhan aliran proses perniagaan](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza dar
  
 Mengubah lalai unit organisasi yang berbeza pada ahli pasukan yang tidak dijana adalah sebab kami mengesyorkan supaya anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik sebelum naik taraf supaya tugasan unit organisasi tidak hilang.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

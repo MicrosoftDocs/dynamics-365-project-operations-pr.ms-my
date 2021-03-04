@@ -46,3 +46,6 @@ Untuk mencipta faktor kuantiti daripada sifat produk, lengkapkan langkah berikut
 7. Ulangi langkah 2-6 untuk semua sifat yang bersama akan membentuk kuantiti untuk baris kontrak berasaskan produk.
 
 Dengan faktor kuantiti yang disediakan, apabila pengguna mencipta baris kontrak untuk produk ini, kuantiti baris kontrak dikunci. Kuantiti kemudian dikira sebagai produk nilai sifat untuk baris kontrak tersebut.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

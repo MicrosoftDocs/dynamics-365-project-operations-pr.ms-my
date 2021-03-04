@@ -51,3 +51,6 @@ Pengurus akaun dan pengurus projek sentiasa meminta sumber untuk projek mereka. 
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

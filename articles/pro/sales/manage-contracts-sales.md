@@ -33,3 +33,6 @@ Senarai semua kontrak projek boleh dilihat pada halaman senarai **Kontrak**.
 2. Pilih **Lihat penukar** (anak panah bawah di sebelah nama pandangan) untuk memilih pandangan yang ditapis lain. Anda boleh mencipta pandangan anda sendiri dengan kriteria penapis tersuai.
 
 Kontrak boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. K
 
 
 Anda boleh menguruskan projek anda dengan pasukan generik atau sumber yang dinamakan dalam Operasi Projek. Anda boleh menggunakan pelbagai kaedah untuk menambah dan menugaskan ahli pasukan dan untuk menguruskan penempahan dan tugasan mereka. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Menetapkan keutamaan dimensi membantu penetapan harga menghasilkan harga walaupu
 
 - **Keutamaan Kos**: Nilai keutamaan kos dimensi akan menunjukkan berat dimensi tersebut apabila sepadan dengan penyediaan harga kos. Nilai **Keutamaan Kos** mesti unik merentasi dimensi yang **Digunakan pada Kos.**
 - **Keutamaan Jualan**: Nilai keutamaan kos dimensi akan menunjukkan berat dimensi tersebut apabila sepadan dengan penyediaan harga jualan atau kadar bil. Nilai **Keutamaan Jualan** mesti unik merentasi dimensi yang **Digunakan pada Jualan.**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

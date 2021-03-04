@@ -34,3 +34,6 @@ Semua kos, jualan dan harga pemindahan boleh disediakan untuk peranan. Lengkapka
 1. Pada halaman **Harga jualan (jam)** , pilih **Baharu** , dan masukkan tarikh berkuat kuasa.
 2. Dalam lajur **Peranan** , pilih peranan.
 3. Dalam lajur **Harga** , masukkan harga untuk peranan sumber yang dipilih.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

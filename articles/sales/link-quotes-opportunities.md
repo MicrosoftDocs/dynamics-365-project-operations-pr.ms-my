@@ -56,3 +56,6 @@ Sebut harga sedia ada boleh dipautkan kepada Peluang. Lengkapkan langkah berikut
    Apabila anda menggerakkan peluang ke peringkat ini, anda boleh memilih sebut harga daripada senarai sebut harga yang berkaitan dengan peluang ini. Memilih sebut harga ini menunjukkan bahawa anda bergerak ke hadapan bersama-sama.
 
    Semua sebut harga lain yang berkaitan dengan Peluang masih akan tersedia dan aktif sehingga salah satu sebut harga dimenangi. Anda boleh menggerakkan proses jualan kembali ke peringkat sebelumnya **Layakkan** dan memilih sebut harga lain untuk bergerak ke hadapan bersama-sama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Anda boleh melakukan penilaian semula status tidak boleh dilebihi secara pukal. 
 Untuk menilai semula status tidak boleh dilebihi, pilih satu atau lebih aktual daripada pandangan **Tunggakan Pengebilan Masa dan Bahan** atau **Aktual** dan kemudian pilih **Nilai Semula Status Tidak Boleh Dilebihi**.
 
 Semua aktual terpilih yang berkaitan dengan had tidak boleh dilebihi akan dinilai terhadap persediaan had tidak boleh dilebihi. Aktual yang berkaitan untuk penilaian semula status tidak boleh dilebihi ialah aktual jualan yang belum dibilkan yang tidak diinvoiskan, bukan pada invois draf dan ditandakan sebagai boleh dituntut. Mana-mana pilihan aktual lain dipilih.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

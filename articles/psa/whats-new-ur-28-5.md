@@ -42,3 +42,6 @@ Isu berikut telah dibaiki:
 
 - Penamatan prestasi carian bantuan jadual
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

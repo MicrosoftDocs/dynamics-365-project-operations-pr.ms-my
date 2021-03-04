@@ -43,3 +43,6 @@ Selain itu, jika anda mempunyai sebarang modul aplikasi tersuai yang termasuk se
 
 ### <a name="currently-extended-time-entry-changes"></a>Perubahan entri masa yang dilanjutkan buat masa ini
 Untuk meminimumkan kesan kepada pengguna semasa entri masa, perubahan peranan ini adalah satu-satunya keperluan teras yang diperlukan untuk terus menggunakan entri masa. Jika anda telah mencipta pandangan tersuai atau pengalaman entri masa yang berasingan, anda mesti menetapkan medan **Tetapan Entri Masa** kepada nilai PSA yang betul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Sebagai contoh, pemaju daripada Fabrikam India yang bekerja pada projek AS dibil
     | Pemaju | Fabrikam US | $150 |
 
 3. Lampirkan senarai harga jualan, **Kadar Bil Fabrikam US** kepada senarai harga projek kontrak projek atau kepada akaun tertentu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

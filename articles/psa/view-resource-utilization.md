@@ -43,3 +43,6 @@ Anda boleh menyemak penggunaan sumber untuk menentukan tahap penggunaan untuk su
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

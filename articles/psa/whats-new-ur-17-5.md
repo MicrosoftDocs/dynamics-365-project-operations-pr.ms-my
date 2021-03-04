@@ -44,3 +44,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk V3, Ke
 - Dibetulkan: Templat jam kerja 24 jam yang secara tidak tepat menambah hari tambahan kepada tugas ditangani.
 - Dibetulkan: Templat jam kerja +13 GMT yang secara tidak tepat mengalih tugas satu hari ke hadapan ditangani.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

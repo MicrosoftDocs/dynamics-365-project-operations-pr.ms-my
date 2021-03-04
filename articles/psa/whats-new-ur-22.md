@@ -72,3 +72,6 @@ Isu berikut telah dibaiki:
 - Menutup sebut harga sebagai dimenangi tidak menavigasi ke kontrak yang dicipta jika BPF yang dilampirkan pada sebut harga berada dalam peringkat akhir.
 - Membalikkan **Jualan yang Belum Dibilkan** dikaitkan dengan kos asal apabila entri masa dipanggil semula.
 - Selepas memilih butang **Sahkan**, status invois tidak berubah kepada **Disahkan** melainkan invois disegar semula.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

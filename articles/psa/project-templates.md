@@ -69,3 +69,6 @@ Apabila anda menyalin merentasi baris anggaran projek, senarai harga dikemas kin
 ### <a name="copying-a-project-team"></a>Menyalin pasukan projek
 
 Apabila pasukan projek disalin daripada templat projek kepada projek, sumber generik disalin, bersama-sama dengan kemahiran dan kecekapan yang ditakrifkan dalam template. Tugasan sumber generik juga dikekalkan sebagai mana ia di dalam templat projek. Sumber yang dinamakan tidak disokong dalam templat projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

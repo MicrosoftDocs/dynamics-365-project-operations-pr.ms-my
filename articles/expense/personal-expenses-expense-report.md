@@ -28,3 +28,6 @@ Terdapat dua kaedah yang anda boleh gunakan untuk menggunakan perbelanjaan perib
   - **Dibayar oleh syarikat**: Organisasi anda membayar bil penuh untuk kad kredit korporat, dan kemudian mendebitkan akaun pekerja untuk perbelanjaan peribadi.
 
 Anda boleh memilih kaedah yang organisasi anda gunakan pada halaman **Parameter pengurusan perbelanjaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

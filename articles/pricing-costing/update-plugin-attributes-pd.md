@@ -52,3 +52,6 @@ Lengkapkan langkah berikut untuk mengemas kini dan mendaftar semula pasang masuk
 7. Pilih **OK** untuk menutup halaman dan kemudian pilih **Kemas Kini Langkah**.
 8. Ulangan langkah 2-7 untuk pasang masuk kedua, **PreOperationQuoteLineDetail**. Untuk pasang masuk ini, anda perlu mengemas kini langkah **Update of msdyn_quotelinetransaction**.
 9. Tutup **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

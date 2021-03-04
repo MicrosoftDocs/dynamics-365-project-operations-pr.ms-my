@@ -67,3 +67,6 @@ Selepas anda mempunyai senarai harga projek lalai organisasi berkhususkan organi
 
 1. Pada **Sebut Harga Projek**, pada tab **Senarai Harga Projek**, sahkan di dalam subgrid bahawa tiada rekod senarai harga tertentu dipilih.
 2. Pilih **Cipta Penetapan Harga Tersuai**. Ini akan membuat salinan semua senarai harga standard pada masa ini yang berkaitan dengan sebut harga dan mengaitkan salinan ini kepada sebut harga. Perkaitan sedia ada kepada senarai harga standard akan dialih keluar. Jurujual kemudian boleh mula membuat edit kepada harga pada salinan ini. Harga yang ditukar ini akan digunakan untuk sebut harga projek ini sahaja.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

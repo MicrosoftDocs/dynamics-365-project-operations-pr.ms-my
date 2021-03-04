@@ -79,3 +79,6 @@ Ini mengambil masa beberapa minit untuk dilengkapkan. Anda akan menerima mesej p
 18. Tutup sesi desktop jarak jauh dan gunakan halaman **butiran persekitaran LCS** untuk log masuk ke persekitaran bagi mengesahkannya, ia berfungsi seperti yang dijangkakan.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

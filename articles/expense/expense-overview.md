@@ -44,3 +44,6 @@ Untuk mendapatkan maklumat lanjut, lihat [Entri perbelanjaan (Lite)](basic-expen
 
 ## <a name="determine-your-expense-deployment"></a>Tentukan pelaksanaan Perbelanjaan anda
 Untuk menentukan sama ada anda akan menjalankan pelaksanaan pengurusan Perbelanjaan Asas, sahkan bahawa URL alamat berakhir dengan **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

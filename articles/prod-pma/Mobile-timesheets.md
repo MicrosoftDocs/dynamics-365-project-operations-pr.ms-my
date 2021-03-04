@@ -62,3 +62,6 @@ Android akan serasi dengan Platform kemas kini 16, apabila ia tersedia.
 13. Pilihan: Masukkan baris lembaran masa tambahan.
 
 14. Selepas anda selesai memasukkan baris lembaran masa, pilih **Aliran kerja** \> **Serah** tindakan untuk menyerahkan lembaran masa anda kepada proses kelulusan aliran kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

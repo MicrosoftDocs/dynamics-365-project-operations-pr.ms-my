@@ -53,3 +53,6 @@ Untuk menyediakan kecekapan untuk pekerja, anda boleh menggunakan sama ada halam
 5. Dalam medan **Tarikh tahap** , pilih **14/1-/2014**.
 6. Dalam medan **Tahun pengalaman** , masukkan **10**.
 7. Pilih **Simpan** , dan kemudian tutup halaman.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

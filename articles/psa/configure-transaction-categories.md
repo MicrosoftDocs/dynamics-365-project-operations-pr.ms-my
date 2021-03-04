@@ -43,3 +43,6 @@ Sediakan kategori transaksi untuk mentakrifkan superset kategori perbelanjaan.
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasikan Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

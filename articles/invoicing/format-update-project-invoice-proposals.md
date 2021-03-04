@@ -143,3 +143,6 @@ Untuk melihat invois sebelum menyiarkan, kosongkan kotak semak **Menyiarkan**. *
 Sebagai tambahan kepada halaman **Cadangan invois**, cadangan invois juga boleh disiarkan dengan menjalankan kerja berkala, **Cadangan selepas invois**. Untuk mencari kerja ini, pergi ke **Pengurusan projek dan perakaunan** > **Berkala** > **Invois projek** > **Cadangan selepas invois**.
 
 Halaman ini menunjukkan semua cadangan invois yang sedia untuk disiarkan. Anda boleh menjadualkan menyiarkan cadangan invois dengan memilih **Kelompok**. Tetapkan **Parameter pemprosesan kelompok** kepada **Ya** dan tetapkan pengulangan pemprosesan kelompok dengan memilih **Pengulangan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

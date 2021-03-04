@@ -68,3 +68,6 @@ Buka baris sebut harga Tetap yang anda perlukan untuk mencipta pencapaian. Pada 
 | Status invois | Cipta cepat | Apabila pencapaian dicipta, status ini sentiasa ditetapkan kepada **Tidak bersedia untuk penginvoisan**. | Ini telah disebarkan kepada pencapaian baris kontrak projek dan kepada invois. |
 | Amaun Baris | Cipta cepat | Jumlah atau nilai pencapaian yang akan diinvoiskan kepada pelanggan. | Ini telah disebarkan kepada pencapaian baris kontrak projek dan kepada invois. |
 | Cukai | Cipta cepat | Jumlah cukai yang akan dikenakan kepada pencapaian. | Ini telah disebarkan kepada pencapaian baris kontrak projek dan kepada invois. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

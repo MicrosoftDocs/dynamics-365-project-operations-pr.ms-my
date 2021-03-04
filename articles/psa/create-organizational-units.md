@@ -52,3 +52,6 @@ Syarikat anda mungkin mengatur perniagaan rundingannya berdasarkan geografi, fun
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasikan Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

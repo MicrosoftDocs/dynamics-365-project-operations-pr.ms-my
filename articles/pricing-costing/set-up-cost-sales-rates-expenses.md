@@ -55,3 +55,6 @@ Apabila kaedah penetapan harga ini dipilih pada baris harga kategori yang dikait
 
 ### <a name="markup-over-cost"></a>Tokokan terhadap kos
 Apabila kaedah penetapan harga ini dipilih pada baris harga kategori yang dikaitkan dengan senarai harga jualan, harga lalai untuk kategori dan gabungan unit hanya untuk perbelanjaan sebenar. Contohnya, jualan sebenar yang tidak dibilkan untuk kelas transaksi perbelanjaan. Harga unit ini ditetapkan pada jualan sebenar yang tidak dibilkan kepada nilai yang dikira daripada harga unit pada kos sebenar untuk perbelanjaan itu selepas peratus tokokan yang ditakrifkan tersebut digunakan. Harga ditetapkan lalai berdasarkan kos yang belum selesai pada anggaran projek untuk perbelanjaan atau butiran baris sebut harga dan baris kontrak untuk perbelanjaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

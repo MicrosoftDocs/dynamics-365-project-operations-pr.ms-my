@@ -62,3 +62,6 @@ Isu berikut telah dibaiki:
 - Senarai permit **Harga Kos Organisasi Unit** bertindih pada tarikh penguatkuasaan.
 - Pengguna tidak dibenarkan untuk mengubah **OrgUnit** apabila jenis pesanan tidak berasaskan kerja kerana ia akan membawa kepada ralat pengecualian rujukan yang tidak sah.
 - Apabila cuba untuk menavigasi dari borang **Butiran Baris Sebut Harga**, kembali ke tab **Sebut Harga**, borang menyegar semula dan memaparkan tab **Ringkasan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

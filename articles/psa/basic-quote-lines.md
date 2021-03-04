@@ -131,3 +131,6 @@ Untuk baris sebut harga tetap, anda boleh menggunakan grid **Jadual Invois** unt
 - Untuk mencipta peristiwa pengebilan yang sama dibahagikan, pilih kekerapan invois, masukkan tarikh mula pengebilan pada baris sebut harga dan pilih **Tarikh Penyelesaian Diminta** diminta untuk sebut harga dalam bahagian **Ringkasan** bagi pengepala sebut harga. Kemudian pilih **Jana Pencapaian Berkala** berkala untuk mencipta pencapaian yang sama rata berdasarkan kekerapan invois yang dipilih. 
 - Untuk mencipta pencapaian pengebilan sekaligus, cipta pencapaian dan kemudian masukkan nilai baris sebut harga sebagai jumlah pencapaian.
 - Untuk mencipta pencapaian pengebilan berdasarkan tugas khusus dalam pelan projek, cipta pencapaian dan petakannya kepada elemen jadual projek dalam UI pencapaian pengebilan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Jadual berikut menyenaraikan kemas kini Project Operations pada persekitaran CDS
 | Masa dan entri perbelanjaan pantas | 2047499          | Butang **Baharu** pada halaman Entri Masa membuka halaman **Pengenalan E-mel Baharu**.                                                                                               |
 | Masa dan entri perbelanjaan pantas | 2059859          | Tetingkap timbul tidak dijangka terbuka apabila mencipta entri perbelanjaan.                                                                                                                         |
 | Lain-lain                        | 2044181          | [Penyahpasangan PO] - Berlaku ralat "Rekod tidak tersedia" apabila anda cuba menyahpasang penyelesaian **msdyn_ProjectServiceCore_Patch** dan teras msdyn Project Service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Jika kontrak projek yang ditutup sebagai hilang merujuk kepada projek pada baris
 
 > [!NOTE]
 > Dalam Dynamics 365 Project Operations, menutup kontrak projek sebagai hilang tidak akan memberi kesan kepada peluang yang berkaitan. Peluang akan kekal terbuka dan mesti ditutup secara manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

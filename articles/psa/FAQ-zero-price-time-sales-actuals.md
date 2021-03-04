@@ -57,3 +57,6 @@ Jika tiada baris dalam grid harga peranan untuk dimensi penentuan harga pada mas
 
 Jika anda masih tidak melihat harga sah pada masa jualan sebenar anda selepas mengikuti tiga semakan di atas, sila log tiket sokongan. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

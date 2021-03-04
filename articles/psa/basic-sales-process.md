@@ -93,3 +93,6 @@ Dalam PSA, anda tidak boleh menjejaki semakan yang dibuat kepada sebut harga. Se
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Menjejaki komen dan kelulusan daripada sebut harga dan kontrak projek
 Anda boleh mengurus semakan dan kelulusan sebut harga dan kontrak projek dengan menggunakan dinding rekod dan siaran. Organisasi anda boleh mencipta aliran kerja tersuai dan pasang masuk untuk menugaskan, mengubah hala, memuncak dan mengurus pemberitahuan semakan dan item kerja kelulusan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

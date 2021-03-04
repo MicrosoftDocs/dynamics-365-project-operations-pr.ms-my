@@ -83,3 +83,6 @@ Jika anda menggunakan versi lebih lama, untuk ketersediaan sumber, lihat [Lihat 
   
 ### <a name="additional-resources"></a>Sumber tambahan  
  [Panduan pengurus sumber](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

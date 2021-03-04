@@ -40,3 +40,6 @@ Jika anda memutuskan untuk memerlukan berbilang pelulus laporan perbelanjaan, an
 
     1. Pengurus pekerja akan meluluskan laporan perbelanjaan.
     2. Pemilik bajet meluluskan laporan perbelanjaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

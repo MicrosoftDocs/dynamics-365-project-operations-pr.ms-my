@@ -57,3 +57,6 @@ Senarai harga kos tidak dijadikan lalai kepada mana-mana entiti dalam Project Op
 5. Seterusnya, sistem akan melihat tarikh kuat kuasa senarai harga yang sepadan dengan tarikh anggaran masuk atau baris sebenar. 
 6. Jika terdapat berbilang senarai harga yang berkuat kuasa untuk tarikh pada anggaran masuk atau sebenar, senarai harga yang paling baru dicipta akan dipilih.
 7. Jika tiada senarai harga kos yang dilampirkan pada parameter projek yang sepadan dengan mata wang dan tarikh kuat kuasa, sistem membuat kadar kos kepada sifar (0) pada anggaran masuk atau baris sebenar secara lalai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

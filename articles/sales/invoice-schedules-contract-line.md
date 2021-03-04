@@ -74,3 +74,6 @@ Anda boleh menjana pencapaian harga tetap apabila tidak berpecah secara berkala.
 | Cukai | Cipta Cepat | Jumlah cukai yang dikenakan ke atas pencapaian tersebut. | Ini telah dibawa kepada pencapaian baris kontrak pencapaian dan invois. |
 
 3. Pilih **Simpan dan Tutup**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

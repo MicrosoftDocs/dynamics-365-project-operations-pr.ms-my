@@ -32,3 +32,6 @@ Jadual retainer disediakan pada halaman **Kontrak Projek** dalam Dynamics 365 Pr
 | Bilangan Retainer untuk Dicipta | Apabila anda memasukkan bilangan retainer untuk dicipta, sistem menggunakan tarikh mula dan kekerapan untuk mencipta nombor dalam medan ini. | Apabila medan ini dikemas kini secara manual, sistem mengabaikan nilai dalam medan **Akhir Jadual Retainer** dan sebaliknya mencipta bilangan khusus retainer atau pendahuluan. |
 | Kekerapan Invois | Berapa kerapkah aplikasi akan mencipta retainer dan pendahuluan. | Nilai ini secara langsung mempengaruhi bilangan retainer dan pendahuluan serta tarikh yang telah dicipta. |
 | Jumlah Amaun | Jumlah amaun yang dibahagikan kepada retainer individu atau bayaran pendahuluan yang akan dicipta. | Tiada kesan hiliran untuk medan ini. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

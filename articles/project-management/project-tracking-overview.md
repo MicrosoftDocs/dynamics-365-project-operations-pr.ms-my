@@ -80,3 +80,6 @@ Data penjejakan dalam pandangan **Penjejakan usaha** dan **Penjejakan kos** menu
 Medan **Status keseluruhan projek** ialah medan boleh diedit yang menunjukkan status keseluruhan projek. Ia menggunakan pengekodan warna, seperti hijau, kuning dan merah untuk menunjukkan peningkatan risiko. Medan **Komen** membolehkan pengurus projek memasukkan komen khusus tentang status. Medan **Status dikemas kini pada** tidak boleh diedit dan nilainya ialah cap masa yang menunjukkan masa status tersebut dikemas kini kali terakhir.
 
 Medan **Prestasi jadual** dan **Prestasi kos** ditetapkan dari tarikh penjejakan. Apabila jadual dan varians kos untuk nod akar dalam pandangan **Penjejakan usaha** adalah positif, anda boleh menetapkan medan ini kepada **Di Hadapan.** Apabila jadual dan varians kos untuk nod akar adalah negatif, anda boleh menetapkan ia kepada **Di Belakang**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

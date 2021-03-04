@@ -91,3 +91,6 @@ Lengkapkan langkah-langkah berikut untuk menempah daripada keperluan sumber baha
 
 4. Setelah sumber ditempah, anda mesti menugaskan tugas secara manual.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

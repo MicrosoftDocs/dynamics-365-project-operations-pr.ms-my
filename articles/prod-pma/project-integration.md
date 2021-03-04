@@ -127,3 +127,6 @@ Untuk mencipta struktur pecahan kerja baharu dengan menggunakan Microsoft Projec
 8.  Pilih **Kalendar** untuk digunakan untuk penyumberan.
 
 11. Klik **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

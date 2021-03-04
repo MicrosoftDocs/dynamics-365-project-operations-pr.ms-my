@@ -89,3 +89,6 @@ Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan.
 8. Dalam halaman projek, pada tab **Aktual**, semak **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan. Grafik berikut menunjukkan jumlah entri perbelanjaan asal dan jumlah entri perbelanjaan dibetulkan yang sepadan. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

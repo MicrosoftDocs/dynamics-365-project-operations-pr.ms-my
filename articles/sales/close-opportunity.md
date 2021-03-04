@@ -24,3 +24,6 @@ Peluang projek boleh ditutup sebagai Menang atau Hilang. Kotak dialog **Tutup pe
 Anda tidak akan dibenarkan menutup peluang jika terdapat sebut harga aktif yang dikaitkan dengannya. Anda boleh menutup semua sebut harga aktif dan draf yang dikaitkan kepada peluang pada masa yang sama. Kemudian, anda dibenarkan menutup peluang.
 
 Untuk lebih banyak maklumat umum tentang menutup peluang, lihat [Tutup peluang sebagai menang atau hilang](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

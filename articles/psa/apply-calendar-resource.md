@@ -45,3 +45,6 @@ Sebaik sahaja anda mencipta templat waktu kerja, anda perlu menguntukkannya kepa
   
 ### <a name="see-also"></a>Lihat Juga  
  [Sediakan sumber](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

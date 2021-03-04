@@ -72,3 +72,6 @@ Bakal pelanggan ke proses perniagaan Peluang menyokong peringkat berikut:
 | Bangunkan | Peluang | Membangunkan peluang untuk menambah lebih banyak maklumat tentang kerja yang terlibat, pemegang amanah utama dan pertandingan. |
 | Cadangkan | Peluang | Membangunkan cadangan dan mendapatkan kelulusan daripada pasukan semakan dalaman. |
 | Tutup | Peluang | Memenangi peluang untuk menutup urusan. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

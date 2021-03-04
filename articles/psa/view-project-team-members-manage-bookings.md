@@ -57,3 +57,6 @@ Anda boleh melihat senarai ahli pasukan projek anda dan dari situ, anda boleh me
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

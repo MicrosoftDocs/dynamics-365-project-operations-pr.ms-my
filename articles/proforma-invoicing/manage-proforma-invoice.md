@@ -135,3 +135,6 @@ Jika anda mempunyai aktual yang datang selepas invois dicipta, anda boleh memasu
 2. Buka draf invois proforma dan pada reben **Tindakan**, klik **Segar Semula Transaksi Baris Invois**.
 
   Ini mencipta butiran baris invois untuk mana-mana aktual yang terdahulu dan ditandakan sebagai **Bersedia untuk Diinvois**; tetapi tidak dimasukkan dalam invois.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

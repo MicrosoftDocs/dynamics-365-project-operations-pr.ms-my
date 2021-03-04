@@ -36,3 +36,6 @@ Gunakan perkhidmatan Lifecycle Services (LCS) untuk mengurus persekitaran Operas
 
 Gunakan projek LCS ini untuk menggunakan persekitaran Operasi Projek anda.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

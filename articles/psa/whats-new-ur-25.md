@@ -70,3 +70,6 @@ Isu berikut telah dibaiki:
 - Pengendalian ralat yang ditambah baik untuk menangani Pengecualian Rujukan Nol yang dijana daripada **Projek Salinan: Anggaran Pengurusan HelperResource**.
 - **Tidak bersedia diinvois** pada **Tunggakan Pengebilan Masa dan Bahan** tidak menjelaskan status pengebilan.
 - Membetulkan butang **Harga** yang tersalah label pada tab **Harga Peranan** dan **Item Katalog**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Project Operations menyokong berbilang model pelaksanaan. Untuk menentukan model
 2. Pasang **Microsoft Dynamics 365 Project Operations** daripada senarai pelaksanaan aplikasi Dynamics 365. Untuk mendapatkan maklumat lanjut, lihat [Urus aplikasi Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

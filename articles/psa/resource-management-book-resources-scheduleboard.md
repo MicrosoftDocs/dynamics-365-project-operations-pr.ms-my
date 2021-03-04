@@ -53,3 +53,6 @@ Sebelum anda boleh menempah daripada papan Jadual, anda mesti mencipta atau menj
 Keperluan dipenuhi dengan menggunakan sumber yang dipilih. Dalam anak tetingkap **Keperluan Penempahan**, perhatikan bahawa keperluan telah dikemas kini dan sumber ditunjukkan seperti yang ditempah dalam projek.
 
 ![Sumber yang ditempah dalam projek](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

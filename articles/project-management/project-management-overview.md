@@ -26,3 +26,6 @@ Alat pengurusan projek dalam Dynamics 365 Project Operations membantu anda menja
 - Gunakan anggaran projek semasa proses jualan.
 - Meramal keperluan sumber untuk projek yang berada dalam talian paip
 - Berjaya menyampaikan projek dengan menjejaki kemajuan dan penggunaan kos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

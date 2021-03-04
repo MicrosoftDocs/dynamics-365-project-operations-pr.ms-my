@@ -20,3 +20,6 @@ ms.locfileid: "4514560"
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Anda boleh menggunakan Dynamics 365 Field Service untuk mencipta sumber yang boleh ditempah untuk digunakan dalam persekitaran Dynamics 365 Project Operations anda. Untuk mencipta sumber ini, lihat [Sediakan sumber yang boleh ditempah](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

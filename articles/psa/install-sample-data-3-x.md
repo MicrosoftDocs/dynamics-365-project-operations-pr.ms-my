@@ -297,3 +297,6 @@ Pilih pengguna (contohnya, Spencer Low) dan ubah waktu bekerja Spencer kepada ja
 
 > [!div class="mx-imgBorder"]
 > ![Tangkap layar sumber boleh tempah aktif](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

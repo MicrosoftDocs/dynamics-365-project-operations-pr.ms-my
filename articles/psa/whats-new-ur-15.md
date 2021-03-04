@@ -63,3 +63,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3
   - Dibetulkan: Tidak lagi mendapat mesej ralat dalam **Carian projek** dalam borang **Baris Sebut Harga** apabila terdapat lebih daripada 1000 projek.
   - Dibetulkan: Grid **Anggaran** untuk anggaran pekerja dan anggaran perbelanjaan kini memaparkan simbol mata wang yang betul.
   - Dibetulkan: Selepas organisasi mengemas kini PSA daripada Keluaran Kemas kini 14 kepada Keluaran Kemas kini 15, tab **Jadual** tidak lagi muncul sebagai kosong pada borang **Projek**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

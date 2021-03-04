@@ -124,3 +124,6 @@ Contohnya, jika terdapat sifat berikut:
 - **SKU Produk** 
 
 Sifat **Bilangan Pengguna** dan **Bilangan Bulan** boleh ditanda sebagai faktor kuantiti dengan mengedit sifat baris produk. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

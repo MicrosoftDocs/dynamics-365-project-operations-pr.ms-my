@@ -47,3 +47,6 @@ Cipta akaun untuk setiap klien yang anda bekerja dengannya, sama ada anda menyeb
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Akaun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

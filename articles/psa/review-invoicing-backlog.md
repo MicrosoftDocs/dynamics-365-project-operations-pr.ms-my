@@ -59,3 +59,6 @@ Setiap baris kontrak projek yang mempunyai kaedah pengebilan harga tetap mesti m
 Untuk menyemak semula pencapaian pengebilan, pergi ke **Jualan** \> **Pengebilan** \> **Pencapaian Harga Tetap**. Pilih semua pencapaian yang bersedia untuk diinvois dan kemudian pilih **Bersedia untuk diinvois.** Status pengebilan pencapaian ini ditukar kepada **Bersedia untuk Diinvois**.
 
 ![Pencapaian harga tetap](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

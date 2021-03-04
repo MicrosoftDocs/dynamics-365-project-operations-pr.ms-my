@@ -107,3 +107,6 @@ Untuk mencipta aliran proses perniagaan anda sendiri bagi entiti projek, lakukan
 
    ![Tangkap layar pengubahsuaian pandangan pada Entiti projek](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

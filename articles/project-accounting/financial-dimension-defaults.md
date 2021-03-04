@@ -62,3 +62,6 @@ Projek dicipta dan dikekalkan dalam (CDS). Atribut perakaunan bagi projek diteta
 4. Tetapkan dimensi perakaunan lalai. Perhatikan bahawa dimensi kewangan lalai daripada akaun pelanggan. Jika projek berkaitan dengan baris kontrak dengan pelanggan kontrak berbilang projek, pelanggan utama digunakan untuk dimensi kewangan lalai.
 
 Projek dimensi kewangan lalai digunakan untuk menetapkan garisan jurnal lalai untuk masa, perbelanjaan dan yuran transaksi dalam **Jurnal Integrasi Project Operations** dan pada baris invois projek berkaitan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

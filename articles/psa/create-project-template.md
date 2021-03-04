@@ -62,3 +62,6 @@ Templat projek menjimatkan masa anda jika syarikat anda membida dengan kerap pad
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

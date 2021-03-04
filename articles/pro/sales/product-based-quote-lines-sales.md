@@ -46,3 +46,6 @@ Apabila baris sebut harga adalah berasaskan pada katalog produk, anda boleh meng
 Jika anda memilih **Ganti Penetapan Harga**, harga lalai tidak ditetapkan. Sebaliknya, anda mesti masukkan harga untuk produk pada baris sebut harga. Jika anda memilih **Gunakan Lalai**, harga jualan lalai digunakan dan medan dikunci untuk pengeditan.
 
 Harga jualan lalai dimasukkan pada baris berasaskan produk sebut harga. Medan **Penetapan harga** kemudian ditetapkan kepada **Ganti Penetapan harga** supaya anda boleh mengedit harga lalai pada baris sebut harga. Ini adalah Project Operations ganti khusus untuk tingkah laku berasaskan produk dalam Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

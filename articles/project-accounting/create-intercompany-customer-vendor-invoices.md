@@ -61,3 +61,6 @@ Anda boleh mencipta berbilang invois antara syarikat pada masa yang sama untuk s
 ## <a name="post-the-intercompany-vendor-invoice"></a>Siarkan invois vendor antara syarikat
 
 Akauntan projek dalam entiti sah pinjaman boleh menyemak invois vendor antara syarikat yang belum selesai apabila invois pelanggan antara syarikat yang berkaitan disiarkan. Dalam Kewangan, dalam entiti sah pinjaman, pergi ke **Akaun belum bayar** > **Invois** > **Invois vendor yang belum selesai**. Nombor invois yang belum selesai akan dipadankan dengan nombor invois pelanggan antara syarikat. Sahkan bahawa invois tersebut betul dan kemudian siarkan invois. Menyiarkan invois vendor antara syarikat mencipta sublejar projek dan transaksi lejar umum yang menunjukkan kos transaksi dalam entiti sah pinjaman.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Muat turun dan pasang tambahan aplikasi mudah alih Finance and Operations:
 11. Pilih sifat garis.
 12. Pilihan: Secara pilihan masukkan sebarang komen luaran dan dalaman.
 13. Pilih **Selesai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

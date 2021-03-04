@@ -43,3 +43,6 @@ Untuk membuat salinan senarai harga, lengkapkan langkah berikut.
 1. Pada **Peranan**, **Kategori** dan tab **Item Senarai Harga** senarai harga, anda boleh memilih **Kemas kini Harga** untuk mengenakan tokokan untuk semua harga dalam subgrid. 
 2. Pada halaman dialog yang terbuka, masukkan tokokan. Anda juga boleh memasukkan peratus tokokan negatif untuk menurunkan harga mengikut peratusan tertentu. 
 3. Pilih **OK** pada halaman dialog dan kemudian sahkan harga dalam subgrid menggambarkan perubahan yang anda lakukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

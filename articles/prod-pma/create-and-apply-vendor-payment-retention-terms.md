@@ -65,3 +65,6 @@ Selepas anda mencipta terma pengekalan vendor untuk vendor, anda boleh menggunak
 6. Jika projek tersebut juga mempunyai terma bayar apabila dibayar (PWP) yang disediakan untuk vendor, masukkan peratusan ambang untuk projek dalam medan **Peratusan ambang PWP**.
 
 Terma pengekalan vendor juga dipaparkan pada pesanan pembelian yang anda cipta untuk vendor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

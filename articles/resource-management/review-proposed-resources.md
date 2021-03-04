@@ -62,3 +62,6 @@ Oleh kerana Dynamics 365 Project Operations menggunakan enjin Universal Resource
 
 Untuk melihat lebih banyak butiran mengenai sumber individu, klik kanan padanya untuk membuka kad sumber.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

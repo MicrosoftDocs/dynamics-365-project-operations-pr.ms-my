@@ -113,3 +113,6 @@ Siti Fatimah Samsuddin, pembangun yang digunakan dalam GBPM merekodkan 10 jam be
     - Kredit: Projek – Hasil Terakru sebanyak 120 USD
 
     Sistem kini bersedia untuk mencipta invois pelanggan antara syarikat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Topik ini menerangkan cara untuk mencipta model ramalan untuk belanjawan selebih
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

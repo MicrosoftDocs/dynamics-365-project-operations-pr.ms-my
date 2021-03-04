@@ -45,3 +45,6 @@ Maklumat berikut tidak disalin daripada **Sumber** ke **Kontrak Sasaran**:
   - Maklumat belanjawan pelanggan
 
 Oleh kerana maklumat ini sangat khusus untuk setiap kontrak, medan dan rekod ini tidak disalin. Baris kontrak untuk projek dan produk, anggaran pada butiran baris kontrak dan nilai tidak boleh melebihi pada peringkat kontrak disalin. Kadar harga dan kos lalai bergantung pada pilihan dalam medan **Salin penetapan harga** pada halaman dialog **Salin parameter**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

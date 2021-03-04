@@ -48,3 +48,6 @@ Kemahiran untuk sumber dinilai oleh model kecekapan. Pengkadaran individu dalam 
 > ![Pengkadaran minimum dan maksimum ditakrifkan](media/Resource-Management-image85.png)
 
 Nilai pengkadaran ini ditunjukkan pada **Keperluan Sumber**, **Papan Jadual** dan penapis **Pembantu Jadual**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

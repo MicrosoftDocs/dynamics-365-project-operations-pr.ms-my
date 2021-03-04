@@ -66,3 +66,6 @@ Apabila Arnie bersedia untuk menghantar data laporan perbelanjaan kepada vendor 
 Arnie mesti mengesahkan bahawa transaksi laporan perbelanjaan adalah layak untuk pemulihan VAT, dan resit digital dilampirkan pada laporan tersebut. Untuk mula memproses perbelanjaan yang layak untuk pemulihan domestik, Arnie membuka halaman **Pemulihan cukai perbelanjaan** dan memilih laporan perbelanjaan yang memerlukan pengesahan. Dia mengesahkan bahawa resit adalah atas nama syarikat dan bukannya pekerja. (Untuk pemulihan VAT, resit mestilah atas nama syarikat.) Arnie kemudian mengesahkan bahawa kumpulan cukai jualan yang betul dan item kod cukai jualan dimasukkan.
 
 Apabila Arnie menerima resit kertas, dia mengubah status laporan perbelanjaan kepada **Sedia untuk pemulihan**. Dia kemudian boleh memfailkan pulangan dengan pihak berkuasa cukai yang berkenaan. Dalam kes ini, pihak berkuasa cukai yang berkenaan di Amerika Syarikat ialah Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

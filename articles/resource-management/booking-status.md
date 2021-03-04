@@ -20,3 +20,6 @@ ms.locfileid: "4514561"
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Anda boleh menggunakan fungsi yang disediakan dalam Universal Resource Scheduling untuk Dynamics 365 Field Service menyediakan status tempahan untuk organisasi anda. Untuk mendapatkan maklumat tentang cara melengkapkan persediaan ini, lihat [Sediakan status tempahan](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

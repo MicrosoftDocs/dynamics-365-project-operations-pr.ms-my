@@ -242,3 +242,6 @@ Jadual berikut menggariskan cara data entiti Kebergantungan Tugasan Sumber diseg
 
 ### <a name="additional-resources"></a>Sumber tambahan
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

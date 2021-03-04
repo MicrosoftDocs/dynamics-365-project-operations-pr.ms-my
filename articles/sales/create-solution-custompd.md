@@ -64,3 +64,6 @@ Tambah entiti Project Service yang berikut kepada penyelesaian penentuan harga a
 5.  Apabila digesa untuk menyertakan sebarang entiti sandaran untuk entiti yang dipilih, pilih **Tidak, jangan sertakan komponen diperlukan.**
 
     ![Termasuk entiti sandaran](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

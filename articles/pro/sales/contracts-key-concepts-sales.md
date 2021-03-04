@@ -93,3 +93,6 @@ Kontrak Project Operations dibina pada kontrak Dynamics 365 Sales. Walau bagaima
 - Kontrak Project Operations mempunyai borang dan elemen UI, peraturan perniagaan, logik perniagaan dalam pasang masuk serta skrip bahagian klien sendiri yang menjadikannya unik daripada kontrak Jualan.
 
 Atas sebab ini, anda tidak sepatutnya menggunakan kontrak Jualan dan kontrak Projek secara bergantian.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

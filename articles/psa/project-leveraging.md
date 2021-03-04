@@ -54,3 +54,6 @@ Anda boleh mentakrifkan usaha kerja dan menjadualkan anggaran dengan menggunakan
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Mengimport anggaran daripada projek ke dalam sebut harga
 
 Selepas anda mentakrifkan anggaran projek, anda boleh mengimportnya ke dalam baris sebut harga. Pada halaman **Butiran Baris Sebut Harga**, pilih **Import daripada anggaran** pada reben untuk merumuskan anggaran projek mengikut jenis transaksi, peranan atau peringkat tugas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

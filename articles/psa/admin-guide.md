@@ -52,3 +52,6 @@ Panduan ini membawa anda melalui proses pemasangan dan konfigurasi:
  [Panduan Pengurus Akaun](../psa/account-manager-guide.md) [Panduan Pengurus Projek](../psa/project-manager-guide.md)   
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)   
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

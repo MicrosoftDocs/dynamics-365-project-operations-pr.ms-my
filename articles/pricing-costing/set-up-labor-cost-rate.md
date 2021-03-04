@@ -84,3 +84,6 @@ Dalam senarai harga kos untuk Fabrikam UK-Robotics, kadar kos boleh dinyatakan b
 | Pemaju | Fabrikam UK | 115 GBP |
 
 Senarai harga kos boleh memberikan kadar buruh dalam berbilang mata wang. Apabila menjana anggaran kos pada projek, Project Operations akan menukar kadar kos ini ke dalam mata wang projek dan memaparkannya kepada pengguna. Apabila kemasukan masa telah diluluskan dan kos sebenar dicipta, kos sebenar dinilai dalam mata wang bagi peranan sepadan baris harga pada senarai harga kos. Kos sebenar untuk masa pada satu projek boleh direkodkan dalam berbilang mata wang. Walau bagaimanapun, apabila mengira atau meringkaskan kos buruh sebenar pada peringkat projek, Project Operations akan menukar semua kos buruh ke dalam mata wang projek, yang pengguna boleh melihat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pe
 >[!Note]
 > - Tarikh di semua wilayah kecuali Awan Komuniti Kerajaan (GCC) menunjukkan masa kemas kini automatik seterusnya. Tarikh dalam GCC menunjukkan ketersediaan versi; pada masa ini, tiada kemas kini automatik untuk wilayah ini.
 > - Untuk semua rantau lain, sementara kebanyakan kemas kini perlu selesai pada malam yang dijadualkan, kemas kini yang memerlukan lebih banyak masa mungkin diselesaikan semasa waktu gelap sepanjang hujung minggu yang ditunjukkan dalam lajur **Tarikh dijadualkan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

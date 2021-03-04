@@ -42,3 +42,6 @@ Anda boleh menggunakan kotak carian dalam **Pemilih Sumber** untuk mencari semua
 1. Daripada grid tugas, papan atau garis masa, navigasi ke sel **Ditugaskan Ke**.
 2. Dalam kotak carian, mula menaip nama. Hasil carian untuk nama dipaparkan dalam **Pemilih Sumber** di bawah **Sumber Lain**.
 3. Pilih sumber yang anda mahu peruntukkan kepada tugas atau pilih nama sumber di bawah **Sumber Pasukan Lain**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

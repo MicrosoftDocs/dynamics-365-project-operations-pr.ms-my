@@ -132,3 +132,6 @@ Anda patut menggunakan pengesahan pasang masuk untuk sebarang pengesahan yang me
 
 > [!IMPORTANT] 
 > Pada masa ini, isu yang diketahui pada halaman TBX menghalang pengguna daripada membetulkan maklumat dan memilih semula Selesai yang dilakukan apabila kemas kini gagal pengesahan pasang masuk. Sebagai penyelesaian, sediakan pengesahan peraturan perniagaan untuk mengelakkan situasi ini sebanyak mungkin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

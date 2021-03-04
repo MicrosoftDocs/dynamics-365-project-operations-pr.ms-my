@@ -78,3 +78,6 @@ Ciri berikut ditunjukkan pada halaman sedia ada tetapi masih belum ditunjukkan p
 - Aliran kerja peringkat baris
 - Sokongan pelulus interim
 - Perincian lanjutan
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

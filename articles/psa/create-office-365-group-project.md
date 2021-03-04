@@ -43,3 +43,6 @@ Berikan ruang di mana ahli pasukan projek boleh bekerjasama berkenaan dokumen pr
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

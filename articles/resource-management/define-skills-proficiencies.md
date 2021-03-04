@@ -42,3 +42,6 @@ Kemahiran untuk sumber dinilai oleh model kecekapan. Pengkadaran individu dalam 
 
 
 Nilai pengkadaran ini ditunjukkan pada **Keperluan Sumber**, **Papan Jadual** dan penapis **Pembantu Jadual**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Anda perlu menambah entiti Project Service berikut pada penyelesaian penentuan h
 > ![Jangan masukkan semua komponen berkaitan](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

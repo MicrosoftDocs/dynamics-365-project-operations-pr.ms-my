@@ -63,3 +63,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Projec
 **Sales**
 
 - Dibaiki: Apabila entri masa telah diluluskan semula (**Lulus > Batal >** lulus semula), pendua sebenar tidak boleh dikenakan bayaran dibuat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

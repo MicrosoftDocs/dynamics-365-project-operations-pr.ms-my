@@ -81,3 +81,6 @@ Isu berikut telah dibaiki:
 - Butang **Segar Semula Sebenar** mengira tugasan ringkasan dengan salah.
 - Tambahan Projek Microsoft: Betulkan ralat rujukan tidak sah jika mana-mana ahli pasukan mempunyai unit penyumberan kosong.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

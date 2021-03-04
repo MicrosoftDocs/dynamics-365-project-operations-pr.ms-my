@@ -46,3 +46,6 @@ Pembantu Jadual kelihatan dan ditapis oleh keperluan. Pilih sumber dan kemudian 
 > ![Sumber terpilih](media/Resource-Management-image61.png)
 
 Ahli pasukan generik digantikan dengan sumber yang dinamakan keras pada pasukan projek dan tugasan tugas dalam jadual projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

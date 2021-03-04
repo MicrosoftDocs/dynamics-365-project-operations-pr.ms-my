@@ -60,3 +60,6 @@ Anda boleh menganalisis sebut harga dan menjana carta untuk jangkaan pelanggan m
 Analisis jangkaan pelanggan mengenai jadual dilakukan dengan membandingkan tarikh akhir baris sebut harga terperinci dengan tarikh penghantaran yang diminta merentasi semua baris sebut harga dalam sebut harga.
 
 Analisis jangkaan pelanggan mengenai belanjawan dilakukan dengan membandingkan jumlah bagi jumlah belanjawan pelanggan dengan amaun disebut merentasi semua baris sebut harga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

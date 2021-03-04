@@ -55,3 +55,6 @@ Sebaik sahaja anda memenangi kontrak projek, anda perlu menyediakan kakitangan u
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -120,3 +120,6 @@ Seperti kadar bil, kadar kos untuk sumber manusia juga disediakan menggunakan se
     1. Senarai harga kos yang dilampirkan kepada unit organisasi.
     2. Senarai harga kos yang dilampirkan kepada parameter Project Operations. Oleh kerana senarai harga kos dalam banyak mata wang yang berbeza boleh dilampirkan ke parameter, padanan mata wang dilengkapkan antara mata wang unit organisasi kontrak bagi projek, kontrak atau sebut harga dan mata wang bagi senarai harga kos.
     3. Untuk perbelanjaan, kaedah penetapan harga pada kos dan tokokan melebihi kos tidak dikenakan pada senarai harga kos. Walaupun kaedah penetapan harga digunakan pada baris senarai harga kos untuk menyediakan kos kategori transaksi, sistem menolaknya dan tiada harga kos lalai dimasukkan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

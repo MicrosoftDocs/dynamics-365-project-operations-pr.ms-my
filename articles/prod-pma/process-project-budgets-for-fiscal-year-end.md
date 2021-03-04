@@ -98,3 +98,6 @@ Apabila anda memproses amaun belanjawan yang tinggal, anda boleh mencipta transa
 5. Bagi setiap projek yang anda mahu proses, pilih pilihan pada permulaan baris untuk projek. 
 6. Pilih **Proses** untuk memindahkan amaun belanjawan yang tinggal untuk projek yang dipilih kepada tahun fiskal yang dipilih.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -342,3 +342,6 @@ Project Operations merekodkan transaksi kewangan yang berlaku semasa projek. Tra
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

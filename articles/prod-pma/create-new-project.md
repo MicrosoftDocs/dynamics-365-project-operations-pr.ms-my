@@ -104,3 +104,6 @@ Semasa tempahan sumber, pengurus projek boleh menapis sumber peranan yang tersed
 
 3. Pilih **Simpan** , dan kemudian tutup halaman.
 4. Pada tab **Kecekapan** , tambah kemahiran **ProjectMgmt** dan sijil **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

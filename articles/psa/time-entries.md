@@ -70,3 +70,6 @@ Anda boleh mengimport data daripada penempahan projek dan tugasan. Apabila anda 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Kumpul mengikut, isih, cari dan keupayaan menapis
 
 Anda boleh mengumpulkan dan menapis entri masa dengan dimensi yang ditetapkan dalam lajur. Dalam medan **Kumpulkan dengan**, pilih dimensi yang akan digunakan untuk menapis entri masa. Anda juga boleh mengisih rekod kemasukan masa dalam urutan menaik atau menurun dengan menggunakan anak panah isih pada pengepala lajur. Selain itu, anda boleh menunjukkan atau menyembunyikan entri dengan memilih butang **Tapis** pada tajuk lajur dan kemudian, dalam kotak **Carian**, memasukkan teks yang sepatutnya digunakan untuk mencari penyertaan masa dengan nama projek, tugas projek, masa entri atau sumber.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

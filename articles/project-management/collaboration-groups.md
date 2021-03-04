@@ -26,3 +26,6 @@ Office Groups membolehkan anda berkongsi projek dengan ahli pasukan lain dalam C
 > [!NOTE] 
 > Pengguna hanya ditambahkan kepada kumpulan jika anda menekan **Kumpulan** dan menambahkan mereka. Ini berbeza dengan tingkah laku Projek untuk Web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

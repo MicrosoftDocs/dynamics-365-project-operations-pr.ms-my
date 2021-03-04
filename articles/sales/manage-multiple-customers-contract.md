@@ -47,3 +47,6 @@ Anda boleh mencipta, mengemas kini atau memadan pelanggan kontrak daripada tab *
 Anda boleh edit peratusan pecahan pengebilan dengan mengedit dalam grid. Apabila peratusan pecahan pengebilan tidak berjumlah 100 peratus, ralat berlaku. Selepas anda mengedit peratusan pecahan pengebilan, segar semula halaman **Kontrak Projek** untuk mengeluarkan ralat.
 
 Anda juga boleh memilih **Agihkan Secara Sekata** pada subgrid pelanggan kontrak projek. Pecahan pengebilan diperuntukkan secara sekata kepada semua pelanggan pada kontrak projek. Jika terdapat mana-mana faktor pembundaran, faktor akan ditambah kepada pelanggan pembundaran. Salah seorang pelanggan kontrak sentiasa mempunyai bendera **Pembundaran** ditetapkan kepada **Ya**. Pelanggan itu ialah pelanggan pembundaran. Biasanya, pelanggan pembundaran juga merupakan pelanggan utama kontrak, tetapi tidak diperlukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

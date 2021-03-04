@@ -32,3 +32,6 @@ Dalam Dynamics 365 Project Service Automation versi 3.0, pandangan Masa dan Perb
 Sebelum ini, pandangan kalendar dan grid untuk Masa dan Perbelanjaan dilaksanakan sebagai kawalan DHTMLX. Artifak yang berkaitan dengan pelaksanaan kalendar dan pandangan grid kini lapuk (ditamatkan).
 
 Untuk senarai penuh sumber ditamatkan, lihat [Sumber web ditamatkan Project Service Automation 3.x](web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Anda juga boleh menyediakan senarai harga projek tertentu apabila anda telah ber
 ## <a name="custom-pricing-on-a-project-contract"></a>Penetapan harga tersuai pada kontrak projek
 
 Selepas anda mempunyai senarai harga projek lalai organisasi dan khusus pelanggan, kontrak projek anda akan dicipta dengan perkaitan senarai harga projek ini secara automatik. Walau bagaimanapun, senarai harga projek pada kontrak projek sentiasa disalin dengan nama tarikh dan kontrak dilampirkan kepada mereka. Pengurus akaun dan projek kemudian boleh mula membuat suntingan kepada harga pada salinan ini. Harga yang diubah ini akan digunakan untuk kontrak projek ini sahaja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Anak tetingkap penapis menunjukkan pilihan berkaitan kerja, termasuk:
 -   Syarikat persumberan
 -   Jenis sumber
 -   Sumber diutamakan
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

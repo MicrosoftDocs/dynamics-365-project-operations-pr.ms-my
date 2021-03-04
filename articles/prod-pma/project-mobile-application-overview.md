@@ -49,3 +49,6 @@ Lembaran masa saya (Dioptimumkan untuk mudah alih) dan Lembaran masa untuk ulasa
 - [Entri masa projek]( project-time-entry-mobile-workspace.md)
 - [Lembaran masa projek pada peranti mudah alih](Mobile-timesheets.md)
 - [Laksanakan medan tersuai untuk aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet pada iOS dan Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Anda boleh menggunakan keupayaan tempahan lanjutan tab **Penyelarasan** atau **P
 ![Memperluas penempahan untuk ahli pasukan pada tab penyelarasan sumber](media/RM-how-to-7.png)
 
 Selepas ahli pasukan ditempah dalam projek anda, anda boleh menggunakan tempahan mengekalkan atau menggunakan Papan Jadual secara langsung untuk menguruskan tempahan mereka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

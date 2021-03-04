@@ -48,3 +48,6 @@ Anda boleh menyemak ketersediaan sumber untuk mendapatkan pandangan keseluruhan 
 
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

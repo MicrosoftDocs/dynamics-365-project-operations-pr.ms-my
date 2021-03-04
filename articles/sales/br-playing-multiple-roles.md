@@ -106,3 +106,6 @@ Apabila anda mengembangkan baris untuk rekod ahli pasukan tersebut, anda boleh m
 ### <a name="estimates-grid"></a>Grid anggaran 
 
 Pada grid **Anggaran**, kedua-dua penugasan untuk sumber yang sama ditetapkan harga dengan cara yang berbeza. Penugasan untuk sumber pada **Tugas A** ditetapkan harga menggunakan nilai atribut **Peranan** bagi **Berunding dengan Bakal Pelanggan**. Penugasan untuk sumber yang sama pada **Tugas B** ditetapkan harga menggunakan nilai atribut **Peranan** bagi **Juruteknik Rangkaian**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

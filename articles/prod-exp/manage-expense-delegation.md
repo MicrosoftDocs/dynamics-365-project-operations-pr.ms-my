@@ -41,3 +41,6 @@ Apabila kunci pengurusan ciri **Dayakan halaman senarai wakil perbelanjaan** did
 Pengguna wakil boleh menapis dan mencari dengan cepat pada laporan perbelanjaan sedia ada yang telah diwakilkan kepada mereka. Mereka juga boleh mencipta laporan perbelanjaan baharu untuk pengguna lain dengan memilih **Laporan perbelanjaan baharu**.
 
 Pengguna wakil boleh juga mencipta dan mengurus laporan perbelanjaan untuk pekerja lain dengan pergi ke **Pengurusan perbelanjaan** > **Perbelanjaan saya** > **Laporan perbelanjaan** dan memilih **Buka perbelanjaan pengguna lain**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

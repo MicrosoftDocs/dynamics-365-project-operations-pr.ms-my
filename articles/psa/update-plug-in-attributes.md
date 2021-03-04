@@ -68,3 +68,6 @@ Langkah berikut menerangkan tentang proses pendaftaran pasang masuk.
 
 9. Tutup alat pendaftaran pasang masuk.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

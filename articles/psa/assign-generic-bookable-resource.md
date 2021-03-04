@@ -59,3 +59,6 @@ Anda juga boleh mengklik pautan **Keperluan sumber** dalam grid pasukan untuk me
 
 ![Keperluan sumber](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

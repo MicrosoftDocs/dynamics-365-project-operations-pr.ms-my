@@ -140,3 +140,6 @@ Ilustrasi yang berikut menunjukkan contoh pemetaan tugas templat dalam integrasi
 [![Pemetaan templat - Kemas kini sebenar](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Pemetaan templat - Kemas kini transaksi](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

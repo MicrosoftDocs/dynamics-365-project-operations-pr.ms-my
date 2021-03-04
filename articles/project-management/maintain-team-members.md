@@ -42,3 +42,6 @@ Apabila anda melakukan pemilihan, sumber ditambah kepada pasukan projek dan ditu
 Anda boleh menggunakan keupayaan tempahan lanjutan tab **Penyelarasan** atau **Papan Jadual** untuk menempah kapasiti sumber untuk projek.
 
 Selepas ahli pasukan ditempah pada projek anda, anda boleh menggunakan **Kekalkan tempahan** atau **Papan Jadual** secara langsung untuk mengurus penempahan mereka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

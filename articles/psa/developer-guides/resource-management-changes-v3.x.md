@@ -170,3 +170,6 @@ Medan berikut untuk dirancang, sebenar dan baki kos dan jualan tidak berubah pad
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

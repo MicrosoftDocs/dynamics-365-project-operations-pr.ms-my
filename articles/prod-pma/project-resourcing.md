@@ -55,3 +55,6 @@ Topik berikut memberikan maklumat mengenai tugas yang perlu dilengkapkan apabila
 - [Prestasi penjadualan sumber projek](project-scheduling-performance.md)
 - [Sediakan peranan pada templat struktur pecahan Kerja](set-up-roles-wbs-template.md)
 - [Pemenuhan sumber untuk sumber yang dirancang](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

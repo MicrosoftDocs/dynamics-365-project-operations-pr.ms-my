@@ -55,3 +55,6 @@ Hanya atribut perakaunan berikut boleh dikemaskini dalam baris jurnal integrasi 
 Baris jurnal integrasi boleh dipadamkan, walau bagaimanapun sebarang baris yang belum disiarkan akan dimasukkan ke dalam jurnal sekali lagi selepas anda menjalankan semula proses berkala **Import daripada pemeringkatan**.
 
 Apabila anda menyiarkan jurnal integrasi, sub lejar projek dan transaksi lejar am dicipta. Ini digunakan dalam penginvoisan pelanggan hiliran, pengiktirafan hasil dan pelaporan kewangan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

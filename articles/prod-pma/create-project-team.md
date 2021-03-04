@@ -62,3 +62,6 @@ Prosedur berikut menjelaskan cara mencipta pasukan projek.
 ## <a name="monitor-project-teams"></a>Pantau pasukan projek
 1. Pada halaman **Semua projek** , pilih paut **Projek ID** untuk projek **Naik taraf XYZ Fasa 2**.
 2. Pada Fasttab **Pasukan dan penjadualan projek** , mengesahkan bahawa sumber projek yang disenaraikan adalah betul.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

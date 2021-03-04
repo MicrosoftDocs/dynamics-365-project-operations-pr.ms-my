@@ -51,3 +51,6 @@ Untuk menghapuskan projek anggaran, ia mesti dilengkapkan. Langkah berikut mener
 5. Selepas proses penghapusan selesai, projek anggaran yang dihapuskan akan dipaparkan dengan nilai negatif. 
 
 Jika anda tidak berniat untuk menghapuskan anggaran, anda boleh memilih anggaran yang dihapuskan dan pilih **Buat balik penghapusan**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

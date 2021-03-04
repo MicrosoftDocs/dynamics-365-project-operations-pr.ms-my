@@ -57,3 +57,6 @@ Peraturan: Projek dan kelas transaksi tertentu hanya boleh dimasukkan pada satu 
 | C1       | CL2           | P1      | Tidak           | Ya             | Tidak          | Sah           | Masa dan yuran projek P1 termasuk dalam CL1. Perbelanjaan pada projek P1 termasuk dalam CL2. </br>   Tidak terdapat pertindihan dalam apa yang dimasukkan pada setiap baris kontrak dan oleh itu sah.  |
 | C1       | CL1           | P1      | Ya          | Ya             | Ya         | Tidak sah       | Mencabuli peraturan. Masa, perbelanjaan dan yuran pada projek P1 termasuk dalam baris dua kontrak.                                                                                               |
 | CL2      | CL2           | P1      | Ya          | Ya             | Ya         | Tidak sah       | Mencabuli peraturan. Masa, perbelanjaan dan yuran pada projek P1 termasuk dalam baris dua kontrak.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

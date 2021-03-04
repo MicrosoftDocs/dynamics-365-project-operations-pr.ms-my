@@ -32,3 +32,6 @@ Organisasi anda mungkin memerlukan permintaan perjalanan diserahkan sebelum peke
 Permintaan perjalanan dan dasar boleh digunakan untuk membantu dengan kawalan belanjawan. Sebagai contoh, jika organisasi anda mengusahakan projek harga tetap yang memerlukan perjalanan, perbelanjaan perjalanan ahli pasukan projek mesti sesuai dalam belanjawan untuk projek tersebut. Dengan memerlukan perbelanjaan perjalanan diluluskan sebelum ditanggung, organisasi boleh membantu memastikan projek tersebut kekal dalam dalam belanjawan.
 
 Anda boleh menyediakan dasar untuk permintaan perjalanan daripada halaman **Permintaan perjalanan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

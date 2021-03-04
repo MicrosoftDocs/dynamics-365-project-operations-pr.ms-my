@@ -105,3 +105,6 @@ Dynamics 365 secara automatik mengendalikan gulung atas jumlah dalam mata wang y
 | Perbelanjaan           | Jualan belum dibilkan   | 17-Jun | Abu Talib  | Sewa Kereta           | 1 setiap satu     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Untuk mengira jumlah nilai jualan belum dibilkan ke atas projek, anda boleh mencipta medan gulung atas untuk medan **Amaun** pada semua aktual jualan tidak dibilkan yang berkaitan. Medan gulung atas adalah pembinaan Dynamics 365 yang membolehkan untuk formula pantas pada rekod yang berkaitan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Untuk memastikan peningkatan yang berjaya, perhubungan berikut mesti diselenggar
 
 - Semua tugas projek kebergantungan mestilah berkaitan dengan projek yang sama.
 - Satu tugas tidak boleh mempunyai kebergantungan yang sama yang dirujuk lebih daripada sekali.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

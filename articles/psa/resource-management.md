@@ -53,3 +53,6 @@ Anda boleh kakitangan projek anda dengan pasukan generik atau sumber yang dinama
 - [Tempah sumber dinamakan daripada keperluan sumber](book-named-resource.md)
 - [Serahkan permintaan sumber](submit-resource-request.md)
 - [Menerima atau menolak sumber projek yang dicadangkan daripada permintaan sumber](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

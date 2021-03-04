@@ -42,3 +42,6 @@ Kalendar tidak menyokong tindakan pada item kalendar individu dan anda tidak bol
 ## <a name="extensibility"></a>Dapat diperluas
 
 Pada halaman **Entiti Masa** masa yang mempunyai grid kemasukan masa, anda boleh menambah medan tersuai, menyediakan medan carian dan mencipta pandangan tersuai. Anda juga boleh menyediakan logik perniagaan tersuai yang berdasarkan nilai yang dipilih atau dimasukkan dalam medan tersuai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

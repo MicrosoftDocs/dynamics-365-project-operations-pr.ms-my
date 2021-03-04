@@ -61,3 +61,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Projec
     - Dibetulkan: ID objek duplikasi ditemui pada borang utama **Kontrak**.
     - Dibetulkan: Logik telah dikemas kini untuk menjadikan tab **Analisis Sebut Harga** boleh dilihat supaya ia memaparkan persediaan metadata tab.
     - Dibetulkan: Tarikh perakaunan pada rekod sebenar kini datang daripada tarikh bagi tarikh entri masa/perbelanjaan dan bukan tarikh kelulusan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

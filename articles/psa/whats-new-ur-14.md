@@ -64,3 +64,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3
      - Dibetulkan: Jumlah harga jualan tidak dikira sehingga pengguna juga menginput harga kos untuk anggaran perbelanjaan pada projek.
      - Dibetulkan: Tutup sebut harga sebagai **Menang** gagal jika kontrak projek yang berkaitan bukan dalam keadaan **Draf**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

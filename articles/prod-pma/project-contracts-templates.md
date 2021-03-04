@@ -153,3 +153,6 @@ Ilustrasi yang berikut menunjukkan contoh pemetaan tugas templat dalam integrasi
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Pemetaan pencapaian baris kontrak projek dalam templat Projek dan Kontrak (PSA 3.x kepada Dynamics) - v2:
 
 [![Pemetaan pencapaian baris kontrak projek dengan templat dua versi](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Pengiraan keuntungan menukar jumlah untuk butiran baris kontrak untuk **Kos** da
 
 > [!NOTE]
 > Ralat pembundaran mata wang dan margin yang ditukar boleh berlaku kerana kurangnya kadar pertukaran berkesan tarikh. Gunakan pengiraan ini pada kontrak projek hanya sebagai anggaran dan bukan untuk laporan statutori yang sebenar atau lain yang memerlukan kejituan yang lebih tinggi untuk pembundaran dan kesedaran tarikh effectivity untuk kadar pertukaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

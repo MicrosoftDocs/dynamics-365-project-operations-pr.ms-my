@@ -38,3 +38,6 @@ Soalan lazim (FAQ) ini digunakan untuk perbelanjaan sebenar yang mana kelas tran
 Pergi ke entri perbelanjaan yang berkaitan dan pastikan terdapat jumlah dalam medan enti perbelanjaan. Jika entri perbelanjaan asal tidak mempunyai jumlah medan yang dipenuhi, maka anda telah mengasingkan masalah tersebut.
  
 Untuk menyelesaikan masalah ini, cipta semula entri perbelanjaan dengan jumlah yang sah dan luluskannya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

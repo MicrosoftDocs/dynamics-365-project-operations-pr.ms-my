@@ -55,3 +55,6 @@ Peluang ialah petunjuk yang mesra daripada pelanggan yang berminat dalam mengika
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Akaun](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

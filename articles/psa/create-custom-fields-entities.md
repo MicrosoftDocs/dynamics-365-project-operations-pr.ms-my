@@ -73,3 +73,6 @@ Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau men
 > ![Data Sampel untuk entiti Jawatan Standard ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

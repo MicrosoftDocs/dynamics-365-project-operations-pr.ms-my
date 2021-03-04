@@ -58,3 +58,6 @@ KPI berikut tersedia pada tab **Prestasi Kontrak** kontrak projek.
 | Kos Dikenakan | Baris berdasarkan produk | Jumlah semua kos sebenar dilogkan untuk baris kontrak berasaskan produk. |
 | Margin Kasar | Baris berdasarkan projek | Amaun dibilkan - Kos dikenakan sehingga kini / Amaun dibilkan |
 | Margin Jangkaan | Baris berdasarkan produk | (Nilai baris kontrak - Kos anggaran untuk baris kontrak) / Nilai baris kontrak |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

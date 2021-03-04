@@ -33,3 +33,6 @@ Senarai semua sebut harga projek boleh dilihat daripada halaman senarai **Sebut 
 2. Gunakan **Penukar Pandangan** untuk memilih pandangan ditapis bagi sebut harga. Anda boleh mengkonfigurasi pandangan anda sendiri dan pilihan navigasi dengan menggunakan kriteria penapis tersuai.
 
 Sebut harga boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

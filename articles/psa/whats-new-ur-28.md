@@ -55,3 +55,6 @@ Isu berikut telah dibaiki:
 - Pengecualian rujukan nol dijana apabila pasang masuk **GetEstimatesForProject** dipanggil.
 - **Tandai sebagai bersedia untuk diinvois** pada grid pencapaian hanya sebahagiannya mengemas kini atribut kecuali untuk atribut **InvoiceStatus** yang dikemas kini.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

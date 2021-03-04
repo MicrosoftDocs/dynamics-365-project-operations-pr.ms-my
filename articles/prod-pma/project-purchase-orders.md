@@ -76,3 +76,6 @@ Anda boleh menggunakan salah satu kaedah berikut untuk mencipta pesanan belian d
 
 Untuk mendapatkan maklumat lanjut, lihat [Terima item pada pesanan belian daripada keperluan item](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

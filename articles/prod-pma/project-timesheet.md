@@ -96,3 +96,6 @@ Klik **Serahkan** untuk menghantar lembaran masa ke aliran kerja kelulusan.
 ## <a name="review-timesheets"></a>Semak lembaran masa
 
 Senarai masa yang perlu disemak semula boleh didapati dalam menu. Pilihan ini hanya tersedia jika anda telah ditetapkan sebagai aliran kerja pelulus. Kedua-dua pengepala dan kelulusan baris disokong. Kelulusan peringkat baris menawarkan keupayaan untuk menandakan satu atau lebih baris untuk diluluskan. Selepas meneliti maklumat heet masa, klik **Luluskan** , **Wakil** atau **Kembali** untuk meneruskan aliran kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

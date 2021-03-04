@@ -45,3 +45,6 @@ Untuk mencipta faktor Kuantiti daripada sifat Produk, ikuti langkah berikut:
 6. Simpan dan tutup borang. Ulangi langkah ini untuk semua sifat yang digunakan untuk pengkomputeran kuantiti untuk baris sebut harga berasaskan produk.
 
 Apabila anda mencipta baris sebut harga berasaskan produk untuk produk, kuantiti baris sebut harga akan dikunci. Kuantiti akan dikira sebagai produk nilai sifat yang anda masukkan untuk baris sebut harga tersebut.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

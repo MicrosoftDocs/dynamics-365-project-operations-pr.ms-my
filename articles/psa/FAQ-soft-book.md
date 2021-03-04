@@ -67,3 +67,6 @@ Apabila anda bersedia untuk menukar sumber ahli pasukan yang ditempah sementara 
 2. Klik kanan tempahan, dan di bawah **Ubah Status**, pilih **Tempah Keras** \> **Keras**. Status tempahan kini adalah **Keras**.
 3. Selepas anda menutup papan Jadual, kembalik ke projek, dan buka tab **Pasukan**, anda akan mendapati bahawa jam untuk sumber telah dialih keluar daripada lajur **Jam Ditempah Lembut** kepada lajur **Jam Ditempah Keras** pada tab **Pasukan** apabila dalam pandangan **Ahli Pasukan Bernama**. Jika sumber ditugaskan kepada tugas, ia tidak lagi ditunjukkan sebagai defisit tempahan pada tab **Penyesuaian** kerana tempahannya kini adalah keras.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

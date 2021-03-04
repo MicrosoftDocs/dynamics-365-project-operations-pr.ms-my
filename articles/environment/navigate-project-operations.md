@@ -38,3 +38,6 @@ Pilih **Log Masuk** > **Log ke persekitaran** untuk navigasi ke modul **Pengurus
 
 > [!NOTE]
 > Anda boleh mengakses Project Operations dalam Common Data Service dan modul **Pengurusan projek dan perakaunan** secara langsung dengan menggunakan URL mereka masing-masing. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

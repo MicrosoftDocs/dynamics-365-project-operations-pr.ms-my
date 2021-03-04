@@ -144,3 +144,6 @@ Jika anda mempunyai aktual yang datang selepas invois dicipta, anda boleh memasu
 Dalam Project Operations, anda boleh mencipta baris invois untuk produk yang tidak diguna pakai untuk mana-mana projek atau untuk semua projek bersama dengan baris invois berasaskan projek. Baris invois ini dicipta sebagai baris kontrak berasaskan produk dan selepas baris ditandakan sebagai bersedia dengan diinvois, baris tersebut ditambah sebagai baris invois berasaskan produk.
 
 Selepas anda menambah baris invois berasaskan produk, baris tersebut tidak boleh ditukar. Walau bagaimanapun, baris boleh dipadamkan daripada draf invois proforma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

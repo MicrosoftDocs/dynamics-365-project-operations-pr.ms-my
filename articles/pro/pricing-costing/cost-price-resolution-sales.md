@@ -36,3 +36,6 @@ Selepas senarai harga kos diselesaikan, medan **Peranan** dan **Unit Sumber** pa
 Baris anggaran untuk Perbelanjaan merujuk kepada butiran sebut harga dan baris kontrak bagi perbelanjaan dan baris anggaran perbelanjaan pada projek.
 
 Selepas senarai harga kos diselesaikan, sistem menggunakan kombinasi medan **Kategori** dan **Unit** pada baris anggaran perbelanjaan untuk dipadankan dengan baris **Harga Kategori** pada senarai harga yang diselesaikan. Jika sistem mencari baris harga kategori yang mempunyai kadar kos untuk kombinasi **Kategori** dan **Unit**, kadar kos dilalaikan. Jika sistem tidak dapat sepadan dengan nilai **Kategori** dan **Unit**, atau jika ia dapat mencari baris harga kategori yang sepadan tetapi kaedah penetapan harga bukan **Harga Seunit**, kadar kos lalai kepada sifar (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

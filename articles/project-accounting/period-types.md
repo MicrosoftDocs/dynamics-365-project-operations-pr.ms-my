@@ -34,3 +34,6 @@ Untuk mencipta dan bekerja dengan jenis tempoh, lengkapkan langkah berikut:
 4. Pilih rekod jenis tempoh dan kemudian pilih **Jana tempoh** untuk mencipta tempoh bagi jenis tempoh. Berdasarkan kekerapan tempoh yang anda pilih, anda mungkin mempunyai pilihan untuk menentukan tarikh mula atau bilangan tempoh untuk menjana.
 5. Pilih **Tempoh** untuk mengkaji semula tempoh yang dijana.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

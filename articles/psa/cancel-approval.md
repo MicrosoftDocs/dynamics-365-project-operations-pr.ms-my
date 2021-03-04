@@ -62,3 +62,6 @@ Projek juga terjejas dari segi kewangan apabila kelulusan dibatalkan. Pertama, a
 Seterusnya, entri balikan dicipta dalam jadual Aktual. Untuk mencipta entri balikan, sistem menyalin nilai medan daripada aktual sebenar. Satu-satunya nilai yang tidak disalin adalah nilai kuantiti. Sebaliknya, nilai ini dibalikkan. Aktual balikan dicipta untuk **Kos** dan aktual **Jualan Tidak Dibilkan**. Medan **Status Pelarasan** pada aktual balikan ditetapkan kepada **Tidak dilaraskan**, dan status pengebilan ditetapkan kepada **Dibatalkan**.
 
 Selepas semua perubahan ini dibuat, amaun yang direkod sebagai dibelanja ke atas projek dan tunggakan hasil ke atas projek tidak lagi dikira untuk amaun yang diwakili aktual ini.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

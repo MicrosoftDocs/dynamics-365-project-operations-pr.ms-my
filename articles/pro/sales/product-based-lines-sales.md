@@ -28,3 +28,6 @@ Baris berdasarkan produk boleh menjadi item katalog atau produk masukan manual. 
 
 Apabila kaedah hasil bagi ringkasan Peluang **Dikira oleh Sistem**, nilai belanjawan pelanggan di semua baris peluang diringkaskan untuk mengira anggaran hasil. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

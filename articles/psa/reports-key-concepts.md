@@ -48,3 +48,6 @@ Jadual berikut mentakrifkan konsep utama yang digunakan dalam aplikasi Dynamics 
 | Kontur                    | Tugas, keperluan atau jam tugasan apabila ia dipecahkan menjadi pengagihan harian. Contohnya, tugas selama lima hari, 40 jam boleh dikonturkan menjadi lapan jam sehari selama lima hari. |
 | Pandangan penyesuaian        | Pandangan yang menunjukkan tempahan dan tugasan untuk setiap ahli pasukan projek. Pandangan ini membolehkan pengurus projek mencari sebarang ketakpadanan antara penempahan dan tugasan dan untuk mengambil tindakan pembetulan jika sebarang ketakpadanan berlaku. |
 | Jam kerja                 | Entiti yang digunakan untuk mengenal pasti kapasiti sumber serta jam bekerja dan tidak bekerja. Entiti ini juga dirujuk sebagai kalendar sumber. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

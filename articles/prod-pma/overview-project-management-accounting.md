@@ -440,3 +440,6 @@ Selepas pernyataan dikira, anda boleh melihat maklumat berikut pada tab pelbagai
 -   **Penggunaan** – Maklumat mengenai penggunaan jam, item, perbelanjaan dan transaksi gaji.
 -   **Invois** – Maklumat mengenai invois dan penginvoisan pada akaun.
 -   **Kadar jam** – Kadar jam bagi jam yang didaftarkan ke akaun pendapatan dan kos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

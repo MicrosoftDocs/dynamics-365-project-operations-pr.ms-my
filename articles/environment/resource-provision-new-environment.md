@@ -209,3 +209,6 @@ Jika anda telah menggunakan data demo pada persekitaran Kewangan, lihat [sediaka
 
 
 Persekitaran Operasi Projek anda kini diperuntukkan dan dikonfigurasikan. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Jadual berikut memberikan senarai penyeluruh borang dan pandangan luar kotak, me
 |  Sebenar|• Maklumat<br>• Aktif Sebenar|• Pandangan Berkaitan Aktual|
 
 Medan tersuai juga perlu ditambah dalam peraturan perniagaan bergantung pada apa yang anda telah takrifkan. Satu contoh luar kotak ialah untuk peraturan perniagaan **Keboleheditan Entri Masa berasaskan status**. Peraturan ini mentakrifkan jenis medan yang perlu dikunci apabila Entri Masa berada dalam status tidak boleh diedit seperti **Diluluskan**. Tambah medan pada peraturan perniagaan ini agar medan dikunci untuk pengeditan apabila Entri Masa berada dalam status selain daripada **Draf** atau **Dikembalikan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

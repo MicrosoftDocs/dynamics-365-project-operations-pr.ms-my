@@ -38,3 +38,6 @@ Atribut berikut ditakrifkan untuk setiap item baris perbelanjaan:
 - **Unit Harga Kos** : Harga unit yang digunakan untuk pengiraan kos perbelanjaan.
 - **Unit Harga Jualan** : Harga unit yang digunakan untuk pengiraan harga jualan perbelanjaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

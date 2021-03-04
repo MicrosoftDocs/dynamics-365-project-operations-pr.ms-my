@@ -63,3 +63,6 @@ Apabila anda mencipta dan menyerahkan laporan perbelanjaan untuk pendahuluan tun
 ### <a name="example"></a>Contoh
 Anda merancang untuk melakukan perjalanan dari Seattle ke Bandar New York untuk persidangan. Anda mencipta permintaan pendahuluan tunai untuk 3000.00 USD berdasarkan anggaran kos tiket persidangan, penerbangan, hotel, makanan dan teksi. Anda tidak akan dibayar melainkan pengurus anda meluluskan permintaan ini. Selepas pengurus anda meluluskan, pendahuluan tunai yang diminta dibayar sebanyak 3000.00 USD ke dalam akaun bank anda. Anda kemudiannya menghadiri persidangan itu. Selepas menyelesaikan perjalanan, anda mendapati bahawa jumlah perbelanjaan hanya 2790.00 USD. Pilih **Tunai** dalam medan **Kaedah pembayaran** dan serahkan perbelanjaan anda untuk 2790.00 USD. Jumlah perbelanjaan yang diserahkan anda dilaraskan secara automatik dengan pendahuluan tunai sebanyak 3000.00 USD yang dipinjamkan kepada anda. Anda kini berhutang baku 210.00 USD (3000.00 - 2790.00), yang anda boleh kembalikan kepada syarikat menggunakan kategori perbelanjaan **Pulang tunai**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

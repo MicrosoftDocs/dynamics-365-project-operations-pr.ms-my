@@ -330,3 +330,6 @@ PSA merekod transaksi kewangan yang berlaku semasa projek. Transaksi ini direkod
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

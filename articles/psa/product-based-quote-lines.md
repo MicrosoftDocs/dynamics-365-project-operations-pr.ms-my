@@ -82,3 +82,6 @@ Sifat **Bilangan Pengguna** dan **Bilangan Bulan** boleh ditandakan sebagai fakt
 
 > ![Menandakan Bilangan Pengguna dan Bilangan Bulan sebagai faktor kualiti](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

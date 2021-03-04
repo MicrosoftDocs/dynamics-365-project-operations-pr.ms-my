@@ -39,3 +39,6 @@ ms.locfileid: "4081205"
 10. Klik OK. 
 
 Selepas langkah ini, Nota Kredit akan tersedia untuk Cadangan Invois.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

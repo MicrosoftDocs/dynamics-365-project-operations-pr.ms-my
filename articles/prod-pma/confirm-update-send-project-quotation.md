@@ -57,3 +57,6 @@ Untuk mengubah suai sebut harga projek yang sedia ada, status sebut harga mesti 
 
 > [!NOTE]
 > Anda tidak boleh mengubah suai sebut harga projek selepas status ditukar kepada **Dihantar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Kategori belanjawan digunakan untuk mengira secara automatik amaun invois untuk 
 8. Pilihan: Tugaskan peraturan pengebilan kepada projek tambahan. Pada FastTab **Projek** , dalam bahagian **Projek tersedia** , pilih projek dan kemudian pilih butang anak panah kanan untuk menambah projek ke bahagian **Projek dipilih**.
 9. Pilihan: Kira amaun peratusan yang ditahan pelanggan daripada pembayaran pada invois. Pada FastTab **Terma pengekalan pembayaran** , pilih sumber pembiayaan, dan kemudian, dalam medan **Peratusan pengekalan** , masukkan peratusan pengekalan.
 10. Ulangi langkah ini untuk mencipta peraturan pengebilan tambahan untuk kontrak projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

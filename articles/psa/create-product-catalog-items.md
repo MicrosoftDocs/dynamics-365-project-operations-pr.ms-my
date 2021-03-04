@@ -37,3 +37,6 @@ Jika anda mahu memasukkan produk, seperti lesen perisian, dalam sebut harga dan 
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasikan Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -160,3 +160,6 @@ Dengan mencipta dasar laporan perbelanjaan, anda boleh membantu organisasi anda 
 - Bilakah dasar ini tamat tempoh?
 - Apakah itu peraturan dasar?
 - Apakah hasil peraturan dasar itu?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

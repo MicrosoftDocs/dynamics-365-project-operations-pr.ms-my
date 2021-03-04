@@ -43,3 +43,6 @@ Pelaksanaan ini hendaklah memilih jangkaan Project Operations adalah untuk mengg
 - Memerlukan cukai jualan kelas perusahaan yang kaya dan enjin kadar pertukaran untuk menjana invois menghadapi pelanggan bagi projek.
 - Sistem perakaunan projek dan pengiktirafan hasil mematuhi Standard Pelaporan Kewangan Antarabangsa (IFRS).
 - Aplikasi Kewangan atau Supply Chain Management dan integrasi transaksi berasaskan projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

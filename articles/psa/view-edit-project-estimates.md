@@ -45,3 +45,6 @@ Dengan keupayaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-servi
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

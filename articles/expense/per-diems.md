@@ -31,3 +31,6 @@ Harian ialah elaun yang dibayar kepada pekerja yang membuat perjalanan untuk ker
     
 ## <a name="submit-expenses-using-per-diem"></a>Serahkan perbelanjaan menggunakan harian
 Untuk menyerahkan perbelanjaan menggunakan harian, gunakan kategori perbelanjaan **Harian** apabila anda mencipta laporan perbelanjaan. Masukkan **Harian daripada tarikh**, **Harian daripada tarikh** dan **Lokasi harian**. Amaun akan dikira berdasarkan kadar harian untuk lokasi yang dipilih dan pengurangan hidangan akan dikira berdasarkan tahap kadar harian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pada halaman **P
 ![Kotak dialog Lanjutkan Tempahan](media/Resource-Management-image58.png)
 
 Pengurus projek atau pengurus sumber kemudian boleh menggunakan Papan Jadual untuk mengurus sebarang situasi di mana sumber ditempah berlebihan di luar kapasitinya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

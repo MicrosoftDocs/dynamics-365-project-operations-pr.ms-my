@@ -125,3 +125,6 @@ Harga Tetap – peratusan siap
 Peraturan profil kos dan hasil projek menentukan Profil kos dan hasil projek yang mesti digunakan apabila memproses sebarang transaksi projek yang boleh dibilkan. Takrifkan peraturan dengan pergi ke **Pengurusan dan perakaunan projek** \> **Persediaan** \> **Penyiaran** \> **Peraturan profil kos dan hasil projek**.
 
 Peraturan boleh ditakrifkan oleh kontrak projek, kumpulan projek atau oleh projek khusus. Sistem akan sentiasa memilih peraturan kebutiran tertinggi dahulu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

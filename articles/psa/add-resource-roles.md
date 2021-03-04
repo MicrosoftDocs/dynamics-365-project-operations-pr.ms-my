@@ -47,3 +47,6 @@ Tetapkan kadar penggunaan sasaran bagi setiap peranan. Tetapan ini menentukan ke
   
 ### <a name="see-also"></a>Lihat Juga  
  [Sediakan sumber](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

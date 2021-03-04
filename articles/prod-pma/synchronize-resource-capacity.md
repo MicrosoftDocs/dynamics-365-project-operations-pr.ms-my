@@ -49,3 +49,6 @@ Kami mengesyorkan agar anda menggunakan kelompok. Pilihan boleh tersedia semasa 
     | Tarikh tamat    | Masukkan tarikh tamat untuk proses penyegerakan untuk gulungan kapasiti sumber. |
 
 [![Proses penyegerakan](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

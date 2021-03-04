@@ -41,3 +41,6 @@ Anda boleh mencipta pesanan jualan berasaskan projek dalam dua cara:
 - Pergi ke projek itu sendiri. Pada Anak Tetingkap Tindakan, pilih **Urus > tugas Item > Pesanan jualan**. Maklumat projek akan menjadi lalai kepada pesanan jualan daripada projek. Jika kontrak projek mempunyai lebih daripada satu sumber pembiayaan, anda akan perlu untuk memilih sumber pembiayaan untuk menetapkan pelanggan bagi pesanan jualan. Jika terdapat hanya satu pembiayaan untuk projek itu, pelanggan akan ditetapkan secara automatik.
 - Pergi ke halaman senarai **Semua pesanan jualan** dan cipta pesanan jualan baharu. Anda akan perlu untuk memilih projek bagi pesanan jualan. Selepas projek itu dipilih, pelanggan akan ditetapkan daripada sumber pembiayaan atau anda akan perlu untuk memilih sumber pembiayaan jika kontrak projek mempunyai pelbagai sumber pembiayaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

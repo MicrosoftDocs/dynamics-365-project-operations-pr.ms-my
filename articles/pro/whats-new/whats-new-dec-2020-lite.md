@@ -57,3 +57,6 @@ Jadual berikut menyenaraikan kemas kini Project Operations pada persekitaran Dat
 | Masa dan perbelanjaan | 2034882 | Butang **Baharu** dipaparkan dua kali pada bar perintah untuk entri masa apabila Dynamics 365 Field Service dipasang. |
 | Masa dan perbelanjaan | 2056028 | Kemas kini halaman **Edit Masa** untuk disertakan dengan garis masa. |
 | Masa dan perbelanjaan | 1983747 | Carta entri masa menunjukkan data tambahan. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

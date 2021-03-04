@@ -35,3 +35,6 @@ Peringkat projek boleh dijadikan panduan kepada kitaran hayat projek. Anda boleh
 4. Dalam senarai, pilih peringkat pratakrif atau ditentukan oleh pengguna yang anda mahu ubah suai. 
 5. Dalam medan peringkat Projek, masukkan nama baharu.
 6. Klik Simpan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

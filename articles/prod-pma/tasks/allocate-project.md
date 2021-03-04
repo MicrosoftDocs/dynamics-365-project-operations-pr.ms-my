@@ -44,3 +44,6 @@ Selepas belanjawan atau semakan belanjawan telah diperuntukkan, anda boleh menye
 10. Apabila peruntukan adalah seperti yang anda mahukan, klik Serah dalam halaman belanjawan Projek untuk menghantar semakan belanjawan atau belanjawan kepada aliran kerja kelulusan.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

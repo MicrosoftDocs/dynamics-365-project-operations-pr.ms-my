@@ -28,3 +28,6 @@ ms.locfileid: "4960033"
 *Bagi sehari* adalah elaun yang dibayar kepada pekerja yang membuat perjalanan untuk bekerja. Dalam Pengurusan perbelanjaan, anda boleh mencipta peraturan bagi sehari untuk beberapa situasi perjalanan. Kadar harian boleh berdasarkan masa dalam tahun, lokasi perjalanan atau kedua-duanya. Apabila anda mencipta peraturan bagi sehari, anda boleh menentukan bahawa peratusan kadar bagi sehari akan ditahan jika pekerja menerima hidangan atau perkhidmatan percuma. Anda juga boleh menetapkan bilangan jam minimum dan maksimum yang kadar harian boleh gunakan kepada perjalanan pekerja.
 
 Pengiraan jumlah amaun bagi sehari adalah berdasarkan pada tarikh mula dan tarikh akhir yang boleh anda tetapkan pada halaman **Bagi sehari**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

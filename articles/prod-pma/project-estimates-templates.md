@@ -170,3 +170,6 @@ Ilustrasi yang berikut menunjukkan contoh pemetaan tugas templat dalam integrasi
 [![Pemetaan templat transaksi anggaran perbelanjaan](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Pemetaan templat anggaran perbelanjaan](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

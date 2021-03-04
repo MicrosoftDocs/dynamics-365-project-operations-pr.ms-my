@@ -102,3 +102,6 @@ Berikut ialah gambaran ringkas kawalan biasa yang ditemui pada pelbagai tab pera
 **Tambahkan lajur**: Membolehkan pengguna mentakrifkan lajur boleh dilihat dalam grid. Hanya lajur siap guna boleh ditambahkan pada grid dalam borang **Perancangan Projek**.
 
 ![Butang Tambahkan lajur](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

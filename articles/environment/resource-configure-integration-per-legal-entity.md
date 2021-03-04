@@ -51,3 +51,6 @@ Setiap entiti sah yang menggunakan Operasi Projek pada Dynamics 365 Customer Eng
   - **Jenis pengebilan lalai**: Operasi Projek menggunakan set tetap jenis pengebilan lalai yang mesti dipetakan kepada sifat baris Kewangan. Cipta rekod untuk setiap jenis pengebilan: **Tidak ditentukan**, **Boleh caj**, **Tidak boleh caj**, **Percuma** dan **Tidak tersedia**.
   - **Kategori projek lalai**: Pilih kategori projek lalai yang akan digunakan untuk setiap jenis transaksi. Kategori lalai ini akan digunakan dalam **Jurnal Integrasi Operasi Projek** dan dalam anggaran yang mana tiada kategori transaksi ditentukan untuk projek sebenar.
   - **Ramalan** : Pilih model ramalan untuk digunakan bagi anggaran masa dan perbelanjaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

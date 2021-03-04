@@ -52,3 +52,6 @@ Topik berikut memberikan maklumat yang akan membantu pengurus projek menganggark
 - [Templat projek](project-templates.md)
 - [Peringkat projek](project-stages.md)
 - [Tetapan projek](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

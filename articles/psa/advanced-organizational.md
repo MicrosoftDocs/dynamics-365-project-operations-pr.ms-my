@@ -167,3 +167,6 @@ Jika syarikat anda beroperasi sebagai satu unit yang mempunyai satu senarai harg
 Apabila projek dicipta sendiri, unit kontrak lalai projek ini adalah berdasarkan pengguna yang menciptanya. Pengguna itu juga ialah pengurus projek lalai. Jika projek dipetakan kepada entiti jualan seperti sebut harga atau kontrak projek, unit kontrak pada projek adalah berdasarkan kepada entiti jualan. Dalam hal ini, anggaran projek mungkin akan dikira semula kerana senarai harga kos digunakan untuk mengira perubahan anggaran kos jika unit kontrak ditukar. Senarai harga jualan digunakan untuk mengira anggaran jualan yang akan ditukar supaya ia disegerakkan dengan senarai harga projek pada sebut harga.
 
 Medan **Unit Kontrak** dan **Mata Wang** pada projek dikunci untuk edit kerana ia mesti segerak dengan nilai pada entiti jualan (sebut harga atau kontrak projek) yang projek tersebut dipetakan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

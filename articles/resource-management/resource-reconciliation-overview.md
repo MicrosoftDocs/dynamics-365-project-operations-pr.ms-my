@@ -48,3 +48,6 @@ Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pilih kekurangan
 Tempahan yang dicipta melalui tindakan **Lanjutkan Tempahan** dikaitkan dengan keperluan projek utama. Apabila lanjutan dimulakan, keperluan khusus yang mesti dilanjutkan tidak boleh ditentukan, kerana sumber mungkin dikaitkan dengan lebih daripada satu keperluan untuk projek.
 
 Pengurus projek atau pengurus sumber kemudian boleh menggunakan Papan Jadual untuk mengurus sebarang situasi di mana sumber ditempah berlebihan di luar kapasitinya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

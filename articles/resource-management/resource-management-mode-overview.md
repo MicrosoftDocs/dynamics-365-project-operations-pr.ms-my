@@ -48,3 +48,6 @@ Tempah sumber secara langsung kepada projek:
 Tempah sumber daripada keperluan sumber:
 - [Tugaskan sumber boleh ditempah generik kepada tugas dan jana keperluan sumber](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Tempah sumber dinamakan daripada keperluan sumber](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

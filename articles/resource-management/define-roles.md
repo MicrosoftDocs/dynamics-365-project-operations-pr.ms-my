@@ -20,3 +20,6 @@ ms.locfileid: "4514562"
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Anda boleh menggunakan fungsi yang disediakan dalam Dynamics 365 Field Service untuk menakrifkan peranan dalam persekitaran Dynamics 365 Project Operations anda. Untuk melengkapkan persediaan ini, lihat [Sediakan kategori sumber boleh ditempah](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

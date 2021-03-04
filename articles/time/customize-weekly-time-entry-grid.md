@@ -144,3 +144,6 @@ Gunakan pengesahan pasang masuk untuk sebarang pengesahan yang memerlukan lebih 
 
 ### <a name="copying-time-entries"></a>Menyalin entri masa
 Gunakan pandangan **Salin Lajur Entri Masa** untuk mentakrifkan senarai medan untuk disalin semasa entri masa. **Tarikh** dan **Tempoh** adalah medan yang diperlukan dan tidak boleh dialih keluar daripada pandangan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

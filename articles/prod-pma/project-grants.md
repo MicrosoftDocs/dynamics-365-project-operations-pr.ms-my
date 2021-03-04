@@ -79,3 +79,6 @@ Anda boleh mencipta pemberian dengan memasukkan semua butiran dalam rekod baharu
 2. Pilih pemberian untuk diubah suai.
 3. Pada Anak Tetingkap Tindakan, pada tab **Pemberian** , dalam kumpulan **Kekal** , pilih **Edit**.
 4. Ulasan butiran pemberian dan buat sebarang perubahan yang diperlukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

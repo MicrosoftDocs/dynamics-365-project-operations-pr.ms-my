@@ -69,3 +69,6 @@ Untuk mendayakan peningkatan prestasi penjadualan sumber, lengkapkan langkah ber
 
 > [!NOTE]
 > Ini akan mengedarkan data umum untuk jadual **ResRollup** merentasi semua syarikat dalam persekitaran anda, jadi kerja kelompok hanya perlu berjalan dalam satu entiti yang sah. Kerja kelompok ini diperlukan untuk semua pandangan **Ketersediaan Sumber**. Jika kerja kelompok ini tidak berjalan, data **ResRollup** akan dijana pada bila-bila masa, yang boleh mengambil masa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

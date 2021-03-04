@@ -124,3 +124,6 @@ Ilustrasi berikut menunjukkan contoh pemetaan tugas templat dalam Integrasi data
 > Pemetaan menunjukkan maklumat medan yang akan disegerakkan daripada Project Service Automation kepada Finance.
 
 [![Project Service Automation kepada pemetaan templat Kewangan](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

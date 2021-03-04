@@ -44,3 +44,6 @@ Panduan tugas ini menunjukkan cara untuk melaraskan transaksi pada projek. Walau
 13. Dalam senarai, tandakan baris yang dipilih. 
 14. Dalam medan Harga kos, masukkan nombor. 
 15. Klik Siarkan. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

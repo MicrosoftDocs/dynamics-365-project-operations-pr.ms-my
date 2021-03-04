@@ -77,3 +77,6 @@ Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau men
 5. Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".
 
 > ![Data sampel untuk entiti Jawatan Standard](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

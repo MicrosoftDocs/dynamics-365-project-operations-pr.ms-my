@@ -36,3 +36,6 @@ Apabila anda mengesahkan invois pembetulan, aktual jualan dibilkan asal dibalikk
 
 - Aktual jualan dibilkan untuk enam jam.
 - Aktual jualan belum dibilkan untuk baki dua jam. Transaksi ini boleh sama ada dibilkan kemudian atau ditanda sebagai bukan boleh dicaj, bergantung pada rundingan dengan pelanggan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

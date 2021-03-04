@@ -109,3 +109,6 @@ Ciri berikut disertakan dalam keluaran ini:
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
 Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

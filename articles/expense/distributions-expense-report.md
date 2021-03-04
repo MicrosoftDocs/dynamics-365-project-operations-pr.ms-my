@@ -30,3 +30,6 @@ Kerana Nancy mengendalikan dua projek berasingan ketika berada di Frankfurt, apa
 | Tambang kereta api   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hotel        | EUR 725              | EUR 557                         | EUR 168                         |
 | Hidangan        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

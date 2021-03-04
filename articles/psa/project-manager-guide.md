@@ -95,3 +95,6 @@ Panduan ini memberi maklumat yang anda perlukan untuk mencipta dan menguruskan p
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)   
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Berikut ialah medan pada rekod pelanggan baris Kontrak bagi baris Kontrak berasa
 Peratusan pecahan bil boleh diedit dalam grid. Apabila peratusan pecahan bil tidak berjumlah 100 peratus, ralat akan berlaku. Selepas anda mengedit peratusan pecahan bil, segar semula halaman untuk mengeluarkan ralat.
 
 Anda juga boleh cuba memilih **Agihkan Secara Sekata** pada subgrid pelanggan baris kontrak. Tindakan ini menguntukkan pecahan bil kepada semua pelanggan baris kontrak secara sekata. Jika terdapat mana-mana faktor pembundaran, faktor itu akan ditambah kepada pelanggan pembundaran. Seorang pelanggan baris kontrak sentiasa ditandakan sebagai pelanggan **Pembundaran** dengan bendera **Pembundaran** ditetapkan kepada **Ya**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Pada masa ini, Amerika Syarikat disokong.
 Kewangan akan menghubungi Perkhidmatan Kognitif untuk mengekstrak data medan. Perkhidmatan Kognitif akan menyimpan salinan resit anda untuk tempoh masa hingga 24 jam selepas pemprosesan berlaku. Selepas pemprosesan selesai, Perkhidmatan Kognitif akan mengalih keluar resit. Resit masih disimpan dalam Kewangan.
 
 Untuk maklumat lanjut, lihat [Dayakan pemahaman resit dengan keupayaan baharu Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

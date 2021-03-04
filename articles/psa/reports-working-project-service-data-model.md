@@ -123,3 +123,6 @@ Apabila anda bekerja dengan entiti **Aktual**, adalah penting anda untuk memaham
 Entiti **Asal Transaksi** merekodkan asal rekod **Aktual** dan entiti **Sambungan Transaksi** merekodkan rekod yang berkaitan bagi rekod **Aktual**. Selain itu, rekod **Aktual** mengandungi rujukan projek, kontrak projek (pesanan), sumber boleh ditempah dan pelanggan.
 
 ![Gambarajah menunjukkan sambungan transaksi, asal dan perhubungan sebenar](media/PS-Reporting-image6.png "Gambarajah menunjukkan sambungan transaksi, asal dan perhubungan sebenar")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

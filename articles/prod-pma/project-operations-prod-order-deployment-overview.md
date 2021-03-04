@@ -43,3 +43,6 @@ Pilih jenis pelaksanaan ini untuk menggunakan Dynamics 365 Project Operations ba
 - Cukai jualan kelas perusahaan dan enjin kadar pertukaran untuk menjana invois menghadapi pelanggan bagi projek.
 - Sistem perakaunan projek dan pengiktirafan hasil mematuhi Standard Pelaporan Kewangan Antarabangsa (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

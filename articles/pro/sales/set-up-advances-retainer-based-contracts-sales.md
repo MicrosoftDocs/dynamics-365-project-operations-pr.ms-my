@@ -37,3 +37,6 @@ Retainer dalam Operasi Projek tidak tersedia untuk digunakan sehingga ia diinvoi
 | --- | --- | --- |
 | Amaun Tersedia | Jumlah yang tersedia untuk digunakan pada rekod retainer atau pendahuluan. | Sehingga pendahuluan atau retainer diinvoiskan, ia tidak tersedia untuk digunakan yang bermaksud jumlah yang tersedia adalah sifar. |
 | Amaun Digunakan | Jumlah yang sudah digunakan pada rekod retainer atau pendahuluan. | Pendahuluan atau retainer boleh diselaraskan sebahagian pada invois dengan kos sebenar yang akan mempunyai beberapa bahagian yang ditanda sebagai sudah digunakan atau habis. Jumlah baki pendahuluan atau retainer tersedia untuk diselaraskan pada invois masa hadapan dengan kos sebenar. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

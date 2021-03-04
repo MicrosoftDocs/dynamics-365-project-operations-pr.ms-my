@@ -48,3 +48,6 @@ Jadual berikut menyenaraikan jenis aliran kerja yang anda boleh cipta dalam **Pe
 |       <strong>Permintaan perjalanan</strong>       |          Cipta aliran kelulusan untuk permintaan perjalanan.           |
 |      <strong>Permintaan pendahuluan tunai</strong>      |         Cipta aliran kerja kelulusan untuk permintaan pendahuluan tunai.          |
 |        <strong>Pemulihan cukai VAT</strong>        | Cipta aliran kerja kelulusan untuk mendapatkan kembali cukai nilai ditambah (VAT).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

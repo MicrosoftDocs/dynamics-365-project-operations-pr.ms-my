@@ -142,3 +142,6 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
 Untuk maklumat tentang kemas kini kawal selia untuk Dynamics 365 Finance, lihat [Kemas kini kawal selia](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Jika pelanggan meluluskan sebut harga projek, anda boleh menyalin maklumat dalam
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Pilih permintaan perjalanan yang anda mahu luluskan, dan kemudian pilih **Aliran
 
 > [!NOTE]
 > Apabila anda memetakan laporan perbelanjaan kepada permintaan perjalanan yang diluluskan, jumlah transaksi tidak boleh lebih besar daripada jumlah yang dibenarkan. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

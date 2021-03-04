@@ -54,3 +54,6 @@ Untuk maklumat lanjut mengenai pengurusan projek dan perakaunan dalam Dynamics 3
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
 Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

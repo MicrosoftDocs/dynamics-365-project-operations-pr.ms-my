@@ -26,3 +26,6 @@ Tidak seperti tempahan, tugasan adalah komitmen sumber untuk tugas projek dalam 
 Biasanya, jumlah tempahan untuk sumber akan sama dengan jumlah subjek tugas sumber merentasi satu atau banyak tugas. Walau bagaimanapun, Project Operations tidak menguatkuasakan perjanjian ini. Pandangan **Penyesuaian** menunjukkan Pengurus projek tempat tempahan sumber dan tugasan tidak sama.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

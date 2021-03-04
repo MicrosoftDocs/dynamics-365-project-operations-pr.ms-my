@@ -63,3 +63,6 @@ Anda boleh menggunakan kaedah yang sama untuk membatalkan tempahan cetak atau me
 Untuk menukar sumber yang lembut ditempah untuk ditempah keras pada tab **Pasukan** projek, pilih sumber dan kemudian pilih **Sahkan**.
 
 ![Sahkan perintah](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

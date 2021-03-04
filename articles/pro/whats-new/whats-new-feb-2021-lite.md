@@ -38,3 +38,6 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | **Perancangan dan Penjejakan Projek** | 2164035 | Isu tetap dengan fungsi **Salin Projek**. |
 | **Entri masa** | 2129161 | Sekatan lebih ketat digunakan untuk memastikan pengguna tidak boleh mengubah dan mengemas kini entri masa yang telah diserahkan atau diluluskan. |
 | **Entri masa** | 2103572 | Kelulusan masa untuk masukan masa bukan projek tidak boleh mencari peranan pelulus projek. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

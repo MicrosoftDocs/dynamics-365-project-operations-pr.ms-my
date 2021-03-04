@@ -107,3 +107,6 @@ Pilihan tambahan telah ditambah dalam WBS untuk menggunakan kefungsian penyumber
     > Anda tidak menerima amaran bahawa sumber yang ditentukan adalah kini 2, kerana bilangan sumber kekal 1.
 
 14. Pada halaman **Struktur pecahan kerja** , mengesahkan tugasan sumber pada WBS, dan kemudian pilih **Simpan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

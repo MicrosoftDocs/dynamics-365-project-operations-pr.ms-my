@@ -45,3 +45,6 @@ Selain itu, peranan lalai mesti ditugaskan kepada setiap sumber boleh ditempah. 
 Pada tab **Project Service**, anda juga boleh menetapkan penggunaan sasaran individu untuk sumber. Pengiraan penggunaan ini kemudian menggunakan penggunaan sasaran yang akan menilai sasaran sumber bukan sasaran peranan lalai sumber.
 
 Penggunaan ditunjukkan untuk sumber sahaja jika sumber tersebut telah diluluskan dan masa boleh dituntut dalam tempoh yang ditunjukkan dalam grid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

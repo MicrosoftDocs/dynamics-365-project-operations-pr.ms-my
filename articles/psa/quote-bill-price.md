@@ -44,3 +44,6 @@ Topik berikut memberikan lebih banyak maklumat tentang penentuan sebut harga, pe
 - [Kumpulan unit dan unit](advanced-units.md)
 - [Mata wang berbilang unit](advanced-currency.md)
 - [Merekodkan aktual](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

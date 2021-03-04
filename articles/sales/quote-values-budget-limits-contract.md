@@ -43,3 +43,6 @@ Di bawah adalah tab dan KPI yang tersedia pada sebut harga projek yang unik untu
 | Analisis keuntungan | Tab pada Sebut Harga | Tan menunjukkan metrik berikut:</br>- Jumlah kos boleh dituntut</br></br>- Jumlah kos tidak boleh dituntut</br>- Jumlah hasil</br>- Jumlah hasil (asas)</br>- Margin kasar</br>- Margin kasar dilaraskan|
 | Perbandingan untuk Jangkaan Pelanggan | Tab pada Sebut Harga | Tab ini menunjukkan metrik berikut:</br>- Anggaran selesai</br>- Pelengkapan Yang Diminta</br>- Belanjawan pelanggan</br>- Nilai sebut harga |
 | Analisis sebut harga | Tab pada Sebut Harga | Tab ini meringkaskan KPI teratas berikut untuk sebut harga projek</br>- Perbandingan kepada pelanggan jangkaan belanjawan dan jadual</br>- Margin kasar</br>- Margin kasar dilaraskan |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

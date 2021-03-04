@@ -59,3 +59,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Projec
      - Tetap: Butang tambahan untuk **Peluang Baharu**, **Sebut Harga**, **Baris Pesanan** dan **Tambah Produk** boleh dilihat dalam perintah untuk subgrid Peluang, Sebut Harga, Produk Pesanan dan Baris berasaskan projek.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Topik ini menerangkan cara menetapkan kos standard untuk buruh dan perbelanjaan 
 22. Dalam medan **Penentuan harga** , masukkan nombor. Harga jualan sebenar, yang diguna pakai apabila pekerja memasukkan transaksi dalam jurnal perbelanjaan, adalah harga jualan dengan tahap butiran tertinggi. Sebagai contoh, jika kedua-dua harga jualan am dan pekerja khusus adalah ditetapkan, harga jualan pekerja khusus digunakan.  
 23. Pilih **Simpan**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

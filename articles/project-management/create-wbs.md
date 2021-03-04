@@ -116,3 +116,6 @@ Mod tugas tidak memberi kesan ke atas kemas kini yang dibuat pada tarikh mula da
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Kebolehcapaian dan pintasan papan kekunci
 
 Grid **Jadual** boleh diakses sepenuhnya dan boleh digunakan dengan pembaca skrin seperti Pencerita, JAWS atau NVDA. Anda boleh bergerak melalui kawasan grid dengan menggunakan kekunci anak panah (seperti dalam Microsoft Excel), anda boleh menggunakan kekunci Tab untuk maju melalui elemen antaramuka pengguna interaktif dan anda boleh menggunakan kekunci anak panah Bawah, kekunci Enter atau Bar Ruang untuk memilih dan buka menu ke bawah.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

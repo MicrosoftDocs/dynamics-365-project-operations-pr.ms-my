@@ -149,3 +149,6 @@ Secara lalai, jika tugas nod daun tidak mempunyai pendahulu, tarikh mulanya dite
 ### <a name="manual-scheduling"></a>Penjadualan manual
 
 Jika peraturan penjadualan automatik tidak memenuhi keperluan anda, anda boleh menetapkan mod tugas untuk tugas itu kepada **Dijadualkan Secara Manual**. Tetapan ini menghentikan enjin penjadualan daripada mengira nilai atribut penjadualan yang lain. Tanpa mengira mod tugas, jika anda menetapkan pendahulu pada tugas, anda sentiasa mempengaruhi tarikh mula tugas bersandar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

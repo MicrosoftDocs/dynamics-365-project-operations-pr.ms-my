@@ -38,3 +38,6 @@ Jualan sebenar belum dibilkan yang mempunyai **Tidak Boleh Dilebihi** status **G
 Dalam kes baris kontrak berbilang pelanggan yang mempunyai kaedah pengebilan masa dan bahan, apabila masa dan perbelanjaan diluluskan, jualan sebenar belum dibilkan dicipta untuk setiap pelanggan pada baris kontrak mengikut pecahan peratusan pengebilan yang ditakrifkan untuk setiap pelanggan pada baris kontrak. Dalam pandangan **Tunggakan Pengebilan Masa dan Bahan**, anda akan melihat jualan sebenar belum dibilkan khusus pelanggan individu ini. Setiap rekod jualan sebenar belum dibilkan ini boleh ditandakan sebagai **Bersedia untuk Diinvois** secara berasingan daripada pandangan ini.
 
 Jualan sebenar belum dibilkan pada invois draf ditunjukkan dalam pandangan ini dengan **Status Pengebilan** daripada **Invois Pelanggan Dicipta**. Apabila invois draf disahkan, status pengebilan pada rekod ini dikemas kini kepada **Invois Pelanggan Disiarkan**. Mengemas kini nilai status ini apabila ia dalam keadaan ini dengan menggunakan kod tersuai tidak disyorkan. Project Operations tidak akan berfungsi dengan betul apabila nilai status ini dikemas kini dengan kod tersuai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

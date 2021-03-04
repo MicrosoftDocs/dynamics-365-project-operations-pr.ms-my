@@ -33,3 +33,6 @@ Terdapat dua kaedah untuk mengendalikan perbelanjaan peribadi pekerja:
 - **Dibayar oleh syarikat** – Organisasi anda membayar keseluruhan bil untuk kad kredit korporat dan kemudian debitkan akaun pekerja untuk perbelanjaan peribadi.
 
 Anda boleh memilih kaedah yang organisasi anda gunakan pada halaman **Parameter pengurusan perbelanjaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

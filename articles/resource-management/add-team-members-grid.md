@@ -200,3 +200,6 @@ Apabila anda melihat masa pada tahap lebih tinggi, sel dalam tab **Penyelarasan*
 Jika anda ada penugasan tugas untuk sumber tetapi tiada tempahan, pada borang **Projek**, pada tab **Penyelarasan**, pilih kekurangan tempahan dan kemudian pilih **Lanjutkan Tempahan**. Kotak dialog **Lanjutkan Tempahan** muncul dan menunjukkan tempahan yang diperlukan untuk menyelesaikan kekurangan sumber. Kotak dialog juga menunjukkan tempahan sumber yang sedia ada di semua projek atau entiti lain yang boleh dijadualkan. Jika anda pilih **OK** untuk mencipta tempahan untuk sumber, tanpa mengira ketersediaan sumber tersebut, anda mungkin menyebabkan tempahan berlebihan.
 
 Pengurus projek atau Pengurus sumber kemudiannya boleh menggunakan Papan Jadual untuk menguruskan sebarang keadaan yang sumber ditempah melebihi kapasitinya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

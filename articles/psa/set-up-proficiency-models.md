@@ -53,3 +53,6 @@ Anda kini telah menambah kemahiran untuk projek klien, anda memerlukan cara untu
   
 ### <a name="see-also"></a>Lihat Juga  
  [Sediakan sumber](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

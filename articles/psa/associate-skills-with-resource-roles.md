@@ -47,3 +47,6 @@ Semasa anda menambah peranan sumber, anda mungkin sudah mengaitkan beberapa kema
   
 ### <a name="see-also"></a>Lihat Juga  
  [Sediakan sumber](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

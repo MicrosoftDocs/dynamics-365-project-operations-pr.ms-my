@@ -66,3 +66,6 @@ Isu berikut telah dibaiki:
 - Pelanggan mungkin mengalami prestasi yang diturun taraf apabila mencipta projek kerana **GetBookableResourceIdFromUser** mendapatkan semua kolum sumber boleh ditempah bukan sekadar ID utama.
 - Entiti **TransactionType** kehilangan pasang masuk kemas kini pra pengesahan untuk mengelakkan pengguna daripada memasuki **Unit** dan **UnitGroups** yang tidak sah untuk jenis transaksi.
 - Langkah **Keluarkan** tidak berfungsi untuk import kemasukan masa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

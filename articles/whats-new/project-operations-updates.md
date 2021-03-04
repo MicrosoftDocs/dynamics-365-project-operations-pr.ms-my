@@ -77,3 +77,6 @@ Tarikh keluaran yang disasarkan tertakluk pada perubahan. Untuk mendapatkan makl
 | --- | --- |
 | 10.0.17 | 19 Mac 2021 |
 | 10.0.18 | 16 April 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Kerana Dynamics 365 Project Service Automation menggunakan enjin Universal Resou
 Untuk melihat lebih banyak butiran mengenai sumber individu, klik kanan padanya untuk membuka kad sumber.
 
 ![Kad Sumber](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

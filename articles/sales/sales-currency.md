@@ -71,3 +71,6 @@ Sebelum anda memulakan prosedur ini, sahkan bahawa peranan keselamatan anda meng
 
 > [!IMPORTANT]
 >  Anda tidak boleh memadamkan mata wang yang sedang digunakan oleh rekod lain; anda hanya boleh menyahaktifkannya. Menyahaktifkan rekod mata wang tidak mengalih keluar maklumat mata wang yang disimpan dalam rekod sedia ada, seperti peluang atau pesanan. Bagaimanapun, anda tidak akan dapat memilih mata wang yang dinyahaktifkan untuk transaksi baharu.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

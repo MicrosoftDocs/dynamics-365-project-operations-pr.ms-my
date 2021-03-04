@@ -82,3 +82,6 @@ Ini adalah pengalaman yang lebih optimum untuk menyahkaitkan tugas daripada bari
 4. Dalam halaman dialog yang terbuka, pilih baris kontrak daripada juntai bawah.
 5. Pilih kotak semak untuk menunjukkan sama ada perkaitan juga perlu dialih keluar daripada tugas anak bagi tugas yang dipilih. Semakan kotak juga akan menyahkaitkan tugas anak bagi tugas yang dipilih daripada baris kontrak.
 6. Pilih **OK**. Mesej amaran menunjukkan bahawa mengalih keluar perkaitan ini boleh menyebabkan pembalikan semula sebarang aktual yang dirakamkan sebelum ini pada tugas. Pilih **OK** pada dialog amaran untuk mengalih keluar perkaitan antara tugas dan baris kontrak berasaskan projek.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Jika anda tidak melihat penggunaan boleh dituntut, berikut adalah beberapa perka
   - Peranan pada baris kontrak projek yang menyokong projek telah ditetapkan kepada tidak boleh dituntut.
   - Projek ini tidak mempunyai baris kontrak yang berkaitan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

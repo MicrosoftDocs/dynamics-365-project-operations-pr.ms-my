@@ -63,3 +63,6 @@ Apabila kerja untuk projek selesai, pengurus projek boleh mengemas kini peringka
 
 Apabila semua transaksi direkodkan untuk projek, pengurus projek boleh mengemas kini peringkat kepada **Tutup**. Pada ketika itu, tiada transaksi boleh direkodkan dan projek itu ditetapkan kepada baca sahaja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

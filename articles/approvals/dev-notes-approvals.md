@@ -23,3 +23,6 @@ Dynamics 365 Project Operations termasuk logik pengesahan yang memastikan perali
 
   - Semua baris sokongan dicipta dalam jadual yang berkaitan, seperti jurnal dan aktual.
   - Pelulus tersebut ditandakan sebagai **Pelulus Projek** dalam projek itu sebelum meneruskan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

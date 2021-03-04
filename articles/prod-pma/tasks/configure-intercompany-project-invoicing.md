@@ -64,3 +64,6 @@ Topik ini menunjukkan cara menyediakan penginvoisan projek antara dua syarikat d
 32. Dalam medan **Penentuan harga** , masukkan nombor.
 33. Pilih **Simpan**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

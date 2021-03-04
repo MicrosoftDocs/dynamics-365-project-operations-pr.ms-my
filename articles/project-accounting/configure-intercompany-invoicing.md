@@ -101,3 +101,6 @@ Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah 
           - **Syarikat sumber** = **Contoso Robotics UK**
           - **Kadar bil** = **200 USD**
       9. Pergi ke **Jualan** > **Kontrak projek** dan lampirkan senarai harga **kadar bil Adventure Works** kepada senarai harga projek Adventure Works bagi kontrak projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

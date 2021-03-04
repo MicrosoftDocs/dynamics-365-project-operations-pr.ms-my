@@ -36,3 +36,6 @@ Untuk menggunakan bestari, ikuti langkah-langkah ini.
 1. Pergi ke **Pengurusan dan perakaunan projek** > **Sebut harga** > **Sebut harga projek**.
 2. Pilih sebut harga yang anda mahu pindahkan dan pada tab **Susulan** , dalam kumpulan **Ubah suai** , pilih **Pindahkan kepada projek**.
 3. Ikuti bestari **Pindahkan sebut harga kepada projek** untuk mengaitkan dan memindahkan sebut harga dengan projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

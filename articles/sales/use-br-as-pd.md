@@ -78,3 +78,6 @@ Rekod dimensi penentuan harga untuk **msydn_bookableresource** mestilah dimaklum
 5. Tambah **msdyn_bookableresourceid** pada **Nama Medan**.
 
  ![Borang nama medan dimensi Penentuan Harga baharu](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

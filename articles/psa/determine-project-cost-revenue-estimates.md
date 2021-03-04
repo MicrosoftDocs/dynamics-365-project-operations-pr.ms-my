@@ -81,3 +81,6 @@ Sebarang perbelanjaan yang akan dikenakan dalam projek yang tidak berkaitan seca
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

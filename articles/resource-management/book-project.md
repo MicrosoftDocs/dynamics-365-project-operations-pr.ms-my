@@ -66,3 +66,6 @@ Sebagai Pengurus Projek, anda mungkin perlu menempah sumber kepada projek, tetap
 
 > [!NOTE]
 > Kaedah ini tidak mencipta sebarang tempahan untuk sumber. Sebaliknya, ia menambahkan sumber kepada pasukan. Selepas ahli pasukan ditambah kepada projek, pengurus projek boleh menggunakan kekalkan tempahan atau lanjutkan tempahan untuk menambah tempahan yang diperlukan kepada sumber.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

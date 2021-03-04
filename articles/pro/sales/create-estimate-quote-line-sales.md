@@ -67,3 +67,6 @@ Mata wang pada butiran baris sebut harga untuk kos lalai dari senarai harga unit
 Pengiraan keuntungan menukar jumlah pada butiran baris sebut harga untuk kos dan jualan ke asas mata wang persekitaran untuk melaporkan jumlah margin yang dianggarkan pada sebut harga tersebut.
 
 Ini boleh menyebabkan ralat penggenapan mata wang dan berubah margin kerana kurangnya kadar pertukaran berkesan tarikh. Gunakan pengiraan ini pada sebut harga Projek hanya sebagai anggaran dan tidak benar statutori atau laporan lain yang memerlukan kejituan yang lebih tinggi pembundaran dan kesedaran tarikh berkuat kuasa untuk kadar pertukaran.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

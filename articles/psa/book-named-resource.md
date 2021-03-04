@@ -68,3 +68,6 @@ Ini adalah contoh ketika sumber berbilang diperlukan untuk mengisi permintaan su
 Perbezaan utama dalam senario ini ialah bahawa sumber generik kekal dalam pasukan yang ditugaskan kepada tugas, dan ahli pasukan sumber bernama yang ditempah tidak ditugaskan sebagai sebahagian daripada kedudukan tersebut. Pengurus projek boleh menugaskan kerja sebagai sesuai kepada sumber bernama. Pandangan **Penyesuaian** boleh membantu pengurus projek dalam memecahkan tempahan di semua berbilang sumber untuk menugaskan tugasan. Ini tidak dilakukan secara automatik kerana dalam mana-mana senario yang lebih rumit daripada contoh mudah di atas, seperti di mana anda mempunyai tugas yang memenuhi keperluan, niat tentang cara pengurus projek mahu menugaskan, perlu disangka oleh sistem. Disebabkan sistem tidak boleh memahami niat, peluang adalah bahawa sangkaan akan berbeza daripada yang diniatkan, dan hasil yang tidak betul atau tidak dijangka akan berlaku. Hasil yang boleh dijangka ialah sumber generik kekal ditugaskan sehingga pengurus projek secara sengaja mencipta tugasan, dengan bantuan pandangan **Penyesuaian**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

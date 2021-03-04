@@ -65,3 +65,6 @@ Bermula 1 Mac 2020, pelanggan Dynamics PSA tidak lagi perlu mencipta persekitara
 
 > [!NOTE]
 > Untuk pengalaman terbaik apabila anda menggunakan versi lebih lama daripada Field Service dan aplikasi PSA, pergi ke halaman **Tetapan sistem** dan untuk medan **Gunakan medan baru Antara Muka Disatukan hanya (disyorkan)**, pilih **Tidak** sebagai versi ini tidak direka untuk dimuatkan dengan betul dalam UCI. Selepas anda memadamkan UCI, anda boleh buka dan jalankan versi Field Service ini dan PSA dengan menggunakan klien web lama. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

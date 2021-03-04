@@ -64,3 +64,6 @@ Entiti Peluang, Sebut Harga dan Kontrak Projek menggunakan pesanan berikut untuk
 Secara lalai, medan **Produk** pada baris sebut harga menyenaraikan semua produk aktif dalam senarai harga produk sebut harga. Jika produk telah dinyahaktifkan atau jika ia merupakan produk draf, ia tidak disenaraikan, walaupun ia ada dalam senarai harga. 
 
 Baris katalog produk ditambahkan sebagai baris invois pada invois pertama yang dicipta untuk kontrak projek. Pada invois draf, baris invois tersebut boleh dipadamkan. Dalam kes tersebut, baris akan muncul pada invois berikutnya sehingga ia diinvoiskan atau sehingga invois dihantar kepada pelanggan. Dalam PSA, anda tidak boleh menginvoiskan kuantiti separa baris invois produk. Apabila baris produk daripada kontrak projek diinvoiskan, aktual dicipta. Walau bagaimanapun, aktual tersebut tidak dipautkan kepada entiti projek berkaitan. Dalam erti kata lain, baris kontrak projek berdasarkan produk adalah bebas daripada sebarang penggunaan berdasarkan projek. PSA tidak menjejaki penggunaan bahan pada projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | **Pengurusan Peluang** | 2040713 | Tetapkan ralat skrip yang berlaku apabila mencipta invois daripada kontrak dan Field Service dipasang. |
 | **Perancangan dan Penjejakan Projek** | 2090202 | Peraturan perniagaan bertanda tidak lagi digunakan sebagai **Ditamatkan**. |
 | **Masa dan Perbelanjaan** | 2091249 | Ketatkan kawalan supaya pengguna tidak boleh mengubah tugas pada entri masa yang telah diserahkan atau diluluskan. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

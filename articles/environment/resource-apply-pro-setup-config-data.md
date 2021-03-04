@@ -134,3 +134,6 @@ Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasy
 13. Pilih **Simpan**. 
 
 ![Parameter Projek Dikemas Kini](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

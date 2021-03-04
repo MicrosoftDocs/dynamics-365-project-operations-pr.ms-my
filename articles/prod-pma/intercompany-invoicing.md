@@ -113,3 +113,6 @@ Apabila entiti pemberi pinjaman, USSI, menyiarkan invois pelanggan antara syarik
 Untuk maklumat lanjut, lihat [Konfigurasi penginvoisan projek antara syarikat](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

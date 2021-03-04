@@ -45,3 +45,6 @@ Pastikan dokumen berkaitan projek diatur dengan menambahnya pada projek anda.
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

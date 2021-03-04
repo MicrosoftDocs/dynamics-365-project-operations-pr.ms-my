@@ -82,3 +82,6 @@ Sumber yang ditugaskan dengan cara ini ditambah kepada pasukan tanpa sebarang te
 
 3. Pilih sumber yang anda mahu tugaskan kepada tugas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

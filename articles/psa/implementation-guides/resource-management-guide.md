@@ -44,3 +44,6 @@ Pautan PDF yang terdapat dalam topik ini sebelum ini telah dialih keluar dan kan
 
 > [!NOTE]
 > Topik ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

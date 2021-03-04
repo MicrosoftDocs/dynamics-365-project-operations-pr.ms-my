@@ -80,3 +80,6 @@ Apabila vendor melengkapkan kerjanya pada projek dan menghantar invois kepada an
 2. Pada halaman **Invois vendor dengan bayar apabila dibayar** , dalam medan carian, masukkan nilai untuk mencari invois vendor yang anda mahu semak semula dan kemudian pilih **Carian**.
 3. Pada FastTab **Baris invois vendor** , pilih baris yang anda mahu tukar.
 4. Jika syarat **Bayar apabila dibayar** dipenuhi untuk baris invois, pilih **Keluarkan pembayaran vendor**. Pilihan **Bayar apabila dibayar** dikosongkan dan nilai medan **Bersedia untuk pembayaran** ditukar kepada **Ya**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

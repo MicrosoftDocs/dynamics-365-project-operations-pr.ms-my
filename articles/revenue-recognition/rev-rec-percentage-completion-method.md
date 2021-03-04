@@ -35,3 +35,6 @@ Untuk menyemak projek anggaran hasil harga tetap, lengkapkan langkah berikut:
 
   Kos projek, profil hasil, templat kos dan kod tempoh boleh ditetapkan secara manual. Jika ia tidak ditetapkan secara manual, nilai lalai semasa pengiraan anggaran pertama untuk projek menggunakan peraturan yang dikonfigurasikan untuk kos projek dan profil hasil.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

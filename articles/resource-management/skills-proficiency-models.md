@@ -43,3 +43,5 @@ Menambah ciri pada keperluan sumber membolehkan anda dokumen pengetahuan atau ke
 3. Dalam subgrid **Kemahiran**, pilih **+Tambah Ciri Keperluan baharu.**
 4. Dalam anak tetingkap cipta pantas, cari dan pilih ciri yang diperlukan dan tambah **Nilai Penarafan**.
 5. Pilih **Simpan & Tutup**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

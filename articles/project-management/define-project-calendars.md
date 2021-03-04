@@ -49,3 +49,6 @@ Untuk mencipta jadual projek, anda cipta templat kalendar projek yang mentakrifk
 8. Dalam kotak dialog **Templat Kerja**, masukkan nama untuk templat kerja dan kemudian pilih **Gunakan**. 
 
 Kini anda boleh mengaitkan templat kerja dengan templat kalendar projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Sebelum anda boleh memulakan proses persediaan, keputusan berikut mesti dibuat u
 
     - Adakah sebarang subkategori dikecualikan daripada pemulihan cukai?
     - Apakah itu kumpulan cukai jualan item subkategori?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Jika anda masih tidak melihat harga sah pada masa kos sebenar anda selepas anda 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

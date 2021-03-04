@@ -74,3 +74,6 @@ Apabila anda mengembangkan baris rekod Ahli Pasukan tersebut, anda boleh melihat
 Apabila anda menavigasi ke grid **Anggaran**, anda akan dapati bahawa kedua-dua tugasan untuk sumber yang sama berharga berbeza.
 Tugasan untuk sumber pada Tugas A adalah berharga menggunakan nilai atribut **Peranan** bagi **Berunding dengan Bakal Pelanggan**. Tugasan untuk sumber sama pada Tugas B adalah berharga menggunakan nilai atribut **Peranan** bagi **Juruteknik Rangkaian**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Setiap sumber boleh ditempah yang mengendalikan projek mesti mempunyai kalendar 
 2. Daripada pandangan grid, pilih sehingga 25 **Sumber Boleh Ditempah** untuk dikemas kini.
 3. Pilih **Tetapkan kalendar** dan dialog akan menggesa anda dengan senarai templat waktu kerja yang tersedia.
 4. Pilih templat yang anda mahu gunakan, dan kemudian pilih **Gunakan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

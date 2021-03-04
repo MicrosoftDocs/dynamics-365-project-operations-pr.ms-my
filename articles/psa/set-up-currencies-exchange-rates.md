@@ -43,3 +43,6 @@ Untuk mencipta sebut harga dan menginvois pelanggan anda dalam [!INCLUDE[pn_proj
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasikan Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

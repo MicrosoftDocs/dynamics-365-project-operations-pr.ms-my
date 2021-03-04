@@ -68,3 +68,6 @@ Memandangkan tempahan dan tugasan tidak terlalu digandingkan, anda boleh menempa
 > [!NOTE]
 > Jika anda mengalihkan tugas yang anda telah kontur sendiri, kontur ini tidak dikekalkan. Kontur dijanakan semula mengikut kalendar projek untuk menjelaskan perubahan dalam jam kerja dan cuti. Ini adalah mengikut rancangan kerana sistem tidak mengetahui niat kontur asal dan tidak boleh menentukan sama ada logik untuk mengekalkan kontur tersebut dalam tempoh masa baharu. Disebabkan tempahan dan tugasan dinyahsambungkan, tempahan mengekalkan kontur tempahan asal. Dalam kes ini, anda perlu membatalkan dan menempah semula kepada kontur tugasan yang baharu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

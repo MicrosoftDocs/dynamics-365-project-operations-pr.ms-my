@@ -55,3 +55,6 @@ Proses berikut ialah contoh aliran kerja pengurusan perbelanjaan untuk laporan p
 Selepas keperluan ini disahkan, laporan perbelanjaan akan disiarkan.
 
 Selepas laporan perbelanjaan disiarkan, pembayaran dibenarkan untuk laporan perbelanjaan, dan pekerja akan dibayar balik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

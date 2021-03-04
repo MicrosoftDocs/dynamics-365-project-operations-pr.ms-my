@@ -91,3 +91,6 @@ Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses k
 
 > [!NOTE]
 > Penginvoisan kelompok dalam Project Operations hanya berjalan untuk baris kontrak projek yang dikonfigurasikan oleh jadual invois. Baris kontrak dengan kaedah pengebilan harga tetap mesti mempunyai pencapaian yang dikonfigurasikan. Baris kontrak projek dengan kaedah pengebilan masa dan bahan akan memerlukan persediaan jadual invois berdasarkan tarikh.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

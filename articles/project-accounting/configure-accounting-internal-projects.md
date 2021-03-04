@@ -32,3 +32,6 @@ Sebarang projek yang tidak dikaitkan dengan kontrak dalam Dynamics 365 Project O
 Selepas transaksi disiarkan kepada projek, jika projek tersebut dikaitkan dengan kontrak projek, sistem membalikkan semua transaksi terkumpul dan mencipta transaksi boleh dibilkan baharu. Transaksi boleh dibilkan mengikut peraturan perakaunan yang ditakrifkan dalam kos Projek dan profil hasil.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

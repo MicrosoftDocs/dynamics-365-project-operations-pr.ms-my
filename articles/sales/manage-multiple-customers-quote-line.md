@@ -44,3 +44,6 @@ Jadual berikut menunjukkan medan pada rekod pelanggan baris sebut harga bagi bar
 Anda boleh mengedit peratusan pecahan pengebilan dalam talian. Apabila peratusan pecahan pengebilan tidak berjumlah 100%, ralat berlaku. Selepas anda mengedit peratusan pecahan pengebilan, segar semula halaman baris sebut harga untuk mengalih keluar ralat.
 
 Gunakan tindakan mengedar sama rata pada baris sebut harga pelanggan sub untuk memperuntukkan pecahan pengebilan kepada pelanggan baris sebut harga. Jika terdapat faktor pembundaran yang akan ditambah kepada pelanggan pembundaran. Salah satu pelanggan baris sebut harga sentiasa ditanda sebagai pelanggan pembundaran yang bermaksud rekod sebut harga pelanggan talian itu mempunyai bendera pembundaran yang ditetapkan kepada **Ya**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

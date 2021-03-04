@@ -198,3 +198,6 @@ Aktual jualan dibilkan untuk amaun pencapaian pada pencapaian asal pada baris ko
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

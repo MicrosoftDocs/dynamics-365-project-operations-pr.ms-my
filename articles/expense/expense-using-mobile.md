@@ -236,3 +236,6 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 22. Pilih **Serahkan**.
 23. Masukkan sebarang komen untuk pelulus.
 24. Pilih **Selesai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

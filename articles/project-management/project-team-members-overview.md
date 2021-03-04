@@ -60,3 +60,6 @@ Daripada grid ahli pasukan, tindakan yang berikut boleh diambil:
 
 - **Baharu**: Selain menambahkan sumber secara langsung daripada jadual, Pengurus projek boleh menambahkan ahli pasukan bernama atau generik daripada grid ahli pasukan.
 - **Padam**: Dengan memilih satu atau lebih ahli pasukan, Pengurus projek boleh memadamkan sumber yang tidak lagi akan menyertai projek. Memadamkan ahli pasukan juga akan memadamkan semua tugasan sumber yang berkaitan dan membatalkan semua tempahan sedia ada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

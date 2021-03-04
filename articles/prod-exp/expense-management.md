@@ -58,3 +58,6 @@ Bantuan tambahan tersedia sebagai panduan tugas. Untuk mencapai panduan tugas, p
 ### <a name="videos"></a>Video
 
 Lihat video tunjuk cara yang kini tersedia pada [saluran YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

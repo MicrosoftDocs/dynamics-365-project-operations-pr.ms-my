@@ -52,3 +52,6 @@ Pelanggan kontrak boleh dicipta, dikemas kini atau dipadamkan daripada tab **Pel
 Peratusan pecahan bil boleh diedit menggunakan pengalaman edit grid dalam baris. Apabila peratusan pecahan bil tidak berjumlah 100 peratus, anda akan menerima ralat. Selepas anda mengedit peratusan pecahan bil, segar semula halaman untuk menutup ralat.
 
 Anda juga boleh memilih **Agihkan Secara Sekata** pada subgrid **Pelanggan Kontrak** untuk menguntukkan pecahan bil secara sekata kepada semua pelanggan kontrak. Jika terdapat faktor pembundaran, faktor itu akan ditambah kepada pelanggan pembundaran. Salah seorang pelanggan kontrak sentiasa ditag sebagai pelanggan **pembundaran**, yang bermaksud bahawa rekod pelanggan kontrak mempunyai bendera pembundaran yang ditetapkan kepada **Ya**. Biasanya, ini ialah pelanggan utama kontrak, tetapi ia juga boleh ditukar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

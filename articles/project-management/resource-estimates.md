@@ -34,3 +34,6 @@ Harga jualan digunakan sekali setiap urusan. Hierarki untuk senarai harga jualan
 1. Organisasi
 2. Pelanggan
 3. Sebut harga/kontrak
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

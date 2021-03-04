@@ -96,3 +96,6 @@ Ikuti langkah ini untuk mencipta versi tersuai borang **Maklumat Projek**.
     ```
 
 6. Simpan dan kemudian terbitkan penyesuaian.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

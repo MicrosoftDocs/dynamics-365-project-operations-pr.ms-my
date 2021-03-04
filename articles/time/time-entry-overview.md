@@ -27,3 +27,6 @@ Ahli pasukan projek cipta dan hantar entri masa untuk kelulusan dan Pelulus Proj
 
 Untuk mendapatkan maklumat mengenai cara untuk mencipta, menyerahkan, atau tarik balik entri, dan alat lain untuk membantu melengkapkan pelaporan anda, lihat [Tingkah laku pengguna entri masa](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Berikut adalah beberapa cadangan yang dapat membantu anda semasa mencipta dasar 
 ## <a name="when-to-evaluate-policies"></a>Bila untuk menilai dasar
 
 Dalam parameter pengurusan perbelanjaan, terdapat pilihan untuk sama ada menilai dasar pengurusan perbelanjaan apabila baris disimpan atau apabila laporan perbelanjaan diserahkan. Jika anda memilih untuk menilai apabila baris disimpan ini memastikan pengguna mempunyai keterlihatan awal kepada perkara yang mereka perlu lakukan untuk melengkapkan laporan perbelanjaan mereka sekaligus. Jika tidak, anda boleh melambatkan penilaian dasar dan menjimatkan masa jika anda mempunyai pengesahan terjadi di akhir, semasa penyerahan aliran kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

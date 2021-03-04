@@ -33,3 +33,6 @@ Daripada grid **Ahli Pasukan**, pengurus Projek boleh menyerlahkan sumber terten
 ## <a name="schedule-board"></a>Papan Jadual
 
 Daripada **Papan Jadual**, Pengurus sumber mempunyai pandangan portfolio bagi semua tempahan merentasi organisasi. Daripada pandangan ini, Pengurus sumber boleh melanjutkan, memendekkan atau memindahkan tempahan yang sedia ada yang sama dengan keupayaan untuk **Kekalkan Tempahan**. Pengurus sumber juga boleh menggantikan sumber sedia ada yang diperuntukkan kepada tempahan khusus dengan mengklik kanan tempahan dan memilih **Sumber Gantian**. Pengurus sumber juga boleh mengedit kontur tempahan sedia ada dengan mengklik kanan tempahan dan memilih **Edit**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

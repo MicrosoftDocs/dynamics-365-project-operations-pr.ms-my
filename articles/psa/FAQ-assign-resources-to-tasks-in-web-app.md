@@ -116,3 +116,6 @@ Pilih **Tempah** untuk sumber generik, dan kemudian anda boleh menggunakan papan
 Apabila sumber generik dipenuhkan dengan sumber dinamakan, sumber generik dialih keluar daripada pasukan dan tugasan tugas untuk sumber generik ditugaskan kepada sumber dinamakan yang telah memenuhi keperluan sumber bagi sumber generik.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

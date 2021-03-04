@@ -60,3 +60,6 @@ Dalam Dynamics 365 Project Operations, prinsip pengiktirafan hasil berbeza-beza 
 [Uruskan anggaran hasil](rev-rec-completed-contract-method.md)
 
 [Kos untuk melengkapkan kaedah](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

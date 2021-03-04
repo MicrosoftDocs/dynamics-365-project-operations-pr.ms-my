@@ -72,3 +72,6 @@ Jika persediaan harga untuk kategori perbelanjaan tidak sah, maka anda telah men
 Jika anda masih tidak melihat harga sah pada jualan perbelanjaan sebenar anda selepas melakukan tiga semakan di atas, log tiket sokongan.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

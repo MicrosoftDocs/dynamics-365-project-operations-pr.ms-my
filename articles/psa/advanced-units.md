@@ -112,3 +112,6 @@ Tidak. Anggaran jadual adalah terhad kepada jam dan tidak boleh ditukar.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Bolehkan unit dan kumpulan unit diedit, dipadamkan dan ditambah?
 Ya. Dengan pengecualian kumpuan unit **Masa** dan unit **Jam**, semua unit boleh dipadamkan atau diedit, dan unit baharu boleh ditambah. Pada PSA, kumpulan unit **Masa** dan unit **Jam** tidak boleh dipadamkan. Walau bagaimanapun, ia boleh dikemas kini dengan teks terjemahan untuk medan **Nama**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

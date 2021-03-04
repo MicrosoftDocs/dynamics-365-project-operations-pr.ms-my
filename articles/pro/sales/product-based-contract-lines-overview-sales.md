@@ -46,3 +46,6 @@ Jika baris kontrak adalah berdasarkan pada katalog produk, anda boleh ganti harg
 Jika anda menetapkan medan **Harga** kepada **Harga ganti**, harga lalai tidak ditetapkan. Masukkan harga untuk produk pada baris kontrak. Jika anda menetapkan medan kepada **Gunakan lalai**, harga jualan lalai digunakan dan medan tidak boleh diedit.
 
 Selepas anda memasang Project Operations, harga jualan lalai dimasukkan pada baris berdasarkan produk pada kontrak. Medan **Harga** ditetapkan kepada **Ganti harga** supaya anda boleh mengedit harga lalai pada baris kontrak. Ini adalah ganti khusus Project Operations kepada tingkah laku baris berdasarkan produk dalam Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Sepanjang bulan pertama, sejumlah 800 jam direkodkan oleh perunding bagi projek 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

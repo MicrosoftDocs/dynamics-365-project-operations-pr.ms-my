@@ -50,3 +50,6 @@ Jadual berikut menyenaraikan semua borang dan pandangan siap guna, mengikut enti
 2. Pada halaman **Parameter**, pada tab **Dimensi Penentuan Harga Berdasarkan Jumlah** sahkan bahawa grid menunjukkan rekod dalam entiti **Dimensi Penentuan Harga**.
 3. Tambah **Kategori Transaksi** pada senarai ini dan tetapkan medan **Digunakan pada Kos** dan **Digunakan pada Jualan** kepada **Ya**.
 4. Dalam medan **Jenis Dimensi** pilih **Berdasarkan jumlah** dan kemudian pilih keutamaan untuk **Kategori Transaksi** kerana ia berkaitan dengan kos dan jualan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

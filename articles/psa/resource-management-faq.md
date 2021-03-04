@@ -54,3 +54,6 @@ Selepas sumber ditempah, pilih **Kekalkan Penempahan** untuk membuat sebarang pe
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Apakah perbezaan antara tugasan dengan sesuatu penempahan?
 
 Tugasan adalah tugasan sumber untuk tugas projek dalam jadual projek. Sumber boleh sama ada sumber sebenar atau generik. Penempahan ialah pengagihan sumber yang cetak atau lembut kepada projek. Penempahan keras menggunakan kapasiti sumber. Sebaik-baiknya, untuk sumber sebenar, penempahan dan tugasan harus bersetuju, kerana mereka tidak berbeza. Walau bagaimanapun, PSA tidak menguatkuasakan perjanjian ini. Pandangan penyesuaian menunjukkan pengurus projek tempat penempahan tempahan sumber dan tugasan tidak bersetuju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

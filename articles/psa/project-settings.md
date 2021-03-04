@@ -68,3 +68,6 @@ Setiap organisasi mesti menyediakan peranan ini pada halaman **Kategori Sumber A
 ## <a name="price-lists"></a>Senarai harga
 
 Senarai harga membolehkan anda menetapkan kos dan harga jualan untuk peranan sumber, kategori perbelanjaan, produk dan elemen lain dalam organisasi. Sebelum anda menetapkan anggaran kewangan untuk kerja yang mesti dihantar bagi sesuatu projek, anda harus mencipta senarai kos sokongan dan harga jualan. Dalam bahagian parameter, anda juga perlu menyediakan senarai kos dan harga jualan lalai yang digunakan pada semua projek yang dicipta dalam organisasi. Pada halaman **Parameter Projek Aktif**, pastikan anda menyediakan senarai kos dan harga jualan lalai.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

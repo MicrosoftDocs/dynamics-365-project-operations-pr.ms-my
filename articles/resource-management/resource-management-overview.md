@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119789"
 ---
 # <a name="resource-management-overview"></a>Gambaran keseluruhan pengurusan sumber
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Jika anda menambah medan tersuai pada butiran baris sebut harga dan mahu sistem 
 7. Pilih **OK** untuk menutup kotak dialog, kemudian pilih **Kemas Kini Langkah**.
 8. Ulangan langkah 1 hingga 7 untuk pasang masuk kedua.
 9. Tutup Alat Pendaftaran Pasang Masuk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

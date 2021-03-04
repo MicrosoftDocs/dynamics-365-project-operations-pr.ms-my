@@ -77,3 +77,6 @@ Isu berikut telah dibaiki:
 - Logik **Ketetapan Senarai Harga Jualan** tidak mengendalikan zon masa dengan betul, menyebabkan pemilihan senarai harga yang salah.
 - **Jumlah Kos Sebenar** projek boleh dimatikan oleh jumlah pecahan selepas entri masa tunggal diluluskan.
 - Logik **Ketetapan Harga** tidak memberikan mesej ralat mesra pengguna jika **RolePrice yang didapatkan semula** tidak mempunyai nilai dalam medan **'Unit utama'** dan **'Harga Dalam Unit Utama**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

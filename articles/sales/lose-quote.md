@@ -45,3 +45,6 @@ Apabila anda memilih **OK** pada halaman dialog, sistem mencipta salinan sebut h
 > - Rujukan projek dalam projek – berasaskan maklumat belanjawan baris sebut harga -Pelanggan
 >
 >Oleh kerana maklumat ini sangat khusus untuk setiap sebut harga, medan dan rekod ini tidak disalin. Baris sebut harga untuk projek dan produk, anggaran butiran baris sebut harga dan nilai tidak melebihi pada peringkat sebut harga disalin. Kadar harga dan kos lalai bergantung pada pilihan **Salin penetapan harga** yang dipilih pada halaman dialog **Salin parameter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Anda boleh menyerahkan keperluan sumber yang dijana sebagai permintaan sumber. P
 Status permintaan ahli pasukan generik akan bertukar kepada **Diserahkan.**
 
 Selepas permintaan dipenuhi, sumber generik akan digantikan dengan sumber yang dinamakan jika resource manager memenuhi permintaan dengan menempah sumber bernama. Jika tidak, sekiranya resource manager mencadangkan sumber bernama, sumber generik akan kekal pada pasukan dan status permintaan akan berubah kepada **Keperluan Semakan Semula**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

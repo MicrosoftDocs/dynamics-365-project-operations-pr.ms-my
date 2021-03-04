@@ -30,3 +30,6 @@ Pengurus Projek boleh menyemak transaksi jualan yang tidak dibilkan menggunakan 
 Anda boleh [mencipta invois proforma secara manual](../proforma-invoicing/create-manual-proforma-invoice.md) atau menggunakan [proses berkala](../proforma-invoicing/configure-automated-invoice-creation.md). Pengurus Projek boleh [melaraskan invois proforma draf](../proforma-invoicing/manage-proforma-invoice.md) sebagaimana yang diperlukan dan kemudian mengesahkannya.
 
 Invois proforma yang disahkan dihantar kepada modul **Pengurusan dan perakaunan projek** dalam Kewangan. Akauntan Projek memformat dan mengemas kini kelulusan invois projek, dan kemudian menyiarkan dan mencetak dokumen. Invois projek yang disiarkan direkodkan dalam lejar Am serta sublejar Pelanggan dan Projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

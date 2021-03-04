@@ -73,3 +73,6 @@ Klik pada pautan di bawah untuk mengetahui lebih lanjut mengenai perkara yang bo
  [Panduan Pengurus Akaun](../psa/account-manager-guide.md)   
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)   
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

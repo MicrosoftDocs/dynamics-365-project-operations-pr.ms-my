@@ -55,3 +55,6 @@ Contohnya, pemaju daripada divisyen Robotik Fabrikam India yang bekerja untuk pr
     | Pemaju | Fabrikam AS | Fabrikam AS - Robotik | $150 |
 
 3. Lampirkan senarai harga jualan, **Kadar Bil Fabrikam AS** kepada senarai harga projek bagi kontrak projek atau kepada akaun tertentu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

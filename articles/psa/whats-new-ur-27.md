@@ -81,3 +81,6 @@ Isu berikut telah dibaiki:
 - Apabila kedua-dua Dynamics 365 Field Service dan Project Service Automation dipasang, pilihan **Kunci penetapan harga** dan **Guna Penetapan Harga Semasa** tidak dipaparkan pada masa yang sama dalam halaman **Invois**.
 - Untuk bahasa Jepun, terdapat terjemahan yang tidak konsisten dengan halaman berasaskan kalendar lain.
 - **Aktifkan** dan **Nyahaktifkan** telah dialih keluar daripada entiti **Perkaitan Senarai Harga** dalam Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

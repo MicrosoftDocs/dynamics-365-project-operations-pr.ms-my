@@ -36,3 +36,6 @@ Terdapat dua cara pengurus projek boleh mengunjurkan semula usaha pada tugas:
 - Ganti peratusan kemajuan lalai dengan anggaran baharu bagi kemajuan sebenar tugas.
 
 Setiap pendekatan ini menyebabkan pengiraan semula ETC, anggaran ketika selesai (EAC) dan peratusan kemajuan tugas serta varians usaha yang diunjurkan pada tugas. EAC, ETC dan peratusan kemajuan pada tugas ringkasan juga dikira semula dan menghasilkan unjuran baharu bagi varians usaha.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

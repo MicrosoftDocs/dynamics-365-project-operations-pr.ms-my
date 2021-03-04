@@ -75,3 +75,6 @@ Untuk menggunakan Project Service Automation kepada penyelesaian integrasi Kewan
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Pasang Project Service Automation kepada penyelesaian integrasi Kewangan dalam tika Project Service Automation anda
 
 Muat turun Project Service Automation kepada penyelesaian integrasi Kewangan daripada [Pusat Muat Turun Microsoft](https://www.microsoft.com/download/details.aspx?id=57016), dan ikuti arahan yang disertakan dengan penyelesaian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

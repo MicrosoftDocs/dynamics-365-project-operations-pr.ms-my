@@ -37,3 +37,6 @@ Pilih jenis pelaksanaan ini jika jangkaan anda daripada Project Operations adala
 - Sistem bersepadu yang mengurus projek dalaman dan boleh dibilkan untuk jadual dan kewangan daripada jualan projek ke penginvoisan.
 - Perancangan sumber Perusahaan pihak ketiga (ERP)/Sistem perakaunan kewangan untuk integrasi dengan Project Operations.
 - Sistem pihak ketiga untuk bekerja dengan cukai jualan, kadar pertukaran, pembayaran balik perbelanjaan dan perbelanjaan bukan projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

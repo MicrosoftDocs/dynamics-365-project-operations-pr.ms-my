@@ -90,3 +90,6 @@ Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan.
 8. Dalam halaman projek, pada tab **Aktual**, semak **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan. Grafik berikut menunjukkan jumlah entri perbelanjaan asal dan jumlah entri perbelanjaan dibetulkan yang sepadan. 
 
 ![Aktual perbelanjaan](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

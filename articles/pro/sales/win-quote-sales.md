@@ -40,3 +40,6 @@ Jika sebut harga projek ditutup sebagai Kalah merujuk kepada projek pada salah s
 
 > [!NOTE]
 > Dalam Project Operations, menutup sebut harga sebagai Menang atau Hilang tidak akan memberi kesan bahawa status Peluang, yang akan kekal terbuka sehingga ia secara manual ditutup.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

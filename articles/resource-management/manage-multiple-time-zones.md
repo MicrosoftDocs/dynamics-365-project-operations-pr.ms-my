@@ -68,3 +68,6 @@ Selepas fungsi penempahan lanjutan telah digunakan untuk setiap sumber, penempah
 Perhatikan bahawa pandangan lebih dekat pada butiran daripada penempahan Tempahan menunjukkan perbezaan dalam masa mula penempahan. Penempahan mula tidak lebih awal daripada masa mula penugasan kontur dan tidak akan lebih awal daripada masa mula sumber yang tersedia.
 
 ![Tempahan baharu sumber dalam papan jadual](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

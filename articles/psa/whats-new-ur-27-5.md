@@ -42,3 +42,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Projec
 Isu berikut telah dibaiki:
 
 - Penamatan prestasi carian bantuan jadual
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

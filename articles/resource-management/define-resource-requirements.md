@@ -26,3 +26,5 @@ Keperluan sumber ditakrifkan oleh pengurus Project untuk mewujudkan sumber yang 
 3.  Pada tab **Ahli Pasukan**, pilih ahli pasukan dan kemudian pilih **Jana Keperluan**.
 
 Untuk mendapatkan maklumat mengenai cara mengubah suai keperluan sumber, lihat [Kemas kini butiran keperluan Sumber](define-resource-requirements.md) untuk mengubah suai keperluan sumber.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

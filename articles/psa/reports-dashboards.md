@@ -40,3 +40,6 @@ Papan pemuka **Pengurus Latihan** memberikan pengurus latihan pengalaman papan p
 ## <a name="resource-manager"></a>Pengurus Sumber 
 
 Papan pemuka **Pengurus Sumber** memberikan pengurus sumber pengalaman papan pemuka grafik untuk memantau permintaan sumber serta permintaan dan penggunaan sumber. Ia juga membolehkan pengurus sumber membahagikan maklumat yang dipantau mengikut pelbagai dimensi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

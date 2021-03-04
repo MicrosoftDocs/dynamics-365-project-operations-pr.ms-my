@@ -81,3 +81,6 @@ Jika anda menggunakan ramalan projek, anda boleh mengenal pasti model sebagai su
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

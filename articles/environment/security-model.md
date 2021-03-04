@@ -81,3 +81,6 @@ Project Operations termasuk peranan berikut:
 Untuk mendapatkan maklumat lanjut tentang keselamatan dalam Kewangan, lihat [Keselamatan berasaskan peranan](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

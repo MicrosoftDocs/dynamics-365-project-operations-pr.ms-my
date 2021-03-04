@@ -47,3 +47,6 @@ Untuk membuka halaman **Parameter integrasi Project Service Automation** , pergi
 | Jenis pengebilan lalai  | Jenis pengebilan         | Klik **Baharu** untuk menambah baris di mana anda boleh memilih jenis pengebilan untuk menetapkan sifat barisan lalai. Jenis pengebilan tertentu boleh dipilih hanya pada satu masa dalam konfigurasi. |
 |                        | Sifat baris        | Pilih sifat baris lalai untuk jenis pengebilan yang dipilih. Apabila jam anggaran baharu, anggaran perbelanjaan baharu atau aktual baharu disegerakkan daripada Project Service Automation, medan **Sifat baris** ditetapkan kepada nilai lalai untuk jenis pengebilan. |
 | Penguncian fungsi  | Tidak berkenaan       | Pilih fungsi untuk menyahdayakan Kewangan untuk projek dan kontrak yang berasal daripada Project Service Automation. Sebagai contoh, anda boleh mematikan keupayaan untuk mengedit kontrak dan projek, mencipta struktur pecahan kerja, dan masukkan lembaran masa dalam Kewangan. Medan berkaitan perakaunan akan terus didayakan, walaupun ia tidak tersedia oleh tetapan parameter. Secara lalai, semua fungsi didayakan. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

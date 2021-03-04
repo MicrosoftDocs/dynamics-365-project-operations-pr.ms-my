@@ -41,3 +41,6 @@ Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. K
 - [Keperluan tempah lembut](resource-management-softbook-requirements.md)
 - [Model kemahiran dan kecekapan](resource-management-skills-proficiency.md)
 - [Soalan Lazim pengurusan sumber](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

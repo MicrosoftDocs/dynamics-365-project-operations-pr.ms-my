@@ -37,3 +37,5 @@ Sebagai Pengurus Projek, lengkapkan langkah berikut untuk mengedit keperluan sum
 ## <a name="edit-resource-assignment-contours"></a>Edit kontur tugasan sumber
 
 Selain daripada mengedit butiran keperluan sumber, Pengurus projek boleh mengemas kini kontur individu keperluan sumber menggunakan kefungsian **Tentukan Corak**. Apabila **Tentukan Corak** dipilih, halaman dibuka dan anda boleh melihat kontur pada skala masa hari, minggu, atau bulan. Setiap kontur boleh dilaraskan untuk masa mula, masa tamat, dan jumlah usaha dalam tempoh tertentu.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

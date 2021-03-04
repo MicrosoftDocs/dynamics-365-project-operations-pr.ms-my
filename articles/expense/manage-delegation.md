@@ -39,3 +39,6 @@ Jika ciri kunci pengurusan **Dayakan halaman senarai wakil perbelanjaan** didaya
 Perwakilan boleh menapis dan mencari laporan perbelanjaan yang sedia ada yang ditugaskan kepada mereka dengan cepat. Perwakilan juga boleh mencipta laporan perbelanjaan baharu untuk pengguna lain dengan memilih **Laporan perbelanjaan baharu**.
 
 Wakil boleh mencipta dan mengurus laporan perbelanjaan untuk pekerja lain dengan pergi ke **Pengurusan perbelanjaan** > **Perbelanjaan saya** > **Laporan perbelanjaan** dan memilih **Bika perbelanjaan pengguna lain**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

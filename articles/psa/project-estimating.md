@@ -97,3 +97,6 @@ Dalam pandangan grid dan pandangan berfasa masa, anda boleh memilih medan yang d
 ## <a name="expense-estimates"></a>Anggaran perbelanjaan
 
 Butang **Tambah Anggaran Perbelanjaan Baharu** dalam paparan grid membolehkan anda merekodkan sebarang perbelanjaan yang ditanggung dalam projek itu, tetapi itu tidak berkaitan secara langsung dengan buruh. Anda boleh merekodkan anggaran perbelanjaan untuk tugas tertentu atau untuk keseluruhan projek. Pilih kategori perbelanjaan dan tarikh tentatif apabila anda menjangka untuk menanggung perbelanjaan tersebut. Jika senarai harga kos dan senarai harga jualan yang berkaitan mempunyai harga lalai (atau jika peratusan tokokan ditakrifkan untuk kategori perbelanjaan), ia akan dimasukkan secara automatik pada baris anggaran apabila perkaitan berlaku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Ilustrasi berikut menunjukkan perubahan yang berlaku bagi entri masa yang dilulu
 Ilustrasi berikut menunjukkan perubahan yang berlaku bagi entri perbelanjaan yang diluluskan apabila ia ditarik balik.
 
 ![Peralihan keadaan Entri Perbelanjaan](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

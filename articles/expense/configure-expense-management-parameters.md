@@ -83,3 +83,6 @@ Topik ini menghuraikan parameter mengawal tingkah laku umum dalam pengurusan Per
 | Mempamerkan serangan antirasuah   | Pilih pilihan ini untuk menunjukkan teks anti rasuah apabila laporan perbelanjaan dicipta. Kategori belanja khusus boleh kemudian didayakan yang akan memerlukan bahawa penkategorasi antirasuah dipilih dalam laporan perbelanjaan. Contohnya, kategori hadiah yang berkaitan dengan perbelanjaan rasmi kerajaan mungkin menghendaki pekerja mengesahkan bahawa perbelanjaan tersebut memenuhi dasar syarikat yang berkaitan dengan pegawai kerajaan. |
 | Mesej antirasuah untuk penghantar | Masukkan teks yang sepatutnya ditunjukkan kepada pekerja yang mencipta laporan perbelanjaan. Untuk memasukkan teks khusus bahasa yang akan ditunjukkan, berdasarkan bahasa pengguna, pilih **Terjemahan**. |
 | Mesej antirasuah untuk pelulus  | Masukkan teks yang sepatutnya ditunjukkan kepada kepada pelulus semasa laporan perbelanjaan dibuat. Untuk memasukkan teks khusus bahasa yang akan ditunjukkan, berdasarkan bahasa pengguna, pilih **Terjemahan**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Isu berikut telah dibaiki:
 
 - Tarikh tamat isian automatik apabila kemasukan masa dicipta jika tempoh adalah nol.
 - Pengguna boleh mengubah tugas pada entri masa yang telah diluluskan atau diserahkan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

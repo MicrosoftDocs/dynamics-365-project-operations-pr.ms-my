@@ -83,3 +83,6 @@ Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 Ilustrasi berikut menunjukkan contoh pemetaan tugas templat dalam penyepaduan Data. Pemetaan menunjukkan maklumat medan yang akan disegerakkan daripada Project Service Automation kepada Finance.
 
 [![Pemetaan templat](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Sebelum anda memulakan konfigurasi, anda mesti mempunyai persekitaran Common Dat
     -   Penyekutuan Cirian Sumber Boleh Ditempah
 
     ![Lengkapkan Import](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-lan
     | &nbsp; | Tokokan terhadap kos | Dengan menggunakan tokokan seperti yang ditakrifkan oleh baris harga kategori pada kadar kos unit daripada kos berkaitan yang sebenar |
 
 4. Jika sistem tidak dapat memadankan nilai medan **Kategori** dan **Unit**, kadar jualan ditetapkan lalai kepada sifar(0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

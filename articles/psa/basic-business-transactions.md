@@ -149,3 +149,6 @@ Jadual berikut menunjukkan rekod dalam entiti pembetulan Transaksi untuk aliran 
 | Pembetulan Invois Draf       | GUID Transaksi Baris Invois | Menggantikannya          | msdyn_invoicelinetransaction | GUID Jualan Dibilkan            | Asal           | msdyn_actual       |
 | Sahkan Pembetulan Invois     | GUID Pembalikan Jualan Dibilkan    | Menterbalikkan          | msdyn_actual                 | GUID Jualan Dibilkan            | Asal           | msdyn_actual       |
 | GUID Aktual Jualan Belum Dibilkan Baharu | Menggantikan                     | msdyn_actual       | GUID Jualan Dibilkan            | Asal                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

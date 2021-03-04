@@ -67,3 +67,6 @@ Isu berikut telah dibaiki:
 Isu berikut telah dibaiki:
 
 - Klik dua kali **Kutip Semua Kategori Transaksi** mencipta berbilang baris.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

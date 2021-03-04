@@ -48,3 +48,6 @@ Seterusnya, anda akan mencipta struktur pecahan kerja untuk projek anda untuk me
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

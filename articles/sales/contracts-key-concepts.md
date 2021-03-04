@@ -88,3 +88,6 @@ Jadual invois adalah khusus untuk setiap baris kontrak dan diperlukan untuk peng
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Perubahan daripada Pesanan Dynamics 365 Sales
 
 Kontrak dalam Project Operations terbina dalam Pesanan dalam Dynamics 365 Sales. Walau bagaimanapun, terdapat beberapa penyelewengan dan perbezaan penting dalam kefungsian. Kontrak mempunyai borang dan elemen UI, peraturan perniagaan, logik perniagaan dalam pasang masuk serta skrip bahagian klien sendiri yang menjadikannya unik daripada Pesanan. Atas sebab ini, jangan gunakan kontrak Pesanan Jualan dan Project Operations secara bergantian.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

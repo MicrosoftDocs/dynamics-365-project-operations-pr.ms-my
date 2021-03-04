@@ -52,3 +52,6 @@ Anda boleh menggunakan setiap senarai harga itu dan membuat kemas kini untuk har
 Pada kontrak projek, penetapan harga projek sentiasa lalai sebagai senarai harga tersuai dengan nama kontrak dan cap masa tarikh dicipta ditambah kepada nama. Ini adalah benar sama ada kontrak dicipta apabila sebut harga dimenangi atau jika kontrak dicipta daripada awal. Jika perlu, anda boleh mengalih keluar perkaitan ini ke senarai harga tersuai dan mengaitkan senarai harga standard kepada kontrak projek.
 
 Apabila anda mengaitkan senarai harga standard ke senarai harga projek pada sebut harga atau kontrak, sebarang perubahan yang dibuat pada harga dalam senarai harga akan memberi kesan kepada semua sebut harga dan kontrak yang menggunakan senarai harga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -29,3 +29,6 @@ Bahagian **Status** pada halaman **Entiti Projek** menyediakan ringkasan kesihat
 - Medan **Komen** membolehkan pengurus projek memasukkan komen khusus tentang status. 
 - Medan **Status yang dikemas kini pada** tidak boleh diedit. Nilai dalam medan ini ialah cap masa yang menunjukkan apabila status terakhir dikemas kini.
 - Medan **Prestasi jadual** dan **Prestasi kos** ditetapkan daripada grid penjejakan. Apabila jadual dan varians kos untuk nod akar dalam pandangan **Penjejakan usaha** adalah positif, medan ini dikemas kini kepada **Di Hadapan**. Apabila jadual dan varians kos untuk nod akar adalah negatif, medan ini ditetapkan kepada **Di Belakang**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

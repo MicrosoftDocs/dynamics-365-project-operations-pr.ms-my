@@ -90,3 +90,6 @@ Anda juga boleh memisahkan tugas projek kepada baris sebut harga daripada tab **
 
 >[!NOTE]
 > Prosedur ini tidak memadam tugas daripada projek tersebut. Ia hanya mengalih keluar perkaitan tugas daripada baris sebut harga berasaskan projek.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Di bawah adalah ringkasan medan yang boleh dikemas kini pada projek selepas ia t
 - **Status Projek Keseluruhan**: Kesihatan projek secara keseluruhan yang disediakan oleh Pengurus projek.
 - **Komen**: Naratif mengenai kesihatan semasa projek yang disediakan oleh Pengurus projek.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

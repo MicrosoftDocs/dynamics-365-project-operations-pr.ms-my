@@ -87,3 +87,6 @@ Apabila anda sudah bersedia untuk menukar sumber ahli pasukan ditempah sementara
 2. Apabila papan jadual dibuka, kembangkan sumber untuk menunjukkan tempahan mereka. Anda akan melihat tempahan ditanda sebagai Sementara.
 3. Klik kanan tempahan, di bawah bahagian Tukar Status, pilih Tempah Tetap dan kemudian Tetap. Status tempahan kini Tetap.
 4. Selepas menutup papan jadual, anda akan melihat bahawa jam untuk sumber telah bertukar daripada Sementara kepada Tetap pada grid ahli pasukan. Anda kini boleh menugaskan sumber kepada tugas (dengan syarat terdapat penjajaran antara jam ditempah tetap dan jam usaha tugas untuk tugasan). Perhatian bahawa jika anda mengikuti langkah pemenuhan sumber generik dalam item #3 di atas, apabila anda menukar status sumber boleh ditempah untuk ditempah sementara kepada tetap, ahli pasukan generik akan dikeluarkan dari pasukan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

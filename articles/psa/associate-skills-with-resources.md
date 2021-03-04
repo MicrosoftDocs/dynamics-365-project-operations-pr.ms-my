@@ -45,3 +45,6 @@ Dalam langkah sebelumnya, anda sudah mengaitkan beberapa kemahiran dengan sumber
   
 ### <a name="see-also"></a>Lihat Juga  
  [Sediakan sumber](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

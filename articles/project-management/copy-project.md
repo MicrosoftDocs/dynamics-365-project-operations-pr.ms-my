@@ -61,3 +61,6 @@ Apabila pasukan projek disalin daripada projek sumber, sumber generik akan disal
 Apabila projek disalin, kedua-dua sumber dan anggaran had baris disalin daripada projek sumber. 
 
 Untuk maklumat tentang cara mengakses Salin Projek secara programatik, lihat [Membangun templat projek dengan Salin Projek](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

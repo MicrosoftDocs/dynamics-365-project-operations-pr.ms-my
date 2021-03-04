@@ -31,3 +31,6 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 Entiti **Aktual** mempunyai banyak medan yang boleh digunakan sebagai dimensi penetapan harga bagi penetapan harga berasaskan sumber. Contohnya, satu medan biasa ialah **Sumber Boleh Ditempah**. Syarikat yang lebih kecil yang mempunyai kurang daripada 20-30 sumber boleh dibilkan mungkin mendapati bahawa mempunyai bil dan kadar kos khusus untuk setiap sumber adalah pendekatan yang lebih mudah. Walau bagaimanapun, apabila tenaga kerja boleh dibil bertambah, kadar sumber tertentu boleh menjadi tidak realistik untuk dikekalkan. Kos sumber dan kadar bil mulai berbeza ketika sumber dipromosikan, memperoleh lebih banyak pengalaman atau memperoleh pelbagai kemahiran. 
 
 Satu lagi contoh ialah kategori transaksi. Pelanggan dan pelaksana telah menggunakan kategori transaksi untuk mengklasifikasikan kerja dan menggunakan medan untuk harga dan kos berdasarkan pada kategori kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

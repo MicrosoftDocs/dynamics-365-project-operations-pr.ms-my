@@ -85,3 +85,6 @@ Selepas beberapa entri masa telah dicipta, pengguna boleh mencipta berbilang ent
 
 ## <a name="import"></a>Import
 Proses asas yang sama digunakan untuk mengimport daripada tempahan, tugas dan pertukaran. Anda boleh tentukan julat tarikh bagi penempahan yang diimport daripada dan kemudian secara eksplisit memilih penempahan yang sepatutnya disalin ke dalam draf entiti masa. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Anggaran mengubah status kepada **Disingkirkan**.
 Gunakan halaman ini untuk membalikkan semua penyingkiran dengan tarikh anggaran yang ditetapkan dan dengan status anggaran **Disingkirkan**. Status transaksi berubah selepas anda memilih medan yang sesuai.
 
 Ini juga secara automatik mengubah status projek kepada **Dalam proses** jika peringkat projek ditetapkan kepada selesai. Status anggaran tempoh projek berubah kembali ke **Disiarkan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

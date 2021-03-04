@@ -79,3 +79,6 @@ Anggaran atau yang dicipta sebenar untuk perbelajaan hanya akan dianggap boleh d
 | Tidak            | Ya              | Keseluruhan projek | Tidak boleh ditetapkan   | Tidak boleh dituntut | Pengebilan pada Masa sebenar: **Tidak tersedia**</br> Jenis pengebilan pada Perbelanjaan sebenar: **Tidak boleh dituntut**     |
 | Ya           | Tidak               | Keseluruhan projek | Boleh dituntut     | Tidak boleh ditetapkan   | Pengebilan pada Masa sebenar: **Boleh dituntut** </br> Jenis pengebilan pada Perbelanjaan sebenar: **Tidak tersedia**        |
 | Ya           | Tidak               | Keseluruhan projek | Tidak boleh dituntut | Tidak boleh ditetapkan   | Pengebilan pada Masa sebenar: **Tidak boleh dituntut** </br>Jenis pengebilan pada Perbelanjaan sebenar: **Tidak   tersedia**   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

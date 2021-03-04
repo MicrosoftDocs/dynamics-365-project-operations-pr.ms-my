@@ -40,3 +40,6 @@ Pengurus projek boleh merancang peranan sumber yang diperlukan untuk projek. Pen
 7. Pilih pekerja, dan kemudian pilih **Tugaskan**.
 8. Sahkan bahawa baris untuk **Pembangun perisian 1** telah dialih keluar untuk projek **Projek naik taraf XYZ Fasa 2**.
 9. Pada tab **Pasukan dan penjadualan projek** , untuk **Projek naik taraf XYZ Fasa 2** , sahkan bahawa pekerja yang anda pilih dalam langkah sebelumnya telah ditambah sebagai **Pembangun perisian**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

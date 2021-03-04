@@ -89,3 +89,6 @@ Parameter berikut mengawal tingkah laku am dalam Pengurusan perbelanjaan.
 | <strong>Mesej antirasuah untuk penghantar</strong> |                                                                                             Masukkan teks yang akan dipaparkan kepada pekerja apabila mencipta laporan perbelanjaan baharu. Klik butang <strong>Terjemahan</strong> untuk memasukkan teks khusus bahasa yang akan dipaparkan berdasarkan bahasa pengguna.                                                                                             |
 | <strong>Mesej antirasuah untuk pelulus</strong>  |                                                                                             Masukkan teks yang akan dipaparkan kepada pelulus apabila mencipta laporan perbelanjaan baharu. Klik butang <strong>Terjemahan</strong> untuk memasukkan teks khusus bahasa yang akan dipaparkan berdasarkan bahasa pengguna.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

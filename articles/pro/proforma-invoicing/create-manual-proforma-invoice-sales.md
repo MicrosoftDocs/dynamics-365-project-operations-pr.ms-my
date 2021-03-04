@@ -35,3 +35,6 @@ Semua invois projek yang dicipta tersedia pada halaman **Invois** dalam bahagian
 Invois proforma juga boleh dicipta daripada halaman butiran **Kontrak Projek**. Sistem mengesahkan kontrak projek mempunyai tunggakan **Sedia untuk Invois** bertarikh sebelum tarikh hari ini. Daripada kontrak ini, sistem mencipta invois proforma draf berdasarkan bilangan pelanggan pada setiap baris kontrak.
 
 Apabila terdapat invois proforma tunggal yang dicipta, halaman **Invois** dibuka. Jika berbilang invois dicipta untuk kontrak projek tersebut, halaman senarai **Invois** dibuka untuk menunjukkan semua invois yang dicipta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

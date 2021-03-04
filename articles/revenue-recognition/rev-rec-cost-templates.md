@@ -79,3 +79,6 @@ Untuk mencipta templat kos, ikuti langkah-langkah berikut:
 7. Pada tab **Kategori**, pilih kategori projek yang akan disertakan dalam baris templat kos.
 8. Pada tab **Umum**, pilih jika baris ini akan dimasukkan dalam pengiraan peratusan siap.
 9. Pilih kaedah kos untuk siap yang digunakan apabila mengira peratusan siap.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

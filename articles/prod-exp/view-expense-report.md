@@ -32,3 +32,6 @@ Untuk laporan perbelanjaan, anda boleh menggerudi bawah daripada transaksi kepad
 Untuk menggerudi bawah kepada laporan perbelanjaan asal transaksi yang muncul, pilih transaksi dan kemudian pilih **Dokumen asal**.
 
 Apabila anda melihat transaksi individu, anda juga boleh melihat sebarang data tambahan yang dilampirkan dengan transaksi. Sebagai contoh, untuk perbelanjaan hotel yang diperincikan, anda boleh melihat senarai terperinci perbelanjaan seperti akses internet, panggilan telefon dan perkhidmatan bilik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

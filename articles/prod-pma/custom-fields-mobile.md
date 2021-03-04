@@ -429,3 +429,6 @@ Entri bagi kategori projek lalai pada entri lembaran masa berlaku pada tiga peri
 1. Aplikasi cuba meletakkan kategori lalai daripada sumber projek. Kategori lalai ditetapkan dalam kaedah **getCurrentUserResource** dan **getDelegatedResourcesForCurrentUser** dalam kelas **TSTimesheetSettingsService**.
 2. Jika kategori lalai tidak disediakan pada peringkat sumber projek, aplikasi cuba menariknya daripada aktiviti projek. Kategori lalai ditetapkan dalam kaedah **getActivitiesForProject** dalam kelas **TSTimesheetProjectService**.
 3. Jika kategori lalai tidak disediakan pada peringkat aktiviti projek, kategori lalai diambil daripada parameter projek. Kategori lalai ditetapkan dalam kaedah **getProjectDetailsbyRule** dalam kelas **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

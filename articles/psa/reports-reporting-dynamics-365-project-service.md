@@ -52,3 +52,6 @@ Untuk mendapatkan maklumat lanjut tentang pelaporan dalam PSA, lihat topik berik
 - [Bekerja dengan model data Project Service](reports-working-project-service-data-model.md)
 - [Papan Pemuka](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

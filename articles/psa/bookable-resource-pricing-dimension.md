@@ -76,3 +76,6 @@ Ini membuka halaman **nama medan dimensi Penentuan Harga baharu** untuk **msdyn_
 5. Tambah **msdyn_projectteam** pada medan **Nama Logik Entiti** dan **msdyn_bookableresourceid** pada medan **Nama Medan**. Simpan rekod.
 
  ![Borang nama medan dimensi Penentuan Harga baharu](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

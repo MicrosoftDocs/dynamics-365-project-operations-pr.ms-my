@@ -56,3 +56,6 @@ Tugas ini menggunakan set data USSI.
 21. Dalam medan **Resit produk** , taipkan nilai.
 22. Pilih **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
