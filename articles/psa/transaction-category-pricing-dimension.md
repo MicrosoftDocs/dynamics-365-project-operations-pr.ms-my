@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081312"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150769"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Gunakan kategori urus niaga sebagai dimensi penetapan harga
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Topik ini menunjukkan cara menggunakan kategori urus niaga sebagai dimensi penetapan harga. Sebelum anda mulakan, jika anda belum mencipta penyelesaian dimensi penetapan harga, anda akan perlu mencipta yang baharu. Jika anda sudah mempunyai penyelesaian dimensi penetapan harga, anda boleh membuat perubahan anda dalam penyelesaian tersebut. Jika anda belum mencipta penyelesaian dimensi penetapan harga baharu untuk organisasi anda, lengkapkan prosedur [Cipta medan tersuai dan topik entiti](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Tambah kategori urus niaga ke borang dan pandangan
@@ -47,6 +50,6 @@ Jadual berikut ialah senarai komprehensif bagi borang dan pandangan kotak yang l
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Sediakan kategori urus niaga sebagai dimensi penetapan harga
 
 1. Dalam antara muka web, pergi ke **Project Service** > **Tetapan** > **Parameter**. 
-2. Pada halaman **Parameters** , pada tab **Dimensi Penetapan Harga Berdasarkan Jumlah** perhatikan grid pada tab menunjukkan rekod dalam entiti **Dimensi Penetapan Harga**.
+2. Pada halaman **Parameters**, pada tab **Dimensi Penetapan Harga Berdasarkan Jumlah** perhatikan grid pada tab menunjukkan rekod dalam entiti **Dimensi Penetapan Harga**.
 3. Tambah **Kategori Transaksi** ke senarai ini dan tetapkan medan **Digunakan pada Kos** dan **Digunakan pada Jualan** ditetapkan kepada **Ya**.
 4. Dalam medan **Jenis Dimensi** pilih **Berdasarkan jumlah** dan kemudian pilih keutamaan untuk **Kategori Transaksi** yang berkaitan dengan kos dan jualan.

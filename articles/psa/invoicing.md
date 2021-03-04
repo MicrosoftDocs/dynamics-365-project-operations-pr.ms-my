@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081292"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151399"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Penginvoisan dalam Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,11 +46,11 @@ Invois projek boleh dicipta satu pada satu masa atau secara pukal. Anda boleh me
 
 ### <a name="manually-create-project-invoices-in-psa"></a>Cipta invois projek secara manual dalam PSA
 
-Dari halaman senarai **Kontrak Projek** , anda boleh mencipta invois projek secara berasingan untuk setiap kontrak projek, atau anda boleh mencipta invois secara pukal untuk berbilang kontrak projek.
+Dari halaman senarai **Kontrak Projek**, anda boleh mencipta invois projek secara berasingan untuk setiap kontrak projek, atau anda boleh mencipta invois secara pukal untuk berbilang kontrak projek.
 
 Ikuti langkah ini untuk mencipta invois untuk kontrak projek khusus.
 
-- Dalam halaman senarai **Kontrak Projek** , buka kontrak projek, kemudian pilih **Cipta Invois**.
+- Dalam halaman senarai **Kontrak Projek**, buka kontrak projek, kemudian pilih **Cipta Invois**.
 
     ![Mencipta invois projek untuk kontrak projek khusus](media/CreateProjectInvoicesOneByOne.png)
 
@@ -56,7 +58,7 @@ Ikuti langkah ini untuk mencipta invois untuk kontrak projek khusus.
 
 Ikuti langkah-langkah ini untuk mencipta invois secara pukal.
 
-1. Dalam halaman senarai **Kontrak Projek** , pilih satu atau lebih kontrak projek yang anda mesti cipta invois, kemudian pilih **Cipta Invois Projek**.
+1. Dalam halaman senarai **Kontrak Projek**, pilih satu atau lebih kontrak projek yang anda mesti cipta invois, kemudian pilih **Cipta Invois Projek**.
 
     ![Mencipta invois projek secara pukal](media/CreateProjectInvoicesBulk.png)
 
@@ -74,21 +76,21 @@ Ikuti langkah-langkah ini untuk mengkonfigurasikan jalanan invois automtik dalam
 
 1. Pergi ke **Project Service** \> **Tetapan** \> **Kerja Kelompok**.
 2. Cipta kerja kelompok, dan namakannya **Cipta Invois PSA**. Nama kerja kelompok mestilah memasukkan terma "Cipta Invois".
-3. Dalam medan **Jenis kerja** , pilih **Tiada**. Secara lalai, **Kekerapan Harian** dan pilihan **Adalah Aktif** ditetapkan kepada **Ya**.
-4. Pilih **Jalankan Aliran Kerja**. Dalam kotak dialog **Cari Rekod** , anda akan melihat tiga aliran tugas:
+3. Dalam medan **Jenis kerja**, pilih **Tiada**. Secara lalai, **Kekerapan Harian** dan pilihan **Adalah Aktif** ditetapkan kepada **Ya**.
+4. Pilih **Jalankan Aliran Kerja**. Dalam kotak dialog **Cari Rekod**, anda akan melihat tiga aliran tugas:
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Pilih **ProcessRunCaller** , kemudian pilih **Tambah**.
+5. Pilih **ProcessRunCaller**, kemudian pilih **Tambah**.
 6. Dalam kotak dialog seterusnya, pilih **OK**. Aliran tugas **Tidur** diikuti dengan aliran tugas **Proses**.
 
-    Anda juga boleh memilih **ProcessRunner** dalam langkah 5. Kemudian, apabila anda pilih **OK** , aliran tugas **Proses** diikuti oleh aliran kerja **Tidur**.
+    Anda juga boleh memilih **ProcessRunner** dalam langkah 5. Kemudian, apabila anda pilih **OK**, aliran tugas **Proses** diikuti oleh aliran kerja **Tidur**.
 
 Aliran kerja **ProcessRunCaller** dan **ProcessRunner** mencipta invois. **ProcessRunCaller** memanggil **ProcessRunner**. **ProcessRunner** ialah aliran kerja yang sebenarnya mencipta invois. Ia merangkumi semua baris kontrak yang perlu dicipta invois, dan ia mencipta invois untuk baris tersebut. Untuk menentukan baris kontrak yang perlu dicipta invois, kerja dilihat pada tarikh jalanan invois untuk baris kontrak. Jika baris kontrak milik satu kontrak yang mempunyai tarikh jalanan invois sama, transaksi digabungkan ke dalam satu invois yang mempunyai dua baris invois. Jika tiada transaksi untuk dicipta invois, kerja melangkau penciptaan invois.
 
-Selepas **ProcessRunner** selesai berjalan, ia memanggil **ProcessRunCaller** , memberikan masa akhir, dan ditutup. **ProcessRunCaller** kemudian memulakan pemasa yang berjalan 24 jam dari tarikh akhir khusus. Pada penghujung pemasa, **ProcessRunCaller** ditutup.
+Selepas **ProcessRunner** selesai berjalan, ia memanggil **ProcessRunCaller**, memberikan masa akhir, dan ditutup. **ProcessRunCaller** kemudian memulakan pemasa yang berjalan 24 jam dari tarikh akhir khusus. Pada penghujung pemasa, **ProcessRunCaller** ditutup.
 
 Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses kelompok ini berjalan banyak kali, berbilang tika kerja dicipta dan menyebabkan ralat. Maka, anda perlu memulakan proses kelompol hanya satu kali, dan anda hendaklah mulakan semula jika ia berhenti berjalan.
 
@@ -103,7 +105,7 @@ Apabila anda mencipta invois projek draf, semua transaksi jualan belum dibilkan 
 - Edit atau selaraskan kuantiti dan jenis pengebilan.
 - Terus menambah masa, perbelanjaan, dan yuran sebagai transaksi dalam invois. Anda boleh menggunakan ciri ini jika baris invois dipetakan kepada baris kontrak yang membenarkan kelas transaksi ini.
 
-Pilih **Sahkan** untuk mengesahkan invois. Tindakan Sahkan adalah tindakah satu arah. Apabila anda pilih **Sahkan** , sistem menjadikan invois baca sahaja dan mencipta aktual jualan dibilkan dari setiap butiran baris invois untuk setiap baris invois. Jika butiran baris invois merujuk kepada aktual jualan belum dibilkan, sistem juga membalikkan aktual jualan belum dibilkan. (Sebarang butiran baris invois yang dicipta dari entri masa atau perbelanjaan akan merujuk kepada aktual jualan belum dibilkan). Sistem integrasi lejar am boleh menggunakan balikan ini untuk membalikkan projek yang sedang berjalan untuk tujuan perakaunan.
+Pilih **Sahkan** untuk mengesahkan invois. Tindakan Sahkan adalah tindakah satu arah. Apabila anda pilih **Sahkan**, sistem menjadikan invois baca sahaja dan mencipta aktual jualan dibilkan dari setiap butiran baris invois untuk setiap baris invois. Jika butiran baris invois merujuk kepada aktual jualan belum dibilkan, sistem juga membalikkan aktual jualan belum dibilkan. (Sebarang butiran baris invois yang dicipta dari entri masa atau perbelanjaan akan merujuk kepada aktual jualan belum dibilkan). Sistem integrasi lejar am boleh menggunakan balikan ini untuk membalikkan projek yang sedang berjalan untuk tujuan perakaunan.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Betulkan invois PSA yang disahkan
 
