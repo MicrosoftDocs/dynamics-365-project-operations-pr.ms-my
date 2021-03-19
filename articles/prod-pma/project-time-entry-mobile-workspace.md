@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288885"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Ruang kerja entri masa Projek
 
@@ -36,7 +36,7 @@ Ruang kerja mudah alih ini bertujuan untuk digunakan bersama dengan aplikasi mud
 ## <a name="overview"></a>Ikhtisar
 Sebagai sebahagian daripada kerja harian mereka, sumber projek sentiasa berada di tapak atau perjalanan. **Ruang kerja kemasukan masa projek** akan membolehkan pengguna memasukkan masa yang boleh dibilkan atau tidak boleh dibilkan terhadap projek pada peranti mudah alih pilihan mereka. Oleh itu, sumber projek boleh merekodkan penyertaan masa pada bila-bila masa dan di mana jua. Mereka juga boleh melihat penyertaan masa yang sudah direkodkan. 
 
-Secara khusus, dalam ruang kerja mudah alih **entri masa Projek** , pengguna boleh melakukan tugas ini:
+Secara khusus, dalam ruang kerja mudah alih **entri masa Projek**, pengguna boleh melakukan tugas ini:
 
 -   Untuk sebarang tarikh yang dipilih, masukkan bilangan jam yang anda belanjakan untuk tugas tertentu.
 -   Cari mengikut nama projek atau pelanggan untuk mencari projek untuk masukkan masa.

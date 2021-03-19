@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081400"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288750"
 ---
 # <a name="set-up-project-resources"></a>Sediakan sumber projek
 
@@ -37,11 +37,11 @@ Prosedur berikut menerangkan cara untuk menyediakan pekerja sebagai sumber proje
 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Sediakan pekerja sebagai sumber projek
 
-1. Pada halaman **Pekerja** , dalam senarai **Pekerja** , pilih pekerja yang anda tambah sebagai sumber projek dan buka rekod pekerja.
+1. Pada halaman **Pekerja**, dalam senarai **Pekerja**, pilih pekerja yang anda tambah sebagai sumber projek dan buka rekod pekerja.
 2. Pada Anak Tetingkap Tindakan, pilih **Projek** &gt; **Persediaan** &gt; **Persediaan projek**.
 3. Pilih kalendar, dan kemudian tutup halaman.
 
-Anda juga boleh menentukan projek lalai untuk sumber sebagai jenis pra-tugasan. Pra-tugasan boleh digunakan apabila pengurus sumber atau pengurus projek mengetahui projek sumber yang mana akan berjalan terlebih dahulu. Pra-tugasan juga boleh berdasarkan kepada permintaan penaja projek atau pelanggan. Untuk membuat pra-tugaskan projek, pada halaman **Tugaskan projek** , pada tab **Projek** , dalam senarai **Baki projek** , pilih projek yang sesuai.
+Anda juga boleh menentukan projek lalai untuk sumber sebagai jenis pra-tugasan. Pra-tugasan boleh digunakan apabila pengurus sumber atau pengurus projek mengetahui projek sumber yang mana akan berjalan terlebih dahulu. Pra-tugasan juga boleh berdasarkan kepada permintaan penaja projek atau pelanggan. Untuk membuat pra-tugaskan projek, pada halaman **Tugaskan projek**, pada tab **Projek**, dalam senarai **Baki projek**, pilih projek yang sesuai.
 
 ## <a name="set-up-an-intercompany-resource"></a>Sediakan sumber antara syarikat
 
@@ -50,16 +50,16 @@ Apabila anda menyediakan pekerja sebagai sumber antara syarikat, anda mesti mele
 ### <a name="in-the-lending-company"></a>Dalam syarikat pinjaman
 
 1. Dalam Kewangan, sahkan bahawa syarikat pinjaman dipilih, dan kemudian lengkapkan prosedur dalam bahagian sebelumnya, "Sediakan pekerja sebagai sumber projek."
-2. Pada halaman **Perakaunan antara syarikat** , pilih **Baharu**.
-3. Dalam medan **ID entiti undang-undang** , pilih syarikat pinjaman. Isikan medan yang selebihnya mengikut kesesuaian, dan kemudian pilih **Simpan**.
-4. Pada halaman **Pemindahan harga** , pilih **Baharu**.
-5. Dalam medan **Entiti undang-undang peminjaman** , pilih syarikat yang sesuai.
-6. Untuk meminjamkan syarikat peminjaman hanya sumber yang anda cipta pada permulaan bahagian ini, dalam medan **Sumber** , pilih nama sumber yang anda cipta. Untuk menjadikan semua sumber dalam syarikat pinjaman tersedia kepada syarikat peminjaman, sila tinggalkan medan **Sumber** kosong.
-7. Pada halaman **Pengurusan projek dan parameter perakaunan** , pada tab **Antara Syarikat** , tetapkan pilihan **Dayakan penjadualan sumber antara syarikat dan lembaran masa** kepada **Ya**.
+2. Pada halaman **Perakaunan antara syarikat**, pilih **Baharu**.
+3. Dalam medan **ID entiti undang-undang**, pilih syarikat pinjaman. Isikan medan yang selebihnya mengikut kesesuaian, dan kemudian pilih **Simpan**.
+4. Pada halaman **Pemindahan harga**, pilih **Baharu**.
+5. Dalam medan **Entiti undang-undang peminjaman**, pilih syarikat yang sesuai.
+6. Untuk meminjamkan syarikat peminjaman hanya sumber yang anda cipta pada permulaan bahagian ini, dalam medan **Sumber**, pilih nama sumber yang anda cipta. Untuk menjadikan semua sumber dalam syarikat pinjaman tersedia kepada syarikat peminjaman, sila tinggalkan medan **Sumber** kosong.
+7. Pada halaman **Pengurusan projek dan parameter perakaunan**, pada tab **Antara Syarikat**, tetapkan pilihan **Dayakan penjadualan sumber antara syarikat dan lembaran masa** kepada **Ya**.
 
 ### <a name="in-the-borrowing-company"></a>Dalam syarikat peminjaman
 
-- Pada halaman **Senarai sumber** , dalam penapis carian, masukkan nama sumber yang anda cipta untuk syarikat pinjaman, untuk mengesahkan bahawa nama tersebut disertakan dalam senarai sumber untuk syarikat peminjaman.
+- Pada halaman **Senarai sumber**, dalam penapis carian, masukkan nama sumber yang anda cipta untuk syarikat pinjaman, untuk mengesahkan bahawa nama tersebut disertakan dalam senarai sumber untuk syarikat peminjaman.
 
 ## <a name="request-project-resources"></a>Permohonan sumber projek
 Kefungsian untuk penjadualan sumber projek hanya membolehkan pengurus sumber edarkan sumber yang diperlukan dalam penglibatan atau projek. Untuk mendayakan kefungsian ini, lengkapkan tugas berikut, atau sahkan yang telah dilengkapkan:

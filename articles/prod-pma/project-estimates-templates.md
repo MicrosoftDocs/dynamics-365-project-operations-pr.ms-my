@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081356"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289470"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Segerakkan anggaran projek secara langsung daripada Project Service Automation kepada Finance and Operations
 
@@ -82,8 +82,8 @@ Dalam templat anggaran jam projek, anda mesti menggunakan Microsoft Power Query 
 
 Untuk mengemas kini ID model ramalan lalai dalam templat, klik anak panah **Peta** untuk membuka pemetaan. Kemudian pilih pautan **Pertanyaan Lanjutan dan Penapisan**.
 
-- Jika anda menggunakan templat anggaran jam Projek lalai (PSA kepada Fin dan Ops), pilih **Syarat yang Dimasukkan** dalam senarai **Langkah Digunakan**. Dalam entri **Fungsi** , gantikan **O\_forecast** dengan nama ID model ramalan yang harus digunakan dengan integrasi. Templat lalai mempunyai ID model ramalan daripada data demo.
-- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur Bersyarat** , dan masukkan nama untuk lajur baharu, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika tugas Projek bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
+- Jika anda menggunakan templat anggaran jam Projek lalai (PSA kepada Fin dan Ops), pilih **Syarat yang Dimasukkan** dalam senarai **Langkah Digunakan**. Dalam entri **Fungsi**, gantikan **O\_forecast** dengan nama ID model ramalan yang harus digunakan dengan integrasi. Templat lalai mempunyai ID model ramalan daripada data demo.
+- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur Bersyarat**, dan masukkan nama untuk lajur baharu, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika tugas Projek bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
 
 #### <a name="filter-out-resource-specific-records"></a>Tapis keluar rekod khusus sumber
 
@@ -137,14 +137,14 @@ Dalam templat anggaran perbelanjaan projek, anda mesti menggunakan Power Query u
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Penapis untuk hanya menyertakan baris anggaran perbelanjaan
 
-Templat anggaran perbelanjaan Projek (PSA kepada Fin dan Ops) mempunyai penapis lalai yang hanya menyertakan baris perbelanjaan dalam integrasi. Jika anda mencipta templat anda sendiri, anda mesti menambahkan penapis ini. Pilih tugas **Hubungan transaksi** , dan kemudian klik anak panah **Peta** untuk membuka pemetaan. Pilih pautan **Pertanyaan Lanjutan dan Penapisan**. Tapis lajur **msdyn\_transactiontype1** supaya ia hanya menyertakan **msdyn\_estimateline**.
+Templat anggaran perbelanjaan Projek (PSA kepada Fin dan Ops) mempunyai penapis lalai yang hanya menyertakan baris perbelanjaan dalam integrasi. Jika anda mencipta templat anda sendiri, anda mesti menambahkan penapis ini. Pilih tugas **Hubungan transaksi**, dan kemudian klik anak panah **Peta** untuk membuka pemetaan. Pilih pautan **Pertanyaan Lanjutan dan Penapisan**. Tapis lajur **msdyn\_transactiontype1** supaya ia hanya menyertakan **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Tetapkan ID model ramalan lalai
 
-Untuk mengemas kini ID model ramalan lalai dalam templat, pilih tugas **Anggaran perbelanjaan** , dan kemudian klik anak panah **Peta** untuk membuka pemetaan. Pilih pautan **Pertanyaan Lanjutan dan Penapisan**.
+Untuk mengemas kini ID model ramalan lalai dalam templat, pilih tugas **Anggaran perbelanjaan**, dan kemudian klik anak panah **Peta** untuk membuka pemetaan. Pilih pautan **Pertanyaan Lanjutan dan Penapisan**.
 
-- Jika anda menggunakan templat anggaran perbelanjaan Projek lalai (PSA kepada Fin dan Ops), dalam Power Query, pilih **Syarat yang Dimasukkan** pertama daripada bahagian **Langkah Digunakan**. Dalam entri **Fungsi** , gantikan **O\_forecast** dengan nama ID model ramalan yang harus digunakan dengan integrasi. Templat lalai mempunyai ID model ramalan daripada data demo.
-- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur Bersyarat** , dan masukkan nama untuk lajur baharu, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika ID baris Anggaran bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
+- Jika anda menggunakan templat anggaran perbelanjaan Projek lalai (PSA kepada Fin dan Ops), dalam Power Query, pilih **Syarat yang Dimasukkan** pertama daripada bahagian **Langkah Digunakan**. Dalam entri **Fungsi**, gantikan **O\_forecast** dengan nama ID model ramalan yang harus digunakan dengan integrasi. Templat lalai mempunyai ID model ramalan daripada data demo.
+- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur Bersyarat**, dan masukkan nama untuk lajur baharu, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika ID baris Anggaran bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
 
 #### <a name="transform-the-billing-types"></a>Mengubah jenis pengebilan
 

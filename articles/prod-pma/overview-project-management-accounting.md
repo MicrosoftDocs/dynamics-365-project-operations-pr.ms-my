@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289785"
 ---
 # <a name="project-management-and-accounting-overview"></a>Gambaran keseluruhan pengurusan projek dan perakaunan
 
@@ -97,11 +97,11 @@ Anda boleh mencipta enam jenis projek dalam Kewangan. Setiap jenis projek diteta
   </tr>
   <tr>
     <td>Pelaburan</td>
-    <td>Projek pelaburan ialah projek yang tidak menghasilkan pendapatan segera. Ia biasanya digunakan untuk projek dalaman jangka panjang yang kos tersebut mesti dipermodalkan. Hanya kos untuk item, jam dan perbelanjaan boleh direkodkan untuk projek Pelaburan. Kos dalam projek Pelaburan dijejak dan dikawal dengan menggunakan fungsi anggaran. Projek pelaburan boleh disediakan dengan modal maksimum pilihan. Apabila projek pelaburan bergerak, anda merekodkan kosnya dalam akaun WIP, yang kos tersebut dipegang sehingga projek diselesaikan. Apabila projek telah disingkirkan, anda memindahkan nilai WIP kepada aset tetap, akaun lejar atau projek baharu. <br></br> <strong>PERHATIAN: </strong>Transaksi projek Pelaburan tidak ditunjukkan pada <strong>Kos hantaran<strong>, <strong>Pendapatan berakru</strong> atau halaman<strong>Cipta cadangan invois</strong>.</td>
+    <td>Projek pelaburan ialah projek yang tidak menghasilkan pendapatan segera. Ia biasanya digunakan untuk projek dalaman jangka panjang yang kos tersebut mesti dipermodalkan. Hanya kos untuk item, jam dan perbelanjaan boleh direkodkan untuk projek Pelaburan. Kos dalam projek Pelaburan dijejak dan dikawal dengan menggunakan fungsi anggaran. Projek pelaburan boleh disediakan dengan modal maksimum pilihan. Apabila projek pelaburan bergerak, anda merekodkan kosnya dalam akaun WIP, yang kos tersebut dipegang sehingga projek diselesaikan. Apabila projek telah disingkirkan, anda memindahkan nilai WIP kepada aset tetap, akaun lejar atau projek baharu. <br></br> <strong>PERHATIAN:</strong> Transaksi projek Pelaburan tidak ditunjukkan pada <strong>Kos hantaran<strong>, <strong>Pendapatan berakru</strong> atau halaman <strong>Cipta cadangan invois</strong>.</td>
   </tr>
   <tr>
     <td>Projek kos</td>
-    <td>Seperti projek Pelaburan, projek Kos biasanya digunakan untuk menjejaki projek dalaman dan hanya jam, perbelanjaan dan item boleh direkodkan untuknya. Walau bagaimanapun, tempoh projek Kos biasanya lebih pendek daripada projek Pelaburan. Di samping itu, tidak seperti projek Pelaburan, projek Kos tidak akan dipermodalkan kepada akaun kunci kira-kira. Sebaliknya, urus niaga projek tersebut hanya disiarkan untuk akaun untung dan rugi. <br></br> <strong>PERHATIAN: </strong>Transaksi pada projek Kos tidak ditunjukkan pada<strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman<strong>Cipta cadangan invois</strong>. Oleh kerana projek kos biasanya digunakan untuk menjejaki projek dalaman, ia biasanya tidak akan dikaitkan dengan akaun pelanggan. Walau bagaimanapun, jika persediaan anda memerlukan keperluan item dicipta untuk membeli pesanan, anda mesti mengaitkan projek Kos dengan pelanggan. Perkaitan ini diperlukan kerana keperluan item diuruskan sebagai baris pesanan jualan dan sistem memerlukan pelanggan dikhususkan. Walau bagaimanapun, persediaan ini tidak akan menyebabkan keperluan item untuk dicipta secara automatik daripada pesanan pembelian. Untuk projek Kos, tetapan <strong>Cipta keperluan item</strong> diabaikan. Jika anda memerlukan keperluan item dalam projek Kos, anda boleh menciptanya secara manual, dengan syarat pelanggan dikaitkan dengan projek tersebut.</td>
+    <td>Seperti projek Pelaburan, projek Kos biasanya digunakan untuk menjejaki projek dalaman dan hanya jam, perbelanjaan dan item boleh direkodkan untuknya. Walau bagaimanapun, tempoh projek Kos biasanya lebih pendek daripada projek Pelaburan. Di samping itu, tidak seperti projek Pelaburan, projek Kos tidak akan dipermodalkan kepada akaun kunci kira-kira. Sebaliknya, urus niaga projek tersebut hanya disiarkan untuk akaun untung dan rugi. <br></br> <strong>PERHATIAN:</strong> Transaksi pada projek Kos tidak ditunjukkan pada <strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman <strong>Cipta cadangan invois</strong>. Oleh kerana projek kos biasanya digunakan untuk menjejaki projek dalaman, ia biasanya tidak akan dikaitkan dengan akaun pelanggan. Walau bagaimanapun, jika persediaan anda memerlukan keperluan item dicipta untuk membeli pesanan, anda mesti mengaitkan projek Kos dengan pelanggan. Perkaitan ini diperlukan kerana keperluan item diuruskan sebagai baris pesanan jualan dan sistem memerlukan pelanggan dikhususkan. Walau bagaimanapun, persediaan ini tidak akan menyebabkan keperluan item untuk dicipta secara automatik daripada pesanan pembelian. Untuk projek Kos, tetapan <strong>Cipta keperluan item</strong> diabaikan. Jika anda memerlukan keperluan item dalam projek Kos, anda boleh menciptanya secara manual, dengan syarat pelanggan dikaitkan dengan projek tersebut.</td>
   </tr>
   <tr>
     <td>Dalaman</td>
@@ -109,7 +109,7 @@ Anda boleh mencipta enam jenis projek dalam Kewangan. Setiap jenis projek diteta
   </tr>
   <tr>
     <td>Waktu</td>
-    <td>Projek masa digunakan untuk menjejaki masa yang berkaitan dengan aktiviti tidak boleh dicaj dan tidak produktif, seperti projek untuk menjejaki masa sakit untuk pekerja. Transaksi dalam projek Masa tidak akan dihantar kepada lejar. Sebaliknya, ia dimasukkan dalam laporan penggunaan pekerja. Hanya transaksi jam boleh direkodkan dalam projek Masa. Anda menggunakan jurnal jam atau lembaran masa untuk mendaftar jam ini kepada projek. Selepas jam didaftarkan, ia muncul sebagai transaksi projek tetapi tidak mempunyai transaksi baucar yang sesuai. <br></br><strong>PERHATIAN:</strong>Transaksi pada projek Masa tidak ditunjukkan pada<strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman<strong>Cipta cadangan invois</strong>.</td>
+    <td>Projek masa digunakan untuk menjejaki masa yang berkaitan dengan aktiviti tidak boleh dicaj dan tidak produktif, seperti projek untuk menjejaki masa sakit untuk pekerja. Transaksi dalam projek Masa tidak akan dihantar kepada lejar. Sebaliknya, ia dimasukkan dalam laporan penggunaan pekerja. Hanya transaksi jam boleh direkodkan dalam projek Masa. Anda menggunakan jurnal jam atau lembaran masa untuk mendaftar jam ini kepada projek. Selepas jam didaftarkan, ia muncul sebagai transaksi projek tetapi tidak mempunyai transaksi baucar yang sesuai. <br></br><strong>PERHATIAN:</strong> Transaksi pada projek Masa tidak ditunjukkan pada <strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman <strong>Cipta cadangan invois</strong>.</td>
   </tr>
 </table>
 
@@ -180,7 +180,7 @@ Tujuan pesanan belian menentukan apabila pesanan belian digunakan dan oleh itu, 
 <td>Membeli item daripada vendor luaran untuk penggunaan pada projek. Anda boleh mencipta pesanan pembelian dengan cara berikut:
 <ul>
 <li>Daripada projek itu sendiri. Dalam kes ini, projek sudah ditetapkan untuk pesanan belian.</li>
-<li>Dengan menavigasi kepada pesanan belian projek. Anda mesti memilih kedua-dua pembekal dan projek untuk mencipta pesanan pembelian.</li>
+<li>Dengan menavigasi kepada pesanan belian projek. Anda mesti memilih vendor dan projek untuk mencipta pesanan belian.</li>
 </ul></td>
 <td>Item digunakan apabila invois vendor dikemas kini.</td>
 </tr>
@@ -205,7 +205,7 @@ Anda boleh memesan item daripada inventori syarikat untuk kegunaan projek. Sebag
 
 Cara anda memesan item bergantung pada tempat anda memesannya:
 
--   Untuk memesan item daripada inventori syarikat, anda mesti masukkan pesanan sebagai keperluan item. Jika anda menggunakan halaman **Keperluan item** , anda boleh menetapkan keperluan supaya anda menerima item sebagai penghantaran separa.Oleh itu, anda boleh menangguhkan penggunaan kuantiti item sehingga item tersebut diperlukan.
+-   Untuk memesan item daripada inventori syarikat, anda mesti masukkan pesanan sebagai keperluan item. Jika anda menggunakan halaman **Keperluan item**, anda boleh menetapkan keperluan supaya anda menerima item sebagai penghantaran separa. Oleh itu, anda boleh menangguhkan penggunaan kuantiti item sehingga item tersebut diperlukan.
 -   Untuk memesan item daripada vendor luaran, anda mesti mencipta pesanan sebagai pesanan pembelian pada halaman **Pesanan pembelian**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Untuk maklumat lanjut mengenai cara untuk memproses projek invois, lihat [Pengin
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Mengira kos untuk melengkapkan projek
 
-Apabila anda mencipta anggaran, anda boleh memilih kaedah yang digunakan untuk mengira kos untuk melengkapkan projek. Anda pilih kaedah dalam medan **Kos untuk melengkapkan kaedah** pada halaman **Cipta anggaran**. Kaedah yang anda pilih digunakan secara berasingan pada setiap baris kos dalam anggaran kos. Semasa baris mempunyai status **Dicipta** , anda boleh mengubah kaedah yang digunakan padanya pada halaman **Anggaran kos**. 
+Apabila anda mencipta anggaran, anda boleh memilih kaedah yang digunakan untuk mengira kos untuk melengkapkan projek. Anda pilih kaedah dalam medan **Kos untuk melengkapkan kaedah** pada halaman **Cipta anggaran**. Kaedah yang anda pilih digunakan secara berasingan pada setiap baris kos dalam anggaran kos. Semasa baris mempunyai status **Dicipta**, anda boleh mengubah kaedah yang digunakan padanya pada halaman **Anggaran kos**. 
 
 Jadual berikut menerangkan kaedah untuk mengira kos untuk melengkapkan projek.
 
@@ -300,18 +300,18 @@ Berdasarkan persediaan anda, anda boleh meramalkan aliran masuk tunai untuk proj
 -   **Tarikh projek:** 5 Mac 2012.
 -   **Tarikh invois:** 31 Mac 2012. Tarikh ini ditentukan berdasarkan kepada kekerapan invois. Untuk contoh ini, anda menetapkan kekerapan invois pada bulan semasa. Oleh itu, semua transaksi yang disiarkan dalam bulan Mac akan diinvois pada hari terakhir bulan tersebut.
 -   **Tarikh tamat tempoh:** 14 April 2012. Tarikh ini ditentukan berdasarkan terma pembayaran yang ditetapkan untuk projek tersebut. Untuk contoh ini, anda memilih terma pembayaran selama 14 hari. Oleh itu, 14 hari akan ditambahkan pada tarikh invois sehingga tarikh tamat tempoh pada 14 April 2012.
--   **Anggaran tarikh bayaran jualan:** 27 April 2012. Tarikh ini dikira dengan menambah bilangan hari dalam medan **Hari penimbal umum** pada halaman **Pengurusan projek dan parameter perakaunan** kepada bilangan hari dalam medan **Hari penimbal individu** pada halaman **Kontrak projek** , dan kemudian menambah jumlah hari ke dalam medan **Tarikh tamat tempoh**. Untuk contoh ini, anda dimasukkan **3** dalam medan **Hari penimbal umum** dan **10** dalam medan **Hari penimbal individu**. Oleh itu, 13 hari akan ditambahkan pada tarikh tamat tempoh sehingga tarikh pembayaran jualan yang dijangka pada 27 April 2012.
+-   **Anggaran tarikh bayaran jualan:** 27 April 2012. Tarikh ini dikira dengan menambah bilangan hari dalam medan **Hari penimbal individu** pada halaman **Pengurusan projek dan parameter perakaunan** kepada bilangan hari dalam medan **Hari penimbal individu** pada halaman **Kontrak projek** dan kemudian menambah jumlah hari ke dalam medan **Tarikh tamat tempoh**. Untuk contoh ini, anda dimasukkan **3** dalam medan **Hari penimbal umum** dan **10** dalam medan **Hari penimbal individu**. Oleh itu, 13 hari akan ditambahkan pada tarikh tamat tempoh sehingga tarikh pembayaran jualan yang dijangka pada 27 April 2012.
 
 Hari penimbal umum boleh menggantikan hari penimbal individu atau ditambahkan kepada hari penimbal individu:
 
 -   Untuk menggunakan hari penimbal umum sebagai pengganti untuk hari penimbal individu, masukkan purata bilangan hari antara tarikh tamat tempoh dan tarikh pembayaran sebenar untuk pelanggan.
--   Untuk menambah hari penimbal umum kepada hari penimbal individu, dalam medan **Hari penimbal umum** , masukkan anggaran anda untuk bilangan hari antara hari apabila pelanggan menghantar pembayaran dan hari apabila organisasi anda menerima pembayaran.
+-   Untuk menambah hari penimbal umum kepada hari penimbal individu, dalam medan **Hari penimbal umum**, masukkan anggaran anda untuk bilangan hari antara hari apabila pelanggan menghantar pembayaran dan hari apabila organisasi anda menerima pembayaran.
 
 Sediakan hari penimbal individu dalam kontrak projek. Hari dikira berdasarkan tarikh tamat tempoh invois jualan dan pengalaman organisasi anda dengan corak pembayaran pelanggan.
 
 #### <a name="actual-cash-inflow"></a>Aliran masuk tunai sebenar
 
-Ramalan bersamaan aliran masuk tunai sebenar, tetapi anda boleh mulakan pengiraan anda daripada tarikh invois pertama. Berikut ialah contoh:
+Ramalan bersamaan aliran masuk tunai sebenar tetapi anda boleh mulakan pengiraan anda daripada tarikh invois pertama. Berikut ialah contoh:
 
 -   **Tarikh invois:** 2 Mac 2012.
 -   **Tarikh tamat tempoh:** 16 Mac 2012. Terma pembayaran ditetapkan kepada 14 hari.
@@ -323,9 +323,9 @@ Berdasarkan hari yang ditakrifkan, tarikh pembayaran kos mungkin berbeza dari ta
 
 Contohnya, tarikh projek transaksi adalah 5 Mac 2012 dan terma pembayaran berikut ditetapkan:
 
--   **Jam:** Bulan semasa ( **B** )
--   **Perbelanjaan:** 14 hari ( **H14** )
--   **Item:** 30 hari ( **H30** )
+-   **Jam:** Bulan semasa (**B**)
+-   **Perbelanjaan:** 14 hari (**H14**)
+-   **Item:** 30 hari (**H30**)
 
 Berdasarkan tetapan ini, berikut ialah tarikh pembayaran kos bagi setiap jenis transaksi:
 
@@ -364,14 +364,14 @@ Anda boleh memantau kos yang ditanggung organisasi anda semasa projek pada halam
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Lihat baki amaun yang dibelanjakan
 
-Jika **Baki belanjawan** dipilih sebagai kaedah kawalan kos pada halaman **Pengurusan projek dan parameter perakaunan** , halaman **Kawalan kos** mengira kos yang belum disiarkan secara sebenar atau ditanda sebagai komited. Secara khusus, jumlah pada tab **Umum** dalam tetingkap yang lebih rendah daripada halaman **Kawalan Kos** dikira mengikut cara berikut:
+Jika **Baki belanjawan** dipilih sebagai kaedah kawalan kos pada halaman **Pengurusan projek dan parameter perakaunan**, halaman **Kawalan kos** mengira kos yang belum disiarkan secara sebenar atau ditanda sebagai komited. Secara khusus, jumlah pada tab **Umum** dalam tetingkap yang lebih rendah daripada halaman **Kawalan Kos** dikira mengikut cara berikut:
 
 -   **Kos sebenar** – Jumlah keseluruhan yang telah dibelanjakan untuk projek bagi garisan kos yang dipilih. Jumlah amaun kos yang sebenar dikira mengikut halaman **Kemas kini lejar**.
 -   **Kos diperuntukkan** – Amaun tambahan perbelanjaan yang diperuntukkan sendiri oleh entiti sah untuk membayarnya. Jumlah kos yang diperuntukkan secara khusus dikira berdasarkan kepada halaman **Kos yang diperuntukkan**.
 -   **Baki belanjawan** – Amaun asal yang diperuntukkan yang masih tersedia untuk garisan kos yang dipilih. Baki belanjawan yang diperuntukkan dikira mengikut halaman **Pratonton lejar umum**.
 -   **Jumlah kos** – Jumlah kos sebenar, kos yang diperuntukkan dan baki amaun belanjawan.
 
-Pada halaman **Kawalan kos** , pada tab **Sisihan** , anda boleh melihat perbandingan jumlah kos anggaran dengan belanjawan asal. Perbandingan ini menunjukkan sebarang perbezaan antara amaun ini. Oleh itu, anda boleh melihat data yang tidak padan. Amaun sisihan dikira berdasarkan cara yang berikut:
+Pada halaman **Kawalan kos**, pada tab **Sisihan**, anda boleh melihat perbandingan jumlah kos anggaran dengan belanjawan asal. Perbandingan ini menunjukkan sebarang perbezaan antara amaun ini. Oleh itu, anda boleh melihat data yang tidak padan. Amaun sisihan dikira berdasarkan cara yang berikut:
 
 -   **Belanjawan asal** – Amaun yang diperuntukkan pada asalnya bagi garisan kos yang dipilih. Amaun belanjawan asal dikira mengikut halaman **Pratonton lejar umum**.
 -   **Jumlah kos** – Jumlah kos sebenar, kos yang diperuntukkan, dan baki belanjawan, seperti yang dilaporkan pada tab **Umum**.
@@ -381,16 +381,16 @@ Pada halaman **Kawalan kos** , pada tab **Sisihan** , anda boleh melihat perband
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Lihat jumlah amaun yang dibelanjakan
 
-Jika **Jumlah belanjawan** dipilih sebagai kaedah kawalan kos pada halaman **Pengurusan projek dan parameter perakaunan** , halaman **Kawalan kos** mengira kos sebenar dan jumlah kos projek untuk membantu anda mengesan sebarang perbezaan antara kedua-duanya. Secara khusus, pada halaman **Kawalan kos** , amaun pada lajur dalam tetingkap yang lebih rendah pada tab **Umum** dikira mengikut cara berikut:
+Jika **Jumlah belanjawan** dipilih sebagai kaedah kawalan kos pada halaman **Pengurusan projek dan parameter perakaunan**, halaman **Kawalan kos** mengira kos sebenar dan jumlah kos projek untuk membantu anda mengesan sebarang perbezaan antara kedua-duanya. Secara khusus, pada halaman **Kawalan kos**, amaun pada lajur dalam tetingkap yang lebih rendah pada tab **Umum** dikira mengikut cara berikut:
 
 -   **Jumlah kos dibelanjakan** – Jumlah amaun yang diperuntukkan bagi garisan kos yang dipilih.
 -   **Kos sebenar** – Jumlah kos keseluruhan yang ditanggung sehingga kini untuk projek bagi garisan kos yang dipilih.
 -   **Kos diperuntukkan** – Jumlah amaun yang telah diperuntukkan bagi garisan kos yang dipilih.
 -   **Varians** – Perbezaan antara jumlah kos sebenar dan kos yang diperuntukkan serta jumlah kos. Varians menunjukkan sama ada kos tambahan mesti ditetapkan bagi jumlah belanjawan.
 
-Pada halaman **Kawalan kos** , pada tab **Sisihan** , anda boleh melihat perbezaan antara jumlah belanjawan dan belanjawan asal dengan melihat medan berikut:
+Pada halaman **Kawalan kos**, pada tab **Sisihan**, anda boleh melihat perbezaan antara jumlah belanjawan dan belanjawan asal dengan melihat medan berikut:
 
--   **Belanjawan asal** – Amaun yang diperuntukkan pada asalnya bagi garisan kos yang dipilih. Amaun belanjawan asal dikira mengikut halaman **Pratonton lejar umum**.
+-   **Belanjawan asal**– Amaun yang diperuntukkan pada asalnya bagi garisan kos yang dipilih. Amaun belanjawan asal dikira mengikut halaman **Pratonton lejar umum**.
 -   **Jumlah kos dibelanjakan** – Jumlah kos yang diperuntukkan pada asalnya bagi garisan kos yang dipilih. Jumlah kos belanjawan dikira mengikut halaman **Pratonton lejar umum**.
 -   **Sisihan** – Sisihan bagi garisan kos. Amaun ini dikira dengan menolak jumlah kos daripada belanjawan asal.
 -   **Varians berdasarkan kuantiti** – Perbezaan ketara antara belanjawan asal dan jumlah belanjawan. Amaun ini dikira dengan menolak jumlah jam belanjawan daripada jam belanjawan asal dan kemudian mendarabkan perbezaan dengan harga kos yang dibelanjakan pada asalnya. Perbezaan ini boleh dinyatakan secara matematik sebagai (Harga kos dibelanjakan asal) × (Jam belanjawan asal – Jumlah jam belanjawan). Pengiraan ini terpakai hanya untuk waktu projek.
@@ -414,7 +414,7 @@ Anda mengira kadar penggunaan pada halaman **Penggunaan jam**. Pengiraan adalah 
 -   **Mengikut garis hartanah** – Sifat garis bagi transaksi jam tertentu menentukan sama ada jam tersebut dipertimbangkan untuk boleh dibilkan atau penggunaan kecekapan.
 -   **Tidak termasuk** – Jam tidak diambil kira dalam pengiraan boleh dibilkan atau penggunaan kecekapan.
 
-Pada halaman **Penggunaan jam** , selain peratusan kadar penggunaan keseluruhan untuk pekerja atau projek, anda boleh melihat bilangan jam yang digunakan untuk pengiraan kadar penggunaan bagi setiap jenis jam berikut:
+Pada halaman **Penggunaan jam**, selain peratusan kadar penggunaan keseluruhan untuk pekerja atau projek, anda boleh melihat bilangan jam yang digunakan untuk pengiraan kadar penggunaan bagi setiap jenis jam berikut:
 
 -   **Tidak termasuk jam** – Jam ini tidak termasuk dalam kadar penggunaan jam.
 -   **Termasuk jam** – Jam ini dikira dengan menambah jam penggunaan dan jam beban. Jam ini termasuk dalam kadar penggunaan.
@@ -432,7 +432,7 @@ Anda boleh mencipta pernyataan projek untuk melihat petikan pantas tentang perke
 -   Tarikh projek/lejar
 -   Data
 
-Selepas pernyataan dikira, anda boleh melihat maklumat berikut pada tab pelbagai pada halaman **Pernyataan projek** :
+Selepas pernyataan dikira, anda boleh melihat maklumat berikut pada tab pelbagai pada halaman **Pernyataan projek**:
 
 -   **Umum** – Maklumat umum mengenai struktur asas keuntungan dan kerugian projek.
 -   **Keuntungan dan kerugian** – Maklumat mengenai perolehan yang terakru.

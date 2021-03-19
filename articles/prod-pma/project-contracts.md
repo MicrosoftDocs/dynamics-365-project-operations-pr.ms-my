@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081359"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289560"
 ---
 # <a name="project-contracts"></a>Kontrak projek
 
@@ -260,7 +260,7 @@ Anda boleh menyediakan jenis peraturan pengebilan yang berikut:
 
 Untuk semua jenis peraturan pengebilan, anda boleh menentukan peratusan penahanan yang dipotong daripada invois pelanggan sehingga projek mencapai peringkat yang telah dipersetujui. Peratusan penahanan bayaran ditentukan dalam kontrak projek. Amaun dikira berdasarkan dan ditolak daripada, jumlah nilai barisan dalam invois pelanggan. 
 
-Untuk peraturan pengebilan **Masa dan bahan** dan **Kemajuan** , anda boleh menetapkan kategori boleh dituntut. Kategori boleh dituntut menunjukkan transaksi yang perlu disertakan dalam invois pelanggan. 
+Untuk peraturan pengebilan **Masa dan bahan** dan **Kemajuan**, anda boleh menetapkan kategori boleh dituntut. Kategori boleh dituntut menunjukkan transaksi yang perlu disertakan dalam invois pelanggan. 
 
 Apabila anda bersedia untuk menginvois pelanggan, amaun untuk menginvois bagi projek dikira berdasarkan peraturan pengebilan dan cadangan invois projek dijanakan. 
 

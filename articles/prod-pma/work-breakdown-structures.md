@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081203"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287969"
 ---
 # <a name="work-breakdown-structures-overview"></a>Gambaran keseluruhan struktur pecahan kerja
 
@@ -49,7 +49,7 @@ Untuk mencipta WBS, anda mesti dapat mencipta jadual kerja dan anggaran kos kerj
 Untuk menggunakan penjadualan perkhidmatan penuh ciri WBS, lengkapkan persediaan berikut:
 
 1.  Sediakan kalendar lalai dan kalendar projek:
-    1.  Klik **Pengurusan projek dan perakaunan** &gt; **Persediaan** &gt; **Pengurusan projek dan parameter perakaunan** &gt; **Penjadualan**. Dalam **Medan kalendar kerja lalai** , tentukan kalendar lalai. Ini akan menjadi kalendar kerja lalai untuk apa-apa projek baru yang dicipta.
+    1.  Klik **Pengurusan projek dan perakaunan** &gt; **Persediaan** &gt; **Pengurusan projek dan parameter perakaunan** &gt; **Penjadualan**. Dalam **Medan kalendar kerja lalai**, tentukan kalendar lalai. Ini akan menjadi kalendar kerja lalai untuk apa-apa projek baru yang dicipta.
     2.  Anda boleh menukar kalendar lalai untuk projek tertentu. Klik halaman butiran projek, dan kemudian, pada **pasukan projek dan penjadualan** FastTab, kemas kini **Medan kalendar penjadualan** dengan memilih kalendar lain.
 
 2.  Sediakan hari kerja dan waktu kerja standard. Kalendar yang anda tetapkan sebagai kalendar kerja untuk projek anda akan digunakan dalam WBS untuk menentukan maklumat berikut:
@@ -98,11 +98,11 @@ Buat masa ini, anda tidak boleh menyesuaikan penomboran WBS.
 
 **Engsot keluar tugas** Apabila anda engsot keluar tugas, ia tidak lagi tugas konstituen induknya. Nombor WBS tugas ini secara automatik mengira semula untuk menunjukkan tahap baharu tugas dalam hierarki. Usaha, kos dan tarikh tugas induk sebelumnya dikira semula untuk mengecualikan tugas tersebut. 
 
-**Gerak ke atas dan Gerak ke bawah** Apabila anda klik **Gerak ke atas** dan **Gerak ke bawah** , anda mengubah kedudukan tugas dalam hierarki induk. Kedudukan tugas tidak menjejaskan usaha, kos, tarikh atau tempoh tugas. Walau bagaimanapun, nombor WBS tugas dikira semula secara automatik untuk menggambarkan kedudukan baharu tugas.
+**Gerak ke atas dan Gerak ke bawah** Apabila anda klik **Gerak ke atas** dan **Gerak ke bawah**, anda mengubah kedudukan tugas dalam hierarki induk. Kedudukan tugas tidak menjejaskan usaha, kos, tarikh atau tempoh tugas. Walau bagaimanapun, nombor WBS tugas dikira semula secara automatik untuk menggambarkan kedudukan baharu tugas.
 
 ### <a name="schedule-estimation"></a>Anggaran jadual
 
-Anggaran jadual biasanya langkah kedua dalam mencipta WBS. Sebagai amalan terbaik, anda harus melengkapkan anggaran jadual selepas anda mencipta tugas. **Halaman struktur pecahan kerja** dalam Finance mempunyai dua bahagian. Anak tetingkap atas ditujukan untuk anggaran jadual dan anak tetingkap yang lebih rendah merangkumi **Kos dan hasil anggaran** tab yang anda boleh gunakan untuk anggaran kos. 
+Anggaran jadual biasanya langkah kedua dalam mencipta WBS. Sebagai amalan terbaik, anda harus melengkapkan anggaran jadual selepas anda mencipta tugas. Halaman **Struktur pecahan kerja** dalam Finance mempunyai dua bahagian. Anak tetingkap atas ditujukan untuk anggaran jadual dan anak tetingkap yang lebih rendah merangkumi **Kos dan hasil anggaran** tab yang anda boleh gunakan untuk anggaran kos. 
 **Kebergantungan tugas** Dalam WBS, anda boleh mencipta perhubungan terdahulu antara tugas. Apabila anda tugaskan tugas pendahulu pada satu tugas, tugasan tersebut boleh bermula hanya selepas semua tugas pendahulu telah selesai. Tarikh mula yang dirancang untuk tugas ditetapkan secara automatik ke tarikh paling terkini semua terdahulu. 
 
 **Penjadualan tugas** Faktor berikut menentukan penjadualan tugas nod daun:

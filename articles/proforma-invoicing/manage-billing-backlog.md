@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122354"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287744"
 ---
 # <a name="manage-the-billing-backlog"></a>Urus tunggakan pengebilan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations mempunyai dua pandangan yang ditetapkan untuk membantu anda bekerja dan menguruskan tunggakan pengebilan. Mereka adalah **Pencapaian Harga Tetap** dan **Tunggakan Pengebilan Masa dan Bahan** Untuk memilih pandangan, dalam kawasan Project Operations **Jualan**, pada halaman navigasi sebelah kiri, pilih **Pengebilan**. Pautan tunggakan pengebilan disimpan di situ.
+Dynamics 365 Project Operations mempunyai dua pandangan khusus untuk membantu anda mengerjakan dan menguruskan tunggakan pengebilan. Mereka adalah **Pencapaian Harga Tetap** dan **Tunggakan Pengebilan Masa dan Bahan** Untuk memilih pandangan, dalam kawasan Project Operations **Jualan**, pada halaman navigasi sebelah kiri, pilih **Pengebilan**. Pautan tunggakan pengebilan disimpan di situ.
 
 ## <a name="fixed-price-milestones"></a>Pencapaian Penting Harga Tetap
 

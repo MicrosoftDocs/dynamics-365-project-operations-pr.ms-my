@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288239"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Terima item pada pesanan pembelian daripada keperluan item
 
@@ -39,13 +39,13 @@ Tugas ini menggunakan set data USSI.
 4. Pilih **Keperluan item**.
 5. Pilih **Baharu**.
 6. Dalam baris baharu, masukkan atau pilih nilai dalam medan **Nombor item**.
-7. Dalam medan **Kuantiti** , masukkan nombor.
+7. Dalam medan **Kuantiti**, masukkan nombor.
 8. Pilih **Simpan**.
 9. Pada Anak Tetingkap Tindakan, pilih **Urus**.
 10. Pilih **Fungsi**.
 11. Pilih **Cipta pesanan pembelian**.
 12. Pilih kotak semak **Masukkan semua**.
-13. Dalam medan **Akaun vendor** , masukkan atau pilih nilai.
+13. Dalam medan **Akaun vendor**, masukkan atau pilih nilai.
 14. Pilih **OK**.
 15. Dalam anak tetingkap navigasi, pergi ke **Modul > Akaun belum dibayar > Pesanan pembelian > Semua pesanan pembelian**.
 16. Dalam senarai, pilih pautan dalam baris yang dikehendaki.
@@ -53,7 +53,7 @@ Tugas ini menggunakan set data USSI.
 18. Pilih **Sahkan**.
 19. Pada Anak Tetingkap Tindakan, pilih **Terima**.
 20. Pilih **Resit produk**.
-21. Dalam medan **Resit produk** , taipkan nilai.
+21. Dalam medan **Resit produk**, taipkan nilai.
 22. Pilih **OK**.
 
 

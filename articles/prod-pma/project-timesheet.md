@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081401"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288840"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplikasi mudah alih lembaran masa projek
 
@@ -68,15 +68,15 @@ Anda boleh memasukkan maklumat projek dengan mengklik tindakan **Tambah masa** a
 
 Maklumat projek yang dipaparkan bergantung pada parameter mudah alih yang anda takrifkan pada halaman **Pengurusan projek dan parameter perakaunan**.
 
-Dalam medan **Entiti sah** , pilih entiti sah yang anda lakukan kerja projek. Medan **Entiti sah** tersedia hanya jika sokongan heet masa antara syarikat telah didayakan untuk entiti sah anda.
+Dalam medan **Entiti sah**, pilih entiti sah yang anda lakukan kerja projek. Medan **Entiti sah** tersedia hanya jika sokongan heet masa antara syarikat telah didayakan untuk entiti sah anda.
 
 Pilih pelanggan yang berkaitan dengan projek untuk lembaran masa. Untuk keluaran awal pada Android, kemasukan oleh pelanggan tidak disokong, kerana anda mesti memilih projek itu dahulu. Jika anda memilih projek itu dahulu, medan **Pelanggan** diisi secara automatik.
 
-Dalam medan **Projek** , pilih projek yang anda masukkan masa. Medan **Pelanggan** diisi secara automatik.
+Dalam medan **Projek**, pilih projek yang anda masukkan masa. Medan **Pelanggan** diisi secara automatik.
 
 Carian pelanggan dan projek membolehkan pencarian merentasi kedua-dua pelanggan dan projek.
 
-Pilih maklumat dalam **Kategori** , **Aktiviti** , **Sifat baris** , **Kumpulan cukai jualan** dan **Item medan kumpulan cukai jualan** seperti yang diperlukan. Medan ini boleh ditulis ganti.
+Pilih maklumat dalam **Kategori**, **Aktiviti**, **Sifat baris**, **Kumpulan cukai jualan** dan **Item medan kumpulan cukai jualan** seperti yang diperlukan. Medan ini boleh ditulis ganti.
 
 Medan **Sifat baris** akan ditetapkan kepada nilai lalai, berdasarkan parameter pengurusan projek dan perakaunan. Apabila parameter projek/kategori dan kategori didayakan, nilai **Sifat baris** akan ditetapkan kepada nilai lalai yang telah anda takrifkan untuk pengesahan ini. Apabila projek/kategori dan parameter kategori/sumber tidak didayakan, nilai **Sifat baris** akan lalai mengikut tetapan medan **sifat dayakan baris lalai** pada halaman **Pengurusan projek dan parameter perakaunan**. Nilai **Sifat baris** boleh ditulis ganti.
 
@@ -95,7 +95,7 @@ Klik **Serahkan** untuk menghantar lembaran masa ke aliran kerja kelulusan.
 
 ## <a name="review-timesheets"></a>Semak lembaran masa
 
-Senarai masa yang perlu disemak semula boleh didapati dalam menu. Pilihan ini hanya tersedia jika anda telah ditetapkan sebagai aliran kerja pelulus. Kedua-dua pengepala dan kelulusan baris disokong. Kelulusan peringkat baris menawarkan keupayaan untuk menandakan satu atau lebih baris untuk diluluskan. Selepas meneliti maklumat heet masa, klik **Luluskan** , **Wakil** atau **Kembali** untuk meneruskan aliran kerja.
+Senarai masa yang perlu disemak semula boleh didapati dalam menu. Pilihan ini hanya tersedia jika anda telah ditetapkan sebagai aliran kerja pelulus. Kedua-dua pengepala dan kelulusan baris disokong. Kelulusan peringkat baris menawarkan keupayaan untuk menandakan satu atau lebih baris untuk diluluskan. Selepas meneliti maklumat heet masa, klik **Luluskan**, **Wakil** atau **Kembali** untuk meneruskan aliran kerja.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

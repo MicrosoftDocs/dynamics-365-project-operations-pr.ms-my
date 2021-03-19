@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081289"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289335"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasi Microsoft Project Client
 
@@ -39,10 +39,10 @@ Untuk mendayakan integrasi dengan Microsoft Project Client, tambahan Microsoft D
 
 •   Klik **Konfigurasikan tambahan klien projek** daripada **Pautan** > **bahagian Persediaan** ruang kerja.
 
-•   Klik **Buka** , kemudian klik **Jalankan** apabila digesa.
+•   Klik **Buka**, kemudian klik **Jalankan** apabila digesa.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Buka dan edit struktur pecahan kerja draf yang sedia ada dalam Microsoft Project Client
-Jika projek dalam Dynamics 365 Finance sudah pun mempunyai struktur pecahan kerja yang dicipta, struktur pecahan kerja boleh dibuka dalam aplikasi Microsoft Project Client jika struktur pecahan kerja berada dalam status draf. Untuk membuka daripada halaman **Projek** , klik pautan **Buka dalam Microsoft Project** daripada tab **Pelan**. Halaman ini juga boleh dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik **Buka** dalam tab **Microsoft Dynamics 365**. Pilih **Entiti undang-undang** dan **Projek** daripada senarai.
+Jika projek dalam Dynamics 365 Finance sudah pun mempunyai struktur pecahan kerja yang dicipta, struktur pecahan kerja boleh dibuka dalam aplikasi Microsoft Project Client jika struktur pecahan kerja berada dalam status draf. Untuk membuka daripada halaman **Projek**, klik pautan **Buka dalam Microsoft Project** daripada tab **Pelan**. Halaman ini juga boleh dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik **Buka** dalam tab **Microsoft Dynamics 365**. Pilih **Entiti undang-undang** dan **Projek** daripada senarai.
 
 > [!NOTE]
 > Jika anda menggunakan Internet Explorer sebagai pelayar anda, anda akan perlu klik **Simpan** untuk membuka secara manual dari lokasi yang fail itu dimuat turun. Atau, klik **Simpan dan buka** untuk membuka fail dalam Microsoft Project Client. Jangan namakan semula nama fail semasa menyimpan.
@@ -82,7 +82,7 @@ Untuk mencipta struktur pecahan kerja baharu dengan menggunakan Microsoft Projec
 
 1.  Buka Microsoft Project Client.
 
-2.  Pada tab **Microsoft Dynamics 365** , klik **Buka**.
+2.  Pada tab **Microsoft Dynamics 365**, klik **Buka**.
 
 3.  Pilih **Entiti undang-undang** untuk projek.
 
@@ -99,7 +99,7 @@ Untuk mencipta struktur pecahan kerja baharu dengan menggunakan Microsoft Projec
 
 2.  CIpta jadual dalam Microsoft Project Client.
 
-3.  Pada tab **Microsoft Dynamics 365** , klik **Simpan perubahan** > **Gantikan projek sedia ada**.
+3.  Pada tab **Microsoft Dynamics 365**, klik **Simpan perubahan** > **Gantikan projek sedia ada**.
 
 4.  Pilih **Entiti undang-undang** untuk projek.
 
@@ -114,15 +114,15 @@ Untuk mencipta struktur pecahan kerja baharu dengan menggunakan Microsoft Projec
 
 2.  CIpta jadual dalam Microsoft Project Client.
 
-3.  Pada tab **Microsoft Dynamics 365** , klik **Simpan perubahan** > **Simpan pada Projek baharu**.
+3.  Pada tab **Microsoft Dynamics 365**, klik **Simpan perubahan** > **Simpan pada Projek baharu**.
 
 4.  Pilih **Entiti undang-undang** untuk projek.
 
-5.  Masukkan **ID projek** , jika perlu.
+5.  Masukkan **ID projek**, jika perlu.
 
 6.  Masukkan **Nama projek**.
 
-7.  Pilih **Jenis projek** , **Kumpulan projek** dan **ID kontrak projek**. Sebagai alternatif, anda boleh mencipta kontrak projek baharu dengan mengklik **Baharu**.
+7.  Pilih **Jenis projek**, **Kumpulan projek** dan **ID kontrak projek**. Sebagai alternatif, anda boleh mencipta kontrak projek baharu dengan mengklik **Baharu**.
 
 8.  Pilih **Kalendar** untuk digunakan untuk penyumberan.
 

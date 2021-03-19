@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288660"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Sediakan peranan pada templat Struktur pecahan kerja
 
@@ -33,7 +33,7 @@ Pengurus projek boleh menyediakan templat Struktur pecahan kerja yang boleh mere
 
 1. Pilih **Pengurusan projek dan perakaunan** > **Persediaan** > **Projek** > **Templat struktur pecahan kerja**.
 2. Pilih **Butiran** untuk templat WBS yang dipilih.
-3. Pilih tugas dalam senarai, dan kemudian, dalam medan **Peranan** , pilih peranan untuk tugaskan kepada tugas tersebut.
+3. Pilih tugas dalam senarai, dan kemudian, dalam medan **Peranan**, pilih peranan untuk tugaskan kepada tugas tersebut.
 
 ## <a name="work-with-a-wbs"></a>Bekerja dengan WBS
 
@@ -79,7 +79,7 @@ Pilihan tambahan telah ditambah dalam WBS untuk menggunakan kefungsian penyumber
 </tbody>
 </table>
 
-1. Pada halaman **Semua projek** , pilih projek **Naik taraf XYZ Fasa 2**.
+1. Pada halaman **Semua projek**, pilih projek **Naik taraf XYZ Fasa 2**.
 2. Pilih **Rancang** > **Aktiviti** > **Struktur pecahan kerja**.
 3. Pilih **Baharu** untuk menambah aktiviti tahap satu yang berikut kepada WBS:
 
@@ -93,20 +93,20 @@ Pilihan tambahan telah ditambah dalam WBS untuk menggunakan kefungsian penyumber
 
     [![Tetapan tarikh dan usaha](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Pilih baris tugas **Memulakan** , dan kemudian, dalam medan **Peranan** , pilih **Pengurus Projek Kanan**.
+5. Pilih baris tugas **Memulakan**, dan kemudian, dalam medan **Peranan**, pilih **Pengurus Projek Kanan**.
 6. Pilih **Terbitkan**.
-7. Pada baris yang sama, dalam medan **Sumber** , pilih **Daniel Goldschmidt** , dan kemudian pilih **Terima**.
-8. Pilih baris tugas **Perancangan** , dan kemudian, dalam medan **Peranan** , pilih **Penganalisis perniagaan**.
-9. Pilih **Terbitkan** , dan kemudian pilih **Menjana pasukan secara automatik**.
+7. Pada baris yang sama, dalam medan **Sumber**, pilih **Daniel Goldschmidt**, dan kemudian pilih **Terima**.
+8. Pilih baris tugas **Perancangan**, dan kemudian, dalam medan **Peranan**, pilih **Penganalisis perniagaan**.
+9. Pilih **Terbitkan**, dan kemudian pilih **Menjana pasukan secara automatik**.
 10. Dalam kotak mesej yang muncul, pilih **Ya**.
-11. Dalam medan **Sumber** , sahkan bahawa nilai adalah **Penganalisis perniagaan 1**.
-12. Untuk sumber **Penganalisis perniagaan 1** , buka carian, dan pilih **Lancarkan tugasan sumber**. Kemudian pilih pekerja untuk tugas itu.
+11. Dalam medan **Sumber**, sahkan bahawa nilai adalah **Penganalisis perniagaan 1**.
+12. Untuk sumber **Penganalisis perniagaan 1**, buka carian, dan pilih **Lancarkan tugasan sumber**. Kemudian pilih pekerja untuk tugas itu.
 13. Pilih **Tugaskan sementara** &gt; **Kapasiti penuh**.
 
     > [!NOTE] 
     > Anda tidak menerima amaran bahawa sumber yang ditentukan adalah kini 2, kerana bilangan sumber kekal 1.
 
-14. Pada halaman **Struktur pecahan kerja** , mengesahkan tugasan sumber pada WBS, dan kemudian pilih **Simpan**.
+14. Pada halaman **Struktur pecahan kerja**, mengesahkan tugasan sumber pada WBS, dan kemudian pilih **Simpan**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

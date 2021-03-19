@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081214"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289110"
 ---
 # <a name="project-resourcing-home-page"></a>Halaman utama sumber projek
 
@@ -49,7 +49,7 @@ Topik berikut memberikan maklumat mengenai tugas yang perlu dilengkapkan apabila
 - [Sediakan sumber projek](set-up-project-resources.md)
 - [Urus kecekapan sumber](manage-resource-competencies.md)
 - [Cipta projek baharu](create-new-project.md)
-- [Sediakan harga berasaskan peranan](set-up-role-based-pricing.md)
+- [Sediakan penentuan harga berasaskan peranan](set-up-role-based-pricing.md)
 - [Cipta pasukan projek](create-project-team.md)
 - [Segerakkan kapasiti sumber](synchronize-resource-capacity.md)
 - [Prestasi penjadualan sumber projek](project-scheduling-performance.md)

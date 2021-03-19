@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288614"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Sediakan dan gunakan bayar apabila pembayaran vendor dibayar
 
@@ -49,27 +49,27 @@ Apabila anda menyediakan terma PWP untuk projek, anda mesti menetapkan, sebagai 
 
 1. Pergi ke **Pengurusan dan perakaunan projek** \> **Projek** \> **Semua projek**.
 2. Cari dan buka projek yang anda mahu sediakan terma PWP untuknya.
-3. Pada FastTab **Perjanjian vendor** , pilih **Tambah baris**.
-3. Dalam medan **Kod akaun** , pilih salah satu daripada pilihan berikut:
+3. Pada FastTab **Perjanjian vendor**, pilih **Tambah baris**.
+3. Dalam medan **Kod akaun**, pilih salah satu daripada pilihan berikut:
 
     - **Jadual** – Terma PWP digunakan pada vendor tunggal.
     - **Kumpulan** – Terma PWP digunakan pada semua vendor dalam kumpulan vendor.
     - **Semua** – Terma PWP digunakan kepada semua vendor.
 
-4. Jika anda memilih **Jadual** atau **Kumpulan** dalam langkah sebelumnya, dalam medan **Vendor/Kumpulan vendor** , pilih vendor atau kumpulan vendor yang digunakan oleh terma PWP. Jika anda memilih **Semua** dalam langkah sebelumnya, medan **Vendor/Kumpulan vendor** tidak boleh diedit.
-5. Jika terma pengekalan vendor disediakan untuk vendor dalam projek, dalam medan **Terma pengekalan vendor** , pilih ID peraturan untuk terma pengekalan.
-6. Dalam medan **peratusan ambang PWP** , masukkan peratusan ambang untuk projek. Peratusan yang anda masukkan untuk projek ini mentakrifkan jumlah minimum yang pelanggan mesti bayar kepada anda sebelum anda akan membayar vendor.
+4. Jika anda memilih **Jadual** atau **Kumpulan** dalam langkah sebelumnya, dalam medan **Vendor/Kumpulan vendor**, pilih vendor atau kumpulan vendor yang digunakan oleh terma PWP. Jika anda memilih **Semua** dalam langkah sebelumnya, medan **Vendor/Kumpulan vendor** tidak boleh diedit.
+5. Jika terma pengekalan vendor disediakan untuk vendor dalam projek, dalam medan **Terma pengekalan vendor**, pilih ID peraturan untuk terma pengekalan.
+6. Dalam medan **peratusan ambang PWP**, masukkan peratusan ambang untuk projek. Peratusan yang anda masukkan untuk projek ini mentakrifkan jumlah minimum yang pelanggan mesti bayar kepada anda sebelum anda akan membayar vendor.
 
 ## <a name="create-a-po-that-has-pwp-terms"></a>Cipta PO yang mempunyai terma PWP
 
 Apabila anda menyiarkan invois daripada vendor, jika vendor tertakluk kepada terma PWP, terma tersebut ditunjukkan pada baris PO. Untuk mencipta PO yang mempunyai terma PWP, ikuti langkah ini.
 
 1. Pergi ke **Perolehan dan penyumberan** \> **Pesanan pembelian** \> **Semua pesanan pembelian**.
-2. Pada Anak Tetingkap Tindakan, pilih **Baharu**. Kemudian, dalam kotak dialog **Cipta pesanan pembelian** , masukkan maklumat yang diperlukan dan pilih **OK**.
+2. Pada Anak Tetingkap Tindakan, pilih **Baharu**. Kemudian, dalam kotak dialog **Cipta pesanan pembelian**, masukkan maklumat yang diperlukan dan pilih **OK**.
 
     Secara alternatif, buka PO sedia ada pada halaman senarai **Semua pesanan pembelian**.
 
-4. Pada halaman **Pesanan pembelian** , pada FastTab **Baris pesanan pembelian** , semak semula butiran baris Po untuk vendor. Pilihan **Bayar apabila dibayar** dipilih secara automatik dan nilai dalam medan **peratusan ambang PWP** akan disalin secara automatik daripada medan **peratusan ambang PWP** pada halaman **Projek**.
+4. Pada halaman **Pesanan pembelian**, pada FastTab **Baris pesanan pembelian**, semak semula butiran baris Po untuk vendor. Pilihan **Bayar apabila dibayar** dipilih secara automatik dan nilai dalam medan **peratusan ambang PWP** akan disalin secara automatik daripada medan **peratusan ambang PWP** pada halaman **Projek**.
 6. Jika anda tidak mahu menggunakan terma PWP kepada vendor untuk baris PO, kosongkan pilihan **bayar apabila dibayar**. Dalam kes ini, medan **peratusan ambang PWP** untuk baris PO akan ditetapkan semula kepada 0 (sifar).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Kemas kini pembayaran pelanggan dan bayar vendor tersebut
@@ -77,8 +77,8 @@ Apabila anda menyiarkan invois daripada vendor, jika vendor tertakluk kepada ter
 Apabila vendor melengkapkan kerjanya pada projek dan menghantar invois kepada anda, anda mesti menyemak semula status projek dan invois pelanggan untuk menentukan sama ada terma PWP telah dipenuhi untuk projek tersebut. Jika terma PWP untuk vendor dipenuhi, anda boleh menentukan baris yang ada pada invois vendor perlu dibayar, berdasarkan pembayaran pelanggan untuk projek tersebut. Jika anda memutuskan untuk membayar vendor walaupun terma PWP tidak dipenuhi, anda boleh mengganti terma PWP pada halaman **Invois vendor dengan bayar apabila dibayar**.
 
 1. Pergi ke **Pengurusan projek dan perakaunan** \> **Pertanyaan dan laporan** \> **Pertanyaan pengekalan** \> **Invois vendor dengan bayar apabila dibayar**.
-2. Pada halaman **Invois vendor dengan bayar apabila dibayar** , dalam medan carian, masukkan nilai untuk mencari invois vendor yang anda mahu semak semula dan kemudian pilih **Carian**.
-3. Pada FastTab **Baris invois vendor** , pilih baris yang anda mahu tukar.
+2. Pada halaman **Invois vendor dengan bayar apabila dibayar**, dalam medan carian, masukkan nilai untuk mencari invois vendor yang anda mahu semak semula dan kemudian pilih **Carian**.
+3. Pada FastTab **Baris invois vendor**, pilih baris yang anda mahu tukar.
 4. Jika syarat **Bayar apabila dibayar** dipenuhi untuk baris invois, pilih **Keluarkan pembayaran vendor**. Pilihan **Bayar apabila dibayar** dikosongkan dan nilai medan **Bersedia untuk pembayaran** ditukar kepada **Ya**.
 
 

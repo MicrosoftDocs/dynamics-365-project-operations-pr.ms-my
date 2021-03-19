@@ -18,23 +18,23 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288104"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Memindahkan sebut harga kepada projek
 
 [!include [banner](../includes/banner.md)]
 
-Apabila sebut harga projek mempunyai status **Disahkan** , anda boleh memindahkan sebahagian atau semua baris sebut harga kepada projek baharu atau sedia ada dengan menggunakan bestari **Memindahkan kepada projek**. 
+Apabila sebut harga projek mempunyai status **Disahkan**, anda boleh memindahkan sebahagian atau semua baris sebut harga kepada projek baharu atau sedia ada dengan menggunakan bestari **Memindahkan kepada projek**. 
 
 Untuk menggunakan bestari, ikuti langkah-langkah ini.
 
 1. Pergi ke **Pengurusan dan perakaunan projek** > **Sebut harga** > **Sebut harga projek**.
-2. Pilih sebut harga yang anda mahu pindahkan dan pada tab **Susulan** , dalam kumpulan **Ubah suai** , pilih **Pindahkan kepada projek**.
+2. Pilih sebut harga yang anda mahu pindahkan dan pada tab **Susulan**, dalam kumpulan **Ubah suai**, pilih **Pindahkan kepada projek**.
 3. Ikuti bestari **Pindahkan sebut harga kepada projek** untuk mengaitkan dan memindahkan sebut harga dengan projek.
 
 

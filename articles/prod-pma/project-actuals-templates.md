@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081360"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289695"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Selaraskan aktual projek secara langsung daripada Project Service Automation kepada jurnal integrasi projek untuk disiarkan dalam Finance and Operations
 
@@ -88,8 +88,8 @@ Dalam templat aktual projek, anda mesti menggunakan Microsoft Power Query for Ex
 #### <a name="contract-organizational-unit"></a>Unit organisasi kontrak
 Untuk mengemas kini lajur bersyarat yang dimasukkan dalam templat, klik anak panah **Peta** untuk membuka pemetaan. Pilih pautan **Pertanyaan Lanjutan dan Penapisan** untuk membuka Power Query.
 
-- Jika anda menggunakan templat Aktual projek lalai (PSA kepada Fin dan Ops), dalam Power Query, pilih **Syarat yang Dimasukkan** terakhir daripada bahagian **Langkah Digunakan**. Dalam entri **Fungsi** , gantikan **USSI** dengan nama entiti undang-undang yang harus digunakan dengan integrasi. Tambah syarat tambahan pada entri **Fungsi** yang anda perlukan, dan kemas kini keadaan **lain** daripada **USMF** kepada entiti undang-undang yang betul.
-- Jika anda mencipta templat baharu, anda mesti menambah lajur untuk menyokong masa dan perbelanjaan antara syarikat. Pilih **Tambah Lajur Bersyarat** , dan masukkan nama untuk lajur, seperti **LegalEntity**. Masukkan syarat untuk lajur, di mana, jika **msdyn\_contractorganizationalunitid.msdyn\_nama** adalah \<organizational unit\>, kemudian \<enter the legal entity\>; jika tidak nol.
+- Jika anda menggunakan templat Aktual projek lalai (PSA kepada Fin dan Ops), dalam Power Query, pilih **Syarat yang Dimasukkan** terakhir daripada bahagian **Langkah Digunakan**. Dalam entri **Fungsi**, gantikan **USSI** dengan nama entiti undang-undang yang harus digunakan dengan integrasi. Tambah syarat tambahan pada entri **Fungsi** yang anda perlukan, dan kemas kini keadaan **lain** daripada **USMF** kepada entiti undang-undang yang betul.
+- Jika anda mencipta templat baharu, anda mesti menambah lajur untuk menyokong masa dan perbelanjaan antara syarikat. Pilih **Tambah Lajur Bersyarat**, dan masukkan nama untuk lajur, seperti **LegalEntity**. Masukkan syarat untuk lajur, di mana, jika **msdyn\_contractorganizationalunitid.msdyn\_nama** adalah \<organizational unit\>, kemudian \<enter the legal entity\>; jika tidak nol.
 
 ### <a name="template-mapping-in-data-integration"></a>Pemetaan tempat dalam integrasi Data
 

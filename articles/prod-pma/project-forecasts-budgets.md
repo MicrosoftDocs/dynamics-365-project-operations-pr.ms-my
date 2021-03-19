@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081341"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289425"
 ---
 # <a name="project-forecasts-and-budgets"></a>Ramalan dan belanjawan projek
 
@@ -61,7 +61,7 @@ Model ramalan boleh menggunakan pengurangan ramalan sebagai mekanisme kawalan un
 
 Anda boleh menyemak semula, menyalin, memadamkan atau memindahkan ramalan projek kepada belanjawan lejar am. Walau bagaimanapun, tiada kawalan proses. Mana-mana pekerja yang mempunyai keizinan untuk borang ramalan boleh membuat semakan semula tanpa ulasan.
 
--   **Semak semula** – Anda boleh menyemak semula transaksi ramalan dalam borang yang sama yang entri asal telah dibuat.
+-   **Semak semula**– Anda boleh menyemak semula transaksi ramalan dalam borang yang sama yang entri asal telah dibuat.
 -   **Salin atau padam** – Apabila anda menyalin ramalan transaksi, anda menyalin baris transaksi satu model ramalan kepada model ramalan yang lain. Apabila anda memadamkan ramalan, anda memadamkan transaksi ramalan daripada model ramalan. Untuk mengehadkan transaksi ramalan yang disalin atau dipadamkan, pilih jenis transaksi dan tarikh tertentu. Ini membolehkan anda hanya menyalin atau memadamkan bahagian ramalan yang khusus.
 -   **Pindahkan** – Apabila anda memindahkan ramalan projek kepada belanjawan lejar am, anda memindahkan transaksi ramalan dalam model ramalan kepada belanjawan lejar am. Anda boleh menulis ganti mana-mana transaksi yang sebelumnya dipindahkan dalam belanjawan lejar am yang anda pindahkan ramalan projek anda.
 
