@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175902"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290055"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Daftar untuk langganan pratonton - lite 
 
-Topik ini menjelaskan cara untuk melanggan tawaran rakan kongsi pratonton dan melaksanakan pelaksanaan lite Dynamics 365 Project Operations - urusan untuk penginvoisan proforma.
+Topik ini menerangkan cara untuk melanggan tawaran rakan kongsi pratonton dan melaksanakan pelaksanaan ringan Dynamics 365 Project Operations - berurusan untuk invois proforma.
 
 > [!NOTE]
 > Proses ini akan berubah dalam keluaran Project Operations yang akan datang.
@@ -32,17 +32,17 @@ Topik ini menjelaskan cara untuk melanggan tawaran rakan kongsi pratonton dan me
 
 Apabila anda menerima kelulusan [permintaan pratonton](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), anda akan menerima dua tawaran daripada Microsoft melalui e-mel. Tawaran ini membolehkan anda menggunakan Pratonton Project Operations:
 
-- Operasi Projek Dynamics 365 (CRM) – Percubaan Pratonton
+- Dynamics 365 Project Operations (CRM) - Percubaan Pratonton
 - Operasi Projek Office 365- Percubaan Pratonton
 
 > [!IMPORTANT]
 > Hanya satu orang, pentadbir penyewa, dalam organisasi perlu melaksanakan tugas ini. Jika anda bukan pelanggan kepada keluaran ini, tunggu sehingga organisasi anda didaftarkan dan anda menerima kelayakan pengguna anda.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Operasi Projek Dynamics 365 (CRM) – Percubaan Pratonton 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Percubaan Pratonton 
 
 Sebelum anda mulakan, pastikan anda dilog masuk ke pelayar dengan akaun kerja pengguna dalam penyewa yang anda mahu pratonton Operasi Projek.
 
-1. Tebus kod tawaran pertama, **Operasi Projek Dynamics 365(CRM)- Percubaan Pratonton** dengan menampal ke dalam URL pelayar.
+1. Tebus kod tawaran pertama, **Dynamics 365 Project Operations (CRM) - Percubaan Pratonton** dengan menampalkannya ke dalam URL pelayar.
 
 ![Tebus Tawaran](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Ulangi langkah yang sama dengan kod tawaran pertama. Pastikan untuk menambah kod
 
 ![Tugaskan Lesen](./media/15AssignLicenses.png)
 
-3. Sahkan bahawa lesen **Pratonton Operasi Projek Dynamics 365 (CRM)** dan lesen **Operasi Projek Office 365 - Pratonton** telah dipilih. 
+3. Sahkan bahawa lesen **Pratonton Dynamics 365 Project Operations (CRM)** dan **Office 365 Project Operations - Pratonton** dipilih. 
 4. Pilih **Simpan perubahan**.
 
 ## <a name="create-a-new-cds-environment"></a>Cipta persekitaran CDS
@@ -84,7 +84,7 @@ Ulangi langkah yang sama dengan kod tawaran pertama. Pastikan untuk menambah kod
 
 ![Tambah pangkalan data](./media/20CreateEnvironment1.png)
 
-4. Selepas persekitaran dicipta, pasang penyelesaian **Operasi Projek Microsoft Dynamics 365**. 
+4. Selepas persekitaran dicipta, pasang penyelesaian **Microsoft Dynamics 365 Project Operations**. 
 
 ![Pasang Penyelesaian](./media/21InstallSolution.png)
 

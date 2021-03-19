@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175632"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290235"
 ---
 # <a name="start-a-new-lcs-project"></a>Mulakan projek LCS baharu
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Gunakan perkhidmatan Lifecycle Services (LCS) untuk mengurus persekitaran Operasi Projek Dynamics 365 anda. Lengkapkan langkah berikut untuk mencipta projek LCS baharu.
+Gunakan Lifecycle Services (LCS) untuk menguruskan persekitaran Dynamics 365 Project Operations anda. Lengkapkan langkah berikut untuk mencipta projek LCS baharu.
 
 1. Pergi ke [LCS](https://lcs.dynamics.com/Logon/Index) dan pilih **Log masuk** menggunakan akaun yang anda gunakan untuk melanggan.
 2. Jika digesa, terima terma perundangan dan privasi.
