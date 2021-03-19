@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401229"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479575"
 ---
 # <a name="determine-your-deployment-type"></a>Tentukan jenis pelaksanaan anda
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 > [!IMPORTANT]
-> Selepas anda membeli lesen, mulakan di sini untuk menentukan model pelaksanaan terbaik bagi Project Operations Dynamics 365 menggunakan [aliran pemasangan Dipandu](https://aka.ms/provisionprojectoperations).
+> Selepas anda membeli lesen, mulakan di sini untuk menentukan model pelaksanaan Dynamics 365 Project Operations menggunakan [Aliran pemasangan berpandu](https://aka.ms/provisionprojectoperations).
 > Selepas anda selesai membuat persediaan terhadap aliran pemasangan Dipandu, anda akan dihalakan ke portal pengurusan yang betul untuk melengkapkan pemasangan anda. Lihat butiran pelaksanaan untuk melengkapkan pemasangan.
 
 
@@ -31,6 +31,9 @@ Project Operations termasuk keupayaan yang dihantar dengan Project Service Autom
 
 Pelanggan sedia ada Kewangan yang menggunakan fungsi Pengurusan projek dan perakaunan boleh terus menggunakannya seperti itu. Lihat [Project Operations untuk senario pesanan stok/pengeluaran](#pma).
 
+
+## <a name="deployment-regions"></a>Rantau pelaksanaan
+Untuk menentukan rantau yang menyokong pelaksanaan Project Operations, lihat [Ketersediaan geografi untuk laporan Dynamics 365 dan Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Pilih **Lihat Laporan,** dan kembangkan **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** untuk melihat rantau yang disokong.
 
 ## <a name="deployment-types"></a>Jenis pelaksanaan
 Project Operations menyokong berbilang pilihan pelaksanaan untuk dipadankan dengan keperluan anda. Sama ada anda ialah pelanggan Dynamics 365 yang baharu atau sedia ada, Project Operations boleh menyokong keperluan anda.

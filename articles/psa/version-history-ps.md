@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e8ec1b5f7760b21ca3f0a85952820bdf6d0a5da
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a8e1c7233de5705c928308431738060cca454e89
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144289"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556634"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Kemas kini jadual keluaran untuk Project Service 3. x
 
@@ -39,7 +39,7 @@ ms.locfileid: "5144289"
 
 | Penyelesaian  | Versi terkini |
 |-------|----|
-| Project Service Automation    | 3.10.46.87 |
+| Project Service Automation    | 3.10.47.7 |
 | Tambahan desktop untuk Project Service Automation                | 3.15          |
 
 Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pelan keluaran Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -47,28 +47,28 @@ Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pe
 | Stesen  | Rantau | Versi semasa | Versi seterusnya |  Tarikh dijadualkan
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stesen 1</strong> | |  |  | |
-| | <i>Keluaran Pertama</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 19 Februari 2021
+| | <i>Keluaran Pertama</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
 |<strong>Stesen 2</strong> | |  |  | |
-| | <i>Amerika Selatan</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
-| | <i>Kanada</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
-| | <i>India</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
-| | <i>Perancis</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
-| | <i>Emiriah Arab Bersatu</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
-| | <i>Afrika Selatan</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
-| | <i>Jerman</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
-| | <i>Switzerland</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 Februari 2021
+| | <i>Amerika Selatan</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
+| | <i>Kanada</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
+| | <i>India</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
+| | <i>Perancis</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
+| | <i>Emiriah Arab Bersatu</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
+| | <i>Afrika Selatan</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
+| | <i>Jerman</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
+| | <i>Switzerland</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 April 2021
 |<strong>Stesen 3</strong> | |  |  | |
-| | <i>Jepun</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 Mac 2021
-| | <i>Asia Pasifik</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 Mac 2021
-| | <i>Great Britain</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 Mac 2021
-| | <i>Oceana</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 Mac 2021
+| | <i>Jepun</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 April 2021
+| | <i>Asia Pasifik</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 April 2021
+| | <i>Great Britain</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 April 2021
+| | <i>Oceana</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 April 2021
 |<strong>Stesen 4</strong> | |  |  | |
-| | <i>Eropah</i> | [3.10.45.119](whats-new-ur-27-5.md) | [3.10.46.87](whats-new-ur-28-5.md) | 19 Februari 2021
+| | <i>Eropah</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 12 Mac 2021
 |<strong>Stesen 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12 Februari 2021
+| | <i>Amerika Utara</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19 Mac 2021
 |<strong>Stesen 6</strong> | |  |  | |
-| | <i>Awan Komuniti Kerajaan</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12 Februari 2021
-| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 19 Februari 2021
+| | <i>Awan Komuniti Kerajaan</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19 Mac 2021
+| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.45.120](whats-new-ur-27-6.md) | [3.10.46.147](whats-new-ur-28-6.md) | 05 Mac 2021
 
 >[!Note]
 > - Tarikh di semua wilayah kecuali Awan Komuniti Kerajaan (GCC) menunjukkan masa kemas kini automatik seterusnya. Tarikh dalam GCC menunjukkan ketersediaan versi; pada masa ini, tiada kemas kini automatik untuk wilayah ini.

@@ -1,9 +1,9 @@
 ---
 title: Laporan perbelanjaan digambarkan semula
-description: Topik ini memberikan maklumat mengenai pengalaman yang direka dan digambarkkan semula untuk entri laporan perbelanjaan.
+description: Topik ini menerangkan pengalaman yang direka semula dan dibayangkan semula untuk entri laporan perbelanjaan.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122806"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499727"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan perbelanjaan digambarkan semula
 
@@ -45,7 +45,7 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-[Pengalaman perbelanjaan dalam video Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditunjukkan di atas) termasuk dalam senarai main [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
+[Pengalaman perbelanjaan dalam video Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditunjukkan di atas) termasuk dalam [senarai main Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
 
 ## <a name="new-features"></a>Ciri-ciri baru
 
@@ -59,25 +59,22 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 | Pengurangan mesej dalam bar mesej| Bilangan mesej Infolog telah berkurangan dan usaha telah dibuat untuk mengelakkan mesej duplikasi daripada muncul dalam banyak kes. |
 | Tindakan biasa yang dikumpulkan bersama | Antara muka dibersihkan dengan penambahan butang tindakan baru untuk kebanyakan tindakan peringkat baris umum dan penambahan butang elipsis (...) untuk pengepala dan tindakan lain yang kurang kerap. |
 | Ruang kerja baharu untuk menambahkan keterlihatan | Sebuah ruang kerja baharu yang menyatukan ciri dan pautan yang membolehkan pengguna berpindah ke kawasan yang berbeza. |
-| Tambah perbelanjaan dan resit sedia ada semasa penciptaan perbelanjaan | Apabila anda mencipta laporan perbelanjaan, anda boleh menambah semua atau perbelanjaan dan resit yang terpilih. |
+| Tambah perbelanjaan dan resit sedia ada semasa penciptaan perbelanjaan | Apabila anda mencipta laporan perbelanjaan, anda boleh menambahkan semua perbelanjaan atau memilih perbelanjaan yang tidak dilampirkan. Perbelanjaan yang tidak dilampirkan ialah perbelanjaan yang diimport daripada suapan kad kredit korporat atau perbelanjaan yang dicipta secara manual oleh pengguna tetapi belum dilampirkan pada laporan perbelanjaan.|
 | Kalkulator kadar tukaran | Kalkulator kadar tukaran ditambahkan yang membolehkan anda mengira kadar tukaran untuk transaksi berbilang mata wang saku. |
 | Simpan dan tambah baris perbelanjaan baharu | Butang **Simpan** dan **Baharu** tersedia apabila perbelanjaan baharu dimasukkan, untuk membantu anda memasukkan baris perbelanjaan dengan cepat. |
 | Keterlihatan yang lebih baik ke dalam baris yang diperincikan dan terpisah | Garis yang diperincikan dan terpisah ditambah secara langsung pada senarai perbelanjaan untuk meningkatkan keterlihatan dan membantu anda menentukan sama ada terdapat sebarang ralat dengan mudah. |
 | Tunjuk resit semasa pemerincian | Resit boleh ditunjukkan semasa perincian. |
+| Pemilihan pendahuluan tunai | Pilih satu atau lebih pendahuluan tunai untuk memenuhi transaksi perbelanjaan tunggal. |
+| Baki pendahuluan tunai | Semak baki pendahuluan tunai dalam masa nyata apabila anda mencipta entri perbelanjaan terhadap pendahuluan tunai yang diluluskan dan berbayar. |
 
 Keluaran awal tertumpu kepada senario entri perbelanjaan. Sebarang semakan laporan perbelanjaan atau senario kelulusan akan terus menggunakan halaman entri perbelanjaan yang sedia ada.
 
-Ciri berikut ditunjukkan pada halaman sedia ada tetapi masih belum ditunjukkan pada halaman baharu. Ciri ini akan diperkenalkan semula dalam beberapa keluaran akan datang:
+Ciri-ciri berikut tidak disokong pada Ruang Kerja Perbelanjaan Dibayangkan Semula:
 
-- Kelulusan
-- Kelulusan akaun berbayar dan keupayaan untuk mengedit perakaunan
-- Pelbagai titik entri
 - Penyepaduan permintaan perjalanan
-- Entiti data untuk keterlihatan medan perbelanjaan
-- Entri untuk perbelanjaan per-diem
-- Aliran kerja peringkat baris
+- Setiap entri perbelanjaan diem
 - Sokongan pelulus interim
-- Perincian lanjutan
+- Keupayaan untuk melihat sejarah aliran kerja
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

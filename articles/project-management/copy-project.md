@@ -1,27 +1,27 @@
 ---
 title: Salin projek
-description: Topik ini memberikan maklumat tentang menyalin projek dalam Operasi Projek Dynamics 365.
+description: Topik ini menyediakan maklumat tentang menyalin projek dalam Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131804"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479530"
 ---
 # <a name="copy-a-project"></a>Salin projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dengan Dynamics 365 Project Operations, anda boleh membina projek baharu secara pantas dengan memilih **Salin Projek** pada borang **Projek**. Untuk menyalin projek, buka projek yang anda mahu salin dan kemudian pilih **Salin projek**. Tindakan akan disalin:
+Dengan Dynamics 365 Project Operations, anda boleh dengan cepat membina projek baru dengan memilih **Salin Projek** pada borang **Projek**. Untuk menyalin projek, buka projek yang anda mahu salin dan kemudian pilih **Salin projek**. Tindakan akan disalin:
 
-- Sifat projek
+- Sifat projek (Anggaran tarikh mula disalin daripada projek sumber)
 - Struktur pecahan kerja
 - Ahli pasukan projek
 - Anggaran projek

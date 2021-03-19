@@ -3,17 +3,17 @@ title: Entri masa tingkah laku UI
 description: Topik ini memberikan maklumat tentang tingkah laku UI untuk Entri Masa.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124514"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499625"
 ---
 # <a name="time-entry-ui-behavior"></a>Entri masa tingkah laku UI
 
@@ -21,6 +21,19 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 
 Grid **Entri masa mingguan** adalah kawalan tersuai yang mempunyai dua bahagian utama, **Dimensi** dan **Tempoh**.
+
+## <a name="keyboard-shortcuts"></a>Pintasan papan kekunci
+| Tindakan        | Pintasan                  |
+|------------   |------------------------   |
+| Baru           | Alt + Shift + n           |
+| Salin baris      | Alt + Shift + c           |
+| Edit Entri    | Alt + Shift + e           |
+| Edit baris      | Alt + Shift + Ctrl + e    |
+| Buka Entri    | Alt + Shift + o           |
+| Serah        | Alt + Shift + s           |
+| Tarik Balik        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Salin minggu     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensi
 Bahagian **Dimensi** menunjukkan dimensi yang boleh dimasuki masa. Dimensi berikut adalah disokong di luar kotak:

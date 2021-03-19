@@ -3,18 +3,18 @@ title: Kemas kini Project Operations
 description: Topik ini memberikan maklumat tentang versi Dynamics 365 Project Operations yang dikeluarkan.
 author: sigitac
 manager: Annbe
-ms.date: 12/07/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: 07ba97377841b1a2d8f96b60a926dc7499e345f1
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141218"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556589"
 ---
 # <a name="project-operations-updates"></a>Pilih kemaskinian Project Operations
 
@@ -29,13 +29,16 @@ Dynamics 365 Project Operations terdiri daripada dua komponen:
 - Project Operations pada persekitaran Dataverse meliputi keupayaan daripada peluang hingga penginvoisan proforma. Dataverse digunakan dalam pelaksanaan ringan dan pelaksanaan senario berasaskan sumber/bukan stok bagi Project Operations.
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance meliputi keupayaan pengurusan perbelanjaan, perakaunan projek dan pengiktirafan hasil. Persekitaran aplikasi Finance and Operations digunakan dalam Project Operations untuk senario berasaskan sumber/bukan stok dan Project Operations untuk senario berasaskan stok/pengeluaran.
 
+## <a name="project-operations-release-notes"></a>Nota keluaran Project Operations
+- Nota keluaran terkini Project Operations untuk senario [Sumber/tidak distok](whats-new-mar-2021-resource-based.md).
+- Nota keluaran terkini Project Operations untuk senario [Pelaksanaan ringan](../pro/whats-new/whats-new-mar-2021-lite.md).
+- Nota keluaran terkini Project Operations untuk senario [distok/pengeluaran](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+
 ## <a name="project-operations-latest-version"></a>Versi terbaharu Project Operations
 
 | Project Operations pada persekitaran Dataverse | Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations |
 | --- | --- |
-| 4.7.0.95 | 10.0.16 |
-
-Nota keluaran Januari 2021 Project Operations untuk senario [Sumber/bukan stok](whats-new-feb-2021-resource-based.md), [Pelaksanaan ringan](../pro/whats-new/whats-new-feb-2021-lite.md) dan [stok/pengeluaran](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
+| 4.8.0.91 | 10.0.16 |
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Jadual keluaran untuk Project Operations pada persekitaran Dataverse
 
@@ -44,22 +47,23 @@ Kemas kini untuk Project Operations pada persekitaran Dataverse tersedia setiap 
 | Stesen   | Rantau        | Versi semasa | Versi seterusnya | secara umumnya tersedia |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Stesen 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Keluaran Pertama |  4.7.0.95       | TBD     | 19 Feb. 2021           |
+|   &nbsp;  | Keluaran Pertama |  4.8.0.91       | TBD     | 02-Apr-21           |
 | Stesen 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan |  4.7.0.95       | TBD     | 19 Feb. 2021           |
-|    &nbsp; | Kanada        |  4.7.0.95       | TBD     | 19 Feb. 2021           |
-|   &nbsp;  | India         |  4.7.0.95       | TBD     | 19 Feb. 2021           |
-|   &nbsp;  | Perancis         |  4.7.0.95       | TBD     | 19 Feb. 2021           |
-|   &nbsp;  | Emiriah Arab Bersatu         |  4.7.0.95       | TBD     | 19 Feb. 2021           |
+|   &nbsp;  | Amerika Selatan |  4.8.0.91       | TBD     | 02-Apr-21           |
+|    &nbsp; | Kanada        |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | India         |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | Perancis         |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | Emiriah Arab Bersatu         |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | Afrika Selatan         |  4.8.0.91       | TBD     | 02-Apr-21           |
 | Stesen 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Jepun         |  4.7.0.95       | TBD     | 26 Feb. 2021           |
-|   &nbsp;  | Asia Pasifik  |  4.7.0.95       | TBD     | 26 Feb. 2021           |
-|   &nbsp;  | Great Britain |  4.7.0.95       | TBD     | 26 Feb. 2021           |
-|   &nbsp;  | Oceania       |  4.7.0.95       | TBD     | 26 Feb. 2021           |
+|   &nbsp;  | Jepun         |  4.8.0.91       | TBD     | 09-Apr-21           |
+|   &nbsp;  | Asia Pasifik  |  4.8.0.91       | TBD     | 09-Apr-21           |
+|   &nbsp;  | Great Britain |  4.8.0.91       | TBD     | 09-Apr-21           |
+|   &nbsp;  | Oceania       |  4.8.0.91       | TBD     | 09-Apr-21           |
 | Stesen 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Eropah        |  4.6.0.161       | 4.7.0.95     | 12 Feb. 2021           |
+|   &nbsp;  | Eropah        |  4.8.0.91       | TBD     | 16-Apr-21           |
 | Stesen 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Amerika Utara |  4.6.0.161       | 4.7.0.95     | 19 Feb. 2021           |
+|   &nbsp;  | Amerika Utara |  4.7.0.96       | 4.8.0.91     | 12-Mar-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadual keluaran untuk Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations
 
