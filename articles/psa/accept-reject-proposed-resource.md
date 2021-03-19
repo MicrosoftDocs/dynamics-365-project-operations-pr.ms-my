@@ -18,30 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 895712a4c6bed38c41d880e46922ea4fea739a8f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146179"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285719"
 ---
-# <a name="accept-or-reject-a-proposed-project-resource"></a><span data-ttu-id="78748-103">Menerima atau menolak sumber projek dicadangkan</span><span class="sxs-lookup"><span data-stu-id="78748-103">Accept or reject a proposed project resource</span></span>
+# <a name="accept-or-reject-a-proposed-project-resource"></a><span data-ttu-id="4008c-103">Menerima atau menolak sumber projek dicadangkan</span><span class="sxs-lookup"><span data-stu-id="4008c-103">Accept or reject a proposed project resource</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="78748-104">Topik ini memberikan maklumat tentang cara untuk menerima atau menolak sumber projek dicadangkan.</span><span class="sxs-lookup"><span data-stu-id="78748-104">This topic provides information about how to approve or reject a proposed project resource.</span></span>
+<span data-ttu-id="4008c-104">Topik ini memberikan maklumat tentang cara untuk menerima atau menolak sumber projek dicadangkan.</span><span class="sxs-lookup"><span data-stu-id="4008c-104">This topic provides information about how to approve or reject a proposed project resource.</span></span>
 
-<span data-ttu-id="78748-105">Apabila pengurus sumber mencadangkan sumber yang dinamakan untuk mengisi permintaan sumber generik bagi projek, medan **Status permintaan** untuk ahli pasukan generik akan dikemas kini kepada **Perlu Semakan**.</span><span class="sxs-lookup"><span data-stu-id="78748-105">When a resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**.</span></span> <span data-ttu-id="78748-106">Permohonan akan dihantar kepada pengurus projek untuk kelulusan atau penolakan.</span><span class="sxs-lookup"><span data-stu-id="78748-106">The request will be sent to the project manager for approval or rejection.</span></span>
+<span data-ttu-id="4008c-105">Apabila pengurus sumber mencadangkan sumber yang dinamakan untuk mengisi permintaan sumber generik bagi projek, medan **Status permintaan** untuk ahli pasukan generik akan dikemas kini kepada **Perlu Semakan**.</span><span class="sxs-lookup"><span data-stu-id="4008c-105">When a resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**.</span></span> <span data-ttu-id="4008c-106">Permohonan akan dihantar kepada pengurus projek untuk kelulusan atau penolakan.</span><span class="sxs-lookup"><span data-stu-id="4008c-106">The request will be sent to the project manager for approval or rejection.</span></span>
 
 ![Ahli pasukan generik dengan proposal](media/RM-how-to-19.png)
 
-<span data-ttu-id="78748-108">Grid pada tab **Sumber Dicadangkan** pada halaman **Ahli Pasukan Projek** menunjukkan tempahan semasa sumber yang dicadangkan.</span><span class="sxs-lookup"><span data-stu-id="78748-108">The grid on the **Proposed Resources** tab on the **Project Team Member** page shows the proposed resource’s current bookings.</span></span> <span data-ttu-id="78748-109">Selepas cadangan diterima, grid dikemas kini untuk menunjukkan tempahan tersebut.</span><span class="sxs-lookup"><span data-stu-id="78748-109">After the proposal is accepted, the grid is updated to reflect that booking.</span></span> 
+<span data-ttu-id="4008c-108">Grid pada tab **Sumber Dicadangkan** pada halaman **Ahli Pasukan Projek** menunjukkan tempahan semasa sumber yang dicadangkan.</span><span class="sxs-lookup"><span data-stu-id="4008c-108">The grid on the **Proposed Resources** tab on the **Project Team Member** page shows the proposed resource’s current bookings.</span></span> <span data-ttu-id="4008c-109">Selepas cadangan diterima, grid dikemas kini untuk menunjukkan tempahan tersebut.</span><span class="sxs-lookup"><span data-stu-id="4008c-109">After the proposal is accepted, the grid is updated to reflect that booking.</span></span> 
 
-<span data-ttu-id="78748-110">Untuk menerima sumber dicadangkan dan menempah sumber itu pada pasukan anda, klik **Terima Cadangan**.</span><span class="sxs-lookup"><span data-stu-id="78748-110">To accept the proposed resource and book that resource on your team, click **Accept Proposals**.</span></span>  
-<span data-ttu-id="78748-111">Untuk menolak cadangan, klik **Tolak Sumber**.</span><span class="sxs-lookup"><span data-stu-id="78748-111">To reject the proposal, click **Reject Resource**.</span></span>
+<span data-ttu-id="4008c-110">Untuk menerima sumber dicadangkan dan menempah sumber itu pada pasukan anda, klik **Terima Cadangan**.</span><span class="sxs-lookup"><span data-stu-id="4008c-110">To accept the proposed resource and book that resource on your team, click **Accept Proposals**.</span></span>  
+<span data-ttu-id="4008c-111">Untuk menolak cadangan, klik **Tolak Sumber**.</span><span class="sxs-lookup"><span data-stu-id="4008c-111">To reject the proposal, click **Reject Resource**.</span></span>
 
 ![Menerima cadangan sumber](media/RM-how-to-20.png) 
 
-<span data-ttu-id="78748-113">Sama seperti memenuhi permintaan sumber generik dengan sumber yang dinamakan, sumber generik akan diganti dan tugas yang ditugaskan akan dikemas kini dengan ahli pasukan yang dinamakan.</span><span class="sxs-lookup"><span data-stu-id="78748-113">Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.</span></span>
+<span data-ttu-id="4008c-113">Sama seperti memenuhi permintaan sumber generik dengan sumber yang dinamakan, sumber generik akan diganti dan tugas yang ditugaskan akan dikemas kini dengan ahli pasukan yang dinamakan.</span><span class="sxs-lookup"><span data-stu-id="4008c-113">Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
