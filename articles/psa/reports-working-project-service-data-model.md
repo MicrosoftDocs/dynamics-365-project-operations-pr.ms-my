@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283244"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
@@ -87,7 +87,7 @@ Entiti **Projek** dan entiti berkaitannya adalah eksklusif untuk PSA. **Projek**
 
 ## <a name="reporting-on-resources"></a>Pelaporan berkenaan sumber
 
-Sumber projek menggunakan entiti **Sumber boleh ditempah** dari Universal Resource Scheduling (URS) yang dikongsi dengan aplikasi lain, seperti Microsoft Dynamics 365 Field Service. Berikut ialah senarai entiti yang anda mungkin perlu gunakan apabila anda melaporkan tentang sumber projek:
+Sumber projek menggunakan entiti **Sumber Boleh Ditempah** daripada Universal Resource Scheduling (URS) yang dikongsi dengan aplikasi lain, seperti Microsoft Dynamics 365 Field Service. Berikut ialah senarai entiti yang anda mungkin perlu gunakan apabila anda melaporkan tentang sumber projek:
 
 - **Sumber Boleh Ditempah** – Entiti ini mewakili pengguna, kenalan, sumber generik, akaun, kumpulan atau peralatan yang digunakan pada pasukan projek.
 - **Ciri Sumber Boleh Ditempah** – Entiti ini termasuk kemahiran, persijilan atau pendidikan sumber. Ciri boleh mempunyai nilai penarafan yang ditakrifkan oleh model penarafan.
