@@ -9,38 +9,41 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: c4e2f441e1c4b1bcba5bca292b8075b4334a004d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764920"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276584"
 ---
-# <a name="expense-home-page"></a><span data-ttu-id="fda56-103">Halaman utama perbelanjaan</span><span class="sxs-lookup"><span data-stu-id="fda56-103">Expense home page</span></span>
+# <a name="expense-home-page"></a><span data-ttu-id="d11e9-103">Halaman utama perbelanjaan</span><span class="sxs-lookup"><span data-stu-id="d11e9-103">Expense home page</span></span>
 
-<span data-ttu-id="fda56-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="fda56-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="d11e9-104">_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_</span><span class="sxs-lookup"><span data-stu-id="d11e9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="fda56-105">Dynamics 365 Project Operations menyokong keupayaan untuk memproses perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="fda56-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="fda56-106">Pemprosesan perbelanjaan berlaku dengan atau tanpa projek menggunakan aliran kerja yang boleh disesuaikan bagi dasar, kategori transaksi dan kelulusan.</span><span class="sxs-lookup"><span data-stu-id="fda56-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
+<span data-ttu-id="d11e9-105">Dynamics 365 Project Operations menyokong keupayaan untuk memproses perbelanjaan.</span><span class="sxs-lookup"><span data-stu-id="d11e9-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="d11e9-106">Pemprosesan perbelanjaan berlaku dengan atau tanpa projek menggunakan aliran kerja yang boleh disesuaikan bagi dasar, kategori transaksi dan kelulusan.</span><span class="sxs-lookup"><span data-stu-id="d11e9-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
 
-<span data-ttu-id="fda56-107">Dalam Project Operations, Terdapat dua model pelaksanaan yang disokong untuk Perbelanjaan:</span><span class="sxs-lookup"><span data-stu-id="fda56-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
+<span data-ttu-id="d11e9-107">Dalam Project Operations, Terdapat dua model pelaksanaan yang disokong untuk Perbelanjaan:</span><span class="sxs-lookup"><span data-stu-id="d11e9-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
 
-- <span data-ttu-id="fda56-108">**Penuh**: Pelaksanaan penuh tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** atau **Project Operations untuk senario berasaskan pesanan pengeluaran**.</span><span class="sxs-lookup"><span data-stu-id="fda56-108">**Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.</span></span>
-- <span data-ttu-id="fda56-109">**Asas**: Pelaksanaan asas tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** dan **Pelaksanaan Lite – berurusan dengan penginvoisan proforma**.</span><span class="sxs-lookup"><span data-stu-id="fda56-109">**Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
+- <span data-ttu-id="d11e9-108">**Penuh**: Pelaksanaan penuh tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** atau **Project Operations untuk senario berasaskan pesanan pengeluaran**.</span><span class="sxs-lookup"><span data-stu-id="d11e9-108">**Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.</span></span>
+- <span data-ttu-id="d11e9-109">**Asas**: Pelaksanaan asas tersedia untuk **Project Operations untuk senario berasaskan sumber/bukan stok** dan **Pelaksanaan Lite – berurusan dengan penginvoisan proforma**.</span><span class="sxs-lookup"><span data-stu-id="d11e9-109">**Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
 
-## <a name="full"></a><span data-ttu-id="fda56-110">Penuh</span><span class="sxs-lookup"><span data-stu-id="fda56-110">Full</span></span> 
-<span data-ttu-id="fda56-111">Pelaksanaan Perbelanjaan Penuh menyediakan penguatkuasaan dasar yang lengkap yang merangkumi keupayaan untuk mencipta dasar, seperti:</span><span class="sxs-lookup"><span data-stu-id="fda56-111">Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:</span></span>
+## <a name="full"></a><span data-ttu-id="d11e9-110">Penuh</span><span class="sxs-lookup"><span data-stu-id="d11e9-110">Full</span></span> 
+<span data-ttu-id="d11e9-111">Pelaksanaan Perbelanjaan Penuh menyediakan penguatkuasaan dasar yang lengkap yang merangkumi keupayaan untuk mencipta dasar, seperti:</span><span class="sxs-lookup"><span data-stu-id="d11e9-111">Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:</span></span>
 
-  - <span data-ttu-id="fda56-112">Had kategori perbelanjaan</span><span class="sxs-lookup"><span data-stu-id="fda56-112">Expense category limits</span></span>
-  - <span data-ttu-id="fda56-113">Pelancongan</span><span class="sxs-lookup"><span data-stu-id="fda56-113">Travel</span></span>
-  - <span data-ttu-id="fda56-114">Bagi sehari</span><span class="sxs-lookup"><span data-stu-id="fda56-114">Per diem</span></span>
-  - <span data-ttu-id="fda56-115">Import kad kredit</span><span class="sxs-lookup"><span data-stu-id="fda56-115">Credit card imports</span></span>
-  - <span data-ttu-id="fda56-116">Penerimaan pengecaman aksara optik</span><span class="sxs-lookup"><span data-stu-id="fda56-116">Receipt optical character recognition</span></span>
+  - <span data-ttu-id="d11e9-112">Had kategori perbelanjaan</span><span class="sxs-lookup"><span data-stu-id="d11e9-112">Expense category limits</span></span>
+  - <span data-ttu-id="d11e9-113">Pelancongan</span><span class="sxs-lookup"><span data-stu-id="d11e9-113">Travel</span></span>
+  - <span data-ttu-id="d11e9-114">Bagi sehari</span><span class="sxs-lookup"><span data-stu-id="d11e9-114">Per diem</span></span>
+  - <span data-ttu-id="d11e9-115">Import kad kredit</span><span class="sxs-lookup"><span data-stu-id="d11e9-115">Credit card imports</span></span>
+  - <span data-ttu-id="d11e9-116">Penerimaan pengecaman aksara optik</span><span class="sxs-lookup"><span data-stu-id="d11e9-116">Receipt optical character recognition</span></span>
 
-## <a name="basic"></a><span data-ttu-id="fda56-117">Asas</span><span class="sxs-lookup"><span data-stu-id="fda56-117">Basic</span></span> 
-<span data-ttu-id="fda56-118">Senario pelaksanaan Perbelanjaan Asas hanya membenarkan anda untuk merekodkan perbelanjaan asas ke atas projek.</span><span class="sxs-lookup"><span data-stu-id="fda56-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
+## <a name="basic"></a><span data-ttu-id="d11e9-117">Asas</span><span class="sxs-lookup"><span data-stu-id="d11e9-117">Basic</span></span> 
+<span data-ttu-id="d11e9-118">Senario pelaksanaan Perbelanjaan Asas hanya membenarkan anda untuk merekodkan perbelanjaan asas ke atas projek.</span><span class="sxs-lookup"><span data-stu-id="d11e9-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
 
-<span data-ttu-id="fda56-119">Untuk mendapatkan maklumat lanjut, lihat [Entri perbelanjaan (Lite)](basic-expense.md)</span><span class="sxs-lookup"><span data-stu-id="fda56-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
+<span data-ttu-id="d11e9-119">Untuk mendapatkan maklumat lanjut, lihat [Entri perbelanjaan (Lite)](basic-expense.md)</span><span class="sxs-lookup"><span data-stu-id="d11e9-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
 
-## <a name="determine-your-expense-deployment"></a><span data-ttu-id="fda56-120">Tentukan pelaksanaan Perbelanjaan anda</span><span class="sxs-lookup"><span data-stu-id="fda56-120">Determine your Expense deployment</span></span>
-<span data-ttu-id="fda56-121">Untuk menentukan sama ada anda akan menjalankan pelaksanaan pengurusan Perbelanjaan Asas, sahkan bahawa URL alamat berakhir dengan **.crm.dynamics.com**.</span><span class="sxs-lookup"><span data-stu-id="fda56-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
+## <a name="determine-your-expense-deployment"></a><span data-ttu-id="d11e9-120">Tentukan pelaksanaan Perbelanjaan anda</span><span class="sxs-lookup"><span data-stu-id="d11e9-120">Determine your Expense deployment</span></span>
+<span data-ttu-id="d11e9-121">Untuk menentukan sama ada anda akan menjalankan pelaksanaan pengurusan Perbelanjaan Asas, sahkan bahawa URL alamat berakhir dengan **.crm.dynamics.com**.</span><span class="sxs-lookup"><span data-stu-id="d11e9-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
