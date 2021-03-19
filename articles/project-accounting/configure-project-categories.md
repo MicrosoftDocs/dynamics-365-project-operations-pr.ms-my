@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131939"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287519"
 ---
 # <a name="configure-project-categories"></a>Konfigurasi kategori projek
 
@@ -37,7 +37,7 @@ Kategori transaksi ditakrifkan dalam modul Operasi Projek.
 
 ## <a name="shared-categories"></a>Kategori dikongsi
 
-Dynamics 365 menggunakan konsep kategori dikongsi untuk categorize perbelanjaan dalam aplikasi yang berbeza, seperti Dynamics 365 Finance, rantaian bekalan Dynamics 365 dan Operasi Projek Dynamics 365. Bagi setiap kategori transaksi yang dicipta, Operasi Projek secara automatik mencipta empat kategori dikongsi yang berkaitan: Jam, Perbelanjaan, Yuran dan Item. Anda boleh menyemak dan melaraskan kategori dikongsi dengan pergi ke kategori **Pengurusan projek dan tetapan perakaunan** \> **Tetapan** \> **Kategori** \> **Kategori Dikongsi**.
+Dynamics 365 menggunakan konsep kategori Dikongsi untuk mengkategorikan perbelanjaan dalam aplikasi yang berbeza, seperti Dynamics 365 Finance, Dynamics 365 Supply Chain dan Dynamics 365 Project Operations. Bagi setiap kategori transaksi yang dicipta, Operasi Projek secara automatik mencipta empat kategori dikongsi yang berkaitan: Jam, Perbelanjaan, Yuran dan Item. Anda boleh menyemak dan melaraskan kategori dikongsi dengan pergi ke kategori **Pengurusan projek dan tetapan perakaunan** \> **Tetapan** \> **Kategori** \> **Kategori Dikongsi**.
 
 ## <a name="project-categories"></a>Kategori produk
 

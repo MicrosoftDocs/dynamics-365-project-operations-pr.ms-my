@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286619"
 ---
 # <a name="project-tracking-overview"></a>Gambaran keseluruhan penjejakan projek
 
@@ -23,9 +23,9 @@ Keperluan untuk menjejaki kemajuan terhadap jadual berbeza-beza mengikut industr
 
 ## <a name="effort-tracking-view"></a>Pandangan penjejakan usaha
 
-Pandangan **Penjejakan usaha** menjejaki kemajuan tugas dalam jadual dengan membandingkan jam usaha sebenar yang diluangkan pada tugas dengan jam usaha tugas yang dirancang. Dynamics 365 Project Operations menggunakan formula yang berikut untuk mengira metrik penjejakan:
+Pandangan **Penjejakan usaha** menjejaki kemajuan tugas dalam jadual dengan membandingkan jam usaha sebenar yang diluangkan pada tugas dengan jam usaha tugas yang dirancang. Dynamics 365 Project Operations menggunakan formula berikut untuk mengira metrik penjejakan:
 
-- **Peratusan kemajuan**:  Usaha sebenar diluangkan sehingga kini ÷ Anggaran ketika selesai (EAC) 
+- **Peratusan kemajuan**: Usaha sebenar diluangkan sehingga kini ÷ Anggaran ketika selesai (EAC) 
 - **Anggaran untuk selesai (ETC)**: Usaha dirancang – Usaha sebenar diluangkan sehingga kini 
 - **EAC**: Usaha selebihnya + Usaha sebenar diluangkan sehingga kini 
 - **Varians usaha yang diunjurkan**: Usaha dirancang – EAC

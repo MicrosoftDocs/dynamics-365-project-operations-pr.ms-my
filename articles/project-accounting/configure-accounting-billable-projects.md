@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131984"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287654"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurasi perakaunan untuk projek boleh dibil
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations menyokong pelbagai pilihan perakaunan untuk projek boleh dibilkan yang termasuk masa dan bahan serta transaksi harga tetap.
+Dynamics 365 Project Operations menyokong pelbagai pilihan perakaunan untuk projek boleh dibilkan yang merangkumi masa dan bahan serta transaksi harga tetap.
 
 - **Transaksi masa dan bahan** : Transaksi ini diinvoiskan semasa kerja sedang berjalan berdasarkan penggunaan jam, perbelanjaan, barangan atau yuran pada projek. Kos transaksi boleh dipadankan dengan hasil pada setiap transaksi dan projek diinvoiskan apabila kerja berjalan. Hasil projek boleh juga diakrukan pada masa transaksi berlaku. Semasa penginvoisan, hasil dikenal pasti dan jika berkenaan, pendapatan terakru dibalikkan.
 - **Transaksi harga tetap**: Transaksi ini diinvoiskan mengikut jadual pengebilan yang berdasarkan kontrak projek. Hasil bagi transaksi harga tetap boleh dikenal pasti pada penginvoisan atau dikira dan disiarkan secara berkala, mengikut kaedah **Kontrak selesai** atau **Peratusan selesai**.

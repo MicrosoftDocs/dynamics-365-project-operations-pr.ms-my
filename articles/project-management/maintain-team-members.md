@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286844"
 ---
 # <a name="maintain-team-members"></a>Mengekalkan ahli pasukan
 
@@ -21,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Anda boleh menambahkan sumber yang dinamakan kepada pasukan projek anda dengan menempahnya secara langsung ke pasukan.
 
-1. Dalam Dynamics 365 Project Operations, pergi ke **Projek** dan pilih buka projek yang ditempah untuk anda.
+1. Dalam Dynamics 365 Project Operations, pergi ke **Projek** dan pilih buka projek yang anda tempah.
 2. Pada halaman **Projek**, pada tab **Pasukan**, pilih **Baharu**. 
 3. Dalam kotak dialog **Ahli Pasukan Projek Cipta Pantas**, pilih sumber boleh ditempah. Medan **Peranan** akan mengisi peranan lalai sumber jika mereka mempunyai satu yang ditugaskan. Anda boleh mengubah peranan. 
 4. Pilih tarikh dari dan hingga yang diperlukan oleh sumber dan pilih kaedah peruntukan bagi kapasiti sumber. 

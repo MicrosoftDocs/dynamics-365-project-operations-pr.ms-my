@@ -1,6 +1,6 @@
 ---
 title: Anggarkan gambaran keseluruhan projek
-description: Topik ini menyediakan maklumat tentang anggaran dalam Dynamics 365 Project Operations.
+description: Topik ini memberikan maklumat tentang anggaran dalam Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286889"
 ---
 # <a name="estimate-projects-overview"></a>Anggarkan gambaran keseluruhan projek
 
@@ -21,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Pada sebut harga berasaskan projek, anda boleh menggunakan entiti **Butiran baris sebut harga** untuk menganggarkan kerja yang diperlukan bagi menghantar projek. Kemudian, anda boleh berkongsi anggaran tersebut dengan pelanggan.
 
-Baris sebut harga berasaskan projek boleh mempunyai sifar hingga banyak butiran baris sebut harga. Butiran baris sebut harga digunakan untuk menganggarkan masa, perbelanjaan atau yuran. Microsoft Dynamics 365 Project Operations tidak membenarkan anggaran bahan pada butiran baris sebut harga. Ini dipanggil kelas transaksi. Anggaran amaun cukai boleh juga dimasukkan dalam kelas transaksi.
+Baris sebut harga berasaskan projek boleh mempunyai sifar hingga banyak butiran baris sebut harga. Butiran baris sebut harga digunakan untuk menganggarkan masa, perbelanjaan atau yuran. Microsoft Dynamics 365 Project Operations tidak membenarkan anggaran bahan ke atas butiran baris sebut harga. Ini dipanggil kelas transaksi. Anggaran amaun cukai boleh juga dimasukkan dalam kelas transaksi.
 
 Selain daripada kelas transaksi, butiran baris sebut harga mempunyai jenis transaksi. Dua jenis transaksi disokong untuk butiran baris sebut harga, **Kos** dan **Kontrak Projek**.
 

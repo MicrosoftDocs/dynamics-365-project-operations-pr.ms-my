@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287429"
 ---
 # <a name="create-intercompany-transactions"></a>Cipta transaksi antara syarikat
 
@@ -69,7 +69,7 @@ Siti Fatimah Samsuddin, pembangun yang digunakan dalam GBPM merekodkan 10 jam be
     5. Cipta projek baharu dan kaitkan dengan baris kontrak ini.
 4. Daftar masuk sebagai sumber, **Siti Fatimah Samsuddin**. Pergi ke **Projek** > **Entri masa** dan cipta entri masa untuk projek Adventure Works.
 5. Daftar masuk sebagai Pengurus Projek. Pergi ke **Projek** > **Kelulusan** dan luluskan transaksi entri masa yang dilog oleh Siti Fatimah Samsuddin.
-6. Navigasi ke projek Adventure Works dan pilih **Berkaitan** > **Aktual**. Transaksi aktual berikut dicipta.
+6. Navigasi ke projek Adventure Works dan piliht **Berkaitan** > **Aktual**. Transaksi aktual berikut dicipta.
 
 | **Jenis transaksi** | **Harga** | **Mata wang transaksi** | **Amaun** |
 | --- | --- | --- | --- |
