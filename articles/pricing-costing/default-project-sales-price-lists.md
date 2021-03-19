@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130949"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275594"
 ---
 # <a name="default-price-lists"></a>Senarai harga lalai
 
@@ -21,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 ## <a name="sales-price-lists"></a>Senarai harga jualan
 
-Setiap sebut harga dan kontrak projek dalam Dynamics 365 Project Operations mengandungi senarai harga jualan lalai. 
+Setiap sebut harga projek dan kontrak dalam Dynamics 365 Project Operations mengandungi senarai harga jualan lalai. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Senarai harga dijadikan lalai pada sebut harga projek
 Sistem akan melengkapkan proses berikut untuk menentukan senarai harga untuk dijadikan lalai pada sebut harga projek:

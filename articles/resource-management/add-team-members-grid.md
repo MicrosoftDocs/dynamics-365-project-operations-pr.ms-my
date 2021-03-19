@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121544"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280094"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Tambah ahli pasukan daripada grid ahli Pasukan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations merangkumi papan pemuka Pengurus sumber yang memberikan gambaran keseluruhan visual bagi permintaan dan penggunaan sumber di seluruh organisasi. Anda boleh menggunaan carta pada papan pemuka ini untuk visualisasikan maklumat berikut:
+Dynamics 365 Project Operations memasukkan papan pemuka pengurus Sumber yang memberikan gambaran keseluruhan visual bagi permintaan dan penggunaan sumber di seluruh organisasi. Anda boleh menggunaan carta pada papan pemuka ini untuk visualisasikan maklumat berikut:
 
 - **Permintaan sumber**: Carta **Permintaan Sumber Aktif** menunjukkan sumber yang telah diserahkan. Sumber diagregatkan sama ada melalui peranan atau projek.
 - **Permintaan sumber belum diserahkan** – Carta **Permintaan Sumber Belum Ditugaskan** menunjukkan semua keperluan sumber yang belum diserahkan. Carta ini membantu Pengurus sumber melihat permintaan yang tidak tetap dan mungkin dihantar melalui permintaan sumber.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180967"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272444"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Maklumat ringkasan tentang sebut harga projek - ringan
 
@@ -21,7 +21,7 @@ _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 Artikel ini menerangkan tentang maklumat yang berkaitan dengan sebut harga projek. Ini termasuk tetapan yang memberi kesan kepada semua baris sebut harga, dan maklumat mengenai sebut harga yang diringkaskan merentasi semua item baris untuk memacu KPI sebut harga projek.
 
-Jadual berikut menyenaraikan medan maklumat ringkasan berkenaan sebut harga projek yang unik untuk Operasi Projek Dynamics 365 atau mempunyai beberapa perubahan penting dalam tingkah laku daripada sebut harga Dynamics 365 Sales.
+Jadual berikut menyenaraikan medan maklumat ringkasan pada sebut harga projek yang unik kepada Dynamics 365 Project Operations atau mempunyai beberapa perubahan penting dalam tingkah laku daripada sebut harga Dynamics 365 Sales.
 
 | **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271004"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mengimplemen medan tersuai untuk aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet pada iOS dan Android
 
@@ -61,11 +61,11 @@ Sifat **FieldBaseType** pada objek **TsTimesheetCustom** menentukan jenis medan 
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Jika sifat **stringOptions** disediakan pada objek **TSTimesheetCustomField** , medan teks bebas disediakan kepada pengguna.
+- Jika sifat **stringOptions** disediakan pada objek **TSTimesheetCustomField**, medan teks bebas disediakan kepada pengguna.
 
     Sifat **stringLength** boleh digunakan untuk menetapkan panjang rentetan maksimum yang boleh dimasukkan oleh pengguna.
 
-- Jika sifat **stringOptions** disediakan pada objek **TSTimesheetCustomField** , elemen senarai itu adalah hanya nilai yang boleh dipilih oleh pengguna dengan menggunakan butang pilihan (butang radio).
+- Jika sifat **stringOptions** disediakan pada objek **TSTimesheetCustomField**, elemen senarai itu adalah hanya nilai yang boleh dipilih oleh pengguna dengan menggunakan butang pilihan (butang radio).
 
     Dalam kes ini, medan rentetan boleh bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke pangkalan data sebagai enum, petakan nilai rentetan secara manual sebelum anda menyimpan ke pangkalan data dengan menggunakan rantaian perintah (lihat bahagian “Gunakan rantaian perintah pada kelas TSTimesheetEntryService untuk menyimpan semula entri lembaran masa daripada aplikasi ke pangkalan data” kemudian dalam topik ini sebagai contoh).
 
@@ -125,31 +125,31 @@ Sifat ini mengawal pesanan bagi medan tersuai yang ditunjukkan dalam aplikasi ap
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Untuk medan jenis **Boolean** , sifat ini menyerahkan nilai Boolean medan antara pelayan dan aplikasi.
+Untuk medan jenis **Boolean**, sifat ini menyerahkan nilai Boolean medan antara pelayan dan aplikasi.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Untuk medan jenis **GUID** , sifat ini menyerahkan nilai pengecam unik sejagat (GUID) medan antara pelayan dan aplikasi.
+Untuk medan jenis **GUID**, sifat ini menyerahkan nilai pengecam unik sejagat (GUID) medan antara pelayan dan aplikasi.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Untuk medan jenis **Int64** , sifat ini menyerahkan nilai Int64 medan antara pelayan dan aplikasi.
+Untuk medan jenis **Int64**, sifat ini menyerahkan nilai Int64 medan antara pelayan dan aplikasi.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Untuk medan jenis **Int** , sifat ini menyerahkan nilai Int medan antara pelayan dan aplikasi.
+Untuk medan jenis **Int**, sifat ini menyerahkan nilai Int medan antara pelayan dan aplikasi.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Untuk medan jenis **Nyata** , sifat ini menyerahkan nilai nyata medan antara pelayan dan aplikasi.
+Untuk medan jenis **Nyata**, sifat ini menyerahkan nilai nyata medan antara pelayan dan aplikasi.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Untuk medan jenis **Rentetan** , sifat ini menyerahkan nilai rentetan medan antara pelayan dan aplikasi. Ianya juga digunakan untuk medan jenis **Nyata** diformat sebagai mata wang. Untuk medan itu, sifat digunakan untuk menyerahkan kod mata wang ke aplikasi.
+Untuk medan jenis **Rentetan**, sifat ini menyerahkan nilai rentetan medan antara pelayan dan aplikasi. Ianya juga digunakan untuk medan jenis **Nyata** diformat sebagai mata wang. Untuk medan itu, sifat digunakan untuk menyerahkan kod mata wang ke aplikasi.
 
 ### <a name="datevalue-date"></a>dateValue (tarikh)
 
-Untuk medan jenis **Tarikh** , sifat ini menyerahkan nilai tarikh medan antara pelayan dan aplikasi.
+Untuk medan jenis **Tarikh**, sifat ini menyerahkan nilai tarikh medan antara pelayan dan aplikasi.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Tunjukkan dan simpan medan tersuai dalam bahagian entri lembaran masa
 
@@ -181,7 +181,7 @@ Kod ini mengawal tetapan paparan untuk medan dalam aplikasi. Contohnya, ia menga
 
 Contoh berikut menunjukkan medan rentetan pada entri masa. Medan ini mempunyai dua pilihan, **Pilihan pertama** dan **Pilihan kedua** yang tersedia melalui butang pilihan (butang radio). Medan dalam aplikasi berkaitan dengan medan **TestLineString** yang ditambahkan kepada jadual TSTimesheetLine.
 
-Ambil perhatian bahawa penggunaan kaedah **TSTimesheetCustomField::newFromMetatdata()** adalah untuk memudahkan permulaan sifat medan tersuai: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** , dan **numberOfDecimals**. Anda juga boleh menetapkan parameter secara manual mengikut kemahuan anda.
+Ambil perhatian bahawa penggunaan kaedah **TSTimesheetCustomField::newFromMetatdata()** adalah untuk memudahkan permulaan sifat medan tersuai: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength**, dan **numberOfDecimals**. Anda juga boleh menetapkan parameter secara manual mengikut kemahuan anda.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Untuk menyimpan semula medan tersuai ke pangkalan data dalam penggunaan biasa, a
 - Kaedah **populateTimesheetWeekFromEntry** boleh juga dilanjutkan jika medan tersuai dipetakan ke objek **TSTimesheetEntry** mesti ditulis semula ke jadual pangkalan data TSTimesheetLineweek.
 
 > [!NOTE]
-> Contoh berikut menyimpan nilai **firstOption** atau **secondOption** yang dipilih oleh pengguna ke pangkalan data sebagai nilai rentetan mentah. Jika medan pangkalan data adalah medan jenis **Enum** , nilai itu boleh dipetakan secara manual kepada nilai enum dan kemudian disimpan ke medan enum pada jadual pangkalan data.
+> Contoh berikut menyimpan nilai **firstOption** atau **secondOption** yang dipilih oleh pengguna ke pangkalan data sebagai nilai rentetan mentah. Jika medan pangkalan data adalah medan jenis **Enum**, nilai itu boleh dipetakan secara manual kepada nilai enum dan kemudian disimpan ke medan enum pada jadual pangkalan data.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Logik sedia ada untuk kefungsian lembaran masa pada peringkat pangkalan data aka
 
 - Jika **validateWrite** pada jadual TSTimesheetLine mengembalikan **palsu** semasa operasi simpan untuk baris lembaran masa, message ralat ditunjukkan dalam aplikasi mudah alih.
 - Jika **validateSubmit** pada jadual TSTimesheetTable mengembalikan **palsu** semasa operasi penyerahan dalam aplikasi, message ralat ditunjukkan kepada pengguna.
-- Logik yang diisi dalam medan (contohnya, **Sifat Baris** ) semasa kaedah **sisip** pada jadual TSTimesheetLine akan masih berjalan.
+- Logik yang diisi dalam medan (contohnya, **Sifat Baris**) semasa kaedah **sisip** pada jadual TSTimesheetLine akan masih berjalan.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Menyembunyi dan menanda medan di luar kotak sebagai baca sahaja melalui konfigurasi
 

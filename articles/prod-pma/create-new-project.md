@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081363"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270734"
 ---
 # <a name="create-a-new-project"></a>Cipta projek baharu
 
@@ -31,7 +31,7 @@ ms.locfileid: "4081363"
 
 Lengkapkan langkah berikut untuk mencipta projek baharu.
 
-1. Pada halaman **Pengurusan projek** , pilih **Projek baharu** , dan masukkan nilai berikut:
+1. Pada halaman **Pengurusan projek**, pilih **Projek baharu**, dan masukkan nilai berikut:
 
     - **Jenis projek:** Masa dan bahan
     - **Nama projek:** Naik taraf XYZ Fasa 2
@@ -42,10 +42,10 @@ Lengkapkan langkah berikut untuk mencipta projek baharu.
 
 ## <a name="assign-a-resource-to-a-project"></a>Tugaskan sumber kepada projek
 
-1. Pada halaman **Pekerja** , dalam senarai **Pekerja** , pilih rekod untuk pekerja yang sebelum ini anda sediakan kecekapan, dan buka rekod pekerja.
-2. Pada Anak Tetingkap Tindakan, pada tab **Projek** , dalam kumpulan **Persediaan** , pilih **Tugaskan projek**.
-3. Pada halaman **Tugasan projek pengesahan sumber** , pada tab **Projek** , dalam medan **Tambah projek ke projek dipilih** , tapis pada projek **Naik taraf XYZ Fasa 2**.
-4. Dalam anak tetingkap **Baki projek** , pilih projek, dan kemudian pilih butang anak panah untuk menambahnya ke anak tetingkap **Projek dipilih**.
+1. Pada halaman **Pekerja**, dalam senarai **Pekerja**, pilih rekod untuk pekerja yang sebelum ini anda sediakan kecekapan, dan buka rekod pekerja.
+2. Pada Anak Tetingkap Tindakan, pada tab **Projek**, dalam kumpulan **Persediaan**, pilih **Tugaskan projek**.
+3. Pada halaman **Tugasan projek pengesahan sumber**, pada tab **Projek**, dalam medan **Tambah projek ke projek dipilih**, tapis pada projek **Naik taraf XYZ Fasa 2**.
+4. Dalam anak tetingkap **Baki projek**, pilih projek, dan kemudian pilih butang anak panah untuk menambahnya ke anak tetingkap **Projek dipilih**.
 
 Anda juga boleh tugaskan kategori untuk sumber yang anda perlukan. Jenis kategori ialah sama ada **Kos** atau **Hasil**. Jenis kategori adalah ditentukan oleh organisasi anda. Jika tiada kategori ditugaskan untuk sumber, Kewangan mencari kategori lalai pada harga jam bagi kos dan hasil.
 
@@ -59,26 +59,26 @@ Pengurus projek boleh menggunakan kefungsian penyumberan projek untuk mencipta p
 
 Langkah berikut menunjukkan cara resource manager boleh menyediakan peranan Pengurus projek kanan dan kaitkan ciri sumber dengannya. Kemudian, peranan boleh digunakan untuk carian sumber tersedia yang sepadan dengan kecekapan sumber yang diperlukan.
 
-1. Pada halaman **Peranan persediaan** , pilih **Baharu** , dan masukkan nilai berikut:
+1. Pada halaman **Peranan persediaan**, pilih **Baharu**, dan masukkan nilai berikut:
 
     - **ID peranan:** Pengurus Projek Kanan
     - **Perihalan** Pengurus Projek Kanan
 
 2. Pilih **Cipta**.
-3. Pilih peranan **Pengurus Projek Kanan** , dan kemudian pilih **Ciri konfigurasi**.
-4. Dalam medan **Jenis ciri** , pilih **Kemahiran**.
-5. Dalam medan **Ciri tersedia** , masukkan kemahiran untuk carian.
-6. Dalam medan **Jenis ciri** , pilih **Sijil**.
-7. Dalam medan **Ciri tersedia** , masukkan jenis sijil untuk carian.
+3. Pilih peranan **Pengurus Projek Kanan**, dan kemudian pilih **Ciri konfigurasi**.
+4. Dalam medan **Jenis ciri**, pilih **Kemahiran**.
+5. Dalam medan **Ciri tersedia**, masukkan kemahiran untuk carian.
+6. Dalam medan **Jenis ciri**, pilih **Sijil**.
+7. Dalam medan **Ciri tersedia**, masukkan jenis sijil untuk carian.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Tugaskan sumber projek kepada projek
 
-1. Pada halaman **Semua projek** , pilih projek **Naik taraf XYZ Fasa 2**.
-2. Pada tab **Pasukan projek dan penjadualan** , pilih **Tambah**.
-3. Dalam medan **Peranan** , pilih **Ahli pasukan**.
+1. Pada halaman **Semua projek**, pilih projek **Naik taraf XYZ Fasa 2**.
+2. Pada tab **Pasukan projek dan penjadualan**, pilih **Tambah**.
+3. Dalam medan **Peranan**, pilih **Ahli pasukan**.
 4. Pilih **Tempah daripada kalendar**.
-5. Pada halaman **Ketersediaan sumber** , pilih **Pandangan tetapan**.
-6. Pada halaman **Laraskan pandangan tetapan** , masukkan nilai berikut:
+5. Pada halaman **Ketersediaan sumber**, pilih **Pandangan tetapan**.
+6. Pada halaman **Laraskan pandangan tetapan**, masukkan nilai berikut:
 
     - **Format untuk tarikh pandangan julat:** Hari
     - **Paparan perihalan ketersediaan:** Ya
@@ -95,15 +95,15 @@ Semasa tempahan sumber, pengurus projek boleh menapis sumber peranan yang tersed
 
 **Senario:** Projek yang diluluskan telah dimulakan, dan peranan Pengurus projek kanan telah diperuntukkan sebagai sumber yang dirancang semasa peringkat perancangan projek. Resource manager kini telah memperolehi sumber untuk memenuhi peranan Pengurus projek kanan.
 
-1. Pada halaman **Senarai sumber** , pilih **Daniel Goldschmidt**.
-2. Pada halaman **Peranan sumber** , pilih **Baharu** , dan masukkan nilai berikut:
+1. Pada halaman **Senarai sumber**, pilih **Daniel Goldschmidt**.
+2. Pada halaman **Peranan sumber**, pilih **Baharu**, dan masukkan nilai berikut:
 
     - **Berkuat kuasa:** Masukkan tarikh semasa.
     - **Tamat tempoh:** Masukkan **Jangan sekali-kali**.
     - **Peranan:** Masukkan **Pengurus Projek Kanan**.
 
-3. Pilih **Simpan** , dan kemudian tutup halaman.
-4. Pada tab **Kecekapan** , tambah kemahiran **ProjectMgmt** dan sijil **PMP**.
+3. Pilih **Simpan**, dan kemudian tutup halaman.
+4. Pada tab **Kecekapan**, tambah kemahiran **ProjectMgmt** dan sijil **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

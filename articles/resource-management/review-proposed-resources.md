@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401184"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279284"
 ---
 # <a name="review-proposed-resources"></a>Semak sumber yang dicadangkan
 
@@ -58,7 +58,7 @@ Papan Jadual menggunakan warna dan pembayangan untuk menunjukkan penempahan, ket
 
 Jika anak panah tunjuk sebelah kanan muncul di sebelah sumber boleh ditempah individu pada Papan Jadual, sumber itu dapat dikembangkan untuk menunjukkan butiran kerja yang digunakan oleh sumber tersebut.
 
-Oleh kerana Dynamics 365 Project Operations menggunakan enjin Universal Resource Scheduling, jika anda juga dipasang dengan Dynamics 365 Field Service, anda boleh melihat butiran tempahan sumber untuk projek, pesanan kerja dan sebarang entiti lain yang anda telah lanjutkan penjadualannya.
+Kerana Dynamics 365 Project Operations menggunakan enjin Universal Resource Scheduling, jika anda juga telah Dynamics 365 Field Service dipasang, anda boleh melihat butiran daripada penempahan sumber untuk projek, pesanan kerja dan sebarang entiti lain yang anda telah melanjutkan penjadualan.
 
 Untuk melihat lebih banyak butiran mengenai sumber individu, klik kanan padanya untuk membuka kad sumber.
 

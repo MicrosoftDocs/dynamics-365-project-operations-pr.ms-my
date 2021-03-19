@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124649"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277169"
 ---
 # <a name="extending-time-entries"></a>Melanjutkan entri masa
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Operasi Projek Dynamics 365 termasuk kawalan tersuai kemasukan masa yang boleh dipanjangkan. Kawalan ini termasuk ciri-ciri berikut:
+Dynamics 365 Project Operations termasuk kawalan tersuai entri masa yang boleh dilanjutkan. Kawalan ini termasuk ciri-ciri berikut:
 
 - Masukkan masa secara mendatar selama seminggu
 - Jumlah mengikut hari, baris atau minggu

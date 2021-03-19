@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118484"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277844"
 ---
 # <a name="manage-project-based-opportunities"></a>Urus peluang berasaskan projek
 
@@ -21,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Syarikat berasaskan projek biasanya mempunyai operasi mereka untuk penghantaran tersebar merentasi berbilang negara dan di seluruh dunia. Kos pelaksanaan projek dan penghantaran mungkin berbeza mengikut geografi atau divisyen yang menguruskan penghantaran. Seterusnya, ini boleh memberi kesan pada margin urusan. Penghantaran perkhidmatan berasaskan projek biasanya melibatkan kuantiti masa sumber manusia yang lama, perbelanjaan untuk perjalanan, kos bahan dan perbelanjaan lain yang agak besar.
 
-Peluang berasaskan projek dalam Dynamics 365 Project Operations direka dengan sambungan untuk Dynamics 365 Sales. Topik ini memberikan butiran tentang medan dan logik perniagaan yang berbeza termasuk dalam fungsian tambahan yang diperlukan oleh syarikat berasaskan projek untuk menguruskan peluang berasaskan projek.
+Peluang berasaskan projek dalam Dynamics 365 Project Operations ialah direka bentuk dengan lanjutan kepada Dynamics 365 Sales. Topik ini memberikan butiran tentang medan dan logik perniagaan yang berbeza termasuk dalam fungsian tambahan yang diperlukan oleh syarikat berasaskan projek untuk menguruskan peluang berasaskan projek.
 
 ## <a name="view-all-project-based-opportunities"></a>Lihat semua peluang berasaskan projek
 

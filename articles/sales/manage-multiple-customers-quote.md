@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277889"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Urus berbilang pelanggan pada sebut harga projek
 
@@ -23,7 +23,7 @@ Sebut harga projek menyokong senario bagi cadangan melibatkan berbilang pelangga
 
 Semua pelanggan sebut harga pada tab **Pelanggan** sebut harga projek dilalaikan sebagai pelanggan baris sebut harga pada sebarang baris sebut harga berasaskan projek **baharu** yang dicipta untuk sebut harga. Sebarang baris sebut harga berasaskan projek sedia ada tidak akan mewarisi rekod pelanggan sebut harga baharu yang dicipta selepasnya.
 
-Pelanggan sebut harga dan pelanggan baris sebut harga boleh ditambah, dikemas kini atau dipadam pada bila-bila masa sebelum sebut harga dimenangi. Pelanggan yang sah pada sebut harga projek mesti ditetapkan sebagai pelanggan dalam syarikat Pemilik atau entiti undang-undang pada halaman **Pelanggan**. Entiti undang-undang ditetapkan dalam modul **Pengurusan projek dan perakaunan** Dynamics 365 Project Operations dan tersedia sebagai Syarikat dalam modul **Jualan dan penghantaran projek** bagi Project Operations.
+Pelanggan sebut harga dan pelanggan baris sebut harga boleh ditambah, dikemas kini atau dipadam pada bila-bila masa sebelum sebut harga dimenangi. Pelanggan yang sah pada sebut harga projek mesti ditetapkan sebagai pelanggan dalam syarikat Pemilik atau entiti undang-undang pada halaman **Pelanggan**. Entiti undang-undang disediakan dalam modul **Pengurusan dan perakauanan projek** bagi Dynamics 365 Project Operations dan tersedia sebagai Syarikat dalam modul **Jualan Projek dan Penghantaran** bagi Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Konsep pelanggan utama
 

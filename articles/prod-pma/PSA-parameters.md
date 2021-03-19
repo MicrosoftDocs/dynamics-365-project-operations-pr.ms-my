@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081368"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270914"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parameter integrasi Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Pada halaman **Parameter integrasi Project Service Automation** , anda boleh mengkonfigurasikan cara data lalai dimasukkan apabila anda mengintegrasikan Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Untuk projek berjaya disegerakkan daripada Project Service Automation ke Kewangan, anda mesti menetapkan medan berikut.
+Pada halaman **Parameter integrasi Project Service Automation**, anda boleh mengkonfigurasikan cara data lalai dimasukkan apabila anda mengintegrasikan Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Untuk projek berjaya disegerakkan daripada Project Service Automation ke Kewangan, anda mesti menetapkan medan berikut.
 
-Untuk membuka halaman **Parameter integrasi Project Service Automation** , pergi ke **Pengurusan dan perakaunan projek** \> **Persediaan** \> **Dynamics 365 for Project Service Automation parameter integrasi**. 
+Untuk membuka halaman **Parameter integrasi Project Service Automation**, pergi ke **Pengurusan dan perakaunan projek** \> **Persediaan** \> **Dynamics 365 for Project Service Automation parameter integrasi**. 
 
 > [!NOTE]
 > - Integrasi tugas projek, kategori transaksi perbelanjaan, anggaran jam, anggaran perbelanjaan dan penguncian fungsi tersedia dalam versi 8.0.

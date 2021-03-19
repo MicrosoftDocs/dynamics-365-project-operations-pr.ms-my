@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123884"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279509"
 ---
 # <a name="resource-management-key-concepts"></a>Konsep utama pengurusan sumber
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. Keupayaan untuk mencari dan menempah sumber yang betul pada masa yang betul, tempah sumber tersebut pada projek dan pastikan mereka digunakan, membantu organisasi memenuhi sasaran pendapatan dan matlamat kepuasan pelanggan. Anda boleh menggunakan fungsi penyumberan semula projek dalam Operasi Projek Dynamics 365 untuk melakukan tugas berikut:
+Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. Keupayaan untuk mencari dan menempah sumber yang betul pada masa yang betul, tempah sumber tersebut pada projek dan pastikan mereka digunakan, membantu organisasi memenuhi sasaran pendapatan dan matlamat kepuasan pelanggan. Anda boleh menggunakan fungsi persumberan projek dalam Dynamics 365 Project Operations untuk melakukan tugas yang berikut:
 
 - Borang pasukan projek mengikut tempahan yang sedia ada dan berkelayakan.
 - Cipta rekod ahli pasukan generik dan takrifkan unit peranan dan organisasi sumber.

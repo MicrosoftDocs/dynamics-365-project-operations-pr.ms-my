@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278519"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>Anggarkan baris kontrak berdasarkan projek
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_ 
 
-Dalam Dynamics 365 Project Operations, suatu baris kontrak berdasarkan projek mempunyai butiran yang membantu menganggarkan kos dan potensi pendapatan kerja yang terlibat untuk menyampaikan baris kontrak.
+Dalam Dynamics 365 Project Operations, baris kontrak berdasarkan projek mempunyai butiran yang membantu menganggarkan kos dan potensi pendapatan kerja yang terlibat untuk menyampaikan baris kontrak.
 
 Untuk menganggarkan baris kontrak berdasarkan projek, pergi ke tab **Butiran Baris Kontrak** pada **Baris Kontrak** berdasarkan projek.  Terdapat dua cara untuk mencipta anggaran pada baris kontrak berdasarkan projek:
 

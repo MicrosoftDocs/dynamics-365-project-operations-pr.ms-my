@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181553"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274057"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Urus invois proforma - ringan
 
@@ -28,7 +28,7 @@ Dalam Dynamics 365 Project Operations, invois proforma dibina sebagai sambungan 
 
 Maklumat berikut tersedia pada pengepala invois proforma dalam Project Operations.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | **ID Invois** | Tab **Ringkasan** | ID yang dijana secara automatik apabila invois proforma dicipta. Medan baca sahaja yang dikunci daripada pengeditan. | Medan ini digunakan sebagai rujukan bagi setiap invois proforma. |
 | **Nama** | Tab **Ringkasan** | Ditetapkan kepada nama kontrak projek secara lalai. Medan ini boleh diedit oleh pengguna. | &nbsp;  |
@@ -52,7 +52,7 @@ Maklumat berikut tersedia pada pengepala invois proforma dalam Project Operation
 
 Dalam Project Operations, sentiasa ada satu baris invois untuk setiap baris kontrak projek. Baris invois dicipta walaupun tiada aktual. Maklumat berikut tersedia pada baris invois proforma.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | **ID Invois** | Tab **Umum** | Rujukan kepada ID invois. Medan baca sahaja yang dikunci daripada pengeditan. | Pautan ID invois boleh digunakan untuk menavigasi kembali ke pengepala invois. |
 | **Nama** | Tab **Umum** | Nama baris invois ditetapkan secara lalai daripada nama baris kontrak. Medan ini boleh diedit oleh pengguna. | &nbsp; |
@@ -77,7 +77,7 @@ Untuk baris **Invois Harga Tetap**, butiran baris invois dicipta daripada pencap
 
 Medan berikut tersedia pada butiran baris invois yang disokong oleh aktual jualan yang belum dibilkan:
 
-| Medan | Penerangan  | Kesan hiliran |
+| Medan | Penerangan | Kesan hiliran |
 | --- | --- | --- |
 | **Baris invois** | Rujukan kepada **ID Baris Invois**. Medan baca sahaja dikunci untuk pengeditan. | Pautan ini boleh digunakan untuk menavigasi kembali ke pengepala invois. |
 | **Perihalan** | Perihalan butiran baris invois. Ditetapkan secara lalai daripada medan **Komen Dalaman** pada **Entri Masa** dan daripada medan **Perihalan** pada **Entri Perbelanjaan**. Medan boleh diedit oleh pengguna.| &nbsp; |
@@ -103,7 +103,7 @@ Medan berikut tersedia pada butiran baris invois yang disokong oleh aktual juala
 
 Medan berikut tersedia pada butiran baris invois yang disokong oleh pencapaian:
 
-| Medan | Penerangan  | Kesan hiliran |
+| Medan | Penerangan | Kesan hiliran |
 | --- | --- | --- |
 | **Baris invois** | Rujukan kepada **ID Baris Invois**. Medan baca sahaja yang dikunci daripada pengeditan. | Pautan boleh digunakan untuk menavigasi kembali ke pengepala invois. |
 | **Perihalan** | Perihalan butiran baris invois. Ditetapkan secara lalai daripada perihalan pencapaian sumber. | &nbsp; |

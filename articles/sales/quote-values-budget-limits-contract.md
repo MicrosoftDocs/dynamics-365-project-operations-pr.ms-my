@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180248"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277574"
 ---
 # <a name="project-quote-settings"></a>Tetapan sebut harga projek
 
@@ -22,7 +22,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Artikel ini menerangkan tentang maklumat yang berkaitan dengan sebut harga projek. Ini termasuk tetapan yang memberi kesan kepada semua baris sebut harga, dan maklumat mengenai sebut harga yang diringkaskan merentasi semua item baris untuk memacu KPI sebut harga projek.
 
-Jadual berikut menyenaraikan medan maklumat ringkasan berkenaan sebut harga projek yang unik untuk Operasi Projek Dynamics 365 atau mempunyai beberapa perubahan penting dalam tingkah laku daripada sebut harga Dynamics 365 Sales.
+Jadual berikut menyenaraikan medan maklumat ringkasan pada sebut harga projek yang unik kepada Dynamics 365 Project Operations atau mempunyai beberapa perubahan penting dalam tingkah laku daripada sebut harga Dynamics 365 Sales.
 
 | **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |

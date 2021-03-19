@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180293"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274919"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Sediakan kadar kos dan jualan untuk perbelanjaan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Anda boleh menetapkan kos dan harga jualan untuk kategori transaksi dalam Dynamics 365 Project Operations. Oleh kerana kos dan harga jualan direka untuk Perbelanjaan, setiap kategori transaksi yang merangkumi kos ini, mesti turut ditetapkan sebagai kategori perbelanjaan. Persediaan ini memastikan ketepatan dalam fungsi hiliran. Kos dan harga jualan untuk kategori transaksi hanya boleh disenaraikan dalam satu mata wang, yang mesti menjadi mata wang pada pengepala senarai harga.
+Anda boleh menetapkan harga kos dan jualan untuk kategori transaksi di Dynamics 365 Project Operations. Oleh kerana kos dan harga jualan direka untuk Perbelanjaan, setiap kategori transaksi yang merangkumi kos ini, mesti turut ditetapkan sebagai kategori perbelanjaan. Persediaan ini memastikan ketepatan dalam fungsi hiliran. Kos dan harga jualan untuk kategori transaksi hanya boleh disenaraikan dalam satu mata wang, yang mesti menjadi mata wang pada pengepala senarai harga.
 
 Untuk menyediakan kadar kos dan jualan untuk kategori transaksi, lengkapkan langkah-langkah berikut. 
 
@@ -29,7 +29,7 @@ Untuk menyediakan kadar kos dan jualan untuk kategori transaksi, lengkapkan lang
 
 Jadual berikut menyenaraikan medan pada tab **Umum** dan halaman **Cipta Pantas** bagi baris harga kategori yang perlu diingati apabila anda mencipta harga kategori pada senarai harga jualan atau kos.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Kategori Transaksi | Tab **Umum** dan halaman **Cipta Pantas** | Pilih kategori transaksi untuk harga jualan atau kos yang anda cipta. | Kategori transaksi pada anggaran atau sebenar yang masuk untuk Perbelanjaan akan dipadankan dengan baris ini untuk menetapkan kadar kos atau jualan lalai bagi kategori transaksi. |
 | Jadual Unit | Tab **Umum** dan halaman **Cipta Pantas** | Jadual unit lalai daripada jadual unit bagi kategori transaksi. | Tiada kesan hiliran daripada medan ini. |

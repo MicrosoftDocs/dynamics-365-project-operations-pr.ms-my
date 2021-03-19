@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128294"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273839"
 ---
 # <a name="confirm-a-project-contract"></a>Sahkan kontrak projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Kontrak projek dalam Dynamics 365 Project Operations boleh menjadi aktif dengan sebab **Disahkan**, atau ditutup dengan sebab **Hilang**. Apabila anda mengesahkan kontrak projek, kemas kini status daripada **Draf** kepada **Aktif** dan sebab status **Disahkan**. Kontrak aktif atau tertutup tidak boleh diedit atau dibuka semula. 
+Kontrak projek dalam Dynamics 365 Project Operations boleh aktif dengan sebab **Disahkan** atau ditutup dengan sebab **Hilang**. Apabila anda mengesahkan kontrak projek, kemas kini status daripada **Draf** kepada **Aktif** dan sebab status **Disahkan**. Kontrak aktif atau tertutup tidak boleh diedit atau dibuka semula. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Kesan kewangan kerana mengesahkan kontrak projek
 
@@ -34,7 +34,7 @@ Apabila anda menutup kontrak projek sebagai hilang, status kontrak dikemas kini 
 Jika kontrak projek yang ditutup sebagai hilang merujuk kepada projek pada barisnya, projek itu juga ditandakan sebagai ditutup. Sebarang tempahan sumber dari hari tersebut ke hadapan dibatalkan. Sebarang aktual jualan yang tidak dibilkan pada kontrak projek yang belum ada pada invois akan diterbalikkan.
 
 > [!NOTE]
-> Dalam Dynamics 365 Project Operations, menutup kontrak projek sebagai hilang tidak akan memberi kesan kepada peluang yang berkaitan. Peluang akan kekal terbuka dan mesti ditutup secara manual.
+> Dalam Dynamics 365 Project Operations, menutup kontrak projek sebagai hilang tidak akan memberi kesan kepada status peluang yang berkaitan. Peluang akan kekal terbuka dan mesti ditutup secara manual.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

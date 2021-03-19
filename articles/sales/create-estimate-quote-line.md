@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122939"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278474"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Cipta anggaran pada baris sebut harga
 
@@ -30,7 +30,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Pada sebut harga berasaskan projek, anda boleh menggunakan entiti butiran baris Sebut Harga untuk menganggarkan kerja yang diperlukan untuk menghantar projek. Kemudian, anda boleh berkongsi anggaran tersebut dengan pelanggan.
 
-Baris sebut harga berasaskan projek tidak perlu mempunyai butiran baris sebut harga. Secara alternatif, ia boleh mempunyai banyak butiran baris sebut harga. Butiran baris sebut harga digunakan untuk menganggarkan masa, perbelanjaan atau yuran. Dynamics 365 Project Operations tidak membenarkan untuk anggaran bahan pada butiran baris sebut harga. Ini dipanggil kelas transaksi. Anggaran amaun cukai boleh juga dimasukkan dalam kelas transaksi.
+Baris sebut harga berasaskan projek tidak perlu mempunyai butiran baris sebut harga. Secara alternatif, ia boleh mempunyai banyak butiran baris sebut harga. Butiran baris sebut harga digunakan untuk menganggarkan masa, perbelanjaan atau yuran. Dynamics 365 Project Operations tidak membenarkan anggaran bahan ke atas butiran baris sebut harga. Ini dipanggil kelas transaksi. Anggaran amaun cukai boleh juga dimasukkan dalam kelas transaksi.
 
 Selain daripada kelas transaksi, butiran baris sebut harga mempunyai jenis transaksi. Terdapat dua jenis transaksi untuk butiran baris sebut harga, **Kos** dan **Kontrak Projek**.
 

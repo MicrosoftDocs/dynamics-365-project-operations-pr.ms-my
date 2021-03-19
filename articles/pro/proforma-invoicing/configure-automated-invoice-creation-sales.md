@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274334"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Konfigurasi penciptaan invois automatik - ringan
  
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Anda boleh mengkonfigurasikan penciptaan invois automatik dalam Dynamics 365 Project Operations. Sistem mencipta invois draf proforma berdasarkan jadual invois untuk setiap kontrak projek dan baris kontrak. Jadual invois dikonfigurasikan pada peringkat baris kontrak. Setiap baris pada kontrak boleh mempunyai jadual invois yang berbeza, atau jadual invois yang sama boleh dimasukkan pada setiap baris kontrak.
+Anda boleh mengkonfigurasikan penciptaan invois dalam Dynamics 365 Project Operations. Sistem mencipta invois draf proforma berdasarkan jadual invois untuk setiap kontrak projek dan baris kontrak. Jadual invois dikonfigurasikan pada peringkat baris kontrak. Setiap baris pada kontrak boleh mempunyai jadual invois yang berbeza, atau jadual invois yang sama boleh dimasukkan pada setiap baris kontrak.
 
 Apabila anda mencipta invois, sistem sentiasa mencipta sekurang-kurangnya satu invois bagi setiap kontrak projek. Dalam sesetengah kes, mungkin terdapat berbilang invois yang dicipta.
 

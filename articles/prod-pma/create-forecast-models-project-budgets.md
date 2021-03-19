@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081364"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271049"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Cipta model ramalan untuk belanjawan projek 
 
@@ -39,11 +39,11 @@ Topik ini menerangkan cara untuk mencipta model ramalan untuk belanjawan selebih
 3. Tetapkan pilihan **Berhenti** kepada **Ya** untuk mengelakkan sebarang perubahan pada baris ramalan untuk model ramalan. 
 4. Jika baris ramalan yang dikaitkan dengan model tersebut sepatutnya menjana ramalan aliran tunai dalam lejar umum, tetapkan **Sertakan dalam Ramalan aliran tunai** kepada **Ya.** 
 5. Untuk menggunakan tarikh projek sebagai tarikh invois, tetapkan **Tarikh Invoice Ramalan** kepada **Ya**. 
-6. Dalam medan **Jenis belanjawan** , pilih salah satu daripada jenis model berikut:
+6. Dalam medan **Jenis belanjawan**, pilih salah satu daripada jenis model berikut:
 
-   - **Belanjawan asal** : Gunakan jumlah belanjawan asal yang dilaksanakan apabila belanjawan awal dicipta dan diluluskan.
-   - **Belanjawan selebihnya** : Gunakan jumlah belanjawan selebihnya semasa hayat projek. Baki dalam model ramalan ini dikurangkan dengan transaksi sebenar dan ditambah atau dikurangkan mengikut semakan belanjawan.
-   - **Bawa ke hadapan** : Gunakan jumlah belanjawan dibawa ke hadapan untuk projek. Bawa ke hadapan ialah satu proses pilihan yang boleh dijalankan untuk memindahkan jumlah belanjawan yang tidak digunakan daripada satu tahun fiskal kepada tahun fiskal yang lain.
+   - **Belanjawan asal**: Gunakan jumlah belanjawan asal yang dilaksanakan apabila belanjawan awal dicipta dan diluluskan.
+   - **Belanjawan selebihnya**: Gunakan jumlah belanjawan selebihnya semasa hayat projek. Baki dalam model ramalan ini dikurangkan dengan transaksi sebenar dan ditambah atau dikurangkan mengikut semakan belanjawan.
+   - **Bawa ke hadapan**: Gunakan jumlah belanjawan dibawa ke hadapan untuk projek. Bawa ke hadapan ialah satu proses pilihan yang boleh dijalankan untuk memindahkan jumlah belanjawan yang tidak digunakan daripada satu tahun fiskal kepada tahun fiskal yang lain.
 
 7. Tetapkan pilihan berikut mengikut keperluan:
 

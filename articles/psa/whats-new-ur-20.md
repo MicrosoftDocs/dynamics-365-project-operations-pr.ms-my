@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147124"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280679"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation Keluaran Kemas kini 20, V3
 
@@ -42,7 +42,7 @@ Isu berikut telah dibaiki:
 
 - Mengimport ahli pasukan projek dengan kaedah peruntukan yang memerlukan masa untuk mendapatkan mesej ralat yang tidak jelas apabila masa yang ditentukan adalah sifar.
 - Pengguna menerima ralat yang salah apabila bilangan maksimum aksara telah dimasukkan ke dalam medan **Perihalan** untuk tugas projek.
-- **Muat turun pasang masuk Microsoft Dynamics 365 Project Service Automation** diarahkan semula ke halaman muat turun Bahasa Inggeris apabila tetapan bahasa pengguna ditetapkan kepada Bahasa Jepun.
+- Halaman **muat turun tambahan Microsoft Dynamics 365 Project Service Automation** dilencongkan ke halaman muat turun Bahasa Inggeris apabila tetapan bahasa pengguna ditetapkan kepada bahasa Jepun.
 - Apabila ralat pelayan berlaku, label penyegerakan pada tab **Jadual** bagi borang **Projek** kadangkala kekal.
 - Kemas kini tugas berlebihan dihantar kepada pelayan apabila tugas diubah suai.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181508"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275729"
 ---
 # <a name="copy-price-lists"></a>Salin senarai harga
 
@@ -26,7 +26,7 @@ Untuk membuat salinan senarai harga, lengkapkan langkah berikut.
 1. Buka senarai harga yang anda mahu membuat salinan dan pilih **Salin**.
 2. Masukkan sebarang maklumat yang diperlukan untuk menyalin senarai harga. Jadual berikut menunjukkan pertimbangan yang perlu diingat apabila memasukkan maklumat.
 
-| Medan | Penerangan  | Kesan hiliran |
+| Medan | Penerangan | Kesan hiliran |
 | --- | --- | --- |
 | Nama | Nama senarai harga sumber dengan **-salin** ditambah. | Senarai harga termasuk nilai ini pada semua halaman senarai dan pilihan juntai bawah. |
 | Konteks | Masukkan konteks yang anda mahu untuk senarai harga sasaran. | Senarai harga mempunyai set konteks ke **Kos** digunakan untuk mencari harga bagi kos anggaran dan kos aktual. Senarai harga mempunyai set konteks ke **Jualan** digunakan untuk mencari jualan bagi jualan anggaran dan jualan aktual. Hanya senarai harga yang mempunyai set konteks ke **Jualan** boleh dilampirkan ke senarai harga projek untuk pelanggan, sebut harga atau kontrak. |
@@ -34,7 +34,7 @@ Untuk membuat salinan senarai harga, lengkapkan langkah berikut.
 | Tarikh Tamat | Tarikh akhir tempoh senarai harga berkuat kuasa. | Bersama dengan **Tarikh Mula**, medan ini digunakan untuk menentukan senarai harga yang berkenaan untuk anggaran tertentu atau baris aktual. |
 | Mata wang | Mata wang senarai harga sumber. Ini boleh diubah. | Apabila ini diubah, semua baris harga untuk buruh, perbelanjaan dan katalog produk yang terhasil ditukar kepada mata wang senarai harga sasaran semasa salinan. |
 | Unit Masa | Mata wang senarai harga sumber. Ini boleh diubah. | Apabila ini diubah, semua baris harga untuk item buruh yang terhasil ditukar kepada unit senarai harga sasaran semasa salinan. Penukaran daripada persediaan unit untuk unit senarai harga sumber dan unit masa senarai harga sasaran digunakan. |
-| Penerangan  | Perihalan senarai harga sumber dengan **-salin** ditambah. Ini adalah medan teks dan membenarkan anda mempunyai perihalan berbilang baris pada senarai harga. | Medan ini ditunjukkan dalam pandangan **Berkaitan** pada senarai harga dalam pelbagai entiti yang mempunyai senarai harga berkaitan.. |
+| Penerangan | Perihalan senarai harga sumber dengan **-salin** ditambah. Ini adalah medan teks dan membenarkan anda mempunyai perihalan berbilang baris pada senarai harga. | Medan ini ditunjukkan dalam pandangan **Berkaitan** pada senarai harga dalam pelbagai entiti yang mempunyai senarai harga berkaitan.. |
 
 3. Simpan senarai harga. 
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119564"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274964"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Selesaikan harga jualan untuk anggaran dan sebenar
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Apabila harga jualan pada anggaran dan sebenar diselesaikan dalam Dynamics 365 Project Operations, sistem terlebih dahulu menggunakan tarikh dan mata wang sebut harga atau kontrak projek yang berkaitan untuk menyelesaikan senarai harga jualan. Setelah senarai harga jualan diselesaikan, sistem menyelesaikan kadar jualan atau bil.
+Apabila harga jualan pada anggaran dan sebenar diselesaikan dalam Dynamics 365 Project Operations, sistem mula-mula menggunakan tarikh dan mata wang sebut harga projek atau kontrak yang berkaitan untuk menyelesaikan senarai harga jualan. Setelah senarai harga jualan diselesaikan, sistem menyelesaikan kadar jualan atau bil.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Selesaikan kadar jualan pada baris sebenar dan anggaran untuk masa
 

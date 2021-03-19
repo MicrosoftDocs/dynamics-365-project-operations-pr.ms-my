@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180608"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274784"
 ---
 # <a name="set-up-labor-cost-rates"></a>Tetapkan kadar kos buruh
 
@@ -40,7 +40,7 @@ Jadual berikut termasuk beberapa medan yang penting apabila mencipta kadar buruh
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Pindahan penetapan harga dan kos untuk sumber di luar bahagian anda atau entiti sah
 
-Dalam syarikat berasaskan projek, adalah perkara biasa untuk menggunakan pekerja daripada entiti atau bahagian yang berbeza pada projek. Projek boleh dilaksanakan oleh satu entiti sah, tetapi pekerja atau perunding yang bekerja pada projek boleh datang daripada entiti sah yang sama atau daripada yang lain atau kemungkinan kombinasi kedua-duanya. Dalam Dynamics 365 Project Operations, entiti sah yang memiliki penyerahan projek adalah **Syarikat yang Memiliki** dan bahagian yang memiliki penghantaran adalah **Unit Kontrak**. Entiti sah lain yang menyediakan sumber adalah **Syarikat penyumberan** dan bahagian yang menyediakan sumber ialah **Unit Penyumberan**. Di kebanyakan negara, syarikat dikehendaki memastikan bahawa sumber entiti atau bahagian sah, mengecaj syarikat pemilikan dan unit kontrak untuk penggunaan sumber.
+Dalam syarikat berasaskan projek, adalah perkara biasa untuk menggunakan pekerja daripada entiti atau bahagian yang berbeza pada projek. Projek boleh dilaksanakan oleh satu entiti sah, tetapi pekerja atau perunding yang bekerja pada projek boleh datang daripada entiti sah yang sama atau daripada yang lain atau kemungkinan kombinasi kedua-duanya. Dalam Dynamics 365 Project Operations, entiti undang-undang yang memiliki penyampaian projek ialag **Syarikat Pemilik** dan bahagian yang memiliki penghantaran ialah **Unit Kontrak**. Entiti sah lain yang menyediakan sumber adalah **Syarikat penyumberan** dan bahagian yang menyediakan sumber ialah **Unit Penyumberan**. Di kebanyakan negara, syarikat dikehendaki memastikan bahawa sumber entiti atau bahagian sah, mengecaj syarikat pemilikan dan unit kontrak untuk penggunaan sumber.
 
 Sebagai contoh, perbadanan Fabrikam mesti memastikan Fabrikam India-Robotics telah berunding kos kad kadar dengan Fabrikam US-Robotics atau Fabrikam UK-Robotics.
 
