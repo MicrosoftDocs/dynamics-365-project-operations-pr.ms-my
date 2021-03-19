@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270779"
 ---
 # <a name="intercompany-invoicing"></a>Penginvoisan antara syarikat
 
@@ -78,7 +78,7 @@ USSI, entiti undang-undang pemberi pinjaman mesti mencipta dan menyiarkan lembar
 
 | Langkah | Titik entri                                                                       | Penerangan                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Pengurusan projek dan perakaunan** &gt; **Lembaran masa** &gt; **Semua lembaran masa** | Cipta lembaran masa baharu. Pada baris lembaran masa dalam medan **Entiti undang-undang** , pilih **FRSI**. Dalam medan **ID Projek** pilih projek dalam FRSI. Masukkan jam untuk setiap hari bagi minggu. |
+| A    | **Pengurusan projek dan perakaunan** &gt; **Lembaran masa** &gt; **Semua lembaran masa** | Cipta lembaran masa baharu. Pada baris lembaran masa dalam medan **Entiti undang-undang**, pilih **FRSI**. Dalam medan **ID Projek** pilih projek dalam FRSI. Masukkan jam untuk setiap hari bagi minggu. |
 | B    | Halaman **Lembaran masa**                                                                | Selepas aliran kerja berjalan, siarkan lembaran masa dan buat nota nombor baucer.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Contoh 3: Cipta dan siarkan invois vendor antara syarikat
@@ -87,7 +87,7 @@ USSI, entiti undang-undang pemberi pinjaman mesti mencipta dan menyiarkan invois
 | Langkah | Titik entri                                                                                      | Penerangan                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Akaun belum bayar** &gt; **Invois** &gt; **Invois vendor terbuka** &gt; **Invois vendor baharu** | Cipta invois vendor baharu dan masukkan perkhidmatan yang diperoleh bagi pihak projek FRSI.                                                                                                                                                                                  |
-| B    | Halaman **Invois vendor**                                                                      | Masukkan garisan yang mewakili perkhidmatan luar bagi pihak FRSI. Pada FastTab **Butiran garisan** , pada tab **Projek** untuk invois garisan, dalam medan **Syarikat projek** , masukkan **FRSI**. Masukkan projek dan maklumat yang berpadanan. Kemudian siarkan invois vendor. |
+| B    | Halaman **Invois vendor**                                                                      | Masukkan garisan yang mewakili perkhidmatan luar bagi pihak FRSI. Pada FastTab **Butiran garisan**, pada tab **Projek** untuk invois garisan, dalam medan **Syarikat projek**, masukkan **FRSI**. Masukkan projek dan maklumat yang berpadanan. Kemudian siarkan invois vendor. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Contoh 4: Cipta dan siarkan invois antara syarikat
 USSI, entiti undang-undang pemberi pinjaman mesti mencipta dan menyiarkan invois antara syarikat. Terdapat dua titik entri untuk langkah yang diperlukan bagi tugas ini.
@@ -95,7 +95,7 @@ USSI, entiti undang-undang pemberi pinjaman mesti mencipta dan menyiarkan invois
 | Langkah | Titik entri                                                                                             | Penerangan                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Pengurusan projek dan perakaunan** &gt; **Invois projek** &gt; **Invois pelanggan antara syarikat**  | Klik **Baharu** untuk membuka halaman **Cipta invois antara syarikat**.                                                                                  |
-| B    | **Pengurusan projek dan perakaunan** &gt; **Invois projek** &gt; **Invois pelanggan antara syarikat** | Pada halaman **Cipta invois antara syarikat** , masukkan entiti undang-undang, tentukan transaksi yang perlu dimasukkan dan kemudian pilih **Carian**. |
+| B    | **Pengurusan projek dan perakaunan** &gt; **Invois projek** &gt; **Invois pelanggan antara syarikat** | Pada halaman **Cipta invois antara syarikat**, masukkan entiti undang-undang, tentukan transaksi yang perlu dimasukkan dan kemudian pilih **Carian**. |
 | C    | **Pengurusan projek dan perakaunan** &gt; **Invois projek** &gt; **Invois pelanggan antara syarikat** | Pilih transaksi untuk invois atau klik **Pilih semua** untuk menginvois semua transaksi dalam senarai dan kemudian klik **OK**.                  |
 | D    | Halaman **Invois antara syarikat**                                                                       | Cadangan invois pelanggan antara syarikat ditunjukkan.                                                                                             |
 | E    | Halaman **Invois antara syarikat**                                                                       | Klik **Siarkan**.                                                                                                                                  |
