@@ -1,21 +1,21 @@
 ---
-title: Selesaikan harga jualan untuk anggaran dan sebenar - ringan
-description: Topik ini memberikan maklumat tentang penyelesaian harga jualan pada anggaran dan sebenar.
+title: Selesaikan harga jualan untuk anggaran dan aktual projek
+description: Topik ini memberikan maklumat tentang penyelesaian harga jualan untuk anggaran dan aktual projek.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274514"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877367"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Selesaikan harga jualan untuk anggaran dan sebenar - ringan
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Selesaikan harga jualan untuk anggaran dan aktual projek
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -55,5 +55,14 @@ Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-lan
 
 4. Jika sistem tidak dapat memadankan nilai medan **Kategori** dan **Unit**, kadar jualan ditetapkan lalai kepada sifar(0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Menyelesaikan kadar jualan pada baris aktual dan anggaran untuk Bahan
+
+Dalam Project Operations, baris anggaran untuk bahan digunakan untuk menandakan butiran baris sebut harga dan baris kontrak untuk bahan dan baris anggaran bahan pada projek.
+
+Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-langkah berikut untuk menetapkan harga jualan unit lalai.
+
+1. Sistem menggunakan gabungan medan **Produk** dan **Unit** pada baris anggaran bagi bahan untuk dipadankan dengan baris item senarai harga dalam senarai harga yang telah diselesaikan.
+2. Jika sistem mendapati baris item senarai harga yang mempunyai kadar jualan untuk gabungan medan **Produk** dan **Unit** serta kaedah penetapan harga ialah **Amaun mata wang**, harga jualan yang ditentukan pada baris senarai harga digunakan.
+3. Jika nilai medan **Produk** dan **Unit** tidak sepadan, kadar jualan ditetapkan lalai kepada sifar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

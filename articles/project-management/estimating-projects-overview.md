@@ -1,31 +1,41 @@
 ---
-title: Anggarkan gambaran keseluruhan projek
-description: Topik ini memberikan maklumat tentang anggaran dalam Dynamics 365 Project Operations.
-author: ruhercul
+title: Konsep anggaran kewangan
+description: Topik ini menyediakan maklumat tentang anggaran kewangan projek dalam Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286889"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701747"
 ---
-# <a name="estimate-projects-overview"></a>Anggarkan gambaran keseluruhan projek
+# <a name="financial-estimation-concepts"></a>Konsep anggaran kewangan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
+Dalam Dynamics 365 Project Operations, anda boleh menganggarkan projek anda dari segi kewangan dalam dua peringkat: 
+1. Semasa peringkat prajualan sebelum urusan dimenangi. 
+2. Semasa peringkat pelaksanaan selepas kontrak projek dicipta. 
+
+Anda boleh mencipta anggaran kewangan untuk kerja berdasarkan projek menggunakan mana-mana 3 halaman berikut:
+- Halaman **Baris sebut harga**, menggunakan butiran baris sebut harga.  
+- Halaman **Baris kontrak projek**, menggunakan butiran baris kontrak. 
+- Halaman **Projek**, menggunakan halaman tab **Tugas** atau **Anggaran Perbelanjaan**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Gunakan sebut harga projek untuk mencipta anggaran
 Pada sebut harga berasaskan projek, anda boleh menggunakan entiti **Butiran baris sebut harga** untuk menganggarkan kerja yang diperlukan bagi menghantar projek. Kemudian, anda boleh berkongsi anggaran tersebut dengan pelanggan.
 
 Baris sebut harga berasaskan projek boleh mempunyai sifar hingga banyak butiran baris sebut harga. Butiran baris sebut harga digunakan untuk menganggarkan masa, perbelanjaan atau yuran. Microsoft Dynamics 365 Project Operations tidak membenarkan anggaran bahan ke atas butiran baris sebut harga. Ini dipanggil kelas transaksi. Anggaran amaun cukai boleh juga dimasukkan dalam kelas transaksi.
 
 Selain daripada kelas transaksi, butiran baris sebut harga mempunyai jenis transaksi. Dua jenis transaksi disokong untuk butiran baris sebut harga, **Kos** dan **Kontrak Projek**.
 
-## <a name="estimate-by-using-a-contract"></a>Anggaran menggunakan kontrak
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Gunakan kontrak projek untuk mencipta anggaran
 
 Jika anda menggunakan sebut harga apabila anda mencipta kontrak berasaskan projek, anggaran yang anda lakukan untuk setiap baris sebut harga ke atas sebut harga disalin pada kontrak projek. Struktur kontrak projek adalah seperti struktur sebut harga projek yang ada baris, butiran baris, dan jadual invois.
 
@@ -35,23 +45,17 @@ Butiran baris kontrak boleh digunakan untuk menganggarkan masa, perbelanjaan ata
 
 Anggaran bahan tidak dibenarkan pada butiran baris kontrak.
 
-Proses yang disokong pada kontrak projek adalah penciptaan dan pengesahan invois. Penciptaan invois mencipta draf untuk invois berasaskan projek yang termasuk semua aktual jualan belum dibilkan sehingga tarikh semasa.
+## <a name="use-a-project-to-create-an-estimate"></a>Gunakan projek untuk mencipta anggaran 
 
-Pengesahan menjadikan kontrak baca sahaja dan mengubah statusnya daripada **Draf** kepada **Disahkan**. Selepas anda mengambil tindakan ini, anda tidak boleh buat asal. Disebabkan tindakan ini adalah kekal, menjadi amalan terbaik untuk mengekalkan kontrak dalam status **Draf**.
-
-Satu-satunya perbezaan antara kontrak draf dan kontrak disahkan ialah statusnya dan hakikat bahawa kontrak draf boleh diedit, manakala kontrak disahkan tidak boleh. Penciptaan invois dan aktual penjejakan boleh dilakukan pada kontrak draf dan kontrak disahkan.
-
-Project operations tidak menyokong pesanan perubahan pada kontrak atau projek.
-
-## <a name="estimating-projects"></a>Menganggarkan projek
-
-Anda boleh menganggarkan masa dan perbelanjaan ke atas projek Project operations tidak membenarkan anggaran bahan atau yuran ke atas projek.
+Anda boleh menganggarkan masa dan perbelanjaan ke atas projek Project Operations tidak menyokong anggaran bahan atau yuran pada projek.
 
 Anggaran masa dijana apabila anda mencipta tugas dan mengenal pasti atribut sumber generik yang diperlukan untuk menjalankan tugas. Anggaran masa dijana daripada tugas jadual. Anggaran masa tidak dicipta jika anda mencipta ahli pasukan generik di luar konteks jadual.
 
-Anggaran perbelanjaan dimasukkan dalam grid pada halaman **Anggaran**.
+Anggaran perbelanjaan dimasukkan dalam grid pada halaman **Anggaran Perbelanjaan**.
 
-## <a name="understanding-estimation"></a>Memahami anggaran
+Mencipta anggaran untuk projek dianggap sebagai amalan terbaik kerana anda boleh membina anggaran terperinci bawah ke atas untuk buruh atau masa dan perbelanjaan pada setiap tugas dalam pelan projek. Kemudian anda boleh menggunakan anggaran terperinci ini untuk mencipta anggaran bagi setiap baris sebut harga dan membina sebut harga yang lebih dipercayai untuk pelanggan. Apabila anda mengimport atau mencipta anggaran terperinci pada baris sebut harga menggunakan pelan projek, Project Operations mengimport nilai jualan dan nilai kos anggaran ini. Selepas mengimport, anda boleh melihat metrik keuntungan, margin dan kebolehlaksanaan pada sebut harga projek.
+
+## <a name="understanding-estimates"></a>Memahami anggaran
 
 Gunakan jadual berikut sebagai panduan untuk memahami logik perniagaan dalam fasa anggaran.
 

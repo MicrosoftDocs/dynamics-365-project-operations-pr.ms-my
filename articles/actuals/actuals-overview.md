@@ -3,7 +3,7 @@ title: Aktual
 description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan aktual dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291810"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852555"
 ---
 # <a name="actuals"></a>Aktual 
 
-_**Gunakan pada:** Project Operations untuk senario berasaskan sumber/bukan stok_
+_**Gunakan pada:** Project Operations untuk senario berdasarkan sumber/bukan stok, Pelaksanaan ringan - urusan untuk penginvoisan proforma_
 
-Aktual ialah jumlah kerja yang telah disiapkan pada sebuah projek. Ia dicipta sebagai hasil daripada entri masa dan perbelanjaan, serta entri jurnal dan invois.
+Aktual mewakili kemajuan kewangan dan jadual yang disemak dan diluluskan untuk sesuatu projek. Ia dicipta hasil daripada kelulusan masa, perbelanjaan, entri penggunaan bahan serta entri jurnal dan invois.
 
 ## <a name="journal-lines-and-time-submission"></a>Garisan jurnal dan serahan masa
 
@@ -45,7 +45,7 @@ Apabila entri masa yang telah diserahkan dipautkan kepada projek yang dipetakan 
 
 Logik untuk mencipta harga lalai terletak pada garisan jurnal. Nilai medan daripada entri masa disalin kepada garisan jurnal. Nilai-nilai ini termasuk tarikh transaksi, baris kontrak yang projek dipetakan padanya, dan mata wang yang menghasilkan senarai harga yang sesuai.
 
-Medan-medan yang mempengaruhi penetapan harga lalai, seperti **Peranan** dan **Unit Organisasi**, digunakan untuk menentukan harga yang sesuai pada garisan jurnal. Anda boleh menambah medan tersuai pada entri masa. Jika anda mahu nilai medan disebarkan kepada aktual, cipta medan pada entiti Aktual dan gunakan pemetaan medan untuk menyalin medan daripada entri masa kepada aktual.
+Medan yang menjejaskan penetapan harga lalai, seperti **Peranan** dan **Unit Penyumberan**, digunakan untuk menentukan harga bersesuaian pada garisan jurnal. Anda boleh menambah medan tersuai pada entri masa. Jika anda mahu nilai medan disebarluaskan pada aktual, cipta medan dalam jadual **Aktual** dan **Garisan Jurnal**. Gunakan kod tersuai untuk menyebarluaskan nilai medan yang dipilih daripada Entri Masa kepada Aktual melalui baris jurnal menggunakan asal transaksi. Untuk mendapatkan maklumat lanjut tentang asal transaksi dan sambungan, lihat [Memautkan aktual pada rekod asal](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Serahan garisan jurnal dan perbelanjaan asas
 
@@ -57,24 +57,42 @@ Apabila entri perbelanjaan asas yang diserahkan telah dipautkan kepada projek ya
 
 ### <a name="fixed-price"></a>Harga tetap
 
-Apabila entri perbelanjaan asas yang telah diserahkan dipautkan kepada projek yang dipetakan kepada baris kontrak harga tetap, sistem mencipta satu garisan jurnal untuk kos.
+Apabila entri perbelanjaan asas yang diserahkan dipautkan pada projek yang dipetakan kepada baris kontrak harga tetap, sistem mencipta satu garisan jurnal untuk kos.
 
 ### <a name="default-pricing"></a>Penetapan harga lalai
 
-Logik untuk memasukkan harga lalai bagi perbelanjaan adalah berdasarkan kategori perbelanjaan. Tarikh transaksi, baris kontrak yang projek dipetakan dan mata wang semuanya digunakan untuk menentukan senarai harga bersesuaian. Walau bagaimanapun, secara lalai, jumlah yang dimasukkan untuk harga itu sendiri ditetapkan secara langsung pada garisan jurnal perbelanjaan bagi kos dan jualan.
+Logik untuk memasukkan harga lalai bagi perbelanjaan adalah berdasarkan kategori perbelanjaan. Tarikh transaksi, baris kontrak yang projek dipetakan dan mata wang, semuanya digunakan untuk menentukan senarai harga bersesuaian. Medan yang menjejaskan penetapan harga lalai, seperti **Kategori Transaksi** dan **Unit**, digunakan untuk menentukan harga bersesuaian pada garisan jurnal. Walau bagaimanapun, ini hanya berfungsi apabila kaedah penetapan harga dalam senarai harga ialah **Harga setiap unit**. Jika kaedah penetapan harga ialah **Pada kos** atau **Tokokan ke atas kos**, harga yang dimasukkan apabila entri perbelanjaan dicipta akan digunakan untuk kos dan harga pada garisan jurnal jualan dikira berdasarkan kaedah penetapan harga. 
 
-Entri berasaskan kategori bagi setiap unit harga lalai pada entri perbelanjaan tidak tersedia.
+Anda boleh menambahkan medan tersuai pada entri perbelanjaan. Jika anda mahu nilai medan disebarluaskan pada aktual, cipta medan dalam jadual **Aktual** dan **Garisan Jurnal**. Gunakan kod tersuai untuk menyebarluaskan nilai medan yang dipilih daripada Entri Masa kepada Aktual melalui baris jurnal menggunakan asal transaksi. Untuk mendapatkan maklumat lanjut tentang asal transaksi dan sambungan, lihat [Memautkan aktual pada rekod asal](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Penyerahan log garisan jurnal dan penggunaan bahan
+
+Untuk mendapatkan maklumat lanjut tentang entri perbelanjaan, lihat [Log Penggunaan Bahan](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Masa dan bahan
+
+Apabila entri log penggunaan bahan yang diserahkan dikaitkan dengan projek yang dipetakan kepada baris kontrak masa dan bahan, sistem mencipta dua garisan jurnal, satu untuk kos dan satu untuk jualan yang belum dibilkan.
+
+### <a name="fixed-price"></a>Harga tetap
+
+Apabila entri log penggunaan bahan yang diserahkan dipautkan pada projek yang dipetakan kepada baris kontrak harga tetap, sistem mencipta satu garisan jurnal untuk kos.
+
+### <a name="default-pricing"></a>Penetapan harga lalai
+
+Logik untuk memasukkan harga lalai bagi bahan adalah berdasarkan gabungan produk dan unit. Tarikh transaksi, baris kontrak yang projek dipetakan dan mata wang, semuanya digunakan untuk menentukan senarai harga bersesuaian. Medan yang menjejaskan penetapan harga lalai, seperti **ID Produk** dan **Unit**, digunakan untuk menentukan harga bersesuaian pada garisan jurnal. Walau bagaimanapun, ini hanya berfungsi untuk produk katalog. Untuk produk masukan manual, harga yang dimasukkan apabila entri log penggunaan bahan dicipta digunakan untuk kos dan harga jualan pada garisan jurnal. 
+
+Anda boleh menambahkan medan tersuai pada entri **Log Penggunaan Bahan**. Jika anda mahu nilai medan disebarluaskan pada aktual, cipta medan dalam jadual **Aktual** dan **Garisan Jurnal**. Gunakan kod tersuai untuk menyebarluaskan nilai medan yang dipilih daripada Entri Masa kepada Aktual melalui baris jurnal menggunakan asal transaksi. Untuk mendapatkan maklumat lanjut tentang asal transaksi dan sambungan, lihat [Memautkan aktual pada rekod asal](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Gunakan jurnal entri untuk merekodkan kos
 
 Anda boleh menggunakan jurnal entri untuk merekodkan kos atau hasil dalam kelas bahan, yuran, masa, perbelanjaan, atau transaksi cukai. Jurnal boleh digunakan untuk tujuan berikut:
 
-- Rekodkan kos aktual bahan dan jualan pada projek.
 - Alihkan aktual transaksi daripada sistem lain kepada Microsoft Dynamics 365 Project Operations.
 - Rekodkan kos yang berlaku dalam sistem yang lain. Kos ini boleh merangkumi kos perolehan atau subkontrak.
 
 > [!IMPORTANT]
 > Aplikasi ini tidak mengesahkan jenis garisan jurnal atau penetapan harga yang berkaitan yang dimasukkan pada garisan jurnal. Oleh itu, hanya pengguna yang menyedari sepenuhnya kesan perakaunan yang aktual ada pada projek itu, harus menggunakan jurnal entri untuk mencipta aktual. Disebabkan oleh kesan jenis Jurnal ini, anda perlu memilih dengan teliti orang yang mempunyai akses untuk mencipta jurnal entri.
+
 ## <a name="record-actuals-based-on-project-events"></a>Rekodkan aktual berdasarkan peristiwa projek
 
 Project Operations merekodkan transaksi kewangan yang berlaku semasa projek. Transaksi ini direkodkan sebagai aktual. Jadual berikut menunjukkan jenis aktual berbeza yang dicipta, bergantung pada sama ada projek itu adalah projek masa dan bahan atau projek harga tetap, dalam peringkat prajualan, atau merupakan projek dalaman.

@@ -3,7 +3,7 @@ title: Laporan perbelanjaan digambarkan semula
 description: Topik ini menerangkan pengalaman yang direka semula dan dibayangkan semula untuk entri laporan perbelanjaan.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499727"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717706"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan perbelanjaan digambarkan semula
 
@@ -41,11 +41,7 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 - Tiada item menu sedia ada untuk laporan perbelanjaan (halaman semasa) atau medan laporan perbelanjaan dialih keluar.
 - Aliran kerja dan sebarang kelulusan masih akan membawa anda ke halaman laporan perbelanjaan sedia ada.
 
-## <a name="getting-started-video-for-new-users"></a>Video mari bermula untuk pengguna baharu
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Pengalaman perbelanjaan dalam video Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditunjukkan di atas) termasuk dalam [senarai main Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Ciri-ciri baru
 

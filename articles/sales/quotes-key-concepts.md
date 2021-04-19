@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277529"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663711"
 ---
-# <a name="quotes---key-concepts"></a>Sebut harga - Konsep utama
+# <a name="concepts-unique-to-project-based-quotes"></a>Konsep unik untuk Sebut harga berdasarkan projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 

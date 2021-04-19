@@ -3,50 +3,53 @@ title: Gambaran keseluruhan kelulusan
 description: Topik ini memberikan maklumat tentang bekerja dengan kelulusan dalam Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290370"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852510"
 ---
 # <a name="approvals-overview"></a>Gambaran keseluruhan kelulusan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Serahan Masa dan Perbelanjaan bergerak melalui aliran kerja kelulusan. Selepas entri diluluskan, transaksi direkodkan dalam aktual atau masa ditempah dalam jadual.
+Penyerahan masa, perbelanjaan dan penggunaan bahan bergerak melalui aliran kerja kelulusan. Selepas entri diluluskan, transaksi direkodkan dalam aktual atau masa ditempah dalam jadual.
 
 ## <a name="approvals-workflow"></a>Aliran kerja kelulusan
-Apabila anda mencipta dan menyerahkan entri masa atau perbelanjaan, entri kelulusan akan dicipta. Pelulus Projek atau pengurus anda menyemak dan meluluskan entri anda. Jika entri berkaitan dengan projek, apabila ia diluluskan, aktual akan dicipta. Ini membolehkan kos dan pengebilan dijejak. 
+Apabila anda mencipta dan menyerahkan entri masa, perbelanjaan atau penggunaan bahan, rekod kelulusan dicipta. Pelulus atau pengurus projek menyemak semula dan meluluskan entri. Jika entri berkaitan dengan projek, aktual akan dicipta apabila ia diluluskan. Ini membolehkan kos dan pengebilan dijejak.
 
 ## <a name="approve-an-entry"></a>Meluluskan entri
-Borang **Kelulusan** membolehkan anda bertukar antara pandangan yang berbeza supaya anda boleh melihat jenis kelulusan yang berbeza.
+Halaman **Kelulusan** membolehkan anda bertukar antara pandangan berbeza supaya anda boleh melihat jenis kelulusan yang berbeza.
   
-1. Pergi ke borang **Kelulusan** dan pilih **Perbelanjaan**, **Masa** atau **Tarik balik**.
+1. Pergi ke halaman **Kelulusan** dan pilih **Perbelanjaan**, **Masa**, **Penggunaan Bahan** atau **Panggil Balik**.
 2. Semak setiap kelulusan dan pilih kelulusan yang anda mahu luluskan.
 3. Pilih **Luluskan** untuk meluluskan entri yang dipilih.
-Sistem akan memproses entri ini dan mencipta aktual atau tempahan.
+Sistem memproses entri ini dan mencipta aktual.
 
 ## <a name="reject-an-entry"></a>Tolak entri
 Sebagai pelulus Projek, anda mungkin perlu menghantar semula entri kepada pengguna untuk pembetulan.
   
-1. Pergi ke borang **Kelulusan** dan pilih entri untuk ditolak. 
+1. Pergi ke halaman **Kelulusan** dan pilih entri untuk menolak. 
 2. Pilih **Tolak**.
-3. Pilihan - Tambah komen dalam dialog **Komen penolakan** untuk memberitahu pengguna sebab entri tersebut ditolak.
+3. Pilihan, tambah komen dalam kotak dialog **Komen Penolakan** untuk memaklumkan pengguna sebab entri ditolak.
 4. Pilih **OK**. Entri tersebut akan dikembalikan kepada pengguna.
   
-## <a name="recall-entries"></a>Tarik balik entri
-Pada satu ketika, anda mungkin perlu menarik balik entri yang telah diserahkan. Jika entri tersebut tidak diluluskan, ia akan dikembalikan dengan segera. Entri yang telah diluluskan bagaimanapun, mungkin mempunyai kesan bahan. Pelulus Projek dikehendaki meluluskan tarik balik ini untuk membalikkan transaksi dalam Aktual.
+## <a name="cancel-approval"></a>Batalkan kelulusan
+Dalam sesetengah keadaan, anda mungkin perlu membatalkan entri yang telah diluluskan sebelum ini. Membatalkan entri yang diluluskan sebelum ini akan mempunyai kesan kewangan. 
+
+## <a name="approving-recall-requests"></a>Meluluskan permintaan tarik balik
+Dalam sesetengah keadaan, perunding mungkin perlu untuk menarik balik entri yang diluluskan sebelum ini. Membatalkan entri yang diluluskan sebelum ini akan mempunyai kesan kewangan. Pelulus projek diperlukan untuk meluluskan penarikan balik bagi menterbalikkan transaksi dalam Aktual.
 
 ## <a name="specify-project-approvers"></a>Nyatakan Pelulus projek
 Setiap projek mempunyai beberapa orang ahli pasukan projek. Anda boleh menentukan ahli pasukan yang juga merupakan pelulus projek.
 
-1. Pergi ke borang **Projek** dan buka projek daripada senarai.
+1. Pergi ke halaman **Projek** dan buka projek daripada senarai.
 2. Pada tab **Pasukan**, pilih ahli pasukan yang akan menjadi Pelulus projek dan kemudian pilih **Edit**.
 3. Tetapkan medan **Pelulus Projek** kepada **Ya**.
 4. Pilih **Simpan**.

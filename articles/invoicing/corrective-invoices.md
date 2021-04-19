@@ -1,23 +1,23 @@
 ---
-title: Invois projek pembetulan
-description: Topik ini menyediakan maklumat tentang cara mencipta dan mengesahkan invois pembetulan dalam Project Operations.
+title: Cipta invois berdasarkan projek pembetulan
+description: Topik ini menyediakan maklumat tentang invois pembetulan dalam Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866602"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788880"
 ---
-# <a name="corrective-project-invoices"></a>Invois projek pembetulan
+# <a name="create-corrective-project-based-invoices"></a>Cipta invois berdasarkan projek pembetulan 
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 Invois projek yang disahkan boleh dibetulkan untuk memproses perubahan atau kredit seperti yang dirundingkan dengan pelanggan dan pengurus projek.
 
@@ -26,18 +26,17 @@ Untuk mengedit invois yang disahkan, buka invois yang disahkan dan pilih **Betul
 > [!NOTE]
 > Pemilihan ini tidak tersedia kecuali invois projek disahkan.
 
-Invois draf baharu dicipta daripada invois yang disahkan. Semua butiran baris invois daripada invois yang disahkan sebelum ini disalin ke draf baharu. Berikut ialah beberapa perkara utama untuk memahami tentang butiran baris pada invois dibetulkan yang baharu:
+Invois draf baharu dicipta daripada invois yang disahkan. Semua butiran baris invois daripada invois yang disahkan sebelum ini disalin ke draf baharu. Berikut ialah beberapa isi utama untuk membantu anda memahami lebih lanjut tentang butiran baris pada invois baharu yang dibetulkan:
 
-- Semua kuantiti dikemas kini ke sifar. Aplikasi ini menganggap semua item diinvois dikreditkan sepenuhnya. Jika perlu, anda boleh mengemas kini kuantiti ini secara manual untuk menunjukkan kuantiti yang diinvois dan bukan kuantiti yang dikreditkan. Berdasarkan pada kuantiti yang anda masukkan, aplikasi mengira kuantiti yang dikreditkan. Amaun ini ditunjukkan dalam aktual yang dicipta apabila invois dibetulkan disahkan. Jika anda membuat perubahan pada amaun cukai, anda mesti memasukkan jumlah cukai yang betul dan bukan jumlah cukai yang dikreditkan.
-- Baris kontrak berasaskan produk yang disahkan sebelum ini tidak disalin. Memproses pembetulan pada invois projek berasaskan produk tidak disokong.
+- Semua kuantiti dikemas kini ke sifar. Ini menganggap bahawa semua item yang diinvois akan dikreditkan sepenuhnya. Jika perlu, anda boleh mengemas kini kuantiti ini secara manual untuk menunjukkan kuantiti yang diinvois dan bukan kuantiti yang dikreditkan. Berdasarkan pada kuantiti yang anda masukkan, aplikasi mengira kuantiti yang dikreditkan. Amaun ini ditunjukkan dalam aktual yang dicipta apabila invois dibetulkan disahkan. Jika anda membuat perubahan pada amaun cukai, anda mesti memasukkan jumlah cukai yang betul dan bukan jumlah cukai yang dikreditkan.
 - Pembetulan pencapaian sentiasa diproses sebagai kredit penuh.
 - Amaun retainer atau pendahuluan boleh dibetulkan jika pelanggan telah diinvoiskan dengan jumlah yang salah.
 - Penyesuaian retainer dan pendahuluan boleh dibetulkan jika amaun yang salah digunakan untuk menyesuaikan terhadap caj ke atas invois yang disahkan sebelumnya.
 
 > [!IMPORTANT]
-> Butiran baris invois yang merupakan pembetulan kepada caj diinvois yang lain mempunyai medan **Pembetulan** ditetapkan ke **Ya**. Invois yang mempunyai butiran baris invois dibetulkan mempunyai medan yang dipanggil **Mempunyai pembetulan** yang juga ditetapkan ke **Ya**.
+> Butiran baris invois yang merupakan pembetulan kepada caj lain yang sudah diinvois mempunyai medan **Pembetulan** yang ditetapkan pada **Ya**. Invois yang mempunyai butiran baris invois dibetulkan mempunyai medan yang dipanggil **Mempunyai pembetulan** yang juga ditetapkan ke **Ya**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Aktual dicipta apabila invois pembetulan disahkan
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Aktual yang dicipta pada pengesahan invois pembetulan
 
 Jadual berikut menyenaraikan aktual yang dicipta apabila invois pembetulan disahkan.
 
@@ -214,51 +213,6 @@ Aktual jualan belum dibilkan baharu boleh dicaj untuk baki kuantiti dan amaun se
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Penginvoisan kredit penuh transaksi bahan invois sebelum ini.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Pembalikan jualan dibilkan untuk kuantiti dan jumlah pada butiran baris invois asal untuk bahan.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Aktual jualan belum dibilkan baharu untuk kuantiti dan jumlah pada butiran baris invois asal untuk bahan.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Penginvoisan kredit separa pada transaksi bahan.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Pembalikan jualan dibilkan untuk kuantiti dan jumlah yang diinvois pada butiran baris invois asal untuk bahan.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Aktual jualan baharu belum dibilkan baharu yang boleh dicaj untuk kuantiti dan jumlah pada butiran baris invois yang diedit, pembalikan ini dan aktual jualan dibilkan yang setara.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Aktual jualan belum dibilkan baharu boleh dicaj untuk baki kuantiti dan amaun selepas menolak angka dibetulkan pada butiran baris invois.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Penginvoisan kredit penuh bagi transaksi yuran diinvois sebelum ini.
                 </p>
             </td>
@@ -305,7 +259,7 @@ Penginvoisan kredit penuh bagi pencapaian diinvois sebelum ini.
 Pembalikan jualan dibilkan untuk amaun pada butiran baris invois asal untuk pencapaian.
                 </p>
                 <p>
-Status invois pada pencapaian dikemas kini daripada <b>Invois Pelanggan yang Disiarkan</b> kepada <b>Sedia untuk Diinvois</b>.
+Status invois pada pencapaian dikemas kini daripada <b>Invois pelanggan yang disiarkan</b> kepada <b>Sedia untuk Diinvois</b>.
                 </p>
             </td>
         </tr>
@@ -319,20 +273,9 @@ Penginvoisan kredit separa bagi pencapaian diinvois sebelum ini.
                 <p>
 Tidak Disokong </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Kredit dan pembetulan bagi baris kontrak berasaskan produk diinvois sebelum ini.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Tidak Disokong </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

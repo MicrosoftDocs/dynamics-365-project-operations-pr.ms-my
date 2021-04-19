@@ -3,17 +3,17 @@ title: Menyelesaikan harga kos untuk anggaran dan aktual
 description: Topik ini menyediakan maklumat tentang cara harga kos untuk anggaran dan aktual diselesaikan.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c2fe2a15d38ab5a1f2a93c6db4ed6b7eb9bbd33d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 13903acc22e765ddc5bc1b87428ef3565f2b0a44
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275684"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877323"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Menyelesaikan harga kos untuk anggaran dan aktual
 
@@ -25,10 +25,10 @@ Untuk menyelesaikan harga kos dan senarai harga kos bagi anggaran dan aktual, si
 
 Baris anggaran untuk Masa merujuk kepada butiran sebut harga dan baris kontrak bagi tugasan masa dan sumber pada projek.
 
-Selepas senarai harga kos diselesaikan, sistem menggunakan medan **Peranan**, **Syarikat Sumber** dan **Unit Sumber** pada baris anggaran untuk Masa bagi pemadanan terhadap baris harga peranan dalam senarai harga. Pemadanan ini menganggap anda menggunakan dimensi penetapan harga luar kotak untuk kos buruh. Sebaliknya jika anda mengkonfigurasikan sistem untuk memadankan medan atau sebagai tambahan kepada **Peranan**, **Syarikat Sumber** dan **Unit Sumber** maka kombinasi berbeza akan digunakan untuk mendapatkan baris harga peranan pemadanan. Jika aplikasi mencari baris harga peranan yang mempunyai kadar kos untuk kombinasi **Peranan**, **Syarikat Sumber** dan **Unit Sumber** iaitu kadar kos lalai. Jika aplikasi tidak boleh memadankan nilai **Peranan**, **Syarikat Sumber** dan **Unit Sumber** maka aplikasi mendapatkan baris harga peranan dengan peranan padanan tetapi nilai nol **Unit Sumber**. Selepas aplikasi mendapat rekod harga peranan yang sepadan, kadar kos lalai daripada rekod itu. 
+Selepas senarai harga kos diselesaikan, sistem menggunakan medan **Peranan**, **Syarikat Sumber** dan **Unit Sumber** pada baris anggaran untuk Masa bagi pemadanan terhadap baris harga peranan dalam senarai harga. Pemadanan ini menganggap anda menggunakan dimensi penetapan harga luar kotak untuk kos buruh. Sebaliknya jika anda mengkonfigurasikan sistem untuk memadankan medan atau sebagai tambahan kepada **Peranan**, **Syarikat Sumber** dan **Unit Sumber** maka kombinasi berbeza akan digunakan untuk mendapatkan baris harga peranan pemadanan. Jika aplikasi mencari baris harga peranan yang mempunyai kadar kos untuk kombinasi **Peranan**, **Syarikat Sumber** dan **Unit Sumber** iaitu kadar kos lalai. Jika aplikasi tidak boleh betul-betul sepadan dengan kombinasi nilai **Peranan**, **Syarikat Sumber** dan **Unit Sumber**, ia akan mendapatkan kembali baris harga peranan dengan nilai peranan sepadan, tetapi mempunyai nilai nol untuk **Unit Sumber** dan **Syarikat Sumber**. Selepas rekod harga peranan sepadan dengan nilai harga peranan sepadan ditemukan, kadar kos ditetapkan lalai daripada rekod tersebut. 
 
 > [!NOTE]
-> Jika anda mengkonfigurasikan keutamaan yang berbeza **Peranan**, **Syarikat Sumber** dan **Unit Sumber** atau jika anda mempunyai dimensi lain yang mempunyai keutamaan lebih tinggi, tingkah laku ini akan berubah sewajarnya. Sistem akan mendapatkan rekod harga peranan dengan nilai yang sepadan dengan setiap nilai dimensi penetapan harga mengikut urutan keutamaan dengan baris yang mempunyai nilai nol bagi dimensi yang terakhir.
+> Jika anda mengkonfigurasikan keutamaan yang berbeza **Peranan**, **Syarikat Sumber** dan **Unit Sumber** atau jika anda mempunyai dimensi lain yang mempunyai keutamaan lebih tinggi, tingkah laku ini akan berubah sewajarnya. Sistem ini mendapatkan kembali rekod harga peranan dengan nilai yang sepadan bagi setiap nilai dimensi penetapan harga dalam urutan keutamaan dengan baris yang mempunyai nilai nol untuk dimensi tersebut muncul terakhir dalam urutan keutamaan.
 
 ## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Menyelesaikan kadar kos pada baris aktual dan anggaran untuk Perbelanjaan
 
@@ -36,5 +36,10 @@ Baris anggaran untuk Perbelanjaan merujuk kepada butiran sebut harga dan baris k
 
 Selepas senarai harga kos diselesaikan, sistem menggunakan kombinasi medan **Kategori** dan **Unit** pada baris anggaran untuk Perbelanjaan bagi pemadanan terhadap baris **Harga Kategori** pada senarai harga diselesaikan. Jika sistem mencari baris harga kategori yang mempunyai kadar kos untuk kombinasi **Kategori** dan **Unit**, kadar kos dilalaikan. Jika sistem tidak boleh memadankan nilai **Kategori** dan **Unit**, atau jika sistem berupaya mencari baris harga kategori yang berpadanan tetapi kaedah penetapan harga bukan **Unit Setiap Harga**, kadar kos dilalaikan ke kosong(0).
 
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menyelesaikan kadar kos pada baris aktual dan anggaran untuk bahan
+
+Baris anggaran untuk bahan merujuk kepada butiran sebut harga dan baris kontrak untuk bahan dan baris anggaran bahan pada projek.
+
+Selepas senarai harga kos diselesaikan, sistem menggunakan gabungan medan **Produk** dan **Unit** pada baris anggaran bagi anggaran bahan untuk dipadankan dengan baris **Item Senarai Harga** pada senarai harga yang diselesaikan. Jika sistem mendapati barisan harga produk yang mempunyai kadar kos untuk gabungan medan **Produk** dan **Unit**, kadar kos ditetapkan lalai. Jika sistem tidak dapat memadankan nilai **Produk** dan **Unit**, kos unit ditetapkan lalai kepada sifar. Tetapan lalai ini juga akan berlaku jika terdapat baris item senarai harga sepadan, tetapi kaedah penetapan harga adalah berdasarkan kos standard atau kos semasa yang tidak ditakrifkan dalam produk.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

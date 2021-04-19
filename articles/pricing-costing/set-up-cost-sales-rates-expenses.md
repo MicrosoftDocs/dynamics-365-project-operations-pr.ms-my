@@ -3,17 +3,17 @@ title: Sediakan kadar kos dan jualan untuk perbelanjaan
 description: Topik ini memberikan maklumat tentang cara menetapkan kadar kos dan jualan untuk kategori transaksi dan perbelanjaan.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274919"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877231"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Sediakan kadar kos dan jualan untuk perbelanjaan
 
@@ -23,9 +23,10 @@ Anda boleh menetapkan harga kos dan jualan untuk kategori transaksi di Dynamics 
 
 Untuk menyediakan kadar kos dan jualan untuk kategori transaksi, lengkapkan langkah-langkah berikut. 
 
-1. Cipta senarai harga berdasarkan pengepala senarai harga. 
-2. Pada **Harga Kategori**, pada menu subgrid, pilih **+ Harga Kategori Baharu**. 
-3. Pada halaman **Cipta Pantas**, masukkan kategori transaksi dan unit untuk harga baharu yang anda cipta.
+1. Pergi ke **Jualan** > **Pelanggan** > **Senarai Harga**.
+2. Pilih **Baharu** untuk mencipta senarai harga baharu. 
+3. Pada **Harga Kategori**, pada menu subgrid, pilih **Harga Kategori Baharu**. 
+4. Pada halaman **Cipta Pantas**, masukkan kategori transaksi dan unit untuk harga baharu yang anda cipta.
 
 Jadual berikut menyenaraikan medan pada tab **Umum** dan halaman **Cipta Pantas** bagi baris harga kategori yang perlu diingati apabila anda mencipta harga kategori pada senarai harga jualan atau kos.
 

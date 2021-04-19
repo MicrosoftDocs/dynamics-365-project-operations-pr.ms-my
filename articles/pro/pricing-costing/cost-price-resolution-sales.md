@@ -1,22 +1,22 @@
 ---
-title: Selesaikan harga kos berkaitan anggaran dan aktual - ringan
-description: Topik ini menyediakan maklumat tentang cara harga kos pada anggaran dan aktual diselesaikan.
+title: Selesaikan harga kos untuk anggaran dan aktual projek
+description: Topik ini memberikan maklumat tentang cara harga kos untuk anggaran dan aktual projek diselesaikan.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274560"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877276"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Selesaikan harga kos berkaitan anggaran dan aktual - ringan
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Selesaikan harga kos untuk anggaran dan aktual projek 
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -36,6 +36,12 @@ Selepas senarai harga kos diselesaikan, medan **Peranan** dan **Unit Sumber** pa
 Baris anggaran untuk Perbelanjaan merujuk kepada butiran sebut harga dan baris kontrak bagi perbelanjaan dan baris anggaran perbelanjaan pada projek.
 
 Selepas senarai harga kos diselesaikan, sistem menggunakan kombinasi medan **Kategori** dan **Unit** pada baris anggaran perbelanjaan untuk dipadankan dengan baris **Harga Kategori** pada senarai harga yang diselesaikan. Jika sistem mencari baris harga kategori yang mempunyai kadar kos untuk kombinasi **Kategori** dan **Unit**, kadar kos dilalaikan. Jika sistem tidak dapat sepadan dengan nilai **Kategori** dan **Unit**, atau jika ia dapat mencari baris harga kategori yang sepadan tetapi kaedah penetapan harga bukan **Harga Seunit**, kadar kos lalai kepada sifar (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menyelesaikan kadar kos pada baris aktual dan anggaran untuk bahan
+
+Baris anggaran untuk Bahan merujuk kepada butiran sebut harga dan baris kontrak untuk bahan dan baris anggaran bahan pada projek.
+
+Selepas senarai harga kos diselesaikan, sistem menggunakan gabungan medan **Produk** dan **Unit** pada baris anggaran bagi anggaran bahan untuk dipadankan dengan baris **Item Senarai Harga** pada senarai harga yang diselesaikan. Jika sistem mendapati barisan harga produk yang mempunyai kadar kos untuk gabungan medan **Produk** dan **Unit**, kadar kos ditetapkan lalai. Jika sistem tidak boleh sepadan dengan nilai **Produk** dan **Unit** atau jika ia dapat mencari baris item senarai harga yang sepadan tetapi kaedah penetapan harga adalah berdasarkan Kos standard atau Kos semasa dan tidak ditakrifkan untuk produk, kos unit ditetapkan lalai kepada sifar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

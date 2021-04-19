@@ -1,26 +1,26 @@
 ---
-title: Sahkan invois proforma - ringan
-description: Topik ini menyediakan maklumat tentang mengesahkan invois proforma dalam Project Operations.
+title: Sahkan invois projek proforma
+description: Topik ini menyediakan maklumat tentang pengesahan invois projek proforma dalam Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274289"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867097"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Sahkan invois proforma - ringan
+# <a name="confirm-a-proforma-project-invoice"></a>Sahkan invois projek proforma 
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 
-Selepas invois proforma disahkan, status invois projek dikemas kini kepada **Disahkan**. Apabila invois disahkan, ia menjadi baca sahaja. Melangkah ke hadapan, invois hanya boleh diperbetulkan jika terdapat sebarang pembetulan atau kredit yang yang dimulakan oleh pelanggan, jika invois tersebut ditanda sebagai berbayar.
+Selepas invois proforma disahkan, status invois projek dikemas kini kepada **Disahkan**. Apabila invois disahkan, ia menjadi baca sahaja. Melangkah ke hadapan, invois hanya boleh dibetulkan jika terdapat sebarang pembetulan atau kredit yang dimulakan oleh pelanggan.
 
 Jadual berikut menyenaraikan aktual yang dicipta oleh sistem. Aktual ini dicipta apabila operasi tertentu dilaksanakan pada draf invois projek sebelum disahkan.
 
@@ -225,6 +225,70 @@ Balikan jualan belum dibilkan bagi kuantiti dan amaun pada kelulusan perbelanjaa
             <td width="408" valign="top">
                 <p>
 Aktual jualan belum dibilkan baharu boleh dituntut untuk kuantiti dan amaun pada butiran baris invois yang diedit, balikan aktual jualan yang belum dibillkan, dan aktual jualan dibilkan yang sama. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Penginvoisan transaksi bahan tanpa sebarang edit pada invois draf.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan jualan belum dibilkan untuk kuantiti dan amaun pada kelulusan penggunaan bahan asal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual jualan dibilkan untuk kuantiti dan amaun pada kelulusan penggunaan bahan asal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Penginvoisan transaksi bahan yang telah diedit untuk mengurangkan kuantiti.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan jualan belum dibilkan untuk kuantiti dan amaun pada kelulusan masa asal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual jualan belum dibilkan baharu boleh dituntut untuk kuantiti dan amaun pada butiran baris invois yang diedit, balikan aktual jualan yang belum dibillkan, dan aktual jualan dibilkan yang sama.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual jualan belum dibilkan baharu yang tidak boleh dituntut untuk baki kuantiti dan amaun selepas mengurangkan angka yang dibetulkan pada butiran baris invois yang diedit, balikan aktual jualan yang belum dibilkan, dan aktual jualan dibilkan yang sama.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Penginvoisan transaksi bahan yang telah diedit untuk meningkatkan kuantiti.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Pembalikan jualan belum dibilkan untuk kuantiti dan amaun pada kelulusan penggunaan bahan asal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Aktual jualan belum dibilkan baharu boleh dituntut untuk kuantiti dan amaun pada butiran baris invois yang diedit, balikan aktual jualan yang belum dibillkan, dan aktual jualan dibilkan yang sama.
                 </p>
             </td>
         </tr>

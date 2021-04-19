@@ -3,17 +3,17 @@ title: Selesaikan harga jualan untuk anggaran dan sebenar
 description: Topik ini memberikan maklumat tentang cara menyelesaikan kadar jualan untuk anggaran dan sebenar.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274964"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877456"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Selesaikan harga jualan untuk anggaran dan sebenar
 
@@ -54,6 +54,17 @@ Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-lan
     | &nbsp; | Tokokan terhadap kos | Dengan menggunakan tokokan seperti yang ditakrifkan oleh baris harga kategori pada kadar kos unit daripada kos berkaitan yang sebenar |
 
 4. Jika sistem tidak dapat memadankan nilai medan **Kategori** dan **Unit**, kadar jualan ditetapkan lalai kepada sifar(0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Selesaikan kadar jualan pada baris aktual dan anggaran untuk bahan
+
+Dalam Project Operations, baris anggaran untuk bahan digunakan untuk menandakan butiran baris sebut harga dan baris kontrak untuk bahan dan baris anggaran bahan pada projek.
+
+Setelah senarai harga untuk jualan diselesaikan, sistem melengkapkan langkah-langkah berikut untuk menetapkan harga jualan unit lalai.
+
+1. Sistem menggunakan gabungan medan **Produk** dan **Unit** pada baris anggaran bagi bahan untuk dipadankan dengan baris item senarai harga dalam senarai harga yang telah diselesaikan.
+2. Jika sistem mendapati baris item senarai harga yang mempunyai kadar jualan untuk gabungan medan **Produk** dan **Unit** serta kaedah penetapan harga ialah **Amaun mata wang**, harga jualan yang ditentukan pada baris senarai harga digunakan.
+3. Jika nilai medan **Produk** dan **Unit** tidak sepadan, kadar jualan ditetapkan lalai kepada sifar.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

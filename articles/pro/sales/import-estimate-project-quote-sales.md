@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273434"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858259"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Import anggaran untuk projek ke baris sebut harga berdasarkan projek - ringan
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Import anggaran untuk projek ke baris sebut harga berdasarkan projek 
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Pelaksanaan ringan - urusan untuk penginvoisan proforma, Project Operations untuk senario berdasarkan sumber/bukan stok_
 
 Jika projek dicipta semasa peringkat prajualan, anda boleh memilih untuk mengimport anggaran kewangan daripada projek kepada baris sebut harga berasaskan projek.
 
@@ -30,7 +30,7 @@ Jika projek dicipta semasa peringkat prajualan, anda boleh memilih untuk mengimp
   - **Peranan** 
   - **Tugas projek**
 
-Berdasarkan pemilihan anda, anggaran daripada projek untuk semua kelas urus niaga termasuk pada baris sebut harga ini disalin. Untuk menyemak jenis kelas urus niaga yang disertakan, pilih tab **Umum** pada baris sebut harga berasaskan projek dan semak nilai untuk **Termasuk Masa**, **Termasuk Perbelanjaan** dan **Termasuk Yuran**.  Untuk menyemak rangkuman tugas, pilih tab **Tugas Boleh Dicaj** pada baris sebut harga.
+Berdasarkan pemilihan anda, anggaran daripada projek untuk semua kelas urus niaga termasuk pada baris sebut harga ini disalin. Untuk menyemak kelas transaksi yang disertakan, pilih tab **Umum** pada baris sebut harga berdasarkan projek dan semak nilai untuk **Termasuk Masa**, **Termasuk Perbelanjaan**, **Termasuk Bahan** dan **Termasuk Yuran**.  Untuk menyemak rangkuman tugas, pilih tab **Tugas Boleh Dicaj** pada baris sebut harga.
 
 Bergantung pada Tugas yang dikaitkan dan Rangkuman kelas transaksi, anggaran untuk gabungan tugas dan kelas transaksi tersebut diimport kepada baris sebut harga.
 

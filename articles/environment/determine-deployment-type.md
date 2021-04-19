@@ -3,17 +3,17 @@ title: Tentukan jenis pelaksanaan anda
 description: Topik ini menyediakan maklumat untuk membantu anda menentukan jenis pelaksanaan Project Operations yang betul untuk syarikat anda.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479575"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663605"
 ---
 # <a name="determine-your-deployment-type"></a>Tentukan jenis pelaksanaan anda
 
@@ -44,7 +44,7 @@ Project Operations menyokong berbilang pilihan pelaksanaan untuk dipadankan deng
 - [Project Operations untuk senario sumber/tidak distok](#integrated)
 - [Project Operations untuk senario pesanan distok/pengeluaran](#pma)
 
-Project Operations menyokong senario pesanan stok/pengeluaran dan senario yang berasaskan bukan stok/sumber dalam persekitaran yang sama melalui konfigurasi peringkat entiti yang sah. Sebagai contoh, Contoso boleh menggunakan keupayaan pesanan berstok/pengeluaran dalam kemudahan pengeluaran AS mereka (Entiti sah = Pengeluaran Amerika Syarikat Contoso). Contoso boleh menggunakan keupayaan tidak berstok/berasaskan sumber dalam kemudahan servis Lengan Robotik Contoso di UK (Entiti sah = Robotik United Kingdom Contoso).
+Project Operations menyokong senario pesanan stok/pengeluaran dan senario yang berasaskan bukan stok/sumber dalam persekitaran yang sama melalui konfigurasi peringkat entiti yang sah. Contohnya, Contoso boleh menggunakan keupayaan pesanan stok/pengeluaran di fasiliti pembuatan AS mereka (Entiti sah = Contoso Manufacturing Amerika Syarikat). Contoso boleh menggunakan keupayaan berasaskan bukan stok/sumber di fasiliti Contoso Robotics Arms mereka di UK (Entiti sah = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Pelaksanaan ringan - urusan untuk penginvoisan proforma
 
@@ -56,7 +56,7 @@ Pelaksanaan Lite termasuk keupayaan berikut:
 - Pengurusan sumber disatukan
 - Penjejakan masa
 - Perbelanjaan asas
-- Proforma dan penginvoisan menghadapi pelanggan 
+- Penginvoisan proforma untuk semakan dan edit Pengurus projek 
 
 #### <a name="deployment-steps"></a>Langkah pelaksanaan
 Tentukan model pelaksanaan Project Operations terbaik menggunakan [Soal selidik pelaksanaan](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ Untuk pelaksanaan ini, lihat [Pendaftaran untuk langganan pratonton](resource-si
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations untuk senario pesanan distok/pengeluaran
 
 - Perancangan projek menggunakan WBS
-- Pengurusan Sumber
-- Penjejakan Masa
-- Perbelanjaan Penuh
+- Pengurusan sumber
+- Penjejakan masa
+- Perbelanjaan penuh
 - Penerimaan Pengesahan Pengembalian Barang (OCR)
-- Penginvoisan Penuh
-- Pengiktirafan Hasil
-- Pesanan Pengeluaran
-- Sokongan bahan
+- Penginvoisan penuh
+- Pengiktirafan hasil
+- Pesanan pengeluaran
+- Sokongan bahan stok dengan inventori
 
 #### <a name="deployment-steps"></a>Langkah pelaksanaan
 Tentukan model pelaksanaan Project Operations terbaik menggunakan [Soal selidik pelaksanaan](https://aka.ms/provisionprojectoperations).

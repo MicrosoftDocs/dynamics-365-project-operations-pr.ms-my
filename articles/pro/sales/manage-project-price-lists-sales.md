@@ -1,27 +1,27 @@
 ---
-title: Urus senarai harga projek pada sebut harga projek - lite
-description: Topik ini menyediakan maklumat tentang bekerja dengan senarai harga projek pada sebut harga. (Sales)
+title: Urus senarai harga projek pada sebut harga projek
+description: Topik ini menyediakan maklumat tentang bekerja dengan senarai harga projek pada sebut harga.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273029"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858619"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Urus senarai harga projek pada sebut harga projek - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Urus senarai harga projek pada sebut harga projek 
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 Sebut harga projek direka untuk menyokong berbilang tarikh kuat kuasa senarai harga jualan. Dengan Dynamics 365 Project Operations, entiti baru yang berkaitan yang dipanggil **Senarai harga projek**. Entiti ini mempunyai perhubungan 1 hingga banyak kepada sebut harga projek.
 
-Senarai Harga projek digunakan untuk mengira masa dan transaksi perbelanjaan pada projek. Apabila sebut harga mempunyai satu atau lebih senarai harga projek, senarai harga ini digunakan untuk mengira masa dan perbelanjaan anggaran dan sebenar pada projek yang berkaitan dengan sebut harga melalui baris sebut harga.
+Senarai harga projek digunakan untuk menentukan harga masa, bahan dan perbelanjaan transaksi bagi projek. Apabila sebut harga mempunyai satu atau lebih senarai harga projek, senarai harga ini digunakan untuk menentukan harga masa, bahan, anggaran dan aktual bagi projek yang berkaitan dengan sebut harga melalui baris sebut harga.
 
 Apabila tiada senarai harga projek pada sebut harga projek, anda akan menerima mesej amaran. Mesej menyatakan bahawa kerana tiada senarai harga projek, anggaran dan kiraan sebenar kerja projek dan perbelanjaan anda tidak akan dikira. Sebaliknya, ia akan mempunyai harga sifar (0) untuk nilai jualan.
 

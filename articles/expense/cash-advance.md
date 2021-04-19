@@ -3,19 +3,19 @@ title: Pendahuluan tunai
 description: Topik ini memberikan maklumat tentang pendahuluan tunai.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276719"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715571"
 ---
 # <a name="cash-advance"></a>Pendahuluan tunai
 
@@ -60,7 +60,22 @@ Prosedur berikut biasanya diselesaikan oleh akauntan atau pengguna dengan keizin
 
 Apabila anda mencipta dan menyerahkan laporan perbelanjaan untuk pendahuluan tunai yang telah anda terima, perbelanjaan akan dilaraskan secara automatik terhadap pendahuluan. Jika pendahuluan tunai anda lebih besar daripada jumlah yang dibelanjakan, anda mesti mengembalikan baki kepada syarikat menggunakan kategori perbelanjaan **Pulangan tunai**. Jika pendahuluan tunai berbayar syarikat adalah kurang daripada jumlah yang anda telah belanjakan, syarikat mesti membayar balik baki tersebut. 
 
-### <a name="example"></a>Contoh
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Pilih pendahuluan tunai yang digunakan pada perbelanjaan anda
+Sebelum anda menyerahkan laporan perbelanjaan, anda boleh memilih pendahuluan tunai yang sejajar dengan transaksi perbelanjaan pada laporan. Untuk menggunakan kefungsian ini, dua ciri berikut mesti didayakan daripada ruang kerja **Pengurusan ciri**:
+
+  - Laporan perbelanjaan digambarkan semula
+  - Keupayaan untuk memetakan pendahuluan tunai pada baris perbelanjaan
+ 
+ Apabila ciri-ciri ini didayakan:
+ 
+  - Anda boleh menambahkan satu atau lebih pendahuluan tunai untuk setiap baris perbelanjaan.
+  - Baki pendahuluan tunai yang tersedia dapat dilihat dalam masa nyata apabila laporan perbelanjaan disimpan. Ini membolehkan anda memproses transaksi perbelanjaan dan mengembalikan transaksi tunai pada masa yang sama.
+  - Anda boleh memilih berbilang pendahuluan tunai untuk satu transaksi perbelanjaan.
+  - Data penyelarasan pendahuluan tunai boleh didapati dengan menggunakan pertanyaan. 
+ 
+Jika anda tidak menggunakan ciri-ciri ini, kefungsian akan kekal sama, dengan pendahuluan tunai sedia ada dikurangkan secara automatik selepas perbelanjaan diserahkan.
+
+### <a name="example"></a>Contoh 
 Anda merancang untuk melakukan perjalanan dari Seattle ke Bandar New York untuk persidangan. Anda mencipta permintaan pendahuluan tunai untuk 3000.00 USD berdasarkan anggaran kos tiket persidangan, penerbangan, hotel, makanan dan teksi. Anda tidak akan dibayar melainkan pengurus anda meluluskan permintaan ini. Selepas pengurus anda meluluskan, pendahuluan tunai yang diminta dibayar sebanyak 3000.00 USD ke dalam akaun bank anda. Anda kemudiannya menghadiri persidangan itu. Selepas menyelesaikan perjalanan, anda mendapati bahawa jumlah perbelanjaan hanya 2790.00 USD. Pilih **Tunai** dalam medan **Kaedah pembayaran** dan serahkan perbelanjaan anda untuk 2790.00 USD. Jumlah perbelanjaan yang diserahkan anda dilaraskan secara automatik dengan pendahuluan tunai sebanyak 3000.00 USD yang dipinjamkan kepada anda. Anda kini berhutang baku 210.00 USD (3000.00 - 2790.00), yang anda boleh kembalikan kepada syarikat menggunakan kategori perbelanjaan **Pulang tunai**.
 
 

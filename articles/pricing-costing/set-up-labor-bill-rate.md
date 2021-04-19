@@ -3,17 +3,17 @@ title: Sediakan kadar bil buruh
 description: Topik ini memberikan maklumat tentang cara untuk menetapkan kadar pengebilan buruh dalam Operasi Projek.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274829"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877411"
 ---
 # <a name="set-up-labor-bill-rates"></a>Sediakan kadar bil buruh
 
@@ -21,8 +21,8 @@ _ **Gunakan Pada:** Operasi Projek untuk senario berasaskan sumber/bukan stok
 
 Setiap senarai harga mempunyai set harga peranan atau kadar buruh yang efektif untuk konteks dan tarikh kuat kuasa disertakan pada pengepala senarai harga. Kadar bil untuk masa dalam Dynamics 365 Project Operations boleh disediakan dalam hanya satu mata wang, iaitu mata wang pada pengepala senarai Harga.
 
-1. Untuk menyediakan kadar bil buruh bagi senarai harga jualan, cipta senarai harga berdasarkan pengepala senarai harga. 
-2. Pada tab **Harga Peranan**, dalam sub grid, pilih **+ Harga Peranan Baharu**. 
+1. Bagi menyediakan kadar bil buruh untuk senarai harga jualan, pergi ke **Jualan** > **Pelanggan** > **Senarai Harga** dan pilih **Baharu** untuk mencipta senarai harga baharu. 
+2. Pada tab **Harga Peranan**, dalam subgrid, pilih **Harga Peranan Baharu**. 
 3. Pada anak tetingkap **Cipta Pantas**, masukkan peranan dan gabungan unit organisasi yang anda perlukan untuk menyediakan kadar bil.
 
    Jadual berikut merangkumi medan pada tab **Umum** dan anak tetingkap **Cipta Pantas** bagi baris harga peranan yang perlu diingati apabila anda mencipta harga peranan pada senarai harga jualan.

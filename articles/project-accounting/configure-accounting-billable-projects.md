@@ -3,17 +3,17 @@ title: Konfigurasi perakaunan untuk projek boleh dibil
 description: Topik ini menyediakan maklumat tentang pilihan perakaunan untuk projek boleh dibilkan.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287654"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858664"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurasi perakaunan untuk projek boleh dibil
 
@@ -58,13 +58,25 @@ Lengkapkan langkah berikut untuk mencipta profil kos dan hasil projek baharu.
 
          - **Baki akaun**: Apabila menyiarkan jurnal integrasi Project Operations, kos transaksi perbelanjaan akan didebitkan pada jenis akaun Lejar *WIP - Nilai kos* seperti yang ditentukan pada tab **Kos** pada halaman **Persediaan penyiaran lejar** dan dikreditkan pada akaun ofset pada garisan jurnal. Akaun ofset lalai untuk perbelanjaan ditakrifkan dalam **Pengurusan dan perakaunan projek** > **Persediaan** \> **Penyiaran** \> **Akaun ofset lalai untuk perbelanjaan**. Pihak akauntan akan menggunakan fungsi **Siarkan kos** untuk memindahkan kos ini daripada akaun baki kepada akaun untung rugi secara berkala.
         - **Untung rugi**: Apabila menyiarkan jurnal integrasi Project Operations, kos transaksi perbelanjaan akan didebitkan pada jenis akaun Lejar *Kos* seperti yang ditentukan pada tab **Kos** pada halaman **Persediaan penyiaran lejar** dan dikreditkan pada akaun ofset pada garisan jurnal. Akaun ofset lalai untuk perbelanjaan ditakrifkan dalam **Pengurusan dan perakaunan projek** \> **Persediaan** \> **Penyiaran** \> **Akaun ofset lalai untuk perbelanjaan**.
+      
+    - **Siarkan kos – item**:
+
+         - **Baki** : Apabila menyiarkan jurnal Integrasi Project Operations, kos transaksi item akan didebitkan pada jenis akaun Lejar *WIP – Nilai kos – item* seperti yang ditentukan pada tab **Kos** pada halaman **Persediaan penyiaran lejar** dan dikreditkan pada yang berikut:
+    
+              - Untuk penggunaan jenis dokumen: Akaun **Kos - item** pada **Persediaan penyiaran lejar**.  
+              - Untuk pembelian jenis dokumen: **Akaun integrasi perolehan** pada **Parameter Pengurusan Projek dan perakaunan**.
+           Pihak akauntan akan menggunakan fungsi **Siarkan kos** untuk memindahkan kos ini daripada akaun baki kepada akaun untung rugi secara berkala.
+        - **Untung dan rugi** : Apabila menyiarkan jurnal Integrasi Project Operations, kos transaksi item akan didebitkan pada jenis akaun Lejar *Kos* seperti yang ditentukan pada tab **Kos** pada halaman **Persediaan penyiaran lejar** dan dikreditkan pada yang berikut:
+         
+             - Untuk penggunaan jenis dokumen: Akaun **Kos - item** pada **Persediaan penyiaran lejar**.  
+             - Untuk pembelian jenis dokumen: **Akaun integrasi perolehan** pada **Parameter Pengurusan Projek dan perakaunan**.
        
     - **Pada penginvoisan akaun**:
 
         - **Baki akaun**: Apabila menyiarkan cadangan Invois projek, transaksi dalam akaun (peristiwa pengebilan) akan dikreditkan pada jenis akaun Lejar *WIP diinvoiskan - pada akaun* seperti yang ditentukan pada tab **Hasil** pada halaman **Persediaan penyiaran lejar** dan didebitkan pada Akaun baki klien.
          - **Untung rugi**: Apabila menyiarkan cadangan Invois projek, transaksi dalam akaun (peristiwa pengebilan) akan dikreditkan pada jenis akaun Lejar *Hasil diinvoiskan - pada akaun* seperti yang ditentukan pada tab **Hasil** pada halaman **Persediaan penyiaran lejar** dan didebitkan pada Akaun baki klien. Akaun baki pelanggan ditakrifkan dalam **Akaun belum terima** \> **Persediaan** \> **Profil penyiaran pelanggan**.
 
-   Apabila anda mentakrifkan profil penyiaran untuk Kaedah pengebilan masa dan bahan, anda mempunyai pilihan untuk mengakru hasil bagi setiap jenis transaksi (jam, perbelanjaan dan yuran). Jika pilihan **Hasil terakru** ditetapkan kepada **Ya**, transaksi jualan yang tidak dibilkan dalam jurnal integrasi Project Operations akan direkodkan pada lejar am. Nilai jualan didebitkan pada **WIP - akaun nilai jualan** dan dikreditkan pada **Hasil terakru - nilai jualan** yang ditetapkan pada halaman **Persediaan penyiaran lejar**, pada tab **Hasil**. 
+   Apabila anda mentakrifkan profil penyiaran untuk Kaedah pengebilan masa dan bahan, anda mempunyai pilihan untuk mengakru hasil bagi setiap jenis transaksi (jam, perbelanjaan, item dan yuran). Jika pilihan **Hasil terakru** ditetapkan kepada **Ya**, transaksi jualan yang tidak dibilkan dalam jurnal integrasi Project Operations akan direkodkan pada lejar am. Nilai jualan didebitkan pada **WIP - akaun nilai jualan** dan dikreditkan pada akaun **Hasil terakru - nilai jualan** yang ditetapkan pada halaman **Persediaan penyiaran lejar** pada tab **Hasil**. 
   
   > [!NOTE]
   > Pilihan, **Hasil terakru** hanya tersedia apabila transaksi masing-masing jenis **Kos** disiarkan pada akaun untung rugi.

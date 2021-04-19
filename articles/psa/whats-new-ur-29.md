@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 711255ab66f84fe46d0f16fa72e5a10fe0360394
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
+ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499682"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664654"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 29, V3
 
@@ -30,7 +30,7 @@ ms.locfileid: "5499682"
 
 Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas kini 29. Versi ini mempunyai nombor binaan V3.10.45.98 dan secara amnya tersedia melalui kemas kini dengan sendiri pada Februari 2021.
+Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas kini 29. Versi ini mempunyai nombor binaan V3.10.47.7 dan secara amnya tersedia melalui kemas kini dengan sendiri pada Februari 2021.
 
 ## <a name="update-release-29"></a>Keluaran Kemas kini 29
 

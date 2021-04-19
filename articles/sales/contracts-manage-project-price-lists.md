@@ -3,17 +3,17 @@ title: Urus senarai harga projek pada kontrak projek
 description: Topik ini menyediakan maklumat tentang pengurusan sebut harga projek pada kontrak projek.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278609"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858574"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Urus senarai harga projek pada kontrak projek
 
@@ -21,13 +21,13 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Kontrak projek dalam Dynamics 365 Project Operations direka bentuk untuk menyokong berbilang tarikh senarai harga yang berkesan pada kontrak. Dalam Project Operations, terdapat satu entiti berkaitan baharu yang dipanggil **Senarai Harga Projek**. Entiti ini mempunyai perhubungan satu kepada banyak ke kontrak projek.
 
-Senarai Harga projek digunakan untuk mengira masa dan transaksi perbelanjaan pada projek. Apabila kontrak mempunyai satu atau lebih senarai harga projek, senarai harga yang digunakan ke harga untuk masa dan anggaran perbelanjaan dan aktual ke atas projek yang berkaitan dengan kontrak melalui baris kontrak.
+Senarai harga projek digunakan untuk menentukan harga masa, bahan dan perbelanjaan transaksi bagi projek. Apabila kontrak mempunyai satu atau lebih senarai harga projek, senarai harga ini digunakan untuk menentukan harga masa, bahan, anggaran dan perbelanjaan sebenar bagi projek yang berkaitan dengan kontrak melalui baris kontrak.
 
-Apabila tiada senarai harga projek pada kontrak projek, anda akan melihat mesej amaran bahawa tiada senarai harga projek dan anggaran anda, kerja projek aktual dan perbelanjaan tidak akan diberikan harga. Nilai jualan tidak akan diberikan.
+Apabila tiada senarai harga projek pada kontrak projek, anda akan melihat mesej amaran bahawa tiada senarai harga projek dan kerja, bahan serta perbelanjaan projek anggaran dan sebenar anda yang dilog tidak ditentukan harga. Nilai jualan tidak akan diberikan.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Kaitkan atau tidak kaitkan senarai harga projek pada kontrak projek
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Cipta atau kaitkan senarai harga khusus untuk menganggarkan kerja dan perbelanjaan berdasarkan projek
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Cipta atau kaitkan senarai harga khusus untuk menganggarkan kerja, bahan dan perbelanjaan berdasarkan projek
 
 1. Pada kontrak projek, pilih tab **Senarai Harga Projek**.
 2. Dalam subgrid, pilih **+ Tambah Senarai Harga Projek Baharu**.
@@ -52,7 +52,7 @@ Apabila tiada senarai harga projek pada kontrak projek, anda akan melihat mesej 
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Sediakan salinan automatik secara lalai senarai harga projek pada kontrak
 
-Senarai harga projek boleh ditetapkan sebagai senarai lalai pada kontrak projek. Persediaan ini boleh membantu memastikan bahawa semua kontrak dalam organisasi anda sentiasa bermula dengan senarai harga standard untuk tempoh harga tersebut.
+Senarai harga projek boleh ditetapkan sebagai senarai harga projek lalai. Persediaan ini memastikan bahawa semua kontrak dalam organisasi anda sentiasa bermula dengan senarai harga projek standard untuk tempoh harga tersebut.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Sediakan organisasi lalai untuk senarai harga projek
 
