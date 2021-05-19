@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Konfigurasikan integrasi Project Operations setiap entiti sah
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Konfigurasikan integrasi dwi tulis
+          items:
+            - name: Gambaran keseluruhan integrasi dwi tulis
+              href: environment/resource-dual-write-overview.md
+            - name: Versi peta dwi tulis Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Persediaan Project Operations dan integrasi data konfigurasi
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integrasi anggaran dan aktual projek
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integrasi invois projek
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integrasi pengurusan perbelanjaan
+              href: environment/resource-dual-write-expense.md
+            - name: Integrasi invois vendor
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Ciri baharu
       items:
         - name: April 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Takrifkan kalendar projek
           href: project-management/define-project-calendars.md
+        - name: Mod penjadualan
+          href: project-management/scheduling-modes.md
         - name: Kemas kini projek
           href: project-management/update-project.md
         - name: Salin projek
@@ -402,8 +420,14 @@
           href: actuals/linkingactuals.md
         - name: Jurnal pembetulan
           items:
-            - name: Cipta dan sahkan jurnal Pembetulan
+            - name: Cipta dan sahkan Jurnal pembetulan
               href: actuals/create-confirm-correction-journals.md
+    - name: Pemerolehan
+      items:
+        - name: Konfigurasikan bahan bukan distok dan invois vendor yang belum selesai
+          href: procurement/configure-materials-nonstocked.md
+        - name: Dapatkan bahan bukan distok untuk projek menggunakan invois vendor yang belum selesai
+          href: procurement/pending-vendor-invoices.md
     - name: Penginvoisan
       items:
         - name: Gambaran keseluruhan proses penginvoisan
@@ -428,11 +452,13 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurasikan automasi invois berdasarkan projek
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Urus cadangan invois projek
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Perakaunan projek
       items:
         - name: Dimensi perakaunan lalai
           href: project-accounting/financial-dimension-defaults.md
-        - name: Konfigurasi kategori projek
+        - name: Konfigurasikan kategori projek
           href: project-accounting/configure-project-categories.md
         - name: Konfigurasi perakaunan untuk projek dalaman
           href: project-accounting/configure-accounting-internal-projects.md
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Takrifkan kalendar projek
           href: project-management/define-project-calendars.md
+        - name: Mod penjadualan
+          hreF: project-management/scheduling-modes.md
         - name: Kemas kini projek
           href: project-management/update-project.md
         - name: Salin projek
@@ -848,7 +876,9 @@
   items:
     - name: Ciri baharu
       items:
-        - name: Perkara baharu Mac 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
+        - name: Ciri baharu April 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+        - name: Ciri baharu Mac 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Perkara baharu Januari 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
@@ -871,9 +901,9 @@
     - name: Sediakan dan gunakan pembayaran vendor pembayaran apabila dibayar
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Kos projek terakru pada resit pembelian
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Penginvoisan projek
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Prestasi cadangan invois projek
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Kontrak projek
@@ -998,9 +1028,11 @@
       items:
         - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 30, V3'
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 31, V3'
+          href: psa/whats-new-ur-31.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 30, V3'
           href: psa/whats-new-ur-30.md
-        - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 29.5 Hotfix, V3'
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 29.5 Hotfix, V3'
           href: psa/whats-new-ur-29-5.md
         - name: 'Perkara baharu atau perubahan dalam Keluaran Kemas kini 29, V3'
           href: psa/whats-new-ur-29.md
@@ -1327,7 +1359,7 @@
             - name: Lihat penggunaan sumber
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Panduan pengurus projek
           items:
             - name: Panduan pengurus projek (Project Service)
