@@ -3,18 +3,18 @@ title: Perkara baharu April 2021 - Project Operations untuk senario berdasarkan 
 description: Topik ini menyediakan maklumat tentang kemas kini kualiti yang tersedia pada bulan April 2021 keluaran Project Operations untuk senario berdasarkan sumber/bukan stok.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868004"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935485"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu April 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
@@ -33,8 +33,26 @@ Ciri berikut disertakan dalam keluaran ini:
   - Menganggarkan dan penetapan harga bahan bukan stok semasa kitaran jualan untuk projek. Untuk mendapatkan maklumat lanjut, lihat [Sediakan kadar kos dan jualan untuk produk katalog - ringan](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Menjejaki penggunaan bahan bukan stok semasa penghantaran projek. Untuk mendapatkan maklumat lanjut, lihat [Penggunaan bahan rekod pada projek dan tugas projek](../material/material-usage-log.md).
   - Penginvoisan menggunakan kos bahan bukan stok. Untuk mendapatkan maklumat lanjut, lihat [Urus tunggakan pengebilan](../proforma-invoicing/manage-billing-backlog.md).
+  - Untuk maklumat tentang cara mengkonfigurasikan ciri ini, lihat [Konfigurasi bahan bukan stok dan invois vendor yang belum selesai](../procurement/configure-materials-nonstocked.md)
 - Pengebilan berdasarkan tugas: Keupayaan ditambahkan untuk mengaitkan tugas projek dengan baris kontrak projek, dengan itu tertakluk pada kaedah pengebilan, frekuensi invois dan pelanggan yang sama seperti yang terdapat pada baris kontrak. Perkaitan ini memastikan invois, perakaunan, anggaran hasil dan pengiktirafan yang tepat untuk berfungsi selaras dengan persediaan ini pada tugas projek.
 - Api baharu dalam Dynamics 365 Dataverse membenarkan operasi mencipta, mengemas kini dan memadam dengan **Entiti penjadualan**. Untuk mendapatkan maklumat lanjut, lihat [Gunakan API Jadual untuk melaksanakan operasi dengan Entiti penjadualan](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Kemas kini peta dwi tulis Project Operations
+
+Senarai berikut menunjukkan peta dwi tulis yang telah diubah suai atau ditambah dalam Project Operations keluaran April 2021.
+
+| **Peta entiti** | **Versi dikemas kini** | **Komen** |
+| --- | --- | --- |
+| Aktual integrasi Project Operations (msdyn\_actuals) | 1.0.0.14 | Peta diubah suai untuk menyegerakkan aktual projek bahan. |
+| Entiti integrasi Project Operations untuk anggaran perbelanjaan (msdyn\_estimateslines) | 1.0.0.2 | Baris kontrak projek ditambah ke aplikasi Finance and Operations untuk sokongan pengebilan berdasarkan tugas. |
+| Entiti integrasi Project Operations untuk anggaran jam (msdyn\_resourceassignments) | 1.0.0.5 | Baris kontrak projek ditambah ke aplikasi Finance and Operations untuk sokongan pengebilan berdasarkan tugas. |
+| Jadual integrasi Project Operations untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan anggaran bahan daripada Dataverse ke aplikasi Finance and Operations. |
+| Entiti eksport invois projek integrasi Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan pengepala invois vendor daripada Finance and Operations aplikasi ke Dataverse. |
+| Entiti eksport baris invois vendor projek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan baris invois vendor daripada Finance and Operations aplikasi ke Dataverse. |
+
+Anda hendaklah sentiasa menjalankan versi terkini peta dalam persekitaran anda dan mendayakan semua peta jadual yang berkaitan apabila anda mengemas kini penyelesaian Project Operations Dataverse dan versi penyelesaian Finance and Operations. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur **Versi** pada halaman **Dwi tulis**. Anda boleh mengaktifkan versi baharu peta dengan memilih **Versi peta jadual**, memilih versi terkini dan kemudian menyimpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu lajur jadual yang hilang pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) bagi garis panduan penyelesaian masalah Dwi Tulis.
 
 ## <a name="quality-updates"></a>Kemas kini kualiti
 
@@ -67,7 +85,7 @@ Ciri berikut disertakan dalam keluaran ini:
 
 | **Bahagian ciri** | **Nombor rujukan** | **Kemas kini kualiti** |
 | --- | --- | --- |
-| Pengurusan projek dan perakaunan | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Penghapusan anggaran terbalik tidak berfungsi secara **Berkala**.  |
+| Pengurusan projek dan perakaunan | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Penyingkiran anggaran pembalikan tidak berfungsi dalam bahagian **Berkala**.  |
 | Pengurusan projek dan perakaunan | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Ciri **Pelarasan perakaunan** mencipta isu dengan akaun lejar yang mempunyai **Tidak membenarkan entri manual** dipilih. |
 | Pengurusan projek dan perakaunan | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Logik perniagaan ditambahkan untuk memproses invois pembetulan termasuk amaun retainer atau amaun retainer yang digunakan. |
 | Pengurusan projek dan perakaunan | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP-penyiaran nilai jualan dalam penginvoisan projek antara syarikat memilih akaun yang tidak dijangka. |

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284324"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947935"
 ---
 # <a name="install-and-customize-project-service"></a>Pasang dan sesuaikan (Project Service)
 
@@ -34,20 +34,20 @@ Keupayaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Pasang Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ialah penyelesaian diutamakan. Terdapat beberapa cara untuk membeli penyelesaian. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sertakan organisasi dan pengguna anda](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ialah penyelesaian diutamakan. Terdapat beberapa cara untuk membeli penyelesaian. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sertakan organisasi dan pengguna anda](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Sesuaikan borang dan laporan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Jika anda mahu menyesuaikan mana-mana borang, papan pemuka atau laporan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], anda boleh mencari maklumat lanjut dalam pautan yang berikut:  
   
-- [Memulakan dengan pembuatan aplikasi dan penyesuaian](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Memulakan dengan pembuatan aplikasi dan penyesuaian](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Cipta dan reka bentuk borang](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Cipta dan reka bentuk borang](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Cipta dan edit papan pemuka.](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Cipta dan edit papan pemuka.](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Cipta dan edit proses](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Cipta dan edit proses](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Pengenalan kepada pelaporan & analitis](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Pengenalan kepada pelaporan & analitis](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pentadbir](../psa/admin-guide.md)   

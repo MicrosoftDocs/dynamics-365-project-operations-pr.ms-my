@@ -3,17 +3,17 @@ title: Cipta invois pelanggan dan vendor antara syarikat
 description: Topik ini menyediakan maklumat tentang cara mencipta invois pelanggan dan vendor antara syarikat.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287474"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948406"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Cipta invois pelanggan dan vendor antara syarikat
 
@@ -25,7 +25,9 @@ Akauntan projek untuk entiti sah pinjaman boleh menyediakan proses kelompok untu
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Cipta invois pelanggan antara syarikat untuk transaksi projek secara manual 
 
-Gunakan prosedur ini untuk mencipta invois pelanggan antara syarikat untuk transaksi projek secara manual. Cari masa yang disiarkan oleh pekerja pada projek dalam entiti sah pinjaman dan untuk perbelanjaan yang dikenakan oleh entiti sah anda bagi pihak entiti sah pinjaman. Anda boleh mencari dengan nama entiti sah, nombor kontrak projek, nombor projek, julat tarikh atau sebarang gabungan pilihan ini. Dalam hasil carian, pilih transaksi untuk menambah kepada invois antara syarikat.
+Gunakan prosedur ini untuk mencipta invois pelanggan antara syarikat untuk transaksi projek secara manual. Cari masa yang disiarkan oleh pekerja pada projek dalam entiti sah pinjaman dan untuk perbelanjaan yang dikenakan oleh entiti sah anda bagi pihak entiti sah pinjaman. Anda boleh mencari dengan nama entiti sah, nombor kontrak projek, nombor projek, julat tarikh atau sebarang gabungan pilihan ini. Dalam hasil carian, pilih transaksi untuk menambah kepada invois antara syarikat. 
+
+Langkah berikut mesti dilakukan dalam entiti perundangan pemberian pinjaman. 
 
 1. Dalam Dynamics 365 Finance, pergi ke **Pengurusan projek dan perakaunan** > **Invois projek** > **Invois pelanggan antara syarikat**. Pada halaman senarai **Invois pelanggan antara syarikat**, pada Anak Tetingkap Tindakan, pilih **Baharu.**
 2. Pada halaman **Cipta invois antara syarikat**, dalam medan **Entiti sah**, pilih entiti sah pinjaman.
@@ -35,9 +37,9 @@ Gunakan prosedur ini untuk mencipta invois pelanggan antara syarikat untuk trans
 6. Dalam hasil carian, pilih transaksi untuk memasukkan dalam cadangan invois antara syarikat dan kemudian pilih **OK**.
 7. Pada halaman **Invois pelanggan antara syarikat**, transaksi projek antara syarikat yang anda pilih daripada hasil carian dipaparkan. Untuk mengubah suai transaksi sebelum anda menghantar invois kepada entiti sah pinjaman, lakukan perkara berikut:
   
-    1. Buka halaman **Cipta cadangan invois**. Pilih transaksi antara syarikat tambahan untuk invois semasa dan kemudian pilih **Tambah baris**.
+    1. Pada halaman **invois pelanggan antara syarikat**, buka butiran invois dan kemudian pilih **Tambah baris**.
     2. Untuk mengalih keluar baris, pilih baris dan kemudian klik **Alih keluar**.
-    3. Lihat komen, sebab, dimensi kewangan dan maklumat lain tentang baris yang dipilih pada FastTab **Baris invois**.
+    3. Lihat komen, sebab, dimensi kewangan dan maklumat lain tentang baris yang dipilih pada butiran baris invois.
     
 8. Untuk menyiarkan invois pelanggan antara syarikat, pada Anak Tetingkap Tindakan, pilih **Siar**.
 
@@ -52,7 +54,7 @@ Anda boleh mencipta berbilang invois antara syarikat pada masa yang sama untuk s
 2. Pada halaman **Cipta invois antara syarikat**, dalam medan **Syarikat**, pilih entiti sah untuk diinvois. Jika anda tidak memilih syarikat, semua transaksi yang memenuhi kriteria carian dipaparkan untuk semua entiti sah pinjaman.
 3. Dalam **Cipta satu invois per**, pilih sama ada mahu mencipta invois untuk transaksi antara syarikat berdasarkan projek atau berdasarkan entiti sah pinjaman.
 4. Pilihan: Untuk memilih kontrak projek dan projek tertentu untuk mencipta invois antara syarikat untuk, klik **Pilih**. Pada halaman **Pertanyaan**, dalam medan **Kriteria**, pilih kontrak projek, nombor projek atau kedua-duanya dan kemudian pilih **OK**.
-5. Pada tab **kelompok**, sediakan proses kelompok untuk mencipta invois antara syarikat secara berulang. Untuk mendapatkan maklumat lanjut, lihat [Serahkan kerja pemprosesan kelompok daripada borang](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Pada tab **kelompok**, sediakan proses kelompok untuk mencipta invois antara syarikat secara berulang. Untuk mendapatkan maklumat lanjut, lihat [Serahkan kerja pemprosesan kelompok daripada borang](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Untuk menyiarkan invois antara syarikat, pada Anak Tetingkap Tindakan, pilih **Siar**.
 
 > [!NOTE]

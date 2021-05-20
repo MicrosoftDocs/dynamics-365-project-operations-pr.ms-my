@@ -3,17 +3,17 @@ title: Cipta transaksi antara syarikat
 description: Topik ini menyediakan maklumat tentang cara mencipta transaksi antara syarikat.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287429"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880459"
 ---
 # <a name="create-intercompany-transactions"></a>Cipta transaksi antara syarikat
 
@@ -62,7 +62,7 @@ Siti Fatimah Samsuddin, pembangun yang digunakan dalam GBPM merekodkan 10 jam be
     4. Tetapkan mata wang kepada **USD**.
     5. Simpan rekod.
 3. Pergi ke **Jualan** > **Kontrak projek** dan cipta kontrak projek baharu untuk Adventure Works.
-    1. Tetapkan syarikat pemilikan kepada **USPM** dan unit kontrak kepada **Contoso Robotics Amerika Syarikat**.
+    1. Tetapkan syarikat pemilikan ke **USPM** dan unit kontrak ke **Contoso Robotics US**.
     2. Pilih Adventure Works sebagai pelanggan.
     3. Pilih senarai harga produk dan simpan rekod.
     4. Pada tab **Baris kontrak**, cipta baris kontrak baharu. Tetapkan sebarang nama dan pilih **Masa dan bahan** sebagai kaedah pengebilan.
@@ -94,7 +94,7 @@ Siti Fatimah Samsuddin, pembangun yang digunakan dalam GBPM merekodkan 10 jam be
     Jualan belum dibilkan ini kini bersedia untuk penginvoisan. Invois untuk Adventure Works pelanggan boleh disiarkan dari segi kewangan apabila diperlukan.
 
 10. Daftar masuk sebagai akauntan **GBPM**. Buka tika Kewangan Project Operations dan buka syarikat, **GBPM**. 
-11. Pergi ke **Pengurusan projek dan perakaunan** > **Berkala** > **Project Operations pada Customer Engagement** > **Import daripada pemeringkatan** dan menjalankan proses berkala untuk mengisi jurnal Integrasi Project Operations.
+11. Pergi ke **Pengurusan dan perakaunan projek** > **Berkala** > **Integrasi Project Operations** > **import daripada jadual pementasan** dan jalankan proses berkala untuk mengisi jurnal integrasi Project Operations.
 12. Pergi ke **Pengurusan projek dan perakaunan** > **Jurnal** > **Jurnal integrasi Project Operations** dan semak baris. Sistem mencipta baris berikut.
 
     | **Jenis transaksi** | **Harga** | **Mata wang transaksi** | **Amaun** |

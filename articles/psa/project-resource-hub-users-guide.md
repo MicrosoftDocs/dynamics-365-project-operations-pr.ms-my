@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283784"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948159"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Panduan pengguna bagi Hab Sumber Projek
 
@@ -48,7 +48,7 @@ Terdapat dua jenis [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn
 ## <a name="install-the-mobile-app"></a>Pasang aplikasi mudah alih
 Sebelum anda boleh mula menggunakan aplikasi Hab Sumber Projek, anda perlu memasang aplikasi mudah alih pada peranti anda. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pasang Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pasang Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Navigasi Asas
 1.  Apabila anda mendaftar masuk ke aplikasi mudah alih, anda akan melihat halaman MyApps dengan senarai aplikasi mudah alih yang boleh anda akses. 
@@ -99,7 +99,7 @@ Masukkan perbelanjaan anda sekurang-kurangnya setiap minggu—atau mengikut keke
 5. Terus memasukkan perbelanjaan anda untuk seminggu. Apabila anda selesai dan semuanya nampak betul, ketik **Serahkan**. Pengurus akan menyemak dan meluluskan perbelanjaan anda.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Maklumat umum mengenai cara menggunakan aplikasi mudah alih 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panduan Asas Mudah Alih](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panduan Asas Mudah Alih](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Lihat Juga  
  [Gambaran Keseluruhan Project Service](../psa/overview.md)   

@@ -3,17 +3,17 @@ title: Tambah langganan Azure untuk projek LCS
 description: Topik ini memberikan maklumat mengenai cara untuk menyambungkan langganan Azure anda ke projek LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289920"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880549"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Tambah langganan Azure untuk projek LCS
 
@@ -62,7 +62,7 @@ Pengesahan kini selesai.
 3. Dalam **Konfigurasi untuk menggunakan medan Pengurus Sumber Azure**, pilih **Ya**.
 4. Pastikan Langganan Azure AAD Domain Penyewa yang sepadan dengan domain-memiliki langganan Azure yang anda gunakan dan pilih **Seterusnya**.
 5. Pada skrin **Persediaan Microsoft Azure**, pilih **Seterusnya** untuk mengesahkannya. Jika anda menerima ralat pada skrin ini, kembali ke bahagian [Berikan akses kepada Perkhidmatan Pelaksanaan Dynamics kepada Langganan Azure](#provide) dalam topik ini dan pastikan anda telah melengkapkan semua langkah tersebut.
-6. Muat turun Sijil Pengurusan Azure ke folder tempatan pada komputer anda dan kemudian muat naik fail tersebut ke Portal Pengurusan Azure dengan pergi ke **Tetapan** > **Sijil Pengurusan**. Sijil ini akan mendayakan LCS untuk berhubung dengan Azure bagi pihak anda. Anda boleh melangkau langkah ini jika pengguna anda mempunyai akses kepada langganan.
+6. Muat turun Sijil Pengurusan Azure ke folder tempatan pada komputer anda. Minta pentadbir langganan Azure anda untuk memuat naik sijil ke Portal Pengurusan Azure dengan memilih langganan dan pergi ke **Tetapan** > **Sijil Pengurusan**. Sijil ini mendayakan LCS untuk berkomunikasi dengan Azure bagi pihak anda. Anda boleh melangkau langkah ini jika pengguna anda mempunyai akses kepada langganan.
 7. Pilih  **Seterusnya**.
 8. Pilih rantau Azure untuk menggunakan dan pilih pusat data yang berdekatan dengan tempat anda merancang untuk menggunakan sistem ini.
 9.  Pilih  **Connect**.
