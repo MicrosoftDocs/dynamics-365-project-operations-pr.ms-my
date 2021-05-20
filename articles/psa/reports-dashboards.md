@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283379"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951535"
 ---
 # <a name="dashboards"></a>Papan Pemuka
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation menyertakan dua papan pemuka sistem: **P
 
 ## <a name="practice-manager"></a>Pengurus Latihan 
 
-Papan pemuka **Pengurus Latihan** memberikan pengurus latihan pengalaman papan pemuka grafik untuk penjejakan kos, jualan serta margin kasar dan penggunaan. Ia juga membolehkan pengurus latihan membahagikan maklumat mengikut pelbagai dimensi, seperti pelanggan, projek atau peranan sumber. Untuk maklumat lanjut tentang cara untuk mencipta dan menyesuaikan papan pemuka, lihat [Cipta atau edit papan pemuka](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Papan pemuka **Pengurus Latihan** memberikan pengurus latihan pengalaman papan pemuka grafik untuk penjejakan kos, jualan serta margin kasar dan penggunaan. Ia juga membolehkan pengurus latihan membahagikan maklumat mengikut pelbagai dimensi, seperti pelanggan, projek atau peranan sumber. Untuk maklumat lanjut tentang cara untuk mencipta dan menyesuaikan papan pemuka, lihat [Cipta atau edit papan pemuka](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Pengurus Sumber 
 

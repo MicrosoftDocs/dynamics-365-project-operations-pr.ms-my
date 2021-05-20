@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289785"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950455"
 ---
 # <a name="project-management-and-accounting-overview"></a>Gambaran keseluruhan pengurusan projek dan perakaunan
 
@@ -227,7 +227,7 @@ Jenis projek menentukan prosedur penginvoisan yang sepatutnya digunakan. Hanya d
 Sebelum anda mencipta invois pelanggan untuk projek, anda boleh mencipta invois awal atau cadangan invois. Dalam cadangan invois, anda boleh memilih urus niaga projek untuk disertakan dalam invois projek. Anda kemudian boleh menyemak butiran invois sebelum anda menyiarkan invois projek dan menghantarnya kepada pelanggan atau sumber pembiayaan lain. 
 
 
-Untuk maklumat lanjut mengenai cara untuk memproses projek invois, lihat [Penginvoisan project](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Untuk maklumat lanjut mengenai cara untuk memproses projek invois, lihat [Penginvoisan project](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Mengira kos untuk melengkapkan projek

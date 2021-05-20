@@ -1,6 +1,6 @@
 ---
 title: Cipta templat waktu kerja
-description: Cara untuk mencipta templat waktu kerja dalam Project Service
+description: Topik ini menerangkan cara mencipta templat waktu kerja dalam Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285044"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981266"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Cipta templat waktu kerja (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Sebelum anda mencipta jadual projek, anda perlu menyediakan kalendar projek yang mentakrifkan bilangan waktu bekerja untuk diberikan setiap hari dalam jadual dan mana-mana penutupan perniagaan. Anda melakukan ini dengan tempat jam kerja yang mengandungi butiran mengenai jam kerja setiap hari, hari cuti dan mana-mana penutupan perniagaan lain.  
-  
- Apabila anda mencipta projek, anda mengaitkan templat kerja dengan kalendar projek untuk menggunakan jadual untuk projek.  
-  
- Terdapat dua cara anda boleh mencipta templat jam kerja:  
-  
--   Cipta templat waktu kerja berdasarkan kalendar sumber.  
-  
--   Cipta templat waktu kerja baharu.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Untuk mencipta templat jam kerja berdasarkan kalendar sumber.  
-  
-1.  Pergi ke **Project Service > Sumber**.  
-  
-2.  Pilih sumber yang anda mahu jadikan asas waktu kerja anda.  
-  
-3.  Klik **Simpan Kalendar Sebagai**, masukkan nama untuk templat waktu kerja dan kemudian klik **Simpan**.  
-  
-4.  Apabila anda selesai mengubah pilihan, klik **Simpan dan Tutup**.  
-  
-5.  Klik butang **Simpan** di sudut kanan bawah skrin.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Untuk mencipta templat jam kerja baharu  
-  
-1.  Pergi ke **Project Service > Templat Waktu Kerja**.  
-  
-2.  Klik **Baharu**.  
-  
-3.  Masukkan nama untuk templat waktu kerja.  
-  
-4.  Pilih sumber untuk menjadi asas jam kerja dan kemudian klik **Simpan**.  
-  
+Untuk mencipta dan mengurus projek, anda mesti menggunakan templat kalendar ke projek. Templat kalendar mentakrifkan atribut projek berikut:
+
+- Waktu bekerja termasuk masa mula dan masa tamat
+- Hari bekerja
+- Pengecualian kalendar seperti hari tidak bekerja
+
+Templat kalendar yang digunakan ke projek ialah salinan templat kalendar yang ditakrifkan dalam tetapan organisasi anda.
+
+> [!NOTE]
+> Jika anda menukar templat kalendar, perubahan itu tidak tersebar ke waktu kerja projek. Untuk menukar waktu kerja projek, templat baharu mesti digunakan.
+
+Untuk mencipta templat kalendar bagi organisasi anda, terdapat dua keperluan utama:
+
+- Takrifkan waktu kerja yang dikehendaki bagi templat menggunakan sumber boleh ditempah baharu atau sedia ada.
+- Cipta templat kalendar baharu dan kaitkan templat dengan sumber oleh ditempah.
+
+**Takrif waktu bekerja bagi templat**
+
+1. Pergi ke **Sumber** \> **Sumber**.
+2. Cipta sumber baharu untuk dirujuk dalam templat kalendar atau pilih sumber sedia ada.
+3. Pilih tab **Waktu Kerja** bagi sumber dan lengkapkan arahan dalam [Tetapkan waktu kerja untuk sumber](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) untuk mengkonfigurasikan peraturan kalendar.
+
+**Cipta templat kalendar baharu**
+
+1. Pergi ke **Tetapan** \> **Templat Kalendar**.
+2. Pilih **Baharu** dan masukkan nama, perihalan dan sumber templat.
+
+
+> [!NOTE]
+> Apabila sumber dirujuk dalam templat kalendar, salinan kalendar sumber dikaitkan dengan templat kalendar. Jika waktu bekerja bagi templat yang disalin berubah, perubahan itu tidak tersebar ke templat kalendar.
+
+
 ### <a name="see-also"></a>Lihat Juga  
  [Sediakan sumber](../psa/set-up-resources.md)
 

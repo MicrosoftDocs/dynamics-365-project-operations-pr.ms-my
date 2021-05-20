@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276809"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951220"
 ---
 # <a name="security-model"></a>Model Keselamatan
 
@@ -58,7 +58,7 @@ Kumpulan membenarkan keizinan projek dan artifak kerjasama sokongan untuk dilaku
 
 Project Operations tidak mencipta kumpulan melalui tindakan tersirat dan hanya berbuat demikian melalui tindakan yang jelas dalam kumpulan yang mendesak.
 
-Ahli kumpulan carian dalam dialog **Pengurusan kumpulan**, adalah terhad kepada mereka yang ditetapkan sebagai sebahagian daripada kumpulan keselamatan persekitaran. Untuk mendapatkan maklumat lanjut, lihat [Kawal akses pengguna kepada persekitaran: kumpulan keselamatan dan lesen](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Ahli kumpulan carian dalam dialog **Pengurusan kumpulan**, adalah terhad kepada mereka yang ditetapkan sebagai sebahagian daripada kumpulan keselamatan persekitaran. Untuk mendapatkan maklumat lanjut, lihat [Kawal akses pengguna kepada persekitaran: kumpulan keselamatan dan lesen](/power-platform/admin/control-user-access).
 
 ![Mod kumpulan](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Ahli kumpulan carian dalam dialog **Pengurusan kumpulan**, adalah terhad kepada 
 ## <a name="deployment-recommendation"></a>Pengesyoran pelaksanaan
 Sebagai model kerjasama Kumpulan pejabat yang berkembang, kefungsian akan ditambah untuk memberikan kawalan lebih terperinci mengikut masa. Pelanggan yang melaksanakan Project Operations hari ini digalakkan untuk fokus pada model keselamatan tradisional Microsoft Dynamics 365.
 
-Untuk mendapatkan maklumat lanjut, lihat [Keselamatan dalam Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Untuk mendapatkan maklumat lanjut, lihat [Keselamatan dalam Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations dan keselamatan Microsoft Dynamics 365 Finance
 Project Operations termasuk peranan berikut:
@@ -78,7 +78,7 @@ Project Operations termasuk peranan berikut:
 - Pengurus projek
 - Akauntan projek
 
-Untuk mendapatkan maklumat lanjut tentang keselamatan dalam Kewangan, lihat [Keselamatan berasaskan peranan](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Untuk mendapatkan maklumat lanjut tentang keselamatan dalam Kewangan, lihat [Keselamatan berasaskan peranan](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

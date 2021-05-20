@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276899"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950545"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -36,7 +36,7 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
 
 ## <a name="provision-a-project-operations-environment"></a>Menyediakan persekitaran Operasi Projek
 
-1. Buka Dynamics 365 Finance [persekitaran demo baharu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) atau pelaksanaan [persekitaran pengeluaran/bukan pengeluaran bersama](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Buka Dynamics 365 Finance [persekitaran demo baharu](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) atau pelaksanaan [persekitaran pengeluaran/bukan pengeluaran bersama](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Ikuti wizard **Peruntukan persekitaran**. 
 
 > [!IMPORTANT]

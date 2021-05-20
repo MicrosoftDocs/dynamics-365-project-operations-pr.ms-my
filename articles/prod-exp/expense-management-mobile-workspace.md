@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272039"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950490"
 ---
 # <a name="expense-management-mobile-workspace"></a>Ruang kerja mudah alih Pengurusan perbelanjaan
 
@@ -58,7 +58,7 @@ Anda juga boleh menggunakan ciri ini:
 Prasyarat berbeza berdasarkan pada versi yang telah dilaksanakan untuk organisasi anda.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika anda menggunakan Dynamics 365 Finance 
-Jika Kewangan telah dilaksanakan untuk organisasi anda, pentadbir sistem mesti menerbitkan ruang kerja mudah alih **Pengurusan perbelanjaan**. Untuk mendapatkan arahan, lihat [Terbitkan ruang kerja mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Jika Kewangan telah dilaksanakan untuk organisasi anda, pentadbir sistem mesti menerbitkan ruang kerja mudah alih **Pengurusan perbelanjaan**. Untuk mendapatkan arahan, lihat [Terbitkan ruang kerja mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prasyarat jika anda menggunakan versi 1611 dengan kemas kini platform 3 atau lebih baharu
 Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu dilaksanakan untuk organisasi anda, pentadbir sistem mesti melengkapkan prasyarat berikut. 
@@ -77,16 +77,16 @@ Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu dilaksanakan untu
 <td>Pentadbir sistem</td>
 <td>KB 4019015 adalah kemas kini X++ atau hotfix metadata yang mengandungi ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>. Untuk melaksanakan KB 4019015, pentadbir sistem anda mesti mengikut langkah ini.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Muat turun hotfix metadata daripada Microsoft Dynamics Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Pasang hotfix metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cipta pakej boleh dilaksanakan</a> yang mengandungi model <strong>ApplicationSuite</strong> dan <strong>ExpenseMobile</strong> dan kemudian muat naik pakej boleh dilaksanakan ke LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Gunakan pakej boleh dilaksanakan</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Muat turun hotfix metadata daripada Microsoft Dynamics Lifecycle Services</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Pasang hotfix metadata</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cipta pakej boleh dilaksanakan</a> yang mengandungi model <strong>ApplicationSuite</strong> dan <strong>ExpenseMobile</strong> dan kemudian muat naik pakej boleh dilaksanakan ke LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Gunakan pakej boleh dilaksanakan</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Terbitkan ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>.</td>
 <td>Pentadbir sistem</td>
-<td>Liht <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Terbitkan ruang kerja mudah alih</a>.</td>
+<td>Liht <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Terbitkan ruang kerja mudah alih</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Masukan dengan pantas perbelanjaan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan
 1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
 2. Pilih **Entri perbelanjaan pantas**.
-3. Pilih kategori untuk perbelanjaan. Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.
+3. Pilih kategori untuk perbelanjaan. Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.
 4. Masukkan tarikh transaksi perbelanjaan.
 5. Pilihan: Masukkan peniaga untuk perbelanjaan.
 6. Masukkan amaun perbelanjaan.
-7. Pilih mata wang perbelanjaan. Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut mata wang atau tukar ke carian mengikut nama.
+7. Pilih mata wang perbelanjaan. Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut mata wang atau tukar ke carian mengikut nama.
 8. Pilih **Ambil gambar** atau **Pilih imej**.
 9. Ikuti salah satu langkah ini:
 
@@ -163,11 +163,11 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 7. Pilih satu atau lebih perbelanjaan dalam senarai.
 8. Pilih **Selesai**.
 9. Untuk menambahkan perbelanjaan baharu kepada laporan perbelanjaan, pilih **Perbelanjaan baharu**.
-10. Pilih kategori untuk perbelanjaan. Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.
+10. Pilih kategori untuk perbelanjaan. Anda melihat senarai kategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika kategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut kategori perbelanjaan atau tukar ke carian mengikut jenis perbelanjaan.
 11. Pilihan: Masukkan peniaga untuk perbelanjaan.
 12. Masukkan tarikh transaksi perbelanjaan.
 13. Masukkan amaun perbelanjaan.
-14. Pilih mata wang perbelanjaan. Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut mata wang atau tukar ke carian mengikut nama.
+14. Pilih mata wang perbelanjaan. Anda melihat kod mata wang yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 400 mata wang dimuatkan tetapi pembangun boleh mengubah bilangan ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika mata wang anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut mata wang atau tukar ke carian mengikut nama.
 15. Pilih **Selesai**.
 16. Untuk menambah lebih banyak butiran pada perbelanjaan, pilih **Tambah lebih butiran**. Medan yang tersedia bergantung kepada konfigurasi pengurusan perbelanjaan untuk syarikat anda.
 17. Jika polisi syarikat memerlukan resit untuk perbelanjaan, pilih **Resit** dan kemudian ikuti langkah ini:
@@ -213,12 +213,12 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 
         - Jika anda memilih **Tetamu terdahulu**, ikuti langkah ini:
 
-            1. Pilih satu atau lebih tetamu terdahulu dalam senarai. Anda lihat senarai tetamu terdahulu yang anda telah tambahkan kepada laporan perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika tetamu terdahulu anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut nama atau bertukar kepada carian mengikut organisasi, negara atau gelaran.
+            1. Pilih satu atau lebih tetamu terdahulu dalam senarai. Anda lihat senarai tetamu terdahulu yang anda telah tambahkan kepada laporan perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika tetamu terdahulu anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Cari mengikut nama atau bertukar kepada carian mengikut organisasi, negara atau gelaran.
             2. Pilih **Selesai**.
 
         - Jika anda memilih **Rakan sekerja**, ikuti langkah ini:
 
-            1. Pilih satu atau lebih rakan sekerja dalam senarai. Anda lihat senarai rakan sekerja yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika rakan sekerja anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut nama atau bertukar kepada carian mengikut syarikat atau gelaran.
+            1. Pilih satu atau lebih rakan sekerja dalam senarai. Anda lihat senarai rakan sekerja yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika rakan sekerja anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut nama atau bertukar kepada carian mengikut syarikat atau gelaran.
             2. Pilih **Selesai**.
 
     3. Pilih butang **Kembali** untuk kembali ke butiran perbelanjaan..
@@ -227,7 +227,7 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 
     1. Pilih tarikh pertama untuk perincian.
     2. Pilih **Tambah perincian**.
-    3. Pilih subkategori untuk perincian perbelanjaan. Anda lihat senarai subkategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika subkategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut nama subkategori perbelanjaan.
+    3. Pilih subkategori untuk perincian perbelanjaan. Anda lihat senarai subkategori perbelanjaan yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk maklumat lanjut, pembangun hendaklah melihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Jika subkategori anda tiada dalam senarai, pilih **Carian** untuk melakukan carian dalam talian. Carian mengikut nama subkategori perbelanjaan.
     4. Masukkan amaun transaksi untuk perincian.
     5. Edit tarikh transaksi jika diperlukan.
     6. Pilih **Selesai**.

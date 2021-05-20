@@ -3,17 +3,17 @@ title: Konfigurasikan penginvoisan antara syarikat
 description: Topik ini memberikan maklumat dan contoh untuk mengkonfigurasi penginvoisan antara syarikat untuk projek.
 author: sigitac
 manager: tfehr
-ms.date: 11/20/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287564"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949690"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurasikan penginvoisan antara syarikat
 
@@ -23,9 +23,9 @@ Lengkapkan langkah berikut untuk menyediakan penginvoisan antara Syarikat untuk 
 
 ## <a name="example-configure-intercompany-invoicing"></a>Contoh: Konfigurasikan penginvoisan antara syarikat
 
-Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah pinjaman dan Contoso Robotics UK (GBPM) ialah entiti sah pinjaman. 
+Dalam contoh berikut, Contoso Robotics USA (USPM) ialah entiti peminjaman yang sah dan Contoso Robotics UK (GBPM) ialah entiti pemberian pinjaman yang sah. 
 
-1. **Konfigurasikan perakaunan antara syarikat antara entiti sah**. Setiap pasangan entiti sah pinjaman mesti dikonfigurasikan pada Lejar umum halaman [Perakaunan antara syarikat](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Konfigurasikan perakaunan antara syarikat antara entiti sah**. Setiap pasangan entiti sah pinjaman mesti dikonfigurasikan pada Lejar umum halaman [Perakaunan antara syarikat](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. Dalam Dynamics 365 Finance, pergi ke **Lejar Umum** > **Persediaan penyiaran** > **Perakaunan antara syarikat**. Cipta rekod dengan maklumat berikut:
 
@@ -37,9 +37,9 @@ Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah 
      1. Dalam Kewangan, pilih entiti sah **GBPM**.
      2. Pergi ke **Akaun belum terima** > **Pelanggan** > **Semua pelanggan**. Cipta rekod baharu untuk entiti sah, **USPM**.
      3. Kembangkan **Nama**, tapis rekod mengikut **Jenis** dan pilih **Entiti sah**. 
-     4. Cari dan pilih rekod pelanggan untuk **Contoso Robotics Amerika Syarikat (USPM)**.
+     4. Cari dan pilih rekod pelanggan untuk **Contoso Robotics USA (USPM)**.
      5. Pilih **Gunakan padanan**. 
-     6. Pilih kumpulan pelanggan dan kemudian simpan rekod.
+     6. Pilih kumpulan pelanggan **50 - Pelanggan antara syarikat** dan kemudian simpan rekod.
      7. Pilih entiti sah **USPM**.
      8. Pergi ke **Akaun belum bayar** > **Vendor** > **Semua vendor**. Cipta rekod baharu untuk entiti sah, **GBPM**.
      9. Kembangkan **Nama**, tapis rekod mengikut **Jenis** dan pilih **Entiti sah**. 
@@ -47,7 +47,7 @@ Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah 
      11. Pilih **Gunakan padanan**, pilih kumpulan vendor dan kemudian simpan rekod.
      12. Dalam rekod vendor, pilih **Umum** > **Sediakan** > **Antara Syarikat**.
      13. Pada tab **Hubungan jualan**, tetapkan **Aktif** kepada **Ya**.
-     14. Pilih syarikat vendor **GBPM** dan dalam **Rekod akaun saya**, pilih rekod pelanggan yang anda cipta sebelum ini dalam prosedur.
+     14. Tetapkan medan **Syarikat pelanggan** ke **GBPM** dan dalam **Rekod akaun saya**, pilih rekod pelanggan yang anda cipta lebih awal dalam prosedur..
 
 3. **Konfigurasikan tetapan antara syarikat dalam Parameter pengurusan projek dan perakaunan**. 
 
@@ -59,7 +59,7 @@ Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah 
     6. Dalam kumpulan **Sumber apabila meminjam**, pilih **...** > **Baharu**. 
     7. Dalam grid, pilih maklumat berikut:
 
-          - **Entiti sah pinjaman** = **GBPM**
+          - **Entiti sah pinjaman** = **USPM**
           - **Hasil terakru** = **Ya**
           - **Kategori lembaran masa lalai** = **Lalai – Jam**
           - **Kategori perbelanjaan lalai** = **Lalai – perbelanjaan**
@@ -71,34 +71,34 @@ Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah 
      3. Pada tab **Akaun kos**, dalam **Jenis akaun lejar**, pilih **Kos antara syarikat**. Cipta rekod baharu dengan maklumat berikut:
       
         - **Entiti sah pinjaman** = **GBPM**
-        - **Akaun utama** = Pilih akaun utama untuk kos antara syarikat
+        - **Akaun utama** = Pilih akaun utama untuk kos antara syarikat. Persediaan ini diperlukan. Persediaan digunakan untuk aliran antara syarikat dalam Kewangan tetapi tidak dalam aliran antara syarikat berkaitan projek. Pemilihan ini tidak mempunyai kesan hiliran. 
         
      4. Pilih entiti sah pinjaman, **GBPM**. 
      5. Pergi ke **Pengurusan projek dan perakaunan** > **Persediaan** > **Penyiaran** > **Persediaan penyiaran lejar**. 
      6. Pada tab **Akaun hasil**, dalam **Jenis akaun lejar**, pilih **Hasil antara syarikat**. Cipta rekod baharu dengan maklumat berikut:
 
         - **Entiti sah pinjaman** = **USPM**
-        - **Akaun utama** = Pilih akaun utama untuk hasil antara syarikat 
+        - **Akaun utama** = Pilih akaun utama untuk hasil antara syarikat. Persediaan ini diperlukan. Persediaan digunakan untuk aliran antara syarikat dalam Kewangan tetapi tidak dalam aliran antara syarikat berkaitan projek. Pemilihan ini tidak mempunyai kesan hiliran. 
 
 5. **Sediakan penentuan harga pindahan untuk buruh**. Penentuan harga pindahan antara syarikat dikonfigurasikan dalam Project Operations pada Dataverse. Konfigurasikan [kadar kos buruh](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) dan [kadar bil buruh](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) untuk penginvoisan antara syarikat. Penentuan harga pindahan tidak disokong untuk transaksi perbelanjaan antara syarikat. Harga jualan unit antara organisasi akan sentiasa ditetapkan kepada nilai yang sama dengan harga unit sumber.
 
-      Kos sumber pembangun dalam Contoso Robotics UK ialah 88 GBP sejam. Contoso Robotics UK akan mengebil Contoso Robotics Amerika Syarikat sebanyak 120 USD untuk setiap jam sumber ini bekerja pada projek AS. Contoso Robotics Amerika Syarikat akan mengebil Adventure Works pelanggan sebanyak 200 USD untuk kerja yang dilakukan oleh sumber pembangun Contoso Robotics UK.
+      Kos sumber pembangun dalam Contoso Robotics UK ialah 88 GBP sejam. Contoso Robotics UK akan mengebilkan Contoso Robotics USA 120 USD untuk setiap jam sumber ini bekerja pada projek AS. Contoso Robotics USA akan mengebilkan pelanggan Adventure Works 200 USD untuk kerja yang selesai dilakukan oleh sumber pembangun Contoso Robotics UK.
 
-      1. Dalam Project Operations pada Dataverse, pergi ke **Jualan** > **Senarai harga**. Cipta senarai harga kos baharu yang dipanggil **kadar kos Contoso Robotics UK.** 
+      1. Dalam Project Operations pada Dataverse, pergi ke **Jualan** > **Senarai harga**. Cipta senarai harga kos baharu yang dipanggil kadar kos **Contoso Robotics UK.** 
       2. Dalam senarai harga kos, cipta rekod dengan maklumat berikut:
          - **Peranan** = **Pembangun**
          - **Kos** = **88 GBP**
-      3. Pergi ke **Tetapan** > **Unit organisasi** dan lampirkan senarai harga kos ini kepada unit organisasi **Contoso Robotics UK**.
-      4. Pergi ke **Jualan** > **Senarai harga**. Cipta senarai harga kos yang dipanggil **kadar kos Contoso Robotics Amerika Syarikat**. 
+      3. Pergi ke **Tetapan** > **Unit organisasi** dan lampirkan senarai harga kos ke unit organisasi **Contoso Robotics UK**.
+      4. Pergi ke **Jualan** > **Senarai harga**. Cipta senarai harga kos yang dipanggil kadar kos **Contoso Robotics USA**. 
       5. Dalam senarai harga kos, cipta rekod dengan maklumat berikut:
           - **Peranan** = **Pembangun**
-          - **Syarikat sumber** = **Contoso Robotics UK**
+          - **Syarikat penyumberan** = **Contoso Robotics UK**
           - **Kos** = **120 USD**
-      6. Pergi ke **Tetapan** > **Unit organisasi** dan lampirkan senarai harga kos **kadar kos Contoso Robotics Amerika Syarikat** kepada unit organisasi **Contoso Robotics Amerika Syarikat**.
+      6. Pergi ke **Tetapan** > **Unit organisasi** dan lampirkan senarai harga kos **Kadar kos Contoso Robotics USA** ke unit organisasi **Contoso Robotics USA**.
       7. Pergi ke **Jualan** > **Senarai harga**. Cipta senarai harga jualan yang dipanggil **kadar bil Adventure Works**. 
       8. Dalam senarai harga jualan, cipta rekod dengan maklumat berikut:
           - **Peranan** = **Pembangun**
-          - **Syarikat sumber** = **Contoso Robotics UK**
+          - **Syarikat penyumberan** = **Contoso Robotics UK**
           - **Kadar bil** = **200 USD**
       9. Pergi ke **Jualan** > **Kontrak projek** dan lampirkan senarai harga **kadar bil Adventure Works** kepada senarai harga projek Adventure Works bagi kontrak projek.
 

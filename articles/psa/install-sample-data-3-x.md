@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275099"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950590"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Pemasangan data sampel untuk aplikasi Project Service
 
@@ -149,7 +149,7 @@ Pakej data demo memerlukan enam pengguna. Untuk pakej memasang dengan betul, lak
 
 5. Kalendar pengguna pertama (dalam tag **userstocreateandconfigure**) digunakan untuk mengisi waktu bekerja untuk semua sumber yang boleh ditempah pada import data demo. Navigasi ke **Tetapan** > **Keselamatan** > **Pengguna**, cari pengguna "Spencer Low" anda dan buka pilihan "Waktu Bekerja". Edit waktu bekerja sedia ada, pilih pilihan **Seluruh jadual mingguan berulang dari awal hingga akhir**. Pastikan yang **waktu bekerja ditetapkan kepada 8 PG - 5 PTG (9 jam), Isnin hingga Jumaat dan dengan Zon Waktu ditetapkan kepada Waktu Pasifik (AS & Kanada)**. Ini diperlukan untuk memastikan yang papan Projek dan Jadual menunjukkan seperti yang dijangkakan.
 
-**Pengesyoran:** Pertimbangkan mencipta sandaran organisasi anda sekarang, jika anda perlu kembali ke titik permulaan anda jika sesuatu yang tidak kena berlaku semasa pemasangan data sampel. Untuk maklumat lanjut, lihat [Sandarkan dan pulihkan tika](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Pengesyoran:** Pertimbangkan mencipta sandaran organisasi anda sekarang, jika anda perlu kembali ke titik permulaan anda jika sesuatu yang tidak kena berlaku semasa pemasangan data sampel. Untuk maklumat lanjut, lihat [Sandarkan dan pulihkan tika](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Jalankan Package Deployer
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279464"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949960"
 ---
 # <a name="resource-management-modes-overview"></a>Gambaran keseluruhan mod pengurusan sumber
 
@@ -29,11 +29,11 @@ Untuk organisasi yang memusatkan peruntukan bagi sumber untuk projek, mod Pusat 
 
 Untuk menguruskan sumber dengan Mod Tengah, lihat:
 
-- [Tugaskan sumber boleh ditempah generik kepada tugas dan jana keperluan sumber](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Tempah sumber dinamakan daripada keperluan sumber](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Serahkan permintaan sumber](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Penuhi permintaan sumber](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Menerima atau menolak sumber projek yang dicadangkan daripada permintaan sumber](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Tugaskan sumber boleh ditempah generik kepada tugas dan jana keperluan sumber](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Tempah sumber dinamakan daripada keperluan sumber](/dynamics365/project-service/book-named-resource)
+- [Serahkan permintaan sumber](/dynamics365/project-service/submit-resource-request)
+- [Penuhi permintaan sumber](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Menerima atau menolak sumber projek yang dicadangkan daripada permintaan sumber](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Mod hibrid
 Untuk organisasi yang memerlukan fleksibiliti dalam peruntukan sumber, mod hibrid membolehkan kedua-dua Pengurus Projek dan Resource Manager keupayaan untuk menempah sumber.
@@ -43,11 +43,11 @@ Untuk organisasi yang memerlukan fleksibiliti dalam peruntukan sumber, mod hibri
 Selain daripada proses mod Pusat yang disokong, lihat topik berikut untuk menguruskan semua aliran penempahan lain yang disokong dalam mod Hibrid:
 
 Tempah sumber secara langsung kepada projek:
-- [Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugasan](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugasan](/dynamics365/project-service/assign-named-bookable-resource)
 
 Tempah sumber daripada keperluan sumber:
-- [Tugaskan sumber boleh ditempah generik kepada tugas dan jana keperluan sumber](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Tempah sumber dinamakan daripada keperluan sumber](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Tugaskan sumber boleh ditempah generik kepada tugas dan jana keperluan sumber](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Tempah sumber dinamakan daripada keperluan sumber](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

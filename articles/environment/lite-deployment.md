@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290100"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950275"
 ---
 # <a name="deploy-project-operations---lite"></a>Laksanakan Project Operations - lite
 
@@ -34,14 +34,14 @@ Project Operations menyokong berbilang model pelaksanaan. Untuk menentukan model
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Pasang Project Operations ke dalam persekitaran CDS baharu
 
-1. Sebagai [Pentadbir global atau Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) dengan lesen Project Operations, cipta persekitaran CD baharu dalam [pusat pentadbir Power Platform](https://admin.powerplatform.com). Pastikan **pangkalan data CDS** dan **Aplikasi Dynamics 365** didayakan. Untuk mendapatkan maklumat lanjut, lihat [Cipta dan urus persekitaran dalam pusat pentadbir Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Sebagai [Pentadbir global atau Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) dengan lesen Project Operations, cipta persekitaran CD baharu dalam [pusat pentadbir Power Platform](https://admin.powerplatform.com). Pastikan **pangkalan data CDS** dan **Aplikasi Dynamics 365** didayakan. Untuk mendapatkan maklumat lanjut, lihat [Cipta dan urus persekitaran dalam pusat pentadbir Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Pilih **Microsoft Dynamics 365 Project Operations** daripada senarai pelaksanaan aplikasi Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Pasang Project Operations ke dalam persekitaran CDS sedia ada
 
-1. Sebagai [Pentadbir global atau Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) dengan lesen Project Operations, cari persekitaran dalam [Pusat pentadbir Power Platform](https://admin.powerplatform.com) di tempat anda mahu memasang Project Operations.
-2. Pasang **Microsoft Dynamics 365 Project Operations** daripada senarai pelaksanaan aplikasi Dynamics 365. Untuk mendapatkan maklumat lanjut, lihat [Urus aplikasi Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Sebagai [Pentadbir global atau Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) dengan lesen Project Operations, cari persekitaran dalam [Pusat pentadbir Power Platform](https://admin.powerplatform.com) di tempat anda mahu memasang Project Operations.
+2. Pasang **Microsoft Dynamics 365 Project Operations** daripada senarai pelaksanaan aplikasi Dynamics 365. Untuk mendapatkan maklumat lanjut, lihat [Urus aplikasi Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

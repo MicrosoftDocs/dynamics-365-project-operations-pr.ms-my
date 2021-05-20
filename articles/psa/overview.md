@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284189"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949645"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Apakah Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Selain itu, untuk membantu anda memantau dan mengawal kos untuk kerja berasaskan
 ## <a name="whats-new-in-psa"></a>Perkara baharu dalam PSA
 Pasukan teruja untuk mengumumkan kemas kini terbaru kami! Terdiri daripada penambahbaikan kepada antara muka pengguna, pembetulan pepijat dan menambah ciri dan keupayaan penting yang baharu. Anda bertanya; kami mendengar.
 
-Sila lihat pada [Nota Keluaran Oktober '19](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) untuk melihat peningkatan dan tambahan terbaru kami.
+Sila lihat pada [Nota Keluaran Oktober '19](/dynamics365-release-plan/2019wave2/index) untuk melihat peningkatan dan tambahan terbaru kami.
 
 ### <a name="in-development"></a>Dalam pembangunan
-Untuk melihat perkara yang kami telah rancang dalam masa terdekat, pergi ke [Dynamics 365: pelan gelombang 1 keluaran 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Untuk melihat perkara yang kami telah rancang dalam masa terdekat, pergi ke [Dynamics 365: pelan gelombang 1 keluaran 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Dapatkan bantuan dengan PSA versi 3.x
 Mencari sumber untuk membantu merancang pelaksanaan anda? Semak panduan boleh dimuat turun ini.

@@ -3,17 +3,17 @@ title: Urus cadangan invois projek
 description: Topik ini memberikan butiran tentang memproses invois yang menghadap pelanggan dengan Project Operations untuk senario berasaskan sumber/ bukan stok.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275864"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950725"
 ---
 # <a name="manage-project-invoice-proposals"></a>Urus cadangan invois projek
 
@@ -80,7 +80,8 @@ Nilai **Kumpulan cukai jualan** dan **Kumpulan cukai jualan item**  lalai daripa
     - **Pelanggan** akan sentiasa melalaikan kumpulan cukai jualan pengebilan daripada pelanggan.
     - **Cari** akan mencari merentasi semua entiti dalam senarai ini dan memilih nilai pertama yang tersedia. Carian bermula dengan entiti **Projek**, kemudian entiti **Kontrak projek** dan kemudian entiti **Pelanggan**.
 
-- **Kumpulan cukai jualan item pencapaian harga tetap** digunakan untuk lalai nilai kepada medan **Kumpulan cukai jualan item**.
+- **Kumpulan cukai jualan item pencapaian harga tetap** digunakan sebagai nilai lalai dalam medan **kumpulan cukai jualan item** untuk pencapaian pengebilan. Akauntan boleh menyemak semula dan mengubah suai nilai ini pada halaman **Transaksi pada akaun**. Sistem menggunakan nilai daripada transaksi pada akaun apabila mencipta baris cadangan invois projek.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensi kewangan
 
@@ -132,7 +133,7 @@ Halaman **Cadangan invois format** membenarkan transaksi kumpulan tersuai untuk 
 
 Pengurusan cetak menggunakan fail laporan yang berbeza untuk mencetak, menentukan destinasi dan menyesuaikan teks pengaki untuk invois. Pengurusan cetak boleh ditetapkan pada peringkat modul, bagaimanapun tetapan ini boleh diganti untuk pelanggan, kontrak atau cadangan invois khusus. Untuk mengakses fungsi ini pada halaman **Cadangan invois projek**, pilih **Cetak** > **Pengurusan cetak**.
 
-Penyediaan pengurusan cetak dipaparkan sebagai pandangan pepohon, di mana setiap peringkat nod memaparkan dokumen yang tersedia untuk dilaraskan. Anda boleh menugaskan cetakan tersuai pada peringkat modul, pelanggan, kontrak atau dokumen cadangan invois. Untuk mengubah suai cetakan dokumen asal, kembangkan nod yang dikehendaki dan pilih **Item asal**. Dalam medan **Format laporan**, pilih format laporan yang akan digunakan untuk mencetak. Anda boleh menggunakan format laporan tersuai dengan menggunakan [Rangka kerja Pengurusan Dokumen Perniagaan](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Penyediaan pengurusan cetak dipaparkan sebagai pandangan pepohon, di mana setiap peringkat nod memaparkan dokumen yang tersedia untuk dilaraskan. Anda boleh menugaskan cetakan tersuai pada peringkat modul, pelanggan, kontrak atau dokumen cadangan invois. Untuk mengubah suai cetakan dokumen asal, kembangkan nod yang dikehendaki dan pilih **Item asal**. Dalam medan **Format laporan**, pilih format laporan yang akan digunakan untuk mencetak. Anda boleh menggunakan format laporan tersuai dengan menggunakan [Rangka kerja Pengurusan Dokumen Perniagaan](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Siarkan cadangan invois
 
