@@ -17,56 +17,56 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 379379ff643baa10417333b4be5e56d56eb5bc26
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f90c0d2168b261cf1b6ef10374f282274ea61af5
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280544"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948970"
 ---
-# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="f49de-103">Project Service Automation, Keluaran Kemas kini 23, V3</span><span class="sxs-lookup"><span data-stu-id="f49de-103">Project Service Automation Update Release 23, V3</span></span>
+# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="b986c-103">Project Service Automation, Keluaran Kemas kini 23, V3</span><span class="sxs-lookup"><span data-stu-id="b986c-103">Project Service Automation Update Release 23, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="f49de-104">Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="f49de-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="f49de-105">Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan.</span><span class="sxs-lookup"><span data-stu-id="f49de-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="f49de-106">Keluaran ini serasi dengan Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="f49de-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="f49de-107">Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini.</span><span class="sxs-lookup"><span data-stu-id="f49de-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="f49de-108">Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="f49de-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="b986c-104">Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="b986c-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="b986c-105">Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan.</span><span class="sxs-lookup"><span data-stu-id="b986c-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="b986c-106">Keluaran ini serasi dengan Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="b986c-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="b986c-107">Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini.</span><span class="sxs-lookup"><span data-stu-id="b986c-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="b986c-108">Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="b986c-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="f49de-109">Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas kini 23.</span><span class="sxs-lookup"><span data-stu-id="f49de-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="f49de-110">Versi ini mempunyai nombor bina V 3.10.34.30 dan secara amnya boleh didapati melalui kemas kini kendiri pada Ogos 2020.</span><span class="sxs-lookup"><span data-stu-id="f49de-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
+<span data-ttu-id="b986c-109">Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas kini 23.</span><span class="sxs-lookup"><span data-stu-id="b986c-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="b986c-110">Versi ini mempunyai nombor bina V 3.10.34.30 dan secara amnya boleh didapati melalui kemas kini kendiri pada Ogos 2020.</span><span class="sxs-lookup"><span data-stu-id="b986c-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
 
-## <a name="update-release-23"></a><span data-ttu-id="f49de-111">Keluaran Kemas kini 23</span><span class="sxs-lookup"><span data-stu-id="f49de-111">Update Release 23</span></span>
+## <a name="update-release-23"></a><span data-ttu-id="b986c-111">Keluaran Kemas kini 23</span><span class="sxs-lookup"><span data-stu-id="b986c-111">Update Release 23</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="f49de-112">Pembetulan pepijat</span><span class="sxs-lookup"><span data-stu-id="f49de-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="b986c-112">Pembetulan pepijat</span><span class="sxs-lookup"><span data-stu-id="b986c-112">Bug fixes</span></span>
 
-<span data-ttu-id="f49de-113">**Masa dan Perbelanjaan**</span><span class="sxs-lookup"><span data-stu-id="f49de-113">**Time and Expense**</span></span>
+<span data-ttu-id="b986c-113">**Masa dan Perbelanjaan**</span><span class="sxs-lookup"><span data-stu-id="b986c-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="f49de-114">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="f49de-114">The following issues have been fixed:</span></span>
-- <span data-ttu-id="f49de-115">Kendalikan kes pinggir dalam **Padam Ahli Pasukan Projek** untuk memberikan pengecualian bermakna.</span><span class="sxs-lookup"><span data-stu-id="f49de-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
-- <span data-ttu-id="f49de-116">Import tugasan menyebabkan skrin alih keluar kosong.</span><span class="sxs-lookup"><span data-stu-id="f49de-116">Assignment import results in a blank remove screen.</span></span>
+<span data-ttu-id="b986c-114">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="b986c-114">The following issues have been fixed:</span></span>
+- <span data-ttu-id="b986c-115">Kendalikan kes pinggir dalam **Padam Ahli Pasukan Projek** untuk memberikan pengecualian bermakna.</span><span class="sxs-lookup"><span data-stu-id="b986c-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
+- <span data-ttu-id="b986c-116">Import tugasan menyebabkan skrin alih keluar kosong.</span><span class="sxs-lookup"><span data-stu-id="b986c-116">Assignment import results in a blank remove screen.</span></span>
 
-<span data-ttu-id="f49de-117">**Pengurusan Sumber**</span><span class="sxs-lookup"><span data-stu-id="f49de-117">**Resource Management**</span></span>
+<span data-ttu-id="b986c-117">**Pengurusan Sumber**</span><span class="sxs-lookup"><span data-stu-id="b986c-117">**Resource Management**</span></span>
 
-<span data-ttu-id="f49de-118">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="f49de-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="b986c-118">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="b986c-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f49de-119">**Kad sumber grid penggunaan sumber** menunjukkan data yang salah apabila skala masa lebih daripada lima hari.</span><span class="sxs-lookup"><span data-stu-id="f49de-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
-- <span data-ttu-id="f49de-120">Apabila pelanggan mencipta sumber boleh ditempah, pasang masuk sekejap-sekejap gagal menambah sumber secara automatik pada kumpulan Microsoft Office 365.</span><span class="sxs-lookup"><span data-stu-id="f49de-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
-- <span data-ttu-id="f49de-121">Pandangan **penyesuaian** memaparkan kontur manual yang salah dalam pandangan **Minggu** atau **Bulan**.</span><span class="sxs-lookup"><span data-stu-id="f49de-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
+- <span data-ttu-id="b986c-119">**Kad sumber grid penggunaan sumber** menunjukkan data yang salah apabila skala masa lebih daripada lima hari.</span><span class="sxs-lookup"><span data-stu-id="b986c-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
+- <span data-ttu-id="b986c-120">Apabila pelanggan mencipta sumber boleh ditempah, pasang masuk sekejap-sekejap gagal menambah sumber secara automatik pada kumpulan Microsoft Office 365.</span><span class="sxs-lookup"><span data-stu-id="b986c-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
+- <span data-ttu-id="b986c-121">Pandangan **penyesuaian** memaparkan kontur manual yang salah dalam pandangan **Minggu** atau **Bulan**.</span><span class="sxs-lookup"><span data-stu-id="b986c-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
 
-<span data-ttu-id="f49de-122">**Pengurusan Projek**</span><span class="sxs-lookup"><span data-stu-id="f49de-122">**Project Management**</span></span>
+<span data-ttu-id="b986c-122">**Pengurusan Projek**</span><span class="sxs-lookup"><span data-stu-id="b986c-122">**Project Management**</span></span>
 
-<span data-ttu-id="f49de-123">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="f49de-123">The following issues have been fixed:</span></span>
+<span data-ttu-id="b986c-123">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="b986c-123">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f49de-124">Bilangan berlebihan entiti **RetrieveMultiple for usersettings** telah menyebabkan prestasi diturun taraf untuk kelulusan projek dan operasi lain.</span><span class="sxs-lookup"><span data-stu-id="f49de-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
-- <span data-ttu-id="f49de-125">Carian sumber grid **Perancangan Tugas** hanya terhad kepada lima ahli pasukan daripada pasukan projek.</span><span class="sxs-lookup"><span data-stu-id="f49de-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
-- <span data-ttu-id="f49de-126">Carian sumber grid **Perancangan Tugas** tidak menapis sumber yang tidak aktif.</span><span class="sxs-lookup"><span data-stu-id="f49de-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
-- <span data-ttu-id="f49de-127">Mod manual tidak berfungsi seperti yang dijangkakan dalam struktur pecahan kerja perancangan projek.</span><span class="sxs-lookup"><span data-stu-id="f49de-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
-- <span data-ttu-id="f49de-128">Grid **Perancangan Tugas** menunjukkan **Kategori Transaksi Tidak Aktif**.</span><span class="sxs-lookup"><span data-stu-id="f49de-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
-- <span data-ttu-id="f49de-129">Grid **Tugasan Sumber** dibundarkan dengan tidak betul apabila tugas mempunyai berbilang tugas.</span><span class="sxs-lookup"><span data-stu-id="f49de-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
-- <span data-ttu-id="f49de-130">Nilai pembundaran adalah berbeza antara kos yang dirancang dan kos sebenar untuk satu tugas.</span><span class="sxs-lookup"><span data-stu-id="f49de-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
+- <span data-ttu-id="b986c-124">Bilangan berlebihan entiti **RetrieveMultiple for usersettings** telah menyebabkan prestasi diturun taraf untuk kelulusan projek dan operasi lain.</span><span class="sxs-lookup"><span data-stu-id="b986c-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
+- <span data-ttu-id="b986c-125">Carian sumber grid **Perancangan Tugas** hanya terhad kepada lima ahli pasukan daripada pasukan projek.</span><span class="sxs-lookup"><span data-stu-id="b986c-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
+- <span data-ttu-id="b986c-126">Carian sumber grid **Perancangan Tugas** tidak menapis sumber yang tidak aktif.</span><span class="sxs-lookup"><span data-stu-id="b986c-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
+- <span data-ttu-id="b986c-127">Mod manual tidak berfungsi seperti yang dijangkakan dalam struktur pecahan kerja perancangan projek.</span><span class="sxs-lookup"><span data-stu-id="b986c-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
+- <span data-ttu-id="b986c-128">Grid **Perancangan Tugas** menunjukkan **Kategori Transaksi Tidak Aktif**.</span><span class="sxs-lookup"><span data-stu-id="b986c-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
+- <span data-ttu-id="b986c-129">Grid **Tugasan Sumber** dibundarkan dengan tidak betul apabila tugas mempunyai berbilang tugas.</span><span class="sxs-lookup"><span data-stu-id="b986c-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
+- <span data-ttu-id="b986c-130">Nilai pembundaran adalah berbeza antara kos yang dirancang dan kos sebenar untuk satu tugas.</span><span class="sxs-lookup"><span data-stu-id="b986c-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
 
-<span data-ttu-id="f49de-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="f49de-131">**Sales**</span></span>
+<span data-ttu-id="b986c-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="b986c-131">**Sales**</span></span>
 
-<span data-ttu-id="f49de-132">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="f49de-132">The following issues have been fixed:</span></span>
+<span data-ttu-id="b986c-132">Isu berikut telah dibaiki:</span><span class="sxs-lookup"><span data-stu-id="b986c-132">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f49de-133">Klik dua kali **Kutip Semua Kategori Transaksi** mencipta berbilang baris.</span><span class="sxs-lookup"><span data-stu-id="f49de-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+- <span data-ttu-id="b986c-133">Klik dua kali **Kutip Semua Kategori Transaksi** mencipta berbilang baris.</span><span class="sxs-lookup"><span data-stu-id="b986c-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
