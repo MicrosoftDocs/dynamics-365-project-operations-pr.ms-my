@@ -1,0 +1,30 @@
+---
+title: Integrasi invois projek
+description: Topik ini menyediakan maklumat tentang integrasi dwi-tulis Project Operations untuk penginvoisan pelanggan.
+author: sigitac
+ms.date: 04/26/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.translationtype: HT
+ms.contentlocale: ms-MY
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955799"
+---
+# <a name="project-invoice-integration"></a><span data-ttu-id="f837e-103">Integrasi invois projek</span><span class="sxs-lookup"><span data-stu-id="f837e-103">Project invoice integration</span></span>
+
+<span data-ttu-id="f837e-104">Topik ini menyediakan maklumat tentang integrasi dwi-tulis Project Operations untuk penginvoisan pelanggan.</span><span class="sxs-lookup"><span data-stu-id="f837e-104">This topic provides information about Project Operations dual-write integration for customer invoicing.</span></span>
+
+<span data-ttu-id="f837e-105">Dalam Project Operations, pengurus Projek mengurus tunggakan pengebilan projek dan mencipta invois proforma untuk pelanggan dalam Microsoft Dataverse.</span><span class="sxs-lookup"><span data-stu-id="f837e-105">In Project Operations, the Project manager manages the project billing backlog and creates a proforma invoice for the customer in Microsoft Dataverse.</span></span> <span data-ttu-id="f837e-106">Berdasarkan pada invois proforma ini, kerani Akaun belum diterima atau akauntan Projek mencipta invois bersemuka dengan pelanggan.</span><span class="sxs-lookup"><span data-stu-id="f837e-106">Based on this proforma invoice, the Accounts receivable clerk or Project accountant creates a customer-facing invoice.</span></span> <span data-ttu-id="f837e-107">Integrasi dwi-tulis memastikan butiran invois proforma disegerakkan ke aplikasi Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f837e-107">Dual-write integration ensures that the proforma invoice details are synchronized to Finance and Operations apps.</span></span> <span data-ttu-id="f837e-108">Selepas invois bersemuka dengan pelanggan disiarkan, sistem mengemas kini projek aktual yang berkaitan dalam Dataverse dengan butiran perakaunan.</span><span class="sxs-lookup"><span data-stu-id="f837e-108">After the customer-facing invoice is posted, the system updates the relevant project actuals in Dataverse with the accounting detail.</span></span> <span data-ttu-id="f837e-109">Grafik berikut memberikan gambaran keseluruhan konseptual peringkat tinggi bagi integrasi ini.</span><span class="sxs-lookup"><span data-stu-id="f837e-109">The following graphic provides a high-level conceptual overview of this integration.</span></span>
+
+   ![Integrasi invois projek](./media/DW5Invoicing.png)
+
+<span data-ttu-id="f837e-111">Selepas pengurus Projek mengesahkan invois proforma dalam Dataverse, maklumat pengepala invois proforma disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual dwi tulis, **Cadangan invois Projek V2 (invois)**.</span><span class="sxs-lookup"><span data-stu-id="f837e-111">After the Project manager confirms the proforma invoice in Dataverse, the proforma invoice header information synchronizes to Finance and Operations apps using the dual-write table map, **Project invoice proposal V2 (invoices)**.</span></span> <span data-ttu-id="f837e-112">Ini adalah integrasi sehala daripada Dataverse ke aplikasi Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f837e-112">This is a one-way integration from Dataverse to Finance and Operations apps.</span></span> <span data-ttu-id="f837e-113">Mencipta atau memadam cadangan invois Projek secara langsung dalam aplikasi Finance and Operations tidak disokong.</span><span class="sxs-lookup"><span data-stu-id="f837e-113">Creating or deleting Project invoice proposals directly in Finance and Operations apps isn't supported.</span></span>
+
+<span data-ttu-id="f837e-114">Pengesahan invois dalam Dataverse juga mencetuskan logik perniagaan untuk mencipta rekod berkaitan pengebilan dalam entiti **Aktual**.</span><span class="sxs-lookup"><span data-stu-id="f837e-114">Invoice confirmation in Dataverse also triggers the business logic to create billing-related records in the **Actuals** entity.</span></span> <span data-ttu-id="f837e-115">Rekod ini disegerakkan ke Finance and Operations menggunakan peta jadual dwi tulis, **Aktual integrasi Project Operations (msdyn\_actuals).**</span><span class="sxs-lookup"><span data-stu-id="f837e-115">These records are synchronized to Finance and Operations using the dual-write table map, **Project Operations integration actuals (msdyn\_actuals).**</span></span> <span data-ttu-id="f837e-116">Untuk maklumat lanjut, lihat [Anggaran dan aktual Projek](resource-dual-write-estimates-actuals.md).</span><span class="sxs-lookup"><span data-stu-id="f837e-116">For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).</span></span> 
+
+<span data-ttu-id="f837e-117">Baris cadangan invois Projek dicipta oleh proses berkala, **Import daripada pementasan**.</span><span class="sxs-lookup"><span data-stu-id="f837e-117">Project invoice proposal lines are created by the periodic process, **Import form staging**.</span></span> <span data-ttu-id="f837e-118">Proses ini adalah berdasarkan pada butiran aktual jualan yang dibilkan dalam jadual **Pementasan aktual**.</span><span class="sxs-lookup"><span data-stu-id="f837e-118">This process is based on the billed sales actuals details in the **Actuals staging** table.</span></span> <span data-ttu-id="f837e-119">Untuk maklumat lanjut, lihat [Urus cadangan invois projek](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span><span class="sxs-lookup"><span data-stu-id="f837e-119">For more information, see [Manage project invoice proposals](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span></span> 

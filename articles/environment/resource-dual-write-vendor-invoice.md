@@ -1,0 +1,47 @@
+---
+title: Integrasi invois vendor
+description: Topik ini menyediakan maklumat tentang integrasi invois vendor dalam Project Operations.
+author: sigitac
+manager: Annbe
+ms.date: 04/27/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.translationtype: HT
+ms.contentlocale: ms-MY
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955802"
+---
+# <a name="vendor-invoice-integration"></a><span data-ttu-id="97d70-103">Integrasi invois vendor</span><span class="sxs-lookup"><span data-stu-id="97d70-103">Vendor invoice integration</span></span>
+
+<span data-ttu-id="97d70-104">_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_</span><span class="sxs-lookup"><span data-stu-id="97d70-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="97d70-105">Perolehan berkaitan projek dalam Dynamics 365 Project Operations boleh direkodkan dengan pergi ke **Akaun Belum Bayar** > **Invois** > **Invois vendor yang belum selesai** menggunakan dokumen invois vendor yang belum selesai.</span><span class="sxs-lookup"><span data-stu-id="97d70-105">Project-related procurement in Dynamics 365 Project Operations can be recorded by going to **Accounts Payable** > **Invoices** > **Pending vendor invoices** and using a pending vendor invoice document.</span></span> <span data-ttu-id="97d70-106">Untuk maklumat lanjut, lihat [Pembelian bahan bukan stok menggunakan invois vendor yang belum selesai](../procurement/pending-vendor-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="97d70-106">For more information, see [Purchase non-stocked materials using a pending vendor invoice](../procurement/pending-vendor-invoices.md).</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="97d70-107">Sebelum anda menggunakan kefungsian yang diterangkan dalam topik ini, semak dan gunakan konfigurasi yang diperlukan.</span><span class="sxs-lookup"><span data-stu-id="97d70-107">Before you use the functionality described in this topic, review and apply the required configurations.</span></span> <span data-ttu-id="97d70-108">Untuk maklumat lanjut, lihat [Dayakan bahan bukan stok dan invois vendor yang belum selesai](../procurement/configure-materials-nonstocked.md).</span><span class="sxs-lookup"><span data-stu-id="97d70-108">For more information, see [Enable non-stocked materials and pending vendor invoices](../procurement/configure-materials-nonstocked.md).</span></span>
+
+<span data-ttu-id="97d70-109">Dalam Project Operations, invois vendor berkaitan projek disiarkan menggunakan peraturan penyiaran khas:</span><span class="sxs-lookup"><span data-stu-id="97d70-109">In Project Operations, project-related vendor invoices are posted using special posting rules:</span></span>
+
+- <span data-ttu-id="97d70-110">Kos berkaitan projek (termasuk cukai tidak dapat dipulihkan) tidak disiarkan dengan serta-merta ke akaun kos projek dalam lejar umum.</span><span class="sxs-lookup"><span data-stu-id="97d70-110">Project-related cost (including non-recoverable tax) isn't immediately posted to the project cost account in the general ledger.</span></span> <span data-ttu-id="97d70-111">Sebaliknya kos disiarkan ke **Akaun integrasi perolehan**.</span><span class="sxs-lookup"><span data-stu-id="97d70-111">Instead, the cost is posted to the **Procurement integration account**.</span></span> <span data-ttu-id="97d70-112">Akaun ini dikonfigurasi dalam **Pengurusan dan perakaunan projek** > **Persediaan** > **Parameter pengurusan dan perakaunan projek** pada **Project Operations pada tab Dynamics 365 Customer engagement**.</span><span class="sxs-lookup"><span data-stu-id="97d70-112">This account is configured in **Project management and accounting** > **Setup** > **Project management and accounting parameters** on the **Project Operations on Dynamics 365 Customer engagement** tab.</span></span>
+- <span data-ttu-id="97d70-113">Dwi tulis menyegerakkan butiran invois vendor ke Microsoft Dataverse menggunakan peta jadual berikut:</span><span class="sxs-lookup"><span data-stu-id="97d70-113">Dual-write synchronizes vendor invoice details to Microsoft Dataverse using the following table maps:</span></span>
+
+     - <span data-ttu-id="97d70-114">**Entiti eksport invois vendor projek integrasi Project Operations (msdyn_projectvendorinvoices)**: Peta jadual ini menyegerakkan maklumat pengepala invois vendor.</span><span class="sxs-lookup"><span data-stu-id="97d70-114">**Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)**: This table map synchronizes vendor invoice header information.</span></span> <span data-ttu-id="97d70-115">Hanya invois vendor dengan sekurang-kurangnya satu baris yang mengandungi ID projek disegerakkan ke Dataverse.</span><span class="sxs-lookup"><span data-stu-id="97d70-115">Only vendor invoices with at least one line that contains a project ID are synchronized to Dataverse.</span></span>
+     - <span data-ttu-id="97d70-116">**Entiti eksport baris vendor projek integrasi Project Operations (msdyn_projectvendorinvoices)**: Peta jadual ini menyegerakkan maklumat baris invois vendor.</span><span class="sxs-lookup"><span data-stu-id="97d70-116">**Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)**: This table map synchronizes vendor invoice line information.</span></span> <span data-ttu-id="97d70-117">Hanya baris yang mengandungi ID projek disegerakkan ke Dataverse.</span><span class="sxs-lookup"><span data-stu-id="97d70-117">Only lines that contain a project ID are synchronized to Dataverse.</span></span>
+
+     > [!NOTE]
+     > <span data-ttu-id="97d70-118">Butiran invois vendor dalam Dataverse tidak boleh diedit.</span><span class="sxs-lookup"><span data-stu-id="97d70-118">Vendor invoice details in Dataverse are not editable.</span></span>
+
+<span data-ttu-id="97d70-119">Sublejar cukai, sublejar vendor dan siaran kewangan lain direkodkan sebagaimana yang berkenaan dalam Dynamics 365 Finance apabila invois vendor disiarkan.</span><span class="sxs-lookup"><span data-stu-id="97d70-119">Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted.</span></span>
+
+![Integrasi invois vendor](media/DW7VendorInvoice.png)
+
+<span data-ttu-id="97d70-121">Apabila rekod ditulis ke entiti **Invois vendor** dalam Dataverse, proses kelulusan automatik rekod bermula.</span><span class="sxs-lookup"><span data-stu-id="97d70-121">When records are written to a **Vendor invoice** entity in Dataverse, an automated approval process of the records begins.</span></span> <span data-ttu-id="97d70-122">Jika perlu, status proses kelulusan automatik boleh disemak dalam Dataverse dengan pergi ke **Tetapan lanjutan** > **Sistem** > **Kerja sistem**.</span><span class="sxs-lookup"><span data-stu-id="97d70-122">If needed, the automated approval process status can be reviewed in Dataverse by going to **Advanced settings** > **System** > **System jobs**.</span></span> <span data-ttu-id="97d70-123">Selepas kelulusan selesai, sistem mencipta rekod kelas transaksi bahan dalam entiti **Aktual**.</span><span class="sxs-lookup"><span data-stu-id="97d70-123">After the approval is complete, the system creates material transaction class records in the **Actuals** entity.</span></span>
+
+<span data-ttu-id="97d70-124">Aktual berkaitan bahan kemudiannya diproses menggunakan peta jadual dwi tulis **Aktual integrasi Project Operations (msdyn_actuals)**.</span><span class="sxs-lookup"><span data-stu-id="97d70-124">Material-related actuals are then processed using the dual-write table map, **Project Operations integration actuals (msdyn_actuals)**.</span></span> <span data-ttu-id="97d70-125">Untuk maklumat lanjut, lihat [Anggaran dan aktual Projek](resource-dual-write-estimates-actuals.md).</span><span class="sxs-lookup"><span data-stu-id="97d70-125">For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).</span></span>
+
+<span data-ttu-id="97d70-126">Proses berkala, **Import daripada pementasan** mencipta baris jurnal integrasi Project Operations berkaitan invois vendor.</span><span class="sxs-lookup"><span data-stu-id="97d70-126">The periodic process, **Import from staging** creates vendor invoice-related Project Operations integration journal lines.</span></span> <span data-ttu-id="97d70-127">Akaun ofset lalai ke akaun integrasi perolehan.</span><span class="sxs-lookup"><span data-stu-id="97d70-127">The offset account defaults to the procurement integration account.</span></span> <span data-ttu-id="97d70-128">Apabila jurnal integrasi disiarkan, baki akaun dikosongkan untuk transaksi invois vendor dan amaun baris dipindahkan ke akaun kos projek.</span><span class="sxs-lookup"><span data-stu-id="97d70-128">When the integration journal is posted, the account balance is cleared for the vendor invoice transaction and the line amount is moved to the project cost account.</span></span> <span data-ttu-id="97d70-129">Transaksi sublejar projek juga dicipta untuk tujuan penginvoisan hiliran dan pengiktirafan hasil.</span><span class="sxs-lookup"><span data-stu-id="97d70-129">Project subledger transactions are also created for downstream invoicing and revenue recognition purposes.</span></span>
