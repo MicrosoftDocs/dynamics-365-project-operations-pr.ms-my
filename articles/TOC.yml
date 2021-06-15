@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Ciri baharu
       items:
+        - name: Mei 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mac 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Sediakan kategori perbelanjaan
               href: expense/set-up-expense-categories.md
+            - name: Sediakan perbatuan menggunakan peringkat kadar perbatuan
+              href: expense/set-up-mileage.md
         - name: Perbelanjaan peribadi
           href: expense/personal-expenses-expense-report.md
         - name: Perbelanjaan antara syarikat
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Ciri baharu
       items:
+        - name: Perkara baharu Mei 2021 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Perkara baharu April 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Perkara baharu Mac 2021 - pelaksanaan ringan
@@ -1028,6 +1034,8 @@
       items:
         - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Sesuaikan entri masa mingguan
               href: psa/time-entry-extensibility-v3.md
+            - name: Set kelulusan
+              href: psa/approval-set.md
     - name: Soalan lazim dan penyelesaian masalah (3.x)
       items:
         - name: Mengapakah harga ditetapkan lalai kepada sifar pada kos perbelanjaan sebenar?
