@@ -2,18 +2,16 @@
 title: Urus berbilang pelanggan pada baris kontrak berasaskan projek
 description: Topik ini memberikan maklumat tentang bekerja dengan baris kontrak dan kontrak yang mengandungi berbilang pelanggan.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 205363d2ea5f1f5bf5fa8879cedd5b3e857eb772
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2b302368bcb476527c94d48f7693058d2044c74b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278024"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996442"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Urus berbilang pelanggan pada baris kontrak berasaskan projek
 

@@ -2,11 +2,9 @@
 title: Takrifkan kalendar projek
 description: Topik ini menyediakan maklumat tentang cara menggunakan templat kalendar ke projek untuk menjejak jadual projek.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981311"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999007"
 ---
 # <a name="define-project-calendars"></a>Takrifkan kalendar projek
 
@@ -48,7 +46,7 @@ Untuk mencipta templat kalendar bagi organisasi anda, terdapat dua keperluan uta
 
 1. Pergi ke **Sumber** \> **Sumber**.
 2. Cipta sumber baharu untuk dirujuk dalam templat kalendar atau pilih sumber sedia ada.
-3. Pilih tab **Waktu Kerja** bagi sumber dan lengkapkan arahan dalam [Tetapkan waktu kerja untuk sumber](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) untuk mengkonfigurasikan peraturan kalendar.
+3. Pilih tab **Waktu Kerja** bagi sumber dan lengkapkan arahan dalam [Tetapkan waktu kerja untuk sumber](/dynamics365/field-service/set-work-hours-resource.md) untuk mengkonfigurasikan peraturan kalendar.
 
 **Cipta templat kalendar baharu**
 

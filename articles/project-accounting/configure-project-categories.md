@@ -2,18 +2,16 @@
 title: Konfigurasi kategori projek
 description: Topik ini memberikan maklumat tentang menyediakan kategori projek.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287519"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995182"
 ---
 # <a name="configure-project-categories"></a>Konfigurasi kategori projek
 
@@ -29,7 +27,7 @@ Kategori transaksi ialah kumpulan asas untuk transaksi projek. Dalam kumpulan te
 
 ## <a name="transaction-categories"></a>Kategori transaksi
 
-Kategori transaksi mewakili kumpulan asas untuk transaksi projek dan bukan khusus syarikat atau transaksi jenis. Sebagai contoh, Contoso Robotics menggunakan kategori Reka bentuk, Perjalanan, Pemasangan dan Transaksi Perkhidmatan kepada transaksi Projek kumpulan.
+Kategori transaksi mewakili kumpulan asas untuk transaksi projek dan bukan khusus syarikat atau transaksi jenis. Contohnya, Contoso Robotics menggunakan kategori Reka bentuk, Perjalanan, Pemasangan dan Transaksi Perkhidmatan kepada transaksi Projek kumpulan.
 
 Kategori transaksi ditakrifkan dalam modul Operasi Projek. 
 1. Pergi ke **Tetapan** \> **Kategori Transaksi** untuk membuka borang. 

@@ -2,18 +2,16 @@
 title: Penjejakan kos projek
 description: Topik ini menyediakan maklumat tentang cara Project Operations menjejaki kemajuan berbanding kos buruh dan perbelanjaan pada projek.
 author: rumant
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28cb692c61ae4137a28973dc1bd70ffd989dd535
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: cb76987cf15a14639f34cd3b67c1296a020b2e3e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5711070"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996532"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>Penjejakan kos buruh pada projek
 

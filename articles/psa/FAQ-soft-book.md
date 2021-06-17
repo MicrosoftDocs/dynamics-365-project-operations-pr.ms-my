@@ -2,8 +2,6 @@
 title: Tempah lembut sumber
 description: Topik ini memberikan maklumat tentang cara menjadualkan atau menempah lembut ahli pasukan prrojek buat sementara waktu.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +10,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 1d2044692d1c6d694a1365be76dd8e7ddafd376d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 36246dadb1c4ba0234ae1042ba9e78c96f9d2bd8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285989"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992928"
 ---
 # <a name="soft-book-a-resource"></a>Tempah lembut sumber
 

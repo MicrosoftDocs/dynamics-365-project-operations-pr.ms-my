@@ -2,19 +2,17 @@
 title: Konfigurasi bahan bukan stok dan invois vendor yang belum selesai
 description: Topik ini menerangkan cara mendayakan bahan bukan stok dan invois vendor yang belum selesai.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880669"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993922"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurasi bahan bukan stok dan invois vendor yang belum selesai
 
@@ -61,11 +59,11 @@ Jika anda menggunakan data demo standard, anda juga perlu berhenti dan memulakan
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktifkan aliran kerja untuk mencipta akaun berdasarkan pada entiti vendor
 
-Penyelesaian Pengorkestraan Dwi Tulis menyediakan [Integrasi induk vendor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Sebagai prasyarat untuk ciri ini, data vendor mesti dicipta dalam entiti **Akaun**. Aktifkan proses aliran kerja templat untuk mencipta vendor dalam jadual **Akaun** seperti diterangkan dalam [Tukar antara reka bentuk vendor](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Penyelesaian Pengorkestraan Dwi Tulis menyediakan [Integrasi induk vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Sebagai prasyarat untuk ciri ini, data vendor mesti dicipta dalam entiti **Akaun**. Aktifkan proses aliran kerja templat untuk mencipta vendor dalam jadual **Akaun** seperti diterangkan dalam [Tukar antara reka bentuk vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Tetapkan produk untuk dicipta sebagai aktif
 
-Bahan bukan stok mesti dikonfigurasikan sebagai **Mengeluarkan produk** dalam Kewangan. Penyelesaian Pengorkestraan Dwi Tulis menyediakan produk [Mengeluarkan integrasi produk ke katalog Produk Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) di luar kotak. Secara lalai, produk daripada Kewangan disegerakkan ke Dataverse dalam keadaan draf. Untuk menyegerakkan produk ke keadaan aktif supaya produk boleh digunakan secara langsung dalam dokumen penggunaan bahan atau invois vendor yang belum selesai, pergi ke **Sistem** > **Pentadbiran** > **Pentadbiran sistem** > **Tetapan sistem** dan pada tab **Jualan**, tetapkan **Cipta produk dalam keadaan aktif** ke **Ya**.
+Bahan bukan stok mesti dikonfigurasikan sebagai **Mengeluarkan produk** dalam Kewangan. Penyelesaian Pengorkestraan Dwi Tulis menyediakan produk [Mengeluarkan integrasi produk ke katalog Produk Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) di luar kotak. Secara lalai, produk daripada Kewangan disegerakkan ke Dataverse dalam keadaan draf. Untuk menyegerakkan produk ke keadaan aktif supaya produk boleh digunakan secara langsung dalam dokumen penggunaan bahan atau invois vendor yang belum selesai, pergi ke **Sistem** > **Pentadbiran** > **Pentadbiran sistem** > **Tetapan sistem** dan pada tab **Jualan**, tetapkan **Cipta produk dalam keadaan aktif** ke **Ya**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurasikan prasyarat dalam Kewangan
 
