@@ -2,11 +2,9 @@
 title: Halaman utama sumber projek
 description: Topik ini memberikan maklumat tentang penyumberan projek.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,43 +16,43 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289110"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009717"
 ---
-# <a name="project-resourcing-home-page"></a><span data-ttu-id="e7566-103">Halaman utama sumber projek</span><span class="sxs-lookup"><span data-stu-id="e7566-103">Project resourcing home page</span></span>
+# <a name="project-resourcing-home-page"></a><span data-ttu-id="2720a-103">Halaman utama sumber projek</span><span class="sxs-lookup"><span data-stu-id="2720a-103">Project resourcing home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e7566-104">Topik ini memberikan maklumat tentang penyumberan projek.</span><span class="sxs-lookup"><span data-stu-id="e7566-104">This topic provides information about project resourcing.</span></span>
+<span data-ttu-id="2720a-104">Topik ini memberikan maklumat tentang penyumberan projek.</span><span class="sxs-lookup"><span data-stu-id="2720a-104">This topic provides information about project resourcing.</span></span>
 
-<span data-ttu-id="e7566-105">Satu cabaran untuk pengurus projek dan pengurus sumber semasa peringkat perancangan projek ialah peruntukan sumber, di mana mereka mesti menentukan dan menguntukkan sumber yang betul untuk kerja projek.</span><span class="sxs-lookup"><span data-stu-id="e7566-105">One challenge for project managers and resource managers during the project planning stage is resource allocation, where they must determine and reserve the correct resource to work on a project.</span></span> <span data-ttu-id="e7566-106">Dalam Dynamics 365 Finance, keupayaan penyumberan untuk projek membolehkan anda mentakrifkan peranan yang dianggap sebagai sumber sementara yang boleh diperuntukkan untuk penglibatan khusus atau sebahagian daripada penglibatan.</span><span class="sxs-lookup"><span data-stu-id="e7566-106">In Dynamics 365 Finance, resourcing capabilities for projects let you define roles that are treated as temporary resources that can be reserved for a specific engagement or part of an engagement.</span></span> <span data-ttu-id="e7566-107">Jenis penyumberan ini membolehkan pengurus projek dan pengurus sumber melengkapkan tugas berikut:</span><span class="sxs-lookup"><span data-stu-id="e7566-107">This type of resourcing lets project managers and resource managers complete the following tasks:</span></span>
+<span data-ttu-id="2720a-105">Satu cabaran untuk pengurus projek dan pengurus sumber semasa peringkat perancangan projek ialah peruntukan sumber, di mana mereka mesti menentukan dan menguntukkan sumber yang betul untuk kerja projek.</span><span class="sxs-lookup"><span data-stu-id="2720a-105">One challenge for project managers and resource managers during the project planning stage is resource allocation, where they must determine and reserve the correct resource to work on a project.</span></span> <span data-ttu-id="2720a-106">Dalam Dynamics 365 Finance, keupayaan penyumberan untuk projek membolehkan anda mentakrifkan peranan yang dianggap sebagai sumber sementara yang boleh diperuntukkan untuk penglibatan khusus atau sebahagian daripada penglibatan.</span><span class="sxs-lookup"><span data-stu-id="2720a-106">In Dynamics 365 Finance, resourcing capabilities for projects let you define roles that are treated as temporary resources that can be reserved for a specific engagement or part of an engagement.</span></span> <span data-ttu-id="2720a-107">Jenis penyumberan ini membolehkan pengurus projek dan pengurus sumber melengkapkan tugas berikut:</span><span class="sxs-lookup"><span data-stu-id="2720a-107">This type of resourcing lets project managers and resource managers complete the following tasks:</span></span>
 
-- <span data-ttu-id="e7566-108">Mentakrifkan peranan yang mempunyai kecekapan yang diperlukan, supaya mudah untuk dipadankan dengan sumber.</span><span class="sxs-lookup"><span data-stu-id="e7566-108">Define a role that has the required competencies, so that it's easy to match resources.</span></span>
-- <span data-ttu-id="e7566-109">Gunakan peranan untuk mentakrifkan jadual penglibatan awal yang berdasarkan sumber diperuntukkan.</span><span class="sxs-lookup"><span data-stu-id="e7566-109">Use roles to define an initial engagement schedule that is based on reserved resources.</span></span>
-- <span data-ttu-id="e7566-110">Anggaran kos dan menentukan belanjawan awal, berdasarkan peranan dan sumber yang ditugaskan untuk projek.</span><span class="sxs-lookup"><span data-stu-id="e7566-110">Estimate costs and determine an initial budget, based on assigned roles and resources for a project.</span></span>
-- <span data-ttu-id="e7566-111">Gunakan peranan untuk menganggarkan bilangan tempahan sumber yang diperlukan untuk setiap penglibatan.</span><span class="sxs-lookup"><span data-stu-id="e7566-111">Use roles to estimate the number of resource reservations that are required for each engagement.</span></span>
-- <span data-ttu-id="e7566-112">Anggaran bilangan sumber yang diperlukan untuk seluruh kitaran hayat projek.</span><span class="sxs-lookup"><span data-stu-id="e7566-112">Estimate the number of resources that are required for the whole life cycle of a project.</span></span>
-- <span data-ttu-id="e7566-113">Draf struktur pecahan kerja (WBS) dengan menggunakan tugasan sumber awal.</span><span class="sxs-lookup"><span data-stu-id="e7566-113">Draft a work breakdown structure (WBS) by using the initial resource assignments.</span></span>
+- <span data-ttu-id="2720a-108">Mentakrifkan peranan yang mempunyai kecekapan yang diperlukan, supaya mudah untuk dipadankan dengan sumber.</span><span class="sxs-lookup"><span data-stu-id="2720a-108">Define a role that has the required competencies, so that it's easy to match resources.</span></span>
+- <span data-ttu-id="2720a-109">Gunakan peranan untuk mentakrifkan jadual penglibatan awal yang berdasarkan sumber diperuntukkan.</span><span class="sxs-lookup"><span data-stu-id="2720a-109">Use roles to define an initial engagement schedule that is based on reserved resources.</span></span>
+- <span data-ttu-id="2720a-110">Anggaran kos dan menentukan belanjawan awal, berdasarkan peranan dan sumber yang ditugaskan untuk projek.</span><span class="sxs-lookup"><span data-stu-id="2720a-110">Estimate costs and determine an initial budget, based on assigned roles and resources for a project.</span></span>
+- <span data-ttu-id="2720a-111">Gunakan peranan untuk menganggarkan bilangan tempahan sumber yang diperlukan untuk setiap penglibatan.</span><span class="sxs-lookup"><span data-stu-id="2720a-111">Use roles to estimate the number of resource reservations that are required for each engagement.</span></span>
+- <span data-ttu-id="2720a-112">Anggaran bilangan sumber yang diperlukan untuk seluruh kitaran hayat projek.</span><span class="sxs-lookup"><span data-stu-id="2720a-112">Estimate the number of resources that are required for the whole life cycle of a project.</span></span>
+- <span data-ttu-id="2720a-113">Draf struktur pecahan kerja (WBS) dengan menggunakan tugasan sumber awal.</span><span class="sxs-lookup"><span data-stu-id="2720a-113">Draft a work breakdown structure (WBS) by using the initial resource assignments.</span></span>
 
-<span data-ttu-id="e7566-114">[![Kitaran hayat projek](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span><span class="sxs-lookup"><span data-stu-id="e7566-114">[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span></span>
+<span data-ttu-id="2720a-114">[![Kitaran hayat projek](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span><span class="sxs-lookup"><span data-stu-id="2720a-114">[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span></span>
 
-<span data-ttu-id="e7566-115">Semasa perancangan projek berjalan, sumber yang dirancang boleh digantikan dengan sumber diperlukan.</span><span class="sxs-lookup"><span data-stu-id="e7566-115">As project planning proceeds, planned resources can be replaced with staffed resources.</span></span> <span data-ttu-id="e7566-116">Pengurus Projek juga boleh kembali dan mengemas kini tempahan penyumberan semasa sebarang peringkat projek.</span><span class="sxs-lookup"><span data-stu-id="e7566-116">The project manager can also go back and update the resourcing reservations during any project stage.</span></span>
+<span data-ttu-id="2720a-115">Semasa perancangan projek berjalan, sumber yang dirancang boleh digantikan dengan sumber diperlukan.</span><span class="sxs-lookup"><span data-stu-id="2720a-115">As project planning proceeds, planned resources can be replaced with staffed resources.</span></span> <span data-ttu-id="2720a-116">Pengurus Projek juga boleh kembali dan mengemas kini tempahan penyumberan semasa sebarang peringkat projek.</span><span class="sxs-lookup"><span data-stu-id="2720a-116">The project manager can also go back and update the resourcing reservations during any project stage.</span></span>
 
-<span data-ttu-id="e7566-117">Topik berikut memberikan maklumat mengenai tugas yang perlu dilengkapkan apabila anda sedang mengusahakan projek sumber.</span><span class="sxs-lookup"><span data-stu-id="e7566-117">The following topics provide information about the tasks that need to be completed when you are working on resourcing projects.</span></span>
+<span data-ttu-id="2720a-117">Topik berikut memberikan maklumat mengenai tugas yang perlu dilengkapkan apabila anda sedang mengusahakan projek sumber.</span><span class="sxs-lookup"><span data-stu-id="2720a-117">The following topics provide information about the tasks that need to be completed when you are working on resourcing projects.</span></span>
 
-- [<span data-ttu-id="e7566-118">Sediakan sumber projek</span><span class="sxs-lookup"><span data-stu-id="e7566-118">Set up project resources</span></span>](set-up-project-resources.md)
-- [<span data-ttu-id="e7566-119">Urus kecekapan sumber</span><span class="sxs-lookup"><span data-stu-id="e7566-119">Manage resource competencies</span></span>](manage-resource-competencies.md)
-- [<span data-ttu-id="e7566-120">Cipta projek baharu</span><span class="sxs-lookup"><span data-stu-id="e7566-120">Create a new project</span></span>](create-new-project.md)
-- [<span data-ttu-id="e7566-121">Sediakan penentuan harga berasaskan peranan</span><span class="sxs-lookup"><span data-stu-id="e7566-121">Set up role-based pricing</span></span>](set-up-role-based-pricing.md)
-- [<span data-ttu-id="e7566-122">Cipta pasukan projek</span><span class="sxs-lookup"><span data-stu-id="e7566-122">Create a project team</span></span>](create-project-team.md)
-- [<span data-ttu-id="e7566-123">Segerakkan kapasiti sumber</span><span class="sxs-lookup"><span data-stu-id="e7566-123">Synchronize resource capacity</span></span>](synchronize-resource-capacity.md)
-- [<span data-ttu-id="e7566-124">Prestasi penjadualan sumber projek</span><span class="sxs-lookup"><span data-stu-id="e7566-124">Project resource scheduling performance</span></span>](project-scheduling-performance.md)
-- [<span data-ttu-id="e7566-125">Sediakan peranan pada templat struktur pecahan Kerja</span><span class="sxs-lookup"><span data-stu-id="e7566-125">Set up roles on Work breakdown structure templates</span></span>](set-up-roles-wbs-template.md)
-- [<span data-ttu-id="e7566-126">Pemenuhan sumber untuk sumber yang dirancang</span><span class="sxs-lookup"><span data-stu-id="e7566-126">Resource fulfillment for planned resources</span></span>](resource-fulfillment-planned-resources.md)
+- [<span data-ttu-id="2720a-118">Sediakan sumber projek</span><span class="sxs-lookup"><span data-stu-id="2720a-118">Set up project resources</span></span>](set-up-project-resources.md)
+- [<span data-ttu-id="2720a-119">Urus kecekapan sumber</span><span class="sxs-lookup"><span data-stu-id="2720a-119">Manage resource competencies</span></span>](manage-resource-competencies.md)
+- [<span data-ttu-id="2720a-120">Cipta projek baharu</span><span class="sxs-lookup"><span data-stu-id="2720a-120">Create a new project</span></span>](create-new-project.md)
+- [<span data-ttu-id="2720a-121">Sediakan penentuan harga berasaskan peranan</span><span class="sxs-lookup"><span data-stu-id="2720a-121">Set up role-based pricing</span></span>](set-up-role-based-pricing.md)
+- [<span data-ttu-id="2720a-122">Cipta pasukan projek</span><span class="sxs-lookup"><span data-stu-id="2720a-122">Create a project team</span></span>](create-project-team.md)
+- [<span data-ttu-id="2720a-123">Segerakkan kapasiti sumber</span><span class="sxs-lookup"><span data-stu-id="2720a-123">Synchronize resource capacity</span></span>](synchronize-resource-capacity.md)
+- [<span data-ttu-id="2720a-124">Prestasi penjadualan sumber projek</span><span class="sxs-lookup"><span data-stu-id="2720a-124">Project resource scheduling performance</span></span>](project-scheduling-performance.md)
+- [<span data-ttu-id="2720a-125">Sediakan peranan pada templat struktur pecahan Kerja</span><span class="sxs-lookup"><span data-stu-id="2720a-125">Set up roles on Work breakdown structure templates</span></span>](set-up-roles-wbs-template.md)
+- [<span data-ttu-id="2720a-126">Pemenuhan sumber untuk sumber yang dirancang</span><span class="sxs-lookup"><span data-stu-id="2720a-126">Resource fulfillment for planned resources</span></span>](resource-fulfillment-planned-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Jadualkan sumber untuk projek
 description: Cara untuk menjadual sumber bagi projek dalam Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,71 +16,71 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c67633960bb448d2190ec1bfde4e964f4fcb7969
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951445"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008502"
 ---
-# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="da9c7-103">Jadualkan sumber bagi projek (Project Service)</span><span class="sxs-lookup"><span data-stu-id="da9c7-103">Schedule resources for a project (Project Service)</span></span>
+# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="8dc48-103">Jadualkan sumber bagi projek (Project Service)</span><span class="sxs-lookup"><span data-stu-id="8dc48-103">Schedule resources for a project (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="da9c7-104">Anda boleh menyemak ketersediaan sumber untuk mendapatkan pandangan keseluruhan tentang cara sumber anda ditempah atau anda boleh menapis pandang mengikut kemahiran, pasukan, lokasi dan pilihan lain.</span><span class="sxs-lookup"><span data-stu-id="da9c7-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
+<span data-ttu-id="8dc48-104">Anda boleh menyemak ketersediaan sumber untuk mendapatkan pandangan keseluruhan tentang cara sumber anda ditempah atau anda boleh menapis pandang mengikut kemahiran, pasukan, lokasi dan pilihan lain.</span><span class="sxs-lookup"><span data-stu-id="8dc48-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
   
-<span data-ttu-id="da9c7-105">Papan jadual menunjukkan senarai sumber dan ketersediaannya.</span><span class="sxs-lookup"><span data-stu-id="da9c7-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="da9c7-106">Pilih mod pandangan untuk menunjukkan ketersediaan mengikut **Jam**, **Hari**, **Minggu** atau **Bulan**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-106">Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.</span></span>  
+<span data-ttu-id="8dc48-105">Papan jadual menunjukkan senarai sumber dan ketersediaannya.</span><span class="sxs-lookup"><span data-stu-id="8dc48-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="8dc48-106">Pilih mod pandangan untuk menunjukkan ketersediaan mengikut **Jam**, **Hari**, **Minggu** atau **Bulan**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-106">Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.</span></span>  
   
-<span data-ttu-id="da9c7-107">Sebelum anda menggunakan papan jadual, penting untuk menyediakannya.</span><span class="sxs-lookup"><span data-stu-id="da9c7-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="da9c7-108">Untuk maklumat lanjut, lihat [Konfigurasikan papan jadual (Field Service atau Project Service Automation)](/dynamics365/field-service/configure-schedule-board).</span><span class="sxs-lookup"><span data-stu-id="da9c7-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](/dynamics365/field-service/configure-schedule-board).</span></span>
+<span data-ttu-id="8dc48-107">Sebelum anda menggunakan papan jadual, penting untuk menyediakannya.</span><span class="sxs-lookup"><span data-stu-id="8dc48-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="8dc48-108">Untuk maklumat lanjut, lihat [Konfigurasikan papan jadual (Field Service atau Project Service Automation)](/dynamics365/field-service/configure-schedule-board).</span><span class="sxs-lookup"><span data-stu-id="8dc48-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](/dynamics365/field-service/configure-schedule-board).</span></span>
   
-<span data-ttu-id="da9c7-109">Jika anda menggunakan versi lebih lama, untuk ketersediaan sumber, lihat [Lihat ketersediaan sumber.](../psa/view-resource-availability.md).</span><span class="sxs-lookup"><span data-stu-id="da9c7-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
+<span data-ttu-id="8dc48-109">Jika anda menggunakan versi lebih lama, untuk ketersediaan sumber, lihat [Lihat ketersediaan sumber.](../psa/view-resource-availability.md).</span><span class="sxs-lookup"><span data-stu-id="8dc48-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
 
 > [!IMPORTANT]
->  <span data-ttu-id="da9c7-110">Untuk menggunakan kefungsian penempahan papan jadual, geokod dan perkhidmatan lokasi, anda perlu menghidupkan peta.</span><span class="sxs-lookup"><span data-stu-id="da9c7-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
+>  <span data-ttu-id="8dc48-110">Untuk menggunakan kefungsian penempahan papan jadual, geokod dan perkhidmatan lokasi, anda perlu menghidupkan peta.</span><span class="sxs-lookup"><span data-stu-id="8dc48-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
 > 
-> 1. <span data-ttu-id="da9c7-111">Pada menu utama, pilih **Penjadualan Sumber** > **Pentadbiran**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
-> 2. <span data-ttu-id="da9c7-112">Klik **Parameter penjadualan**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-112">Click **Scheduling parameters**.</span></span>  
-> 3. <span data-ttu-id="da9c7-113">Buka rekod dan tatal ke bawah ke bahagian **Resource Scheduling Optimization**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
-> 4. <span data-ttu-id="da9c7-114">Pada medan **Sambungkan ke Peta**, pilih **Ya**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
-> 5. <span data-ttu-id="da9c7-115">Terima terma dan simpan rekod.</span><span class="sxs-lookup"><span data-stu-id="da9c7-115">Accept terms and save the record.</span></span>  
-> 6. <span data-ttu-id="da9c7-116">Pada menu utama, pilih **Project Service** > **Papan jadual**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="da9c7-117">Dari sini, terdapat beberapa cara untuk menjadualkan secara manual keperluan penempahan.</span><span class="sxs-lookup"><span data-stu-id="da9c7-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="da9c7-118">Pilih kaedah yang sesuai untuk anda.</span><span class="sxs-lookup"><span data-stu-id="da9c7-118">Choose the method that works for you.</span></span>
+> 1. <span data-ttu-id="8dc48-111">Pada menu utama, pilih **Penjadualan Sumber** > **Pentadbiran**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
+> 2. <span data-ttu-id="8dc48-112">Klik **Parameter penjadualan**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-112">Click **Scheduling parameters**.</span></span>  
+> 3. <span data-ttu-id="8dc48-113">Buka rekod dan tatal ke bawah ke bahagian **Resource Scheduling Optimization**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
+> 4. <span data-ttu-id="8dc48-114">Pada medan **Sambungkan ke Peta**, pilih **Ya**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
+> 5. <span data-ttu-id="8dc48-115">Terima terma dan simpan rekod.</span><span class="sxs-lookup"><span data-stu-id="8dc48-115">Accept terms and save the record.</span></span>  
+> 6. <span data-ttu-id="8dc48-116">Pada menu utama, pilih **Project Service** > **Papan jadual**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="8dc48-117">Dari sini, terdapat beberapa cara untuk menjadualkan secara manual keperluan penempahan.</span><span class="sxs-lookup"><span data-stu-id="8dc48-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="8dc48-118">Pilih kaedah yang sesuai untuk anda.</span><span class="sxs-lookup"><span data-stu-id="8dc48-118">Choose the method that works for you.</span></span>
   
-## <a name="find-available-resources"></a><span data-ttu-id="da9c7-119">Cari sumber tersedia</span><span class="sxs-lookup"><span data-stu-id="da9c7-119">Find available resources</span></span>
+## <a name="find-available-resources"></a><span data-ttu-id="8dc48-119">Cari sumber tersedia</span><span class="sxs-lookup"><span data-stu-id="8dc48-119">Find available resources</span></span>
 
-1.  <span data-ttu-id="da9c7-120">Daripada senarai **Keperluan Penempahan**, klik kanan pada penempahan tidak berjadual dan pilih satu daripada yang berikut:</span><span class="sxs-lookup"><span data-stu-id="da9c7-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
+1.  <span data-ttu-id="8dc48-120">Daripada senarai **Keperluan Penempahan**, klik kanan pada penempahan tidak berjadual dan pilih satu daripada yang berikut:</span><span class="sxs-lookup"><span data-stu-id="8dc48-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
   
-- <span data-ttu-id="da9c7-121">Pilih **Cari ketersediaan - Sumber Semasa** untuk mencari sumber yang tersedia daripada senarai pada papan jadual.</span><span class="sxs-lookup"><span data-stu-id="da9c7-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
-- <span data-ttu-id="da9c7-122">Pilih **Cari ketersediaan - Semua Sumber**, untuk mencari sumber yang tersedia daripada sumber dalam sistem</span><span class="sxs-lookup"><span data-stu-id="da9c7-122">Choose **Find availability - All Resources**, to find an available resource from resources in the system</span></span>  
+- <span data-ttu-id="8dc48-121">Pilih **Cari ketersediaan - Sumber Semasa** untuk mencari sumber yang tersedia daripada senarai pada papan jadual.</span><span class="sxs-lookup"><span data-stu-id="8dc48-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
+- <span data-ttu-id="8dc48-122">Pilih **Cari ketersediaan - Semua Sumber**, untuk mencari sumber yang tersedia daripada sumber dalam sistem</span><span class="sxs-lookup"><span data-stu-id="8dc48-122">Choose **Find availability - All Resources**, to find an available resource from resources in the system</span></span>  
    > [!NOTE]
-   >  <span data-ttu-id="da9c7-123">Apabila anda melakukannya, penapis akan menunjukkan pilihan untuk keperluan penempahan yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="da9c7-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
+   >  <span data-ttu-id="8dc48-123">Apabila anda melakukannya, penapis akan menunjukkan pilihan untuk keperluan penempahan yang dipilih.</span><span class="sxs-lookup"><span data-stu-id="8dc48-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
   
-2. <span data-ttu-id="da9c7-124">Apabila anda melihat slot yang tersedia, klik kanan pada slot masa pada papan jadual dan pilih **Tempah Di Sini**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="da9c7-125">Atau, seret dan lepas keperluan penempahan pada slot masa yang tersedia.</span><span class="sxs-lookup"><span data-stu-id="da9c7-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
+2. <span data-ttu-id="8dc48-124">Apabila anda melihat slot yang tersedia, klik kanan pada slot masa pada papan jadual dan pilih **Tempah Di Sini**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="8dc48-125">Atau, seret dan lepas keperluan penempahan pada slot masa yang tersedia.</span><span class="sxs-lookup"><span data-stu-id="8dc48-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
   
 
-## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="da9c7-126">Tempah sumber menggunakan pandangan harian dan cari sumber yang sedang ditempah</span><span class="sxs-lookup"><span data-stu-id="da9c7-126">Book a resource using the daily view and find who’s under-booked</span></span>
+## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="8dc48-126">Tempah sumber menggunakan pandangan harian dan cari sumber yang sedang ditempah</span><span class="sxs-lookup"><span data-stu-id="8dc48-126">Book a resource using the daily view and find who’s under-booked</span></span>
   
-1.  <span data-ttu-id="da9c7-127">Pada papan jadual, pilih **Mod Pandangan** dan pilih **Hari**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
+1.  <span data-ttu-id="8dc48-127">Pada papan jadual, pilih **Mod Pandangan** dan pilih **Hari**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
   
-    <span data-ttu-id="da9c7-128">Ini menunjukkan pandangan grid bagi jumlah jam sumber ditempah setiap hari dan hari yang sumber tidak ditempah.</span><span class="sxs-lookup"><span data-stu-id="da9c7-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
+    <span data-ttu-id="8dc48-128">Ini menunjukkan pandangan grid bagi jumlah jam sumber ditempah setiap hari dan hari yang sumber tidak ditempah.</span><span class="sxs-lookup"><span data-stu-id="8dc48-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
   
-2.  <span data-ttu-id="da9c7-129">Klik nama sumber yang anda mahu tempah dan kemudian pilih **Tempah**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
+2.  <span data-ttu-id="8dc48-129">Klik nama sumber yang anda mahu tempah dan kemudian pilih **Tempah**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
   
-3.  <span data-ttu-id="da9c7-130">Pada kotak dialog **Penempahan sumber (cipta)**, pilih projek yang anda mahu tempah sumbernya bersama dengan kaedah penempahan serta masa mula dan tamat.</span><span class="sxs-lookup"><span data-stu-id="da9c7-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
+3.  <span data-ttu-id="8dc48-130">Pada kotak dialog **Penempahan sumber (cipta)**, pilih projek yang anda mahu tempah sumbernya bersama dengan kaedah penempahan serta masa mula dan tamat.</span><span class="sxs-lookup"><span data-stu-id="8dc48-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
   
-4.  <span data-ttu-id="da9c7-131">Apabila anda telah selesai, pilih **Tempah**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-131">When you’re done, select **Book**.</span></span>  
+4.  <span data-ttu-id="8dc48-131">Apabila anda telah selesai, pilih **Tempah**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-131">When you’re done, select **Book**.</span></span>  
   
-## <a name="view-to-the-schedule-board"></a><span data-ttu-id="da9c7-132">Lihat papan jadual</span><span class="sxs-lookup"><span data-stu-id="da9c7-132">View to the schedule board</span></span>
+## <a name="view-to-the-schedule-board"></a><span data-ttu-id="8dc48-132">Lihat papan jadual</span><span class="sxs-lookup"><span data-stu-id="8dc48-132">View to the schedule board</span></span>
   
-1.  <span data-ttu-id="da9c7-133">Pilih keperluan penempahan tidak berjadual daripada senarai di bawah.</span><span class="sxs-lookup"><span data-stu-id="da9c7-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
+1.  <span data-ttu-id="8dc48-133">Pilih keperluan penempahan tidak berjadual daripada senarai di bawah.</span><span class="sxs-lookup"><span data-stu-id="8dc48-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
   
-2.  <span data-ttu-id="da9c7-134">Seret keperluan penempahan ke sumber/slot masa yang tersedia pada papan jadual.</span><span class="sxs-lookup"><span data-stu-id="da9c7-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
+2.  <span data-ttu-id="8dc48-134">Seret keperluan penempahan ke sumber/slot masa yang tersedia pada papan jadual.</span><span class="sxs-lookup"><span data-stu-id="8dc48-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
   
-3.  <span data-ttu-id="da9c7-135">Apabila anda telah selesai, pilih **Tempah**.</span><span class="sxs-lookup"><span data-stu-id="da9c7-135">When you're done, select **Book**.</span></span>  
+3.  <span data-ttu-id="8dc48-135">Apabila anda telah selesai, pilih **Tempah**.</span><span class="sxs-lookup"><span data-stu-id="8dc48-135">When you're done, select **Book**.</span></span>  
   
-### <a name="additional-resources"></a><span data-ttu-id="da9c7-136">Sumber tambahan</span><span class="sxs-lookup"><span data-stu-id="da9c7-136">Additional resources</span></span>  
- [<span data-ttu-id="da9c7-137">Panduan pengurus sumber</span><span class="sxs-lookup"><span data-stu-id="da9c7-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="additional-resources"></a><span data-ttu-id="8dc48-136">Sumber tambahan</span><span class="sxs-lookup"><span data-stu-id="8dc48-136">Additional resources</span></span>  
+ [<span data-ttu-id="8dc48-137">Panduan pengurus sumber</span><span class="sxs-lookup"><span data-stu-id="8dc48-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
