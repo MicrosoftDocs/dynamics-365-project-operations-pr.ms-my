@@ -2,12 +2,10 @@
 title: Halaman utama dimensi penetapan harga dan kos
 description: Topik ini memberikan gambaran keseluruhan dimensi penetapan harga.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284144"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009267"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Halaman utama dimensi penetapan harga dan kos
 
@@ -65,18 +63,18 @@ Contoh berikut menunjukkan kadar bil yang ditetapkan berdasarkan peranan dan uni
 
 **Sampel kadar bil**
 
-| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
+| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata wang  |
 | ------------|-------------|----------|----------:|----------|
-| Pembangun   | Contoso AS  |Hour | 200|USD     |
-| Pembangun   | Contoso India |Hour|   112|USD     |
+| Pemaju   | Contoso AS  |Jam | 200|USD     |
+| Pemaju   | Contoso India |Jam|   112|USD     |
 
 
 **Sampel kadar kos**
 
-| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
+| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata wang  |
 | ----------------|-------------|----------|----------:|----------|
-| Syarikat saya_Jalur1 | Contoso AS  |Hour | 145|USD     |
-| Syarikat saya_Jalur2 | Contoso India |Hour|   67|USD     |
+| Syarikat saya_Jalur1 | Contoso AS  |Jam | 145|USD     |
+| Syarikat saya_Jalur2 | Contoso India |Jam|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

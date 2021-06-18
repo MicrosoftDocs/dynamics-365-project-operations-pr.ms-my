@@ -2,11 +2,9 @@
 title: Cipta projek baharu
 description: Topik ini memberikan maklumat tentang cara untuk mencipta projek baharu.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270734"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006252"
 ---
 # <a name="create-a-new-project"></a>Cipta projek baharu
 
@@ -55,7 +53,7 @@ Pengurus projek boleh menggunakan kefungsian penyumberan projek untuk mencipta p
 
 [![Contoh peranan](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Senario:** Ariffin diupah untuk melengkapkan Projek masa dan bahan yang mempunyai piagam projek yang diluluskan. Pengurus projek muda masih melengkapkan skop projek. Resource manager pada masa ini sedang mengenal pasti sumber tertentu yang akan diperuntukkan untuk bekerja pada projek baharu. Oleh kerana sifat kritikal projek itu, penaja projek meminta Pengurus projek kanan sebagai salah satu peranan. Resource manager mesti mendapatkan sumber baharu dan mentakrifkan peranan dalam sistem sekiranya pengurus projek muda memerlukan maklumat sumber semasa perancangan projek.
+**Senario:** Contoso diupah untuk melengkapkan projek Masa dan bahan yang mempunyai piagam projek yang diluluskan. Pengurus projek muda masih melengkapkan skop projek. Resource manager pada masa ini sedang mengenal pasti sumber tertentu yang akan diperuntukkan untuk bekerja pada projek baharu. Oleh kerana sifat kritikal projek itu, penaja projek meminta Pengurus projek kanan sebagai salah satu peranan. Resource manager mesti mendapatkan sumber baharu dan mentakrifkan peranan dalam sistem sekiranya pengurus projek muda memerlukan maklumat sumber semasa perancangan projek.
 
 Langkah berikut menunjukkan cara resource manager boleh menyediakan peranan Pengurus projek kanan dan kaitkan ciri sumber dengannya. Kemudian, peranan boleh digunakan untuk carian sumber tersedia yang sepadan dengan kecekapan sumber yang diperlukan.
 

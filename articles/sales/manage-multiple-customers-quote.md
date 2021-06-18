@@ -2,18 +2,16 @@
 title: Urus berbilang pelanggan pada sebut harga projek
 description: Topik ini memberikan maklumat tentang bekerja dengan sebut harga yang melibatkan berbilang pelanggan yang akan membiayai projek itu.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 62bd8e3539102229c79126397cf60287747b187d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277889"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011427"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Urus berbilang pelanggan pada sebut harga projek
 
