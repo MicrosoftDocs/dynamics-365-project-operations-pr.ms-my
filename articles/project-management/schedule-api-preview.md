@@ -2,18 +2,16 @@
 title: Gunakan API jadual untuk melaksanakan operasi dengan entiti Penjadualan
 description: Topik ini menyediakan maklumat dan sampel untuk menggunakan API Jadual.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950815"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116808"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Gunakan API jadual untuk melaksanakan operasi dengan entiti Penjadualan
 
@@ -268,7 +266,6 @@ Berikut ialah senarai pengehadan dan isu yang diketahui:
 - Setiap pengguna hanya boleh mempunyai maksimum 10 **OperationSet** terbuka.
 - Project Operations menyokong jumlah maksimum 500 tugas pada sesuatu projek pada masa ini.
 - Status kegagalan **OperationSet** dan log kegagalan tidak tersedia pada masa ini.
-- API Jadual dalam Pratonton awam. Penggunaan API ini dalam Persekitaran pengeluaran tidak disokong oleh Microsoft.
 - [Had dan sempadan pada projek dan tugas](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Pengendalian ralat

@@ -2,18 +2,16 @@
 title: Mod penjadualan
 description: Topik ini memberikan maklumat tentang mod penjadualan.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981446"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116718"
 ---
 # <a name="scheduling-modes"></a>Mod penjadualan
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations menyediakan keupayaan untuk organisasi mentakrif
 Terdapat tiga mod penjadualan yang tersedia dalam Project Operations:
 
   - Tempoh tetap (ini adalah mod lalai)
-  - Kerja ditetapkan
+  - Usaha ditetapkan (*Kerja*)
   - Unit ditetapkan
 
 Nilai yang terjejas dengan definisi mod penjadualan tertentu ditentukan oleh formula berikut:
 
-  Usaha (*Kerja*) = Tempoh x Unit
+  Usaha = Tempoh x Unit
 
 Apabila anda mentakrifkan mod penjadualan projek, anda menetapkan salah satu daripada nilai ini yang kemudian tidak boleh ditukar. Memegang nilai ini sebagai pemalar meletakkan keutamaan pada nilai itu yang memberitahu sistem untuk tidak mengubahnya apabila dua nilai lain berubah. Jadual berikut memberikan maklumat tentang kesan pemilihan mod tertentu.
 

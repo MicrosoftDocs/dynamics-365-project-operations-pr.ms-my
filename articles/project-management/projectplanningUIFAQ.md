@@ -2,19 +2,17 @@
 title: Selesaikan masalah kerja dalam grid Tugas
 description: Topik ini menyediakan maklumat penyelesaian masalah yang diperlukan apabila menggunakan grid Tugas.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286574"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213411"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Selesaikan masalah kerja dalam grid Tugas 
 
@@ -57,7 +55,7 @@ Project Operations memerlukan parameter projek merujuk Titik Tamat PEX. Titik ta
  ![Medan Titik Tamat PEX pada parameter projek](media/projectparameter.png)
 
 1. Tambah medan **Titik Tamat PEX** pada halaman **Parameter Projek**.
-2. Kemas kini medan dengan nilai berikut: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Kemas kini medan dengan nilai berikut: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Alih keluar medan daripada halaman **Parameter Projek**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Kelayakan untuk Projek untuk Web
