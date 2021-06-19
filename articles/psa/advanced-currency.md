@@ -2,8 +2,6 @@
 title: Senario berbilang mata wang (versi 3.x)
 description: Topik ini menyediakan maklumat tentang senario berbilang mata wang.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291720"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014802"
 ---
 # <a name="multiple-currency-scenarios"></a>Senario berbilang mata wang
 
@@ -73,7 +71,7 @@ Bahagian ini menerangkan contoh projek yang Contoso UK sampaikan untuk pelanggan
 1. GBP dan Yen Jepun (JPY) disediakan dibawah **Tetapan** \> **Pengurusan Perniagaan** \> **Mata Wang**. 
 2. Akaun pelanggan yang dinamakan **Fabrikam - Japan** disediakan dan JPY dipilih sebagai mata wang pada akaun.
 3. Unit organisasi yang dinamakan **Contoso UK** ditetapkan, dan GBP dipilih sebagai mata wang.
-4. Kontrak projek dicipta, yang **Contoso UK** ditetapkan sebagai unit kontrak dan **Fabrikam – Japan** ditetapkan sebagai pelanggan.
+4. Kontrak projek dicipta, yang **Contoso UK** ditetapkan sebagai unit kontrak dan **Fabrikam – Jepun** ditetapkan sebagai pelanggan.
 5. Baris kontrak projek dicipta, berdasarkan susunan pengebilan untuk pelbagai kelas transaksi pada projek, seperti pengebilan untuk masa berbanding pengebilan untuk perbelanjaan.
 6. Projek dicipta di mana **Contoso UK** ditetapkan sebagai unit kontrak. Projek ini dicipta dan dipetakan ke baris kontrak projek.
 

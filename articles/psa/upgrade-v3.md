@@ -1,9 +1,7 @@
 ---
 title: Pertimbangan naik taraf - Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x kepada versi 3
 description: Topik ini menyediakan maklumat tentang pertimbangan yang perlu anda lakukan apabila anda menaik taraf daripada Project Service Automation versi 2.x atau 1.x kepada versi 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281669"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014895"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan naik taraf - PSA versi 2.x atau 1.x kepada versi 3
 
@@ -83,7 +81,7 @@ Sebelum anda mula menaik taraf, kami mengesyorkan agar anda menjana semula pasuk
 
 Untuk tugas yang ditugaskan kepada ahli pasukan generik yang dijana dengan **Jana Pasukan**, naik taraf ini akan meninggalkan sumber generik dalam pasukan dan meninggalkan tugasan kepada ahli pasukan generik itu. Kami mengesyorkan agar anda menjana keperluan sumber untuk ahli pasukan generik selepas naik taraf tetapi sebelum anda menempah atau menyerahkan permintaan sumber. Ini akan mengekalkan mana-mana tugasan unit organisasi pada ahli pasukan generik yang berbeza daripada unit organisasi kontrak projek.
 
-Contohnya, dalam Projek Z, unit organisasi kontrak ialah Contoso AS. Dalam pelan projek, tugas ujian dalam Fasa pelaksanaan telah ditugaskan dengan peranan Perunding Teknikal dan unit organisasi yang ditugaskan ialah Contoso India.
+Contohnya, dalam Projek Z, unit organisasi kontrak ialah Contoso AS. Dalam pelan projek, tugas ujian dalam Fasa Pelaksanaan telah ditugaskan dengan peranan Perunding Teknikal dan unit organisasi yang ditugaskan ialah Contoso India.
 
 ![Tugasan organisasi fasa pelaksanaan](media/org-unit-assignment-09.png)
 
@@ -106,7 +104,7 @@ Anda boleh melihat unit organisasi pada pandangan anggaran.
  
 Apabila naik taraf selesai, unit organisasi pada tugas baris yang sepadan dengan ahli pasukan generik ditambah kepada ahli pasukan generik dan tugas baris dialih keluar. Oleh sebab ini, kami mengesyorkan agar sebelum anda menaik taraf, anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik.
 
-Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam fasa Implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
+Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam Fasa implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
  
 Mengubah lalai unit organisasi yang berbeza pada ahli pasukan yang tidak dijana adalah sebab kami mengesyorkan supaya anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik sebelum naik taraf supaya tugasan unit organisasi tidak hilang.
 
