@@ -28,11 +28,13 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Laksanakan persekitaran
           items:
+            - name: Laksanakan aplikasi Project Operations Dataverse secara manual dengan sokongan dwitulis
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Peruntukan persekitaran baharu
               href: environment/resource-provision-new-environment.md
             - name: Model keselamatan
               href: environment/security-model.md
-            - name: Konfigurasikan integrasi Project Operations setiap entiti sah
+            - name: Konfigurasikan integrasi Project Operations bagi setiap entiti sah
               href: environment/resource-configure-integration-per-legal-entity.md
         - name: Konfigurasikan integrasi dwi tulis
           items:
@@ -52,7 +54,11 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Ciri baharu
       items:
-        - name: Mei 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+        - name: Julai 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: Mei 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-apr-2021-resource-based.md
@@ -282,7 +288,7 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API Jadual (Pratonton Awam)
+            - name: Gunakan API jadual Projek (Pratonton Awam)
               href: project-management/schedule-api-preview.md
     - name: Pengurusan sumber
       items:
@@ -430,14 +436,12 @@
       items:
         - name: Konfigurasikan bahan bukan distok dan invois vendor yang belum selesai
           href: procurement/configure-materials-nonstocked.md
-        - name: Dapatkan bahan bukan distok untuk projek menggunakan invois vendor yang belum selesai
+        - name: Dapatkan bahan tidak distok untuk projek menggunakan invois vendor yang belum selesai
           href: procurement/pending-vendor-invoices.md
     - name: Penginvoisan
       items:
         - name: Gambaran keseluruhan proses penginvoisan
           href: invoicing/post-project-invoices.md
-        - name: Urus cadangan invois projek
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Penginvoisan proforma
           items:
             - name: Urus tunggakan pengebilan berdasarkan projek
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Konfigurasikan automasi invois berdasarkan projek
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Urus cadangan invois projek
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: Perakaunan projek
-      items:
-        - name: Dimensi perakaunan lalai
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Konfigurasikan kategori projek
-          href: project-accounting/configure-project-categories.md
-        - name: Konfigurasi perakaunan untuk projek dalaman
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Konfigurasi perakaunan untuk projek boleh dibil
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Jurnal integrasi dalam Project Operations
-          href: project-accounting/project-operations-integration-journal.md
+        - name: Penginvoisan pelanggan
+          items:
+            - name: Urus cadangan invois projek
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Betulkan perakaunan dalam draf cadangan invois projek
+              href: invoicing/correct-project-invoice-proposals.md
         - name: Penginvoisan antara syarikat
           items:
             - name: Gambaran keseluruhan penginvoisan antara syarikat
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Cipta invois pelanggan dan vendor antara syarikat
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Perakaunan projek
+      items:
+        - name: Dimensi perakaunan lalai
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Konfigurasi kategori projek
+          href: project-accounting/configure-project-categories.md
+        - name: Konfigurasi perakaunan untuk projek dalaman
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Konfigurasi perakaunan untuk projek boleh dibil
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Jurnal integrasi dalam Project Operations
+          href: project-accounting/project-operations-integration-journal.md
     - name: Pengiktirafan hasil
       items:
         - name: Gambaran keseluruhan pengiktirafan hasil
@@ -512,9 +520,13 @@
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Perkara baharu Mei 2021 - pelaksanaan ringan
+        - name: Ciri baharu Julai 2021 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Ciri baharu Jun 2021 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: Ciri baharu Mei 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Perkara baharu April 2021 - pelaksanaan ringan
+        - name: Ciri baharu April 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Perkara baharu Mac 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-mar-2021-lite.md
@@ -762,7 +774,7 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API Jadual (Pratonton Awam)
+            - name: Gunakan API jadual Projek (Pratonton Awam)
               href: project-management/schedule-api-preview.md
     - name: Pengurusan sumber
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Ciri baharu
       items:
+        - name: Ciri baharu Julai 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Ciri baharu Mei 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Ciri baharu April 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Ciri baharu Mac 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
@@ -1034,6 +1050,10 @@
       items:
         - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 31, V3'

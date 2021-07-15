@@ -2,16 +2,16 @@
 title: Daftar untuk langganan pratonton Operasi Projek untuk senario sumber/bukan stok
 description: Topik ini memberikan maklumat mengenai cara untuk melanggan dan menggunakan Operasi Projek untuk senario berasaskan sumber/bukan stok.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000447"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334838"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Daftar untuk langganan pratonton Operasi Projek untuk senario sumber/bukan stok
 
@@ -19,48 +19,30 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Topik ini menerangkan cara untuk melanggan tawaran pratonton/rakan kongsi dan menggunakan persekitaran Operasi Projek untuk senario berasaskan sumber/bukan stok.
+Topik ini menerangkan cara untuk melanggan tawaran percubaan dan mengatur letak persekitaran Project Operations untuk senario berdasarkan sumber/tidak distok.
 
 ## <a name="prerequisites"></a>Prasyarat
-
-- Anda akan menerima e-mel yang menjemput anda menyertai pratonton. Anda boleh meminta pratonton pada [tapak web Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Pengguna yang menggunakan pratonton mesti mempunyai hak pentadbir global penyewa Azure.
+- Pengguna yang menggunakan pratonton mesti mempunyai hak pentadbir global penyewa Azure. Anda boleh mencipta penyewa semasa penebusan tawaran pertama. 
 - Mengatur persekitaran Kewangan memerlukan langganan Azure yang sah yang akan dibilkan bagi setiap persekitaran. Anda boleh menggunakan langganan sedia ada organisasi anda atau gunakan [percubaan Azure](https://azure.microsoft.com/en-us/free/) untuk memulakan. Persekitaran CDS akan disediakan percuma untuk tempoh 30 hari terhad.
-
-## <a name="subscribe"></a>Melanggan
-
-Apabila [permintaan pratonton](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) anda diluluskan, anda akan menerima tiga tawaran daripada Microsoft melalui e-mel. Tawaran ini membolehkan anda menggunakan Pratonton Project Operations:
-
-- Dynamics 365 Project Operations (CRM) - Percubaan Pratonton
-- Operasi Projek Office 365- Percubaan Pratonton
-- Dynamics 365 Finance - Percubaan Pratonton
 
 > [!IMPORTANT]
 > Hanya satu orang, pentadbir penyewa, dalam organisasi perlu melaksanakan tugas ini. Jika anda bukan pelanggan kepada keluaran ini, tunggu sehingga organisasi anda didaftarkan dan anda menerima kelayakan pengguna anda.
+> 
+> Percubaan adalah kegunaan tunggal dalam penyewa. Anda hanya boleh menjalankan percubaan pada satu masa. Kami mengesyorkan anda agar mencipta penyewa baharu untuk tujuan percubaan.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Percubaan Pratonton 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - Percubaan Pratonton 
 
 Sebelum anda mulakan, pastikan anda dilog masuk ke pelayar dengan akaun kerja pengguna dalam penyewa yang anda mahu pratonton Operasi Projek.
 
-1. Tebus kod tawaran pertama, **Dynamics 365 Project Operations (CRM) - Percubaan Pratonton** dengan menampalkannya ke dalam URL pelayar.
-
-![Tebus Tawaran](./media/16RedeemFirstOfferNew.png)
-
+1. Tebus kod tawaran pertama, **Dynamics 365 Project Operations** di sini [Percubaan Project Operations](https://aka.ms/try-po).
 2. Sahkan pesanan anda.
 
-![Sahkan pesanan](./media/17ConfirmOrderNew.png)
-
-Anda akan melihat tawaran pengesahan berjaya ditebus.
-
-![Pengesahan](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Operasi Projek Office 365- Percubaan Pratonton
-
-Ulangi langkah yang sama dengan kod tawaran pertama. Pastikan untuk menambah kod tawaran kedua menggunakan akaun pengguna yang sama yang digunakan dengan kod tawaran pertama.
+  Anda akan melihat tawaran pengesahan berjaya ditebus.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Percubaan pratonton Dynamics 365 Finance
 
-Ulangi langkah yang sama dengan tawaran terakhir daripada e-mel alu-aluan.
+Pergi ke [Percubaan Pratonton Dynamics 365 for Finance](https://aka.ms/trypoche) dan ulang langka daripada bahagian sebelumnya dengan tawaran, Daftar untuk Persekitaran Berhos Awan.  
 
 ## <a name="assign-licenses"></a>Tugaskan lesen
 
@@ -69,13 +51,9 @@ Ulangi langkah yang sama dengan tawaran terakhir daripada e-mel alu-aluan.
 
 1. Pergi ke [pusat pentadbir Microsoft 365](https://portal.office.com/) untuk tugaskan lesen kepada pengguna anda.
 
-![Laman utama pusat pentadbiran](./media/14AdminPortal.png)
-
 2. Pada halaman **Pengguna aktif**, pilih pengguna yang anda mahu peruntukkan lesen.
 
-![Tugaskan Lesen](./media/15AssignLicenses.png)
-
-3. Sahkan bahawa lesen **Dynamics 365 Project Operations (CRM) Pratonton** dan **Office 365 Project Operations - Pratonton** telah dipilih dan pilih **Simpan perubahan**.
+3. Tentu sahkan bahawa lesen **Dynamics 365 Project Operations** telah dipilih dan pilih **Simpan perubahan**.
 
 > [!NOTE]
 > Tawaran percubaan kewangan tidak perlu ditugaskan kepada pengguna.
@@ -95,7 +73,7 @@ Ikuti panduan dalam topik, [Peruntukan persekitaran baharu](resource-provision-n
 ## <a name="install-cds-setup-and-configuration-data"></a>Pasangkan data persediaan dan konfigurasi CDS
 
 Pasangkan data persediaan dan konfigurasi CD seperti yang diterangkan dalam topik, [Sediakan dan gunakan data konfigurasi dalam Common Data Service](resource-apply-pro-setup-config-data.md).
-Lengkapkan langkah ini hanya selepas persekitaran demo Kewangan digunakan dan data demo dalam FO sudah bersedia.
+Lengkapkan langkah ini hanya selepas persekitaran demo Finance diatur letak dan data demo bersedia.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Prestasi cadangan invois projek
 description: Topik ini menyediakan maklumat tentang peningkatan prestasi untuk cadangan invois projek.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999502"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269801"
 ---
 # <a name="project-invoice-proposal-performance"></a>Prestasi cadangan invois projek
 
@@ -44,4 +44,6 @@ Lengkapkan langkah berikut untuk mematikan ciri peningkatan prestasi cadangan in
 3.  Segar semula pelayar anda.
 
 > [!NOTE]
-> Prestasi cadangan invois tidak boleh digunakan apabila peraturan pengebilan didayakan atau proses kelompok berjalan.
+> Prestasi cadangan invois tidak boleh digunakan apabila peraturan pengebilan didayakan.
+> 
+> Semasa proses kelompok untuk mencipta cadangan invois, bilangan subtugas akan membahagikan tugas kepada bilangan maksimum berdasarkan bilang kontrak dengan transaksi boleh diinvois tanpa mengira nombor yang telah anda masukkan. Contohnya, jika anda memasukkan **3** untuk bilangan subtugas untuk penciptaan cadangan invois dalam kelompok dan hanya terdapat dua kontrak dengan transaksi boleh diinvois, hanya dua subtugas dicipta.

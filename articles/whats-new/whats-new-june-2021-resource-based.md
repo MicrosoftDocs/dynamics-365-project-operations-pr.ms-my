@@ -1,0 +1,91 @@
+---
+title: Ciri baharu Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
+description: Topik ini menyediakan maklumat mengenai kemas kini berkualiti yang tersedia dalam keluaran Jun 2021 Project Operations untuk senario berdasarkan sumber/tidak distok.
+author: sigitac
+ms.date: 06/14/2021
+ms.topic: article
+ms.prod: ''
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 28890238f9debb96786a31f66dd9a219f88a5338
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
+ms.translationtype: HT
+ms.contentlocale: ms-MY
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293148"
+---
+# <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
+
+_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
+
+Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+
+- Project Operations dalam persekitaran Dynamics 365 Dataverse versi 4.11.0.156 atau 4.11.0.164.
+- Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations versi 10.0.19.
+
+## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
+
+Ciri berikut disertakan dalam keluaran ini:
+
+- Keupayaan untuk memadamkan [Baris cadangan invois projek untuk senario pelarasan](../invoicing/correct-project-invoice-proposals.md).
+- Baris perbelanjaan terbutir menunjukkan nama subkategori dalam laporan perbelanjaan [Laporan Perbelanjaan Digambarkan Semula-Ciri Baharu](../expense/expense-reports-reimagined.md#new-features).
+- Kaedah pembayaran tersedia dalam anak tetingkap perbelanjaan baharu apabila mencipta perbelanjaan baharu.
+
+## <a name="project-operations-dual-write-maps-updates"></a>Kemas kini peta dwi tulis Project Operations
+
+Tiada kemas kini untuk peta dwi tulis Project Operations dalam keluaran ini. 
+
+Untuk senarai semasa dan versi peta dwi tulis Project Operations, lihat [Versi peta dwi tulis Project Operations](../environment/resource-dual-write-maps.md).
+
+Sentiasa menjalankan versi terkini peta dalam persekitaran anda dan mendayakan semua peta jadual yang berkaitan apabila anda mengemas kini penyelesaian Project Operations Dataverse dan versi penyelesaian apl Finance and Operations. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta pada halaman **dwi tulis** dalam lajur **Versi**. Aktifkan versi baharu peta dengan memilih **Versi peta jadual**, memilih versi terkini dan kemudian menyimpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Jika anda menghadapi isu memulakan peta, ikuti arahan dalam bahagian [Isu lajur jadual yang tidak ditemui pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) bagi Panduan penyelesaian masalah dwi tulis
+
+## <a name="quality-updates"></a>Kemas kini kualiti
+
+### <a name="project-operations-on-dataverse"></a>Project Operations pada Dataverse
+
+| **Bahagian ciri** | **Nombor rujukan** | **Kemas kini kualiti** |
+| --- | --- | --- |
+| Pengebilan dan Penentuan Harga | 2281417 | Telah menetapkan isu berkenaan kegagalan tindakan penciptaan invois automatik melalui jadual invois. |
+| Pengebilan dan Penentuan Harga | 2287835 | Prestasi pengesahan invois yang ditambah baik. |
+| Pengurusan Peluang | 2222555 | Kebolehtuntutan anggaran bahan mestilah disalin dengan betul kepada butiran baris sebut harga apabila menggunakan **Import daripada Anggaran Projek**. |
+| Pengurusan Peluang | 2223427 | Penyesuaian kini dibenarkan untuk tindakan, **GenerateRetainersFromRetainerScheduleOptions**. |
+| Pengurusan Peluang | 2277528 | Pengiraan nilai pencapaian pengebilan tetap untuk baris kontrak projek dengan berbilang pelanggan. |
+| Perancangan dan Penjejakan Projek | 2226110 | Telah menetapkan isu berkala dengan fungsi **Jana Keperluan** dalam grid **Pasukan projek**. |
+| Perancangan dan Penjejakan Projek | 2208109 | Pengguna tidak boleh mencipta projek dalam satu mata wang dengan tugas yang berkaitan dalam mata wang lain. |
+| Perancangan dan Penjejakan Projek | 2258228 | Senarai medan yang dibenarkan untuk mengubah suai dengan entiti **Penjadualan** menggunakan API Jadual telah dikemas kini. |
+| Perancangan dan Penjejakan Projek | 2293989 | Tetapan bahasa dan serantau yang betul mestilah dihantar ke grid **Tugas Projek**. |
+| Pengurusan Sumber | 2220493 | Telah menetapkan pengalaman pengguna dalam grid **Tugas** apabila menandakan dengan cepat permintaan sumber sebagai selesai. |
+| Pengurusan Sumber | 2330496 | Telah menetapkan isu pemuatan **Papan Jadual**. (Kemas kini kualiti tersedia dalam versi 4.11.0.164) |
+| Masa dan Perbelanjaan | 2194431 | Grid **Entri masa** mesti menghormati permulaan minggu seperti yang ditetapkan dalam **Tetapan sistem**. |
+| Masa dan Perbelanjaan | 2277311 | Selepas anda memadamkan nilai dalam sel dalam grid **Entri masa**, kursor kekal dalam grid. |
+
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Pengurusan projek dan perakaunan pada Dynamics 365 Finance
+
+| Bahagian ciri | Nombor rujukan | Kemas kini kualiti |
+| --- | --- | --- |
+| Pengurusan projek dan perakaunan | [552976](https://fix.lcs.dynamics.com/Issue/Details/?bugId=552976) | **Nota borang** dan **Persediaan borang** tidak boleh dilihat di bawah **Persediaan pengurusan projek** dalam entiti sah Finance yang berintegrasi dengan Project Operations. |
+| Pengurusan projek dan perakaunan | [527970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527970) | Perihalan lalai untuk VAT kosong apabila **Jenis penyiaran** = **Cukai jualan** untuk baucar invois projek. |
+| Pengurusan projek dan perakaunan | [565089](https://fix.lcs.dynamics.com/Issue/Details/?bugId=565089) | Transaksi berganda disiarkan apabila pengebilan berdasarkan tugas digunakan dalam Dataverse dengan integrasi Project Operations. |
+| Pengurusan projek dan perakaunan | [566869](https://fix.lcs.dynamics.com/Issue/Details/?bugId=566869) | Peratusan selesai dalam pengecaman hasil tidak betul ketika menggunakan integrasi Project Operations. |
+| Pengurusan projek dan perakaunan | [568107](https://fix.lcs.dynamics.com/Issue/Details/?bugId=568107) | Akruan hasil berganda dalam invois vendor belum selesai dalam senario berintegrasi Project Operations. |
+| Pengurusan projek dan perakaunan | [572370](https://fix.lcs.dynamics.com/Issue/Details/?bugId=572370) | Tidak dapat menyiarkan jurnal integrasi apabila peraturan profil hasil ditetapkan kepada persediaan **Kumpulan**. |
+| Pengurusan projek dan perakaunan | [573596](https://fix.lcs.dynamics.com/Issue/Details/?bugId=573596) | Invois pembelian tidak boleh disiarkan untuk pesanan pembelian projek yang mempunyai baris dengan berbilang unit ukuran. |
+| Pengurusan projek dan perakaunan | [573637](https://fix.lcs.dynamics.com/Issue/Details/?bugId=573637) | Dimensi kewangan lalai dalam projek tidak boleh dikemas kini menggunakan entiti data projek **V2**. |
+| Pengurusan projek dan perakaunan | [577211](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577211) | Proses kelompok untuk mencipta anggaran projek mengambil masa yang terlalu lama untuk selesai. |
+| Pengurusan projek dan perakaunan | [582329](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582329) | Pemadaman kontrak juga memadamkan alamat berkaitan dengan pelanggan. |
+| Perjalanan dan perbelanjaan | [514930](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514930) | Syarat aliran kerja kelulusan laporan perbelanjaan tidak dinilai dengan betul. |
+| Perjalanan dan perbelanjaan | [519304](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519304) | Dasar laporan perbelanjaan tidak menilai dengan betul ID projek. |
+| Perjalanan dan perbelanjaan | [522463](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522463) | Tindakan, **Pisah kepada peribadi untuk transaksi perbelanjaan antara syarikat** tidak berfungsi dengan betul. |
+| Perjalanan dan perbelanjaan | [534702](https://fix.lcs.dynamics.com/Issue/Details/?bugId=534702) | Justifikasi baris laporan perbelanjaan dipadamkan secara tidak sengaja apabila permintaan perjalanan tertentu dipadamkan. Ini berlaku apabila recID laporan perbelanjaan dan permintaan perjalanan adalah sama. |
+| Perjalanan dan perbelanjaan | [544368](https://fix.lcs.dynamics.com/Issue/Details/?bugId=544368) | Terdapat isu dalam aplikasi mudah alih Perbelanjaan apabila medan **ID Projek** diperlukan dalam dasar laporan perbelanjaan. |
+| Perjalanan dan perbelanjaan | [545331](https://fix.lcs.dynamics.com/Issue/Details/?bugId=545331) | Perbelanjaan antara syarikat yang berkaitan dengan projek tidak boleh diedit. Sebaliknya, mesej ralat berikut memaparkan, "Rujukan objek rujukan tidak ditetapkan kepada tika objek." |
+| Perjalanan dan perbelanjaan | [548659](https://fix.lcs.dynamics.com/Issue/Details/?bugId=548659) | Selepas laporan perbelanjaan disiarkan, mata wang dan amaun yang salah disenaraikan dalam sublejar bank. |
+| Perjalanan dan perbelanjaan | [558336](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558336) | Penambahbaikan telah dibuat kepada ciri, *Padam transaksi kad kredit*.  |
+| Perjalanan dan perbelanjaan | [525070](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525070) | Cukai jualan yang disertakan dalam laporan perbelanjaan tidak dikira secara konsisten apabila mata wang pelaporan yang berbeza ditentukan dalam entiti sah. |
+| Perjalanan dan perbelanjaan | [527779](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527779) | Prestasi terjejas apabila menambahkan perbelanjaan perjalanan tunai baharu. |
+| Perjalanan dan perbelanjaan | [537841](https://fix.lcs.dynamics.com/Issue/Details/?bugId=537841) | Peraturan dasar perbelanjaan tidak dicetuskan pada laporan perbelanjaan. |
+| Perjalanan dan perbelanjaan | [566386](https://fix.lcs.dynamics.com/Issue/Details/?bugId=566386) | Memuat naik kategori dikongsi baharu dengan menggunakan Rangka Kerja Pengurusan Data akan mengalih keluar semua subkategori untuk semua kategori dikongsi. |
+| Perjalanan dan perbelanjaan | [574131](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574131) | Apabila anda mencipta baris perbelanjaan dan kemudian memilih kategori, mesej ralat berikut memaparkan, "Gabungan Kumpulan cukai jualan DOM dan Kumpulan cukai jualan item STD tidak sah." |
+| Perjalanan dan perbelanjaan | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Terdapat isu penyegerakan dalam aplikasi mudah alih Perbelanjaan. |
