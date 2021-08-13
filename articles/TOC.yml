@@ -832,6 +832,16 @@
           items:
             - name: Gambaran keseluruhan penggunaan sumber
               href: resource-management/resource-utilization-overview.md
+    - name: Pengurusan subkontrak dalam Project Operations
+      items:
+        - name: Mengurus gambaran keseluruhan subkontrak
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Konsep utama dalam subkontrak
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Mengurus vendor dan senarai harga projek
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subkontraktor sebagai sumber boleh ditempah
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Masa
       items:
         - name: Gambaran keseluruhan masa
@@ -1050,6 +1060,8 @@
       items:
         - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 32.5, V3'
