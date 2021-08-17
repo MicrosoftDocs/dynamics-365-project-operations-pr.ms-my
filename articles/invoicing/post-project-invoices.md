@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369027"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003782"
 ---
 # <a name="invoicing-process-overview"></a>Gambaran keseluruhan proses penginvoisan
 
@@ -20,7 +20,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Project Operations untuk senario berdasarkan sumber/bukan stok menawarkan keupayaan yang komprehensif yang disesuaikan dengan keperluan pengurus Projek dan kerani Akaun belum terima/akauntan projek. Untuk proses penginvoisan, pengurus Projek menguruskan tunggakan pengebilan projek dan kerani Akaun belum terima/akauntan projek mencipta dokumen invois berdepan pelanggan yang patuh dan tepat.
 
-![Rajah aliran penginvoisan](./media/invoicing-flow.png)
+![Rajah aliran penginvoisan.](./media/invoicing-flow.png)
 
 Baris kontrak projek mentakrifkan kaedah pengebilan untuk transaksi projek berkaitan. Apabila pengurus Projek meluluskan transaksi masa dan perbelanjaan, sistem merekodkan transaksi dalam entiti **Aktual Projek** dan menghantar maklumat kepada modul **Pengurusan dan perakaunan projek** dalam Dynamics 365 Finance. Akauntan Projek kemudiannya menyemak dan menyiarkan rekod menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini termasuk butiran perakaunan penting untuk aktual projek, seperti pengebilan, kumpulan cukai jualan, kumpulan cukai jualan item pengebilan dan dimensi kewangan.
 

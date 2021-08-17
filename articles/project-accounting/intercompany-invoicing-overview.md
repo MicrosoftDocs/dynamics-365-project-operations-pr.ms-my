@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369387"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005402"
 ---
 # <a name="intercompany-invoicing-overview"></a>Gambaran keseluruhan penginvoisan antara syarikat
 
@@ -22,7 +22,7 @@ Organisasi anda mungkin mempunyai berbilang divisyen, subsidiari dan entiti unda
 
 Ilustrasi berikut menunjukkan senario biasa di mana dua entiti sah, Contoso Robotics USA (entiti sah pinjaman) dan Contoso Robotics UK (entiti sah pinjaman) berkongsi sumber untuk menyampaikan projek untuk pelanggan, Adventure works. Untuk senario ini, Contoso Robotics USA dikontrakkan untuk menyampaikan kerja kepada Adventure Works.
 
-![Penginvoisan antara syarikat](./media/IntercompanyScenario.png) 
+![Penginvoisan antara syarikat.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations menggunakan aliran berikut untuk memproses transaksi antara syarikat:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations menggunakan aliran berikut untuk memproses trans
 
 Gambar rajah berikut menunjukkan penginvoisan antara syarikat kerana ia berkaitan dengan peristiwa perakaunan dan penyiaran yang dijangka kepada lejar umum.
 
-![Aliran antara syarikat](./media/IntercompanyFlow.png)
+![Aliran antara syarikat.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Sumber tambahan
 
