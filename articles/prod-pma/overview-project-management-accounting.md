@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369702"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007517"
 ---
 # <a name="project-management-and-accounting-overview"></a>Gambaran keseluruhan pengurusan projek dan perakaunan
 
@@ -34,14 +34,14 @@ Projek ialah kumpulan aktiviti yang direka untuk menyediakan perkhidmatan, mengh
 ## <a name="projects-across-industries"></a>Projek merentasi industri
 Fungsi pengurusan projek dan perakaunan boleh digunakan dalam berbilang industri seperti yang ditunjukkan dalam ilustrasi berikut.
 
-[![Projek merentasi industri](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projek merentasi industri.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Dalam pusat panggilan, tiket boleh digunakan untuk menerangkan set tindakan yang diperlukan untuk menyelesaikan panggilan. Syarikat perunding, seperti organisasi perundingan pengurusan atau teknikal atau agensi pengiklanan, merujuk aktiviti mereka sebagai projek. Dalam pemasaran, kempen mewakili set kerja yang mesti dihantar. Dalam pembuatan berasaskan projek, pesanan pengeluaran melibatkan pelbagai kerja yang mesti dilakukan untuk menghasilkan beberapa barangan siap. Sebarang nama yang digunakan untuknya, projek ini melibatkan sumber, jadual dan kos, dan fungsi pengurusan projek dan perakaunan boleh membantu projek ini dengan perancangan, pelaksanaan dan analisis.
 
 ## <a name="project-phases"></a>Fasa projek
 Walaupun aliran proses berikut bertujuan untuk projek luaran atau projek yang dilengkapkan untuk seorang pelanggan atau lebih, fungsinya juga diguna pakai untuk projek dalaman dan mempunyai kos sahaja. 
 
-![3 peringkat projek](./media/3-stages-of-a-project.png) 
+![3 peringkat projek.](./media/3-stages-of-a-project.png) 
 
 Seperti yang ditunjukkan dalam ilustrasi sebelumnya, pengurusan projek dan perakaunan boleh dibahagikan kepada tiga fasa:
 
@@ -50,7 +50,7 @@ Seperti yang ditunjukkan dalam ilustrasi sebelumnya, pengurusan projek dan perak
 3.  Analisis
 
 ## <a name="initiate-the-project"></a>Mulakan projek
-Semasa projek dimulakan, beberapa proses utama berlaku. Anda boleh menggunakan sebut harga projek untuk berkomunikasi anggaran buruh, perbelanjaan dan bahan mentah kepada pelanggan. Anda boleh merekod terma pengebilan, had dan perjanjian dalam kontrak projek. Anda boleh menggunakan struktur pecahan kerja (WBS) untuk merancang dan menganggar kerja. Anda boleh menetapkan ramalan dan belanjawan untuk mengarah pelaksanaan projek. Ilustrasi berikut menunjukkan struktur projek.[![struktur projek](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Semasa projek dimulakan, beberapa proses utama berlaku. Anda boleh menggunakan sebut harga projek untuk berkomunikasi anggaran buruh, perbelanjaan dan bahan mentah kepada pelanggan. Anda boleh merekod terma pengebilan, had dan perjanjian dalam kontrak projek. Anda boleh menggunakan struktur pecahan kerja (WBS) untuk merancang dan menganggar kerja. Anda boleh menetapkan ramalan dan belanjawan untuk mengarah pelaksanaan projek. Ilustrasi berikut menunjukkan struktur projek.[![struktur projek.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Cipta sebut harga projek
 

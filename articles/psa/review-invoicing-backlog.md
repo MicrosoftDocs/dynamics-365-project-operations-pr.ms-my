@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008547"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006977"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Semak invois yang tertunggak pada projek dan kontrak projek
 
@@ -40,7 +40,7 @@ Jualan sebenar yang belum dibilkan mewakili log pengebilan dan status pengebilan
 
 Untuk menyemak tunggakan pengebilan untuk masa dan bahan, pergi ke **Jualan** \> **Pengebilan** \> **Tunggakan Pengebilan Masa dan Bahan**. Pilih semua aplikasi jualan yang tidak dibilkan yang bersedia untuk diinvois dan kemudian pilih **Bersedia untuk Diinvois.** Status pengebilan bagi aktual ini ditukar kepada **Bersedia untuk Diinvois**.
 
-![Tunggakan pengebilan masa dan bahan](media/TMBacklog.png)
+![Tunggakan pengebilan masa dan bahan.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Semak semula tunggakan pengebilan produk
 
@@ -48,7 +48,7 @@ Dalam PSA, apabila kontrak projek mempunyai talian kontrak berasaskan produk, ba
 
 Untuk menyemak tunggakan pengebilan untuk produk, pergi ke **Jualan** \> **Pengebilan** \> **Tunggakan Pengebilan Produk**. Pilih semua baris kontrak berdasarkan produk yang bersedia untuk diinvois dan kemudian pilih **Bersedia untuk Diinvois.** Status pengebilan baris ini ditukar kepada **Bersedia untuk Diinvois**.
 
-![Tunggakan pengebilan produk](media/ProductBacklog.png)
+![Tunggakan pengebilan produk.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Tinjauan pencapaian pengebilan pada kontrak harga tetap
 
@@ -56,7 +56,7 @@ Setiap baris kontrak projek yang mempunyai kaedah pengebilan harga tetap mesti m
 
 Untuk menyemak semula pencapaian pengebilan, pergi ke **Jualan** \> **Pengebilan** \> **Pencapaian Harga Tetap**. Pilih semua pencapaian yang bersedia untuk diinvois dan kemudian pilih **Bersedia untuk diinvois.** Status pengebilan pencapaian ini ditukar kepada **Bersedia untuk Diinvois**.
 
-![Pencapaian harga tetap](media/FPBacklog.png)
+![Pencapaian harga tetap.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

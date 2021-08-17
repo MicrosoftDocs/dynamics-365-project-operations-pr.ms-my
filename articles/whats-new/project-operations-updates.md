@@ -2,17 +2,17 @@
 title: Kemas kini Project Operations
 description: Topik ini memberikan maklumat tentang versi Dynamics 365 Project Operations yang dikeluarkan.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433574"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024794"
 ---
 # <a name="project-operations-updates"></a>Pilih kemaskinian Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations terdiri daripada dua komponen:
 
 | Project Operations pada persekitaran Dataverse | Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 Untuk senario Sumber Project Operations/bukan stok, kami mengesyorkan untuk menggunakan Dwitulis Pengorkestraan versi 2.2.2.83 atau lebih tinggi.
 
@@ -45,27 +45,29 @@ Untuk senario Sumber Project Operations/bukan stok, kami mengesyorkan untuk meng
 Kemas kini untuk Project Operations pada persekitaran Dataverse tersedia setiap bulan. 
 
 | Stesen | Rantau | Nombor versi semasa | Kemas kini automatik untuk pelaksanaan Ringan | Kemas kini automatik untuk pelaksanaan Sumber/bukan distok | Nombor versi seterusnya | Versi seterusnya tersedia secara am |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| Stesen 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Keluaran Pertama         |  4.12.0.148     | Dilengkapkan     | 09-Julai-21          | TBD                 | 06-Ogos-21        |
-| Stesen 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan         |  4.12.0.148     | 09-Julai-21   | 16-Julai-21          | TBD                 | 06-Ogos-21        |
-|    &nbsp; | Kanada                |  4.12.0.148     | 09-Julai-21   | 16-Julai-21          | TBD                 | 06-Ogos-21        |
-|   &nbsp;  | India                 |  4.12.0.148     | 09-Julai-21   | 16-Julai-21          | TBD                 | 06-Ogos-21        |
-|   &nbsp;  | Perancis                |  4.12.0.148     | 09-Julai-21   | 16-Julai-21          | TBD                 | 06-Ogos-21        |
-|   &nbsp;  | Emiriah Arab Bersatu  |  4.12.0.148     | 09-Julai-21   | 16-Julai-21          | TBD                 | 06-Ogos-21        |
-|   &nbsp;  | Afrika Selatan          |  4.12.0.148     | 09-Julai-21   | 16-Julai-21          | TBD                 | 06-Ogos-21        |
-| Stesen 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jepun                 |  4.11.0.164     | Dilengkapkan     | Dilengkapkan            | 4.12.0.148          | 09-Julai-21          |
-|   &nbsp;  | Asia Pasifik          |  4.11.0.164     | Dilengkapkan     | Dilengkapkan            | 4.12.0.148          | 09-Julai-21          |
-|   &nbsp;  | Great Britain         |  4.11.0.164     | Dilengkapkan     | Dilengkapkan            | 4.12.0.148          | 09-Julai-21          |
-|   &nbsp;  | Oceania               |  4.11.0.164     | Dilengkapkan     | Dilengkapkan            | 4.12.0.148          | 09-Julai-21          |
-| Stesen 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eropah                |  4.11.0.164     | Dilengkapkan     | Dilengkapkan            | 4.12.0.148          | 16-Julai-21          |
-| Stesen 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Utara         |  4.11.0.164     | Dilengkapkan     | 09-Julai-21          | 4.12.0.148          | 23-Julai-21          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| Stesen 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Keluaran Pertama         |  4.13.0.152     | Dilengkapkan           | 13 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+| Stesen 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Amerika Selatan         |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+|    &nbsp; | Kanada                |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+|   &nbsp;  | India                 |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+|   &nbsp;  | Perancis                |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+|   &nbsp;  | Emiriah Arab Bersatu  |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+|   &nbsp;  | Afrika Selatan          |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+| Stesen 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Jepun                 |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
+|   &nbsp;  | Asia Pasifik          |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
+|   &nbsp;  | Great Britain         |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
+|   &nbsp;  | Oceania               |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
+| Stesen 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Eropah                |  4.12.0.152     | Dilengkapkan           | Dilengkapkan            | 4.13.0.152          | 20 Ogos 2021     |
+| Stesen 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Amerika Utara         |  4.12.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | 4.13.0.152          | 27 Ogos 2021     |
 
 
+> [!NOTE]
+> Pelaksanaan automatik selesai untuk versi 4.12.0.148. Tiada pelaksanaan automatik yang dirancang untuk versi terkini keluaran Julai 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadual keluaran untuk Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations
 
@@ -73,16 +75,16 @@ Kemas kini untuk Pengurusan projek dan perakaunan dikeluarkan lapan kali setahun
 
 |          Versi yang Disokong          | Ketersediaan pratonton (PEAP) | Secara umumnya tersedia (kemas kini dengan sendiri) | Jadual kemas kini automatik (melalui Tetapan Kemas Kini LCS) tarikh mula pengeluaran |   Tamat perkhidmatan   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         28 Mei 2021        |           16 Julai 2021           |                             30 Julai 2021                             |  22 Oktober 2021  |
 |          10.0.19          |        23 April 2021       |            18 Jun 2021           |                             2 Julai 2021                             | 17 September 2021 |
-|          10.0.18          |        5 Mac 2021        |           16 April 2021          |                            30 April 2021                            |    16 Julai 2021   |
+
 
 
 Tarikh keluaran yang disasarkan tertakluk pada perubahan. Untuk mendapatkan maklumat lanjut, lihat [Ketersediaan kemas kini perkhidmatan](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Versi Disasarkan          | Ketersediaan pratonton (PEAP) | Secara umumnya tersedia (kemas kini dengan sendiri) | Jadual kemas kini automatik (melalui Tetapan Kemas Kini LCS) tarikh mula pengeluaran |   Tamat perkhidmatan   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28 Mei 2021        |           16 Julai 2021           |                             30 Julai 2021                             |  22 Oktober 2021  |
 |          10.0.21          |         02 Ogos 2021     |           17 September 2021      |                             1 Oktober 2021                           |  10 Disember 2021  |
-
+|          10.0.22          |      3 September 2021      |          22 Oktober 2021         |                           5 November 2021                           |  14 Januari 2022  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

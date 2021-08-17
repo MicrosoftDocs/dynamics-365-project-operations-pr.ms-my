@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2c96e4abd484bb66285421baaad82ead9589bbe9
-ms.sourcegitcommit: be5beba71ee9770c0083b4fe5cc89e7ec6b741b8
+ms.openlocfilehash: a72202905fc0464577bb126aa5890a8f952dc3a8aff505416e535b42b53df7db
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334575"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006527"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-33-v3"></a>Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 33, V3
 
@@ -55,7 +55,7 @@ Isu berikut telah dibaiki:
 **Pengurusan sumber**
 
 Isu berikut telah dibaiki:
-- Parameter yang tidak betul digunakan dalam pertanyaan penggunaan  sumber dan XML membawa kepada hasil penapis yang tidak betul pada grid **Penggunaan Sumber**.
+- Parameter yang tidak betul digunakan dalam pertanyaan penggunaan sumber dan XML membawa kepada hasil penapis yang tidak betul pada grid **Penggunaan Sumber**.
 - Pengesahan **Tempahan Lanjut** memaparkan tarikh tamat yang tidak betul untuk tempahan.
 
 **Jualan**

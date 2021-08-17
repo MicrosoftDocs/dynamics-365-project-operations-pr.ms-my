@@ -6,12 +6,12 @@ ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995632"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007967"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu November 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -28,7 +28,7 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 
 | Bahagian ciri                 | Nombor rujukan | Kemas kini kualiti                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Pengurusan peluang       | 2036993          | Anggaran penugasan baris dan sumber untuk baris kontrak dikemas kini pada sebut harga yang dimenangi apabila jenis baris sebut harga ialah **Semua tugas**.                                                 |
+| Pengurusan peluang       | 2036993          | Anggaran penugasan baris dan sumber untuk baris kontrak dikemas kini pada sebut harga yang dimenangi apabila jenis baris sebut harga ialah **Semua tugas**.                                                 |
 | Pengebilan dan harga          | 2070392          | Baris kontrak projek pada peningkatan invois setiap kali **Transaksi invois segar semula** dipilih.                                                                         |
 | Perancangan projek             | 2043336          | Tidak dapat memadamkan rekod ahli pasukan projek.                                                                                                                                  |
 | Perancangan projek             | 2046013          | Tingkah laku yang tidak konsisten untuk Anggaran lajur tag semasa beban berbanding penukaran jenis fasa masa.                                                                                   |

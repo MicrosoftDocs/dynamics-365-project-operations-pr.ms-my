@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433664"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009227"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Ciri baharu Julai 2021 - Project Operations pelaksanaan ringan
 
@@ -20,7 +20,7 @@ _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
 Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
-  - Project Operations pada persekitaran Dataverse versi 4.12.0.148.
+  - Project Operations dalam persekitaran Dataverse versi 4.12.0.148 atau 4.12.0.152.
 
 ## <a name="quality-updates"></a>Kemas kini kualiti
 | **Bahagian ciri**              | **Nombor rujukan** | **Kemas kini kualiti**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | Umum                       | 2296857              | Penjejakan kemajuan untuk kerja yang memakan masa lama.                                                                                                                                                                        |
 | Umum                       | 2253682              | Penyelesaian dwi tulis Project Operations tidak boleh dipasang apabila teras dwi tulis dipasang dalam persekitaran tanpa penyelesaian pengorkestraan dwi tulis.                                                |
 | Umum                       | 2316420              | Peruntukan teras Project Service gagal jika unit perniagaan pengguna aplikasi berubah.                                                                                                                     |
+| Umum                       | 2376405              | Masalah kemas kini berpandukan penerbit tetap (Kemas kini kualiti tersedia dalam versi 4.12.0.152)                                                                                                                     |

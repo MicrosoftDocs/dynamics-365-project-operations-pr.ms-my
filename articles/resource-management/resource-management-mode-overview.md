@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367902"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008237"
 ---
 # <a name="resource-management-modes-overview"></a>Gambaran keseluruhan mod pengurusan sumber
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations menyokong dua mod agar anda dapat melaksanakan a
 ## <a name="central-mode"></a>Mod tengah
 Untuk organisasi yang memusatkan peruntukan bagi sumber untuk projek, mod Pusat menyediakan cara untuk memastikan Pengurus Projek boleh mentakrifkan keperluan sumber pada peringkat projek. Pemenuhan keperluan sumber ditugaskan kepada Resource Manager. Pengurus Projek boleh menerima atau menolak sumber yang dicadangkan oleh Resource Manager.
 
-![Mod Tengah](./media/resource-management-central.png)
+![Mod Tengah.](./media/resource-management-central.png)
 
 Untuk menguruskan sumber dengan Mod Tengah, lihat:
 
@@ -37,7 +37,7 @@ Untuk menguruskan sumber dengan Mod Tengah, lihat:
 ## <a name="hybrid-mode"></a>Mod hibrid
 Untuk organisasi yang memerlukan fleksibiliti dalam peruntukan sumber, mod hibrid membolehkan kedua-dua Pengurus Projek dan Resource Manager keupayaan untuk menempah sumber.
 
-![Mod Hibrid](./media/resource-management-hybrid.png)
+![Mod Hibrid.](./media/resource-management-hybrid.png)
 
 Selain daripada proses mod Pusat yang disokong, lihat topik berikut untuk menguruskan semua aliran penempahan lain yang disokong dalam mod Hibrid:
 

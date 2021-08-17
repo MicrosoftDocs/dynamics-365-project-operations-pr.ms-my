@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007427"
 ---
 # <a name="manage-resource-competencies"></a>Urus kecekapan sumber
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999052"
 
 Kecekapan sumber merupakan bahagian penting dalam pengurusan sumber. Kecekapan boleh digunakan sebagai garis dasar untuk menentukan sumber yang mempunyai keseimbangan kemahiran, pendidikan, pensijilan dan pengalaman projek yang betul. Anda harus menyediakan maklumat ini untuk setiap sumber dan kemas kini secara tetap. Dengan cara ini, anda boleh memaksimumkan keupayaan apabila kecekapan sumber khusus dipadankan semasa tugasan sumber projek.
 
-[![Contoh kemahiran, persijilan, pendidikan dan pengalaman projek](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Contoh kemahiran, persijilan, pendidikan dan pengalaman projek.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Prosedur berikut menerangkan cara untuk menyediakan beberapa kecekapan untuk sumber.
 

@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003054"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005762"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mengimplemen medan tersuai untuk aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet pada iOS dan Android
 
@@ -153,13 +153,13 @@ Untuk medan jenis **Tarikh**, sifat ini menyerahkan nilai tarikh medan antara pe
 
 Di bawah adalah syot skrin daripada aplikasi mudah alih bagi penciptaan entri lembaran masa. Ianya menunjukkan medan di luar kotak dan medan tersuai dalam bahagian "Entri masa" dipanggil "Rentetan ujian" dengan nilai enum "Pilihan kedua" tetal ditetapkan.
 
-![Uji rentetan medan tersuai dalam aplikasi](media/timesheet-entry.jpg)
+![Uji medan tersuai rentetan dalam aplikasi.](media/timesheet-entry.jpg)
 
 
 
 Di bawah adalah syot skrin daripada aplikasi mudah alih pengguna memilih satu daripada pilihan enum yang tersedia untuk medan tersuai "Rentetan ujian".  Kedua-dua pilihan adalah "Pilihan pertama" dan "Pilihan kedua" ditunjukkan sebagai butang radio. Pilihan kedua pada masa ini dipilih.
 
-![Pilihan butang (butang radio) untuk medan tersuai rentetan Ujian](media/enum-option.jpg)
+![Butang pilihan (butang radio) untuk medan tersuai rentetan Ujian.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Ambil perhatian bahawa medan tersuai tidak mempunyai sebarang rekod pangkalan da
 
 Di bawah adalah syot skrin daripada Visual Studio Application Object Tree. Ianya menunjukkan lanjutan jadual TSTimesheetLine dengan medan TestLineString ditambah sebagai medan tersuai.
 
-![Rentetan baris](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Rentetan baris.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Gunakan rantaian perintah pada kaedah buildCustomFieldList bagi kelas TSTimesheetSettings untuk menunjukkan medan dalam bahagian entri lembaran masa
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Di bawah adalah syot skrin daripada aplikasi mudah alih bagi pengguna yang melihat lembaran masa. Butang "Maklumat lanjut" telah dipilih di sudut kanan atas untuk menunjukkan pilihan Lihat butiran lanjut".  
 
-![Lihat lebih lanjut perintah](media/show-more.png)
+![Lihat perintah lebih terperinci.](media/show-more.png)
 
 Di bawah adalah syot skrin daripada aplikasi mudah alih menunjukkan “Lebih” bahagian lembaran masa. Medan tersuai dipanggil “Kadar penggunaan lembaran masa ini (medan tersuai dikira)” telah ditambah ke bahagian pengepala lembaran masa. Nilai dibaca sahaja "0.667" ditetapkan pada medan tersuai.
 
-![Lebih banyak bahagian](media/more-section.jpg)
+![Lebih banyak bahagian.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Lanjutkan jadual TSTimesheetTable supaya ianya mempunyai medan tersuai
 
@@ -414,7 +414,7 @@ Logik sedia ada untuk kefungsian lembaran masa pada peringkat pangkalan data aka
 
 Daripada parameter projek, anda boleh menjadikan medan di luar kota baca sahaja atau tersembunyi dalam aplikasi mudah alih. Tetapkan pilihan dalam bahagian **Lembaran masa mudah alih** pada tab **Lembaran masa** bagi halaman **Parameter pengurusan projek dan perakaunan**.
 
-![Parameter projek](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parameter projek.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Mengubah aktiviti yang tersedia untuk pemilihan melalui sambungan
 

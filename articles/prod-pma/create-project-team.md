@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006207"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005807"
 ---
 # <a name="create-a-project-team"></a>Cipta pasukan projek
 
@@ -33,7 +33,7 @@ Tetapan pandangan juga boleh disesuaikan untuk memberi pandangan yang lebih baik
 
 Pengurus projek boleh memilih peranan pada halaman dan kemudian, jika terdapat sumber tersedia yang sesuai dengan keperluan, pilih untuk menguntukkan sumber untuk memenuhi peranan. Ambil perhatian bahawa sumber tidak perlu diperuntukkan pada masa ini dalam peringkat perancangan. Apabila anda mencipta WBS, anda boleh menggantikan peranan dengan sumber diperlukan untuk projek. Jika peranan digantikan dengan sumber diperlukan dalam WBS, persediaan sumber secara automatik mengemas kini senarai pasukan dan penjadualan projek.
 
-[![Senarai pasukan projek yang merangkumi kedua-dua peranan dan sumber sebenar](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Senarai pasukan projek yang merangkumi kedua-dua peranan dan sumber sebenar.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Pengurus projek mempunyai pelbagai pilihan untuk menempah sumber untuk projek, seperti **Baki kapasiti**, **Kapasiti penuh**, **Peratusan kapasiti** dan **Tentukan jam**. Pilihan penempahan ini boleh dibatalkan pada bila-bila masa jika tugasan sumber berubah. Dua jenis penempahan disokong:
 

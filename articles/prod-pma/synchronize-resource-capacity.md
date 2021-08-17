@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997522"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005627"
 ---
 # <a name="synchronize-resource-capacity"></a>Segerakkan kapasiti sumber
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997522"
 
 Proses untuk penyegerakan sumber membantu menjamin yang maklumat untuk kalendar dan kalendar asas masuk ke dalam penjadualan sumber projek. Jika kalendar diubah, proses membuat kemas kini yang diperlukan untuk penjadualan sumber projek. Proses ini juga membantu menambah baik prestasi, kerana maklumat sumber kalendar disegerakkan lebih awal. Oleh itu, kemas kini kepada maklumat penjadualan sumber berlaku lebih cepat. Kami mengesyorkan anda menjadualkan proses sebagai kelompok dan bukannya satu demi satu. Jika tidak, ada risiko bahawa seseorang akan melupakan tarikh yang terangkum apabila maklumat terakhir disegerakkan. Jika tarikh yang terangkum tidak digunakan, jurang boleh berlaku semasa tarikh penyegerakan.
 
-![Penyegerakan kalendar](./media/projectresourcing04-1024x471.jpg)
+![Penyegerakan kalendar.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Segerakkan gulungan kapasiti sumber
 
@@ -46,7 +46,7 @@ Kami mengesyorkan agar anda menggunakan kelompok. Pilihan boleh tersedia semasa 
     | Tarikh mula  | Masukkan tarikh mula untuk proses penyegerakan untuk gulungan kapasiti sumber. |
     | Tarikh tamat    | Masukkan tarikh tamat untuk proses penyegerakan untuk gulungan kapasiti sumber. |
 
-[![Proses penyegerakan](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proses penyegerakan.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

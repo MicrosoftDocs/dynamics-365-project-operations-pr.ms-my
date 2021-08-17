@@ -6,12 +6,12 @@ ms.date: 10/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26c3743283dd9032e044071b3127a2885ad5ae49
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004272"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007607"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Sediakan kadar bil buruh - ringan
 
@@ -25,7 +25,7 @@ Setiap senarai harga mempunyai set harga peranan atau kadar buruh yang efektif u
 
   Jadual berikut merangkumi medan pada tab **Umum** dan anak tetingkap **Cipta Pantas** bagi baris harga peranan yang perlu diingati apabila anda mencipta harga peranan pada senarai harga jualan.
 
-  | Medan | Lokasi | Penerangan  | Kesan hiliran |
+  | Medan | Lokasi | Penerangan | Kesan hiliran |
   | --- | --- | --- | --- |
   | Peranan | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih peranan yang anda tetapkan untuk kadar bil. | Peranan pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |
   | Unit Sumber | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih unit organisasi atau divisyen syarikat yang peranan ini berasal. Sebagai contoh, pemaju dari bahagian Robotik Fabrikam India atau pemaju dari bahagian Perisian Fabrikam USA. | Unit sumber pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |

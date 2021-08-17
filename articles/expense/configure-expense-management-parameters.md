@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1e1181467c51384c4de7dcda2de29ed531360a0a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995452"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007787"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurasikan parameter pengurusan Perbelanjaan
 
@@ -21,7 +21,7 @@ Topik ini menghuraikan parameter mengawal tingkah laku umum dalam pengurusan Per
 
 ## <a name="general"></a>Umum
 
-| Medan                                                    | Penerangan  |
+| Medan                                                    | Penerangan |
 |----------------------------------------------------------|-------------|
 | Kadar standard perbatuan                                 | Masukkan kadar bayaran balik untuk perbelanjaan perbatuan. Kadar ini didarabkan dengan perbatuan yang dimasukkan untuk perbelanjaan untuk mengira jumlah yang dibayar balik untuk perbelanjaan perjalanan. |
 | Sahkan tujuan perbelanjaan                                 | Hidupkan pilihan ini untuk mengehadkan pengguna kepada set nilai sedia ada yang dikonfigurasikan dalam medan **Tujuan laporan perbelanjaan** apabila mereka mencipta laporan perbelanjaan. |
@@ -38,7 +38,7 @@ Topik ini menghuraikan parameter mengawal tingkah laku umum dalam pengurusan Per
 
 ## <a name="financial"></a>Kewangan
 
-| Medan                                                                                    | Penerangan  |
+| Medan                                                                                    | Penerangan |
 |------------------------------------------------------------------------------------------|-------------|
 | Nama jurnal harian lejar                                                                | Pilih nama jurnal lejar yang diluluskan oleh laporan perbelanjaan. |
 | Bolehkan pemulihan cukai daripada perbelanjaan                                                        | Pilih pilihan ini untuk mendayakan pemulihan cukai perbelanjaan untuk perbelanjaan yang layak. Pilihan ini tidak boleh dipilih jika cukai jualan AS dan menggunakan peraturan cukai didayakan. |
@@ -53,7 +53,7 @@ Topik ini menghuraikan parameter mengawal tingkah laku umum dalam pengurusan Per
 
 ## <a name="per-diem"></a>Bagi sehari
 
-| Medan                                 | Penerangan  |
+| Medan                                 | Penerangan |
 |---------------------------------------|-------------|
 | Minimum untuk setiap diem            | Masukkan bilangan jam lalai yang mana pekerja mesti bekerja dalam sehari untuk layak menerima perbelanjaan bagi setiap diem untuk perjalanan yang berkaitan dengan perjalanan. Nilai ini digunakan sebagai nilai lalai hanya untuk medan **Tempoh minimum** bagi setiap peringkat kadar masa. |
 | Peratus hidangan                          | Masukkan peratus lalai bagi setiap diem untuk hidangan yang digunakan pada hari pertama dan terakhir bagi perbelanjaan berkaitan perjalanan apabila medan **Kira pengurangan hidangan mengikut** ditetapkan sama ada **Jenis hidangan setiap hari** atau **Bilangan hidangan setiap hari**. Hari kerja pada hari pertama dan terakhir mungkin lebih pendek daripada hari kerja standard. Oleh itu, jumlah setiap diem pada hari tersebut mungkin berbeza daripada jumlah yang standard. Jika peratusan ditetapkan kepada **0** (sifar), potongan untuk hari pertama dan terakhir akan 0.00. |
@@ -68,7 +68,7 @@ Topik ini menghuraikan parameter mengawal tingkah laku umum dalam pengurusan Per
 
 ## <a name="fax-cover-pages"></a>Laman web perlindungan faks
 
-| Medan                          | Penerangan  |
+| Medan                          | Penerangan |
 |--------------------------------|-------------|
 | Arahan                   | Masukkan arahan yang pekerja mesti ikuti apabila mereka mencipta halaman perlindungan untuk Faks yang digunakan untuk menghantar resit yang berkaitan dengan laporan perbelanjaan. Untuk memasukkan teks khusus bahasa yang akan ditunjukkan, berdasarkan bahasa pengguna, pilih **Terjemahan**. |
 | ID pengguna (maklumat Kod Bar) | Pilih pilihan ini untuk menyimpan pengecam unik pekerja dalam kod bar yang digunakan pada halaman perlindungan bagi faks. |
@@ -76,7 +76,7 @@ Topik ini menghuraikan parameter mengawal tingkah laku umum dalam pengurusan Per
 
 ## <a name="anti-corruption"></a>Antirasuah
 
-| Medan                                 | Penerangan  |
+| Medan                                 | Penerangan |
 |---------------------------------------|-------------|
 | Mempamerkan serangan antirasuah   | Pilih pilihan ini untuk menunjukkan teks anti rasuah apabila laporan perbelanjaan dicipta. Kategori belanja khusus boleh kemudian didayakan yang akan memerlukan bahawa penkategorasi antirasuah dipilih dalam laporan perbelanjaan. Contohnya, kategori hadiah yang berkaitan dengan perbelanjaan rasmi kerajaan mungkin menghendaki pekerja mengesahkan bahawa perbelanjaan tersebut memenuhi dasar syarikat yang berkaitan dengan pegawai kerajaan. |
 | Mesej antirasuah untuk penghantar | Masukkan teks yang sepatutnya ditunjukkan kepada pekerja yang mencipta laporan perbelanjaan. Untuk memasukkan teks khusus bahasa yang akan ditunjukkan, berdasarkan bahasa pengguna, pilih **Terjemahan**. |
