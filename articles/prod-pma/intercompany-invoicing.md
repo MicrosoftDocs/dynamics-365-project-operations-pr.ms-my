@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002787"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995817"
 ---
 # <a name="intercompany-invoicing"></a>Penginvoisan antara syarikat
 
@@ -33,7 +33,7 @@ Organisasi anda mungkin mempunyai berbilang divisyen, subsidiari dan entiti unda
 
 Ilustrasi berikut menunjukkan senario biasa di mana dua entiti undang-undang, SI FR (entiti undang-undang peminjaman) dan SI USA (entiti undang-undang pemberi pinjaman) berkongsi sumber untuk menyampaikan projek bagi pelanggan A. Untuk senario ini, SI FR dikontrak untuk menyampaikan kerja kepada pelanggan A. 
 
-[![Contoh penginvoisan antara syarikat](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Contoh penginvoisan antara syarikat.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Matlamat adalah untuk membuat kawalan kos, pengiktirafan hasil, cukai dan pemindahan harga untuk tansaksi projek antara syarikat lebih fleksibel dan berkuasa. Di samping itu, keupayaan berikut adalah disediakan:
 

@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334793"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991542"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Daftar untuk langganan pratonton - (ringan) 
 
@@ -52,16 +52,16 @@ Sebelum anda mulakan, pastikan anda dilog masuk ke pelayar dengan akaun kerja pe
 
 1. Peruntukkan persekitaran pelaksanaan Project Operations Dataverse dengan mengikuti arahan berikut dalam topik, [Model pelaksanaan Dataverse](lite-deployment.md). Apabila anda memilih jenis persekitaran, pastikan untuk menggunakan **Percubaan (Berasaskan langganan)**.
 
-  ![Persekitaran baharu](./media/19CreateEnvironment.png)
+  ![Persekitaran baharu.](./media/19CreateEnvironment.png)
 
 2. Pilih **Dayakan tetapan Dynamics 365**, dan biarkan **Laksanakan secara automatik aplikasi ini** kosong.  
 3. Pilih **Simpan** untuk mencipta persekitaran.
 
-  ![Tambah pangkalan data](./media/20CreateEnvironment1.png)
+  ![Tambah pangkalan data.](./media/20CreateEnvironment1.png)
 
 4. Selepas persekitaran dicipta, pasang penyelesaian **Microsoft Dynamics 365 Project Operations**. 
 
-![Pasang Penyelesaian](./media/21InstallSolution.png)
+![Pasang Penyelesaian.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Pasangkan konfigurasi CDS dan data demo persediaan
 

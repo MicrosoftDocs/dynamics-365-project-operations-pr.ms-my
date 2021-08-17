@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013407"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000497"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Tempah sumber nama daripada keperluan sumber.
 
@@ -35,33 +35,33 @@ Anda boleh menempah sumber bernama untuk menggantikan sumber generik yang mempun
 2. Pilih sumber generik yang mempunyai keperluan sumber daripada senarai dan kemudian klik **Tempah**. Atau, buka keperluan sumber dan kemudian klik **Tempah**.
 
 
-![Menempah ahli pasukan generik](media/RM-how-to-14.png)
+![Menempah ahli pasukan generik.](media/RM-how-to-14.png)
 
 
 3. Pada halaman **Pembantu Jadual**, pilih sumber bernama untuk menempah ke dalam pasukan projek anda dan kemudian klik **Tempah**.
 
-![Menempah ahli pasukan generik menggunakan pembantu jadual](media/RM-how-to-15.png)
+![Menempah ahli pasukan generik menggunakan pembantu jadual.](media/RM-how-to-15.png)
 
 Apabila tempahan selesai dan diisi dengan sumber bernama, sumber generik digantikan dengan sumber bernama.
 
-![Ahli pasukan bernama menggantikan ahli pasukan generik](media/RM-how-to-16.png)
+![Ahli pasukan bernama menggantikan ahli pasukan generik.](media/RM-how-to-16.png)
 
 Tugasan ke atas jadual dikemas kini dengan sumber bernama juga.
 
-![Ahli pasukan bernama ditugaskan kepada tugas projek](media/RM-how-to-17.png)
+![Ahli pasukan bernama ditugaskan kepada tugas projek.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Isi sumber generik dengan berbilang sumber bernama
 Mengisi keperluan untuk sumber generik dengan berbilang sumber bernama adalah serupa dengan menugaskan sumber bernama tunggal. Contohnya, terdapat tugas yang mempunyai tempoh lima hari dan 120 jam usaha. Tugas ini tidak boleh diselesaikan oleh satu sumber yang bekerja 8 jam sehari selama lima hari seminggu yang biasa. 
 
-![Tugas yang memerlukan 120 jam usaha selama lima hari](media/RM-how-to-21.png)
+![Tugas yang memerlukan 120 jam usaha selama lima hari.](media/RM-how-to-21.png)
 
 Keperluan adalah untuk 120 jam bagi kejuruteraan robotik selama lima hari, yang mana 24 jam sehari.
 
-![Keperluan setiap hari](media/RM-how-to-22.png)
+![Keperluan setiap hari.](media/RM-how-to-22.png)
 
 Ini adalah contoh ketika sumber berbilang diperlukan untuk mengisi permintaan sumber generik. Anda perlu menempah berbilang sumber untuk mengisi keperluan.
 
-![Menempah berbilang sumber untuk mengisi keperluan](media/RM-how-to-23.png)
+![Menempah berbilang sumber untuk memenuhi keperluan.](media/RM-how-to-23.png)
 
 Perbezaan utama dalam senario ini ialah bahawa sumber generik kekal dalam pasukan yang ditugaskan kepada tugas, dan ahli pasukan sumber bernama yang ditempah tidak ditugaskan sebagai sebahagian daripada kedudukan tersebut. Pengurus projek boleh menugaskan kerja sebagai sesuai kepada sumber bernama. Pandangan **Penyesuaian** boleh membantu pengurus projek dalam memecahkan tempahan di semua berbilang sumber untuk menugaskan tugasan. Ini tidak dilakukan secara automatik kerana dalam mana-mana senario yang lebih rumit daripada contoh mudah di atas, seperti di mana anda mempunyai tugas yang memenuhi keperluan, niat tentang cara pengurus projek mahu menugaskan, perlu disangka oleh sistem. Disebabkan sistem tidak boleh memahami niat, peluang adalah bahawa sangkaan akan berbeza daripada yang diniatkan, dan hasil yang tidak betul atau tidak dijangka akan berlaku. Hasil yang boleh dijangka ialah sumber generik kekal ditugaskan sehingga pengurus projek secara sengaja mencipta tugasan, dengan bantuan pandangan **Penyesuaian**.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990507"
 ---
 # <a name="skills-and-proficiency-models"></a>Model kemahiran dan kecekapan
 
@@ -33,7 +33,7 @@ Kemahiran ialah ciri sumber yang dikongsi antara Dynamics 365 Project Service Au
 
 Untuk mengekalkan repositori kemahiran dalam Project Service Automation, pergi ke **Sumber** \> **Kemahiran Sumber**. 
 
-> ![Kemahiran Sumber](media/Resource-Management-image84.png)
+> ![Kemahiran Sumber.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Gunakan model kecekapan kepada sumber kadar
 
@@ -43,7 +43,7 @@ Kemahiran untuk sumber dinilai oleh model kecekapan. Pengkadaran individu dalam 
 2. Dalam model pengkadaran baharu, tentukan nilai penarafan minimum, nilai penarafan maksimum dan entiti yang akan dikadarkan.
 3. Dalam subgrid **Nilai Rating**, anda boleh mentakrifkan nilai rating yang berbeza, daripada minimum kepada maksimum.
 
-> ![Pengkadaran minimum dan maksimum ditakrifkan](media/Resource-Management-image85.png)
+> ![Pengkadaran minimum dan maksimum ditakrifkan.](media/Resource-Management-image85.png)
 
 Nilai pengkadaran ini ditunjukkan pada **Keperluan Sumber**, **Papan Jadual** dan penapis **Pembantu Jadual**.
 

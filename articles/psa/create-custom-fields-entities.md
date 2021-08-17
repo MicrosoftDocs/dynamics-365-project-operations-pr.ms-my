@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998962"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992442"
 ---
 # <a name="create-custom-fields-and-entities"></a>Cipta medan tersuai dan entiti 
 
@@ -43,7 +43,7 @@ Dimensi penentuan harga boleh menjadi set pilihan atau entiti. Kedua-duanya mest
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Entiti**.
 3. Klik **Baharu** untuk mencipta entiti baharu dipanggil **Tajuk Standard**. Masukkan baki maklumat diperlukan, kemudian klik **Simpan**.
 
-> ![Definisi entiti tajuk standard](media/Standard-Title-entity-definition.png)
+> ![Definisi entiti tajuk standard.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensi berasaskan set pilihan 
@@ -54,9 +54,9 @@ Anda boleh mencipta dua dimensi berasaskan set pilihan. Guna **Lokasi Kerja Sumb
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Set Pilihan**. 
 3. Klik **Baharu** untuk mencipta set pilihan baharu, masukkan baki maklumat yang diperlukan, kemudian klik **Simpan**.
 
-> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Lokasi Kerja Sumber ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Lokasi Kerja Sumber.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Waktu Kerja Sumber ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Jam Kerja Sumber.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Cipta data untuk dimensi berasaskan entiti
@@ -68,7 +68,7 @@ Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau men
 3. Tutup borang. 
 4. Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".
 
-> ![Data Sampel untuk entiti Jawatan Standard ](media/ST-data.png)
+> ![Data Sampel untuk entiti Jawatan Standard.](media/ST-data.png)
 
 
 

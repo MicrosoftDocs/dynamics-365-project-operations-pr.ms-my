@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 31a12e44353160dde851e2b9b06148a31fbeb167
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001757"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Urus berbilang pelanggan pada kontrak projek - ringan
 
@@ -35,7 +35,7 @@ Pelanggan utama tidak boleh dikemas kini daripada senarai pelanggan kontrak. Seb
 
 Pelanggan kontrak boleh dicipta, dikemas kini atau dipadamkan daripada tab **Pelanggan** pada halaman **Kontrak Projek**. Medan dalam jadual berikut adalah pada rekod pelanggan kontrak bagi kontrak projek dan perlu diingat kerana anda bekerja dengan kontrak tersebut.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | **Akaun** | Grid boleh diedit pada tab **Pelanggan Kontrak** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan kontrak. | Senaraikan semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Untuk mengemas kini akaun, padamkan rekod dan cipta semula rekod. Jika anda telah merakam sebarang aktual atau rekod pelanggan kontrak ialah pelanggan utama, anda tidak boleh memadamkan rekod. | Pelanggan kontrak disalin sebagai pelanggan baris kontrak apabila baris kontrak dicipta. |
 | **Peratus Pecahan Bil** | Grid boleh diedit pada tab **Pelanggan Kontrak** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan kontrak. | Mewakili peratusan setiap transaksi jualan belum dibilkan yang diatribut kepada pelanggan kontrak ini. | Disalin ke baris kontrak baharu dan kepada pelanggan baris kontrak projek pada baris kontrak projek baharu. |

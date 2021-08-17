@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011517"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990057"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Menggunakan baris kontrak berasaskan projek
 
@@ -27,7 +27,7 @@ Baris kontrak berasaskan projek dalam Dynamics 365 Project Operations direka unt
 
 Medan berikut disertakan dalam tab **Umum** untuk baris kontrak berasaskan projek. Medan ini membantu menyediakan asas untuk anggaran yang terperinci dan berasas dan penyusunan pengebilan untuk kerja berasaskan projek.
 
-| Medan | Penerangan  | Kesan hiliran |
+| Medan | Penerangan | Kesan hiliran |
 | --- | --- | --- |
 | **Nama** | Nama baris kontrak yang mengenal pasti komponen berasingan untuk kontrak yang sedang dianggarkan. Untuk kontrak projek yang dicipta daripada sebut harga, nilai ini akan disalin daripada nilai yang sepadan dengan baris sebut harga berasaskan projek. | Nilai medan ini disalin kepada baris invois projek yang dicipta daripada baris kontrak ini apabila invois dicipta. |
 | **Kaedah Pengebilan** | Pada kontrak projek yang dicipta daripada sebut harga, nilai ini akan disalin daripada medan yang sepadan pada baris sebut harga. Ini ialah set pilihan yang mewakili dua model kontrak utama yang disokong oleh Project Operations:</br>- **Harga Tetap**</br>- **Masa dan Bahan** | Berdasarkan kaedah pengebilan bagi baris kontrak rujukan, transaksi sebenar akan diproses. Jika baris kontrak yang dirujuk oleh aktual mempunyai kaedah pengebilan masa dan material, rekod aktual kos dan jualan yang tidak dibilkan dicipta. Jika baris kontrak yang dirujuk oleh aktual mempunyai kaedah pengebilan harga tetap, hanya aktual kos dicipta. |

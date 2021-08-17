@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001302"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986637"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Sediakan dan gunakan data konfigurasi dalam Common Data Service 
 
@@ -35,24 +35,24 @@ Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasy
 2. Navigasi ke folder nyahzip dan jalankan fail boleh laku, *DataMigrationUtility*.
 3. Pada halaman 1 dalam Wizard Penghijrahan Konfigurasi (CMT) Common Data Service, pilih **Import Data** dan kemudian pilih **Teruskan**.
 
-![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
+![Migrasi Konfigurasi.](./media/1ConfigurationMigration.png)
 
 4. Pada Halaman 2 dalam Wizard CMT, pilih **Microsoft 365** sebagai **Jenis Perlaksanaan**.
 5. Pilih **Paparkan senarai organisasi tersedia** dan kotak semak **Tunjukkan Lanjutan**.
 6. Pilih rantau penyewa anda, masukkan kelayakan anda dan pilih **Log masuk**.
 
-![Daftar Masuk Konfigurasi](./media/2ConfigurationSignin.png)
+![Daftar Masuk Konfigurasi.](./media/2ConfigurationSignin.png)
 
 7. Pada halaman 3, daripada senarai organisasi pada penyewa, pilih organisasi yang anda mahu import data demo ke dalam dan pilih **log masuk**.
 8. Pada halaman 4, pilih fail zip, *SampleSetupAndConfigData* dari folder tak padat.
 
-![Pilihan Fail Zip](./media/3ZipFile.png)
+![Pilihan Fail Zip.](./media/3ZipFile.png)
 
-![Pilih fail](./media/4SelectAFile.png)
+![Pilih fail.](./media/4SelectAFile.png)
 
 9. Selepas fail zip dipilih, pilih **Import Data**.
 
-![Import Data](./media/5ImportData.png)
+![Import Data.](./media/5ImportData.png)
 
 10. Import akan berjalan selama kira-kira 2-10 minit bergantung pada kelajuan rangkaian anda. Selepas import selesai, keluar dari CMT Wizard. 
 11. Semak organisasi anda untuk data dalam 26 entiti berikut:
@@ -84,50 +84,50 @@ Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasy
   - Penyekutuan kategori sumber boleh ditempah
   - Penyekutuan Cirian Sumber Boleh Ditempah
 
-![Lengkapkan Import](./media/6CompleteImport.png)
+![Import Selesai.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Kemas kini konfigurasi Operasi Projek
 
 1. Navigasi ke persekitaran CE. Anda boleh menemuinya dengan membuka Pusat pentadbir [Power Platform](https://admin.powerplatform.microsoft.com/environments), memilih persekitaran dan kemudian memilih **Persekitaran Terbuka**. 
 
-![Persekitaran Terbuka](./media/7OpenEnvironment.png)
+![Persekitaran Terbuka.](./media/7OpenEnvironment.png)
 
 2. Pergi ke **Sumber** > **Projek** dan kemudian pilih **Baharu** untuk mencipta sumber boleh ditempah untuk pengguna anda.
 
-![Sumber Boleh Ditempah](./media/8BookableResources.png)
+![Sumber Boleh Ditempah.](./media/8BookableResources.png)
 
 3. Pada tab **Umum**, pilih pengguna pentadbir anda. Sahkan bahawa zon waktu sepadan dengan yang anda berada. 
 
-![Sumber Boleh Ditempah Baharu](./media/9NewBookableResource.png)
+![Sumber Boleh Ditempah Baharu.](./media/9NewBookableResource.png)
 
 4. Pada tab **Penjadualan**, dalam medan **Syarikat**, pilih syarikat **USPM** dan kemudian pilih **Simpan**. 
 
-![Tab Penjadualan](./media/10SchedulingTab.png)
+![Tab Penjadualan.](./media/10SchedulingTab.png)
 
 5. Pilih tab **Waktu kerja**.  
 
-![Jam Kerja](./media/11WorkHours.png)
+![Jam Kerja.](./media/11WorkHours.png)
 
 6. Klik dua kali pada mana-mana nilai dalam kalendar dan pilih **Edit** > **Semua acara dalam siri ini**. 
 
-![Kalendar Kerja](./media/12WorkCalendar.png)
+![Kalendar Kerja.](./media/12WorkCalendar.png)
 
 7. Tukar masa kerja ke lapan (8) jam hari kerja, tandakan hujung minggu sebagai hari bukan kerja, dan pastikan zon waktu sepadan dengan anda. 
 8. Pilih **Simpan dan tutup**.
 
-![Kemas Kini Kalendar](./media/13UpdateCalendar.png)
+![Kemas kini Kalendar.](./media/13UpdateCalendar.png)
 
 9. Pergi ke **Tetapan** > **Templat kalendar** dan pilih **Baharu**.
  
- ![Templat Kalendar](./media/14CalendarTemplates.png)
+ ![Templat Kalendar.](./media/14CalendarTemplates.png)
  
  10. Masukkan nama, pilih sumber templat yang anda cipta dan kemudian pilih **Simpan**. 
  
- ![Simpan Templat Kalendar](./media/15SaveCalendarTemplate.png)
+ ![Simpan Templat Kalendar.](./media/15SaveCalendarTemplate.png)
  
  11. Pergi ke **Parameter** dan klik dua kali pada rekod. 
  
- ![Parameter Projek](./media/16ProjectParameters.png)
+ ![Parameter Projek.](./media/16ProjectParameters.png)
  
 12. Kemas kini medan berikut:
 
@@ -138,7 +138,7 @@ Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasy
 
 13. Pilih **Simpan**. 
 
-![Parameter Projek Dikemas Kini](./media/17UpdatedProjectParameters.png)
+![Parameter Projek yang Dikemas kini.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

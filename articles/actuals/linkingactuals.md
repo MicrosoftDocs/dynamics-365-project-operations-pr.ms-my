@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996757"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991767"
 ---
 # <a name="link-actuals-to-original-records"></a>Pautkan aktual pada rekod asal
 
@@ -77,7 +77,7 @@ Kedua-dia, **Asal transaksi** dan **Sambungan transaksi** membantu anda menjejak
 
 Contoh berikut menunjukkan pemprosesan biasa bagi entri masa dalam kitaran hayat projek Project Operations.
 
-> ![Pemprosesan entri masa dalam kitaran hayat Project Service](media/basic-guide-17.png)
+> ![Pemprosesan entri masa dalam kitaran hayat Project Service.](media/basic-guide-17.png)
  
 1. Penyerahan entri masa mencipta dua garisan jurnal: satu baris untuk kos dan satu baris untuk jualan belum dibilkan.
 2. Akhirnya kelulusan entri masa mencipta dua aktual: satu aktual untuk kos dan satu aktual untuk jualan belum dibilkan.

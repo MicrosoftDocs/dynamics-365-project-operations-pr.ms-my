@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007287"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985557"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Pemasangan data sampel untuk aplikasi Project Service
 
@@ -86,7 +86,7 @@ Anda perlu merancang supaya komputer tetap bersambung ke rangkaian dan pemasanga
 Komputer hendaklah mematikan fungsi penyelamat skrin. Sebaliknya, kelayakan sesi untuk pemasangan mungkin hilang apabila penyelamat skrin terlibat sama (melainkan anda mengekalkan sesi anda kepada aktif sepanjang masa).
 
 > [!div class="mx-imgBorder"]
-> ![Tangkap layar tetapan penyelamat skrin, dengan penyelamat skrin dimatikan](media/sample-data-1.png)
+> ![Tangkapan skrin tetapan penyelamat skrin, dengan penyelamat skrin dimatikan.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Muat turun dan buka
 
@@ -142,7 +142,7 @@ Pakej data demo memerlukan enam pengguna. Untuk pakej memasang dengan betul, lak
 3. Buka **PkgFolder** dan kemudian cari dan buka **ImportUserMapFile.xml**. Kemas kini medan **Baharu=** kepada alamat e-mel pengguna yang sepadan dalam sistem anda.
 
    > [!div class="mx-imgBorder"]
-   > ![Tangkap skrin UserMapFile](media/sample-data-7.png)
+   > ![Tangkapan skrin UserMapFile.](media/sample-data-7.png)
 
 4. Jika pengguna nama penuh "Spencer Low" anda mempunyai ID pengguna yang berbeza daripada **"spencerl"**, maka anda perlu mengemas kini satu fail tambahan. Buka **DemoDataPreImportConfig.xml** dan kemudian cari tag **userstocreateandconfigure**. Kemas kini tag **\<login\>** dengan loginId (sensitif huruf). 
 
@@ -172,7 +172,7 @@ Pakej data demo memerlukan enam pengguna. Untuk pakej memasang dengan betul, lak
 5. Pilih **Seterusnya** sehingga anda melihat dialog **Persediaan Data Demo**.
 
    > [!div class="mx-imgBorder"]
-   > ![Tangkap layar tetingkap status pemasang data demo](media/sample-data-3.png)
+   > ![Syot layar tetingkap status pemasang data demo.](media/sample-data-3.png)
 
 6. Sebelum meneruskan, ambil perhatian bahawa memasang data sampel boleh mengambil masa sehingga satu jam (selalunya ~ 10 minit). Anda perlu pastikan komputer kekal hidup dan disambungkan ke rangkaian sepanjang proses pemasangan, dan sesi anda kekal aktif.   
 
@@ -191,10 +191,10 @@ Selepas data sampel dimuatkan sepenuhnya, daftar masuk masuk sebagai pengguna Sp
 - Jika aplikasi Field Service dipasang, pergi ke **Project Service** > **Tetapan** > **Senarai Harga**. Sahkan bahawa kadar bil dan kadar kos wujud. Pergi ke **Field Service** > **Tetapan** > **Senarai Harga** dan pastikan bahawa kadar bil dan kadar kos wujud, dengan wang yang betul untuk setiap negara/rantau dalam set data.
 
   > [!div class="mx-imgBorder"]
-  > ![Tangkap layar senarai harga aktif](media/sample-data-4.png)
+  > ![Syot layar senarai harga aktif.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Tangkap layar unit organisasi aktif](media/sample-data-5.png)
+  > ![Syot layar unit organisasi aktif.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Nota teknikal
 
@@ -295,7 +295,7 @@ Jika anda perlu mengubah waktu bekerja untuk sumber boleh tempah sampel, pergi k
 Pilih pengguna (contohnya, Spencer Low) dan ubah waktu bekerja Spencer kepada jam yang anda mahu gunakan pada berbilang pengguna. Pergi ke **Universal Resource Scheduling** > **Tetapan** > **Templat Waktu Bekerja** dan edit rekod **Templat Kerja Lalai**. Dalam medan **Sumber Templat**, pilih pengguna dengan waktu bekerja yang anda mahu gunakan pada sumber lain. Pergi ke **Universal Resource Scheduling** > **Penjadualan** > **Sumber** > **Sumber Boleh Ditempah Sktif**. Pilih sumber yang anda mahu ubah, dan kemudian pilih **Tetapkan Kalendar**. Pada senarai juntai ke bawah **Templat Kerja**, pilih templat **Waktu Bekerja Lalai** atau templat lain dengan sumber templat yang betul. Apabila anda pergi ke papan Jadual, anda akan dapat melihat sumber sekarang telah mengemas kini waktu bekerja.
 
 > [!div class="mx-imgBorder"]
-> ![Tangkap layar sumber boleh tempah aktif](media/sample-data-6.png)
+> ![Syot layar sumber boleh tempah aktif.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

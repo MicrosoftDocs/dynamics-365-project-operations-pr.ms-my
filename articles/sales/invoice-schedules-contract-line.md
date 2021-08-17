@@ -6,12 +6,12 @@ ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3f84d9935eec13666e3eaaa675908e9bc3d2097c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010122"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999687"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Buat jadual invois pada baris kontrak berdasarkan projek 
 
@@ -62,7 +62,7 @@ Anda boleh menjana pencapaian harga tetap apabila tidak berpecah secara berkala.
 1. Buka baris kontrak harga tetap yang anda akan mencipta pencapaian dan pada tab **Jadual Invois**, pada subgrid, pilih **+Cipta pencapaian Baris kontrak baharu**. 
 2. Pada halaman **Penciptaan pencapaian**, masukkan maklumat yang diperlukan berdasarkan jadual berikut.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Nama Pencapaian | Cipta Cepat | Medan teks untuk nama pencapaian. | Ini telah dibawa kepada pencapaian baris kontrak pencapaian dan invois. |
 | Tugas Projek | Cipta Cepat | Jika pencapaian tersebut terikat dengan tugas projek, gunakan rujukan ini untuk menambah logik tersuai untuk menetapkan status pencapaian berdasarkan status tugas. | Aplikasi ini tidak mempunyai sebarang kesan hiliran bagi rujukan ini kepada tugas. |

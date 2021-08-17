@@ -6,12 +6,12 @@ ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 238b55e906fb66415cf46d3abc8827d85c174dd7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004002"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997482"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Menginvois retainer atau pendahuluan
 
@@ -41,9 +41,9 @@ Pada setiap invois yang dijana untuk kontrak projek yang mempunyai redeomer invo
 
 Ini boleh dilihat dalam grid **Retainer dan Pendahuluan yang digunakan** pada halaman **Invois**. Jadual berikut menyediakan maklumat mengenai medan mengenai grid **Retainer dan Pendahuluan Digunakan** halaman **Invois Projek**.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
-| Penerangan  | Grid **Retainer dan Pendahuluan yang Digunakan** pada halaman **Invois Projek** |Medan baca sahaja ini memberikan perihalan retainer atau pendahuluan yang digunakan pada invois ini. Nilai ini tidak dapat diubah pada invois. Nilai ini boleh dikemas kini pada subgrid pada halaman **Kontrak Projek**. | Medan ini boleh dipaparkan kepada pelanggan pada invois bercetak untuk menunjukkan retainer atau pendahuluan yang digunakan pada invois. |
+| Penerangan | Grid **Retainer dan Pendahuluan yang Digunakan** pada halaman **Invois Projek** |Medan baca sahaja ini memberikan perihalan retainer atau pendahuluan yang digunakan pada invois ini. Nilai ini tidak dapat diubah pada invois. Nilai ini boleh dikemas kini pada subgrid pada halaman **Kontrak Projek**. | Medan ini boleh dipaparkan kepada pelanggan pada invois bercetak untuk menunjukkan retainer atau pendahuluan yang digunakan pada invois. |
 | Dihantar Pada | Grid **Retainer dan Pendahuluan yang Digunakan** pada halaman **Invois Projek**  | Medan baca sahaja ini memberikan tarikh invois retainer atau pendahuluan yang digunakan pada invois ini. Nilai ini tidak dapat diubah pada invois. Nilai ini boleh dikemas kini pada subgrid pada halaman **Kontrak Projek**. | Medan ini boleh dipaparkan kepada pelanggan pada invois bercetak untuk menunjukkan tarikh retainer atau pendahuluan diinvoiskan kali pertama kepada pengguna. |
 | Amaun | Grid **Retainer dan Pendahuluan yang Digunakan** pada halaman **Invois Projek**  | Medan baca sahaja ini memberikan jumlah invois retainer atau pendahuluan yang digunakan pada invois ini. Nilai ini tidak dapat diubah pada invois. Nilai ini boleh dikemas kini pada subgrid pada halaman **Kontrak Projek**. | Medan ini boleh dipaparkan kepada pelanggan pada invois bercetak untuk menunjukkan jumlah asal retainer atau pendahuluan yang dibayar oleh pelanggan. |
 | Amaun Digunakan | Grid **Retainer dan Pendahuluan yang Digunakan** pada halaman **Invois Projek**  | Medan baca sahaja ini memberikan nilai yang dikira yang meringkaskan jumlah retainer atau pendahuluan yang telah digunakan. | Medan ini boleh dipaparkan kepada pelanggan pada invois bercetak untuk menunjukkan jumlah daripada retainer atau pendahuluan yang telah digunakan. |

@@ -6,12 +6,12 @@ ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b302368bcb476527c94d48f7693058d2044c74b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996442"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992127"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Urus berbilang pelanggan pada baris kontrak berasaskan projek
 
@@ -29,7 +29,7 @@ Anda boleh mencipta, mengemas kini atau memadamkan pelanggan baris kontrak darip
 
 Berikut ialah medan pada rekod pelanggan baris Kontrak bagi baris Kontrak berasaskan projek yang perlu diingat ketika anda bekerja dengan baris tersebut:
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Akaun | Grid boleh diedit pada tab **Pelanggan Baris Kontrak** dan borang Utama dan Cipta Cepat untuk pelanggan baris kontrak | Semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Untuk mengemas kini medan, padamkan rekod dan cipta rekod baharu. Jika anda telah merekodkan sebarang aktual, anda tidak boleh memadamkan rekod tersebut. Walau bagaimanapun, anda boleh menandakan peratusan pecahan bil sebagai sifar untuk akaun tersebut. Apabila rekod ditandakan sebagai sifar, mana-mana kos masa depan dan aktual hasil yang diatribut atau dipecahkan kepada pelanggan ini akan terjejas. | Apabila anda memilih akaun daripada senarai induk akaun untuk menambah dan menyimpan akaun tersebut, pelanggan baris kontrak juga ditambah sebagai pelanggan kontrak. Pelanggan baris kontrak digunakan apabila invois dijana. |
 | Peratusan Pecahan Pengebilan | Grid boleh diedit pada tab **Pelanggan Baris Kontrak** dan borang Utama dan Cipta Cepat untuk pelanggan baris kontrak | Medan ini mewakili peratusan setiap transaksi jualan belum dibilkan yang akan diatribut kepada pelanggan baris kontrak ini. | Pelanggan baris kontrak dan peratusan pecahan bil digunakan apabila aktual dicipta selepas mendapat kelulusan dan apabila invois dijana. |

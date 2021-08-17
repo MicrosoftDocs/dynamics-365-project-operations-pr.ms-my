@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009177"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002567"
 ---
 # <a name="project-costs-and-revenue"></a>Kos dan hasil projek
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009177"
 
 Anggaran projek memberikan pandangan kewangan untuk kerja yang dianggarkan dan dijadualkan dalam jadual projek. Tab **Anggaran** pada halaman **Projek** menunjukkan kesan kos dan hasil bagi kerja yang anda rancang. Ia juga menyediakan maklumat tentang banyak dimensi pratakrif. 
 
-> ![Tab anggaran](media/project-5.png)
+> ![Tab Anggaran.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Nilai kos dan jualan projek
 
@@ -66,13 +66,13 @@ Jika sistem tidak menemui harga untuk peranan, harga jualan pada baris anggaran 
 
 Tab **Anggaran** mempunyai pandangan grid yang menunjukkan baris anggaran. Grid termasuk lajur untuk unit, jumlah harga kos dan jumlah harga jualan seperti yang ditunjukkan dalam ilustrasi berikut. 
 
-> ![Pandangan grid pada tab Anggaran](media/project-6.png)
+> ![Pandangan grid pada tab Anggaran.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Pandangan anggaran projek berfasa masa
 
 Pandangan berfasa masa bagi anggaran projek menunjukkan data anggaran daripada paparan grid merentasi garis masa, dalam skala masa yang anda pilih. Secara lalai, data anggaran dipangsikan pada dimensi **Peranan**.
 
-> ![Pandangan berfasa masa untuk anggaran projek](media/project-7.png)
+> ![Pandangan berfasa masa untuk anggaran projek.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Peruntukkan usaha anggaran berdasarkan pada mod tugas
 

@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997162"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993297"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Gunakan persediaan tunjuk cara dan data konfigurasi dalam untuk Project Operations - lite 
 
@@ -30,24 +30,24 @@ Sebelum anda memulakan konfigurasi, anda mesti mempunyai persekitaran Common Dat
 2. Menavigasi ke folder *ProjOpsSampleSetupData - CE hanya CMT* dan jalankan fail boleh laksana, *DataMigrationUtility*.
 3. Pada halaman 1 dalam Wizard Penghijrahan Konfigurasi (CMT) Common Data Service, pilih **Import Data** dan kemudian pilih **Teruskan**.
 
-    ![Migrasi Konfigurasi](./media/1ConfigurationMigration.png)
+    ![Migrasi Konfigurasi.](./media/1ConfigurationMigration.png)
 
 4. Pada Halaman 2 dalam Wizard CMT, pilih **Microsoft 365** sebagai **Jenis Perlaksanaan**.
 5. Pilih **Paparkan senarai organisasi tersedia** dan kotak semak **Tunjukkan Lanjutan**.
 6. Pilih rantau penyewa anda, masukkan kelayakan anda dan kemudian pilih **Log masuk**.
 
-   ![Daftar Masuk Konfigurasi](./media/2ConfigurationSignin.png)
+   ![Daftar Masuk Konfigurasi.](./media/2ConfigurationSignin.png)
 
 7. Pada halaman 3, daripada senarai Organisasi pada Penyewa, pilih organisasi yang anda mahu import data demo dan pilih **Log masuk**.
 8. Pada halaman 4, pilih fail zip, *SampleSetupAndConfigData* daripada folder tidak dibungkus, *ProjOpsSampleSetupData - CE hanya CMT*.
 
-   ![Fail Zip](./media/3ZipFile.png)
+   ![Fail zip.](./media/3ZipFile.png)
 
-   ![Pilih fail](./media/4SelectAFile.png)
+   ![Pilih fail.](./media/4SelectAFile.png)
 
 9. Selepas fail zip dipilih, pilih **Import Data**.
 
-   ![Import data](./media/5ImportData.png)
+   ![Import data.](./media/5ImportData.png)
 
 10. Import akan berjalan selama kira-kira 2-10 minit bergantung pada kelajuan rangkaian anda. Selepas import selesai, keluar dari Wizard CMT. 
 11. Semak organisasi anda untuk data dalam 18 entiti berikut:
@@ -71,7 +71,7 @@ Sebelum anda memulakan konfigurasi, anda mesti mempunyai persekitaran Common Dat
     -   Penyekutuan kategori sumber boleh ditempah
     -   Penyekutuan Cirian Sumber Boleh Ditempah
 
-    ![Lengkapkan Import](./media/6CompleteImport.png)
+    ![Import Selesai.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

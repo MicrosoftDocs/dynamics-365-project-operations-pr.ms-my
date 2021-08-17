@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015072"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985512"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Penginvoisan dalam Project Service Automation
 
@@ -50,7 +50,7 @@ Ikuti langkah ini untuk mencipta invois untuk kontrak projek khusus.
 
 - Dalam halaman senarai **Kontrak Projek**, buka kontrak projek, kemudian pilih **Cipta Invois**.
 
-    ![Mencipta invois projek untuk kontrak projek khusus](media/CreateProjectInvoicesOneByOne.png)
+    ![Mencipta invois projek untuk kontrak projek khusus.](media/CreateProjectInvoicesOneByOne.png)
 
     Invois dijana untuk semua transaksi untuk kontrak projek terpilih yang mempunyai status **Sedia untuk Invois**. Transaksi ini termasuklah masa, perbelanjaan, pencapaian, dan baris kontrak berasaskan produk.
 
@@ -58,7 +58,7 @@ Ikuti langkah-langkah ini untuk mencipta invois secara pukal.
 
 1. Dalam halaman senarai **Kontrak Projek**, pilih satu atau lebih kontrak projek yang anda mesti cipta invois, kemudian pilih **Cipta Invois Projek**.
 
-    ![Mencipta invois projek secara pukal](media/CreateProjectInvoicesBulk.png)
+    ![Mencipta invois projek secara pukal.](media/CreateProjectInvoicesBulk.png)
 
     Satu mesej amaran menunjukkan bahawa mungkin terdapat penangguhan sebelum invois dicipta. Proses juga ditunjukkan.
 

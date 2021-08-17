@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015027"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985152"
 ---
 # <a name="manage-resource-requests-project-service"></a>Urus permintaan sumber (Project Service)
 
@@ -43,7 +43,7 @@ Pengurus akaun dan pengurus projek sentiasa meminta sumber untuk projek mereka. 
   
    -   Klik **Penapis** untuk memaparkan anak tetingkap **Penapis** yang membolehkan anda menapis hasil anda oleh unit organisasi, peranan, kemahiran atau atribut lain.  
   
-       ![Skrin Permintaan Sumber Project Service](../psa/media/project-service-resource-request-screen.png "Skrin Permintaan Sumber Project Service")  
+       ![Skrin Permintaan Sumber Project Service.](../psa/media/project-service-resource-request-screen.png "Skrin Permintaan Sumber Project Service")  
   
 3. Dalam kalendar bagi sumber yang anda mahu tempah, pilih tempoh masa untuk menempah sumber dan kemudian sama ada klik pada **Tempah** untuk menempah sumber atau **Cadangkan Penempahan** untuk mencadangkan penempahan dan meminta pemohon meluluskannya. Apabila anda menempah sumber anda boleh menempah sementara atau menempah tetap.  
   

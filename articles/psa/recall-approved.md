@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998337"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Tarik balik entri masa atau perbelanjaan yang diluluskan
 
@@ -98,13 +98,13 @@ Jika permintaan tarik balik ditolak, tiada kesan kewangan pada projek tersebut.
 
 Ilustrasi berikut menunjukkan perubahan yang berlaku bagi entri masa yang diluluskan apabila ia ditarik balik.
 
-![Peralihan keadaan Entri Masa](media/TimeEntryStateTransitions.png)
+![Peralihan keadaan Entri Masa.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Perubahan pada rekod entri perbelanjaan
 
 Ilustrasi berikut menunjukkan perubahan yang berlaku bagi entri perbelanjaan yang diluluskan apabila ia ditarik balik.
 
-![Peralihan keadaan Entri Perbelanjaan](media/ExpenseEntryStateTransitions.png)
+![Peralihan keadaan Entri Perbelanjaan.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

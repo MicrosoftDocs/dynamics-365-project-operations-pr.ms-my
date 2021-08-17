@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012327"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995277"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Cipta penyelesaian tersuai untuk dimensi penentuan harga
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012327"
 1. Pilih **Tetapan** > **Penyelesaian**, dan kemudian pilih **Baharu**. 
 2. Namakan penyelesaian, **\<your organization name> dimensi penetapan harga**, masukkan baki maklumat yang diperlukan dan kemudian pilih **Simpan**.
 
-> ![Mencipta penyelesaian tersuai untuk dimensi penentuan harga](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Mencipta penyelesaian khusus untuk dimensi penentuan harga.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambah semua entiti yang diperlukan dan dokumen berkaitan pada penyelesaian dimensi Penetapan Harga
 Anda perlu menambah entiti Project Service berikut pada penyelesaian penentuan harga anda. Lengkapkan langkah-langkah dalam prosedur ini untuk membuat perubahan penting dalam penyelesaian penentuan harga agar entiti maklum dengan dimensi penentuan harga baharu.
@@ -54,16 +54,16 @@ Anda perlu menambah entiti Project Service berikut pada penyelesaian penentuan h
 - Harga Peranan 
 - Entri Masa 
 
-> ![Tambah entiti sedia ada untuk penyelesaian dimensi penentuan harga](media/Existing-entities-to-PD-solution.png)
+> ![Tambah entiti sedia ada pada penyelesaian dimensi penentuan harga.](media/Existing-entities-to-PD-solution.png)
 
-> ![Pilih komponen penyelesaian](media/Dimension-Components.png)
+> ![Pilih komponen penyelesaian.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Pastikan anda memasukkan semua borang dan pandangan bagi setiap entiti yang dipilih.
 
 4. Apabila digesa untuk memasukkan sebarang entiti bersandar bagi entiti yang dipilih, pilih **Tidak**.
 
-> ![Jangan masukkan semua komponen berkaitan](media/Do-not-include-required.png)
+> ![Jangan sertakan semua komponen yang berkaitan.](media/Do-not-include-required.png)
 
 
 

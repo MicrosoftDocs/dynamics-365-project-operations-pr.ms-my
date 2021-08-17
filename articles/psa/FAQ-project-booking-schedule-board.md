@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992977"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987627"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Cipta tempahan projek daripada papan Jadual
 
@@ -43,7 +43,7 @@ Anda boleh mencipta sumber generik dan menugaskannya satu atau lebih tugas dalam
 
 1.  Pada papan Jadual, sumber ini akan muncul pada tab **Keperluan Terbuka**. Anda mungkin perlu menggunakan penapis lajur pada grid jika anda ada banya keperluan terbuka. 
 
-    ![Buka tab Keperluan pada papan Jsadual](media/FAQ-Project-Booking-Schedule-Board-1.png "Tangkap layar jadual tempahan dan tugasan")
+    ![Buka tab Keperluan pada papan Jadual.](media/FAQ-Project-Booking-Schedule-Board-1.png "Tangkap layar jadual tempahan dan tugasan")
 
 2. Pilih keperluan. Tab **Cari Ketersediaan** akan muncul di bahagian atas baris dipilih.
  
@@ -53,7 +53,7 @@ Anda boleh mencipta sumber generik dan menugaskannya satu atau lebih tugas dalam
 
     Memilih **Tempah** menempah sumber ke dalam pasukan projek.
 
-![Cipta panel Tempahan Sumber](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Panel Cipta Tempahan Sumber.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Tempah dari Keperluan Utama
@@ -62,7 +62,7 @@ Mencipta projek dalam Project Service secara automatik mencipta keperluan sumber
 
 1. Untuk menempah sumber dengan Keperluan Utama, pada papan Jadual, pilih tab **Projek**. Anda mungkin perlu menggunakan penapis lajur ke atas lajur **Projek** jika anda ada banyak projek.
 
-   ![Penapis lajur pada papan Jadual](media/FAQ-Project-Booking-Schedule-Board-2.png "Tangkap layar jadual tempahan dan tugasan")
+   ![Penapis lajur pada papan Jadual.](media/FAQ-Project-Booking-Schedule-Board-2.png "Tangkap layar jadual tempahan dan tugasan")
 
 2. Pilih keperluan yang hanya mempunyai nama projek sebagai namanya dan mempunyai tempoh sifar (0).
 

@@ -2,17 +2,17 @@
 title: Selesaikan masalah kerja dalam grid Tugas
 description: Topik ini menyediakan maklumat penyelesaian masalah yang diperlukan apabila menggunakan grid Tugas.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989112"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Selesaikan masalah kerja dalam grid Tugas 
 
@@ -24,7 +24,7 @@ Topik ini menerangkan cara menyelesaikan masalah yang anda mungkin alami ketika 
 
 Project Operations memerlukan kuki pihak ketiga tersebut didayakan bagi memaparkan struktur pecahan kerja. Apabila kuki pihak ketiga tidak didayakan, anda tidak melihat tugas, tetapi anda akan melihat halaman kosong apabila anda memilih tab **Tugas** pada halaman **Projek**.
 
-![Tab kosong apabila kuki pihak ketiga tidak didayakan](media/blankschedule.png)
+![Tab kosong apabila kuki pihak ketiga tidak didayakan.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Penyelesaian sementara
@@ -52,11 +52,22 @@ Untuk penyemak imbas Microsoft Edge atau Google Chrome, prosedur berikut menggar
 Project Operations memerlukan parameter projek merujuk Titik Tamat PEX. Titik tamat ini diperlukan untuk berkomunikasi dengan perkhidmatan yang digunakan untuk memaparkan struktur pecahan kerja. Jika parameter tidak didayakan, anda akan menerima ralat, "Parameter projek tidak sah". 
 
 ### <a name="workaround"></a>Penyelesaian sementara
- ![Medan Titik Tamat PEX pada parameter projek](media/projectparameter.png)
 
 1. Tambah medan **Titik Tamat PEX** pada halaman **Parameter Projek**.
-2. Kemas kini medan dengan nilai berikut: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Alih keluar medan daripada halaman **Parameter Projek**.
+2. Kenal pasti jenis produk yang anda gunakan. Nilai ini digunakan apabila Titik tamat PEX ditetapkan. Selepas pengambilan, jenis produk sudah ditentukan dalam Titik tamat PEX. Simpan nilai itu. 
+   
+    ![Medan Titik Tamat PEX pada parameter projek.](media/pex-endpoint.png)
+
+3. Kemas kini medan dengan nilai berikut: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Jenis produk                         | Parameter Jenis |
+   |--------------------------------------|----------------|
+   | Project for the Web pada org Lalai   | jenis=0         |
+   | Project for the Web pada org bernama CDS | jenis=1         |
+   | Project Operations                   | jenis=2         |
+   
+4. Alih keluar medan daripada halaman **Parameter Projek**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Kelayakan untuk Projek untuk Web
 
@@ -67,7 +78,7 @@ Project Operations bergantung pada perkhidmatan penjadualan luaran. Perkhidmatan
 
 1. Pergi ke **Tetapan > Keselamatan > Pengguna > Pengguna Aplikasi**.  
 
-   ![Pembaca aplikasi](media/applicationuser.jpg)
+   ![Pembaca aplikasi.](media/applicationuser.jpg)
    
 2. Klik dua kali rekod pengguna aplikasi untuk mengesahkan perkara berikut:
 
@@ -76,7 +87,7 @@ Project Operations bergantung pada perkhidmatan penjadualan luaran. Perkhidmatan
  
 3. Jika pengguna ini tidak wujud, anda boleh mencipta rekod pengguna baharu. Pilih **Pengguna Baharu**. Ubah borang entri kepada **Pengguna Aplikasi**, dan kemudian tambah **ID Aplikasi**.
 
-   ![Butiran pengguna aplikasi](media/applicationuserdetails.jpg)
+   ![Butiran pengguna aplikasi.](media/applicationuserdetails.jpg)
 
 4. Sahkan bahawa pengguna telah ditugaskan lesen yang betul dan perkhidmatan didayakan dalam rancangan perkhidmatan untuk butiran lesen.
 5. Sahkan bahawa pengguna boleh membuka project.microsoft.com.

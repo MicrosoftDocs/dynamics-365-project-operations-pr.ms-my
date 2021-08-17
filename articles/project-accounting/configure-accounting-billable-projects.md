@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991046"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurasi perakaunan untuk projek boleh dibil
 
@@ -101,23 +101,23 @@ Lengkapkan langkah berikut untuk mencipta profil kos dan hasil projek baharu.
 
 Masa dan bahan – tiada WIP
 
-![Profil kos dan hasil: Masa dan bahan - tiada WIP](media/time-material-no-wip.png)
+![Profil kos dan hasil: Masa dan bahan - tiada WIP.](media/time-material-no-wip.png)
 
 Masa dan bahan – WIP (hasil)
 
-![Profil kos dan hasil: Masa dan bahan - WIP](media/time-material-with-wip.png)
+![Profil kos dan hasil: Masa dan bahan - WIP.](media/time-material-with-wip.png)
 
 Harga Tetap – Tiada WIP
 
-![Profil kos dan hasil: Harga tetap - tiada WIP](media/fixed-price-no-wip.png)
+![Profil kos dan hasil: Harga tetap - tiada WIP.](media/fixed-price-no-wip.png)
 
 Harga tetap – kontrak yang telah selesai
 
-![Profil kos dan hasil: Harga tetap - kontrak yang telah selesai](media/fixed-price-completed-contract.png)
+![Profil kos dan hasil: Harga tetap - kontrak lengkap.](media/fixed-price-completed-contract.png)
 
 Harga Tetap – peratusan siap
 
-![Profil kos dan hasil: Harga tetap - peratusan siap](media/fixed-price-completed-percentage.png)
+![Profil kos dan hasil: Harga tetap - peratusan selesai.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Contoh peristiwa perakaunan untuk contoh Profil kos dan hasil projek.

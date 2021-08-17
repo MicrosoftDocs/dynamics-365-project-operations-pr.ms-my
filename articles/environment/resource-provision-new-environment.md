@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988572"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -52,12 +52,12 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
 
 6. Pilih jenis persekitaran untuk pelaksanaan anda. Percubaan berasaskan langganan membolehkan anda melaksanakan persekitaran CDS selama 30 hari. 
 
-![Tetapan Pelaksanaan](./media/1DeploymentSettings.png)
+![Tetapan Pelaksanaan.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Pilih **Setuju** untuk mengakui terma perkhidmatan dan kemudian pilih **Selesai** untuk kembali ke tetapan pelaksanaan.
 
-![Persetujuan Pelaksanaan](./media/2DeploymentConsent.png)
+![Persetujuan Pelaksanaan.](./media/2DeploymentConsent.png)
 
 7. Pilihan - Gunakan data demo pada persekitaran. Pergi ke **Tetapan lanjutan**, pilih **Sesuaikan Konfigurasi Pangkalan Data SQL**, dan tetapkan **Nyatakan set data untuk pangkalan data Aplikasi** kepada **Demo**.
 
@@ -67,7 +67,7 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
 
 9. Untuk mengesahkan bahawa persekitaran telah berjaya digunakan, pilih **Log masuk** dan log masuk pada persekitaran untuk mengesahkan.
 
-![Butiran Persekitaran](./media/3EnvironmentDetails.png)
+![Butiran Persekitaran.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Gunakan kemas kini kepada persekitaran kewangan
 
@@ -77,19 +77,19 @@ Anda mungkin perlu menggunakan kemas kini kualiti kepada persekitaran kewangan a
 
 1. Dalam LCS, pada halaman **Butiran persekitaran**, dalam bahagian **Kemas Kini Tersedia**, pilih **Lihat Kemas Kini**.
 
-![Lihat Kemas Kini](./media/5ViewUpdates.png)
+![Lihat Kemas Kini.](./media/5ViewUpdates.png)
 
 2. Pada halaman **Kemas kini binari**, pilih **Simpan pakej.**
 
-![Simpan pakej](./media/6SavePackage.png)
+![Simpan pakej.](./media/6SavePackage.png)
 
 3. Klik **Pilih semua** dan kemudian **Simpan pakej**.
 
-![Semak dan simpan kemas kini](./media/7ReviewAndSaveUpdates.png)
+![Semak dan simpan kemas kini.](./media/7ReviewAndSaveUpdates.png)
 
 4. Masukkan nama dan perihalan pakej, dan kemudian pilih **Simpan**. Proses ini mungkin mengambil sedikit masa bergantung pada sambungan internet.
 
-![Muat naik pakej ke Perpustakaan Aset](./media/8UploadPackageToAssetsLibrary.png)
+![Muat naik pakej ke Perpustakaan Aset.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Selepas pakej disimpan, pilih **Selesai** dan simpan pakej ini ke Perpustakaan Aset dalam projek LCS anda.
 
@@ -97,15 +97,15 @@ Menyimpan dan mengesahkan pakej mungkin mengambil masa ~ 15 minit.
 
 6. Untuk menggunakan kemas kini, navigasi ke halaman **Butiran persekitaran** dalam LCS dan pilih **Kekalkan** > **Gunakan kemas kini**.
 
-![Kekalkan Persekitaran](./media/9MaintainEnvironment.png)
+![Kekalkan Persekitaran.](./media/9MaintainEnvironment.png)
 
 7. Dalam senarai kemas kini pilih pakej yang anda cipta dan pilih **Gunakan**.
 
-![Gunakan Kemas Kini](./media/10ApplyUpdates.png)
+![Gunakan Kemas Kini.](./media/10ApplyUpdates.png)
 
 Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekitaran akan kembali ke keadaan yang dilaksanakan.
 
-![Laksanakan Persekitaran](./media/11EnvironmentDeployed.png)
+![Persekitaran Dilaksanakan.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Wujudkan sambungan Dual Write 
 
@@ -113,41 +113,41 @@ Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekit
 2. Di bawah Maklumat Persekitaran **Common Data Service**, pilih **Pautan ke CDS untuk Aplikasi**.
 3. Selepas pautan selesai, pilih **Pautkan ke CDS untuk Aplikasi** semula. Anda akan dihalakan semula ke Dual Write dalam kewangan.
 
-![Pautkan ke CDS](./media/12LinktoCDS.png)
+![Pautan ke CDS.](./media/12LinktoCDS.png)
 
 4. Pilih **Gunakan Penyelesaian** untuk mengakses entiti yang akan dipetakan dalam integrasi.
 
-![Gunakan Penyelesaian](./media/13ApplySolutions.png)
+![Gunakan Penyelesaian.](./media/13ApplySolutions.png)
 
 5. Pilih kedua-dua penyelesaian, **Peta Entiti Dwi Tulis Dynamics 365 Finance and Operations** dan **Peta Entiti Dwi Tulis Dynamics 365 Project Operations**, dan kemudian pilih **Gunakan**.
 
-![Sahkan Penyelesaian](./media/14ConfirmSolutions.png)
+![Sahkan Penyelesaian.](./media/14ConfirmSolutions.png)
 
 Selepas penyelesaian digunakan, entiti Dual Write digunakan untuk persekitaran.
 
-![Gunakan Penyelesaian](./media/15ApplyingSolutions.png)
+![Menggunakan Penyelesaian.](./media/15ApplyingSolutions.png)
 
 Selepas entiti digunakan, semua pemetaan yang sedia ada disenaraikan dalam persekitaran.
 
-![Peta Dual Write](./media/15DWMappings.png)
+![Peta Dwitulis.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Segar semula entiti data selepas kemas kini
 
 1. Dalam Kewangan, pergi ke ruang kerja **Pengurusan data**.
 
-![Ruang kerja Pengurusan Data](./media/16DataManagement.png)
+![Ruang kerja Pengurusan Data.](./media/16DataManagement.png)
 
 2. Pilih jubin **Parameter rangka kerja**.
 
-![Parameter Rangka Kerja](./media/17FrameworkParameters.png)
+![Parameter Rangka Kerja.](./media/17FrameworkParameters.png)
 
 3. Pada halaman **Tetapan entiti**, pilih senarai **Entiti Segar Semula**.
 
-![Senarai Entiti Segar Semula](./media/18RefreshEntityList.png)
+![Senarai Entiti Segar Semula.](./media/18RefreshEntityList.png)
 
 Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat apabila ia selesai.
 
-![Pengesahan Segar Semula](./media/19RefreshConfirmation.png)
+![Pengesahan Segar Semula.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Kemas kini tetapan keselamatan pada Project Operations pada Dataverse
 
@@ -188,17 +188,17 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
 4. Untuk menyegarkan semula entiti, pilih nama peta dan kemudian pilih **Segar semula entiti**. 
 
 
-![Segar Semula Peta](./media/20RefreshMapping.png)
+![Segar Semula Peta.](./media/20RefreshMapping.png)
 
 5. Selepas segar semula selesai, jalankan peta. Sebelum anda mendayakan peta seterusnya, sahkan bahawa peta dalam jadual dalam keadaan **Berjalan**. Jalankan peta dengan bilangan prasyarat yang lebih besar mungkin mengambil sedikit masa.
 
 Untuk menjalankan peta dengan prasyarat, dayakan togol **Tunjukkan peta entiti berkaitan**. Jika jadual menunjukkan **Penyegerakkan awal pra-syarat** **Tidak**, sahkan bahawa bendera **Penyegerakkan awal** **Dipadamkan** dalam semua peta pra-syarat sebelum anda menjalankannya.
 
-![Jalankan Peta](./media/21RunMap.png)
+![Jalankan Peta.](./media/21RunMap.png)
 
 6. Mengesahkan semua peta berkaitan projek adalah dalam keadaan berjalan.
 
-![Semua Peta Berjalan](./media/22AllMapsRunning.png)
+![Semua Peta Berjalan.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Gunakan data konfigurasi dalam CDS untuk Project Operations (pilihan)

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009222"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000182"
 ---
 # <a name="product-catalog-pricing"></a>Tetapan harga katalog produk 
 
@@ -44,7 +44,7 @@ Anda boleh menambah produk daripada katalog produk kepada senarai harga yang ber
 
 PSA menyokong pelbagai pilihan pembundaran apabila harga dikonfigurasikan sebagai fungsi harga senarai, kos standard atau kos semasa. Selain mengambil kesempatan daripada pelbagai kaedah penetapan harga dan pilihan pembundaran, anda boleh mengaitkan senarai diskaun dengan item senarai harga. 
 
-> ![Menambah produk dari katalog kepada senarai harga yang berbeza](media/basic-guide-16.png)
+> ![Menambah produk dari katalog kepada senarai harga yang berbeza.](media/basic-guide-16.png)
 
 Apabila anda mencipta senarai harga tersuai baharu untuk sebut harga dengan memilih **Cipta Penetapan Harga Tersuai** pada halaman **Sebut Harga Projek**, PSA membuat salinan senarai harga dan medan **Entiti** pada pengepala senarai harga baharu ditetapkan kepada **Entiti Jualan**. Nama senarai harga baharu akan ditambah dengan nama sebut harga dan cap masa. Anda juga boleh menggunakan nama senarai harga baharu dan nama sebut harga dalam aliran kerja tersuai untuk mencetuskan semakan tambahan dan kelulusan untuk sebut harga yang menggunakan penetapan harga tersuai.
 

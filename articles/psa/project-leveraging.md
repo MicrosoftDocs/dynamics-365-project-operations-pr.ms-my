@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998422"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995187"
 ---
 # <a name="sales-estimates-and-projects"></a>Anggaran projek dan jualan
 
@@ -35,11 +35,11 @@ Semasa proses jualan, anda boleh mencipta anggaran jualan dengan memautkan proje
 
 Apabila anda mencipta baris sebut harga berdasarkan projek, anda boleh mencipta projek baharu atau mengaitkan projek sedia ada pada halaman **Baris Sebut Harga**. 
 
-> ![Borang Baris Sebut Harga](media/project-8.png)
+> ![Borang Baris Sebut Harga.](media/project-8.png)
  
 Apabila anda mencipta projek baharu daripada butiran baris sebut harga, anda boleh mengambil kesempatan daripada templat projek. Templat projek ialah projek model yang mewakili rancangan projek standard dan anggaran kewangan yang biasa dalam sesebuah organisasi. Ia juga boleh mewakili salinan rancangan projek dan anggaran dari projek yang lepas.
 
-> ![Butiran baris sebut harga](media/project-9.png)
+> ![Butiran baris sebut harga.](media/project-9.png)
   
 Apabila anda mencipta projek daripada sebut harga, projek secara automatik dikaitkan dengan baris sebut harga tersebut.
 

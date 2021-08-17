@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997837"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998517"
 ---
 # <a name="manage-resources"></a>Urus sumber
 
@@ -58,34 +58,34 @@ Ikuti langkah-langkah ini untuk menyatakan kemahiran yang diperlukan pada sumber
 
 1. Pada halaman **Projek**, pada tab **Pasukan**, pilih **Baharu** untuk menempah sumber generik.
 
-    ![Sumber generik ditempah pada pasukan](media/Resource-Management-image9.png)
+    ![Sumber generik ditempah pada pasukan.](media/Resource-Management-image9.png)
 
 2. Dalam pandangan **Semua Ahli Pasukan**, dalam lajur **Keperluan Sumber**, pilih pautan untuk menambah kemahiran diperlukan untuk sumber generik.
 
-    ![Pautan keperluan](media/Resource-Management-image10.png)
+    ![Pautan keperluan.](media/Resource-Management-image10.png)
 
 3. Pada halaman **Keperluan Sumber** yang muncul, dalam grid **Kemahiran**, pilih elipsis (**...**) kemudian pilih **Tambah Sifat Keperluan Baharu** untuk menambah kemahiran yang diperlukan untuk pembangun anda.
 
-    ![Tambah perintah Sifat Keperluan Baharu](media/Resource-Management-image11.png)
+    ![Tambah perintah Sifat Keperluan Baharu.](media/Resource-Management-image11.png)
 
 4. Dalam kotak dialog **Cipta Pantas: Sifat Keperluan** yang muncul, dalam medan **Sifat**, pilih kemahiran diperlukan. Kemudian dalam medan **Nilai Penarafan**, pilih tahap kecekapan untuk kemahiran tersebut. Akhir sekali, dalam medan **Keperluan Sumber**, tetapkan keperluan untuk sumber sumber daripada unit organiasi atau bahkan sumber bernama. Apabila anda telah selesai, pilih **Simpan**.
 
-    ![Cari Cepat: kotak dialog Sifat Keperluan](media/Resource-Management-image12.png)
+    ![Kotak dialog Cipta Pantas: Sifat Keperluan.](media/Resource-Management-image12.png)
 
 5. Pada halaman **Keperluan Sumber**, pilih **Tempah** untuk memenuhi keperluan sumber.
 
-    ![Butang tempah pada halaman Keperluan Sumber](media/Resource-Management-image13.png)
+    ![Butang tempah pada halaman Keperluan Sumber.](media/Resource-Management-image13.png)
 
     Anda juga boleh memilih sumber generik dalam grid **Semua Ahli Pasukan** dan kemudian pilih **Tempah**.
 
-    ![Butang tempah di atas grid Semua Ahli Pasukan](media/Resource-Management-image14.png)
+    ![Butang tempah di atas grid Semua Ahli Pasukan.](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > Dalam contoh ini, terdapat 40 jam diperlukan tetapi tiada jam ditempah aktual, kerana sumber generik tidak mempunyai tempahan. Selain itu, tiada jam ditugaskan, kerana sumber generik ditambah terus kepada pasukan. Ia tidak ditambah menggunakan tugasan tugas.
 
     Pada halaman **Menjadualkan Pembantu**, anda boleh menapis sumber tersedia melalui keperluan yang dinyatakan dalam keperluan sumber. Sumber diisih mengikut parameter pengisihan yang dinyatakan dalam papan Jadual.
 
-    ![Halaman Menjadualkan Pembantu](media/Resource-Management-image15.png)
+    ![Halaman Menjadualkan Pembantu.](media/Resource-Management-image15.png)
 
     Berikut adalah beberapa penapis yang sering digunakan:
 
@@ -95,23 +95,23 @@ Ikuti langkah-langkah ini untuk menyatakan kemahiran yang diperlukan pada sumber
 
 6. Jika anda tidak berpuas hati dengan kepurusan carian keperluan awal, anda boleh mengubah kriteria penapis. Kembangkan anak tetingkap **Pandangan Penapis** di sebelah kiri, kemudian pilih **Cari** untuk mencari sumber tambahan.
 
-    ![Anak tetingkap Pandangan Penapis](media/Resource-Management-image16.png)
+    ![Anak tetingkap Pandangan Penapis.](media/Resource-Management-image16.png)
 
 7. Untuk mengubah cara hasil diisih, pilih **Isih**.
 
-    ![Isih perintah](media/Resource-Management-image17.png)
+    ![Isih perintah.](media/Resource-Management-image17.png)
 
 8. Pilih sumber mengikut permintaan yang dinyatakan dalam keperluan, seperti dinyakan di bahagian atas grid. Anda boleh mengosongkan pilihan sel dalam grid dan membiarkan kapasiti sumber terbuka. Hanya satu sumber pada satu masa boleh dipilih sebagai ditempah.
 
 9. Pilih **Tempah** untuk menempah sumber dipilih dan biarkan Papan Jadual dibuka, agar anda boleh memilih sumber tambahan. Secara alternatif, pilih **Tempah & Keluar** untuk menampah sumber dipilih dan tutup Papan Jadual.
 
-    ![Sumber untuk ditempah](media/Resource-Management-image19.png)
+    ![Sumber untuk ditempah.](media/Resource-Management-image19.png)
 
     Anda terima pemberitahuan tentang jam ditempah. Penunjuk permintaan menunjukkan bilangan keperluan tempahan dipenuhi dan bilangan yang dikekalkan. Anda juga boleh melihat berapa banyak kapasiti sumber dipilih telah digunakan. Pilih **Kembangkan** untuk melihat lebih lanjut tentang tempahan sumber.
 
 9. Kembali ke pandangan **Semua Ahli Pasukan**. Dalam grid, sila maklum bahawa sumber generik telah digantikan oleh sumber bernama dan 40 jam disenaraikan sebagai ditempah untuk sumber tersebut.
 
-    ![Gris Semua Ahli Pasukan yang Dikemas Kini](media/Resource-Management-image20.png)
+    ![Gris Semua Ahli Pasukan yang Dikemas Kini.](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > Tiada jam ditugaskan ditunjukkan kerana ia telah ditempah secara terus pada pasukan. Ia tidak ditempah menggunakan tugasan tugas.
@@ -122,72 +122,72 @@ Dalam PSA, anda boleh mencipta tugas, kemudian tugaskan sumber generik kepada me
 
 1. Pada halaman **Projek**, pada tab **Jadual**, pilih **Tambah** untuk mencipta tugas.
 
-    ![Tugas baharu dicipta](media/Resource-Management-image21.png)
+    ![Tugas baharu dicipta.](media/Resource-Management-image21.png)
 
 2. Dalam medan **Sumber**, pilih simbol **Pemilih Sumber**. Pemilih Sumber muncul dan menunjukkan ahli pasukan sedia ada untuk projek.
 
-    ![Pemilih Sumber](media/Resource-Management-image22.png)
+    ![Pemilih Sumber.](media/Resource-Management-image22.png)
 
 3. Masukkan nama sumber generik baharu dan pilih **Cipta**.
 
-    ![Nama sumber generik baharu dimasukkan](media/Resource-Management-image23.png)
+    ![Nama sumber generik baharu dimasukkan.](media/Resource-Management-image23.png)
 
 4. Dalam kotak dialog **Cipta Pantas: Ahli Pasukan Projek** yang muncul, dalam medan **Peranan**, pilih peranan untuk sumber generik. Dalam medan **Unit Penyumberan**, pilih unit organisasi untuk sumber generik. Kemudian pilih **Simpan**.
 
-    ![Kotak dialog Cipta Pantas: Ahli Pasukan Projek](media/Resource-Management-image24.png)
+    ![Cipta Pantas: Kotak dialog Ahli Pasukan Projek.](media/Resource-Management-image24.png)
 
     Ahli pasukan generik kini ditugaskan kepada tugas.
 
-    ![Ahli pasukan generik ditugaskan kepada tugas](media/Resource-Management-image25.png)
+    ![Ahli pasukan generik ditugaskan kepada tugas.](media/Resource-Management-image25.png)
 
     Pada tab **Pasukan**, anda akan melihat ahli pasukan generik baharu. Sila maklum bahawa ia hanya mempunyai jam ditugaskan. Jam ini adalah jumlah semua tugas yang ditugaskan kepada ahli pasukan generik. Ahli pasukan generik belum lagi mempunyai jam diperlukan atau keperluan sumber.
 
-    ![Ahli pasukan generik pada tab Pasukan](media/Resource-Management-image26.png)
+    ![Ahli pasukan generik pada tab Pasukan.](media/Resource-Management-image26.png)
 
 5. Anda kini boleh menugaskan ahli pasukan generik kepada tugas lain dengan menggunakan Pemilih Sumber.
 
-    ![Ahli pasukan generik dalam Pemilih Sumber](media/Resource-Management-image27.png)
+    ![Ahli pasukan generik dalam Pemilih Sumber.](media/Resource-Management-image27.png)
 
     Apabila anda selesai menugaskan sumber generik kepada tugas, anda boleh menjana keperluan sumber untuk sumber generik.
 
 5. Pada tab **Pasukan**, pilih sumber generik dan kemudian pilih **Jana Keperluan**.
 
-    ![Jana perintah Keperluan](media/Resource-Management-image28.png)
+    ![Jana perintah Keperluan.](media/Resource-Management-image28.png)
 
     Apabila keperluan dijana, ahli pasukan generik akan mempunyai jam diperlukan dan pautan untuk keperluan sumber.
 
-    ![Pautan keperluan sumber](media/Resource-Management-image29.png)
+    ![Pautan keperluan sumber.](media/Resource-Management-image29.png)
 
     Selepas anda menempah sumber bernama, sumber generik dialih keluardaripada pasukan dan digantikan oleh sumber bernama.
 
-    ![Sumber generik digantikan oleh sumber bernama](media/Resource-Management-image30.png)
+    ![Sumber generik digantikan oleh sumber bernama.](media/Resource-Management-image30.png)
 
     Pada tab **Jadual**, tugasan sumber generik dialih keluar dan digantikan dengan sumber bernama.
 
-    ![Tugasan sumber generik digantikan dengan sumber bernama pada tab Jadual](media/Resource-Management-image31.png)
+    ![Tugasan sumber generik digantikan dengan sumber bernama pada tab Jadual.](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > Tingkah laku ini berlaku hanya apabila sumber bernama ditempah penuh untuk keperluan sumber generik. Apabila sama ada sumber bernama menggantikan separuh keperluan sumber generik atau berbilang sumber bernama menggantikan keperluan sumber generik, sumber generik kekal ditugaskan kepada tugas.
 
     Dalam ilustrasi berikut, 80 jam tugas telah dirancang selama tempoh limat hari (16 jam setiap hari selama lima hari) dan ditugaskan kepada sumber generi bernama **Fungsi**.
 
-    ![Tugas 80 jam, lima hari ditugaskan kepada sumber generi Fungsi](media/Resource-Management-image32.png)
+    ![Tugas 80 jam, lima hari ditugaskan kepada sumber generik Fungsi.](media/Resource-Management-image32.png)
 
     Apabila anda menjana keperluan, ia untuk 80 jam selama lima hari.
 
-    ![Keperluan dijana untuk 80 jam selama lima hari](media/Resource-Management-image33.png)
+    ![Keperluan dijana untuk 80 jam selama lima hari.](media/Resource-Management-image33.png)
 
     Disebabkan sumber tersedia hanya bekerja lapan jam setiap hari, dua sumber diperlukan untuk memenuhi keperluan ini.
 
-    ![Sumber kedua](media/Resource-Management-image35.png)
+    ![Sumber kedua.](media/Resource-Management-image35.png)
 
     Pada tab **Pasukan**, anda kini boleh melihat sumber generik tiada jam diperlukan, tetapi jam ditugaskan masih muncul bersama dengan dua sumber bernama yang mengisi keperluan.
 
-    ![Dua sumber bernama pada tab Pasukan](media/Resource-Management-image36.png)
+    ![Dua sumber bernama pada tab Pasukan.](media/Resource-Management-image36.png)
 
     Pada tab **Jadual**, sumber generik kekal ditugaskan kepada tugas.
 
-    ![Sumber generik pada tab Jadual](media/Resource-Management-image37.png)
+    ![Sumber generik pada tab Jadual.](media/Resource-Management-image37.png)
 
 PSA tidak menyokong kedua-dua sumber kepada tugas, kerana tingkah laku tersebut akan kurang menghasilkan jadual boleh diramalkan. Dalam contoh mudah ini, mudah untuk membahagian jam sama rata antara dua sumber. Nmaun, dalam senario lebih rumit yang melibatkan berbilang tugas dan berbilang sumber, PSA perlu membuat anggapan tentang cara ia perlu memperuntukkan tempahan yang diterima untuk berbilang sumber pada semua berbilang tugas.
 
@@ -219,13 +219,13 @@ Selepas anda menambah sumber generik atau bernama kepada pasukan projek, anda bo
 
 1. Pada halaman **Projek**, pada tab **Pasukan**, pilih ahli pasukan kemudian pilih **Kekalkan Tempahan**.
 
-    ![Papan Jadual dibuka untuk ahli pasukan terpilih](media/Resource-Management-image40.png)
+    ![Papan Jadual dibuka untuk ahli pasukan terpilih.](media/Resource-Management-image40.png)
 
     Papan Jadual muncul dan menunjukkan tempahan ahli pasukan projek. Kembangkan rekod ahli pasukan untuk melihat jam yang telah ditempah terhadap projek ini dan projek lain yang menggunakan kapasiti ahli pasukan.
 
 2. Pilih dan seret tempahan untuk melanjutkan atau memendekkannya. Kotak dialog **Cipta Tempaham Sumber** muncul yang membolehkan anda melaraskan tempahan.
 
-    ![Kotak dialog Cipta Tempahan Sumber](media/Resource-Management-image41.png)
+    ![Kotak dialog Cipta Tempahan Sumber.](media/Resource-Management-image41.png)
 
 3. Klik kanan tempahan. Anda kemudian boleh menggunakan menu pintasan untuk melengkapkan tindakan berikut:
 
@@ -237,7 +237,7 @@ Selepas anda menambah sumber generik atau bernama kepada pasukan projek, anda bo
 
 Anda boleh mengubah status tempahan lalai atau tersuai.
 
-![Ubah Perintah Status](media/Resource-Management-image42.png)
+![Perintah Ubah Status.](media/Resource-Management-image42.png)
 
 Status berikut dimasukkan dalam PSA:
 
@@ -257,25 +257,25 @@ Permintaan sumber digunakan untuk menjalankan permintaan (keperluan sumber) yang
 
 Apabila keperluan sumber dijana, pengurus projek boleh menyerahkan permintaan sumber untuk sumber generik dengan memilih sumber dan kemudian memilih **Serah Permintaan**.
 
-![Butang Serah Permintaan](media/Resource-Management-image45.png)
+![Butang Serah Permintaan.](media/Resource-Management-image45.png)
 
 Komen tentang sumber boleh diberikan kepada pengurus sumber yang mengisi permintaan tersebut. Selepas permintaan diserahkan, medan **Status** untuk ahli pasukan diubah kepada **Diserahkan**.
 
-![Memasukkan komen pilihan](media/Resource-Management-image46.png)
+![Memasukkan komen pilihan.](media/Resource-Management-image46.png)
 
 Apabila pengurus sumber mengisi keperluan, ahli pasukan generik digantikan dengan sumber bernama dalam grid **Semua Ahli Pasukan**.
 
-![Ahli pasukan generik digantikan dengan sumber bernama dalam grid Semua Ahli Pasukan](media/Resource-Management-image47.png)
+![Ahli pasukan generik digantikan dengan sumber bernama dalam grid Semua Ahli Pasukan.](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Gunakan cadangan sumber untuk permintaan sumber
 
 Daripada menempah terus sumber dalam permintaan sumber, pengurus sumber boleh mencadangkan sumber kepada pengurus projek. Pengurus projek mungkin menggunakan pilihan ini apabila padanan betul untuk keperluan tidak tersedia. Apabila pengurus sumber mencadangkan sumber, pengurus projek melihat bahawa medan **Status** untuk ahli pasukan generik diubah kepada **Memerlukan Semakan**.
 
-![Status ahli pasukan generik diubah kepada Memerlukan Ulasan](media/Resource-Management-image48.png)
+![Status ahli pasukan generik diubah kepada Memerlukan Semakan.](media/Resource-Management-image48.png)
 
 Untuk melihat cadangan sumber berserta dengan visualisasi kesan tempahan cadangan, klik dua kali ahli pasukan yang mempunyai status **Memerlukan Semakan**. Kemudian pilih tab **Sumber Dicadangkan**.
 
-![Tab Sumber Dicadangkan](media/Resource-Management-image49.png)
+![Tab Sumber Dicadangkan.](media/Resource-Management-image49.png)
 
 Pilih **Terima Semua Cadangan** untuk menerima semua sumber dicadangkan atau **Tolak Semua Cadangan** untuk menolaknya. Jika anda menerima sumber dicadangkan, ia ditempah keras dalam projek sebagai ahli pasukan dan menggantikan sumber generik.
 
@@ -289,30 +289,30 @@ Kadangkala, pengurus projek mestilah menggantikan ahli pasukan ditempah dalam pr
 1. Pada halaman **Projek**, pada tab **Pasukan**, pilih sumber yang perlu diganti, kemudian pilih **Kekalkan Tempahan**.
 2. Kembangkan sumber untuk melihat projek yang ditugaskan.
 
-    ![Sumber dikembangkan untuk menunjukkan projek yang ditugaskan](media/Resource-Management-image50.png)
+    ![Sumber dikembangkan untuk menunjukkan projek yang ditugaskan.](media/Resource-Management-image50.png)
 
 3. Klik kanan projek, kemudian pilih **Gantikan Sumber**.
 4. Jika anda tahu sumber yang anda mahu gantikan untuk sumber semasa, pilih atau taip nama, kemudian pilih **Tugaskan semula**.
 
-    ![Menentukan sumber gantian](media/Resource-Management-image51.png)
+    ![Menentukan sumber gantian.](media/Resource-Management-image51.png)
 
     Secara alternatif, ikuti langkah-langkah ini untuk mencari sumber:
 
     1. Pilih **Cari Penggantian**.
 
-        ![Mencari sumber gantian](media/Resource-Management-image52.png)
+        ![Mencari sumber gantian.](media/Resource-Management-image52.png)
 
         Pembantu Jadual mengembalikan senarai gantian tersedia. Dalam Pembantu Jadual, anda boleh menapis sumber tersedia untuk mencari gantian sesuai.
 
-        ![Senarai gantian tersedia](media/Resource-Management-image53.png)
+        ![Senarai gantian tersedia.](media/Resource-Management-image53.png)
 
     2. Untuk menggantikan sumber, pilih sumber yang anda mahu, dan pilih **Gantikan**.
 
-        ![Sumber gantian dipilih](media/Resource-Management-image54.png)
+        ![Sumber gantian dipilih.](media/Resource-Management-image54.png)
 
     Tempahan dan tugasan digantikan dengan sumber baharu.
 
-    ![Tempahan dan tugasan digantikan dengan sumber baharu](media/Resource-Management-image55.png)
+    ![Tempahan dan tugasan digantikan dengan sumber baharu.](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Sesuaikan tempahan dan tugasan ahli pasukan
 
@@ -320,7 +320,7 @@ Untuk ahli pasukan, tempahan dan tugasan tidak begitu digandingkan. Dengan kata 
 
 PSA mempunyai tab **Pelarasan** yang membolehkan pengurus projek menyesuaikan tempahan dan tugasan ahli pasukan mereka untuk pasukan projek.
 
-![Tab Penyelarasan](media/Resource-Management-image56.png)
+![Tab Penyelarasan.](media/Resource-Management-image56.png)
 
 Tab **Penyelarasan** menunjukkan tempahan dan tugasan sehingga ke tahap tugasan tugas individu untuk setiap ahli pasukan. Ia menunjukkan jam dalam sel yang mewakili tempoh masa dari bulan sehingga hari.
 
@@ -335,11 +335,11 @@ Dalam situasi tertentu, apabila anda melihat masa pada tahap lebih tingi daripad
 
 Apabila anda melihat masa pada tahap lebih tinggi, sel dalam tab **Penyelarasan** mempunyai penunjuk untuk memaklumkan anda terdapat perbezaan pada tahap lebih rendah. Dengan mengklik dua kali dalam sel, anda boleh zum dekat untuk melihat perbezaan. Anda kemudian boleh klik kanan untuk zum jauh. Dengan memilih sumber dan menggunakan kawalan **Perbezaan seterusnya** pada bar alat grid, anda boleh pergi ke perbezaan seterusnya antara tempahan dan tugasan untuk sumber tersebut. Anda kemudian boleh menggunakan kawalan **Perbezaan sebelumnya** untuk kembali. Anda juga boleh mematikan penunjuk perbezaan dan tingkah laku navigasi di bawah **Tetapan**.
 
-![Penunjuk perbezaan](media/Resource-Management-image57.png)
+![Penunjuk perbezaan.](media/Resource-Management-image57.png)
 
 Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pada halaman **Projek**, pada tab **Penyelarasan**, pilih kekurangan tempahan dan kemudian pilih **Lanjutkan Tempahan**. Kotak dialog **Lanjutkan Tempahan** muncul dan menunjukkan tempahan yang diperlukan untuk menyelesaikan kekurangan sumber. Ia juga menunjukkan tempahan sedia ada sumber dalam semua projek atau entiti boleh dijadual lain. Jika anda pilih **OK** untuk mencipta tempahan untuk sumber, tanpa mengira ketersediaan sumber tersebut, anda mungkin menyebabkan tempahan berlebihan.
 
-![Kotak dialog Lanjutkan Tempahan](media/Resource-Management-image58.png)
+![Kotak dialog Lanjutkan Tempahan.](media/Resource-Management-image58.png)
 
 Pengurus projek atau pengurus sumber kemudian boleh menggunakan Papan Jadual untuk mengurus sebarang situasi di mana sumber ditempah berlebihan di luar kapasitinya.
 

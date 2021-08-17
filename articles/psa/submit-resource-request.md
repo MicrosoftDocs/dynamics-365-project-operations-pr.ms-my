@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013182"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985017"
 ---
 # <a name="submitting-a-resource-request"></a>Menyerahkan permintaan sumber
 
@@ -34,7 +34,7 @@ Anda boleh menyerahkan keperluan sumber yang dijana sebagai permintaan sumber. P
 1. Dalam Project Service Automation (PSA) pada halaman **Projek**, klik tab **Pasukan** untuk melihat senarai sumber boleh ditempah. 
 2. Pilih sumber generik yang mempunyai keperluan sumber daripada senarai dan kemudian klik **Serahkan Permintaan.**
 
-![Menyerahkan permintaan sumber](media/RM-how-to-18.png)
+![Menyerahkan permintaan sumber.](media/RM-how-to-18.png)
 
 Status permintaan ahli pasukan generik akan bertukar kepada **Diserahkan.**
 

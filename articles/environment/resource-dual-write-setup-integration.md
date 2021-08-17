@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001077"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986547"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Persediaan Project Operations dan integrasi data konfigurasi
 
@@ -24,7 +24,7 @@ Topik ini menyediakan maklumat tentang integrasi dwi tulis Project Operations un
 
 Kontrak projek, baris kontrak dan projek dicipta dalam Dataverse dan disegerakkan ke aplikasi Finance and Operations untuk perakaunan tambahan. Rekod dalam entiti ini boleh dicipta dan dipadam hanya dalam Dataverse. Walau bagaimanapun, atribut perakaunan seperti kumpulan cukai jualan lalai dan dimensi kewangan boleh ditambah ke rekod ini dalam aplikasi Finance and Operations.
 
-  ![Konsep integrasi kontrak projek](./media/1ProjectContract.jpg)
+  ![Konsep integrasi kontrak projek.](./media/1ProjectContract.jpg)
 
 Aktiviti jualan bakal pelanggan dan sebut harga dijejak dalam Dataverse dan tidak disegerakkan ke aplikasi Finance and Operations kerana tiada perakaunan hiliran yang berkaitan dengan aktiviti ini.
 
@@ -51,7 +51,7 @@ Baris kontrak projek boleh disemak semula dengan akauntan projek dalam aplikasi 
 
 Baris kontrak projek yang menggunakan kaedah pengebilan harga tetap diinvois melalui pencapaian pengebilan. Pencapaian pengebilan disegerakkan ke transaksi projek pada akaun dalam aplikasi Finance and Operations dengan menggunakan peta jadual **Pencapaian baris kontrak integrasi Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integrasi pencapaian pengebilan](./media/2Milestones.jpg)
+  ![Integrasi pencapaian pengebilan.](./media/2Milestones.jpg)
 
 Akauntan boleh menyemak semula transaksi pada akaun dan melaraskan atribut perakaunan untuk transaksi itu dengan pergi ke **Pengurusan dan perakaunan projek** > **Kontrak projek** > **Kekalkan** > **Transaksi pada akaun** atau **Pengurusan dan perakaunan projek** > **Semua projek** > **Kekalkan** > **Transaksi pada akaun**.
 
@@ -61,13 +61,13 @@ Apabila pertama kali anda mencipta pencapaian pengebilan untuk baris kontrak pro
 
 Tugas projek disegerakkan ke aplikasi Finance and Operations melalui peta jadual **Tugas projek (msdyn\_projecttasks)** untuk tujuan rujukan sahaja. Mencipta, mengemas kini dan memadam operasi tidak disokong melalui aplikasi Finance and Operations.
 
-  ![Integrasi tugas projek](./media/3Tasks.jpg)
+  ![Integrasi tugas projek.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Sumber projek
 
 Entiti **Peranan sumber projek** disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual **Peranan sumber projek untuk semua syarikat (bookableresourcecategories)** untuk tujuan rujukan sahaja. Oleh kerana peranan sumber dalam Dataverse bukan khusus syarikat, sistem secara automatik mencipta rekod peranan sumber khusus syarikat yang berkaitan dalam aplikasi Finance and Operations secara automatik untuk entiti sah termasuk dalam skop integrasi dwi tulis.
 
-![Integrasi peranan sumber](./media/5Resources.jpg)
+![Integrasi peranan sumber.](./media/5Resources.jpg)
 
 Sumber projek dalam Project Operations dikekalkan dalam Dataverse dan tidak disegerakkan ke aplikasi Finance and Operations.
 
@@ -75,6 +75,6 @@ Sumber projek dalam Project Operations dikekalkan dalam Dataverse dan tidak dise
 
 Kategori transaksi dikekalkan dalam Dataverse dan disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual **Kategori transaksi projek (msdyn\_transactioncategories)**. Selepas rekod kategori transaksi disegerakkan, sistem secara automatik mencipta empat rekod kategori dikongsi. Setiap rekod yang berkaitan dengan jenis transaksi dalam aplikasi Finance and Operations dan pautkannya ke rekod kategori transaksi.
 
-![Integrasi kategori transaksi](./media/4TransactionCategories.jpg)
+![Integrasi kategori transaksi.](./media/4TransactionCategories.jpg)
 
 Menggunakan kategori transaksi untuk anggaran dan aktual memerlukan akauntan projek atau pentadbir sistem untuk mencipta kategori projek yang berkaitan dalam setiap entiti sah. Untuk maklumat lanjut, lihat [Konfigurasikan kategori projek](../project-accounting/configure-project-categories.md).

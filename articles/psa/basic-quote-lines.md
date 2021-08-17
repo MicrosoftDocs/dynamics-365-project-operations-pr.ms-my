@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014936"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995457"
 ---
 # <a name="quotes-and-quote-lines"></a>Sebut harga dan baris sebut harga
 
@@ -84,7 +84,7 @@ Organisasi perkhidmatan profesional biasanya sebut harga dan invois pelanggan me
 
 Satu atae lebih pengeleasan transaksi boleh dikaitkan dengan setiap baris sebut harga. Selepas sebut harga dimenangi, pemetaan antara klasifikasi transaksi dan baris sebut harga dipindahkan ke baris kontrak.
  
-> ![Tangkapan skrin jenis transaksi pemetaan kepada sebut harga dan baris kontrak](media/basic-guide-5.png)
+> ![Tangkapan skrin jenis transaksi pemetaan kepada sebut harga dan baris kontrak.](media/basic-guide-5.png)
   
 Sebagai contoh, sebut harga mungkin mengandungi dua baris sebut harga berikut: 
 - Kerja perundingan yang menggunakan kaedah pengebilan masa dan bahan di mana pengelasan transaksi masa dan yuran dikenakan. Contohnya, semua transaksi masa dan yuran untuk projek contoh **Pelaksanaan Dynamics AX** ialah invois kepada pelanggan berdasarkan masa dan bahan yang digunakan. 

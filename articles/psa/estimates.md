@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007602"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992397"
 ---
 # <a name="estimates"></a>Anggaran
 
@@ -83,24 +83,24 @@ Jika anda menambah medan tersuai pada butiran baris sebut harga dan mahu sistem 
 1. Buka Alat Pendaftaran Pasang Masuk, dan sambungkan ke tika dalam talian anda.
 2. Pilih **Cari**, dan cari pasang masuk untuk kemas kini.
 
-    ![Cari kotak dialog Pohon](media/basic-guide-19.png)
+    ![Kotak dialog Pohon Carian.](media/basic-guide-19.png)
 
 3. Pilih pasang masuk, kemudian pada halaman utama, pilih **Pilih**.
 4. Pilih langkah pasang masuk untuk kemas kini, klik kanan, kemudian pilih **Kemas Kini**.
 
-    ![Pilih langkah dalam pasang masuk](media/basic-guide-20.png)
+    ![Memilih langkah dalam pasang masuk.](media/basic-guide-20.png)
 
 5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada**, dalam medan **Menapis Atribut**, pilih butang elipsis (**...**):
  
-    ![Kemas kini kotak dialog Langkah Sedia Ada](media/basic-guide-21.png)
+    ![Kotak dialog Kemas kini Langkah Sedia Ada.](media/basic-guide-21.png)
 
 6. Dalam kotak dialog **Pilih Atribut**, pilih kotak semak untuk atribut tersuai.
 
-    ![Pilih kotak dialog Atribut](media/basic-guide-22.png)
+    ![Kotak dialog Pilih Atribut.](media/basic-guide-22.png)
 
 7. Pilih **OK** untuk menutup kotak dialog, kemudian pilih **Kemas Kini Langkah**.
  
-    ![Kemas kini butang Langkah](media/basic-guide-23.png)
+    ![Butang Kemas kini Langkah.](media/basic-guide-23.png)
 
 8. Ulangan langkah 1 hingga 7 untuk pasang masuk kedua.
 9. Tutup Alat Pendaftaran Pasang Masuk.

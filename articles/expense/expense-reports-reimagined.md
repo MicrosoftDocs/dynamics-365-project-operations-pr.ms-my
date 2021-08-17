@@ -2,7 +2,7 @@
 title: Laporan perbelanjaan digambarkan semula
 description: Topik ini menerangkan pengalaman yang direka semula dan dibayangkan semula untuk entri laporan perbelanjaan.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251015"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997842"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan perbelanjaan digambarkan semula
 
@@ -57,12 +57,13 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 | Kalkulator kadar tukaran | Kalkulator kadar tukaran ditambahkan yang membolehkan anda mengira kadar tukaran untuk transaksi berbilang mata wang saku. |
 | Simpan dan tambah baris perbelanjaan baharu | Butang **Simpan** dan **Baharu** tersedia apabila perbelanjaan baharu dimasukkan, untuk membantu anda memasukkan baris perbelanjaan dengan cepat. |
 | Keterlihatan yang lebih baik ke dalam baris yang diperincikan dan terpisah | Garis yang diperincikan dan terpisah ditambah secara langsung pada senarai perbelanjaan untuk meningkatkan keterlihatan dan membantu anda menentukan sama ada terdapat sebarang ralat dengan mudah. |
-| Lihat butiran subkategori dalam baris terbutir | Baris terbutir perbelanjaan induk menunjukkan label subkategori dalam laporan perbelanjaan, yang membantu anda menyamak butiran kebutiran sekilas pandang.|
+| Lihat butiran subkategori dalam baris terbutir | Baris terperinci perbelanjaan induk menunjukkan label subkategori pada laporan perbelanjaan. Perincian tersebut membolehkan anda menyemak butiran terperinci sepintas lalu.|
 | Tunjuk resit semasa pemerincian | Resit boleh ditunjukkan semasa perincian. |
 | Pemilihan pendahuluan tunai | Pilih satu atau lebih pendahuluan tunai untuk memenuhi transaksi perbelanjaan tunggal. |
 | Baki pendahuluan tunai | Semak baki pendahuluan tunai dalam masa nyata apabila anda mencipta entri perbelanjaan terhadap pendahuluan tunai yang diluluskan dan berbayar. |
 
 Keluaran awal tertumpu kepada senario entri perbelanjaan. Sebarang semakan laporan perbelanjaan atau senario kelulusan akan terus menggunakan halaman entri perbelanjaan yang sedia ada.
+
 
 Ciri berikut tidak disokong pada ruang kerja digambarkan semula laporan Perbelanjaan tetapi dirancang untuk keluaran akan datang: 
 

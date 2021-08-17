@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993252"
 ---
 # <a name="project-invoice-integration"></a>Integrasi invois projek
 
@@ -20,7 +20,7 @@ Topik ini menyediakan maklumat tentang integrasi dwi-tulis Project Operations un
 
 Dalam Project Operations, pengurus Projek mengurus tunggakan pengebilan projek dan mencipta invois proforma untuk pelanggan dalam Microsoft Dataverse. Berdasarkan pada invois proforma ini, kerani Akaun belum diterima atau akauntan Projek mencipta invois bersemuka dengan pelanggan. Integrasi dwi-tulis memastikan butiran invois proforma disegerakkan ke aplikasi Finance and Operations. Selepas invois bersemuka dengan pelanggan disiarkan, sistem mengemas kini projek aktual yang berkaitan dalam Dataverse dengan butiran perakaunan. Grafik berikut memberikan gambaran keseluruhan konseptual peringkat tinggi bagi integrasi ini.
 
-   ![Integrasi invois projek](./media/DW5Invoicing.png)
+   ![Integrasi invois projek.](./media/DW5Invoicing.png)
 
 Selepas pengurus Projek mengesahkan invois proforma dalam Dataverse, maklumat pengepala invois proforma disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual dwi tulis, **Cadangan invois Projek V2 (invois)**. Ini adalah integrasi sehala daripada Dataverse ke aplikasi Finance and Operations. Mencipta atau memadam cadangan invois Projek secara langsung dalam aplikasi Finance and Operations tidak disokong.
 

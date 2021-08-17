@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997972"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995052"
 ---
 # <a name="propose-project-resources"></a>Mencadangkan sumber projek
 
@@ -38,11 +38,11 @@ Kemas kini status berikut berlaku:
 
 - Pada halaman **Pembantu Jadual**, penunjuk status dikemas kini untuk menunjukkan bahawa penempahan dicadangkan, tidak ditempah cetak.
 
-    ![Petunjuk status untuk tempahan yang dicadangkan pada halaman Pembantu Jadual](media/Resource-Management-image63.png)
+    ![Petunjuk status untuk tempahan yang dicadangkan pada halaman Pembantu Jadual.](media/Resource-Management-image63.png)
 
 - Pada permintaan sumber, status ditukar kepada **Keperluan Semakan Semula.**
 
-    ![Status permintaan sumber ditukar kepada Keperluan Semakan Semula](media/Resource-Management-image64.png)
+    ![Status permintaan sumber ditukar kepada Keperluan Semakan Semula.](media/Resource-Management-image64.png)
 
 - Pada tab **Pasukan** projek, permintaan ahli pasukan generik **Status Permintaan** ditukar kepada **Keperluan Semakan Semula.**
 
@@ -70,7 +70,7 @@ Formula berikut digunakan untuk mengira penggunaan:
 
 Anda boleh mencari pandangan **Penggunaan Sumber** dalam anak tetingkap **Sumber**.
 
-![Pandangan Penggunaan sumber](media/Resource-Management-image65.png)
+![Pandangan Penggunaan Sumber.](media/Resource-Management-image65.png)
 
 Setiap sel dalam grid mewakili peratusan penggunaan boleh dibilkan bagi sumber dalam tempoh, seperti hari, minggu atau bulan. Formula berikut digunakan untuk mewarnakan sel:
 
@@ -84,7 +84,7 @@ Grid memerlukan anda menetapkan penggunaan sasaran pada sama ada peranan atau su
 
 Selain itu, peranan lalai mesti ditugaskan kepada setiap sumber boleh ditempah. Pergi ke **Sumber** \> **Sumber**. Pada tab **Project Service** sahkan peranan sumber ditakrifkan dan medan **Adalah Lalai** untuk ia disetkan kepada **Ya.** Anda boleh menambah peranan tambahan di mana **Adalah Lalai = No**. Peranan di mana **Adalah Lalai = Ya** digunakan untuk menilai penggunaan sumber terhadap sasaran untuk peranan tersebut.
 
-![Peranan lalai ditetapkan](media/Resource-Management-image67.png)
+![Set peranan lalai.](media/Resource-Management-image67.png)
 
 Pada tab **Project Service**, anda juga boleh menetapkan penggunaan sasaran individu untuk sumber. Pengiraan penggunaan ini kemudian menggunakan penggunaan sasaran yang akan menilai sasaran sumber bukan sasaran peranan lalai sumber.
 
@@ -96,21 +96,21 @@ Adalah penting bahawa pengurus sumber boleh melihat ketersediaan sumber dan kema
 
 Waktu kerja sumber digunakan sebagai asas untuk mengira ketersediaan sumber. Tempahan sumber mengambil kapasiti sumber.
 
-![Papan Jadual](media/Resource-Management-image68.png)
+![Papan Jadual.](media/Resource-Management-image68.png)
 
 Papan Jadual menggunakan warna dan pembayangan untuk menunjukkan penempahan, ketersediaan dan pilihan berlebihan dan juga status tempahan. Tetapan dalam tetapan Papan Jadual membolehkan anda menunjukkan petunjuk.
 
 Jika anak panah tunjuk sebelah kanan muncul di sebelah sumber boleh ditempah individu pada Papan Jadual, sumber itu dapat dikembangkan untuk menunjukkan butiran kerja yang digunakan oleh sumber tersebut.
 
-![Sumber boleh ditempah dikembangkan ke Papan Jadual](media/Resource-Management-image69.png)
+![Sumber boleh ditempah dikembangkan pada Papan Jadual.](media/Resource-Management-image69.png)
 
 Kerana Dynamics 365 Project Service Automation menggunakan enjin Universal Resource Scheduling, jika anda juga telah Dynamics 365 Field Service dipasang, anda boleh melihat butiran daripada penempahan sumber untuk projek, pesanan kerja dan sebarang entiti lain yang anda telah melanjutkan penjadualan.
 
-![Butiran terperinci mengenai tempahan sumber untuk projek dan pesanan kerja](media/Resource-Management-image70.png)
+![Butiran tempahan sumber untuk projek dan pesanan kerja.](media/Resource-Management-image70.png)
 
 Untuk melihat lebih banyak butiran mengenai sumber individu, klik kanan padanya untuk membuka kad sumber.
 
-![Kad Sumber](media/Resource-Management-image71.png)
+![Kad sumber.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000135"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994602"
 ---
 # <a name="navigate-project-operations"></a>Navigasi Project Operations
 
@@ -28,11 +28,11 @@ Selepas anda memperuntukkan Project Operations seperti yang diterangkan dalam ha
 
 Menggunakan nama persekitaran dalam bahagian, **Nama Persekitaran Common Data Service** untuk menavigasi ke Project Operations pada persekitaran CDS. 
 
-  ![Nama persekitaran Common Data Service](./media/environment-name.PNG)
+  ![Nama persekitaran Common Data Service.](./media/environment-name.PNG)
 
 Pilih **Log Masuk** > **Log ke persekitaran** untuk navigasi ke modul **Pengurusan projek dan perakaunan** dalam Kewangan.  
 
-   ![Log ke dalam Kewangan](./media/environment-login.PNG)
+   ![Log ke dalam Kewangan.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Anda boleh mengakses Project Operations dalam Common Data Service dan modul **Pengurusan projek dan perakaunan** secara langsung dengan menggunakan URL mereka masing-masing. 
