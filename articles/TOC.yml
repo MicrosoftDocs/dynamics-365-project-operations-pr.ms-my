@@ -4,6 +4,8 @@
   items:
     - name: Tentukan jenis pelaksanaan anda
       href: environment/determine-deployment-type.md
+    - name: Daftar untuk percubaan Project Operations
+      href: environment/admin-trials.md
     - name: Kemas kini Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations untuk senario berdasarkan sumber/bukan stok
@@ -54,7 +56,9 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Ciri baharu
       items:
-        - name: Julai 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
+        - name: Ogos 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: Julai 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
           href: whats-new/whats-new-june-2021-resource-based.md
@@ -418,6 +422,8 @@
       items:
         - name: Gambaran keseluruhan kelulusan
           href: approvals/approvals-overview.md
+        - name: Set kelulusan
+          href: approvals/approval-sets.md
         - name: Nota pembangun
           items:
             - name: Nota pembangun untuk Kelulusan
@@ -520,9 +526,13 @@
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Ciri baharu Julai 2021 - pelaksanaan ringan
+        - name: Pelaksanaan capaian awal gelombang 2 tahun 2021 ciri baharu - ringan
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Pelaksanaan ciri baharu Ogos 2021 - ringan
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: Pelaksanaan ciri baharu Julai 2021 - ringan
           href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Ciri baharu Jun 2021 - pelaksanaan ringan
+        - name: Pelaksanaan ciri baharu Jun 2021 - ringan
           href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Ciri baharu Mei 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-may-2021-lite.md
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Pengurusan subkontrak dalam Project Operations
       items:
-        - name: Mengurus gambaran keseluruhan subkontrak
+        - name: Pengurusan subkontrak dalam Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Subkontrak dalam Capaian Awal Oktober 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Konsep utama dalam subkontrak
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Mengurus vendor dan senarai harga projek
+        - name: Menguruskan vendor dan senarai harga projek
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Subkontraktor sebagai sumber boleh ditempah
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Butiran Pengepala untuk Subkontrak
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Baris subkontrak untuk masa
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Baris subkontrak untuk perbelanjaan
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Baris subkontrak untuk produk
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Sumber baris subkontrak
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Pencapaian baris subkontrak
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Masa
       items:
         - name: Gambaran keseluruhan masa
@@ -868,6 +892,8 @@
       items:
         - name: Gambaran keseluruhan kelulusan
           href: approvals/approvals-overview.md
+        - name: Set kelulusan
+          href: approvals/approval-sets.md
         - name: Nota pembangun
           items:
             - name: Nota pembangun untuk Kelulusan
@@ -1060,6 +1086,8 @@
       items:
         - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Sesuaikan entri masa mingguan
               href: psa/time-entry-extensibility-v3.md
-            - name: Set kelulusan
+            - name: Set kelulusan dalam Project Service Automation
               href: psa/approval-set.md
     - name: Soalan lazim dan penyelesaian masalah (3.x)
       items:
