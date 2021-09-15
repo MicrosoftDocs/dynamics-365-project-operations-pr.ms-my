@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001667"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440788"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Urus berbilang pelanggan pada sebut harga projek - ringan
 
@@ -37,7 +37,7 @@ Pelanggan sebut harga boleh dicipta, dikemas kini atau dipadam daripada tab **Pe
 
 | **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
-| Akaun | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Senaraikan semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Jika anda mahu mengemaskinikannya, padam rekod dan ciptanya semula. Jika anda telah merekod sebarang aktual atau jika rekod pelanggan sebut harga adalah pelanggan utama, anda akan dibenarkan untuk memadam rekod itu. | Pelanggan sebut harga disalin sebagai pelanggan baris sebut harga apabila baris sebut harga dicipta. Pelanggan sebut harga juga disalin ke pelanggan kontrak projek apabila sebut harga dimenangi. |
+| Akaun | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Senaraikan semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Jika anda mahu mengemaskinikannya, padam rekod dan ciptanya semula. Jika anda telah merekodkan apa-apa aktual, atau jika rekod pelanggan sebut harga ialah pelanggan utama, anda tidak akan dibenarkan untuk memadamkan rekod tersebut. | Pelanggan sebut harga disalin sebagai pelanggan baris sebut harga apabila baris sebut harga dicipta. Pelanggan sebut harga juga disalin ke pelanggan kontrak projek apabila sebut harga dimenangi. |
 | Peratusan Pecahan Pengebilan | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Mewakili peratusan bagi setiap transaksi jualan tidak dibilkan yang akan diatribut ke pelanggan sebut harga ini. | Disalin ke baris sebut harga baharu dan kepada pelanggan kontrak projek. |
 | Bil kepada Nama Kenalan | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Ini ialah medan teks dan hendaklah digunakan bagi mengenal pasti orang hubungan Invois untuk pelanggan ini. Ini telah dilalaikan daripada rekod akaun yang berkaitan | Disalin ke pelanggan kontrak projek apabila Sebut Harga dimenangi dan seterusnya ke medan nama Bil kepada Kontrak yang dijana untuk pelanggan ini. |
 | Bil Kepada Nama | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Medan teks ini hendaklah digunakan bagi mengenal pasti orang hubungan invois untuk pelanggan ini. | Disalin ke pelanggan kontrak projek apabila sebut harga dimenangi dan seterusnya ke medan **Nama Bil kepada Kontrak** yang dijana untuk pelanggan ini. |

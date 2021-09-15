@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024794"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474512"
 ---
 # <a name="project-operations-updates"></a>Pilih kemaskinian Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations terdiri daripada dua komponen:
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance meliputi keupayaan pengurusan perbelanjaan, perakaunan projek dan pengiktirafan hasil. Persekitaran aplikasi Finance and Operations digunakan dalam Project Operations untuk senario berasaskan sumber/bukan stok dan Project Operations untuk senario berasaskan stok/pengeluaran.
 
 ## <a name="project-operations-release-notes"></a>Nota keluaran Project Operations
-- Nota keluaran terkini Project Operations untuk senario [Sumber/tidak distok](whats-new-july-2021-resource-based.md).
-- Nota keluaran terkini Project Operations untuk senario [Pelaksanaan ringan](../pro/whats-new/whats-new-july-2021-lite.md).
+- Nota keluaran terkini Project Operations untuk senario [Sumber/tidak distok](whats-new-august-2021-resource-based.md).
+- Nota keluaran terkini Project Operations untuk senario [Pelaksanaan ringan](../pro/whats-new/whats-new-august-2021-lite.md).
 - Nota keluaran terkini Project Operations untuk senario [distok/pengeluaran](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Versi terbaharu Project Operations
 
 | Project Operations pada persekitaran Dataverse | Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Untuk senario Sumber Project Operations/bukan stok, kami mengesyorkan untuk menggunakan Dwitulis Pengorkestraan versi 2.2.2.83 atau lebih tinggi.
 
@@ -47,27 +47,24 @@ Kemas kini untuk Project Operations pada persekitaran Dataverse tersedia setiap 
 | Stesen | Rantau | Nombor versi semasa | Kemas kini automatik untuk pelaksanaan Ringan | Kemas kini automatik untuk pelaksanaan Sumber/bukan distok | Nombor versi seterusnya | Versi seterusnya tersedia secara am |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stesen 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Keluaran Pertama         |  4.13.0.152     | Dilengkapkan           | 13 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+|   &nbsp;  | Keluaran Pertama         |  4.14.0.99      | Dilengkapkan           | 10 September 2021  | TBD                 | 01 Oktober 2021    |
 | Stesen 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan         |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
-|   &nbsp;  | India                 |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
-|   &nbsp;  | Perancis                |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
-|   &nbsp;  | Emiriah Arab Bersatu  |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
-|   &nbsp;  | Afrika Selatan          |  4.13.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | TBD                 | 27 Ogos 2021     |
+|   &nbsp;  | Amerika Selatan         |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | India                 |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | Perancis                |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | Emiriah Arab Bersatu  |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
+|   &nbsp;  | Afrika Selatan          |  4.14.0.152     | 10 September 2021 | 17 September 2021  | TBD                 | 01 Oktober 2021    |
 | Stesen 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jepun                 |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
-|   &nbsp;  | Asia Pasifik          |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
-|   &nbsp;  | Great Britain         |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
-|   &nbsp;  | Oceania               |  4.12.0.152     | Lengkap*          | Dilengkapkan            | 4.13.0.152          | 13 Ogos 2021     |
+|   &nbsp;  | Jepun                 |  4.13.0.152     | Dilengkapkan           | Dilengkapkan            | 4.14.0.152          | 10 September 2021  |
+|   &nbsp;  | Asia Pasifik          |  4.13.0.152     | Dilengkapkan           | Dilengkapkan            | 4.14.0.152          | 10 September 2021  |
+|   &nbsp;  | Great Britain         |  4.13.0.152     | Dilengkapkan           | Dilengkapkan            | 4.14.0.152          | 10 September 2021  |
+|   &nbsp;  | Oceania               |  4.13.0.152     | Dilengkapkan           | Dilengkapkan            | 4.14.0.152          | 10 September 2021  |
 | Stesen 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eropah                |  4.12.0.152     | Dilengkapkan           | Dilengkapkan            | 4.13.0.152          | 20 Ogos 2021     |
+|   &nbsp;  | Eropah                |  4.13.0.152     | Dilengkapkan           | 03 September 2021  | 4.14.0.152          | 17 September 2021  |
 | Stesen 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Utara         |  4.12.0.152     | 13 Ogos 2021    | 20 Ogos 2021     | 4.13.0.152          | 27 Ogos 2021     |
+|   &nbsp;  | Amerika Utara         |  4.13.0.152     | 03 September 2021 | 10 September 2021  | 4.14.0.152          | 24 September 2021  |
 
-
-> [!NOTE]
-> Pelaksanaan automatik selesai untuk versi 4.12.0.148. Tiada pelaksanaan automatik yang dirancang untuk versi terkini keluaran Julai 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadual keluaran untuk Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations
 

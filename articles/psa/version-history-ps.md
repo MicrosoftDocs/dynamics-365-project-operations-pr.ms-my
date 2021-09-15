@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: 7abb9e851c99c66677dd45e20f5b8bd179e9464d
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024839"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474546"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Kemas kini jadual keluaran untuk Project Service 3. x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7024839"
 
 | Penyelesaian  | Versi terkini |
 |-------|----|
-| Project Service Automation    | 3.10.55.38 |
+| Project Service Automation    | 3.10.56.110 |
 | Tambahan desktop untuk Project Service Automation                | 3.15          |
 
 Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pelan keluaran Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pe
 | Stesen  | Rantau | Versi semasa | Versi seterusnya |  Tarikh dijadualkan
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stesen 1</strong> | |  |  | |
-| | <i>Keluaran Pertama</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 27 Ogos 2021
+| | <i>Keluaran Pertama</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
 |<strong>Stesen 2</strong> | |  |  | |
-| | <i>Amerika Selatan</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
-| | <i>Kanada</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
-| | <i>India</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
-| | <i>Perancis</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
-| | <i>Emiriah Arab Bersatu</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
-| | <i>Afrika Selatan</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
-| | <i>Jerman</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
-| | <i>Switzerland</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 September 2021
+| | <i>Amerika Selatan</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
+| | <i>Kanada</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
+| | <i>India</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
+| | <i>Perancis</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
+| | <i>Emiriah Arab Bersatu</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
+| | <i>Afrika Selatan</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
+| | <i>Jerman</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
+| | <i>Switzerland</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | 01 Oktober 2021
 |<strong>Stesen 3</strong> | |  |  | |
-| | <i>Jepun</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ogos 2021
-| | <i>Asia Pasifik</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ogos 2021
-| | <i>Great Britain</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ogos 2021
-| | <i>Oceana</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ogos 2021
+| | <i>Jepun</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10 September 2021
+| | <i>Asia Pasifik</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10 September 2021
+| | <i>Great Britain</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10 September 2021
+| | <i>Oceana</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 10 September 2021
 |<strong>Stesen 4</strong> | |  |  | |
-| | <i>Eropah</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20 Ogos 2021
+| | <i>Eropah</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 17 September 2021
 |<strong>Stesen 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 Ogos 2021
+| | <i>Amerika Utara</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 24 September 2021
 |<strong>Stesen 6</strong> | |  |  | |
-| | <i>Awan Komuniti Kerajaan</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 Ogos 2021
-| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03 September 2021
+| | <i>Awan Komuniti Kerajaan</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 24 September 2021
+| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | 01 Oktober 2021
 
 >[!Note]
 > - Tarikh di semua wilayah kecuali Awan Komuniti Kerajaan (GCC) menunjukkan masa kemas kini automatik seterusnya. Tarikh dalam GCC menunjukkan ketersediaan versi; pada masa ini, tiada kemas kini automatik untuk wilayah ini.
