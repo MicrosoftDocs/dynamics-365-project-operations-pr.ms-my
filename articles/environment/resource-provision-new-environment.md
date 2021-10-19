@@ -2,17 +2,17 @@
 title: Peruntukan persekitaran baharu
 description: Topik ini memberikan maklumat tentang cara menyediakan persekitaran Operasi Projek baru.
 author: sigitac
-ms.date: 12/11/2020
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988572"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501427"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -29,16 +29,16 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
 1. Pergi ke [LCS](https://lcs.dynamics.com/v2) dan pilih jubin **Pengurusan ciri pratonton**.
 2. Dalam senarai **Ciri pratonton**, pilih **Ciri Operasi Projek**, kemudian pilih **Ciri pratonton didayakan** untuk mendayakan Operasi Projek.
 
-> [!NOTE]
-> Langkah ini dilaksanakan hanya satu kali bagi setiap projek LCS.
+   > [!NOTE]
+   > Langkah ini dilaksanakan hanya satu kali bagi setiap projek LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Menyediakan persekitaran Operasi Projek
 
 1. Buka Dynamics 365 Finance [persekitaran demo baharu](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) atau pelaksanaan [persekitaran pengeluaran/bukan pengeluaran bersama](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Ikuti wizard **Peruntukan persekitaran**. 
 
-> [!IMPORTANT]
-> Pastikan versi aplikasi yang dipilih adalah 10.0.13 atau lebih tinggi.
+   > [!IMPORTANT]
+   > Pastikan versi aplikasi yang dipilih adalah 10.0.13 atau lebih tinggi.
 
 3. Untuk memperuntukkan Operasi Projek, di bawah **Tetapan awal**, pilih **Common Data Service**. 
 4. Dayakan Tetapan **Common Data Service** dengan memilih **Ya** dan kemudian masukkan maklumat dalam medan yang diperlukan:
@@ -49,25 +49,23 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
   - Mata wang
  
 5. Dalam medan Templat **Common Data Service**, pilih **Operasi Projek** 
-
 6. Pilih jenis persekitaran untuk pelaksanaan anda. Percubaan berasaskan langganan membolehkan anda melaksanakan persekitaran CDS selama 30 hari. 
 
-![Tetapan Pelaksanaan.](./media/1DeploymentSettings.png)
+     ![Tetapan Pelaksanaan.](./media/1DeploymentSettings.png)
 
-> [!IMPORTANT]
-> Pilih **Setuju** untuk mengakui terma perkhidmatan dan kemudian pilih **Selesai** untuk kembali ke tetapan pelaksanaan.
-
-![Persetujuan Pelaksanaan.](./media/2DeploymentConsent.png)
+    > [!IMPORTANT]
+    > Pilih **Setuju** untuk mengakui terma perkhidmatan dan kemudian pilih **Selesai** untuk kembali ke tetapan pelaksanaan.
+    >
+    >![Persetujuan Pelaksanaan.](./media/2DeploymentConsent.png)
 
 7. Pilihan - Gunakan data demo pada persekitaran. Pergi ke **Tetapan lanjutan**, pilih **Sesuaikan Konfigurasi Pangkalan Data SQL**, dan tetapkan **Nyatakan set data untuk pangkalan data Aplikasi** kepada **Demo**.
-
 8. Lengkapkan baki medan yang diperlukan dalam wizard dan sahkan pelaksanaan. Masa untuk peruntukan persekitaran berbeza berdasarkan pada jenis persekitaran. Peruntukan mungkin mengambil masa sehingga enam jam.
 
-  Selepas pelaksanaan berjaya diselesaikan, persekitaran akan ditunjukkan seperti yang **Dilaksanakan**.
+   Selepas pelaksanaan berjaya diselesaikan, persekitaran akan ditunjukkan seperti yang **Dilaksanakan**.
 
 9. Untuk mengesahkan bahawa persekitaran telah berjaya digunakan, pilih **Log masuk** dan log masuk pada persekitaran untuk mengesahkan.
 
-![Butiran Persekitaran.](./media/3EnvironmentDetails.png)
+    ![Butiran Persekitaran.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Gunakan kemas kini kepada persekitaran kewangan
 
@@ -77,35 +75,35 @@ Anda mungkin perlu menggunakan kemas kini kualiti kepada persekitaran kewangan a
 
 1. Dalam LCS, pada halaman **Butiran persekitaran**, dalam bahagian **Kemas Kini Tersedia**, pilih **Lihat Kemas Kini**.
 
-![Lihat Kemas Kini.](./media/5ViewUpdates.png)
+    ![Lihat Kemas Kini.](./media/5ViewUpdates.png)
 
 2. Pada halaman **Kemas kini binari**, pilih **Simpan pakej.**
 
-![Simpan pakej.](./media/6SavePackage.png)
+    ![Simpan pakej.](./media/6SavePackage.png)
 
 3. Klik **Pilih semua** dan kemudian **Simpan pakej**.
 
-![Semak dan simpan kemas kini.](./media/7ReviewAndSaveUpdates.png)
+    ![Semak dan simpan kemas kini.](./media/7ReviewAndSaveUpdates.png)
 
 4. Masukkan nama dan perihalan pakej, dan kemudian pilih **Simpan**. Proses ini mungkin mengambil sedikit masa bergantung pada sambungan internet.
 
-![Muat naik pakej ke Perpustakaan Aset.](./media/8UploadPackageToAssetsLibrary.png)
+    ![Muat naik pakej ke Perpustakaan Aset.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Selepas pakej disimpan, pilih **Selesai** dan simpan pakej ini ke Perpustakaan Aset dalam projek LCS anda.
 
-Menyimpan dan mengesahkan pakej mungkin mengambil masa ~ 15 minit.
+   Menyimpan dan mengesahkan pakej mungkin mengambil masa ~ 15 minit.
 
 6. Untuk menggunakan kemas kini, navigasi ke halaman **Butiran persekitaran** dalam LCS dan pilih **Kekalkan** > **Gunakan kemas kini**.
 
-![Kekalkan Persekitaran.](./media/9MaintainEnvironment.png)
+    ![Kekalkan Persekitaran.](./media/9MaintainEnvironment.png)
 
 7. Dalam senarai kemas kini pilih pakej yang anda cipta dan pilih **Gunakan**.
 
-![Gunakan Kemas Kini.](./media/10ApplyUpdates.png)
+    ![Gunakan Kemas Kini.](./media/10ApplyUpdates.png)
 
-Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekitaran akan kembali ke keadaan yang dilaksanakan.
+   Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekitaran akan kembali ke keadaan yang dilaksanakan.
 
-![Persekitaran Dilaksanakan.](./media/11EnvironmentDeployed.png)
+    ![Persekitaran Dilaksanakan.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Wujudkan sambungan Dual Write 
 
@@ -113,53 +111,56 @@ Perkhidmatan persekitaran akan mengambil sedikit masa. Selepas selesai, persekit
 2. Di bawah Maklumat Persekitaran **Common Data Service**, pilih **Pautan ke CDS untuk Aplikasi**.
 3. Selepas pautan selesai, pilih **Pautkan ke CDS untuk Aplikasi** semula. Anda akan dihalakan semula ke Dual Write dalam kewangan.
 
-![Pautan ke CDS.](./media/12LinktoCDS.png)
+    ![Pautan ke CDS.](./media/12LinktoCDS.png)
 
 4. Pilih **Gunakan Penyelesaian** untuk mengakses entiti yang akan dipetakan dalam integrasi.
 
-![Gunakan Penyelesaian.](./media/13ApplySolutions.png)
+    ![Gunakan Penyelesaian.](./media/13ApplySolutions.png)
 
 5. Pilih kedua-dua penyelesaian, **Peta Entiti Dwi Tulis Dynamics 365 Finance and Operations** dan **Peta Entiti Dwi Tulis Dynamics 365 Project Operations**, dan kemudian pilih **Gunakan**.
 
-![Sahkan Penyelesaian.](./media/14ConfirmSolutions.png)
+    ![Sahkan Penyelesaian.](./media/14ConfirmSolutions.png)
 
-Selepas penyelesaian digunakan, entiti Dual Write digunakan untuk persekitaran.
+    Selepas penyelesaian digunakan, entiti Dual Write digunakan untuk persekitaran.
 
-![Menggunakan Penyelesaian.](./media/15ApplyingSolutions.png)
+    ![Menggunakan Penyelesaian.](./media/15ApplyingSolutions.png)
 
-Selepas entiti digunakan, semua pemetaan yang sedia ada disenaraikan dalam persekitaran.
+    Selepas entiti digunakan, semua pemetaan yang sedia ada disenaraikan dalam persekitaran.
 
-![Peta Dwitulis.](./media/15DWMappings.png)
+    ![Peta Dwitulis.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Segar semula entiti data selepas kemas kini
 
 1. Dalam Kewangan, pergi ke ruang kerja **Pengurusan data**.
 
-![Ruang kerja Pengurusan Data.](./media/16DataManagement.png)
+    ![Ruang kerja Pengurusan Data.](./media/16DataManagement.png)
 
 2. Pilih jubin **Parameter rangka kerja**.
 
-![Parameter Rangka Kerja.](./media/17FrameworkParameters.png)
+    ![Parameter Rangka Kerja.](./media/17FrameworkParameters.png)
 
 3. Pada halaman **Tetapan entiti**, pilih senarai **Entiti Segar Semula**.
 
-![Senarai Entiti Segar Semula.](./media/18RefreshEntityList.png)
+    ![Senarai Entiti Segar Semula.](./media/18RefreshEntityList.png)
 
 Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat apabila ia selesai.
 
-![Pengesahan Segar Semula.](./media/19RefreshConfirmation.png)
+  ![Pengesahan Segar Semula.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Kemas kini tetapan keselamatan pada Project Operations pada Dataverse
 
 1. Pergi ke Project Operations pada persekitaran Dataverse anda. 
 2. Pergi ke **Tetapan** > **Keselamatan** > **Peranan keselamatan**. 
 3. Pada halaman **Peranan keselamatan**, dalam senarai peranan, pilih **pengguna aplikasi dwitulis** dan pilih tab **Entiti Tersuai**.  
-4. Sahkan bahawa peranan mempunyai keizinan **Baca** dan **Tambah Pada** untuk:
+4. Sahkan bahawa peranan mempunyai keizinan **Baca** dan **Tambah Ke** untuk entiti berikut:
       
       - **Jenis Kadar Tukaran Mata Wang**
       - **Carta Akaun**
       - **Kalendar Fiskal**
       - **Lejar**
+      - **Syarikat**
+      - **Jenis Kadar Tukaran Mata Wang**
+      - **Perbelanjaan**
 
 5. Selepas peranan keselamatan dikemas kini, pergi ke **Tetapan** > **Keselamatan** > **Pasukan**, dan pilih pasukan lalai dalam paparan pasukan **Pemilik Perniagaan Tempatan**.
 6. Pilih **Urus Peranan** dan sahkan bahawa kelayakan keselamatan **pengguna aplikasi dwitulis** telah dikenakan kepada mereka.
@@ -168,37 +169,10 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
 
 1. Dalam projek LCS anda, pergi ke halaman **Butiran persekitaran**.
 2. Di bawah Maklumat Persekitaran **Common Data Service**, pilih **Pautkan ke CDS untuk Aplikasi.** Selepas anda memilih pautan tersebut, anda akan dihalakan semula ke senarai entiti dalam pemetaan.
-3. Mulakan peta seperti yang diterangkan dalam jadual berikut. Pastikan anda mengikuti urutan seperti yang disenaraikan.
+3. Mulakan peta. Untuk maklumat lanjut, lihat [Versi peta dwi tulis Project Operations](resource-dual-write-maps.md#project-operations-dual-write-maps)
+4. Mengesahkan semua peta berkaitan projek adalah dalam keadaan berjalan.
 
-| **Peta Entiti** | **Entiti segar semula** | **Penyegerakan awal** | **Induk untuk penyegerakan awal** | **Jalankan prasyarat:** | **Segerakkan permulaan prasyarat** |
-| --- | --- | --- | --- | --- | --- |
-| **Peranan Sumber Projek untuk Semua Syarikat (bookableresourcecategories)** | Tidak | Ya | Common Data Service | Tidak | T\A |
-| **Entiti sah (cdm\_syarikat)** | Tidak | Ya | Aplikasi Finance and Operations | Tidak | T\A |
-| **Lejar (msdyn_ledgers)** | Tidak | Ya | Aplikasi Finance and Operations | Ya | Ya, aplikasi Finance and Operations |
-| **Aktual integrasi Project Operations (msdyn\_aktual)** | Tidak | Tidak | T\A | Ya | Tidak |
-| **Baris kontrak projek (salesorderdetails)** | Tidak | Tidak | T\A | Tidak | Tidak |
-| **Entiti integrasi untuk hubungan transaksi projek (msdyn\_transactionconnections)** | Tidak | Tidak | T\A | Tidak | T\A |
-| **Pencapaian baris kontrak integrasi Operasi Projek (msdyn\_contractlinesscheduleofvalues)** | Tidak | Tidak | T\A | Tidak | T\A |
-| **Entiti integrasi Operasi Projek untuk anggaran perbelanjaan (msdyn\_estimateslines)** | Tidak | Tidak | T\A | Tidak | T\A |
-| **Kategori perbelanjaan projek integrasi Operasi Projek entiti eksport (msdyn\_expensecategories)** | Tidak | Tidak | T\A | Tidak | T\A |
-| **Perbelanjaan projek integrasi Operasi Projek entiti eksport (msdyn\_perbelanjaan)** | Ya | Tidak | T\A | Tidak | T\A |
-| **Entiti integrasi Operasi Projek untuk anggaran jam (msdyn\_estimateslines)** | Ya | Tidak | T\A | Tidak | T\A |
-
-
-4. Untuk menyegarkan semula entiti, pilih nama peta dan kemudian pilih **Segar semula entiti**. 
-
-
-![Segar Semula Peta.](./media/20RefreshMapping.png)
-
-5. Selepas segar semula selesai, jalankan peta. Sebelum anda mendayakan peta seterusnya, sahkan bahawa peta dalam jadual dalam keadaan **Berjalan**. Jalankan peta dengan bilangan prasyarat yang lebih besar mungkin mengambil sedikit masa.
-
-Untuk menjalankan peta dengan prasyarat, dayakan togol **Tunjukkan peta entiti berkaitan**. Jika jadual menunjukkan **Penyegerakkan awal pra-syarat** **Tidak**, sahkan bahawa bendera **Penyegerakkan awal** **Dipadamkan** dalam semua peta pra-syarat sebelum anda menjalankannya.
-
-![Jalankan Peta.](./media/21RunMap.png)
-
-6. Mengesahkan semua peta berkaitan projek adalah dalam keadaan berjalan.
-
-![Semua Peta Berjalan.](./media/22AllMapsRunning.png)
+    ![Semua Peta Berjalan.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Gunakan data konfigurasi dalam CDS untuk Project Operations (pilihan)

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323472"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501382"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Ogos 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
@@ -31,7 +31,7 @@ Ciri berikut disertakan dalam keluaran ini:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Kemas kini peta dwi tulis Project Operations
 
-Tiada kemas kini kepada peta Dwitulis Project Operations dalam keluaran ini. 
+Tiada kemas kini untuk peta dwi tulis Project Operations dalam keluaran ini.
 
 Untuk senarai semasa dan versi peta dwi tulis Project Operations, lihat [Versi peta dwi tulis Project Operations](../environment/resource-dual-write-maps.md).
 

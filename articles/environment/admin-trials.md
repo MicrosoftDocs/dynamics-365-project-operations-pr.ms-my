@@ -2,16 +2,16 @@
 title: Daftar untuk percubaan Project Operations
 description: Topik ini memberikan maklumat tentang cara melaksanakan percubaan Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418468"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599224"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Daftar untuk percubaan Project Operations 
 
@@ -85,15 +85,9 @@ Sebelum anda bermula, daftar masuk ke pelayar dengan akaun kerja pengguna dalam 
 
    Selepas peruntukan bermula, anda dihalakan semula ke senarai persekitaran dalam pusat pentadbiran Power Platform. Sementara peruntukan sedang berjalan, keadaan persekitaran anda ialah **PreparingInstance**.
  
-  Selepas peruntukan selesai, keadaan persekitaran anda ialah **Sedia**.
+  Apabila peruntukan selesai, keadaan persekitaran anda menjadi **Bersedia**. Peruntukan persekitaran termasuk melaksanakan data demo.
  
-4.  Apabila peruntukan selesai, pilih URL Microsoft Dataverse masing-masing dan URL aplikasi Finance and Operations untuk mengesahkan pelaksanaan.
-
-## <a name="demo-data-installation"></a>Pemasangan data demo
-
-Gunakan pautan berikut untuk mencapai pakej data demo untuk bahan bukan stok dan senario pelaksanaan ringan. 
-- [Data demo bahan bukan stok](resource-apply-pro-setup-config-data.md)
-- [Data demo ringan](lite-apply-demo-setup-config-data.md)
+4.  Pilih URL Microsoft Dataverse dan URL aplikasi Finance and Operations masing-masing untuk mengesahkan pelaksanaan.
 
 ## <a name="configuring-dual-write"></a>Mengkonfigurasikan dwitulis
 Untuk pelaksanaan bahan bukan stok sahaja, konfigurasikan pemetaan dwitulis anda. Untuk mendapatkan maklumat lanjut, lihat [versi peta dwitulis Project Operations](resource-dual-write-maps.md).

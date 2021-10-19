@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323787"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558513"
 ---
 # <a name="subcontract-line-milestones"></a>Pencapaian baris subkontrak
 
@@ -50,15 +50,15 @@ Pencapaian harga tetap pada baris subkontrak boleh dijanakan secara manual apabi
 3. Pada tab **Pencapaian baris subkontrak**, pada subgrid, pilih **+ Pencapaian Baris Subkontrak Baharu**.
 4. Pada halaman **Pencapaian Baris Subkontrak Baharu**, masukkan maklumat yang diperlukan berdasarkan jadual berikut.
 
-    | Medan | Penerangan |
-    | --- | --- |
-    | Nama Pencapaian | Nama pencapaian. |
-    | Penerangan | Perihalan pencapaian.  |
-    | Tarikh Pencapaian Penting | Tarikh apabila proses penciptaan invois automatik harus mencari status pencapaian ini untuk menganggapnya sebagai invois. Nilai ini dimasukkan pada baris invois vendor apabila menghantar invois untuk subkontrak ini. |
-    | Amaun | Jumlah atau nilai pencapaian yang akan diinvoiskan kepada pelanggan. Nilai ini dimasukkan pada baris invois vendor apabila menghantar invois untuk subkontrak ini. |
-    | Cukai | Jumlah cukai yang dikenakan ke atas pencapaian tersebut. Nilai ini dimasukkan pada baris invois vendor apabila menghantar invois untuk subkontrak ini. |
-    | Amaun selepas cukai | Medan baca sahaja ini dikira sebagai Amaun + Cukai. Nilai ini dimasukkan pada baris invois vendor apabila menghantar invois untuk subkontrak ini. |
-    | Status Invois | Apabila pencapaian dicipta, status ini sentiasa ditetapkan kepada **Tidak sedia untuk penginvoisan**.  Apabila berstatus **Sedia untuk Diinvois**, penciptaan invois vendor termasuk pencapaian ini pada invois vendor. |
+    | Medan | Penerangan |Kesan kefungsian|
+    | --- | --- |----------------------|
+    | Nama Pencapaian | Nama pencapaian. |Ini akan ditunjukkan sebagai lajur pertama dalam semua carian berdasarkan pada pencapaian baris subkontrak. Baris invois vendor yang dicipta berdasarkan pada pencapaian ini juga akan menggunakan nama pencapaian baris subkontrak sebagai nama lalai bagi baris invois vendor.|
+    | Penerangan | Perihalan pencapaian. |Baris invois vendor yang dicipta berdasarkan pada pencapaian ini juga akan menggunakan perihalan pencapaian baris subkontrak sebagai perihalan lalai bagi baris invois vendor.|
+    | Tarikh Pencapaian Penting | Tarikh apabila proses penciptaan invois automatik harus mencari status pencapaian ini untuk menganggapnya sebagai invois.| Nilai ini akan digunakan sebagai tarikh lalai bagi baris invois vendor apabila menginvois untuk baris subkontrak ini. |
+    | Amaun | Jumlah atau nilai pencapaian yang akan diinvoiskan kepada pelanggan. |Nilai ini digunakan sebagai jumlah lalai pada baris invois vendor apabila menginvois untuk baris subkontrak ini. |
+    | Cukai | Jumlah cukai yang dikenakan ke atas pencapaian tersebut.| Nilai ini digunakan sebagai jumlah cukai lalai pada baris invois vendor apabila menginvois untuk baris subkontrak ini. |
+    | Amaun selepas cukai | Medan baca sahaja ini dikira sebagai Jumlah + Cukai.|Nilai ini digunakan sebagai lalai pada baris invois vendor apabila menginvois untuk baris subkontrak ini. |
+    | Status Invois | Apabila pencapaian dicipta, status ini sentiasa ditetapkan kepada **Tidak sedia untuk penginvoisan**.|  Apabila berstatus **Sedia untuk Diinvois**, penciptaan invois vendor termasuk pencapaian ini pada invois vendor. |
 
 5. Pilih **Simpan dan Tutup**.
 

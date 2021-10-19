@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323877"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547255"
 ---
 # <a name="subcontract-lines-for-time"></a>Baris subkontrak untuk masa
 
@@ -30,23 +30,22 @@ Untuk mencipta baris subkontrak untuk masa dalam Project Operations, lengkapkan 
 
   Jadual berikut memberikan maklumat tentang medan pada halaman **Baris subkontrak** dan halaman **Cipta Pantas**.
 
-| **Medan** | **Perihalan** |
-| --- | --- |
-| Nama | Nama baris subkontrak. |
-| Penerangan | Penerangan ringkas tentang perkhidmatan yang dibeli pada baris subkontrak. | 
-| Jenis Baris | Medan ini ialah nilai lalai.  |
-| Kaedah Pengebilan | Pilih kaedah pengebilan. Berdasarkan kaedah pengebilan baris subkontrak yang dirujuk, jadual invois berasaskan pencapaian disediakan untuk kaedah pengebilan Harga Tetap. |
-| Kelas Transaksi | Medan ini ialah nilai lalai yang menunjukkan sama ada baris subkontrak digunakan untuk merekodkan pembelian masa subkontraktor. |
-| Peranan | Peranan sumber subkontrak yang masanya dibeli. Peranan ditugaskan kepada sumber subkontrak menentukan kos pembelian. |
-| Permulaan Diminta | Tarikh apabila sumber subkontraktor perlu mula bekerja. Permulaan diminta juga digunakan untuk memilih senarai harga projek daripada senarai harga projek yang dilampirkan kepada subkontrak. Kos peranan pada baris subkontrak kemudian terlalai daripada senarai harga tersebut. |
-| Penamatan diminta | Tarikh apabila tugasan sumber subkontraktor tamat. Tarikh ini digunakan untuk menunjukkan amaran apabila Pengurus Projek menarik daripada keupayaan ini untuk keperluan sumber yang berlaku selepas tarikh ini. |
-| Kuantiti Dipesan | Bilangan jam Peranan yang dibeli daripada vendor. Nilai ini digunakan untuk menunjukkan amaran apabila Pengurus Projek menarik lebih daripada keupayaan ini untuk keperluan sumber. |
-| Kumpulan Unit | Nilai medan ini terlalai kepada kumpulan unit Masa dan tidak boleh diubah.  |
-| Unit | Medan ini terlalai kepada unit asas jam daripada kumpulan unit Masa. Anda boleh mengubah nilai ini untuk membeli apa-apa unit daripada kumpulan unit Masa, seperti hari atau minggu. Gabungan Peranan dan Unit digunakan untuk mengira harga unit untuk baris subkontrak. |
-| Harga Unit | Harga unit terlalai daripada gabungan Peranan dan Unit daripada senarai harga projek yang terpakai untuk tarikh mula yang diminta pada baris subkontrak. Apabila senarai harga projek terpakai mempunyai harga yang ditetapkan dalam unit yang berbeza daripada unit pada baris subkontrak, sistem menggunakan penukaran unit untuk mengira harga seunit. |
-| Jumlah kecil | Ini merupakan medan baca sahaja yang dikira secara automatik sebagai **Kuantiti x Harga unit** jika kuantiti dan nilai harga unit dimasukkan. Jika sama ada kuantiti, harga unit atau kedua-duanya kosong, anda boleh memasukkan nilai dalam medan. |
-| Cukai Jualan |  Masukkan amaun cukai jualan. |
-| Jumlah Amaun | Jumlah amaun baris subkontrak selepas cukai dimasukkan. |
-
+| **Medan** | **Perihalan** | **Kesan kefungsian** |
+| --- | --- | --- |
+| Nama | Nama baris subkontrak untuk membantu pengenalpastian. | Ini akan ditunjukkan sebagai lajur pertama dalam semua carian berdasarkan pada baris subkontrak. |
+| Penerangan | Penerangan ringkas tentang perkhidmatan yang dibeli pada baris subkontrak. |Tiada |
+| Jenis Baris |   Nilai medan ini mempunyai nilai lalai daripada **Berasaskan kuantiti**.| Tiada |
+| Kaedah Pengebilan | Ini adalah set pilihan yang mewakili dua model kontrak utama disokong oleh Project Operations: **Harga Tetap** dan **Masa dan Bahan**. | Berdasarkan pada kaedah pengebilan yang dipilih, jadual invois berasaskan pencapaian tersedia untuk baris subkontrak dengan kaedah pengebilan Harga Tetap. |
+| Kelas Transaksi | Nilai lalai ialah **Masa**. | Ini menunjukkan bahawa baris subkontrak sedang digunakan untuk merekod pembelian masa subkontraktor. |
+| Peranan | Pilih peranan sumber subkontrak untuk masa yang sedang dibeli. | Peranan yang dilakukan oleh sumber subkontrak menentukan kos pembelian. |
+| Permulaan Diminta | Peranan yang dilakukan oleh sumber subkontrak menentukan kos pembelian. | Ini digunakan untuk memilih senarai harga projek daripada senarai harga projek yang dilampirkan ke subkontrak. Kos peranan pada baris subkontrak datang daripada senarai harga. |
+| Penamatan Diminta | Masukkan tarikh apabila penugasan sumber subkontraktor tamat. | Ini akan digunakan untuk menunjukkan amaran apabila pengurus projek menarik diri daripada keupayaan untuk keperluan sumber yang berlaku selepas tarikh ini. |
+| Kuantiti Dipesan | Masukkan bilangan jam peranan yang dibeli daripada vendor. | Ini akan digunakan untuk menunjukkan amaran apabila pengurus projek menarik diri secara berlebihan daripada keupayaan ini untuk keperluan sumber. |
+| Kumpulan Unit | Nilai lalai ialah **Kumpulan unit masa** yang tidak boleh diubah. | Tiada|
+| Unit | Lalai untuk medan ini ialah unit asas jam daripada **Kumpulan unit masa**. Anda boleh mengubah nilai ini untuk membeli apa-apa unit bagi **Kumpulan unit masa** seperti hari atau minggu. | Gabungan **Peranan** dan **Unit** akan digunakan sebagai lalai atau dikira untuk harga unit bagi baris subkontrak. |
+| Harga Unit | Harga unit lalai menggunakan gabungan **Peranan** dan **Unit** daripada senarai harga projek yang berkenaan dengan untuk tarikh **Tarikh Mula Diminta** bagi baris subkontrak. | Apabila senarai harga projek terpakai mempunyai harga yang ditetapkan dalam unit yang berbeza daripada unit pada baris subkontrak, sistem menggunakan penukaran unit untuk mengira harga seunit. |
+| Jumlah kecil |    Ini ialah medan baca sahaja yang dikira sebagai Kuantiti x harga Unit, jika kedua-dua kuantiti dan nilai harga unit dimasukkan. Jika sama ada kuantiti, harga unit atau kedua-duanya kosong, anda boleh memasukkan nilai dalam medan. | Tiada|
+| Cukai Jualan |   Masukkan amaun cukai jualan. |Tiada |
+| Jumlah Amaun | Jumlah amaun baris subkontrak termasuk cukai. Medan ini dikira sebagai Subjumlah + cukai Jualan.|Tiada |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Ciri baharu
       items:
+        - name: Oktober 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Ogos 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Julai 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
@@ -292,7 +296,7 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API jadual Projek (Pratonton Awam)
+            - name: Gunakan API Jadual projek
               href: project-management/schedule-api-preview.md
     - name: Pengurusan sumber
       items:
@@ -442,8 +446,16 @@
       items:
         - name: Konfigurasikan bahan bukan distok dan invois vendor yang belum selesai
           href: procurement/configure-materials-nonstocked.md
-        - name: Dapatkan bahan tidak distok untuk projek menggunakan invois vendor yang belum selesai
+        - name: Dapatkan bahan bukan distok untuk projek menggunakan invois vendor yang belum selesai
           href: procurement/pending-vendor-invoices.md
+        - name: Pesan bahan bukan distok untuk projek menggunakan pesanan pembelian projek
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Pengekalan vendor
+          items:
+            - name: Gambaran keseluruhan pengekalan vendor
+              href: procurement/vendor-retention-overview.md
+            - name: Menyediakan pengekalan vendor
+              href: procurement/set-up-vendor-retention.md
     - name: Penginvoisan
       items:
         - name: Gambaran keseluruhan proses penginvoisan
@@ -526,11 +538,15 @@
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Pelaksanaan capaian awal gelombang 2 tahun 2021 ciri baharu - ringan
+        - name: Capaian awal gelombang 2 tahun 2021 ciri baharu - pelaksanaan ringan
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Pelaksanaan ciri baharu Ogos 2021 - ringan
+        - name: Ciri baharu Oktober 2021 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Ciri baharu September 2021 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: Ciri baharu Ogos 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Pelaksanaan ciri baharu Julai 2021 - ringan
+        - name: Ciri baharu Julai 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Pelaksanaan ciri baharu Jun 2021 - ringan
           href: pro/whats-new/whats-new-june-2021-lite.md
@@ -784,7 +800,7 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API jadual Projek (Pratonton Awam)
+            - name: Gunakan API Jadual projek
               href: project-management/schedule-api-preview.md
     - name: Pengurusan sumber
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Baris subkontrak untuk masa
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Baris subkontrak untuk perbelanjaan
+        - name: Baris subkontrak untuk kategori perbelanjaan
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Baris subkontrak untuk produk
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Kemas kini jadual Keluaran untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 34, V3'
