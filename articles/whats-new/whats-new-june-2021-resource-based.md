@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003872"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679220"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
 
@@ -30,6 +30,7 @@ Ciri berikut disertakan dalam keluaran ini:
 - Keupayaan untuk memadamkan [Baris cadangan invois projek untuk senario pelarasan](../invoicing/correct-project-invoice-proposals.md).
 - Baris perbelanjaan terbutir menunjukkan nama subkategori dalam laporan perbelanjaan [Laporan Perbelanjaan Digambarkan Semula-Ciri Baharu](../expense/expense-reports-reimagined.md#new-features).
 - Kaedah pembayaran tersedia dalam anak tetingkap perbelanjaan baharu apabila mencipta perbelanjaan baharu.
+- Ketersediaan umum API jadual Projek. Kefungsian baharu ini membolehkan pelanggan untuk melakukan, mencipta, mengemas kini dan memadamkan operasi secara berprogram pada tugas projek, tugasan sumber, kebergantungan tugas dan rekod ahli pasukan projek. Untuk mendapatkan maklumat lanjut, lihat [Gunakan API jadual Projek untuk melakukan operasi dengan entiti Penjadualan](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Kemas kini peta dwi tulis Project Operations
 

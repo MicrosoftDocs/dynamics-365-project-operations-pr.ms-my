@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integrasi invois vendor
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Nyahpasang Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Ciri baharu
       items:
         - name: Oktober 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
@@ -296,8 +298,10 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API Jadual projek
+            - name: Gunakan API jadual projek
               href: project-management/schedule-api-preview.md
+            - name: Prestasi API jadual projek
+              href: project-management/project-schedule-api-performance.md
     - name: Pengurusan sumber
       items:
         - name: Konsep utama
@@ -800,8 +804,10 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API Jadual projek
+            - name: Gunakan API jadual projek
               href: project-management/schedule-api-preview.md
+            - name: Prestasi API jadual projek
+              href: project-management/project-schedule-api-performance.md
     - name: Pengurusan sumber
       items:
         - name: Konsep utama
@@ -1100,8 +1106,10 @@
       href: psa/overview.md
     - name: Ciri baharu
       items:
-        - name: Kemas kini jadual Keluaran untuk Project Service 3.x
+        - name: Jadual Keluaran Kemas kini untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 35, V3'

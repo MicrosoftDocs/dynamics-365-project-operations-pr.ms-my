@@ -2,16 +2,16 @@
 title: Cipta struktur pecahan kerja
 description: Topik ini menerangkan cara untuk mencipta struktur pecahan kerja (WBS) termasuk kawalan asas dalam antara muka penjadualan baru.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998742"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655428"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Cipta struktur pecahan kerja (WBS)
 
@@ -117,5 +117,26 @@ Mod tugas tidak memberi kesan ke atas kemas kini yang dibuat pada tarikh mula da
 
 Grid **Jadual** boleh diakses sepenuhnya dan boleh digunakan dengan pembaca skrin seperti Pencerita, JAWS atau NVDA. Anda boleh bergerak melalui kawasan grid dengan menggunakan kekunci anak panah (seperti dalam Microsoft Excel), anda boleh menggunakan kekunci Tab untuk maju melalui elemen antaramuka pengguna interaktif dan anda boleh menggunakan kekunci anak panah Bawah, kekunci Enter atau Bar Ruang untuk memilih dan buka menu ke bawah.
 
+## <a name="project-limitations"></a>Batasan projek 
+Anda harus sedar batasan berikut jika anda menggunakan struktur pecahan kerja dalam Project Operations. Had ini diguna pakai pada projek dan tugas. Untuk mendapatkan maklumat lanjut, lihat [had dan sempadan Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Medan**                                          |  **Had**           |
+|----------------------------------------------------|----------------------|
+| Jumlah tugas maksimum untuk projek                  | 500                  |
+| Jumlah tempoh maksimum untuk projek               | 3,650 hari (10 tahun) |
+| Jumlah sumber maksimum untuk projek              | 150                  |
+| Jumlah pautan maksimum (pengganti sahaja) untuk projek | 600                  |
+| Jumlah medan tersuai maksimum untuk projek          | 10                   |
+
+**Batasan tugas**
+
+| **Medan**                               |   **Had**           |
+|-----------------------------------------|-----------------------|
+| Tahap hierarki maksimum                 | 10 tahap             |
+| Pautan maksimum (pengganti + pendahulu) | 20                    |
+| Tempoh maksimum tugas daun           | 1250 hari             |
+| Tempoh maksimum tugas ringkasan      | 3,650 hari (10 tahun)  |
+| Sumber maksimum ditugaskan kepada tugas    | 20 sumber          |
+| Julat tarikh yang disokong untuk tugas         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
