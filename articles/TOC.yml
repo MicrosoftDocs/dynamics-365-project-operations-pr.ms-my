@@ -58,7 +58,9 @@
           href: environment/uninstall-project-operations.md
     - name: Ciri baharu
       items:
-        - name: Oktober 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+        - name: November 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: Oktober 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: September 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-sept-2021-resource-based.md
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Prestasi API jadual projek
               href: project-management/project-schedule-api-performance.md
+            - name: Log penjadualan projek
+              href: project-management/schedule-api-logs.md
     - name: Pengurusan sumber
       items:
         - name: Konsep utama
@@ -544,6 +548,8 @@
       items:
         - name: Capaian awal gelombang 2 tahun 2021 ciri baharu - pelaksanaan ringan
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Ciri baharu November 2021 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Ciri baharu Oktober 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Ciri baharu September 2021 - pelaksanaan ringan
@@ -952,6 +958,10 @@
   items:
     - name: Ciri baharu
       items:
+        - name: Ciri baharu Oktober 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Ciri baharu September 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Ciri baharu Julai 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Ciri baharu Mei 2021 - Project Operations untuk senario berdasarkan distok/pengeluaran
@@ -1108,6 +1118,8 @@
       items:
         - name: Jadual Keluaran Kemas kini untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 36, V3'

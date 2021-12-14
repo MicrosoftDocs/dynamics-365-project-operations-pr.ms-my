@@ -2,7 +2,7 @@
 title: Aplikasi Perbelanjaan Mudah Alih
 description: Topik ini menyediakan maklumat tentang ruang kerja mudah alih pengurusan Perbelanjaan.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993207"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818194"
 ---
 # <a name="mobile-expense-app"></a>Aplikasi Perbelanjaan Mudah Alih
 
@@ -47,42 +47,9 @@ Anda juga boleh menggunakan ciri ini:
 - Serahkan laporan perbelanjaan untuk kelulusan dan pembayaran balik.
 - Lulus atau tolak Laporan perbelanjaan yang ditugaskan kepada anda sebagai pelulus.
 
-## <a name="prerequisites"></a>Prasyarat
-Prasyarat berbeza berdasarkan pada versi yang telah dilaksanakan untuk organisasi anda.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika anda menggunakan Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika anda menggunakan Dynamics 365 Finance 
 Jika Kewangan telah dilaksanakan untuk organisasi anda, pentadbir sistem mesti menerbitkan ruang kerja mudah alih **Pengurusan perbelanjaan**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prasyarat jika anda menggunakan versi 1611 dengan kemas kini platform 3 atau lebih baharu
-Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu dilaksanakan untuk organisasi anda, pentadbir sistem mesti melengkapkan prasyarat berikut. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Prasyarat</th>
-<th>Peranan</th>
-<th>Penerangan</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Melaksanakan KB 4019015.</td>
-<td>Pentadbir sistem</td>
-<td>KB 4019015 adalah kemas kini X++ atau hotfix metadata yang mengandungi ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>. Untuk melaksanakan KB 4019015, pentadbir sistem anda mesti mengikut langkah ini.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Muat turun kemas kini daripada Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Pasang hotfix metadata</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cipta pakej boleh dilaksanakan</a> yang mengandungi model <strong>ApplicationSuite</strong> dan <strong>ExpenseMobile</strong> dan kemudian muat naik pakej boleh dilaksanakan ke LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Gunakan pakej boleh dilaksanakan</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Terbitkan ruang kerja mudah alih <strong>Pengurusan perbelanjaan</strong>.</td>
-<td>Pentadbir sistem</td>
-<td>Liht <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Terbitkan ruang kerja mudah alih</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops
 Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
@@ -103,11 +70,11 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 3. Pilih **Ambil gambar** atau **Pilih imej**.
 4. Ikuti salah satu langkah ini:
 
-   - Jika anda memilih **Ambil gambar**, ikuti langkah ini:
+    - Jika anda memilih **Ambil gambar**, ikuti langkah ini:
 
-      1. Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu. 
-      2. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
-      3. Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.
+        1. Anda dibawa ke kamera pada peranti mudah alih anda supaya anda boleh mengambil gambar resit itu. 
+        2. Apabila anda telah selesai mengambil gambar, pilih **OK** untuk menerima gambar.
+        3. Pilihan: Masukkan nama untuk gambar dan masukkan sebarang nota.
 
     - Jika anda memilih **Pilih imej**, ikuti langkah ini:
 
@@ -133,20 +100,20 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 
 10. Pilih **Selesai**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Luluskan laporan perbelanjaan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan (jika anda menggunakan kemas kini Julai 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Meluluskan laporan perbelanjaan menggunakan ruang kerja mudah alih pengurusan perbelanjaan
 
 1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
 2. **Kelulusan perbelanjaan** menunjukkan bilangan laporan perbelanjaan yang ditugaskan kepada anda untuk kelulusan. Nombor dikemas kini kira-kira setiap 30 minit. Pilih **Kelulusan Perbelanjaan**.
 
     Senarai laporan perbelanjaan yang ditugaskan kepada anda untuk kelulusan ditunjukkan.
-    
+
 3. Pilih laporan perbelanjaan untuk melihat butiran perbelanjaan untuknya.
 4. Pilih perbelanjaan untuk melihat butiran perbelanjaan untuknya. Maklumat yang ditunjukkan untuk perbelanjaan termasuk sebarang resit, tetamu dan butiran perincian.
 5. Kembali ke halaman **Laporan perbelanjaan**, pilih untuk melulus atau menolak laporan perbelanjaan.
 6. Masukkan sebarang komen untuk tindakan kelulusan.
 7. Pilih **Selesai**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Cipta laporan perbelanjaan baharu dan serahkannya untuk kelulusan dengan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan (jika anda menggunakan kemas kini Julai 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Cipta laporan perbelanjaan baharu dan serahkannya untuk kelulusan menggunakan ruang kerja mudah alih Pengurusan perbelanjaan
 
 1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
 2. Pilih **Entri perbelanjaan**.
@@ -184,12 +151,12 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
                     1. Pilih imej dalam senarai.
                     2. Pilihan: Masukkan nama untuk imej dan masukkan sebarang nota.
 
-            3.  Pilih **Selesai**.
+            3. Pilih **Selesai**.
 
         - Jika anda memilih **Lampirkan resit**, ikuti langkah ini:
 
-            1.  Pilih satu atau lebih imej dalam senarai.
-            2.  Pilih **Selesai**.
+            1. Pilih satu atau lebih imej dalam senarai.
+            2. Pilih **Selesai**.
 
     3. Pilih butang **Kembali** untuk kembali ke butiran perbelanjaan..
 
@@ -235,5 +202,30 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 23. Masukkan sebarang komen untuk pelulus.
 24. Pilih **Selesai**.
 
+## <a name="frequently-asked-questions"></a>Soalan lazim
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Mengapakah apl mudah alih Perbelanjaan tidak memasukkan kaedah pembayaran secara lalai?
+
+Organisasi boleh menyesuaikan **tetapan Kaedah pembayaran lalai untuk setiap kategori perbelanjaan semasa ia** dicipta. Selain itu, apabila anda menyediakan kaedah pembayaran, anda boleh menetapkan **medan Kaedah pembayaran lalai kepada Import** **sahaja**.
+
+Apabila **Import hanya** didayakan untuk kaedah pembayaran, kaedah pembayaran tidak dimasukkan secara lalai. Ia akan menjadi kosong dalam kategori perbelanjaan di mana kaedah pembayaran ini disediakan. Tingkah laku ini konsisten dalam pengalaman web dan pengalaman mudah alih.
+    
+Apabila **Import tidak** didayakan untuk kaedah pembayaran, nilai yang ditetapkan dimasukkan secara lalai untuk kategori perbelanjaan yang kaedah pembayaran ini disediakan. Walau bagaimanapun, terdapat isu yang diketahui di mana nilai lalai tidak dimasukkan dalam apl mudah alih Perbelanjaan. Untuk menyelesaikan isu ini, pilih kaedah pembayaran secara manual sebelum anda menyimpan laporan perbelanjaan. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Mengapakah saya tidak boleh menambah atau mengedit dimensi kewangan dalam apl mudah alih Perbelanjaan?
+
+Kemasukan dimensi dan taburan tidak disokong. Untuk mengatasi had ini, anda boleh menetapkan medan ini secara lalai dalam aplikasi mudah alih dengan menyediakan dimensi kewangan lalai bagi setiap projek atau pekerja.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Mengapakah saya kadangkala melihat ralat penyegerakan dalam aplikasi mudah alih Perbelanjaan?
+
+Jika garis perbelanjaan tidak memenuhi keperluan dasar dan pengguna menyerahkan laporan perbelanjaan tanpa menangani amaran dasar, data mudah alih tidak disegerakkan ke pelayan dan kegagalan penyegerakan berlaku. Semua laporan perbelanjaan yang dikemukakan selepas kegagalan penyegerakan berlaku akan kekal dalam keadaan gagal dan menyebabkan lebih banyak kegagalan penyegerakan. Satu-satunya cara untuk membetulkan keadaan ini adalah dengan memadam pemberitahuan penyegerakan secara manual. Isu ini telah ditangani dengan menghentikan penyerahan laporan perbelanjaan apabila amaran dasar belum ditangani, supaya ralat penyegerakan dapat dielakkan.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Mengapa pengesahan projek dan kategori tidak dicerminkan dengan betul dalam aplikasi mudah alih Perbelanjaan?
+
+Pengesahihan ini tidak disokong buat masa ini. Walau bagaimanapun, sokongan mungkin ditambah pada masa akan datang. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Apakah jenis dokumen yang disokong dalam aplikasi mudah alih Perbelanjaan?
+
+Aplikasi mudah alih Perbelanjaan hanya menyokong imej. Ia tidak menyokong PDF atau dokumen lain buat masa ini.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
