@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827337"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942896"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu November 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -20,8 +20,8 @@ ms.locfileid: "7827337"
 
 Topik ini digunakan pada komponen dan versi Microsoft Dynamics 365 Project Operations berikut:
 
-- Operasi Projek dalam 4.26.0.145, 4.26.0.148, versi persekitaran Dataverse atau 4.26.0.150
-- Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.22
+- Operasi Projek dalam Dataverse versi persekitaran 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Pengurusan projek dan perakaunan dalam Dynamics 365 Finance persekitaran versi 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
 
@@ -33,7 +33,7 @@ Ciri berikut disertakan dalam keluaran ini:
 
 Tiada kemas kini untuk peta dwi tulis Project Operations dalam keluaran ini. Untuk senarai semasa dan versi peta dwi tulis Project Operations, lihat [Versi peta dwi tulis Project Operations](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Sentiasa jalankan versi terkini peta dalam persekitaran anda dan dayakan semua peta jadual yang berkaitan semasa anda mengemas kini Operasi Projek Dataverse penyelesaian dan versi penyelesaian Kewangan anda. Sesetengah ciri dan keupayaan mungkin tidak berfungsi dengan betul jika versi peta terkini tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur **Versi** pada halaman **Dwi tulis**. Untuk mengaktifkan versi baharu peta dengan, pilih **Versi peta jadual**, pilih versi terkini dan kemudian simpan versi yang dipilih. Jika anda telah menyesuaikan peta jadual di luar kotak, gunakan semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Sentiasa jalankan versi terkini peta dalam persekitaran anda dan dayakan semua peta jadual berkaitan semasa anda mengemas kini penyelesaian Operasi Projek Dataverse dan versi penyelesaian Kewangan anda. Sesetengah ciri dan keupayaan mungkin tidak berfungsi dengan betul jika versi peta terkini tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur **Versi** pada halaman **Dwi tulis**. Untuk mengaktifkan versi baharu peta dengan, pilih **Versi peta jadual**, pilih versi terkini dan kemudian simpan versi yang dipilih. Jika anda telah menyesuaikan peta jadual di luar kotak, gunakan semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jika anda menghadapi isu apabila anda memulakan peta, ikut arahan dalam [lajur Jadual hilang isu pada bahagian peta panduan penyelesaian masalah](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) dwi-tulis.
 
@@ -67,7 +67,7 @@ Jika anda menghadapi isu apabila anda memulakan peta, ikut arahan dalam [lajur J
 | Pengurusan projek dan perakaunan | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Apabila pengekalan vendor dikeluarkan, pengeposan baucar mempunyai baris tambahan yang tidak betul. |
 | Pengurusan projek dan perakaunan | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Apabila jurnal integrasi Operasi Projek disiarkan, ia gagal kerana dimensi yang hilang untuk akaun yang tidak disiarkan. |
 | Pengurusan projek dan perakaunan | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | **Tab Projek tidak boleh** diedit pada invois vendor belum selesai apabila kategori perolehan diberikan kepada item. |
-| Pengurusan projek dan perakaunan | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Anak tetingkap navigasi hilang jika anda tidak log masuk ke Dataverse Operasi Projek. |
+| Pengurusan projek dan perakaunan | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Anak tetingkap navigasi hilang jika anda tidak log masuk ke Operasi Projek Dataverse. |
 | Pengurusan projek dan perakaunan | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Apabila anda menyiarkan hasil daripada invois projek dalam kes penahan yang digunakan, isu berlaku kerana transaksi pada baucar tidak seimbang. |
 | Pengurusan projek dan perakaunan | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Penciptaan anggaran selepas anda menyiarkan cadangan invois menyekat garisan pembetulan daripada import. |
 | Pengurusan projek dan perakaunan | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Pengubahsuaian rekod tonggak yang diinvois sepenuhnya tidak boleh dilakukan. |

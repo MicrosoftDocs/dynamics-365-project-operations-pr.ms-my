@@ -1,8 +1,8 @@
 ---
-title: Laporan perbelanjaan digambarkan semula
+title: Laporan perbelanjaan diimaginasikan semula (mengandungi video)
 description: Topik ini menerangkan pengalaman yang direka semula dan dibayangkan semula untuk entri laporan perbelanjaan.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997842"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941056"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan perbelanjaan digambarkan semula
 
@@ -58,6 +58,7 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 | Simpan dan tambah baris perbelanjaan baharu | Butang **Simpan** dan **Baharu** tersedia apabila perbelanjaan baharu dimasukkan, untuk membantu anda memasukkan baris perbelanjaan dengan cepat. |
 | Keterlihatan yang lebih baik ke dalam baris yang diperincikan dan terpisah | Garis yang diperincikan dan terpisah ditambah secara langsung pada senarai perbelanjaan untuk meningkatkan keterlihatan dan membantu anda menentukan sama ada terdapat sebarang ralat dengan mudah. |
 | Lihat butiran subkategori dalam baris terbutir | Baris terperinci perbelanjaan induk menunjukkan label subkategori pada laporan perbelanjaan. Perincian tersebut membolehkan anda menyemak butiran terperinci sepintas lalu.|
+|Perincikan perbelanjaan berulang dengan cepat | Ruang kerja perbelanjaan yang diimaginasikan semula menyediakan keupayaan untuk memperincikan perbelanjaan berulang dengan cepat dengan menambah subkategori, tarikh mula, dan kuantiti. Kuantiti merujuk kepada bilangan kali caj diulangi dalam tempoh yang berterusan. |
 | Tunjuk resit semasa pemerincian | Resit boleh ditunjukkan semasa perincian. |
 | Pemilihan pendahuluan tunai | Pilih satu atau lebih pendahuluan tunai untuk memenuhi transaksi perbelanjaan tunggal. |
 | Baki pendahuluan tunai | Semak baki pendahuluan tunai dalam masa nyata apabila anda mencipta entri perbelanjaan terhadap pendahuluan tunai yang diluluskan dan berbayar. |

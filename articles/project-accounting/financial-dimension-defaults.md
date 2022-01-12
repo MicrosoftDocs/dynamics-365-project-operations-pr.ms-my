@@ -2,16 +2,16 @@
 title: Dimensi perakaunan lalai
 description: Topik ini memberikan maklumat mengenai cara untuk menyediakan lalai dimensi kewangan.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005447"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922949"
 ---
 # <a name="financial-dimension-defaults"></a>Dimensi perakaunan lalai
 
@@ -60,6 +60,15 @@ Projek dicipta dan dikekalkan dalam (CDS). Atribut perakaunan bagi projek diteta
 4. Tetapkan dimensi perakaunan lalai. Perhatikan bahawa dimensi kewangan lalai daripada akaun pelanggan. Jika projek berkaitan dengan baris kontrak dengan pelanggan kontrak berbilang projek, pelanggan utama digunakan untuk dimensi kewangan lalai.
 
 Projek dimensi kewangan lalai digunakan untuk menetapkan garisan jurnal lalai untuk masa, perbelanjaan dan yuran transaksi dalam **Jurnal Integrasi Project Operations** dan pada baris invois projek berkaitan.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Menggunakan dimensi kewangan untuk entri masa projek
+Untuk menggunakan dimensi kewangan bagi entri masa projek, ambil perhatian bahawa nilai dimensi lalai adalah berdasarkan tertib berikut:
+
+1. Sumber
+2. Project
+3. Sumber pembiayaan
+
+Sebagai contoh, jika dimensi lalai ditentukan pada sumber, ia akan digunakan ke atas lalai yang ditentukan pada projek. Begitu juga, dimensi projek lalai akan digunakan ke atas lalai yang dinyatakan dalam sumber pembiayaan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

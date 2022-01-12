@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e8560e7c7d6bae1bb2fda389a63bde1c57654bcb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: 0fd910fb1b1e4e4576afa386a600e56e6f2dd504
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827292"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942942"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Apa yang baru November 2021 - Operasi Projek lite deployment
 
@@ -20,7 +20,7 @@ _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
 Topik ini digunakan pada komponen dan versi Microsoft Dynamics 365 Project Operations berikut:
 
-- Operasi Projek dalam 4.26.0.145, 4.26.0.148, versi persekitaran Dataverse atau 4.26.0.150
+- Operasi Projek dalam Dataverse versi persekitaran 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
 
