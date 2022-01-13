@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Kemas kini Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Ciri dialih keluar atau ditamatkan
+      items:
+        - name: Ciri dialih keluar atau ditamatkan dalam Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations untuk senario berdasarkan sumber/bukan stok
   items:
     - name: Mari bermula
@@ -58,7 +62,9 @@
           href: environment/uninstall-project-operations.md
     - name: Ciri baharu
       items:
-        - name: November 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
+        - name: Disember 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: November 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
           href: whats-new/whats-new-oct-2021-resource-based.md
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Sediakan perbatuan menggunakan peringkat kadar perbatuan
               href: expense/set-up-mileage.md
+        - name: Penyenaraian perbelanjaan
+          href: prod-exp/expense-itemization.md
         - name: Perbelanjaan peribadi
           href: expense/personal-expenses-expense-report.md
         - name: Perbelanjaan antara syarikat
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Uruskan anggaran hasil
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Penyelesaian Masalah
+      items:
+        - name: Proses jualan projek
+          items:
+            - name: 'Ralat mata wang tidak sepadan apabila mencipta projek, kontrak, sebut harga atau sumber boleh ditempah'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Pelaksanaan ringan - urusan untuk penginvoisan proforma
   items:
     - name: Mari bermula
@@ -546,8 +560,10 @@
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Capaian awal gelombang 2 tahun 2021 ciri baharu - pelaksanaan ringan
+        - name: Ciri baharu akses awal gelombang 2 tahun 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Ciri baharu Disember 2021 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Ciri baharu November 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Ciri baharu Oktober 2021 - pelaksanaan ringan
@@ -890,10 +906,24 @@
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Baris subkontrak untuk produk
           href: pro/subcontracting/subcontract-line-products.md
-        - name: Sumber baris subkontrak
+        - name: Sumber baris subkontraktor
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Pencapaian baris subkontrak
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Ahli pasukan projek subkontrak
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Pilihan subkontrak untuk ahli pasukan projek
+          href: pro/subcontracting/subcon-options.md
+        - name: Anggaran kos tugasan sumber yang disubkontrak
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurasikan Papan Jadual untuk menunjukkan pekerja kontrak dan kapasiti yang disubkontrak
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Kakitangan projek dengan pekerja kontrak dan kapasiti yang disubkontrak
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Merekod masa, perbelanjaan dan penggunaan bahan untuk komponen yang disubkontrak'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Peralihan negeri pada subkontrak
+          href: pro/subcontracting/subcon-states.md
     - name: Masa
       items:
         - name: Gambaran keseluruhan masa
@@ -1116,11 +1146,13 @@
       href: psa/overview.md
     - name: Ciri baharu
       items:
-        - name: Jadual Keluaran Kemas kini untuk Project Service 3.x
+        - name: Jadual Keluaran Kemas Kini untuk Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 37.5, V3'
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 38, V3'
+          href: psa/whats-new-ur-38.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 37.5, V3'
           href: psa/whats-new-ur-37-5.md
-        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 37, V3'
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas kini 36, V3'
           href: psa/whats-new-ur-36.md
@@ -1198,13 +1230,15 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Panduan sebut harga, penentuan harga dan pengebilan asas.'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Panduan sebut harga, penentuan harga dan pengebilan lanjutan'
+        - name: 'Panduan sebut harga, harga dan pengebilan lanjutan'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Panduan pengurusan sumber
           href: psa/implementation-guides/resource-management-guide.md
         - name: Panduan pelaporan
           href: psa/implementation-guides/reporting-guide.md
-    - name: Naik taraf Project Service Automation (aplikasi versi 3.x)
+    - name: Naik taraf daripada Project Service Automation kepada Project Operations - ringan
+      href: psa/upgrade-project-operations-non-stocked.md
+    - name: Naik taraf Project Service Automation (versi aplikasi 3.x)
       items:
         - name: Naik taraf Project Service Automation
           href: psa/upgrade-psa-home-page.md
