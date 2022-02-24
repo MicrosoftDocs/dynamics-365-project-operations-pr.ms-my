@@ -2,10 +2,12 @@
 title: Sediakan medan tersuai sebagai dimensi penetapan harga
 description: Topik ini memberikan maklumat tentang penyediaan dimensi penetapan harga tersuai.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002342"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150364"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Sediakan medan tersuai sebagai dimensi penetapan harga 
 
@@ -41,11 +43,11 @@ Untuk medan untuk menjadi dimensi penetapan harga, ia mesti:
 - Dicipta sebagai medan dalam **Peranan Harga** dan entiti **Tokokan Peranan Harga**. Untuk mendapatkan maklumat lanjut tentang cara untuk melakukannya, lihat [Tambah medan tersuai kepada persediaan harga dan entiti transaksi](field-references.md).
 - Dicipta sebagai baris dalam jadual **Dimensi Penetapan harga**. Contohnya, tambah baris dimensi penetapan seperti yang ditunjukkan dalam grafik yang berikut. 
 
-![Baris Dimensi Penentuan Harga Berasaskan Amaun.](media/Amt-based-PD.png)
+![Baris Dimensi Penentuan Harga Berasaskan Jumlah](media/Amt-based-PD.png)
 
 Perhatikan bahawa masa Kerja sumber (**msdyn_resourceworkhours**) telah ditambah sebagai dimensi berasaskan tokokan dan telah ditambah ke grid pada tab **Dimensi Penetapan Harga Berdasarkan Tokokan**.
 
-![Baris Dimensi Penentuan Harga Berasaskan Tokokan.](media/Markup-based-PD.png)
+![Tokokan - berdasarkan Baris Dimensi Penentuan Harga Berasaskan](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Sebarang perubahan kepada data dimensi penetapan harga dalam jadual ini, sedia ada atau baharu, disebarkan kepada pemacu perniagaan penetapan harga Project Service hanya selepas cache disegar semula. Masa menyegar semula cache mungkin mengambil masa sehingga 10 minit. Benarkan tempoh masa untuk melihat perubahan dalam logik harga yang ditetapkan yang mesti disebabkan oleh perubahan pada data Dimensi Penetapan Harga.
@@ -72,8 +74,8 @@ Terdapat dua jenis dimensi penetapan harga.
 | Peranan        | Unit Organisasi    |Lokasi Kerja      |Tajuk Standard      |Waktu Kerja Sumber      |  Tokokan|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Di Tapak            |                    |Kerja Lebih Masa                 |15     |
-|             | Contoso India|Setempat             |                    |Kerja Lebih Masa                 |10     |
-|             | Contoso AS   |Setempat             |                    |Kerja Lebih Masa                 |20     |
+|             | Contoso India|Tempatan             |                    |Kerja Lebih Masa                 |10     |
+|             | Contoso AS   |Tempatan             |                    |Kerja Lebih Masa                 |20     |
 
 
 Jika sumber dari Contoso India yang mana kadar asas adalah 100 USD bekerja di tempat kerja, dan mereka log 8 jam masa Tetap dan 2 jam lebih masa kerja pada masa kemasukan, enjin penetapan Project Service akan menggunakan kadar asas 100 untuk 8 jam untuk merakam 800 USD. Untuk kerja lebih masa 2 jam, tokokan sebanyak 15% akan dikenakan ke atas kadar asas 100 untuk mendapatkan harga seunit 115 USD dan akan merekodkan jumlah kos 230 USD.
@@ -92,6 +94,3 @@ Menetapkan keutamaan dimensi membantu penetapan harga Project Service menghasilk
 
 - **Keutamaan Kos**: Nilai keutamaan kos dimensi akan menunjukkan berat dimensi tersebut apabila sepadan dengan penyediaan harga kos. Nilai **Keutamaan Kos** mesti unik merentasi dimensi yang **Digunakan pada Kos.**
 - **Keutamaan Jualan**: Nilai keutamaan kos dimensi akan menunjukkan berat dimensi tersebut apabila sepadan dengan penyediaan harga jualan atau kadar bil. Nilai **Keutamaan Jualan** mesti unik merentasi dimensi yang **Digunakan pada Jualan.**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

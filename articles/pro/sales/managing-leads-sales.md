@@ -2,16 +2,18 @@
 title: Urus bakal pelanggan - lite
 description: Topik ini memberikan maklumat tentang mengurus bakal pelanggan berasaskan projek (pro).
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991407"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272849"
 ---
 # <a name="manage-leads---lite"></a>Urus bakal pelanggan - lite
 
@@ -53,7 +55,7 @@ Bakal pelanggan yang mempunyai nilai **Jenis** ditetapkan ke **Berasaskan kerja*
 - Rekod kenalan yang berkaitan dengan akaun berasaskan pada nilai dalam medan **Nama Pertama** dan **Nama Akhir** pada bakal pelanggan.
 - Peluang berasaskan projek yang mempunyai medan **Jenis** ditetapkan kepada **Berasaskan kerja**.
 
-Untuk maklumat terperinci tentang bakal pelanggan yang layak, lihat [Pelanggan yang layak atau tukar](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Untuk maklumat terperinci tentang bakal pelanggan yang layak, lihat [Pelanggan yang layak atau tukar](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Aliran proses perniagaan untuk urusan berasaskan projek
 

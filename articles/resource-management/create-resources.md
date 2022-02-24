@@ -2,22 +2,21 @@
 title: Cipta sumber
 description: Topik ini menyediakan pautan kepada maklumat tentang cara mencipta sumber yang boleh ditempah.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e1f2be2f0b8ed8fc332a575b165ec23c4e8ab1fc9c50d998da3459c05dbcead1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 727fadb93f870eaded60e060d6b4c981ce276945
+ms.sourcegitcommit: 454b0ec941cca06852236771bc77dc1651f94e48
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008372"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514560"
 ---
 # <a name="create-resources"></a>Cipta sumber
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Anda boleh menggunakan Dynamics 365 Field Service untuk mencipta sumber yang boleh ditempah untuk digunakan dalam persekitaran Dynamics 365 Project Operations anda. Untuk mencipta sumber ini, lihat [Sediakan sumber yang boleh ditempah](/dynamics365/field-service/set-up-bookable-resources).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Anda boleh menggunakan Dynamics 365 Field Service untuk mencipta sumber yang boleh ditempah untuk digunakan dalam persekitaran Dynamics 365 Project Operations anda. Untuk mencipta sumber ini, lihat [Sediakan sumber yang boleh ditempah](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).

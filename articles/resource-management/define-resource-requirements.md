@@ -2,16 +2,18 @@
 title: Takrifkan keperluan sumber
 description: Topik ini memberikan maklumat tentang mentakrifkan maklumat keperluan sumber.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0fe030610424e84c823ae454542f2609a0b206033ab549619865e2c649cce113
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081123"
 ---
 # <a name="define-resource-requirements"></a>Takrifkan keperluan sumber
 
@@ -24,5 +26,3 @@ Keperluan sumber ditakrifkan oleh pengurus Project untuk mewujudkan sumber yang 
 3.  Pada tab **Ahli Pasukan**, pilih ahli pasukan dan kemudian pilih **Jana Keperluan**.
 
 Untuk mendapatkan maklumat mengenai cara mengubah suai keperluan sumber, lihat [Kemas kini butiran keperluan Sumber](define-resource-requirements.md) untuk mengubah suai keperluan sumber.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

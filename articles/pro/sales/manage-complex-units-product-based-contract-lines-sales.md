@@ -2,22 +2,24 @@
 title: Urus unit kompleks untuk baris kontrak berdasarkan produk - lite
 description: Topik ini memberikan maklumat mengenai menyokong jualan produk berasaskan langganan.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003377"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177387"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Urus unit kompleks untuk baris kontrak berdasarkan produk - lite
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Dynamics 365 Project Operations menggunakan faktor kuantiti untuk menyokong jualan produk berdasarkan langganan. Untuk produk berdasarkan langganan, kuantiti pada kontrak atau baris kontrak projek dinyatakan sebagai bilangan bulan pengguna.
+Dynamics 365 Project Operations menggunakan faktor kuantiti untuk menyokong jualan produk berasaskan langganan. Untuk produk berdasarkan langganan, kuantiti pada kontrak atau baris kontrak projek dinyatakan sebagai bilangan bulan pengguna.
 
 Harga perisian langganan disimpan dalam katalog sebagai harga bagi setiap pengguna setiap bulan. Semasa proses jualan, harga pada baris kontrak biasanya adalah harga bagi setiap pengguna, setiap bulan yang telah dirundingkan dan terdiskaun oleh ejen jualan. Setiap urusan mempunyai bilangan pengguna yang berbeza dan bilangan bulan langganan yang berbeza. Kuantiti yang digunakan untuk mengira jumlah baris kontrak adalah produk bilangan pengguna dan bilangan bulan langganan.
 
@@ -44,6 +46,3 @@ Untuk mencipta faktor kuantiti daripada sifat produk, lengkapkan langkah berikut
 7. Ulangi langkah 2-6 untuk semua sifat yang bersama akan membentuk kuantiti untuk baris kontrak berasaskan produk.
 
 Dengan faktor kuantiti yang disediakan, apabila pengguna mencipta baris kontrak untuk produk ini, kuantiti baris kontrak dikunci. Kuantiti kemudian dikira sebagai produk nilai sifat untuk baris kontrak tersebut.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

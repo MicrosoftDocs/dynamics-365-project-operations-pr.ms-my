@@ -2,6 +2,8 @@
 title: Kumpulan unit dan unit
 description: Topik ini menyediakan maklumat mengenai kumpulan unit dan unit.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987582"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145594"
 ---
 # <a name="unit-groups-and-units"></a>Kumpulan unit dan unit
 
@@ -44,7 +46,7 @@ Sebagai contoh, dalam kumpulan unit **Masa**, jika anda meyediakan **Jam** sebag
 
 Imej berikut menunjukkan persediaan contoh untuk unit **Hari**, tempat medan **Kuantiti** menunjukkan bilangan jam yang berada dalam sehari dan **Minggu**, di mana medan **Kuantiti** menunjukkan bilangan hari dalam seminggu.
 
-> ![Kumpulan unit: Halaman maklumat.](media/advanced-2.png)
+> ![Unit kumpulan: Halaman maklumat](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Menggunakan unit dan kumpulan unit
 
@@ -86,7 +88,7 @@ Contoh berikut menunjukkan cara PSA menggunakan faktor kumpulan unit, unit dan p
 
 | Peranan      | Kumpulan unit | Unit | Unit organisasi | Harga   |
 |-----------|------------|------|---------------------|---------|
-| Pemaju | Masa       | Hari  | Contoso UK          | 800 GBP |
+| Pembangun | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Entri masa
 
@@ -110,6 +112,3 @@ Tidak. Anggaran jadual adalah terhad kepada jam dan tidak boleh ditukar.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Bolehkan unit dan kumpulan unit diedit, dipadamkan dan ditambah?
 Ya. Dengan pengecualian kumpuan unit **Masa** dan unit **Jam**, semua unit boleh dipadamkan atau diedit, dan unit baharu boleh ditambah. Pada PSA, kumpulan unit **Masa** dan unit **Jam** tidak boleh dipadamkan. Walau bagaimanapun, ia boleh dikemas kini dengan teks terjemahan untuk medan **Nama**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Projek pesanan jualan untuk projek masa dan bahan
 description: Topik ini menjelaskan cara untuk mencipta pesanan jualan berasaskan projek untuk projek masa dan bahan.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081213"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Projek pesanan jualan untuk projek masa dan bahan
 
@@ -39,6 +41,3 @@ Anda boleh mencipta pesanan jualan berasaskan projek dalam dua cara:
 - Pergi ke projek itu sendiri. Pada Anak Tetingkap Tindakan, pilih **Urus > tugas Item > Pesanan jualan**. Maklumat projek akan menjadi lalai kepada pesanan jualan daripada projek. Jika kontrak projek mempunyai lebih daripada satu sumber pembiayaan, anda akan perlu untuk memilih sumber pembiayaan untuk menetapkan pelanggan bagi pesanan jualan. Jika terdapat hanya satu pembiayaan untuk projek itu, pelanggan akan ditetapkan secara automatik.
 - Pergi ke halaman senarai **Semua pesanan jualan** dan cipta pesanan jualan baharu. Anda akan perlu untuk memilih projek bagi pesanan jualan. Selepas projek itu dipilih, pelanggan akan ditetapkan daripada sumber pembiayaan atau anda akan perlu untuk memilih sumber pembiayaan jika kontrak projek mempunyai pelbagai sumber pembiayaan.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

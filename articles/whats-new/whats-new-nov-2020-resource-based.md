@@ -2,16 +2,18 @@
 title: Perkara baharu November 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran November 2020 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007967"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367277"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu November 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -28,7 +30,7 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 
 | Bahagian ciri                 | Nombor rujukan | Kemas kini kualiti                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pengurusan peluang       | 2036993          | Anggaran penugasan baris dan sumber untuk baris kontrak dikemas kini pada sebut harga yang dimenangi apabila jenis baris sebut harga ialah **Semua tugas**.                                                 |
+|   Pengurusan peluang       | 2036993          | Anggaran penugasan baris dan sumber untuk baris kontrak dikemas kini pada sebut harga yang dimenangi apabila jenis baris sebut harga ialah **Semua tugas**.                                                 |
 | Pengebilan dan harga          | 2070392          | Baris kontrak projek pada peningkatan invois setiap kali **Transaksi invois segar semula** dipilih.                                                                         |
 | Perancangan projek             | 2043336          | Tidak dapat memadamkan rekod ahli pasukan projek.                                                                                                                                  |
 | Perancangan projek             | 2046013          | Tingkah laku yang tidak konsisten untuk Anggaran lajur tag semasa beban berbanding penukaran jenis fasa masa.                                                                                   |
@@ -65,7 +67,4 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | Perakaunan projek  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Mendayakan ciri, Berbilang baris kontrak tidak mungkin tanpa integrasi CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.

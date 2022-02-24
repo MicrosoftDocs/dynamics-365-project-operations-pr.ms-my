@@ -2,16 +2,18 @@
 title: Kemas kini atribut pasang masuk dengan dimensi penentuan harga baharu
 description: Topik ini memberikan maklumat tentang cara mengemas kini atribut pasang masuk untuk dimensi penentuan harga.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988347"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643229"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Kemas kini atribut pasang masuk dengan dimensi penentuan harga baharu
 
@@ -50,6 +52,3 @@ Lengkapkan langkah berikut untuk mengemas kini dan mendaftar semula pasang masuk
 7. Pilih **OK** untuk menutup halaman dan kemudian pilih **Kemas Kini Langkah**.
 8. Ulangan langkah 2-7 untuk pasang masuk kedua, **PreOperationQuoteLineDetail**. Untuk pasang masuk ini, anda perlu mengemas kini langkah **Update of msdyn_quotelinetransaction**.
 9. Tutup **PluginRegistrationTool**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

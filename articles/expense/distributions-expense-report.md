@@ -2,16 +2,18 @@
 title: Pengedaran pada laporan perbelanjaan
 description: Apabila anda memasukkan perbelanjaan di dalam laporan perbelanjaan, anda boleh mengagih perbelanjaan merentasi berbilang projek, entiti yang sah atau akaun dalam organisasi anda.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c0ee3b9b989c644ab429310d1e7b4ef4b600dc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006257"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120959"
 ---
 # <a name="distributions-on-an-expense-report"></a>Pengedaran pada laporan perbelanjaan
 
@@ -28,6 +30,3 @@ Kerana Nancy mengendalikan dua projek berasingan ketika berada di Frankfurt, apa
 | Tambang kereta api   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hotel        | EUR 725              | EUR 557                         | EUR 168                         |
 | Hidangan        | EUR 346              | EUR 284                         | EUR 62                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

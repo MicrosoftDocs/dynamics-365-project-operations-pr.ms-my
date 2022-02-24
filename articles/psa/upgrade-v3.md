@@ -1,7 +1,9 @@
 ---
 title: Pertimbangan naik taraf - Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x kepada versi 3
 description: Topik ini menyediakan maklumat tentang pertimbangan yang perlu anda lakukan apabila anda menaik taraf daripada Project Service Automation versi 2.x atau 1.x kepada versi 3.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000092"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144184"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan naik taraf - PSA versi 2.x atau 1.x kepada versi 3
 
@@ -35,7 +37,7 @@ Dynamics 365 Project Service Automation dan Dynamics 365 Field Service menggunak
 ## <a name="resource-assignments"></a>Penugasan sumber
 Dalam Project Service Automation versi 2 dan versi 1, penugasan tugasan disimpan sebagai tugas anak (juga dipanggil tugas baris) dalam **Entiti tugas** dan berkaitan secara tidak langsung dengan entiti **Penugasan Sumber**. Tugas baris kelihatan pada tetingkap timbul tugasan pada Struktur Pecahan Kerja (WBS).
 
-![Tugas baris pada WBS dalam Project Service Automation versi 2 dan versi 1.](media/upgrade-line-task-01.png)
+![Tugas baris pada WBS dalam Project Service Automation versi 2 dan versi 1](media/upgrade-line-task-01.png)
 
 Dalam versi 3 Project Service Automation, skema dasar yang menugaskan sumber boleh ditempah kepada tugas telah berubah. Tugas baris ditamatkan dan terdapat perhubungan 1:1 yang langsung antara tugas dalam **Entiti tugas** dan ahli pasukan dalam entiti **Tugasan Sumber**. Tugas yang ditugaskan kepada ahli pasukan projek kini disimpan secara langsung dalam entiti Tugasan Sumber.  
 
@@ -46,26 +48,26 @@ Menggunakan entiti tugas dasar, tugas dalam versi 2 dan versi 1 membenarkan ahli
 
 Jika anda telah menugaskan sumber kepada tugas di luar peranan lalai mereka dalam versi 2 dan versi 1, apabila anda menaik taraf, sumber yang dinamakan akan ditugaskan dengan peranan lalai untuk semua tugasan tugas tanpa mengira tugasan peranan dalam versi 2. Tugasan ini menghasilkan perbezaan dalam anggaran yang dikira daripada versi 2 atau versi 1 hingga versi 3 kerana anggaran dikira berdasarkan pada peranan sumber dan bukan tugasan tugas baris. Contohnya, dalam versi 2, dua tugas telah ditugaskan kepada Rokiah Awang. Peranan pada tugas baris untuk tugas 1 ialah Pembangun dan untuk tugas 2, Pengurus Program. Rokiah Awang mempunyai peranan lalai Pengurus Program.
 
-![Berbilang peranan ditugaskan kepada satu sumber.](media/upgrade-multiple-roles-02.png)
+![Berbilang peranan ditugaskan kepada satu sumber](media/upgrade-multiple-roles-02.png)
 
 Oleh sebab peranan Pembangun dan Pengurus Program berbeza, anggaran kos dan jualan adalah seperti berikut:
 
-![Anggaran kos untuk peranan sumber.](media/upggrade-cost-estimates-03.png)
+![Anggaran kos untuk peranan sumber](media/upggrade-cost-estimates-03.png)
 
-![Anggaran jualan untuk peranan sumber.](media/upgrade-sales-estimates-04.png)
+![Anggaran jualan untuk peranan sumber](media/upgrade-sales-estimates-04.png)
 
 Apabila anda menaik taraf kepada versi 3, tugas baris digantikan dengan tugasan sumber pada tugas ahli pasukan sumber boleh ditempah. Tugasan akan menggunakan peranan lalai daripada sumber boleh ditempah. Dalam grafik berikut, Rokiah Awang yang mempunyai peranan sebagai Pengurus Program Manager adalah sumber.
 
-![Penugasan sumber.](media/resource-assignment-v2-05.png)
+![Penugasan sumber](media/resource-assignment-v2-05.png)
 
 Oleh sebab anggaran adalah berdasarkan pada peranan lalai untuk sumber, anggaran jualan dan kos mungkin berubah. Dalam grafik berikut, anda tidak lagi melihat peranan **Pembangun** kerana peranan kini diambil daripada peranan lalai sumber boleh ditempah.
 
-![Anggaran kos untuk peranan lalai.](media/resource-assignment-cost-estimate-06.png)
-![Anggaran jualan untuk peranan lalai.](media/resource-assignment-sales-estimate-07.png)
+![Anggaran kos untuk peranan lalai](media/resource-assignment-cost-estimate-06.png)
+![Anggaran jualan untuk peranan lalai](media/resource-assignment-sales-estimate-07.png)
 
 Selepas naik taraf selesai, anda boleh mengedit peranan ahli pasukan menjadi sesuatu selain daripada lalai yang ditugaskan. Walau bagaimanapun, jika anda mengubah peranan ahli pasukan, ia akan diubah kepada semua tugas yang ditetapkan kerana ahli pasukan tidak lagi boleh ditugaskan dengan berbilang peranan dalam versi 3.
 
-![Mengemas kini peranan sumber.](media/resource-role-assignment-08.png)
+![Mengemas kini peranan sumber](media/resource-role-assignment-08.png)
 
 Hal ini turut benar untuk tugas baris yang ditugaskan kepada sumber dinamakan apabila anda mengubah unit organisasi sumber daripada lalai kepada unit organisasi lain. Selepas naik taraf versi 3 selesai, tugasan akan menggunakan unit organisasi lalai sumber dan bukannya yang ditetapkan pada tugas baris.
 
@@ -81,33 +83,30 @@ Sebelum anda mula menaik taraf, kami mengesyorkan agar anda menjana semula pasuk
 
 Untuk tugas yang ditugaskan kepada ahli pasukan generik yang dijana dengan **Jana Pasukan**, naik taraf ini akan meninggalkan sumber generik dalam pasukan dan meninggalkan tugasan kepada ahli pasukan generik itu. Kami mengesyorkan agar anda menjana keperluan sumber untuk ahli pasukan generik selepas naik taraf tetapi sebelum anda menempah atau menyerahkan permintaan sumber. Ini akan mengekalkan mana-mana tugasan unit organisasi pada ahli pasukan generik yang berbeza daripada unit organisasi kontrak projek.
 
-Contohnya, dalam Projek Z, unit organisasi kontrak ialah Contoso AS. Dalam pelan projek, tugas ujian dalam Fasa Pelaksanaan telah ditugaskan dengan peranan Perunding Teknikal dan unit organisasi yang ditugaskan ialah Contoso India.
+Contohnya, dalam Projek Z, unit organisasi kontrak ialah Contoso AS. Dalam pelan projek, tugas ujian dalam Fasa pelaksanaan telah ditugaskan dengan peranan Perunding Teknikal dan unit organisasi yang ditugaskan ialah Contoso India.
 
-![Tugasan organisasi fasa pelaksanaan.](media/org-unit-assignment-09.png)
+![Tugasan organisasi fasa pelaksanaan](media/org-unit-assignment-09.png)
 
 Selepas fasa pelaksanaan, tugas ujian integrasi ditugaskan kepada peranan Perunding teknikal tetapi organisasi ditetapkan kepada Contoso AS.  
 
-![Tugasan organisasi tugas ujian integrasi.](media/org-unit-generate-team-10.png)
+![Tugasan organisasi tugas ujian integrasi](media/org-unit-generate-team-10.png)
 
 Apabila anda menjana pasukan untuk projek, dua ahli pasukan generik dicipta kerana unit organisasi yang berlainan pada tugas. Perunding teknikal 1 akan ditugaskan dengan tugas Contoso India dan Perunding teknikal 2 akan mempunyai tugas Contoso AS.  
 
-![Ahli pasukan generik yang dijanakan.](media/org-unit-assignments-multiple-resources-11.png)
+![Ahli pasukan generik dijana](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Dalam Project Service Automation versi 2 dan versi 1, ahli pasukan tidak memegang unit organisasi yang dikekalkan dalam tugas baris.
 
-![Tugas baris versi 2 dan versi 1 dalam Project Service Automation.](media/line-tasks-12.png)
+![Versi 2 dan versi 1 tugas baris dalam Project Service Automation](media/line-tasks-12.png)
 
 Anda boleh melihat unit organisasi pada pandangan anggaran. 
 
-![Anggaran unit organisasi.](media/org-unit-estimates-view-13.png)
+![Anggaran unit organisasi](media/org-unit-estimates-view-13.png)
  
 Apabila naik taraf selesai, unit organisasi pada tugas baris yang sepadan dengan ahli pasukan generik ditambah kepada ahli pasukan generik dan tugas baris dialih keluar. Oleh sebab ini, kami mengesyorkan agar sebelum anda menaik taraf, anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik.
 
-Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam Fasa implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
+Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam fasa Implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
  
 Mengubah lalai unit organisasi yang berbeza pada ahli pasukan yang tidak dijana adalah sebab kami mengesyorkan supaya anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik sebelum naik taraf supaya tugasan unit organisasi tidak hilang.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Panduan pengguna bagi Hab Sumber Projek
 description: Panduan pengguna akhir bagi Hab Sumber Projek untuk Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987267"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948159"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Panduan pengguna bagi Hab Sumber Projek
 
@@ -49,31 +51,31 @@ Sebelum anda boleh mula menggunakan aplikasi Hab Sumber Projek, anda perlu memas
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pasang Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Navigasi Asas
-1.  Apabila anda mendaftar masuk ke aplikasi mudah alih, anda akan melihat halaman MyApps dengan senarai aplikasi yang anda akses. 
+1.  Apabila anda mendaftar masuk ke aplikasi mudah alih, anda akan melihat halaman MyApps dengan senarai aplikasi mudah alih yang boleh anda akses. 
 2.  Pilih **Hab Sumber Projek**.
 
-![Pilih aplikasi.](media/chooseApp_1.png "Pilih aplikasi")
+![Pilih aplikasi](media/chooseApp_1.png "Pilih aplikasi")
 
 **Bar navigasi**
 
-Gunakan bar navigasi untuk pergi ke kawasan kerja anda, mencipta rekod baharu, mencari atau melakukan tugas lain. Untuk mengakses perintah lanjut, ketik ![Butang Lanjut.](media/MoreButton.png "Butang Lanjut")
+Gunakan bar navigasi untuk pergi ke kawasan kerja anda, mencipta rekod baharu, mencari atau melakukan tugas lain. Untuk mengakses perintah lanjut, ketik ![Butang Lanjut](media/MoreButton.png "Butang Lanjut")
 
-![Bar Navigasi.](media/NavBar_2.png "Bar Nav")
+![Bar Navigasi](media/NavBar_2.png "Bar Nav")
 
 **Kegemaran dan rekod yang baharu digunakan**
 
 Bahagian Kegemaran dan Baharu Digunakan memberi akses pantas kepada rekod, pandangan dan papan pemuka anda. 
 
-- Untuk mengakses bahagian ini, ketik butang **Menu** ![butang Menu.](media/MenuButton.png "Butang menu") pada bar navigasi, dan kemudian ketik butang **Kegemaran dan Terkini** ![butang Kegemaran](media/FavButton.png "Butang Kegemaran").
+- Untuk mengakses bahagian ini, ketik butang **Menu** ![Butang Menu](media/MenuButton.png "Butang menu") pada bar navigasi, dan kemudian ketik butang **Kegemaran dan Terkini** butang ![Butang Kegemaran](media/FavButton.png "Butang Kegemaran").
 
 - Untuk mengepin item sebagai kegemaran, daripada senarai item **Baharu Digunakan**, ketik pin. Ini akan mengepin dan mengalihkan item ke Kegemaran.
 
-  ![Item Kegemaran dan Terkini.](media/Favs_3.png "Item Kegemaran dan Terkini")
+  ![Item Kegemaran dan Terkini](media/Favs_3.png "Item Kegemaran dan Terkini")
  
 ## <a name="enter-time"></a>Masukkan masa
 Masukkan jam anda sekurang-kurangnya setiap minggu—atau mengikut kekerapan yang diminta oleh pengurus anda—untuk memastikan klien anda diinvois dan anda dikreditkan dengan betul.
 
-1. Ketik butang menu ![butang Menu.](media/MenuButton.png "Butang menu") , dan kemudian ketik **Entri Masa**. Ini akan memaparkan kalendar anda.
+1. Ketik butang menu ![butang Menu](media/MenuButton.png "Butang menu") dan kemudian ketik **Entri Masa**. Ini akan memaparkan kalendar anda.
 
 2. Untuk melihat kalendar anda bagi minggu sebelumnya atau seterusnya, ketik butang **Sebelumnya** atau **Seterusnya**. Ketik **Hari Ini** untuk kembali ke minggu semasa.
 

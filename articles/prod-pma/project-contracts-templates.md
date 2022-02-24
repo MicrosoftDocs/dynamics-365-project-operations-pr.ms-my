@@ -2,9 +2,11 @@
 title: Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Kewangan
 description: Topik ini menghuraikan templat dan tugas asas yang digunakan untuk menyegerakkan kontrak projek dan projek secara terus daripada Microsoft Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001082"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764830"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Kewangan 
 
@@ -42,7 +44,7 @@ Penyelesaian integrasi Project Service Automation kepada Finance menggunakan cir
 
 Ilustrasi berikut menunjukkan cara data disegerakkan antara Project Service Automation dan Finance.
 
-[![Aliran data untuk integrasi Project Service Automation dengan Kewangan.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Aliran data untuk integrasi Project Service Automation dengan Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Templat dan tugas
 
@@ -107,8 +109,8 @@ Apabila penyelesaian integrasi Project Service Automation kepada Finance digunak
 ## <a name="prerequisites-and-mapping-setup"></a>Persediaan prasyarat dan pemetaan
 
 - Selepas penyegerakan kontrak projek dan projek boleh berlaku, anda mesti menyegerakkan akaun.
-- Dalam set sambungan anda, tambahkan pemetaan medan kunci integrasi untuk **msdyn\_organizationalunits** pada **msdyn\_nama \[Name\]**. Anda mungkin perlu menambahkan terlebih dahulu projek pada set sambungan. Untuk maklumat lanjut, lihat [Integrasikan data ke dalam Common Data Service untuk Aplikasi](/powerapps/administrator/data-integrator).
-- Dalam set sambungan anda, tambahkan pemetaan medan kunci integrasi untuk **msdyn\_projects** pada **msdynce\_projectnumber \[Project Number\]**. Anda mungkin perlu menambahkan terlebih dahulu projek pada set sambungan. Untuk maklumat lanjut, lihat [Integrasikan data ke dalam Common Data Service untuk Aplikasi](/powerapps/administrator/data-integrator).
+- Dalam set sambungan anda, tambahkan pemetaan medan kunci integrasi untuk **msdyn\_organizationalunits** pada **msdyn\_nama \[Name\]**. Anda mungkin perlu menambahkan terlebih dahulu projek pada set sambungan. Untuk maklumat lanjut, lihat [Integrasikan data ke dalam Common Data Service untuk Aplikasi](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Dalam set sambungan anda, tambahkan pemetaan medan kunci integrasi untuk **msdyn\_projects** pada **msdynce\_projectnumber \[Project Number\]**. Anda mungkin perlu menambahkan terlebih dahulu projek pada set sambungan. Untuk maklumat lanjut, lihat [Integrasikan data ke dalam Common Data Service untuk Aplikasi](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** untuk kontrak projek dan projek boleh dikemas kini kepada nilai yang berbeza atau dialih keluar daripada pemetaan. Nilai templat lalai ialah **Project Service Automation**.
 - Pemetaan **PaymentTerms** mesti dikemas kini supaya ia menunjukkan terma pembayaran yang sah dalam Finance. Anda juga boleh mengalih keluar pemetaan daripada tugas projek. Peta nilai lalai mempunyai nilai lain untuk data demo. Jadual yang berikut menunjukkan nilai dalam Project Service Automation.
 
@@ -129,7 +131,7 @@ Gunakan Microsoft Power Query for Excel untuk menapis data jika syarat berikut d
 Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 
 - Templat Projek dan kontrak (PSA kepada Fin dan Ops) mempunyai penapis lalai yang mengandungi hanya pesanan jualan jenis **Item kerja (msdyn\_ordertype = 192350001)**. Penapis ini membantu menjamin bahawa kontrak projek tidak dicipta untuk pesanan jualan dalam Finance. Jika anda mencipta templat anda sendiri, anda mesti menambahkan penapis ini.
-- Cipta penapis Power Query yang menyertakan hanya organisasi kontrak yang perlu disegarakkan kepada entiti undang-undang bagi set sambungan integrasi. Contohnya, kontrak projek yang anda ada dengan unit organisasi kontrak Contoso US hendaklah disegerakkan dengan entiti undang-undang USSI tetapi kontrak projek yang anda ada dengan unit organisasi kontrak Contoso Global hendaklah disegerakkan ke entiti undang-undang USMF. Jika anda tidak menambahkan penapis ini pada pemetaan tugas anda, semua kontrak projek akan disegerakkan kepada entiti sah yang ditakrifkan untuk set sambungan, tanpa mengira unit organisasi kontrak.
+- Cipta penapis Power Query yang menyertakan hanya organisasi kontrak yang perlu disegarakkan kepada entiti undang-undang bagi set sambungan integrasi. Contohnya, kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso US perlu disegerakkan kepada entiti sah USSI tetapi kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso Global perlu disegerakkan kepada entiti sah USMF. Jika anda tidak menambahkan penapis ini pada pemetaan tugas anda, semua kontrak projek akan disegerakkan kepada entiti sah yang ditakrifkan untuk set sambungan, tanpa mengira unit organisasi kontrak.
 
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan tempat dalam integrasi Data
 
@@ -140,17 +142,14 @@ Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 
 Ilustrasi yang berikut menunjukkan contoh pemetaan tugas templat dalam integrasi Data. Pemetaan menunjukkan maklumat medan yang akan disegerakkan daripada Project Service Automation kepada Finance.
 
-[![Pemetaan templat kontrak projek.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Pemetaan templat kontrak projek](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Pemetaan templat projek.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Pemetaan templat projek](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Pemetaan templat baris kontrak projek.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Pemetaan templat baris kontrak projek](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Pemetaan templat pencapaian baris kontrak projek.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Pemetaan templat pencapaian baris kontrak projek](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Pemetaan pencapaian baris kontrak projek dalam templat Projek dan Kontrak (PSA 3.x kepada Dynamics) - v2:
 
-[![Pemetaan pencapaian baris kontrak projek dengan templat versi dua.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Pemetaan pencapaian baris kontrak projek dengan templat dua versi](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

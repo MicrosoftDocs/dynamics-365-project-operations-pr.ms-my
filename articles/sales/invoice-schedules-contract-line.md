@@ -2,16 +2,18 @@
 title: Buat jadual invois pada baris kontrak berdasarkan projek
 description: Topik ini menyediakan maklumat mengenai cara membuat jadual invois dan pencapaian pada baris kontrak.
 author: rumant
+manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999687"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513935"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Buat jadual invois pada baris kontrak berdasarkan projek 
 
@@ -62,7 +64,7 @@ Anda boleh menjana pencapaian harga tetap apabila tidak berpecah secara berkala.
 1. Buka baris kontrak harga tetap yang anda akan mencipta pencapaian dan pada tab **Jadual Invois**, pada subgrid, pilih **+Cipta pencapaian Baris kontrak baharu**. 
 2. Pada halaman **Penciptaan pencapaian**, masukkan maklumat yang diperlukan berdasarkan jadual berikut.
 
-| Medan | Lokasi | Penerangan | Kesan hiliran |
+| Medan | Lokasi | Penerangan  | Kesan hiliran |
 | --- | --- | --- | --- |
 | Nama Pencapaian | Cipta Cepat | Medan teks untuk nama pencapaian. | Ini telah dibawa kepada pencapaian baris kontrak pencapaian dan invois. |
 | Tugas Projek | Cipta Cepat | Jika pencapaian tersebut terikat dengan tugas projek, gunakan rujukan ini untuk menambah logik tersuai untuk menetapkan status pencapaian berdasarkan status tugas. | Aplikasi ini tidak mempunyai sebarang kesan hiliran bagi rujukan ini kepada tugas. |
@@ -72,6 +74,3 @@ Anda boleh menjana pencapaian harga tetap apabila tidak berpecah secara berkala.
 | Cukai | Cipta Cepat | Jumlah cukai yang dikenakan ke atas pencapaian tersebut. | Ini telah dibawa kepada pencapaian baris kontrak pencapaian dan invois. |
 
 3. Pilih **Simpan dan Tutup**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Segerakkan tugas projek secara langsung daripada Project Service Automation kepada Finance and Operations
 description: Topik ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan tugas projek secara langsung daripada Microsoft Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992802"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081210"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Segerakkan tugas projek secara langsung daripada Project Service Automation kepada Finance and Operations
 
@@ -39,7 +41,7 @@ Penyelesaian integrasi Project Service Automation kepada Finance menggunakan cir
 
 Ilustrasi berikut menunjukkan cara data disegerakkan antara Project Service Automation dan Finance.
 
-[![Aliran data untuk integrasi Project Service Automation dengan Kewangan.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Aliran data untuk penyepaduan Project Service Automation dengan Kewangan](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Templat dan tugas
 
@@ -80,7 +82,4 @@ Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 
 Ilustrasi berikut menunjukkan contoh pemetaan tugas templat dalam penyepaduan Data. Pemetaan menunjukkan maklumat medan yang akan disegerakkan daripada Project Service Automation kepada Finance.
 
-[![Pemetaan templat.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Pemetaan templat](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)

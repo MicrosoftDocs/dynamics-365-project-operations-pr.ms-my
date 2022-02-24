@@ -2,9 +2,11 @@
 title: Jadual Perbelanjaan pertanyaan Anugerah Persekutuan
 description: Topik ini menyediakan maklumat mengenai Jadual Perbelanjaan pertanyaan Anugerah Persekutuan.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007247"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081212"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Jadual Perbelanjaan pertanyaan Anugerah Persekutuan
 
@@ -60,7 +62,7 @@ Anda mesti sediakan nombor CFDA yang boleh ditambah untuk memberikan dan termasu
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Menyediakan geran untuk melapor untuk Jadual Perbelanjaan pertanyaan Anugerah Persekutuan
 
 1. Pergi ke **Pengurusan dan perakaunan projek \> Geran \> Geran**, dan pilih geran sedia ada.
-2. Pada FastTab **Persediaan**, dalam medan **Katalog Bantuan Domestik Persekutuan**, tugaskan nombor CFDA. Nombor CFDA pada geran menentukan kelompok CFDA untuk pelaporan.
+2. Pada **Persediaan** FastTab, dalam medan **Katalog Bantuan Domestik Persekutuan**, tugaskan nombor CFDA. Nombor CFDA pada geran menentukan kelompok CFDA untuk pelaporan.
 3. Pada FastTab **Maklumat kenalan**, masukkan maklumat pemberi dengan mengikut langkah berikut:
 
     1. Dalam medan **Berikan pelanggan**, masukkan pelanggan yang bertanggungjawab untuk geran tersebut. Untuk geran sedia ada, maklumat ini mungkin telah dimasukkan.
@@ -77,8 +79,8 @@ Kerajaan persekutuan telah membiayai projek infrastruktur untuk keadaan. Kerajaa
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Kecualikan pemberian daripada pelaporan SEFA berdasarkan jenis pemberian
 
-1. Pergi ke **Pengurusan dan perakaunan projek \> Persediaan \> Pemberian \> Jenis pemberian**.
-2. Pada FastTab **Maklumat lalai**, pilih kotak semak **Kecualikan daripada Jadual Perbelanjaan Anugerah Persekutuan**.
+1. Pergi ke **Pengurusan dan perakaunan projek \> Persediaan \> Pemberian \> Jenis pemberian**.
+2. Pada FastTab **Maklumat lalai**, pilih kotak semak **Kecualikan daripada Jadual Perbelanjaan Anugerah Persekutuan**.
 3. Pilih **Simpan** untuk menyimpan perubahan anda.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Jalankan Jadual Perbelanjaan pertanyaan Anugerah Persekutuan
@@ -102,6 +104,3 @@ Jadual Perbelanjaan pertanyaan Anugerah Persekutuan termasuk lajur berikut:
 - Katalog Bantuan Domestik Persekutuan
 - Resit
 - Perbelanjaan
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

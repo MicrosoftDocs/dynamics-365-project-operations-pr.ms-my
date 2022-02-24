@@ -2,6 +2,8 @@
 title: Anggaran projek dan jualan
 description: Topik ini menyediakan maklumat mengenai cara untuk mengambil kesempatan daripada jadual dan anggaran dalam proses jualan.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995187"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148384"
 ---
 # <a name="sales-estimates-and-projects"></a>Anggaran projek dan jualan
 
@@ -35,11 +37,11 @@ Semasa proses jualan, anda boleh mencipta anggaran jualan dengan memautkan proje
 
 Apabila anda mencipta baris sebut harga berdasarkan projek, anda boleh mencipta projek baharu atau mengaitkan projek sedia ada pada halaman **Baris Sebut Harga**. 
 
-> ![Borang Baris Sebut Harga.](media/project-8.png)
+> ![Borang Baris Sebut Harga](media/project-8.png)
  
 Apabila anda mencipta projek baharu daripada butiran baris sebut harga, anda boleh mengambil kesempatan daripada templat projek. Templat projek ialah projek model yang mewakili rancangan projek standard dan anggaran kewangan yang biasa dalam sesebuah organisasi. Ia juga boleh mewakili salinan rancangan projek dan anggaran dari projek yang lepas.
 
-> ![Butiran baris sebut harga.](media/project-9.png)
+> ![Butiran baris sebut harga](media/project-9.png)
   
 Apabila anda mencipta projek daripada sebut harga, projek secara automatik dikaitkan dengan baris sebut harga tersebut.
 
@@ -52,6 +54,3 @@ Anda boleh mentakrifkan usaha kerja dan menjadualkan anggaran dengan menggunakan
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Mengimport anggaran daripada projek ke dalam sebut harga
 
 Selepas anda mentakrifkan anggaran projek, anda boleh mengimportnya ke dalam baris sebut harga. Pada halaman **Butiran Baris Sebut Harga**, pilih **Import daripada anggaran** pada reben untuk merumuskan anggaran projek mengikut jenis transaksi, peranan atau peringkat tugas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 19, V3
 description: Topik ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation 19, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993657"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143662"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, Keluaran Kemas kini 19, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
+Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3, Keluaran Kemas kini 19. Versi ini mempunyai nombor binaan V3.10.30.41 dan secara amnya boleh didapati melalui kemas kini sendiri pada Mei 2020.
 
@@ -64,6 +66,3 @@ Isu berikut telah dibaiki:
 - Pelanggan mungkin mengalami prestasi yang diturun taraf apabila mencipta projek kerana **GetBookableResourceIdFromUser** mendapatkan semua kolum sumber boleh ditempah bukan sekadar ID utama.
 - Entiti **TransactionType** kehilangan pasang masuk kemas kini pra pengesahan untuk mengelakkan pengguna daripada memasuki **Unit** dan **UnitGroups** yang tidak sah untuk jenis transaksi.
 - Langkah **Keluarkan** tidak berfungsi untuk import kemasukan masa.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

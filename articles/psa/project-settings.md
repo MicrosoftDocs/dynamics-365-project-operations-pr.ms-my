@@ -2,6 +2,8 @@
 title: Tetapan projek
 description: Topik ini memberikan maklumat tentang tetapan pengurusan projek.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996942"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148159"
 ---
 # <a name="project-settings"></a>Tetapan projek
 
@@ -47,7 +49,7 @@ Untuk mencipta jadual projek, anda cipta templat kalendar projek yang mentakrifk
   - Jadual Kerja untuk Satu Hari
   - Masa Rehat
 
-> ![Sediakan pilihan.](media/project-13.png)
+> ![Sediakan pilihan](media/project-13.png)
 
 4. Pilih **Jadual Mingguan Baharu** dan kemudian tetapkan pilihan untuk jadual sumber ini. Anda boleh menetapkan jadual mingguan berulang, parameter jam harian, penutupan perniagaan dan banyak lagi.
 5. Tetapkan julat tarikh, pilih **Simpan** dan kemudian klik **Tutup**. 
@@ -66,6 +68,3 @@ Setiap organisasi mesti menyediakan peranan ini pada halaman **Kategori Sumber A
 ## <a name="price-lists"></a>Senarai harga
 
 Senarai harga membolehkan anda menetapkan kos dan harga jualan untuk peranan sumber, kategori perbelanjaan, produk dan elemen lain dalam organisasi. Sebelum anda menetapkan anggaran kewangan untuk kerja yang mesti dihantar bagi sesuatu projek, anda harus mencipta senarai kos sokongan dan harga jualan. Dalam bahagian parameter, anda juga perlu menyediakan senarai kos dan harga jualan lalai yang digunakan pada semua projek yang dicipta dalam organisasi. Pada halaman **Parameter Projek Aktif**, pastikan anda menyediakan senarai kos dan harga jualan lalai.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

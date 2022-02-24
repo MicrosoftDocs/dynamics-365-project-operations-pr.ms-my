@@ -1,19 +1,21 @@
 ---
-title: Urus invois projek proforma
-description: Topik ini menyediakan maklumat tentang cara bekerja dengan invois projek proforma.
+title: Urus invois proforma - ringan
+description: Topik ini menyediakan maklumat tentang bekerja dengan invois Proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997437"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181553"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Urus invois projek proforma 
+# <a name="manage-a-proforma-invoice---lite"></a>Urus invois proforma - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -26,7 +28,7 @@ Dalam Dynamics 365 Project Operations, invois proforma dibina sebagai sambungan 
 
 Maklumat berikut tersedia pada pengepala invois proforma dalam Project Operations.
 
-| Medan | Lokasi | Penerangan | Kesan hiliran |
+| Medan | Lokasi | Penerangan  | Kesan hiliran |
 | --- | --- | --- | --- |
 | **ID Invois** | Tab **Ringkasan** | ID yang dijana secara automatik apabila invois proforma dicipta. Medan baca sahaja yang dikunci daripada pengeditan. | Medan ini digunakan sebagai rujukan bagi setiap invois proforma. |
 | **Nama** | Tab **Ringkasan** | Ditetapkan kepada nama kontrak projek secara lalai. Medan ini boleh diedit oleh pengguna. | &nbsp;  |
@@ -50,7 +52,7 @@ Maklumat berikut tersedia pada pengepala invois proforma dalam Project Operation
 
 Dalam Project Operations, sentiasa ada satu baris invois untuk setiap baris kontrak projek. Baris invois dicipta walaupun tiada aktual. Maklumat berikut tersedia pada baris invois proforma.
 
-| Medan | Lokasi | Penerangan | Kesan hiliran |
+| Medan | Lokasi | Penerangan  | Kesan hiliran |
 | --- | --- | --- | --- |
 | **ID Invois** | Tab **Umum** | Rujukan kepada ID invois. Medan baca sahaja yang dikunci daripada pengeditan. | Pautan ID invois boleh digunakan untuk menavigasi kembali ke pengepala invois. |
 | **Nama** | Tab **Umum** | Nama baris invois ditetapkan secara lalai daripada nama baris kontrak. Medan ini boleh diedit oleh pengguna. | &nbsp; |
@@ -67,15 +69,15 @@ Dalam Project Operations, sentiasa ada satu baris invois untuk setiap baris kont
 
 Setiap baris invois dalam invois projek termasuk butiran baris invois. Butiran baris ini berkaitan dengan aktual jualan yang belum dibilkan dan pencapaian yang berkaitan dengan baris kontrak yang dirujuk mengikut baris invois. Semua transaksi ini ditanda **Bersedia untuk Diinvois**.
 
-Untuk baris **Invois Masa dan Bahan**, butiran baris invois dikumpulkan ke dalam **Boleh dituntut**, **Tidak boleh dituntut** dan **Percuma** pada halaman **Baris Invois**. Butiran **Baris Invois Boleh Dituntut** menambah sehingga jumlah baris invois. **Percuma** dan **Aktual yang tidak boleh dituntut** tidak akan ditambah pada jumlah baris invois.
+Untuk baris **Masa dan Invois Bahan**, butiran baris invois dikumpul ke dalam **Boleh Dituntut**, **Tidak Boleh Dituntut** dan **Percuma** pada halaman **Baris Invois**. Butiran **Baris Invois Boleh Dituntut** menambah sehingga jumlah baris invois. **Aktual Percuma** dan **Tidak Boleh Dituntut** tidak menambah sehingga jumlah baris invois.
 
-Untuk baris **Invois Harga Tetap**, butiran baris invois dicipta daripada pencapaian yang ditandakan sebagai **Sedia untuk diinvois** pada baris kontrak yang berkaitan. Selepas butiran baris invois dicipta daripada pencapaian, status pengebilan pada pencapaian dikemas kini kepada **Invois Pelanggan Dicipta**.
+Untuk baris **Invois Harga Tetap**, butiran baris invois dicipta daripada pencapaian yang ditandakan sebagai **Bersedia dengan Diinvois** pada baris kontrak yang berkaitan. Selepas butiran baris invois dicipta daripada pencapaian, status pengebilan pada pencapaian dikemas kini kepada **Invois Pelanggan Dicipta**.
 
 ### <a name="edit-invoice-line-details"></a>Edit butiran baris invois
 
 Medan berikut tersedia pada butiran baris invois yang disokong oleh aktual jualan yang belum dibilkan:
 
-| Medan | Penerangan | Kesan hiliran |
+| Medan | Penerangan  | Kesan hiliran |
 | --- | --- | --- |
 | **Baris invois** | Rujukan kepada **ID Baris Invois**. Medan baca sahaja dikunci untuk pengeditan. | Pautan ini boleh digunakan untuk menavigasi kembali ke pengepala invois. |
 | **Perihalan** | Perihalan butiran baris invois. Ditetapkan secara lalai daripada medan **Komen Dalaman** pada **Entri Masa** dan daripada medan **Perihalan** pada **Entri Perbelanjaan**. Medan boleh diedit oleh pengguna.| &nbsp; |
@@ -96,16 +98,12 @@ Medan berikut tersedia pada butiran baris invois yang disokong oleh aktual juala
 | **Cukai** | Ditetapkan secara lalai daripada aktual sumber. Medan boleh diedit oleh pengguna | Medan boleh diedit oleh pengguna apabila mencipta butiran baris invois baharu tanpa aktual sokongan. |
 | **Amaun Dilanjutkan** | Medan dikira, dikira sebagai **Amaun + Cukai**. Medan baca sahaja yang dikunci daripada pengeditan. | &nbsp; |
 | **Jenis Pengebilan** | Ditetapkan secara lalai daripada aktual sumber. Medan boleh diedit oleh pengguna. | Memilih **Boleh Dituntut** menambah baris kepada jumlah baris invois. **Percuma** dan **Tidak Boleh Dituntut** akan mengecualikannya daripada jumlah baris invois. |
-| **Pilih Produk** | Ditetapkan secara lalai daripada aktual sumber, ini ialah medan baca sahaja. | Apabila anda mencipta butiran baris invois baharu tanpa membuat aktual sandaran, medan ini boleh diedit. |
-| **Produk** | Ditetapkan secara lalai daripada aktual sumber, ini ialah medan baca sahaja. | Apabila anda mencipta butiran baris invois baharu tanpa membuat aktual sandaran, medan ini boleh diedit jika medan **Pilih Produk** ditetapkan kepada **Produk sedia ada**. |
-| **Nama Produk** | Ditetapkan secara lalai daripada aktual sumber, ini ialah medan baca sahaja. | Pada butiran baris invois baharu, yang ID produk dipilih daripada katalog, medan ini ditetapkan kepada nama produk. Untuk produk masukan manual, medan akan ditetapkan kepada nama masukan manual. |
-| **Perihalan Masukan Manual** | Ditetapkan secara lalai daripada aktual sumber, ini medan baca sahaja. | Apabila anda mencipta butiran baris invois baharu tanpa aktual sandaran, anda boleh menambahkan perihalan masukan manual untuk produk tersebut. |
 | **Jenis Transaksi** | Ditetapkan secara lalai daripada aktual sumber. Medan baca sahaja yang dikunci daripada pengeditan. | Ditetapkan secara lalai kepada **Jualan Dibilkan** dan dikunci apabila mencipta **butiran baris invois** baharu tanpa aktual sandaran.  |
-| **Kelas Transaksi** | Ditetapkan secara lalai daripada aktual sumber. Medan baca sahaja yang dikunci daripada pengeditan. | Ditetapkan secara lalai berdasarkan sama ada pengguna memilih untuk mencipta butiran baris **Masa**, **Perbelanjaan**, **Bahan** atau **Yuran** sambil turut mencipta **Butiran baris invois** baharu tanpa aktual sandaran. Dikunci daripada pengeditan. |
+| **Kelas Transaksi** | Ditetapkan secara lalai daripada aktual sumber. Medan baca sahaja yang dikunci daripada pengeditan. | Ditetapkan secara lalai berdasarkan sama ada pengguna memilih untuk mencipta butiran baris invois **Masa**, **Perbelanjaan** atau **Yuran** dan juga mencipta **butiran baris invois** baharu tanpa sokongan sebenar. Dikunci daripada pengeditan. |
 
 Medan berikut tersedia pada butiran baris invois yang disokong oleh pencapaian:
 
-| Medan | Penerangan | Kesan hiliran |
+| Medan | Penerangan  | Kesan hiliran |
 | --- | --- | --- |
 | **Baris invois** | Rujukan kepada **ID Baris Invois**. Medan baca sahaja yang dikunci daripada pengeditan. | Pautan boleh digunakan untuk menavigasi kembali ke pengepala invois. |
 | **Perihalan** | Perihalan butiran baris invois. Ditetapkan secara lalai daripada perihalan pencapaian sumber. | &nbsp; |
@@ -146,6 +144,3 @@ Jika anda mempunyai aktual yang datang selepas invois dicipta, anda boleh memasu
 Dalam Project Operations, anda boleh mencipta baris invois untuk produk yang tidak diguna pakai untuk mana-mana projek atau untuk semua projek bersama dengan baris invois berasaskan projek. Baris invois ini dicipta sebagai baris kontrak berasaskan produk dan selepas baris ditandakan sebagai bersedia dengan diinvois, baris tersebut ditambah sebagai baris invois berasaskan produk.
 
 Selepas anda menambah baris invois berasaskan produk, baris tersebut tidak boleh ditukar. Walau bagaimanapun, baris boleh dipadamkan daripada draf invois proforma.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

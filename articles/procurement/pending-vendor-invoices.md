@@ -2,17 +2,17 @@
 title: Pembelian bahan bukan stok menggunakan invois vendor yang belum selesai
 description: Topik ini menerangkan cara untuk merekodkan invois vendor yang belum selesai.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547300"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993815"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Pembelian bahan bukan stok menggunakan invois vendor yang belum selesai
 
@@ -20,7 +20,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Oleh kerana syarikat memperoleh bahan bukan ada stok untuk projek, kos boleh direkod dengan segera berbanding projek itu. 
 
-Contohnya, Contoso Robotics US sedang melakukan projek pembaharuan peralatan dan memerlukan lesen perisian. Lesen ini diperoleh daripada vendor pihak ketiga.  Menggunakan Dynamics 365 Finance, kerani Akaun belum bayar merekodkan dokumen invois yang belum selesai dan mengatributkan kos lesen secara langsung terhadap projek pembaharuan peralatan. 
+Contohnya, Contoso Robotics US melaksanakan projek pembaharuan peralatan dan memerlukan lesen perisian. Lesen ini diperoleh daripada vendor pihak ketiga.  Menggunakan Dynamics 365 Finance, kerani Akaun belum bayar merekodkan dokumen invois yang belum selesai dan mengatributkan kos lesen secara langsung terhadap projek pembaharuan peralatan. 
 
 > [!IMPORTANT]
 > Sebelum anda menggunakan kefungsian yang diterangkan dalam topik ini, semak dan gunakan konfigurasi yang diperlukan. Untuk maklumat lanjut, lihat [Dayakan bahan bukan stok dan invois vendor yang belum selesai](configure-materials-nonstocked.md). 
@@ -45,5 +45,4 @@ Invois vendor yang belum selesai boleh direkodkan pada halaman **Invois vendor y
     - Amaun baki vendor.
     - Amaun cukai jualan.
     - Kos daripada projek itu direkodkan dalam akaun integrasi perolehan.
-    - Transaksi kos aktual projek dalam Dataverse.  Transaksi ini akan diproses lebih lanjut menggunakan [Jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Penyiaran jurnal ini memindahkan amaun daripada akaun integrasi perolehan ke akaun kos projek. 
-    - Pembelian yang dibilkan kepada pelanggan projek yang menggunakan kaedah pengebilan masa dan bahan. Selain itu, transaksi jualan yang tidak dibilkan dicipta untuk pembelian dalam Dataverse. Senarai harga produk dalam Dataverse digunakan untuk harga dan jumlah jualan bagi transaksi jualan yang tidak dibilkan.
+    - Transaksi sebenar projek dalam Dataverse. Transaksi ini akan diproses lebih lanjut menggunakan [Jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Penyiaran jurnal ini memindahkan amaun daripada akaun integrasi perolehan ke akaun kos projek.

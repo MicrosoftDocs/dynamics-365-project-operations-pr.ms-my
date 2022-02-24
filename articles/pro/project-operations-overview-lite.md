@@ -1,24 +1,25 @@
 ---
 title: Gambaran keseluruhan pelaksanaan Lite
-description: Topik ini menyediakan maklumat tentang pelaksanaan Ringan bagi Dynamics 365 Project Operations.
+description: Topik ini menyediakan maklumat tentang pelaksanaan Lite bagi Dynamics 365 Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997392"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365565"
 ---
-# <a name="lite-deployment-overview"></a>Gambaran keseluruhan pelaksanaan ringan
+# <a name="lite-deployment-overview"></a>Gambaran keseluruhan pelaksanaan Lite
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Jenis pelaksanaan Ringan bagi Dynamics 365 Project Operations mempunyai keupayaan berikut untuk syarikat berasaskan projek:
+Jenis pelaksanaan Lite bagi Dynamics 365 Project Operations mempunyai keupayaan berikut untuk syarikat berasaskan projek:
 
 - Perancangan projek menggunakan Microsoft Project untuk Web
 - Penetapan harga dan kos berbilang dimensi untuk sumber pekerja
@@ -36,6 +37,3 @@ Pilih jenis pelaksanaan ini jika jangkaan anda daripada Project Operations adala
 - Sistem bersepadu yang mengurus projek dalaman dan boleh dibilkan untuk jadual dan kewangan daripada jualan projek ke penginvoisan.
 - Perancangan sumber Perusahaan pihak ketiga (ERP)/Sistem perakaunan kewangan untuk integrasi dengan Project Operations.
 - Sistem pihak ketiga untuk bekerja dengan cukai jualan, kadar pertukaran, pembayaran balik perbelanjaan dan perbelanjaan bukan projek.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

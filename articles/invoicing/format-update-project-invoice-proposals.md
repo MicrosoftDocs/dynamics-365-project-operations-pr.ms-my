@@ -2,16 +2,18 @@
 title: Urus cadangan invois projek
 description: Topik ini memberikan butiran tentang memproses invois yang menghadap pelanggan dengan Project Operations untuk senario berasaskan sumber/ bukan stok.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989922"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089278"
 ---
 # <a name="manage-project-invoice-proposals"></a>Urus cadangan invois projek
 
@@ -78,8 +80,7 @@ Nilai **Kumpulan cukai jualan** dan **Kumpulan cukai jualan item**  lalai daripa
     - **Pelanggan** akan sentiasa melalaikan kumpulan cukai jualan pengebilan daripada pelanggan.
     - **Cari** akan mencari merentasi semua entiti dalam senarai ini dan memilih nilai pertama yang tersedia. Carian bermula dengan entiti **Projek**, kemudian entiti **Kontrak projek** dan kemudian entiti **Pelanggan**.
 
-- **Kumpulan cukai jualan item pencapaian harga tetap** digunakan sebagai nilai lalai dalam medan **kumpulan cukai jualan item** untuk pencapaian pengebilan. Akauntan boleh menyemak semula dan mengubah suai nilai ini pada halaman **Transaksi pada akaun**. Sistem menggunakan nilai daripada transaksi pada akaun apabila mencipta baris cadangan invois projek.
- 
+- **Kumpulan cukai jualan item pencapaian harga tetap** digunakan untuk lalai nilai kepada medan **Kumpulan cukai jualan item**.
 
 ### <a name="financial-dimensions"></a>Dimensi kewangan
 
@@ -131,7 +132,7 @@ Halaman **Cadangan invois format** membenarkan transaksi kumpulan tersuai untuk 
 
 Pengurusan cetak menggunakan fail laporan yang berbeza untuk mencetak, menentukan destinasi dan menyesuaikan teks pengaki untuk invois. Pengurusan cetak boleh ditetapkan pada peringkat modul, bagaimanapun tetapan ini boleh diganti untuk pelanggan, kontrak atau cadangan invois khusus. Untuk mengakses fungsi ini pada halaman **Cadangan invois projek**, pilih **Cetak** > **Pengurusan cetak**.
 
-Penyediaan pengurusan cetak dipaparkan sebagai pandangan pepohon, di mana setiap peringkat nod memaparkan dokumen yang tersedia untuk dilaraskan. Anda boleh menugaskan cetakan tersuai pada peringkat modul, pelanggan, kontrak atau dokumen cadangan invois. Untuk mengubah suai cetakan dokumen asal, kembangkan nod yang dikehendaki dan pilih **Item asal**. Dalam medan **Format laporan**, pilih format laporan yang akan digunakan untuk mencetak. Anda boleh menggunakan format laporan tersuai dengan menggunakan [Rangka kerja Pengurusan Dokumen Perniagaan](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Penyediaan pengurusan cetak dipaparkan sebagai pandangan pepohon, di mana setiap peringkat nod memaparkan dokumen yang tersedia untuk dilaraskan. Anda boleh menugaskan cetakan tersuai pada peringkat modul, pelanggan, kontrak atau dokumen cadangan invois. Untuk mengubah suai cetakan dokumen asal, kembangkan nod yang dikehendaki dan pilih **Item asal**. Dalam medan **Format laporan**, pilih format laporan yang akan digunakan untuk mencetak. Anda boleh menggunakan format laporan tersuai dengan menggunakan [Rangka kerja Pengurusan Dokumen Perniagaan](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Siarkan cadangan invois
 
@@ -142,6 +143,3 @@ Untuk melihat invois sebelum menyiarkan, kosongkan kotak semak **Menyiarkan**. *
 Sebagai tambahan kepada halaman **Cadangan invois**, cadangan invois juga boleh disiarkan dengan menjalankan kerja berkala, **Cadangan selepas invois**. Untuk mencari kerja ini, pergi ke **Pengurusan projek dan perakaunan** > **Berkala** > **Invois projek** > **Cadangan selepas invois**.
 
 Halaman ini menunjukkan semua cadangan invois yang sedia untuk disiarkan. Anda boleh menjadualkan menyiarkan cadangan invois dengan memilih **Kelompok**. Tetapkan **Parameter pemprosesan kelompok** kepada **Ya** dan tetapkan pengulangan pemprosesan kelompok dengan memilih **Pengulangan**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

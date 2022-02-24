@@ -2,16 +2,18 @@
 title: Projek anggaran hasil harga tetap
 description: Topik ini memberikan maklumat tentang hasil harga tetap dalam projek.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006437"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531504"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projek anggaran hasil harga tetap 
 
@@ -33,6 +35,3 @@ Untuk menyemak projek anggaran hasil harga tetap, lengkapkan langkah berikut:
 
   Kos projek, profil hasil, templat kos dan kod tempoh boleh ditetapkan secara manual. Jika ia tidak ditetapkan secara manual, nilai lalai semasa pengiraan anggaran pertama untuk projek menggunakan peraturan yang dikonfigurasikan untuk kos projek dan profil hasil.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

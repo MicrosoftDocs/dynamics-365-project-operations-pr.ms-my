@@ -2,17 +2,19 @@
 title: Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Disember 2020 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984882"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727891"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -106,7 +108,4 @@ Ciri berikut disertakan dalam keluaran ini:
 | Perjalanan   dan Perbelanjaan                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Aliran kerja penyiaran automatik laporan perbelanjaan selesai tetapi invois tidak disiarkan                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.

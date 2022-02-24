@@ -2,11 +2,12 @@
 title: Halaman utama dimensi penetapan harga dan kos
 description: Topik ini memberikan gambaran keseluruhan dimensi penetapan harga.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998472"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151309"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Halaman utama dimensi penetapan harga dan kos
 
@@ -41,7 +42,7 @@ Memandangkan sifat tipikal ini atribut kerja dan orang yang diperlukan untuk mel
 
 Kapal PSA dengan set dimensi penetapan harga lalai. Anda boleh melihat ini dengan pergi ke **Project Service** > **Parameter**. Dalam rekod parameter, pada tab **Dimensi penetapan harga berdasarkan jumlah**, sahkan bahawa peranan, **msdyn_resourcecategory** dan unit organisasi sumber, **msdyn_organizationalunit** mempunyai medan **Digunakan pada jualan** dan **Digunakan pada kos** yang ditetapkan kepada **Ya**. Ini akan membolehkan anda menyediakan harga dan kos untuk setiap peranan dan gabungan unit organisasi.
 
-![Syot layar parameter Project Service dengan "Digunakan pada Jualan" diserlahkan.](media/PS-OOB-parameters.png)
+![Petikan skrin parameter Project Service dengan "Digunakan pada Jualan" diserlahkan](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Jika anda telah menggunakan medan peranan siap guna dan unit organisasi sebagai dimensi penetapan harga sebelum versi 3 PSA, tidak akan ada perubahan yang dapat dilihat. Anda boleh terus menggunakan Project Service seperti biasa. 
@@ -64,18 +65,15 @@ Contoh berikut menunjukkan kadar bil yang ditetapkan berdasarkan peranan dan uni
 
 **Sampel kadar bil**
 
-| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata wang  |
+| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
 | ------------|-------------|----------|----------:|----------|
-| Pemaju   | Contoso AS  |Jam | 200|USD     |
-| Pemaju   | Contoso India |Jam|   112|USD     |
+| Pembangun   | Contoso AS  |Hour | 200|USD     |
+| Pembangun   | Contoso India |Hour|   112|USD     |
 
 
 **Sampel kadar kos**
 
-| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata wang  |
+| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
 | ----------------|-------------|----------|----------:|----------|
-| Syarikat saya_Jalur1 | Contoso AS  |Jam | 145|USD     |
-| Syarikat saya_Jalur2 | Contoso India |Jam|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Syarikat saya_Jalur1 | Contoso AS  |Hour | 145|USD     |
+| Syarikat saya_Jalur2 | Contoso India |Hour|   67|USD     |

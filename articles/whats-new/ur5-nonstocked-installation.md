@@ -2,17 +2,19 @@
 title: Kemas kini Project Operations dalam persekitaran Kewangan anda
 description: Topik ini menyediakan maklumat tentang cara untuk mengemas kini Project Operations dalam persekitaran Dynamics 365 Finance anda.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986772"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816636"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Kemas kini Project Operations dalam persekitaran Kewangan anda
 
@@ -33,7 +35,7 @@ Topik ini menyediakan maklumat tentang cara untuk mengemas kini Dynamics 365 Pro
 4. Sahkan bahawa persekitaran sedang berjalan. Jika ini tidak bermula, mulakan persekitaran.
 5. Dalam bahagian **Keluaran baharu** di bawah **Kemas kini tersedia**, pilih **Lihat kemas kini** untuk 10.0.15.
 
-![Butang Lihat kemas kini.](media/view-update.png)
+![Lihat butang kemas kini](media/view-update.png)
 
 6. Pada halaman **Kemas kini binari**, pilih **Simpan pakej**.
 7. Pada halaman **Semak dan simpan kemas kini**, pilih **Simpan pakej**.
@@ -47,11 +49,11 @@ Topik ini menyediakan maklumat tentang cara untuk mengemas kini Dynamics 365 Pro
 2. Daripada senarai, pilih pakej yang anda simpan lebih awal, kemudian pilih **Gunakan**.
 3. Pilih **Ya** untuk mengesahkan yang anda mahu menggunakan pakej.
 
-![Kotak dialog Sahkan pelaksanaan pakej.](media/confirm-package-deployment.png)
+![Sahkan kota dialog pelaksanaan pakej](media/confirm-package-deployment.png)
 
 4. Pilih **Ya** untuk mengesahkan yang anda mahu mengemas kini aplikasi.
 
-![Kotak dialog Sahkan kemas kini aplikasi.](media/confirm-application-update.png)
+![Sahkan kotak dialog kemas kini aplikasi](media/confirm-application-update.png)
 
 Kemas kini pelaksanaan dan aplikasi akan bermula. 
 
@@ -84,7 +86,7 @@ Kemas kini berikut pada kelayakan keselamatan untuk entiti diperlukan sebagai se
 
 1. Dalam persekitaran Dataverse anda, pergi ke **Tetapan**, dan dalam kumpulan **Sistem**, pilih **Keselamatan**.
 
-![Tetapan persekitaran Dataverse.](media/Picture21.png)
+![Tetapan persekitaran Dataverse](media/Picture21.png)
 
 2. Pilih **Peranan Keselamatan**.
 3. Daripada senarai peranan, pilih **pengguna aplikasi dwitulis** dan pilih tab **Entiti Tersuai**. 
@@ -121,8 +123,5 @@ Kemas kini berikut pada kelayakan keselamatan untuk entiti diperlukan sebagai se
 6. Dari senarai peta, pilih peta **Ledger (msdyn_ledgers)** yang mempunyai semua prasyarat dan pilih kotak semak **Segerak awal**. 
 7. Dalam medan **Induk untuk segerak awal**, pilih aplikasi **Finance and Operations** dan kemudian pilih **Jalankan**.
  
- ![Penyegerakan peta lejar.](media/DW6.png)
+ ![Penyegerakan peta lejar](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

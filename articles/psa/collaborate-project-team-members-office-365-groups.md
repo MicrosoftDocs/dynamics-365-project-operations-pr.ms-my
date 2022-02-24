@@ -2,6 +2,8 @@
 title: Bekerjasama dengan ahli pasukan projek anda dengan Kumpulan Office 365
 description: Cara bekerjasama dengan ahli pasukan Project Service anda melalui Kumpulan Office 365
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e781e527dcc8077c5123b68d9695bbf707f86444f2a5e119c7594ee54e0da7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68816b00b752249023f053836994a083bba5362d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007067"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150904"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Bekerjasama dengan ahli pasukan projek anda dengan Kumpulan Office 365 (Project Service)
 
@@ -35,12 +37,9 @@ Dengan [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], anda boleh b
   
 2. Klik projek yang sedang anda usahakan.  
   
-3. Dalam bar di bahagian atas skrin, pilih anak panah ke bawah bersebelahan nama projek, kemudian klik **Kumpulan Office 365**. Ini memaparkan projek anda, bersama dengan item yang dikongsi dengan kumpulan anda.  
+3. Dalam bar di bahagian atas skrin, pilih anak panah ke  bawah bersebelahan nama projek, kemudian klik **Kumpulan Office 365**. Ini memaparkan projek anda, bersama dengan item yang dikongsi dengan kumpulan anda.  
   
 4. Untuk membuka ruang kerja pasukan dalam [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], klik **Buka Kalendar**, **Buka Perbualan**, **Buka Notebook**, **Buka Dokumen** atau **Buka Orang**.  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

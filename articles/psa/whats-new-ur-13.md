@@ -2,6 +2,8 @@
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 13, V3
 description: Topik ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas kini Project Service Automation 13, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a20cf32e578bc818f3ef6ed916784c32b559c3342162bcb7857f5e9cc520d9c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7287054c470a44ed1fdc243018ec935fe21a6c4f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006706"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147259"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation, Keluaran Kemas kini 13, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Kami gembira untuk mengumumkan kemas kini terbaharu untuk aplikasi Dynamics 365 Project Service Automation (PSA). Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online dan pergi ke halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
+Kami gembira untuk mengumumkan kemas kini terbaharu untuk aplikasi Dynamics 365 Project Service Automation (PSA). Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online dan pergi ke halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas kini 13. Versi ini mempunyai nombor binaan V3.10.3.18 dan tersedia pada jadual berikut:
 
@@ -57,6 +59,3 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Projec
      - Tetap: Butang tambahan untuk **Peluang Baharu**, **Sebut Harga**, **Baris Pesanan** dan **Tambah Produk** boleh dilihat dalam perintah untuk subgrid Peluang, Sebut Harga, Produk Pesanan dan Baris berasaskan projek.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

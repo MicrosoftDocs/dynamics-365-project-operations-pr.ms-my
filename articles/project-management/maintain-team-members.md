@@ -2,16 +2,18 @@
 title: Mengekalkan ahli pasukan
 description: Topik ini memberikan maklumat tentang tempahan sumber dinamakan kepada pasukan projek dan menugaskannya kepada tugasan.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997077"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131534"
 ---
 # <a name="maintain-team-members"></a>Mengekalkan ahli pasukan
 
@@ -19,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Anda boleh menambahkan sumber yang dinamakan kepada pasukan projek anda dengan menempahnya secara langsung ke pasukan.
 
-1. Dalam Dynamics 365 Project Operations, pergi ke **Projek** dan pilih buka projek yang anda tempah.
+1. Dalam Dynamics 365 Project Operations, pergi ke **Projek** dan pilih buka projek yang ditempah untuk anda.
 2. Pada halaman **Projek**, pada tab **Pasukan**, pilih **Baharu**. 
 3. Dalam kotak dialog **Ahli Pasukan Projek Cipta Pantas**, pilih sumber boleh ditempah. Medan **Peranan** akan mengisi peranan lalai sumber jika mereka mempunyai satu yang ditugaskan. Anda boleh mengubah peranan. 
 4. Pilih tarikh dari dan hingga yang diperlukan oleh sumber dan pilih kaedah peruntukan bagi kapasiti sumber. 
@@ -40,6 +42,3 @@ Apabila anda melakukan pemilihan, sumber ditambah kepada pasukan projek dan ditu
 Anda boleh menggunakan keupayaan tempahan lanjutan tab **Penyelarasan** atau **Papan Jadual** untuk menempah kapasiti sumber untuk projek.
 
 Selepas ahli pasukan ditempah pada projek anda, anda boleh menggunakan **Kekalkan tempahan** atau **Papan Jadual** secara langsung untuk mengurus penempahan mereka.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

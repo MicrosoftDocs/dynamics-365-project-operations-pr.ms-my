@@ -2,6 +2,8 @@
 title: Unit organisasi
 description: Topik ini menyediakan maklumat mengenai unit organisasi dalam Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005087"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145640"
 ---
 # <a name="organizational-units"></a>Unit organisasi 
 
@@ -53,7 +55,7 @@ Unit organisasi memainkan dua peranan dalam PSA:
 - **Unit kontrak** – Unit organisasi yang mewakili kumpulan atau bahagian syarikat yang bertanggungjawab terutamanya untuk memenangi jualan dan menguruskan penyampaian kerja dan perkhidmatan kepada pelanggan. Unit kontrak dikenal pasti oleh medan **Unit kontrak** dalam bahagian pengepala halaman **Peluang**, **Sebut Harga**, **Kontrak Projek** dan **Projek**.
 - **Unit Sumber** – Unit organisasi yang mana sumber tergolong dalam atau ditugaskan. Unit organisasi ini boleh menyediakan sumber untuk beberapa peranan mengenai pernyataan kerja (SOWs) dan projek yang dimiliki oleh unit kontrak.
 
-> ![Unit kontrak dan unit sumber.](media/advanced-1.png)
+> ![Unit kontrak dan unit sumber](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Soalan lazim unit organisasi
 
@@ -122,7 +124,7 @@ Tidak. Dalam keluaran semasa PSA, unit organisasi tidak berhierarki. Ini bermaks
 Apabila anda mempunyai hierarki ruimit bagi pusat kos, bahagian, pejabat pengebilan, dan lain-lain, menetapkan nod daun bagi hierarki itu sebagai unit organisasi berbeza.
 Contoh berikut menunjukkan hierarki biasa:
 
-**ContosoIndia**
+**Contoso India**
 
   - Amalan SAP 
 
@@ -165,6 +167,3 @@ Jika syarikat anda beroperasi sebagai satu unit yang mempunyai satu senarai harg
 Apabila projek dicipta sendiri, unit kontrak lalai projek ini adalah berdasarkan pengguna yang menciptanya. Pengguna itu juga ialah pengurus projek lalai. Jika projek dipetakan kepada entiti jualan seperti sebut harga atau kontrak projek, unit kontrak pada projek adalah berdasarkan kepada entiti jualan. Dalam hal ini, anggaran projek mungkin akan dikira semula kerana senarai harga kos digunakan untuk mengira perubahan anggaran kos jika unit kontrak ditukar. Senarai harga jualan digunakan untuk mengira anggaran jualan yang akan ditukar supaya ia disegerakkan dengan senarai harga projek pada sebut harga.
 
 Medan **Unit Kontrak** dan **Mata Wang** pada projek dikunci untuk edit kerana ia mesti segerak dengan nilai pada entiti jualan (sebut harga atau kontrak projek) yang projek tersebut dipetakan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

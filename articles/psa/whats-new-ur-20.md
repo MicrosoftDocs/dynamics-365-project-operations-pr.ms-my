@@ -2,6 +2,8 @@
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 20, V3
 description: Topik ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation 20, V3
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993612"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147124"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation Keluaran Kemas kini 20, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
+Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas kini 20. Versi ini mempunyai nombor binaan V 3.10.31.37 dan secara amnya boleh didapati melalui kemas kini sendiri pada Jun 2020.
 
@@ -40,7 +42,7 @@ Isu berikut telah dibaiki:
 
 - Mengimport ahli pasukan projek dengan kaedah peruntukan yang memerlukan masa untuk mendapatkan mesej ralat yang tidak jelas apabila masa yang ditentukan adalah sifar.
 - Pengguna menerima ralat yang salah apabila bilangan maksimum aksara telah dimasukkan ke dalam medan **Perihalan** untuk tugas projek.
-- Halaman **muat turun tambahan Microsoft Dynamics 365 Project Service Automation** dilencongkan ke halaman muat turun Bahasa Inggeris apabila tetapan bahasa pengguna ditetapkan kepada bahasa Jepun.
+- **Muat turun pasang masuk Microsoft Dynamics 365 Project Service Automation** diarahkan semula ke halaman muat turun Bahasa Inggeris apabila tetapan bahasa pengguna ditetapkan kepada Bahasa Jepun.
 - Apabila ralat pelayan berlaku, label penyegerakan pada tab **Jadual** bagi borang **Projek** kadangkala kekal.
 - Kemas kini tugas berlebihan dihantar kepada pelayan apabila tugas diubah suai.
 
@@ -60,6 +62,3 @@ Isu berikut telah dibaiki:
 - Senarai permit **Harga Kos Organisasi Unit** bertindih pada tarikh penguatkuasaan.
 - Pengguna tidak dibenarkan untuk mengubah **OrgUnit** apabila jenis pesanan tidak berasaskan kerja kerana ia akan membawa kepada ralat pengecualian rujukan yang tidak sah.
 - Apabila cuba untuk menavigasi dari borang **Butiran Baris Sebut Harga**, kembali ke tab **Sebut Harga**, borang menyegar semula dan memaparkan tab **Ringkasan**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

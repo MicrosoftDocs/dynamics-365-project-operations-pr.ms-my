@@ -2,26 +2,28 @@
 title: Gambaran keseluruhan pengurusan projek dan perakaunan
 description: Fungsi pengurusan projek dan perakaunan boleh digunakan dalam berbilang industri untuk menyediakan perkhidmatan, menghasilkan produk atau mendapatkan hasil.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007517"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081371"
 ---
 # <a name="project-management-and-accounting-overview"></a>Gambaran keseluruhan pengurusan projek dan perakaunan
 
@@ -34,14 +36,14 @@ Projek ialah kumpulan aktiviti yang direka untuk menyediakan perkhidmatan, mengh
 ## <a name="projects-across-industries"></a>Projek merentasi industri
 Fungsi pengurusan projek dan perakaunan boleh digunakan dalam berbilang industri seperti yang ditunjukkan dalam ilustrasi berikut.
 
-[![Projek merentasi industri.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projek merentasi industri](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Dalam pusat panggilan, tiket boleh digunakan untuk menerangkan set tindakan yang diperlukan untuk menyelesaikan panggilan. Syarikat perunding, seperti organisasi perundingan pengurusan atau teknikal atau agensi pengiklanan, merujuk aktiviti mereka sebagai projek. Dalam pemasaran, kempen mewakili set kerja yang mesti dihantar. Dalam pembuatan berasaskan projek, pesanan pengeluaran melibatkan pelbagai kerja yang mesti dilakukan untuk menghasilkan beberapa barangan siap. Sebarang nama yang digunakan untuknya, projek ini melibatkan sumber, jadual dan kos, dan fungsi pengurusan projek dan perakaunan boleh membantu projek ini dengan perancangan, pelaksanaan dan analisis.
 
 ## <a name="project-phases"></a>Fasa projek
 Walaupun aliran proses berikut bertujuan untuk projek luaran atau projek yang dilengkapkan untuk seorang pelanggan atau lebih, fungsinya juga diguna pakai untuk projek dalaman dan mempunyai kos sahaja. 
 
-![3 peringkat projek.](./media/3-stages-of-a-project.png) 
+![3 peringkat projek](./media/3-stages-of-a-project.png) 
 
 Seperti yang ditunjukkan dalam ilustrasi sebelumnya, pengurusan projek dan perakaunan boleh dibahagikan kepada tiga fasa:
 
@@ -50,7 +52,7 @@ Seperti yang ditunjukkan dalam ilustrasi sebelumnya, pengurusan projek dan perak
 3.  Analisis
 
 ## <a name="initiate-the-project"></a>Mulakan projek
-Semasa projek dimulakan, beberapa proses utama berlaku. Anda boleh menggunakan sebut harga projek untuk berkomunikasi anggaran buruh, perbelanjaan dan bahan mentah kepada pelanggan. Anda boleh merekod terma pengebilan, had dan perjanjian dalam kontrak projek. Anda boleh menggunakan struktur pecahan kerja (WBS) untuk merancang dan menganggar kerja. Anda boleh menetapkan ramalan dan belanjawan untuk mengarah pelaksanaan projek. Ilustrasi berikut menunjukkan struktur projek.[![struktur projek.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Semasa projek dimulakan, beberapa proses utama berlaku. Anda boleh menggunakan sebut harga projek untuk berkomunikasi anggaran buruh, perbelanjaan dan bahan mentah kepada pelanggan. Anda boleh merekod terma pengebilan, had dan perjanjian dalam kontrak projek. Anda boleh menggunakan struktur pecahan kerja (WBS) untuk merancang dan menganggar kerja. Anda boleh menetapkan ramalan dan belanjawan untuk mengarah pelaksanaan projek. Ilustrasi berikut menunjukkan struktur projek.[![struktur projek](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Cipta sebut harga projek
 
@@ -95,11 +97,11 @@ Anda boleh mencipta enam jenis projek dalam Kewangan. Setiap jenis projek diteta
   </tr>
   <tr>
     <td>Pelaburan</td>
-    <td>Projek pelaburan ialah projek yang tidak menghasilkan pendapatan segera. Ia biasanya digunakan untuk projek dalaman jangka panjang yang kos tersebut mesti dipermodalkan. Hanya kos untuk item, jam dan perbelanjaan boleh direkodkan untuk projek Pelaburan. Kos dalam projek Pelaburan dijejak dan dikawal dengan menggunakan fungsi anggaran. Projek pelaburan boleh disediakan dengan modal maksimum pilihan. Apabila projek pelaburan bergerak, anda merekodkan kosnya dalam akaun WIP, yang kos tersebut dipegang sehingga projek diselesaikan. Apabila projek telah disingkirkan, anda memindahkan nilai WIP kepada aset tetap, akaun lejar atau projek baharu. <br></br> <strong>PERHATIAN:</strong> Transaksi projek Pelaburan tidak ditunjukkan pada <strong>Kos hantaran<strong>, <strong>Pendapatan berakru</strong> atau halaman <strong>Cipta cadangan invois</strong>.</td>
+    <td>Projek pelaburan ialah projek yang tidak menghasilkan pendapatan segera. Ia biasanya digunakan untuk projek dalaman jangka panjang yang kos tersebut mesti dipermodalkan. Hanya kos untuk item, jam dan perbelanjaan boleh direkodkan untuk projek Pelaburan. Kos dalam projek Pelaburan dijejak dan dikawal dengan menggunakan fungsi anggaran. Projek pelaburan boleh disediakan dengan modal maksimum pilihan. Apabila projek pelaburan bergerak, anda merekodkan kosnya dalam akaun WIP, yang kos tersebut dipegang sehingga projek diselesaikan. Apabila projek telah disingkirkan, anda memindahkan nilai WIP kepada aset tetap, akaun lejar atau projek baharu. <br></br> <strong>PERHATIAN: </strong>Transaksi projek Pelaburan tidak ditunjukkan pada <strong>Kos hantaran<strong>, <strong>Pendapatan berakru</strong> atau halaman<strong>Cipta cadangan invois</strong>.</td>
   </tr>
   <tr>
     <td>Projek kos</td>
-    <td>Seperti projek Pelaburan, projek Kos biasanya digunakan untuk menjejaki projek dalaman dan hanya jam, perbelanjaan dan item boleh direkodkan untuknya. Walau bagaimanapun, tempoh projek Kos biasanya lebih pendek daripada projek Pelaburan. Di samping itu, tidak seperti projek Pelaburan, projek Kos tidak akan dipermodalkan kepada akaun kunci kira-kira. Sebaliknya, urus niaga projek tersebut hanya disiarkan untuk akaun untung dan rugi. <br></br> <strong>PERHATIAN:</strong> Transaksi pada projek Kos tidak ditunjukkan pada <strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman <strong>Cipta cadangan invois</strong>. Oleh kerana projek kos biasanya digunakan untuk menjejaki projek dalaman, ia biasanya tidak akan dikaitkan dengan akaun pelanggan. Walau bagaimanapun, jika persediaan anda memerlukan keperluan item dicipta untuk membeli pesanan, anda mesti mengaitkan projek Kos dengan pelanggan. Perkaitan ini diperlukan kerana keperluan item diuruskan sebagai baris pesanan jualan dan sistem memerlukan pelanggan dikhususkan. Walau bagaimanapun, persediaan ini tidak akan menyebabkan keperluan item untuk dicipta secara automatik daripada pesanan pembelian. Untuk projek Kos, tetapan <strong>Cipta keperluan item</strong> diabaikan. Jika anda memerlukan keperluan item dalam projek Kos, anda boleh menciptanya secara manual, dengan syarat pelanggan dikaitkan dengan projek tersebut.</td>
+    <td>Seperti projek Pelaburan, projek Kos biasanya digunakan untuk menjejaki projek dalaman dan hanya jam, perbelanjaan dan item boleh direkodkan untuknya. Walau bagaimanapun, tempoh projek Kos biasanya lebih pendek daripada projek Pelaburan. Di samping itu, tidak seperti projek Pelaburan, projek Kos tidak akan dipermodalkan kepada akaun kunci kira-kira. Sebaliknya, urus niaga projek tersebut hanya disiarkan untuk akaun untung dan rugi. <br></br> <strong>PERHATIAN: </strong>Transaksi pada projek Kos tidak ditunjukkan pada<strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman<strong>Cipta cadangan invois</strong>. Oleh kerana projek kos biasanya digunakan untuk menjejaki projek dalaman, ia biasanya tidak akan dikaitkan dengan akaun pelanggan. Walau bagaimanapun, jika persediaan anda memerlukan keperluan item dicipta untuk membeli pesanan, anda mesti mengaitkan projek Kos dengan pelanggan. Perkaitan ini diperlukan kerana keperluan item diuruskan sebagai baris pesanan jualan dan sistem memerlukan pelanggan dikhususkan. Walau bagaimanapun, persediaan ini tidak akan menyebabkan keperluan item untuk dicipta secara automatik daripada pesanan pembelian. Untuk projek Kos, tetapan <strong>Cipta keperluan item</strong> diabaikan. Jika anda memerlukan keperluan item dalam projek Kos, anda boleh menciptanya secara manual, dengan syarat pelanggan dikaitkan dengan projek tersebut.</td>
   </tr>
   <tr>
     <td>Dalaman</td>
@@ -107,7 +109,7 @@ Anda boleh mencipta enam jenis projek dalam Kewangan. Setiap jenis projek diteta
   </tr>
   <tr>
     <td>Waktu</td>
-    <td>Projek masa digunakan untuk menjejaki masa yang berkaitan dengan aktiviti tidak boleh dicaj dan tidak produktif, seperti projek untuk menjejaki masa sakit untuk pekerja. Transaksi dalam projek Masa tidak akan dihantar kepada lejar. Sebaliknya, ia dimasukkan dalam laporan penggunaan pekerja. Hanya transaksi jam boleh direkodkan dalam projek Masa. Anda menggunakan jurnal jam atau lembaran masa untuk mendaftar jam ini kepada projek. Selepas jam didaftarkan, ia muncul sebagai transaksi projek tetapi tidak mempunyai transaksi baucar yang sesuai. <br></br><strong>PERHATIAN:</strong> Transaksi pada projek Masa tidak ditunjukkan pada <strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman <strong>Cipta cadangan invois</strong>.</td>
+    <td>Projek masa digunakan untuk menjejaki masa yang berkaitan dengan aktiviti tidak boleh dicaj dan tidak produktif, seperti projek untuk menjejaki masa sakit untuk pekerja. Transaksi dalam projek Masa tidak akan dihantar kepada lejar. Sebaliknya, ia dimasukkan dalam laporan penggunaan pekerja. Hanya transaksi jam boleh direkodkan dalam projek Masa. Anda menggunakan jurnal jam atau lembaran masa untuk mendaftar jam ini kepada projek. Selepas jam didaftarkan, ia muncul sebagai transaksi projek tetapi tidak mempunyai transaksi baucar yang sesuai. <br></br><strong>PERHATIAN:</strong>Transaksi pada projek Masa tidak ditunjukkan pada<strong>Kos hantaran</strong>, <strong>Pendapatan berakru</strong> atau halaman<strong>Cipta cadangan invois</strong>.</td>
   </tr>
 </table>
 
@@ -178,7 +180,7 @@ Tujuan pesanan belian menentukan apabila pesanan belian digunakan dan oleh itu, 
 <td>Membeli item daripada vendor luaran untuk penggunaan pada projek. Anda boleh mencipta pesanan pembelian dengan cara berikut:
 <ul>
 <li>Daripada projek itu sendiri. Dalam kes ini, projek sudah ditetapkan untuk pesanan belian.</li>
-<li>Dengan menavigasi kepada pesanan belian projek. Anda mesti memilih vendor dan projek untuk mencipta pesanan belian.</li>
+<li>Dengan menavigasi kepada pesanan belian projek. Anda mesti memilih kedua-dua pembekal dan projek untuk mencipta pesanan pembelian.</li>
 </ul></td>
 <td>Item digunakan apabila invois vendor dikemas kini.</td>
 </tr>
@@ -203,7 +205,7 @@ Anda boleh memesan item daripada inventori syarikat untuk kegunaan projek. Sebag
 
 Cara anda memesan item bergantung pada tempat anda memesannya:
 
--   Untuk memesan item daripada inventori syarikat, anda mesti masukkan pesanan sebagai keperluan item. Jika anda menggunakan halaman **Keperluan item**, anda boleh menetapkan keperluan supaya anda menerima item sebagai penghantaran separa. Oleh itu, anda boleh menangguhkan penggunaan kuantiti item sehingga item tersebut diperlukan.
+-   Untuk memesan item daripada inventori syarikat, anda mesti masukkan pesanan sebagai keperluan item. Jika anda menggunakan halaman **Keperluan item**, anda boleh menetapkan keperluan supaya anda menerima item sebagai penghantaran separa.Oleh itu, anda boleh menangguhkan penggunaan kuantiti item sehingga item tersebut diperlukan.
 -   Untuk memesan item daripada vendor luaran, anda mesti mencipta pesanan sebagai pesanan pembelian pada halaman **Pesanan pembelian**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Jenis projek menentukan prosedur penginvoisan yang sepatutnya digunakan. Hanya d
 Sebelum anda mencipta invois pelanggan untuk projek, anda boleh mencipta invois awal atau cadangan invois. Dalam cadangan invois, anda boleh memilih urus niaga projek untuk disertakan dalam invois projek. Anda kemudian boleh menyemak butiran invois sebelum anda menyiarkan invois projek dan menghantarnya kepada pelanggan atau sumber pembiayaan lain. 
 
 
-Untuk maklumat lanjut mengenai cara untuk memproses projek invois, lihat [Penginvoisan project](/dynamics365/finance/accounts-payable/project-invoicing).
+Untuk maklumat lanjut mengenai cara untuk memproses projek invois, lihat [Penginvoisan project](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Mengira kos untuk melengkapkan projek
@@ -298,7 +300,7 @@ Berdasarkan persediaan anda, anda boleh meramalkan aliran masuk tunai untuk proj
 -   **Tarikh projek:** 5 Mac 2012.
 -   **Tarikh invois:** 31 Mac 2012. Tarikh ini ditentukan berdasarkan kepada kekerapan invois. Untuk contoh ini, anda menetapkan kekerapan invois pada bulan semasa. Oleh itu, semua transaksi yang disiarkan dalam bulan Mac akan diinvois pada hari terakhir bulan tersebut.
 -   **Tarikh tamat tempoh:** 14 April 2012. Tarikh ini ditentukan berdasarkan terma pembayaran yang ditetapkan untuk projek tersebut. Untuk contoh ini, anda memilih terma pembayaran selama 14 hari. Oleh itu, 14 hari akan ditambahkan pada tarikh invois sehingga tarikh tamat tempoh pada 14 April 2012.
--   **Anggaran tarikh bayaran jualan:** 27 April 2012. Tarikh ini dikira dengan menambah bilangan hari dalam medan **Hari penimbal individu** pada halaman **Pengurusan projek dan parameter perakaunan** kepada bilangan hari dalam medan **Hari penimbal individu** pada halaman **Kontrak projek** dan kemudian menambah jumlah hari ke dalam medan **Tarikh tamat tempoh**. Untuk contoh ini, anda dimasukkan **3** dalam medan **Hari penimbal umum** dan **10** dalam medan **Hari penimbal individu**. Oleh itu, 13 hari akan ditambahkan pada tarikh tamat tempoh sehingga tarikh pembayaran jualan yang dijangka pada 27 April 2012.
+-   **Anggaran tarikh bayaran jualan:** 27 April 2012. Tarikh ini dikira dengan menambah bilangan hari dalam medan **Hari penimbal umum** pada halaman **Pengurusan projek dan parameter perakaunan** kepada bilangan hari dalam medan **Hari penimbal individu** pada halaman **Kontrak projek**, dan kemudian menambah jumlah hari ke dalam medan **Tarikh tamat tempoh**. Untuk contoh ini, anda dimasukkan **3** dalam medan **Hari penimbal umum** dan **10** dalam medan **Hari penimbal individu**. Oleh itu, 13 hari akan ditambahkan pada tarikh tamat tempoh sehingga tarikh pembayaran jualan yang dijangka pada 27 April 2012.
 
 Hari penimbal umum boleh menggantikan hari penimbal individu atau ditambahkan kepada hari penimbal individu:
 
@@ -309,7 +311,7 @@ Sediakan hari penimbal individu dalam kontrak projek. Hari dikira berdasarkan ta
 
 #### <a name="actual-cash-inflow"></a>Aliran masuk tunai sebenar
 
-Ramalan bersamaan aliran masuk tunai sebenar tetapi anda boleh mulakan pengiraan anda daripada tarikh invois pertama. Berikut ialah contoh:
+Ramalan bersamaan aliran masuk tunai sebenar, tetapi anda boleh mulakan pengiraan anda daripada tarikh invois pertama. Berikut ialah contoh:
 
 -   **Tarikh invois:** 2 Mac 2012.
 -   **Tarikh tamat tempoh:** 16 Mac 2012. Terma pembayaran ditetapkan kepada 14 hari.
@@ -438,6 +440,3 @@ Selepas pernyataan dikira, anda boleh melihat maklumat berikut pada tab pelbagai
 -   **Penggunaan** – Maklumat mengenai penggunaan jam, item, perbelanjaan dan transaksi gaji.
 -   **Invois** – Maklumat mengenai invois dan penginvoisan pada akaun.
 -   **Kadar jam** – Kadar jam bagi jam yang didaftarkan ke akaun pendapatan dan kos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

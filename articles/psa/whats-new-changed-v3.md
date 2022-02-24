@@ -1,6 +1,8 @@
 ---
 title: Perkara baharu atau berubah dalam Project Service Automation versi 3
 description: Topik ini menyediakan maklumat tentang perkara baharu dan diubah dalam Project Service Automation versi 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987087"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150679"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Perkara baharu atau berubah dalam Project Service Automation versi 3
 
@@ -36,7 +38,7 @@ Topik ini menyediakan maklumat tentang perubahan kepada antara muka pengguna (UI
 ## <a name="project-scheduling"></a>Penjadualan projek
 Jadual projek yang dikenali sebagai Struktur Pecahan Kerja (WBS) dalam versi terdahulu, telah dinamakan semula sebagai Jadual dan diakses dengan mengklik tab **Jadual**. 
 
-![Jadual Projek.](media/psa-schedule-01.png)
+![Jadual Projek](media/psa-schedule-01.png)
 
 Jadual kini mempunyai permukaan baharu untuk interaksi yang moden dan boleh diakses. Walau bagaimanapun, enjin penjadualan Project Service Automation asas tidak berubah. Butang kawalan dalam reben grid jadual membolehkan anda berinteraksi dengan jadual yang serupa dengan versi terdahulu Project Service Automation. Perubahan tambahan kepada jadual termasuk:
 
@@ -95,22 +97,22 @@ Apabila anda mengalihkan jadual projek sedia ada ke hadapan, perkara berikut aka
 ## <a name="estimates"></a>Anggaran
 Anggaran telah dibahagikan kepada dua tab, **Tugasan sumber** dan **Anggaran**. Tab **Tugasan sumber** mengandungi anggaran usaha dan menunjukkan tugasan sumber untuk tugas dalam pandangan berfasa masa. Anda boleh mengedit anggaran berdasarkan pada enjin penjadualan yang dijana.
 
-![Tab tugasan sumber menunjukkan anggaran usaha dan tugasan sumber untuk tugas.](media/resource-assignments-tab-02.png)
+![Tab tugasan sumber menunjukkan anggaran usaha dan tugasan sumber untuk tugas](media/resource-assignments-tab-02.png)
 
 Tab **Anggaran** menunjukkan kos dan jumlah jualan untuk tugasan sumber. Jumlah baca sahaja. Penentuan harga pengekosan dan jualan kini didorong oleh tugasan ahli pasukan pada jadual. Ini bermakna jika anda mempunyai tugas tanpa sebarang tugasan, tugas itu akan ditunjukkan di bawah baldi tidak ditugaskan. Ini juga bermakna tanpa **peranan**, yang merupakan dimensi penentuan harga lalai, tiada kos atau jualan anggaran jika anda mempunyai pelanggan atau kontrak/sebut harga yang berkaitan dengan projek. 
 
-![Tab Anggaran menunjukkan jumlah kos dan jualan.](media/estimates-tab-03.png)
+![Anggaran tab menunjukkan jumlah kos dan jualan](media/estimates-tab-03.png)
   
 Kategori juga disokong pada tugas dalam pandangan jadual. Dikumpulkan mengikut kategori pada pandangan anggaran berfasa masa akan menyediakan pengalaman yang lebih baik terutamanya apabila anda juga mempunyai anggaran perbelanjaan dalam projek anda. Anggaran perbelanjaan dimasukkan menggunakan grid pada tab berasingan. 
 
 Anggaran perbelanjaan boleh dimasukkan dalam grid pada tab **Anggaran perbelanjaan**. 
 
-![Tab anggaran perbelanjaan menunjukkan grid anggaran perbelanjaan.](media/expense-estimates-tab-04.png)
+![Tab anggaran perbelanjaan menunjukkan grid anggaran perbelanjaan](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Pengurusan sumber
 Dalam Project Service Automation versi 3, dengan UI Klien Disatukan yang baharu dan perubahan dalam hubungan antara tempahan dan tugasan, pengambilan kakitangan untuk projek dengan sumber generik atau sebenar telah berubah secara mendadak daripada versi 2 dan versi 1. Walau bagaimanapun, konsep sumber boleh ditempah yang **sebenar** dan **generik** tetap sama seperti ahli pasukan, keperluan, tugasan dan tempahan.   
 
-![Menggunakan pemilih sumber.](media/resource-management-05.png)
+![Menggunakan pemilih sumber](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Tugaskan sumber boleh ditempah sebenar 
 Dalam Project Service Automation versi 3, tempahan dan penugasan tugas tidak begitu berkaitan seperti dalam versi Project Service Automation sebelumnya. Anda boleh menggunakan grid pasukan untuk menempah ahli pasukan **sebenar** yang sama dengan pasaran.
@@ -136,7 +138,7 @@ Apabila keperluan dipenuhi dengan berbilang sumber, sumber generik kekal berada 
 ### <a name="reconciliation"></a>Penyelarasan
 Tab **Penyelarasan** menunjukkan tempahan dan semua tugasan untuk setiap ahli pasukan projek. Pandangan menunjukkan jam dalam sel yang boleh mewakili titik masa dari bulan ke hari. Pandangan ini membenarkan pengurus projek menyelaras tempahan ahli pasukan dan tugasannya untuk pasukan projeknya. Ini dapat membantu kerana tempahan dan tugasan tugas tidak terikat yang membenarkan lebih banyak kefleksibelan apabila merancang projek. 
 
-![Tab penyelarasan menunjukkan tempahan dan tugasan untuk ahli pasukan projek.](media/resource-reconciliation-tab-06.png)
+![Tab penyelarasan menunjukkan tempahan dan tugasan untuk ahli pasukan projek](media/resource-reconciliation-tab-06.png)
 
 Bagi setiap sumber, pandangan mengambil perbezaan antara tempahan ahli pasukan dan gulung atas tugasan tugasnya dan menunjukkan dua perbezaan berikut yang boleh berlaku dengan tempahan dan tugasan dalam projek: 
 
@@ -151,19 +153,19 @@ Bahagian ini menyediakan maklumat tentang perubahan dalam masa, perbelanjaan dan
 ### <a name="landing-page"></a>Halaman pendaratan
 Pengalaman entri masa tersuai yang tidak boleh dilanjutkan telah ditamatkan dalam versi 3. Sebaliknya, kini terdapat pengalaman grid asli yang boleh dilanjutkan dan boleh diakses. Anda boleh mengakses fungsi entri masa dengan menggunakan peta tapak di sebelah kiri. Dengan perubahan ini, anda tidak lagi boleh memasukkan masa untuk satu minggu pada satu masa. Sebaliknya, anda perlu mencipta entri masa untuk setiap hari dalam grid. Selepas beberapa kali entri dicipta, pengguna boleh mencipta entri masa dengan fungsi **Salin** diterangkan kemudian dalam topik ini. 
 
-![Halaman pendaratan entri masa.](media/time-entry-landing-page-07.png)
+![Halaman pendaratan entri masa](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Cipta entri masa baharu 
 Klik **Baharu** dalam reben untuk membuka halaman cipta pantas untuk entri masa tempat anda memasukkan tempoh dalam minit, jam atau hari. Untuk melakukan ini, hanya mula menaip h, m atau d bersama dengan kuantiti.  
 
-![Cipta cepat entri masa.](media/quick-create-time-entry-08.png)
+![Cipta pantas entri masa](media/quick-create-time-entry-08.png)
 
 Medan carian disokong oleh pandangan sistem. Contohnya, selepas anda memasukkan maklumat projek, medan **Tugas projek** ditetapkan secara lalai kepada pandangan **Tugas projek terbuka saya**. Bagi mencipta entri masa untuk tugas yang tidak ditugaskan kepada pengguna, klik **Ubah pandangan** pada carian dan pilih **Semua tugas projek Aktif**. Selepas entri masa telah dicipta dan ditunjukkan dalam grid, anda boleh mengedit sebarang nilai baris secara langsung dalam grid.  
 
 ### <a name="bulk-createcopy"></a>Cipta/salinan pukal 
 Selepas beberapa kali entri telah dicipta, anda boleh menggunakan fungsi salin untuk mencipta entri masa tambahan. Klik **Salin** untuk membuka dialog **Salin**. Dalam **daripada tempoh: Tarikh Mula**, tetapkan julat tarikh dari tempoh masa yang mesti disalin. Dalam **Hingga Tempoh: Tarikh Mula**, tentukan tarikh untuk entri masa mesti dicipta. Klik **Salin** untuk menyalin entri masa pada hari sama dalam seminggu yang ditunjukkan dalam **Hingga Tempoh**. Contohnya, entri masa Isnin dari minggu lepas akan disalin ke Isnin untuk minggu yang dinyatakan dalam **Hingga Tempoh**. 
 
-![Salin entri masa secara pukal.](media/bulk-copy-time-entry-09.png)
+![Salin entri masa dalam pukal](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Import data 
 Tugasan dan pertukaran mengikut corak UI sama membenarkan pengguna menentukan julat tarikh apabila tempahan perlu diimport. Anda mesti memilih tempahan secara jelas yang harus disalin ke dalam entri masa **Draf**. Dalam versi 3, anda tidak boleh melihat corak entri masa yang **Dicadangkan** pada grid dan kalendar.  
@@ -179,7 +181,7 @@ Dalam versi 3, ia telah dialihkan daripada kawalan kalendar tersuai dan kini men
 
 **Rekodkan data pada medan tersuai dalam entri masa dan perbelanjaan dan menyebarkannya melalui entiti yang menyokong penyerahan dan aliran kelulusan** - Pemprosesan biasa entri masa ditunjukkan dalam diagram berikut.
 
-![Proses aliran entri masa.](media/process-time-entries-10.png)
+![Proses aliran kemasukan masa](media/process-time-entries-10.png)
 
 Jika keperluan perniagaan menetapkan entiti masa dan perbelanjaan mesti merekodkan dimensi penentuan harga tersuai dan menyebarkan nilai yang ditetapkan oleh sumber masa dan entri dalam dimensi penentuan harga tersuai melalui semua entiti dalam grafik sebelumnya, lihat [Tetapkan medan tersuai sebagai dimensi penentuan harga](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ Dalam versi 1 dan 2, persediaan kebolehtuntutan untuk peranan dan kategori bagi 
 
 Seperti versi 3, persediaan pilihan kebolehtuntutan mengikut peranan dan Kategori perbelanjaan akan dilakukan pada peringkat sebut harga atau baris kontrak. Persediaan penentuan harga adalah berasingan daripada persediaan Kebolehtuntutan. Anda akan boleh mencari **Peranan boleh dituntut** dan **Kategori oleh dituntut** seperti tab pada halaman **Baris sebut harga** dan  **Baris kontrak** tanpa perlu menggunakan navigasi bahagian atas.
 
-![Peranan boleh dituntut.](media/chargeable-12.png)
+![Peranan boleh dituntut](media/chargeable-12.png)
  
 Persediaan Peranan boleh dituntut dan Kategori boleh dituntut juga memanfaatkan kawalan grid boleh diedit siap guna. Bagi setiap peranan dan kategori, pilihan yang disokong untuk jenis pengebilan semasa fasa Penyebutan Harga dan Pengkontrakan kekal tidak berubah daripada versi terdahulu seperti **Boleh dituntut** dan **Tidak boleh dituntut**. **Percuma** bukan jenis yang disokong semasa fasa Penyebutan Harga atau Pengkontrakan. **Percuma** disokong hanya semasa kelulusan Masa atau Perbelanjaan.  
  
@@ -247,14 +249,11 @@ Seperti versi 3, mencipta dan menggunakan senarai harga projek tersuai pada sebu
   
 Grafik berikut adalah sebelum senarai harga tersuai telah dicipta.
 
-![Sebelum senarai harga tersuai.](media/before-custom-price-lists-13.png)
+![Sebelum senarai harga tersuai](media/before-custom-price-lists-13.png)
 
 Grafik berikut ditunjukkan selepas senarai harga tersuai telah dicipta.
 
-![Selepas senarai harga tersuai.](media/after-custom-price-lists-14.png)
+![Selepas senarai harga tersuai](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Sela pendek mungkin berlaku ketika anda mengklik **Cipta Penentuan Harga Tersuai** sehingga senarai harga tersuai dicipta. Kami mengesyorkan menyegar semula grid dan bukannya mengklik berbilang kali. Senarai harga tersuai telah dicipta jika nama senarai harga berkaitan mempunyai nama sebut harga atau nama kontrak projek yang ditambahkan kepadanya.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

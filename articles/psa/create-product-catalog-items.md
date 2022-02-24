@@ -2,6 +2,8 @@
 title: Cipta item katalog produk
 description: Cara untuk mencipta item katalog produk dalam Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 727f7139ec590ff2994d1ae7e7c5dddbd50a7733b0e5935f3fd6bdefde713713
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995367"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144694"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Cipta item katalog produk (Project Service)
 
@@ -31,10 +33,7 @@ ms.locfileid: "6995367"
 
 Jika anda mahu memasukkan produk, seperti lesen perisian, dalam sebut harga dan anggaran projek anda, anda perlu menambah setiap projek ke dalam katalog produk.  
   
- Untuk mendapatkan maklumat lanjut tentang penambahan produk pada katalog produk, lihat [Cipta produk (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
+ Untuk mendapatkan maklumat lanjut tentang penambahan produk pada katalog produk, lihat [Cipta produk (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasikan Project Service](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

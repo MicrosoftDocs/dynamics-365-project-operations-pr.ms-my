@@ -2,16 +2,18 @@
 title: Pemenuhan keperluan sumber generik
 description: Topik ini menyediakan maklumat tentang cara menempah sumber bernama untuk keperluan sumber generik.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008282"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130319"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Pemenuhan keperluan sumber generik
 
@@ -37,6 +39,3 @@ Ini adalah contoh ketika sumber berbilang diperlukan untuk mengisi permintaan su
 Perbezaan utama dalam senario ini ialah bahawa sumber generik kekal dalam pasukan yang ditugaskan kepada tugas, dan ahli pasukan sumber bernama yang ditempah tidak ditugaskan sebagai sebahagian daripada kedudukan tersebut. Pengurus projek boleh menugaskan kerja sebagai sesuai kepada sumber bernama. Pandangan **Penyesuaian** boleh membantu pengurus projek dalam memecahkan tempahan di semua berbilang sumber untuk menugaskan tugasan. Ini tidak dilakukan secara automatik kerana dalam mana-mana senario yang lebih rumit daripada contoh mudah di atas seperti di mana anda mempunyai tugas yang memenuhi keperluan atau tujuan cara pengurus projek mahu menugaskan, perlu diandaikan oleh sistem. Oleh kerana sistem tidak boleh memahami tujuan, andaian mungkin akan berbeza daripada yang ditujukan dan hasil yang salah atau tidak dapat diramalkan akan berlaku. Hasil yang boleh dijangka ialah sumber generik kekal ditugaskan sehingga pengurus projek secara sengaja mencipta tugasan, dengan bantuan pandangan **Penyesuaian**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

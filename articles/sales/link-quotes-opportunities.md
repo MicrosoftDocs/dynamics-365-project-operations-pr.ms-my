@@ -2,16 +2,18 @@
 title: Cipta sebut harga projek daripada peluang
 description: Topik ini memberikan maklumat tentang mencipta sebut harga projek daripada peluang.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999642"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118124"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Cipta sebut harga projek daripada peluang
 
@@ -54,6 +56,3 @@ Sebut harga sedia ada boleh dipautkan kepada Peluang. Lengkapkan langkah berikut
    Apabila anda menggerakkan peluang ke peringkat ini, anda boleh memilih sebut harga daripada senarai sebut harga yang berkaitan dengan peluang ini. Memilih sebut harga ini menunjukkan bahawa anda bergerak ke hadapan bersama-sama.
 
    Semua sebut harga lain yang berkaitan dengan Peluang masih akan tersedia dan aktif sehingga salah satu sebut harga dimenangi. Anda boleh menggerakkan proses jualan kembali ke peringkat sebelumnya **Layakkan** dan memilih sebut harga lain untuk bergerak ke hadapan bersama-sama.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

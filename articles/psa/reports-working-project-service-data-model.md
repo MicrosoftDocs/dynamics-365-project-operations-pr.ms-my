@@ -2,6 +2,8 @@
 title: Bekerja dengan model data Project Service Automation
 description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan model data.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002432"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147664"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
@@ -53,7 +55,7 @@ PSA juga menambah entiti berkaitan sebut harga baharu kepada model data Dynamics
 
 Entiti lain yang PSA tambah kepada sebut harga ialah **Senarai Projek Baris Sebut Harga**, **Kategori Sumber Baris Sebut Harga** dan **Kategori Transaksi Baris Sebut Harga**.
 
-![Rajah menunjukkan sebut harga, baris sebut harga dan perhubungan projek.](media/PS-Reporting-image2.png "Gambarajah menunjukkan sebut harga, baris sebut harga dan perhubungan projek")
+![Gambarajah menunjukkan sebut harga, baris sebut harga dan perhubungan projek](media/PS-Reporting-image2.png "Gambarajah menunjukkan sebut harga, baris sebut harga dan perhubungan projek")
 
 ## <a name="reporting-on-project-contracts"></a>Pelaporan berkenaan kontrak projek
 
@@ -69,7 +71,7 @@ PSA juga menambah entiti baharu yang direka bentuk untuk kontrak projek. Berikut
 
 Entiti lain yang PSA tambah kepada kontrak ialah **Senarai Harga Projek Baris Kontrak Projek**, **Kategori Sumber Baris Kontrak Projek** dan **Kategori Transaksi Baris Kontrak Projek**.
 
-![Rajah menunjukkan pesanan, baris pesanan dan perhubungan projek.](media/PS-Reporting-image3.png "Gambarajah menunjukkan pesanan, baris pesanan dan perhubungan projek")
+![Gambarajah menunjukkan pesanan, baris pesanan dan perhubungan projek](media/PS-Reporting-image3.png "Gambarajah menunjukkan pesanan, baris pesanan dan perhubungan projek")
 
 ## <a name="reporting-on-projects"></a>Pelaporan berkenaan projek
 
@@ -81,18 +83,18 @@ Entiti **Projek** dan entiti berkaitannya adalah eksklusif untuk PSA. **Projek**
 - **Keperluan Sumber** – Entiti ini mengandungi keperluan untuk sebarang ahli pasukan sumber generik.
 - **Anggaran** dan **Baris anggaran** – Entiti ini mempunyai perhubungan pengepala/baris dan mengandungi anggaran perbelanjaan untuk projek. Anggaran tugas disimpan pada entiti **Anggaran Sumber**.
 
-![Rajah menunjukkan keperluan sumber dan perhubungan projek.](media/PS-Reporting-image4.png "Gambarajah menunjukkan keperluan sumber dan perhubungan projek")
+![Gambarajah menunjukkan keperluan sumber dan perhubungan projek](media/PS-Reporting-image4.png "Gambarajah menunjukkan keperluan sumber dan perhubungan projek")
 
 ## <a name="reporting-on-resources"></a>Pelaporan berkenaan sumber
 
-Sumber projek menggunakan entiti **Sumber Boleh Ditempah** daripada Universal Resource Scheduling (URS) yang dikongsi dengan aplikasi lain, seperti Microsoft Dynamics 365 Field Service. Berikut ialah senarai entiti yang anda mungkin perlu gunakan apabila anda melaporkan tentang sumber projek:
+Sumber projek menggunakan entiti **Sumber boleh ditempah** dari Universal Resource Scheduling (URS) yang dikongsi dengan aplikasi lain, seperti Microsoft Dynamics 365 Field Service. Berikut ialah senarai entiti yang anda mungkin perlu gunakan apabila anda melaporkan tentang sumber projek:
 
 - **Sumber Boleh Ditempah** – Entiti ini mewakili pengguna, kenalan, sumber generik, akaun, kumpulan atau peralatan yang digunakan pada pasukan projek.
 - **Ciri Sumber Boleh Ditempah** – Entiti ini termasuk kemahiran, persijilan atau pendidikan sumber. Ciri boleh mempunyai nilai penarafan yang ditakrifkan oleh model penarafan.
 - **Kategori Sumber Boleh Ditempah** – Entiti ini mewakili peranan sumber boleh ditempah.
 - **Penempahan sumber boleh ditempah** – Entiti ini mewakili masa yang ditempah pada projek untuk sumber tersebut. Setiap tempahan mempunyai entiti pengepala dan entiti baris, dan setiap baris mempunyai status yang mewakili status tempahan.
 
-![Rajah menunjukkan perhubungan ciri sumber boleh ditempah.](media/PS-Reporting-image5.png "Gambarajah menunjukkan perhubungan ciri sumber boleh ditempah")
+![Gambarajah menunjukkan perhubungan ciri sumber boleh ditempah](media/PS-Reporting-image5.png "Gambarajah menunjukkan perhubungan ciri sumber boleh ditempah")
 
 ## <a name="reporting-on-actual-transactions"></a>Pelaporan berkenaan transaksi sebenar
 
@@ -120,7 +122,4 @@ Apabila anda bekerja dengan entiti **Aktual**, adalah penting anda untuk memaham
 
 Entiti **Asal Transaksi** merekodkan asal rekod **Aktual** dan entiti **Sambungan Transaksi** merekodkan rekod yang berkaitan bagi rekod **Aktual**. Selain itu, rekod **Aktual** mengandungi rujukan projek, kontrak projek (pesanan), sumber boleh ditempah dan pelanggan.
 
-![Rajah menunjukkan sambungan transaksi, asal dan perhubungan aktual.](media/PS-Reporting-image6.png "Gambarajah menunjukkan sambungan transaksi, asal dan perhubungan sebenar")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Gambarajah menunjukkan sambungan transaksi, asal dan perhubungan sebenar](media/PS-Reporting-image6.png "Gambarajah menunjukkan sambungan transaksi, asal dan perhubungan sebenar")

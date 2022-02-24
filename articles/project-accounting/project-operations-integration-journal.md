@@ -2,16 +2,18 @@
 title: Jurnal integrasi dalam Project Operations
 description: Topik ini menyediakan maklumat tentang bekerja dengan jurnal integrasi dalam Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987942"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948341"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
@@ -19,14 +21,14 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Entri masa dan perbelanjaan mencipta transaksi **Aktual** yang mewakili pandangan operasi bagi kerja yang diselesaikan terhadap projek. Dynamics 365 Project Operations menyediakan akauntan dengan alat untuk menyemak semula transaksi dan melaraskan atribut perakaunan seperti yang diperlukan. Selepas kajian semula dan pelarasan selesai, transaksi akan disiarkan ke sub lejar Projek dan Lejar Am. Akauntan boleh melaksanakan aktiviti ini menggunakan jurnal **Integrasi Project Operations**(**Dynamics 365 Finance** > **Pengurusan projek dan perakaunan** > **Jurnal** > **Integrasi Project Operations**.
 
-![Aliran jurnal integrasi.](./media/IntegrationJournal.png)
+![Aliran jurnal integrasi](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Cipta rekod dalam jurnal integrasi Project Operations
 
 Rekod dalam jurnal integrasi Project Operations dicipta menggunakan proses berkala, **Import daripada jadual pemeringkatan**. Anda boleh menjalankan proses ini dengan pergi ke **Dynamics 365 Finance** > **Pengurusan projek dan perakaunan** > **Berkala** > **Integrasi Project Operations** > **Import daripada jadual pemeringkatan**. Anda boleh menjalankan proses secara interaktif atau mengkonfigurasi proses untuk berjalan dalam latar belakang apabila diperlukan.
 
 Apabila proses berkala berjalan, sebarang aktual yang belum ditambah ke jurnal integrasi Project Operations ditemui. Baris jurnal untuk setiap transaksi aktual dicipta.
-Sistem mengumpul baris jurnal ke dalam jurnal berasingan berasaskan pada nilai yang dipilih dalam medan **Unit berkala pada jurnal Integrasi Project Operations** (**Finance** > **Pengurusan dan perakaunan projek** > **Sediakan** > **Parameter pengurusan dan perakaunan projek**, tab **Project Operations pada Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk medan ini termasuk:
+Sistem mengumpul baris jurnal ke dalam jurnal berasingan berasaskan pada nilai yang dipilih dalam medan **Unit berkala pada jurnal Integrasi Project Operations** (**Kewangan** > **Pengurusan dan perakaunan projek** > **Sediakan** > **Parameter pengurusan dan perakaunan projek**, tab **Project Operations pada Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk medan ini termasuk:
 
   - **Hari**: Aktual dikumpul mengikut tarikh transaksi. Jurnal berasingan dicipta untuk setiap hari.
   - **Bulan**: Aktual dikumpulkan mengikut bulan kalendar. Jurnal berasingan dicipta untuk setiap bulan.

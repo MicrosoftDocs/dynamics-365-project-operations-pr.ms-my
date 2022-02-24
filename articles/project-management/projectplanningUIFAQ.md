@@ -2,38 +2,34 @@
 title: Selesaikan masalah kerja dalam grid Tugas
 description: Topik ini menyediakan maklumat penyelesaian masalah yang diperlukan apabila menggunakan grid Tugas.
 author: ruhercul
-ms.date: 09/22/2021
+manager: tfehr
+ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
+ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547210"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031548"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Selesaikan masalah kerja dalam grid Tugas 
 
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-_**Digunakan Untuk:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Lite - urusan untuk penginvoisan proforma, Project for the web_
+Topik ini menerangkan cara menyelesaikan masalah yang anda mungkin alami ketika menggunakan pengurusan kos.
 
-Grid Tugas yang dimanfaatkan oleh Dynamics 365 Project Operations adalah iframe berhos dalam Microsoft Dataverse. Hasil daripada penggunaan ini, keperluan khusus mesti dipenuhi untuk memastikan pengesahan dan kelulusan berfungsi dengan betul. Topik ini menggariskan isu lazim yang boleh mempengaruhi keupayaan untuk memaparkan grid atau mengurus tugas dalam struktur pecahan kerja (WBS).
+## <a name="enable-cookies"></a>Dayakan kuki
 
-Isu lazim termasuk:
+Project Operations memerlukan kuki pihak ketiga tersebut didayakan bagi memaparkan struktur pecahan kerja. Apabila kuki pihak ketiga tidak didayakan, anda tidak melihat tugas, tetapi anda akan melihat halaman kosong apabila anda memilih tab **Tugas** pada halaman **Projek**.
 
-- Tab **Tugas** pada grid Tugas adalah kosong.
-- Apabila membuka projek, projek tidak dimuatkan dan antara muka pengguna (UI) tersekat pada spinner.
-- Pentadbiran kelayakan untuk **Project for the Web**.
-- Perubahan tidak disimpan apabila anda mencipta, mengemas kini atau memadam tugas.
+![Tab kosong apabila kuki pihak ketiga tidak didayakan](media/blankschedule.png)
 
-## <a name="issue-the-task-tab-is-empty"></a>Isu: Tab tugas adalah kosong
 
-### <a name="mitigation-1-enable-cookies"></a>Pengurangan 1: Dayakan kuki
-
-Project Operations memerlukan kuki pihak ketiga didayakan untuk memaparkan struktur pecahan kerja. Apabila kuki pihak ketiga tidak didayakan, anda tidak melihat tugas, tetapi anda akan melihat halaman kosong apabila anda memilih tab **Tugas** pada halaman **Projek**.
-
+### <a name="workaround"></a>Penyelesaian sementara
 Untuk penyemak imbas Microsoft Edge atau Google Chrome, prosedur berikut menggariskan cara mengemas kini tetapan penyemak imbas anda untuk mendayakan kuki pihak ketiga.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -42,7 +38,6 @@ Untuk penyemak imbas Microsoft Edge atau Google Chrome, prosedur berikut menggar
 2. Di penjuru sebelah kanan bahagian atas, pilih **elipsis** (...), dan kemudian pilih **Tetapan**.
 3. Di bawah **Keizinan kuki dan tapak**, pilih **Kuki dan data tapak**.
 4. Matikan **Sekat kuki pihak ketiga**.
-5. Segar semula pelayar anda. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -50,101 +45,64 @@ Untuk penyemak imbas Microsoft Edge atau Google Chrome, prosedur berikut menggar
 2. Di penjuru sebelah kanan bahagian atas, pilih tiga titik menegak (...), dan kemudian pilih **Tetapan**.
 3. Di bawah **Privasi dan keselamatan**, pilih **Kuki dan data tapak lain**.
 4. Pilih **Benarkan semua kuki**.
-5. Segar semula pelayar anda. 
 
-> [!NOTE]
+> [!IMPORTANT]
 > Jika anda menyekat kuki pihak ketiga, semua kuki dan data tapak daripada tapak lain akan disekat, sekalipun tapak itu dibenarkan pada senarai pengecualian anda.
 
-### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Pengurangan 2: Sahkan titik tamat PEX telah dikonfigurasikan dengan betul
+## <a name="pex-endpoint"></a>Titik Tamat PEX
 
-Project Operations memerlukan parameter projek merujuk Titik Tamat PEX. Titik tamat ini diperlukan untuk berkomunikasi dengan perkhidmatan yang digunakan untuk memaparkan struktur pecahan kerja. Jika parameter tidak didayakan, anda akan menerima ralat, "Parameter projek tidak sah". Untuk mengemas kini titik tamat PEX, lengkapkan langkah berikut.
+Project Operations memerlukan parameter projek merujuk Titik Tamat PEX. Titik tamat ini diperlukan untuk berkomunikasi dengan perkhidmatan yang digunakan untuk memaparkan struktur pecahan kerja. Jika parameter tidak didayakan, anda akan menerima ralat, "Parameter projek tidak sah". 
+
+### <a name="workaround"></a>Penyelesaian sementara
+ ![Medan Titik Tamat PEX pada parameter projek](media/projectparameter.png)
 
 1. Tambah medan **Titik Tamat PEX** pada halaman **Parameter Projek**.
-2. Kenal pasti jenis produk yang anda gunakan. Nilai ini digunakan apabila Titik tamat PEX ditetapkan. Selepas pengambilan, jenis produk sudah ditentukan dalam Titik tamat PEX. Simpan nilai itu.
-3. Kemas kini medan dengan nilai berikut: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Jadual berikut menyediakan parameter jenis yang sepatutnya digunakan berdasarkan pada jenis produk.
+2. Kemas kini medan dengan nilai berikut: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+3. Alih keluar medan daripada halaman **Parameter Projek**.
 
-      | **Jenis produk**                     | **Parameter Jenis** |
-      |--------------------------------------|--------------------|
-      | Project for the Web pada org Lalai   | jenis=0             |
-      | Project for the Web pada org bernama CDS | jenis=1             |
-      | Project Operations                   | jenis=2             |
+## <a name="privileges-for-project-for-the-web"></a>Kelayakan untuk Projek untuk Web
 
-4. Alih keluar medan daripada halaman **Parameter Projek**.
+Project Operations bergantung pada perkhidmatan penjadualan luaran. Perkhidmatan memerlukan pengguna mempunyai beberapa peranan ditugaskan untuk membaca dan menulis entiti berkaitan dengan struktur pecahan kerja. Entiti ini termasuklah tugas projek, tugasan sumber dan kebersandaran tugas. Jika pengguna tidak boleh memaparkan struktur pecahan kerja apabila mereka pergi ke tab **Tugas**, ia mungkin disebabkan Projek untuk Project Operations belum didayakan. Pengguna mungkin menerima sama ada ralat peranan keselamatan atau ralat berkaitan dengan penafian akses.
 
-## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Isu: projek tidak dimuatkan dan UI tersekat pada spinner
 
-Untuk tujuan pengesahan, pop timbul mesti didayakan untuk grid Tugas untuk dimuatkan. Jika pop timbul tidak didayakan, skrin akan tersekat pada pemuatan spinner. Grafik berikut menunjukkan URL dengan label pop timbul yang tersekat dalam bar alamat menyebabkan spinner semakin tersekat cuba memuatkan halaman. 
+## <a name="workaround"></a>Penyelesaian sementara
 
-   ![Spinner yang tersekat dan pop timbul disekat.](media/popupsblocked.png)
+1. Pergi ke **Tetapan > Keselamatan > Pengguna > Pengguna Aplikasi**.  
 
-### <a name="mitigation-1-enable-pop-ups"></a>Pengurangan 1: Dayakan pop timbul
-
-Apabila projek anda tersekat pada spinner, berkemungkinan pop timbul tidak didayakan.
-
-#### <a name="microsoft-edge"></a>Microsoft Edge
-
-Terdapat dua cara untuk mendayakan pop timbul dalam pelayar Edge anda.
-
-1. Dalam pelayar Edge anda, pilih pemberitahuan di kanan atas pelayar.
-2. Pilih **Sentiasa benarkan pop timbul dan hala semula daripada** persekitaran Dataverse khusus.
- 
-     ![Tetingkap pop timbul yang disekat.](media/enablepopups.png)
-
-Selain itu, anda juga boleh melengkapkan langkah berikut:
-
-1. Buka penyemak imbas Microsoft Edge anda.
-2. Di sudut kanan atas, pilih **elipsis** (...), dan kemudian pilih **Tetapan** > **Keizinan tapak** > **Pop timbul dan hala semula**.
-3. Matikan togol **Pop timbul dan hala semula** untuk menyekat pop timbul atau hidupkan togol untuk membenarkan pop timbul pada peranti anda.
-4. Selepas anda mendayakan pop timbul, segar semula pelayar anda. 
-
-#### <a name="google-chrome"></a>Google Chrome
-1. Buka penyemak imbas Chrome anda.
-2. Navigasi ke halaman pop timbul disekat.
-3. Dalam bar alamat, pilih **Pop timbul disekat**.
-4. Pilih pautan untuk pop timbul yang anda mahu lihat.
-5. Selepas anda mendayakan pop timbul, segar semula pelayar anda. 
-
-> [!NOTE]
-> Untuk sentiasa melihat pop timbul bagi tapak, pilih **Sentiasa benarkan pop timbul dan hala semula daripada [tapak]** dan kemudian pilih **Selesai**.
-
-## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Isu 3: Pentadbiran kelayakan untuk Project for the Web
-
-Project Operations bergantung pada perkhidmatan penjadualan luaran. Perkhidmatan memerlukan pengguna mempunyai beberapa peranan ditugaskan yang membolehkan mereka membaca dan menulis ke entiti yang berkaitan dengan WBS. Entiti ini termasuklah tugas projek, tugasan sumber dan kebersandaran tugas. Jika pengguna tidak boleh memaparkan WBS apabila mereka menavigasi ke tab **Tugas**, berkemungkinan kerana **Projek** untuk **Project Operations** belum didayakan. Pengguna mungkin menerima sama ada ralat peranan keselamatan atau ralat berkaitan dengan penafian akses.
-
-### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Pengurangan 1: Sahkan peranan keselamatan pengguna aplikasi dan pengguna akhir
-
-1. Pergi ke **Tetapan** > **Keselamatan** > **Pengguna** > **Pengguna Aplikasi**.  
-
-   ![Pembaca aplikasi.](media/applicationuser.jpg)
+   ![Pembaca aplikasi](media/applicationuser.jpg)
    
-2. Klik dua kali pada rekod pengguna aplikasi untuk mengesahkan:
+2. Klik dua kali rekod pengguna aplikasi untuk mengesahkan perkara berikut:
 
-     - Pengguna mempunyai capaian kepada projek. Anda boleh melakukan ini dengan mengesahkan bahawa pengguna mempunyai peranan keselamatan **Pengurus Projek**.
-     - Pengguna aplikasi Microsoft Project wujud dan dikonfigurasikan dengan betul.
+ - Pengguna mempunyai capaian kepada projek. Pengesahan ini lazimnya dilakukan bagi memastikan pengguna mempunyai peranan keselamatan **Pengurus Projek**.
+ - Pengguna aplikasi Microsoft Project wujud dan dikonfigurasikan dengan betul.
  
-3. Jika pengguna ini tidak wujud, cipta rekod pengguna baharu. 
-4. Pilih **Pengguna Baharu**, ubah borang entri ke **Pengguna Aplikasi** dan kemudian tambah **ID Aplikasi**.
+3. Jika pengguna ini tidak wujud, anda boleh mencipta rekod pengguna baharu. Pilih **Pengguna Baharu**. Ubah borang entri kepada **Pengguna Aplikasi**, dan kemudian tambah **ID Aplikasi**.
 
-   ![Butiran pengguna aplikasi.](media/applicationuserdetails.jpg)
+   ![Butiran pengguna aplikasi](media/applicationuserdetails.jpg)
 
+4. Sahkan bahawa pengguna telah ditugaskan lesen yang betul dan perkhidmatan didayakan dalam rancangan perkhidmatan untuk butiran lesen.
+5. Sahkan bahawa pengguna boleh membuka project.microsoft.com.
+6. Sahkan melalui parameter projek bahawa sistem sedang menghala kepada titik tamat projek yang betul.
+7. Sahkan bahawa pengguna aplikasi projek dicipta.
+8. Gunakan peranan keselamatan berikut kepada pengguna:
 
-## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Isu 4: Perubahan tidak disimpan apabila anda mencipta, mengemas kini atau memadam tugas
-
-Apabila anda membuat satu atau lebih kemas kini ke WBS, perubahan gagal dan tidak disimpan. Ralat berlaku dalam grid jadual dengan mesej yang menyatakan, "Perubahan terkini yang anda buat tidak dapat disimpan".
-
-### <a name="mitigation-1-validate-the-license-assignment"></a>Pengurangan 1: Sahkan penugasan lesen
-
-1. Sahkan bahawa pengguna telah ditugaskan lesen yang betul dan perkhidmatan didayakan dalam rancangan perkhidmatan untuk butiran lesen.  
-2. Sahkan bahawa pengguna boleh membuka **project.microsoft.com**.
-    
-### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Pengurangan 2: Konfigurasi pengesahan bagi pengguna aplikasi Project
-1. Sahkan bahawa pengguna aplikasi Project telah dicipta.
-2. Gunakan peranan keselamatan berikut kepada pengguna:
-  
-  - Pengguna atau Pengguna Asas Dataverse
+  - Pengguna Dataverse
   - Sistem Project Operations
   - Sistem Projek
-  - Sistem Dwi tulis Project Operations. Peranan ini diperlukan untuk senario pelaksanaan berasaskan sumber/bukan stok bagi Project Operations.
 
+## <a name="error-when-updating-the-work-breakdown-structure"></a>Ralat semasa mengemas kini struktur pecahan kerja
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Apabila satu atau lebih kemas kini dibuat kepada struktur pecahan kerja, perubahan akhirnya gagal dan tidak disimpan. Ralat berlaku dalam grid jadual dan mencatatkan bahawa "Perubahan terkini yang anda buat tidak dapat disimpan."
+
+### <a name="workaround"></a>Penyelesaian sementara
+
+1. Sahkan bahawa pengguna telah ditugaskan lesen yang betul dan perkhidmatan didayakan dalam rancangan perkhidmatan untuk butiran lesen.
+2. Sahkan bahawa pengguna boleh membuka project.microsoft.com.
+3. Sahkan bahawa sistem sedang menghala kepada titik tamat projek yang betul.
+4. Sahkan bahawa pengguna Aplikasi Projek telah dicipta.
+5. Gunakan peranan keselamatan berikut kepada pengguna:
+  
+  - Pengguna Dataverse atau pengguna Pangkalan
+  - Sistem Project Operations
+  - Sistem Projek
+  - Sistem Dwitulis Project Operations (Peranan ini diperlukan jika anda menggunakan senario berdasarkan sumber/bukan stok bagi Project Operations.)

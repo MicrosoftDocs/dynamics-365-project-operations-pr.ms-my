@@ -2,22 +2,24 @@
 title: Konfigurasikan integrasi Operasi Projek setiap entiti sah
 description: Topik ini memberikan maklumat tentang penyediaan integrasi oleh entiti sah dalam Operasi Projek.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999417"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122894"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurasikan integrasi Operasi Projek setiap entiti sah 
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini membimbing anda melalui langkah yang diperlukan untuk mengkonfigurasi Dynamics 365 Project Operations setiap entiti undang-undang.
+Topik ini membimbing anda melalui langkah-langkah yang diperlukan untuk mengkonfigurasi Dynamics 365 Project Operations setiap entiti sah.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dayakan kekunci ciri dalam Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ Setiap entiti sah yang menggunakan Operasi Projek pada Dynamics 365 Customer Eng
   - **Jenis pengebilan lalai**: Operasi Projek menggunakan set tetap jenis pengebilan lalai yang mesti dipetakan kepada sifat baris Kewangan. Cipta rekod untuk setiap jenis pengebilan: **Tidak ditentukan**, **Boleh caj**, **Tidak boleh caj**, **Percuma** dan **Tidak tersedia**.
   - **Kategori projek lalai**: Pilih kategori projek lalai yang akan digunakan untuk setiap jenis transaksi. Kategori lalai ini akan digunakan dalam **Jurnal Integrasi Operasi Projek** dan dalam anggaran yang mana tiada kategori transaksi ditentukan untuk projek sebenar.
   - **Ramalan** : Pilih model ramalan untuk digunakan bagi anggaran masa dan perbelanjaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

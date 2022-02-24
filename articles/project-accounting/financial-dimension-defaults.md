@@ -2,16 +2,18 @@
 title: Dimensi perakaunan lalai
 description: Topik ini memberikan maklumat mengenai cara untuk menyediakan lalai dimensi kewangan.
 author: sigitac
-ms.date: 12/14/2021
+manager: Annbe
+ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: MT
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922949"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642374"
 ---
 # <a name="financial-dimension-defaults"></a>Dimensi perakaunan lalai
 
@@ -19,7 +21,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations menggunakan rangka kerja [Dimensi kewangan](/dynamics365/finance/general-ledger/financial-dimensions) dalam Dynamics 365 Finance untuk menyediakan cerapan tambahan tentang sublejar projek dan transaksi lejar umum.
+Dynamics 365 Project Operations menggunakan rangka kerja [Dimensi kewangan](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) dalam Dynamics 365 Finance untuk menyediakan cerapan tambahan tentang sublejar projek dan transaksi lejar umum.
 
 Dimensi kewangan lalai boleh ditetapkan pada pelanggan, sumber pembiayaan projek, pencapaian, baris kontrak projek, atau projek.
 
@@ -60,15 +62,3 @@ Projek dicipta dan dikekalkan dalam (CDS). Atribut perakaunan bagi projek diteta
 4. Tetapkan dimensi perakaunan lalai. Perhatikan bahawa dimensi kewangan lalai daripada akaun pelanggan. Jika projek berkaitan dengan baris kontrak dengan pelanggan kontrak berbilang projek, pelanggan utama digunakan untuk dimensi kewangan lalai.
 
 Projek dimensi kewangan lalai digunakan untuk menetapkan garisan jurnal lalai untuk masa, perbelanjaan dan yuran transaksi dalam **Jurnal Integrasi Project Operations** dan pada baris invois projek berkaitan.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Menggunakan dimensi kewangan untuk entri masa projek
-Untuk menggunakan dimensi kewangan bagi entri masa projek, ambil perhatian bahawa nilai dimensi lalai adalah berdasarkan tertib berikut:
-
-1. Sumber
-2. Project
-3. Sumber pembiayaan
-
-Sebagai contoh, jika dimensi lalai ditentukan pada sumber, ia akan digunakan ke atas lalai yang ditentukan pada projek. Begitu juga, dimensi projek lalai akan digunakan ke atas lalai yang dinyatakan dalam sumber pembiayaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

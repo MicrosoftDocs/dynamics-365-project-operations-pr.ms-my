@@ -2,16 +2,18 @@
 title: Bangunkan templat projek dengan Salin Projek
 description: Topik ini menyediakan maklumat tentang cara untuk mencipta templat projek menggunakan tindakan tersuai Salin Projek.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989275"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045020"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Bangunkan templat projek dengan Salin Projek
 
@@ -42,7 +44,7 @@ Terdapat tiga parameter input:
 - **{"clearTeamsAndAssignments":true}**: Tingkah laku lalai untuk Projek untuk Web dan akan mengalih keluar semua tugasan dan ahli pasukan.
 - **{"removeNamedResources":true}** Tingkah laku lalai untuk Project Operations dan akan menukar tugasan kembali kepada sumber generik.
 
-Untuk mendapatkan lebih banyak lalai pada tindakan, lihat [Gunakan tindakan API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Untuk mendapatkan lebih banyak lalai pada tindakan, lihat [Gunakan tindakan API Web](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Tentukan medan untuk disalin 
 Apabila tindakan dipanggil, **Salin Projek** akan melihat pandangan projek **Lajur Salin Projek** untuk menentukan medan untuk disalin apabila projek dicipta.
@@ -110,6 +112,3 @@ Contoh berikut menunjukkan cara untuk memanggil tindakan tersuai **Salin Projek*
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

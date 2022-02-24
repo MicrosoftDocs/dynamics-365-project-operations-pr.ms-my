@@ -2,16 +2,18 @@
 title: Sediakan kadar bil buruh
 description: Topik ini memberikan maklumat tentang cara untuk menetapkan kadar pengebilan buruh dalam Operasi Projek.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003557"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877411"
 ---
 # <a name="set-up-labor-bill-rates"></a>Sediakan kadar bil buruh
 
@@ -25,7 +27,7 @@ Setiap senarai harga mempunyai set harga peranan atau kadar buruh yang efektif u
 
    Jadual berikut merangkumi medan pada tab **Umum** dan anak tetingkap **Cipta Pantas** bagi baris harga peranan yang perlu diingati apabila anda mencipta harga peranan pada senarai harga jualan.
 
-    | Medan | Lokasi | Penerangan | Kesan hiliran |
+    | Medan | Lokasi | Penerangan  | Kesan hiliran |
     | --- | --- | --- | --- |
     | Peranan | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih peranan yang anda tetapkan untuk kadar bil. | Peranan pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |
     | Syarikat Penyumberan | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih syarikat atau entiti sah yang peranan ini berasal. Sebagai contoh, pemaju dari Fabrikam India atau pemaju dari Fabrikam USA. | Syarikat sumber pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |

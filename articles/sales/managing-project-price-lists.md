@@ -2,9 +2,11 @@
 title: Urus senarai harga projek pada sebut harga
 description: Topik ini menyediakan maklumat tentang entiti senarai harga Projek.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003917"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177207"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Urus senarai harga projek pada sebut harga
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations melanjutkan entiti Senarai harga dalam Dynamics 365 Sales. 
+Dynamics 365 Project Operations melanjutkan entiti senarai harga dalam Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entiti utama
 
@@ -118,6 +120,3 @@ Seperti kadar bil, kadar kos untuk sumber manusia juga disediakan menggunakan se
     1. Senarai harga kos yang dilampirkan kepada unit organisasi.
     2. Senarai harga kos yang dilampirkan kepada parameter Project Operations. Oleh kerana senarai harga kos dalam banyak mata wang yang berbeza boleh dilampirkan ke parameter, padanan mata wang dilengkapkan antara mata wang unit organisasi kontrak bagi projek, kontrak atau sebut harga dan mata wang bagi senarai harga kos.
     3. Untuk perbelanjaan, kaedah penetapan harga pada kos dan tokokan melebihi kos tidak dikenakan pada senarai harga kos. Walaupun kaedah penetapan harga digunakan pada baris senarai harga kos untuk menyediakan kos kategori transaksi, sistem menolaknya dan tiada harga kos lalai dimasukkan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Senarai harga lalai
 description: Topik ini menyediakan maklumat tentang senarai harga jualan dan kos lalai dalam Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989877"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130949"
 ---
 # <a name="default-price-lists"></a>Senarai harga lalai
 
@@ -19,7 +21,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 ## <a name="sales-price-lists"></a>Senarai harga jualan
 
-Setiap sebut harga projek dan kontrak dalam Dynamics 365 Project Operations mengandungi senarai harga jualan lalai. 
+Setiap sebut harga dan kontrak projek dalam Dynamics 365 Project Operations mengandungi senarai harga jualan lalai. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Senarai harga dijadikan lalai pada sebut harga projek
 Sistem akan melengkapkan proses berikut untuk menentukan senarai harga untuk dijadikan lalai pada sebut harga projek:
@@ -55,6 +57,3 @@ Senarai harga kos tidak dijadikan lalai kepada mana-mana entiti dalam Project Op
 5. Seterusnya, sistem akan melihat tarikh kuat kuasa senarai harga yang sepadan dengan tarikh anggaran masuk atau baris sebenar. 
 6. Jika terdapat berbilang senarai harga yang berkuat kuasa untuk tarikh pada anggaran masuk atau sebenar, senarai harga yang paling baru dicipta akan dipilih.
 7. Jika tiada senarai harga kos yang dilampirkan pada parameter projek yang sepadan dengan mata wang dan tarikh kuat kuasa, sistem membuat kadar kos kepada sifar (0) pada anggaran masuk atau baris sebenar secara lalai.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

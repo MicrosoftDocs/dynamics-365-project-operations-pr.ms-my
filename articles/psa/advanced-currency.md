@@ -2,6 +2,8 @@
 title: Senario berbilang mata wang (versi 3.x)
 description: Topik ini menyediakan maklumat tentang senario berbilang mata wang.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005132"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145684"
 ---
 # <a name="multiple-currency-scenarios"></a>Senario berbilang mata wang
 
@@ -71,7 +73,7 @@ Bahagian ini menerangkan contoh projek yang Contoso UK sampaikan untuk pelanggan
 1. GBP dan Yen Jepun (JPY) disediakan dibawah **Tetapan** \> **Pengurusan Perniagaan** \> **Mata Wang**. 
 2. Akaun pelanggan yang dinamakan **Fabrikam - Japan** disediakan dan JPY dipilih sebagai mata wang pada akaun.
 3. Unit organisasi yang dinamakan **Contoso UK** ditetapkan, dan GBP dipilih sebagai mata wang.
-4. Kontrak projek dicipta, yang **Contoso UK** ditetapkan sebagai unit kontrak dan **Fabrikam – Jepun** ditetapkan sebagai pelanggan.
+4. Kontrak projek dicipta, yang **Contoso UK** ditetapkan sebagai unit kontrak dan **Fabrikam – Japan** ditetapkan sebagai pelanggan.
 5. Baris kontrak projek dicipta, berdasarkan susunan pengebilan untuk pelbagai kelas transaksi pada projek, seperti pengebilan untuk masa berbanding pengebilan untuk perbelanjaan.
 6. Projek dicipta di mana **Contoso UK** ditetapkan sebagai unit kontrak. Projek ini dicipta dan dipetakan ke baris kontrak projek.
 
@@ -103,6 +105,3 @@ Dynamics 365 secara automatik mengendalikan gulung atas jumlah dalam mata wang y
 | Perbelanjaan           | Jualan belum dibilkan   | 17-Jun | Abu Talib  | Sewa Kereta           | 1 setiap satu     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 Untuk mengira jumlah nilai jualan belum dibilkan ke atas projek, anda boleh mencipta medan gulung atas untuk medan **Amaun** pada semua aktual jualan tidak dibilkan yang berkaitan. Medan gulung atas adalah pembinaan Dynamics 365 yang membolehkan untuk formula pantas pada rekod yang berkaitan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Urus berbilang pelanggan pada kontrak projek
 description: Topik ini menyediakan maklumat tentang cara mengurus berbilang pelanggan pada kontrak projek.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992082"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643183"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Urus berbilang pelanggan pada kontrak projek
 
@@ -45,6 +47,3 @@ Anda boleh mencipta, mengemas kini atau memadan pelanggan kontrak daripada tab *
 Anda boleh edit peratusan pecahan pengebilan dengan mengedit dalam grid. Apabila peratusan pecahan pengebilan tidak berjumlah 100 peratus, ralat berlaku. Selepas anda mengedit peratusan pecahan pengebilan, segar semula halaman **Kontrak Projek** untuk mengeluarkan ralat.
 
 Anda juga boleh memilih **Agihkan Secara Sekata** pada subgrid pelanggan kontrak projek. Pecahan pengebilan diperuntukkan secara sekata kepada semua pelanggan pada kontrak projek. Jika terdapat mana-mana faktor pembundaran, faktor akan ditambah kepada pelanggan pembundaran. Salah seorang pelanggan kontrak sentiasa mempunyai bendera **Pembundaran** ditetapkan kepada **Ya**. Pelanggan itu ialah pelanggan pembundaran. Biasanya, pelanggan pembundaran juga merupakan pelanggan utama kontrak, tetapi tidak diperlukan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

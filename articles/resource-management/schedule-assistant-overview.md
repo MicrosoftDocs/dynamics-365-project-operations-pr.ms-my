@@ -2,17 +2,18 @@
 title: Gambaran keseluruhan pembantu jadual
 description: Topik ini memberikan maklumat mengenai kerja dengan Pembantu jadual untuk menempah sumber.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990237"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081084"
 ---
 # <a name="schedule-assistant-overview"></a>Gambaran keseluruhan pembantu jadual
 
@@ -24,7 +25,7 @@ Selepas sumber yang sesuai dikenal pasti, Sumber atau Pengurus projek boleh mene
 
 ## <a name="prerequisites"></a>Prasyarat
 
-Pembantu jadual merupakan sebahagian daripada penyelesaian Universal Resource Scheduling. Penyelesaian ini disertakan dan dipasang dengan Dynamics 365 Project Operations, Dynamics 365 Field Service dan Dynamics 365 Customer Service.
+Pembantu jadual merupakan sebahagian daripada penyelesaian Universal Resource Scheduling. Penyelesaian ini disertakan dan dipasang dengan Dynamics 365 Project Operations, Dynamics 365 Field Service, dan Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Keperluan sepadan dan sumber
 
@@ -56,6 +57,3 @@ Anak tetingkap penapis menunjukkan pilihan berkaitan kerja, termasuk:
 -   Syarikat persumberan
 -   Jenis sumber
 -   Sumber diutamakan
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Segerakkan kategori perbelanjaan projek antara Finance and Operations dan Project Service Automation
 description: Topik ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan kategori perbelanjaan projek antara Microsoft Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001127"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081367"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Segerakkan kategori perbelanjaan projek antara Finance and Operations dan Project Service Automation
 
@@ -56,7 +58,7 @@ Jika kategori perbelanjaan projek dikuasai dalam Project Service Automation, ali
 
 Ilustrasi berikut menunjukkan cara data disegerakkan antara Project Service Automation dan Finance.
 
-[![Aliran data untuk integrasi Project Service Automation dengan Kewangan.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Aliran data untuk integrasi Project Service Automation dengan Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Penyegerakan kategori perbelanjaan projek daripada Finance kepada Project Service Automation
 
@@ -93,7 +95,7 @@ Apabila anda menyegerakkan kepada Project Service Automation, anda mesti menggun
 
 Ilustrasi berikut menunjukkan contoh pemetaan tugas templat dalam Integrasi data. Pemetaan menunjukkan maklumat medan yang akan disegerakkan daripada Finance kepada Project Service Automation.
 
-[![Pemetaan templat Kategori perbelanjaan projek kepada Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Kategori perbelanjaan projek kepada pemetaan templat Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Penyegerakan kategori perbelanjaan projek daripada Project Service Automation kepada Finance
 
@@ -121,7 +123,4 @@ Ilustrasi berikut menunjukkan contoh pemetaan tugas templat dalam Integrasi data
 > [!NOTE]
 > Pemetaan menunjukkan maklumat medan yang akan disegerakkan daripada Project Service Automation kepada Finance.
 
-[![Pemetaan templat Project Service Automation kepada Kewangan.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Project Service Automation kepada pemetaan templat Kewangan](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)

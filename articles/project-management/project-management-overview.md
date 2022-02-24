@@ -1,18 +1,19 @@
 ---
 title: Gambaran keseluruhan pengurusan projek
-description: Topik ini memberikan maklumat tentang tetapan pengurusan Projek dalam Dynamics 365 Project Operations.
+description: Topik ini memberikan maklumat tentang Pengurusan projek dalam Dynamics 365 Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991003"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127574"
 ---
 # <a name="project-management-overview"></a>Gambaran keseluruhan pengurusan projek
 
@@ -25,6 +26,3 @@ Alat pengurusan projek dalam Dynamics 365 Project Operations membantu anda menja
 - Gunakan anggaran projek semasa proses jualan.
 - Meramal keperluan sumber untuk projek yang berada dalam talian paip
 - Berjaya menyampaikan projek dengan menjejaki kemajuan dan penggunaan kos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

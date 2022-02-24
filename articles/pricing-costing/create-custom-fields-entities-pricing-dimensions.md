@@ -2,9 +2,11 @@
 title: Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
 description: Topik ini menyediakan maklumat tentang cara mencipta set pilihan atau entiti tersuai.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003647"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642824"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
 
@@ -44,7 +46,7 @@ Untuk mencipta dimensi berasaskan entiti, ikuti langkah ini:
 3. Pilih **Baharu** untuk mencipta entiti baharu dipanggil **Tajuk Standard**. 
 4. Masukkan baki maklumat diperlukan dan kemudian pilih **Simpan**.
 
-> ![Definisi entiti tajuk standard.](media/Standard-Title-entity-definition.png)
+> ![Definisi entiti tajuk standard](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensi berasaskan set pilihan 
 Anda boleh mencipta dua dimensi berasaskan set pilihan. 
@@ -54,11 +56,11 @@ Anda boleh mencipta dua dimensi berasaskan set pilihan.
 
 Grafik berikut menyediakan pandangan dimensi **Lokasi Kerja Sumber**. 
 
-> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Lokasi Kerja Sumber.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Lokasi Kerja Sumber](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Grafik berikut menyediakan pandangan dimensi **Waktu Kerja Sumber**. 
 
-> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Jam Kerja Sumber.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Dimensi penentuan harga berasaskan set pilihan dipanggil Waktu Kerja Sumber](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Pergi ke **Tetapan** > **Penyelesaian** dan klik dua kali **\<your organization name> dimensi penetapan harga**. 
 2. Dalam Solution Explorer, pada anak tetingkap navigasi kiri, pilih **Set Pilihan**. 
@@ -74,7 +76,4 @@ Anda boleh mencipta data untuk dimensi berasaskan entiti secara manual, atau men
 4. Tutup halaman. 
 5. Ulangi langkah 1 - 3 untuk mencipta jawatan lain untuk "Jurutera Sistem Kanan".
 
-> ![Data Sampel untuk entiti Jawatan Standard.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Data sampel untuk entiti Jawatan Standard](media/ST-data.png)

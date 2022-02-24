@@ -1,25 +1,42 @@
 ---
-title: Invois proforma
-description: Topik ini menyediakan maklumat tentang invois proforma dalam Project Operations.
+title: Cipta invois proforma manual
+description: Topik ini menyediakan maklumat tentang mencipta invois proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995637"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128069"
 ---
-# <a name="proforma-invoices"></a>Invois proforma
+# <a name="create-a-manual-proforma-invoice"></a>Cipta invois proforma manual
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Penginvoisan proforma memberikan tahap kedua kelulusan kepada pengurus projek sebelum mereka mencipta invois untuk pelanggan. Tahap pertama kelulusan dilengkapkan apabila entri masa, perbelanjaan dan bahan yang ahli pasukan projek serahkan telah diluluskan. Invois proforma yang disahkan tersedia dalam modul Perakaunan Projek bagi Project Operations. Akauntan projek boleh melakukan kemas kini tambahan seperti tataletak cukai jualan, perakaunan dan invois.
+Penginvoisan memberikan pengurus projek kelulusan tahap kedua sebelum mereka mencipta invois untuk pelanggan. Tahap pertama kelulusan dilengkapkan apabila entri masa dan perbelanjaan yang ahli pasukan projek serahkan telah diluluskan.
 
+Dynamics 365 Project Operations tidak direka bentuk untuk menjana invois bersemuka dengan pelanggan untuk alasan berikut:
+
+- Ia tidak mengandungi maklumat cukai.
+- Ia tidak boleh menukar mata wang lain kepada mata wang penginvoisan menggunakan kadar tukaran yang dikongfigurasikan dengan betul.
+- Ia tidak boleh memformatkan invois dengan betul agar ia boleh dicetak.
+
+Sebaliknya, anda boleh menggunakan sistem kewangan atau perakaunan untuk mencipta invois bersemuka dengan pelanggan yang menggunakan maklumat daripada cadangan invois yang dijana.
 
 ## <a name="creating-project-invoices"></a>Mencipta invois projek
 
@@ -33,7 +50,7 @@ Ikuti langkah ini untuk mencipta invois untuk kontrak projek khusus.
 
 - Dalam halaman senarai **Kontrak Projek**, buka kontrak projek, kemudian pilih **Cipta Invois**.
 
-    Invois dijana untuk semua transaksi untuk kontrak projek terpilih yang mempunyai status **Sedia untuk Invois**. Transaksi ini termasuk masa, perbelanjaan, bahan, pencapaian dan baris jurnal jualan lain yang tidak dibilkan.
+    Invois dijana untuk semua transaksi untuk kontrak projek terpilih yang mempunyai status **Sedia untuk Invois**. Transaksi ini termasuklah masa, perbelanjaan, pencapaian, dan baris kontrak berasaskan produk.
 
 Ikuti langkah-langkah ini untuk mencipta invois secara pukal.
 
@@ -43,7 +60,7 @@ Ikuti langkah-langkah ini untuk mencipta invois secara pukal.
 
 2. Pilih **OK** untuk tutup kotak mesej.
 
-    Invois dijana untuk semua transaksi untuk baris kontrak yang mempunyai status **Sedia untuk Invois**. Transaksi ini termasuk masa, perbelanjaan, bahan, pencapaian dan baris jurnal jualan lain yang tidak dibilkan.
+    Invois dijana untuk semua transaksi untuk baris kontrak yang mempunyai status **Sedia untuk Invois**. Transaksi ini termasuklah masa, perbelanjaan, pencapaian, dan baris kontrak berasaskan produk.
 
 3. Untuk melihat invois yang dijana, pergi ke **Jualan** \> **Pengebilan** \> **Invois**. Anda akan melihat invois untuk setiap kontrak projek.
 
@@ -76,10 +93,11 @@ Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses k
  
 ### <a name="edit-a-draft-invoice"></a>Edit invois draf
 
-Apabila anda mencipta draf invois projek, semua transaksi jualan belum dibilkan yang dicipta apabila entri penggunaan masa, perbelanjaan dan bahan yang diluluskan akan ditarik ke dalam invois. Anda boleh membuatk pelarasan berikut semasa invois masih dalam peringkat draf:
+Apabila anda mencipta invois projek draf, semua transaksi jualan belum dibilkan yang dicipta apabila entri masa dan perbelanjaan diluluskan ditarik ke dalam invois. Anda boleh membuatk pelarasan berikut semasa invois masih dalam peringkat draf:
 
 - Padam atau edit butiran baris invois.
 - Edit atau selaraskan kuantiti dan jenis pengebilan.
+- Terus menambah masa, perbelanjaan, dan yuran sebagai transaksi dalam invois. Anda boleh menggunakan ciri ini jika baris invois dipetakan kepada baris kontrak yang membenarkan kelas transaksi ini.
 
 Pilih **Sahkan** untuk mengesahkan invois. Tindakan Sahkan adalah tindakah satu arah. Apabila anda pilih **Sahkan**, sistem menjadikan invois baca sahaja dan mencipta aktual jualan dibilkan dari setiap butiran baris invois untuk setiap baris invois. Jika butiran baris invois merujuk kepada aktual jualan belum dibilkan, sistem juga membalikkan aktual jualan belum dibilkan. (Sebarang butiran baris invois yang dicipta dari entri masa atau perbelanjaan akan merujuk kepada aktual jualan belum dibilkan). Sistem integrasi lejar am boleh menggunakan balikan ini untuk membalikkan projek yang sedang berjalan untuk tujuan perakaunan.
 
@@ -93,6 +111,3 @@ Apabila anda mengesahkan invois pembetulan, aktual jualan dibilkan asal dibalikk
 
 - Aktual jualan dibilkan untuk enam jam.
 - Aktual jualan belum dibilkan untuk baki dua jam. Transaksi ini boleh sama ada dibilkan kemudian atau ditanda sebagai bukan boleh dicaj, bergantung pada rundingan dengan pelanggan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

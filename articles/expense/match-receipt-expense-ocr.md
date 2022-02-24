@@ -2,9 +2,11 @@
 title: Rekodkan resit menggunakan OCR
 description: Topik ini menyediakan maklumat tentang pemprosesan pengecaman aksara optik (OCR) untuk resit.
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
-ms.translationtype: MT
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798051"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499862"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Rekodkan resit menggunakan OCR
 
@@ -52,7 +54,7 @@ Untuk mencipta perbelanjaan atau memadankan perbelanjaan daripada resit, lengkap
 
 ## <a name="installation"></a>Pemasangan
 
-Untuk menggunakan keupayaan perbelanjaan lanjutan ini, pasang tambahan Perkhidmatan Pengurusan Perbelanjaan untuk Microsoft Dynamics 365 Finance dan hidupkan ciri dalam tika anda. Anda boleh mengakses tambahan daripada projek anda dalam Perkhidmatan Kitaran Hayat Microsoft Dynamics (LCS).
+Untuk menggunakan keupayaan perbelanjaan lanjutan ini, pasang tambahan Perkhidmatan Pengurusan Perbelanjaan for Microsoft Dynamics 365 Finance dan hidupkan ciri dalam tika anda. Anda boleh mengakses tambahan daripada projek anda dalam Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Log masuk ke dalam LCS dan buka persekitaran yang dikehendaki.
 2. Pergi ke **Butiran penuh**.
@@ -73,7 +75,7 @@ Apabila anda menghidupkan ciri ini, tindakan berikut berlaku:
 - Item menu baharu untuk keterlihatan medan perbelanjaan ditambah.
 - Anda masih boleh membuka halaman **Laporan perbelanjaan** dengan pergi ke **Pengurusan perbelanjaan > Perbelanjaan saya > Laporan perbelanjaan**.
 - Aliran kerja dan sebarang kelulusan masih akan membawa anda ke halaman laporan perbelanjaan sedia ada.
-- Resit akan diproses melalui Perkhidmatan Kognitif Microsoft Azure, dan metadata akan diekstrak dan ditambah.
+- Resit akan diproses melalui Microsoft Azure Cognitive Services dan metadata akan diekstrak dan ditambah.
 - Pilihan ditambah membolehkan anda mencipta laporan perbelanjaan yang merangkumi resit yang tidak dilampirkan dipadankan.
 - Pilihan yang ditambahkan ke laporan perbelanjaan membolehkan anda mencipta baris perbelanjaan daripada resit atau cuba untuk memadankan resit sedia ada ke baris perbelanjaan sedia ada.
 
@@ -85,18 +87,7 @@ Tidak, Microsoft telah membina model pembelajaran mesin umum untuk perkhidmatan 
 
 **Di manakah ciri ini tersedia dan diproses?**
 
-Ketersediaan ciri ini di rantau yang berbeza disenaraikan dalam jadual berikut. Jika rantau anda tidak disokong pada masa ini, serahkan permintaan untuk mengutamakan ketersediaan perkhidmatan OCR di rantau anda. 
-
-| Rantau | Disokong                         |
-|--------|-----------------------------------|
-| USA    | Ya                               |
-| CAN    | Ya                               |
-| UK     | Ya                               |
-| AUS    | Ya                               |
-| EU     | Sebahagian. Resit Bahasa Inggeris sahaja. |
-| Asia   | No                                |
-| Jepun  | No                                |
-| Afrika | No                                |
+Pada masa ini, Amerika Syarikat disokong.
 
 **Di manakah resit saya pergi?**
 

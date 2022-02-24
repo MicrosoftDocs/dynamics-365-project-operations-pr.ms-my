@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007157"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992845"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Lihat penggunaan boleh caj untuk sumber
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007157"
  
 **Pandangan Penggunaan** pada halaman **Penggunaan Sumber Project Service** menunjukkan penggunaan boleh caj untuk setiap sumber boleh ditempah. Disebabkan pandangan adalah berdasarkan papan jadual, anda akan mendapati banyak fungsi sama.
 
-> ![Tangkapan skrin Pandangan Penggunaan.](media/FAQ-utilization-1.png)
+> ![Petikan skrin Pandangan Penggunaan](media/FAQ-utilization-1.png)
  
 
 Pengiraan penggunaan boleh dituntut berfungsi seperti berikut:
@@ -48,7 +48,7 @@ Penggunaan sasaran boleh ditetapkan atas peranan lalai sumber atau atas sumber i
 2. Pilih sumber untuk membuka rekod. 
 3. Pada tab **Project Service**, anda boleh menetapkan penggunaan sasaran sumber.
 
-> ![Tangkapan skrin menggunakan tab Project Service untuk menetapkan penggunaan sasaran.](media/FAQ-utilization-2.png)
+> ![Petikan skrin menggunakan tab Project Service untuk menetapkan penggunaan sasaran](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Tetapkan penggunaan pada peranan
 
@@ -56,7 +56,7 @@ Penggunaan sasaran boleh ditetapkan atas peranan lalai sumber atau atas sumber i
 2. Pilih peranan untuk membuka rekod. 
 3. Tetapkan penggunaan sasaran untuk peranan.
 
-> ![Tangkapan skrin menggunakan Peranan Sumber untuk menetapkan penggunaan sasaran.](media/FAQ-utilization-3.png)
+> ![Petikan skrin menggunakan Peranan Sumber untuk menetapkan penggunaan sasaran](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Kira penggunaan boleh caj untuk sumber
 

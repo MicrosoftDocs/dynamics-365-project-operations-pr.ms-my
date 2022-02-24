@@ -2,6 +2,8 @@
 title: Sesuaikan kemasukan masa mingguan
 description: Topik ini memberikan maklumat mengenai cara untuk melaksanakan peraturan perniagaan tersuai yang menyokong amalan organisasi.
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002297"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149644"
 ---
-# <a name="customize-weekly-time-entry"></a>Sesuaikan entri masa mingguan 
+# <a name="customize-weekly-time-entry"></a>Sesuaikan kemasukan masa mingguan 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -130,6 +132,3 @@ Anda patut menggunakan pengesahan pasang masuk untuk sebarang pengesahan yang me
 
 > [!IMPORTANT] 
 > Pada masa ini, isu yang diketahui pada halaman TBX menghalang pengguna daripada membetulkan maklumat dan memilih semula Selesai yang dilakukan apabila kemas kini gagal pengesahan pasang masuk. Sebagai penyelesaian, sediakan pengesahan peraturan perniagaan untuk mengelakkan situasi ini sebanyak mungkin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

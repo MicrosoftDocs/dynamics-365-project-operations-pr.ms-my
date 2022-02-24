@@ -2,6 +2,8 @@
 title: Penetapan harga projek
 description: Topik ini menyediakan maklumat mengenai cara penetapan harga berfungsi dalam Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000587"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148924"
 ---
 # <a name="project-pricing"></a>Penetapan harga projek 
 
@@ -46,7 +48,7 @@ Entiti Senarai harga mempunyai tiga jadual berkaitan yang menyimpan harga:
   - **Harga Kategori Transaksi** - Jadual ini menyimpan harga mengikut kategori transaksi dan digunakan untuk menyediakan harga kategori perbelanjaan.
   - **Item Senarai Harga** - Jadual ini menyimpan harga untuk produk katalog.
 
-> ![Mengkonfigurasi harga menggunakan senarai harga.](media/basic-guide-12.png)
+> ![Mengkonfigurasi harga menggunakan senarai harga](media/basic-guide-12.png)
  
 Senarai harga ialah kad kadar. Kad kadar ialah kombinasi entiti Senarai Harga dan baris berkaitan dalam jadual Harga Peranan, Harga Kategori Transaksi dan Item Senarai Harga.
 
@@ -58,7 +60,7 @@ Masa sumber manusia biasanya dipetik berdasarkan peranan bahawa sumber mengisi p
 
 Kumpulan unit **Masa** dicipta apabila PSA dipasang. Ia mempunyai unit **Jam** lalai. Anda tidak boleh memadamkan, menamakan semula atau mengedit atribut dalam unit kumpulan **Masa** atau unit **Jam**. Walau bagaimanapun, anda boleh menambah unit lain kepada kumpulan unit **Masa**. Jika anda cuba untuk memadam sama ada kumpulan unit **Masa** atau unit **Jam**, anda mungkin menyebabkan kegagalan dalam logik perniagaan PSA.
 
-> ![Mengkonfigurasi harga mengikut peranan.](media/basic-guide-13.png)
+> ![Mengkonfigurasi harga mengikut peranan](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategori transaksi dan kategori perbelanjaan
 
@@ -68,7 +70,7 @@ Perbelanjaan perjalanan dan lain-lain yang perunding projek tanggung biasanya di
 - **Peratusan tokokan** - Peratusan yang melebihi kos sebenar akan dibilkan kepada pelanggan. 
 - **Harga setiap unit** - Harga bil ditetapkan untuk setiap unit kategori perbelanjaan. Jumlah yang dibilkan kepada pelanggan dikira berdasarkan bilangan unit perbelanjaan yang perunding laporkan. Perbatuan menggunakan kaedah penetapan harga setiap unit. Sebagai contoh, kategori perbelanjaan perbatuan boleh dikonfigurasikan kepada 30 dolar AS (USD) setiap hari atau 2 USD setiap batu. Apabila perunding melaporkan perbatuan ke atas projek, jumlah kepada bil dikira berdasarkan bilangan batu yang dilaporkan oleh perunding.
 
-> ![Mengkonfigurasi penetapan harga untuk kategori perbelanjaan.](media/basic-guide-14.png)
+> ![Mengkonfigurasi penetapan harga untuk kategori perbelanjaan](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Penetapan harga jualan projek dan ganti
 
@@ -114,7 +116,7 @@ Walau bagaimanapun, pada sebut harga, anda boleh menggunakan senarai harga induk
 
 Apabila anda mencipta senarai harga projek tersuai, hanya komponen projek senarai harga yang disalin. Dalam erti kata lain, senarai harga baharu yang dicipta sebagai salinan senarai harga projek sedia ada yang dilampirkan pada sebut harga, dan senarai harga baru ini hanya mengandungi harga peranan dan harga kategori transaksi yang berkaitan.
 
-> ![Melihat dan mengkonfigurasi penetapan harga tersuai untuk kontrak projek.](media/basic-guide-15.png)
+> ![Melihat dan mengkonfigurasi penetapan harga tersuai untuk kontrak projek](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Menjejak kos
 
@@ -129,6 +131,3 @@ Seperti kadar bil, kadar kos untuk sumber manusia juga disediakan menggunakan se
     1. Senarai harga kos yang dilampirkan kepada unit organisasi.
     2. Senarai harga kos yang dilampirkan kepada parameter perkhidmatan projek. Oleh kerana senarai harga kos dalam banyak mata wang boleh dilampirkan untuk parameter perkhidmatan projek, PSA melakukan padanan mata wang antara mata wang unit organisasi kontak bagi projek, kontrak atau sebut harga, dan mata wang bagi senarai harga kos.
     3. Untuk perbelanjaan, kaedah penetapan harga pada kos dan tokokan melebihi kos tidak dikenakan pada senarai harga kos. Walaupun kaedah penetapan harga digunakan pada baris senarai harga kos untuk menyediakan kos kategori transaksi, sistem menolaknya dan tiada harga kos lalai dimasukkan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

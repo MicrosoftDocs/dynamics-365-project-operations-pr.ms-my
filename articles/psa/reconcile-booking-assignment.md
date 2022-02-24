@@ -2,6 +2,8 @@
 title: Menyelaraskan tempahan dan tugasan
 description: Topik ini memberikan maklumat tentang aktual.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995142"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147934"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Menyelaraskan tempahan dan tugasan
 
@@ -51,11 +53,11 @@ Dalam sesetengah kes, apabila medan **Skala masa** ditetapkan kepada peringkat y
 
 Apabila anda melihat tahap masa yang lebih tinggi, tab **Penyesuaian** menunjukkan penunjuk sel untuk memberitahu anda bahawa terdapat perbezaan pada tahap masa yang lebih rendah. Sebagai contoh, dalam ilustrasi berikut, penunjuk sel muncul dalam sel untuk bulan Oktober 2018 bagi sumber yang dinamakan Faziah Karim. Oleh itu, anda boleh melihat bahawa, walaupun tempahan sumber dan tugasan adalah sama apabila ia diagregat pada peringkat **Bulan**, ia tidak sepadan pada peringkat yang lebih rendah.
 
-![Tempahan salah padan dan tugasan pada peringkat bulanan.](media/reconcile-assignments-01.JPG)
+![Tempahan salah padan dan tugasan pada peringkat bulanan](media/reconcile-assignments-01.JPG)
 
 Klik dua kali sel untuk mengezum ke tahap bawah seterusnya dan lihat perbezaannya. Sebagai contoh, jika anda klik dua kali perbezaan pada Oktober 2018 bagi Faziah Karim, anda akan gerudi bawah peringkat **Minggu**. Anda kemudian boleh melihat bahawa sumber mempunyai tempahan 16 jam tetapi tiada tugasan dalam dua minggu pertama Oktober, dan 16 jam tugasan tetapi tiada tempahan pada minggu ketiga Oktober.
 
-![Tempahan salah padan dan tugasan pada peringkat mingguan.](media/reconcile-assignments-02.JPG)
+![Tempahan salah padan dan tugasan pada peringkat mingguan](media/reconcile-assignments-02.JPG)
 
 Anda boleh klik kanan sel untuk zum keluar peringkat lebih tinggi yang seterusnya. Anda juga boleh mematikan penunjuk sel dengan memilih butang **Tetapan**. 
 
@@ -68,13 +70,13 @@ Untuk memastikan keputusan yang tepat dan boleh diramalkan apabila menggunakan L
 
 - Pengguna mesti mengkonfigurasikan zon waktu peranti mereka supaya sepadan dengan zon waktu yang ditakrifkan dalam Tetapan Pemperibadian sistem anda.
  
-  ![Tetapan zon waktu dalam Windows 10.](media/reconcile-assignments-03.png)
+  ![Tetapan zon waktu dalam Windows 10](media/reconcile-assignments-03.png)
 
-  ![Tetapan zon waktu dalam tetapan pemperibadian.](media/reconcile-assignments-04.png)
+  ![Tetapan zon waktu dalam tetapan pemperibadian](media/reconcile-assignments-04.png)
  
 - Sumber Boleh Ditempah mesti mempunyai sekurang-kurangnya satu minit daripada masa kerja yang bertindih dengan kontur yang digunakan untuk mentakrifkan sambungan yang diminta. Sebagai contoh, contoh berikut menunjukkan sumber semakan dengan jam kerja yang berada di antara 9:00 PG dan 7:00 MLM. 
 
-  ![Perbandingan kontur sumber.](media/reconcile-assignments-05.png)
+  ![Perbandingan sumber kontur](media/reconcile-assignments-05.png)
 
 Jadual berikut menunjukkan:
 
@@ -83,22 +85,19 @@ Jadual berikut menunjukkan:
 - Sumber B: Sumber ini terletak pada zon waktu yang berbeza daripada projek dan oleh itu bermula pada 7:00 PG dalam zon waktu mereka. Walau bagaimanapun, tempahan akan bermula pada 9:00 PG kerana itu adalah masa mula paling awal kontur tugasan.
 - Sumber C dan D: Sumber ini juga terletak pada zon waktu yang berbeza, kedua-duanya berbeza antara satu sama lain dan projek dan tempahan ia bermula tidak lebih awal daripada masa mula masing-masing yang tersedia.
 
-|EntitI  |Kalendar  |
+|Entiti  |Kalendar  |
 |-|-|
-|Templat kalendar projek   | ![kalendar projek.](media/reconcile-assignments-06.png) |
-|Sumber A  | ![Kalendar Sumber A.](media/reconcile-assignments-06.png) |
-|Sumber B  |  ![Kalendar Sumber B.](media/reconcile-assignments-07.png) |
-|Sumber C  |  ![Kalendar Sumber C.](media/reconcile-assignments-08.png) |
-|Sumber D  | ![Kalendar Sumber D.](media/reconcile-assignments-09.png)  |
+|Templat kalendar projek   | ![kalendar projek](media/reconcile-assignments-06.png) |
+|Sumber A  | ![Kalendar Sumber A](media/reconcile-assignments-06.png) |
+|Sumber B  |  ![Kalendar Sumber B](media/reconcile-assignments-07.png) |
+|Sumber C  |  ![Kalendar Sumber C](media/reconcile-assignments-08.png) |
+|Sumber D  | ![Kalendar Sumber D](media/reconcile-assignments-09.png)  |
  
 Apabila anda menavigasi ke pandangan penyesuaian, tugasan sumber dan kekurangan tempahan yang berkaitan akan dipaparkan.
- ![Pandangan penyelarasan sebelum lanjutan.](media/reconcile-assignments-10.png)
+ ![Pandangan penyesuaian sebelum lanjutan](media/reconcile-assignments-10.png)
 
 Selepas fungsi Lanjutkan Tempahan telah dilaksanakan pada setiap sumber, tempahan berjaya dilanjutkan bagi setiap sumber. Ini kerana setiap jam kerja sumber bertindih dengan kontur kekurangan.
- ![Pandangan penyelarasan selepas lanjutan tempahan.](media/reconcile-assignments-11.png) 
+ ![Pandangan penyesuaian selepas lanjutan tempahan](media/reconcile-assignments-11.png) 
 
 Walau bagaimanapun, pandangan yang lebih dekat pada butiran tempahan menunjukkan perbezaan dalam masa mula tempahan. Tempahan tidak akan bermula lebih awal daripada masa mula kontur tugasan dan tidak lebih awal daripada masa mula sumber yang tersedia.
- ![Tempahan baharu sumber dalam papan jadual.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Tempahan baharu sumber dalam papan jadual](media/reconcile-assignments-12.png)

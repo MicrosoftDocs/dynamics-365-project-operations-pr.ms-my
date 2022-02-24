@@ -2,16 +2,18 @@
 title: Urus berbilang pelanggan pada sebut harga projek
 description: Topik ini memberikan maklumat tentang bekerja dengan sebut harga yang melibatkan berbilang pelanggan yang akan membiayai projek itu.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991992"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182003"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Urus berbilang pelanggan pada sebut harga projek
 
@@ -21,7 +23,7 @@ Sebut harga projek menyokong senario bagi cadangan melibatkan berbilang pelangga
 
 Semua pelanggan sebut harga pada tab **Pelanggan** sebut harga projek dilalaikan sebagai pelanggan baris sebut harga pada sebarang baris sebut harga berasaskan projek **baharu** yang dicipta untuk sebut harga. Sebarang baris sebut harga berasaskan projek sedia ada tidak akan mewarisi rekod pelanggan sebut harga baharu yang dicipta selepasnya.
 
-Pelanggan sebut harga dan pelanggan baris sebut harga boleh ditambah, dikemas kini atau dipadam pada bila-bila masa sebelum sebut harga dimenangi. Pelanggan yang sah pada sebut harga projek mesti ditetapkan sebagai pelanggan dalam syarikat Pemilik atau entiti undang-undang pada halaman **Pelanggan**. Entiti undang-undang disediakan dalam modul **Pengurusan dan perakauanan projek** bagi Dynamics 365 Project Operations dan tersedia sebagai Syarikat dalam modul **Jualan Projek dan Penghantaran** bagi Project Operations.
+Pelanggan sebut harga dan pelanggan baris sebut harga boleh ditambah, dikemas kini atau dipadam pada bila-bila masa sebelum sebut harga dimenangi. Pelanggan yang sah pada sebut harga projek mesti ditetapkan sebagai pelanggan dalam syarikat Pemilik atau entiti undang-undang pada halaman **Pelanggan**. Entiti undang-undang ditetapkan dalam modul **Pengurusan projek dan perakaunan** Dynamics 365 Project Operations dan tersedia sebagai Syarikat dalam modul **Jualan dan penghantaran projek** bagi Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Konsep pelanggan utama
 
@@ -49,6 +51,3 @@ Pelanggan sebut harga boleh dicipta, dikemas kini atau dipadam daripada tab **Pe
 Anda boleh edit peratusan pecahan pengebilan menggunakan pengalaman edit grid dalam baris. Apabila peratusan pecahan pengebilan tidak berjumlah 100%, ralat akan berlaku. Selepas anda mengemas kini peratusan pecahan pengebilan, segar semula halaman untuk mengalih keluar ralat.
 
 Anda juga boleh cuba memilih **Agihkan Secara Sekata** pada subgrid pelanggan sebut harga. Tindakan ini memperuntukkan pecahan pengebilan ke semua pelanggan sebut harga. Jika terdapat faktor pembundaran yang akan ditambah ke pelanggan pembundaran. Salah satu pelanggan sebut harga sentiasa ditag sebagai pelanggan pembundaran. Ini bermaksud bahawa rekod pelanggan sebut harga mempunyai bendera **Pembundaran** ditetapkan ke **Ya**. Kebiasaannya ini adalah pelanggan utama sebut harga tetapi yang boleh ditukar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
