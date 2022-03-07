@@ -2,8 +2,6 @@
 title: Jenis peringkat projek
 description: Topik ini memberikan maklumat tentang peringkat projek.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148114"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996897"
 ---
 # <a name="project-stage-types"></a>Jenis peringkat projek 
 
@@ -65,3 +63,6 @@ Apabila kerja untuk projek selesai, pengurus projek boleh mengemas kini peringka
 ## <a name="close"></a>Tutup
 
 Apabila semua transaksi direkodkan untuk projek, pengurus projek boleh mengemas kini peringkat kepada **Tutup**. Pada ketika itu, tiada transaksi boleh direkodkan dan projek itu ditetapkan kepada baca sahaja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

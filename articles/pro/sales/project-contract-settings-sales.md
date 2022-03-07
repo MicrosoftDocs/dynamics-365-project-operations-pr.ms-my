@@ -2,18 +2,16 @@
 title: Tetapan kontrak projek - lite
 description: Topik ini menyediakan maklumat mengenai medan yang memberi kesan kepada baris kontrak dan maklumat mengenai kontrak yang diringkaskan untuk merentasi semua item baris.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
-ms.translationtype: HT
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663920"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995952"
 ---
 # <a name="header-details-for-project-contracts"></a>Butiran pengepala untuk kontrak projek
 
@@ -23,7 +21,7 @@ Topik ini menyediakan maklumat mengenai medan yang digunakan untuk seluruh kontr
 
 Jadual berikut menyenaraikan medan paada kontrak projek yang unik kepada Dynamics 365 Project Operations atau mempunyai beberapa perubahan penting dalam tingkah laku daripada pesanan jualan dalam Dynamics 365 Sales.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Jenis | Tab **Ringkasan** (tersembunyi) | Ini adalah medan set pilihan dengan pilihan berikut:</br>- **Berasaskan kerja** (Tersedia hanya apabila Operasi Projek dipasang)</br>- **Berasaskan item** (Tersedia hanya apabila Operasi Projek and Jualan dipasang)</br>- **Perkhidmatan berasaskan Penyelenggaraan** (Tersedia apabila Dynamics 365 Field Service dipasang) | Dalam Operasi Projek, nilai medan ini lalai untuk **Berasaskan kerja** dan mengklasifikasikan kontrak sebagai kontrak berasaskan projek. Kontrak sepatutnya berasaskan projek untuk mendayakan semua sambungan dan fungsi khusus projek. |
 | Pelanggan Berpotensi | Tab **Ringkasan** | Rujukan kepada rekod pelanggan atau akaun syarikat. Apabila kontrak dicipta daripada sebut harga, medan ini disalin daripada medan yang sepadan pada rekod sebut harga. | Mata wang pada lalai kontrak projek berdasarkan mata wang pelanggan. Ini boleh diubah sebelum kontrak disimpan. |
@@ -36,7 +34,7 @@ Jadual berikut menyenaraikan medan paada kontrak projek yang unik kepada Dynamic
 
 KPI berikut tersedia pada tab **Prestasi Kontrak** kontrak projek.
 
-| Medan | Lokasi | Penerangan  |
+| Medan | Lokasi | Penerangan |
 | --- | --- | --- |
 | Nilai Kontrak | Keseluruhan kontrak | Jumlah nilai kontrak Projek. |
 | Amaun Dibilkan | Keseluruhan kontrak | Jumlah amaun ke atas semua invois terhadap kontrak ini. |

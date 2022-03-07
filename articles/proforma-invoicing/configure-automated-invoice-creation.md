@@ -2,18 +2,16 @@
 title: Konfigurasi penciptaan invois automatik
 description: Topik ini menyediakan maklumat tentang cara mengkonfigurasi sistem untuk menjana invois secara automatik.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: dffa95c163f7f8d5074e02cd56d6f1ed429a7c72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122444"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005352"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfigurasi penciptaan invois automatik
 
@@ -45,3 +43,6 @@ Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses k
 
 > [!NOTE]
 > Penginvoisan kelompok hanya berjalan untuk baris kontrak projek yang dikonfigurasikan oleh jadual invois. Baris kontrak dengan kaedah pengebilan harga tetap mesti mempunyai pencapaian yang dikonfigurasikan. Baris kontrak projek dengan kaedah pengebilan masa dan bahan akan memerlukan persediaan jadual invois berdasarkan tarikh. Perkara yang sama digunakan pada baris kontrak berasaskan projek.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

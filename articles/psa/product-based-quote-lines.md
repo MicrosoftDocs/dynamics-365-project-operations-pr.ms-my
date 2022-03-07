@@ -2,8 +2,6 @@
 title: Baris sebut harga berdasarkan produk
 description: Topik ini memberikan maklumat tentang baris sebut harga berdasarkan produk.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151264"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008597"
 ---
 # <a name="product-based-quote-lines"></a>Baris sebut harga berdasarkan produk
 
@@ -60,7 +58,7 @@ Jika anda menetapkan medan ini kepada **Ganti penetapan harga**, Dynamics 365 ti
 
 Selepas anda memasang PSA, harga jualan lalai dimasukkan pada baris berdasarkan produk pada sebut harga. Medan **Penetapan harga** kemudian ditetapkan kepada **Ganti penetapan harga** supaya anda boleh mengedit harga lalai pada baris sebut harga.
 
-> ![Menetapkan ganti penetapan harga](media/basic-guide-10.png)
+> ![Menetapkan penentuan harga ganti.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Faktor kuantiti bagi produk
 
@@ -80,5 +78,8 @@ Sebagai contoh, Dynamics 365 mungkin mempunyai sifat berikut:
 
 Sifat **Bilangan Pengguna** dan **Bilangan Bulan** boleh ditandakan sebagai faktor kuantiti dengan mengedit sifat baris produk. 
 
-> ![Menandakan Bilangan Pengguna dan Bilangan Bulan sebagai faktor kualiti](media/basic-guide-11.png)
+> ![Menandakan Bilangan Pengguna dan Bilangan Bulan sebagai faktor kualiti.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

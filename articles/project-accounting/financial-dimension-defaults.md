@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642374"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287384"
 ---
 # <a name="financial-dimension-defaults"></a>Dimensi perakaunan lalai
 
@@ -62,3 +62,6 @@ Projek dicipta dan dikekalkan dalam (CDS). Atribut perakaunan bagi projek diteta
 4. Tetapkan dimensi perakaunan lalai. Perhatikan bahawa dimensi kewangan lalai daripada akaun pelanggan. Jika projek berkaitan dengan baris kontrak dengan pelanggan kontrak berbilang projek, pelanggan utama digunakan untuk dimensi kewangan lalai.
 
 Projek dimensi kewangan lalai digunakan untuk menetapkan garisan jurnal lalai untuk masa, perbelanjaan dan yuran transaksi dalam **Jurnal Integrasi Project Operations** dan pada baris invois projek berkaitan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

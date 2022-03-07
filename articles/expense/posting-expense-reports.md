@@ -2,11 +2,9 @@
 title: Siarkan laporan perbelanjaan
 description: Topik ini menjelaskan cara menyiarkan laporan perbelanjaan.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acb26ef74c653a70134f13ab3c382f3c80a8ec14
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124289"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995227"
 ---
 # <a name="post-expense-reports"></a>Siarkan laporan perbelanjaan
 
@@ -31,3 +29,6 @@ Jika perbelanjaan pada laporan perbelanjaan dikenakan kepada syarikat selain sya
 Untuk menyiarkan laporan perbelanjaan, pada halaman **Laporan perbelanjaan yang diluluskan**, pilih laporan perbelanjaan dan kemudian, pada Anak Tetingkap Tindakan, pilih **Siarkan**.
 
 Anda juga boleh menyiarkan semua laporan perbelanjaan dalam senarai pada masa yang sama. Pilih semua laporan perbelanjaan dan kemudian pilih **Siarkan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

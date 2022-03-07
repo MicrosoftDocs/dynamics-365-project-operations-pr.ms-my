@@ -2,11 +2,9 @@
 title: Sediakan peranan pada templat Struktur pecahan kerja
 description: Topik ini memberikan maklumat tentang menyediakan maklumat peranan pada templat Struktur pecahan kerja.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008912"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Sediakan peranan pada templat Struktur pecahan kerja
 
@@ -91,7 +89,7 @@ Pilihan tambahan telah ditambah dalam WBS untuk menggunakan kefungsian penyumber
 
 4. Tetapkan tarikh dan usaha (jam), seperti yang ditunjukkan dalam ilustrasi berikut.
 
-    [![Tetapan tarikh dan usaha](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Tetapan tarikh dan usaha.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Pilih baris tugas **Memulakan**, dan kemudian, dalam medan **Peranan**, pilih **Pengurus Projek Kanan**.
 6. Pilih **Terbitkan**.
@@ -107,3 +105,6 @@ Pilihan tambahan telah ditambah dalam WBS untuk menggunakan kefungsian penyumber
     > Anda tidak menerima amaran bahawa sumber yang ditentukan adalah kini 2, kerana bilangan sumber kekal 1.
 
 14. Pada halaman **Struktur pecahan kerja**, mengesahkan tugasan sumber pada WBS, dan kemudian pilih **Simpan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

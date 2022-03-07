@@ -3,7 +3,6 @@ title: Pemasangan data sampel
 description: Topik ini menyediakan maklumat tentang cara memasang data sampel dalam Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144514"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985557"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Pemasangan data sampel untuk aplikasi Project Service
 
@@ -87,7 +86,7 @@ Anda perlu merancang supaya komputer tetap bersambung ke rangkaian dan pemasanga
 Komputer hendaklah mematikan fungsi penyelamat skrin. Sebaliknya, kelayakan sesi untuk pemasangan mungkin hilang apabila penyelamat skrin terlibat sama (melainkan anda mengekalkan sesi anda kepada aktif sepanjang masa).
 
 > [!div class="mx-imgBorder"]
-> ![Tangkap layar tetapan penyelamat skrin, dengan penyelamat skrin dimatikan](media/sample-data-1.png)
+> ![Tangkapan skrin tetapan penyelamat skrin, dengan penyelamat skrin dimatikan.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Muat turun dan buka
 
@@ -143,13 +142,13 @@ Pakej data demo memerlukan enam pengguna. Untuk pakej memasang dengan betul, lak
 3. Buka **PkgFolder** dan kemudian cari dan buka **ImportUserMapFile.xml**. Kemas kini medan **Baharu=** kepada alamat e-mel pengguna yang sepadan dalam sistem anda.
 
    > [!div class="mx-imgBorder"]
-   > ![Tangkap skrin UserMapFile](media/sample-data-7.png)
+   > ![Tangkapan skrin UserMapFile.](media/sample-data-7.png)
 
 4. Jika pengguna nama penuh "Spencer Low" anda mempunyai ID pengguna yang berbeza daripada **"spencerl"**, maka anda perlu mengemas kini satu fail tambahan. Buka **DemoDataPreImportConfig.xml** dan kemudian cari tag **userstocreateandconfigure**. Kemas kini tag **\<login\>** dengan loginId (sensitif huruf). 
 
 5. Kalendar pengguna pertama (dalam tag **userstocreateandconfigure**) digunakan untuk mengisi waktu bekerja untuk semua sumber yang boleh ditempah pada import data demo. Navigasi ke **Tetapan** > **Keselamatan** > **Pengguna**, cari pengguna "Spencer Low" anda dan buka pilihan "Waktu Bekerja". Edit waktu bekerja sedia ada, pilih pilihan **Seluruh jadual mingguan berulang dari awal hingga akhir**. Pastikan yang **waktu bekerja ditetapkan kepada 8 PG - 5 PTG (9 jam), Isnin hingga Jumaat dan dengan Zon Waktu ditetapkan kepada Waktu Pasifik (AS & Kanada)**. Ini diperlukan untuk memastikan yang papan Projek dan Jadual menunjukkan seperti yang dijangkakan.
 
-**Pengesyoran:** Pertimbangkan mencipta sandaran organisasi anda sekarang, jika anda perlu kembali ke titik permulaan anda jika sesuatu yang tidak kena berlaku semasa pemasangan data sampel. Untuk maklumat lanjut, lihat [Sandarkan dan pulihkan tika](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Pengesyoran:** Pertimbangkan mencipta sandaran organisasi anda sekarang, jika anda perlu kembali ke titik permulaan anda jika sesuatu yang tidak kena berlaku semasa pemasangan data sampel. Untuk maklumat lanjut, lihat [Sandarkan dan pulihkan tika](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Jalankan Package Deployer
 
@@ -173,7 +172,7 @@ Pakej data demo memerlukan enam pengguna. Untuk pakej memasang dengan betul, lak
 5. Pilih **Seterusnya** sehingga anda melihat dialog **Persediaan Data Demo**.
 
    > [!div class="mx-imgBorder"]
-   > ![Tangkap layar tetingkap status pemasang data demo](media/sample-data-3.png)
+   > ![Syot layar tetingkap status pemasang data demo.](media/sample-data-3.png)
 
 6. Sebelum meneruskan, ambil perhatian bahawa memasang data sampel boleh mengambil masa sehingga satu jam (selalunya ~ 10 minit). Anda perlu pastikan komputer kekal hidup dan disambungkan ke rangkaian sepanjang proses pemasangan, dan sesi anda kekal aktif.   
 
@@ -192,10 +191,10 @@ Selepas data sampel dimuatkan sepenuhnya, daftar masuk masuk sebagai pengguna Sp
 - Jika aplikasi Field Service dipasang, pergi ke **Project Service** > **Tetapan** > **Senarai Harga**. Sahkan bahawa kadar bil dan kadar kos wujud. Pergi ke **Field Service** > **Tetapan** > **Senarai Harga** dan pastikan bahawa kadar bil dan kadar kos wujud, dengan wang yang betul untuk setiap negara/rantau dalam set data.
 
   > [!div class="mx-imgBorder"]
-  > ![Tangkap layar senarai harga aktif](media/sample-data-4.png)
+  > ![Syot layar senarai harga aktif.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Tangkap layar unit organisasi aktif](media/sample-data-5.png)
+  > ![Syot layar unit organisasi aktif.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Nota teknikal
 
@@ -296,4 +295,7 @@ Jika anda perlu mengubah waktu bekerja untuk sumber boleh tempah sampel, pergi k
 Pilih pengguna (contohnya, Spencer Low) dan ubah waktu bekerja Spencer kepada jam yang anda mahu gunakan pada berbilang pengguna. Pergi ke **Universal Resource Scheduling** > **Tetapan** > **Templat Waktu Bekerja** dan edit rekod **Templat Kerja Lalai**. Dalam medan **Sumber Templat**, pilih pengguna dengan waktu bekerja yang anda mahu gunakan pada sumber lain. Pergi ke **Universal Resource Scheduling** > **Penjadualan** > **Sumber** > **Sumber Boleh Ditempah Sktif**. Pilih sumber yang anda mahu ubah, dan kemudian pilih **Tetapkan Kalendar**. Pada senarai juntai ke bawah **Templat Kerja**, pilih templat **Waktu Bekerja Lalai** atau templat lain dengan sumber templat yang betul. Apabila anda pergi ke papan Jadual, anda akan dapat melihat sumber sekarang telah mengemas kini waktu bekerja.
 
 > [!div class="mx-imgBorder"]
-> ![Tangkap layar sumber boleh tempah aktif](media/sample-data-6.png)
+> ![Syot layar sumber boleh tempah aktif.](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

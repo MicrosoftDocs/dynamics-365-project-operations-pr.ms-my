@@ -3,7 +3,7 @@ title: Sediakan kekerapan invois
 description: Cara untuk menyediakan kekerapan invois dalam Project Service
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4b4e783edbbccc59476965b11818a3e7a0517020
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146809"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081444"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Sediakan kekerapan invois (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

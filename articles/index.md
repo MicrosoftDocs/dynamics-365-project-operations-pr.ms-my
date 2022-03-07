@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120824"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275909"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations menghubungkan jualan, penyumberan, pengurusan projek dan pasukan kewangan dalam satu aplikasi untuk memenangi lebih banyak tawaran, mempercepatkan penghantaran projek dan memaksimumkan keuntungan.
+Microsoft Dynamics 365 Project Operations menghubungkan pasukan jualan, penyumberan, pengurusan projek dan kewangan dalam satu aplikasi untuk memenangi lebih banyak tawaran, mempercepatkan penyampaian projek dan memaksimumkan keuntungan.
 
 -   **Pemimpin mendapat wawasan perniagaan** untuk meningkatkan keterlihatan merentasi semua pasukan, data dan proses, serta keupayaan AI untuk keputusan perniagaan yang lebih baik dan lebih cepat.
 -   **Jualan didayakan** untuk memenangi lebih banyak tawaran dan mempercepatkan kitaran jualan dengan sebut harga yang cepat dan tepat, penetapan harga yang fleksibel dan peralihan yang lancar daripada anggaran kepada pelaksanaan.
@@ -40,5 +40,8 @@ Project Operations berkuasa dengan sendiri, tetapi boleh dikembangkan oleh pelan
 Untuk maklumat lanjut, lihat:
 
 - [Gambaran Keseluruhan Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Gambaran keseluruhan keluaran Dynamics 365 Project Operations 2020 gelombang 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Gambaran keseluruhan Dynamics 365 Project Operations keluaran 2020 gelombang 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 99539c378748f40df330841dbc52814a7841837a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 4a65ab00c7f729b72cc32b4786055feba4aaee452ac4cf413047f81651c92290
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993814"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003287"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Perkara baharu November 2020 - Pelaksanaan Project Operations Lite - urusan untuk penginvoisan proforma
 
@@ -21,8 +21,8 @@ Jadual berikut menyenaraikan kemas kini Project Operations pada persekitaran CDS
 
 | Bahagian ciri                 | Nombor rujukan | Kemas kini kualiti                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Pengurusan peluang       | 2036993          | Anggaran penugasan baris dan sumber untuk baris kontrak dikemas kini pada sebut harga yang dimenangi apabila jenis baris sebut harga ialah **Semua tugas**.                                                 |
-|   Pengurusan peluang       | 2071514          | Tidak dapat mencipta invois untuk pencapaian harga tetap pada kontrak yang mempunyai pengebilan berasaskan tugas yang didayakan.                                                                          |
+| Pengurusan peluang       | 2036993          | Anggaran penugasan baris dan sumber untuk baris kontrak dikemas kini pada sebut harga yang dimenangi apabila jenis baris sebut harga ialah **Semua tugas**.                                                 |
+| Pengurusan peluang       | 2071514          | Tidak dapat mencipta invois untuk pencapaian harga tetap pada kontrak yang mempunyai pengebilan berasaskan tugas yang didayakan.                                                                          |
 | Pengebilan dan harga          | 2070392          | Baris kontrak projek pada peningkatan invois setiap kali **Transaksi invois segar semula** dipilih.                                                                       |
 | Perancangan projek             | 2043336          | Tidak dapat memadamkan rekod ahli pasukan projek.                                                                                                                                    |
 | Perancangan projek             | 2046013          | Tingkah laku yang tidak konsisten untuk Anggaran lajur tag semasa beban berbanding penukaran jenis fasa masa.                                                                                   |

@@ -1,21 +1,19 @@
 ---
-title: Urus tunggakan pengebilan - lite
-description: Topik ini menyediakan maklumat mengenai pelbagai pandangan yang tersedia untuk digunakan apabila mengurus tunggakan pengebilan.
+title: Urus tunggakan pengebilan projek
+description: Topik ini menyediakan maklumat tentang pelbagai pandangan yang tersedia untuk digunakan apabila menguruskan tunggakan pengebilan pada projek.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176982"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988302"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Urus tunggakan pengebilan - lite
+# <a name="manage-project-billing-backlog"></a>Urus tunggakan pengebilan projek 
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -60,3 +58,6 @@ Aktual jualan yang belum dibilkan dengan status **Tidak Melebihi** bagi **Gagal*
 Jika baris kontrak berbilang pelanggan mempunyai kaedah pengebilan masa dan bahan, apabila masa dan perbelanjaan diluluskan, satu aktual jualan yang tidak dibilkan dicipta untuk setiap pelanggan pada baris kontrak mengikut pecahan peratusan pengebilan yang ditakrifkan untuk setiap pelanggan. Dalam pandangan **Tunggakan Pengebilan Masa dan Bahan**, anda akan melihat aktual jualan yang tidak dibilkan khusus pelanggan individu. Setiap rekod jualan sebenar belum dibilkan ini boleh ditandakan sebagai **Bersedia untuk Diinvois** secara berasingan daripada pandangan ini.
 
 Aktual jualan yang tidak dibilkan yang ada pada invois draf ditunjukkan dalam pandangan ini dengan status pengebilan **Invois Pelanggan Dicipta**. Apabila invois draf disahkan, status pengebilan pada rekod ini dikemas kini kepada **Invois Pelanggan Disiarkan**. Jangan kemas kini nilai status ini menggunakan kod tersuai. Project Operations tidak berfungsi dengan betul apabila nilai status ini dikemas kini dengan kod tersuai.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

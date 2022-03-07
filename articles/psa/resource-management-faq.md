@@ -2,8 +2,6 @@
 title: Soalan Lazim Pengurusan sumber
 description: Topik ini memberikan jawapan kepada soalan lazim mengenai pengurusan sumber.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25e069beaffc9081a5516449d55b5c9304c23b0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144379"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008772"
 ---
 # <a name="resource-management-faq"></a>Soalan Lazim Pengurusan sumber
 
@@ -54,3 +52,6 @@ Selepas sumber ditempah, pilih **Kekalkan Penempahan** untuk membuat sebarang pe
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Apakah perbezaan antara tugasan dengan sesuatu penempahan?
 
 Tugasan adalah tugasan sumber untuk tugas projek dalam jadual projek. Sumber boleh sama ada sumber sebenar atau generik. Penempahan ialah pengagihan sumber yang cetak atau lembut kepada projek. Penempahan keras menggunakan kapasiti sumber. Sebaik-baiknya, untuk sumber sebenar, penempahan dan tugasan harus bersetuju, kerana mereka tidak berbeza. Walau bagaimanapun, PSA tidak menguatkuasakan perjanjian ini. Pandangan penyesuaian menunjukkan pengurus projek tempat penempahan tempahan sumber dan tugasan tidak bersetuju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Sediakan kadar bil buruh - ringan
+title: Menetapkan kadar bil buruh
 description: Topik ini menyediakan maklumat mengenai cara untuk menetapkan kadar pengebilan buruh dalam Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081290"
 ---
-# <a name="set-up-labor-bill-rates---lite"></a>Sediakan kadar bil buruh - ringan
+# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Menetapkan kadar bil untuk pengebilan kadar buruh 
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -27,7 +27,7 @@ Setiap senarai harga mempunyai set harga peranan atau kadar buruh yang efektif u
 
   Jadual berikut merangkumi medan pada tab **Umum** dan anak tetingkap **Cipta Pantas** bagi baris harga peranan yang perlu diingati apabila anda mencipta harga peranan pada senarai harga jualan.
 
-  | Medan | Lokasi | Penerangan  | Kesan hiliran |
+  | Medan | Lokasi | Keterkaitan, tujuan dan panduan | Kesan hiliran |
   | --- | --- | --- | --- |
   | Peranan | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih peranan yang anda tetapkan untuk kadar bil. | Peranan pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |
   | Unit Sumber | Tab **Umum** dan anak tetingkap **Cipta Pantas** | Pilih unit organisasi atau divisyen syarikat yang peranan ini berasal. Sebagai contoh, pemaju dari bahagian Robotik Fabrikam India atau pemaju dari bahagian Perisian Fabrikam USA. | Unit sumber pada anggaran atau sebenar yang masuk akan dipadankan dengan baris ini untuk menetapkan kadar bil peranan lalai. |

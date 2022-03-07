@@ -2,19 +2,18 @@
 title: Gambaran keseluruhan dimensi penentuan harga
 description: Topik ini memberikan maklumat tentang dimensi penetapan harga dalam Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001982"
 ---
 # <a name="pricing-dimensions-overview"></a>Gambaran keseluruhan dimensi penentuan harga
 
@@ -34,7 +33,7 @@ Disebabkan ini, terdapat dua jenis nilai dimensi penetapan harga tersedia:
 
 Dynamics 365 Project Operations didatangkan dengan set dimensi penetapan harga lalai. Anda boleh melihat ini dengan pergi ke **Project Service** > **Parameter**. Dalam rekod parameter, pada tab **Dimensi penetapan harga berdasarkan jumlah**, sahkan bahawa peranan, **msdyn_resourcecategory** dan unit organisasi sumber, **msdyn_organizationalunit** mempunyai medan **Digunakan pada jualan** dan **Digunakan pada kos** yang ditetapkan kepada **Ya**. Anda boleh menyediakan harga dan kos untuk setiap peranan dan kombinasi unit organisasi dengan medan ini didayakan.
 
-![Petikan skrin parameter Project Service dengan "Digunakan pada Jualan" diserlahkan](media/PS-OOB-parameters.png)
+![Syot layar parameter Project Service dengan "Digunakan pada Jualan" diserlahkan.](media/PS-OOB-parameters.png)
 
 Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk maklumat lanjut, lihat topik yang berikut. 
   
@@ -59,15 +58,18 @@ Contoh berikut menunjukkan kadar bil yang ditetapkan berdasarkan peranan dan uni
 
 **Sampel kadar bil**
 
-| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
+| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata wang  |
 | ------------|-------------|----------|----------:|----------|
-| Pembangun   | Contoso AS  |Hour | 200|USD     |
-| Pembangun   | Contoso India |Hour|   112|USD     |
+| Pemaju   | Contoso AS  |Jam | 200|USD     |
+| Pemaju   | Contoso India |Jam|   112|USD     |
 
 
 **Sampel kadar kos**
 
-| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
+| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata wang  |
 | ----------------|-------------|----------|----------:|----------|
-| Syarikat saya_Jalur1 | Contoso AS  |Hour | 145|USD     |
-| Syarikat saya_Jalur2 | Contoso India |Hour|   67|USD     |
+| Syarikat saya_Jalur1 | Contoso AS  |Jam | 145|USD     |
+| Syarikat saya_Jalur2 | Contoso India |Jam|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

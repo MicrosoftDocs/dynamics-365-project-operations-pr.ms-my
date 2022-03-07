@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595522"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287564"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurasikan penginvoisan antara syarikat
 
@@ -101,3 +101,6 @@ Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah 
           - **Syarikat sumber** = **Contoso Robotics UK**
           - **Kadar bil** = **200 USD**
       9. Pergi ke **Jualan** > **Kontrak projek** dan lampirkan senarai harga **kadar bil Adventure Works** kepada senarai harga projek Adventure Works bagi kontrak projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

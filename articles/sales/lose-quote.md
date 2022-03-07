@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081105"
 ---
 # <a name="copy-project-based-quotes"></a>Salin sebut harga berasaskan projek
 
@@ -25,7 +25,7 @@ Anda dengan mudah boleh mencipta sebut harga Projek baharu dengan menyalin yang 
 
 Ini akan membuka halaman dialog yang anda boleh memasukkan parameter bagi salinan. Jadual berikut menyenaraikan medan yang disertakan dalam halaman dialog. Bergantung pada nilai yang anda pilih, proses penyalinan mungkin berubah.
 
-| **Medan** | **Perihalan** | **Kesan hiliran** |
+| **Medan** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
 | --- | --- | --- |
 | Topik | Masukkan topik atau nama yang berkaitan dengan sebut harga sasaran. Apabila dialog dibuka, sistem akan menetapkannya kepada topik sebut harga sumber dengan **-salin** ditambahkan padanya. | |
 | Pelanggan Berpotensi | Rujukan kepada syarikat atau rekod akaun pelanggan. Apabila dialog dibuka, sistem akan menetapkannya kepada akaun pada sebut harga sumber. | Medan ini ialah pelanggan utama pada sebut harga. |

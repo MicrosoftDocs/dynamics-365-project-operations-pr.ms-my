@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150454"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282659"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Jadualkan sumber bagi projek (Project Service)
 
@@ -83,3 +83,6 @@ Jika anda menggunakan versi lebih lama, untuk ketersediaan sumber, lihat [Lihat 
   
 ### <a name="additional-resources"></a>Sumber tambahan  
  [Panduan pengurus sumber](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

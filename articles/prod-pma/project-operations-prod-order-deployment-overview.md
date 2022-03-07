@@ -2,18 +2,17 @@
 title: Project Operations untuk gambaran keseluruhan pelaksanaan senario distok/berasaskan pengeluaran
 description: Topik ini menyediakan maklumat tentang jenis pelaksanaan, Project Operations untuk senario distok/berasaskan pengeluaran.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: 71fd9d3ae30147c3c03202a54f74477a95838eb9
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365562"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369522"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations untuk gambaran keseluruhan pelaksanaan senario distok/berasaskan pengeluaran
 
@@ -43,3 +42,6 @@ Pilih jenis pelaksanaan ini untuk menggunakan Dynamics 365 Project Operations ba
 - Cukai jualan kelas perusahaan dan enjin kadar pertukaran untuk menjana invois menghadapi pelanggan bagi projek.
 - Sistem perakaunan projek dan pengiktirafan hasil mematuhi Standard Pelaporan Kewangan Antarabangsa (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

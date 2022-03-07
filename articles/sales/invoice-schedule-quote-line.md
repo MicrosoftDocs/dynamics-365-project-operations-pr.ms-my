@@ -2,18 +2,16 @@
 title: Jadual invois pada baris sebut harga berasaskan projek
 description: Topik ini menyediakan maklumat mengenai membuat jadual invois dan pencapaian untuk baris sebut harga.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988617"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Jadual invois pada baris sebut harga berasaskan projek
 
@@ -68,3 +66,6 @@ Buka baris sebut harga Tetap yang anda perlukan untuk mencipta pencapaian. Pada 
 | Status invois | Cipta cepat | Apabila pencapaian dicipta, status ini sentiasa ditetapkan kepada **Tidak bersedia untuk penginvoisan**. | Ini telah disebarkan kepada pencapaian baris kontrak projek dan kepada invois. |
 | Amaun Baris | Cipta cepat | Jumlah atau nilai pencapaian yang akan diinvoiskan kepada pelanggan. | Ini telah disebarkan kepada pencapaian baris kontrak projek dan kepada invois. |
 | Cukai | Cipta cepat | Jumlah cukai yang akan dikenakan kepada pencapaian. | Ini telah disebarkan kepada pencapaian baris kontrak projek dan kepada invois. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

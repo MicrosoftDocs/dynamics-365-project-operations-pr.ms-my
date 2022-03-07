@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089277"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275818"
 ---
 # <a name="invoicing-process-overview"></a>Gambaran keseluruhan proses penginvoisan
 
@@ -30,3 +30,6 @@ Pengurus Projek boleh menyemak transaksi jualan yang tidak dibilkan menggunakan 
 Anda boleh [mencipta invois proforma secara manual](../proforma-invoicing/create-manual-proforma-invoice.md) atau menggunakan [proses berkala](../proforma-invoicing/configure-automated-invoice-creation.md). Pengurus Projek boleh [melaraskan invois proforma draf](../proforma-invoicing/manage-proforma-invoice.md) sebagaimana yang diperlukan dan kemudian mengesahkannya.
 
 Invois proforma yang disahkan dihantar kepada modul **Pengurusan dan perakaunan projek** dalam Kewangan. Akauntan Projek memformat dan mengemas kini kelulusan invois projek, dan kemudian menyiarkan dan mencetak dokumen. Invois projek yang disiarkan direkodkan dalam lejar Am serta sublejar Pelanggan dan Projek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

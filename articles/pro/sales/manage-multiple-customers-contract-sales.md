@@ -2,24 +2,22 @@
 title: Urus berbilang pelanggan pada kontrak projek - ringan
 description: Topik ini menyediakan maklumat tentang pengurusan berbilang pelanggan pada kontrak projek.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181328"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001757"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Urus berbilang pelanggan pada kontrak projek - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Kontrak projek dalam Dynamics 365 Project Operations menyokong senario, perjanjian kontrak melibatkan berbilang pelanggan yang membiayai urusan. Tab **Ringkasan** pada halaman **Kontrak Projek** termasuk medan **Pelanggan**. Medan ini mengenal pasti pelanggan utama urusan. Pelanggan lain untuk urusan boleh ditetapkan pada tab **Pelanggan** halaman **Kontrak Projek**.
+Kontrak projek dalam Dynamics 365 Project Operations menyokong senario perjanjian kontrak melibatkan berbilang pelanggan yang membiayai urusan. Tab **Ringkasan** pada halaman **Kontrak Projek** termasuk medan **Pelanggan**. Medan ini mengenal pasti pelanggan utama urusan. Pelanggan lain untuk urusan boleh ditetapkan pada tab **Pelanggan** halaman **Kontrak Projek**.
 
 Semua pelanggan kontrak yang disenaraikan pada kontrak projek lalai sebagai pelanggan baris kontrak pada mana-mana baris kontrak berasaskan projek baharu yang dicipta untuk kontrak projek. Baris kontrak berasaskan projek yang sedia ada tidak mewarisi pelanggan kontrak baharu kerana rekod baharu dicipta.
 
@@ -37,7 +35,7 @@ Pelanggan utama tidak boleh dikemas kini daripada senarai pelanggan kontrak. Seb
 
 Pelanggan kontrak boleh dicipta, dikemas kini atau dipadamkan daripada tab **Pelanggan** pada halaman **Kontrak Projek**. Medan dalam jadual berikut adalah pada rekod pelanggan kontrak bagi kontrak projek dan perlu diingat kerana anda bekerja dengan kontrak tersebut.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | **Akaun** | Grid boleh diedit pada tab **Pelanggan Kontrak** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan kontrak. | Senaraikan semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Untuk mengemas kini akaun, padamkan rekod dan cipta semula rekod. Jika anda telah merakam sebarang aktual atau rekod pelanggan kontrak ialah pelanggan utama, anda tidak boleh memadamkan rekod. | Pelanggan kontrak disalin sebagai pelanggan baris kontrak apabila baris kontrak dicipta. |
 | **Peratus Pecahan Bil** | Grid boleh diedit pada tab **Pelanggan Kontrak** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan kontrak. | Mewakili peratusan setiap transaksi jualan belum dibilkan yang diatribut kepada pelanggan kontrak ini. | Disalin ke baris kontrak baharu dan kepada pelanggan baris kontrak projek pada baris kontrak projek baharu. |
@@ -52,3 +50,6 @@ Pelanggan kontrak boleh dicipta, dikemas kini atau dipadamkan daripada tab **Pel
 Peratusan pecahan bil boleh diedit menggunakan pengalaman edit grid dalam baris. Apabila peratusan pecahan bil tidak berjumlah 100 peratus, anda akan menerima ralat. Selepas anda mengedit peratusan pecahan bil, segar semula halaman untuk menutup ralat.
 
 Anda juga boleh memilih **Agihkan Secara Sekata** pada subgrid **Pelanggan Kontrak** untuk menguntukkan pecahan bil secara sekata kepada semua pelanggan kontrak. Jika terdapat faktor pembundaran, faktor itu akan ditambah kepada pelanggan pembundaran. Salah seorang pelanggan kontrak sentiasa ditag sebagai pelanggan **pembundaran**, yang bermaksud bahawa rekod pelanggan kontrak mempunyai bendera pembundaran yang ditetapkan kepada **Ya**. Biasanya, ini ialah pelanggan utama kontrak, tetapi ia juga boleh ditukar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

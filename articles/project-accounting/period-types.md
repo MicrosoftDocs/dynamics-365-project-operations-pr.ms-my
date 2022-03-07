@@ -2,18 +2,16 @@
 title: Jenis tempoh
 description: Topik ini menyediakan maklumat tentang cara menyediakan jenis tempoh untuk anggaran hasil..
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998787"
 ---
 # <a name="period-types"></a>Jenis tempoh
 
@@ -34,3 +32,6 @@ Untuk mencipta dan bekerja dengan jenis tempoh, lengkapkan langkah berikut:
 4. Pilih rekod jenis tempoh dan kemudian pilih **Jana tempoh** untuk mencipta tempoh bagi jenis tempoh. Berdasarkan kekerapan tempoh yang anda pilih, anda mungkin mempunyai pilihan untuk menentukan tarikh mula atau bilangan tempoh untuk menjana.
 5. Pilih **Tempoh** untuk mengkaji semula tempoh yang dijana.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

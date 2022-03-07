@@ -2,18 +2,17 @@
 title: Gambaran keseluruhan baris kontrak berasaskan produk - lite
 description: Topik ini memberikan maklumat tentang baris kontrak berdasarkan produk.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 8464eefbce9ba266360e10039e2a0be78982d8fa
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272669"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369747"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Gambaran keseluruhan baris kontrak berasaskan produk - lite
 

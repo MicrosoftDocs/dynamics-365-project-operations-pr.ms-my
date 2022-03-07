@@ -2,8 +2,6 @@
 title: Paduan Asas untuk Sebut Harga, Penentuan Harga, dan Pengebilan
 description: Topik ini memberikan pautan ke maklumat tentang sebut harga, penentuan harga dan pengebilan asas dalam Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149149"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985602"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Paduan asas untuk sebut harga, penentuan harga dan pengebilan
 
@@ -52,3 +50,6 @@ Pautan PDF yang terdapat dalam topik ini sebelum ini telah dialih keluar dan kan
 
 > [!NOTE]
 > Topik ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

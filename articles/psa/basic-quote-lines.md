@@ -2,8 +2,6 @@
 title: Sebut harga dan baris sebut harga
 description: Topik ini memberikan maklumat tentang sebut harga dan baris sebut harga.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145144"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995457"
 ---
 # <a name="quotes-and-quote-lines"></a>Sebut harga dan baris sebut harga
 
@@ -86,7 +84,7 @@ Organisasi perkhidmatan profesional biasanya sebut harga dan invois pelanggan me
 
 Satu atae lebih pengeleasan transaksi boleh dikaitkan dengan setiap baris sebut harga. Selepas sebut harga dimenangi, pemetaan antara klasifikasi transaksi dan baris sebut harga dipindahkan ke baris kontrak.
  
-> ![Tangkapan skrin jenis transaksi pemetaan kepada sebut harga dan baris kontrak](media/basic-guide-5.png)
+> ![Tangkapan skrin jenis transaksi pemetaan kepada sebut harga dan baris kontrak.](media/basic-guide-5.png)
   
 Sebagai contoh, sebut harga mungkin mengandungi dua baris sebut harga berikut: 
 - Kerja perundingan yang menggunakan kaedah pengebilan masa dan bahan di mana pengelasan transaksi masa dan yuran dikenakan. Contohnya, semua transaksi masa dan yuran untuk projek contoh **Pelaksanaan Dynamics AX** ialah invois kepada pelanggan berdasarkan masa dan bahan yang digunakan. 
@@ -131,3 +129,6 @@ Untuk baris sebut harga tetap, anda boleh menggunakan grid **Jadual Invois** unt
 - Untuk mencipta peristiwa pengebilan yang sama dibahagikan, pilih kekerapan invois, masukkan tarikh mula pengebilan pada baris sebut harga dan pilih **Tarikh Penyelesaian Diminta** diminta untuk sebut harga dalam bahagian **Ringkasan** bagi pengepala sebut harga. Kemudian pilih **Jana Pencapaian Berkala** berkala untuk mencipta pencapaian yang sama rata berdasarkan kekerapan invois yang dipilih. 
 - Untuk mencipta pencapaian pengebilan sekaligus, cipta pencapaian dan kemudian masukkan nilai baris sebut harga sebagai jumlah pencapaian.
 - Untuk mencipta pencapaian pengebilan berdasarkan tugas khusus dalam pelan projek, cipta pencapaian dan petakannya kepada elemen jadual projek dalam UI pencapaian pengebilan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

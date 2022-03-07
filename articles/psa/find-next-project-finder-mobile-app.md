@@ -2,8 +2,6 @@
 title: Cari projek anda yang seterusnya dengan aplikasi Project Finder Mobile
 description: Cara untuk mencari projek anda yang seterusnya dengan aplikasi Project Finder Mobile untuk Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149284"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990796"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Cari projek anda yang seterusnya dengan aplikasi Project Finder Mobile (Project Service)
 
@@ -40,12 +38,15 @@ Dengan aplikasi Project Finder Mobile pada telefon [!INCLUDE[tn_iphone](../inclu
   
  Ketik anak panah di sebelah kanan projek yang anda minati untuk melihat butiran lanjut dan mendaftar untuknya.  
   
- ![Senarai projek kemahiran sepadan dalam aplikasi Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Senarai projek kemahiran sepadan dalam aplikasi Project Finder Mobile")  
+ ![Senarai kemahiran sepadan projek dalam aplikasi Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Senarai projek kemahiran sepadan dalam aplikasi Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Kemas kini kemahiran anda  
  Ketik butang profil di kanan bawah skrin untuk mengemas kini kemahiran dan tahap kecekapan anda.  
   
- ![Butang profil dalam aplikasi Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Butang profil dalam aplikasi Project Finder Mobile")  
+ ![Butang profil dalam aplikasi Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Butang profil dalam aplikasi Project Finder Mobile")  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

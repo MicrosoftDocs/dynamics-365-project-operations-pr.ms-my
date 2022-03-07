@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558558"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323697"
 ---
 # <a name="subcontract-lines-for-products"></a>Baris subkontrak untuk produk
 
@@ -30,25 +30,25 @@ Lengkapkan langkah berikut untuk mencipta baris subkontrak untuk produk dalam Pr
 
 Jadual berikut memberikan maklumat tentang medan pada halaman **Butiran baris subkontrak** dan halaman **Cipta pantas** kerana halaman berkaitan dengan pembelian produk.
 
-| Medan | Penerangan | Kesan kefungsian|
-| ----- | ----------- | ----------- |
-| Nama | Nama baris subkontrak untuk membantu pengenalpastian. |Ini akan ditunjukkan sebagai lajur pertama dalam semua carian berdasarkan pada baris subkontrak.
-| Penerangan | Penerangan ringkas tentang produk yang dipesan pada baris subkontrak. | Tiada |
-| Jenis Baris | Nilai medan ini mempunyai nilai lalai daripada **Berasaskan kuantiti**. |Tiada |
-| Kaedah Pengebilan | Ini adalah set pilihan yang mewakili dua model kontrak utama disokong oleh Project Operations: **Harga Tetap** dan **Masa dan Bahan**. | Berdasarkan pada kaedah pengebilan yang dipilih, jadual invois berasaskan pencapaian tersedia untuk baris subkontrak dengan kaedah pengebilan Harga Tetap. |
-| Kelas Transaksi |Medan ini mempunyai nilai lalai bagi **Masa**. Untuk mencipta baris subkontrak bagi pembelian produk, tetapkan medan  **Kelas Transaksi** ke **Bahan**.  | Ini menunjukkan bahawa baris subkontrak sedang digunakan untuk merekodkan pembelian produk yang akan digunakan pada projek. |
-| Pilih Produk | Pilih sama ada produk yang dibeli disimpan dalam katalog produk atau merupakan produk masukan manual. |Tiada |
-| Produk | Pilih produk yang aktif daripada katalog. Medan ini hanya tersedia apabila **Pilih Produk** ditetapkan kepada **Sedia ada**. |Gabungan **Produk** dan **Unit** akan digunakan sebagai lalai atau dikira untuk harga unit bagi baris subkontrak.
-| Produk Masukan Manual | Masukkan nama produk masukan manual. Medan ini hanya tersedia apabila **Pilih Produk** ditetapkan kepada **Masukan Manual**.  |Harga belian tidak akan diisi secara automatik untuk produk masukan manual.|
-| Tarikh Penyampaian Diminta | Masukkan tarikh penghantaran yang diperlukan untuk produk.| Tarikh ini juga digunakan untuk memilih senarai harga projek daripada senarai harga projek yang dilampirkan kepada subkontrak. Kos produk pada baris subkontrak kemudian terlalai daripada senarai harga tersebut. |
-| Tarikh penghantaran mengikut kontrak | Masukkan tarikh produk yang digunakan oleh Syarikat bersetuju untuk dihantar.  |Tiada|
-| Kuantiti Dipesan | Masukkan kuantiti produk yang dibeli daripada vendor.| Ini akan digunakan untuk menunjukkan amaran apabila pengurus projek lebih daripada kuantiti ini.|
-| Kumpulan Unit | Nilai ini terlalai untuk produk katalog sahaja. |Apabila **Produk** dan **Tarikh penghantaran yang diminta** dipilih, sistem akan memilih senarai harga yang terpakai berdasarkan tarikh penghantaran. Item senarai harga yang berkaitan ditanya untuk produk yang sepadan. Nilai unit dan kumpulan unit terlalai daripada persediaan pada rekod item senarai harga. |
-| Unit | Nilai ini lalai untuk unit yang disediakan pada rekod item senarai harga. Anda boleh mengubah ini kepada unit lain jika perlu.| Gabungan produk dan unit digunakan untuk melalaikan harga unit pada baris subkontrak untuk produk katalog yang sedia ada. |
-| Harga Unit | Harga unit terlalai menggunakan gabungan produk dan unit daripada item senarai harga yang berkaitan dengan senarai harga projek yang terpakai untuk tarikh penghantaran yang diminta pada baris subkontrak.  |Tiada |
-| Jumlah kecil | Medan baca sahaja dikira sebagai Kuantiti x Harga unit jika kedua-dua medan mempunyai nilai yang dimasukkan. Jika sama ada medan **Kuantiti**, **Harga unit** atau kedua-duanya kosong, anda boleh memasukkan nilai secara manual.  |Tiada |
-| Cukai Jualan | Masukkan nilai cukai jualan. |Tiada |
-| Jumlah Amaun | Medan dikira ini menunjukkan jumlah amaun baris subkontrak selepas termasuk cukai. Nilai dalam medan ini dikira sebagai Subjumlah + Cukai. |Tiada |
+| Medan | Penerangan |
+| ----- | ----------- |
+| Nama | Nama baris subkontrak. |
+| Penerangan | Penerangan ringkas tentang produk yang dipesan pada baris subkontrak. |
+| Jenis Baris | Nilai medan ini terlalai kepada **Berasaskan kuantiti**. |
+| Kaedah Pengebilan |  Kaedah pengebilan baris subkontrak. Jadual invois berasaskan pencapaian tersedia untuk kaedah pengebilan harga tetap. |
+| Kelas Transaksi | Nilai medan ini terlalai kepada **Masa**. Untuk mencipta baris subkontrak untuk pembelian produk, dalam medan **Kelas Transaksi**, pilih **Bahan**. Pemilihan ini menunjukkan bahawa baris subkontrak digunakan untuk merekodkan pembelian produk yang akan digunakan pada projek. |
+| Pilih Produk | Pilih sama ada produk yang dibeli disimpan dalam katalog produk atau merupakan produk masukan manual. |
+| Produk | Pilih produk yang aktif daripada katalog. Medan ini hanya tersedia apabila **Pilih Produk** ditetapkan kepada **Sedia ada**. |
+| Produk Masukan Manual | Masukkan nama produk masukan manual. Medan ini hanya tersedia apabila **Pilih Produk** ditetapkan kepada **Masukan Manual**.  |
+| Tarikh Penyampaian Diminta | Pilih tarikh penghantaran yang diperlukan untuk produk tersebut. Tarikh ini juga digunakan untuk memilih senarai harga projek daripada senarai harga projek yang dilampirkan kepada subkontrak. Kos produk pada baris subkontrak kemudian terlalai daripada senarai harga tersebut. |
+| Tarikh penghantaran mengikut kontrak | Pilih tarikh apabila produk akan dihantar mengikut persetujuan pada kontrak.  |
+| Kuantiti Dipesan | Masukkan kuantiti produk yang dibeli daripada vendor. Jika Pengurus Projek menarik lebih daripada kuantiti ini, amaran akan berlaku. |
+| Kumpulan Unit | Nilai ini terlalai untuk produk katalog sahaja. Apabila **Produk** dan **Tarikh penghantaran yang diminta** dipilih, sistem akan memilih senarai harga yang terpakai berdasarkan tarikh penghantaran. Item senarai harga yang berkaitan ditanya untuk produk yang sepadan. Nilai unit dan kumpulan unit terlalai daripada persediaan pada rekod item senarai harga. |
+| Unit | Nilai ini terlalai kepada persediaan unit pada rekod item senarai harga. Anda boleh mengubah ini kepada unit lain jika perlu. Gabungan produk dan unit digunakan untuk melalaikan harga unit pada baris subkontrak untuk produk katalog yang sedia ada. |
+| Harga Unit | Harga unit terlalai menggunakan gabungan produk dan unit daripada item senarai harga yang berkaitan dengan senarai harga projek yang terpakai untuk tarikh penghantaran yang diminta pada baris subkontrak.  |
+| Jumlah kecil | Medan baca sahaja dikira sebagai Kuantiti x Harga unit jika kedua-dua medan mempunyai nilai yang dimasukkan. Jika sama ada medan **Kuantiti**, **Harga unit** atau kedua-duanya kosong, anda boleh memasukkan nilai secara manual.  |
+| Cukai Jualan | Masukkan nilai cukai jualan. |
+| Jumlah Amaun | Medan dikira ini menunjukkan jumlah amaun baris subkontrak selepas termasuk cukai. Nilai dalam medan ini dikira sebagai jumlah kecil + cukai. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

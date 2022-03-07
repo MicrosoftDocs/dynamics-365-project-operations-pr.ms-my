@@ -2,19 +2,17 @@
 title: Ganti senarai harga jualan projek
 description: Topik ini menyediakan maklumat tentang mencipta senarai harga jualan tersuai.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672242"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009587"
 ---
 # <a name="override-project-sales-price-lists"></a>Ganti senarai harga jualan projek
 
@@ -52,3 +50,6 @@ Anda boleh menggunakan setiap senarai harga itu dan membuat kemas kini untuk har
 Pada kontrak projek, penetapan harga projek sentiasa lalai sebagai senarai harga tersuai dengan nama kontrak dan cap masa tarikh dicipta ditambah kepada nama. Ini adalah benar sama ada kontrak dicipta apabila sebut harga dimenangi atau jika kontrak dicipta daripada awal. Jika perlu, anda boleh mengalih keluar perkaitan ini ke senarai harga tersuai dan mengaitkan senarai harga standard kepada kontrak projek.
 
 Apabila anda mengaitkan senarai harga standard ke senarai harga projek pada sebut harga atau kontrak, sebarang perubahan yang dibuat pada harga dalam senarai harga akan memberi kesan kepada semua sebut harga dan kontrak yang menggunakan senarai harga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

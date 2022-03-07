@@ -2,11 +2,9 @@
 title: Semak sumber yang dicadangkan
 description: Topik ini memberikan maklumat tentang cara untuk mencadang sumber projek.
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: a9d3f7b9194b29859ee1479fea8158067e22e819e8f190ef1659e14b7c0cd6b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998022"
 ---
 # <a name="review-proposed-resources"></a>Semak sumber yang dicadangkan
 
@@ -58,7 +56,10 @@ Papan Jadual menggunakan warna dan pembayangan untuk menunjukkan penempahan, ket
 
 Jika anak panah tunjuk sebelah kanan muncul di sebelah sumber boleh ditempah individu pada Papan Jadual, sumber itu dapat dikembangkan untuk menunjukkan butiran kerja yang digunakan oleh sumber tersebut.
 
-Oleh kerana Dynamics 365 Project Operations menggunakan enjin Universal Resource Scheduling, jika anda juga dipasang dengan Dynamics 365 Field Service, anda boleh melihat butiran tempahan sumber untuk projek, pesanan kerja dan sebarang entiti lain yang anda telah lanjutkan penjadualannya.
+Kerana Dynamics 365 Project Operations menggunakan enjin Universal Resource Scheduling, jika anda juga telah Dynamics 365 Field Service dipasang, anda boleh melihat butiran daripada penempahan sumber untuk projek, pesanan kerja dan sebarang entiti lain yang anda telah melanjutkan penjadualan.
 
 Untuk melihat lebih banyak butiran mengenai sumber individu, klik kanan padanya untuk membuka kad sumber.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

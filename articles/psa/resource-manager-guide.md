@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 543be23d95b1b821fcdca628612d03c343fd5b06
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4b9df18e7240450f01271b73eb6ea7e215be38c5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282839"
 ---
 # <a name="resource-manager-guide-project-service"></a>Panduan pengurus sumber (Project Service)
 
@@ -73,3 +73,6 @@ Keupayaan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto
  [Panduan Pengurus Akaun](../psa/account-manager-guide.md)   
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)   
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

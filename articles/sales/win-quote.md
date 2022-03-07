@@ -2,24 +2,22 @@
 title: Tutup sebut harga
 description: Topik ini menyediakan maklumat tentang penutupan sebut harga dalam Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124694"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993432"
 ---
 # <a name="close-a-quote"></a>Tutup sebut harga
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Sebut harga projek boleh ditutup sebagai Menang atau Hilang. Kerana fungsi Aktifkan dan Semak semula tidak disokong pada sebut harga dalam Microsoft Dynamics 365 Project Operations, anda boleh tutup sebut harga draf.
+Sebut harga projek boleh ditutup sebagai Menang atau Hilang. Oleh kerana fungsi Aktifkan dan Semak tidak disokong pada sebut harga dalam Microsoft Dynamics 365 Project Operations, anda boleh menutup sebut harga draf.
 
 ## <a name="close-a-quote-as-won"></a>Tutup sebut harga sebagai Menang
 
@@ -43,3 +41,6 @@ Jika projek sebut harga yang ditutup sebagai Hilang mempunyai projek yang diruju
 
 > [!NOTE]
 > Dalam Project Operations, menutup sebut harga sebagai Menang atau Hilang tidak akan memberi kesan bahawa status Peluang, yang akan kekal terbuka sehingga ia secara manual ditutup.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

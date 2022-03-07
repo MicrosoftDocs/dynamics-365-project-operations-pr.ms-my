@@ -1,8 +1,6 @@
 ---
 title: Peningkatan pertimbangan untuk struktur pecahan kerja
 description: Topik ini memberikan maklumat mengenai menaik taraf struktur pecahan kerja daripada Project Service Automation 2.x ke 3.x.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149554"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992352"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Peningkatan pertimbangan untuk struktur pecahan kerja
 
@@ -34,20 +32,20 @@ Topik ini memberikan maklumat mengenai menaik taraf struktur pecahan kerja darip
 ## <a name="key-entities"></a>Entiti utama
 Untuk struktur pecahan kerja yang tepat yang sudah dimuatkan dengan sumber, entiti berikut diperlukan:
 
-- [Projek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Pasukan Projek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Tugas Projek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Penugasan Sumber](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Kebergantungan Tugas Projek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Sumber Boleh Ditempah](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Pasukan Projek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Tugas Projek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Penugasan Sumber](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Kebergantungan Tugas Projek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Sumber Boleh Ditempah](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Untuk mentakrifkan struktur pecahan kerja sumber yang dimuatkan, anda mesti melengkapkan langkah berikut:
 
-1. Cipta projek baharu. Untuk maklumat lanjut mengenai cara untuk mencipta projek baharu, lihat [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Cipta satu atau lebih tugas. Untuk maklumat lanjut mengenai cara untuk mencipta tugasan baharu, lihat [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Takrifkan kebergantungan tugas. Untuk mendapatkan maklumat lanjut, lihat [Kebergantungan Tugas Projek](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Tugaskan ahli pasukan projek ke projek. Untuk mendapatkan maklumat lanjut, lihat [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Tugaskan ahli pasukan projek ke tugasan. Untuk mendapatkan maklumat lanjut, lihat [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Cipta projek baharu. Untuk maklumat lanjut mengenai cara untuk mencipta projek baharu, lihat [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Cipta satu atau lebih tugas. Untuk maklumat lanjut mengenai cara untuk mencipta tugasan baharu, lihat [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Takrifkan kebergantungan tugas. Untuk mendapatkan maklumat lanjut, lihat [Kebergantungan Tugas Projek](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Tugaskan ahli pasukan projek ke projek. Untuk mendapatkan maklumat lanjut, lihat [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Tugaskan ahli pasukan projek ke tugasan. Untuk mendapatkan maklumat lanjut, lihat [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Perhubungan pasukan projek
 
@@ -96,3 +94,6 @@ Untuk memastikan peningkatan yang berjaya, perhubungan berikut mesti diselenggar
 
 - Semua tugas projek kebergantungan mestilah berkaitan dengan projek yang sama.
 - Satu tugas tidak boleh mempunyai kebergantungan yang sama yang dirujuk lebih daripada sekali.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

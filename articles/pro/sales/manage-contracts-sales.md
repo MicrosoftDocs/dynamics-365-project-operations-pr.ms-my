@@ -2,18 +2,16 @@
 title: Urus kontrak projek
 description: Topik ini menyediakan maklumat tentang melihat kontrak berasaskan projek.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177342"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001847"
 ---
 # <a name="manage-project-contracts"></a>Urus kontrak projek
 
@@ -33,3 +31,6 @@ Senarai semua kontrak projek boleh dilihat pada halaman senarai **Kontrak**.
 2. Pilih **Lihat penukar** (anak panah bawah di sebelah nama pandangan) untuk memilih pandangan yang ditapis lain. Anda boleh mencipta pandangan anda sendiri dengan kriteria penapis tersuai.
 
 Kontrak boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

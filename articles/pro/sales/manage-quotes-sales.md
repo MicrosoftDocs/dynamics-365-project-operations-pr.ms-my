@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177837"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272939"
 ---
 # <a name="manage-project-quotes"></a>Urus sebut harga projek
 
@@ -33,3 +33,6 @@ Senarai semua sebut harga projek boleh dilihat daripada halaman senarai **Sebut 
 2. Gunakan **Penukar Pandangan** untuk memilih pandangan ditapis bagi sebut harga. Anda boleh mengkonfigurasi pandangan anda sendiri dan pilihan navigasi dengan menggunakan kriteria penapis tersuai.
 
 Sebut harga boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: Konsep utama pengurusan sumber
 description: Topik ini menyediakan maklumat tentang keupayaan pengurusan sumber dalam Operasi Projek Microsoft Dynamics.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123884"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994827"
 ---
 # <a name="resource-management-key-concepts"></a>Konsep utama pengurusan sumber
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. Keupayaan untuk mencari dan menempah sumber yang betul pada masa yang betul, tempah sumber tersebut pada projek dan pastikan mereka digunakan, membantu organisasi memenuhi sasaran pendapatan dan matlamat kepuasan pelanggan. Anda boleh menggunakan fungsi penyumberan semula projek dalam Operasi Projek Dynamics 365 untuk melakukan tugas berikut:
+Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. Keupayaan untuk mencari dan menempah sumber yang betul pada masa yang betul, tempah sumber tersebut pada projek dan pastikan mereka digunakan, membantu organisasi memenuhi sasaran pendapatan dan matlamat kepuasan pelanggan. Anda boleh menggunakan fungsi persumberan projek dalam Dynamics 365 Project Operations untuk melakukan tugas yang berikut:
 
 - Borang pasukan projek mengikut tempahan yang sedia ada dan berkelayakan.
 - Cipta rekod ahli pasukan generik dan takrifkan unit peranan dan organisasi sumber.
@@ -35,3 +33,6 @@ Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. K
 
 
 Anda boleh menguruskan projek anda dengan pasukan generik atau sumber yang dinamakan dalam Operasi Projek. Anda boleh menggunakan pelbagai kaedah untuk menambah dan menugaskan ahli pasukan dan untuk menguruskan penempahan dan tugasan mereka. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,10 @@
 title: Anggarkan jualan dan kos projek apabila sumber boleh ditempah mengisi berbilang peranan untuk projek
 description: Topik ini memberikan maklumat tentang cara dimensi penentuan harga boleh digunakan untuk menyokong penentuan harga dan kos untuk sumber yang mengisi berbilang peranan pada projek.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145054"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987492"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Anggarkan jualan dan kos projek apabila sumber boleh ditempah mengisi berbilang peranan untuk projek 
 
@@ -74,3 +72,6 @@ Apabila anda mengembangkan baris rekod Ahli Pasukan tersebut, anda boleh melihat
 Apabila anda menavigasi ke grid **Anggaran**, anda akan dapati bahawa kedua-dua tugasan untuk sumber yang sama berharga berbeza.
 Tugasan untuk sumber pada Tugas A adalah berharga menggunakan nilai atribut **Peranan** bagi **Berunding dengan Bakal Pelanggan**. Tugasan untuk sumber sama pada Tugas B adalah berharga menggunakan nilai atribut **Peranan** bagi **Juruteknik Rangkaian**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

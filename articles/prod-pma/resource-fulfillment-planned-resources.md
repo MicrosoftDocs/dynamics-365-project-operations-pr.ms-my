@@ -2,11 +2,9 @@
 title: Pemenuhan sumber untuk sumber yang dirancang
 description: Topik ini memberikan maklumat tentang sumber yang dirancang untuk projek.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1533ac5fd7316bff10738a87e35fab0f270f91c5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081399"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009852"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Pemenuhan sumber untuk sumber yang dirancang
 
@@ -40,3 +38,6 @@ Pengurus projek boleh merancang peranan sumber yang diperlukan untuk projek. Pen
 7. Pilih pekerja, dan kemudian pilih **Tugaskan**.
 8. Sahkan bahawa baris untuk **Pembangun perisian 1** telah dialih keluar untuk projek **Projek naik taraf XYZ Fasa 2**.
 9. Pada tab **Pasukan dan penjadualan projek**, untuk **Projek naik taraf XYZ Fasa 2**, sahkan bahawa pekerja yang anda pilih dalam langkah sebelumnya telah ditambah sebagai **Pembangun perisian**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

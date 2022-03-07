@@ -5,21 +5,19 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 58868694987688e279e717d1f7acaf3fd9514770
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081087"
 ---
 # <a name="collaboration-with-office-groups"></a>Kerjasama dengan Office Groups
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Office Groups membolehkan anda berkongsi projek dengan ahli pasukan lain dalam Common Data Service. Apabila anda menambahkan pengguna kepada kumpulan, pemilikan projek dipindahkan kepada kumpulan. Semua pengguna akan mempunyai keizinan edit pada projek. Pengguna juga boleh melihat projek jika kelayakan telah diberikan oleh pentadbir. Pengguna ini tidak akan dipaparkan dalam kumpulan.
 

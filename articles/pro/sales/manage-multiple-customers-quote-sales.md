@@ -2,18 +2,16 @@
 title: Urus berbilang pelanggan pada sebut harga projek - ringan
 description: Topik ini memberikan maklumat tentang bekerja pada sebut harga dengan berbilang pelanggan yang akan membiayai projek itu. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181634"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440788"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Urus berbilang pelanggan pada sebut harga projek - ringan
 
@@ -39,7 +37,7 @@ Pelanggan sebut harga boleh dicipta, dikemas kini atau dipadam daripada tab **Pe
 
 | **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
-| Akaun | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Senaraikan semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Jika anda mahu mengemaskinikannya, padam rekod dan ciptanya semula. Jika anda telah merekod sebarang aktual atau jika rekod pelanggan sebut harga adalah pelanggan utama, anda akan dibenarkan untuk memadam rekod itu. | Pelanggan sebut harga disalin sebagai pelanggan baris sebut harga apabila baris sebut harga dicipta. Pelanggan sebut harga juga disalin ke pelanggan kontrak projek apabila sebut harga dimenangi. |
+| Akaun | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Senaraikan semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Jika anda mahu mengemaskinikannya, padam rekod dan ciptanya semula. Jika anda telah merekodkan apa-apa aktual, atau jika rekod pelanggan sebut harga ialah pelanggan utama, anda tidak akan dibenarkan untuk memadamkan rekod tersebut. | Pelanggan sebut harga disalin sebagai pelanggan baris sebut harga apabila baris sebut harga dicipta. Pelanggan sebut harga juga disalin ke pelanggan kontrak projek apabila sebut harga dimenangi. |
 | Peratusan Pecahan Pengebilan | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Mewakili peratusan bagi setiap transaksi jualan tidak dibilkan yang akan diatribut ke pelanggan sebut harga ini. | Disalin ke baris sebut harga baharu dan kepada pelanggan kontrak projek. |
 | Bil kepada Nama Kenalan | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Ini ialah medan teks dan hendaklah digunakan bagi mengenal pasti orang hubungan Invois untuk pelanggan ini. Ini telah dilalaikan daripada rekod akaun yang berkaitan | Disalin ke pelanggan kontrak projek apabila Sebut Harga dimenangi dan seterusnya ke medan nama Bil kepada Kontrak yang dijana untuk pelanggan ini. |
 | Bil Kepada Nama | Grid boleh diedit pada tab **Pelanggan sebut harga** dan borang **Utama** dan **Cipta Cepat** untuk pelanggan sebut harga. | Medan teks ini hendaklah digunakan bagi mengenal pasti orang hubungan invois untuk pelanggan ini. | Disalin ke pelanggan kontrak projek apabila sebut harga dimenangi dan seterusnya ke medan **Nama Bil kepada Kontrak** yang dijana untuk pelanggan ini. |
@@ -52,3 +50,6 @@ Pelanggan sebut harga boleh dicipta, dikemas kini atau dipadam daripada tab **Pe
 Anda boleh edit peratusan pecahan pengebilan menggunakan pengalaman edit grid dalam baris. Apabila peratusan pecahan pengebilan tidak berjumlah 100%, ralat akan berlaku. Selepas anda mengemas kini peratusan pecahan pengebilan, segar semula halaman untuk mengalih keluar ralat.
 
 Anda juga boleh cuba memilih **Agihkan Secara Sekata** pada subgrid pelanggan sebut harga. Tindakan ini memperuntukkan pecahan pengebilan ke semua pelanggan sebut harga. Jika terdapat faktor pembundaran yang akan ditambah ke pelanggan pembundaran. Salah satu pelanggan sebut harga sentiasa ditag sebagai pelanggan pembundaran. Ini bermaksud bahawa rekod pelanggan sebut harga mempunyai bendera **Pembundaran** ditetapkan ke **Ya**. Kebiasaannya ini adalah pelanggan utama sebut harga tetapi yang boleh ditukar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

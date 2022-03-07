@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081209"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950185"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Ruang kerja entri masa Projek
 
@@ -48,7 +48,7 @@ Secara khusus, dalam ruang kerja mudah alih **entri masa Projek**, pengguna bole
 Prasyarat berbeza, berdasarkan versi Microsoft Dynamics 365 yang telah digunakan untuk organisasi anda.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prasyarat jika anda menggunakan Dynamics 365 Finance
-Jika kewangan telah digunakan untuk organisasi anda, pentadbir sistem mesti menerbitkan ruang kerja mudah alih **entri masa Projek**. Untuk arahan, lihat [Terbitkan ruang kerja mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Jika kewangan telah digunakan untuk organisasi anda, pentadbir sistem mesti menerbitkan ruang kerja mudah alih **entri masa Projek**. Untuk arahan, lihat [Terbitkan ruang kerja mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prasyarat jika anda menggunakan versi 1611 dengan kemas kini Platform 3 atau kemudian
 Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu digunakan untuk organisasi anda, pentadbir sistem mesti melengkapkan prasyarat berikut. 
@@ -68,17 +68,17 @@ Jika versi 1611 dengan kemas kini Platform 3 atau lebih baharu digunakan untuk o
 <td>Pentadbir sistem</td>
 <td>KB 4018050 ialah kemas kini X++ atau hotfix metadata yang mengandungi ruang kerja mudah alih <strong>entri masa Projek</strong>. Untuk melaksanakan KB 4018050, pentadbir sistem anda mesti mengikut langkah ini.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Muat turun hotfix metadata daripada Microsoft Dynamics Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Pasang hotfix metadata</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cipta pakej boleh dilaksanakan</a> yang mengandungi model <strong>ApplicationSuite</strong> dan <strong>ProjectMobile</strong>, dan kemudian muat naik pakej boleh dilaksanakan to LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Gunakan pakej boleh dilaksanakan</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Muat turun hotfix metadata daripada Microsoft Dynamics Lifecycle Services</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Pasang hotfix metadata</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Cipta pakej boleh dilaksanakan</a> yang mengandungi model <strong>ApplicationSuite</strong> dan <strong>ProjectMobile</strong>, dan kemudian muat naik pakej boleh dilaksanakan to LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Gunakan pakej boleh dilaksanakan</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Terbitkan ruang kerja mudah alih <strong>Entri masa projek</strong>.</td>
 <td>Pentadbir sistem</td>
-<td>Liht <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Terbitkan ruang kerja mudah alih</a>.</td>
+<td>Liht <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Terbitkan ruang kerja mudah alih</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,13 +103,16 @@ Muat turun dan pasang tambahan aplikasi mudah alih Finance and Operations:
 2.  Pilih **Entri masa**. Tarikh kalendar untuk minggu semasa ditunjukkan.
 3.  Untuk tarikh yang dipilih, pilih **Tindakan** &gt; **Entri baharu**.
 4.  Masukkan jumlah jam untuk merakam.
-5.  Pilih projek untuk entri masa. Senarai menunjukkan projek yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk mendapatkan maklumat lanjut, lihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Pilih projek untuk entri masa. Senarai menunjukkan projek yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk mendapatkan maklumat lanjut, lihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Jika projek anda tiada dalam senarai, pilih **Cari**. Cari mengikut nama atau bertukar kepada carian mengikut nama projek atau pelanggan.
-7.  Pilih kategori. Senarai menunjukkan kategori yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk mendapatkan maklumat lanjut, lihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Pilih kategori. Senarai menunjukkan kategori yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk mendapatkan maklumat lanjut, lihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Jika kategori anda tiada dalam senarai, pilih **Cari**. Cari mengikut kategori atau tukar ke carian mengikut nama kategori.
-9.  Pilih aktiviti. Senarai menunjukkan aktiviti yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk mendapatkan maklumat lanjut, lihat [Platform mudah alih](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Pilih aktiviti. Senarai menunjukkan aktiviti yang dimuatkan ke dalam aplikasi anda untuk kegunaan luar talian. Secara lalai, 50 item dimuat, tetapi pembangun boleh mengubah nombor ini. Untuk mendapatkan maklumat lanjut, lihat [Platform mudah alih](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Jika aktiviti anda tiada dalam senarai, pilih **Cari**. Cari mengikut nombor aktiviti atau bertukar kepada carian oleh tujuan.
 
 11. Pilih sifat garis.
 12. Pilihan: Secara pilihan masukkan sebarang komen luaran dan dalaman.
 13. Pilih **Selesai**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

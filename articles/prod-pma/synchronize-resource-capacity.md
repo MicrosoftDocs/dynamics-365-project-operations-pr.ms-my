@@ -2,11 +2,9 @@
 title: Segerakkan kapasiti sumber
 description: Topik ini memberikan maklumat mengenai cara menyegerakkan kapasiti sumber merentasi kalendar dan projek.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081206"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005627"
 ---
 # <a name="synchronize-resource-capacity"></a>Segerakkan kapasiti sumber
 
@@ -31,7 +29,7 @@ ms.locfileid: "4081206"
 
 Proses untuk penyegerakan sumber membantu menjamin yang maklumat untuk kalendar dan kalendar asas masuk ke dalam penjadualan sumber projek. Jika kalendar diubah, proses membuat kemas kini yang diperlukan untuk penjadualan sumber projek. Proses ini juga membantu menambah baik prestasi, kerana maklumat sumber kalendar disegerakkan lebih awal. Oleh itu, kemas kini kepada maklumat penjadualan sumber berlaku lebih cepat. Kami mengesyorkan anda menjadualkan proses sebagai kelompok dan bukannya satu demi satu. Jika tidak, ada risiko bahawa seseorang akan melupakan tarikh yang terangkum apabila maklumat terakhir disegerakkan. Jika tarikh yang terangkum tidak digunakan, jurang boleh berlaku semasa tarikh penyegerakan.
 
-![Penyegerakan kalendar](./media/projectresourcing04-1024x471.jpg)
+![Penyegerakan kalendar.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Segerakkan gulungan kapasiti sumber
 
@@ -48,4 +46,7 @@ Kami mengesyorkan agar anda menggunakan kelompok. Pilihan boleh tersedia semasa 
     | Tarikh mula  | Masukkan tarikh mula untuk proses penyegerakan untuk gulungan kapasiti sumber. |
     | Tarikh tamat    | Masukkan tarikh tamat untuk proses penyegerakan untuk gulungan kapasiti sumber. |
 
-[![Proses penyegerakan](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proses penyegerakan.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

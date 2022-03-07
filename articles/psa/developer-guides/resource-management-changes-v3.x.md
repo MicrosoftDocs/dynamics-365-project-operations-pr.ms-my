@@ -2,12 +2,10 @@
 title: Perubahan pengurusan sumber (Project Service Automation 3.x)
 description: Topik ini memberikan maklumat tentang perubahan pada kawasan pengurusan Sumber.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e888d55b93c40e08e51bd4480853fec37f2b6333
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148654"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007827"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Perubahan pengurusan sumber (Project Service Automation 3.x)
 
@@ -170,3 +168,6 @@ Medan berikut untuk dirancang, sebenar dan baki kos dan jualan tidak berubah pad
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

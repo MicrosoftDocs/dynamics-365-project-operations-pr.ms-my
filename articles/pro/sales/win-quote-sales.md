@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6214e1b5bec5c9173a6b6e69578de14654da633e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8d387816f51f63ecd95df6534c7c012b323e6ddc
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272292"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764875"
 ---
 # <a name="close-a-quote---lite"></a>Tutup sebut harga - ringkas
 
@@ -40,6 +40,3 @@ Jika sebut harga projek ditutup sebagai Kalah merujuk kepada projek pada salah s
 
 > [!NOTE]
 > Dalam Project Operations, menutup sebut harga sebagai Menang atau Hilang tidak akan memberi kesan bahawa status Peluang, yang akan kekal terbuka sehingga ia secara manual ditutup.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

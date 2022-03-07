@@ -2,8 +2,6 @@
 title: Jadual projek
 description: Topik ini memberikan maklumat tentang cara untuk mencipta jadual.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148429"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998427"
 ---
 # <a name="project-schedules"></a>Jadual projek 
 
@@ -96,7 +94,7 @@ Grid **Jadual** boleh diakses sepenuhnya dan boleh digunakan dengan pembaca skri
 
 Nama tugas menerangkan kerja yang mesti dilengkapkan. Dalam PSA, atribut yang berkaitan dengan tugas menerangkan jadual tugas dan keperluan kakitangannya.
 
-> ![Atribut tugas](media/project-2.png)
+> ![Atribut tugas.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Atribut jadual
 
@@ -149,3 +147,6 @@ Secara lalai, jika tugas nod daun tidak mempunyai pendahulu, tarikh mulanya dite
 ### <a name="manual-scheduling"></a>Penjadualan manual
 
 Jika peraturan penjadualan automatik tidak memenuhi keperluan anda, anda boleh menetapkan mod tugas untuk tugas itu kepada **Dijadualkan Secara Manual**. Tetapan ini menghentikan enjin penjadualan daripada mengira nilai atribut penjadualan yang lain. Tanpa mengira mod tugas, jika anda menetapkan pendahulu pada tugas, anda sentiasa mempengaruhi tarikh mula tugas bersandar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

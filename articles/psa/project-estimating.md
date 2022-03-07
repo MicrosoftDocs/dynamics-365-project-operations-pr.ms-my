@@ -2,8 +2,6 @@
 title: Kos dan hasil projek
 description: Topik ini memberikan maklumat tentang menganggarkan kos dan hasil projek.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148339"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002567"
 ---
 # <a name="project-costs-and-revenue"></a>Kos dan hasil projek
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148339"
 
 Anggaran projek memberikan pandangan kewangan untuk kerja yang dianggarkan dan dijadualkan dalam jadual projek. Tab **Anggaran** pada halaman **Projek** menunjukkan kesan kos dan hasil bagi kerja yang anda rancang. Ia juga menyediakan maklumat tentang banyak dimensi pratakrif. 
 
-> ![Tab anggaran](media/project-5.png)
+> ![Tab Anggaran.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Nilai kos dan jualan projek
 
@@ -68,13 +66,13 @@ Jika sistem tidak menemui harga untuk peranan, harga jualan pada baris anggaran 
 
 Tab **Anggaran** mempunyai pandangan grid yang menunjukkan baris anggaran. Grid termasuk lajur untuk unit, jumlah harga kos dan jumlah harga jualan seperti yang ditunjukkan dalam ilustrasi berikut. 
 
-> ![Pandangan grid pada tab Anggaran](media/project-6.png)
+> ![Pandangan grid pada tab Anggaran.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Pandangan anggaran projek berfasa masa
 
 Pandangan berfasa masa bagi anggaran projek menunjukkan data anggaran daripada paparan grid merentasi garis masa, dalam skala masa yang anda pilih. Secara lalai, data anggaran dipangsikan pada dimensi **Peranan**.
 
-> ![Pandangan berfasa masa untuk anggaran projek](media/project-7.png)
+> ![Pandangan berfasa masa untuk anggaran projek.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Peruntukkan usaha anggaran berdasarkan pada mod tugas
 
@@ -97,3 +95,6 @@ Dalam pandangan grid dan pandangan berfasa masa, anda boleh memilih medan yang d
 ## <a name="expense-estimates"></a>Anggaran perbelanjaan
 
 Butang **Tambah Anggaran Perbelanjaan Baharu** dalam paparan grid membolehkan anda merekodkan sebarang perbelanjaan yang ditanggung dalam projek itu, tetapi itu tidak berkaitan secara langsung dengan buruh. Anda boleh merekodkan anggaran perbelanjaan untuk tugas tertentu atau untuk keseluruhan projek. Pilih kategori perbelanjaan dan tarikh tentatif apabila anda menjangka untuk menanggung perbelanjaan tersebut. Jika senarai harga kos dan senarai harga jualan yang berkaitan mempunyai harga lalai (atau jika peratusan tokokan ditakrifkan untuk kategori perbelanjaan), ia akan dimasukkan secara automatik pada baris anggaran apabila perkaitan berlaku.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,29 +1,25 @@
 ---
-title: Konfigurasi penciptaan invois automatik - ringan
-description: Topik ini menyediakan maklumat tentang mengkonfigurasi penciptaan automatik invois proforma.
+title: Sediakan penciptaan invois automatik
+description: Topik ini memberikan maklumat tentang menyediakan dan mengkonfigurasikan penciptaan automatik invois proforma.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997527"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurasi penciptaan invois automatik - ringan
+# <a name="set-up-automatic-invoice-creation"></a>Sediakan penciptaan invois automatik 
  
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Pelaksanaan ringan - urusan untuk penginvoisan proforma, Project Operations untuk senario berdasarkan sumber/bukan stok_
 
-Anda boleh mengkonfigurasikan penciptaan invois automatik dalam Dynamics 365 Project Operations. Sistem mencipta invois draf proforma berdasarkan jadual invois untuk setiap kontrak projek dan baris kontrak. Jadual invois dikonfigurasikan pada peringkat baris kontrak. Setiap baris pada kontrak boleh mempunyai jadual invois yang berbeza, atau jadual invois yang sama boleh dimasukkan pada setiap baris kontrak.
+Anda boleh mengkonfigurasikan penciptaan invois dalam Dynamics 365 Project Operations. Sistem mencipta invois draf proforma berdasarkan jadual invois untuk setiap kontrak projek dan baris kontrak. Jadual invois dikonfigurasikan pada peringkat baris kontrak. Setiap baris pada kontrak boleh mempunyai jadual invois yang berbeza, atau jadual invois yang sama boleh dimasukkan pada setiap baris kontrak.
 
-Apabila anda mencipta invois, sistem sentiasa mencipta sekurang-kurangnya satu invois bagi setiap kontrak projek. Dalam sesetengah kes, mungkin terdapat berbilang invois yang dicipta.
-
-Contohnya, jika kontrak mempunyai berbilang pelanggan, bilangan invois yang sama akan dicipta sebagai bilangan pelanggan yang mempunyai transaksi boleh dibilkan ke invois pada kontrak projek tersebut.
+Apabila anda mencipta invois, sistem sentiasa mencipta sekurang-kurangnya satu invois bagi setiap kontrak projek. Dalam sesetengah kes, mungkin terdapat berbilang invois yang dicipta. Contohnya, jika kontrak mempunyai berbilang pelanggan, bilangan invois yang sama akan dicipta sebagai bilangan pelanggan yang mempunyai transaksi boleh dibilkan ke invois pada kontrak projek tersebut.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Memahami cara transaksi dimasukkan pada invois 
 
@@ -91,3 +87,6 @@ Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses k
 
 > [!NOTE]
 > Penginvoisan kelompok dalam Project Operations hanya berjalan untuk baris kontrak projek yang dikonfigurasikan oleh jadual invois. Baris kontrak dengan kaedah pengebilan harga tetap mesti mempunyai pencapaian yang dikonfigurasikan. Baris kontrak projek dengan kaedah pengebilan masa dan bahan akan memerlukan persediaan jadual invois berdasarkan tarikh.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

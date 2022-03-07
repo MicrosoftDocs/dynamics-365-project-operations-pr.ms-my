@@ -2,18 +2,16 @@
 title: Gambaran keseluruhan penginvoisan antara syarikat
 description: Topik ini memberikan maklumat dan contoh tentang penginvoisan antara syarikat untuk projek.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595519"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002652"
 ---
 # <a name="intercompany-invoicing-overview"></a>Gambaran keseluruhan penginvoisan antara syarikat
 
@@ -21,7 +19,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Organisasi anda mungkin mempunyai berbilang divisyen, subsidiari dan entiti undang-undang lain yang memindahkan produk dan perkhidmatan kepada satu sama lain untuk projek. Entiti undang-undang yang menyediakan perkhidmatan atau produk tersebut dipanggil *entiti undang-undang yang memberi pinjaman*. Entiti undang-undang yang menerima perkhidmatan atau produk tersebut dipanggil *entiti undang-undang yang menerima pinjaman*.
 
-Ilustrasi berikut menunjukkan senario biasa di mana dua entiti undang-undang, Contoso Robotics USA (entiti undang-undang yang menerima pinjaman) dan contoso Robotics UK (entiti undang-undang yang memberi pinjaman) berkongsi sumber untuk menyampaikan projek kepada pelanggan, kerja Adventure. Untuk senario ini, Contoso Robotics USA dikontrakkan untuk menyampaikan kerja kepada Adventure Works.
+Ilustrasi berikut menunjukkan senario biasa di mana dua entiti sah, Contoso Robotics USA (entiti sah pinjaman) dan Contoso Robotics UK (entiti sah pinjaman) berkongsi sumber untuk menyampaikan projek untuk pelanggan, Adventure works. Untuk senario ini, Contoso Robotics USA dikontrakkan untuk menyampaikan kerja kepada Adventure Works.
 
 ![Penginvoisan antara syarikat](./media/IntercompanyScenario.png) 
 
@@ -43,3 +41,6 @@ Gambar rajah berikut menunjukkan penginvoisan antara syarikat kerana ia berkaita
 - [Konfigurasikan penginvoisan antara syarikat](configure-intercompany-invoicing.md)
 - [Rekodkan transaksi antara syarikat](create-intercompany-transactions.md)
 - [Cipta invois pelanggan dan vendor antara syarikat](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

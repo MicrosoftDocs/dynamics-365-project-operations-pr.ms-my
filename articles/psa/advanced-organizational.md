@@ -2,8 +2,6 @@
 title: Unit organisasi
 description: Topik ini menyediakan maklumat mengenai unit organisasi dalam Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145640"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009627"
 ---
 # <a name="organizational-units"></a>Unit organisasi 
 
@@ -124,7 +122,7 @@ Tidak. Dalam keluaran semasa PSA, unit organisasi tidak berhierarki. Ini bermaks
 Apabila anda mempunyai hierarki ruimit bagi pusat kos, bahagian, pejabat pengebilan, dan lain-lain, menetapkan nod daun bagi hierarki itu sebagai unit organisasi berbeza.
 Contoh berikut menunjukkan hierarki biasa:
 
-**Contoso India**
+**ContosoIndia**
 
   - Amalan SAP 
 
@@ -167,3 +165,6 @@ Jika syarikat anda beroperasi sebagai satu unit yang mempunyai satu senarai harg
 Apabila projek dicipta sendiri, unit kontrak lalai projek ini adalah berdasarkan pengguna yang menciptanya. Pengguna itu juga ialah pengurus projek lalai. Jika projek dipetakan kepada entiti jualan seperti sebut harga atau kontrak projek, unit kontrak pada projek adalah berdasarkan kepada entiti jualan. Dalam hal ini, anggaran projek mungkin akan dikira semula kerana senarai harga kos digunakan untuk mengira perubahan anggaran kos jika unit kontrak ditukar. Senarai harga jualan digunakan untuk mengira anggaran jualan yang akan ditukar supaya ia disegerakkan dengan senarai harga projek pada sebut harga.
 
 Medan **Unit Kontrak** dan **Mata Wang** pada projek dikunci untuk edit kerana ia mesti segerak dengan nilai pada entiti jualan (sebut harga atau kontrak projek) yang projek tersebut dipetakan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

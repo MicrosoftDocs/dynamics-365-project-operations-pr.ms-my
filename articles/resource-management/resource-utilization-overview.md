@@ -2,18 +2,16 @@
 title: Gambaran keseluruhan penggunaan sumber
 description: Topik ini memberikan maklumat tentang penggunaan sumber dalam Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401387"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000807"
 ---
 # <a name="resource-utilization-overview"></a>Gambaran keseluruhan penggunaan sumber
 
@@ -45,3 +43,6 @@ Selain itu, peranan lalai mesti ditugaskan kepada setiap sumber boleh ditempah. 
 Pada tab **Project Service**, anda juga boleh menetapkan penggunaan sasaran individu untuk sumber. Pengiraan penggunaan ini kemudian menggunakan penggunaan sasaran yang akan menilai sasaran sumber bukan sasaran peranan lalai sumber.
 
 Penggunaan ditunjukkan untuk sumber sahaja jika sumber tersebut telah diluluskan dan masa boleh dituntut dalam tempoh yang ditunjukkan dalam grid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

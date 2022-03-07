@@ -2,18 +2,16 @@
 title: Tambah langganan Azure untuk projek LCS
 description: Topik ini memberikan maklumat mengenai cara untuk menyambungkan langganan Azure anda ke projek LCS.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
-ms.translationtype: HT
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880549"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986682"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Tambah langganan Azure untuk projek LCS
 
@@ -25,35 +23,35 @@ Persekitaran berhos awan mesti dilaksanakan dengan menggunakan langganan Azure y
 
 1. Dalam projek LCS anda, dalam bahagian **persekitaran**, pilih tetapan **Microsoft Azure**.
 
-![Tetapan Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Tetapan Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Pada halaman **tetapan projek**, pada tab **penyambung Azure**, pilih **Benarkan**. Ini membolehkan persekitaran digunakan untuk projek ini.
 
-![Penyambung Azure](./media/2AzureConnectors.png)
+![Penyambung Azure.](./media/2AzureConnectors.png)
 
 3. Pilih semula **Benarkan** untuk memberikan kebenaran pentadbir.
 
-![Berikan Persetujuan Pentadbir](./media/3GrantAdminConsent.png)
+![Berikan Persetujuan Pentadbir.](./media/3GrantAdminConsent.png)
 
 4. Menerima permintaan keizinan.
 
-![Menerima Permintaan Keizinan](./media/4AcceptPermissionRequest.png)
+![Terima Permintaan Kebenaran.](./media/4AcceptPermissionRequest.png)
 
 Pengesahan kini selesai. 
 
-![Pengesahan Berjaya](./media/5AuthorizationComplete.png)
+![Pengesahan Berjaya.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Berikan akses Perkhidmatan Pelaksanaan Dynamics kepada langganan Azure anda
 
 1. Pergi ke pengebilan [Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) dan pilih langganan anda. Perkhidmatan Pelaksanaan Dynamics perlu mengakses langganan ini untuk dapat menggunakan persekitaran.
 
-![Butiran Langganan Azure](./media/6AzureSubscription.png)
+![Butiran Langganan Azure.](./media/6AzureSubscription.png)
 
 2. Pilih **kawalan capaian (IAM)** dalam anak tetingkap navigasi dan kemudian pilih **Tambah tugasan peranan**.
 3. Dalam gelangsar di sebelah kanan, pilih **Peranan penyumbang** dan dalam senarai yang disediakan, cari dan pilih **Perkhidmatan Pelaksanaan Dynamics**. 
 4. Pilih **Simpan**.
 
-![Akses Langganan](./media/7SubscriptionAccess.png)
+![Akses Langganan.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Tambah penyambung langganan ke projek LCS
 

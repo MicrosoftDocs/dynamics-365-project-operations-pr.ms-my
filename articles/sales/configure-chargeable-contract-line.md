@@ -1,21 +1,21 @@
 ---
-title: Konfigurasikan komponen boleh dicaj bagi baris kontrak projek
+title: Konfigurasikan komponen boleh dituntut bagi baris kontrak berasaskan projek
 description: Topik ini menyediakan maklumat tentang komponen termasuk, boleh dituntut dan tidak boleh dituntut pada baris kontrak.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858349"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081165"
 ---
-# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Konfigurasikan komponen boleh dicaj bagi baris kontrak projek
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurasikan komponen boleh dituntut bagi baris kontrak berasaskan projek
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
@@ -35,13 +35,13 @@ Boleh dituntut ditakrifkan pada kategori transaksi untuk baris kontrak projek ha
 
 Peranan boleh dituntut atau tidak boleh dituntut berdasarkan baris kontrak berasaskan projek khusus.
 
-Pada tab **Peranan Boleh Dituntut** baris kontrak berdasarkan projek, pada subgrid **Kategori Boleh Dituntut** dalam medan **Jenis Pengebilan**, kemas kini jenis pengebilan untuk peranan.
+Pada tab **Peranan boleh dituntut** pada baris kontrak berasaskan projek, pada sub-grid **Kategori Boleh Dituntut** dalam medan **Jenis Pengebilan**, kemas kini jenis pengebilan untuk peranan.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Kemas kini kategori transaksi menjadi boleh dituntut atau tidak boleh dituntut
 
 Kategori transaksi boleh jadi boleh dituntut atau tidak boleh dituntut berdasarkan baris kontrak berasaskan projek khusus.
 
-Pada tab **Kategori Boleh Dituntut** baris kontrak berdasarkan projek, pada subgrid **Kategori Boleh Dituntut** dalam medan **Jenis Pengebilan**, kemas kini jenis pengebilan untuk transaksi.
+Pada tab **Kategori Boleh Dituntut** pada baris kontrak berasaskan projek, pada sub-grid **Kategori Boleh Dituntut** dalam medan **Jenis Pengebilan**, kemas kini jenis pengebilan untuk transaksi.
 
 ### <a name="resolve-chargeability"></a>Menyelesaikan kebolehtuntutan
 
@@ -58,6 +58,3 @@ Anggaran atau aktual yang dicipta untuk perbelajaan hanya akan dianggap boleh di
 | Tidak | Ya | Tidak boleh ditetapkan | Tidak Boleh Dituntut | Pengebilan pada masa sebenar: Tidak tersedia </br>Jenis pengebilan pada perbelanjaan sebenar: Tidak Boleh Dituntut |
 | Ya | Tidak | Boleh dituntut | Tidak boleh ditetapkan | Pengebilan pada masa sebenar: Boleh dituntut </br>Jenis pengebilan pada perbelanjaan sebenar: Tidak tersedia |
 | Ya | Tidak | Tidak Boleh Dituntut | Tidak boleh ditetapkan | Pengebilan pada masa sebenar: Tidak Boleh Dituntut </br> Jenis pengebilan pada perbelanjaan sebenar: Tidak tersedia |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

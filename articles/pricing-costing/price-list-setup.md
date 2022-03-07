@@ -2,18 +2,16 @@
 title: Sediakan senarai harga
 description: Topik ini memberikan maklumat tentang cara untuk sediakan senarai harga jualan dan kos.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 118c2bd6b59b509e5628ac00fc1607809458853b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180203"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005037"
 ---
 # <a name="set-up-price-lists"></a>Sediakan senarai harga
 
@@ -31,7 +29,7 @@ Sambungan berikut adalah khusus untuk Project Operations dan digunakan pada sena
 
 Jadual berikut termasuk medan pada tab senarai harga **Umum** yang unik pada Project Operations atau mempunyai perubahan ketara dalam tingkah laku daripada senarai harga dalam Jualan.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Nama | Tab **Umum** dan borang **Cipta Pantas** | Identiti senarai harga. | Senarai harga ditunjukkan dengan nilai ini pada semua halaman senarai dan pilihan juntai bawah.|
 | Konteks | Tab **Umum** dan borang **Cipta Pantas** | Medan ini boleh ditetapkan kepada **Kos** atau **Jualan**. | Senarai harga ditetapkan kepada **Kos** adalah digunakan untuk mencari harga untuk anggaran kos dan kos sebenar. Senarai harga ditetapkan kepada **Jualan** adalah digunakan untuk mencari harga untuk anggaran jualan dan jualan sebenar. Hanya senarai harga yang mempunyai konteks ditetapkan kepada **Jualan** boleh dilampirkan ke senarai harga projek untuk pelanggan, sebut harga projek, dan kontrak projek. |
@@ -39,4 +37,7 @@ Jadual berikut termasuk medan pada tab senarai harga **Umum** yang unik pada Pro
 | Tarikh Tamat | Tab **Umum** dan borang **Cipta Pantas** | Tarikh akhir tempoh senarai harga berkuat kuasa. | Dengan medan **Tarikh Mula**, medan ini digunakan untuk menentukan senarai harga yang berkenaan digunakan untuk anggaran tertentu atau baris sebenar. |
 | Mata wang | Tab **Umum** dan borang **Cipta Pantas** | Medan ini digunakan untuk melalaikan mata wang pada setiap peranan, kategori, atau baris item senarai harga yang berkaitan dengan senarai harga ini. | Pada senarai harga, peranan, kategori, atau baris item senarai harga **Jualan** tidak boleh dicipta dalam sebarang mata wang selain daripada mata wang ini. Pada senarai harga **Kos**, anda boleh mencipta baris harga peranan dalam sebarang mata wang. Mata wang yang ditakrifkan di sini digunakan sebagai lalai. Persediaan pengguna yang berkaitan dengan harga peranan boleh ganti nilai ini untuk mendayakan persediaan kadar kos buruh dalam sebarang mata wang. Kategori kadar kos dan kos item senarai harga boleh ditetapkan hanya dalam mata wang yang ditakrifkan di sini. |
 | Unit Masa | Tab **Umum** dan borang **Cipta Pantas** | Medan ini digunakan untuk melalaikan unit masa pada setiap baris peranan yang berkaitan dengan senarai harga ini. | Nilai medan ini hanya digunakan pada persediaan harga peranan yang berkaitan. Pada senarai harga **Kos** dan **Jualan**, anda boleh mencipta baris harga peranan dalam sebarang unit masa. Unit masa yang ditakrifkan di sini digunakan sebagai lalai. Persediaan pengguna yang berkaitan dengan harga peranan boleh ganti nilai ini untuk mendayakan persediaan kadar kos buruh dan kadar bil dalam sebarang unit masa. |
-| Penerangan  | Tab **Umum** dan borang **Cipta Pantas** | Medan teks ini membenarkan anda untuk memberikan perihalan berbilang baris senarai harga. | Medan ini ditunjukkan dalam pandangan **Berkaitan** pada senarai harga dalam pelbagai entiti yang mempunyai senarai harga berkaitan.. |
+| Penerangan | Tab **Umum** dan borang **Cipta Pantas** | Medan teks ini membenarkan anda untuk memberikan perihalan berbilang baris senarai harga. | Medan ini ditunjukkan dalam pandangan **Berkaitan** pada senarai harga dalam pelbagai entiti yang mempunyai senarai harga berkaitan.. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

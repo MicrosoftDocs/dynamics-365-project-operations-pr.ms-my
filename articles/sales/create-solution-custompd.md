@@ -2,18 +2,16 @@
 title: Cipta penyelesaian untuk dimensi penentuan harga tersuai
 description: Topik ini memberikan maklumat tentang cara mencipta penyelesaian untuk dimensi penentuan harga tersuai.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992217"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Cipta penyelesaian untuk dimensi penentuan harga tersuai
 
@@ -28,7 +26,7 @@ ms.locfileid: "4514007"
 2.  Namakan penyelesaian, *Dimensi penentuan harga <your organization name>*.
 3. Masukkan baki maklumat diperlukan dan kemudian pilih **Simpan**.
 
-  ![Penciptaan penyelesaian dimensi penentuan harga tersuai](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Penciptaan penyelesaian dimensi penentuan harga tersuai.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Tambah semua entiti yang diperlukan dan dokumen berkaitan pada penyelesaian dimensi Penetapan Harga
 
@@ -51,16 +49,19 @@ Tambah entiti Project Service yang berikut kepada penyelesaian penentuan harga a
    - **Harga Peranan**
    - **Entri Masa**
  
-   ![Tambah entiti sedia ada untuk penyelesaian dimensi penentuan harga tersuai](./media/Existing-entities-to-PD-solution.png)
+   ![Tambahkan penyelesaian dimensi penentuan harga tersuai entiti sedia ada.](./media/Existing-entities-to-PD-solution.png)
  
  4. Bagi setiap entiti, semak komponen yang ditambah dan senarai akhir aset entiti untuk setiap entiti. 
 
    >[!NOTE]
    > Sertakan semua borang dan pandangan bagi setiap entiti yang dipilih.
 
-  ![Entiti ditambah](./media/solution-component-selection.png)
+  ![Entiti ditambahkan.](./media/solution-component-selection.png)
 
 
 5.  Apabila digesa untuk menyertakan sebarang entiti sandaran untuk entiti yang dipilih, pilih **Tidak, jangan sertakan komponen diperlukan.**
 
-    ![Termasuk entiti sandaran](./media/Do-not-include-required.png)
+    ![Termasuk entiti sandaran.](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

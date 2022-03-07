@@ -2,12 +2,10 @@
 title: Tambah medan tersuai untuk persediaan harga dan entiti transaksi
 description: Topik ini memberikan maklumat tentang menambah medan tersuai untuk persediaan harga dan entiti transaksi.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148474"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985782"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Tambah medan tersuai untuk persediaan harga dan entiti transaksi 
 
@@ -49,7 +47,7 @@ Apabila dimensi penentuan harga tersuai adalah berasaskan set pilihan, tambah ia
 > [!IMPORTANT]
 > Apabila anda menambah medan kepada lebih daripada satu entiti, guna nama medan sama dalam semua entiti. 
 
-> ![Menambah Lokasi Kerja Sumber pada Harga Peranan](media/RWL-Field.png)
+> ![Menambah Lokasi Kerja Sumber pada Harga Peranan.](media/RWL-Field.png)
 
 Dalam jualan dan fasa anggaran untuk projek, anggaran untuk usaha kerja yang diperlukan untuk melengkapkan kerja **Tempatan** dan **Di Tapak**, dalam **Jam biasa** dan **Jam lebih masa**  digunakan untuk menganggarkan nilai Sebut Harga/Projek Medan **Lokasi Kerja Sumber** dan **Waktu Kerja Sumber** akan ditambah pada entiti anggaran, **Butiran Baris Sebut Harga**, **Butiran Baris Kontrak**, **Tugas Projek**, **Ahli Pasukan Projek**, dan **Baris Anggaran**.
 
@@ -61,7 +59,7 @@ Dalam jualan dan fasa anggaran untuk projek, anggaran untuk usaha kerja yang dip
 6. Ulangi langkah 1 - 5 untuk menambah medan ini pada entiti **Butiran Baris Kontrak Projek**,**Tugas Projek**, **Ahli Pasukan Projek**, dan **Baris Anggaran**.
 7. Ulangi langkah 1 - 6 untuk set pilihan **Waktu Bekerja Sumber**. 
 
-> ![Menambah Lokasi Kerja Sumber pada Baris Anggaran](media/RWL-Default-Value.png)
+> ![Menambah Lokasi Kerja Sumber pada Baris Anggaran.](media/RWL-Default-Value.png)
 
 
 Untuk penghantaran dan pengivoisan, kerja yang telah selesai perlukan diberikan harga dengan tepat untuk memilih sama ada ia dijalankan secara **Tempatan** atau **Di Tapak**, dan sama ada ia dilengkapkan semasa **Jam biasa** atau **lebih masa** dalam Aktual Projek. Medan **Lokasi Kerja Sumber** dan **Jam Kerja Sumber** hendaklah ditambah pada entiti **Entri Masa**, **Aktual**, **Butiran Baris Invois**, dan **Baris Jurnal**.
@@ -74,7 +72,7 @@ Untuk penghantaran dan pengivoisan, kerja yang telah selesai perlukan diberikan 
 6. Ulangi langkah 1 - 5 untuk menambah medan pada entiti **Aktual**, **Butiran Baris Invois**, dan **Baris Jurnal**.
 7. Ulangi langkah 1 - 6 untuk set pilihan **Waktu Bekerja Sumber**. 
 
-> ![Menambah Lokasi Kerja Sumber pada Entri Masa](media/RWL-time-entry.png)
+> ![Menambah Lokasi Kerja Sumber pada Entri Masa.](media/RWL-time-entry.png)
 
 Ini melengkapkan perubahan skema yang diperlukan untuk dimensi tersuai berasaskan pilihan.
 
@@ -87,7 +85,7 @@ Apabila dimensi penentuan harga tersuai adalah entiti, anda akan menambah Hubung
 3. Kembangkan entiti **Jawatan Standard** dan pilih **Hubungan 1:N**.
 4. Klik **Baharu** untuk mencipta hubungan 1:N baharu yang dipanggil **Jawatan Standard untuk Sumber Boleh Ditempah**. Masukkan maklumat diperlukan, kemudian klik **Simpan**.
 
-> ![Menambah Jawatan Standard sebagai medan rujukan untuk Sumber Boleh Ditempah](media/ST-BR.png)
+> ![Menambah Jawatan Standard sebagai medan rujukan kepada Sumber Boleh Ditempah.](media/ST-BR.png)
 
 Jawatan Standard juga perlu ditambah pada entiti Penentuan Harga Project Service, **Harga Peranan** dan **Tokokan Harga Peranan**. Ini juga dilengkapkan menggunakan hubungan 1:N antaran entiti **Jawatan Standard** dan **Harga Peranan** dan entiti **Jawatan Standard** dan **Tokokan Harga Peranan**.
 
@@ -106,13 +104,13 @@ Dalam jualan dan fasa anggaran untuk projek, untuk memberikan harga bagi Sebut H
 
 5. Ulangi langkah 1 - 5 untuk mencipta hubungan 1:N daripada **Tajuk Standard** kepada **Butiran Baris Sebut Harga**, **Butiran Baris Kontrak Projek**, **Tugas Projek**, **Ahli Pasukan Projek**, dan **Baris Anggaran**.
 
-> ![Menambah Jawatan Standard sebagai medan rujukan untuk Baris Anggaran](media/ST-Estimate-Line.png)
+> ![Menambah Jawatan Standard sebagai medan rujukan kepada Baris Anggaran.](media/ST-Estimate-Line.png)
 
 Dalam fasa Penghantaran dan Penginvoisan, kerja yang selesai oleh setiap jawatan standard mestilah diberikan harga dengan tepat dalam Aktual Projek. Ini bermakna perlulah ada hubungan 1:N dari **Jawatan Standard** kepada **Entri Masa**, **Aktual**, **Butiran Baris Invois**, dan **Entiti Baris Jurnal**.
 
 6. Ulangi langkah 1- 6 untuk mencipta hubungan 1:N dari **Jawatan Standard** kepada **Entri Masa**, **Aktual**, **Butiran Baris Invois**, dan **Entiti Baris Jurnal**.
 
-> ![Menambah Jawatan Standard sebagai medan rujukan untuk Entri Masa](media/ST-Mapping.png)
+> ![Menambah Jawatan Standard sebagai medan rujukan kepada Entri Masa.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Sediakan lalai nilai dimensi menggunakan ciri pemetaan platform.
 Untuk Entri Masa, ia tentu membantu mempunyai lalai sistem jawatan standard dalam Entri Masa dari Sumber Boleh Ditempah yang merekod entri masa. Gunakan langkah berikut untuk menambah pemetaan medan dalam hubungan 1:N dari **Sumber Boleh Ditempah** kepada **Entri Masa**.
@@ -122,7 +120,7 @@ Untuk Entri Masa, ia tentu membantu mempunyai lalai sistem jawatan standard dala
 3. Klik dua kali **Sumber Boleh Tempah untuk Entri Masa**. Dalam halaman **Hubungan**, klik **Guna pemetaan Medan**. 
 4. Klik **Baharu** untuk mencipta pemetaan medan baharu antara medan **Jawatan Standard** dalam entiti **Sumber Boleh Ditempah** kepada medan rujukan **Jawatan Standard** dalam entiti **Entri Masa**. 
 
-> ![Menyediakan pemetaan medan untuk membolehkan lalai Jawatan Standard daripada Sumber Boleh Ditempah kepada Entri Masa](media/ST-Mapping2.png)
+> ![Menyediakan pemetaan medan untuk membolehkan penetapan lalai Jawatan Standard daripada Sumber Boleh Ditempah kepada Entri Masa.](media/ST-Mapping2.png)
 
 
 Ini melengkapkan perubahan skema yang diperlukan untuk dimensi tersuai berasaskan entiti.
@@ -150,3 +148,6 @@ Jadual berikut memberikan senarai penyeluruh borang dan pandangan luar kotak, me
 |  Sebenar|• Maklumat<br>• Aktif Sebenar|• Pandangan Berkaitan Aktual|
 
 Medan tersuai juga perlu ditambah dalam peraturan perniagaan bergantung pada apa yang anda telah takrifkan. Satu contoh luar kotak ialah untuk peraturan perniagaan **Keboleheditan Entri Masa berasaskan status**. Peraturan ini mentakrifkan jenis medan yang perlu dikunci apabila Entri Masa berada dalam status tidak boleh diedit seperti **Diluluskan**. Tambah medan pada peraturan perniagaan ini agar medan dikunci untuk pengeditan apabila Entri Masa berada dalam status selain daripada **Draf** atau **Dikembalikan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

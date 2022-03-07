@@ -2,18 +2,16 @@
 title: Urus berbilang pelanggan pada baris kontrak berasaskan projek
 description: Topik ini memberikan maklumat tentang bekerja dengan baris kontrak dan kontrak yang mengandungi berbilang pelanggan.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181913"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992127"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Urus berbilang pelanggan pada baris kontrak berasaskan projek
 
@@ -31,7 +29,7 @@ Anda boleh mencipta, mengemas kini atau memadamkan pelanggan baris kontrak darip
 
 Berikut ialah medan pada rekod pelanggan baris Kontrak bagi baris Kontrak berasaskan projek yang perlu diingat ketika anda bekerja dengan baris tersebut:
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Akaun | Grid boleh diedit pada tab **Pelanggan Baris Kontrak** dan borang Utama dan Cipta Cepat untuk pelanggan baris kontrak | Semua akaun aktif. Medan ini dikunci selepas rekod dicipta. Untuk mengemas kini medan, padamkan rekod dan cipta rekod baharu. Jika anda telah merekodkan sebarang aktual, anda tidak boleh memadamkan rekod tersebut. Walau bagaimanapun, anda boleh menandakan peratusan pecahan bil sebagai sifar untuk akaun tersebut. Apabila rekod ditandakan sebagai sifar, mana-mana kos masa depan dan aktual hasil yang diatribut atau dipecahkan kepada pelanggan ini akan terjejas. | Apabila anda memilih akaun daripada senarai induk akaun untuk menambah dan menyimpan akaun tersebut, pelanggan baris kontrak juga ditambah sebagai pelanggan kontrak. Pelanggan baris kontrak digunakan apabila invois dijana. |
 | Peratusan Pecahan Pengebilan | Grid boleh diedit pada tab **Pelanggan Baris Kontrak** dan borang Utama dan Cipta Cepat untuk pelanggan baris kontrak | Medan ini mewakili peratusan setiap transaksi jualan belum dibilkan yang akan diatribut kepada pelanggan baris kontrak ini. | Pelanggan baris kontrak dan peratusan pecahan bil digunakan apabila aktual dicipta selepas mendapat kelulusan dan apabila invois dijana. |
@@ -44,3 +42,6 @@ Berikut ialah medan pada rekod pelanggan baris Kontrak bagi baris Kontrak berasa
 Peratusan pecahan bil boleh diedit dalam grid. Apabila peratusan pecahan bil tidak berjumlah 100 peratus, ralat akan berlaku. Selepas anda mengedit peratusan pecahan bil, segar semula halaman untuk mengeluarkan ralat.
 
 Anda juga boleh cuba memilih **Agihkan Secara Sekata** pada subgrid pelanggan baris kontrak. Tindakan ini menguntukkan pecahan bil kepada semua pelanggan baris kontrak secara sekata. Jika terdapat mana-mana faktor pembundaran, faktor itu akan ditambah kepada pelanggan pembundaran. Seorang pelanggan baris kontrak sentiasa ditandakan sebagai pelanggan **Pembundaran** dengan bendera **Pembundaran** ditetapkan kepada **Ya**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

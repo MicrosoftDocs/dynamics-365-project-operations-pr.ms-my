@@ -2,6 +2,8 @@
 title: Bagaimanakah cara saya menugaskan sumber boleh ditempah kepada tugas dalam aplikasi web?
 description: Satu gambaran keseluruhan cara anda boleh menugaskan sumber boleh ditempah.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 27a93c41243f300cadb632c697672180e5a3817b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993315"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146584"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Bagaimanakah saya menugaskan sumber boleh tempah kepada tugas dalam aplikasi web (aplikasi Project Service v2.x)?
 
@@ -114,6 +116,3 @@ Pilih **Tempah** untuk sumber generik, dan kemudian anda boleh menggunakan papan
 Apabila sumber generik dipenuhkan dengan sumber dinamakan, sumber generik dialih keluar daripada pasukan dan tugasan tugas untuk sumber generik ditugaskan kepada sumber dinamakan yang telah memenuhi keperluan sumber bagi sumber generik.
  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Masukkan masa
 description: Cara untuk memasukkan masa dalam Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 222488f9ec52e07f1fb17d8dba3c3b0e5342b58d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4081431"
 ---
 # <a name="enter-time-project-service"></a>Masukkan masa (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

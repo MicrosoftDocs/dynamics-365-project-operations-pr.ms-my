@@ -2,11 +2,9 @@
 title: Sediakan dan gunakan bayar apabila pembayaran vendor dibayar
 description: Topik ini menjelaskan cara untuk mencipta terma bayar apabila dibayar (PWP) supaya anda boleh mengeluarkan pembayaran vendor separa, berdasarkan pembayaran pelanggan.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081207"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008867"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Sediakan dan gunakan bayar apabila pembayaran vendor dibayar
 
@@ -80,3 +78,6 @@ Apabila vendor melengkapkan kerjanya pada projek dan menghantar invois kepada an
 2. Pada halaman **Invois vendor dengan bayar apabila dibayar**, dalam medan carian, masukkan nilai untuk mencari invois vendor yang anda mahu semak semula dan kemudian pilih **Carian**.
 3. Pada FastTab **Baris invois vendor**, pilih baris yang anda mahu tukar.
 4. Jika syarat **Bayar apabila dibayar** dipenuhi untuk baris invois, pilih **Keluarkan pembayaran vendor**. Pilihan **Bayar apabila dibayar** dikosongkan dan nilai medan **Bersedia untuk pembayaran** ditukar kepada **Ya**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

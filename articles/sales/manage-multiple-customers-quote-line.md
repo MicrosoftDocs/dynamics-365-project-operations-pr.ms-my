@@ -2,18 +2,16 @@
 title: Urus berbilang pelanggan pada baris sebut harga berasaskan projek
 description: Topik ini memberikan maklumat tentang cara mengurus berbilang pelanggan pada baris sebut harga berasaskan projek.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118574"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992037"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Urus berbilang pelanggan pada baris sebut harga berasaskan projek
 
@@ -44,3 +42,6 @@ Jadual berikut menunjukkan medan pada rekod pelanggan baris sebut harga bagi bar
 Anda boleh mengedit peratusan pecahan pengebilan dalam talian. Apabila peratusan pecahan pengebilan tidak berjumlah 100%, ralat berlaku. Selepas anda mengedit peratusan pecahan pengebilan, segar semula halaman baris sebut harga untuk mengalih keluar ralat.
 
 Gunakan tindakan mengedar sama rata pada baris sebut harga pelanggan sub untuk memperuntukkan pecahan pengebilan kepada pelanggan baris sebut harga. Jika terdapat faktor pembundaran yang akan ditambah kepada pelanggan pembundaran. Salah satu pelanggan baris sebut harga sentiasa ditanda sebagai pelanggan pembundaran yang bermaksud rekod sebut harga pelanggan talian itu mempunyai bendera pembundaran yang ditetapkan kepada **Ya**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

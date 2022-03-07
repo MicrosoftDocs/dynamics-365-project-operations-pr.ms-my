@@ -2,24 +2,23 @@
 title: Gambaran keseluruhan proses jualan
 description: Topik ini memberikan maklumat tentang proses jualan asas.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177612"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991857"
 ---
 # <a name="sales-process-overview"></a>Gambaran keseluruhan proses jualan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Proses jualan yang digunakan dalam organisasi berasaskan projek berbeza daripada proses jualan yang digunakan dalam organisasi berasaskan produk. Ini adalah kerana kitaran jualan untuk organisasi berasaskan projek adalah lebih lama dan memerlukan teknik anggaran tersuai untuk menganalisis dan mencipta sebut harga untuk setiap urusan. Dynamics 365 Project Operations menggunakan beberapa fungsian berikut yang digunakan dalam proses jualan.
+Proses jualan yang digunakan dalam organisasi berasaskan projek berbeza daripada proses jualan yang digunakan dalam organisasi berasaskan produk. Ini adalah kerana kitaran jualan untuk organisasi berasaskan projek adalah lebih lama dan memerlukan teknik anggaran tersuai untuk menganalisis dan mencipta sebut harga untuk setiap urusan. Dynamics 365 Project Operations menggunakan beberapa fungsi berikut yang digunakan dalam proses jualan:
 
 - Rekod bakal pelanggan digunakan untuk menjejak proses jualan.
 - Bakal pelanggan yang layak dijejak sebagai peluang.
@@ -55,7 +54,7 @@ Peringkat **Kelayakan** dalam proses jualan boleh disokong oleh entiti Peluang. 
 Apabila anda memindahkan transaksi melalui peringkat, anda akan digesa untuk mencipta rekod entiti yang sesuai untuk membantu dan membimbing anda melalui proses. Peringkat boleh bersyarat. Contohnya, jika anda memerlukan semakan dalaman sebut harga hanya jika sebut harga menggunakan senarai harga tersuai, anda boleh mengkonfigurasi keadaan tersebut dalam peringkat proses perniagaan yang sesuai. Peringkat **Semakan Dalaman** kemudian ditunjukkan hanya untuk sebut harga yang menggunakan senarai harga tersuai. Untuk semua tawaran dan sebut harga lain, peringkat **Anggaran** diikuti oleh peringkat **Kontrak**.
 
 > [!NOTE]
-> Project Operations mempunyai halaman khusus untuk rekod Peluang, Sebut Harga dan Entiti Invois. Anda mesti mencipta rekod ini menggunakan halaman maklumat projek untuk entiti ini. Jika tidak, anda tidak akan dapat membuka rekod daripada halaman **Maklumat projek**. Jika anda mahu membuka rekod daripada halaman **Maklumat projek**, anda mesti memadam dan menciptanya semula menggunakan halaman **Maklumat projek** yang memastikan logik perniagaan untuk setiap jenis entiti ini  bagi medan **Jenis** rekod ditetapkan dengan betul dan semua konsep mandatori dimulakan dengan betul.
+> Project Operations mempunyai halaman khusus untuk rekod Peluang, Sebut Harga dan Entiti Invois. Anda mesti mencipta rekod ini menggunakan halaman maklumat projek untuk entiti ini. Jika tidak, anda tidak akan dapat membuka rekod daripada halaman **Maklumat projek**. Jika anda mahu membuka rekod daripada halaman **Maklumat projek**, anda mesti memadam dan menciptanya semula menggunakan halaman **Maklumat projek** yang memastikan logik perniagaan untuk setiap jenis entiti ini bagi medan **Jenis** rekod ditetapkan dengan betul dan semua konsep mandatori dimulakan dengan betul.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Jejak semakan ke sebut harga dan rancangan projek dalam kitaran jualan
@@ -63,3 +62,6 @@ Dalam Project Operations, anda tidak boleh menjejak semakan yang dibuat kepada s
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Jejak komen dan kelulusan sebut harga dan kontrak projek
 Anda boleh mengurus semakan dan kelulusan sebut harga dan kontrak projek dengan menggunakan dinding rekod dan siaran. Organisasi anda boleh mencipta aliran kerja tersuai dan pasang masuk untuk menugas, menghala semula, meningkat dan mengurus pemberitahuan semakan dan kelulusan item kerja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

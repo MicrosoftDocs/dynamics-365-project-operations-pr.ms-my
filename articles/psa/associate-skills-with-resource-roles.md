@@ -2,8 +2,6 @@
 title: Kaitkan kemahiran dengan peranan sumber
 description: Cara untuk mengaitkan kemahiran dengan peranan sumber dalam Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8386948d8ea2431385e6aed9165b4018c34bcaf0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8da276405341e99e19fbfb3553edd72df9b5be6f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145324"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009312"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Kaitkan kemahiran dengan peranan sumber (Project Service)
 
@@ -47,3 +45,6 @@ Semasa anda menambah peranan sumber, anda mungkin sudah mengaitkan beberapa kema
   
 ### <a name="see-also"></a>Lihat Juga  
  [Sediakan sumber](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

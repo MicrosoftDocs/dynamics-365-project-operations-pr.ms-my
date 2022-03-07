@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75c4b90e47c0b90ed3fea8dce1533057aa6137b9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663785"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643049"
 ---
-# <a name="concepts-unique-to-project-contracts"></a>Konsep unik untuk Kontrak Projek
+# <a name="project-contracts---key-concepts---lite"></a>Kontrak project - Konsep utama - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -93,6 +93,3 @@ Kontrak Project Operations dibina pada kontrak Dynamics 365 Sales. Walau bagaima
 - Kontrak Project Operations mempunyai borang dan elemen UI, peraturan perniagaan, logik perniagaan dalam pasang masuk serta skrip bahagian klien sendiri yang menjadikannya unik daripada kontrak Jualan.
 
 Atas sebab ini, anda tidak sepatutnya menggunakan kontrak Jualan dan kontrak Projek secara bergantian.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

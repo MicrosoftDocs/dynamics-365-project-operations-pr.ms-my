@@ -2,18 +2,16 @@
 title: Sebut harga - Konsep utama - ringan
 description: Topik ini memberikan maklumat tentang menggunakan sebut harga projek dalam Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
-ms.translationtype: HT
+ms.openlocfilehash: 279e7dd47d3d61b02227b307a5833ca0bac66f4a774b5ff23cb69aac417e2f0e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663968"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009452"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Konsep unik untuk Sebut harga projek
 

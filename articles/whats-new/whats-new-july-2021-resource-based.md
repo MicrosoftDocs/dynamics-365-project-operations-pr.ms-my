@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008057"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433529"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Julai 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
 
@@ -20,7 +20,7 @@ ms.locfileid: "7008057"
 
 Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
-   - Project Operations dalam persekitaran Microsoft Dataverse versi 4.12.0.148 atau 4.12.0.152.
+   - Project Operations dalam persekitaran Microsoft Dataverse versi 4.12.0.148.
    - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
@@ -79,7 +79,7 @@ Jika anda menghadapi isu memulakan peta, ikuti arahan dalam bahagian [Isu lajur 
 | Umum                       | 2296857              | Penjejakan kemajuan untuk kerja yang memakan masa lama.                                                                                                                                                                        |
 | Umum                       | 2253682              | Penyelesaian dwi tulis Project Operations tidak boleh dipasang apabila teras dwi tulis dipasang dalam persekitaran tanpa penyelesaian pengorkestraan dwi tulis.                                                |
 | Umum                       | 2316420              | Peruntukan teras Project Service gagal jika unit perniagaan pengguna aplikasi berubah.                                                                                                                     |
-| Umum                       | 2376405              | Masalah kemas kini berpandukan penerbit tetap (Kemas kini kualiti tersedia dalam versi 4.12.0.152)                                                                                                                     |
+
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Pengurusan projek dan perakaunan pada Dynamics 365 Finance
 
 | Bahagian ciri                      | Nombor rujukan | Kemas kini kualiti                                                                                                                                                                                                                                                                                                                |

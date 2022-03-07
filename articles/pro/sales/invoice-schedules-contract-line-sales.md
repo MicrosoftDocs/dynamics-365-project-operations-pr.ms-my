@@ -2,18 +2,16 @@
 title: Cipta jadual invois tentang baris kontrak berasaskan projek - lite
 description: Topik ini memberikan maklumat tentang membuat jadual invois dan pencapaian.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180338"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006077"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Cipta jadual invois tentang baris kontrak berasaskan projek - lite
 
@@ -64,7 +62,7 @@ Pencapaian harga tetap boleh dijana secara manual apabila ia tidak berpecah seca
 2. Pada tab **Jadual Invois**, pada subgrid, pilih **+ Cipta pencapaian Baris Kontrak baharu**.
 3. Pada borang **Cipta Pencapaian**, masukkan maklumat yang diperlukan berdasarkan jadual berikut. 
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Nama Pencapaian | Cipta Cepat | Medan teks untuk nama pencapaian. | Medan ini disertakan pada pencapaian baris kontrak projek dan invois. |
 | Tugas Projek | Cipta Cepat | Jika pencapaian tersebut terikat dengan tugas projek, gunakan rujukan ini untuk menambah logik tersuai dan menetapkan status pencapaian berdasarkan status tugas. | Tiada kesan hiliran bagi rujukan ini kepada tugas. |
@@ -74,3 +72,6 @@ Pencapaian harga tetap boleh dijana secara manual apabila ia tidak berpecah seca
 | Cukai | Cipta Cepat | Jumlah cukai yang dikenakan ke atas pencapaian tersebut. | Ini disertakan pada pencapaian baris kontrak projek dan invois. |
 
 4. Pilih **Simpan dan Tutup**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

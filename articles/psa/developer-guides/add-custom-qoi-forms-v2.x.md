@@ -2,12 +2,10 @@
 title: Tambah borang entiti tersuai baharu (Project Service Automation 2.x)
 description: Topik ini memberikan maklumat tentng cara untuk menambah borang entiti tersuai untuk peluang, sebut harga, pesanan atau invois dalam Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144604"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995232"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Tambah borang entiti tersuai baharu (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Ikuti langkah ini untuk mencipta versi tersuai borang **Maklumat Projek**.
     - Eksport borang **Maklumat Projek Saya** sebagai sebahagian daripada penyelesaian tak terurus, dan kemudian lihat nilai **formid** dalam fail penyesuaian.xml daripada penyelesaian yang dieksport.
     - Buka borang **Maklumat Projek Saya** dalam editor borang, dan kemudian cari pengecam unik global (GUID) di sebelah parameter **fromid** dalam URL, seperti ditunjukkan dalam ilustrasi berikut.
 
-    ![Nilai formId bagi borang baharu dalam URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Nilai formId bagi borang baharu dalam URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Cipta pemetaan **msdyn\_ordertype** untuk nilai **formid** dengan mengedit sumber web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Alih keluarkan kod daripada sumber dan gantikannya dengan kod berikut.
 
@@ -96,3 +94,6 @@ Ikuti langkah ini untuk mencipta versi tersuai borang **Maklumat Projek**.
     ```
 
 6. Simpan dan kemudian terbitkan penyesuaian.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

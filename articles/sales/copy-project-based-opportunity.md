@@ -2,18 +2,16 @@
 title: Salin peluang berasaskan projek
 description: Topik ini menyediakan maklumat tentang penyalinan peluang berasaskan projek dalam Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181680"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999732"
 ---
 # <a name="copy-project-based-opportunities"></a>Salin peluang berasaskan projek
 
@@ -34,3 +32,6 @@ Peluang projek boleh disalin dengan mudah untuk mencipta peluang projek baharu.
     | Salin penetapan harga | Nilai Ya/Tidak yang menunjukkan jika penetapan harga pada peluang sepatutnya disalin daripada peluang sumber. | Jika **Ya** dipilih, senarai harga disalin daripada sumber ke peluang sasaran. Jika **Tidak** dipilih, senarai harga akan dilalaikan berdasarkan pada senarai harga terkini yang ditetapkan. |
 
 3. Pilih **OK**. Sistem mencipta salinan peluang projek berasaskan parameter yang dipilih dan peluang projek baharu dibuka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

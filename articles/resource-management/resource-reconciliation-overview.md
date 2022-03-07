@@ -2,11 +2,9 @@
 title: Gambaran keseluruhan penyelarasan sumber
 description: Topik ini menyediakan maklumat yang akan membantu anda memastikan bahawa tempahan dan tugasan sumber untuk projek disejajarkan.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849635"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000852"
 ---
 # <a name="resource-reconciliation-overview"></a>Gambaran keseluruhan penyelarasan sumber
 
@@ -48,3 +46,6 @@ Jika anda ada tugasan tugas untuk sumber tetapi tiada tempahan, pilih kekurangan
 Tempahan yang dicipta melalui tindakan **Lanjutkan Tempahan** dikaitkan dengan keperluan projek utama. Apabila lanjutan dimulakan, keperluan khusus yang mesti dilanjutkan tidak boleh ditentukan, kerana sumber mungkin dikaitkan dengan lebih daripada satu keperluan untuk projek.
 
 Pengurus projek atau pengurus sumber kemudian boleh menggunakan Papan Jadual untuk mengurus sebarang situasi di mana sumber ditempah berlebihan di luar kapasitinya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

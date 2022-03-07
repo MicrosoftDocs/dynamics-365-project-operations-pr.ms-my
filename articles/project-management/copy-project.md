@@ -2,37 +2,36 @@
 title: Salin projek
 description: Topik ini menyediakan maklumat tentang menyalin projek dalam Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
-ms.translationtype: HT
+ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479530"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007202"
 ---
 # <a name="copy-a-project"></a>Salin projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dengan Dynamics 365 Project Operations, anda boleh dengan cepat membina projek baru dengan memilih **Salin Projek** pada borang **Projek**. Untuk menyalin projek, buka projek yang anda mahu salin dan kemudian pilih **Salin projek**. Tindakan akan disalin:
+Dengan Dynamics 365 Project Operations, anda boleh dengan cepat membina projek baru dengan memilih **Salin Projek** pada borang **Projek**. Untuk menyalin projek, buka projek yang anda mahu salin dan kemudian pilih **Salin projek**. Tindakan akan menyalin yang berikut:
 
-- Sifat projek (Anggaran tarikh mula disalin daripada projek sumber)
+- Sifat projek 
 - Struktur pecahan kerja
 - Ahli pasukan projek
 - Anggaran projek
 - Anggaran perbelanjaan projek
+- Anggaran bahan projek
 
 ## <a name="project-properties"></a>Sifat projek
 
 Apabila projek disalin, nilai dalam medan berikut disalin:
 
 - Nama
-- Penerangan 
+- Penerangan
 - Pelanggan
 - Templat Kalendar
 - Mata wang
@@ -42,11 +41,15 @@ Apabila projek disalin, nilai dalam medan berikut disalin:
 - Keseluruhan Status Projek
 - Komen
 - Anggaran
-- Anggaran Tarikh Mula
-- Tarikh Siap
+- Anggaran Tarikh Mula: Ini ialah tarikh projek yang dicipta daripada salinan.
+- Anggaran Tarikh Tamat: Tarikh ini dilaraskan berdasarkan tarikh mula projek baharu yang telah dibuat daripada salinan.
 - Usaha (Jam)
-- Anggaran Kos Buruh
-- Anggaran Kos Perbelanjaan
+- Kos Buruh yang Dianggarkan
+- Kos Perbelanjaan yang Dianggarkan
+- Kos Bahan yang Dianggarkan
+
+> [!NOTE]
+> Salin projek adalah operasi yang panjang berjalan. Rekod projek, atribut yang berkaitan dan banyak entiti berkaitan juga boleh disalin. Disebabkan oleh sifat jangka panjang operasi, selepas salinan dimulakan, halaman projek sasaran dikunci untuk pengeditan sehingga operasi salinan selesai.
 
 ## <a name="work-breakdown-structure"></a>Struktur pecahan kerja
 
@@ -58,7 +61,7 @@ Apabila pasukan projek disalin daripada projek sumber, sumber generik akan disal
 
 ## <a name="estimates"></a>Anggaran
 
-Apabila projek disalin, kedua-dua sumber dan anggaran had baris disalin daripada projek sumber. 
+Apabila projek disalin, sumber, perbelanjaan dan baris anggaran bahan akan disalin daripada projek sumber. 
 
 Untuk maklumat tentang cara mengakses Salin Projek secara programatik, lihat [Membangun templat projek dengan Salin Projek](dev-copy-project.md).
 

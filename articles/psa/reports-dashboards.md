@@ -2,8 +2,6 @@
 title: Papan Pemuka
 description: Topik ini memberikan maklumat tentang papan pemuka pelaporan yang disertakan dalam Dynamics 365 Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 975f88b671f1ce46888731cc2aef4ea07228a71abe8e7c520d4c4a6e7be3b537
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147799"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990552"
 ---
 # <a name="dashboards"></a>Papan Pemuka
 
@@ -35,8 +33,11 @@ Dynamics 365 Project Service Automation menyertakan dua papan pemuka sistem: **P
 
 ## <a name="practice-manager"></a>Pengurus Latihan 
 
-Papan pemuka **Pengurus Latihan** memberikan pengurus latihan pengalaman papan pemuka grafik untuk penjejakan kos, jualan serta margin kasar dan penggunaan. Ia juga membolehkan pengurus latihan membahagikan maklumat mengikut pelbagai dimensi, seperti pelanggan, projek atau peranan sumber. Untuk maklumat lanjut tentang cara untuk mencipta dan menyesuaikan papan pemuka, lihat [Cipta atau edit papan pemuka](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Papan pemuka **Pengurus Latihan** memberikan pengurus latihan pengalaman papan pemuka grafik untuk penjejakan kos, jualan serta margin kasar dan penggunaan. Ia juga membolehkan pengurus latihan membahagikan maklumat mengikut pelbagai dimensi, seperti pelanggan, projek atau peranan sumber. Untuk maklumat lanjut tentang cara untuk mencipta dan menyesuaikan papan pemuka, lihat [Cipta atau edit papan pemuka](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Pengurus Sumber 
 
 Papan pemuka **Pengurus Sumber** memberikan pengurus sumber pengalaman papan pemuka grafik untuk memantau permintaan sumber serta permintaan dan penggunaan sumber. Ia juga membolehkan pengurus sumber membahagikan maklumat yang dipantau mengikut pelbagai dimensi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

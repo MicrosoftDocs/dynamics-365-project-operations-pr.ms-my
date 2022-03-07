@@ -2,8 +2,6 @@
 title: Jadualkan masa rehat
 description: Cara untuk menjadualkan masa rehat dalam Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c3f5dfe846c4accb485de5213e1635e65e77fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 76589470b1391226ea2a35143daf0b18b16286dfcd2829e748b0984397cb25ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144334"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984622"
 ---
 # <a name="schedule-time-off-project-service"></a>Jadualkan masa rehat (Project Service)
 
@@ -57,3 +55,6 @@ Jadualkan cuti anda dengan cara yang sama seperti anda memasukkan masa untuk pro
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Cipta entri masa
 description: Topik ini memberikan maklumat tentang cara untuk mencipta entri masa.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149689"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990417"
 ---
 # <a name="create-time-entries"></a>Cipta entri masa
 
@@ -70,3 +68,6 @@ Anda boleh mengimport data daripada penempahan projek dan tugasan. Apabila anda 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Kumpul mengikut, isih, cari dan keupayaan menapis
 
 Anda boleh mengumpulkan dan menapis entri masa dengan dimensi yang ditetapkan dalam lajur. Dalam medan **Kumpulkan dengan**, pilih dimensi yang akan digunakan untuk menapis entri masa. Anda juga boleh mengisih rekod kemasukan masa dalam urutan menaik atau menurun dengan menggunakan anak panah isih pada pengepala lajur. Selain itu, anda boleh menunjukkan atau menyembunyikan entri dengan memilih butang **Tapis** pada tajuk lajur dan kemudian, dalam kotak **Carian**, memasukkan teks yang sepatutnya digunakan untuk mencari penyertaan masa dengan nama projek, tugas projek, masa entri atau sumber.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Proses jualan
 description: Topik ini menyediakan maklumat mengenai proses jualan asas.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145189"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000542"
 ---
 # <a name="sales-processes"></a>Proses jualan
 
@@ -41,7 +39,7 @@ Proses jualan yang digunakan dalam organisasi berasaskan projek berbeza daripada
 
 Ilustrasi berikut menunjukkan proses jualan biasa dalam organisasi berasaskan projek.
 
-> ![Proses jualan dalam organisasi berasaskan projek](media/basic-guide-1.png)
+> ![Proses jualan dalam organisasi berasaskan projek.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Menganggarkan jualan
 Nilai jualan boleh dianggarkan berdasarkan projek yang sebelum ini diserahkan dan kerumitan projek. Untuk projek yang melibatkan sambungan kepada projek sebelumnya, atau projek di mana kepakaran penjual adalah template kerja yang tinggi dan terkenal digunakan, anda boleh menggunakan proses anggaran yang lebih mudah. Projek yang lebih rumit biasanya mempunyai proses pembelian yang lebih panjang. Oleh itu, terdapat lebih banyak peringkat dalam proses anggaran jualan. Pada awal proses, pasukan jualan menggunakan input pengurus akaun dan pakar perkara subjek (PKS) untuk mula mewujudkan anggaran tahap tinggi bagi setiap komponen kerja yang jelas yang dipetik. Komponen kerja ini diwakili oleh baris sebut harga. 
@@ -52,7 +50,7 @@ Anda boleh mencipta sebut harga berbilang untuk projek dan kumpulkan mereka di b
 
 Anda juga boleh mencipta sebut harga alternatif di bawah satu jenis entiti peluang atau menyediakan sistem supaya kontrak projek dicipta apabila sebut harga dimenangi. Dalam kes ini, anda boleh melampirkan dokumen Word yang mewakili SOW kepada rekod kontrak projek.
 
-![Menutup sebut harga untuk mencipta kontrak projek](media/basic-guide-2.png)
+![Menutup sebut harga untuk mencipta kontrak projek.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Mengkonfigurasikan proses jualan
 Anda boleh menggunakan aliran proses perniagaan (BPFs) pada Microsoft Dynamics 365 untuk mengkonfigurasi proses jualan anda. BPFs memberikan pekerja jualan anda antara muka visual dipandu yang mereka boleh gunakan untuk menggerakkan transaksi ke hadapan melalui peringkat yang tipikal untuk syarikat anda.
@@ -68,7 +66,7 @@ Sebagai contoh, syarikat anda mungkin mempunyai enam peringkat berikut dalam pro
 
 Enam peringkat ini diwakili oleh chevrons (\>) yang anda pilih untuk mengembangkan dalam setiap jenis entiti peluang yang anda cipta.
 
-![Konfigurasi proses perniagaan dalam Dynamics 365](media/basic-guide-3.png)
+![Konfigurasi proses perniagaan dalam Dynamics 365.](media/basic-guide-3.png)
  
 Organisasi anda mungkin menggunakan entiti berbeza untuk mewakili urusan yang sama semasa ia berkembang. Pada awal proses jualan, urusan diwakili oleh entiti Peluang. Apabila masa berlalu dan butiran lanjut muncul, anda mungkin menggunakan anggaran peringkat tinggi untuk mencipta satu atau lebih sebut harga. Jika salah satu daripada sebut harga ini disemak oleh pemegang amanah pelanggan dan dalaman, entiti Sebut Harga mewakili urusan. Selepas pelanggan menerima sebut harga, kontrak projek atau SOW mewakili perjanjian tersebut. Untuk menyokong tingkah laku ini, BPFs berstruktur supaya setiap peringkat dalam proses dihubungkan kepada jadual pangkalan data yang berbeza.
 
@@ -79,7 +77,7 @@ Apabila anda memindahkan transaksi melalui peringkat, anda akan digesa untuk men
 > [!NOTE]
 > PSA mempunyai halaman khusus untuk entiti Peluang, Sebut Harga, Pesanan dan Invois. Anda mesti mencipta peluang perkhidmatan projek, sebut harga, pesanan dan invois menggunakan halaman maklumat projek untuk entiti tersebut. Jika anda menggunakan halaman lain untuk mencipta rekod, anda tidak akan dapat membuka rekod daripada halaman **Maklumat Projek**. Jika anda mahu membuka rekod daripada halaman **Maklumat Projek**, anda mesti memadamkan rekod dan menciptanya semula menggunakan halaman **Maklumat Projek**. Pada halaman **Maklumat Projek**, logik perniagaan untuk setiap jenis entiti ini memastikan medan **Jenis** rekod ditetapkan dengan betul, dan semua konsep mandatori telah dimulakan dengan betul.
 
-> ![Maklumat projek untuk arahan baharu](media/basic-guide-4.png)
+> ![Maklumat projek untuk pesanan baharu.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Perbezaan antara Project Service Automation dan Jualan
 Walaupun proses jualan dalam PSA menggunakan keupayaan asas untuk proses jualan dalam Jualan, ia mempunyai beberapa perbezaan utama kerana variasi dalam amalan perniagaan organisasi berasaskan projek. Berikut adalah beberapa contoh:
@@ -93,3 +91,6 @@ Dalam PSA, anda tidak boleh menjejaki semakan yang dibuat kepada sebut harga. Se
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Menjejaki komen dan kelulusan daripada sebut harga dan kontrak projek
 Anda boleh mengurus semakan dan kelulusan sebut harga dan kontrak projek dengan menggunakan dinding rekod dan siaran. Organisasi anda boleh mencipta aliran kerja tersuai dan pasang masuk untuk menugaskan, mengubah hala, memuncak dan mengurus pemberitahuan semakan dan item kerja kelulusan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

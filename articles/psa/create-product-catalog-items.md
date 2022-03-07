@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144694"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950365"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Cipta item katalog produk (Project Service)
 
@@ -33,7 +33,10 @@ ms.locfileid: "5144694"
 
 Jika anda mahu memasukkan produk, seperti lesen perisian, dalam sebut harga dan anggaran projek anda, anda perlu menambah setiap projek ke dalam katalog produk.  
   
- Untuk mendapatkan maklumat lanjut tentang penambahan produk pada katalog produk, lihat [Cipta produk (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ Untuk mendapatkan maklumat lanjut tentang penambahan produk pada katalog produk, lihat [Cipta produk (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Lihat Juga  
  [Konfigurasikan Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

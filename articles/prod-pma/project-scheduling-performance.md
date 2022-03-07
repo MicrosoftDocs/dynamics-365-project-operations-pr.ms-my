@@ -2,11 +2,9 @@
 title: Prestasi penjadualan sumber projek
 description: Topik ini memberikan maklumat mengenai cara untuk menambah baik prestasi penjadualan sumber untuk sebilangan besar projek.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007292"
 ---
 # <a name="project-resource-scheduling-performance"></a>Prestasi penjadualan sumber projek
 
@@ -69,3 +67,6 @@ Untuk mendayakan peningkatan prestasi penjadualan sumber, lengkapkan langkah ber
 
 > [!NOTE]
 > Ini akan mengedarkan data umum untuk jadual **ResRollup** merentasi semua syarikat dalam persekitaran anda, jadi kerja kelompok hanya perlu berjalan dalam satu entiti yang sah. Kerja kelompok ini diperlukan untuk semua pandangan **Ketersediaan Sumber**. Jika kerja kelompok ini tidak berjalan, data **ResRollup** akan dijana pada bila-bila masa, yang boleh mengambil masa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

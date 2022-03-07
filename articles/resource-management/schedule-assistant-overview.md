@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081084"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279239"
 ---
 # <a name="schedule-assistant-overview"></a>Gambaran keseluruhan pembantu jadual
 
@@ -25,7 +25,7 @@ Selepas sumber yang sesuai dikenal pasti, Sumber atau Pengurus projek boleh mene
 
 ## <a name="prerequisites"></a>Prasyarat
 
-Pembantu jadual merupakan sebahagian daripada penyelesaian Universal Resource Scheduling. Penyelesaian ini disertakan dan dipasang dengan Dynamics 365 Project Operations, Dynamics 365 Field Service, dan Dynamics 365 Customer Service.
+Pembantu jadual merupakan sebahagian daripada penyelesaian Universal Resource Scheduling. Penyelesaian ini disertakan dan dipasang dengan Dynamics 365 Project Operations, Dynamics 365 Field Service dan Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Keperluan sepadan dan sumber
 
@@ -57,3 +57,6 @@ Anak tetingkap penapis menunjukkan pilihan berkaitan kerja, termasuk:
 -   Syarikat persumberan
 -   Jenis sumber
 -   Sumber diutamakan
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

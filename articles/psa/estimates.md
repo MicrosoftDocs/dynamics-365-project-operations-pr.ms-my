@@ -2,8 +2,6 @@
 title: Anggaran
 description: Topik ini memberikan maklumat tentang anggaran dalam Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151444"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992397"
 ---
 # <a name="estimates"></a>Anggaran
 
@@ -85,24 +83,27 @@ Jika anda menambah medan tersuai pada butiran baris sebut harga dan mahu sistem 
 1. Buka Alat Pendaftaran Pasang Masuk, dan sambungkan ke tika dalam talian anda.
 2. Pilih **Cari**, dan cari pasang masuk untuk kemas kini.
 
-    ![Cari kotak dialog Pohon](media/basic-guide-19.png)
+    ![Kotak dialog Pohon Carian.](media/basic-guide-19.png)
 
 3. Pilih pasang masuk, kemudian pada halaman utama, pilih **Pilih**.
 4. Pilih langkah pasang masuk untuk kemas kini, klik kanan, kemudian pilih **Kemas Kini**.
 
-    ![Pilih langkah dalam pasang masuk](media/basic-guide-20.png)
+    ![Memilih langkah dalam pasang masuk.](media/basic-guide-20.png)
 
 5. Dalam kotak dialog **Kemas Kini Langkah Sedia Ada**, dalam medan **Menapis Atribut**, pilih butang elipsis (**...**):
  
-    ![Kemas kini kotak dialog Langkah Sedia Ada](media/basic-guide-21.png)
+    ![Kotak dialog Kemas kini Langkah Sedia Ada.](media/basic-guide-21.png)
 
 6. Dalam kotak dialog **Pilih Atribut**, pilih kotak semak untuk atribut tersuai.
 
-    ![Pilih kotak dialog Atribut](media/basic-guide-22.png)
+    ![Kotak dialog Pilih Atribut.](media/basic-guide-22.png)
 
 7. Pilih **OK** untuk menutup kotak dialog, kemudian pilih **Kemas Kini Langkah**.
  
-    ![Kemas kini butang Langkah](media/basic-guide-23.png)
+    ![Butang Kemas kini Langkah.](media/basic-guide-23.png)
 
 8. Ulangan langkah 1 hingga 7 untuk pasang masuk kedua.
 9. Tutup Alat Pendaftaran Pasang Masuk.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

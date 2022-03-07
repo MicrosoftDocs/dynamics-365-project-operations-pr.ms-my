@@ -2,11 +2,9 @@
 title: Cipta pasukan projek
 description: Topik ini menyediakan maklumat tentang cara mencipta dan menguruskan pasukan projek.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270869"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005807"
 ---
 # <a name="create-a-project-team"></a>Cipta pasukan projek
 
@@ -35,7 +33,7 @@ Tetapan pandangan juga boleh disesuaikan untuk memberi pandangan yang lebih baik
 
 Pengurus projek boleh memilih peranan pada halaman dan kemudian, jika terdapat sumber tersedia yang sesuai dengan keperluan, pilih untuk menguntukkan sumber untuk memenuhi peranan. Ambil perhatian bahawa sumber tidak perlu diperuntukkan pada masa ini dalam peringkat perancangan. Apabila anda mencipta WBS, anda boleh menggantikan peranan dengan sumber diperlukan untuk projek. Jika peranan digantikan dengan sumber diperlukan dalam WBS, persediaan sumber secara automatik mengemas kini senarai pasukan dan penjadualan projek.
 
-[![Senarai pasukan projek yang merangkumi kedua-dua peranan dan sumber sebenar](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Senarai pasukan projek yang merangkumi kedua-dua peranan dan sumber sebenar.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Pengurus projek mempunyai pelbagai pilihan untuk menempah sumber untuk projek, seperti **Baki kapasiti**, **Kapasiti penuh**, **Peratusan kapasiti** dan **Tentukan jam**. Pilihan penempahan ini boleh dibatalkan pada bila-bila masa jika tugasan sumber berubah. Dua jenis penempahan disokong:
 

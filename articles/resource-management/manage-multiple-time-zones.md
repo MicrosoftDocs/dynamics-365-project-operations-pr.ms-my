@@ -2,18 +2,16 @@
 title: Urus zon waktu
 description: Apabila projek dicipta, zon masa adalah berdasarkan zon waktu yang ditakrifkan dalam templat jam kerja yang digunakan.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119834"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988707"
 ---
 # <a name="manage-time-zones"></a>Urus zon waktu
 
@@ -34,13 +32,13 @@ Untuk keputusan yang tepat dan boleh diramal apabila menggunakan **Penempahan La
 
 - Pengguna mesti mengkonfigurasi zon masa peranti mereka untuk dipadankan dengan zon waktu yang ditakrifkan dalam **Tetapan Peribadi** sistem.
  
-  ![Tetapan zon waktu dalam Windows 10](media/reconcile-assignments-03.png)
+  ![Tetapan zon waktu dalam Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Tetapan zon waktu dalam tetapan pemperibadian](media/reconcile-assignments-04.png)
+  ![Tetapan zon waktu dalam tetapan pemperibadian.](media/reconcile-assignments-04.png)
  
 - Sumber boleh ditempah mesti mempunyai sekurang-kurangnya satu minit daripada masa kerja yang bertindih dengan kontur yang digunakan untuk mentakrifkan sambungan yang diminta. Contohnya, sumber yang berikut dengan waktu bekerja yang jatuh antara 9:00 PAGI dan 7:00 MALAM. 
 
-  ![Perbandingan sumber kontur](media/reconcile-assignments-05.png)
+  ![Perbandingan kontur sumber.](media/reconcile-assignments-05.png)
 
 Jadual berikut menunjukkan:
 
@@ -49,22 +47,25 @@ Jadual berikut menunjukkan:
 - Sumber B: Sumber ini terletak dalam zon waktu yang berbeza daripada projek dan bermula pada 7:00 PAGI dalam zon waktu mereka. Walau bagaimanapun, tempahan akan bermula pada 9:00 PG kerana itu adalah masa mula paling awal kontur tugasan.
 - Sumber C dan D: Sumber yang terletak dalam zon masa berbeza, kedua-duanya berbeza antara satu sama lain dan projek, dan penempahan mereka bermula tidak lebih awal daripada masa tersedia mereka.
 
-|Entiti  |Kalendar  |
+|EntitI  |Kalendar  |
 |-|-|
-|Templat kalendar projek   | ![kalendar projek](media/reconcile-assignments-06.png) |
-|Sumber A  | ![Kalendar Sumber A](media/reconcile-assignments-06.png) |
-|Sumber B  |  ![Kalendar Sumber B](media/reconcile-assignments-07.png) |
-|Sumber C  |  ![Kalendar Sumber C](media/reconcile-assignments-08.png) |
-|Sumber D  | ![Kalendar Sumber D](media/reconcile-assignments-09.png)  |
+|Templat kalendar projek   | ![kalendar projek.](media/reconcile-assignments-06.png) |
+|Sumber A  | ![Kalendar Sumber A.](media/reconcile-assignments-06.png) |
+|Sumber B  |  ![Kalendar Sumber B.](media/reconcile-assignments-07.png) |
+|Sumber C  |  ![Kalendar Sumber C.](media/reconcile-assignments-08.png) |
+|Sumber D  | ![Kalendar Sumber D.](media/reconcile-assignments-09.png)  |
  
 Apabila anda menavigasi ke pandangan **Penyelarasan**, tugasan sumber dan kekurangan penempahan yang berkaitan dipaparkan.
 
-![Pandangan penyesuaian sebelum lanjutan](media/reconcile-assignments-10.png)
+![Pandangan penyelarasan sebelum lanjutan.](media/reconcile-assignments-10.png)
 
 Selepas fungsi penempahan lanjutan telah digunakan untuk setiap sumber, penempahan berjaya dilanjutkan untuk setiap sumber kerana setiap jam kerja yang bertindih dengan kekurangan kontur.
 
-![Pandangan penyesuaian selepas lanjutan tempahan](media/reconcile-assignments-11.png) 
+![Pandangan penyelarasan selepas lanjutan tempahan.](media/reconcile-assignments-11.png) 
 
 Perhatikan bahawa pandangan lebih dekat pada butiran daripada penempahan Tempahan menunjukkan perbezaan dalam masa mula penempahan. Penempahan mula tidak lebih awal daripada masa mula penugasan kontur dan tidak akan lebih awal daripada masa mula sumber yang tersedia.
 
-![Tempahan baharu sumber dalam papan jadual](media/reconcile-assignments-12.png)
+![Tempahan baharu sumber dalam papan jadual.](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
