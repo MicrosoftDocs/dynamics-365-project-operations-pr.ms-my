@@ -2,18 +2,16 @@
 title: Salin sebut harga berasaskan projek
 description: Topik ini menyediakan maklumat tentang cara menyalin sebut harga berasaskan projek dalam Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081105"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992172"
 ---
 # <a name="copy-project-based-quotes"></a>Salin sebut harga berasaskan projek
 
@@ -25,7 +23,7 @@ Anda dengan mudah boleh mencipta sebut harga Projek baharu dengan menyalin yang 
 
 Ini akan membuka halaman dialog yang anda boleh memasukkan parameter bagi salinan. Jadual berikut menyenaraikan medan yang disertakan dalam halaman dialog. Bergantung pada nilai yang anda pilih, proses penyalinan mungkin berubah.
 
-| **Medan** | **Keterkaitan, tujuan dan panduan** | **Kesan hiliran** |
+| **Medan** | **Perihalan** | **Kesan hiliran** |
 | --- | --- | --- |
 | Topik | Masukkan topik atau nama yang berkaitan dengan sebut harga sasaran. Apabila dialog dibuka, sistem akan menetapkannya kepada topik sebut harga sumber dengan **-salin** ditambahkan padanya. | |
 | Pelanggan Berpotensi | Rujukan kepada syarikat atau rekod akaun pelanggan. Apabila dialog dibuka, sistem akan menetapkannya kepada akaun pada sebut harga sumber. | Medan ini ialah pelanggan utama pada sebut harga. |
@@ -45,3 +43,6 @@ Apabila anda memilih **OK** pada halaman dialog, sistem mencipta salinan sebut h
 > - Rujukan projek dalam projek – berasaskan maklumat belanjawan baris sebut harga -Pelanggan
 >
 >Oleh kerana maklumat ini sangat khusus untuk setiap sebut harga, medan dan rekod ini tidak disalin. Baris sebut harga untuk projek dan produk, anggaran butiran baris sebut harga dan nilai tidak melebihi pada peringkat sebut harga disalin. Kadar harga dan kos lalai bergantung pada pilihan **Salin penetapan harga** yang dipilih pada halaman dialog **Salin parameter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

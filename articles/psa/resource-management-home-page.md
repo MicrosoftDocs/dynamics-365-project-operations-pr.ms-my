@@ -2,10 +2,9 @@
 title: Halaman utama pengurusan sumber
 description: Topik ini memberikan maklumat tentang cara untuk mengurus sumber.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1a48dc3c814cfaaa08ba8c00834b0b37d6fbc5a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: a55b0f7c8190fd88017851a8e7c9b44cefacb483cd563f6f94110a7421de5d1d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081449"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998202"
 ---
 # <a name="resource-management-home-page"></a>Halaman utama pengurusan sumber
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -39,3 +40,6 @@ Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. K
 - [Keperluan tempah lembut](resource-management-softbook-requirements.md)
 - [Model kemahiran dan kecekapan](resource-management-skills-proficiency.md)
 - [Soalan Lazim pengurusan sumber](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

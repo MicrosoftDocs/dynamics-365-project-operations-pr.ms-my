@@ -2,18 +2,16 @@
 title: Sediakan templat kos
 description: Topik ini memberikan maklumat tentang cara mencipta dan menggunakan templat kos dalam Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642734"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993567"
 ---
 # <a name="set-up-cost-templates"></a>Sediakan templat kos
 
@@ -79,3 +77,6 @@ Untuk mencipta templat kos, ikuti langkah-langkah berikut:
 7. Pada tab **Kategori**, pilih kategori projek yang akan disertakan dalam baris templat kos.
 8. Pada tab **Umum**, pilih jika baris ini akan dimasukkan dalam pengiraan peratusan siap.
 9. Pilih kaedah kos untuk siap yang digunakan apabila mengira peratusan siap.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

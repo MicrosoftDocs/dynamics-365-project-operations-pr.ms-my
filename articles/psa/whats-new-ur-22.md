@@ -2,8 +2,6 @@
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 22, V3
 description: Topik ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation 22, V3.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,16 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081176"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004322"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation, Keluaran Kemas kini 22, V3
 
-Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
 Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas kini 22. Versi ini mempunyai nombor binaan V 3.10.33.48 dan secara amnya boleh didapati melalui kemas kini sendiri pada Jun 2020.
 
@@ -70,3 +70,6 @@ Isu berikut telah dibaiki:
 - Menutup sebut harga sebagai dimenangi tidak menavigasi ke kontrak yang dicipta jika BPF yang dilampirkan pada sebut harga berada dalam peringkat akhir.
 - Membalikkan **Jualan yang Belum Dibilkan** dikaitkan dengan kos asal apabila entri masa dipanggil semula.
 - Selepas memilih butang **Sahkan**, status invois tidak berubah kepada **Disahkan** melainkan invois disegar semula.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

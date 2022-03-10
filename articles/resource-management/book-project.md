@@ -2,18 +2,16 @@
 title: Tempah ke projek
 description: Topik ini memberikan maklumat tentang menempah sumber kepada projek.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081080"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994917"
 ---
 # <a name="book-to-a-project"></a>Tempah ke projek
 
@@ -66,3 +64,6 @@ Sebagai Pengurus Projek, anda mungkin perlu menempah sumber kepada projek, tetap
 
 > [!NOTE]
 > Kaedah ini tidak mencipta sebarang tempahan untuk sumber. Sebaliknya, ia menambahkan sumber kepada pasukan. Selepas ahli pasukan ditambah kepada projek, pengurus projek boleh menggunakan kekalkan tempahan atau lanjutkan tempahan untuk menambah tempahan yang diperlukan kepada sumber.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

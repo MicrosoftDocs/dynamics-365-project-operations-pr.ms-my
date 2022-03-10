@@ -2,8 +2,6 @@
 title: Semak invois yang tertunggak pada projek dan kontrak projek
 description: Topik ini memberikan maklumat mengenai cara untuk mengkaji masa, perbelanjaan dan tunggakan produk, dan cara menandanya sebagai bersedia untuk penginvoisan.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150499"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006977"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Semak invois yang tertunggak pada projek dan kontrak projek
 
@@ -42,7 +40,7 @@ Jualan sebenar yang belum dibilkan mewakili log pengebilan dan status pengebilan
 
 Untuk menyemak tunggakan pengebilan untuk masa dan bahan, pergi ke **Jualan** \> **Pengebilan** \> **Tunggakan Pengebilan Masa dan Bahan**. Pilih semua aplikasi jualan yang tidak dibilkan yang bersedia untuk diinvois dan kemudian pilih **Bersedia untuk Diinvois.** Status pengebilan bagi aktual ini ditukar kepada **Bersedia untuk Diinvois**.
 
-![Tunggakan pengebilan masa dan bahan](media/TMBacklog.png)
+![Tunggakan pengebilan masa dan bahan.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Semak semula tunggakan pengebilan produk
 
@@ -50,7 +48,7 @@ Dalam PSA, apabila kontrak projek mempunyai talian kontrak berasaskan produk, ba
 
 Untuk menyemak tunggakan pengebilan untuk produk, pergi ke **Jualan** \> **Pengebilan** \> **Tunggakan Pengebilan Produk**. Pilih semua baris kontrak berdasarkan produk yang bersedia untuk diinvois dan kemudian pilih **Bersedia untuk Diinvois.** Status pengebilan baris ini ditukar kepada **Bersedia untuk Diinvois**.
 
-![Tunggakan pengebilan produk](media/ProductBacklog.png)
+![Tunggakan pengebilan produk.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Tinjauan pencapaian pengebilan pada kontrak harga tetap
 
@@ -58,4 +56,7 @@ Setiap baris kontrak projek yang mempunyai kaedah pengebilan harga tetap mesti m
 
 Untuk menyemak semula pencapaian pengebilan, pergi ke **Jualan** \> **Pengebilan** \> **Pencapaian Harga Tetap**. Pilih semua pencapaian yang bersedia untuk diinvois dan kemudian pilih **Bersedia untuk diinvois.** Status pengebilan pencapaian ini ditukar kepada **Bersedia untuk Diinvois**.
 
-![Pencapaian harga tetap](media/FPBacklog.png)
+![Pencapaian harga tetap.](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

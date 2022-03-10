@@ -2,8 +2,6 @@
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 16, V3
 description: Topik ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation16, V3.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,16 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f277d23e3fb0517f072e51f6f80f855479ab8189
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: f577cd8407b0f12607c56891eeadb1071f659cff67bd9f086a6b3bbec6376e9d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081187"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004412"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation, Keluaran Kemas kini 16, V3
 
-Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan.  Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online, halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, Kemas kini Penyelesaian Pilihan](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page).
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan.  Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online, halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, Kemas kini Penyelesaian Pilihan](/dynamics365/project-service/upgrade-psa-home-page).
 Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3, Keluaran Kemas kini 16. Versi ini mempunyai nombor binaan V3.10.6.34 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2020.
 
 
@@ -62,3 +62,6 @@ Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3
 
     -   Dibetulkan: Apabila pengguna menaik taraf daripada 2.X kepada 3.X, projek dengan nilai NOL untuk nama projek akan dibenarkan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

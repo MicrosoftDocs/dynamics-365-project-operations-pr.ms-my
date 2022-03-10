@@ -2,8 +2,6 @@
 title: Transaksi perniagaan
 description: Topik ini menyediakan maklumat mengenai transaksi perniagaan.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149914"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987537"
 ---
 # <a name="business-transactions"></a>Transaksi perniagaan
 
@@ -90,7 +88,7 @@ Bersama-sama, asal Transaksi dan entiti sambungan Transaksi membantu anda menjej
 
 Contoh berikut menunjukkan pemprosesan biasa bagi entri masa dalam kitaran hayat projek PSA.
 
-> ![Pemprosesan entri masa dalam kitaran hayat Project Service](media/basic-guide-17.png)
+> ![Pemprosesan entri masa dalam kitaran hayat Project Service.](media/basic-guide-17.png)
  
 1. Penyerahan entri masa menyebabkan penciptaan dua baris jurnal: satu untuk kos dan satu untuk jualan yang tidak dibilkan.
 2. Pelulus akhir bagi entri masa menyebabkan penciptaan dua aktual: satu untuk kos dan satu untuk jualan yang tidak dibilkan.
@@ -149,3 +147,6 @@ Jadual berikut menunjukkan rekod dalam entiti pembetulan Transaksi untuk aliran 
 | Pembetulan Invois Draf       | GUID Transaksi Baris Invois | Menggantikannya          | msdyn_invoicelinetransaction | GUID Jualan Dibilkan            | Asal           | msdyn_actual       |
 | Sahkan Pembetulan Invois     | GUID Pembalikan Jualan Dibilkan    | Menterbalikkan          | msdyn_actual                 | GUID Jualan Dibilkan            | Asal           | msdyn_actual       |
 | GUID Aktual Jualan Belum Dibilkan Baharu | Menggantikan                     | msdyn_actual       | GUID Jualan Dibilkan            | Asal                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

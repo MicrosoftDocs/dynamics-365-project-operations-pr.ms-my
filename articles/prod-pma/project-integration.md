@@ -2,11 +2,9 @@
 title: Integrasi Microsoft Project Client
 description: Merancang dan menyelenggara jadual projek boleh menjadi proses yang rumit, oleh itu, pengurus projek perlu menggunakan alat yang membantu mereka menguruskan tugas ini. Integrasi dengan Microsoft Project Client menyediakan sokongan untuk membuka dan menguruskan struktur pecahan kerja projek.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289335"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988032"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasi Microsoft Project Client
 
@@ -128,5 +126,12 @@ Untuk mencipta struktur pecahan kerja baharu dengan menggunakan Microsoft Projec
 
 11. Klik **OK**.
 
+> [!NOTE]
+> Tambahan Klien Projek tidak menyokong aksara berikut dalam format ID projek:
+> 
+>   - Garis bawah
+>   - Noktah
+>   - Ruang
+>   - Garis Miring
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

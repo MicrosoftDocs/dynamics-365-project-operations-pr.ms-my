@@ -2,24 +2,22 @@
 title: Tambah ahli pasukan daripada grid ahli Pasukan
 description: Topik ini menyediakan maklumat tentang cara anda dapat menguruskan sumber ahli pasukan.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081106"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008417"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Tambah ahli pasukan daripada grid ahli Pasukan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations merangkumi papan pemuka Pengurus sumber yang memberikan gambaran keseluruhan visual bagi permintaan dan penggunaan sumber di seluruh organisasi. Anda boleh menggunaan carta pada papan pemuka ini untuk visualisasikan maklumat berikut:
+Dynamics 365 Project Operations memasukkan papan pemuka pengurus Sumber yang memberikan gambaran keseluruhan visual bagi permintaan dan penggunaan sumber di seluruh organisasi. Anda boleh menggunaan carta pada papan pemuka ini untuk visualisasikan maklumat berikut:
 
 - **Permintaan sumber**: Carta **Permintaan Sumber Aktif** menunjukkan sumber yang telah diserahkan. Sumber diagregatkan sama ada melalui peranan atau projek.
 - **Permintaan sumber belum diserahkan** – Carta **Permintaan Sumber Belum Ditugaskan** menunjukkan semua keperluan sumber yang belum diserahkan. Carta ini membantu Pengurus sumber melihat permintaan yang tidak tetap dan mungkin dihantar melalui permintaan sumber.
@@ -200,3 +198,6 @@ Apabila anda melihat masa pada tahap lebih tinggi, sel dalam tab **Penyelarasan*
 Jika anda ada penugasan tugas untuk sumber tetapi tiada tempahan, pada borang **Projek**, pada tab **Penyelarasan**, pilih kekurangan tempahan dan kemudian pilih **Lanjutkan Tempahan**. Kotak dialog **Lanjutkan Tempahan** muncul dan menunjukkan tempahan yang diperlukan untuk menyelesaikan kekurangan sumber. Kotak dialog juga menunjukkan tempahan sumber yang sedia ada di semua projek atau entiti lain yang boleh dijadualkan. Jika anda pilih **OK** untuk mencipta tempahan untuk sumber, tanpa mengira ketersediaan sumber tersebut, anda mungkin menyebabkan tempahan berlebihan.
 
 Pengurus projek atau Pengurus sumber kemudiannya boleh menggunakan Papan Jadual untuk menguruskan sebarang keadaan yang sumber ditempah melebihi kapasitinya.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

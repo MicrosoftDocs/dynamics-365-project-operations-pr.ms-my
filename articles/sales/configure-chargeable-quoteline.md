@@ -2,18 +2,16 @@
 title: Konfigurasikan komponen boleh dituntut bagi baris sebut harga berdasarkan projek
 description: Topik ini memberikan maklumat tentang komponen yang disertakan, boleh dituntut dan tidak boleh dituntut pada baris sebut harga berdasarkan projek.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5484c37181bc8a26a6dfe67807093cc83e53e703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278744"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004007"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfigurasikan komponen boleh dituntut bagi baris sebut harga berdasarkan projek
 

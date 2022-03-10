@@ -2,8 +2,6 @@
 title: Jejaki kemajuan dan kod projek
 description: Cara untuk menjejaki kemajuan dan kos projek dalam Project Service
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8cc0b0ca69258455296dd99de8a5ecf675abe81c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: fe8a8e1776b10fff0dc137e329c58eb530591a6e6adde0ac58ca83d323c5da4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081316"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992307"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>Jejaki kemajuan dan kos projek (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -38,3 +38,6 @@ Kadang-kadang anda mungkin perlu menyemak semula anggaran asal dalam tugas. Tuga
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

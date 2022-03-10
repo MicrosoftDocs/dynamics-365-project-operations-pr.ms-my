@@ -1,8 +1,6 @@
 ---
 title: Bagaimanakah saya menyesuaikan aliran proses perniagaan Project Stages?
 description: Gambaran keseluruhan tentang cara menyesuaikan aliran proses perniagaan Peringkat Projek.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149014"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002972"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Bagaimanakah saya menyesuaikan aliran proses perniagaan Project Stages?
 
@@ -62,11 +60,11 @@ Jika menaik taraf bukan satu pilihan, anda boleh menyesuaikan aliran proses pern
 1. Tambah peringkat tambahan kepada konfigurasi lalai, sementara mengekalkan nama Bahasa Inggeris peringkat untuk **Quote**, **Plan** dan **Close**.
 
 
-![Tangkap layar bagi penambahan peringkat kepada konfigurasi lalai](media/FAQ-Customize-BPF-1.png)
+![Tangkapan skrin penambahan peringkat kepada konfigurasi lalai.](media/FAQ-Customize-BPF-1.png)
  
 2. Cipta aliran proses perniagaan anda sendiri dan jadikannya aliran proses perniagaan utama bagi entiti projek yang membolehkan anda mempunyai sebarang nama peringkat yang anda inginkan. Walau bagaimanapun, jika anda mahu menggunakan standard peringkat projek **Quote**, **Plan** dan **Close** yang sama, anda perlu melakukan beberapa penyesuaian yang memaksa keluar nama peringkat tersuai anda. Logik yang lebih kompleks adalah dalam penutupan projek, yang anda masih boleh cetuskan dengan hanya menyahaktifkan rekod projek.
 
-![Penyesuaian BPF](media/FAQ-Customize-BPF-2.png)
+![Penyesuaian BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Pertimbangan tambahan bagi aplikasi Project Service versi 2.4.4.30 atau lebih awal pada platform 9.0
 
@@ -82,11 +80,11 @@ Untuk mencipta aliran proses perniagaan anda sendiri bagi entiti projek, lakukan
 
 1. Pergi ke **Tetapan** > **Pusat Proses**. Jangan menyalin aliran proses perniagaan Project Stages kerana itu turut menyalin logik perniagaan Project Service.
 
-  ![Cipta proses](media/FAQ-Customize-BPF-3.png)
+  ![Cipta proses.](media/FAQ-Customize-BPF-3.png)
 
 2. Gunakan Pereka Proses untuk mencipta nama peringkat yang anda inginkan. Jika anda mahu fungsi yang sama sebagai peringkat lalai untuk **Quote**, **Plan** dan **Close**, anda perlu mencipta fungsi itu berdasarkan nama peringkat aliran proses perniagaan tersuai anda.
 
-   ![Tangkap layar Pereka Proses yang digunakan untuk menyesuaikan BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Tangkapan skrin Pereka Proses yang digunakan untuk menyesuaikan BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. Dalam Pereka Proses, klik **Aliran Proses Pesanan** untuk menjadikan aliran proses perniagaan tersuai sebagai aliran proses perniagaan utama bagi entiti projek dengan memindahkannya di atas aliran proses perniagaan Project Stages ke bahagian atas senarai.
 
@@ -97,13 +95,16 @@ Untuk mencipta aliran proses perniagaan anda sendiri bagi entiti projek, lakukan
 
 4. Tambah medan tersuai baru kepada entiti projek untuk merekodkan peringkat tersuai dalam aliran proses perniagaan tersuai anda. Anda perlu menambah logik perniagaan (plugin/aliran kerja) untuk mengemas kini medan ini apabila peringkat pada aliran proses perniagaan tersuai dikemas kini.
 
-   ![Tangkap layar penyesuaian Entiti projek](media/FAQ-Customize-BPF-6-720.png)
+   ![Tangkapan skrin penyesuaian entiti Projek.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Ubah suai carta **Projek Mengikut Peringkat** untuk menggunakan medan tersuai baru anda bagi peringkat.
 
-   ![Tangkap layar penggunaan carta Projek Mengikut Peringkat](media/FAQ-Customize-BPF-7-720.png)
+   ![Tangkapan skrin penggunaan carta Projek Mengikut Peringkat.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Ubah suai sebarang pandangan bagi entiti projek untuk memasukkan medan tersuai baru anda bagi peringkat.
 
-   ![Tangkap layar pengubahsuaian pandangan pada Entiti projek](media/FAQ-Customize-BPF-8-720.png)
+   ![Tangkapan skrin pengubahsuaian pandangan pada entiti Projek.](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

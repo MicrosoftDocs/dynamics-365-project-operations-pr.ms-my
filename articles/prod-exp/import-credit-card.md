@@ -2,11 +2,9 @@
 title: Import dan selenggara transaksi kad kredit
 description: Topik ini menerangkan cara mengimport dan mengekalkan transaksi kad kredit yang berkaitan dengan perbelanjaan. Transaksi ini boleh disediakan supaya ia diimport secara automatik pada jadual yang berulang, atau ia boleh diimport secara manual mengikut keperluan.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7bf75c13bb190c7b992aa516f1593d886dfa604d
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
-ms.translationtype: HT
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960438"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995862"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Import dan selenggara transaksi kad kredit
 
 Transaksi kad kredit berkaitan perbelanjaan boleh ditetapkan supaya ia diimport secara automatik pada jadual yang berulang. Secara alternatif, transaksi boleh diimport secara manual apabila diperlukan. Transaksi kad kredit diimport melalui entiti data transaksi kad Kredit.
 
-Untuk mendapatkan maklumat lanjut tentang entiti data, lihat [Entiti data](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Untuk mendapatkan maklumat lanjut tentang entiti data, lihat [Entiti data](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Import transaksi kad kredit
 
@@ -50,3 +48,6 @@ Untuk mendapatkan maklumat lanjut tentang entiti data, lihat [Entiti data](https
 Selepas rekod pekerja ditamatkan, akaun Active Directory Domain Services (AD DS) pekerja dinyahdayakan. Walau bagaimanapun, kemungkinan terdapat transaksi kad kredit aktif yang masih perlu dibelanjakan dan dibayar balik. Daripada halaman **Transaksi kad kredit**, anda boleh menugaskan semula pekerja untuk sebarang transaksi kad kredit bagi pekerja berkaitan yang telah ditamatkan.
 
 Pilih satu atau lebih transaksi kad kredit dan kemudian pilih **Tugaskan semula transaksi**. Anda kemudian boleh memilih pekerja lain untuk transaksi kad kredit yang ditugaskan. Selepas transaksi kad kredit telah ditugaskan semula, ia boleh dipilih untuk laporan perbelanjaan dan dibayar melalui proses biasa bagi pembayaran balik laporan perbelanjaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

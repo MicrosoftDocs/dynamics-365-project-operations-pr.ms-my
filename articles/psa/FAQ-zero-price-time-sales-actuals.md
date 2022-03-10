@@ -2,8 +2,6 @@
 title: Mengapakah harga itu ditetapkan lalai kepada sifar pada masa jualan sebenar?
 description: Penyelesaian masalah sebab harga ditetapkan lalai kepada 0 pada masa jualan sebenar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5106e8c1a059bbb0efbeb73dc63e03e8bc9e4b7b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125954"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992577"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Mengapakah harga ditetapkan lalai kepada sifar pada masa jualan sebenar?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -55,3 +55,6 @@ Jika tiada baris dalam grid harga peranan untuk dimensi penentuan harga pada mas
 
 Jika anda masih tidak melihat harga sah pada masa jualan sebenar anda selepas mengikuti tiga semakan di atas, sila log tiket sokongan. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

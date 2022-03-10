@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501427"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928672"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -159,7 +159,6 @@ Segar semula akan mengambil masa kira-kira 20 minit. Anda akan menerima isyarat 
       - **Kalendar Fiskal**
       - **Lejar**
       - **Syarikat**
-      - **Jenis Kadar Tukaran Mata Wang**
       - **Perbelanjaan**
 
 5. Selepas peranan keselamatan dikemas kini, pergi ke **Tetapan** > **Keselamatan** > **Pasukan**, dan pilih pasukan lalai dalam paparan pasukan **Pemilik Perniagaan Tempatan**.

@@ -6,12 +6,12 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c6d3cd6056466be686f15c9f332c8274aeb0ac19
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013947"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997977"
 ---
 # <a name="cost-to-complete-methods"></a>Kos untuk melengkapkan kaedah
 
@@ -21,7 +21,7 @@ Topik ini memberikan maklumat tentang kaedah yang digunakan untuk mengira kos un
 
 Apabila anda mencipta anggaran untuk projek, pada halaman **Cipta anggaran**, dalam medan **Kos untuk melengkapkan kaedah**, anda boleh memilih salah satu daripada kos berikut untuk melengkapkan kaedah.
 
-| Kos untuk melengkapkan kaedah    | Penerangan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Kos untuk melengkapkan kaedah    | Penerangan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jumlah kos sebenar            | Masukkan kos anggaran secara manual dalam medan **Jumlah kos** atau **Jumlah kuantiti** menggunakan butang **Anggaran kos** pada **Halaman anggaran**. Sistem menolak kos sebenar daripada jumlah yang anda masukkan. Jumlah ini merupakan kos untuk melengkapkan projek. Kaedah ini tidak menggunakan anggaran perbelanjaan dan penugasan sumber yang dimasukkan dalam Project Operations dibina dalam Microsoft Dataverse. Jumlah kos atau jumlah kuantiti boleh dikemas kini secara manual seperti yang diperlukan.  |
 | Jumlah ramalan sebenar        | Penugasan sumber dan anggaran perbelanjaan digunakan untuk menentukan jumlah amaun ramalan projek. Kos sebenar dibandingkan dengan ramalan ini untuk mengira kos untuk dilengkapkan.                                                                                                                                                                                                                                                                          |

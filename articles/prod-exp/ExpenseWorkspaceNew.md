@@ -1,12 +1,10 @@
 ---
 title: Laporan perbelanjaan direka semula
-description: Topik ini menyediakan maklumat tentang pengalaman yang direka dan dibentuk semula untuk entri laporan perbelanjaan dalam Microsoft Dynamics 365 Finance. Pengalaman baharu ini meringkaskan proses melengkapkan laporan perbelanjaan dan mengurangkan masa yang diperlukan.
+description: Topik ini memberikan maklumat mengenai pengalaman yang direka dan digambarkkan semula untuk entri laporan perbelanjaan.
 author: ryansandness
-manager: AnnBe
 ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,15 +13,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
-ms.translationtype: HT
+ms.openlocfilehash: fa111917ffd3107413846dae67c56fd2495cfc1e1bc7362152138efd7bf3b869
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650150"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986097"
 ---
 # <a name="redesigned-expense-reports"></a>Laporan perbelanjaan direka semula
-[!include[banner](../includes/banner.md)]
 
 Entri laporan perbelanjaan telah direka semula untuk meringkaskan proses melengkapkan laporan perbelanjaan dan mengurangkan masa yang diperlukan. Berikut ialah komponen utama pengalaman perbelanjaan baharu:
 
@@ -41,12 +38,6 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 - Item menu baharu untuk keterlihatan medan perbelanjaan ditambah.
 - Tiada item menu sedia ada untuk laporan perbelanjaan (halaman semasa) atau medan laporan perbelanjaan dialih keluar.
 - Aliran kerja dan sebarang kelulusan masih akan membawa anda ke halaman laporan perbelanjaan sedia ada.
-
-## <a name="getting-started-video-for-new-users"></a>Video mari bermula untuk pengguna baharu
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Pengalaman perbelanjaan dalam video Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditunjukkan di atas) termasuk dalam senarai main [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
 
 ## <a name="new-features"></a>Ciri-ciri baru
 
@@ -79,3 +70,6 @@ Ciri berikut ditunjukkan pada halaman sedia ada tetapi masih belum ditunjukkan p
 - Aliran kerja peringkat baris
 - Sokongan pelulus interim
 - Perincian lanjutan
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

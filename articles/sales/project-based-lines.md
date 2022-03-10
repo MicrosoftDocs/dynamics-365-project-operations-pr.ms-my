@@ -2,18 +2,16 @@
 title: Baris peluang berdasarkan projek
 description: Topik ini memberikan maklumat tentang bekerja dengan baris peluang berdasarkan projek.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181958"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996357"
 ---
 # <a name="project-based-opportunity-lines"></a>Baris peluang berdasarkan projek
 
@@ -33,3 +31,6 @@ Di bawah ialah medan pada baris peluang berdasarkan projek:
 | Nama | Tab umum | Ini ialah medan teks boleh diedit yang boleh digunakan untuk memberikan identiti ringkas kepada item baris | Nilai ini dibawa ke dalam baris sebut harga apabila anda mencipta sebut harga daripada peluang ini |
 | Belanjawan Pelanggan | Tab umum | Medan mata wang boleh diedit ini boleh digunakan untuk menjejaki amaun yang pelanggan sanggup belanja untuk item baris ini. | Nilai ini dibawa ke dalam medan yang sepadan pada baris sebut harga apabila anda mencipta sebut harga daripada peluang ini |
 | Kaedah Pengebilan | Tab umum | Medan boleh diedit ini mempunyai nilai yang berikut:</br>- Masa dan Bahan</br>- Harga Tetap | Nilai ini dibawa ke dalam medan yang sepadan pada baris sebut harga apabila anda mencipta sebut harga daripada peluang ini. Selepas baris sebut harga dicipta, medan dikunci dan tidak boleh diubah. Peruntukkan nilai medan ini setepat yang mungkin. Jika anda perlu mengubah nilai medan ini pada baris sebut harga, padamkan dan cipta semula baris sebut harga. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Pindahkan projek belanjawan pada akhir tahun fiskal
 description: Artikel ini memberikan maklumat tentang cara untuk memindahkan amaun belanjawan yang tinggal ke tahun hadapan dan mencipta butiran daftar belanjawan.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081361"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007382"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Pindahkan projek belanjawan pada akhir tahun fiskal
 
@@ -98,3 +96,6 @@ Apabila anda memproses amaun belanjawan yang tinggal, anda boleh mencipta transa
 5. Bagi setiap projek yang anda mahu proses, pilih pilihan pada permulaan baris untuk projek. 
 6. Pilih **Proses** untuk memindahkan amaun belanjawan yang tinggal untuk projek yang dipilih kepada tahun fiskal yang dipilih.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

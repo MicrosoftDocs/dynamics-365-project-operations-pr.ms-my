@@ -2,11 +2,9 @@
 title: Aliran kerja Pengurusan perbelanjaan
 description: Topik ini menerangkan cara anda boleh menggunakan sistem aliran kerja dalam Microsoft Dynamics 365 Finance, untuk menyediakan proses semakan untuk laporan perbelanjaan dalam Pengurusan perbelanjaan.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbee90450749c89f643d96e4d41a387c45e9abc5
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
-ms.translationtype: HT
+ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960573"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001307"
 ---
 # <a name="expense-management-workflow"></a>Aliran kerja Pengurusan perbelanjaan
 
@@ -55,3 +53,6 @@ Proses berikut ialah contoh aliran kerja pengurusan perbelanjaan untuk laporan p
 Selepas keperluan ini disahkan, laporan perbelanjaan akan disiarkan.
 
 Selepas laporan perbelanjaan disiarkan, pembayaran dibenarkan untuk laporan perbelanjaan, dan pekerja akan dibayar balik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Panduan pengurus sumber
 description: Panduan kepada pengurusan sumber dalam Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4b9df18e7240450f01271b73eb6ea7e215be38c5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282839"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984984"
 ---
 # <a name="resource-manager-guide-project-service"></a>Panduan pengurus sumber (Project Service)
 

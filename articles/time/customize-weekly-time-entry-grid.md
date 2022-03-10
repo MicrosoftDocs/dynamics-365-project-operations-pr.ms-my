@@ -2,24 +2,22 @@
 title: Melanjutkan entri masa
 description: Topik ini memberikan maklumat mengenai cara pemaju dapat melanjutkan kawalan kemasukan masa.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081127"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993342"
 ---
 # <a name="extending-time-entries"></a>Melanjutkan entri masa
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Operasi Projek Dynamics 365 termasuk kawalan tersuai kemasukan masa yang boleh dipanjangkan. Kawalan ini termasuk ciri-ciri berikut:
+Dynamics 365 Project Operations termasuk kawalan tersuai entri masa yang boleh dilanjutkan. Kawalan ini termasuk ciri-ciri berikut:
 
 - Masukkan masa secara mendatar selama seminggu
 - Jumlah mengikut hari, baris atau minggu
@@ -144,3 +142,6 @@ Gunakan pengesahan pasang masuk untuk sebarang pengesahan yang memerlukan lebih 
 
 ### <a name="copying-time-entries"></a>Menyalin entri masa
 Gunakan pandangan **Salin Lajur Entri Masa** untuk mentakrifkan senarai medan untuk disalin semasa entri masa. **Tarikh** dan **Tempoh** adalah medan yang diperlukan dan tidak boleh dialih keluar daripada pandangan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

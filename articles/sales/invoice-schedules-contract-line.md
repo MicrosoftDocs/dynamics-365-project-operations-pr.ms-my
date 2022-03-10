@@ -2,18 +2,16 @@
 title: Buat jadual invois pada baris kontrak berdasarkan projek
 description: Topik ini menyediakan maklumat mengenai cara membuat jadual invois dan pencapaian pada baris kontrak.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180788"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999687"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Buat jadual invois pada baris kontrak berdasarkan projek 
 
@@ -49,7 +47,7 @@ Lengkapkan langkah berikut untuk menjana jadual jadual invois berasaskan pencapa
 3. Buka baris kontrak **Harga Tetap** yang anda ciptakan jadual pencapaian. Pada tab **Pencapaian Pengebilan** , pilih tarikh mula pengebilan dan kekerapan invois. 
 4. Pada subgrid, pilih **Jana Pencapaian Berkala**. Jadual invois dijana dengan **Nama Pencapaian**, **Tarikh Pencapaian** dan medan **Jumlah Pencapaian** ditetapkan seperti berikut:
 
-    - **Nama Pencapaian**: Tarikh ini yang ditentukan oleh kekerapan invois.
+    - **Nama Pencapaian**: Nama ini ditentukan oleh kekerapan invois.
     - **Tarikh Pencapaian**: Tarikh ini yang ditentukan oleh kekerapan invois.
     - **Jumah Pencapaian**: Jumlah ini dikira dengan membahagikan jumlah kontrak pada baris kontrak dengan bilangan pencapaian yang ditentukan oleh kekerapan dan tarikh mula pengebilan dan tarikh penghantaran yang diminta.
 
@@ -64,7 +62,7 @@ Anda boleh menjana pencapaian harga tetap apabila tidak berpecah secara berkala.
 1. Buka baris kontrak harga tetap yang anda akan mencipta pencapaian dan pada tab **Jadual Invois**, pada subgrid, pilih **+Cipta pencapaian Baris kontrak baharu**. 
 2. Pada halaman **Penciptaan pencapaian**, masukkan maklumat yang diperlukan berdasarkan jadual berikut.
 
-| Medan | Lokasi | Penerangan  | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Nama Pencapaian | Cipta Cepat | Medan teks untuk nama pencapaian. | Ini telah dibawa kepada pencapaian baris kontrak pencapaian dan invois. |
 | Tugas Projek | Cipta Cepat | Jika pencapaian tersebut terikat dengan tugas projek, gunakan rujukan ini untuk menambah logik tersuai untuk menetapkan status pencapaian berdasarkan status tugas. | Aplikasi ini tidak mempunyai sebarang kesan hiliran bagi rujukan ini kepada tugas. |
@@ -74,3 +72,6 @@ Anda boleh menjana pencapaian harga tetap apabila tidak berpecah secara berkala.
 | Cukai | Cipta Cepat | Jumlah cukai yang dikenakan ke atas pencapaian tersebut. | Ini telah dibawa kepada pencapaian baris kontrak pencapaian dan invois. |
 
 3. Pilih **Simpan dan Tutup**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

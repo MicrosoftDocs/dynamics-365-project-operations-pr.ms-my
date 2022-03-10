@@ -2,11 +2,9 @@
 title: Ruang kerja entri masa Projek
 description: Topik ini memberikan maklumat tentang ruang kerja mudah alih entri masa Projek. Ruang kerja ini membolehkan pengguna memasukkan dan menjimatkan masa terhadap projek dengan menggunakan peranti mudah alih mereka.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989562"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Ruang kerja entri masa Projek
 
@@ -96,7 +94,7 @@ Muat turun dan pasang tambahan aplikasi mudah alih Finance and Operations:
 3.  Kali pertama anda mendaftar masuk, anda akan diprom untuk nama pengguna dan kata laluan anda. Masukkan kelayakan anda.
 4.  Selepas anda mendaftar masuk, ruang kerja yang tersedia untuk syarikat anda ditunjukkan. Ambil perhatian bahawa jika pentadbir sistem anda menerbitkan ruang kerja baharu kemudian, anda perlu menyegarkan semula senarai ruang kerja mudah alih.
 
-[![Tarik untuk segar semula](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Tarik untuk segar semula.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Isikan masa dengan menggunakan ruang kerja mudah alih entri masa Projek
 1.  Pada peranti mudah alih anda, pilih ruang kerja **entri masa Projek**.

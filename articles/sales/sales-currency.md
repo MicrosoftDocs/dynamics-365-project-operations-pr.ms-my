@@ -2,11 +2,9 @@
 title: Mata wang
 description: Topik ini menyediakan maklumat tentang cara menambah dan mengalih keluar jenis mata wang dalam Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121229"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999597"
 ---
 # <a name="currency"></a>Mata wang
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Mata wang menentukan harga produk dalam katalog produk dan kos transaksi, seperti pesanan jualan. Jika pelanggan anda tersebar di seluruh dunia, tambah mata wang mereka untuk mengurus transaksi anda. Tambah mata wang yang paling sesuai dengan mata wang dan keperluan perniagaan akan datang anda.  
 
@@ -69,3 +69,6 @@ Sebelum anda memulakan prosedur ini, sahkan bahawa peranan keselamatan anda meng
 
 > [!IMPORTANT]
 >  Anda tidak boleh memadamkan mata wang yang sedang digunakan oleh rekod lain; anda hanya boleh menyahaktifkannya. Menyahaktifkan rekod mata wang tidak mengalih keluar maklumat mata wang yang disimpan dalam rekod sedia ada, seperti peluang atau pesanan. Bagaimanapun, anda tidak akan dapat memilih mata wang yang dinyahaktifkan untuk transaksi baharu.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

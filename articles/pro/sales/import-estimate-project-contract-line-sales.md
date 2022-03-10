@@ -1,21 +1,19 @@
 ---
-title: Mengimport anggaran kepada baris kontrak berasaskan projek
+title: Import anggaran ke baris kontrak berdasarkan projek - ringan
 description: Topik ini menyediakan maklumat tentang cara mengimport anggaran kewangan daripada projek kepada baris kontrak.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ac367baba4529e86a42d812b7d9b2550812e297
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
-ms.translationtype: HT
+ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4081461"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997257"
 ---
-# <a name="importing-an-estimate-to-a-project-based-contract-line"></a>Mengimport anggaran kepada baris kontrak berasaskan projek
+# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Import anggaran ke baris kontrak berdasarkan projek - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
@@ -60,3 +58,6 @@ Apabila pengguna memilih untuk merumuskan mengikut **Kelas Transaksi**, **Katego
 | Tugas A | Tambang penerbangan | 10/1/2020 | 4 | 400 | 1600 |
 | Tugas B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Tugas C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

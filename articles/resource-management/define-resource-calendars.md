@@ -2,18 +2,16 @@
 title: Takrifkan kalendar sumber
 description: Topik ini memberikan maklumat mengenai cara untuk mentakrifkan kalendar waktu kerja untuk sumber dalam Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a7b7c45ad2116519b0369bfd3d7cf6743704f4e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279824"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990327"
 ---
 # <a name="define-resource-calendars"></a>Takrifkan kalendar sumber
 

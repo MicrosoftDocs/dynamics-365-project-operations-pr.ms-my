@@ -2,8 +2,6 @@
 title: Buat eksperimen dengan data demo
 description: Cara untuk memuat turun dan eksperimen dengan data demo untuk Project Service Automation.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 91cf4150c651794fe38ebf5a406cad936aa5105d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 49b5f0fe9c35e6975fa05c592920f38203a888d49a341c8c54005c4bdb3a0786
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998112"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Eksperimen dengan data demo (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Untuk membiasakan diri dengan Dynamics 365 Project Service Automation, mempunyai persekitaran yang diprakonfigurasikan untuk meneroka adalah sesuatu yang berguna. Untuk tujuan ini, kami telah mencipta pakej pemasangan data sampel berasingan (Bahasa Inggeris sahaja pada masa ini) yang menjadikannya lebih mudah untuk mengetahui tentang penyelesaian ini. 
 
@@ -53,3 +53,6 @@ Untuk mendapatkan maklumat lanjut, lihat [blog](https://blogs.msdn.microsoft.com
  [Panduan Pengurus Projek](../psa/project-manager-guide.md)   
  [Panduan Pengurus Sumber](../psa/resource-manager-guide.md)   
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Matikan dimensi penetapan harga
 description: Topik ini menyediakan maklumat tentang cara mematikan dimensi penetapan harga.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274739"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994512"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Matikan dimensi penetapan harga
 
@@ -34,17 +32,17 @@ Mematikan dimensi penetapan harga, tanpa mengira jika ia di luar kotak atau ters
 
 Walau bagaimanapun, apabila anda melakukannya, anda mungkin menerima message ralat, **Dimensi penetapan harga tidak boleh dikemas kini atau dipadam jika terdapat rekod harga yang berkaitan.**
 
-![Ralat Proses Perniagaan mungkin apabila memadamkan dimensi penetapan harga](media/Business-Process-Error.png)
+![Ralat Proses Perniagaan mungkin berlaku apabila memadamkan dimensi penentuan harga.](media/Business-Process-Error.png)
 
 Mesej ralat ini menunjukkan bahawa terdapat rekod harga yang ditetapkan sebelum ini untuk dimensi yang sedang dipadamkan. Semua **Harga Peranan** dan **Tokokan Harga Peranan** yang merujuk kepada dimensi mesti dipadamkan sebelum kebolehgunaan dimensi boleh ditetapkan ke **Tidak**. Peraturan ini diguna pakai untuk kedua-dua dimensi penetapan harga luar kotak dan sebarang dimensi penetapan harga tersuai yang anda telah cipta. Sebab pengesahan ini adalah kerana rekod **Harga Peranan** masing-masing mesti mempunyai kombinasi dimensi yang unik. Sebagai contoh, pada senarai harga yang dipanggil **Kadar Kos 2018 AS**, anda mempunyai baris harga **Peranan harga**. 
 
-| Tajuk Standard         | Unit Organisasi    |Unit   |Harga  |Mata Wang  |
+| Tajuk Standard         | Unit Organisasi    |Unit   |Harga  |Mata wang  |
 | -----------------------|-------------|-------|-------|----------|
-| Jurutera sistem|Contoso AS|Hour| 100|USD|
-| Jurutera Sistem Senior|Contoso AS|Hour| 150| USD|
+| Jurutera sistem|Contoso AS|Jam| 100|USD|
+| Jurutera Sistem Senior|Contoso AS|Jam| 150| USD|
 
 
-Apabila anda mematikan **Tajuk Standard** sebagai dimensi penetapan harga dan enjin penetapan harga mencari harga, ianya akan hanya menggunakan nilai **Unit Organisasi** daripada konteks input. Jika **Unit Organisasi** konteks input ialah "Contoso US", hasilnya tidak akan ditentukan kerana kedua-dua baris akan dipadankan. Untuk mengelakkan senario ini, apabila anda mencipta rekod **Harga Peranan**, sistem mengesahkan bahawa kombinasi dimensi adalah unik. Jika dimensi telah dimatikan selepas rekod **Peranan Harga** dicipta, kekangan ini boleh dilanggar. Oleh itu, ia adalah diperlukan bahawa sebelum anda mematikan dimensi, anda memadamkan **Peranan Harga** dan **Tokokan Harga Peranan** yang mempunyai nilai dimensi yang diisi.
+Apabila anda mematikan **Tajuk Standard** sebagai dimensi penetapan harga dan enjin penetapan harga mencari harga, ianya akan hanya menggunakan nilai **Unit Organisasi** daripada konteks input. Jika **Unit Organisasi** konteks input ialah "Contoso AS", hasilnya tidak akan ditentukan kerana kedua-dua baris akan sepadan. Untuk mengelakkan senario ini, apabila anda mencipta rekod **Harga Peranan**, sistem mengesahkan bahawa kombinasi dimensi adalah unik. Jika dimensi telah dimatikan selepas rekod **Peranan Harga** dicipta, kekangan ini boleh dilanggar. Oleh itu, ia adalah diperlukan bahawa sebelum anda mematikan dimensi, anda memadamkan **Peranan Harga** dan **Tokokan Harga Peranan** yang mempunyai nilai dimensi yang diisi.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

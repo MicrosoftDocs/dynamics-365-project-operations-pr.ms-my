@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025785"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547120"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versi peta dwi tulis Project Operations
 
@@ -32,7 +32,7 @@ Peta berikut memerlukan prasyarat untuk penyelesaian Project Operations. Pastika
 
 1. Daripada senarai peta, pilih peta Lejar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak semak **Initial sync**. Dalam medan **Induk untuk penyegerakan awal**, pilih aplikasi **Finance and Operations** untuk kedua-dua peta lejar dan semua peta prasyarat. Pilih **Jalankan**.
 
-![Penyegerakan peta lejar](media/DW6.png)
+![Penyegerakan peta lejar.](media/DW6.png)
 
 2. Ikuti langkah yang sama untuk semua baki peta jadual yang disenaraikan dalam jadual di atas. Jangan pilih kotak semak **Penyegerakan awal** apabila menjalankan peta itu.
 
@@ -49,8 +49,8 @@ Peta berikut diperlukan untuk penyelesaian Project Operations. Versi peta dwitul
 | Jadual integrasi Project Operations untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. |
 | Cadangan invois projek V2 (invois) | 1.0.0.3 | Tidak diperlukan untuk peruntukan. |
 | Aktual integrasi Project Operations (msdyn_actuals) | 1.0.0.14 | Tidak diperlukan untuk peruntukan. |
-| Pencapaian baris kontrak integrasi Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. |
-| Entiti integrasi Project Operations untuk anggaran perbelanjaan (msdyn_estimateslines) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. |
+| Pencapaian baris kontrak integrasi Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. |
+| Entiti integrasi Project Operations untuk anggaran perbelanjaan (msdyn_estimatelines) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. |
 | Entiti integrasi Project Operations untuk anggaran jam (msdyn_resourceassignments) | 1.0.0.5 | Tidak diperlukan untuk peruntukan. |
 | Entiti eksport kategori perbelanjaan projek integrasi Project Operations (msdyn_expensecategories) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. |
 | Entiti eksport perbelanjaan projek integrasi Project Operations (msdyn_expenses) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. |
@@ -65,7 +65,7 @@ Lengkapkan langkah berikut untuk menjalankan peta yang disenaraikan.
 
 1. Dayakan peranan sumber Projek untuk peta jadual **semua syarikat (bookableresourcecategories)** kerana peta ini memerlukan penyegerakan awal. Dalam medan **Induk untuk penyegerakan awal**, pilih **Common Data Service**. 
 
- ![Penyegerakan peta jadual peranan sumber](media/6ResourceInitialSync.jpg)
+ ![Penyegerakan peta jadual peranan sumber.](media/6ResourceInitialSync.jpg)
 
  Tunggu sehingga status peta adalah **Berjalan** sebelum anda berpindah ke langkah seterusnya.
 

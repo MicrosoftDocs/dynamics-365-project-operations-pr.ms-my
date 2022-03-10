@@ -2,19 +2,17 @@
 title: Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan stok/pengeluaran
 description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Disember 2020 bagi Project Operations untuk senario berasaskan stok/pengeluaran.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
-ms.translationtype: HT
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008822"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Perkara baharu atau perubahan dalam Project Operations, Disember 2020 untuk senario berasaskan stok/pengeluaran
 
@@ -141,4 +139,7 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk maklumat tentang kemas kini kawal selia untuk Dynamics 365 Finance, lihat [Kemas kini kawal selia](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk Dynamics 365 Finance, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

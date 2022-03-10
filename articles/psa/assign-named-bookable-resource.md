@@ -2,8 +2,6 @@
 title: Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugasan
 description: Topik ini memberikan maklumat tentang cara menempah sumber dinamakan kepada pasukan projek dan tugaskannya kepada tugasan.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8568921dd16472f10a7043c5fe3f58b9f5cd3989ad39e3a3bdf269b0c7203ae2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130184"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998652"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugasan 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -34,35 +34,38 @@ Anda boleh menambahkan sumber yang dinamakan kepada pasukan projek anda dengan m
 1. Dalam Project Service Automation, pergi ke **Projek** dan pilih buka projek yang anda tempah.
 2. Pada halaman **Projek**, pada tab **Pasuka**, klik **Baharu**. 
 
-![Menambah ahli pasukan daripada tab pasukan](media/RM-how-to-1.png)
+![Menambah ahli pasukan daripada tab pasukan.](media/RM-how-to-1.png)
 
 3. Dalam kotak dialog **Ahli Pasukan Projek Cipta Pantas**, pilih sumber boleh ditempah. Medan **Peranan** akan mengisi peranan lalai sumber jika mereka mempunyai satu yang ditugaskan. Anda boleh mengubahnya peranan jika perlu. 
 4. Pilih tarikh dari dan hingga yang sumber akan perlu dan pilih kaedah peruntukan bagi kapasiti sumber. 
 5. Jika anda mahu ahli pasukan untuk menjadi pelulus projek, pilih **Ya** dalam medan **Pelulus Projek**. Ini bermakna ahli pasukan boleh meluluskan entri masa dan perbelanjaan yang diserahkan untuk projek ini. 
 6. Klik **Simpan**.
 
-![Menambah ahli pasukan pada borang cipta cepat](media/RM-how-to-2.png)
+![Menambah ahli pasukan pada borang cipta cepat.](media/RM-how-to-2.png)
 
 
 Anda kini boleh menugaskan sumber boleh ditempah kepada tugasan pada projek. Pada halaman **Projek**, klik tab **Jadual** untuk menugaskan tugasan ke sumber baharu. Pemilih sumber yang dilancarkan daripada medan **Sumber** dalam grid tugas akan menunjukkan ahli pasukan yang anda boleh pilih.
 
-![Menugaskan ahli pasukan kepada tugas pada tab jadual](media/RM-how-to-3.png)
+![Menugaskan ahli pasukan kepada tugas pada tab jadual.](media/RM-how-to-3.png)
 
 Dalam versi 3 untuk Project Service Automation (PSA), tempahan sumber dan tugasan tugas tidak disertakan dengan ketat. Ini bermaksud apabila anda menggunakan pemilih sumber dalam jadual, anda boleh menugaskan tugas kepada ahli pasukan untuk lebih masa lebih daripada liputan penempahan mereka pada projek.
 Anda boleh melihat perbezaan antara tempahan ahli pasukan dan tugasan pada tab **Pasukan** atau tab **Penyelarasan Sumber**. Anda juga boleh menyelaraskan perbezaan antara penempahan dan tugasan untuk sumber pada tahap yang lebih terperinci.
 
-![Tab penyelarasan sumber](media/RM-how-to-4.png)
+![Tab Penyelarasan sumber.](media/RM-how-to-4.png)
 
 Anda juga boleh menggunakan pemilih sumber pada tab **Jadual** untuk mencari dan memilih sumber boleh ditempah yang bukan sudah sebahagian daripada pasukan projek. Ini ditunjukkan dalam pemilih sumber sebagai **Sumber Lain**.
 
-![Memperuntukkan sumber ahli bukan pasukan kepada tugas](media/RM-how-to-5.png)
+![Memperuntukkan sumber ahli bukan pasukan kepada tugas.](media/RM-how-to-5.png)
 
 Apabila anda lakukan ini, sumber ditambah kepada pasukan projek dan ditugaskan kepada tugas, tetapi tiada tempahan yang dijana.
 
-![Ahli pasukan dengan tugasan dan tiada tempahan](media/RM-how-to-6.png)
+![Ahli pasukan dengan tugasan dan tiada tempahan.](media/RM-how-to-6.png)
 
 Anda boleh menggunakan keupayaan tempahan lanjutan tab **Penyelarasan** atau **Papan Jadual** untuk menempah kapasiti sumber untuk projek.
 
-![Memperluas penempahan untuk ahli pasukan pada tab penyelarasan sumber](media/RM-how-to-7.png)
+![Melanjutkan tempahan untuk ahli pasukan pada tab penyelarasan sumber.](media/RM-how-to-7.png)
 
 Selepas ahli pasukan ditempah dalam projek anda, anda boleh menggunakan tempahan mengekalkan atau menggunakan Papan Jadual secara langsung untuk menguruskan tempahan mereka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

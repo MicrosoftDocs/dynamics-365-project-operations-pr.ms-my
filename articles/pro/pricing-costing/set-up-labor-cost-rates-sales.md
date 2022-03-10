@@ -1,33 +1,31 @@
 ---
-title: Sediakan kadar kos buruh
+title: Sediakan kadar kos buruh - ringan
 description: Topik ini menyediakan maklumat mengenai cara untuk menetapkan kadar kos untuk dalam buruh Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081139"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006122"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Sediakan kadar kos buruh 
+# <a name="set-up-labor-cost-rates---lite"></a>Sediakan kadar kos buruh - ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 Setiap senarai harga mempunyai set kadar buruh (harga peranan) yang selaras dengan kandungan dan tarikh keberkesanan untuk senarai harga.
 
-1. Cipta senarai harga dan pada tab **Harga Peranan**, dalam sub-grid, pilih **Peranan Baharu**.
+1. Cipta senarai harga dan pada tab **Harga Peranan**, dalam subgrid, pilih **Peranan Baharu**.
 2. Pada halaman **Cipta Pantas**, pilih peranan dan unit organisasi.
 3. Masukkan maklumat medan lain yang diperlukan.
 
 Jadual berikut termasuk beberapa medan yang penting apabila mencipta kadar buruh pada senarai harga kos.
 
-| Medan | Lokasi | Keterkaitan, tujuan dan panduan | Kesan hiliran |
+| Medan | Lokasi | Penerangan | Kesan hiliran |
 | --- | --- | --- | --- |
 | Peranan | Tab **Umum** dan halaman **Cipta Pantas** | Pilih peranan yang tertakluk kepada kadar kos tersebut. | Peranan pada anggaran masuk atau sebenar akan dipadankan dengan baris ini untuk memberi nilai lalai kos peranan. |
 | Unit Sumber | Tab **Umum** dan halaman **Cipta Pantas** | Pilih unit organisasi atau bahagian syarikat yang peranan ini akan digunakan. Sebagai contoh, pemaju dari bahagian Robotik Fabrikam India atau pemaju dari bahagian Perisian Fabrikam USA. | Unit penyumberan pada anggaran masuk atau sebenar akan dipadankan dengan baris ini untuk memberi nilai lalai kos peranan. |
@@ -38,7 +36,7 @@ Jadual berikut termasuk beberapa medan yang penting apabila mencipta kadar buruh
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Pindahan penetapan harga dan kos untuk sumber di luar bahagian anda atau entiti sah
 
-Dalam syarikat berasaskan projek, adalah perkara biasa untuk menggunakan pekerja daripada entiti atau bahagian yang berbeza pada projek. Projek boleh dilaksanakan oleh satu entiti sah, tetapi pekerja atau perunding yang bekerja pada projek boleh datang daripada entiti sah yang sama atau daripada yang lain atau kemungkinan kombinasi kedua-duanya. Dalam Dynamics 365 Project Operations, entiti sah yang memiliki penyerahan projek adalah **Syarikat yang Memiliki** dan bahagian yang memiliki penghantaran adalah **Unit Kontrak**. Entiti sah lain yang menyediakan sumber adalah **Syarikat penyumberan** dan bahagian yang menyediakan sumber ialah **Unit Penyumberan**. Di kebanyakan negara, syarikat dikehendaki memastikan bahawa sumber entiti atau bahagian sah, mengecaj syarikat pemilikan dan unit kontrak untuk penggunaan sumber.
+Dalam syarikat berasaskan projek, adalah perkara biasa untuk menggunakan pekerja daripada entiti atau bahagian yang berbeza pada projek. Projek boleh dilaksanakan oleh satu entiti sah, tetapi pekerja atau perunding yang bekerja pada projek boleh datang daripada entiti sah yang sama atau daripada yang lain atau kemungkinan kombinasi kedua-duanya. Dalam Dynamics 365 Project Operations, entiti undang-undang yang memiliki penyampaian projek ialag **Syarikat Pemilik** dan bahagian yang memiliki penghantaran ialah **Unit Kontrak**. Entiti sah lain yang menyediakan sumber adalah **Syarikat penyumberan** dan bahagian yang menyediakan sumber ialah **Unit Penyumberan**. Di kebanyakan negara, syarikat dikehendaki memastikan bahawa sumber entiti atau bahagian sah, mengecaj syarikat pemilikan dan unit kontrak untuk penggunaan sumber.
 
 Sebagai contoh, perbadanan Fabrikam mesti memastikan Fabrikam India-Robotics telah berunding kos kad kadar dengan Fabrikam US-Robotics atau Fabrikam UK-Robotics.
 
@@ -52,7 +50,7 @@ Pemaju daripada Fabrikam India-Robotic mengenakan caj $100 apabila dipinjamkan k
 | Peranan | Syarikat Penyumberan | Unit Sumber | Kadar kos |
 | --- | --- | --- | --- |
 | Pemaju | Fabrikam India | Fabrikam India-Robotics | $100 |
-| Pemaju | Fabrikam Philippines | Fabrikam Philippines-Robotics | $90 |
+| Pemaju | Fabrikam Filipina | Fabrikam Philippines-Robotics | $90 |
 | Pemaju | Fabrikam US | Fabrikam US-Robotics | $150 |
 
 3. Lampirkan senarai harga kos ini kepada unit organisasi Fabrikam US-Robotics.
@@ -82,3 +80,6 @@ Dalam senarai harga kos untuk Fabrikam UK-Robotics, kadar kos boleh dinyatakan b
 | Pemaju | Fabrikam UK | 115 GBP |
 
 Senarai harga kos boleh memberikan kadar buruh dalam berbilang mata wang. Apabila menjana anggaran kos pada projek, Project Operations akan menukar kadar kos ini ke dalam mata wang projek dan memaparkannya kepada pengguna. Apabila kemasukan masa telah diluluskan dan kos sebenar dicipta, kos sebenar dinilai dalam mata wang bagi peranan sepadan baris harga pada senarai harga kos. Kos sebenar untuk masa pada satu projek boleh direkodkan dalam berbilang mata wang. Walau bagaimanapun, apabila mengira atau meringkaskan kos buruh sebenar pada peringkat projek, Project Operations akan menukar semua kos buruh ke dalam mata wang projek yang pengguna boleh lihat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

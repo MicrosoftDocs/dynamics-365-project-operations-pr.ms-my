@@ -2,18 +2,16 @@
 title: Cipta struktur pecahan kerja
 description: Topik ini menerangkan cara untuk mencipta struktur pecahan kerja (WBS) termasuk kawalan asas dalam antara muka penjadualan baru.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841376"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928626"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Cipta struktur pecahan kerja (WBS)
 
@@ -93,13 +91,15 @@ Jadual berikut menunjukkan atribut jadual tambahan.
 | Nama | Nama tugas. |
 | ID | ID tugas dalam struktur pecahan kerja. |
 
+Sebagai pentadbir, anda boleh menentukan medan tersuai pada entiti tugas. Walau bagaimanapun, medan tidak boleh dipaparkan pada grid jadual. Untuk melihat medan tersuai anda, tambahkannya pada halaman butiran **Tugas Projek**.
+
 ## <a name="staffing-attributes"></a>Atribut kakitangan
 
-Atribut kakitangan diakses melalui medan **Sumber** dalam Jadual. Anda boleh sama ada mencari sumber sedia ada atau pilih **Cipta**, dan dalam anak tetingkap **Cipta Cepat**, tambah ahli pasukan projek sebagai sumber baharu.
+Atribut kakitangan diakses melalui medan **Sumber** dalam Jadual. Anda boleh sama ada mencari sumber sedia ada atau pilih **Cipta**, dan dalam anak tetingkap **Cipta Cepat**, tambah ahli pasukan projek sebagai sumber baharu.  Apabila anda mencari sumber menggunakan pemilih sumber dalam grid tugas, pandangan papan atau gantt, carian mengembalikan sama ada ahli pasukan projek sedia ada atau sumber boleh ditempah aktif.
 
 Medan **Peranan**, **Unit Sumber** dan **Nama Kedudukan** digunakan untuk menerangkan keperluan kakitangan untuk tugas tersebut. Atribut kakitangan ini, berserta dengan jadual tugas digunakan untuk mencari sumber tersedia untuk melakukan tugas ini.
 
-   - **Peranan**: Tentukan jenis sumber yang diperlukan untuk melakukan tugas.
+   - **Peranan** : Tentukan jenis sumber yang diperlukan untuk melakukan tugas.,
    - **Unit sumber**: Tentukan unit yang sumber untuk tugas perlu ditugaskan. Atribut ini memberi kesan kepada anggaran kos dan jualan bagi tugas jika kos dan kadar bil untuk sumber ditetapkan berdasarkan unit sumber.
    - **Nama kedudukan**: Masukkan nama mesra untuk sumber generik yang berfungsi sebagai ruang letak untuk sumber yang akhirnya akan melakukan kerja.
 
@@ -116,3 +116,28 @@ Mod tugas tidak memberi kesan ke atas kemas kini yang dibuat pada tarikh mula da
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Kebolehcapaian dan pintasan papan kekunci
 
 Grid **Jadual** boleh diakses sepenuhnya dan boleh digunakan dengan pembaca skrin seperti Pencerita, JAWS atau NVDA. Anda boleh bergerak melalui kawasan grid dengan menggunakan kekunci anak panah (seperti dalam Microsoft Excel), anda boleh menggunakan kekunci Tab untuk maju melalui elemen antaramuka pengguna interaktif dan anda boleh menggunakan kekunci anak panah Bawah, kekunci Enter atau Bar Ruang untuk memilih dan buka menu ke bawah.
+
+## <a name="project-limitations"></a>Batasan projek 
+Anda harus sedar batasan berikut jika anda menggunakan struktur pecahan kerja dalam Project Operations. Had ini diguna pakai pada projek dan tugas. Untuk mendapatkan maklumat lanjut, lihat [had dan sempadan Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Medan**                                          |  **Had**           |
+|----------------------------------------------------|----------------------|
+| Jumlah tugas maksimum untuk projek                  | 500                  |
+| Jumlah tempoh maksimum untuk projek               | 3,650 hari (10 tahun) |
+| Jumlah sumber maksimum untuk projek              | 150                  |
+| Jumlah pautan maksimum (pengganti sahaja) untuk projek | 600                  |
+| Jumlah medan tersuai maksimum untuk projek          | 10                   |
+| Item senarai semak maksimum bagi setiap tugas                   | 20                   |
+
+**Batasan tugas**
+
+| **Medan**                               |   **Had**           |
+|-----------------------------------------|-----------------------|
+| Tahap hierarki maksimum                 | 10 tahap             |
+| Pautan maksimum (pengganti + pendahulu) | 20                    |
+| Tempoh maksimum tugas daun           | 1250 hari             |
+| Tempoh maksimum tugas ringkasan      | 3,650 hari (10 tahun)  |
+| Sumber maksimum ditugaskan kepada tugas    | 20 sumber          |
+| Julat tarikh yang disokong untuk tugas         | 1/1/2000 - 31/12/2149 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

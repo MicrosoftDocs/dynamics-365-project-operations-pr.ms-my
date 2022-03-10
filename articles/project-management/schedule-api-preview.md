@@ -1,30 +1,29 @@
 ---
-title: Gunakan API jadual untuk melaksanakan operasi dengan entiti Penjadualan
-description: Topik ini menyediakan maklumat dan sampel untuk menggunakan API Jadual.
+title: Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
+description: Topik ini memberikan maklumat dan sampel untuk penggunaan API jadual Projek.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116808"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487696"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Gunakan API jadual untuk melaksanakan operasi dengan entiti Penjadualan
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-> [!IMPORTANT] 
-> Sesetengah atau semua kefungsian yang dinyatakan dalam topik ini tersedia sebagai sebahagian daripada keluaran pratonton. Kandungan dan fungsi adalah tertakluk kepada perubahan. 
+
 
 ## <a name="scheduling-entities"></a>Entiti penjadualan
 
-Api Jadual menyediakan keupayaan untuk melaksanakan operasi mencipta, mengemas kini dan memadam dengan **Entiti penjadualan**. Entiti ini diuruskan melalui enjin Penjadualan dalam Projek untuk web. Operasi mencipta, mengemas kini dan memadam dengan **Entiti penjadualan** telah dihadkan dalam keluaran Dynamics 365 Project Operations sebelum ini.
+API jadual Projek memberikan keupayaan untuk melaksanakan operasi cipta, kemas kini dan padam dengan **Entiti penjadualan**. Entiti ini diuruskan melalui enjin Penjadualan dalam Projek untuk web. Operasi mencipta, mengemas kini dan memadam dengan **Entiti penjadualan** telah dihadkan dalam keluaran Dynamics 365 Project Operations sebelum ini.
 
-Jadual berikut menyediakan senarai lengkap **Entiti penjadualan**.
+Jadual berikut memberikan senarai lengkap entiti jadual Projek.
 
 | Nama entiti  | Nama logik entiti |
 | --- | --- |
@@ -39,25 +38,25 @@ Jadual berikut menyediakan senarai lengkap **Entiti penjadualan**.
 
 OperationSet ialah corak unit kerja yang boleh digunakan apabila beberapa jadual yang mempengaruhi permintaan mesti diproses dalam transaksi.
 
-## <a name="schedule-apis"></a>API Jadual
+## <a name="project-schedule-apis"></a>API jadual Projek
 
-Berikut ialah senarai API Jadual semasa.
+Berikut ialah senarai API jadual Projek semasa.
 
 - **msdyn_CreateProjectV1**: API ini boleh digunakan untuk mencipta projek. Projek dan baldi projek lalai dicipta dengan serta-merta.
 - **msdyn_CreateTeamMemberV1**: API ini boleh digunakan untuk mencipta ahli pasukan projek. Rekod ahli pasukan dicipta dengan serta-merta.
 - **msdyn_CreateOperationSetV1**: API ini boleh digunakan untuk menjadualkan beberapa permintaan yang mesti dilaksanakan dalam transaksi.
-- **msdyn_PSSCreateV1**: API ini boleh digunakan untuk mencipta entiti. Entiti boleh jadi sebarang entiti Penjadualan yang menyokong penciptaan operasi.
-- **msdyn_PSSUpdateV1**: API ini boleh digunakan untuk mengemas kini entiti. Entiti boleh jadi sebarang entiti Penjadualan yang menyokong kemas kini operasi.
-- **msdyn_PSSDeleteV1**: API ini boleh digunakan untuk memadamkan entiti. Entiti boleh jadi sebarang entiti Penjadualan yang menyokong pemadaman operasi.
+- **msdyn_PSSCreateV1**: API ini boleh digunakan untuk mencipta entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi cipta.
+- **msdyn_PSSUpdateV1**: API ini boleh digunakan untuk mengemas kini entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi kemas kini.
+- **msdyn_PSSDeleteV1**: API ini boleh digunakan untuk memadamkan entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi padam.
 - **msdyn_ExecuteOperationSetV1**: API ini digunakan untuk melaksanakan semua operasi dalam set operasi yang diberikan.
 
-## <a name="using-schedule-apis-with-operationset"></a>Menggunakan API Jadual dengan OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Menggunakan API jadual Projek dengan OperationSet
 
 Kerana rekod dengan kedua-dua **CreateProjectV1** dan **CreateTeamMemberV1** dicipta dengan serta-merta, API ini tidak boleh digunakan dalam **OperationSet** secara langsung. Walau bagaimanapun, anda boleh menggunakan API untuk mencipta rekod yang diperlukan, cipta **OperationSet** dan kemudian gunakan rekod yang dipracipta dalam **OperationSet**.
 
 ## <a name="supported-operations"></a>Operasi yang disokong
 
-| Entiti penjadualan | Cipta | Kemas kini  | Delete | Pertimbangan penting |
+| Entiti penjadualan | Cipta | Kemas kini | Delete | Pertimbangan penting |
 | --- | --- | --- | --- | --- |
 Tugas projek | Ya | Ya | Ya | Tiada |
 | Pergantungan tugas projek | Ya | Ya | | Rekod pergantungan tugas projek tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baharu boleh dicipta. |
@@ -257,7 +256,7 @@ Jadual berikut mentakrifkan medan yang terhad daripada **Cipta** dan **Edit.**
 ## <a name="limitations-and-known-issues"></a>Pengehadan dan isu yang diketahui
 Berikut ialah senarai pengehadan dan isu yang diketahui:
 
-- API Jadual hanya boleh digunakan oleh **Pengguna dengan Lesen Microsoft Project.** Ia tidak boleh digunakan oleh:
+- API Jadual Projek hanya boleh digunakan oleh **Pengguna dengan Lesen Microsoft Project.** Ia tidak boleh digunakan oleh:
     - Pengguna aplikasi
     - Pengguna sistem
     - Pengguna integrasi
@@ -271,7 +270,7 @@ Berikut ialah senarai pengehadan dan isu yang diketahui:
 ## <a name="error-handling"></a>Pengendalian ralat
 
    - Untuk menyemak ralat yang dijana daripada Set Operasi, pergi ke **Tetapan** \> **Jadualkan Integrasi** \> **Set Operasi**.
-   - Untuk menyemak ralat yang dijana daripada Perkhidmatan Penjadualan Projek, pergi ke **Tetapan** \> **Jadualkan Integrasi** \> **Log Ralat PSS**.
+   - Untuk menyemak ralat yang dijana daripada Perkhidmatan jadual Projek, pergi ke **Tetapan** \> **Integrasi Jadual** \> **Log Ralat PSS**.
 
 ## <a name="sample-scenario"></a>Senario sampel
 

@@ -2,11 +2,9 @@
 title: Pemprosesan resit perbelanjaan
 description: Topik ini menyediakan maklumat tentang pemprosesan pengecaman aksara optik (OCR) untuk resit. Ciri ini direka untuk menambah baik pengalamanan pengguna apabila laporan perbelanjaan dicipta dalam Microsoft Dynamics 365 Finance.
 author: stsporen
-manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 57ef67412eb3c5795559e4f6d011e97c4d7a1338
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271814"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001397"
 ---
 # <a name="expense-receipt-processing"></a>Pemprosesan resit perbelanjaan
 

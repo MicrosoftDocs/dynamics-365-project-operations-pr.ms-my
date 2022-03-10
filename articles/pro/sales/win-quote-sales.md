@@ -2,19 +2,17 @@
 title: Tutup sebut harga - ringkas
 description: Topik ini menyediakan maklumat tentang penutupan sebut harga dalam Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d387816f51f63ecd95df6534c7c012b323e6ddc
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
-ms.translationtype: HT
+ms.openlocfilehash: 8ae5e14220ffecab5bcfa016d8d18e6ccfbc5b04be9a4e66cee26f8885125d31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764875"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994332"
 ---
 # <a name="close-a-quote---lite"></a>Tutup sebut harga - ringkas
 
@@ -40,3 +38,6 @@ Jika sebut harga projek ditutup sebagai Kalah merujuk kepada projek pada salah s
 
 > [!NOTE]
 > Dalam Project Operations, menutup sebut harga sebagai Menang atau Hilang tidak akan memberi kesan bahawa status Peluang, yang akan kekal terbuka sehingga ia secara manual ditutup.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

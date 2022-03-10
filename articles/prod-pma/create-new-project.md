@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006252"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985962"
 ---
 # <a name="create-a-new-project"></a>Cipta projek baharu
 
@@ -51,7 +51,7 @@ Anda juga boleh tugaskan kategori untuk sumber yang anda perlukan. Jenis kategor
 
 Pengurus projek boleh menggunakan kefungsian penyumberan projek untuk mencipta peranan yang diperlukan untuk projek. Peranan boleh digunakan jika sumber yang disahkan masih tidak diketahui apabila sumber diperuntukkan. Peranan boleh diperuntukkan sementara sebagai sumber yang dirancang, supaya anda boleh meneruskan peringkat perancangan projek.
 
-[![Contoh peranan](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Contoh peranan.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Senario:** Contoso diupah untuk melengkapkan projek Masa dan bahan yang mempunyai piagam projek yang diluluskan. Pengurus projek muda masih melengkapkan skop projek. Resource manager pada masa ini sedang mengenal pasti sumber tertentu yang akan diperuntukkan untuk bekerja pada projek baharu. Oleh kerana sifat kritikal projek itu, penaja projek meminta Pengurus projek kanan sebagai salah satu peranan. Resource manager mesti mendapatkan sumber baharu dan mentakrifkan peranan dalam sistem sekiranya pengurus projek muda memerlukan maklumat sumber semasa perancangan projek.
 

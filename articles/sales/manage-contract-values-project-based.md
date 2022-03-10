@@ -2,18 +2,16 @@
 title: Menggunakan baris kontrak berasaskan projek
 description: Topik ini menyediakan maklumat tentang baris kontrak berasaskan projek.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990057"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Menggunakan baris kontrak berasaskan projek
 
@@ -29,7 +27,7 @@ Baris kontrak berasaskan projek dalam Dynamics 365 Project Operations direka unt
 
 Medan berikut disertakan dalam tab **Umum** untuk baris kontrak berasaskan projek. Medan ini membantu menyediakan asas untuk anggaran yang terperinci dan berasas dan penyusunan pengebilan untuk kerja berasaskan projek.
 
-| Medan | Penerangan  | Kesan hiliran |
+| Medan | Penerangan | Kesan hiliran |
 | --- | --- | --- |
 | **Nama** | Nama baris kontrak yang mengenal pasti komponen berasingan untuk kontrak yang sedang dianggarkan. Untuk kontrak projek yang dicipta daripada sebut harga, nilai ini akan disalin daripada nilai yang sepadan dengan baris sebut harga berasaskan projek. | Nilai medan ini disalin kepada baris invois projek yang dicipta daripada baris kontrak ini apabila invois dicipta. |
 | **Kaedah Pengebilan** | Pada kontrak projek yang dicipta daripada sebut harga, nilai ini akan disalin daripada medan yang sepadan pada baris sebut harga. Ini ialah set pilihan yang mewakili dua model kontrak utama yang disokong oleh Project Operations:</br>- **Harga Tetap**</br>- **Masa dan Bahan** | Berdasarkan kaedah pengebilan bagi baris kontrak rujukan, transaksi sebenar akan diproses. Jika baris kontrak yang dirujuk oleh aktual mempunyai kaedah pengebilan masa dan material, rekod aktual kos dan jualan yang tidak dibilkan dicipta. Jika baris kontrak yang dirujuk oleh aktual mempunyai kaedah pengebilan harga tetap, hanya aktual kos dicipta. |
@@ -57,3 +55,6 @@ Peraturan: Projek dan kelas transaksi tertentu hanya boleh dimasukkan pada satu 
 | C1       | CL2           | P1      | Tidak           | Ya             | Tidak          | Sah           | Masa dan yuran projek P1 termasuk dalam CL1. Perbelanjaan pada projek P1 termasuk dalam CL2. </br>   Tidak terdapat pertindihan dalam apa yang dimasukkan pada setiap baris kontrak dan oleh itu sah.  |
 | C1       | CL1           | P1      | Ya          | Ya             | Ya         | Tidak sah       | Mencabuli peraturan. Masa, perbelanjaan dan yuran pada projek P1 termasuk dalam baris dua kontrak.                                                                                               |
 | CL2      | CL2           | P1      | Ya          | Ya             | Ya         | Tidak sah       | Mencabuli peraturan. Masa, perbelanjaan dan yuran pada projek P1 termasuk dalam baris dua kontrak.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,17 @@
 title: Konfigurasi bahan bukan stok dan invois vendor yang belum selesai
 description: Topik ini menerangkan cara mendayakan bahan bukan stok dan invois vendor yang belum selesai.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993922"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003242"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurasi bahan bukan stok dan invois vendor yang belum selesai
 
@@ -35,7 +35,7 @@ Dynamics 365 Finance:
 Bahagian ini menyediakan maklumat tentang peta khusus yang diperlukan untuk bahan bukan stok dan invois vendor. Sahkan bahawa peta prasyarat yang disenaraikan dalam topik [Peruntukan persekitaran baharu](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) berjalan pada persekitaran anda.
 
 1. Pergi ke Lifecycle Services (LCS), navigasi ke projek LCS anda dan pergi ke halaman **Butiran persekitaran**.
-2. Dalam bahagian Maklumat Persekitaran **Common Data Service**, pilih **Paut ke CDS untuk Aplikasi**. Selepas anda memilih pautan tersebut, anda akan dihalakan semula ke senarai entiti dalam pemetaan.
+2. Dalam bahagian **Maklumat Persekitaran Common Data Service**, pilih **Paut ke CDS untuk Aplikasi**. Selepas anda memilih pautan tersebut, anda akan dihalakan semula ke senarai entiti dalam pemetaan.
 3. Pastikan peta berikut berjalan. Jika peta tidak berjalan, mulakan mereka dan pastikan untuk memasukkan semua peta jadual yang berkaitan.
 
     - CDS mengeluarkan produk yang berbeza (produk)
@@ -59,11 +59,11 @@ Jika anda menggunakan data demo standard, anda juga perlu berhenti dan memulakan
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktifkan aliran kerja untuk mencipta akaun berdasarkan pada entiti vendor
 
-Penyelesaian Pengorkestraan Dwi Tulis menyediakan [Integrasi induk vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Sebagai prasyarat untuk ciri ini, data vendor mesti dicipta dalam entiti **Akaun**. Aktifkan proses aliran kerja templat untuk mencipta vendor dalam jadual **Akaun** seperti diterangkan dalam [Tukar antara reka bentuk vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Penyelesaian Pengorkestraan Dwi Tulis menyediakan [Integrasi induk vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Sebagai prasyarat untuk ciri ini, data vendor mesti dicipta dalam entiti **Akaun**. Aktifkan proses aliran kerja templat untuk mencipta vendor dalam jadual **Akaun** seperti diterangkan dalam [Tukar antara reka bentuk vendor](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Tetapkan produk untuk dicipta sebagai aktif
 
-Bahan bukan stok mesti dikonfigurasikan sebagai **Mengeluarkan produk** dalam Kewangan. Penyelesaian Pengorkestraan Dwi Tulis menyediakan produk [Mengeluarkan integrasi produk ke katalog Produk Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) di luar kotak. Secara lalai, produk daripada Kewangan disegerakkan ke Dataverse dalam keadaan draf. Untuk menyegerakkan produk ke keadaan aktif supaya produk boleh digunakan secara langsung dalam dokumen penggunaan bahan atau invois vendor yang belum selesai, pergi ke **Sistem** > **Pentadbiran** > **Pentadbiran sistem** > **Tetapan sistem** dan pada tab **Jualan**, tetapkan **Cipta produk dalam keadaan aktif** ke **Ya**.
+Bahan bukan stok mesti dikonfigurasikan sebagai **Mengeluarkan produk** dalam Kewangan. Penyelesaian Pengorkestraan Dwi Tulis menyediakan produk [Mengeluarkan integrasi produk ke katalog Produk Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) di luar kotak. Secara lalai, produk daripada Kewangan disegerakkan ke Dataverse dalam keadaan draf. Untuk menyegerakkan produk ke keadaan aktif supaya produk boleh digunakan secara langsung dalam dokumen penggunaan bahan atau invois vendor yang belum selesai, pergi ke **Sistem** > **Pentadbiran** > **Pentadbiran sistem** > **Tetapan sistem** dan pada tab **Jualan**, tetapkan **Cipta produk dalam keadaan aktif** ke **Ya**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurasikan prasyarat dalam Kewangan
 
@@ -88,7 +88,7 @@ Dalam Project Operations, anda boleh merekod anggaran bahan dan penggunaan produ
 2. Dalam medan **Jenis produk**, pilih **Item** dan dalam medan **subjenis produk**, pilih **Produk**.
 3. Masukkan nombor produk (WRITEIN) dan nama produk (Produk Masukan Manual).
 4. Pilih kumpulan model item. Pastikan kumpulan model item yang anda pilih mempunyai medan **Polisi inventori produk Stok** ditetapkan ke **Palsu**.
-5. Pilih nilai dalam medan **Kumpulan item**, **Kumpulan dimensi storan** dan **Kumpulan dimensi penjejakan**. Gunakan **Dimensi storan** untuk **Tapak** sahaja dan jangan tetapkan sebarang dimensi penjejakan.
+5. Pilih nilai dalam medan **Kumpulan item**, **Kumpulan dimensi storan** dan **Kumpulan dimensi penjejakan**. Gunakan **Dimensi storan** untuk **Tapak** sahaja dan dalam medan **Dimensi penjejakan**, pilih **Tiada**.
 6. Pilih nilai dalam medan **Unit inventori**, **Unit pembelian** dan **Unit jualan** dan kemudian simpan perubahan anda.
 7. Dalam tab **Pelan**, tetapkan tetapan pesanan lalai dan pada tab **Inventori**, tetapkan tapak dan gudang lalai.
 8. Pergi ke **Pengurusan dan perakaunan projek** > **Sediakan** > **Parameter pengurusan dan perakaunan projek** dan buka **Project Operations pada Dynamics 365 Dataverse**. 

@@ -2,8 +2,6 @@
 title: Bagaimanakah cara saya menugaskan sumber boleh ditempah kepada tugas dalam aplikasi web?
 description: Satu gambaran keseluruhan cara anda boleh menugaskan sumber boleh ditempah.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 27a93c41243f300cadb632c697672180e5a3817b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146584"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987717"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Bagaimanakah saya menugaskan sumber boleh tempah kepada tugas dalam aplikasi web (aplikasi Project Service v2.x)?
 
@@ -45,7 +43,7 @@ Dengan kaedah ini, anda menambah sumber kepada pasukan projek dan kemudian tugas
 3.  Pilih tarikh **Dari** dan **Sehingga**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Tangkapan skrin menambah ahli pasukan](media/FAQ-Resources-to-Tasks2-1.png "Tangkapan skrin menambah ahli pasukan")
+    > ![Tangkapan skrin menambah ahli pasukan.](media/FAQ-Resources-to-Tasks2-1.png "Tangkapan skrin menambah ahli pasukan")
  
 4.  Pilih satu daripada kaedah peruntukan berikut untuk tempahan sumber:
     - **Kapasiti Penuh** menempah kapasiti penuh sumber untuk tarikh dari dan sehingga yang dinyatakan.
@@ -65,12 +63,12 @@ Dengan kaedah ini, anda menambah sumber kepada pasukan projek dan kemudian tugas
     3. Pilih **OK**. Ahli pasukan kini ditugaskan kepada kerja.
 
     > [!div class="mx-imgBorder"] 
-    > ![Tangkapan skrin menambah sumber dengan WBS](media/FAQ-Resources-to-Tasks2-2.png "Tangkapan skrin menambah sumber dengan WBS")
+    > ![Tangkapan skrin menambah sumber dengan WBS.](media/FAQ-Resources-to-Tasks2-2.png "Tangkapan skrin menambah sumber dengan WBS")
  
 Pada grid ahli pasukan, anda akan lihat agregat jam ditugaskan sumber di bawah Jam Ditugaskan. Ia akan kurang daripada atau sama dengan jam ditempah untuk sumber. 
 
 > [!div class="mx-imgBorder"] 
-> ![Tangkapan skrin masa yang ditugaskan untuk sumber](media/FAQ-Resources-to-Tasks2-3.png "Tangkapan skrin masa yang ditugaskan untuk sumber")
+> ![Tangkapan skrin masa yang ditugaskan untuk sumber.](media/FAQ-Resources-to-Tasks2-3.png "Tangkapan skrin masa yang ditugaskan untuk sumber")
  
 Jika tugas yang anda cuba untuk tugaskan kepada sumber bermula selepas tarikh akhir tempahan sumber, sumber tidak akan muncul dalam ke bawah.
 
@@ -94,25 +92,28 @@ Kaedah ini memastikan bahawa sumber mempunyai tempahan yang mencukupi untuk tuga
 4. Pilih **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Tangkapan skrin menggunakan WBS untuk menambah sumber](media/FAQ-Resources-to-Tasks2-4.png "Tangkapan skrin menggunakan WBS untuk menambah sumber")
+    > ![Tangkapan skrin menggunakan WBS untuk menambah sumber.](media/FAQ-Resources-to-Tasks2-4.png "Tangkapan skrin menggunakan WBS untuk menambah sumber")
  
 Sebaik sahaja anda telah selesai menugaskan peranan kepada tugas dalam WBS, pilih **Jana Pasukan Projek**. Project Service mencipta bilangan minimum ahli pasukan generik berdasarkan pada peranan, sumber unit organisasi dan kalendar projek dengan mengagregat tugasan tugas.
 
 > [!div class="mx-imgBorder"] 
-> ![Tangkapan skrin menjana pasukan projek](media/FAQ-Resources-to-Tasks2-5.png "Tangkapan skrin menjana pasukan projek")
+> ![Tangkapan skrin menjana pasukan projek.](media/FAQ-Resources-to-Tasks2-5.png "Tangkapan skrin menjana pasukan projek")
  
 Pada grid Ahli Pasukan, anda akan lihat sumber jenis Sumber Generik dengan nama peranan dan jawatan. Jika dua sumber diperlukan untuk peranan melengkapkan kerja, ciri Jana Pasukan mencipta dua ahli pasukan dan menggunakan nama jawatan untuk membezakannya.
 
 > [!div class="mx-imgBorder"] 
-> ![Tangkapan skrin menambah dua sumber generik](media/FAQ-Resources-to-Tasks2-6.png "Tangkapan skrin menambah dua sumber generik")
+> ![Tangkapan skrin menambah dua sumber generik.](media/FAQ-Resources-to-Tasks2-6.png "Tangkapan skrin menambah dua sumber generik")
  
 Anda boleh membuka keperluan sumber sandaran untuk ahli pasukan generik dengan memilih pautan di bawah Keperluan sumber.
 
 > [!div class="mx-imgBorder"] 
-> ![Tangkapan skrin membuka keperluan sumber sokongan](media/FAQ-Resources-to-Tasks2-7.png "Tangkapan skrin membuka keperluan sumber sokongan")
+> ![Tangkapan skrin membuka keperluan sumber sokongan.](media/FAQ-Resources-to-Tasks2-7.png "Tangkapan skrin membuka keperluan sumber sokongan")
 
 Pilih **Tempah** untuk sumber generik, dan kemudian anda boleh menggunakan papan jadual untuk mencari dan menempah sumber sebenar. Anda juga boleh menghantar keperluan untuk pemenuhan oleh pengurus sumber dengan memilih **Serah Permintaan**.
 
 Apabila sumber generik dipenuhkan dengan sumber dinamakan, sumber generik dialih keluar daripada pasukan dan tugasan tugas untuk sumber generik ditugaskan kepada sumber dinamakan yang telah memenuhi keperluan sumber bagi sumber generik.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

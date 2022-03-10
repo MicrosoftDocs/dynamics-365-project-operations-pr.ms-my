@@ -2,22 +2,20 @@
 title: Petakan projek dan tugas ke baris kontrak berasaskan projek - lite
 description: Topik ini menyediakan maklumat tentang menambah dan mengalih keluar projek dan tugas ke baris kontrak.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272804"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989742"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Petakan projek dan tugas ke baris kontrak berasaskan projek - lite
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Petakan projek dan tugas pada baris kontrak berdasarkan projek 
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Pelaksanaan ringan - urusan untuk penginvoisan proforma, Project Operations untuk senario berdasarkan sumber/bukan stok_
 
 Pada baris kontrak berasaskan projek, anda boleh memetakan tugas tertentu dalam projek ke baris kontrak.
 

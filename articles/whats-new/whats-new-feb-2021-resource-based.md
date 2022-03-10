@@ -2,19 +2,17 @@
 title: Perkara baharu Februari 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
 description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Februari 2021 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ba44ea471f7d72d1e816ec74de304d3fdcf1f68
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
-ms.translationtype: HT
+ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141335"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986817"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Februari 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -53,4 +51,7 @@ Untuk maklumat lanjut mengenai pengurusan projek dan perakaunan dalam Dynamics 3
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,7 @@
 title: Mengapakah harga ditetapkan lalai kepada sifar pada jualan perbelanjaan sebenar?
 description: Tiga semakan berikut akan membantu anda menyelesaikan masalah sebab harga ditetapkan lalai kepada 0 pada jualan perbelanjaan sebenar.
 author: rumant
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bd474d7c0cd64262fdb21d6269efa781b6dc31f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6e477b7d5973398d50c6be03469d1c0a792b1b3323522329bc33cba755104968
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285898"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000812"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Mengapakah harga ditetapkan lalai kepada sifar pada jualan perbelanjaan sebenar?
 

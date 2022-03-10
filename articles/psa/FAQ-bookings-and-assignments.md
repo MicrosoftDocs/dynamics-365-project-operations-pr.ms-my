@@ -2,8 +2,6 @@
 title: Tempahan sumber dan kaitannya dengan tugasan tugas
 description: Topik ini memberikan maklumat tentang cara mengurus sumber bernama, tempahan sumber dan tugasan tugas dan kaitannya antara satu sama lain.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 83b1bf39c71275f2e8e4ec20082f711154696586
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 94deab811a304026dd663a88e869013a3b88fb29674b35fa0b40fa68f8c5ea62
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286214"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003106"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Tempahan sumber dan kaitannya dengan tugasan tugas
 

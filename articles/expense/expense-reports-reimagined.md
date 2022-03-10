@@ -1,12 +1,10 @@
 ---
-title: Laporan perbelanjaan digambarkan semula
-description: Topik ini memberikan maklumat mengenai pengalaman yang direka dan digambarkkan semula untuk entri laporan perbelanjaan.
+title: Laporan perbelanjaan diimaginasikan semula (mengandungi video)
+description: Topik ini menerangkan pengalaman yang direka semula dan dibayangkan semula untuk entri laporan perbelanjaan.
 author: suvaidya
-manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081294"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941056"
 ---
 # <a name="expense-reports-reimagined"></a>Laporan perbelanjaan digambarkan semula
 
@@ -28,30 +26,26 @@ Entri laporan perbelanjaan telah direka bentuk semula untuk memudahkan proses da
 
 - Ruang kerja pengurusan perbelanjaan baharu yang membolehkan anda mengakses perbelanjaan wakil anda.
 - Satu pengalaman pemadanan penerimaan baharu untuk menunjukkan penerimaan peringkat pengepala yang lebih baik dan memudahkan proses melampirkan resit kepada baris perbelanjaan.
-- Grid baca sahaja yang baharu membolehkan anda melihat lebih banyak baris perbelanjaan dan lajur data tambahan. Anda kini boleh melihat semua baris yang diperincikan dan terpisah, bersama dengan perbelanjaan ibu bapa mereka.
+- Grid baca sahaja baharu yang membolehkan anda melihat lebih banyak baris perbelanjaan dan lajur data yang lain. Anda kini boleh melihat semua baris yang diperincikan dan terpisah, bersama dengan perbelanjaan ibu bapa mereka.
 - Anak tetingkap dipermudah untuk perbelanjaan pengeditan.
 - Mesej ralat, amaran dan dasar yang direka semula untuk menyediakan konteks yang betul dan pemahaman masalah dan cara menyelesaikannya. Kami telah mengalih keluar beberapa mesej yang muncul sebelum pengguna boleh melengkapkan tugas mereka dan menangani masalah tersebut.
 - Halaman baharu untuk menentukan medan yang diperlukan, medan pilihan dan medan yang tidak disertakan. Halaman ini membantu mengurangkan bilangan medan yang mesti ditetapkan.
 - Wajah dan rasa baharu untuk laporan perbelanjaan, supaya laporan tidak lagi kelihatan seolah-olah telah direka bentuk untuk persona perakaunan.
 
-Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** untuk menghidupkan ciri **Laporan perbelanjaan yang digambarkan semula**. Apabila anda menghidupkan ciri ini, tindakan berikut berlaku:
+Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** untuk menghidupkan ciri **Ruang kerja digambarkan semula laporan perbelanjaan**. Apabila anda menghidupkan ciri ini, tindakan berikut berlaku:
 
 - Ruang kerja perbelanjaan sedia ada diganti dengan ruang kerja baharu.
 - Item menu baharu untuk keterlihatan medan perbelanjaan ditambah.
 - Tiada item menu sedia ada untuk laporan perbelanjaan (halaman semasa) atau medan laporan perbelanjaan dialih keluar.
 - Aliran kerja dan sebarang kelulusan masih akan membawa anda ke halaman laporan perbelanjaan sedia ada.
 
-## <a name="getting-started-video-for-new-users"></a>Video mari bermula untuk pengguna baharu
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Pengalaman perbelanjaan dalam video Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (ditunjukkan di atas) termasuk dalam senarai main [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yang tersedia di YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Ciri-ciri baru
 
 | Ciri baharu | Penerangan |
 |---|----|
-| Kebolehlihatan medan perbelanjaan | Halaman persediaan baharu membolehkan anda menentukan medan yang mana patut dinyahdayakan untuk organisasi, medan yang patut diperlukan dan medan yang disyorkan. |
+| Kebolehlihatan medan perbelanjaan | Halaman persediaan baharu membolehkan anda menentukan medan yang sepatutnya dinyahdayakan untuk organisasi. Anda juga boleh menentukan medan yang sepatutnya diperlukan dan medan yang disyorkan. |
 | Medan diperlukan | Konfigurasi mudah baharu membolehkan anda membuat beberapa medan yang diperlukan tanpa perlu menggunakan rangka dasar. |
 | Medan pilihan | Halaman kedua untuk medan pilihan ditambah. Dengan cara ini, pekerja tidak akan merasa seolah-olah mereka mesti menetapkan medan, tetapi medan masih boleh diakses dengan mudah. |
 | Tambah resit yang tidak dilampirkan | Keupayaan untuk menambah resit yang tidak dilampirkan pada laporan perbelanjaan adalah lebih ketara daripada ruang kerja dan pada laporan perbelanjaan. |
@@ -59,22 +53,25 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 | Pengurangan mesej dalam bar mesej| Bilangan mesej Infolog telah berkurangan dan usaha telah dibuat untuk mengelakkan mesej duplikasi daripada muncul dalam banyak kes. |
 | Tindakan biasa yang dikumpulkan bersama | Antara muka dibersihkan dengan penambahan butang tindakan baru untuk kebanyakan tindakan peringkat baris umum dan penambahan butang elipsis (...) untuk pengepala dan tindakan lain yang kurang kerap. |
 | Ruang kerja baharu untuk menambahkan keterlihatan | Sebuah ruang kerja baharu yang menyatukan ciri dan pautan yang membolehkan pengguna berpindah ke kawasan yang berbeza. |
-| Tambah perbelanjaan dan resit sedia ada semasa penciptaan perbelanjaan | Apabila anda mencipta laporan perbelanjaan, anda boleh menambah semua atau perbelanjaan dan resit yang terpilih. |
+| Tambah perbelanjaan dan resit sedia ada semasa penciptaan perbelanjaan | Apabila anda mencipta laporan perbelanjaan, anda boleh menambahkan semua perbelanjaan atau memilih perbelanjaan yang tidak dilampirkan. Perbelanjaan yang tidak dilampirkan ialah perbelanjaan yang diimport daripada suapan kad kredit korporat atau perbelanjaan yang dicipta secara manual oleh pengguna tetapi belum dilampirkan pada laporan perbelanjaan.|
 | Kalkulator kadar tukaran | Kalkulator kadar tukaran ditambahkan yang membolehkan anda mengira kadar tukaran untuk transaksi berbilang mata wang saku. |
 | Simpan dan tambah baris perbelanjaan baharu | Butang **Simpan** dan **Baharu** tersedia apabila perbelanjaan baharu dimasukkan, untuk membantu anda memasukkan baris perbelanjaan dengan cepat. |
 | Keterlihatan yang lebih baik ke dalam baris yang diperincikan dan terpisah | Garis yang diperincikan dan terpisah ditambah secara langsung pada senarai perbelanjaan untuk meningkatkan keterlihatan dan membantu anda menentukan sama ada terdapat sebarang ralat dengan mudah. |
+| Lihat butiran subkategori dalam baris terbutir | Baris terperinci perbelanjaan induk menunjukkan label subkategori pada laporan perbelanjaan. Perincian tersebut membolehkan anda menyemak butiran terperinci sepintas lalu.|
+|Perincikan perbelanjaan berulang dengan cepat | Ruang kerja perbelanjaan yang diimaginasikan semula menyediakan keupayaan untuk memperincikan perbelanjaan berulang dengan cepat dengan menambah subkategori, tarikh mula, dan kuantiti. Kuantiti merujuk kepada bilangan kali caj diulangi dalam tempoh yang berterusan. |
 | Tunjuk resit semasa pemerincian | Resit boleh ditunjukkan semasa perincian. |
+| Pemilihan pendahuluan tunai | Pilih satu atau lebih pendahuluan tunai untuk memenuhi transaksi perbelanjaan tunggal. |
+| Baki pendahuluan tunai | Semak baki pendahuluan tunai dalam masa nyata apabila anda mencipta entri perbelanjaan terhadap pendahuluan tunai yang diluluskan dan berbayar. |
 
 Keluaran awal tertumpu kepada senario entri perbelanjaan. Sebarang semakan laporan perbelanjaan atau senario kelulusan akan terus menggunakan halaman entri perbelanjaan yang sedia ada.
 
-Ciri berikut ditunjukkan pada halaman sedia ada tetapi masih belum ditunjukkan pada halaman baharu. Ciri ini akan diperkenalkan semula dalam beberapa keluaran akan datang:
 
-- Kelulusan
-- Kelulusan akaun berbayar dan keupayaan untuk mengedit perakaunan
-- Pelbagai titik entri
+Ciri berikut tidak disokong pada ruang kerja digambarkan semula laporan Perbelanjaan tetapi dirancang untuk keluaran akan datang: 
+
 - Penyepaduan permintaan perjalanan
-- Entiti data untuk keterlihatan medan perbelanjaan
-- Entri untuk perbelanjaan per-diem
-- Aliran kerja peringkat baris
+- Setiap entri perbelanjaan diem
 - Sokongan pelulus interim
-- Perincian lanjutan
+- Keupayaan untuk melihat sejarah aliran kerja
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

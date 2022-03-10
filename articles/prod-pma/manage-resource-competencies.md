@@ -2,11 +2,9 @@
 title: Urus kecekapan sumber
 description: Topik ini memberikan maklumat tentang menyediakan kecekapan untuk sumber projek.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081253"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007427"
 ---
 # <a name="manage-resource-competencies"></a>Urus kecekapan sumber
 
@@ -31,7 +29,7 @@ ms.locfileid: "4081253"
 
 Kecekapan sumber merupakan bahagian penting dalam pengurusan sumber. Kecekapan boleh digunakan sebagai garis dasar untuk menentukan sumber yang mempunyai keseimbangan kemahiran, pendidikan, pensijilan dan pengalaman projek yang betul. Anda harus menyediakan maklumat ini untuk setiap sumber dan kemas kini secara tetap. Dengan cara ini, anda boleh memaksimumkan keupayaan apabila kecekapan sumber khusus dipadankan semasa tugasan sumber projek.
 
-[![Contoh kemahiran, persijilan, pendidikan dan pengalaman projek](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Contoh kemahiran, persijilan, pendidikan dan pengalaman projek.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Prosedur berikut menerangkan cara untuk menyediakan beberapa kecekapan untuk sumber.
 
@@ -53,3 +51,6 @@ Untuk menyediakan kecekapan untuk pekerja, anda boleh menggunakan sama ada halam
 5. Dalam medan **Tarikh tahap**, pilih **14/1-/2014**.
 6. Dalam medan **Tahun pengalaman**, masukkan **10**.
 7. Pilih **Simpan**, dan kemudian tutup halaman.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

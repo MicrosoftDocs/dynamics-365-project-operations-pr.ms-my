@@ -2,8 +2,6 @@
 title: Masukkan masa
 description: Cara untuk memasukkan masa dalam Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 3dfd16ff38e729ce183247a03b3340b8af52ea1318c799ec5fd544d7b94086be
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4081431"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985737"
 ---
 # <a name="enter-time-project-service"></a>Masukkan masa (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -59,3 +59,6 @@ Masukkan jam anda sekurang-kurangnya setiap minggu—atau mengikut kekerapan yan
   
 ### <a name="see-also"></a>Lihat Juga  
  [Panduan Masa, Perbelanjaan dan Kerjasama](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

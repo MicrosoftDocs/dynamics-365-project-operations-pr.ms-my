@@ -2,8 +2,6 @@
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 13, V3
 description: Topik ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas kini Project Service Automation 13, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a4ebc2e6ca3f6be0a05a7240d762d7a8cf92d81b
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 3a20cf32e578bc818f3ef6ed916784c32b559c3342162bcb7857f5e9cc520d9c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949465"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006706"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation, Keluaran Kemas kini 13, V3
 

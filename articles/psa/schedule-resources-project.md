@@ -2,8 +2,6 @@
 title: Jadualkan sumber untuk projek
 description: Cara untuk menjadual sumber bagi projek dalam Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282659"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998157"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Jadualkan sumber bagi projek (Project Service)
 
@@ -35,7 +33,7 @@ Anda boleh menyemak ketersediaan sumber untuk mendapatkan pandangan keseluruhan 
   
 Papan jadual menunjukkan senarai sumber dan ketersediaannya. Pilih mod pandangan untuk menunjukkan ketersediaan mengikut **Jam**, **Hari**, **Minggu** atau **Bulan**.  
   
-Sebelum anda menggunakan papan jadual, penting untuk menyediakannya. Untuk maklumat lanjut, lihat [Konfigurasikan papan jadual (Field Service atau Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Sebelum anda menggunakan papan jadual, penting untuk menyediakannya. Untuk maklumat lanjut, lihat [Konfigurasikan papan jadual (Field Service atau Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Jika anda menggunakan versi lebih lama, untuk ketersediaan sumber, lihat [Lihat ketersediaan sumber.](../psa/view-resource-availability.md).  
 
