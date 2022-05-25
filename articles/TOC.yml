@@ -54,15 +54,23 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integrasi invois projek
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integrasi pengurusan perbelanjaan
+            - name: Penyepaduan pengurusan perbelanjaan
               href: environment/resource-dual-write-expense.md
-            - name: Integrasi invois vendor
+            - name: Penyepaduan invois vendor
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Nyahpasang Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Ciri baharu
       items:
-        - name: Disember 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
+        - name: Mei 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: April 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Mac 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Februari 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
+          href: whats-new/whats-new-feb-2022-resource-based.md
+        - name: Disember 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
           href: whats-new/whats-new-nov-2021-resource-based.md
@@ -102,7 +110,9 @@
               href: sales/sales-units-unit-groups.md
             - name: Mata wang
               href: sales/sales-currency.md
-        - name: Mengurus bakal pelanggan projek
+            - name: Unit organisasi
+              href: sales/OrgUnits.md
+        - name: Urus bakal pelanggan projek
           href: sales/manage-leads.md
         - name: Urus peluang projek
           items:
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Penjejakan hasil buruh pada projek
               href: project-management/project-sales-tracking.md
-            - name: Kemas kini anggaran ketika selesai
-              href: project-management/update-completed-estimate.md
         - name: Ahli pasukan projek
           items:
             - name: Gambaran keseluruhan ahli pasukan projek
@@ -306,8 +314,10 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API jadual projek
+            - name: Gunakan API jadual Projek
               href: project-management/schedule-api-preview.md
+            - name: Gunakan API jadual Projek dengan Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Prestasi API jadual projek
               href: project-management/project-schedule-api-performance.md
             - name: Log penjadualan projek
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Pendahuluan tunai
           href: expense/cash-advance.md
-        - name: Saraan harian
-          href: expense/per-diems.md
+        - name: Perbelanjaan saraan harian
+          href: expense/per-diem-expenses.md
         - name: Aplikasi Perbelanjaan Mudah Alih
           href: expense/expense-using-mobile.md
         - name: Pengurusan kewangan
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Set kelulusan
           href: approvals/approval-sets.md
+        - name: Batalkan kelulusan untuk entri yang diluluskan sebelumnya
+          href: approvals/cancelapproval.md
+        - name: Penarikan balik entri yang diluluskan sebelumnya
+          href: approvals/recall-cancel.md
         - name: Nota pembangun
           items:
             - name: Nota pembangun untuk Kelulusan
               href: approvals/dev-notes-approvals.md
     - name: Aktual
       items:
+        - name: Urus niaga perniagaan dalam Project Operations
+          href: actuals/businesstransactions.md
         - name: Gambaran keseluruhan aktual
           href: actuals/actuals-overview.md
-        - name: Pautan aktual kepada rekod asal
+        - name: Asalan urus niaga - Pautan aktual ke sumber
           href: actuals/linkingactuals.md
-        - name: Jurnal pembetulan
+        - name: Sambungan transaksi - Pautan aktual bagi jenis transaksi yang berbeza
+          href: actuals/connectingactuals.md
+        - name: Jurnal
           items:
-            - name: Cipta dan sahkan Jurnal pembetulan
+            - name: Cipta dan sahkan jurnal Entri
+              href: actuals/create-confirm-entry-journals.md
+            - name: Cipta dan sahkan jurnal Pembetulan
               href: actuals/create-confirm-correction-journals.md
     - name: Pemerolehan
       items:
-        - name: Konfigurasikan bahan bukan distok dan invois vendor yang belum selesai
+        - name: Konfigurasikan bahan tidak distok dan invois vendor yang belum selesai
           href: procurement/configure-materials-nonstocked.md
-        - name: Dapatkan bahan bukan distok untuk projek menggunakan invois vendor yang belum selesai
+        - name: Konfigurasikan kategori pemerolehan untuk projek
+          href: procurement/configure-procurement-categories.md
+        - name: Dapatkan barangan dan perkhidmatan untuk projek menggunakan invois vendor yang belum selesai
           href: procurement/pending-vendor-invoices.md
-        - name: Pesan bahan bukan distok untuk projek menggunakan pesanan pembelian projek
+        - name: Pesanan barangan dan perkhidmatan untuk projek menggunakan pesanan pembelian projek
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Pengekalan vendor
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Uruskan anggaran hasil
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Konfigurasi lanjutan
+      items:
+        - name: Pindahkan pencapaian pengebilan invois penuh semasa pemotongan
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Naik taraf
+      items:
+        - name: Peningkatan pertimbangan untuk kelulusan Moden
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikasi Project Operations
+      items:
+        - name: Aplikasi Ahli Pasukan Project Operations
+          href: team-member/project-operations-team-member.md
     - name: Penyelesaian Masalah
       items:
         - name: Proses jualan projek
@@ -562,6 +596,14 @@
       items:
         - name: Ciri baharu akses awal gelombang 2 tahun 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Ciri baharu Mei 2022 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Ciri baharu April 2022 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Ciri baharu Mac 2022 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Ciri baharu Februari 2022 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Ciri baharu Disember 2021 - pelaksanaan ringan
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Ciri baharu November 2021 - pelaksanaan ringan
@@ -602,7 +644,9 @@
               href: sales/sales-units-unit-groups.md
             - name: Mata wang
               href: sales/sales-currency.md
-        - name: Mengurus bakal pelanggan projek
+            - name: Unit organisasi
+              href: sales/OrgUnits.md
+        - name: Urus bakal pelanggan projek
           href: pro/sales/managing-leads-sales.md
         - name: Urus peluang projek
           items:
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Penjejakan hasil buruh pada projek
               href: project-management/project-sales-tracking.md
-            - name: Kemas kini anggaran ketika selesai
-              href: project-management/update-completed-estimate.md
         - name: Ahli pasukan projek
           items:
             - name: Gambaran keseluruhan ahli pasukan projek
@@ -826,8 +868,10 @@
           items:
             - name: Bangunkan templat projek dengan Salin Projek
               href: project-management/dev-copy-project.md
-            - name: Gunakan API jadual projek
+            - name: Gunakan API jadual Projek
               href: project-management/schedule-api-preview.md
+            - name: Gunakan API jadual Projek dengan Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Prestasi API jadual projek
               href: project-management/project-schedule-api-performance.md
     - name: Pengurusan sumber
@@ -886,12 +930,10 @@
           items:
             - name: Gambaran keseluruhan penggunaan sumber
               href: resource-management/resource-utilization-overview.md
-    - name: Pengurusan subkontrak dalam Project Operations
+    - name: Pengurusan Subkontrak
       items:
         - name: Pengurusan subkontrak dalam Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Subkontrak dalam Capaian Awal Oktober 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Konsep utama dalam subkontrak
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Menguruskan vendor dan senarai harga projek
@@ -922,8 +964,30 @@
           href: pro/subcontracting/staffing-cw.md
         - name: 'Merekod masa, perbelanjaan dan penggunaan bahan untuk komponen yang disubkontrak'
           href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Peralihan negeri pada subkontrak
+        - name: Peralihan keadaan pada subkontrak
           href: pro/subcontracting/subcon-states.md
+    - name: Invois vendor projek
+      items:
+        - name: Penginvoisan vendor - Konsep dan penciptaan
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Butiran pengepala untuk invois vendor
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Baris invois vendor untuk masa
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Baris invois vendor untuk produk
+          href: pro/subcontracting/vi-line-material.md
+        - name: Baris invois vendor untuk pencapaian
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Baris invois vendor untuk kategori perbelanjaan
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Pengesahan invois vendor dengan aktual yang diluluskan
+          href: pro/subcontracting/VI-Verification.md
+        - name: Batal invois vendor projek
+          href: pro/subcontracting/cancel-vi.md
+        - name: Sahkan invois vendor projek
+          href: pro/subcontracting/confirm-vi.md
+        - name: Peralihan keadaan pada invois vendor
+          href: pro/subcontracting/vi-state-model.md
     - name: Masa
       items:
         - name: Gambaran keseluruhan masa
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Set kelulusan
           href: approvals/approval-sets.md
+        - name: Batalkan kelulusan untuk entri yang diluluskan sebelumnya
+          href: approvals/cancelapproval.md
+        - name: Penarikan balik entri yang diluluskan sebelumnya
+          href: approvals/recall-cancel.md
         - name: Nota pembangun
           items:
             - name: Nota pembangun untuk Kelulusan
               href: approvals/dev-notes-approvals.md
     - name: Aktual
       items:
+        - name: Urus niaga perniagaan dalam Project Operations
+          href: actuals/businesstransactions.md
         - name: Gambaran keseluruhan aktual
           href: actuals/actuals-overview.md
-        - name: Pautan aktual kepada rekod asal
+        - name: Asalan urus niaga - Pautan aktual ke sumber
           href: actuals/linkingactuals.md
-        - name: Jurnal pembetulan
+        - name: Sambungan transaksi - Pautan aktual bagi jenis transaksi yang berbeza
+          href: actuals/connectingactuals.md
+        - name: Jurnal
           items:
+            - name: Cipta dan sahkan jurnal Entri
+              href: actuals/create-confirm-entry-journals.md
             - name: Cipta dan sahkan jurnal Pembetulan
               href: actuals/create-confirm-correction-journals.md
     - name: Penginvoisan proforma
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfigurasikan automasi invois projek
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Naik taraf
+      items:
+        - name: Peningkatan pertimbangan untuk kelulusan Moden
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Aplikasi Project Operations
+      items:
+        - name: Aplikasi Ahli Pasukan Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations untuk senario berdasarkan distok/pengeluaran
   items:
     - name: Ciri baharu
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Gambaran keseluruhan pengurusan projek dan perakaunan
       href: prod-pma/overview-project-management-accounting.md
-    - name: Penginvoisan antara syarikat
-      href: prod-pma/intercompany-invoicing.md
-    - name: Konfigurasikan penginvoisan projek antara syarikat
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Konfigurasikan kos standard untuk buruh dan perbelanjaan
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Cipta dan gunakan terma pengekalan pembayaran vendor
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Sediakan dan gunakan pembayaran vendor pembayaran apabila dibayar
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Kos projek terakru pada resit pembelian
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Penginvoisan projek
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Prestasi cadangan invois projek
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Kontrak projek
-      href: prod-pma/project-contracts.md
-    - name: Cipta kontrak lanjutan untuk pengebilan berdasarkan kemajuan
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Ramalan dan belanjawan projek
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Cipta model ramalan untuk belanjawan projek
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Pindahkan belanjawan projek pada akhir tahun fiskal
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Pesanan jualan projek
-      href: prod-pma/project-sales-orders.md
-    - name: Pesanan pembelian untuk projek
-      href: prod-pma/project-purchase-orders.md
-    - name: Sebut harga projek
-      href: prod-pma/project-quotations.md
-    - name: 'Sahkan, kemas kini dan hantar sebut harga projek'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Pindahkan sebut harga ke projek
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Sumber projek
+    - name: Proses jualan projek
+      items:
+        - name: Sebut harga projek
+          href: prod-pma/project-quotations.md
+        - name: 'Sahkan, kemas kini dan hantar sebut harga projek'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Pindahkan sebut harga ke projek
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Kontrak projek
+          href: prod-pma/project-contracts.md
+        - name: Kebenaran projek
+          href: prod-pma/project-grants.md
+    - name: Penentuan harga dan kos
+      items:
+        - name: Konfigurasikan kos standard untuk buruh dan perbelanjaan
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Pengurusan projek
+      items:
+        - name: Gambaran keseluruhan struktur pecahan kerja
+          href: prod-pma/work-breakdown-structures.md
+        - name: Penyepaduan Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Gambaran keseluruhan aplikasi mudah alih Project
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Ruang kerja mudah alih entri masa projek
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Aplikasi mudah alih lembaran masa projek
+          href: prod-pma/project-timesheet.md
+        - name: Lembaran masa projek pada peranti mudah alih
+          href: prod-pma/mobile-timesheets.md
+        - name: Laksanakan medan tersuai untuk aplikasi mudah alih Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: Pengurusan sumber
       items:
         - name: Gambaran keseluruhan sumber projek
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Pemenuhan sumber untuk sumber yang dirancang
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Terima item pada pesanan pembelian daripada keperluan item
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Struktur pecahan Kerja
+    - name: Ramalan dan belanjawan projek
       items:
-        - name: Gambaran keseluruhan struktur pecahan Kerja
-          href: prod-pma/work-breakdown-structures.md
-        - name: Integrasi Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Gambaran keseluruhan aplikasi mudah alih Project
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Ruang kerja mudah alih entri masa projek
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Aplikasi mudah alih lembaran masa projek
-          href: prod-pma/project-timesheet.md
-        - name: Lembaran masa projek pada peranti mudah alih
-          href: prod-pma/mobile-timesheets.md
-        - name: Laksanakan medan tersuai untuk aplikasi mudah alih lembaran masa Projek
-          href: prod-pma/custom-fields-mobile.md
-    - name: Kebenaran projek
-      href: prod-pma/project-grants.md
-    - name: Singkirkan anggaran projek
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Ramalan dan belanjawan projek
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Cipta model ramalan untuk belanjawan projek
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Pindahkan belanjawan projek pada akhir tahun fiskal
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Masa
+      items:
+        - name: Ditetapkan lalai dimensi kewangan untuk entri masa projek
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Perbelanjaan
+      items:
+        - name: Gambaran keseluruhan perbelanjaan
+          href: expense/expense-overview.md
+        - name: Pengalaman perbelanjaan baharu
+          items:
+            - name: Laporan perbelanjaan digambarkan semula
+              href: expense/expense-reports-reimagined.md
+            - name: Rekodkan resit menggunakan OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Konfigurasi dan persediaan
+          items:
+            - name: Sediakan dasar
+              href: expense/set-up-policies.md
+            - name: Sediakan aliran kerja
+              href: expense/set-up-workflows.md
+            - name: Urus penugasan
+              href: expense/manage-delegation.md
+            - name: Konfigurasikan parameter pengurusan Perbelanjaan
+              href: expense/configure-expense-management-parameters.md
+            - name: Sediakan integrasi kad kredit
+              href: expense/set-up-credit-card-integration.md
+            - name: Sediakan kategori perbelanjaan
+              href: expense/set-up-expense-categories.md
+            - name: Sediakan perbatuan menggunakan peringkat kadar perbatuan
+              href: expense/set-up-mileage.md
+        - name: Penyenaraian perbelanjaan
+          href: prod-exp/expense-itemization.md
+        - name: Perbelanjaan peribadi
+          href: expense/personal-expenses-expense-report.md
+        - name: Perbelanjaan antara syarikat
+          href: prod-exp/intercompany-expense.md
+        - name: Cipta laporan perbelanjaan
+          items:
+            - name: Pengedaran pada laporan perbelanjaan
+              href: expense/distributions-expense-report.md
+        - name: Luluskan laporan perbelanjaan
+          items:
+            - name: Laporan perbelanjaan dan berbilang pelulus
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Siarkan laporan perbelanjaan
+          href: expense/posting-expense-reports.md
+        - name: Permintaan perjalanan
+          href: expense/travel-requisition.md
+        - name: Pendahuluan tunai
+          href: expense/cash-advance.md
+        - name: Perbelanjaan saraan harian
+          href: expense/per-diem-expenses.md
+        - name: Aplikasi Perbelanjaan Mudah Alih
+          href: expense/expense-using-mobile.md
+        - name: Pengurusan kewangan
+          items:
+            - name: Pemulihan VAT
+              href: expense/vat-recovery.md
+    - name: Pemerolehan
+      items:
+        - name: Pesanan pembelian untuk projek
+          href: prod-pma/project-purchase-orders.md
+        - name: Kos projek terakru pada resit pembelian
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Terima item pada pesanan pembelian daripada keperluan item
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Sediakan dan gunakan pembayaran vendor pembayaran apabila dibayar
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Cipta dan gunakan terma pengekalan pembayaran vendor
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Penginvoisan projek
+      items:
+        - name: Penginvoisan projek
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Prestasi cadangan invois projek
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Cipta kontrak lanjutan untuk pengebilan berdasarkan kemajuan
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Pesanan jualan projek
+          href: prod-pma/project-sales-orders.md
+        - name: Keperluan item untuk kontrak projek dengan pelbagai sumber pembiayaan
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Penginvoisan antara syarikat
+      items:
+        - name: Penginvoisan antara syarikat
+          href: prod-pma/intercompany-invoicing.md
+        - name: Konfigurasikan penginvoisan projek antara syarikat
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Pengiktirafan hasil
+      items:
+        - name: Singkirkan anggaran projek
+          href: prod-pma/eliminate-project-estimate.md
 - name: Pengurusan perbelanjaan
   items:
     - name: Gambaran keseluruhan pengurusan perbelanjaan
@@ -1148,6 +1304,16 @@
       items:
         - name: Jadual Keluaran Kemas Kini untuk Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Ciri baharu atau perubahan dalam Keluaran Kemas Kini 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Naik taraf daripada Project Service Automation kepada Project Operations - ringan
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Perubahan ciri daripada Project Service Automation kepada Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Naik taraf Project Service Automation (versi aplikasi 3.x)
       items:
         - name: Naik taraf Project Service Automation
