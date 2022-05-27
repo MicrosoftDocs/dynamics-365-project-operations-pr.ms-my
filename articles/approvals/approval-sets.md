@@ -2,18 +2,16 @@
 title: Set kelulusan
 description: Topik ini menerangkan cara bekerja dengan set kelulusan, permintaan dan subset operasi tersebut.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323247"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576235"
 ---
 # <a name="approval-sets"></a>Set kelulusan
 
@@ -27,6 +25,18 @@ Set kelulusan menunjukkan keadaan pemprosesan keseluruhan bagi rekod yang berkai
 Kelulusan yang dibariskan untuk pemprosesan boleh dilihat dalam pandangan **Kelulusan Pemprosesan**. Sistem memproses semua entri berbilang kali secara tak segerak, termasuk mencuba semula kelulusan jika percubaan sebelumnya gagal.
 
 Medan **Set Kelulusan Seumur Hidup** merekodkan bilangan baki percubaan untuk memproses set sebelum ia ditanda sebagai gagal.
+
+Set kelulusan diproses melalui pengaktifan berkala berdasarkan Aliran **Awan bernama** **Perkhidmatan Projek - Jadualkan Set Kelulusan Projek Berulang**. Ini terdapat dalam Penyelesaian **bernama** **Operasi Projek**. 
+
+Pastikan aliran diaktifkan dengan melengkapkan langkah-langkah berikut.
+
+1. Sebagai pentadbir, log masuk ke [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Di sudut kanan atas, beralih ke persekitaran yang anda gunakan untuk Dynamics 365 Project Operations.
+3. Pilih **Penyelesaian** untuk menyenaraikan penyelesaian yang dipasang dalam persekitaran.
+4. Dalam senarai penyelesaian, pilih **Operasi** Projek.
+5. Tukar penapis daripada **Semua** kepada **Aliran** Awan.
+6. Sahkan bahawa **Perkhidmatan Projek – Jadualkan Berulang Set** Kelulusan Projek disetkan kepada **Hidup**. Jika tidak, pilih aliran, kemudian pilih **Hidupkan**.
+7. Sahkan bahawa pemprosesan berlaku setiap lima minit dengan **menyemak senarai Kerja** Sistem dalam **kawasan Tetapan** dalam persekitaran Operasi Dataverse Projek anda.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Kelulusan gagal dan set kelulusan
 Pandangan **Kelulusan Gagal** menyenaraikan semua kelulusan yang memerlukan campur tangan pengguna. Buka log set kelulusan berkaitan untuk mengenal pasti punca kegagalan.

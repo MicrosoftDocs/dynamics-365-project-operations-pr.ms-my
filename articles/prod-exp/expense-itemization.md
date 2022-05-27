@@ -1,49 +1,49 @@
 ---
-title: Butiran perbelanjaan
-description: Topik ini menerangkan cara memperincikan perbelanjaan menggunakan ruang kerja Perbelanjaan yang diimaginasikan semula.
+title: Penyenaraian perbelanjaan
+description: Topik ini menerangkan cara memperincikan perbelanjaan menggunakan ruang kerja Perbelanjaan yang dibayangkan semula.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944156"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574533"
 ---
-# <a name="expense-itemization"></a>Butiran perbelanjaan
+# <a name="expense-itemization"></a>Penyenaraian perbelanjaan
 
 [!include [banner](../includes/banner.md)]
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Organisasi sering memerlukan pekerja untuk menyediakan pecahan terperinci perbelanjaan yang ditanggung semasa perjalanan. Sebagai contoh, folio hotel mungkin mengandungi beberapa baris terperinci untuk kadar bilik, cukai, tempat letak kereta, dan perbelanjaan pelbagai lain yang ditanggung setiap hari sepanjang tempoh penginapan. Atau, biaya makan mungkin perlu Anda memberikan pecahan yang lebih terperinci untuk sarapan, makan siang, atau makan malam. Apa sahaja keperluan organisasi, setiap kategori perbelanjaan boleh ditubuhkan untuk mencerminkan subkategori atau item baris yang membuat perbelanjaan. Walaupun butiran sentiasa disokong dalam **pengurusan Perbelanjaan, ruang kerja perbelanjaan** **Reimagined** membolehkan butiran yang lebih cekap apabila ciri, Keupayaan **untuk memperincikan perbelanjaan berulang dengan cepat** didayakan.  
+Organisasi sering memerlukan pekerja untuk memberikan pecahan terperinci perbelanjaan yang ditanggung semasa perjalanan. Sebagai contoh, folio hotel mungkin mengandungi beberapa garisan terperinci untuk harga bilik, cukai, tempat letak kereta, dan perbelanjaan pelbagai lain yang ditanggung setiap hari sepanjang tempoh penginapan. Atau perbelanjaan makan mungkin memerlukan anda menyediakan pecahan yang lebih terperinci untuk sarapan, makan tengah hari, atau makan malam. Walau apa pun keperluan organisasi, setiap kategori perbelanjaan boleh disediakan untuk mencerminkan subkategori atau item baris yang membentuk perbelanjaan. Walaupun pengetinan sentiasa disokong dalam **pengurusan Perbelanjaan,** ruang kerja perbelanjaan **yang dibayangkan semula membolehkan perincian yang lebih cekap apabila ciri tersebut,** Keupayaan untuk memperincikan perbelanjaan berulang dengan cepat **didayakan**.  
 
-## <a name="enable-quick-itemization"></a>Benarkan butiran cepat 
+## <a name="enable-quick-itemization"></a>Mendayakan pengetinan pantas 
 
-Anda boleh menggunakan **Keupayaan untuk memperincikan perbelanjaan berulang dengan cepat** ciri untuk memperincikan perbelanjaan berulang dengan cepat sambil mengelakkan keperluan untuk memasukkan perbelanjaan harian setiap kali untuk tempoh penginapan. Lengkapkan langkah berikut untuk mendayakan butiran cepat.
+Anda boleh menggunakan **Keupayaan untuk memperincikan perbelanjaan berulang dengan cepat** untuk memperincikan perbelanjaan berulang dengan cepat sambil mengelakkan keperluan untuk memasukkan perbelanjaan harian setiap kali untuk tempoh penginapan. Lengkapkan langkah berikut untuk mendayakan pemantasan pantas.
 
-1. Pergi ke **ruang kerja Pengurusan Ciri dan dalam senarai** ciri, cari dan pilih, **Laporan Perbelanjaan Diimaginasikan Semula**. 
+1. Pergi ke **ruang kerja Pengurusan** Ciri dan dalam senarai ciri, cari dan pilih, **Laporan Perbelanjaan Dibayangkan Semula**. 
 2. Pilih **Dayakan sekarang**. 
 3. Dalam senarai ciri, cari dan pilih, **Keupayaan untuk memperincikan perbelanjaan berulang dengan cepat**.
 4. Pilih **Dayakan sekarang**. 
 
-## <a name="itemization-grid"></a>Grid butiran 
+## <a name="itemization-grid"></a>Grid itemisasi 
 
-Sekiranya kategori perbelanjaan mempunyai subkategori atau komponen yang berbeza yang membentuk perbelanjaan itu, maka ia boleh diperincikan. Untuk memperincikan perbelanjaan, pilih garis perbelanjaan dalam laporan perbelanjaan dan dalam **anak tetingkap Butiran** perbelanjaan, pilih **Tindakan** > **Itemize**. Gelangsar **Itemisasi** mendedahkan grid dengan medan. Jadual berikut menyediakan contoh setiap medan dalam grid dan cara medan dipersembahkan dalam laporan perbelanjaan. 
+Jika kategori perbelanjaan mempunyai subkategori atau komponen yang berbeza yang membentuk perbelanjaan itu, maka ia boleh diperincikan. Untuk memperincikan perbelanjaan, pilih baris perbelanjaan dalam laporan perbelanjaan dan dalam **anak tetingkap Butiran** perbelanjaan, pilih **Saiz** > **Item Tindakan**. Slaid **Itemisasi** mendedahkan grid dengan medan. Jadual berikut menyediakan contoh setiap medan dalam grid dan cara medan diterap dalam laporan perbelanjaan. 
 
 |     Medan          |     Description                                                                                  |     Contoh              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
 |     Subkategori    |     Senarai subkategori yang dikonfigurasikan di bawah jenis kategori perbelanjaan, **Hotel**.             |     Harga bilik harian      |
-|     Tarikh mula     |     Tarikh apabila item perbelanjaan mula-mula ditanggung.                                           |     09/13/2021           |
+|     Tarikh mula     |     Tarikh item perbelanjaan pertama kali ditanggung.                                           |     09/13/2021           |
 |     Kadar Harian     |     Amaun yang ditanggung untuk item perbelanjaan.                                                    |     200                  |
-|     Kuantiti       |     Bilangan kali caj diulangi dalam tempoh yang berterusan.                       |     3                    |
+|     Kuantiti       |     Bilangan kali caj diulang dalam tempoh yang berterusan.                       |     3                    |
 
 ![Memperincikan perbelanjaan.](media/Itemization%20screen%201.png)
 
-Apabila anda menyimpan itemisasi, anda akan melihat baris terperinci individu untuk kuantiti yang ditentukan dalam grid Itemization. Setiap baris bermula pada tarikh yang ditentukan dalam grid.
+Apabila anda menyimpan item, anda akan melihat baris terperinci individu untuk kuantiti yang ditentukan dalam grid Itemisasi. Setiap baris bermula pada tarikh yang ditentukan dalam grid.
 
 ![Laporan terperinci.](media/Itemization%20screen%202.png)
 

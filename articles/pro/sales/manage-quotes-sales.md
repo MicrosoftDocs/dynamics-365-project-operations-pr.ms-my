@@ -4,14 +4,14 @@ description: Topik ini menyediakan maklumat tentang sebut harga projek.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001532"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579593"
 ---
 # <a name="manage-project-quotes"></a>Urus sebut harga projek
 
@@ -31,6 +31,9 @@ Senarai semua sebut harga projek boleh dilihat daripada halaman senarai **Sebut 
 2. Gunakan **Penukar Pandangan** untuk memilih pandangan ditapis bagi sebut harga. Anda boleh mengkonfigurasi pandangan anda sendiri dan pilihan navigasi dengan menggunakan kriteria penapis tersuai.
 
 Sebut harga boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
+
+ > [!NOTE]
+ > Petikan yang mempunyai projek, tugas, anggaran, jurnal dan/atau sebenar yang berkaitan dengannya tidak boleh dipadamkan. Juga, apabila sebut harga ditutup sebagai Menang atau Hilang, ia tidak lagi boleh dipadamkan atau diubah suai. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

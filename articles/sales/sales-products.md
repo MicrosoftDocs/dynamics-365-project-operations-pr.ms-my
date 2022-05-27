@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,22 +15,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986862"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574119"
 ---
 # <a name="products"></a>Produk
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Produk adalah teras perniagaan anda. Katalog produk dalam Dynamics 365 Sales Professional ialah koleksi produk dan maklumat penentuan harga. Permudahkan wakil jualan anda untuk meningkatkan jualan mereka dengan mencipta katalog produk secara cepat.
+Produk adalah teras perniagaan anda. Katalog produk dalam Dynamics 365 Sales Professional ialah pengumpulan maklumat produk dan penentuan harga. Permudahkan wakil jualan anda untuk meningkatkan jualan mereka dengan mencipta katalog produk secara cepat.
 
 ## <a name="add-a-product"></a>Tambah produk
 
-1.  Pastikan anda mempunyai Pengurus Jualan Profesional atau peranan Pentadbir Sistem agar anda boleh menambah produk dalam Dynamics 365 Sales Professional.
+1.  Pastikan anda mempunyai peranan Pengurus Jualan yang Profesional atau Sistem Pentadbir supaya anda boleh menambah produk dalam Dynamics 365 Sales Professional.
 2.  Dalam peta tapak, di bawah **Persediaan**, pilih **Produk**.
 3.  Pilih **Tambah Produk** dan isi maklumat berikut:
 

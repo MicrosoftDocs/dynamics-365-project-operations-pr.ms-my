@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000272"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580191"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Apakah Dynamics 365 Project Service Automation?
 
@@ -42,14 +43,6 @@ Aplikasi Project Service Automation (PSA) membantu organisasi menjejaki, menguru
 - ...dan banyak lagi
 
 Selain itu, untuk membantu anda memantau dan mengawal kos untuk kerja berasaskan projek, perunding individu dengan mudah memasukkan dan menjejaki masa dan perbelanjaan projek sama ada pada mudah alih atau menggunakan pelayar web.
-
-## <a name="whats-new-in-psa"></a>Perkara baharu dalam PSA
-Pasukan teruja untuk mengumumkan kemas kini terbaru kami! Terdiri daripada penambahbaikan kepada antara muka pengguna, pembetulan pepijat dan menambah ciri dan keupayaan penting yang baharu. Anda bertanya; kami mendengar.
-
-Sila lihat pada [Nota Keluaran Oktober '19](/dynamics365-release-plan/2019wave2/index) untuk melihat peningkatan dan tambahan terbaru kami.
-
-### <a name="in-development"></a>Dalam pembangunan
-Untuk melihat perkara yang kami telah rancang dalam masa terdekat, pergi ke [Dynamics 365: pelan gelombang 1 keluaran 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Dapatkan bantuan dengan PSA versi 3.x
 Mencari sumber untuk membantu merancang pelaksanaan anda? Semak panduan boleh dimuat turun ini.
@@ -80,10 +73,6 @@ Mencari sumber untuk membantu merancang pelaksanaan anda? Semak panduan boleh di
  [Kertas putih (versi aplikasi 2.x atau 1.x)](../psa/white-papers.md)
 
  [Nota untuk pembangun (versi aplikasi 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Tonton 2 minit video gambaran keseluruhan
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

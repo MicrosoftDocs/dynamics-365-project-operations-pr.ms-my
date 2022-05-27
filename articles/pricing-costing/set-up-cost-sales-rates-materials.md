@@ -2,16 +2,16 @@
 title: Sediakan kadar kos dan jualan untuk bahan
 description: Topik ini menyediakan maklumat tentang cara menetapkan kadar kos dan jualan untuk bahan yang digunakan pada projek.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999192"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576879"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Sediakan kadar kos dan jualan untuk bahan
 
@@ -25,6 +25,9 @@ Bagi menyediakan kadar kos dan jualan untuk produk, lengkapkan langkah berikut.
 2. Pada **Item senarai harga**, pada menu subgrid, pilih **Item senarai harga baharu**. 
 3. Pada halaman **Cipta Pantas**, masukkan produk dan unit yang harga baharu tersebut dicipta.
 
-Untuk mendapatkan maklumat lanjut tentang cara mentakrifkan harga untuk item Katalog, lihat [Persediaan penetapan harga untuk produk](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) dan [Ketepatan perpuluhan dalam mata wang dan penetapan harga](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Untuk maklumat lanjut tentang cara menentukan harga untuk item katalog, lihat [Mentakrifkan harga produk dengan senarai harga dan item](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) senarai harga dan [Ketepatan perpuluhan dalam mata wang dan harga](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations tidak menyokong semua kaedah harga untuk produk sebagai Dynamics 365 Sales. Satu-satunya kaedah harga yang disokong untuk produk yang akan digunakan pada projek adalah *Jumlah Mata Wang*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

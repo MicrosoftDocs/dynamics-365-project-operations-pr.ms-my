@@ -1,25 +1,25 @@
 ---
 title: Kemas kini Project Operations dalam persekitaran Kewangan anda
-description: Topik ini menyediakan maklumat tentang cara untuk mengemas kini Project Operations dalam persekitaran Dynamics 365 Finance anda.
+description: Topik ini memberikan maklumat tentang cara mengemas kini Operasi Projek dalam persekitaran Dynamics 365 Finance anda.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986772"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579945"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Kemas kini Project Operations dalam persekitaran Kewangan anda
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 
-Topik ini menyediakan maklumat tentang cara untuk mengemas kini Dynamics 365 Project Operations dalam persekitaran Dynamics 365 Finance anda. Terdapat tiga prosedur yang diperlukan untuk mengemas kini Project Operations kepada Kemas Kini 5 (UR5):
+Topik ini memberikan maklumat tentang cara mengemas kini Dynamics 365 Project Operations dalam persekitaran Dynamics 365 Finance anda. Terdapat tiga prosedur yang diperlukan untuk mengemas kini Project Operations kepada Kemas Kini 5 (UR5):
 
 - [Import pakej ke dalam projek pratonton anda](#import)
 - [Gunakan kemas kini](#apply)
@@ -119,7 +119,7 @@ Kemas kini berikut pada kelayakan keselamatan untuk entiti diperlukan sebagai se
 4. Halaman **Versi peta jadual**, gunakan versi peta baharu pada setiap tiga entiti.
 5. Pada halaman **Dwitulis**, pilih jalankan untuk mulakan semula peta.
 6. Dari senarai peta, pilih peta **Ledger (msdyn_ledgers)** yang mempunyai semua prasyarat dan pilih kotak semak **Segerak awal**. 
-7. Dalam medan **Induk untuk segerak awal**, pilih aplikasi **Finance and Operations** dan kemudian pilih **Jalankan**.
+7. **Dalam medan Induk untuk penyegerakan** awal, pilih **aplikasi** Kewangan dan Operasi dan kemudian pilih **Jalankan**.
  
  ![Penyegerakan peta lejar.](media/DW6.png)
  

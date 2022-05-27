@@ -4,20 +4,20 @@ description: Topik ini memberikan maklumat mengenai cara untuk melanggan dan men
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323427"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575821"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Daftar untuk langganan pratonton Operasi Projek untuk senario sumber/bukan stok
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Topik ini menerangkan cara untuk melanggan tawaran percubaan dan mengatur letak persekitaran Project Operations untuk senario berdasarkan sumber/tidak distok.
 
@@ -47,9 +47,9 @@ Pergi ke [Percubaan Pratonton Dynamics 365 for Finance](https://aka.ms/trypoche)
 ## <a name="assign-licenses"></a>Tugaskan lesen
 
 > [!IMPORTANT]
-> Anda akan memerlukan akses pentadbiran ke portal organisasi Microsoft 365 anda untuk melengkapkan langkah berikut.
+> Anda akan memerlukan akses pentadbiran ke portal Microsoft 365 organisasi anda untuk melengkapkan langkah berikut.
 
-1. Pergi ke [pusat pentadbir Microsoft 365](https://portal.office.com/) untuk tugaskan lesen kepada pengguna anda.
+1. Pergi ke [Microsoft 365 pusat](https://portal.office.com/) pentadbiran untuk memperuntukkan lesen kepada pengguna anda.
 
 2. Pada halaman **Pengguna aktif**, pilih pengguna yang anda mahu peruntukkan lesen.
 

@@ -2,16 +2,16 @@
 title: Betulkan perakaunan dalam draf cadangan invois projek
 description: Topik ini menerangkan cara untuk melaraskan maklumat berkaitan perakaunan dalam draf cadangan invois.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999327"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575085"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Betulkan perakaunan dalam draf cadangan invois projek
 
@@ -27,12 +27,21 @@ Kumpulan cukai jualan pengebilan dan kumpulan cukai jualan item lalai boleh dila
 
 ## <a name="adjust-financial-dimensions"></a>Laraskan dimensi kewangan
 
+### <a name="header-dimensions"></a>Dimensi tajuk
+
+Secara lalai, dimensi kewangan invois diperolehi daripada rekod transaksi projek yang belum dibilkan yang sedang diinvois. Walau bagaimanapun, tetapan sistem membolehkan anda menggunakan dimensi kewangan pada tajuk cadangan invois projek untuk menghantar baki pelanggan. Untuk mendayakan kefungsian ini, pilih **Benarkan kemas kini kepada dimensi projek untuk akaun belum terima** pada **tab Kewangan** bagi **halaman Pengurusan Projek dan parameter** perakaunan.
+
+Dimensi kewangan pada pengepala invois boleh diedit sebelum invois disiarkan. **Pada halaman Cadangan** invois Projek, tukar kepada **pandangan Pengepala**, kemudian edit nilai pada **tab Dimensi** kewangan.
+
+Pandangan **Pengepala** tersedia hanya selepas pentadbir sistem mendayakan **borang Gunakan cadangan invois Projek dan jurnal invois dengan ciri pandangan** Pengepala dan Baris dalam **ruang kerja pengurusan** Ciri. Ciri ini memerlukan kemas kini Kewangan 10.0.25 atau lebih baru.
+
+### <a name="line-dimensions"></a>Dimensi garisan
+
 Dimensi kewangan tidak boleh diedit secara langsung dalam baris cadangan invois projek. Sebaliknya, ikuti langkah ini untuk melaraskan dimensi kewangan dalam cadangan invois projek.
 
 1. Pada cadangan invois projek, pilih **Padam semua** untuk mengalih keluar baris cadangan invois projek.
 
-    > [!NOTE]
-    > Butang **Padam semua** tersedia hanya selepas pentadbir sistem mendayakan **Padamkan baris cadangan invois apabila menggunakan ciri Project Operations untuk senario bukan distok/berdasarkan sumber** dalam ruang kerja **Pengurusan ciri**.
+    Butang **Padam semua** tersedia hanya selepas pentadbir sistem mendayakan **Padamkan baris cadangan invois apabila menggunakan ciri Project Operations untuk senario bukan distok/berdasarkan sumber** dalam ruang kerja **Pengurusan ciri**.
 
 2. Laraskan dimensi kewangan:
 

@@ -3,17 +3,16 @@ title: Gambaran keseluruhan dimensi penentuan harga
 description: Topik ini memberikan maklumat tentang dimensi penetapan harga dalam Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001982"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579271"
 ---
 # <a name="pricing-dimensions-overview"></a>Gambaran keseluruhan dimensi penentuan harga
 
@@ -58,18 +57,18 @@ Contoh berikut menunjukkan kadar bil yang ditetapkan berdasarkan peranan dan uni
 
 **Sampel kadar bil**
 
-| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata wang  |
+| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
 | ------------|-------------|----------|----------:|----------|
-| Pemaju   | Contoso AS  |Jam | 200|USD     |
-| Pemaju   | Contoso India |Jam|   112|USD     |
+| Pembangun   | Contoso AS  |Hour | 200|USD     |
+| Pembangun   | Contoso India |Hour|   112|USD     |
 
 
 **Sampel kadar kos**
 
-| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata wang  |
+| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
 | ----------------|-------------|----------|----------:|----------|
-| Syarikat saya_Jalur1 | Contoso AS  |Jam | 145|USD     |
-| Syarikat saya_Jalur2 | Contoso India |Jam|   67|USD     |
+| Syarikat saya_Jalur1 | Contoso AS  |Hour | 145|USD     |
+| Syarikat saya_Jalur2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
