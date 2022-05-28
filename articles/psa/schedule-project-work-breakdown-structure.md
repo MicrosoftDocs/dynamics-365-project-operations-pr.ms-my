@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996807"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587367"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Jadualkan projek dengan struktur pecahan kerja (Project Service)
 
@@ -63,7 +64,7 @@ Jadual projek menyampaikan kerja yang perlu dilaksanakan, sumber yang akan melak
 ## <a name="task-types"></a>Jenis tugas  
 Anda akan menggunakan jenis tugas berikut ketika mencipta struktur pecahan kerja anda:  
 
-| | | 
+| Tugas | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Nod akar projek** | Tugas ringkas peringkat atas untuk projek. Semua tugas projek lain dicipta di bawahnya. Nama tugas akar ialah nama projek. Usaha, tarikh dan tempoh nod akar adalah berdasarkan nilai dalam hierarki di bawahnya. Anda tidak boleh mengedit sifat nod akar atau memadan nod akar. | 
 | **Tugas ringkas atau bekas** | Tugas ringkas ialah tugas yang mempunyai sub tugas di bawahnya. Tugas ringkas tidak mempunyai sebarang usaha kerja atau kosnya sendiri. Usaha kerja dan kosnya adalah himpunan sub tugasnya. Anda boleh mengubah nama tugas ringkas tetapi anda tidak boleh mengubah usaha, tarikh atau tempoh kerana ia dikira secara automatik. Tindakan memadam tugas ringkas akan memadam tugas dan semua sub tugasnya.|  

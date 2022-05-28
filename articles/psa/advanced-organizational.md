@@ -1,5 +1,5 @@
 ---
-title: Unit organisasi
+title: Unit organisasi lanjutan
 description: Topik ini menyediakan maklumat mengenai unit organisasi dalam Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005087"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589437"
 ---
-# <a name="organizational-units"></a>Unit organisasi 
+# <a name="about-organizational-units"></a>Mengenai unit organisasi 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -122,7 +123,7 @@ Tidak. Dalam keluaran semasa PSA, unit organisasi tidak berhierarki. Ini bermaks
 Apabila anda mempunyai hierarki ruimit bagi pusat kos, bahagian, pejabat pengebilan, dan lain-lain, menetapkan nod daun bagi hierarki itu sebagai unit organisasi berbeza.
 Contoh berikut menunjukkan hierarki biasa:
 
-**ContosoIndia**
+**Contoso India**
 
   - Amalan SAP 
 

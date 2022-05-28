@@ -4,14 +4,14 @@ description: Topik ini menyediakan maklumat tentang cara mencipta invois pelangg
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989274"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591507"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Cipta invois pelanggan dan vendor antara syarikat
 
@@ -27,7 +27,7 @@ Gunakan prosedur ini untuk mencipta invois pelanggan antara syarikat untuk trans
 
 Langkah berikut mesti dilakukan dalam entiti perundangan pemberian pinjaman. 
 
-1. Dalam Dynamics 365 Finance, pergi ke **Pengurusan projek dan perakaunan** > **Invois projek** > **Invois pelanggan antara syarikat**. Pada halaman senarai **Invois pelanggan antara syarikat**, pada Anak Tetingkap Tindakan, pilih **Baharu.**
+1. Dalam Dynamics 365 Finance, pergi ke **Pengurusan Projek dan perakaunan** > **Invois** > **projek Invois pelanggan antara syarikat**. Pada halaman senarai **Invois pelanggan antara syarikat**, pada Anak Tetingkap Tindakan, pilih **Baharu.**
 2. Pada halaman **Cipta invois antara syarikat**, dalam medan **Entiti sah**, pilih entiti sah pinjaman.
 3. Pilihan: Masukkan kontrak projek tertentu dan nombor projek.
 4. Kecilkan carian dengan memilih julat tarikh. Masukkan tarikh tertentu dalam medan **Tarikh mula** dan **Tarikh tamat**. Hanya transaksi antara syarikat yang disiarkan dalam julat tarikh ini dipaparkan dalam hasil carian.

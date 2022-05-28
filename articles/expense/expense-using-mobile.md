@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818194"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588931"
 ---
 # <a name="mobile-expense-app"></a>Aplikasi Perbelanjaan Mudah Alih
 
@@ -100,7 +100,7 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 
 10. Pilih **Selesai**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Meluluskan laporan perbelanjaan menggunakan ruang kerja mudah alih pengurusan perbelanjaan
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Meluluskan laporan perbelanjaan dengan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan
 
 1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
 2. **Kelulusan perbelanjaan** menunjukkan bilangan laporan perbelanjaan yang ditugaskan kepada anda untuk kelulusan. Nombor dikemas kini kira-kira setiap 30 minit. Pilih **Kelulusan Perbelanjaan**.
@@ -113,7 +113,7 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 6. Masukkan sebarang komen untuk tindakan kelulusan.
 7. Pilih **Selesai**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Cipta laporan perbelanjaan baharu dan serahkannya untuk kelulusan menggunakan ruang kerja mudah alih Pengurusan perbelanjaan
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Buat laporan perbelanjaan baru dan serahkannya untuk kelulusan dengan menggunakan ruang kerja mudah alih pengurusan Perbelanjaan
 
 1. Pada peranti mudah alih anda, buka ruang kerja **Pengurusan perbelanjaan**.
 2. Pilih **Entri perbelanjaan**.
@@ -204,23 +204,23 @@ Muat turun dan pasang aplikasi mudah alih Dynamics 365 Unified Ops:
 
 ## <a name="frequently-asked-questions"></a>Soalan lazim
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Mengapakah apl mudah alih Perbelanjaan tidak memasukkan kaedah pembayaran secara lalai?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Mengapa apl mudah alih Perbelanjaan tidak memasukkan kaedah pembayaran secara lalai?
 
-Organisasi boleh menyesuaikan **tetapan Kaedah pembayaran lalai untuk setiap kategori perbelanjaan semasa ia** dicipta. Selain itu, apabila anda menyediakan kaedah pembayaran, anda boleh menetapkan **medan Kaedah pembayaran lalai kepada Import** **sahaja**.
+Organisasi boleh menyesuaikan **tetapan Kaedah** pembayaran lalai untuk setiap kategori perbelanjaan semasa ia dicipta. Selain itu, apabila anda menyediakan kaedah pembayaran, anda boleh menetapkan **medan Kaedah** pembayaran lalai kepada **Import sahaja**.
 
-Apabila **Import hanya** didayakan untuk kaedah pembayaran, kaedah pembayaran tidak dimasukkan secara lalai. Ia akan menjadi kosong dalam kategori perbelanjaan di mana kaedah pembayaran ini disediakan. Tingkah laku ini konsisten dalam pengalaman web dan pengalaman mudah alih.
+Apabila **Import sahaja** didayakan untuk kaedah pembayaran, kaedah pembayaran tidak dimasukkan secara lalai. Ia akan menjadi kosong dalam kategori perbelanjaan di mana kaedah pembayaran ini disediakan. Tingkah laku ini konsisten dalam pengalaman web dan pengalaman mudah alih.
     
-Apabila **Import tidak** didayakan untuk kaedah pembayaran, nilai yang ditetapkan dimasukkan secara lalai untuk kategori perbelanjaan yang kaedah pembayaran ini disediakan. Walau bagaimanapun, terdapat isu yang diketahui di mana nilai lalai tidak dimasukkan dalam apl mudah alih Perbelanjaan. Untuk menyelesaikan isu ini, pilih kaedah pembayaran secara manual sebelum anda menyimpan laporan perbelanjaan. 
+Apabila **Import sahaja** tidak didayakan untuk kaedah pembayaran, nilai yang ditetapkan dimasukkan secara lalai untuk kategori perbelanjaan di mana kaedah pembayaran ini disediakan. Walau bagaimanapun, terdapat isu yang diketahui di mana nilai lalai tidak dimasukkan dalam apl mudah alih Perbelanjaan. Untuk menyelesaikan isu ini, pilih kaedah pembayaran secara manual sebelum anda menyimpan laporan perbelanjaan. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Mengapakah saya tidak boleh menambah atau mengedit dimensi kewangan dalam apl mudah alih Perbelanjaan?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Mengapa saya tidak boleh menambah atau mengedit dimensi kewangan dalam aplikasi mudah alih Perbelanjaan?
 
-Kemasukan dimensi dan taburan tidak disokong. Untuk mengatasi had ini, anda boleh menetapkan medan ini secara lalai dalam aplikasi mudah alih dengan menyediakan dimensi kewangan lalai bagi setiap projek atau pekerja.
+Kemasukan dimensi dan taburan tidak disokong. Untuk mengatasi had ini, anda boleh menetapkan medan ini secara lalai dalam apl mudah alih dengan menyediakan dimensi kewangan lalai bagi setiap projek atau pekerja.
 
 ### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Mengapakah saya kadangkala melihat ralat penyegerakan dalam aplikasi mudah alih Perbelanjaan?
 
-Jika garis perbelanjaan tidak memenuhi keperluan dasar dan pengguna menyerahkan laporan perbelanjaan tanpa menangani amaran dasar, data mudah alih tidak disegerakkan ke pelayan dan kegagalan penyegerakan berlaku. Semua laporan perbelanjaan yang dikemukakan selepas kegagalan penyegerakan berlaku akan kekal dalam keadaan gagal dan menyebabkan lebih banyak kegagalan penyegerakan. Satu-satunya cara untuk membetulkan keadaan ini adalah dengan memadam pemberitahuan penyegerakan secara manual. Isu ini telah ditangani dengan menghentikan penyerahan laporan perbelanjaan apabila amaran dasar belum ditangani, supaya ralat penyegerakan dapat dielakkan.
+Jika garis perbelanjaan tidak memenuhi keperluan dasar dan pengguna menyerahkan laporan perbelanjaan tanpa menangani amaran dasar, data mudah alih tidak disegerakkan ke pelayan dan kegagalan penyegerakan berlaku. Semua laporan perbelanjaan yang dikemukakan selepas kegagalan penyegerakan berlaku akan kekal dalam keadaan gagal dan menyebabkan lebih banyak kegagalan penyegerakan. Satu-satunya cara untuk membetulkan keadaan ini adalah dengan memadam pemberitahuan penyegerakan secara manual. Isu ini telah ditangani dengan menghentikan penyerahan laporan perbelanjaan apabila amaran dasar belum ditangani, supaya ralat penyegerakan dielakkan.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Mengapa pengesahan projek dan kategori tidak dicerminkan dengan betul dalam aplikasi mudah alih Perbelanjaan?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Mengapa pengesahan projek dan kategori tidak ditunjukkan dengan betul dalam aplikasi mudah alih Perbelanjaan?
 
 Pengesahihan ini tidak disokong buat masa ini. Walau bagaimanapun, sokongan mungkin ditambah pada masa akan datang. 
 

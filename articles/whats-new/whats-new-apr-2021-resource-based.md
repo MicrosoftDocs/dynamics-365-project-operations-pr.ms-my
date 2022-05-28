@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008147"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589115"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu April 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
@@ -42,13 +42,13 @@ Senarai berikut menunjukkan peta dwi tulis yang telah diubah suai atau ditambah 
 | **Peta entiti** | **Versi dikemas kini** | **Komen** |
 | --- | --- | --- |
 | Aktual integrasi Project Operations (msdyn\_actuals) | 1.0.0.14 | Peta diubah suai untuk menyegerakkan aktual projek bahan. |
-| Entiti integrasi Project Operations untuk anggaran perbelanjaan (msdyn\_estimateslines) | 1.0.0.2 | Baris kontrak projek ditambah ke aplikasi Finance and Operations untuk sokongan pengebilan berdasarkan tugas. |
-| Entiti integrasi Project Operations untuk anggaran jam (msdyn\_resourceassignments) | 1.0.0.5 | Baris kontrak projek ditambah ke aplikasi Finance and Operations untuk sokongan pengebilan berdasarkan tugas. |
-| Jadual integrasi Project Operations untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan anggaran bahan daripada Dataverse ke aplikasi Finance and Operations. |
-| Entiti eksport invois projek integrasi Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan pengepala invois vendor daripada Finance and Operations aplikasi ke Dataverse. |
-| Entiti eksport baris invois vendor projek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan baris invois vendor daripada Finance and Operations aplikasi ke Dataverse. |
+| Entiti integrasi Project Operations untuk anggaran perbelanjaan (msdyn\_estimateslines) | 1.0.0.2 | Menambah talian kontrak projek disegerakkan ke aplikasi Kewangan dan Operasi untuk sokongan pengebilan berasaskan tugas. |
+| Entiti integrasi Project Operations untuk anggaran jam (msdyn\_resourceassignments) | 1.0.0.5 | Menambah talian kontrak projek disegerakkan ke aplikasi Kewangan dan Operasi untuk sokongan pengebilan berasaskan tugas. |
+| Jadual integrasi Project Operations untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan anggaran bahan daripada Dataverse aplikasi Kewangan dan Operasi. |
+| Entiti eksport invois projek integrasi Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan pengepala invois vendor daripada apl Kewangan dan Operasi kepada Dataverse. |
+| Entiti eksport baris invois vendor projek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Peta jadual baharu untuk menyegerakkan baris invois vendor daripada apl Kewangan dan Operasi kepada Dataverse. |
 
-Anda hendaklah sentiasa menjalankan versi terkini peta dalam persekitaran anda dan mendayakan semua peta jadual yang berkaitan apabila anda mengemas kini penyelesaian Project Operations Dataverse dan versi penyelesaian Finance and Operations. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur **Versi** pada halaman **Dwi tulis**. Anda boleh mengaktifkan versi baharu peta dengan memilih **Versi peta jadual**, memilih versi terkini dan kemudian menyimpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Anda harus sentiasa menjalankan versi terkini peta dalam persekitaran anda dan mendayakan semua peta jadual yang berkaitan semasa anda mengemas kini penyelesaian Operasi Dataverse Projek anda dan versi penyelesaian Kewangan dan Operasi. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur **Versi** pada halaman **Dwi tulis**. Anda boleh mengaktifkan versi baharu peta dengan memilih **Versi peta jadual**, memilih versi terkini dan kemudian menyimpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu lajur jadual yang hilang pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) bagi garis panduan penyelesaian masalah Dwi Tulis.
 
@@ -79,7 +79,7 @@ Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu 
 | Masa dan Perbelanjaan | 2204377 | Lembaran masa yang disalin mesti ditunjukkan secara automatik apabila anda memilih **Salin Minggu** semasa entri masa. |
 | Masa dan Perbelanjaan | 2209059 | Medan **status** boleh diedit untuk entri masa Dynamics 365 Field Service. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
 
 | **Bahagian ciri** | **Nombor rujukan** | **Kemas kini kualiti** |
 | --- | --- | --- |

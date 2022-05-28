@@ -1,24 +1,24 @@
 ---
 title: Gunakan data demo pada persekitaran berhos Awan Kewangan
-description: Topik ini menerangkan cara menggunakan data demo daripada Operasi Projek kepada Dynamics 365 Finance persekitaran berhos Awan.
+description: Topik ini menerangkan cara menggunakan data demo daripada Operasi Projek kepada persekitaran yang dihoskan oleh Awan Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009677"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588977"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Gunakan data demo pada persekitaran berhos Awan Kewangan
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 > [!IMPORTANT]
-> Topik ini hanya diguna pakai bagi Microsoft Dynamics 365 Finance versi 10.0.13 dan hanya boleh dilakukan pada persekitaran berhos Awan. Lengkapkan langkah dalam topik ini **SEBELUM** anda menggunakan kemas kini kualiti kepada persekitaran.
+> Topik ini hanya boleh digunakan Microsoft Dynamics 365 Kewangan versi 10.0.13 dan boleh dilakukan hanya pada persekitaran yang dihoskan oleh Cloud. Lengkapkan langkah dalam topik ini **SEBELUM** anda menggunakan kemas kini kualiti kepada persekitaran.
 
 1. Dalam projek LCS anda, buka halaman **Butiran persekitaran**. Perhatikan bahawa ia termasuk butiran yang diperlukan untuk menyambung ke persekitaran dengan menggunakan Protokol Desktop Jarak Jauh (RDP).
 
@@ -76,7 +76,7 @@ Ini mengambil masa beberapa minit untuk dilengkapkan. Anda akan menerima mesej p
 
 18. Tutup sesi desktop jarak jauh dan gunakan halaman **butiran persekitaran LCS** untuk log masuk ke persekitaran bagi mengesahkannya, ia berfungsi seperti yang dijangkakan.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Kewangan dan Operasi.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

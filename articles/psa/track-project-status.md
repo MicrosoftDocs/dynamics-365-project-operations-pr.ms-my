@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996717"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593393"
 ---
 # <a name="track-a-projects-status-project-service"></a>Jejak status projek (Project Service)
 
@@ -33,14 +34,13 @@ Gunakan [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-projec
 
 Sebagaimana kemajuan penglibatan, peringkat projek dikemas kini untuk menunjukkan peringkat penglibatan:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Baharu**    | Apabila anda mencipta projek, peringkat ditetapkan kepada **Baharu**. Jika anda mencipta projek daripada templat, pada peringkat ini, projek mungkin mempunyai jadual, anggaran dan data pasukan. Sebaliknya, hanya terdapat rangka projek dan anda perlu memasukkan komponen projek yang lain secara manual. |
-|  **Sebut Harga**   |      Apabila anda mengaitkan projek dengan sebut harga atau menciptanya daripada sebut harga, peringkat projek ditetapkan kepada **Sebut Harga** dan anggaran tarikh mula dan tamat juga dikemas kini. Apabila projek berada dalam peringkat sebut harga, butiran sebut harga dipaparkan pada tab **Sales** di halaman **Projek**.      |
-|   **Pelan**   |                                     Apabila anda menang sebut harga yang dikaitkan dengan projek dan apabila penglibatan mara ke peringkat kontrak, peringkat projek dikemas kini kepada **Pelan**. Butiran kontrak dipaparkan pada tab **Sales** di halaman **Projek**.                                      |
-| **Selesai** |                    Apabila kerja projek selesai, anda boleh menukar peringkat kepada **Selesai**. Apabila peringkat projek ditetapkan kepada selesai, difahami bahawa kerja 100% selesai tetapi projek terus dibuka untuk sebarang masa menunggu atau entri perbelanjaan direkodkan.                     |
-|  **Tutup**   |           Apabila semua transaksi telah direkodkan pada projek dan tiada lagi transaksi untuk dilogkan, anda boleh menetapkan peringkat secara manual kepada **Tutup**. Apabila projek ditetapkan kepada **Tutup**, tiada lagi transaksi boleh dilogkan pada projek dan projek akan menjadi baca sahaja.           |
+| Tugas | Description | 
+|------------|----------|
+| **New** | Apabila anda mencipta projek, peringkat ditetapkan kepada **Baharu**. Jika anda mencipta projek daripada templat, pada peringkat ini, projek mungkin mempunyai jadual, anggaran dan data pasukan. Sebaliknya, hanya terdapat rangka projek dan anda perlu memasukkan komponen projek yang lain secara manual. |
+| **Sebut Harga** |  Apabila anda mengaitkan projek dengan sebut harga atau menciptanya daripada sebut harga, peringkat projek disetkan kepada **Sebut Harga** dan anggaran tarikh mula dan tamat juga dikemas kini. Apabila projek berada dalam peringkat sebut harga, butiran sebut harga dipaparkan pada tab **Sales** di halaman **Projek**. |
+| **Pelan** |  Apabila anda menang sebut harga yang dikaitkan dengan projek dan apabila penglibatan mara ke peringkat kontrak, peringkat projek dikemas kini kepada **Pelan**. Butiran kontrak dipaparkan pada tab **Sales** di halaman **Projek**. |
+| **Selesai** | Apabila kerja projek selesai, anda boleh menukar peringkat kepada **Selesai**. Apabila peringkat projek ditetapkan kepada selesai, difahami bahawa kerja 100% selesai tetapi projek terus dibuka untuk sebarang masa menunggu atau entri perbelanjaan direkodkan. |
+| **Tutup** | Apabila semua transaksi telah direkodkan pada projek dan tiada lagi transaksi untuk dilogkan, anda boleh menetapkan peringkat secara manual kepada **Tutup**. Apabila projek ditetapkan kepada **Tutup**, tiada lagi transaksi boleh dilogkan pada projek dan projek akan menjadi baca sahaja. |
 
 ## <a name="to-track-a-projects-status"></a>Untuk menjejaki status projek  
 

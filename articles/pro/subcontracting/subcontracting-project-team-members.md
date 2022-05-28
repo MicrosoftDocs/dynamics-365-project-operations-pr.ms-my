@@ -1,59 +1,59 @@
 ---
-title: Subkontrak ahli pasukan projek
+title: Ahli pasukan projek subkontrak
 description: Topik ini menerangkan cara subkontrak ahli pasukan projek dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903731"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587857"
 ---
-# <a name="subcontracting-project-team-members"></a>Subkontrak ahli pasukan projek
+# <a name="subcontracting-project-team-members"></a>Ahli pasukan projek subkontrak
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Dalam Dynamics 365 Project Operations Microsoft, anda boleh memilih untuk subkontrak ahli pasukan projek yang tidak terjejas atau kakitangan.
+Dalam Microsoft Dynamics 365 Project Operations, anda boleh memilih untuk subkontrak ahli pasukan projek tanpa kakitangan atau kakitangan.
 
-- Ahli pasukan projek yang tidak terjejas mempunyai sumber generik yang diberikan.
-- Ahli pasukan yang dikendalikan mempunyai sumber bernama yang ditugaskan.
+- Ahli pasukan projek yang tidak mempunyai kakitangan mempunyai sumber generik yang diberikan.
+- Ahli pasukan kakitangan mempunyai sumber bernama yang ditugaskan.
 
-Apabila anda memautkan ahli pasukan projek ke talian subkontrak, sebarang tugasan kepada tugas yang ahli pasukan telah dikosongkan berdasarkan senarai harga pembelian yang dilampirkan pada subkontrak.  Pada **tab Anggaran** pada halaman Butiran **Projek**, pilih butang Kemas kini harga **untuk melihat harga** dan/atau kos yang dikemas kini hasil daripada keputusan untuk subkontrak. 
+Apabila anda memautkan ahli pasukan projek kepada baris subkontrak, sebarang tugasan kepada tugas yang dimiliki oleh ahli pasukan akan dijejaskan semula berdasarkan senarai harga pembelian yang dilampirkan pada subkontrak.  **Pada tab Anggaran** pada **halaman Butiran** Projek, pilih **butang Kemas Kini harga** untuk melihat harga yang dikemas kini dan/atau kos yang terhasil daripada keputusan untuk subkontrak. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subkontrak ahli pasukan projek yang tidak terjejas
-**Halaman butiran Ahli Pasukan mempunyai medan garis** subkontrak dan subkontrak yang membolehkan pengurus projek menyatakan cara mereka ingin menarik kapasiti yang diperlukan daripada subkontrak. Untuk subkontrak ahli pasukan projek sebagai sumber generik, ikuti langkah-langkah berikut:
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Subkontrak ahli pasukan projek yang tidak mempunyai kakitangan
+Halaman **butiran** Ahli Pasukan mempunyai medan subkontrak dan subkontrak yang membolehkan pengurus projek menyatakan bagaimana mereka ingin menarik kapasiti yang diperlukan daripada subkontrak. Untuk subkontrak ahli pasukan projek sebagai sumber generik, ikuti langkah berikut:
 
-1.  Pilih subkontrak pada **halaman butiran ahli** Pasukan.
+1.  Pilih subkontrak pada **halaman butiran** ahli Pasukan.
 
-2.  Anda hanya boleh memilih subkontrak dengan **Draf** atau Status **Disahkan**. **Subkontrak** tertutup atau **Dibatalkan tidak** boleh dipilih. 
+2.  Anda hanya boleh memilih subkontrak dengan **status Draf** atau **Disahkan**. **Subkontrak tertutup** atau **dibatalkan** tidak boleh dipilih. 
 
-3.  **Medan Garis subkontrak** menjadi kelihatan selepas anda memilih subkontrak.
+3.  Medan **baris** Subkontrak menjadi kelihatan selepas anda memilih subkontrak.
 
-4.  Dalam **medan Garis subkontrak,** anda hanya boleh memilih garis subkontrak yang untuk masa. Anda tidak boleh memilih garis subkontrak untuk perbelanjaan atau bahan.
+4.  **Dalam medan Baris** Subkontrak, anda hanya boleh memilih baris subkontrak yang sesuai untuk masa. Anda tidak boleh memilih baris subkontrak untuk perbelanjaan atau bahan.
 
-5.  Peranan untuk rekod ahli pasukan projek perlu sepadan dengan peranan pada garis subkontrak. Ini memastikan bahawa masa untuk peranan yang dianggarkan pada projek adalah peranan yang sama yang dibeli pada garis subkontrak. 
+5.  Peranan untuk rekod ahli pasukan projek perlu sepadan dengan peranan pada baris subkontrak. Ini memastikan bahawa masa untuk peranan yang dianggarkan pada projek adalah peranan yang sama yang dibeli pada garis subkontrak. 
 
-Apabila ahli pasukan generik dikaitkan dengan garis subkontrak dan subkontrak, **medan jenis Pekerja pada baris ahli pasukan generik akan dikemas kini kepada Pekerja Kontrak dan** **·** **Kesahan Subkontrak** akan ditetapkan kepada **Sah**.
+Apabila ahli pasukan generik dikaitkan dengan subkontrak dan subkontrak, **medan jenis** Pekerja pada baris ahli pasukan generik akan dikemas kini kepada **Pekerja** Kontrak dan **Kesahan** Subkontrak akan ditetapkan kepada **Sah**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Subkontrak ahli pasukan projek kakitangan
-Seperti ahli pasukan generik atau tidak terjejas, kapasiti ahli pasukan kakitangan yang diperlukan dalam projek juga boleh dikaitkan dengan subkontrak. Untuk subkontrak ahli pasukan projek yang dinamakan, ikut langkah ini:
+Seperti ahli pasukan generik atau tanpa kakitangan, kapasiti ahli pasukan kakitangan yang diperlukan pada projek juga boleh dikaitkan dengan subkontrak. Untuk subkontrak ahli pasukan projek yang dinamakan, ikuti langkah berikut:
 
-1.  Pastikan sumber yang dinamakan disediakan sebagai jenis pekerja kontrak sumber boleh ditempah. Selain itu, pastikan **medan Vendor pada sumber boleh ditempah sepadan dengan vendor pada** subkontrak yang anda pilih. 
+1.  Pastikan sumber yang dinamakan disediakan sebagai jenis sumber yang boleh ditempah oleh pekerja kontrak. Juga, pastikan **medan Vendor** pada sumber yang boleh ditempah sepadan dengan vendor pada subkontrak yang anda pilih. 
 
-2.  Anda hanya boleh memilih subkontrak dalam **Draf** atau Status **Disahkan**. **Subkontrak** tertutup atau **Dibatalkan tidak** boleh dipilih. 
+2.  Anda hanya boleh memilih subkontrak dalam **status Draf** atau **Disahkan**. **Subkontrak tertutup** atau **dibatalkan** tidak boleh dipilih. 
 
-3.  **Medan Garis subkontrak** menjadi kelihatan selepas anda memilih subkontrak.
+3.  Medan **baris** Subkontrak menjadi kelihatan selepas anda memilih subkontrak.
 
-4.  Dalam **medan Garis subkontrak,** anda hanya boleh memilih garis subkontrak yang untuk masa. Anda tidak boleh memilih garis subkontrak untuk perbelanjaan atau bahan.
+4.  **Dalam medan Baris** Subkontrak, anda hanya boleh memilih baris subkontrak yang sesuai untuk masa. Anda tidak boleh memilih baris subkontrak untuk perbelanjaan atau bahan.
 
-5.  Peranan untuk rekod ahli pasukan projek perlu sepadan dengan peranan pada garis subkontrak. Ini memastikan bahawa masa untuk peranan yang dianggarkan pada projek adalah peranan yang sama yang dibeli pada garis subkontrak. 
+5.  Peranan untuk rekod ahli pasukan projek perlu sepadan dengan peranan pada baris subkontrak. Ini memastikan bahawa masa untuk peranan yang dianggarkan pada projek adalah peranan yang sama yang dibeli pada garis subkontrak. 
 
-Ahli pasukan projek bernama yang ditubuhkan sebagai pekerja kontrak jenis **sumber boleh ditempah akan ditunjukkan dengan status** kesahan subkontrak **Tidak sah jika mereka tidak** dikaitkan dengan subkontrak. Apabila ahli pasukan projek yang dinamakan dikaitkan dengan garis subkontrak dan subkontrak, **medan jenis Pekerja dalam baris ahli pasukan akan dikemas kini kepada Pekerja Kontrak dan** **·** **Kesahan Subkontrak** akan ditetapkan kepada **Sah**.
+Ahli pasukan projek yang dinamakan yang ditubuhkan sebagai jenis **pekerja kontrak sumber** Boleh Ditempah akan ditunjukkan dengan status **kesahan subkontrak Tidak sah** jika mereka tidak dikaitkan dengan subkontrak. Apabila ahli pasukan projek yang dinamakan dikaitkan dengan subkontrak dan subkontrak, **medan jenis** Pekerja dalam baris ahli pasukan akan dikemas kini kepada **Pekerja** Kontrak dan **Kesahan** Subkontrak akan ditetapkan kepada **Sah**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

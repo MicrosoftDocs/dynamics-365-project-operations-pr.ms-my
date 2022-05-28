@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002342"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591921"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Sediakan medan tersuai sebagai dimensi penetapan harga 
 
@@ -72,8 +73,8 @@ Terdapat dua jenis dimensi penetapan harga.
 | Peranan        | Unit Organisasi    |Lokasi Kerja      |Tajuk Standard      |Waktu Kerja Sumber      |  Tokokan|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Di Tapak            |                    |Kerja Lebih Masa                 |15     |
-|             | Contoso India|Setempat             |                    |Kerja Lebih Masa                 |10     |
-|             | Contoso AS   |Setempat             |                    |Kerja Lebih Masa                 |20     |
+|             | Contoso India|Tempatan             |                    |Kerja Lebih Masa                 |10     |
+|             | Contoso AS   |Tempatan             |                    |Kerja Lebih Masa                 |20     |
 
 
 Jika sumber dari Contoso India yang mana kadar asas adalah 100 USD bekerja di tempat kerja, dan mereka log 8 jam masa Tetap dan 2 jam lebih masa kerja pada masa kemasukan, enjin penetapan Project Service akan menggunakan kadar asas 100 untuk 8 jam untuk merakam 800 USD. Untuk kerja lebih masa 2 jam, tokokan sebanyak 15% akan dikenakan ke atas kadar asas 100 untuk mendapatkan harga seunit 115 USD dan akan merekodkan jumlah kos 230 USD.

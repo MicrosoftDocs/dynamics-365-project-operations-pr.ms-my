@@ -2,76 +2,80 @@
 title: Bangunkan templat projek dengan Salin Projek
 description: Topik ini menyediakan maklumat tentang cara untuk mencipta templat projek menggunakan tindakan tersuai Salin Projek.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989275"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590909"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Bangunkan templat projek dengan Salin Projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations menyokong keupayaan untuk menyalin projek dan mengembalikan sebarang tugasan kembali ke sumber generik yang mewakili peranan. Pelanggan boleh menggunakan kefungsian ini untuk membina templat projek asas.
 
 Apabila anda memilih **Salin Projek**, status projek sasaran akan dikemas kini. Gunakan **Sebab Status** untuk menentukan apabila tindakan salin selesai. Memilih **Salin Projek** juga mengemas kini tarikh mula projek kepada tarikh mula semasa jika tiada tarikh sasaran dikesan dalam entiti projek sasaran.
 
-## <a name="copy-project-custom-action"></a>Tindakan tersuai Salin Projek 
+## <a name="copy-project-custom-action"></a>Tindakan tersuai Salin Projek
 
 ### <a name="name"></a>Nama 
 
-**msdyn_CopyProjectV2**
+msdyn\_ CopyProjectV3
 
 ### <a name="input-parameters"></a>Parameter input
+
 Terdapat tiga parameter input:
 
-| Parameter          | Jenis   | Nilai                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | Jalur | **{"removeNamedResources":true}** atau **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Rujukan Entiti | Projek Sumber |
-| Sasaran             | Rujukan Entiti | Projek Sasaran |
+- **ReplaceNamedResources** atau **ClearTeamsAndAssignments** - Tetapkan hanya satu daripada pilihan. Jangan tetapkan kedua-duanya.
 
+    - **\{"ReplaceNamedResources":true\}** – Tingkah laku lalai untuk Operasi Projek. Mana-mana sumber yang dinamakan digantikan dengan sumber generik.
+    - **\{"ClearTeamsAndAssignments":true\}** – Tingkah laku lalai untuk Projek untuk Web. Semua tugasan dan ahli pasukan dialih keluar.
 
-- **{"clearTeamsAndAssignments":true}**: Tingkah laku lalai untuk Projek untuk Web dan akan mengalih keluar semua tugasan dan ahli pasukan.
-- **{"removeNamedResources":true}** Tingkah laku lalai untuk Project Operations dan akan menukar tugasan kembali kepada sumber generik.
+- **SumberProject** - Rujukan entiti projek sumber untuk disalin. Parameter ini tidak boleh batal.
+- **Sasaran** - Rujukan entiti projek sasaran untuk disalin. Parameter ini tidak boleh batal.
 
-Untuk mendapatkan lebih banyak lalai pada tindakan, lihat [Gunakan tindakan API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Jadual berikut menyediakan ringkasan tiga parameter.
 
-## <a name="specify-fields-to-copy"></a>Tentukan medan untuk disalin 
+| Parameter_                | Taip             | Nilai                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Boolean          | **Benar** atau **Palsu** |
+| ClearTeamsAndAssignments | Boolean          | **Benar** atau **Palsu** |
+| SourceProject            | Rujukan Entiti | Projek sumber    |
+| Sasaran                   | Rujukan Entiti | Projek sasaran    |
+
+Untuk lebih banyak lalai pada tindakan, lihat [Menggunakan tindakan](/powerapps/developer/common-data-service/webapi/use-web-api-actions) API Web.
+
+### <a name="validations"></a>Pengesahan
+
+Pengesahan berikut dilakukan.
+
+1. Null menyemak dan mendapatkan sumber dan projek sasaran untuk mengesahkan kewujudan kedua-dua projek dalam organisasi.
+2. Sistem mengesahkan bahawa projek sasaran sah untuk disalin dengan mengesahkan syarat-syarat berikut:
+
+    - Tiada aktiviti sebelumnya pada projek (termasuk pemilihan **tab Tugas**), dan projek baru dibuat.
+    - Tiada salinan sebelumnya, tiada import telah diminta pada projek ini, dan projek tidak mempunyai **status Gagal**.
+
+3. Operasi tidak dipanggil dengan menggunakan HTTP.
+
+## <a name="specify-fields-to-copy"></a>Tentukan medan untuk disalin
+
 Apabila tindakan dipanggil, **Salin Projek** akan melihat pandangan projek **Lajur Salin Projek** untuk menentukan medan untuk disalin apabila projek dicipta.
 
-
 ### <a name="example"></a>Contoh
-Contoh berikut menunjukkan cara untuk memanggil tindakan tersuai **Salin Projek** dengan set parameter **removeNamedResources**.
+
+Contoh berikut menunjukkan cara memanggil **tindakan tersuai CopyProjectV3** dengan **set parameter removeNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Contoh berikut menunjukkan cara untuk memanggil tindakan tersuai **Salin Projek*
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

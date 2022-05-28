@@ -2,16 +2,16 @@
 title: Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
 description: Topik ini memberikan maklumat dan sampel untuk penggunaan API jadual Projek.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
-ms.translationtype: HT
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487696"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592059"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
 
@@ -42,7 +42,7 @@ OperationSet ialah corak unit kerja yang boleh digunakan apabila beberapa jadual
 
 Berikut ialah senarai API jadual Projek semasa.
 
-- **msdyn_CreateProjectV1**: API ini boleh digunakan untuk mencipta projek. Projek dan baldi projek lalai dicipta dengan serta-merta.
+- **msdyn_CreateProjectV1**: API ini boleh digunakan untuk mencipta projek. Projek dan baldi projek lalai dibuat dengan serta-merta.
 - **msdyn_CreateTeamMemberV1**: API ini boleh digunakan untuk mencipta ahli pasukan projek. Rekod ahli pasukan dicipta dengan serta-merta.
 - **msdyn_CreateOperationSetV1**: API ini boleh digunakan untuk menjadualkan beberapa permintaan yang mesti dilaksanakan dalam transaksi.
 - **msdyn_PSSCreateV1**: API ini boleh digunakan untuk mencipta entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi cipta.
@@ -58,12 +58,12 @@ Kerana rekod dengan kedua-dua **CreateProjectV1** dan **CreateTeamMemberV1** dic
 
 | Entiti penjadualan | Cipta | Kemas kini | Delete | Pertimbangan penting |
 | --- | --- | --- | --- | --- |
-Tugas projek | Ya | Ya | Ya | Tiada |
-| Pergantungan tugas projek | Ya | Ya | | Rekod pergantungan tugas projek tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baharu boleh dicipta. |
-| Penugasan sumber | Ya | Ya | | Operasi dengan medan berikut tidak disokong: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** dan **PlannedWork**. Rekod penugasan sumber tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baharu boleh dicipta. |
-| Baldi projek | T/B | T/B | T/B | Baldi lalai dicipta menggunakan API **CreateProjectV1**. |
+Tugas projek | Ya | Ya | Ya | Medan **Kemajuan**, **Usaha Selesai** dan **UsahaMaining** Boleh diedit dalam Project for the Web, tetapi ia tidak boleh diedit dalam Operasi Projek.  |
+| Pergantungan tugas projek | Ya |  | Ya | Rekod pergantungan tugas projek tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baru boleh dicipta. |
+| Penugasan sumber | Ya | Ya | | Operasi dengan medan berikut tidak disokong: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** dan **PlannedWork**. Rekod penugasan sumber tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baru boleh dibuat. |
+| Baldi projek | Ya | Ya | Ya | Baldi lalai dicipta dengan **menggunakan API CreateProjectV1**. Sokongan untuk mencipta dan memadam baldi projek telah ditambah dalam Kemas Kini Keluaran 16. |
 | Ahli pasukan projek | Ya | Ya | Ya | Untuk mencipta operasi, gunakan API **CreateTeamMemberV1**. |
-| Project | Ya | Ya | T/B | Operasi dengan medan berikut tidak disokong: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** dan **Duration**. |
+| Project | Ya | Ya |  | Operasi dengan medan berikut tidak disokong: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** dan **Duration**. |
 
 Api ini boleh dipanggil dengan objek entiti yang termasuk medan tersuai.
 
@@ -71,196 +71,207 @@ Sifat ID adalah pilihan. Jika ia disediakan, sistem cuba untuk menggunakannya da
 
 ## <a name="restricted-fields"></a>Medan terhad
 
-Jadual berikut mentakrifkan medan yang terhad daripada **Cipta** dan **Edit.**
+Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 
 ### <a name="project-task"></a>Tugas projek
 
-| **Nama logik**                       | **Boleh cipta** | **Boleh edit**     |
+| Nama logik                           | Boleh mencipta     | Boleh edit         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | tidak             | tidak               |
-| msdyn_actualcost_base                  | tidak             | tidak               |
-| msdyn_actualend                        | tidak             | tidak               |
-| msdyn_actualsales                      | tidak             | tidak               |
-| msdyn_actualsales_base                 | tidak             | tidak               |
-| msdyn_actualstart                      | tidak             | tidak               |
-| msdyn_costatcompleteestimate           | tidak             | tidak               |
-| msdyn_costatcompleteestimate_base      | tidak             | tidak               |
-| msdyn_costconsumptionpercentage        | tidak             | tidak               |
-| msdyn_effortcompleted                  | tidak             | tidak               |
-| msdyn_effortestimateatcomplete         | tidak             | tidak               |
-| msdyn_iscritical                       | tidak             | tidak               |
-| msdyn_iscriticalname                   | tidak             | tidak               |
-| msdyn_ismanual                         | tidak             | tidak               |
-| msdyn_ismanualname                     | tidak             | tidak               |
-| msdyn_ismilestone                      | tidak             | tidak               |
-| msdyn_ismilestonename                  | tidak             | tidak               |
-| msdyn_LinkStatus                       | tidak             | tidak               |
-| msdyn_linkstatusname                   | tidak             | tidak               |
-| msdyn_msprojectclientid                | tidak             | tidak               |
-| msdyn_plannedcost                      | tidak             | tidak               |
-| msdyn_plannedcost_base                 | tidak             | tidak               |
-| msdyn_plannedsales                     | tidak             | tidak               |
-| msdyn_plannedsales_base                | tidak             | tidak               |
-| msdyn_pluginprocessingdata             | tidak             | tidak               |
-| msdyn_progress                         | tidak             | tidak (ya untuk P4W) |
-| msdyn_remainingcost                    | tidak             | tidak               |
-| msdyn_remainingcost_base               | tidak             | tidak               |
-| msdyn_remainingsales                   | tidak             | tidak               |
-| msdyn_remainingsales_base              | tidak             | tidak               |
-| msdyn_requestedhours                   | tidak             | tidak               |
-| msdyn_resourcecategory                 | tidak             | tidak               |
-| msdyn_resourcecategoryname             | tidak             | tidak               |
-| msdyn_resourceorganizationalunitid     | tidak             | tidak               |
-| msdyn_resourceorganizationalunitidname | tidak             | tidak               |
-| msdyn_salesconsumptionpercentage       | tidak             | tidak               |
-| msdyn_salesestimateatcomplete          | tidak             | tidak               |
-| msdyn_salesestimateatcomplete_base     | tidak             | tidak               |
-| msdyn_salesvariance                    | tidak             | tidak               |
-| msdyn_salesvariance_base               | tidak             | tidak               |
-| msdyn_scheduleddurationminutes         | tidak             | tidak               |
-| msdyn_scheduledend                     | tidak             | tidak               |
-| msdyn_scheduledstart                   | tidak             | tidak               |
-| msdyn_schedulevariance                 | tidak             | tidak               |
-| msdyn_skipupdateestimateline           | tidak             | tidak               |
-| msdyn_skipupdateestimatelinename       | tidak             | tidak               |
-| msdyn_summary                          | tidak             | tidak               |
-| msdyn_varianceofcost                   | tidak             | tidak               |
-| msdyn_varianceofcost_base              | tidak             | tidak               |
+| msdyn_actualcost                       | No             | No               |
+| msdyn_actualcost_base                  | No             | No               |
+| msdyn_actualend                        | No             | No               |
+| msdyn_actualsales                      | No             | No               |
+| msdyn_actualsales_base                 | No             | No               |
+| msdyn_actualstart                      | No             | No               |
+| msdyn_costatcompleteestimate           | No             | No               |
+| msdyn_costatcompleteestimate_base      | No             | No               |
+| msdyn_costconsumptionpercentage        | No             | No               |
+| msdyn_effortcompleted                  | Tidak (ya untuk Projek)             | Tidak (ya untuk Projek)               |
+| msdyn_effortremaining                  | Tidak (ya untuk Projek)              | Tidak (ya untuk Projek)                |
+| msdyn_effortestimateatcomplete         | No             | No               |
+| msdyn_iscritical                       | No             | No               |
+| msdyn_iscriticalname                   | No             | No               |
+| msdyn_ismanual                         | No             | No               |
+| msdyn_ismanualname                     | No             | No               |
+| msdyn_ismilestone                      | No             | No               |
+| msdyn_ismilestonename                  | No             | No               |
+| msdyn_LinkStatus                       | No             | No               |
+| msdyn_linkstatusname                   | No             | No               |
+| msdyn_msprojectclientid                | No             | No               |
+| msdyn_plannedcost                      | No             | No               |
+| msdyn_plannedcost_base                 | No             | No               |
+| msdyn_plannedsales                     | No             | No               |
+| msdyn_plannedsales_base                | No             | No               |
+| msdyn_pluginprocessingdata             | No             | No               |
+| msdyn_progress                         | Tidak (ya untuk Projek)             | Tidak (ya untuk Projek) |
+| msdyn_remainingcost                    | No             | No               |
+| msdyn_remainingcost_base               | No             | No               |
+| msdyn_remainingsales                   | No             | No               |
+| msdyn_remainingsales_base              | No             | No               |
+| msdyn_requestedhours                   | No             | No               |
+| msdyn_resourcecategory                 | No             | No               |
+| msdyn_resourcecategoryname             | No             | No               |
+| msdyn_resourceorganizationalunitid     | No             | No               |
+| msdyn_resourceorganizationalunitidname | No             | No               |
+| msdyn_salesconsumptionpercentage       | No             | No               |
+| msdyn_salesestimateatcomplete          | No             | No               |
+| msdyn_salesestimateatcomplete_base     | No             | No               |
+| msdyn_salesvariance                    | No             | No               |
+| msdyn_salesvariance_base               | No             | No               |
+| msdyn_scheduleddurationminutes         | No             | No               |
+| msdyn_scheduledend                     | No             | No               |
+| msdyn_scheduledstart                   | No             | No               |
+| msdyn_schedulevariance                 | No             | No               |
+| msdyn_skipupdateestimateline           | No             | No               |
+| msdyn_skipupdateestimatelinename       | No             | No               |
+| msdyn_summary                          | No             | No               |
+| msdyn_varianceofcost                   | No             | No               |
+| msdyn_varianceofcost_base              | No             | No               |
 
 ### <a name="project-task-dependency"></a>Pergantungan tugas projek
 
-| **Nama logik**              | **Boleh cipta** | **Boleh edit** |
+| Nama logik                  | Boleh mencipta     | Boleh edit     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | tidak             | tidak           |
-| msdyn_linktypename            | tidak             | tidak           |
-| msdyn_predecessortask         | ya            | tidak           |
-| msdyn_predecessortaskname     | ya            | tidak           |
-| msdyn_project                 | ya            | tidak           |
-| msdyn_projectname             | ya            | tidak           |
-| msdyn_projecttaskdependencyid | ya            | tidak           |
-| msdyn_successortask           | ya            | tidak           |
-| msdyn_successortaskname       | ya            | tidak           |
+| msdyn_linktype                | No             | No           |
+| msdyn_linktypename            | No             | No           |
+| msdyn_predecessortask         | Ya            | No           |
+| msdyn_predecessortaskname     | Ya            | No           |
+| msdyn_project                 | Ya            | No           |
+| msdyn_projectname             | Ya            | No           |
+| msdyn_projecttaskdependencyid | Ya            | No           |
+| msdyn_successortask           | Ya            | No           |
+| msdyn_successortaskname       | Ya            | No           |
 
 ### <a name="resource-assignment"></a>Penugasan sumber
 
-| **Nama logik**             | **Boleh cipta** | **Boleh edit** |
+| Nama logik                 | Boleh mencipta     | Boleh edit     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | ya            | tidak           |
-| msdyn_bookableresourceidname | ya            | tidak           |
-| msdyn_bookingstatusid        | tidak             | tidak           |
-| msdyn_bookingstatusidname    | tidak             | tidak           |
-| msdyn_committype             | tidak             | tidak           |
-| msdyn_committypename         | tidak             | tidak           |
-| msdyn_effort                 | tidak             | tidak           |
-| msdyn_effortcompleted        | tidak             | tidak           |
-| msdyn_effortremaining        | tidak             | tidak           |
-| msdyn_finish                 | tidak             | tidak           |
-| msdyn_plannedcost            | tidak             | tidak           |
-| msdyn_plannedcost_base       | tidak             | tidak           |
-| msdyn_plannedcostcontour     | tidak             | tidak           |
-| msdyn_plannedsales           | tidak             | tidak           |
-| msdyn_plannedsales_base      | tidak             | tidak           |
-| msdyn_plannedsalescontour    | tidak             | tidak           |
-| msdyn_plannedwork            | tidak             | tidak           |
-| msdyn_projectid              | ya            | tidak           |
-| msdyn_projectidname          | tidak             | tidak           |
-| msdyn_projectteamid          | tidak             | tidak           |
-| msdyn_projectteamidname      | tidak             | tidak           |
-| msdyn_start                  | tidak             | tidak           |
-| msdyn_taskid                 | tidak             | tidak           |
-| msdyn_taskidname             | tidak             | tidak           |
-| msdyn_userresourceid         | tidak             | tidak           |
+| msdyn_bookableresourceid     | Ya            | No           |
+| msdyn_bookableresourceidname | Ya            | No           |
+| msdyn_bookingstatusid        | No             | No           |
+| msdyn_bookingstatusidname    | No             | No           |
+| msdyn_committype             | No             | No           |
+| msdyn_committypename         | No             | No           |
+| msdyn_effort                 | No             | No           |
+| msdyn_effortcompleted        | No             | No           |
+| msdyn_effortremaining        | No             | No           |
+| msdyn_finish                 | No             | No           |
+| msdyn_plannedcost            | No             | No           |
+| msdyn_plannedcost_base       | No             | No           |
+| msdyn_plannedcostcontour     | No             | No           |
+| msdyn_plannedsales           | No             | No           |
+| msdyn_plannedsales_base      | No             | No           |
+| msdyn_plannedsalescontour    | No             | No           |
+| msdyn_plannedwork            | No             | No           |
+| msdyn_projectid              | Ya            | No           |
+| msdyn_projectidname          | No             | No           |
+| msdyn_projectteamid          | No             | No           |
+| msdyn_projectteamidname      | No             | No           |
+| msdyn_start                  | No             | No           |
+| msdyn_taskid                 | No             | No           |
+| msdyn_taskidname             | No             | No           |
+| msdyn_userresourceid         | No             | No           |
 
 ### <a name="project-team-member"></a>Ahli pasukan projek
 
-| **Nama logik**                                 | **Boleh cipta** | **Boleh edit** |
+| Nama logik                                     | Boleh mencipta     | Boleh edit     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | tidak             | tidak           |
-| msdyn_creategenericteammemberwithrequirementname | tidak             | tidak           |
-| msdyn_deletestatus                               | tidak             | tidak           |
-| msdyn_deletestatusname                           | tidak             | tidak           |
-| msdyn_effort                                     | tidak             | tidak           |
-| msdyn_effortcompleted                            | tidak             | tidak           |
-| msdyn_effortremaining                            | tidak             | tidak           |
-| msdyn_finish                                     | tidak             | tidak           |
-| msdyn_hardbookedhours                            | tidak             | tidak           |
-| msdyn_hours                                      | tidak             | tidak           |
-| msdyn_markedfordeletiontimer                     | tidak             | tidak           |
-| msdyn_markedfordeletiontimestamp                 | tidak             | tidak           |
-| msdyn_msprojectclientid                          | tidak             | tidak           |
-| msdyn_percentage                                 | tidak             | tidak           |
-| msdyn_requiredhours                              | tidak             | tidak           |
-| msdyn_softbookedhours                            | tidak             | tidak           |
-| msdyn_start                                      | tidak             | tidak           |
+| msdyn_calendarid                                 | No             | No           |
+| msdyn_creategenericteammemberwithrequirementname | No             | No           |
+| msdyn_deletestatus                               | No             | No           |
+| msdyn_deletestatusname                           | No             | No           |
+| msdyn_effort                                     | No             | No           |
+| msdyn_effortcompleted                            | No             | No           |
+| msdyn_effortremaining                            | No             | No           |
+| msdyn_finish                                     | No             | No           |
+| msdyn_hardbookedhours                            | No             | No           |
+| msdyn_hours                                      | No             | No           |
+| msdyn_markedfordeletiontimer                     | No             | No           |
+| msdyn_markedfordeletiontimestamp                 | No             | No           |
+| msdyn_msprojectclientid                          | No             | No           |
+| msdyn_percentage                                 | No             | No           |
+| msdyn_requiredhours                              | No             | No           |
+| msdyn_softbookedhours                            | No             | No           |
+| msdyn_start                                      | No             | No           |
 
 ### <a name="project"></a>Project
 
-| **Nama logik**                       | **Boleh cipta** | **Boleh edit** |
+| Nama logik                           | Boleh mencipta     | Boleh edit     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | tidak             | tidak           |
-| msdyn_actualexpensecost_base           | tidak             | tidak           |
-| msdyn_actuallaborcost                  | tidak             | tidak           |
-| msdyn_actuallaborcost_base             | tidak             | tidak           |
-| msdyn_actualsales                      | tidak             | tidak           |
-| msdyn_actualsales_base                 | tidak             | tidak           |
-| msdyn_contractlineproject              | ya            | tidak           |
-| msdyn_contractorganizationalunitid     | ya            | tidak           |
-| msdyn_contractorganizationalunitidname | ya            | tidak           |
-| msdyn_costconsumption                  | tidak             | tidak           |
-| msdyn_costestimateatcomplete           | tidak             | tidak           |
-| msdyn_costestimateatcomplete_base      | tidak             | tidak           |
-| msdyn_costvariance                     | tidak             | tidak           |
-| msdyn_costvariance_base                | tidak             | tidak           |
-| msdyn_duration                         | tidak             | tidak           |
-| msdyn_effort                           | tidak             | tidak           |
-| msdyn_effortcompleted                  | tidak             | tidak           |
-| msdyn_effortestimateatcompleteeac      | tidak             | tidak           |
-| msdyn_effortremaining                  | tidak             | tidak           |
-| msdyn_finish                           | ya            | ya          |
-| msdyn_globalrevisiontoken              | tidak             | tidak           |
-| msdyn_islinkedtomsprojectclient        | tidak             | tidak           |
-| msdyn_islinkedtomsprojectclientname    | tidak             | tidak           |
-| msdyn_linkeddocumenturl                | tidak             | tidak           |
-| msdyn_msprojectdocument                | tidak             | tidak           |
-| msdyn_msprojectdocumentname            | tidak             | tidak           |
-| msdyn_plannedexpensecost               | tidak             | tidak           |
-| msdyn_plannedexpensecost_base          | tidak             | tidak           |
-| msdyn_plannedlaborcost                 | tidak             | tidak           |
-| msdyn_plannedlaborcost_base            | tidak             | tidak           |
-| msdyn_plannedsales                     | tidak             | tidak           |
-| msdyn_plannedsales_base                | tidak             | tidak           |
-| msdyn_progress                         | tidak             | tidak           |
-| msdyn_remainingcost                    | tidak             | tidak           |
-| msdyn_remainingcost_base               | tidak             | tidak           |
-| msdyn_remainingsales                   | tidak             | tidak           |
-| msdyn_remainingsales_base              | tidak             | tidak           |
-| msdyn_replaylogheader                  | tidak             | tidak           |
-| msdyn_salesconsumption                 | tidak             | tidak           |
-| msdyn_salesestimateatcompleteeac       | tidak             | tidak           |
-| msdyn_salesestimateatcompleteeac_base  | tidak             | tidak           |
-| msdyn_salesvariance                    | tidak             | tidak           |
-| msdyn_salesvariance_base               | tidak             | tidak           |
-| msdyn_scheduleperformance              | tidak             | tidak           |
-| msdyn_scheduleperformancename          | tidak             | tidak           |
-| msdyn_schedulevariance                 | tidak             | tidak           |
-| msdyn_taskearlieststart                | tidak             | tidak           |
-| msdyn_teamsize                         | tidak             | tidak           |
-| msdyn_teamsize_date                    | tidak             | tidak           |
-| msdyn_teamsize_state                   | tidak             | tidak           |
-| msdyn_totalactualcost                  | tidak             | tidak           |
-| msdyn_totalactualcost_base             | tidak             | tidak           |
-| msdyn_totalplannedcost                 | tidak             | tidak           |
-| msdyn_totalplannedcost_base            | tidak             | tidak           |
+| msdyn_actualexpensecost                | No             | No           |
+| msdyn_actualexpensecost_base           | No             | No           |
+| msdyn_actuallaborcost                  | No             | No           |
+| msdyn_actuallaborcost_base             | No             | No           |
+| msdyn_actualsales                      | No             | No           |
+| msdyn_actualsales_base                 | No             | No           |
+| msdyn_contractlineproject              | Ya            | No           |
+| msdyn_contractorganizationalunitid     | Ya            | No           |
+| msdyn_contractorganizationalunitidname | Ya            | No           |
+| msdyn_costconsumption                  | No             | No           |
+| msdyn_costestimateatcomplete           | No             | No           |
+| msdyn_costestimateatcomplete_base      | No             | No           |
+| msdyn_costvariance                     | No             | No           |
+| msdyn_costvariance_base                | No             | No           |
+| msdyn_duration                         | No             | No           |
+| msdyn_effort                           | No             | No           |
+| msdyn_effortcompleted                  | No             | No           |
+| msdyn_effortestimateatcompleteeac      | No             | No           |
+| msdyn_effortremaining                  | No             | No           |
+| msdyn_finish                           | Ya            | Ya          |
+| msdyn_globalrevisiontoken              | No             | No           |
+| msdyn_islinkedtomsprojectclient        | No             | No           |
+| msdyn_islinkedtomsprojectclientname    | No             | No           |
+| msdyn_linkeddocumenturl                | No             | No           |
+| msdyn_msprojectdocument                | No             | No           |
+| msdyn_msprojectdocumentname            | No             | No           |
+| msdyn_plannedexpensecost               | No             | No           |
+| msdyn_plannedexpensecost_base          | No             | No           |
+| msdyn_plannedlaborcost                 | No             | No           |
+| msdyn_plannedlaborcost_base            | No             | No           |
+| msdyn_plannedsales                     | No             | No           |
+| msdyn_plannedsales_base                | No             | No           |
+| msdyn_progress                         | No             | No           |
+| msdyn_remainingcost                    | No             | No           |
+| msdyn_remainingcost_base               | No             | No           |
+| msdyn_remainingsales                   | No             | No           |
+| msdyn_remainingsales_base              | No             | No           |
+| msdyn_replaylogheader                  | No             | No           |
+| msdyn_salesconsumption                 | No             | No           |
+| msdyn_salesestimateatcompleteeac       | No             | No           |
+| msdyn_salesestimateatcompleteeac_base  | No             | No           |
+| msdyn_salesvariance                    | No             | No           |
+| msdyn_salesvariance_base               | No             | No           |
+| msdyn_scheduleperformance              | No             | No           |
+| msdyn_scheduleperformancename          | No             | No           |
+| msdyn_schedulevariance                 | No             | No           |
+| msdyn_taskearlieststart                | No             | No           |
+| msdyn_teamsize                         | No             | No           |
+| msdyn_teamsize_date                    | No             | No           |
+| msdyn_teamsize_state                   | No             | No           |
+| msdyn_totalactualcost                  | No             | No           |
+| msdyn_totalactualcost_base             | No             | No           |
+| msdyn_totalplannedcost                 | No             | No           |
+| msdyn_totalplannedcost_base            | No             | No           |
 
+### <a name="project-bucket"></a>Baldi projek
+
+| Nama logik          | Boleh mencipta      | Boleh edit     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Ya             | No           |
+| msdyn_name            | Ya             | Ya          |
+| msdyn_project         | Ya             | No           |
+| msdyn_projectbucketid | Ya             | No           |
 
 ## <a name="limitations-and-known-issues"></a>Pengehadan dan isu yang diketahui
 Berikut ialah senarai pengehadan dan isu yang diketahui:
 
-- API Jadual Projek hanya boleh digunakan oleh **Pengguna dengan Lesen Microsoft Project.** Ia tidak boleh digunakan oleh:
+- API Jadual Projek hanya boleh digunakan oleh **Pengguna dengan Lesen** Projek Microsoft. Ia tidak boleh digunakan oleh:
+
     - Pengguna aplikasi
     - Pengguna sistem
     - Pengguna integrasi
     - Pengguna lain yang tidak mempunyai lesen yang diperlukan
+
 - Setiap **OperationSet** hanya boleh mempunyai maksimum 100 operasi.
 - Setiap pengguna hanya boleh mempunyai maksimum 10 **OperationSet** terbuka.
 - Project Operations menyokong jumlah maksimum 500 tugas pada sesuatu projek pada masa ini.
@@ -269,8 +280,8 @@ Berikut ialah senarai pengehadan dan isu yang diketahui:
 
 ## <a name="error-handling"></a>Pengendalian ralat
 
-   - Untuk menyemak ralat yang dijana daripada Set Operasi, pergi ke **Tetapan** \> **Jadualkan Integrasi** \> **Set Operasi**.
-   - Untuk menyemak ralat yang dijana daripada Perkhidmatan jadual Projek, pergi ke **Tetapan** \> **Integrasi Jadual** \> **Log Ralat PSS**.
+- Untuk menyemak ralat yang dijana daripada Set Operasi, pergi ke **Tetapan** \> **Jadualkan Integrasi** \> **Set Operasi**.
+- Untuk menyemak ralat yang dijana daripada Perkhidmatan jadual Projek, pergi ke **Tetapan** \> **Integrasi Jadual** \> **Log Ralat PSS**.
 
 ## <a name="sample-scenario"></a>Senario sampel
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

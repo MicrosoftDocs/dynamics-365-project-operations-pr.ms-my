@@ -3,15 +3,15 @@ title: Pengurusan subkontrak dalam Project Operations
 description: Topik ini memberikan gambaran keseluruhan proses pengurusan subkontrak hujung ke hujung yang biasa dalam organisasi berasaskan projek.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323607"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593025"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Pengurusan subkontrak dalam Project Operations
 
@@ -46,7 +46,7 @@ Baris subkontrak boleh merupakan jenis berasaskan kuantiti atau berasaskan kerja
 
 Apabila baris subkontrak adalah **berasaskan kuantiti**, kuantiti yang dibeli pada baris subkontrak untuk masa, perbelanjaan, atau bahan boleh digunakan pada mana-mana projek.
 
-Apabila baris subkontrak adalah **berasaskan kerja**, baris subkontrak dipetakan kepada badan kerja yang diwakili oleh nod dalam pelan projek. Nilai baris subkontrak ialah jumlah semua komponen yang diperlukan untuk menghantar badan kerja tersebut. Ini dimodelkan sebagai butiran baris subkontrak dan boleh merupakan koleksi masa, perbelanjaan atau bahan. Untuk baris subkontrak berasaskan kerja, baris subkontrak juga dikhususkan untuk satu projek.
+Apabila baris subkontrak adalah **berasaskan kerja**, baris subkontrak dipetakan kepada badan kerja yang diwakili oleh nod dalam pelan projek. Nilai baris subkontrak ialah jumlah semua komponen yang diperlukan untuk menghantar badan kerja tersebut. Ini dimodelkan sebagai butiran baris subkontrak dan boleh merupakan koleksi masa, perbelanjaan atau bahan. Untuk baris subkontrak berasaskan kerja, baris subkontrak juga dikhususkan untuk satu projek. Jenis subkontrak ini adalah currenlty yang tidak disokong oleh Operasi Projek.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

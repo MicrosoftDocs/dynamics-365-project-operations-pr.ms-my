@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986817"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589023"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Februari 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -44,14 +44,14 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | **Entri masa** | 2129161 | Sekatan lebih ketat digunakan untuk memastikan pengguna tidak boleh mengubah dan mengemas kini entri masa yang telah diserahkan atau diluluskan. |
 | **Entri masa** | 2103572 | Kelulusan masa untuk masukan masa bukan projek tidak boleh mencari peranan pelulus projek. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance 
 
-Untuk maklumat lanjut mengenai pengurusan projek dan perakaunan dalam Dynamics 365 Finance, lihat [Perkara baharu Januari 2021 - Project Operations untuk senario berasaskan stok](whats-new-jan-2021-resource-based.md).
+Untuk maklumat lanjut tentang Pengurusan projek dan perakaunan dalam Dynamics 365 Finance, lihat [Apa yang baharu Januari 2021 - Operasi Projek untuk senario berasaskan sumber/bukan stok](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk aplikasi Kewangan dan Operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

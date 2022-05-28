@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005132"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590173"
 ---
 # <a name="multiple-currency-scenarios"></a>Senario berbilang mata wang
 
@@ -71,7 +72,7 @@ Bahagian ini menerangkan contoh projek yang Contoso UK sampaikan untuk pelanggan
 1. GBP dan Yen Jepun (JPY) disediakan dibawah **Tetapan** \> **Pengurusan Perniagaan** \> **Mata Wang**. 
 2. Akaun pelanggan yang dinamakan **Fabrikam - Japan** disediakan dan JPY dipilih sebagai mata wang pada akaun.
 3. Unit organisasi yang dinamakan **Contoso UK** ditetapkan, dan GBP dipilih sebagai mata wang.
-4. Kontrak projek dicipta, yang **Contoso UK** ditetapkan sebagai unit kontrak dan **Fabrikam – Jepun** ditetapkan sebagai pelanggan.
+4. Kontrak projek dicipta, yang **Contoso UK** ditetapkan sebagai unit kontrak dan **Fabrikam – Japan** ditetapkan sebagai pelanggan.
 5. Baris kontrak projek dicipta, berdasarkan susunan pengebilan untuk pelbagai kelas transaksi pada projek, seperti pengebilan untuk masa berbanding pengebilan untuk perbelanjaan.
 6. Projek dicipta di mana **Contoso UK** ditetapkan sebagai unit kontrak. Projek ini dicipta dan dipetakan ke baris kontrak projek.
 

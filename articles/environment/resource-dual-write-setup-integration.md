@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986547"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586907"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Persediaan Project Operations dan integrasi data konfigurasi
 
@@ -22,34 +22,34 @@ Topik ini menyediakan maklumat tentang integrasi dwi tulis Project Operations un
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Kontrak Projek, baris kontrak dan projek
 
-Kontrak projek, baris kontrak dan projek dicipta dalam Dataverse dan disegerakkan ke aplikasi Finance and Operations untuk perakaunan tambahan. Rekod dalam entiti ini boleh dicipta dan dipadam hanya dalam Dataverse. Walau bagaimanapun, atribut perakaunan seperti kumpulan cukai jualan lalai dan dimensi kewangan boleh ditambah ke rekod ini dalam aplikasi Finance and Operations.
+Kontrak projek, garis kontrak dan projek dicipta Dataverse dan disegerakkan ke aplikasi Kewangan dan Operasi untuk perakaunan tambahan. Rekod dalam entiti ini boleh dicipta dan dipadam hanya dalam Dataverse. Walau bagaimanapun, atribut perakaunan seperti keingkaran kumpulan cukai jualan dan dimensi kewangan boleh ditambah kepada rekod ini dalam apl Kewangan dan Operasi.
 
   ![Konsep integrasi kontrak projek.](./media/1ProjectContract.jpg)
 
-Aktiviti jualan bakal pelanggan dan sebut harga dijejak dalam Dataverse dan tidak disegerakkan ke aplikasi Finance and Operations kerana tiada perakaunan hiliran yang berkaitan dengan aktiviti ini.
+Petunjuk aktiviti jualan, peluang dan sebut harga dijejaki Dataverse dan tidak disegerakkan ke aplikasi Kewangan dan Operasi kerana tiada perakaunan hiliran yang berkaitan dengan aktiviti ini.
 
-Kefungsian kontrak projek dalam Dataverse mencipta rekod kontrak projek dalam aplikasi Finance and Operations menggunakan peta jadual **Pengepala kontrak projek (salesorders)**. Menyimpan kontrak projek dalam Dataverse turut memulakan penciptaan rekod entiti pelanggan kontrak projek. Rekod ini disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual **Sumber pembiayaan projek (msdyn\_projectcontractssplitbillingrules)**. Peta ini juga menyegerakkan penambahan, pengemaskinian dan pemadaman pelanggan kontrak projek. Pecahan peratusan pengebilan antara pelanggan kontrak projek adalah dikuasai hanya dalam Dataverse dan tidak disegerakkan ke aplikasi Finance and Operations.
+Fungsi kontrak projek dalam Dataverse mencipta rekod kontrak projek dalam aplikasi Kewangan dan Operasi menggunakan **peta jadual pengepala kontrak Projek (jurujual).** Menyimpan kontrak projek dalam Dataverse turut memulakan penciptaan rekod entiti pelanggan kontrak projek. Rekod ini disegerakkan ke aplikasi Kewangan dan Operasi menggunakan **peta jadual sumber pembiayaan Projek (msdyn\_ projectcontractssplitbillingrules**). Peta ini juga menyegerakkan penambahan, pengemaskinian dan pemadaman pelanggan kontrak projek. Peratusan pengebilan berpecah antara pelanggan kontrak projek hanya Dataverse dikuasai dan tidak disegerakkan ke aplikasi Kewangan dan Operasi.
 
-Selepas kontrak projek dicipta dalam Dataverse, akauntan projek boleh mengemas kini atribut perakaunan untuk kontrak projek ini dalam aplikasi Finance and Operations dengan pergi ke **Pengurusan dan perakaunan projek** > **Kontrak projek** > **Sediakan** > **Tunjukkan perakaunan lalai**. Akauntan boleh menyemak semula atribut kontrak projek operasi seperti tarikh penghantaran yang diminta dan amaun kontrak dengan memilih ID kontrak projek dalam aplikasi Finance and Operations yang membuka rekod kontrak projek yang berkaitan dalam Dataverse.
+Selepas kontrak projek dibuat, Dataverse akauntan projek boleh mengemas kini atribut perakaunan untuk kontrak projek ini dalam aplikasi Kewangan dan Operasi dengan pergi ke **pengurusan Projek dan perakaunan** > **kontrak** > **Projek Sediakan** > **Tunjukkan perakaunan** lalai. Akauntan boleh menyemak atribut kontrak projek operasi, seperti tarikh penghantaran yang diminta dan jumlah kontrak dengan memilih ID kontrak projek dalam aplikasi Kewangan dan Operasi yang membuka rekod kontrak projek berkaitan dalam Dataverse.
 
-Entiti projek disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual **Projek V2 (msdyn\_projects)**. Akauntan projek boleh:
+Entiti projek disegerakkan ke aplikasi Kewangan dan Operasi menggunakan **peta jadual Projek V2 (projek\_ msdyn**). Akauntan projek boleh:
 
-  - Semak semula dalam aplikasi Finance and Operations dengan pergi ke **Pengurusan dan perakaunan projek** > **Semua projek**. 
-  - Kemas kini atribut perakaunan untuk projek dalam aplikasi Finance and Operations dengan pergi ke **Pengurusan dan perakaunan projek** > **Semua projek** > **Sediakan** > **Tunjukkan perakaunan lalai**.  
-  - Menyemak semula atribut projek operasi seperti tarikh mula dan akhir yang dianggarkan dengan memilih ID projek dalam aplikasi Finance and Operations yang membuka rekod projek yang berkaitan dalam Dataverse.
+  - Semak projek dalam aplikasi Kewangan dan Operasi dengan pergi ke **Pengurusan Projek dan perakaunan** > **Semua projek**. 
+  - Kemas kini atribut perakaunan untuk projek dalam app Kewangan dan Operasi dengan pergi ke **pengurusan Projek dan perakaunan** > **Semua projek** > **Sediakan** > **Tunjukkan perakaunan** lalai.  
+  - Semak atribut projek operasi, seperti anggaran tarikh mula dan tamat, dengan memilih ID projek dalam aplikasi Kewangan dan Operasi yang membuka rekod projek berkaitan dalam Dataverse.
 
 Projek dikaitkan dengan kontrak projek melalui entiti **Baris kontrak projek**.
 
-Baris kontrak projek dalam Dataverse mencipta peraturan pengebilan kontrak projek dalam aplikasi Finance and Operations menggunakan peta jadual **Baris kontrak projek (salesorderdetails)**. Kaedah pengebilan mentakrifkan jenis peraturan pengebilan kontrak projek dalam aplikasi Finance and Operations:
+Garis kontrak projek dalam Dataverse mencipta peraturan pengebilan kontrak projek dalam aplikasi Kewangan dan Operasi menggunakan **peta jadual baris kontrak Projek (salesorderdetails**). Kaedah pengebilan mentakrifkan jenis peraturan pengebilan kontrak projek dalam aplikasi Kewangan dan Operasi:
 
   - Baris kontrak projek dengan kaedah pengebilan masa dan bahan mencipta peraturan pengebilan masa dan jenis bahan.
   - Baris kontrak kaedah pengebilan harga tetap mencipta peraturan pengebilan pencapaian.
 
-Baris kontrak projek boleh disemak semula dengan akauntan projek dalam aplikasi Finance and Operations dengan pergi ke **Pengurusan dan perakaunan projek** > **Kontrak projek** > **Sediakan** > **Tunjukkan perakaunan lalai** dan menyemak semula butiran pada tab **Baris kontrak**. Akauntan juga boleh menetapkan dimensi kewangan untuk baris kontrak kaedah pengebilan harga tetap pada tab ini.
+Barisan kontrak projek boleh disemak oleh akauntan projek dalam aplikasi Kewangan dan Operasi dengan pergi ke **pengurusan Projek dan perakaunan** > **kontrak** > **Projek Sediakan** > **Tunjukkan perakaunan** lalai, dan menyemak butiran pada **tab Garis** kontrak. Akauntan juga boleh menetapkan dimensi kewangan lalai untuk garis kontrak kaedah pengebilan harga tetap pada tab ini.
 
 ## <a name="billing-milestones"></a>Pencapaian pengebilan
 
-Baris kontrak projek yang menggunakan kaedah pengebilan harga tetap diinvois melalui pencapaian pengebilan. Pencapaian pengebilan disegerakkan ke transaksi projek pada akaun dalam aplikasi Finance and Operations dengan menggunakan peta jadual **Pencapaian baris kontrak integrasi Project Operations (msdyn\_contractlinescheduleofvalues)**.
+Baris kontrak projek yang menggunakan kaedah pengebilan harga tetap diinvois melalui pencapaian pengebilan. Tonggak pengebilan disegerakkan ke transaksi dalam akaun projek dalam aplikasi Kewangan dan Operasi dengan menggunakan **peta jadual baris kontrak integrasi Project Operations (msdyn\_ contractlinescheduleofvalues**).
 
   ![Integrasi pencapaian pengebilan.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Apabila pertama kali anda mencipta pencapaian pengebilan untuk baris kontrak pro
 
 ### <a name="project-tasks"></a>Tugas projek
 
-Tugas projek disegerakkan ke aplikasi Finance and Operations melalui peta jadual **Tugas projek (msdyn\_projecttasks)** untuk tujuan rujukan sahaja. Mencipta, mengemas kini dan memadam operasi tidak disokong melalui aplikasi Finance and Operations.
+Tugas projek disegerakkan ke aplikasi Kewangan dan Operasi melalui **peta jadual Tugas Projek (msdyn\_ projecttasks)** untuk tujuan rujukan sahaja. Mencipta, mengemas kini dan memadam operasi tidak disokong melalui aplikasi Kewangan dan Operasi.
 
   ![Integrasi tugas projek.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Sumber projek
 
-Entiti **Peranan sumber projek** disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual **Peranan sumber projek untuk semua syarikat (bookableresourcecategories)** untuk tujuan rujukan sahaja. Oleh kerana peranan sumber dalam Dataverse bukan khusus syarikat, sistem secara automatik mencipta rekod peranan sumber khusus syarikat yang berkaitan dalam aplikasi Finance and Operations secara automatik untuk entiti sah termasuk dalam skop integrasi dwi tulis.
+Entiti **peranan** sumber Projek disegerakkan ke aplikasi Kewangan dan Operasi menggunakan **peta jadual Peranan sumber Projek untuk semua syarikat (bookableresourcecategories)** untuk tujuan rujukan sahaja. Oleh kerana peranan Dataverse sumber tidak khusus syarikat, sistem ini secara automatik membuat rekod peranan sumber khusus syarikat masing-masing dalam aplikasi Kewangan dan Operasi secara automatik untuk semua entiti undang-undang yang termasuk dalam skop integrasi dwi-tulis.
 
 ![Integrasi peranan sumber.](./media/5Resources.jpg)
 
-Sumber projek dalam Project Operations dikekalkan dalam Dataverse dan tidak disegerakkan ke aplikasi Finance and Operations.
+Sumber projek dalam Operasi Projek dikekalkan Dataverse dan tidak disegerakkan ke aplikasi Kewangan dan Operasi.
 
 ### <a name="transaction-categories"></a>Kategori transaksi
 
-Kategori transaksi dikekalkan dalam Dataverse dan disegerakkan ke aplikasi Finance and Operations menggunakan peta jadual **Kategori transaksi projek (msdyn\_transactioncategories)**. Selepas rekod kategori transaksi disegerakkan, sistem secara automatik mencipta empat rekod kategori dikongsi. Setiap rekod yang berkaitan dengan jenis transaksi dalam aplikasi Finance and Operations dan pautkannya ke rekod kategori transaksi.
+Kategori transaksi dikekalkan Dataverse dan disegerakkan ke aplikasi Kewangan dan Operasi menggunakan **peta jadual kategori transaksi Projek (kategori transaksi\_ msdyn**). Selepas rekod kategori transaksi disegerakkan, sistem secara automatik mencipta empat rekod kategori dikongsi. Setiap rekod sepadan dengan jenis transaksi dalam aplikasi Kewangan dan Operasi dan memautkannya ke rekod kategori transaksi.
 
 ![Integrasi kategori transaksi.](./media/4TransactionCategories.jpg)
 

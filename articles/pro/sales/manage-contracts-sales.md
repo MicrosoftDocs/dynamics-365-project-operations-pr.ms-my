@@ -4,14 +4,14 @@ description: Topik ini menyediakan maklumat tentang melihat kontrak berasaskan p
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001847"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590496"
 ---
 # <a name="manage-project-contracts"></a>Urus kontrak projek
 
@@ -31,6 +31,9 @@ Senarai semua kontrak projek boleh dilihat pada halaman senarai **Kontrak**.
 2. Pilih **Lihat penukar** (anak panah bawah di sebelah nama pandangan) untuk memilih pandangan yang ditapis lain. Anda boleh mencipta pandangan anda sendiri dengan kriteria penapis tersuai.
 
 Kontrak boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
+
+> [!NOTE]
+> Kontrak yang mempunyai projek, tugas, anggaran, jurnal dan/atau sebenar yang berkaitan dengannya tidak boleh dipadamkan. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
