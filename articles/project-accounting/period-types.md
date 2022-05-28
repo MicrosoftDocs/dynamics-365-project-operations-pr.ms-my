@@ -4,14 +4,14 @@ description: Topik ini menyediakan maklumat tentang cara menyediakan jenis tempo
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998787"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580467"
 ---
 # <a name="period-types"></a>Jenis tempoh
 
@@ -22,7 +22,7 @@ Jenis tempoh mentakrifkan kekerapan hasil pada projek dianggarkan. Topik ini men
 ## <a name="create-and-work-with-period-types"></a>Cipta dan bekerja dengan jenis tempoh
 Untuk mencipta dan bekerja dengan jenis tempoh, lengkapkan langkah berikut:
 
-1. Dalam persekitaran Dynamics 365 Finance anda, pergi ke **Pengurusan dan perakaunan projek** > **Penyediaan** > **Anggaran** > **Jenis tempoh**.
+1. Dalam persekitaran Dynamics 365 Finance anda, pergi ke **Pengurusan Projek dan jenis Tempoh Anggaran** > **Persediaan Persediaan** > **Perakaunan** > **·**.
 2. Pilih **Baharu** untuk mencipta jenis tempoh baharu. Masukkan nama dan perihalan.
 3. Dalam medan **Kekerapan**, pilih nilai:
 

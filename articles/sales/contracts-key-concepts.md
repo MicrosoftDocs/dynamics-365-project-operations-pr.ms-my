@@ -4,26 +4,26 @@ description: Topik ini menyediakan maklumat tentang konsep utama untuk kontrak p
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986952"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582951"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Konsep unik untuk Kontrak Berdasarkan Projek
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Topik ini memberikan konsep utama untuk mengetahui sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Syarikat Pemilikan
 
-Syarikat pemilikan ialah entiti yang sah daripada modul **Pengurusan dan perakaunan projek** untuk Project Operations daripada Dynamics 365 Finance. Syarikat pemilikan mewakili entiti yang sah yang akan mengambil kira kos dan hasil yang terakru daripada perjanjian.
+Syarikat pemilik adalah entiti undang-undang dari **modul pengurusan dan perakaunan** Projek untuk Operasi Projek dari Dynamics 365 Finance. Syarikat pemilikan mewakili entiti yang sah yang akan mengambil kira kos dan hasil yang terakru daripada perjanjian.
 
 ## <a name="contracting-unit"></a>Unit Pengkontrakan
 

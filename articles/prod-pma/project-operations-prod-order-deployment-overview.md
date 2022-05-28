@@ -3,16 +3,15 @@ title: Project Operations untuk gambaran keseluruhan pelaksanaan senario distok/
 description: Topik ini menyediakan maklumat tentang jenis pelaksanaan, Project Operations untuk senario distok/berasaskan pengeluaran.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009092"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582491"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations untuk gambaran keseluruhan pelaksanaan senario distok/berasaskan pengeluaran
 
@@ -23,21 +22,21 @@ Jenis pelaksanaan ini mempunyai keupayaan berikut untuk syarikat berasaskan proj
 
 - Perancangan projek menggunakan [Struktur pecahan kerja](work-breakdown-structures.md)
 - Dapatkan dan gunakan inventori distok untuk projek
-- Mengurus jualan berasaskan projek menggunakan modul **Jualan dan pemasaran** dalam aplikasi Dynamics 365 Finance and Operations
-- Penetapan harga dan kos projek menggunakan kadar kos dan konfigurasi kadar bil dalam aplikasi Finance and Operations
-- Pengurusan sumber untuk projek dalam aplikasi Finance and Operations
-- Kemajuan projek dan penjejakan masa dalam aplikasi Finance and Operations
+- Menguruskan jualan berasaskan projek menggunakan **modul Jualan dan Pemasaran** dalam aplikasi Dynamics 365 Finance and Operations
+- Harga dan kos projek menggunakan kadar kos dan konfigurasi kadar bil dalam aplikasi Kewangan dan Operasi
+- Pengurusan sumber untuk projek dalam aplikasi Kewangan dan Operasi
+- Kemajuan projek dan penjejakan masa dalam aplikasi Kewangan dan Operasi
 - Pengalaman pengurusan perbelanjaan untuk perbelanjaan projek dan bukan projek dengan penangkapan resit menggunakan keupayaan OCR
 - Penginvoisan menggunakan sistem cukai jualan bertaraf perusahaan dan kadar pertukaran efektif tarikh
 - Kumpulan projek boleh dikonfigurasi untuk perakaunan dan akruan WIP
 - Pengiktirafan hasil projek
 
-Jenis pelaksanaan ini juga menyediakan sambungan ke fungsian yang disediakan oleh aplikasi Dynamics 365 Finance dan Dynamics 365 Supply Chain Management.
+Jenis penggunaan ini juga menyediakan sambungan kepada fungsi yang disediakan oleh Dynamics 365 Finance dan Dynamics 365 Supply Chain Management aplikasi.
 
 Pilih jenis pelaksanaan ini untuk menggunakan Dynamics 365 Project Operations bagi kitaran hayat projek penuh termasuk keperluan utama berikut:
 
 - Sistem pengurusan projek penuh yang menguruskan item diinventori dan kos pesanan kerja/pengeluaran untuk projek dalaman dan boleh dibilkan bagi jadual dan kewangan.
-- Organisasi yang telah mempunyai Dynamics 365 Finance atau aplikasi Dynamics 365 Supply Chain and Manufacturing dan mengintegrasikan transaksi berasaskan projek akan memudahkan akses data dan keperluan pelaporan.
+- Organisasi ini sudah mempunyai Dynamics 365 Finance atau aplikasi Rantaian Bekalan dan Pembuatan Dynamics 365 dan mengintegrasikan transaksi berasaskan projek akan memudahkan akses data dan keperluan pelaporan.
 - Sistem pengurusan Perbelanjaan yang berfungsi sepenuhnya merangkumi dasar penguatkuasaan dan dan pembayaran balik untuk projek penjejakan perbelanjaan projek dan bukan projek.
 - Cukai jualan kelas perusahaan dan enjin kadar pertukaran untuk menjana invois menghadapi pelanggan bagi projek.
 - Sistem perakaunan projek dan pengiktirafan hasil mematuhi Standard Pelaporan Kewangan Antarabangsa (IFRS).

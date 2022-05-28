@@ -4,14 +4,14 @@ description: Topik ini menerangkan cara untuk menerima bayaran balik pada transa
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999372"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581157"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Pemulihan VAT dalam Pengurusan perbelanjaan
 
@@ -33,25 +33,25 @@ Selepas prasyarat dilengkapkan, langkah berikut mesti dilengkapkan untuk meminta
 4. Hantar data pemulihan VAT kepada vendor pihak ketiga untuk memfailkan pulangan pemulihan antarabangsa.
 5. Memproses perbelanjaan untuk pemulihan VAT domestik.
 
-Bahagian berikut menyediakan contoh yang menunjukkan cara pekerja Contoso melengkapkan setiap langkah.
+Seksyen berikut memberikan contoh yang menunjukkan cara pekerja Ariffin melengkapkan setiap langkah.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Masukkan maklumat cukai tentang transaksi kad kredit untuk mengenal pasti bayaran balik VAT yang layak
 
-Siah, wakil jualan Contoso yang berpangkalan di Amerika Syarikat, baru kembali dari perjalanan jualan ke United Kingdom. Semasa perjalanan, Siah menanggung perbelanjaan kad kredit peribadi untuk makanan. Siah kini perlu mencipta laporan perbelanjaan untuk menyelesaikan perbelanjaan.
+Siah, wakil jualan Ariffin yang berpangkalan di Amerika Syarikat, baru-baru ini kembali daripada perjalanan jualan ke United Kingdom. Semasa perjalanan, Siah menanggung perbelanjaan kad kredit peribadi untuk makanan. Siah kini perlu mencipta laporan perbelanjaan untuk menyelesaikan perbelanjaan.
 
 Apabila Siah memasukkan maklumat pada laporan perbelanjaan, dia memilih **United Kingdom** dalam medan **Negara/rantau** pada halaman **Edit laporan perbelanjaan**. Senarai kumpulan cukai jualan kemudiannya ditapis supaya menunjukkan hanya kumpulan yang diguna pakai di United Kingdom. Siah memilih **United Kingdom 001** kumpulan cukai jualan dan kemudian memilih **Makanan** item kumpulan cukai jualan. Seterusnya, Siah menambah transaksi baharu untuk penginapan. Kerana hanya ada satu kumpulan cukai jualan dan satu item kumpulan cukai jualan untuk penginapan di United Kingdom, maklumat ini secara automatik diisi dalam laporan perbelanjaan Siah.
 
-Setiap dasar Contoso, semua perbelanjaan mesti mempunyai resit sepadan. Oleh itu, apabila Siah menyimpan laporan perbelanjaan, dia menerima mesej yang menyatakan bahawa dia mesti melampirkan resit untuk setiap transaksi yang dia senaraikan dalam laporan perbelanjaannya. Siah mengesahkan bahawa dia telah melampirkan imej digital setiap resit transaksi ke laporan perbelanjaannya dan kemudian menyerahkan laporan untuk kelulusan. Dia kemudian menghantar resit kertas kepada pasukan pemprosesan pejabat sokongan. Pasukan ini akan menghantar data pemulihan VAT kepada vendor pihak ketiga yang memfailkan pulangan VAT antarabangsa untuk Contoso.
+Setiap dasar Ariffin, semua perbelanjaan mesti mempunyai resit pemadanan. Oleh itu, apabila Siah menyimpan laporan perbelanjaan, dia menerima mesej yang menyatakan bahawa dia mesti melampirkan resit untuk setiap transaksi yang dia senaraikan dalam laporan perbelanjaannya. Siah mengesahkan bahawa dia telah melampirkan imej digital setiap resit transaksi ke laporan perbelanjaannya dan kemudian menyerahkan laporan untuk kelulusan. Dia kemudian menghantar resit kertas kepada pasukan pemprosesan pejabat sokongan. Pasukan ini akan menghantar data pemulihan VAT kepada vendor pihak ketiga yang menfailkan pulangan pemulihan VAT antarabangsa untuk Ariffin.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Sahkan maklumat cukai dan siaran laporan perbelanjaan
 
-Sebelum April, penyelaras Akaun belum bayar untuk Contoso, boleh menyiarkan laporan perbelanjaan, beliau mesti memasukkan sebarang maklumat cukai yang hilang daripada laporan. Dia membuka halaman **Butiran laporan perbelanjaan** dan melihat laporan perbelanjaan diluluskan oleh Siah. April kemudian buka laporan perbelanjaan untuk melihat butiran transaksi. Dia melihat bahawa Siah tidak memasukkan item kumpulan cukai jualan untuk salah satu transaksi. Oleh kerana maklumat ini tidak diberikan, April tidak boleh menyiarkan laporan perbelanjaan. Oleh itu, dia melihat pada halaman **Konfigurasi cukai** dalam Pengurusan perbelanjaan, dan menemui item kumpulan cukai jualan yang sesuai untuk negara/rantau dan jenis transaksi. April kini boleh menyiarkan laporan perbelanjaan kepada lejar umum.
+Sebelum April, penyelaras Akaun belum bayar untuk Ariffin, boleh menyiarkan laporan perbelanjaan, dia mesti memasukkan sebarang maklumat cukai yang hilang daripadanya. Dia membuka halaman **Butiran laporan perbelanjaan** dan melihat laporan perbelanjaan diluluskan oleh Siah. April kemudian buka laporan perbelanjaan untuk melihat butiran transaksi. Dia melihat bahawa Siah tidak memasukkan item kumpulan cukai jualan untuk salah satu transaksi. Oleh kerana maklumat ini tidak diberikan, April tidak boleh menyiarkan laporan perbelanjaan. Oleh itu, dia melihat pada halaman **Konfigurasi cukai** dalam Pengurusan perbelanjaan, dan menemui item kumpulan cukai jualan yang sesuai untuk negara/rantau dan jenis transaksi. April kini boleh menyiarkan laporan perbelanjaan kepada lejar umum.
 
 Apabila April menyiarkan laporan perbelanjaan, item kerja pemulihan VAT dicipta. Item kerja ini ditugaskan kepada ahli pasukan pemprosesan pejabat sokongan. April menerima mesej yang mengesahkan bahawa siaran berjaya. Mesej ini juga menyenaraikan bilangan transaksi VAT yang dikenal pasti untuk pemulihan.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Memproses perbelanjaan yang layak untuk pemulihan VAT antarabangsa
 
-Arnie, ahli pasukan pemprosesan pejabat kembali Contoso pasukan pemprosesan Back-Office, bertanggungjawab untuk mengesahkan bahawa semua maklumat yang diperlukan untuk pemulihan VAT dimasukkan ke dalam laporan perbelanjaan. Dia membuka halaman **Pemulihan cukai perbelanjaan** dan memilih laporan perbelanjaan yang Siah serahkan. Arnie kemudian mengesahkan bahawa semua resit yang diperlukan dilampirkan, dan kumpulan cukai jualan yang betul dan item kod cukai jualan dimasukkan.
+Arnie, ahli pasukan pemprosesan pejabat sokongan Ariffin, bertanggungjawab untuk mengesahkan bahawa semua maklumat yang diperlukan untuk pemulihan VAT dimasukkan dalam laporan perbelanjaan. Dia membuka halaman **Pemulihan cukai perbelanjaan** dan memilih laporan perbelanjaan yang Siah serahkan. Arnie kemudian mengesahkan bahawa semua resit yang diperlukan dilampirkan, dan kumpulan cukai jualan yang betul dan item kod cukai jualan dimasukkan.
 
 Apabila Arnie menerima resit kertas daripada Siah, dia mengesahkannya daripada resit digital dan kemudian mengubah status laporan perbelanjaan kepada **Sedia untuk pemulihan**.
 

@@ -4,14 +4,14 @@ description: Topik ini menyediakan maklumat untuk membantu anda menentukan jenis
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994647"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584147"
 ---
 # <a name="determine-your-deployment-type"></a>Tentukan jenis pelaksanaan anda
 
@@ -25,7 +25,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Pelanggan sedia ada Dynamics menggunakan Dynamics 365 Project Service Automation
 Project Operations termasuk keupayaan yang dihantar dengan Project Service Automation. Laluan naik taraf akan dilepaskan untuk pelanggan dalam 2021 release wave 1.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan sedia ada Dynamics 365 Finance menggunakan pengurusan dan perakaunan Project 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan sedia ada Dynamics 365 Finance menggunakan pengurusan projek dan perakaunan 
 
 Pelanggan sedia ada Kewangan yang menggunakan fungsi Pengurusan projek dan perakaunan boleh terus menggunakannya seperti itu. Lihat [Project Operations untuk senario pesanan stok/pengeluaran](#pma).
 
@@ -42,7 +42,7 @@ Project Operations menyokong berbilang pilihan pelaksanaan untuk dipadankan deng
 - [Project Operations untuk senario sumber/tidak distok](#integrated)
 - [Project Operations untuk senario pesanan distok/pengeluaran](#pma)
 
-Project Operations menyokong senario pesanan stok/pengeluaran dan senario yang berasaskan bukan stok/sumber dalam persekitaran yang sama melalui konfigurasi peringkat entiti yang sah. Contohnya, Contoso boleh menggunakan keupayaan pesanan stok/pengeluaran di fasiliti pembuatan AS mereka (Entiti sah = Contoso Manufacturing Amerika Syarikat). Contoso boleh menggunakan keupayaan berasaskan bukan stok/sumber di fasiliti Contoso Robotics Arms mereka di UK (Entiti sah = Contoso Robotics United Kingdom).
+Project Operations menyokong senario pesanan stok/pengeluaran dan senario yang berasaskan bukan stok/sumber dalam persekitaran yang sama melalui konfigurasi peringkat entiti yang sah. Sebagai contoh, Contoso boleh menggunakan keupayaan pesanan berstok/pengeluaran dalam kemudahan pengeluaran AS mereka (Entiti sah = Pengeluaran Amerika Syarikat Contoso). Contoso boleh menggunakan keupayaan tidak berstok/berasaskan sumber dalam kemudahan servis Lengan Robotik Contoso di UK (Entiti sah = Robotik United Kingdom Contoso).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Pelaksanaan ringan - urusan untuk penginvoisan proforma
 

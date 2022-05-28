@@ -2,16 +2,16 @@
 title: Melanjutkan entri masa
 description: Topik ini memberikan maklumat mengenai cara pemaju dapat melanjutkan kawalan kemasukan masa.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993342"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582997"
 ---
 # <a name="extending-time-entries"></a>Melanjutkan entri masa
 
@@ -43,7 +43,7 @@ Entri masa ialah entiti teras yang digunakan dalam berbilang senario. Dalam Gelo
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Entri masa dan Entiti sumber masa
-Setiap kali penyertaan adalah berkaitan dengan rekod sumber masa. Rekod ini menentukan cara dan aplikasi perlu memproses penyertaan masa.
+Setiap kali penyertaan adalah berkaitan dengan rekod sumber masa. Rekod ini menentukan aplikasi mana yang harus memproses entri masa dan bagaimana.
 
 Penyertaan masa sentiasa satu blok masa bersama dengan permulaan, akhir, dan tempoh yang berkaitan.
 
@@ -55,7 +55,7 @@ Logik akan secara automatik mengemas kini rekod kemasukan dalam situasi berikut:
     - **msdyn_end**
     - **msdyn_duration**
 
-- Medan, **msdyn_start** dan **msdyn_end** adalah peka zon masa.
+- Medan **msdyn_start** dan **msdyn_end** adalah zon waktu yang sedar.
 - Entri masa yang dicipta dengan hanya **msdyn_date** dan **msdyn_duration** ditetapkan akan bermula pada waktu tengah malam. Medan **msdyn_start** dan **msdyn_end** akan dikemas kini dengan sewajarnya.
 
 #### <a name="time-entry-types"></a>Jenis entri masa
@@ -72,73 +72,63 @@ Rekod entri masa mempunyai jenis berkaitan yang mentakrifkan tingkah laku dalam 
 |Percutian   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Sesuaikan kawalan Entri masa mingguan
 Pembangun boleh menambah medan dan carian tambahan kepada entiti lain dan melaksanakan peraturan perniagaan tersuai untuk menyokong senario perniagaan mereka.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Tambah medan tersuai dengan carian ke entiti lain
 Terdapat tiga langkah utama untuk menambah medan tersuai ke grid kemasukan masa mingguan.
 
-1. Tambah medan tersuai ke kotak dialog cipta pantas.
+1. Tambah medan tersuai pada **kotak dialog Cipta cepat**.
 2. Konfigurasikan grid untuk menunjukkan medan tersuai.
-3. Tambah medan tersuai pada baris edit aliran tugas atau sel edit aliran tugas.
+3. Tambah medan tersuai pada **halaman edit** **baris atau** Masa edit entri, mengikut kesesuaian.
 
-Pastikan bahawa medan baharu mempunyai pengesahan yang diperlukan dalam baris atau sel edit aliran tugas. Sebagai sebahagian daripada langkah ini, kunci medan berdasarkan status entri masa.
+Pastikan medan baru mempunyai pengesahan yang diperlukan pada **halaman edit** **baris atau** Entri masa. Sebagai sebahagian daripada tugas ini, kunci medan, berdasarkan status entri masa.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Tambah medan tersuai ke kotak dialog cipta pantas
-Tambah medan tersuai kepada kotak dialog **Cipta Cipta Pantas Entri Masa**. Kemudian, apabila entri masa ditambahkan, nilai boleh dimasukkan dengan memilih **Baharu**.
+Apabila anda menambah medan tersuai pada **grid entri** Masa dan kemudian mencipta entri masa secara langsung dalam grid, medan tersuai untuk entri tersebut disetkan secara automatik supaya ia sepadan dengan baris. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Tambah medan tersuai pada kotak dialog Cipta cepat
+Tambah medan tersuai pada **kotak dialog Cipta Cepat: Cipta Entri Masa**. Pengguna kemudian boleh memasukkan nilai apabila mereka menambahkan penyertaan masa dengan memilih **Baharu**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurasikan grid untuk menunjukkan medan tersuai
-Terdapat dua langkah utama untuk menambah medan tersuai ke grid kemasukan masa mingguan:
+Terdapat dua cara menambah medan tersuai pada **grid entri** masa Mingguan.
 
-  - Sesuaikan pandangan dan tambah medan tersuai
-  - Cipta entri masa tersuai lalai baharu 
+- **Sesuaikan pandangan Penyertaan** Masa Mingguan Saya dan tambahkan medan tersuai padanya. Anda boleh menentukan kedudukan dan saiz medan tersuai dalam grid dengan mengedit sifat dalam paparan.
+- Cipta pandangan entri masa tersuai baru dan setkannya sebagai pandangan lalai. Pandangan ini harus mengandungi **medan Perihalan** dan **Komen** luaran sebagai tambahan kepada lajur yang anda ingin sertakan grid. Anda boleh menentukan kedudukan, saiz dan tertib isihan lalai grid dengan mengedit sifat dalam paparan. Seterusnya, konfigurasikan kawalan tersuai untuk pandangan ini supaya ia adalah kawalan **Grid Entri Masa**. Tambah kawalan pada pandangan dan pilihnya untuk **Web**, **Telefon** dan **Tablet**. Seterusnya, konfigurasikan parameter untuk **grid kemasukan** masa Mingguan. **Tetapkan medan Tarikh** mula kepada **tarikh\_ msdyn**, tetapkan **medan Tempoh** kepada **tempoh\_ msdyn** dan tetapkan **medan Status** kepada **msdyn\_ entrystatus**. Medan **Senarai** Status Baca sahaja disetkan kepada **192350002 (Diluluskan)**, **192350003 (Dihantar)**, atau **192350004 (Ingat Diminta)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Tambah medan tersuai pada halaman edit yang sesuai
+Halaman yang digunakan untuk mengedit entri masa atau baris entri masa boleh didapati di bawah **Borang**. Butang **Edit entri** dalam grid membuka **halaman entri** Edit, dan **butang Edit baris baris** membuka **halaman edit** Baris. Anda boleh mengedit halaman ini supaya ia termasuk medan tersuai.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Sesuaikan pandangan dan tambah medan tersuai
+Kedua-dua opsyen mengalih keluar beberapa penapisan di luar kotak pada **entiti Project** dan **Project Task**, supaya semua pandangan carian untuk entiti kelihatan. Keluar dari kotak, hanya pandangan carian yang berkaitan boleh dilihat.
 
-Sesuaikan pandangan **Entri Masa Mingguan Saya** dan tambah medan tersuai padanya. Anda boleh memilih kedudukan dan saiz medan tersuai dalam grid dengan mengedit sifat tersebut dalam pandangan.
+Anda mesti menentukan halaman yang sesuai untuk medan tersuai. Kemungkinan besar, jika anda menambah medan pada grid, ia harus pergi pada halaman edit **Baris yang digunakan untuk medan yang digunakan pada** keseluruhan baris entri masa. Jika medan tersuai mempunyai nilai unik dalam baris setiap hari (contohnya, jika ia adalah medan tersuai untuk masa tamat), ia harus pergi pada **halaman Edit** entri masa.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Cipta entri masa tersuai lalai baharu
-
-Pandangan ini harus mengandungi **Perihalan** dan **Komen Luaran**, sebagai tambahan kepada lajur yang anda mahu ada dalam grid. 
-
-1. Pilih kedudukan, saiz dan isih pesanan lalai grid dengan mengedit sifat tersebut dalam pandangan. 
-2. Konfigurasikan kawalan tersuai untuk pandangan ini supaya ia adalah kawalan **Grid Entri Masa**. 
-3. Tambah kawalan ini ke pandangan, dan pilih ia untuk web, telefon dan tablet. 
-4. Konfigurasikan parameter untuk grid entri masa mingguan. 
-5. Tetapkan medan **Tarikh Mula** ke **msdyn_date**, tetapkan medan **Tempoh** untuk **msdyn_duration** dan tetapkan medan **Status** kepada **msdyn_entrystatus**. 
-6. Untuk pandangan lalai, medan **Senarai Status Baca Sahaja** ditetapkan kepada **192350002,192350003,192350004**. Medan **Aliran Tugas Edit Baris** ditetapkan kepada **msdyn_timeentryrowedit**. Medan **Aliran Tugas Edit Sel** ditetapkan kepada **msdyn_timeentryedit**. 
-7. Anda boleh menyesuaikan medan ini untuk menambah atau mengeluarkan status baca sahaja atau untuk menggunakan pengalaman berasaskan tugas berbeza (TBX) untuk pengeditan baris atau sel. Medan ini kini terikat dengan nilai statik.
-
-
-> [!NOTE] 
-> Kedua-dua pilihan akan mengalih keluar beberapa penapisan siap guna pada entiti **Projek** dan **Tugas Projek** supaya semua pandangan carian untuk entiti tersebut akan boleh dilihat. Keluar dari kotak, hanya pandangan carian yang berkaitan boleh dilihat.
-
-Tentukan aliran tugas yang sesuai untuk medan tersuai. Jika anda menambah medan kepada grid, ia perlu ditambah dalam aliran tugas edit baris yang digunakan untuk medan yang digunakan pada seluruh baris entri masa. Jika medan tersuai mempunyai nilai unik setiap hari, seperti medan tersuai untuk **Masa akhir**, ia harus pergi dalam edit aliran tugas sel.
-
-Untuk menambah medan tersuai kepada aliran tugas, seret elemen **Medan** ke kedudukan yang sesuai pada halaman dan kemudian tetapkan sifat medan. Tetapkan sifat **Sumber** ke **Entri Masa** dan set sifat **Medan Data** ke medan tersuai. Sifat **Medan** menentukan nama paparan pada halaman TBX. Pilih **Gunakan** untuk menyimpan perubahan anda pada medan dan kemudian pilih **Kemas kini** untuk menyimpan perubahan anda pada halaman.
-
-Untuk menggunakan halaman TBX tersuai baharu sebagai ganti, cipta proses baharu. Tetapkan kategori untuk **Aliran Proses Perniagaan**, tetapkan entiti ke **Entri Masa** dan tetapkan jenis proses perniagaan untuk **Menjalankan proses sebagai aliran tugas**. Di bawah **Sifat**, sifat **Nama halaman** patut ditetapkan ke nama paparan untuk halaman. Tambah semua medan yang berkaitan dengan halaman TBX. Simpan dan aktifkan proses. Kemas kini sifat kawalan tersuai untuk aliran tugas yang relevan kepada nilai **Nama** pada proses.
+Untuk menambah medan tersuai pada halaman, seret **elemen Medan** ke dalam kedudukan yang sesuai pada halaman, kemudian setkan sifatnya.
 
 ### <a name="add-new-option-set-values"></a>Tambah nilai set pilihan baharu
-Untuk menambah nilai set pilihan kepada medan siap guna, buka halaman pengeditan untuk medan tersebut dan di bawah **Jenis**, pilih **Edit** di sebelah set pilihan. Tambah pilihan baharu yang mempunyai label tersuai dan warna. Jika anda mahu menambah status entri masa baharu, medan siap guna dinamakan **Status Entri** bukan **Status**.
+Untuk menambah nilai set pilihan pada medan luar kotak, ikuti langkah ini.
+
+1. Buka halaman pengeditan untuk medan, kemudian, di bawah **Jenis**, pilih **Edit** di sebelah set pilihan.
+2. Tambah pilihan baharu yang mempunyai label tersuai dan warna. Jika anda ingin menambah status entri masa baru, medan luar kotak dinamakan **Status** Kemasukan.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Tetapkan status kemasukan masa baharu sebagai baca sahaja
-Untuk memilih status entri masa baharu sebagai baca sahaja, tambah nilai masukan masa baharu ke sifat senarai **Senarai Status Baca Sahaja** sahaja. Bahagian yang boleh diedit bagi grid kemasukan masa akan dikunci untuk baris yang mempunyai status baharu.
-Seterusnya, tambah peraturan perniagaan untuk mengunci semua medan **Edit Baris Entri Masa** dan **Edit Entri Masa** halaman TBX. Anda boleh mengakses peraturan perniagaan untuk halaman ini dengan membuka editor aliran proses perniagaan untuk halaman dan kemudian memilih **Peraturan Perniagaan**. Anda boleh menambahkan status baharu pada keadaan dalam peraturan perniagaan sedia ada atau anda boleh menambah peraturan perniagaan baharu untuk status baharu.
+Untuk memilih status entri masa baharu sebagai baca sahaja, tambah nilai masukan masa baharu ke sifat senarai **Senarai Status Baca Sahaja** sahaja. Pastikan anda menambah nombor, bukan label. Bahagian yang boleh diedit bagi grid masukan masa kini akan dikunci untuk baris yang mempunyai status baru. Untuk mengesetkan **sifat Senarai** Status Baca Sahaja secara berbeza untuk pandangan Entri Masa yang **berbeza**, tambah **grid entri** Masa dalam seksyen kawalan **Tersuai pandangan** dan konfigurasikan parameter yang sesuai.
+
+Seterusnya, tambahkan peraturan perniagaan untuk mengunci semua medan pada **halaman edit baris** dan **Entri masa.** Untuk mengakses peraturan perniagaan bagi halaman ini, buka editor borang bagi setiap halaman, kemudian pilih **Peraturan perniagaan**. Anda boleh menambahkan status baharu pada keadaan dalam peraturan perniagaan sedia ada atau anda boleh menambah peraturan perniagaan baharu untuk status baharu.
 
 ### <a name="add-custom-validation-rules"></a>Tambah peraturan pengesahan tersuai
-Terdapat dua jenis peraturan pengesahan yang anda boleh tambah untuk pengalaman grid kemasukan masa mingguan:
+Anda boleh menambah dua jenis peraturan pengesahan untuk **pengalaman grid kemasukan** masa Mingguan:
 
-- Peraturan perniagaan pihak klien yang berfungsi dalam kotak dialog cipta pantas dan pada halaman TBX.
-- Pengesahan pasang masuk bahagian pelayan yang diguna pakai untuk semua kemas kini kemasukan.
+- Peraturan perniagaan bahagian pelanggan yang berfungsi pada halaman
+- Pengesahan pemalam bahagian pelayan yang digunakan pada semua kemas kini masukan masa
 
-#### <a name="business-rules"></a>Peraturan perniagaan
-Gunakan peraturan perniagaan untuk mengunci dan membuka kunci medan, masukkan nilai lalai dalam medan dan takrifkan pengesahan yang memerlukan maklumat hanya dari rekod kemasukan masa semasa. Anda boleh mengakses peraturan perniagaan untuk halaman TBX dengan membuka editor aliran proses perniagaan untuk halaman dan kemudian memilih **Peraturan Perniagaan**. Anda kemudian boleh mengedit peraturan perniagaan sedia ada atau menambah peraturan perniagaan baharu. Untuk pengesahan yang lebih tersuai malah, anda boleh menggunakan peraturan perniagaan untuk menjalankan JavaScript.
+#### <a name="client-side-business-rules"></a>Peraturan perniagaan sebelah pelanggan
+Gunakan peraturan perniagaan untuk mengunci dan membuka kunci medan, masukkan nilai lalai dalam medan dan takrifkan pengesahan yang memerlukan maklumat hanya dari rekod kemasukan masa semasa. Untuk mengakses peraturan perniagaan bagi halaman, buka editor borang, kemudian pilih **Peraturan perniagaan**. Anda kemudian boleh mengedit peraturan perniagaan sedia ada atau menambah peraturan perniagaan baharu.
 
-#### <a name="plug-in-validations"></a>Pengesahan pasang masuk
-Gunakan pengesahan pasang masuk untuk sebarang pengesahan yang memerlukan lebih banyak konteks daripada yang tersedia dalam rekod entri tunggal atau untuk sebarang pengesahan yang anda mahu jalankan pada kemas kini sebaris dalam grid. Untuk melengkapkan pengesahan, cipta pasang masuk tersuai pada **Entiti Masa**.
+#### <a name="server-side-plug-in-validations"></a>Pengesahihan pemalam bahagian pelayan
+Anda harus menggunakan pengesahihan pemalam untuk sebarang pengesahan yang memerlukan lebih banyak konteks daripada yang tersedia dalam rekod entri sekali sahaja. Anda juga harus menggunakannya untuk sebarang pengesahan yang anda ingin jalankan pada kemas kini sebaris dalam grid. Untuk melengkapkan pengesahihan, cipta pemalam tersuai pada **entiti Kemasukan** Masa.
+
+### <a name="limits"></a>Had
+Pada masa ini, **grid entri** Masa mempunyai had saiz 500 baris. Jika terdapat lebih daripada 500 baris, baris yang berlebihan tidak akan dipaparkan. Tidak ada cara untuk meningkatkan had saiz ini.
 
 ### <a name="copying-time-entries"></a>Menyalin entri masa
 Gunakan pandangan **Salin Lajur Entri Masa** untuk mentakrifkan senarai medan untuk disalin semasa entri masa. **Tarikh** dan **Tempoh** adalah medan yang diperlukan dan tidak boleh dialih keluar daripada pandangan.

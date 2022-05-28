@@ -3,16 +3,15 @@ title: Gambaran keseluruhan proses penginvoisan
 description: Topik ini menyediakan gambaran keseluruhan proses penginvoisan dalam Project Operations untuk senario berdasarkan sumber/bukan stok.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003782"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582721"
 ---
 # <a name="invoicing-process-overview"></a>Gambaran keseluruhan proses penginvoisan
 
@@ -22,7 +21,7 @@ Project Operations untuk senario berdasarkan sumber/bukan stok menawarkan keupay
 
 ![Rajah aliran penginvoisan.](./media/invoicing-flow.png)
 
-Baris kontrak projek mentakrifkan kaedah pengebilan untuk transaksi projek berkaitan. Apabila pengurus Projek meluluskan transaksi masa dan perbelanjaan, sistem merekodkan transaksi dalam entiti **Aktual Projek** dan menghantar maklumat kepada modul **Pengurusan dan perakaunan projek** dalam Dynamics 365 Finance. Akauntan Projek kemudiannya menyemak dan menyiarkan rekod menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini termasuk butiran perakaunan penting untuk aktual projek, seperti pengebilan, kumpulan cukai jualan, kumpulan cukai jualan item pengebilan dan dimensi kewangan.
+Baris kontrak projek mentakrifkan kaedah pengebilan untuk transaksi projek berkaitan. Apabila pengurus Projek meluluskan transaksi masa dan perbelanjaan, sistem merekodkan transaksi dalam **entiti Project Actuals** dan menghantar maklumat kepada **modul pengurusan dan perakaunan** Projek dalam Dynamics 365 Finance. Akauntan Projek kemudiannya menyemak dan menyiarkan rekod menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini termasuk butiran perakaunan penting untuk aktual projek, seperti pengebilan, kumpulan cukai jualan, kumpulan cukai jualan item pengebilan dan dimensi kewangan.
 
 Pengurus Projek boleh menyemak transaksi jualan yang tidak dibilkan menggunakan kaedah pengebilan masa dan bahan dalam [Tunggakan pengebilan masa dan bahan](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) dan pengebilan harga tetap [Pencapaian harga tetap](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Paparan ini membenarkan anda menapis dan memilih transaksi yang perlu dimasukkan dalam kitaran pengebilan seterusnya dan kemudian menanda sebagai **Sedia untuk Diinvoiskan**.
 

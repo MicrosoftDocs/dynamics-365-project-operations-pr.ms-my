@@ -2,362 +2,42 @@
 title: Aktual
 description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan aktual dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 04/01/2021
-ms.topic: article
+ms.date: 02/22/2022
+ms.topic: overview
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a086fe0be67c21ed73793b6f3b58b47ad08eaa4e8a4c98870b4b2264562e3dce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991812"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581295"
 ---
-# <a name="actuals"></a>Aktual 
+# <a name="actuals"></a>Aktual
 
 _**Gunakan pada:** Project Operations untuk senario berdasarkan sumber/bukan stok, Pelaksanaan ringan - urusan untuk penginvoisan proforma_
 
-Aktual mewakili kemajuan kewangan dan jadual yang disemak dan diluluskan untuk sesuatu projek. Ia dicipta hasil daripada kelulusan masa, perbelanjaan, entri penggunaan bahan serta entri jurnal dan invois.
-
-## <a name="journal-lines-and-time-submission"></a>Garisan jurnal dan serahan masa
-
-Untuk mendapatkan maklumat lanjut tentang entri masa, lihat [Gambaran keseluruhan entri masa](../time/time-entry-overview.md).
-
-### <a name="time-and-materials"></a>Masa dan bahan
-
-Apabila entri masa yang diserahkan telah dipautkan dengan projek yang dipetakan dengan baris kontrak masa dan bahan, sistem mencipta dua garisan jurnal, satu untuk kos dan satu untuk jualan yang tidak dibilkan.
-
-### <a name="fixed-price"></a>Harga tetap
-
-Apabila entri masa yang telah diserahkan dipautkan kepada projek yang dipetakan kepada baris kontrak harga tetap, sistem mencipta satu garisan jurnal untuk kos.
-
-### <a name="default-pricing"></a>Penetapan harga lalai
-
-Logik untuk mencipta harga lalai terletak pada garisan jurnal. Nilai medan daripada entri masa disalin kepada garisan jurnal. Nilai-nilai ini termasuk tarikh transaksi, baris kontrak yang projek dipetakan padanya, dan mata wang yang menghasilkan senarai harga yang sesuai.
-
-Medan yang menjejaskan penetapan harga lalai, seperti **Peranan** dan **Unit Penyumberan**, digunakan untuk menentukan harga bersesuaian pada garisan jurnal. Anda boleh menambah medan tersuai pada entri masa. Jika anda mahu nilai medan disebarluaskan pada aktual, cipta medan dalam jadual **Aktual** dan **Garisan Jurnal**. Gunakan kod tersuai untuk menyebarluaskan nilai medan yang dipilih daripada Entri Masa kepada Aktual melalui baris jurnal menggunakan asal transaksi. Untuk mendapatkan maklumat lanjut tentang asal transaksi dan sambungan, lihat [Memautkan aktual pada rekod asal](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## <a name="journal-lines-and-basic-expense-submission"></a>Serahan garisan jurnal dan perbelanjaan asas
-
-Untuk mendapatkan maklumat lanjut tentang entri perbelanjaan, lihat [Gambaran keseluruhan perbelanjaan](../expense/expense-overview.md).
-
-### <a name="time-and-materials"></a>Masa dan bahan
-
-Apabila entri perbelanjaan asas yang diserahkan telah dipautkan kepada projek yang dipetakan kepada baris kontrak masa dan bahan, sistem mencipta dua garisan jurnal, satu untuk kos dan satu untuk jualan yang tidak dibilkan.
-
-### <a name="fixed-price"></a>Harga tetap
-
-Apabila entri perbelanjaan asas yang diserahkan dipautkan pada projek yang dipetakan kepada baris kontrak harga tetap, sistem mencipta satu garisan jurnal untuk kos.
-
-### <a name="default-pricing"></a>Penetapan harga lalai
-
-Logik untuk memasukkan harga lalai bagi perbelanjaan adalah berdasarkan kategori perbelanjaan. Tarikh transaksi, baris kontrak yang projek dipetakan dan mata wang, semuanya digunakan untuk menentukan senarai harga bersesuaian. Medan yang menjejaskan penetapan harga lalai, seperti **Kategori Transaksi** dan **Unit**, digunakan untuk menentukan harga bersesuaian pada garisan jurnal. Walau bagaimanapun, ini hanya berfungsi apabila kaedah penetapan harga dalam senarai harga ialah **Harga setiap unit**. Jika kaedah penetapan harga ialah **Pada kos** atau **Tokokan ke atas kos**, harga yang dimasukkan apabila entri perbelanjaan dicipta akan digunakan untuk kos dan harga pada garisan jurnal jualan dikira berdasarkan kaedah penetapan harga. 
-
-Anda boleh menambahkan medan tersuai pada entri perbelanjaan. Jika anda mahu nilai medan disebarluaskan pada aktual, cipta medan dalam jadual **Aktual** dan **Garisan Jurnal**. Gunakan kod tersuai untuk menyebarluaskan nilai medan yang dipilih daripada Entri Masa kepada Aktual melalui baris jurnal menggunakan asal transaksi. Untuk mendapatkan maklumat lanjut tentang asal transaksi dan sambungan, lihat [Memautkan aktual pada rekod asal](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## <a name="journal-lines-and-material-usage-log-submission"></a>Penyerahan log garisan jurnal dan penggunaan bahan
-
-Untuk mendapatkan maklumat lanjut tentang entri perbelanjaan, lihat [Log Penggunaan Bahan](../material/material-usage-log.md).
-
-### <a name="time-and-materials"></a>Masa dan bahan
-
-Apabila entri log penggunaan bahan yang diserahkan dikaitkan dengan projek yang dipetakan kepada baris kontrak masa dan bahan, sistem mencipta dua garisan jurnal, satu untuk kos dan satu untuk jualan yang belum dibilkan.
-
-### <a name="fixed-price"></a>Harga tetap
-
-Apabila entri log penggunaan bahan yang diserahkan dipautkan pada projek yang dipetakan kepada baris kontrak harga tetap, sistem mencipta satu garisan jurnal untuk kos.
-
-### <a name="default-pricing"></a>Penetapan harga lalai
-
-Logik untuk memasukkan harga lalai bagi bahan adalah berdasarkan gabungan produk dan unit. Tarikh transaksi, baris kontrak yang projek dipetakan dan mata wang, semuanya digunakan untuk menentukan senarai harga bersesuaian. Medan yang menjejaskan penetapan harga lalai, seperti **ID Produk** dan **Unit**, digunakan untuk menentukan harga bersesuaian pada garisan jurnal. Walau bagaimanapun, ini hanya berfungsi untuk produk katalog. Untuk produk masukan manual, harga yang dimasukkan apabila entri log penggunaan bahan dicipta digunakan untuk kos dan harga jualan pada garisan jurnal. 
-
-Anda boleh menambahkan medan tersuai pada entri **Log Penggunaan Bahan**. Jika anda mahu nilai medan disebarluaskan pada aktual, cipta medan dalam jadual **Aktual** dan **Garisan Jurnal**. Gunakan kod tersuai untuk menyebarluaskan nilai medan yang dipilih daripada Entri Masa kepada Aktual melalui baris jurnal menggunakan asal transaksi. Untuk mendapatkan maklumat lanjut tentang asal transaksi dan sambungan, lihat [Memautkan aktual pada rekod asal](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## <a name="use-entry-journals-to-record-costs"></a>Gunakan jurnal entri untuk merekodkan kos
-
-Anda boleh menggunakan jurnal entri untuk merekodkan kos atau hasil dalam kelas bahan, yuran, masa, perbelanjaan, atau transaksi cukai. Jurnal boleh digunakan untuk tujuan berikut:
-
-- Alihkan aktual transaksi daripada sistem lain kepada Microsoft Dynamics 365 Project Operations.
-- Rekodkan kos yang berlaku dalam sistem yang lain. Kos ini boleh merangkumi kos perolehan atau subkontrak.
+Aktual mewakili kemajuan kewangan dan jadual yang disemak dan diluluskan untuk sesuatu projek. Ia dicipta apabila masa, perbelanjaan dan entri penggunaan bahan, entri jurnal dan invois diluluskan.
 
 > [!IMPORTANT]
-> Aplikasi ini tidak mengesahkan jenis garisan jurnal atau penetapan harga yang berkaitan yang dimasukkan pada garisan jurnal. Oleh itu, hanya pengguna yang menyedari sepenuhnya kesan perakaunan yang aktual ada pada projek itu, harus menggunakan jurnal entri untuk mencipta aktual. Disebabkan oleh kesan jenis Jurnal ini, anda perlu memilih dengan teliti orang yang mempunyai akses untuk mencipta jurnal entri.
+> Sebenar tidak boleh diedit atau dipadamkan dari sistem. Jika tidak, integriti kewangan dan sebarang integrasi dengan sistem kewangan dan perakaunan lain mungkin terjejas. Microsoft Dynamics 365 Project Operations membolehkan anda menggunakan menterbalikkan dan menggantikan sebenar untuk mengedit sebenar pada pelbagai titik dalam kitaran hayat proses perniagaan projek anda.
 
-## <a name="record-actuals-based-on-project-events"></a>Rekodkan aktual berdasarkan peristiwa projek
+## <a name="recording-actuals-based-on-project-events"></a>Merekod aktual berdasarkan peristiwa projek
 
-Project Operations merekodkan transaksi kewangan yang berlaku semasa projek. Transaksi ini direkodkan sebagai aktual. Jadual berikut menunjukkan jenis aktual berbeza yang dicipta, bergantung pada sama ada projek itu adalah projek masa dan bahan atau projek harga tetap, dalam peringkat prajualan, atau merupakan projek dalaman.
+Operasi Projek merekodkan transaksi kewangan yang berlaku semasa kitaran hayat penglibatan projek sebagai sebenar. Penciptaan sebenar pada pelbagai acara dalam kitaran hayat berbeza-beza, bergantung pada sama ada penglibatan projek menggunakan model pengebilan masa dan bahan atau model pengebilan harga tetap, dan sama ada ia berada di peringkat pra-penjualan atau projek dalaman.
 
-### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a>Sumber tersebut tergolong dalam unit organisasi yang sama seperti unit kontrak projek
+Topik berikut menerangkan kesan pada jadual Sebenar pada pelbagai acara untuk variasi yang berbeza:
 
-<table>
-<thead>
-<tr>
-<th rowspan="3">Peristiwa</th>
-<th colspan="4">Projek boleh dibilkan atau dijual</th>
-<th rowspan="3">Projek dalam peringkat prajualan</th>
-<th rowspan="3">Projek dalaman</th>
-</tr>
-<tr>
-<th colspan="2">Masa dan bahan</th>
-<th colspan="2">Harga tetap</th>
-</tr>
-<tr>
-<th>Sebenar</th>
-<th>Mata wang transaksi</th>
-<th>Harga tetap</th>
-<th>Mata wang transaksi</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Entri masa dicipta.</td>
-<td colspan="6">Tiada aktiviti dalam entiti Aktual</td>
-</tr>
-<tr>
-<td>Entri masa diserahkan.</td>
-<td colspan="6">Tiada aktiviti dalam entiti Aktual</td>
-</tr>
-<tr>
-<td rowspan="2">Masa telah diluluskan dan tiada perubahan kepada atau peningkatan dalam masa boleh dibilkan berlaku semasa kelulusan.</td>
-<td>Kos sebenar</td>
-<td>Mata wang unit pengkontrakan</td>
-<td rowspan="2">Kos sebenar</td>
-<td rowspan="2">Mata wang unit pengkontrakan
-<td rowspan="2">Kos sebenar</td>
-<td rowspan="2">Kos sebenar</td>
-</tr>
-<tr>
-<td>Jualan belum dibilkan sebenar – Boleh dituntut</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="3">Masa telah diluluskan dan tiada pengurangan dalam masa boleh dibilkan berlaku semasa kelulusan.</td>
-<td>Kos sebenar</td>
-<td>Mata wang unit pengkontrakan</td>
-<td rowspan="3">Kos sebenar</td>
-<td rowspan="3">Mata wang unit pengkontrakan</td>
-<td rowspan="3">Kos sebenar</td>
-<td rowspan="3">Kos sebenar</td>
-</tr>
-<tr>
-<td>Jualan belum dibilkan sebenar – Boleh dituntut untuk kuantiti baharu</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan belum dibilkan sebenar – Tidak boleh dituntut untuk perbezaan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="2">Invois disahkan dan tiada perubahan kepada atau peningkatan dalam masa boleh dibilkan berlaku.</td>
-<td>Pengunduran jualan belum dibilkan</td>
-<td>Mata wang kontrak projek</td>
-<td rowspan="2">Jualan dibilkan untuk pencapaian</td>
-<td rowspan="2">Mata wang kontrak projek</td>
-<td rowspan="2">Tidak berkenaan</td>
-<td rowspan="2">Tidak berkenaan</td>
-</tr>
-<tr>
-<td>Jualan dibilkan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="3">Invois disahkan dan pengurangan dalam masa boleh dibilkan berlaku.</td>
-<td>Pengunduran jualan belum dibilkan</td>
-<td>Mata wang kontrak projek</td>
-<td rowspan="3">Tidak berkenaan</td>
-<td rowspan="3">Tidak berkenaan</td>
-<td rowspan="3">Tidak berkenaan</td>
-<td rowspan="3">Tidak berkenaan</td>
-</tr>
-<tr>
-<td>Jualan dibilkan – Boleh dituntut untuk kuantiti baharu</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan dibilkan – Tidak boleh dituntut untuk perbezaan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="2">Invois dibetulkan untuk menambah kuantiti yang boleh dituntut.</td>
-<td>Julana dibilkan – Pengunduran</td>
-<td>Mata wang kontrak projek</td>
-<td rowspan="5">
-<ul>
-<li>Pengunduran jualan dibilkan untuk pencapaian</li>
-<li>Penukarang status pencapaian daripada <strong>Diinvoiskan</strong> kepada <strong>Sedia untuk invois</strong></li>
-</ul>
-</td>
-<td rowspan="5">Mata wang kontrak projek</td>
-<td rowspan="5">Tidak berkenaan</td>
-<td rowspan="5">Tidak berkenaan</td>
-</tr>
-<tr>
-<td>Jualan dibilkan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="3">Invois dibetulkan untuk mengurangkan kuantiti yang boleh dituntut.</td>
-<td>Julana dibilkan – Pengunduran</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan dibilkan untuk kuantiti baharu</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan tidak dibilkan – Boleh dituntut untuk perbezaan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a>Sumber tersebut tergolong dalam unit organisasi yang berbeza daripada unit kontrak projek
-
-<table>
-<thead>
-<tr>
-<th rowspan="3">Peristiwa</th>
-<th colspan="4">Projek boleh dibilkan atau dijual</th>
-<th rowspan="3">Projek dalam peringkat prajualan</th>
-<th rowspan="3">Projek dalaman</th>
-</tr>
-<tr>
-<th colspan="2">Masa dan bahan</th>
-<th colspan="2">Harga tetap</th>
-</tr>
-<tr>
-<th>Sebenar</th>
-<th>Mata wang transaksi</th>
-<th>Harga tetap</th>
-<th>Mata wang transaksi</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Entri masa dicipta.</td>
-<td colspan="6">Tiada aktiviti dalam entiti Aktual</td>
-</tr>
-<tr>
-<td>Entri masa diserahkan.</td>
-<td colspan="6">Tiada aktiviti dalam entiti Aktual</td>
-</tr>
-<tr>
-<td rowspan="4">Masa telah diluluskan dan tiada perubahan kepada atau peningkatan dalam masa boleh dibilkan berlaku semasa kelulusan.</td>
-<td>Kos sebenar</td>
-<td>Mata wang unit pengkontrakan</td>
-<td rowspan="4">Kos sebenar</td>
-<td rowspan="4">Mata wang unit pengkontrakan</td>
-<td rowspan="4">Kos sebenar</td>
-<td rowspan="4">Kos sebenar</td>
-</tr>
-<tr>
-<td>Jualan belum dibilkan sebenar – Boleh dituntut</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Kos unit persumberan</td>
-<td>Mata wang unit persumberan</td>
-</tr>
-<tr>
-<td>Jualan antara organisasi</td>
-<td>Mata wang unit pengkontrakan</td>
-</tr>
-<tr>
-<td rowspan="5">Masa telah diluluskan dan tiada pengurangan dalam masa boleh dibilkan berlaku semasa kelulusan.</td>
-<td>Kos sebenar</td>
-<td>Mata wang unit pengkontrakan</td>
-<td rowspan="5">Kos sebenar</td>
-<td rowspan="5">Mata wang unit pengkontrakan</td>
-<td rowspan="5">Kos sebenar</td>
-<td rowspan="5">Kos sebenar</td>
-</tr>
-<tr>
-<td>Kos unit persumberan</td>
-<td>Mata wang unit persumberan</td>
-</tr>
-<tr>
-<td>Jualan antara organisasi</td>
-<td>Mata wang unit pengkontrakan</td>
-</tr>
-<tr>
-<td>Jualan belum dibilkan sebenar – Boleh dituntut untuk kuantiti baharu</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan belum dibilkan sebenar – Tidak boleh dituntut untuk perbezaan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="2">Invois disahkan dan tiada perubahan kepada atau peningkatan dalam masa boleh dibilkan berlaku.</td>
-<td>Pengunduran jualan belum dibilkan</td>
-<td>Mata wang kontrak projek</td>
-<td rowspan="2">Jualan dibilkan untuk pencapaian</td>
-<td rowspan="2">Mata wang kontrak projek</td>
-<td rowspan="2">Tidak berkenaan</td>
-<td rowspan="2">Tidak berkenaan</td>
-</tr>
-<tr>
-<td>Jualan dibilkan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="3">Invois disahkan dan pengurangan dalam masa boleh dibilkan berlaku.</td>
-<td>Pengunduran jualan belum dibilkan</td>
-<td>Mata wang kontrak projek</td>
-<td rowspan="3">Tidak berkenaan</td>
-<td rowspan="3">Tidak berkenaan</td>
-<td rowspan="3">Tidak berkenaan</td>
-<td rowspan="3">Tidak berkenaan</td>
-</tr>
-<tr>
-<td>Jualan dibilkan – Boleh dituntut untuk kuantiti baharu</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan dibilkan – Tidak boleh dituntut untuk perbezaan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="2">Invois dibetulkan untuk menambah kuantiti yang boleh dituntut.</td>
-<td>Julana dibilkan – Pengunduran</td>
-<td>Mata wang kontrak projek</td>
-<td rowspan="5">
-<ul>
-<li>Pengunduran jualan dibilkan untuk pencapaian</li>
-<li>Penukarang status pencapaian daripada <strong>Diinvoiskan</strong> kepada <strong>Sedia untuk invois</strong></li>
-</ul>
-</td>
-<td rowspan="5">Mata wang kontrak projek</td>
-<td rowspan="5">Tidak berkenaan</td>
-<td rowspan="5">Tidak berkenaan</td>
-</tr>
-<tr>
-<td>Jualan dibilkan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td rowspan="3">Invois dibetulkan untuk mengurangkan kuantiti yang boleh dituntut.</td>
-<td>Julana dibilkan – Pengunduran</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan dibilkan untuk kuantiti baharu</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-<tr>
-<td>Jualan tidak dibilkan – Boleh dituntut untuk perbezaan</td>
-<td>Mata wang kontrak projek</td>
-</tr>
-</tbody>
-</table>
-
+- [Kesan sebenar dalam penglibatan masa dan bahan](ActualsonTM.md)
+- [Kesan sebenar dalam penglibatan harga tetap](ActualonFP.md)
+- [Kesan sebenar semasa peringkat pra-jualan penglibatan](ActualonPreSales.md)
+- [Kesan sebenar untuk projek dalaman](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

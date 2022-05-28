@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986727"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582814"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Cipta dan sahkan jurnal Pembetulan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Kadangkala entri masa atau perbelanjaan boleh dimasukkan dengan salah. Sebagai contoh, seorang perunding mungkin memilih tarikh yang salah apabila mencipta entri masa atau mereka mungkin mengubah nombor apabila memasukkan perbelanjaan. Jika perunding tidak boleh membuat kemas kini kepada entri yang diserahkan, pentadbir boleh secara langsung membetulkan entri untuk projek.
-
-Untuk melengkapkan prosedur dalam topik ini, anda akan memerlukan keizinan Pentadbir.
+Kadang-kadang, kemasukan masa atau perbelanjaan mungkin dimasukkan dengan tidak betul. Sebagai contoh, perunding mungkin memilih tarikh yang salah apabila mereka mencipta entri masa, atau mereka mungkin memilih projek yang salah apabila mereka memasukkan perbelanjaan. Jika perunding tidak dapat mengemas kini entri yang dihantar, pentadbir bahagian belakang boleh membetulkan sebenar untuk projek secara langsung.
 
 ## <a name="correct-approved-time-entries"></a>Entri masa yang diluluskan yang betul     
 
@@ -46,8 +42,8 @@ Lengkapkan langkah berikut untuk membetulkan entri masa tunggal atau berbilang b
 
 6. Pilih **Pratonton**. Dalam kotak dialog, pilih **OK**. Pada tab **Garisan jurnal**, anda boleh melihat senarai aktual asal yang berkaitan dengan entri masa terpilih yang telah diterbalikkan dan baris sepadan yang dibetulkan yang telah dicipta. Jika pembetulan tambahan perlu dibuat, ulangi langkah 5 dan 6. 
 
-> [!NOTE]
-> Semua aktual yang dibetulkan akan mempunyai nilai yang sama yang anda pilih dalam bahagian **Nilai Baharu untuk Entri Masa**.
+    > [!NOTE]
+    > Semua aktual yang dibetulkan akan mempunyai nilai yang sama yang anda pilih dalam bahagian **Nilai Baharu untuk Entri Masa**.
 
 7. Jika pembetulan muncul seperti yang dijangka, pilih **Sahkan**. Dalam kotak dialog, pilih **OK**.
 
@@ -55,12 +51,10 @@ Lengkapkan langkah berikut untuk membetulkan entri masa tunggal atau berbilang b
 
 9. Pada halaman **Projek**, pada tab **Aktual**, lihat perubahan yang anda lakukan. 
 
-> [!NOTE]
-> Jika tab **Aktual** tidak kelihatan, pilih **Berkaitan** > **Aktual**.  
+    > [!NOTE]
+    > Jika tab **Aktual** tidak kelihatan, pilih **Berkaitan** > **Aktual**.  
 
 10. Dalam senarai **Pandangan Berkaitan Aktual**, anda boleh melihat bahawa entri masa asal yang telah diterbalikkan masih disenaraikan, seperti entri masa dibetulkan yang sepadan. 
-
-Sebagai contoh, dalam grafik berikut, terdapat dua baris item dengan kuantiti 8.00 yang mempunyai debit disenaraikan dalam lajur Amaun. Selain itu, terdapat dua baris item dengan kuantiti -8.00 yang menunjukkan amaun yang dikreditkan dalam lajur Amaun. Pembetulan ini membawa kuantiti kepada sifar.
 
  
 ## <a name="correct-approved-expense-entries"></a>Entri perbelanjaan yang diluluskan yang betul
@@ -79,14 +73,30 @@ Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan.
 
 6. Jika nilai yang dibetulkan adalah seperti yang dijangka, pilih **Sahkan**. Dalam kotak dialog, pilih **OK.** Jika nilai tidak ditunjukkan seperti yang dijangkakan, pilih **Batalkan** untuk kembali ke senarai **Perbelanjaan yang Diluluskan**. Ulangi langkah 2 hingga 5. 
 
-> [!NOTE]
-> Aktual yang dibetulkan akan mempunyai nilai yang sama yang anda pilih dalam bahagian **Nilai Baharu untuk Perbelanjaan**.
+7. Selepas anda mengesahkan jurnal pembetulan, kembali ke projek atau projek yang anda kemas kini untuk melihat perubahan anda.
 
-7. Selepas anda mengesahkan jurnal pembetulan, navigasi kembali ke projek atau projek yang anda kemas kini, untuk melihat perubahan anda.  
-
-8. Dalam halaman projek, pada tab **Aktual**, semak **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan. Grafik berikut menunjukkan jumlah entri perbelanjaan asal dan jumlah entri perbelanjaan dibetulkan yang sepadan. 
+8. Pada halaman projek, pada **tab Sebenar**, semak semula **senarai Pandangan** Berkaitan Sebenar. Entri asal dan entri yang diperbetulkan disenaraikan.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Betulkan log penggunaan bahan yang diluluskan
+
+Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri log penggunaan bahan.
+
+1. Dalam kawasan **Jualan**, dalam anak tetingkap navigasi kiri, di bawah **Transaksi**, pilih **Sebenar**.
+
+2. **Dalam senarai Sebenar**, gunakan penapis lajur untuk memilih **kelas transaksi Bahan**, supaya hanya sebenar untuk bahan ditunjukkan. Gunakan penapis lajur lain untuk mengehadkan lagi sebenar yang ditunjukkan. Selepas anda dapat mencari set sebenar yang dikehendaki, pilih yang sebenarnya, dan kemudian pilih **Entri yang betul**. Jurnal pembetulan baru dicipta secara automatik, dan **jenis pembetulan** Bahan diberikan.
+
+3. **Pada halaman Jurnal** Baru, dalam **medan Perihalan**, masukkan perihalan untuk pembetulan. Kemudian, pada **tab Pembetulan** Bahan, dalam **bahagian Nilai Baru untuk Bahan**, pilih medan data untuk membetulkan baris bahan yang dipilih. Sebagai contoh, anda boleh menetapkan bahan tersebut kepada projek lain, atau membetulkan produk, tarikh bahan, atau subkontrak.
+
+4. Pilih **Pratonton**. Kemudian, dalam kotak dialog, pilih **OK**.
+
+5. **Pada tab Baris** jurnal, sahkan pembetulan. Anda boleh melihat senarai sebenar asal yang berkaitan dengan entri bahan terpilih yang telah diterbalikkan dan baris sepadan yang telah diperbetulkan yang telah dicipta.
+
+6. Jika nilai yang dibetulkan adalah seperti yang dijangka, pilih **Sahkan**. Kemudian, dalam kotak dialog, pilih **OK**. Jika nilai tidak seperti yang dijangkakan, pilih **Batal** untuk kembali ke **senarai Sebenar**. Kemudian ulangi langkah 2 hingga 5.
+
+7. Selepas anda mengesahkan jurnal pembetulan, kembali ke projek atau projek yang anda kemas kini untuk melihat perubahan anda.
+
+8. Pada halaman projek, pada **tab Sebenar**, semak semula **senarai Pandangan** Berkaitan Sebenar. Entri asal dan entri yang diperbetulkan disenaraikan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

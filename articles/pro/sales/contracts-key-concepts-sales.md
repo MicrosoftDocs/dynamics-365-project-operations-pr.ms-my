@@ -4,20 +4,20 @@ description: Topik ini menyediakan maklumat tentang konsep utama kontrak projek.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991452"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580605"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Konsep unik untuk Kontrak Projek
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Topik ini memberikan konsep utama untuk mengetahui sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
 

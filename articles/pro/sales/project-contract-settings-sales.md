@@ -2,16 +2,16 @@
 title: Tetapan kontrak projek - lite
 description: Topik ini menyediakan maklumat mengenai medan yang memberi kesan kepada baris kontrak dan maklumat mengenai kontrak yang diringkaskan untuk merentasi semua item baris.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995952"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586401"
 ---
 # <a name="header-details-for-project-contracts"></a>Butiran pengepala untuk kontrak projek
 
@@ -32,12 +32,15 @@ Jadual berikut menyenaraikan medan paada kontrak projek yang unik kepada Dynamic
 | Had yang tidak boleh Melebihi | Tab **Ringkasan** | Medan ini menunjukkan atas rundingan pada nilai akhir yang pelanggan bersetuju untuk urusan ini. | Atas dinilai semasa pelaksanaan dan diguna pakai merentasi semua item baris dan projek berkaitan dengan urusan ini. |
 | Tarikh Penghantaran Diminta | Tab **Ringkasan** | Apabila kontrak dicipta daripada sebut harga projek, medan ini disalin daripada medan yang sepadan pada sebut harga projek. | Tarikh ini digunakan sebagai tarikh akhir untuk menjana jadual invois. |
 
-KPI berikut tersedia pada tab **Prestasi Kontrak** kontrak projek.
+KPI berikut tersedia pada tab **Prestasi Kontrak** kontrak projek. 
 
-| Medan | Lokasi | Penerangan |
+>[!NOTE]
+>Semua amaun pada **tab Prestasi** Kontrak dinyatakan dalam mata wang lalai persekitaran.
+
+| Medan | Lokasi | Description |
 | --- | --- | --- |
-| Nilai Kontrak | Keseluruhan kontrak | Jumlah nilai kontrak Projek. |
-| Amaun Dibilkan | Keseluruhan kontrak | Jumlah amaun ke atas semua invois terhadap kontrak ini. |
+| Nilai Kontrak | Keseluruhan kontrak | Jumlah nilai kontrak projek.|
+| Amaun Dibilkan | Keseluruhan kontrak | Jumlah amaun ke atas semua invois terhadap kontrak ini.|
 | Kos Dikenakan | Keseluruhan kontrak | Jumlah semua kos aktual log masuk ke semua projek yang dipetakan ke kontrak. |
 | Margin Kasar | Keseluruhan kontrak | Amaun dibilkan - Kos dikenakan sehingga kini / Amaun dibilkan |
 | Margin Jangkaan | Keseluruhan kontrak | (Nilai kontrak - Kos anggaran) / Nilai kontrakKos anggaran = Jumlah semua kos anggaran pada semua projek yang dipetakan ke kontrak.|

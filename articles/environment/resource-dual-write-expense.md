@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986592"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585803"
 ---
 # <a name="expense-management-integration"></a>Integrasi pengurusan perbelanjaan
 
@@ -22,19 +22,19 @@ Topik ini menyediakan maklumat tentang integrasi laporan perbelanjaan dalam Proj
 
 ## <a name="expense-categories"></a>Kategori perbelanjaan
 
-Dalam pelaksanaan perbelanjaan penuh, kategori perbelanjaan dicipta dan dikekalkan dalam aplikasi Finance and Operations. Untuk mencipta kategori perbelanjaan baharu, lengkapkan langkah berikut:
+Dalam penggunaan perbelanjaan penuh, kategori perbelanjaan dicipta dan dikekalkan dalam aplikasi Kewangan dan Operasi. Untuk mencipta kategori perbelanjaan baharu, lengkapkan langkah berikut:
 
-1. Dalam Microsoft Dataverse, cipta kategori **Transaksi**. Integrasi dwi tulis akan menyegerakkan kategori transaksi ini ke aplikasi Finance and Operations. Untuk maklumat lanjut, lihat [Konfigurasi kategori projek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [Persediaan dan konfigurasi integrasi data Project Operations](resource-dual-write-setup-integration.md). Hasil daripada integrasi ini, sistem mencipta empat rekod kategori dikongsi dalam aplikasi Finance and Operations.
+1. Dalam Microsoft Dataverse, cipta kategori **Transaksi**. Integrasi dwi-tulis akan menyegerakkan kategori transaksi ini ke aplikasi Kewangan dan Operasi. Untuk maklumat lanjut, lihat [Konfigurasi kategori projek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [Persediaan dan konfigurasi integrasi data Project Operations](resource-dual-write-setup-integration.md). Hasil daripada integrasi ini, sistem ini mencipta empat rekod kategori yang dikongsi dalam aplikasi Kewangan dan Operasi.
 2. Dalam Kewangan, pergi ke **Pengurusan perbelanjaan** > **Persediaan** > **Kategori dikongsi** dan pilih kategori dikongsi dengan kelas transaksi **Perbelanjaan**. Tetapkan parameter **Boleh digunakan dalam Perbelanjaan** ke **Benar** dan takrifkan jenis perbelanjaan untuk digunakan.
 3. Menggunakan rekod kategori dikongsi ini, cipta kategori perbelanjaan baharu dengan pergi ke **Pengurusan perbelanjaan** > **Sediakan** > **Kategori perbelanjaan** dan memilih **Baharu**. Apabila rekod disimpan, dwi tulis menggunakan peta jadual, **Entiti eksport kategori perbelanjaan projek integrasi Project Operations (msdyn\_expensecategories)** untuk menyegerakkan rekod ini ke Dataverse.
 
   ![Integrasi kategori perbelanjaan.](./media/DW6ExpenseCategories.png)
 
-Kategori perbelanjaan dalam aplikasi Finance and Operations adalah syarikat atau entiti undang-undang khusus. Terdapat rekod khusus entiti undang-undang yang berasingan dan bersesuaian dalam Dataverse. Apabila pengurus projek menganggarkan perbelanjaan, mereka tidak boleh memilih kategori perbelanjaan yang dicipta untuk projek yang dimiliki oleh syarikat berbeza berbanding syarikat yang memiliki projek yang sedang mereka usahakan. 
+Kategori perbelanjaan dalam aplikasi Kewangan dan Operasi adalah khusus syarikat atau entiti undang-undang. Terdapat rekod khusus entiti undang-undang yang berasingan dan bersesuaian dalam Dataverse. Apabila pengurus projek menganggarkan perbelanjaan, mereka tidak boleh memilih kategori perbelanjaan yang dicipta untuk projek yang dimiliki oleh syarikat berbeza berbanding syarikat yang memiliki projek yang sedang mereka usahakan. 
 
 ## <a name="expense-reports"></a>Laporan perbelanjaan
 
-Laporan perbelanjaan dicipta dan diluluskan dalam aplikasi Finance and Operations. Untuk maklumat lanjut, lihat [Cipta dan proses laporan perbelanjaan dalam Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Selepas laporan perbelanjaan diluluskan oleh pengurus Projek, laporan perbelanjaan akan disiarkan ke lejar umum. Dalam Project Operations, baris laporan perbelanjaan berkaitan projek disiarkan menggunakan peraturan penyiaran khas:
+Laporan perbelanjaan dicipta dan diluluskan dalam aplikasi Kewangan dan Operasi. Untuk maklumat lanjut, lihat [Cipta dan proses laporan perbelanjaan dalam Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Selepas laporan perbelanjaan diluluskan oleh pengurus Projek, laporan perbelanjaan akan disiarkan ke lejar umum. Dalam Project Operations, baris laporan perbelanjaan berkaitan projek disiarkan menggunakan peraturan penyiaran khas:
 
   - Kos berkaitan projek (termasuk cukai tidak dapat dipulihkan) tidak akan disiarkan dengan serta-merta ke akaun kos projek dalam lejar umum tetapi sebaliknya disiarkan ke akaun integrasi perbelanjaan. Akaun ini dikonfigurasikan dalam tab **Pengurusan dan perakaunan projek** > **Sediakan** > **Parameter pengurusan dan perakaunan projek**, **Project Operations pada Dynamics 365 Customer engagement**.
   - Dwi tulis disegerakkan ke Dataverse menggunakan peta jadual **Entiti eksport perbelanjaan projek integrasi Project Operations (msdyn\_expenses)**.

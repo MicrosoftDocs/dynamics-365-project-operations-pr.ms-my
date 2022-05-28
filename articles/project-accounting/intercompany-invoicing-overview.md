@@ -3,16 +3,15 @@ title: Gambaran keseluruhan penginvoisan antara syarikat
 description: Topik ini memberikan maklumat dan contoh tentang penginvoisan antara syarikat untuk projek.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005402"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586263"
 ---
 # <a name="intercompany-invoicing-overview"></a>Gambaran keseluruhan penginvoisan antara syarikat
 
@@ -20,7 +19,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 Organisasi anda mungkin mempunyai berbilang divisyen, subsidiari dan entiti undang-undang lain yang memindahkan produk dan perkhidmatan kepada satu sama lain untuk projek. Entiti undang-undang yang menyediakan perkhidmatan atau produk tersebut dipanggil *entiti undang-undang yang memberi pinjaman*. Entiti undang-undang yang menerima perkhidmatan atau produk tersebut dipanggil *entiti undang-undang yang menerima pinjaman*.
 
-Ilustrasi berikut menunjukkan senario biasa di mana dua entiti sah, Contoso Robotics USA (entiti sah pinjaman) dan Contoso Robotics UK (entiti sah pinjaman) berkongsi sumber untuk menyampaikan projek untuk pelanggan, Adventure works. Untuk senario ini, Contoso Robotics USA dikontrakkan untuk menyampaikan kerja kepada Adventure Works.
+Ilustrasi berikut menunjukkan senario biasa di mana dua entiti undang-undang, Contoso Robotics USA (entiti undang-undang yang menerima pinjaman) dan contoso Robotics UK (entiti undang-undang yang memberi pinjaman) berkongsi sumber untuk menyampaikan projek kepada pelanggan, kerja Adventure. Untuk senario ini, Contoso Robotics USA dikontrakkan untuk menyampaikan kerja kepada Adventure Works.
 
 ![Penginvoisan antara syarikat.](./media/IntercompanyScenario.png) 
 

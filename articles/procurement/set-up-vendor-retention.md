@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594612"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583715"
 ---
 # <a name="set-up-vendor-retention"></a>Sediakan pengekalan vendor
 
@@ -22,7 +22,7 @@ Topik ini memberikan maklumat tentang cara menyediakan pengekalan vendor.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Sediakan akaun pengekalan vendor dalam lejar Am
 
-1. Dalam Dynamics 365 Finance, pergi ke **Lejar am** > **Penyediaan penyiaran** > **Akaun untuk transaksi automatik**.
+1. Dalam Dynamics 365 Finance, pergi ke **Akaun persediaan** > **pengeposan lejar** > **umum untuk transaksi automatik**.
 2. Tambah baris baharu.
 3. Dalam medan **Jenis penyiaran**, pilih **Pengekalan vendor**.
 4. Pilih akaun utama untuk penyiaran pengekalan vendor.
