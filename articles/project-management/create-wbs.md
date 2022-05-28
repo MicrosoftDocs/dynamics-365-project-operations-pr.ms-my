@@ -4,14 +4,14 @@ description: Topik ini menerangkan cara untuk mencipta struktur pecahan kerja (W
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928626"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597809"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Cipta struktur pecahan kerja (WBS)
 
@@ -99,7 +99,7 @@ Atribut kakitangan diakses melalui medan **Sumber** dalam Jadual. Anda boleh sam
 
 Medan **Peranan**, **Unit Sumber** dan **Nama Kedudukan** digunakan untuk menerangkan keperluan kakitangan untuk tugas tersebut. Atribut kakitangan ini, berserta dengan jadual tugas digunakan untuk mencari sumber tersedia untuk melakukan tugas ini.
 
-   - **Peranan** : Tentukan jenis sumber yang diperlukan untuk melakukan tugas.,
+   - **Peranan**: Tentukan jenis sumber yang diperlukan untuk melakukan tugas.,
    - **Unit sumber**: Tentukan unit yang sumber untuk tugas perlu ditugaskan. Atribut ini memberi kesan kepada anggaran kos dan jualan bagi tugas jika kos dan kadar bil untuk sumber ditetapkan berdasarkan unit sumber.
    - **Nama kedudukan**: Masukkan nama mesra untuk sumber generik yang berfungsi sebagai ruang letak untuk sumber yang akhirnya akan melakukan kerja.
 
@@ -124,10 +124,10 @@ Anda harus sedar batasan berikut jika anda menggunakan struktur pecahan kerja da
 |----------------------------------------------------|----------------------|
 | Jumlah tugas maksimum untuk projek                  | 500                  |
 | Jumlah tempoh maksimum untuk projek               | 3,650 hari (10 tahun) |
-| Jumlah sumber maksimum untuk projek              | 150                  |
+| Jumlah sumber maksimum untuk projek              | 300                  |
 | Jumlah pautan maksimum (pengganti sahaja) untuk projek | 600                  |
 | Jumlah medan tersuai maksimum untuk projek          | 10                   |
-| Item senarai semak maksimum bagi setiap tugas                   | 20                   |
+| Item senarai semak maksimum setiap tugas                   | 20                   |
 
 **Batasan tugas**
 

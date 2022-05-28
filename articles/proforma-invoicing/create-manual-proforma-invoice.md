@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995637"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600063"
 ---
 # <a name="proforma-invoices"></a>Invois proforma
 
@@ -82,6 +82,9 @@ Apabila anda mencipta draf invois projek, semua transaksi jualan belum dibilkan 
 - Edit atau selaraskan kuantiti dan jenis pengebilan.
 
 Pilih **Sahkan** untuk mengesahkan invois. Tindakan Sahkan adalah tindakah satu arah. Apabila anda pilih **Sahkan**, sistem menjadikan invois baca sahaja dan mencipta aktual jualan dibilkan dari setiap butiran baris invois untuk setiap baris invois. Jika butiran baris invois merujuk kepada aktual jualan belum dibilkan, sistem juga membalikkan aktual jualan belum dibilkan. (Sebarang butiran baris invois yang dicipta dari entri masa atau perbelanjaan akan merujuk kepada aktual jualan belum dibilkan). Sistem integrasi lejar am boleh menggunakan balikan ini untuk membalikkan projek yang sedang berjalan untuk tujuan perakaunan.
+
+> [!NOTE]
+> Invois proforma yang disahkan dan rekod yang berkaitan seperti baris invois dan butiran baris invois tidak boleh diedit atau dipadamkan. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Betulkan invois yang disahkan
 

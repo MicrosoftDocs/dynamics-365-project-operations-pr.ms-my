@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987402"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598959"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Cipta templat waktu kerja (Project Service)
 
@@ -49,7 +50,7 @@ Untuk mencipta templat kalendar bagi organisasi anda, terdapat dua keperluan uta
 
 1. Pergi ke **Sumber** \> **Sumber**.
 2. Cipta sumber baharu untuk dirujuk dalam templat kalendar atau pilih sumber sedia ada.
-3. Pilih tab **Waktu Kerja** bagi sumber dan lengkapkan arahan dalam [Tetapkan waktu kerja untuk sumber](/dynamics365/field-service/set-work-hours-resource.md) untuk mengkonfigurasikan peraturan kalendar.
+3. Pilih tab **Waktu Kerja** bagi sumber dan lengkapkan arahan dalam [Tetapkan waktu kerja untuk sumber](/dynamics365/field-service/set-work-hours-resource) untuk mengkonfigurasikan peraturan kalendar.
 
 **Cipta templat kalendar baharu**
 

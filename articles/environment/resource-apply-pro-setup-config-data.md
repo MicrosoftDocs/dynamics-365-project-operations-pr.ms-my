@@ -4,27 +4,27 @@ description: Topik ini memberikan maklumat tentang menyediakan dan menggunakan d
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986637"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594727"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Sediakan dan gunakan data konfigurasi dalam Common Data Service 
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Prasyarat
 
 Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasyarat berikut mesti dipenuhi:
 
-1.  Peruntukan persekitaran CDS dan persekitaran Dynamics 365 Finance untuk Project Operations.
-2.  Maklumat entiti sah daripada Dynamics 365 Finance dikongsi pada persekitaran CDS. Ini bermaksud bahawa entiti **Syarikat** dalam CDS mempunyai rekod syarikat berikut:
+1.  Sediakan persekitaran CDS dan persekitaran yang Dynamics 365 Finance untuk Operasi Projek.
+2.  Maklumat entiti undang-undang dari Dynamics 365 Finance dikongsi ke persekitaran CDS. Ini bermaksud bahawa entiti **Syarikat** dalam CDS mempunyai rekod syarikat berikut:
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasy
 
 ![Migrasi Konfigurasi.](./media/1ConfigurationMigration.png)
 
-4. Pada Halaman 2 dalam Wizard CMT, pilih **Microsoft 365** sebagai **Jenis Perlaksanaan**.
+4. Pada halaman 2 dalam Wizard CMT, pilih **Microsoft 365** sebagai **Jenis Pelaksanaan**.
 5. Pilih **Paparkan senarai organisasi tersedia** dan kotak semak **Tunjukkan Lanjutan**.
 6. Pilih rantau penyewa anda, masukkan kelayakan anda dan pilih **Log masuk**.
 
@@ -132,7 +132,7 @@ Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasy
 12. Kemas kini medan berikut:
 
  - **Syarikat lalai**: USPM
- - **Unit Organisasi Lalai**: Global Robotik Contoso
+ - **Unit Organisasi Lalai** : Contoso Robotics Global
  - **Frekuensi Invois**: Ketujuh dan Hari Terakhir
  - **Templat jam kerja**: Tukar ke templat yang anda cipta.
 

@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998472"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593623"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Halaman utama dimensi penetapan harga dan kos
 
@@ -64,18 +65,18 @@ Contoh berikut menunjukkan kadar bil yang ditetapkan berdasarkan peranan dan uni
 
 **Sampel kadar bil**
 
-| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata wang  |
+| Peranan        | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
 | ------------|-------------|----------|----------:|----------|
-| Pemaju   | Contoso AS  |Jam | 200|USD     |
-| Pemaju   | Contoso India |Jam|   112|USD     |
+| Pembangun   | Contoso AS  |Hour | 200|USD     |
+| Pembangun   | Contoso India |Hour|   112|USD     |
 
 
 **Sampel kadar kos**
 
-| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata wang  |
+| Jalur Gaji     | Unit Organisasi    |Unit      |Harga      |Mata Wang  |
 | ----------------|-------------|----------|----------:|----------|
-| Syarikat saya_Jalur1 | Contoso AS  |Jam | 145|USD     |
-| Syarikat saya_Jalur2 | Contoso India |Jam|   67|USD     |
+| Syarikat saya_Jalur1 | Contoso AS  |Hour | 145|USD     |
+| Syarikat saya_Jalur2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003602"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599419"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Sediakan medan tersuai sebagai dimensi penentuan harga
 
@@ -74,11 +74,11 @@ Terdapat dua jenis dimensi penetapan harga.
 | Peranan        | Unit Organisasi    |Lokasi Kerja      |Tajuk Standard      |Waktu Kerja Sumber      |  Tokokan|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Di Tapak            |                    |Kerja Lebih Masa                 |15     |
-|             | Contoso India|Setempat             |                    |Kerja Lebih Masa                 |10     |
-|             | Contoso AS   |Setempat             |                    |Kerja Lebih Masa                 |20     |
+|             | Contoso India|Tempatan             |                    |Kerja Lebih Masa                 |10     |
+|             | Contoso AS   |Tempatan             |                    |Kerja Lebih Masa                 |20     |
 
 
-Jika sumber dari Contoso India yang mana kadar asas adalah 100 USD bekerja di tempat kerja, dan mereka log 8 jam masa Tetap dan 2 jam lebih masa kerja pada masa kemasukan, enjin penetapan Project Service akan menggunakan kadar asas 100 untuk 8 jam untuk merakam 800 USD. Untuk kerja lebih masa 2 jam, tokokan sebanyak 15% akan dikenakan ke atas kadar asas 100 untuk mendapatkan harga seunit 115 USD dan akan merekodkan jumlah kos 230 USD.
+Jika sumber dari Contoso India yang kadar asas adalah 100 USD bekerja di tempat kerja dan mereka log 8 jam masa Tetap dan 2 jam lebih masa kerja pada masa entri, enjin penetapan harga menggunakan kadar asas 100 untuk 8 jam bagi merekod 800 USD. Untuk kerja lebih masa 2 jam, tokokan sebanyak 15% akan dikenakan ke atas kadar asas 100 untuk mendapatkan harga seunit 115 USD dan akan merekodkan jumlah kos 230 USD.
 
 ### <a name="applicable-to-cost"></a>Digunakan pada Kos 
 Jika ini ditetapkan kepada **Ya**, ia menunjukkan bahawa nilai dimensi dari konteks input sepatutnya digunakan untuk dipadankan ke **Harga Peranan** dan **Tokokan Harga Peranan** apabila mendapatkan semula kos dan kadar tokokan.

@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992712"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597073"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Ciri baharu atau perubahan dalam Project Operations, Julai 2021 untuk senario berdasarkan distok/pengeluaran
 
@@ -64,7 +64,7 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | Perjalanan dan Perbelanjaan                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Alat **Tetap semula status dokumen Perbelanjaan** hendaklah menetapkan semula status laporan perbelanjaan kepada **Draf** jika aliran kerja tidak ditemui. 
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke Lifecycle Services (LCS) dan melihat kemas kini kawal selia yang dirancang menggunakan alat Carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk aplikasi Kewangan dan Operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke Lifecycle Services (LCS) dan melihat kemas kini kawal selia yang dirancang menggunakan alat Carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

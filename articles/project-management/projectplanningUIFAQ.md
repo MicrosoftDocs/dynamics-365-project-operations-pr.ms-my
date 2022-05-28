@@ -2,17 +2,17 @@
 title: Selesaikan masalah kerja dalam grid Tugas
 description: Topik ini menyediakan maklumat penyelesaian masalah yang diperlukan apabila menggunakan grid Tugas.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547210"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596429"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Selesaikan masalah kerja dalam grid Tugas 
 
@@ -70,6 +70,9 @@ Project Operations memerlukan parameter projek merujuk Titik Tamat PEX. Titik ta
       | Project Operations                   | jenis=2             |
 
 4. Alih keluar medan daripada halaman **Parameter Projek**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigasi 3: log masuk ke project.microsoft.com
+Dalam pelayar anda Microsoft Edge, buka tab baharu, pergi ke project.microsoft.com dan log masuk dengan menggunakan peranan pengguna yang anda gunakan untuk mencapai Operasi Projek.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Isu: projek tidak dimuatkan dan UI tersekat pada spinner
 

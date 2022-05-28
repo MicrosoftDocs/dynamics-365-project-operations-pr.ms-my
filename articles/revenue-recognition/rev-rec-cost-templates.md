@@ -4,14 +4,14 @@ description: Topik ini memberikan maklumat tentang cara mencipta dan menggunakan
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993567"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594221"
 ---
 # <a name="set-up-cost-templates"></a>Sediakan templat kos
 
@@ -56,7 +56,7 @@ Menentukan pendekatan yang perlu diambil untuk mencipta templat kos boleh bergan
 ## <a name="create-cost-templates"></a>Cipta templat kos
 Untuk mencipta templat kos, ikuti langkah-langkah berikut:
 
-1. Untuk mengakses templat kos, dalam persekitaran Dynamics 365 Finance, pergi ke **Pengurusan projek dan perakaunan** > **Penyediaan** > **Anggaran** > **Templat kos**.
+1. Untuk mengakses templat kos, dalam persekitaran Dynamics 365 Finance, pergi ke **Pengurusan Projek dan perakaunan** > **Persediaan Persediaan** > **Anggaran** > **Kos templat**.
 2. Pilih **Baharu** untuk mencipta templat kos baharu. Masukkan nama dan perihalan.
 3. Berikan ID garisan kos untuk setiap jenis transaksi.
 4. Pilih kaedah penyelesaian lalai:

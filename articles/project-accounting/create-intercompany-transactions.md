@@ -4,14 +4,14 @@ description: Topik ini menyediakan maklumat tentang cara mencipta transaksi anta
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005492"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599990"
 ---
 # <a name="create-intercompany-transactions"></a>Cipta transaksi antara syarikat
 
@@ -30,14 +30,14 @@ Apabila transaksi antara syarikat diluluskan, transaksi sebenar berikut dicipta
 
 Kos, kos unit sumber dan penentuan harga transaksi jualan antara organisasi dan mata wang didorong oleh **unit organisasi**. Penting untuk diingati apabila menentukan cara untuk menstrukturkan syarikat dan unit organisasi dalam pelaksanaan anda.
 
-Apabila anda mencipta peluang, sebut harga, kontrak projek dan rekod projek, sistem mengesahkan bahawa mata wang unit kontrak sepadan dengan mata wang perakaunan syarikat kontrak. Apabila tidak sama, rekod ini tidak boleh dicipta. Mata wang unit organisasi ditakrifkan dalam Dynamics 365 Project Operations dengan pergi ke **Dataverse** > **Tetapan** > **Unit organisasi**. Mata wang perakaunan syarikat ditakrifkan dalam Dynamics 365 Finance dengan pergi ke **Lejar umum** > **Persediaan lejar** > **Lejar**. Mata wang disegerakkan dengan persekitaran Dataverse anda dengan menggunakan peta Dwitulis Lejar.
+Apabila anda mencipta peluang, sebut harga, kontrak projek dan rekod projek, sistem mengesahkan bahawa mata wang unit kontrak sepadan dengan mata wang perakaunan syarikat kontrak. Apabila tidak sama, rekod ini tidak boleh dicipta. Mata wang unit organisasi ditakrifkan dalam Dynamics 365 Project Operations dengan pergi ke **Dataverse** > **Tetapan** > **Unit organisasi**. Mata wang perakaunan syarikat ditakrifkan dalam Dynamics 365 Finance dengan pergi ke **Ledger persediaan** > **Lejar lejar** > **Am**. Mata wang disegerakkan dengan persekitaran Dataverse anda dengan menggunakan peta Dwitulis Lejar.
 
 Sistem mencipta kos unit sumber dan aktual jualan unit antara organisasi dalam situasi berikut:
 
   - Apabila unit sumber berbeza daripada unit kontrak
   - Apabila unit sumber berbeza daripada syarikat kontrak
 
-Walau bagaimanapun, hanya transaksi yang mempunyai syarikat sumber yang berbeza daripada syarikat kontrak akan dipindahkan ke persekitaran Dynamics 365 Finance untuk perakaunan tambahan.
+Walau bagaimanapun, hanya urus niaga yang mempunyai syarikat penyumberan semula yang berbeza dari syarikat kontrak akan dipindahkan ke persekitaran Dynamics 365 Finance untuk perakaunan tambahan.
 
 Perakaunan untuk aktual projek direkodkan dalam jurnal integrasi Project Operations dalam Kewangan. Sistem mencipta garisan jurnal berikut.
 
@@ -60,7 +60,7 @@ Siti Fatimah Samsuddin, pembangun yang digunakan dalam GBPM merekodkan 10 jam be
     4. Tetapkan mata wang kepada **USD**.
     5. Simpan rekod.
 3. Pergi ke **Jualan** > **Kontrak projek** dan cipta kontrak projek baharu untuk Adventure Works.
-    1. Tetapkan syarikat pemilikan ke **USPM** dan unit kontrak ke **Contoso Robotics US**.
+    1. Tetapkan syarikat pemilikan kepada **USPM** dan unit kontrak kepada **Contoso Robotics Amerika Syarikat**.
     2. Pilih Adventure Works sebagai pelanggan.
     3. Pilih senarai harga produk dan simpan rekod.
     4. Pada tab **Baris kontrak**, cipta baris kontrak baharu. Tetapkan sebarang nama dan pilih **Masa dan bahan** sebagai kaedah pengebilan.
