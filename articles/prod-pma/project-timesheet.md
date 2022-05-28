@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997212"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683198"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplikasi mudah alih lembaran masa projek
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997212"
 
 ## <a name="overview"></a>Ikhtisar
 
-Aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet membolehkan pengguna untuk menyerahkan dan meluluskan lembaran masa untuk projek pada peranti mudah alih mereka (iPhone or Android). Aplikasi mudah alih ini akan berada di permukaan fungsi heet masa yang terletak di bahagian pengurusan projek dan bahagian perakaunan Dynamics 365 Finance, meningkatkan produktiviti dan kecekapan pengguna, serta membolehkan kemasukan dan kelulusan masa projek yang tepat pada waktunya.
+Aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet membolehkan pengguna untuk menyerahkan dan meluluskan lembaran masa untuk projek pada peranti mudah alih mereka (iPhone or Android). Aplikasi mudah alih ini memaparkan kefungsian lembaran masa yang berada dalam bidang pengurusan Projek dan perakaunan Dynamics 365 Finance, meningkatkan produktiviti dan kecekapan pengguna, serta mendayakan kemasukan dan kelulusan lembaran masa projek tepat pada masanya.
 
 ## <a name="download-and-install-the-mobile-app"></a>Muat turun dan pasang tambahan aplikasi mudah alih
 

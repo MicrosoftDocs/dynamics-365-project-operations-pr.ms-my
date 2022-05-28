@@ -1,46 +1,42 @@
 ---
-title: Pembelian bahan bukan stok menggunakan invois vendor yang belum selesai
+title: Beli bahan bukan stok atau kategori perolehan menggunakan invois vendor yang belum selesai
 description: Topik ini menerangkan cara untuk merekodkan invois vendor yang belum selesai.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547300"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612668"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Pembelian bahan bukan stok menggunakan invois vendor yang belum selesai
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Beli bahan bukan stok atau kategori perolehan menggunakan invois vendor yang belum selesai
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Oleh kerana syarikat memperoleh bahan bukan ada stok untuk projek, kos boleh direkod dengan segera berbanding projek itu. 
+Sebagai syarikat yang memperoleh bahan bukan stok atau kategori perolehan untuk projek, kos boleh direkodkan dengan segera terhadap projek itu. 
 
-Contohnya, Contoso Robotics US sedang melakukan projek pembaharuan peralatan dan memerlukan lesen perisian. Lesen ini diperoleh daripada vendor pihak ketiga.  Menggunakan Dynamics 365 Finance, kerani Akaun belum bayar merekodkan dokumen invois yang belum selesai dan mengatributkan kos lesen secara langsung terhadap projek pembaharuan peralatan. 
+Contohnya, Contoso Robotics US sedang melakukan projek pembaharuan peralatan dan memerlukan lesen perisian. Lesen ini diperoleh daripada vendor pihak ketiga.  Dengan menggunakan Dynamics 365 Finance, kerani akaun yang perlu dibayar merekodkan dokumen invois vendor yang belum selesai dan mengaitkan kos lesen secara langsung terhadap projek pembaharuan peralatan. 
 
 > [!IMPORTANT]
-> Sebelum anda menggunakan kefungsian yang diterangkan dalam topik ini, semak dan gunakan konfigurasi yang diperlukan. Untuk maklumat lanjut, lihat [Dayakan bahan bukan stok dan invois vendor yang belum selesai](configure-materials-nonstocked.md). 
+> Sebelum anda menggunakan kefungsian yang diterangkan dalam topik ini, semak dan gunakan konfigurasi yang diperlukan. Untuk maklumat lanjut, lihat [Mendayakan bahan tidak berstok dan invois](configure-materials-nonstocked.md) vendor yang belum selesai dan [Menggunakan kategori perolehan dengan pesanan pembelian projek dan invois vendor yang belum selesai](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Siarkan invois vendor berkaitan projek yang belum selesai 
 
 Invois vendor yang belum selesai boleh direkodkan pada halaman **Invois vendor yang belum selesai** (**Akaun belum bayar** > **Invois** > **Invois vendor yang belum selesai**). Lengkapkan langkah berikut untuk menyiarkan invois vendor yang berkaitan dengan projek:
 
-1. Pergi ke **Akaun belum bayar** > **Invois** dan pilih **Baharu**. 
-2. Dalam medan **Akaun invois**, pilih vendor dan dalam medan **Nombor**, masukkan pengenalan invois vendor.
-3. Tambah baris ke invois vendor dan dalam medan **Nombor item**, pilih item bukan stok yang dibeli daripada vendor. 
-
-    > [!NOTE]
-    > Baris invois vendor yang berdasarkan pada kategori perolehan tidak boleh direkodkan terhadap projek. 
-    
-5. Tambah kuantiti yang dibeli. Sistem akan mengisi harga unit berdasarkan pada konfigurasi harga item bukan stok. 
-6. Sahkan jumlah amaun dan butiran lain yang diperlukan pada baris.
-7. Pada butiran baris, pada tab **Projek**, pilih ID projek yang akan merekodkan item.
-8. Secara pilihan, pilih nombor aktiviti dan kemas kini kategori projek dan sifat baris.
-9. Siarkan invois vendor yang belum selesai. Apabila invois disiarkan, sistem merekodkan:
+1. Pergi ke **Invois Akaun yang perlu dibayar** > **dan** pilih **Baru**. 
+1. **Dalam medan Akaun** invois, pilih vendor, kemudian, dalam **medan Nombor**, masukkan pengenalan invois vendor.
+1. Tambah baris pada invois vendor, kemudian, dalam **medan Nombor item**, pilih item bukan stok yang dibeli daripada vendor. Sebagai alternatif, dalam **bidang kategori** Perolehan, pilih kategori perolehan yang dibeli daripada vendor.   
+1. Tambah kuantiti yang dibeli. Sistem ini mengisi harga unit, berdasarkan konfigurasi harga item yang tidak diisi. 
+1. Sahkan jumlah amaun dan butiran lain yang diperlukan pada baris.
+1. Dalam butiran baris, pada **tab Projek**, pilih ID projek yang akan dirakam oleh item ini.
+1. Pilihan: Pilih nombor aktiviti dan kemas kini kategori projek dan sifat baris.
+1. Siarkan invois vendor yang belum selesai. Apabila invois disiarkan, sistem merekodkan maklumat berikut:
     
     - Amaun baki vendor.
     - Amaun cukai jualan.

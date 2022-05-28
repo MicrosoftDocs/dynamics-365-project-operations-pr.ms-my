@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323922"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723687"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Pelaksanaan capaian awal gelombang 2 ciri baharu 2021 - Project Operations ringan
 
@@ -26,7 +26,7 @@ Keluaran hanya terpakai apabila persekitaran [memilih untuk menyertai Capaian Aw
 
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
 
-[Pengurusan subkontrak](../subcontracting/subcontracting_EA_scope.md) – Ciri ini memberikan keterlihatan yang lebih baik dan kawalan ke atas semua aspek kerja dalam projek. Pratonton pengurusan subkontrak termasuk keupayaan berikut:
+[Pengurusan subkontrak](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Ciri ini memberikan keterlihatan yang lebih baik dan kawalan ke atas semua aspek kerja dalam projek. Pratonton pengurusan subkontrak termasuk keupayaan berikut:
 
   - Pengurus projek boleh mencipta subkontrak dengan vendor. Secara lalai, senarai harga yang dilampirkan pada rekod vendor digunakan untuk subkontrak. Akaun vendor mempunyai jenis hubungan **Vendor** atau **Pembekal**.
   - Pengurus projek boleh menyenaraikan item semua pembelian sebagai item baris pada subkontrak. Baris subkontrak boleh untuk masa, perbelanjaan, atau produk. Kelas transaksi baris subkontrak menentukan tujuan baris.

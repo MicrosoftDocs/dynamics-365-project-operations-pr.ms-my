@@ -1,24 +1,23 @@
 ---
 title: Pemprosesan resit perbelanjaan
-description: Topik ini menyediakan maklumat tentang pemprosesan pengecaman aksara optik (OCR) untuk resit. Ciri ini direka untuk menambah baik pengalamanan pengguna apabila laporan perbelanjaan dicipta dalam Microsoft Dynamics 365 Finance.
+description: Topik ini menyediakan maklumat tentang pemprosesan pengecaman aksara optik (OCR) untuk resit. Ciri ini direka untuk meningkatkan pengalaman pengguna apabila laporan perbelanjaan dibuat dalam Microsoft Dynamics 365 Kewangan.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001397"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684331"
 ---
 # <a name="expense-receipt-processing"></a>Pemprosesan resit perbelanjaan
 
@@ -51,7 +50,7 @@ Untuk mencipta perbelanjaan atau memadankan perbelanjaan daripada resit, lakukan
 
 Ciri ini berfungsi bersama dengan ciri **Laporan perbelanjaan dibentuk semula** untuk membantu meringkaskan pengalaman perbelanjaan. Ciri ini hanya tersedia untuk persekitaran Peringkat 2+, yang merupakan Kotak pasir dan Pengeluaran.
 
-Untuk menggunakan keupayaan perbelanjaan lanjutan ini, pasang tambahan Perkhidmatan Pengurusan Perbelanjaan for Microsoft Dynamics 365 Finance dan hidupkan ciri dalam tika anda. Anda boleh mengakses tambahan daripada projek anda dalam Microsoft Dynamics Lifecycle Services (LCS).
+Untuk menggunakan keupayaan perbelanjaan lanjutan ini, pasang tambahan Perkhidmatan Pengurusan Perbelanjaan untuk Microsoft Dynamics 365 Kewangan, dan hidupkan ciri dalam contoh anda. Anda boleh mengakses tambahan daripada projek anda dalam Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Log masuk ke dalam LCS dan buka persekitaran yang dikehendaki.
 2. Pergi ke **Butiran penuh**.

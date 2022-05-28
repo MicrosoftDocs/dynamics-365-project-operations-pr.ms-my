@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991182"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723733"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Perkara baharu atau yang diubah dalam Project Operations Mac 2021 untuk senario berdasarkan stok/pengeluaran
 
@@ -121,7 +121,7 @@ Ciri berikut disertakan dalam keluaran ini:
 | Pengurusan projek dan perakaunan | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Kaedah kelas struktur pecahan kerja (WBS) legasi, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** ditamatkan.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates.md). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk aplikasi Kewangan dan Operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

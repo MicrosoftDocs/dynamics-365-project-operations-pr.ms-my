@@ -4,14 +4,14 @@ description: Topik ini memberikan maklumat tentang kemas kini kualiti yang terse
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007967"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600385"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu November 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -42,7 +42,7 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | Masa dan entri perbelanjaan pantas | 2059859          | Tetingkap timbul tidak dijangka terbuka apabila mencipta entri perbelanjaan.                                                                                                                         |
 | Lain-lain                        | 2044181          | (Penyahpasangan pesanan pembelian) Apabila cuba untuk menyahpasang msdyn_ProjectServiceCore_Patch dan penyelesaian teras msdyn Project Service, berlaku ralat "Rekod tidak tersedia".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
 
 | Bahagian ciri        | Nombor rujukan | Kemas kini kualiti                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations beri
 | Perakaunan projek  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Mendayakan ciri, Berbilang baris kontrak tidak mungkin tanpa integrasi CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi Finance and Operations, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk aplikasi Kewangan dan Operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

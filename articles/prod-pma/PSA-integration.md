@@ -1,33 +1,31 @@
 ---
 title: Gambaran Keseluruhan Project Service Automation
-description: Topik ini memberikan maklumat mengenai Dynamics 365 Project Service Automation kepada penyelesaian integrasi Dynamics 365 Finance.
+description: Topik ini memberikan maklumat mengenai Dynamics 365 Project Service Automation penyelesaian integrasi yang Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005897"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685527"
 ---
 # <a name="project-service-automation-overview"></a>Gambaran Keseluruhan Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Project Service Automation kepada penyelesaian integrasi Kewangan menggunakan ciri integrasi Data untuk menyegerakkan data merentasi tika Dynamics 365 Finance dan Dynamics 365 Project Service Automation melalui Common Data Service. Templat integrasi yang tersedia dengan ciri integrasi Data mendayakan aliran projek, kontrak projek, baris kontrak projek, pencapaian baris kontrak projek, tugas projek, kategori transaksi perbelanjaan, anggaran jam dan anggaran perbelanjaan daripada Project Service Automation kepada Kewangan.
+
+Penyelesaian integrasi Project Service Automation to Finance menggunakan ciri Integrasi data untuk menyegerakkan data merentasi kejadian Dynamics 365 Finance dan Dynamics 365 Project Service Automation melalui Common Data Service. Templat integrasi yang tersedia dengan ciri integrasi Data mendayakan aliran projek, kontrak projek, baris kontrak projek, pencapaian baris kontrak projek, tugas projek, kategori transaksi perbelanjaan, anggaran jam dan anggaran perbelanjaan daripada Project Service Automation kepada Kewangan.
 
 > [!NOTE]
 > - Jika anda menggunakan versi 7.3.0, anda mesti memasang KB 4074835. Anda kemudian akan dapat mengintegrasikan projek harga tetap.

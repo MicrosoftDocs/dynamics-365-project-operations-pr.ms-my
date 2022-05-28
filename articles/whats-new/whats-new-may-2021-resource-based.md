@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994692"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723779"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Mei 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
@@ -21,7 +21,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Project Operations pada Dynamics 365 Dataverse persekitaran versi 4.10.0.186
-- Pengurusan projek dan perakaunan dalam persekitaran apl Finance and Operations versi 10.0.18
+- Pengurusan projek dan perakaunan dalam persekitaran aplikasi Kewangan dan Operasi versi 10.0.18
 
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
 
@@ -41,9 +41,9 @@ Senarai berikut menunjukkan peta dwi tulis yang telah diubah suai atau ditambah 
 | Entiti eksport baris invois vendor projek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kemas kini kualiti |
 | Projeck V2 (msdyn\_projects) | 1.0.0.2 | Kemas kini kualiti |
 
-Sentiasa menjalankan versi terkini peta dalam persekitaran anda dan mendayakan semua peta jadual yang berkaitan apabila anda mengemas kini penyelesaian Project Operations Dataverse dan versi penyelesaian apl Finance and Operations. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur  **Versi**  pada halaman  **Dwi tulis**. Untuk mengaktifkan versi baharu peta dengan, pilih **Versi peta jadual**, pilih versi terkini dan kemudian simpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Sentiasa jalankan versi terkini peta dalam persekitaran anda dan dayakan semua peta jadual yang berkaitan semasa anda mengemas kini penyelesaian Operasi Dataverse Projek anda dan versi penyelesaian aplikasi Kewangan dan Operasi. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur  **Versi**  pada halaman  **Dwi tulis**. Untuk mengaktifkan versi baharu peta dengan, pilih **Versi peta jadual**, pilih versi terkini dan kemudian simpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu lajur jadual yang hilang pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) bagi garis panduan penyelesaian masalah Dwi-Tulis.
+Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu lajur jadual yang hilang pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) bagi garis panduan penyelesaian masalah Dwi-Tulis.
 
 ## <a name="quality-updates"></a>Kemas kini kualiti
 
@@ -67,7 +67,7 @@ Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu 
 | Entri masa | 2202476 | Halaman **Entri Masa** kini menggunakan kawalan grid bertindak balas dan membaiki isu seperti salah jajaran grid. |
 | Entri masa | 2223377 | Kemasukan masa tersembunyi dari bahagian **Berkaitan** pada halaman **Sumber Boleh Ditempah** untuk mengelakkan kekeliruan dengan kebolehgunaan. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
 
 | Bahagian ciri | Nombor rujukan | Kemas kini kualiti |
 | --- | --- | --- |

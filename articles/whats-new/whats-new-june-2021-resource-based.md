@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679220"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600799"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
 
@@ -21,7 +21,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Project Operations dalam persekitaran Dynamics 365 Dataverse versi 4.11.0.156 atau 4.11.0.164.
-- Pengurusan projek dan perakaunan dalam persekitaran aplikasi Finance and Operations versi 10.0.19.
+- Pengurusan projek dan perakaunan dalam persekitaran aplikasi Kewangan dan Operasi versi 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
 
@@ -38,7 +38,7 @@ Tiada kemas kini untuk peta dwi tulis Project Operations dalam keluaran ini.
 
 Untuk senarai semasa dan versi peta dwi tulis Project Operations, lihat [Versi peta dwi tulis Project Operations](../environment/resource-dual-write-maps.md).
 
-Sentiasa menjalankan versi terkini peta dalam persekitaran anda dan mendayakan semua peta jadual yang berkaitan apabila anda mengemas kini penyelesaian Project Operations Dataverse dan versi penyelesaian apl Finance and Operations. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta pada halaman **dwi tulis** dalam lajur **Versi**. Aktifkan versi baharu peta dengan memilih **Versi peta jadual**, memilih versi terkini dan kemudian menyimpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Sentiasa jalankan versi terkini peta dalam persekitaran anda dan dayakan semua peta jadual yang berkaitan semasa anda mengemas kini penyelesaian Operasi Dataverse Projek anda dan versi penyelesaian aplikasi Kewangan dan Operasi. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta pada halaman **dwi tulis** dalam lajur **Versi**. Aktifkan versi baharu peta dengan memilih **Versi peta jadual**, memilih versi terkini dan kemudian menyimpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jika anda menghadapi isu memulakan peta, ikuti arahan dalam bahagian [Isu lajur jadual yang tidak ditemui pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) bagi Panduan penyelesaian masalah dwi tulis
 

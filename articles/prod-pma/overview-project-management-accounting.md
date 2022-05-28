@@ -3,25 +3,23 @@ title: Gambaran keseluruhan pengurusan projek dan perakaunan
 description: Fungsi pengurusan projek dan perakaunan boleh digunakan dalam berbilang industri untuk menyediakan perkhidmatan, menghasilkan produk atau mendapatkan hasil.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007517"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683595"
 ---
 # <a name="project-management-and-accounting-overview"></a>Gambaran keseluruhan pengurusan projek dan perakaunan
 
@@ -248,7 +246,7 @@ Jadual berikut menerangkan kaedah untuk mengira kos untuk melengkapkan projek.
 <tbody>
 <tr class="odd">
 <td>Jumlah kos – sebenar</td>
-<td>Anggaran kos mesti dimasukkan secara manual. Selepas <strong>Jumlah kos</strong> atau lajur <strong>Jumlah kuantiti</strong> pada halaman <strong>Anggaran kos</strong> selesai, kos sebenar akan ditolak daripada jumlah yang dimasukkan pengguna. Hasilnya adalah kos untuk menyelesaikan projek. Biasanya, perkembangan kos tidak dijejak berdasarkan, contohnya, bilangan penginapan hotel dan makanan yang direkodkan pada setiap tempoh. Sebaliknya. Penjejakan biasanya berdasarkan perbandingan terhadap jumlah anggaran jam. Pendekatan ini tidak memerlukan model ramalan dan jumlah kos atau jumlah kuantiti boleh ditukar secara manual. Apabila nilai dimasukkan dalam <strong>Jumlah kos</strong> atau lajur <strong>Jumlah kuantiti</strong>, Kewangan membandingkan nilai ini dengan urus niaga sebenar yang disiarkan dalam tempoh dan kemudian mengurangkan nilai dalam lajur <strong>Kuantiti untuk selesaikan</strong> atau <strong>Kos untuk selesaikan</strong>.</td>
+<td>Anggaran kos mesti dimasukkan secara manual. Selepas <strong>Jumlah kos</strong> atau lajur <strong>Jumlah kuantiti</strong> pada halaman <strong>Anggaran kos</strong> selesai, kos sebenar akan ditolak daripada jumlah yang dimasukkan pengguna. Hasilnya adalah kos untuk menyelesaikan projek. Biasanya, kemajuan kos&#39; tidak dijejaki berdasarkan, sebagai contoh, bilangan penginapan hotel dan makanan yang direkodkan dalam setiap tempoh. Sebaliknya. Penjejakan biasanya berdasarkan perbandingan terhadap jumlah anggaran jam. Pendekatan ini tidak&#39; memerlukan model ramalan, dan jumlah kos atau jumlah kuantiti boleh diubah secara manual. Apabila nilai dimasukkan dalam <strong>Jumlah kos</strong> atau lajur <strong>Jumlah kuantiti</strong>, Kewangan membandingkan nilai ini dengan urus niaga sebenar yang disiarkan dalam tempoh dan kemudian mengurangkan nilai dalam lajur <strong>Kuantiti untuk selesaikan</strong> atau <strong>Kos untuk selesaikan</strong>.</td>
 </tr>
 <tr class="even">
 <td>Jumlah belanjawan – sebenar</td>

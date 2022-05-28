@@ -1,32 +1,31 @@
 ---
-title: Selaraskan aktual projek secara langsung daripada Project Service Automation kepada jurnal integrasi projek untuk disiarkan dalam Finance and Operations
-description: Topik ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan aktual projek secara langsung daripada Microsoft Dynamics 365 Project Service Automation kepada Finance and Operations.
+title: Segerakkan sebenar projek terus dari Automasi Perkhidmatan Projek ke jurnal integrasi projek untuk pengeposan dalam Kewangan dan Operasi
+description: Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan sebenar projek terus dari Microsoft Dynamics 365 Project Service Automation kewangan dan Operasi.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988122"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683549"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Selaraskan aktual projek secara langsung daripada Project Service Automation kepada jurnal integrasi projek untuk disiarkan dalam Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Segerakkan sebenar projek terus dari Automasi Perkhidmatan Projek ke jurnal integrasi projek untuk pengeposan dalam Kewangan dan Operasi
 
 [!include[banner](../includes/banner.md)]
 
-Topik ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan aktual projek secara langsung daripada Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
+Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan sebenar projek terus dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
 Templat menyegerakkan transaksi daripada Project Service Automation kepada jadual pemeringkatan dalam Finance. Selepas penyegerakan selesai, anda **mesti** mengimport data daripada jadual pemeringkatan ke dalam jurnal integrasi.
 
@@ -42,7 +41,7 @@ Penyelesaian integrasi Project Service Automation kepada Finance menggunakan cir
 
 Ilustrasi berikut menunjukkan cara data disegerakkan antara Project Service Automation dan Finance.
 
-[![Aliran data untuk integrasi Project Service Automation dengan Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Aliran data untuk integrasi Automasi Perkhidmatan Projek dengan Kewangan dan Operasi.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Aktual projek daripada Project Service Automation
 
@@ -73,9 +72,9 @@ Aktual projek diuruskan dalam Project Service Automation, dan ia disegerakkan ke
 
 Sebelum penyegerakan aktual boleh berlaku, anda mesti mengkonfigurasikan parameter integrasi Project Service Automation dan menyegerakkan projek, tugas projek serta kategori transaksi perbelanjaan projek.
 
-### <a name="power-query"></a>Pertanyaan Kuasa
+### <a name="power-query"></a>Power Query
 
-Dalam templat aktual projek, anda mesti menggunakan Microsoft Power Query for Excel untuk melengkapkan tugas ini:
+Dalam templat sebenar projek, anda mesti menggunakan Microsoft Power Query for Excel untuk melengkapkan tugas ini:
 
 - Mengubah jenis transaksi dalam Project Service Automation kepada jenis transaksi yang betul dalam Finance. Perubahan ini telah ditakrifkan dalam templat Aktual projek (PSA kepada Fin dan Ops).
 - Mengubah jenis pengebilan dalam Project Service Automation kepada jenis pengebilan yang betul dalam Finance. Perubahan ini telah ditakrifkan dalam templat Aktual projek (PSA kepada Fin dan Ops). Jenis pengebilan kemudian dipetakan kepada sifat baris, berdasarkan konfigurasi pada halaman **parameter integrasi Project Service Automation**.
@@ -84,9 +83,9 @@ Dalam templat aktual projek, anda mesti menggunakan Microsoft Power Query for Ex
 - Jika aktual masa antara syarikat atau perbelanjaan antara syarikat tidak akan disegerakkan kepada Finance, anda mesti memadamkan lajur bersyarat yang terakhir dimasukkan daripada templat anda. Jika tidak, sama ada ralat integrasi mungkin berlaku, atau transaksi aktual yang salah mungkin diimport ke dalam Finance.
 
 #### <a name="contract-organizational-unit"></a>Unit organisasi kontrak
-Untuk mengemas kini lajur bersyarat yang dimasukkan dalam templat, klik anak panah **Peta** untuk membuka pemetaan. Pilih pautan **Pertanyaan Lanjutan dan Penapisan** untuk membuka Power Query.
+Untuk mengemas kini lajur bersyarat yang dimasukkan dalam templat, klik anak panah **Peta** untuk membuka pemetaan. **Pilih pautan Pertanyaan Lanjutan dan Penapisan** untuk dibuka Power Query.
 
-- Jika anda menggunakan templat Aktual projek lalai (PSA kepada Fin dan Ops), dalam Power Query, pilih **Syarat yang Dimasukkan** terakhir daripada bahagian **Langkah Digunakan**. Dalam entri **Fungsi**, gantikan **USSI** dengan nama entiti undang-undang yang harus digunakan dengan integrasi. Tambah syarat tambahan pada entri **Fungsi** yang anda perlukan, dan kemas kini keadaan **lain** daripada **USMF** kepada entiti undang-undang yang betul.
+- Jika anda menggunakan templat sebenar Projek lalai (PSA hingga Fin dan Ops), dalam Power Query, pilih Keadaan **Dimasukkan terakhir** daripada **seksyen Langkah** Gunaan. Dalam entri **Fungsi**, gantikan **USSI** dengan nama entiti undang-undang yang harus digunakan dengan integrasi. Tambah syarat tambahan pada entri **Fungsi** yang anda perlukan, dan kemas kini keadaan **lain** daripada **USMF** kepada entiti undang-undang yang betul.
 - Jika anda mencipta templat baharu, anda mesti menambah lajur untuk menyokong masa dan perbelanjaan antara syarikat. Pilih **Tambah Lajur Bersyarat**, dan masukkan nama untuk lajur, seperti **LegalEntity**. Masukkan syarat untuk lajur, di mana, jika **msdyn\_contractorganizationalunitid.msdyn\_nama** adalah \<organizational unit\>, kemudian \<enter the legal entity\>; jika tidak nol.
 
 ### <a name="template-mapping-in-data-integration"></a>Pemetaan tempat dalam integrasi Data
@@ -124,9 +123,9 @@ Templat dan tugas asas berikut digunakan untuk menyegerakkan nombor baucar dan c
 
 Aktual projek diuruskan dalam Project Service Automation, dan ia disegerakkan kepada jurnal integrasi projek dalam Finance. Selepas aktual disiarkan dalam Finance, ia dikemas kini dalam Project Service Automation dengan nombor baucar daripada Finance. Jika cukai jualan telah ditambah dalam Finance, aktual cukai baharu dicipta dalam Project Service Automation.
 
-### <a name="power-query"></a>Pertanyaan Kuasa
+### <a name="power-query"></a>Power Query
 
-Dalam templat kemas kini aktual projek, anda mesti menggunakan Power Query untuk melengkapkan tugas ini:
+Dalam templat kemas kini sebenar projek, anda mesti gunakan Power Query untuk melengkapkan tugas ini:
 
 - Mengubah jenis transaksi dalam Finance kepada jenis transaksi yang betul dalam Project Service Automation. Perubahan ini telah ditakrifkan dalam templat kemas kini Aktual projek (Fin Ops kepada PSA).
 - Mengubah jenis pengebilan dalam Finance kepada jenis pengebilan yang betul dalam Project Service Automation. Perubahan ini telah ditakrifkan dalam templat kemas kini Aktual projek (Fin Ops kepada PSA).

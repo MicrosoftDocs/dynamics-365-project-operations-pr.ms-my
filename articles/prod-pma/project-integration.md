@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988032"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684989"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrasi Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-Merancang dan menyelenggara jadual projek boleh menjadi proses yang rumit, oleh itu, pengurus projek perlu menggunakan alat yang membantu mereka menguruskan tugas ini. Integrasi dengan Microsoft Project Client menyediakan sokongan untuk membuka dan menguruskan struktur pecahan kerja projek. Pengurus projek boleh menerbitkan apa-apa perubahan kembali kepada struktur pecahan kerja projek Dynamics 365 Finance.
+Merancang dan menyelenggara jadual projek boleh menjadi proses yang rumit, oleh itu, pengurus projek perlu menggunakan alat yang membantu mereka menguruskan tugas ini. Integrasi dengan Microsoft Project Client menyediakan sokongan untuk membuka dan menguruskan struktur pecahan kerja projek. Pengurus projek boleh menerbitkan sebarang perubahan kembali kepada struktur pecahan kerja projek Dynamics 365 Finance.
 
 > [!NOTE]
 > Jika anda menggunakan versi kemas kini Julai (versi 10.0.4), anda mesti memasang KB 4054797 dan 4055884.
@@ -40,7 +39,7 @@ Untuk mendayakan integrasi dengan Microsoft Project Client, tambahan Microsoft D
 •   Klik **Buka**, kemudian klik **Jalankan** apabila digesa.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Buka dan edit struktur pecahan kerja draf yang sedia ada dalam Microsoft Project Client
-Jika projek dalam Dynamics 365 Finance sudah pun mempunyai struktur pecahan kerja yang dicipta, struktur pecahan kerja boleh dibuka dalam aplikasi Microsoft Project Client jika struktur pecahan kerja berada dalam status draf. Untuk membuka daripada halaman **Projek**, klik pautan **Buka dalam Microsoft Project** daripada tab **Pelan**. Halaman ini juga boleh dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik **Buka** dalam tab **Microsoft Dynamics 365**. Pilih **Entiti undang-undang** dan **Projek** daripada senarai.
+Jika projek dalam Dynamics 365 Finance sudah mempunyai struktur pecahan kerja yang dicipta, struktur pecahan kerja boleh dibuka dalam aplikasi Klien Projek Microsoft jika struktur pecahan kerja berada dalam status draf. Untuk membuka daripada halaman **Projek**, klik pautan **Buka dalam Microsoft Project** daripada tab **Pelan**. Halaman ini juga boleh dibuka dari dalam aplikasi Microsoft Project Client dengan mengklik **Buka** dalam tab **Microsoft Dynamics 365**. Pilih **Entiti undang-undang** dan **Projek** daripada senarai.
 
 > [!NOTE]
 > Jika anda menggunakan Internet Explorer sebagai pelayar anda, anda akan perlu klik **Simpan** untuk membuka secara manual dari lokasi yang fail itu dimuat turun. Atau, klik **Simpan dan buka** untuk membuka fail dalam Microsoft Project Client. Jangan namakan semula nama fail semasa menyimpan.

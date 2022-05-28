@@ -4,14 +4,14 @@ description: Topik ini menyediakan senarai peta dwi tulis yang diperlukan untuk 
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
-ms.translationtype: HT
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547120"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612765"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versi peta dwi tulis Project Operations
 
@@ -25,12 +25,12 @@ Peta berikut memerlukan prasyarat untuk penyelesaian Project Operations. Pastika
 
 | Peta jadual | Penyegerakan awal |
 | --- | --- |
-| Lejar (msdyn_ledgers) | Memerlukan penyegerakan awal untuk peta jadual dan semua prasyarat. Induk untuk penyegerakan awal adalah aplikasi Finance and Operations. |
+| Lejar (msdyn_ledgers) | Memerlukan penyegerakan awal untuk peta jadual dan semua prasyarat. Master untuk penyegerakan awal ialah aplikasi Kewangan dan Operasi. |
 | Entiti sah (cdm_companies) | Tidak diperlukan. Sistem ini mengisi entiti secara automatik apabila persekitaran dipautkan menggunakan dwi tulis. |
 | Pelanggan V3 (akaun) | Tidak diperlukan untuk peruntukan. |
 | Vendor V2 (msdyn_vendors) | Tidak diperlukan untuk peruntukan. |
 
-1. Daripada senarai peta, pilih peta Lejar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak semak **Initial sync**. Dalam medan **Induk untuk penyegerakan awal**, pilih aplikasi **Finance and Operations** untuk kedua-dua peta lejar dan semua peta prasyarat. Pilih **Jalankan**.
+1. Daripada senarai peta, pilih peta Lejar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak semak **Initial sync**. **Dalam medan Master untuk penyegerakan** awal, pilih **aplikasi** Kewangan dan Operasi untuk kedua-dua peta lejar dan semua peta prasyarat. Pilih **Jalankan**.
 
 ![Penyegerakan peta lejar.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Peta berikut memerlukan prasyarat untuk penyelesaian Project Operations. Pastika
 
 Peta berikut diperlukan untuk penyelesaian Project Operations. Versi peta dwitulis berdaftar bermula dengan Project Operations kemas kini Mei 2021, versi 4.10.0.186.
 
-| **Peta entiti** | **Versi terkini** | **Penyegerakan awal** |
-| --- | --- | --- |
-| Entiti integrasi untuk perhubungan transaksi projek (msdyn\_transactionconnections) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. |
-| Pengepala kontrak projek (pesanan jualan) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. |
-| Baris kontrak projek (salesorderdetails) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. |
-| Sumber pembiayaan projek (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. |
-| Jadual integrasi Project Operations untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. |
-| Cadangan invois projek V2 (invois) | 1.0.0.3 | Tidak diperlukan untuk peruntukan. |
-| Aktual integrasi Project Operations (msdyn_actuals) | 1.0.0.14 | Tidak diperlukan untuk peruntukan. |
-| Pencapaian baris kontrak integrasi Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. |
-| Entiti integrasi Project Operations untuk anggaran perbelanjaan (msdyn_estimatelines) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. |
-| Entiti integrasi Project Operations untuk anggaran jam (msdyn_resourceassignments) | 1.0.0.5 | Tidak diperlukan untuk peruntukan. |
-| Entiti eksport kategori perbelanjaan projek integrasi Project Operations (msdyn_expensecategories) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. |
-| Entiti eksport perbelanjaan projek integrasi Project Operations (msdyn_expenses) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. |
-| Entiti eksport invois projek integrasi Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. |
-| Entiti eksport baris invois vendor projek integrasi Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. |
-| Peranan sumber projek untuk semua syarikat (bookableresourcecategories) | 1.0.0.1 | Memerlukan penyegerakan awal untuk peta jadual menyegerakkan peranan Pengurus Projek dan sumber ahli Pasukan yang diisi dalam persekitaran Dynamics 365 Dataverse semasa peruntukan. Dataverse ialah sumber utama untuk penyegerakan awal. |
-| Tugas projek (msdyn_projecttasks) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. |
-| Kategori transaksi projek (msdyn_transactioncategories) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. |
-| Projek V2 (msdyn_projects) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. |
+| Peta entiti | Versi terkini | Penyegerakan awal | Versi Dynamics 365 Finance yang diperlukan |
+| --- | --- | --- | --- |
+| Entiti integrasi untuk perhubungan transaksi projek (msdyn\_transactionconnections) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
+| Pengepala kontrak projek (pesanan jualan) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. ||
+| Baris kontrak projek (salesorderdetails) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
+| Sumber pembiayaan projek (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. ||
+| Jadual integrasi Project Operations untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
+| Cadangan invois projek V2 (invois) | 1.0.0.3 | Tidak diperlukan untuk peruntukan. ||
+| Aktual integrasi Project Operations (msdyn_actuals) | 1.0.0.14 | Tidak diperlukan untuk peruntukan. ||
+| Pencapaian baris kontrak integrasi Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. ||
+| Entiti integrasi Project Operations untuk anggaran perbelanjaan (msdyn_estimatelines) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. ||
+| Entiti integrasi Project Operations untuk anggaran jam (msdyn_resourceassignments) | 1.0.0.5 | Tidak diperlukan untuk peruntukan. ||
+| Entiti eksport kategori perbelanjaan projek integrasi Project Operations (msdyn_expensecategories) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. ||
+| Entiti eksport perbelanjaan projek integrasi Project Operations (msdyn_expenses) | 1.0.0.3 | Tidak diperlukan untuk peruntukan. ||
+| Entiti eksport invois projek integrasi Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
+| Entiti eksport baris invois vendor projek integrasi Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. | 10.0.26 atau lebih baharu |
+| Peranan sumber projek untuk semua syarikat (bookableresourcecategories) | 1.0.0.1 | Memerlukan penyegerakan awal untuk peta jadual menyegerakkan peranan Pengurus Projek dan sumber ahli Pasukan yang diisi dalam persekitaran Dynamics 365 Dataverse semasa peruntukan. Dataverse ialah sumber utama untuk penyegerakan awal. ||
+| Tugas projek (msdyn_projecttasks) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. ||
+| Kategori transaksi projek (msdyn_transactioncategories) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
+| Projek V2 (msdyn_projects) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. ||
 
 Lengkapkan langkah berikut untuk menjalankan peta yang disenaraikan.
 

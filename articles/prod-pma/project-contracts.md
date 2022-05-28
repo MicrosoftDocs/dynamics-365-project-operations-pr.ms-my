@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001037"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683503"
 ---
 # <a name="project-contracts"></a>Kontrak projek
 
@@ -45,7 +44,7 @@ Beberapa kontrak projek menentukan bahawa berbilang pihak mempunyai tanggungjawa
 -   Projek jalan dibiayai bersama oleh dua majlis perbandaran.
 -   Projek jambatan dibiayai oleh geran kerajaan dan syarikat swasta.
 
-Dalam Dynamics 365 Finance, anda boleh memisahkan pengebilan untuk transaksi tunggal atau keseluruhan projek antara berbilang pelanggan, geran atau organisasi. 
+Dalam Dynamics 365 Finance, anda boleh membahagikan pengebilan untuk satu transaksi atau keseluruhan projek di kalangan berbilang pelanggan, geran atau organisasi. 
 
 Dalam projek yang mempunyai berbilang pembiaya, semua pihak yang menyumbang kepada pembiayaan projek pembiayaan awal dipanggil sumber pembiayaan. Selepas pelanggan, organisasi atau pelan ditakrifkan sebagai sumber pembiayaan, ia boleh diperuntukkan kepada satu atau lebih peraturan pembiayaan. Peraturan pembiayaan mengandungi kriteria yang menentukan cara caj diperuntukkan kepada pelbagai sumber pembiayaan untuk projek. 
 

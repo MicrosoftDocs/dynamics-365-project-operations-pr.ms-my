@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000092"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601765"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan naik taraf - PSA versi 2.x atau 1.x kepada versi 3
 
@@ -81,7 +82,7 @@ Sebelum anda mula menaik taraf, kami mengesyorkan agar anda menjana semula pasuk
 
 Untuk tugas yang ditugaskan kepada ahli pasukan generik yang dijana dengan **Jana Pasukan**, naik taraf ini akan meninggalkan sumber generik dalam pasukan dan meninggalkan tugasan kepada ahli pasukan generik itu. Kami mengesyorkan agar anda menjana keperluan sumber untuk ahli pasukan generik selepas naik taraf tetapi sebelum anda menempah atau menyerahkan permintaan sumber. Ini akan mengekalkan mana-mana tugasan unit organisasi pada ahli pasukan generik yang berbeza daripada unit organisasi kontrak projek.
 
-Contohnya, dalam Projek Z, unit organisasi kontrak ialah Contoso AS. Dalam pelan projek, tugas ujian dalam Fasa Pelaksanaan telah ditugaskan dengan peranan Perunding Teknikal dan unit organisasi yang ditugaskan ialah Contoso India.
+Contohnya, dalam Projek Z, unit organisasi kontrak ialah Contoso AS. Dalam pelan projek, tugas ujian dalam Fasa pelaksanaan telah ditugaskan dengan peranan Perunding Teknikal dan unit organisasi yang ditugaskan ialah Contoso India.
 
 ![Tugasan organisasi fasa pelaksanaan.](media/org-unit-assignment-09.png)
 
@@ -104,7 +105,7 @@ Anda boleh melihat unit organisasi pada pandangan anggaran.
  
 Apabila naik taraf selesai, unit organisasi pada tugas baris yang sepadan dengan ahli pasukan generik ditambah kepada ahli pasukan generik dan tugas baris dialih keluar. Oleh sebab ini, kami mengesyorkan agar sebelum anda menaik taraf, anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik.
 
-Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam Fasa implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
+Bagi tugas yang ditugaskan untuk peranan dengan unit organisasi yang berbeza daripada unit organisasi projek kontrak, dan pasukan yang masih belum dijana, naik taraf akan mencipta ahli pasukan generik untuk peranan, tetapi akan menggunakan unit kontrak daripada projek untuk unit organisasi ahli pasukan. Merujuk kembali kepada contoh dengan Projek Z, unit organisasi kontrak Contoso AS dan tugas ujian pelan projek dalam fasa Implementasi telah ditugaskan peranan Perunding Teknikal dengan unit organisasi yang ditugaskan kepada Contoso India. Tugas ujian Integrasi yang diselesaikan selepas Fasa pelaksanaan telah ditugaskan untuk peranan Perunding teknikal. Unit organisasi ialah Contoso AS dan pasukan masih belum dijana. Naik taraf akan mencipta satu ahli pasukan generik, Perunding teknikal yang mempunyai jam yang ditugaskan bagi ketiga-tiga tugas dan unit organisasi Contoso AS, unit organisasi kontrak projek.   
  
 Mengubah lalai unit organisasi yang berbeza pada ahli pasukan yang tidak dijana adalah sebab kami mengesyorkan supaya anda menjana atau menjana semula pasukan pada setiap projek yang mengandungi sumber generik sebelum naik taraf supaya tugasan unit organisasi tidak hilang.
 

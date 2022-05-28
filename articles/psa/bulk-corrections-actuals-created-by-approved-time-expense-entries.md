@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995412"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683373"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Pembetulan pukal aktual yang dicipta oleh entri masa dan perbelanjaan yang diluluskan
 
@@ -60,10 +59,7 @@ Lengkapkan langkah berikut untuk membetulkan entri masa tunggal atau berbilang b
 
 10. Dalam senarai **Pandangan Berkaitan Aktual**, anda boleh melihat bahawa entri masa asal yang telah diterbalikkan masih disenaraikan, seperti entri masa dibetulkan yang sepadan. 
 
-Sebagai contoh, dalam grafik berikut, terdapat dua baris item dengan kuantiti 8.00 yang mempunyai debit disenaraikan dalam lajur Amaun. Selain itu, terdapat dua baris item dengan kuantiti -8.00 yang menunjukkan amaun yang dikreditkan dalam lajur Amaun. Pembetulan ini membawa kuantiti kepada sifar.
 
-![Senarai pandangan berkaitan aktual.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>Entri perbelanjaan yang diluluskan yang betul
 
 Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan. 
@@ -86,8 +82,6 @@ Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan.
 7. Selepas anda mengesahkan jurnal pembetulan, navigasi kembali ke projek atau projek yang anda kemas kini, untuk melihat perubahan anda.  
 
 8. Dalam halaman projek, pada tab **Aktual**, semak **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan. Grafik berikut menunjukkan jumlah entri perbelanjaan asal dan jumlah entri perbelanjaan dibetulkan yang sepadan. 
-
-![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

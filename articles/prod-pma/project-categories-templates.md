@@ -1,32 +1,31 @@
 ---
-title: Segerakkan kategori perbelanjaan projek antara Finance and Operations dan Project Service Automation
-description: Topik ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan kategori perbelanjaan projek antara Microsoft Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
+title: Menyegerakkan kategori perbelanjaan projek antara Kewangan dan Operasi dan Automasi Perkhidmatan Projek
+description: Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Microsoft Dynamics 365 Kewangan dan Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001127"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685481"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Segerakkan kategori perbelanjaan projek antara Finance and Operations dan Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Menyegerakkan kategori perbelanjaan projek antara Kewangan dan Operasi dan Automasi Perkhidmatan Projek
 
 [!include[banner](../includes/banner.md)]
 
-Topik ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan kategori perbelanjaan projek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
+Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrasi tugas projek, kategori transaksi perbelanjaan, anggaran jam, anggaran perbelanjaan dan penguncian fungsi tersedia dalam versi 8.0.
@@ -81,10 +80,10 @@ Kategori perbelanjaan projek dikendalikan dalam Finance, dan disegerakkan kepada
 
 ### <a name="power-query"></a>Power Query
 
-Apabila anda menyegerakkan kepada Project Service Automation, anda mesti menggunakan Microsoft Power Query for Excel untuk menetapkan jenis pengebilan pada kategori transaksi. Templat kategori transaksi perbelanjaan projek (Fin dan Ops kepada PSA) menyediakan lajur dan pemetaan lalai. Jika anda mencipta templat anda sendiri, anda mesti menambah lajur dalam Power Query. Ikut langkah ini.
+Apabila anda menyegerakkan ke Project Service Automation, anda mesti menggunakan Microsoft Power Query for Excel untuk mengesetkan jenis pengebilan pada kategori transaksi. Templat kategori transaksi perbelanjaan projek (Fin dan Ops kepada PSA) menyediakan lajur dan pemetaan lalai. Jika anda mencipta templat anda sendiri, anda mesti menambah lajur bersyarat dalam Power Query. Ikut langkah ini.
 
 1. Klik anak panah untuk membuka pemetaan tugas kategori perbelanjaan projek dalam Kategori transaksi perbelanjaan projek (Fin dan Ops kepada PSA).
-2. Klik pautan **Pertanyaan Lanjutan dan Penapisan** untuk membuka Power Query.
+2. **Klik pautan Pertanyaan Pendahuluan dan Penapisan** untuk membuka Power Query.
 2. Pilih **Tambah Lajur Bersyarat**.
 3. Masukkan nama untuk lajur baharu, seperti **BillingType**.
 4. Masukkan syarat berikut: **jika CATEGORYID tidak sama dengan nol, maka 19235001, Sebaliknya, nol**.

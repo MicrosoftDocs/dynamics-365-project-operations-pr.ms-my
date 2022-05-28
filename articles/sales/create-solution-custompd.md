@@ -4,14 +4,14 @@ description: Topik ini memberikan maklumat tentang cara mencipta penyelesaian un
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992217"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601121"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Cipta penyelesaian untuk dimensi penentuan harga tersuai
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992217"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Cipta penyelesaian untuk dimensi penentuan harga tersuai
 
 1.  Pilih **Tetapan** > **Penyelesaian**, dan kemudian pilih **Baharu**.
-2.  Namakan penyelesaian, *Dimensi penentuan harga <your organization name>*.
+2.  Namakan penyelesaian, *Dimensi penentuan harga \<your organization name\>*.
 3. Masukkan baki maklumat diperlukan dan kemudian pilih **Simpan**.
 
   ![Penciptaan penyelesaian dimensi penentuan harga tersuai.](./media/Creation-of-custom-pricing-dimension-solution.png)

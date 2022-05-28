@@ -1,32 +1,31 @@
 ---
-title: Segerakkan anggaran projek secara langsung daripada Project Service Automation kepada Finance and Operations
-description: Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek secara langsung daripada Microsoft Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
+title: Menyegerakkan anggaran projek terus dari Automasi Perkhidmatan Projek ke Kewangan dan Operasi
+description: Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek secara langsung dari Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance ke Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988212"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684607"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Segerakkan anggaran projek secara langsung daripada Project Service Automation kepada Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Menyegerakkan anggaran projek terus dari Automasi Perkhidmatan Projek ke Kewangan dan Operasi
 
 [!include[banner](../includes/banner.md)]
 
-Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek secara langsung daripada Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
+Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek secara langsung dari Dynamics 365 Project Service Automation Dynamics 365 Finance ke Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrasi tugas projek, kategori transaksi perbelanjaan, anggaran jam, anggaran perbelanjaan dan penguncian fungsi tersedia dalam versi 8.0.
@@ -68,7 +67,7 @@ Anggaran jam projek diuruskan dalam Project Service Automation dan ia disegerakk
 
 Sebelum penyegerakan anggaran jam projek boleh dijalankan, anda mesti menyegerakkan projek, tugas projek dan kategori transaksi perbelanjaan projek.
 
-### <a name="power-query"></a>Pertanyaan Kuasa
+### <a name="power-query"></a>Power Query
 
 Dalam templat anggaran jam projek, anda mesti menggunakan Microsoft Power Query for Excel untuk melengkapkan tugas ini:
 
@@ -81,7 +80,7 @@ Dalam templat anggaran jam projek, anda mesti menggunakan Microsoft Power Query 
 Untuk mengemas kini ID model ramalan lalai dalam templat, klik anak panah **Peta** untuk membuka pemetaan. Kemudian pilih pautan **Pertanyaan Lanjutan dan Penapisan**.
 
 - Jika anda menggunakan templat anggaran jam Projek lalai (PSA kepada Fin dan Ops), pilih **Syarat yang Dimasukkan** dalam senarai **Langkah Digunakan**. Dalam entri **Fungsi**, gantikan **O\_forecast** dengan nama ID model ramalan yang harus digunakan dengan integrasi. Templat lalai mempunyai ID model ramalan daripada data demo.
-- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur Bersyarat**, dan masukkan nama untuk lajur baharu, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika tugas Projek bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
+- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur** Bersyarat dan masukkan nama untuk lajur baru, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika tugas Projek bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
 
 #### <a name="filter-out-resource-specific-records"></a>Tapis keluar rekod khusus sumber
 
@@ -124,9 +123,9 @@ Anggaran perbelanjaan projek diuruskan dalam Project Service Automation dan ia d
 
 Sebelum penyegerakan anggaran perbelanjaan projek boleh dijalankan, anda mesti menyegerakkan projek, tugas projek dan kategori transaksi perbelanjaan projek.
 
-### <a name="power-query"></a>Pertanyaan Kuasa
+### <a name="power-query"></a>Power Query
 
-Dalam templat anggaran perbelanjaan projek, anda mesti menggunakan Power Query untuk melengkapkan tugas berikut:
+Dalam templat anggaran perbelanjaan projek, anda mesti gunakan Power Query untuk melengkapkan tugas berikut:
 
 - Penapis untuk hanya menyertakan rekod baris anggaran perbelanjaan.
 - Tetapkan ID model ramalan lalai yang akan digunakan apabila integrasi mencipta ramalan jam baharu.
@@ -141,8 +140,8 @@ Templat anggaran perbelanjaan Projek (PSA kepada Fin dan Ops) mempunyai penapis 
 
 Untuk mengemas kini ID model ramalan lalai dalam templat, pilih tugas **Anggaran perbelanjaan**, dan kemudian klik anak panah **Peta** untuk membuka pemetaan. Pilih pautan **Pertanyaan Lanjutan dan Penapisan**.
 
-- Jika anda menggunakan templat anggaran perbelanjaan Projek lalai (PSA kepada Fin dan Ops), dalam Power Query, pilih **Syarat yang Dimasukkan** pertama daripada bahagian **Langkah Digunakan**. Dalam entri **Fungsi**, gantikan **O\_forecast** dengan nama ID model ramalan yang harus digunakan dengan integrasi. Templat lalai mempunyai ID model ramalan daripada data demo.
-- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur Bersyarat**, dan masukkan nama untuk lajur baharu, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika ID baris Anggaran bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
+- Jika anda menggunakan templat anggaran perbelanjaan Projek lalai (PSA hingga Fin dan Ops), dalam Power Query, pilih Keadaan **Dimasukkan pertama** daripada **seksyen Langkah** Gunaan. Dalam entri **Fungsi**, gantikan **O\_forecast** dengan nama ID model ramalan yang harus digunakan dengan integrasi. Templat lalai mempunyai ID model ramalan daripada data demo.
+- Jika anda mencipta templat baharu, anda mesti menambah lajur ini. Dalam Power Query, pilih **Tambah Lajur** Bersyarat dan masukkan nama untuk lajur baru, seperti **ModelID**. Masukkan syarat untuk lajur, di mana, jika ID baris Anggaran bukan nol, maka \<enter the forecast model ID\>; jika tidak nol.
 
 #### <a name="transform-the-billing-types"></a>Mengubah jenis pengebilan
 
