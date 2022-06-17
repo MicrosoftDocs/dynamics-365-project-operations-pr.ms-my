@@ -1,25 +1,25 @@
 ---
 title: Gunakan API jadual Projek dengan Power Automate
-description: Topik ini menyediakan aliran sampel yang menggunakan antara muka pengaturcaraan aplikasi jadual Projek (API).
+description: Artikel ini menyediakan aliran sampel yang menggunakan antara muka pengaturcaraan aplikasi jadual Projek (API).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916345"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Gunakan API jadual Projek dengan Power Automate
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Topik ini menerangkan aliran sampel yang menunjukkan cara membuat pelan projek yang lengkap dengan menggunakan Microsoft Power Automate, cara membuat Set Operasi, dan cara mengemas kini entiti. Contoh menunjukkan cara mencipta projek, ahli pasukan projek, Set Operasi, tugas projek dan tugasan sumber. Topik ini juga menerangkan cara mengemas kini entiti dan melaksanakan Set Operasi.
+Artikel ini menerangkan aliran sampel yang menunjukkan cara membuat pelan projek yang lengkap dengan menggunakan Microsoft Power Automate, cara membuat Set Operasi, dan cara mengemas kini entiti. Contoh menunjukkan cara mencipta projek, ahli pasukan projek, Set Operasi, tugas projek dan tugasan sumber. Artikel ini juga menerangkan cara mengemas kini entiti dan melaksanakan Set Operasi.
 
-Berikut adalah senarai lengkap langkah-langkah yang didokumenkan dalam aliran sampel dalam topik ini:
+Berikut adalah senarai lengkap langkah-langkah yang didokumenkan dalam aliran sampel dalam artikel ini:
 
 1. [PowerApps Buat pencetus](#1)
 2. [Cipta projek](#2)
@@ -40,7 +40,7 @@ Berikut adalah senarai lengkap langkah-langkah yang didokumenkan dalam aliran sa
 
 ## <a name="assumptions"></a>Andaian
 
-Topik ini menganggap bahawa anda mempunyai pengetahuan asas tentang Dataverse platform, aliran awan, dan Antara Muka Pengaturcaraan Aplikasi Jadual Projek (API). Untuk maklumat lanjut, lihat seksyen [Rujukan](#references) kemudian dalam topik ini.
+Artikel ini menganggap bahawa anda mempunyai pengetahuan asas tentang Dataverse platform, aliran awan, dan Antara Muka Pengaturcaraan Aplikasi Jadual Projek (API). Untuk maklumat lanjut, lihat seksyen [Rujukan](#references) kemudian dalam artikel ini.
 
 ## <a name="create-a-flow"></a>Cipta aliran
 
@@ -65,7 +65,7 @@ Ikuti langkah ini untuk mencipta [aliran](/power-automate/overview-solution-flow
 1. **Pada halaman Penyelesaian**, pilih penyelesaian yang anda cipta, kemudian pilih **Baru**.
 2. Dalam anak tetingkap kiri, pilih **Awan mengalir** \> **Awan Automasi** \> **aliran** \> **Segera.**
 3. **Dalam medan Nama aliran**, masukkan **Jadual Aliran** Demo API.
-4. Dalam senarai **Pilih cara mencetuskan aliran** ini, pilih **Power Apps**. Apabila anda membuat Power Apps pencetus, logik terpulang kepada anda sebagai pengarang. Dalam topik ini, biarkan parameter input kosong untuk tujuan ujian.
+4. Dalam senarai **Pilih cara mencetuskan aliran** ini, pilih **Power Apps**. Apabila anda membuat Power Apps pencetus, logik terpulang kepada anda sebagai pengarang. Dalam artikel ini, biarkan parameter input kosong untuk tujuan ujian.
 5. Pilih **Cipta**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Langkah 2: Cipta projek
@@ -146,7 +146,7 @@ Ikuti langkah ini untuk mencipta projek sampel.
 2. **Dalam kotak dialog Pilih operasi**, dalam medan carian, masukkan **tambah baris** baru. Kemudian, pada **tab Tindakan**, pilih operasi dalam senarai hasil.
 3. Dalam langkah baru, pilih elipsis (**...**), kemudian pilih **Namakan semula**.
 4. Namakan semula langkah **Buat Baldi**.
-5. **Dalam medan Nama** Jadual, pilih **Baldi Projek**.
+5. **Dalam medan Nama** Jadual, pilih **Baldi** Projek.
 6. **Dalam medan Nama**, masukkan **JadualAPIDemoBucket1**.
 7. **Untuk medan Projek**, pilih **msdyn\_ CreateProjectV1Response ProjectId** dalam **kotak dialog Kandungan** dinamik.
 

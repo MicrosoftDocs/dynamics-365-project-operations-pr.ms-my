@@ -1,6 +1,6 @@
 ---
 title: Panduan pelaporan
-description: Topik ini memberikan pautan kepada maklumat tentang pelaporan.
+description: Artikel ini menyediakan pautan ke maklumat mengenai pelaporan.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919197"
 ---
 # <a name="reporting-guide"></a>Panduan pelaporan
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577569"
 
 Kaedah dan teknologi pelaporan dalam aplikasi ini boleh membantu anda menentukan kesihatan projek anda dan mengenal pasti apabila anda perlu mengambil tindakan pembetulan. 
 
-Pautan PDF yang terdapat dalam topik ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada topik berikut:
+Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
 
 - [Halaman utama pelaporan](../reports-reporting-dynamics-365-project-service.md)
 - [Papan Pemuka](../reports-dashboards.md)
 - [Bekerja dengan model data Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Topik ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
+> Artikel ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

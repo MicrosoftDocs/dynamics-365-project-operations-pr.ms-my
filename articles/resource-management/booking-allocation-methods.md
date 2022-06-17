@@ -1,6 +1,6 @@
 ---
 title: Kaedah peruntukan tempahan
-description: Topik ini menyediakan maklumat tentang cara kaedah peruntukan penempahan berfungsi dalam Project Operations.
+description: Artikel ini memberikan maklumat tentang cara kaedah peruntukan tempahan berfungsi dalam Operasi Projek.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912757"
 ---
 # <a name="booking-allocation-methods"></a>Kaedah peruntukan tempahan
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Apabila anda menambah ahli pasukan secara terus kepada projek pada tab **Pasukan**, atau tempah sumber pada projek atau keperluan dari papan Jadualm terdapat beberapa kaedah peruntukan tempahan berbeza yang anda boleh gunakan. Topik ini menerangkan cara setiap fungsi kaedah, dan kaedah yang mana membawa kepada sumber tempah berlebihan
+Apabila anda menambah ahli pasukan secara terus kepada projek pada tab **Pasukan**, atau tempah sumber pada projek atau keperluan dari papan Jadualm terdapat beberapa kaedah peruntukan tempahan berbeza yang anda boleh gunakan. Artikel ini menerangkan bagaimana setiap kaedah berfungsi, dan kaedah mana yang boleh menyebabkan sumber tempahan berlebihan.
 
 ## <a name="booking-allocation-methods"></a>Kaedah peruntukan tempahan
 

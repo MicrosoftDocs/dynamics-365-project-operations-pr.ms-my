@@ -1,25 +1,25 @@
 ---
 title: Kemas kini Project Operations dalam persekitaran Kewangan anda
-description: Topik ini memberikan maklumat tentang cara mengemas kini Operasi Projek dalam persekitaran Dynamics 365 Finance anda.
+description: Artikel ini memberikan maklumat tentang cara mengemas kini Operasi Projek dalam persekitaran Dynamics 365 Finance anda.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912481"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Kemas kini Project Operations dalam persekitaran Kewangan anda
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 
-Topik ini memberikan maklumat tentang cara mengemas kini Dynamics 365 Project Operations dalam persekitaran Dynamics 365 Finance anda. Terdapat tiga prosedur yang diperlukan untuk mengemas kini Project Operations kepada Kemas Kini 5 (UR5):
+Artikel ini memberikan maklumat tentang cara mengemas kini Dynamics 365 Project Operations dalam persekitaran Dynamics 365 Finance anda. Terdapat tiga prosedur yang diperlukan untuk mengemas kini Project Operations kepada Kemas Kini 5 (UR5):
 
 - [Import pakej ke dalam projek pratonton anda](#import)
 - [Gunakan kemas kini](#apply)

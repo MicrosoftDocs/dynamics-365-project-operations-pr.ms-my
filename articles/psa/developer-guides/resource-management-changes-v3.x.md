@@ -1,6 +1,6 @@
 ---
 title: Perubahan pengurusan sumber (Project Service Automation 3.x)
-description: Topik ini memberikan maklumat tentang perubahan pada kawasan pengurusan Sumber.
+description: Artikel ini memberikan maklumat tentang perubahan pada kawasan pengurusan Sumber.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916023"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Perubahan pengurusan sumber (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Bahagian topik ini menyediakan maklumat mengenai perubahan yang telah dibuat ke kawasan pengurusan Sumber Dynamics 365 Project Service Automation versi 3. x.
+Bahagian artikel ini memberikan maklumat mengenai perubahan yang telah dibuat kepada kawasan Dynamics 365 Project Service Automation pengurusan Sumber versi 3.x.
 
 ## <a name="project-estimates"></a>Anggaran projek
 

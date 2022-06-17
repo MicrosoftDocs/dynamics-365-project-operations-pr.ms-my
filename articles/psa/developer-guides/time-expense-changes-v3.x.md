@@ -1,6 +1,6 @@
 ---
 title: Perubahan Masa dan Perbelanjaan (Project Service Automation 3.x)
-description: Topik ini memberikan maklumat tentang perubahan penyelesaian untuk Masa dan Perbelanjaan.
+description: Artikel ini memberikan maklumat tentang perubahan penyelesaian untuk Masa dan Perbelanjaan.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a425206407ed70691812ba18af09bc56b37ca30
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5fbe5aff5c6fb0348d5d742bbb8da29f67a28d27
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8573936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915931"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>Perubahan Masa dan Perbelanjaan (Project Service Automation 3.x)
 

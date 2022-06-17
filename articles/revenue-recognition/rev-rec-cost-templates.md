@@ -1,24 +1,24 @@
 ---
 title: Sediakan templat kos
-description: Topik ini memberikan maklumat tentang cara mencipta dan menggunakan templat kos dalam Project Operations.
+description: Artikel ini menyediakan maklumat tentang cara mencipta dan menggunakan templat kos dalam Operasi Projek.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918415"
 ---
 # <a name="set-up-cost-templates"></a>Sediakan templat kos
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 
-Topik ini memberikan maklumat tentang cara mencipta dan menggunakan templat kos dalam Project Operations. Templat kos menentukan:
+Artikel ini menyediakan maklumat tentang cara mencipta dan menggunakan templat kos dalam Operasi Projek. Templat kos menentukan:
 
 - Kategori projek untuk ramalan dan transaksi sebenar akan dimasukkan dalam peratusan pengiraan siap projek. Nilai peratusan siap digunakan untuk mengira jumlah hasil yang dikenal pasti.
 - Sama ada peratusan siap boleh diubah suai jika ia dikira secara automatik.

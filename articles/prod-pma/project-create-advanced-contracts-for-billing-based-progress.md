@@ -1,6 +1,6 @@
 ---
 title: Cipta kontrak lanjutan untuk pengebilan berdasarkan kemajuan
-description: Topik ini menerangkan cara untuk mencipta kontrak projek supaya anda boleh menjana invois untuk pelanggan, berdasarkan peratusan kerja yang diselesaikan.
+description: Artikel ini menerangkan cara membuat kontrak projek supaya anda boleh menjana invois untuk pelanggan, berdasarkan peratusan kerja yang telah siap.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913677"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Cipta kontrak lanjutan untuk pengebilan berdasarkan kemajuan
 [!include [banner](../includes/banner.md)]
 
-Topik ini menerangkan cara untuk mencipta kontrak projek supaya anda boleh mencipta invois untuk pelanggan, berdasarkan peratusan kerja yang diselesaikan. Amaun invois dikira secara automatik untuk kategori kerja belanjawan yang anda sediakan untuk projek. Masa invois ditetapkan apabila anda berunding kontrak projek dengan pelanggan.
+Artikel ini menerangkan cara membuat kontrak projek supaya anda boleh membuat invois untuk pelanggan, berdasarkan peratusan kerja yang telah siap. Amaun invois dikira secara automatik untuk kategori kerja belanjawan yang anda sediakan untuk projek. Masa invois ditetapkan apabila anda berunding kontrak projek dengan pelanggan.
 
-Gunakan prosedur dalam topik ini untuk menyediakan kontrak, projek berkaitan dan peraturan pengebilan yang mengira amaun invois untuk kategori kerja belanjawan yang anda sediakan untuk projek.
+Gunakan prosedur dalam artikel ini untuk menyediakan kontrak, projek berkaitan dan peraturan pengebilan yang mengira jumlah invois untuk kategori kerja bajet yang anda sediakan untuk projek.
 
 Selepas anda mencipta kontrak dan projek, anda boleh menyediakan butiran projek. Sebagai contoh, anda boleh mentakrifkan aktiviti dan tugaskan pekerja ke projek tersebut.
 

@@ -1,6 +1,6 @@
 ---
 title: Panduan pengurusan sumber
-description: Topik ini menyediakan pautan kepada maklumat mengenai pengurusan sumber dalam Project Service Automation
+description: Artikel ini menyediakan pautan kepada maklumat tentang pengurusan sumber dalam Automasi Perkhidmatan Projek
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910791"
 ---
 # <a name="resource-management-guide"></a>Panduan pengurusan sumber
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595463"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Pautan PDF yang terdapat dalam topik ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada topik berikut:
+Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
 
 - [Halaman utama Pengurusan sumber](../resource-management-home-page.md)
 - [Konsep utama](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Pautan PDF yang terdapat dalam topik ini sebelum ini telah dialih keluar dan kan
 - [Soalan Lazim pengurusan sumber](../resource-management-faq.md)
 
 > [!NOTE]
-> Topik ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
+> Artikel ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

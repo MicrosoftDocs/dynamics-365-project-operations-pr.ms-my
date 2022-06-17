@@ -1,6 +1,6 @@
 ---
 title: Peningkatan pertimbangan untuk struktur pecahan kerja
-description: Topik ini memberikan maklumat mengenai menaik taraf struktur pecahan kerja daripada Project Service Automation 2.x ke 3.x.
+description: Artikel ini menyediakan maklumat tentang menaik taraf struktur pecahan kerja daripada Project Service Automation 2.x kepada 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913125"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Peningkatan pertimbangan untuk struktur pecahan kerja
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Topik ini memberikan maklumat mengenai menaik taraf struktur pecahan kerja daripada Project Service Automation 2.x ke 3.x. Topik ini mentakrifkan keadaan sihat projek dalam Project Service Automation (PSA) yang diperlukan untuk naik taraf yang berjaya. Terdapat juga maklumat mengenai syarat menyekat umum yang akan menyebabkan peningkatan untuk gagal. Untuk mendapatkan maklumat lanjut tentang mentakrifkan tugas projek dan fungsi mereka dalam jadual projek, lihat [Jadual project](project-creating.md).
+Artikel ini menyediakan maklumat tentang menaik taraf struktur pecahan kerja daripada Project Service Automation 2.x kepada 3.x. Artikel ini mentakrifkan keadaan projek yang sihat dalam Automasi Perkhidmatan Projek (PSA) yang diperlukan untuk peningkatan yang berjaya. Terdapat juga maklumat mengenai syarat menyekat umum yang akan menyebabkan peningkatan untuk gagal. Untuk mendapatkan maklumat lanjut tentang mentakrifkan tugas projek dan fungsi mereka dalam jadual projek, lihat [Jadual project](project-creating.md).
 
 ## <a name="key-entities"></a>Entiti utama
 Untuk struktur pecahan kerja yang tepat yang sudah dimuatkan dengan sumber, entiti berikut diperlukan:

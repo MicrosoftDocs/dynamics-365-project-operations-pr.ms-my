@@ -1,33 +1,33 @@
 ---
 title: Kemas kini atribut pasang masuk dengan dimensi penentuan harga baharu
-description: Topik ini memberikan maklumat tentang cara mengemas kini atribut pasang masuk untuk dimensi penentuan harga.
+description: Artikel ini memberikan maklumat tentang cara mengemas kini atribut pemalam untuk dimensi harga.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920025"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Kemas kini atribut pasang masuk dengan dimensi penentuan harga baharu
 
-Topik ini memberikan maklumat tentang cara mengemas kini atribut pasang masuk untuk dimensi penentuan harga.
+Artikel ini memberikan maklumat tentang cara mengemas kini atribut pemalam untuk dimensi harga.
 
 > [!NOTE]
-> Topik ini hanya digunakan untuk sebut harga dan ciri kontrak dalam Dynamics 365 Project Operations.
+> Artikel ini hanya terpakai kepada ciri sebut harga dan kontrak dalam Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum anda melengkapkan langkah dalam topik ini, anda mesti melengkapkan prosedur dalam topik berikut:
+Sebelum anda melengkapkan langkah-langkah dalam artikel ini, anda mesti melengkapkan prosedur dalam artikel berikut:
 
   - [Cipta medan dan entiti tersuai](create-custom-fields-entities-pricing-dimensions.md) 
   - [Tambah medan tersuai kepada persediaan harga dan entiti transaksi ](add-custom-fields-price-setup-transactional-entities.md)
   - [Sediakan medan tersuai sebagai dimensi penentuan harga](set-up-custom-fields-pricing-dimensions.md). 
   
-Jika anda belum melengkapkan prosedur tersebut, lengkapkannya dan kemudian kembali ke topik ini.
+Jika anda belum melengkapkan prosedur tersebut, lengkapkannya dan kemudian kembali ke artikel ini.
 
 ## <a name="register-a-plug-in"></a>Daftarkan pasang masuk
 Apabila butiran baris sebut harga dicipta pada halaman **Baris Sebut Harga** untuk baris sebut harga projek, sistem mencipta dua baris anggaran. Satu baris adalah untuk bahagian kos anggaran dan baris lain untuk bahagian jualan. Ini adalah sama untuk baris kontrak projek.

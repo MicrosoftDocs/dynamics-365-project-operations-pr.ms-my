@@ -1,17 +1,17 @@
 ---
 title: Mod penjadualan
-description: Topik ini memberikan maklumat tentang mod penjadualan.
+description: Artikel ini memberikan maklumat tentang mod penjadualan.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923659"
 ---
 # <a name="scheduling-modes"></a>Mod penjadualan
 
@@ -38,7 +38,7 @@ Apabila anda mentakrifkan mod penjadualan projek, anda menetapkan salah satu dar
 | Tugas usaha tetap    | Tempoh dikira semula. | Unit dikira semula.    | Tempoh dikira semula. |
 | Tugas tempoh tetap  | Usaha dikira semula.   | Usaha dikira semula.    | Unit dikira semula.   |
 
-Untuk maklumat lanjut tentang implikasi mod diberikan, lihat [Tukar jenis tugas untuk penjadualan yang lebih tepat](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dalam topik, istilah **Kerja** digunakan berbanding **Usaha**.
+Untuk maklumat lanjut tentang implikasi mod diberikan, lihat [Tukar jenis tugas untuk penjadualan yang lebih tepat](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dalam artikel itu, istilah **Kerja** digunakan dan bukannya **Usaha**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Tukar mod penjadualan organisasi
 

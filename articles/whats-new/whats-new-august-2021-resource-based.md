@@ -1,24 +1,24 @@
 ---
 title: Ciri baharu Ogos 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Project Operations Ogos 2021 untuk senario berdasarkan sumber/bukan stok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Ogos 2021 Operasi Projek untuk senario berasaskan sumber / tidak berstok.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bd91f7f6b3a6f78161f8900aa06c810a58609b53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912297"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Ogos 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
 *Digunakan Pada: Project Operations untuk senario berdasarkan sumber/tidak distok*
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
    - Project Operations dalam persekitaran Microsoft Dataverse versi 4.13.0.152.
    - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.20.

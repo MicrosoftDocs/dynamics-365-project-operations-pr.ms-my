@@ -1,25 +1,25 @@
 ---
 title: Atur letak aplikasi Project Operations Dataverse secara manual dengan sokongan dwi tulis
-description: Topik ini menerangkan cara untuk mengatur letak aplikasi Project Operations Dataverse secara manual supaya ia menyokong dwi tulis.
+description: Artikel ini menerangkan cara menggunakan aplikasi Project Operations Dataverse secara manual supaya ia menyokong dwi-tulis.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912021"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Atur letak aplikasi Project Operations Dataverse secara manual dengan sokongan dwi tulis
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini menerangkan cara untuk mengatur letak Microsoft Dynamics 365 Project Operations dalam Microsoft Dataverse secara manual supaya ia menyokong dwi tulis. Project Operations mengesan konfigurasi persekitaran dan menambahkan sokongan tambahan untuk dwi tulis jika prasyarat dipenuhi.
+Artikel ini menerangkan cara menggunakan Microsoft Dynamics 365 Project Operations Microsoft Dataverse secara manual supaya ia menyokong dwi-tulis. Project Operations mengesan konfigurasi persekitaran dan menambahkan sokongan tambahan untuk dwi tulis jika prasyarat dipenuhi.
 
-Semasa pelaksanaan melalui Microsoft Dynamics Lifecycle Services (LCS), jika anda telah mengikuti arahan dalam topik ini, anda boleh melangkau pelaksanaan integrasi Microsoft Power Platform (sebelum ini dikenali sebagai persekitaran Common Data Service).
+Semasa penggunaan melalui Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS), jika anda telah mengikuti arahan dalam artikel ini, anda boleh melangkau penggunaan Microsoft Power Platform penyepaduan (sebelum ini dikenali sebagai Common Data Service persekitaran).
 
 Proses pelaksanaan Project Operations dalam Dataverse supaya ia menyokong dwi tulis mempunyai empat langkah utama:
 

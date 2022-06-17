@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu Oktober 2021 - Pelaksanaan Project Operations lite
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 bagi pelaksanaan Project Operations lite.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 penggunaan Project Operations lite.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921957"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Perkara baharu Oktober 2021 - Pelaksanaan Project Operations lite
 
 _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
   - Project Operations pada persekitaran Microsoft Dataverse versi 4.25.0.91
 

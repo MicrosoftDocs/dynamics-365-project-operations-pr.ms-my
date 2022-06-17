@@ -1,6 +1,6 @@
 ---
 title: Kemas kini atribut pasang masuk untuk memasukkan dimensi penetapan harga baharu
-description: Topik ini memberikan maklumat mengenai mengemas kini atribut pasang masuk untuk dimensi penetapan.
+description: Artikel ini memberikan maklumat tentang mengemas kini atribut pemalam untuk dimensi harga.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913217"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Kemas kini atribut pasang masuk untuk memasukkan dimensi penetapan harga baharu
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Jika anda tidak menggunakan ciri Pesanan Harga Project Service Automation (PSA) dan Pengkontrakan, anda boleh melangkau topik ini.
+> Jika anda tidak menggunakan ciri Sebut Harga dan Kontrak Automasi Perkhidmatan Projek (PSA), anda boleh melangkau artikel ini.
 
-Topik ini menganggap bahawa anda telah melengkapkan prosedur dalam topik, [Cipta medan dan entiti tersuai](create-custom-fields-entities.md), [Tambah medan tersuai kepada persediaan harga dan entiti transaksi](field-references.md) dan [Sediakan medan tersuai sebagai dimensi penetapan harga](set-up-pricing-dimensions.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkan mereka dan kemudian kembali ke topik ini.
+Artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti](create-custom-fields-entities.md) tersuai, [Tambah medan tersuai pada persediaan harga dan entiti](field-references.md) transaksi, dan [Sediakan medan tersuai sebagai dimensi harga](set-up-pricing-dimensions.md). Sekiranya anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkannya dan kemudian kembali ke artikel ini.
 
 Apabila butiran baris sebut harga dicipta pada halaman baris **Baris Sebut Harga** untuk baris sebut harga projek, sistem mencipta dua baris anggaran dalam latar belakang -- satu baris untuk bahagian kos anggaran dan satu untuk jualan pihak. Ini adalah sama untuk baris kontrak projek.
 

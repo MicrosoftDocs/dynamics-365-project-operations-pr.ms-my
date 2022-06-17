@@ -1,6 +1,6 @@
 ---
 title: Pertimbangan naik taraf - Microsoft Dynamics 365 Project Service Automation versi 2.x atau 1.x kepada versi 3
-description: Topik ini menyediakan maklumat tentang pertimbangan yang perlu anda lakukan apabila anda menaik taraf daripada Project Service Automation versi 2.x atau 1.x kepada versi 3.
+description: Artikel ini menyediakan maklumat tentang pertimbangan yang mesti anda buat apabila anda menaik taraf daripada Project Service Automation versi 2.x atau 1.x kepada versi 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918921"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Pertimbangan naik taraf - PSA versi 2.x atau 1.x kepada versi 3
 
@@ -40,7 +40,7 @@ Dalam Project Service Automation versi 2 dan versi 1, penugasan tugasan disimpan
 
 Dalam versi 3 Project Service Automation, skema dasar yang menugaskan sumber boleh ditempah kepada tugas telah berubah. Tugas baris ditamatkan dan terdapat perhubungan 1:1 yang langsung antara tugas dalam **Entiti tugas** dan ahli pasukan dalam entiti **Tugasan Sumber**. Tugas yang ditugaskan kepada ahli pasukan projek kini disimpan secara langsung dalam entiti Tugasan Sumber.  
 
-Perubahan ini memberi kesan kepada naik taraf mana-mana projek yang mempunyai tugasan sumber untuk sumber boleh ditempah yang telah dinamakan dan sumber generik pada pasukan projek. Topik ini menyediakan pertimbangan bahawa anda perlu mengambil kira projek anda apabila anda menaik taraf ke versi 3. 
+Perubahan ini memberi kesan kepada naik taraf mana-mana projek yang mempunyai tugasan sumber untuk sumber boleh ditempah yang telah dinamakan dan sumber generik pada pasukan projek. Artikel ini memberikan pertimbangan yang perlu anda ambil kira untuk projek anda apabila anda menaik taraf ke versi 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tugas ditugaskan kepada sumber yang dinamakan
 Menggunakan entiti tugas dasar, tugas dalam versi 2 dan versi 1 membenarkan ahli pasukan untuk menggambarkan peranan selain daripada peranan tertakrif lalai mereka. Contohnya, Farziah Fairuz yang secara lalai ditugaskan peranan Pengurus Program, boleh ditugaskan untuk tugas dengan peranan Pembangun. Dalam versi 3, peranan ahli pasukan yang dinamakan sentiasa menjadi lalai, maka apa-apa tugas yang ditugaskan kepada Farziah Fairuz menggunakan peranan lalainya sebagai Pengurus Program.

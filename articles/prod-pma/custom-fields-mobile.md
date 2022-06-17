@@ -1,6 +1,6 @@
 ---
 title: Mengimplemen medan tersuai untuk aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet pada iOS dan Android
-description: Topik ini menyediakan corak lazim yang menggunakan sambungan untuk mengimplemen medan tersuai.
+description: Artikel ini menyediakan corak biasa untuk menggunakan sambungan untuk melaksanakan medan tersuai.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913723"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Mengimplemen medan tersuai untuk aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet pada iOS dan Android
 
 [!include [banner](../includes/banner.md)]
 
-Topik ini menyediakan corak lazim yang menggunakan sambungan untuk mengimplemen medan tersuai. Topik berikut dirangkumi:
+Artikel ini menyediakan corak biasa untuk menggunakan sambungan untuk melaksanakan medan tersuai. Artikel berikut merangkumi:
 
 - Jenis data pelbagai yang disokong oleh kerangka kerja medan tersuai
 - Cara untuk menunjukkan medan baca sahaja atau boleh diedit pada entiti lembaran masa dan menyimpan semula nilai yang diberikan pengguna ke dalam pangkalan data
@@ -35,7 +35,7 @@ Topik ini menyediakan corak lazim yang menggunakan sambungan untuk mengimplemen 
 
 ## <a name="audience"></a>Hadirin
 
-Topik ini bertujuan untuk pembangun yang mengintegrasikan medan tersuai mereka ke dalam aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet yang tersedia untuk Apple iOS dan Google Android. Anggapannya adalah pembaca yang terbiasa dengan pembangunan X++ dan kefungsian lembaran masa projek.
+Artikel ini bertujuan untuk pembangun yang mengintegrasikan medan tersuai mereka ke dalam Microsoft Dynamics 365 Project Timesheet aplikasi mudah alih yang tersedia untuk Apple iOS dan Google Android. Anggapannya adalah pembaca yang terbiasa dengan pembangunan X++ dan kefungsian lembaran masa projek.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Kontrak data – kelas TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ Sifat **FieldBaseType** pada objek **TsTimesheetCustom** menentukan jenis medan 
 
 - Jika sifat **stringOptions** disediakan pada objek **TSTimesheetCustomField**, elemen senarai itu adalah hanya nilai yang boleh dipilih oleh pengguna dengan menggunakan butang pilihan (butang radio).
 
-    Dalam kes ini, medan rentetan boleh bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke pangkalan data sebagai enum, petakan nilai rentetan secara manual sebelum anda menyimpan ke pangkalan data dengan menggunakan rantaian perintah (lihat bahagian “Gunakan rantaian perintah pada kelas TSTimesheetEntryService untuk menyimpan semula entri lembaran masa daripada aplikasi ke pangkalan data” kemudian dalam topik ini sebagai contoh).
+    Dalam kes ini, medan rentetan boleh bertindak sebagai nilai enum untuk tujuan entri pengguna. Untuk menyimpan nilai ke pangkalan data sebagai enum, petakan nilai rentetan secara manual kembali ke nilai enum sebelum anda menyimpan ke pangkalan data dengan menggunakan rantai perintah (lihat "Gunakan rantaian perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembaran masa dari aplikasi kembali ke pangkalan data" kemudian dalam artikel ini untuk contoh).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Sifat ini menentukan label yang menunjukkan medan seterusnya dalam aplikasi.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Senarai Rentetan)
 
-Sifat ini terpakai hanya apabila **fieldBaseType** ditetapkan kepada **Rentetan**. Jika **stringOptions** ditetapkan, nilai rentetan yang tersedia untuk pemilihan melalui butang pilihan (butang radio) ditentukan oleh rentetan dalam senarai. Jika tiada rentetan disediakan, entri teks bebas dalam medan rentetan dibenarkan (lihat bahagian “Gunakan rantaian perintah pada kelas TSTimesheetEntryService untuk menyimpan semula entri lembaran masa daripada aplikasi ke pangkalan data” kemudian dalam topik ini sebagai contoh).
+Sifat ini terpakai hanya apabila **fieldBaseType** ditetapkan kepada **Rentetan**. Jika **stringOptions** ditetapkan, nilai rentetan yang tersedia untuk pemilihan melalui butang pilihan (butang radio) ditentukan oleh rentetan dalam senarai. Jika tiada rentetan disediakan, entri teks bebas dalam medan rentetan dibenarkan (lihat "Gunakan rantaian perintah pada kelas TSTimesheetEntryService untuk menyimpan entri lembaran masa dari aplikasi kembali ke pangkalan data" kemudian dalam artikel ini untuk contoh).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

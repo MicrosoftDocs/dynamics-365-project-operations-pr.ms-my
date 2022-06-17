@@ -1,17 +1,17 @@
 ---
 title: Fahami status projek
-description: Topik ini memberikan maklumat tentang status yang diperuntukkan kepada projek dalam Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat mengenai status yang diberikan kepada projek-projek di Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9efa6135bbaa98f8968e09fcf38c9dd4fde84fe4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86cb60b634b62af23f39720c0452dca82ff3ad26
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923613"
 ---
 # <a name="understand-project-status"></a>Fahami status projek
 

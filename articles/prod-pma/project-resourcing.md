@@ -1,6 +1,6 @@
 ---
 title: Halaman utama sumber projek
-description: Topik ini memberikan maklumat tentang penyumberan projek.
+description: Artikel ini memberikan maklumat mengenai sumber semula projek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924027"
 ---
 # <a name="project-resourcing-home-page"></a>Halaman utama sumber projek
 
 [!include [banner](../includes/banner.md)]
 
-Topik ini memberikan maklumat tentang penyumberan projek.
+Artikel ini memberikan maklumat mengenai sumber semula projek.
 
 Satu cabaran untuk pengurus projek dan pengurus sumber semasa peringkat perancangan projek ialah peruntukan sumber, di mana mereka mesti menentukan dan menguntukkan sumber yang betul untuk kerja projek. Dalam Dynamics 365 Finance, keupayaan penyumberan semula untuk projek membolehkan anda menentukan peranan yang dianggap sebagai sumber sementara yang boleh dikhaskan untuk penglibatan tertentu atau sebahagian daripada penglibatan. Jenis penyumberan ini membolehkan pengurus projek dan pengurus sumber melengkapkan tugas berikut:
 
@@ -41,7 +41,7 @@ Satu cabaran untuk pengurus projek dan pengurus sumber semasa peringkat perancan
 
 Semasa perancangan projek berjalan, sumber yang dirancang boleh digantikan dengan sumber diperlukan. Pengurus Projek juga boleh kembali dan mengemas kini tempahan penyumberan semasa sebarang peringkat projek.
 
-Topik berikut memberikan maklumat mengenai tugas yang perlu dilengkapkan apabila anda sedang mengusahakan projek sumber.
+Artikel berikut memberikan maklumat tentang tugas yang perlu diselesaikan semasa anda sedang berusaha mendapatkan semula projek.
 
 - [Sediakan sumber projek](set-up-project-resources.md)
 - [Urus kecekapan sumber](manage-resource-competencies.md)

@@ -1,6 +1,6 @@
 ---
 title: Kemajuan projek dan penggunaan kos
-description: Topik ini memberikan maklumat tentang penjejakan kemajuan projek dan penggunaan kos.
+description: Artikel ini memberikan maklumat mengenai menjejaki kemajuan projek dan penggunaan kos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921773"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Kemajuan projek dan penggunaan kos
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575269"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Keperluan untuk menjejaki kemajuan terhadap jadual berbeza-beza mengikut industri. Sesetengah industri menjejaki pada tahap butiran, manakala industri lain menjejaki pada tahap yang lebih tinggi. Topik ini menunjukkan cara untuk menjadualkan bagi memenuhi keperluan organisasi anda.
+Keperluan untuk menjejaki kemajuan terhadap jadual berbeza-beza mengikut industri. Sesetengah industri menjejaki pada tahap butiran, manakala industri lain menjejaki pada tahap yang lebih tinggi. Artikel ini menunjukkan cara menjadualkan untuk memenuhi keperluan organisasi anda.
 
 ## <a name="effort-tracking-view"></a>Pandangan penjejakan usaha
 

@@ -1,17 +1,17 @@
 ---
 title: Import anggaran ke baris kontrak berdasarkan projek - ringan
-description: Topik ini menyediakan maklumat tentang cara mengimport anggaran kewangan daripada projek kepada baris kontrak.
+description: Artikel ini memberikan maklumat tentang mengimport anggaran kewangan dari projek ke garis kontrak.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 52abaa785b50b914e7813aaf4660504ee99129d6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924211"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Import anggaran ke baris kontrak berdasarkan projek - ringan
 

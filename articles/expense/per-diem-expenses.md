@@ -1,6 +1,6 @@
 ---
-title: Per diem perbelanjaan
-description: Topik ini memberikan maklumat tentang cara bekerja dengan perbelanjaan setiap diem.
+title: Perbelanjaan saraan harian
+description: Artikel ini memberikan maklumat tentang cara bekerja dengan perbelanjaan setiap diem.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923199"
 ---
-# <a name="per-diem-expenses"></a>Per diem perbelanjaan
+# <a name="per-diem-expenses"></a>Perbelanjaan saraan harian
 
 > [!IMPORTANT] 
-> Fungsi yang diterangkan dalam topik ini tersedia untuk pengguna yang disasarkan sebagai sebahagian daripada keluaran pratonton.
+> Fungsi yang diterangkan dalam artikel ini tersedia untuk pengguna yang disasarkan sebagai sebahagian daripada keluaran pratonton.
 
 Bayaran per diem adalah elaun harian tetap yang telah ditetapkan dan telah ditetapkan yang dibayar oleh syarikat kepada pekerjanya untuk penginapan (hotel), makanan, dan perbelanjaan sampingan yang ditanggung oleh pekerja tersebut semasa mereka melakukan perjalanan untuk bekerja. Syarikat membayar elaun ini kepada pekerja dan bukannya membayar perbelanjaan perjalanan sebenar. Pekerja boleh menggunakan Elaun Sampingan / Lain-lain **setiap diem mereka** untuk merangkumi petua, perkhidmatan bilik, dobi, atau perkhidmatan cucian kering untuk mesyuarat perniagaan penting. Kadar per diem boleh berbeza-beza, bergantung kepada sama ada majikan memilih untuk membayar balik kos gabungan penginapan dan makanan, atau hanya untuk kos makanan dan sampingan.
 

@@ -1,17 +1,17 @@
 ---
 title: Gunakan Kategori Transaksi sebagai dimensi penentuan harga
-description: Topik ini memberikan maklumat tentang cara menggunakan medan Kategori Transaksi sebagai dimensi penentuan harga.
+description: Artikel ini memberikan maklumat tentang cara menggunakan medan Kategori Transaksi sebagai dimensi harga.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911705"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Gunakan Kategori Transaksi sebagai dimensi penentuan harga
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591139"
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 
-Topik ini menerangkan cara menggunakan medan **Kategori Transaksi** sebagai dimensi penentuan harga. 
+Artikel ini menerangkan cara menggunakan medan **Kategori** Transaksi sebagai dimensi harga. 
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum anda melengkapkan prosedur dalam topik ini, anda mesti mempunyai penyelesaian dimensi penentuan harga baharu untuk organisasi anda. Jika anda belum menciptanya, lihat [Cipta medan dan entiti tersuai sebagai dimensi penentuan harga](create-custom-fields-entities-pricing-dimensions.md).
+Sebelum anda melengkapkan prosedur dalam artikel ini, anda mesti mempunyai penyelesaian dimensi harga baru untuk organisasi anda. Jika anda belum menciptanya, lihat [Cipta medan dan entiti tersuai sebagai dimensi penentuan harga](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Tambahkan medan Kategori Transaksi pada borang dan pandangan
 Untuk menjadikan medan **Kategori Transaksi** boleh dilihat dalam penyelesaian dimensi penentuan harga, anda perlu menambah medan kepada semua borang dan pandangan sebagai entiti.

@@ -1,6 +1,6 @@
 ---
 title: Guna sumber boleh tempah sebagai dimensi penentuan harga
-description: Topik ini memberikan maklumat tentang menggunakan sumber boleh tempat sebagai dimensi penentuan harga.
+description: Artikel ini memberikan maklumat tentang menggunakan sumber yang boleh ditempah sebagai dimensi harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916115"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Guna sumber boleh tempah sebagai dimensi penentuan harga
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Topik ini memberikan maklumat tentang menggunakan sumber boleh tempat sebagai dimensi penentuan harga. Sebelum anda mulakan, jika anda belum mencipta penyelesaian dimensi penetapan harga, anda akan perlu mencipta yang baharu. Jika anda sudah mempunyai penyelesaian dimensi penetapan harga, anda boleh membuat perubahan anda dalam penyelesaian tersebut. Jika anda belum mencipta penyelesaian dimensi penetapan harga baharu untuk organisasi anda, lengkapkan prosedur [Cipta medan tersuai dan topik entiti](create-custom-fields-entities.md).
+Artikel ini memberikan maklumat tentang menggunakan sumber yang boleh ditempah sebagai dimensi harga. Sebelum anda mulakan, jika anda belum mencipta penyelesaian dimensi penetapan harga, anda akan perlu mencipta yang baharu. Jika anda sudah mempunyai penyelesaian dimensi penetapan harga, anda boleh membuat perubahan anda dalam penyelesaian tersebut. Jika anda belum mencipta penyelesaian dimensi harga baharu untuk organisasi anda, lengkapkan prosedur dalam [artikel Cipta medan dan entiti](create-custom-fields-entities.md) tersuai.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Tambah sumber boleh tempah pada borang dan pandangan
 Untuk membolehkan medan boleh dilihat dalam UI dalam penyelesaian dimensi penentuan harga, anda perlu meneliti semua borang dan pandangan entiti Project Service utama dan menambah medan pada borang dan pandangan entiti tersebut.

@@ -1,6 +1,6 @@
 ---
-title: Sesuaikan kemasukan masa mingguan
-description: Topik ini memberikan maklumat mengenai cara untuk melaksanakan peraturan perniagaan tersuai yang menyokong amalan organisasi.
+title: Sesuaikan entri masa mingguan
+description: Artikel ini memberikan maklumat tentang cara melaksanakan peraturan perniagaan tersuai yang menyokong amalan organisasi.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918967"
 ---
 # <a name="customize-weekly-time-entry"></a>Sesuaikan entri masa mingguan 
 
@@ -46,7 +46,7 @@ Bahagian **Dimensi** menunjukkan, sebagai tajuk lajur, semua dimensi masa boleh 
 - Taip
 - Status Entri
 
-Bahagian **Dimensi** tidak membenarkan pengeditan sebaris. Bahagian ini disokong oleh pandangan yang mendayakan medan tersuai untuk ditambah ke grid kemasukan masa mingguan. Untuk maklumat mengenai cara untuk menambah medan tersuai, lihat bahagian "Kebolehsuian" kemudian dalam topik ini.
+Bahagian **Dimensi** tidak membenarkan pengeditan sebaris. Bahagian ini disokong oleh pandangan yang mendayakan medan tersuai untuk ditambah ke grid kemasukan masa mingguan. Untuk maklumat tentang cara menambah medan tersuai, lihat bahagian "Kebolehpanjangan" kemudian dalam artikel ini.
 
 ### <a name="duration"></a>Tempoh
 Bahagian Tempoh menunjukkan hari minggu sebagai pengepala lajur. Bahagian ini membenarkan pengeditan dalam baris. Selepas baris entri masa ialah dicipta yang mempunyai dimensi yang sesuai, pengguna boleh memasukkan dengan cepat, mengikut baris, jumlah masa yang mereka belanjakan pada dimensi tersebut.

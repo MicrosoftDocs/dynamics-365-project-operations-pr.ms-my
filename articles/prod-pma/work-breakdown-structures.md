@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920669"
 ---
 # <a name="work-breakdown-structures-overview"></a>Gambaran keseluruhan struktur pecahan kerja
 
@@ -35,7 +35,7 @@ Tahap perincian dalam WBS bergantung pada tahap ketepatan yang diperlukan dalam 
 
 Sebaliknya, projek dalam industri seperti media dan pengiklanan, perisian dan infrastruktur IT biasanya menjadi salah satu jenis, dan produktiviti berkaitan dengan pengalaman dan kompetensi individu yang menjalankan tugas. Oleh itu, industri ini menggunakan WBS untuk mendapatkan anggaran saiz projek, bukan untuk menjejaki kemajuan projek tersebut secara terperinci. 
 
-Membina WBS adalah proses intensif yang biasanya dilakukan dalam tempoh yang panjang, dan ia memerlukan kerjasama dan maklumat daripada pelbagai orang. Topik ini menerangkan bagaimana anda boleh menggunakan penambahbaikan WBS untuk memenuhi keperluan anda untuk anggaran dan penjejakan.
+Membina WBS adalah proses intensif yang biasanya dilakukan dalam tempoh yang panjang, dan ia memerlukan kerjasama dan maklumat daripada pelbagai orang. Artikel ini menerangkan cara anda boleh menggunakan peningkatan WBS untuk memenuhi keperluan anda untuk anggaran dan penjejakan.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Prasyarat untuk penciptaan WBS
 Untuk mencipta WBS, anda mesti dapat mencipta jadual kerja dan anggaran kos kerja.
@@ -166,7 +166,7 @@ Finance mempunyai tiga pandangan untuk projek WBS: pandangan Perancangan, pandan
 
 ### <a name="planning-view"></a>Pandangan perancangan
 
-Pandangan perancangan memaparkan anggaran yang dirancang atau asas bagi maklumat jadual dan kos. Walaupun tiada ciri untuk versi dan asas penjejakan untuk projek WBS, nilai dalam pandangan ini ditujukan untuk mewakili versi asas. Bahagian anggaran Jadual dan anggaran kos untuk topik ini menerangkan pandangan ini dan cara ia digunakan untuk mencipta WBS.
+Pandangan perancangan memaparkan anggaran yang dirancang atau asas bagi maklumat jadual dan kos. Walaupun tiada ciri untuk versi dan asas penjejakan untuk projek WBS, nilai dalam pandangan ini ditujukan untuk mewakili versi asas. Bahagian anggaran jadual dan anggaran kos artikel ini menerangkan pandangan ini dan cara ia digunakan untuk mencipta WBS.
 
 ### <a name="effort-tracking-view"></a>Pandangan penjejakan usaha
 

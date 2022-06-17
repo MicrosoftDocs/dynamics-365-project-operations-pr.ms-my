@@ -1,25 +1,25 @@
 ---
-title: Peralihan negeri pada subkontrak
-description: Topik ini menerangkan peralihan negeri pada subkontrak dalam Microsoft Dynamics 365 Project Operations sebagai subkontrak dicipta, dilaksanakan dan ditutup.
+title: Peralihan keadaan pada subkontrak
+description: Artikel ini menerangkan peralihan negeri pada subkontrak dalam Microsoft Dynamics 365 Project Operations sebagai subkontrak dicipta, dilaksanakan dan ditutup.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919749"
 ---
-# <a name="state-transitions-on-a-subcontract"></a>Peralihan negeri pada subkontrak 
+# <a name="state-transitions-on-a-subcontract"></a>Peralihan keadaan pada subkontrak 
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Topik ini menerangkan peralihan negeri pada subkontrak dalam Microsoft Dynamics 365 Project Operations. Setiap negeri diwakili sebagai sama ada draf, disahkan, ditutup, atau dibatalkan. Imej berikut mewakili peralihan negeri.
+Artikel ini menerangkan peralihan negeri pada subkontrak dalam Microsoft Dynamics 365 Project Operations. Setiap negeri diwakili sebagai sama ada draf, disahkan, ditutup, atau dibatalkan. Imej berikut mewakili peralihan negeri.
 
 ![Model keadaan subkontrak](../media/SubconStates.png)  
 

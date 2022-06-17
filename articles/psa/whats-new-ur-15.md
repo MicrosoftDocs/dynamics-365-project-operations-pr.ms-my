@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 15, V3
-description: Topik ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas kini Project Service Automation 15, V3.
+description: Artikel ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas Kini Automasi Project Service 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915655"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, Keluaran Kemas kini 15, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585159"
 
 Kami gembira untuk mengumumkan kemas kini terbaharu untuk aplikasi Dynamics 365 Project Service Automation (PSA). Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online dan pergi ke halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Topik ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3, Keluaran Kemas kini 15. Versi ini mempunyai nombor binaan V3.10.5.28 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2020.
+Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk PSA V3, Kemas Kini Keluaran 15. Versi ini mempunyai nombor binaan V3.10.5.28 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2020.
 
 ## <a name="update-release-15"></a>Keluaran Kemas kini 15 
 

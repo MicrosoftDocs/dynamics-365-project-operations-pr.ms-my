@@ -1,25 +1,25 @@
 ---
 title: Perkara baharu Mac 2021 - Pelaksanaan Project Operations lite
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 bagi pelaksanaan Project Operations lite.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 penggunaan Project Operations lite.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913907"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Perkara baharu Mac 2021 - Pelaksanaan Project Operations lite
 
 _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Project Operations pada persekitaran Dataverse versi 4.8.0.91 
 

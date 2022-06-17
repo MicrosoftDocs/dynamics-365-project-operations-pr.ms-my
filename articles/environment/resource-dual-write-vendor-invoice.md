@@ -1,18 +1,18 @@
 ---
 title: Integrasi invois vendor
-description: Topik ini menyediakan maklumat tentang integrasi invois vendor dalam Project Operations.
+description: Artikel ini memberikan maklumat tentang penyepaduan invois vendor dalam Operasi Projek.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912067"
 ---
 # <a name="vendor-invoice-integration"></a>Integrasi invois vendor
 
@@ -21,7 +21,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 Perolehan berkaitan projek dalam Dynamics 365 Project Operations boleh direkodkan dengan pergi ke **Akaun Belum Bayar** > **Invois** > **Invois vendor yang belum selesai** menggunakan dokumen invois vendor yang belum selesai. Untuk maklumat lanjut, lihat [Pembelian bahan bukan stok menggunakan invois vendor yang belum selesai](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Sebelum anda menggunakan kefungsian yang diterangkan dalam topik ini, semak dan gunakan konfigurasi yang diperlukan. Untuk maklumat lanjut, lihat [Dayakan bahan bukan stok dan invois vendor yang belum selesai](../procurement/configure-materials-nonstocked.md).
+> Sebelum anda menggunakan kefungsian yang diterangkan dalam artikel ini, semak dan gunakan konfigurasi yang diperlukan. Untuk maklumat lanjut, lihat [Dayakan bahan bukan stok dan invois vendor yang belum selesai](../procurement/configure-materials-nonstocked.md).
 
 Dalam Project Operations, invois vendor berkaitan projek disiarkan menggunakan peraturan penyiaran khas:
 

@@ -1,24 +1,24 @@
 ---
 title: Ciri baharu Jun 2021 - Project Operations pelaksanaan ringan
-description: Topik ini menyediakan maklumat mengenai kemas kini berkualiti yang tersedia dalam keluaran Jun 2021 Project Operations pelaksanaan ringan.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Jun 2021 penggunaan Project Operations lite.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06ea83152e4f601ef842a0f8d975c16c2be95612
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16fffb06ebb72ac25982374bff27a015eccfae1b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913953"
 ---
 # <a name="whats-new-june-2021---project-operations-lite-deployment"></a>Ciri baharu Jun 2021 - Project Operations pelaksanaan ringan
 
 _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
   - Project Operations dalam persekitaran Dataverse versi 4.11.0.156 atau 4.11.0.164.
 

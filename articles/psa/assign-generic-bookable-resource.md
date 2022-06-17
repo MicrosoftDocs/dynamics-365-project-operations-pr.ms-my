@@ -1,6 +1,6 @@
 ---
 title: Tugaskan sumber boleh ditempah generik kepada tugas dan pasukan projek
-description: Topik ini memberikan maklumat tentang tempahan sumber generik kepada tugasan dan pasukan projek.
+description: Artikel ini memberikan maklumat tentang menempah sumber generik kepada tugas dan pasukan projek.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 043a295bb7daee86ec0a701b29fd32c59654832d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9f67ab7381747e5d780f8b0024dd98ae8420d05f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923567"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Tugaskan sumber boleh ditempah generik kepada tugas dan menjana keperluan sumber 
 

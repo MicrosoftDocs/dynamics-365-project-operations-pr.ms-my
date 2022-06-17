@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu atau diubah dalam Project Operations April 2021 untuk senario berdasarkan distok/pengeluaran
-description: Topik ini menyediakan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran April 2021 Project Operations untuk senario berdasarkan distok/pengeluaran.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran April 2021 Operasi Projek untuk senario berasaskan stok / pengeluaran.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916483"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Perkara baharu atau diubah dalam Project Operations April 2021 untuk senario berdasarkan distok/pengeluaran
 
 _**Digunakan Pada:** Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.18
  

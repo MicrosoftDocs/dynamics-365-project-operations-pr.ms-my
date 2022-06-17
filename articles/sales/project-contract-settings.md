@@ -1,23 +1,23 @@
 ---
 title: Tetapan kontrak projek
-description: Topik ini memberikan maklumat tentang medan yang memberi kesan kepada baris kontrak dan maklumat tentang kontrak yang diringkaskan untuk merentasi semua item baris.
+description: Artikel ini memberikan maklumat mengenai medan yang memberi kesan kepada garis kontrak dan maklumat mengenai kontrak yang diringkaskan merentasi semua item baris.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921589"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Butiran pengepala untuk kontrak berdasarkan projek
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini menyediakan maklumat mengenai medan yang digunakan untuk seluruh kontrak projek termasuk tetapan yang memberi kesan kepada semua baris kontrak. Maklumat mengenai kontrak yang diringkaskan merentasi semua item baris untuk mendorong KPI kontrak projek juga disertakan.
+Artikel ini menyediakan maklumat tentang medan yang digunakan untuk keseluruhan kontrak projek termasuk seting yang memberi kesan kepada semua baris kontrak. Maklumat mengenai kontrak yang diringkaskan merentasi semua item baris untuk mendorong KPI kontrak projek juga disertakan.
 
 Jadual berikut menyenaraikan medan paada kontrak projek yang unik kepada Dynamics 365 Project Operations atau mempunyai beberapa perubahan penting dalam tingkah laku daripada pesanan jualan dalam Dynamics 365 Sales.
 

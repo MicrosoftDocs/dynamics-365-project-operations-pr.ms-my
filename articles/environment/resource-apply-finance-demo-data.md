@@ -1,24 +1,24 @@
 ---
 title: Gunakan data demo pada persekitaran berhos Awan Kewangan
-description: Topik ini menerangkan cara menggunakan data demo daripada Operasi Projek kepada persekitaran yang dihoskan oleh Awan Dynamics 365 Finance.
+description: Artikel ini menerangkan cara menggunakan data demo daripada Operasi Projek kepada persekitaran yang dihoskan oleh Awan Dynamics 365 Finance.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924671"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Gunakan data demo pada persekitaran berhos Awan Kewangan
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 > [!IMPORTANT]
-> Topik ini hanya boleh digunakan Microsoft Dynamics 365 Kewangan versi 10.0.13 dan boleh dilakukan hanya pada persekitaran yang dihoskan oleh Cloud. Lengkapkan langkah dalam topik ini **SEBELUM** anda menggunakan kemas kini kualiti kepada persekitaran.
+> Artikel ini hanya boleh digunakan Microsoft Dynamics 365 Kewangan versi 10.0.13 dan boleh dilakukan hanya pada persekitaran yang dihoskan oleh Cloud. Lengkapkan langkah dalam artikel **ini SEBELUM** anda menggunakan kemas kini kualiti pada persekitaran.
 
 1. Dalam projek LCS anda, buka halaman **Butiran persekitaran**. Perhatikan bahawa ia termasuk butiran yang diperlukan untuk menyambung ke persekitaran dengan menggunakan Protokol Desktop Jarak Jauh (RDP).
 

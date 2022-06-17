@@ -1,6 +1,6 @@
 ---
 title: Menyegerakkan anggaran projek terus dari Automasi Perkhidmatan Projek ke Kewangan dan Operasi
-description: Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek secara langsung dari Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance ke Dynamics 365 Finance.
+description: Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek terus dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920853"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Menyegerakkan anggaran projek terus dari Automasi Perkhidmatan Projek ke Kewangan dan Operasi
 
 [!include[banner](../includes/banner.md)]
 
-Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek secara langsung dari Dynamics 365 Project Service Automation Dynamics 365 Finance ke Dynamics 365 Finance.
+Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan anggaran jam projek dan anggaran perbelanjaan projek terus dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrasi tugas projek, kategori transaksi perbelanjaan, anggaran jam, anggaran perbelanjaan dan penguncian fungsi tersedia dalam versi 8.0.

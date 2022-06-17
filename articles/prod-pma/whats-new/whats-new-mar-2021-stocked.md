@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu atau yang diubah dalam Project Operations Mac 2021 untuk senario berdasarkan stok/pengeluaran
-description: Topik ini menyediakan maklumat tentang kemas kini kualiti yang tersedia pada bulan Mac 2021 keluaran Project Operations untuk senario berdasarkan stok/pengeluaran.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 Operasi Projek untuk senario berasaskan stok / pengeluaran.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911331"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Perkara baharu atau yang diubah dalam Project Operations Mac 2021 untuk senario berdasarkan stok/pengeluaran
 
 _**Digunakan Pada:** Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.17
 

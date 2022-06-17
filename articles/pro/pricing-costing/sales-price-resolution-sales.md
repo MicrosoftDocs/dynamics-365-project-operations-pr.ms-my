@@ -1,17 +1,17 @@
 ---
 title: Selesaikan harga jualan untuk anggaran dan aktual projek
-description: Topik ini memberikan maklumat tentang penyelesaian harga jualan untuk anggaran dan aktual projek.
+description: Artikel ini memberikan maklumat tentang menyelesaikan harga jualan pada anggaran projek dan sebenar.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9a6a19a866ab3218f2a0fa297b5f6a00ed809d2f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917495"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Selesaikan harga jualan untuk anggaran dan aktual projek
 

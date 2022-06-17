@@ -1,6 +1,6 @@
 ---
 title: Naik taraf daripada Automasi Perkhidmatan Projek kepada Operasi Projek
-description: Topik ini memberikan gambaran keseluruhan proses untuk menaik taraf dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations.
+description: Artikel ini memberikan gambaran keseluruhan proses untuk menaik taraf dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912987"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Naik taraf daripada Automasi Perkhidmatan Projek kepada Operasi Projek
 
-Kami teruja untuk mengumumkan fasa pertama daripada tiga fasa untuk naik taraf dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations. Topik ini memberikan gambaran keseluruhan untuk pelanggan yang memulakan perjalanan yang menarik ini. Topik masa depan akan merangkumi pertimbangan pembangun dan perincian mengenai peningkatan ciri. Mereka bukan sahaja akan memberikan panduan untuk membantu anda bersedia untuk menaik taraf anda kepada Operasi Projek tetapi juga menerangkan perkara yang anda boleh jangkakan selepas anda menaik taraf.
+Kami teruja untuk mengumumkan fasa pertama daripada tiga fasa untuk naik taraf dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations. Artikel ini memberikan gambaran keseluruhan untuk pelanggan yang memulakan perjalanan yang menarik ini. Artikel masa depan akan merangkumi pertimbangan pembangun dan perincian mengenai peningkatan ciri. Mereka bukan sahaja akan memberikan panduan untuk membantu anda bersedia untuk menaik taraf anda kepada Operasi Projek tetapi juga menerangkan perkara yang anda boleh jangkakan selepas anda menaik taraf.
 
 Program penghantaran naik taraf akan dibahagikan kepada tiga fasa.
 
@@ -90,7 +90,7 @@ Selepas anda mengemas kini penyesuaian anda untuk mengimport Operasi Projek deng
     > [!NOTE]
     > Bergantung pada jumlah data dalam persekitaran, naik taraf mungkin mengambil masa beberapa jam. Pasukan teras yang menguruskan naik taraf harus merancang dengan sewajarnya dan menjalankan peningkatan semasa waktu bukan perniagaan. Dalam sesetengah kes, jika jumlah data adalah besar, peningkatan harus dijalankan pada hujung minggu. Keputusan mengenai penjadualan harus berdasarkan keputusan ujian dalam persekitaran yang lebih rendah.
 
-3. Naik taraf penyelesaian tersuai mengikut kesesuaian. Pada ketika ini, gunakan sebarang perubahan yang anda buat pada penyesuaian anda di [bahagian Ujian dan penyusunan semula penyesuaian](#testing-and-refactoring-customizations) topik ini.
+3. Naik taraf penyelesaian tersuai mengikut kesesuaian. Pada ketika ini, gunakan sebarang perubahan yang anda buat pada penyesuaian anda di [bahagian Ujian dan refactoring penyesuaian](#testing-and-refactoring-customizations) artikel ini.
 4. Pergi ke **Penyelesaian** Tetapan \>**dan** pilih untuk menyahpasang **penyelesaian Komponen** Ditamatkan Operasi Projek.
 
     Penyelesaian ini adalah penyelesaian sementara yang memegang model dan komponen data sedia ada yang hadir semasa naik taraf. Dengan mengalih keluar penyelesaian ini, anda mengalih keluar semua medan dan komponen yang tidak lagi digunakan. Dengan cara ini, anda membantu memudahkan antara muka dan menjadikan integrasi dan sambungan lebih mudah.
@@ -126,7 +126,6 @@ Sebagai sebahagian daripada pelaburan berterusan dalam Operasi Projek, beberapa 
 | Automasi Perkhidmatan Projek                             | Operasi Projek Lite Penggunaan                        | Disokong               |
 | Dynamics 365 Finance Pengurusan Projek dan Perakaunan | Operasi Projek Lite Penggunaan                        | Tidak disokong buat masa ini |
 | Pengurusan Projek Kewangan dan Perakaunan              | Project Operations untuk senario sumber/tidak distok     | Tidak disokong buat masa ini |
-| Pengurusan Projek Kewangan dan Perakaunan              | Project Operations untuk senario pesanan distok/pengeluaran | Tidak disokong buat masa ini |
 | Automasi Perkhidmatan Projek 3.x                         | Project Operations untuk senario sumber/tidak distok     | Tidak disokong buat masa ini |
 | Projek untuk Web (persekitaran khusus)            | Operasi Projek Lite Penggunaan                        | Tidak disokong buat masa ini |
 

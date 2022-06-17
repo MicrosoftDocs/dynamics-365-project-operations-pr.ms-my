@@ -1,6 +1,6 @@
 ---
 title: Halaman utama perancangan projek
-description: Topik ini memberikan maklumat tentang perancangan projek.
+description: Artikel ini memberikan maklumat mengenai perancangan projek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919105"
 ---
 # <a name="project-planning-home-page"></a>Halaman utama perancangan projek
 
@@ -43,7 +43,7 @@ Alat pengurusan projek dalam PSA membantu anda menjalankan projek dengan mudah. 
 - Meramal keperluan sumber untuk projek yang berada dalam talian paip
 - Berjaya menyampaikan projek dengan menjejaki kemajuan dan penggunaan kos.
 
-Topik berikut memberikan maklumat yang akan membantu pengurus projek menganggarkan kerja, menganggarkan kos projek dan meramal keperluan sumber dengan menggunakan alat yang disokong dalam PSA:
+Artikel berikut memberikan maklumat yang akan membantu pengurus projek menganggarkan kerja, menganggarkan kos projek dan meramalkan keperluan sumber dengan menggunakan alat yang disokong dalam PSA:
 
 - [Mencipta jadual](project-creating.md)
 - [Menganggarkan kos dan hasil projek](project-estimating.md)

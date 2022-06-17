@@ -1,17 +1,17 @@
 ---
 title: Betulkan perakaunan dalam draf cadangan invois projek
-description: Topik ini menerangkan cara untuk melaraskan maklumat berkaitan perakaunan dalam draf cadangan invois.
+description: Artikel ini menerangkan cara melaraskan maklumat berkaitan perakaunan pada draf cadangan invois.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921221"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Betulkan perakaunan dalam draf cadangan invois projek
 
@@ -19,7 +19,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 *Butiran operasi* untuk invois projek diselenggarakan oleh pengurus projek dalam invois proforma. Butiran ini termasuk keputusan mengenai jam, perbelanjaan, bahan atau pencapaian yang mesti diinvois, kadar dan aplikasi amaun pendahuluan dan penahan. Selepas anda mengesahkan invois proforma asal, anda boleh melaraskan butiran operasi dengan mencipta dan mengesahkan [invois proforma pembetulan](../proforma-invoicing/corrective-invoices.md).
 
-*Butiran perakaunan* untuk invois projek diselenggarakan dalam dokumen invois bersemuka dengan pelanggan. Butiran ini termasuk pengiraan cukai jualan dan dimensi kewangan yang digunakan pada invois. Topik ini memberikan butiran mengenai cara butiran perakaunan ini boleh dilaraskan dalam draf cadangan invois projek.
+*Butiran perakaunan* untuk invois projek diselenggarakan dalam dokumen invois bersemuka dengan pelanggan. Butiran ini termasuk pengiraan cukai jualan dan dimensi kewangan yang digunakan pada invois. Artikel ini memberikan butiran tentang cara butiran perakaunan ini boleh dilaraskan pada draf cadangan invois projek.
 
 ## <a name="adjust-sales-tax"></a>Laraskan cukai jualan
 

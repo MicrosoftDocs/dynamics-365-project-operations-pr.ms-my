@@ -1,26 +1,26 @@
 ---
 title: Gunakan sumber boleh ditempah sebagai dimensi penentuan harga
-description: Topik ini memberikan maklumat tentang cara menggunakan sumber boleh ditempah sebagai dimensi penentuan harga.
+description: Artikel ini memberikan maklumat tentang cara menggunakan sumber yang boleh ditempah sebagai dimensi harga.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914827"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Gunakan sumber boleh ditempah sebagai dimensi penentuan harga
 
  _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_ 
 
-Topik ini memberikan maklumat tentang cara menggunakan sumber boleh ditempah sebagai dimensi penentuan harga. Jika strategi penentuan harga anda ditetapkan supaya setiap sumber boleh ditempah mesti mempunyai kadar harga atau kos tertentu, gunakan sumber boleh ditempah sebagai dimensi penentuan harga.
+Artikel ini memberikan maklumat tentang cara menggunakan sumber yang boleh ditempah sebagai dimensi harga. Jika strategi penentuan harga anda ditetapkan supaya setiap sumber boleh ditempah mesti mempunyai kadar harga atau kos tertentu, gunakan sumber boleh ditempah sebagai dimensi penentuan harga.
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum anda melengkapkan prosedur dalam topik ini, anda mesti mempunyai penyelesaian dimensi penentuan harga baharu untuk organisasi anda. Jika anda belum menciptanya, lihat [Cipta medan dan entiti tersuai](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Sebelum anda melengkapkan prosedur dalam artikel ini, anda mesti mempunyai penyelesaian dimensi harga baru untuk organisasi anda. Jika anda belum menciptanya, lihat [Cipta medan dan entiti tersuai](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Tambahkan medan Sumber Boleh Ditempah pada borang dan pandangan
 Untuk menjadikan medan **Sumber Boleh Ditempah** boleh dilihat dalam penyelesaian dimensi penentuan harga, anda perlu menambah medan kepada semua borang dan pandangan sebagai entiti.

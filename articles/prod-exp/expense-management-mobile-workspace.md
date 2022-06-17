@@ -1,6 +1,6 @@
 ---
 title: Ruang kerja mudah alih Pengurusan perbelanjaan
-description: Topik ini menyediakan maklumat tentang ruang kerja mudah alih pengurusan Perbelanjaan. Ruang kerja ini membolehkan pengguna mengambil dan memuat naik resit supaya ianya boleh melampirkannya ke laporan perbelanjaan kemudian. Pengguna juga boleh mencipta baris perbelanjaan dengan pantas menggunakan resit yang dilampirkan dan menguruskan laporan perbelanjaan mereka.
+description: Artikel ini memberikan maklumat tentang ruang kerja mudah alih pengurusan Perbelanjaan. Ruang kerja ini membolehkan pengguna mengambil dan memuat naik resit supaya ianya boleh melampirkannya ke laporan perbelanjaan kemudian. Pengguna juga boleh mencipta baris perbelanjaan dengan pantas menggunakan resit yang dilampirkan dan menguruskan laporan perbelanjaan mereka.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920899"
 ---
 # <a name="expense-management-mobile-workspace"></a>Ruang kerja mudah alih Pengurusan perbelanjaan
 
-Topik ini menyediakan maklumat tentang ruang kerja mudah alih **Pengurusan perbelanjaan**. Ruang kerja ini membolehkan pengguna mengambil dan memuat naik resit supaya ianya boleh melampirkannya ke laporan perbelanjaan kemudian. Pengguna juga boleh mencipta baris perbelanjaan dengan pantas menggunakan resit yang dilampirkan dan menguruskan laporan perbelanjaan mereka. Selain itu, pelulus boleh menggunakan ruang kerja mudah alih **Pengurusan perbelanjaan** untuk melihat laporan perbelanjaan yang ditugaskan kepadanya dan sama ada melulus atau menolak laporan perbelanjaan itu.
+Artikel ini memberikan maklumat tentang **ruang kerja mudah alih pengurusan** Perbelanjaan. Ruang kerja ini membolehkan pengguna mengambil dan memuat naik resit supaya ianya boleh melampirkannya ke laporan perbelanjaan kemudian. Pengguna juga boleh mencipta baris perbelanjaan dengan pantas menggunakan resit yang dilampirkan dan menguruskan laporan perbelanjaan mereka. Selain itu, pelulus boleh menggunakan ruang kerja mudah alih **Pengurusan perbelanjaan** untuk melihat laporan perbelanjaan yang ditugaskan kepadanya dan sama ada melulus atau menolak laporan perbelanjaan itu.
 
 
 Ruang kerja mudah alih ini bertujuan untuk digunakan bersama dengan aplikasi mudah alih Dynamics 365 Unified Ops.

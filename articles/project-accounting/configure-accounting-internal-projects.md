@@ -1,17 +1,17 @@
 ---
 title: Konfigurasi perakaunan untuk projek dalaman
-description: Topik ini menyediakan maklumat tentang cara untuk menyediakan amalan perakaunan bagi projek dalaman dalamProject Operations.
+description: Artikel ini memberikan maklumat tentang cara menyediakan amalan perakaunan untuk projek dalaman dalam Operasi Projek.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9da72d8dbf720e380a49a1010caca472ee024783
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7fc2b7247da699a194688b18aa0a695b06cc44c6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919473"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>Konfigurasi perakaunan untuk projek dalaman
 

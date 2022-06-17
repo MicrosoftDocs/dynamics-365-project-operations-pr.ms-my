@@ -1,19 +1,19 @@
 ---
-title: Batalkan invois vendor projek
-description: Topik ini menerangkan cara membatalkan invois vendor projek dalam Microsoft Dynamics 365 Project Operations dan kesan kewangan membatalkan invois vendor projek.
+title: Batal invois vendor projek
+description: Artikel ini menerangkan cara membatalkan invois vendor projek dalam Microsoft Dynamics 365 Project Operations dan kesan kewangan membatalkan invois vendor projek.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911561"
 ---
-# <a name="cancel-a-project-vendor-invoice"></a>Batalkan invois vendor projek
+# <a name="cancel-a-project-vendor-invoice"></a>Batal invois vendor projek
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

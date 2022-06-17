@@ -1,18 +1,18 @@
 ---
 title: Beli bahan bukan stok atau kategori perolehan menggunakan invois vendor yang belum selesai
-description: Topik ini menerangkan cara untuk merekodkan invois vendor yang belum selesai.
+description: Artikel ini menerangkan cara merakam invois vendor yang belum selesai.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922003"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Beli bahan bukan stok atau kategori perolehan menggunakan invois vendor yang belum selesai
 
@@ -23,7 +23,7 @@ Sebagai syarikat yang memperoleh bahan bukan stok atau kategori perolehan untuk 
 Contohnya, Contoso Robotics US sedang melakukan projek pembaharuan peralatan dan memerlukan lesen perisian. Lesen ini diperoleh daripada vendor pihak ketiga.  Dengan menggunakan Dynamics 365 Finance, kerani akaun yang perlu dibayar merekodkan dokumen invois vendor yang belum selesai dan mengaitkan kos lesen secara langsung terhadap projek pembaharuan peralatan. 
 
 > [!IMPORTANT]
-> Sebelum anda menggunakan kefungsian yang diterangkan dalam topik ini, semak dan gunakan konfigurasi yang diperlukan. Untuk maklumat lanjut, lihat [Mendayakan bahan tidak berstok dan invois](configure-materials-nonstocked.md) vendor yang belum selesai dan [Menggunakan kategori perolehan dengan pesanan pembelian projek dan invois vendor yang belum selesai](configure-procurement-categories.md)
+> Sebelum anda menggunakan kefungsian yang diterangkan dalam artikel ini, semak dan gunakan konfigurasi yang diperlukan. Untuk maklumat lanjut, lihat [Mendayakan bahan tidak berstok dan invois](configure-materials-nonstocked.md) vendor yang belum selesai dan [Menggunakan kategori perolehan dengan pesanan pembelian projek dan invois vendor yang belum selesai](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Siarkan invois vendor berkaitan projek yang belum selesai 
 

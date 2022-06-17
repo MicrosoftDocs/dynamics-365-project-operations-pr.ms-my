@@ -1,17 +1,17 @@
 ---
 title: Tetapkan kadar kos buruh
-description: Topik ini menyediakan maklumat mengenai cara untuk menetapkan kadar bagi kos buruh Operasi Projek
+description: Artikel ini memberikan maklumat tentang cara menetapkan kadar untuk kos Operasi Projek buruh
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96c74195209641f31e84af9159241123559fab17
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5216c0af29eb33ce664857b1f42b4a3130f02c50
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924257"
 ---
 # <a name="set-up-labor-cost-rates"></a>Tetapkan kadar kos buruh
 

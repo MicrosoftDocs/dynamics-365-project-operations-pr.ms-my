@@ -1,6 +1,6 @@
 ---
 title: Ruang kerja entri masa Projek
-description: Topik ini memberikan maklumat tentang ruang kerja mudah alih entri masa Projek. Ruang kerja ini membolehkan pengguna memasukkan dan menjimatkan masa terhadap projek dengan menggunakan peranti mudah alih mereka.
+description: Artikel ini menyediakan maklumat tentang ruang kerja mudah alih masukan masa Projek. Ruang kerja ini membolehkan pengguna memasukkan dan menjimatkan masa terhadap projek dengan menggunakan peranti mudah alih mereka.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919552"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Ruang kerja entri masa Projek
 
 [!include [banner](../includes/banner.md)]
 
-Topik ini memberikan maklumat tentang ruang kerja mudah alih **entri masa Projek** . Ruang kerja ini membolehkan pengguna memasukkan dan menjimatkan masa terhadap projek dengan menggunakan peranti mudah alih mereka.
+Artikel ini menyediakan maklumat tentang **ruang kerja mudah alih masukan** masa Projek. Ruang kerja ini membolehkan pengguna memasukkan dan menjimatkan masa terhadap projek dengan menggunakan peranti mudah alih mereka.
 
 Ruang kerja mudah alih ini bertujuan untuk digunakan bersama dengan aplikasi mudah alih Dynamics 365 Unified Ops. 
 

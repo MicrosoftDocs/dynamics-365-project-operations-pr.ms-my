@@ -1,24 +1,24 @@
 ---
 title: Ciri baharu Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
-description: Topik ini menyediakan maklumat mengenai kemas kini berkualiti yang tersedia dalam keluaran Jun 2021 Project Operations untuk senario berdasarkan sumber/tidak distok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Operasi Projek Jun 2021 untuk senario berasaskan sumber /tidak berstok.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910595"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Jun 2021 - Project Operations untuk senario berdasarkan sumber/tidak distok
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Project Operations dalam persekitaran Dynamics 365 Dataverse versi 4.11.0.156 atau 4.11.0.164.
 - Pengurusan projek dan perakaunan dalam persekitaran aplikasi Kewangan dan Operasi versi 10.0.19.

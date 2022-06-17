@@ -1,25 +1,25 @@
 ---
 title: Selesaikan masalah kerja dalam grid Tugas
-description: Topik ini menyediakan maklumat penyelesaian masalah yang diperlukan apabila menggunakan grid Tugas.
+description: Artikel ini menyediakan maklumat penyelesaian masalah yang diperlukan semasa bekerja dalam grid Tugas.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911055"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Selesaikan masalah kerja dalam grid Tugas 
 
 
 _**Digunakan Untuk:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Lite - urusan untuk penginvoisan proforma, Project for the web_
 
-Grid Tugas yang dimanfaatkan oleh Dynamics 365 Project Operations adalah iframe berhos dalam Microsoft Dataverse. Hasil daripada penggunaan ini, keperluan khusus mesti dipenuhi untuk memastikan pengesahan dan kelulusan berfungsi dengan betul. Topik ini menggariskan isu lazim yang boleh mempengaruhi keupayaan untuk memaparkan grid atau mengurus tugas dalam struktur pecahan kerja (WBS).
+Grid Tugas yang dimanfaatkan oleh Dynamics 365 Project Operations adalah iframe berhos dalam Microsoft Dataverse. Hasil daripada penggunaan ini, keperluan khusus mesti dipenuhi untuk memastikan pengesahan dan kelulusan berfungsi dengan betul. Artikel ini menggariskan isu umum yang boleh memberi kesan kepada keupayaan untuk menjadikan grid atau menguruskan tugas dalam struktur pecahan kerja (WBS).
 
 Isu lazim termasuk:
 

@@ -1,24 +1,24 @@
 ---
 title: Pelaksanaan capaian awal gelombang 2 ciri baharu 2021 - Project Operations ringan
-description: Topik ini memberikan maklumat tentang ciri yang tersedia dalam pelaksanaankeluaran capaian awal Project Operations gelombang 2 tahun 2021 ringan.
+description: Artikel ini memberikan maklumat tentang ciri-ciri yang tersedia dalam keluaran akses awal 2021 gelombang 2 bagi penggunaan Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924119"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Pelaksanaan capaian awal gelombang 2 ciri baharu 2021 - Project Operations ringan
 
 _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
   - Project Operations pada persekitaran Dataverse versi 4.23.0.4
 

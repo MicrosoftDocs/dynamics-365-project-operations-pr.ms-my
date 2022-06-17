@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu Mei 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mei 2022 Microsoft Dynamics 365 Project Operations untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini menyediakan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mei 2022 Microsoft Dynamics 365 Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921405"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Mei 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
+Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
 
 - Operasi Projek dalam versi persekitaran 4.42.0.70 Dataverse
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.26
@@ -38,10 +38,10 @@ Jika anda menghadapi isu apabila anda memulakan peta, ikut arahan dalam [isu laj
 | --- | --- | --- |
 | Pengurusan sumber | 2634019 | Mesej ralat yang dipertingkatkan untuk pengesahan perniagaan apabila menambah ahli pasukan generik sebagai sumber. |
 | Perancangan dan penjejakan projek | 2648515 | Kemas kini **terhad id pemilik**, **keadaan**, dan **status** dalam entiti penjadualan. |
-| Pengebilan dan harga | 2653167 | Pemisah **perpuluhan grid Anggaran** mesti mengikut seting format dalam **Opsyen Peribadi**. |
+| Pengebilan dan harga | 2653167 | Pemisah **perpuluhan grid Anggaran** mesti mengikut seting format dalam **Opsyen** Peribadi. |
 | Pengebilan dan harga| 2662251 | Nilai dalam **unit** yang diperbetulkan dan **medan kumpulan** Unit lalai apabila mencipta rekod dalam anggaran bahan. |
 | Pengebilan dan harga| 2571408 | Sebenar jualan yang tidak dibilkan dicop dengan ID invois proforma semasa membuat invois draf. |
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
 
-Untuk maklumat tentang pembetulan pepijat yang disertakan dalam kemas kini ini, log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan lihat [artikel KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Untuk maklumat tentang pembetulan pepijat yang disertakan dalam kemas kini ini, log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan lihat [artikel](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864) KB.

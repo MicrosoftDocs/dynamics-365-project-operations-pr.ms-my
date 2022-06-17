@@ -1,21 +1,21 @@
 ---
-title: Daftar untuk langganan pratonton - lite
-description: Topik ini memberikan maklumat mengenai cara untuk melanggan dan melaksanakan pelaksanaan lite Project Operations - berurusan dengan penginvoisan proforma.
+title: Daftar untuk langganan pratonton - (ringan)
+description: Artikel ini memberikan maklumat tentang cara melanggan dan menggunakan penggunaan Project Operations lite - berurusan dengan proforma invois.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921267"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Daftar untuk langganan pratonton - (ringan) 
 
-Topik ini menerangkan cara untuk melanggan tawaran percubaan dan mengatur letak Dynamics 365 Project Operations pelaksanaan ringan - urusan untuk penginvoisan proforma.
+Artikel ini menerangkan cara melanggan tawaran percubaan dan menggunakan Dynamics 365 Project Operations penggunaan lite - berurusan dengan proforma invoicing.
 
 > [!NOTE]
 > Proses ini akan berubah dalam keluaran Project Operations yang akan datang.
@@ -50,7 +50,7 @@ Sebelum anda mulakan, pastikan anda dilog masuk ke pelayar dengan akaun kerja pe
 
 ## <a name="create-a-new-dataverse-environment"></a>Cipta persekitaran Dataverse baharu
 
-1. Peruntukkan persekitaran pelaksanaan Project Operations Dataverse dengan mengikuti arahan berikut dalam topik, [Model pelaksanaan Dataverse](lite-deployment.md). Apabila anda memilih jenis persekitaran, pastikan untuk menggunakan **Percubaan (Berasaskan langganan)**.
+1. Sediakan persekitaran penggunaan Operasi Dataverse Projek baru dengan mengikuti arahan dalam artikel, [Dataverse model penggunaan](lite-deployment.md). Apabila anda memilih jenis persekitaran, pastikan untuk menggunakan **Percubaan (Berasaskan langganan)**.
 
   ![Persekitaran baharu.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Sebelum anda mulakan, pastikan anda dilog masuk ke pelayar dengan akaun kerja pe
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Pasangkan konfigurasi CDS dan data demo persediaan
 
-Pasang konfigurasi CDS dan sediakan data demo dengan mengikut arahan berikut dalam topik, [Gunakan persediaan demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
+Pasang konfigurasi CDS dan sediakan data demo dengan mengikuti arahan dalam artikel, [Gunakan persediaan demo dan data konfigurasi](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

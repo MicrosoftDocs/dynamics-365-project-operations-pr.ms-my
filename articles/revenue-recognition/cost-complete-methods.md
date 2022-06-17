@@ -1,23 +1,23 @@
 ---
 title: Kos untuk melengkapkan kaedah
-description: Topik ini memberikan maklumat tentang kaedah yang digunakan untuk mengira kos untuk melengkapkan projek.
+description: Artikel ini memberikan maklumat mengenai kaedah yang digunakan untuk mengira kos untuk menyelesaikan projek.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920301"
 ---
 # <a name="cost-to-complete-methods"></a>Kos untuk melengkapkan kaedah
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini memberikan maklumat tentang kaedah yang digunakan untuk mengira kos untuk melengkapkan projek. Terdapat berbilang kaedah yang boleh anda gunakan untuk mengira kos untuk melengkapkan projek. 
+Artikel ini memberikan maklumat mengenai kaedah yang digunakan untuk mengira kos untuk menyelesaikan projek. Terdapat berbilang kaedah yang boleh anda gunakan untuk mengira kos untuk melengkapkan projek. 
 
 Apabila anda mencipta anggaran untuk projek, pada halaman **Cipta anggaran**, dalam medan **Kos untuk melengkapkan kaedah**, anda boleh memilih salah satu daripada kos berikut untuk melengkapkan kaedah.
 

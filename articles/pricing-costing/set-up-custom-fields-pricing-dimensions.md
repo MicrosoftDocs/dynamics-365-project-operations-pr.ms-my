@@ -1,6 +1,6 @@
 ---
 title: Sediakan medan tersuai sebagai dimensi penentuan harga
-description: Topik ini menyediakan maklumat tentang penyediaan dimensi penetapan harga menggunakan medan tersuai.
+description: Artikel ini memberikan maklumat tentang cara menyediakan dimensi harga menggunakan medan tersuai.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917587"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Sediakan medan tersuai sebagai dimensi penentuan harga
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Sebelum anda bermula, topik ini mengandaikan bahawa anda telah melengkapkan prosedur dalam topik, [Cipta medan dan entiti tersuai](create-custom-fields-entities-pricing-dimensions.md) dan [Tambah medan tersuai kepada persediaan harga dan entiti transaksi yang diperlukan](add-custom-fields-price-setup-transactional-entities.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkan mereka dan kemudian kembali ke topik ini. 
+Sebelum anda memulakan, artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti](create-custom-fields-entities-pricing-dimensions.md) tersuai dan [Tambah medan tersuai yang diperlukan untuk persediaan harga dan entiti transaksi](add-custom-fields-price-setup-transactional-entities.md). Sekiranya anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkannya dan kemudian kembali ke artikel ini. 
 
-Topik ini memberikan maklumat tentang penyediaan dimensi penetapan harga tersuai. Pada halaman **Parameter**, tab **Dimensi Penetapan Harga Berasaskan Amaun** menunjukkan rekod dalam entiti dimensi penetapan harga. Secara lalai, terdapat dua baris dalam grid pada tab ini:
+Artikel ini memberikan maklumat mengenai penyediaan dimensi harga tersuai. Pada halaman **Parameter**, tab **Dimensi Penetapan Harga Berasaskan Amaun** menunjukkan rekod dalam entiti dimensi penetapan harga. Secara lalai, terdapat dua baris dalam grid pada tab ini:
 
 - **msdyn_resourcecategory** (Peranan)
 - **msdyn_OrganizationalUnit** (Unit Organisasi)

@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu April 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran April 2022 Microsoft Dynamics 365 Project Operations untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini menyediakan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran April 2022 Microsoft Dynamics 365 Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912389"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu April 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
+Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
 
 - Operasi Projek dalam versi persekitaran 4.41.0.45 Dataverse
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.26
@@ -58,4 +58,4 @@ Jika anda menghadapi isu apabila anda memulakan peta, ikut arahan dalam [isu laj
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
 
-Untuk maklumat tentang pembetulan pepijat yang disertakan dalam kemas kini ini, log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan lihat [artikel KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864).
+Untuk maklumat tentang pembetulan pepijat yang disertakan dalam kemas kini ini, log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan lihat [artikel](https://fix.lcs.dynamics.com/Issue/Details?bugId=662864) KB.

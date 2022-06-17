@@ -1,6 +1,6 @@
 ---
 title: Sebut harga - Konsep utama
-description: Topik ini menyediakan maklumat tentang sebut harga projek dan jualan yang tersedia dalam Project Operations.
+description: Artikel ini memberikan maklumat tentang sebut harga projek dan sebut harga jualan yang tersedia dalam Operasi Projek.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912527"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Konsep unik untuk Sebut harga berdasarkan projek
 
@@ -35,7 +35,7 @@ Dalam Dynamics 365 Project Operations, terdapat dua jenis sebut harga, projek da
 - **Medan dan konsep**: Sebut harga jualan tidak termasuk beberapa medan dan konsep yang disertakan pada sebut harga projek. Medan termasuk **Unit Kontrak**, **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.  
 - **Jenis**: Sebut harga jualan dan projek juga dikenal pasti oleh medan berasaskan set pilihan, **Jenis**. Untuk sebut harga jualan, medan ini mempunyai nilai **Berasaskan item**. Untuk sebut harga projek, ia mempunyai nilai **Berasaskan kerjas**.
 
-Topik ini menumpu kepada butiran sebut harga projek.
+Artikel ini memberi tumpuan kepada butiran petikan projek.
 
 Sebut harga projek dalam Project Operations boleh mempunyai berbilang baris item atau baris sebut harga. Malah, sebut harga projek mempunyai dua grid untuk item baris. Salah satu grid untuk projek berasaskan baris yang membolehkan anggaran terperinci. Grid lain ialah untuk talian berasaskan produk yang menggunakan harga unit ringkas dan pendekatan berasaskan kuantiti.
 

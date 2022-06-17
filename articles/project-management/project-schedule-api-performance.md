@@ -1,28 +1,28 @@
 ---
 title: Prestasi API jadual Projek
-description: Topik ini menyediakan maklumat mengenai penanda aras prestasi API jadual Projek dan mengenal pasti amalan terbaik untuk kegunaan optimum.
+description: Artikel ini memberikan maklumat tentang penanda aras prestasi API jadual Projek dan mengenal pasti amalan terbaik untuk kegunaan optimum.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911193"
 ---
 # <a name="project-schedule-api-performance"></a>Prestasi API jadual Projek
 
 _**Digunakan Untuk:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Lite - urusan untuk penginvoisan proforma, Project for the web_
 
-Topik ini menyediakan maklumat mengenai penanda aras prestasi antara muka pengaturcaraan aplikasi (API) jadual Projek dan mengenal pasti amalan terbaik untuk penggunaan optimum.
+Artikel ini memberikan maklumat tentang penanda aras prestasi antara muka pengaturcaraan aplikasi jadual Projek (API) dan mengenal pasti amalan terbaik untuk mengoptimumkan penggunaan.
 
 ## <a name="project-scheduling-service"></a>Perkhidmatan Penjadualan Projek
 Perkhidmatan Penjadualan Projek ialah perkhidmatan berbilang penyewa yang berjalan dalam Microsoft Azure. Ia direka bentuk untuk meningkatkan interaksi dengan menyediakan pengalaman pantas dan bendalir apabila pengguna mengusahakan projek. Penambahbaikan ini dicapai dengan menerima permintaan perubahan, memproses perubahan itu, kemudian mengembalikan hasil dengan serta-merta. Perkhidmatan berlanjutan kepada Dataverse secara tidak segerak dan tidak menyekat pengguna daripada melakukan operasi lain.
 
-API jadual Projek bergantung pada Perkhidmatan Penjadualan Projek untuk menjalankan permintaan yang diterangkan dengan lebih terperinci dalam bahagian topik ini yang seterusnya.
+API jadual Projek bergantung pada Perkhidmatan Penjadualan Projek untuk menjalankan permintaan yang diterangkan dengan lebih terperinci dalam bahagian kemudian artikel ini.
 
 API jadual Projek direka bentuk untuk berfungsi dengan entiti struktur pecahan kerja (WBS) berikut:
 

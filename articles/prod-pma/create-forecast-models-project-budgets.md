@@ -1,6 +1,6 @@
 ---
 title: Cipta model ramalan untuk belanjawan projek
-description: Topik ini menerangkan cara untuk mencipta model ramalan untuk belanjawan selebihnya.
+description: Artikel ini menerangkan cara membuat model ramalan untuk baki belanjawan.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916713"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Cipta model ramalan untuk belanjawan projek 
 
 [!include [banner](../includes/banner.md)]
 
-Topik ini menerangkan cara untuk mencipta model ramalan untuk belanjawan selebihnya. Projek yang tertakluk kepada kawalan belanjawan menggunakan dua jenis belanjawan: asal dan selebihnya. Apabila anda mencipta belanjawan projek, anda mesti menentukan model ramalan belanjawan asal dan selebihnya yang dicipta dalam halaman **Model ramalan**. Belanjawan projek berdasarkan model yang ditentukan dicipta apabila anda melaksanakan belanjawan projek.
+Artikel ini menerangkan cara membuat model ramalan untuk baki belanjawan. Projek yang tertakluk kepada kawalan belanjawan menggunakan dua jenis belanjawan: asal dan selebihnya. Apabila anda mencipta belanjawan projek, anda mesti menentukan model ramalan belanjawan asal dan selebihnya yang dicipta dalam halaman **Model ramalan**. Belanjawan projek berdasarkan model yang ditentukan dicipta apabila anda melaksanakan belanjawan projek.
 
 > [!NOTE]
 > Model ramalan yang digunakan untuk kawalan belanjawan tidak boleh mempunyai submodel atau digunakan sebagai submodel.

@@ -1,23 +1,23 @@
 ---
 title: Konfigurasikan integrasi Operasi Projek setiap entiti sah
-description: Topik ini memberikan maklumat tentang penyediaan integrasi oleh entiti sah dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang menyediakan penyepaduan oleh entiti undang-undang dalam Operasi Projek.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914689"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurasikan integrasi Operasi Projek setiap entiti sah 
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini membimbing anda melalui langkah yang diperlukan untuk mengkonfigurasi Dynamics 365 Project Operations setiap entiti undang-undang.
+Artikel ini membimbing anda melalui langkah-langkah yang diperlukan untuk mengkonfigurasi Dynamics 365 Project Operations setiap entiti undang-undang.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Mendayakan kekunci ciri dalam Dynamics 365 Finance
 
