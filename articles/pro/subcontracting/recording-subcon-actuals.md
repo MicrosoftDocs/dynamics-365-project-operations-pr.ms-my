@@ -1,17 +1,17 @@
 ---
 title: Merekod masa, perbelanjaan dan penggunaan bahan untuk komponen yang disubkontrak
-description: Topik ini menerangkan bagaimana masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dijejaki oleh Microsoft Dynamics 365 Project Operations.
+description: Artikel ini menerangkan bagaimana masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dijejaki oleh Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927661"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Merakam masa, perbelanjaan, dan penggunaan bahan pada projek untuk komponen subkontrak
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599235"
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Topik ini menerangkan bagaimana masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dijejaki oleh Microsoft Dynamics 365 Project Operations.
+Artikel ini menerangkan bagaimana masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dijejaki oleh Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Kos untuk masa subkontraktor pada projek
 Dalam Operasi Projek, pekerja kontrak boleh merekodkan masa pada projek dengan cara yang sama seperti pekerja. Apabila memasukkan masa pada projek dan/atau tugas projek, pekerja kontrak boleh memilih garis subkontrak dan subkontrak tertentu.

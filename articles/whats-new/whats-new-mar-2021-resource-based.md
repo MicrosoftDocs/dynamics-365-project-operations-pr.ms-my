@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu Mac 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 Operasi Projek untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932951"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Mac 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Project Operations pada persekitaran Dataverse versi 4.8.0.91 
 - Pengurusan projek dan perakaunan pada persekitaran Dynamics 365 Finance versi 10.0.16 

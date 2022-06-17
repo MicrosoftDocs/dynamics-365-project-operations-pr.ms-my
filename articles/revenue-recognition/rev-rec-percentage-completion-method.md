@@ -1,17 +1,17 @@
 ---
 title: Projek anggaran hasil harga tetap
-description: Topik ini memberikan maklumat tentang hasil harga tetap dalam projek.
+description: Artikel ini memberikan maklumat mengenai pendapatan harga tetap dalam projek.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3febb22397faa31222015231481d43fb0449d0a2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928397"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projek anggaran hasil harga tetap 
 

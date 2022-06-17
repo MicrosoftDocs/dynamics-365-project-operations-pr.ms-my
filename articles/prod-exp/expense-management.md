@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan Pengurusan perbelanjaan
-description: Topik ini menyediakan maklumat am tentang Pengurusan perbelanjaan dan pautan kepada sumber tambahan. Anda boleh menggunakan Pengurusan perbelanjaan untuk mencipta aliran kerja tersepadu yang anda boleh menyimpan maklumat kaedah pembayaran, mengimport transaksi kad kredit dan menjejak wang yang dibelanjakan oleh pekerja apabila mereka menanggung perbelanjaan untuk perniagaan anda.
+description: Artikel ini memberikan maklumat umum mengenai pengurusan Perbelanjaan dan pautan ke sumber tambahan. Anda boleh menggunakan Pengurusan perbelanjaan untuk mencipta aliran kerja tersepadu yang anda boleh menyimpan maklumat kaedah pembayaran, mengimport transaksi kad kredit dan menjejak wang yang dibelanjakan oleh pekerja apabila mereka menanggung perbelanjaan untuk perniagaan anda.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934055"
 ---
 # <a name="expense-management-overview"></a>Gambaran keseluruhan Pengurusan perbelanjaan
 

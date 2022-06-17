@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu Februari 2022 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Februari 2022 Operasi Projek untuk senario berasaskan sumber / tidak berstok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Februari 2022 Operasi Projek untuk senario berasaskan sumber/tidak berstok.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932997"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Februari 2022 - Project Operations untuk senario berasaskan sumber/bukan stok
 
 *Digunakan Pada: Project Operations untuk senario berdasarkan sumber/tidak distok*
 
-Topik ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
+Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
 
 - Operasi Projek dalam versi persekitaran 4.28.0.120 Dataverse
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.24
@@ -76,11 +76,11 @@ Jika anda menghadapi isu apabila anda memulakan peta, ikut arahan dalam [isu laj
 
 ## <a name="removed-and-deprecated-features"></a>Ciri yang dialih keluar dan ditamatkan
 
-Ciri [Dialih keluar atau ditamatkan dalam topik Operasi](removed-depreciated-features-project.md) Projek menerangkan ciri yang telah dialih keluar atau ditamatkan untuk Dynamics 365 Project Operations.
+Ciri [yang dialih keluar atau ditamatkan dalam artikel Operasi](removed-depreciated-features-project.md) Projek menerangkan ciri yang telah dialih keluar atau ditamatkan untuk Dynamics 365 Project Operations.
 
 - Ciri dialih keluar tidak lagi tersedia dalam produk.
 - Ciri yang telah lapuk tidak berada dalam pembangunan aktif dan mungkin dialih keluar dalam kemas kini akan datang.
 
-Pengumuman penamatan akan muncul dalam [ciri Dialih keluar atau ditamatkan dalam topik Operasi](removed-depreciated-features-project.md) Projek 12 bulan sebelum sebarang ciri dialih keluar daripada produk.
+Pengumuman penamatan akan muncul dalam [ciri Dialih keluar atau ditamatkan dalam artikel Operasi](removed-depreciated-features-project.md) Projek 12 bulan sebelum sebarang ciri dialih keluar daripada produk.
 
 Untuk memecahkan perubahan yang hanya menjejaskan masa kompilasi, tetapi binari serasi dengan persekitaran kotak pasir dan pengeluaran, masa penamatan akan kurang daripada 12 bulan. Biasanya, perubahan ini adalah kemas kini berfungsi yang mesti dibuat kepada pengkompil.

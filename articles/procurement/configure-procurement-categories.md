@@ -1,18 +1,18 @@
 ---
 title: Gunakan kategori perolehan dengan pesanan pembelian projek dan invois vendor yang belum selesai
-description: Topik ini menerangkan cara mengkonfigurasi kategori perolehan yang boleh digunakan dengan pesanan pembelian projek dan invois vendor yang belum selesai.
+description: Artikel ini menerangkan cara mengkonfigurasi kategori perolehan yang boleh digunakan dengan pesanan pembelian projek dan invois vendor yang belum selesai.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927431"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Gunakan kategori perolehan dengan pesanan pembelian projek dan invois vendor yang belum selesai
 
@@ -47,7 +47,7 @@ Ikuti langkah ini untuk memetakan kategori projek kepada kategori perolehan dala
 
 1. Pergi ke **kategori \> Perolehan dan Penyumberan** Perolehan.
 1. Pilih **Edit hierarki** kategori.
-1. Pilih nod hierarki kategori yang dikehendaki, kemudian, pada **tab Tugaskan kategori** projek, kaitkan nod dengan kategori projek daripada **kategori Masa**, Perbelanjaan**, atau **,Item Projek** (iaitu kategori **Masa-Masa** atau **Perbelanjaan** Lalai).
+1. Pilih nod hierarki kategori yang dikehendaki, kemudian, pada **tab Peruntukkan kategori** projek, kaitkan nod dengan kategori projek daripada **kategori Masa**, **Perbelanjaan** atau, **Projek** Item (iaitu kategori **Masa-Masa atau** Perbelanjaan **Lalai**).
 1. Pilih **Simpan**.
 1. Tutup halaman.
 

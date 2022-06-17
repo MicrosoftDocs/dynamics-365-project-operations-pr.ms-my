@@ -1,23 +1,23 @@
 ---
 title: Jenis tempoh
-description: Topik ini menyediakan maklumat tentang cara menyediakan jenis tempoh untuk anggaran hasil..
+description: Artikel ini memberikan maklumat tentang cara menyediakan jenis tempoh untuk anggaran pendapatan.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930973"
 ---
 # <a name="period-types"></a>Jenis tempoh
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Jenis tempoh mentakrifkan kekerapan hasil pada projek dianggarkan. Topik ini menyediakan maklumat tentang cara menyediakan jenis tempoh untuk anggaran hasil.. 
+Jenis tempoh mentakrifkan kekerapan hasil pada projek dianggarkan. Artikel ini memberikan maklumat tentang cara menyediakan jenis tempoh untuk anggaran pendapatan. 
 
 ## <a name="create-and-work-with-period-types"></a>Cipta dan bekerja dengan jenis tempoh
 Untuk mencipta dan bekerja dengan jenis tempoh, lengkapkan langkah berikut:

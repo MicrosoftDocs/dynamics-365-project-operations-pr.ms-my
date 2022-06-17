@@ -1,6 +1,6 @@
 ---
-title: Perubahan ciri daripada Automasi Perkhidmatan Projek kepada Operasi Projek
-description: Topik ini memberikan gambaran keseluruhan perubahan ciri daripada Automasi Perkhidmatan Projek kepada Dynamics 365 Project Operations.
+title: Perubahan ciri daripada Project Service Automation kepada Project Operations
+description: Artikel ini memberikan gambaran keseluruhan perubahan ciri daripada Automasi Perkhidmatan Projek kepada Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925361"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Perubahan ciri daripada Automasi Perkhidmatan Projek kepada Operasi Projek
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Perubahan ciri daripada Project Service Automation kepada Project Operations
 
-Peningkatan dari Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations Lite akan dihantar dalam tiga fasa. Topik ini memberikan maklumat tentang perubahan utama yang anda boleh jangkakan untuk melihat apabila naik taraf selesai.
+Peningkatan dari Dynamics 365 Project Service Automation ke Dynamics 365 Project Operations Lite akan dihantar dalam tiga fasa. Artikel ini menyediakan maklumat tentang perubahan besar yang anda boleh jangkakan untuk melihat apabila naik taraf selesai.
 
 | Naik taraf penghantaran | Fasa 1 <br>(Januari 2022) | Fasa 2 <br>(Gelombang April 2022) | Fasa 3  |
 |------------------|------------------------|---------------------------|---------------------------|

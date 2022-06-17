@@ -1,17 +1,17 @@
 ---
 title: Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
-description: Topik ini memberikan maklumat dan sampel untuk penggunaan API jadual Projek.
+description: Artikel ini menyediakan maklumat dan sampel untuk menggunakan API jadual Projek.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929225"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
 

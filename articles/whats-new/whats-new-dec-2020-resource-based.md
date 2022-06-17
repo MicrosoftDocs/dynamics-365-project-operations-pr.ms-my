@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Disember 2020 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran Januari 2020 Operasi Projek untuk senario berasaskan sumber / tidak berstok.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933043"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Project Operations pada persekitaran Dataverse versi 4.5.0.134
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.15

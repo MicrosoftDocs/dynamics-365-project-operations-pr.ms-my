@@ -1,24 +1,24 @@
 ---
 title: Apa yang baru atau berubah dalam Operasi Projek, Oktober 2021 untuk senario berasaskan stok/pengeluaran
-description: Topik ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 Operasi Projek untuk senario berasaskan stok / pengeluaran.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 Operasi Projek untuk senario berasaskan stok / pengeluaran.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933687"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Apa yang baru atau berubah dalam Operasi Projek, Oktober 2021 untuk senario berasaskan stok/pengeluaran
 
 _**Digunakan Pada:** Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Topik ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
+Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
 
 - Pengurusan projek dan perakaunan dalam persekitaran yang Dynamics 365 Finance versi 10.0.22
  

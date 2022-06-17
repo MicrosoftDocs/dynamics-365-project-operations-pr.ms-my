@@ -1,6 +1,6 @@
 ---
 title: Aktual
-description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan aktual dalam Microsoft Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang cara bekerja dengan sebenar dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924809"
 ---
 # <a name="actuals"></a>Aktual
 
@@ -33,7 +33,7 @@ Aktual mewakili kemajuan kewangan dan jadual yang disemak dan diluluskan untuk s
 
 Operasi Projek merekodkan transaksi kewangan yang berlaku semasa kitaran hayat penglibatan projek sebagai sebenar. Penciptaan sebenar pada pelbagai acara dalam kitaran hayat berbeza-beza, bergantung pada sama ada penglibatan projek menggunakan model pengebilan masa dan bahan atau model pengebilan harga tetap, dan sama ada ia berada di peringkat pra-penjualan atau projek dalaman.
 
-Topik berikut menerangkan kesan pada jadual Sebenar pada pelbagai acara untuk variasi yang berbeza:
+Artikel berikut menerangkan kesan pada jadual Sebenar pada pelbagai acara untuk variasi yang berbeza:
 
 - [Kesan sebenar dalam penglibatan masa dan bahan](ActualsonTM.md)
 - [Kesan sebenar dalam penglibatan harga tetap](ActualonFP.md)

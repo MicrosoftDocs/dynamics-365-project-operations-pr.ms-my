@@ -1,17 +1,17 @@
 ---
 title: Urus berbilang pelanggan pada baris sebut harga berdasarkan projek - ringan
-description: Topik ini menerangkan cara mengurus berbilang pelanggan pada baris sebut harga berasaskan projek.
+description: Artikel ini menerangkan cara menguruskan berbilang pelanggan pada baris sebut harga berasaskan projek.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a6247c572284a5832cf2953578c98f6454e39dda
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927799"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Urus berbilang pelanggan pada baris sebut harga berdasarkan projek - ringan
 

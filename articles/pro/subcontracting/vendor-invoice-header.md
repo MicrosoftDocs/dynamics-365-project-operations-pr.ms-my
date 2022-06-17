@@ -1,17 +1,17 @@
 ---
 title: Butiran pengepala untuk invois vendor
-description: Topik ini menerangkan fungsi yang disediakan pada pengepala invois vendor dalam Microsoft Dynamics 365 Project Operations.
+description: Artikel ini menerangkan fungsi yang disediakan pada pengepala invois vendor dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929869"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Butiran pengepala untuk invois vendor
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575591"
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Topik ini menerangkan fungsi yang disediakan pada pengepala invois vendor dalam Microsoft Dynamics 365 Project Operations.
+Artikel ini menerangkan fungsi yang disediakan pada pengepala invois vendor dalam Microsoft Dynamics 365 Project Operations.
 
 Apabila pengurus projek merancang dan melaksanakan projek, mereka mungkin menggunakan subkontraktor dan membeli produk dan perkhidmatan daripada vendor. Semasa pelaksanaan projek, kos ditanggung daripada kategori perkhidmatan, bahan, dan perbelanjaan yang diperoleh pada subkontrak dengan vendor. Vendor menginvois kos ini kepada projek dengan membuat invois vendor.
 

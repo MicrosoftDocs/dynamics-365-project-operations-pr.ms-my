@@ -1,17 +1,17 @@
 ---
 title: Baris subkontrak untuk produk
-description: Topik ini menerangkan cara merekodkan baris subkontrak untuk produk dan menggunakan pelbagai medan untuk merekodkan pembelian produk daripada vendor.
+description: Artikel ini menerangkan cara merakam baris subkontrak untuk produk dan menggunakan pelbagai bidang untuk merakam pembelian produk dari vendor.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 71e4a48c3d29d7ea5b015f6c6797da60001fccff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff9636f86102fa671a443d7646614070b3e2ee79
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934377"
 ---
 # <a name="subcontract-lines-for-products"></a>Baris subkontrak untuk produk
 

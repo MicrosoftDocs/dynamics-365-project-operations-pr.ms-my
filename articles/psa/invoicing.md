@@ -1,6 +1,6 @@
 ---
 title: Penginvoisan dalam Project Service Automation
-description: Topik ini memberikan maklumat tentang penginvoisan.
+description: Artikel ini memberikan maklumat mengenai invois.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926833"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Penginvoisan dalam Project Service Automation
 
@@ -94,7 +94,7 @@ Selepas **ProcessRunner** selesai berjalan, ia memanggil **ProcessRunCaller**, m
 Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses kelompok ini berjalan banyak kali, berbilang tika kerja dicipta dan menyebabkan ralat. Maka, anda perlu memulakan proses kelompol hanya satu kali, dan anda hendaklah mulakan semula jika ia berhenti berjalan.
 
 > [!NOTE]
-> Penginvoisan kelompok dalam Project Service Automation hanya berjalan untuk baris kontrak projek yang dikonfigurasikan oleh jadual invois. Baris kontrak dengan kaedah pengebilan harga tetap mesti mempunyai pencapaian yang dikonfigurasikan. Baris kontrak projek dengan kaedah pengebilan masa dan bahan akan memerlukan persediaan jadual invois berdasarkan tarikh. Maklumat tentang menyediakan frekuensi invois dalam konteks projek yang berdasarkan baris sebut harga, disediakan dalam topik, [Sebut harga dan baris sebut harga](basic-quote-lines.md#invoice-schedule). Perkara yang sama digunakan pada baris kontrak berasaskan projek.      
+> Penginvoisan kelompok dalam Project Service Automation hanya berjalan untuk baris kontrak projek yang dikonfigurasikan oleh jadual invois. Baris kontrak dengan kaedah pengebilan harga tetap mesti mempunyai pencapaian yang dikonfigurasikan. Baris kontrak projek dengan kaedah pengebilan masa dan bahan akan memerlukan persediaan jadual invois berdasarkan tarikh. Maklumat mengenai penyediaan frekuensi invois dalam konteks projek yang berdasarkan baris sebut harga, disediakan dalam artikel, [Petikan dan baris sebut harga](basic-quote-lines.md#invoice-schedule). Perkara yang sama digunakan pada baris kontrak berasaskan projek.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Edit invois PSA draf
 

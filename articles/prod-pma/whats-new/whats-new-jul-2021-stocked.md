@@ -1,24 +1,24 @@
 ---
 title: Ciri baharu atau perubahan dalam Project Operations, Julai 2021 untuk senario berdasarkan distok/pengeluaran
-description: Topik ini menyediakan maklumat mengenai kemas kini berkualiti yang tersedia dalam keluaran Julai 2021 Project Operations untuk senario berdasarkan distok/pengeluaran.
+description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran Operasi Projek Julai 2021 untuk senario berasaskan stok / pengeluaran.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933641"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Ciri baharu atau perubahan dalam Project Operations, Julai 2021 untuk senario berdasarkan distok/pengeluaran
 
 _**Digunakan Pada:** Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Topik ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
+Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
 
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.20
  

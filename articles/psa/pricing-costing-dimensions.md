@@ -1,6 +1,6 @@
 ---
 title: Halaman utama dimensi penetapan harga dan kos
-description: Topik ini memberikan gambaran keseluruhan dimensi penetapan harga.
+description: Artikel ini memberikan gambaran keseluruhan dimensi harga.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925453"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Halaman utama dimensi penetapan harga dan kos
 
@@ -47,7 +47,7 @@ Kapal PSA dengan set dimensi penetapan harga lalai. Anda boleh melihat ini denga
 > [!IMPORTANT]
 > Jika anda telah menggunakan medan peranan siap guna dan unit organisasi sebagai dimensi penetapan harga sebelum versi 3 PSA, tidak akan ada perubahan yang dapat dilihat. Anda boleh terus menggunakan Project Service seperti biasa. 
 
-Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk mendapatkan maklumat lanjut, lihat topik berikut, walau bagaimanapun, sila ambil perhatian bahawa anda mesti melengkapkan prosedur dalam dalam pesanan yang disenaraikan di bawah:
+Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk maklumat lanjut, lihat artikel berikut, namun ambil perhatian bahawa anda mesti melengkapkan prosedur dalam tertib yang disenaraikan di bawah:
 
 - [Cipta medan dan entiti tersuai](create-custom-fields-entities.md)
 - [Tambah medan tersuai kepada persediaan harga dan entiti transaksi](field-references.md)

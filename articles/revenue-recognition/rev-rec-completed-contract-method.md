@@ -1,23 +1,23 @@
 ---
 title: Uruskan anggaran pendapatan
-description: Topik ini menyediakan maklumat tentang cara bekerja dengan anggaran hasil untuk projek.
+description: Artikel ini memberikan maklumat tentang cara bekerja dengan anggaran pendapatan untuk projek.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928489"
 ---
 # <a name="manage-revenue-estimates"></a>Uruskan anggaran pendapatan
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Anda boleh mencipta, mengira, menyiarkan, membalikkan atau menghapuskan anggaran hasil. Anda boleh melakukan perkara ini sama ada secara manual atau dengan menggunakan proses berkala. Topik ini menyediakan maklumat tentang cara bekerja dengan anggaran hasil untuk projek.
+Anda boleh mencipta, mengira, menyiarkan, membalikkan atau menghapuskan anggaran hasil. Anda boleh melakukan perkara ini sama ada secara manual atau dengan menggunakan proses berkala. Artikel ini memberikan maklumat tentang cara bekerja dengan anggaran pendapatan untuk projek.
 
 ### <a name="manage-revenue-estimates-manually"></a>Uruskan anggaran hasil secara manual
 

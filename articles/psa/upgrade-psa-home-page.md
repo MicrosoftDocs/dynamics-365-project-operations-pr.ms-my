@@ -1,6 +1,6 @@
 ---
 title: Naik taraf laman utama
-description: Topik ini menunjukkan di mana untuk mencari maklumat penting mengenai ciri baharu dan diubah dalam Dynamics 365 Project Service Automation dan proses untuk menaik taraf kepada versi terbaharu.
+description: Artikel ini menunjukkan di mana untuk mencari maklumat penting mengenai ciri-ciri baru dan berubah dalam Dynamics 365 Project Service Automation, dan proses untuk menaik taraf ke versi terbaru.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926649"
 ---
 # <a name="upgrade-home-page"></a>Naik taraf laman utama
 
@@ -48,14 +48,14 @@ Sebelum ini, pelanggan yang mempunyai tika versi PSA 2.x dan perlu menaik taraf 
 Sebelum anda memulakan proses peningkatan, kami mengesyorkan anda melengkapkan tugas berikut:
 
 - Tentu sahkan sama Dynamics 365 Field Service dan Project Service Automation telah dipasang pada tika yang dikenal pasti. Jika kedua-dua penyelesaian dipasang, anda perlu merancang untuk menaik taraf sebelum anda menyambung semula kegunaan biasa tika.
-- Semak semula dengan teliti topik berikut. Kesedaran dan pemahaman tentang perubahan antara versi akan membantu anda dengan proses peningkatan. Topik ini memberikan maklumat tentang perubahan besar dalam PSA, bersama dengan pertimbangan dan pengesyoran untuk merancang naik taraf anda kepada versi 3.x.
+- Semak artikel berikut dengan teliti. Kesedaran dan pemahaman tentang perubahan antara versi akan membantu anda dengan proses peningkatan. Artikel ini memberikan maklumat tentang perubahan besar dalam PSA, bersama-sama dengan pertimbangan dan cadangan untuk merancang naik taraf anda kepada versi 3.x.
 
     - [Perkara baharu atau berubah dalam Project Service Automation versi 3](whats-new-changed-v3.md)
     - [Pertimbangan naik taraf - Project Service Automation versi 2.x atau 1.x kepada versi 3](upgrade-v3.md)
 
 - Naik taraf tika kotak pasir anda untuk menilai perubahan dalam pelaksanaan anda sebelum anda menaik taraf tika pengeluaran anda.
 
-Selepas anda menyemak topik yang disebutkan sebelum ini dan bersedia untuk menaik taraf kepada PSA versi 3.x atau versi UCI, serahkan permintaan kepada sokongan Microsoft untuk membuat peningkatan tersedia daripada Pusat pentadbir. Dalam permintaan anda, berikan butiran tika anda.
+Selepas anda menyemak artikel yang telah disebutkan sebelum ini dan bersedia untuk menaik taraf kepada PSA versi 3.x atau versi berasaskan UCI, serahkan permintaan kepada sokongan Microsoft untuk menjadikan naik taraf tersedia daripada pusat Pentadbiran. Dalam permintaan anda, berikan butiran tika anda.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Versi lebih lama PSA (PSA versi 2.x) dalam tika yang baharu dicipta
 

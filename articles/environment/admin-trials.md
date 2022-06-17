@@ -1,17 +1,17 @@
 ---
 title: Daftar untuk percubaan Project Operations
-description: Topik ini memberikan maklumat tentang cara melaksanakan percubaan Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang cara menggunakan versi percubaan Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584285"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959698"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Daftar untuk percubaan Project Operations 
 
@@ -19,9 +19,9 @@ _**Digunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan st
 
 
 
-Topik ini menerangkan cara melanggan tawaran rakan kongsi pratonton dan melaksanakan persekitaran Dynamics 365 Project Operations.
+Artikel ini menerangkan cara melanggan tawaran rakan kongsi pratonton dan menggunakan Dynamics 365 Project Operations persekitaran.
 
-Dengan percubaan Project Operations baharu, anda boleh menggunakan mana-mana satu daripada tiga senario pelaksanaan yang disokong secara automatik dengan melengkapkan soal selidik yang mencadangkan pendekatan pelaksanaan yang terbaik. Topik ini memberikan maklumat tentang cara:
+Dengan percubaan Project Operations baharu, anda boleh menggunakan mana-mana satu daripada tiga senario pelaksanaan yang disokong secara automatik dengan melengkapkan soal selidik yang mencadangkan pendekatan pelaksanaan yang terbaik. Artikel ini memberikan maklumat tentang cara:
 
 - Menebus tawaran percubaan anda.
 - Memulakan peruntukan.
@@ -89,8 +89,9 @@ Sebelum anda bermula, daftar masuk ke pelayar dengan akaun kerja pengguna dalam 
 4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi Kewangan dan Operasi untuk mengesahkan penggunaan.
 
 ## <a name="configuring-dual-write"></a>Mengkonfigurasikan dwitulis
-- Untuk mengkonfigurasi peranan keselamatan untuk dwi-tulis, lihat [Kemas kini seting keselamatan pada Operasi Projek dalam Dataverse](resource-provision-new-environment.md).
-- Untuk mengkonfigurasi peta dwi-tulis, lihat [Jalankan peta dwi-tulis Operasi Projek](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Untuk mengkonfigurasi peranan keselamatan untuk dwi-tulis, lihat [Kemas kini seting keselamatan pada Operasi Projek dalam Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Untuk mengakses konfigurasi dwi-tulis, Navigasi ke contoh Kewangan dan Operasi, kemudian navigasi ke **Pengurusan** > **Data Dual Write**.
+- Untuk mengkonfigurasi peta dwi-tulis, lihat [Jalankan peta](resource-provision-new-environment.md#run-project-operations-dual-write-maps) dwi-tulis Operasi Projek.
 
 ## <a name="assign-licenses"></a>Peruntukkan lesen
 

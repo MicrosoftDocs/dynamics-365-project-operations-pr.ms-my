@@ -1,18 +1,18 @@
 ---
 title: Peruntukan persekitaran baharu
-description: Topik ini memberikan maklumat tentang cara menyediakan persekitaran Operasi Projek baru.
+description: Artikel ini memberikan maklumat tentang cara memperuntukkan persekitaran Operasi Projek yang baru.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931617"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -20,7 +20,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 
 
-Topik ini menyediakan maklumat tentang cara untuk memperuntukkan persekitaran Dynamics 365 Project Operations baharu untuk senarroi berdasarkan sumber/tidak distok.
+Artikel ini memberikan maklumat tentang cara memperuntukkan persekitaran baru Dynamics 365 Project Operations untuk senario berasaskan sumber / tidak berstok.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Dayakan peruntukan automatik Operasi Projek dalam projek LCS
 

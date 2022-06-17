@@ -1,23 +1,23 @@
 ---
 title: Keperluan item untuk kontrak projek dengan pelbagai sumber pembiayaan
-description: Topik ini memberikan maklumat tentang cara mengkonfigurasi dan menggunakan keperluan item dengan pelbagai sumber pembiayaan.
+description: Artikel ini memberikan maklumat tentang cara mengkonfigurasi dan menggunakan keperluan item dengan pelbagai sumber pembiayaan.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931203"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Keperluan item untuk kontrak projek dengan pelbagai sumber pembiayaan
 
 _**Digunakan Pada:** Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Sesetengah perjanjian kontrak untuk penghantaran berasaskan projek mungkin memerlukan pelbagai sumber pembiayaan. Topik ini menerangkan cara memilih dan mengkonfigurasi sumber pembiayaan yang dikehendaki apabila pelbagai sumber diperlukan untuk projek atau kontrak projek.
+Sesetengah perjanjian kontrak untuk penghantaran berasaskan projek mungkin memerlukan pelbagai sumber pembiayaan. Artikel ini menerangkan cara memilih dan mengkonfigurasi sumber pembiayaan yang dikehendaki apabila pelbagai sumber diperlukan untuk projek atau kontrak projek.
 
 ## <a name="terminology"></a>Istilah
 

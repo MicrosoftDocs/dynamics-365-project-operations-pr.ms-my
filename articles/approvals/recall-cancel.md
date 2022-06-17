@@ -1,19 +1,19 @@
 ---
-title: Tarik balik penyertaan yang diluluskan sebelum ini
-description: Topik ini menerangkan cara ahli pasukan projek boleh meminta penarikan balik masa, perbelanjaan dan rekod penggunaan bahan yang telah diserahkan dan diluluskan sebelum ini, dan cara pengurus projek boleh meluluskan atau menolak permintaan penarikan balik.
+title: Penarikan balik entri yang diluluskan sebelumnya
+description: Artikel ini menerangkan cara ahli pasukan projek boleh meminta penarikan balik rekod masa, perbelanjaan dan penggunaan bahan yang telah diserahkan dan diluluskan sebelum ini dan cara pengurus projek boleh meluluskan atau menolak permintaan penarikan balik.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930375"
 ---
-# <a name="recall-previously-approved-entries"></a>Tarik balik penyertaan yang diluluskan sebelum ini
+# <a name="recall-previously-approved-entries"></a>Penarikan balik entri yang diluluskan sebelumnya
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 

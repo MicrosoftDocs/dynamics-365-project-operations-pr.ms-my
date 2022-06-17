@@ -1,17 +1,17 @@
 ---
 title: Pemulihan VAT dalam Pengurusan perbelanjaan
-description: Topik ini menerangkan cara untuk menerima bayaran balik pada transaksi cukai (VAT) nilai ditambah yang layak.
+description: Artikel ini menerangkan cara menerima bayaran balik ke atas transaksi cukai nilai tambah (VAT) yang layak.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927937"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Pemulihan VAT dalam Pengurusan perbelanjaan
 

@@ -1,21 +1,21 @@
 ---
 title: Urus berbilang pelanggan pada kontrak projek
-description: Topik ini menyediakan maklumat tentang cara mengurus berbilang pelanggan pada kontrak projek.
+description: Artikel ini memberikan maklumat tentang cara menguruskan berbilang pelanggan pada kontrak projek.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928351"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Urus berbilang pelanggan pada kontrak projek
 
-Topik ini menyediakan maklumat tentang cara mengurus berbilang pelanggan pada kontrak projek. Anda boleh menggunakan kontrak projek apabila perjanjian kontrak untuk berbilang pelanggan diperlukan bagi membiayai perjanjian. Pada halaman **Kontrak Projek**, tab **Ringkasan** termasuk maklumat tentang pelanggan utama untuk urusan. Pelanggan lain yang mengambil bahagian dalam urusan boleh ditambah pada tab **Pelanggan**.
+Artikel ini memberikan maklumat tentang cara menguruskan berbilang pelanggan pada kontrak projek. Anda boleh menggunakan kontrak projek apabila perjanjian kontrak untuk berbilang pelanggan diperlukan bagi membiayai perjanjian. Pada halaman **Kontrak Projek**, tab **Ringkasan** termasuk maklumat tentang pelanggan utama untuk urusan. Pelanggan lain yang mengambil bahagian dalam urusan boleh ditambah pada tab **Pelanggan**.
 
 Semua pelanggan kontrak pada tab **Pelanggan** bagi kontrak projek adalah lalai kerana pelanggan baris kontrak pada mana-mana baris kontrak berasaskan projek baharu dicipta untuk kontrak projek. Mana-mana baris kontrak berasaskan projek sedia ada tidak mewarisi rekod pelanggan kontrak baharu yang dicipta pada masa kemudian.
 

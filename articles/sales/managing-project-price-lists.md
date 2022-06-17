@@ -1,6 +1,6 @@
 ---
 title: Urus senarai harga projek pada sebut harga
-description: Topik ini menyediakan maklumat tentang entiti senarai harga Projek.
+description: Artikel ini memberikan maklumat tentang entiti senarai harga Projek.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d77f66d3311f3aa5ee720a05ea7da149d2a4362b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8439a03e6557ec531405048ec4149344e283242e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933165"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Urus senarai harga projek pada sebut harga
 

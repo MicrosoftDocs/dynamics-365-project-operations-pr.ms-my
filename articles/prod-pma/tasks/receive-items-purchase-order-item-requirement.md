@@ -1,6 +1,6 @@
 ---
 title: Terima item pada pesanan pembelian daripada keperluan item
-description: Topik ini menerangkan cara untuk menerima item pada pesanan pembelian daripada keperluan item.
+description: Artikel ini menerangkan cara menerima item pada pesanan pembelian daripada keperluan item.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929547"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Terima item pada pesanan pembelian daripada keperluan item
 
 [!include [banner](../../includes/banner.md)]
 
-Topik ini menerangkan cara untuk menerima item pada pesanan pembelian daripada keperluan item.
+Artikel ini menerangkan cara menerima item pada pesanan pembelian daripada keperluan item.
 
 Dengan menggunakan keperluan item berbanding transaksi item, anda boleh merancang untuk penghantaran hanya sebelum item itu sebenarnya digunakan, cipta pesanan pembelian, termasuk item dalam rangka kerja perjanjian perdagangan dan termasuk keperluan item dalam perancangan pengeluaran. 
 

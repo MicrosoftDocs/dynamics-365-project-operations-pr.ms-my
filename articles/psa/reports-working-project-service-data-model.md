@@ -1,6 +1,6 @@
 ---
 title: Bekerja dengan model data Project Service Automation
-description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan model data.
+description: Artikel ini memberikan maklumat tentang cara bekerja dengan model data.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926695"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Bekerja dengan model data Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587551"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation melangkaui entiti aplikasi lain dan memperkenalkan entiti sendiri dalam model data Common Data Service. Topik ini menerangkan beberapa entiti yang akan anda hadapi dalam senario pelaporan PSA biasa.
+Dynamics 365 Project Service Automation melangkaui entiti aplikasi lain dan memperkenalkan entiti sendiri dalam model data Common Data Service. Artikel ini menerangkan beberapa entiti yang akan anda hadapi dalam senario pelaporan PSA biasa.
 
 ## <a name="reporting-on-opportunities"></a>Pelaporan berkenaan peluang
 

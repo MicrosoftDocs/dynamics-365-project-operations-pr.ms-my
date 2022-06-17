@@ -1,23 +1,23 @@
 ---
 title: Penjejakan usaha projek
-description: Topik ini menyediakan maklumat tentang cara menjejaki usaha projek dan kemajuan kerja.
+description: Artikel ini memberikan maklumat tentang cara mengesan usaha projek dan kemajuan kerja.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929271"
 ---
 # <a name="project-effort-tracking"></a>Penjejakan usaha projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Keperluan untuk menjejaki kemajuan terhadap jadual berbeza-beza mengikut industri. Sesetengah industri menjejaki pada tahap berbutir, sedangkan industri yang lain menjejaki pada tahap yang lebih tinggi. Topik ini menunjukkan cara untuk menjadualkan bagi memenuhi keperluan organisasi anda.
+Keperluan untuk menjejaki kemajuan terhadap jadual berbeza-beza mengikut industri. Sesetengah industri menjejaki pada tahap berbutir, sedangkan industri yang lain menjejaki pada tahap yang lebih tinggi. Artikel ini menunjukkan cara menjadualkan untuk memenuhi keperluan organisasi anda.
 
 ## <a name="effort-tracking-view"></a>Pandangan penjejakan usaha
 

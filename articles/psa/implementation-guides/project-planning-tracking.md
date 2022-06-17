@@ -1,6 +1,6 @@
 ---
 title: Perancangan dan penjejakan projek
-description: Topik ini menyediakan pautan kepada maklumat tentang perancangan dan penjejakan dalam Project Service Automation.
+description: Artikel ini menyediakan pautan ke maklumat mengenai perancangan dan penjejakan dalam Automasi Perkhidmatan Projek.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933273"
 ---
 # <a name="project-planning-and-tracking"></a>Perancangan dan penjejakan projek
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589897"
 
 Aplikasi Project Service membantu organisasi perkhidmatan mengenal pasti peluang, menyerahkan bidaan, menjangkau perjanjian kontrak, menguruskan sumber, menjejaki masa dan perbelanjaan, menginvois pelanggan dan menyampaikan projek tepat pada masanya dan dalam belanjawan. 
 
-Pautan PDF yang terdapat dalam topik ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada topik berikut:
+Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
 
 - [Jadual projek](../project-creating.md)
 - [Kos dan hasil projek](../project-estimating.md)
@@ -43,7 +43,7 @@ Pautan PDF yang terdapat dalam topik ini sebelum ini telah dialih keluar dan kan
 - [Tetapan projek](../project-settings.md)
 
 > [!NOTE]
-> Topik ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
+> Artikel ini akan dialih keluar dalam kemas kini dokumentasi akan datang. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

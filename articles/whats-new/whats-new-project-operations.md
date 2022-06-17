@@ -1,6 +1,6 @@
 ---
 title: Terbaharu dalam operasi Projek
-description: Topik ini menyediakan maklumat tentang kefungsian dan ciri terbaharu dalam operasi Projek Microsoft Dynamics 365.
+description: Artikel ini memberikan maklumat tentang ciri dan fungsi baru dalam Microsoft Dynamics operasi 365 Project.
 author: ruhercul
 ms.date: 06/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3437eca238e61e15bc2db151cf7d8f5536f8652d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e9beb827fc85f0c54f18fbdaf69b500a30d1d3f3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932859"
 ---
 # <a name="whats-new-in-project-operations"></a>Terbaharu dalam operasi Projek
 

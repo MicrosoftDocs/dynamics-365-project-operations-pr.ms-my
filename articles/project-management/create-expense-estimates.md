@@ -1,17 +1,17 @@
 ---
 title: Anggaran kewangan untuk perbelanjaan pada projek
-description: Topik ini memberikan maklumat mengenai mentakrifkan atau menganggarkan perbelanjaan berasaskan projek.
+description: Artikel ini memberikan maklumat mengenai menentukan atau menganggarkan perbelanjaan berasaskan projek.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925707"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Anggaran kewangan untuk perbelanjaan pada projek
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_

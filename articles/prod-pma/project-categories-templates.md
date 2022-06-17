@@ -1,6 +1,6 @@
 ---
 title: Menyegerakkan kategori perbelanjaan projek antara Kewangan dan Operasi dan Automasi Perkhidmatan Projek
-description: Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Microsoft Dynamics 365 Kewangan dan Dynamics 365 Project Service Automation.
+description: Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Microsoft Dynamics 365 Kewangan dan Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685481"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927247"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Menyegerakkan kategori perbelanjaan projek antara Kewangan dan Operasi dan Automasi Perkhidmatan Projek
 
 [!include[banner](../includes/banner.md)]
 
-Topik ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
+Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrasi tugas projek, kategori transaksi perbelanjaan, anggaran jam, anggaran perbelanjaan dan penguncian fungsi tersedia dalam versi 8.0.

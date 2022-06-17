@@ -1,18 +1,18 @@
 ---
-title: Kemas kini Project Operations
-description: Topik ini memberikan maklumat tentang versi Dynamics 365 Project Operations yang dikeluarkan.
+title: Pilih kemaskinian Project Operations
+description: Artikel ini memberikan maklumat mengenai versi yang dikeluarkan Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
-ms.translationtype: HT
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732942"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959707"
 ---
 # <a name="project-operations-updates"></a>Pilih kemaskinian Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations terdiri daripada dua komponen:
 
 | Project Operations pada persekitaran Dataverse | Pengurusan projek dan perakaunan dalam persekitaran aplikasi Kewangan dan Operasi | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Untuk senario Sumber /bukan stok Sumber Operasi Projek, kami mengesyorkan agar anda menggunakan versi Orkestrasi dwi-tulis 2.3.1.15 atau lebih tinggi.
 
@@ -47,24 +47,24 @@ Kemas kini untuk Project Operations pada persekitaran Dataverse tersedia setiap 
 | Stesen | Rantau | Nombor versi semasa | Kemas kini automatik untuk pelaksanaan Ringan | Kemas kini automatik untuk pelaksanaan Sumber/bukan distok | Nombor versi seterusnya | Versi seterusnya tersedia secara am |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stesen 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Keluaran Pertama         |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | TBD                 | 27 Mei 2022        |
+|   &nbsp;  | Keluaran Pertama         |  4.43.0.77      | Dilengkapkan           | Dilengkapkan            | TBD                 | 01 Julai 2022       |
 | Stesen 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan         |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | TBD                 | 27 Mei 2022        |
-|   &nbsp;  | Kanada                |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | TBD                 | 27 Mei 2022        |
-|   &nbsp;  | India                 |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | TBD                 | 27 Mei 2022        |
-|   &nbsp;  | Perancis                |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | TBD                 | 27 Mei 2022        |
-|   &nbsp;  | Afrika Selatan          |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | TBD                 | 27 Mei 2022        |
-|   &nbsp;  | Switzerland           |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | TBD                 | 27 Mei 2022        |
+|   &nbsp;  | Amerika Selatan         |  4.43.0.77      | Dilengkapkan           | Dilengkapkan            | TBD                 | 01 Julai 2022       |
+|   &nbsp;  | Kanada                |  4.43.0.77      | Dilengkapkan           | Dilengkapkan            | TBD                 | 01 Julai 2022       |
+|   &nbsp;  | India                 |  4.43.0.77      | Dilengkapkan           | Dilengkapkan            | TBD                 | 01 Julai 2022       |
+|   &nbsp;  | Perancis                |  4.43.0.77      | Dilengkapkan           | Dilengkapkan            | TBD                 | 01 Julai 2022       |
+|   &nbsp;  | Afrika Selatan          |  4.43.0.77      | Dilengkapkan           | Dilengkapkan            | TBD                 | 01 Julai 2022       |
+|   &nbsp;  | Switzerland           |  4.43.0.77      | Dilengkapkan           | Dilengkapkan            | TBD                 | 01 Julai 2022       |
 | Stesen 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jepun                 |  4.42.0.70      | 13 Mei 2022       | 13 Mei 2022        | TBD                 | 03 Jun 2022       |
-|   &nbsp;  | Asia Pasifik          |  4.42.0.70      | 13 Mei 2022       | 13 Mei 2022        | TBD                 | 03 Jun 2022       |
-|   &nbsp;  | Great Britain         |  4.42.0.70      | 13 Mei 2022       | 13 Mei 2022        | TBD                 | 03 Jun 2022       |
-|   &nbsp;  | Oceania               |  4.42.0.70      | 13 Mei 2022       | 13 Mei 2022        | TBD                 | 03 Jun 2022       |
-|   &nbsp;  | Emiriah Arab Bersatu  |  4.42.0.70      | 13 Mei 2022       | 13 Mei 2022        | TBD                 | 03 Jun 2022       |
+|   &nbsp;  | Jepun                 |  4.43.0.77      | 03 Jun 2022      | 03 Jun 2022       | TBD                 | 08 Julai 2022       |
+|   &nbsp;  | Asia Pasifik          |  4.43.0.77      | 03 Jun 2022      | 03 Jun 2022       | TBD                 | 08 Julai 2022       |
+|   &nbsp;  | Great Britain         |  4.43.0.77      | 03 Jun 2022      | 03 Jun 2022       | TBD                 | 08 Julai 2022       |
+|   &nbsp;  | Oceania               |  4.43.0.77      | 03 Jun 2022      | 03 Jun 2022       | TBD                 | 08 Julai 2022       |
+|   &nbsp;  | Emiriah Arab Bersatu  |  4.43.0.77      | 03 Jun 2022      | 03 Jun 2022       | TBD                 | 08 Julai 2022       |
 | Stesen 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eropah                |  4.41.0.45      | Dilengkapkan           | Dilengkapkan            | 4.42.0.70           | 13 Mei 2022        |
+|   &nbsp;  | Eropah                |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | 4.43.0.77           | 10 Jun 2022       |
 | Stesen 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Utara         |  4.41.0.45      | Dilengkapkan           | Dilengkapkan            | 4.42.0.70           | 20 Mei 2022        |
+|   &nbsp;  | Amerika Utara         |  4.42.0.70      | Dilengkapkan           | Dilengkapkan            | 4.43.0.77           | 17 Jun 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadual keluaran untuk pengurusan Projek dan perakaunan dalam persekitaran aplikasi Kewangan dan Operasi
 

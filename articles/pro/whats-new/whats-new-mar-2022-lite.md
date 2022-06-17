@@ -1,24 +1,24 @@
 ---
 title: Perkara baharu Mac 2022 - Pelaksanaan Project Operations lite
-description: Topik ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2022 pelaksanaan Project Operations lite.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2022 penggunaan Project Operations lite.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934239"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Perkara baharu Mac 2022 - Pelaksanaan Project Operations lite
 
 _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
-Topik ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
+Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
 
 - Operasi Projek dalam versi persekitaran 4.30.0.99 Dataverse
 
@@ -51,9 +51,9 @@ Topik ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Oper
 
 ## <a name="removed-and-deprecated-features"></a>Ciri yang dialih keluar dan ditamatkan
 
-Ciri [Dialih keluar atau ditamatkan dalam topik Operasi](../../whats-new/removed-depreciated-features-project.md) Projek menerangkan ciri yang telah dialih keluar atau ditamatkan untuk Dynamics 365 Project Operations.
+Ciri [yang dialih keluar atau ditamatkan dalam artikel Operasi](../../whats-new/removed-depreciated-features-project.md) Projek menerangkan ciri yang telah dialih keluar atau ditamatkan untuk Dynamics 365 Project Operations.
 
 - Ciri dialih keluar tidak lagi tersedia dalam produk.
 - Ciri yang telah lapuk tidak berada dalam pembangunan aktif dan mungkin dialih keluar dalam kemas kini akan datang.
 
-Pengumuman penamatan akan muncul dalam [ciri Dialih keluar atau ditamatkan dalam topik Operasi](../../whats-new/removed-depreciated-features-project.md) Projek 12 bulan sebelum sebarang ciri dialih keluar daripada produk.
+Pengumuman penamatan akan muncul dalam [ciri Dialih keluar atau ditamatkan dalam artikel Operasi](../../whats-new/removed-depreciated-features-project.md) Projek 12 bulan sebelum sebarang ciri dialih keluar daripada produk.

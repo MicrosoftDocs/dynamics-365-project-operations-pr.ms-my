@@ -1,6 +1,6 @@
 ---
 title: Laman utama persumberan projek
-description: Topik ini menyediakan pautan kepada maklumat tentang keupayaan pengurusan sumber dalam Project Service Automation (PSA) untuk Dynamics 365.
+description: Artikel ini menyediakan maklumat tentang keupayaan pengurusan sumber dalam Project Service Automation (PSA) untuk Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925269"
 ---
 # <a name="resourcing-projects-home-page"></a>Laman utama persumberan projek
 
@@ -46,7 +46,7 @@ Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. K
 - Mengekalkan repositori kemahiran dan kecekapan.
 
 
-Anda boleh kakitangan projek anda dengan pasukan generik atau sumber yang dinamakan dalam PSA. Anda boleh menggunakan pelbagai kaedah untuk menambah dan menugaskan ahli pasukan dan untuk menguruskan penempahan dan tugasan mereka. Untuk mendapatkan maklumat tambahan, lihat topik berikut:
+Anda boleh kakitangan projek anda dengan pasukan generik atau sumber yang dinamakan dalam PSA. Anda boleh menggunakan pelbagai kaedah untuk menambah dan menugaskan ahli pasukan dan untuk menguruskan penempahan dan tugasan mereka. Untuk maklumat tambahan, lihat artikel berikut:
 
 - [Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugas mereka](assign-named-bookable-resource.md)
 - [Tugaskan sumber boleh ditempah generik untuk tugas dan menjana keperluan sumber](assign-generic-bookable-resource.md)

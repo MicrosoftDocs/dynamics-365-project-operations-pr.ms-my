@@ -1,17 +1,17 @@
 ---
 title: Urus peluang berasaskan projek
-description: Topik ini memberikan maklumat tentang cara untuk bekerja dengan peluang yang berkaitan dengan projek.
+description: Artikel ini memberikan maklumat tentang cara bekerja dengan peluang yang berkaitan dengan projek.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933227"
 ---
 # <a name="manage-project-based-opportunities"></a>Urus peluang berasaskan projek
 
@@ -19,7 +19,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Syarikat berasaskan projek biasanya mempunyai operasi mereka untuk penghantaran tersebar merentasi berbilang negara dan di seluruh dunia. Kos pelaksanaan projek dan penghantaran mungkin berbeza mengikut geografi atau divisyen yang menguruskan penghantaran. Seterusnya, ini boleh memberi kesan pada margin urusan. Penghantaran perkhidmatan berasaskan projek biasanya melibatkan kuantiti masa sumber manusia yang lama, perbelanjaan untuk perjalanan, kos bahan dan perbelanjaan lain yang agak besar.
 
-Peluang berasaskan projek dalam Dynamics 365 Project Operations ialah direka bentuk dengan lanjutan kepada Dynamics 365 Sales. Topik ini memberikan butiran tentang medan dan logik perniagaan yang berbeza termasuk dalam fungsian tambahan yang diperlukan oleh syarikat berasaskan projek untuk menguruskan peluang berasaskan projek.
+Peluang berasaskan projek dalam Dynamics 365 Project Operations ialah direka bentuk dengan lanjutan kepada Dynamics 365 Sales. Artikel ini memberikan perincian mengenai bidang dan logik perniagaan yang berbeza yang termasuk dalam fungsi tambahan yang diperlukan oleh syarikat berasaskan projek untuk menguruskan peluang berasaskan projek.
 
 ## <a name="view-all-project-based-opportunities"></a>Lihat semua peluang berasaskan projek
 
