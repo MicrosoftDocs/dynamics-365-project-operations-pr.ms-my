@@ -1,17 +1,17 @@
 ---
 title: Daftar untuk langganan pratonton Operasi Projek untuk senario sumber/bukan stok
-description: Topik ini memberikan maklumat mengenai cara untuk melanggan dan menggunakan Operasi Projek untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini memberikan maklumat tentang cara melanggan dan menggunakan Operasi Projek untuk senario berasaskan resouce/non-stocked.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920117"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Daftar untuk langganan pratonton Operasi Projek untuk senario sumber/bukan stok
 
@@ -19,7 +19,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 
 
-Topik ini menerangkan cara untuk melanggan tawaran percubaan dan mengatur letak persekitaran Project Operations untuk senario berdasarkan sumber/tidak distok.
+Artikel ini menerangkan cara melanggan tawaran percubaan dan menggunakan persekitaran Operasi Projek untuk senario berasaskan sumber / tidak berstok.
 
 ## <a name="prerequisites"></a>Prasyarat
 - Pengguna yang menggunakan pratonton mesti mempunyai hak pentadbir global penyewa Azure. Anda boleh mencipta penyewa semasa penebusan tawaran pertama. 
@@ -60,19 +60,19 @@ Pergi ke [Percubaan Pratonton Dynamics 365 for Finance](https://aka.ms/trypoche)
 
 ## <a name="start-a-new-project-in-lcs"></a>Mulakan projek LCS baharu dalam LCS
 
-Cipta projek LCS baharu seperti yang diterangkan dalam topik, [Mulakan projek baru dalam LCS](create-lcs-project.md)
+Buat projek LCS baru seperti yang diterangkan dalam artikel, [Mulakan projek baru di LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Tambah langganan Azure untuk projek LCS
 
-Untuk menyelesaikan tugas ini, ikuti langkah dalam topik, [Tambah langganan Azure untuk projek LCS](resource-add-azure-subscription-lcs-project.md).
+Untuk melengkapkan tugas ini, ikuti langkah dalam artikel, [Tambah langganan Azure pada projek LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Mengatur persekitaran demo kewangan dengan Operasi Projek untuk senario sumber/bukan stok
 
-Ikuti panduan dalam topik, [Peruntukan persekitaran baharu](resource-provision-new-environment.md) untuk melengkapkan pelaksanaan. Gunakan jenis pelaksanaan untuk pratonton [persekitaran demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
+Ikuti panduan dalam artikel, [Sediakan persekitaran](resource-provision-new-environment.md) baru untuk melengkapkan penggunaan. Gunakan jenis pelaksanaan untuk pratonton [persekitaran demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Pasangkan data persediaan dan konfigurasi CDS
 
-Pasangkan data persediaan dan konfigurasi CD seperti yang diterangkan dalam topik, [Sediakan dan gunakan data konfigurasi dalam Common Data Service](resource-apply-pro-setup-config-data.md).
+Pasang data persediaan dan konfigurasi CDS seperti yang diterangkan dalam artikel, [Sediakan dan gunakan data konfigurasi dalam Common Data Service](resource-apply-pro-setup-config-data.md).
 Lengkapkan langkah ini hanya selepas persekitaran demo Finance diatur letak dan data demo bersedia.
 
 
