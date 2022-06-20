@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8922785"
