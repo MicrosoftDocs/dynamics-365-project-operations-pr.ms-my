@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930145"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064289"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Sediakan perbatuan menggunakan peringkat kadar perbatuan
 
@@ -50,5 +50,15 @@ Ciri **Pengiraan jumlah Perbatuan untuk berbilang peringkat perbatuan dengan kad
 
 Selepas anda mendayakan ciri tersebut, tetapkan semula peringkat perbatuan untuk menunjukkan nilai medan kuantiti medan **Kuantiti**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Mendayakan pengiraan jumlah Perbatuan mengikut ciri tahun fiskal
+
+Pengiraan **jumlah Perbatuan mengikut ciri tahun fiskal** membolehkan tetapan baharu dalam parameter pengurusan Perbelanjaan yang melakukan pengiraan jumlah perbatuan sebanyak tahun fiskal dan bukannya tahun kalendar. Lengkapkan langkah berikut untuk mendayakan ciri ini.
+
+1. Pergi ke **Tetapan** > **Pengurusan Ciri**.
+1. Dalam senarai, cari dan pilih **Pengiraan jumlah perbatuan mengikut tahun fiskal**, kemudian pilih **Dayakan sekarang**.
+1. Pergi ke **Pengurusan Perbelanjaan** > **Persediaan** > **Perbelanjaan Parameter** > **pengurusan Perbelanjaan Am**.
+1. **Pada halaman Parameter** pengurusan perbelanjaan, cari dan dayakan **Gunakan tahun fiskal untuk jumlah** perbatuan.
+
+Selepas anda mendayakan **Gunakan tahun fiskal untuk jumlah** perbatuan, jumlah perbatuan dikira mengikut tahun fiskal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

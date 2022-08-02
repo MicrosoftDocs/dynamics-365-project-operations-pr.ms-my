@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933043"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029725"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
 
@@ -61,7 +61,7 @@ Ciri berikut disertakan dalam keluaran ini:
 | Perancangan   dan Penjejakan Projek | 2057197          | Salinan baris anggaran dengan rujukan tugas tidak disokong                                                                                                     |
 | Perancangan   dan Penjejakan Projek | 2060687          | Amaran zon waktu kini hilang selepas tempoh tertentu                                                                                                      |
 | Pengurusan   sumber           | 1832887          | ID Kategori sumber lalai perlu statik untuk memastikan data boleh ulang dimuatkan untuk persekitaran Dataverse dan kewangan                                                 |
-| Masa dan   perbelanjaan              | 2081793          | **Nama kategori perbelanjaan** mesti dipetakan ke **medan perihalan** kategori Perbelanjaan dalam aplikasi Kewangan dan Operasi                                                  |
+| Masa dan   perbelanjaan              | 2081793          | **Nama kategori perbelanjaan** mesti dipetakan ke **medan perihalan** kategori Perbelanjaan dalam aplikasi kewangan dan operasi                                                  |
 | Masa dan   perbelanjaan              | 2034882          | Butang **Baharu** dipaparkan dua kali pada bar perintah untuk entri masa apabila Dynamics 365 Field Service dipasang                                          |
 | Masa dan   perbelanjaan              | 2056028          | Kemas kini halaman **Edit Masa** untuk disertakan dengan garis masa                                                                                                              |
 | Masa dan   perbelanjaan              | 1983747          | Carta entri masa menunjukkan data tambahan                                                                                                                   |
@@ -106,7 +106,7 @@ Ciri berikut disertakan dalam keluaran ini:
 | Perjalanan   dan Perbelanjaan                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Aliran kerja penyiaran automatik laporan perbelanjaan selesai tetapi invois tidak disiarkan                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi Kewangan dan Operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

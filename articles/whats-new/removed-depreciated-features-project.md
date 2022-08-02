@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921497"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028340"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Ciri yang dialih keluar atau ditamatkan dalam Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ Artikel ini menerangkan ciri-ciri yang telah dikeluarkan, atau yang dirancang un
 Senarai ini bertujuan untuk membantu anda mempertimbangkan pengalihan keluar dan penamatan ini untuk perancangan anda sendiri.
 
 > [!NOTE]
-> Maklumat terperinci tentang objek dalam aplikasi Kewangan dan Operasi boleh didapati dalam [**laporan rujukan Teknikal**](/dynamics/s-e/global/axtechrefrep_61). Anda boleh membandingkan versi berbeza laporan ini untuk mengetahui tentang objek yang telah berubah atau telah dialih keluar dalam setiap versi aplikasi Kewangan dan Operasi.
+> Maklumat terperinci tentang objek dalam aplikasi kewangan dan operasi boleh didapati dalam [**laporan rujukan Teknikal**](/dynamics/s-e/global/axtechrefrep_61). Anda boleh membandingkan versi berbeza laporan ini untuk mengetahui tentang objek yang telah berubah atau telah dialih keluar dalam setiap versi apl kewangan dan operasi.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Ciri-ciri yang dialih keluar atau ditamatkan dalam keluaran Operasi Projek Mac 2022
 

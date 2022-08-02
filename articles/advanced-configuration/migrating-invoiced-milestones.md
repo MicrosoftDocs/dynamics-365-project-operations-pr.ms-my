@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912251"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028713"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Pindahkan tonggak pengebilan yang diinvois sepenuhnya semasa pemotongan
 
@@ -46,7 +46,7 @@ Contoso akan disiarkan secara langsung dengan Microsoft Dynamics 365 Project Ope
 3. Tambah pemetaan untuk status transaksi.
 
     1. Pilih **Tambah pemetaan**.
-    2. Pada baris baharu, dalam **lajur aplikasi** Kewangan dan Operasi, pilih **medan TRANSSTATUS TRANSSTATUS \[TRANSSTATUS\]**.
+    2. Pada baris baharu, dalam **lajur Aplikasi** Kewangan dan Operasi, pilih **medan TRANSSTATUS \[TRANSSTATUS TRANSSTATUS\]**.
     3. **Microsoft Dataverse** Dalam lajur, pilih **status\_ Invois invois msdyn\[\]**.
     4. **Dalam lajur Jenis** peta, pilih anak panah kanan (**\>**).
     5. Dalam kotak dialog yang muncul, dalam **medan Arah** segerak, pilih **Dataverse kepada app** Kewangan dan Operasi.

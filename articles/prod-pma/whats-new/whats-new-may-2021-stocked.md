@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927155"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029403"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Ciri baharu atau perubahan dalam Project Operations, Mei 2021 untuk senario berdasarkan distok/pengeluaran
 
@@ -93,7 +93,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 | Perjalanan dan Perbelanjaan                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Terdapat isu penyegerakan dengan aplikasi mudah alih Perbelanjaan. 
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi Kewangan dan Operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke Lifecycle Services (LCS) dan melihat kemas kini kawal selia yang dirancang menggunakan alat Carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke Lifecycle Services (LCS) dan melihat kemas kini kawal selia yang dirancang menggunakan alat Carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

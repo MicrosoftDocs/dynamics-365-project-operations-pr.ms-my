@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924855"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183986"
 ---
 # <a name="review-proposed-resources"></a>Semak sumber yang dicadangkan
 
@@ -40,8 +40,8 @@ Untuk menyemak sumber yang dicadangkan, ikut langkah berikut:
     Kemas kini status berikut berlaku:
 
     - Pada halaman **Pembantu Jadual**, penunjuk status dikemas kini untuk menunjukkan bahawa tempahan telah dicadangkan, bukan ditempah secara terjamin.
-    - Pada permintaan sumber, status ditukar kepada **Keperluan Semakan Semula.**
-    - Pada tab **Pasukan** projek, permintaan ahli pasukan generik **Status Permintaan** ditukar kepada **Keperluan Semakan Semula.**
+    - Atas permintaan sumber, pengulas permintaan harus mengubah status kepada **Perlu Semakan**.
+    - **Pada tab Pasukan** projek, nilai Status **Permintaan ahli** pasukan generik ditukar secara automatik kepada **Perlu Semakan**.
 
 Pengurus projek boleh menerima atau menolak cadangan itu.
 

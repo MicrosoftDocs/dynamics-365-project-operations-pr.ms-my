@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: be0f397df4a3e1973e1f5546e43b2cf9578950a0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916529"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029863"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Perkara yang baru atau diubah dalam Operasi Projek, September 2021 untuk senario berasaskan stok/pengeluaran
 
@@ -91,6 +91,6 @@ Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Op
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi Kewangan dan Operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan menggunakan alat carian Isu untuk melihat kemas kini kawal selia yang dirancang. Carian isu membolehkan anda mencari mengikut negara atau rantau, jenis ciri dan keluaran.
+Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan menggunakan alat carian Isu untuk melihat kemas kini kawal selia yang dirancang. Carian isu membolehkan anda mencari mengikut negara atau rantau, jenis ciri dan keluaran.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

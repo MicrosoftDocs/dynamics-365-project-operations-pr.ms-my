@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912389"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110895"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Perkara baharu April 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
@@ -25,7 +25,7 @@ Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Op
 
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
 
-Kategori perolehan boleh digunakan dalam pesanan pembelian projek dan invois vendor yang belum selesai. Untuk maklumat lanjut, lihat [Gunakan kategori perolehan dengan pesanan pembelian projek dan invois vendor yang belum selesai](configure-procurement-categories.md).
+Kategori perolehan boleh digunakan dalam pesanan pembelian projek dan invois vendor yang belum selesai. Untuk maklumat lanjut, lihat [Gunakan kategori perolehan dengan pesanan pembelian projek dan invois vendor yang belum selesai](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Kemas kini peta dwi tulis Project Operations
 
@@ -47,7 +47,7 @@ Jika anda menghadapi isu apabila anda memulakan peta, ikut arahan dalam [isu laj
 | ------------ | ---------------- | -------------- |
 | Masa dan perbelanjaan | 2573900 | Ciri **Kelulusan** Moden mesti didayakan secara lalai. |
 | Pengebilan dan harga | 2603313 | Membaiki ralat rekod pendua yang menghalang sebut harga dan baris kontrak yang mempunyai produk daripada ditambah. |
-| Penggunaan dan konfigurasi | 2611368 | Pelanggan mesti dapat menambah sehingga lima entiti tersuai kepada penyelesaian dengan menggunakan pereka bentuk aplikasi moden. |
+| Pelaksanaan dan konfigurasi | 2611368 | Pelanggan mesti dapat menambah sehingga lima entiti tersuai kepada penyelesaian dengan menggunakan pereka bentuk aplikasi moden. |
 | Masa dan perbelanjaan | 2628285 | Membaiki isu yang menjejaskan keupayaan untuk menetapkan kategori sumber yang betul semasa import kemasukan masa. |
 | Pengurusan peluang| 2628815 | Kemas kini had aksara perihalan butiran baris petikan agar sepadan dengan had aksara subjek tugas, supaya import berjaya untuk tugas di mana subjek lebih panjang daripada 100 aksara. |
 | Masa dan perbelanjaan| 2629547 | Medan **Dihantar Mengikut** kelulusan projek mesti menuding kepada pengguna yang menyerahkan rekod. |

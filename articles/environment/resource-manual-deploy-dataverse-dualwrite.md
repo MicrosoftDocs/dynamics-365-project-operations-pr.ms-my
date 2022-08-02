@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912021"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028575"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Atur letak aplikasi Project Operations Dataverse secara manual dengan sokongan dwi tulis
 
@@ -37,7 +37,7 @@ Untuk melengkapkan prosedur ini, anda mesti mendaftar masuk sebagai pentadbir.
 3. Pilih jenis persekitaran. Jika anda telah mendaftar untuk tawaran percubaan, pilih **Percubaan (berdasarkan langganan)**.
 4. Sahkan rantau pelaksanaan.
 5. Dayakan opsyen **Cipta pangkalan data untuk persekitaran ini**. 
-6. Sahkan bahasa, dan kemudian sahkan bahawa mata wang sepadan dengan mata wang untuk aplikasi Kewangan dan Operasi anda.
+6. Sahkan bahasa, dan kemudian sahkan bahawa mata wang sepadan dengan mata wang untuk aplikasi kewangan dan operasi anda.
 7. Dayakan opsyen **Aplikasi Dynamics 365** dan sahkan bahawa medan **Laksanakan secara automatik aplikasi ini** ditetapkan kepada **Tiada**.
 8. Tambah kumpulan keselamatan, jika kumpulan keselamatan ini diperlukan.
 9. Pilih **Simpan** untuk mencipta persekitaran.
@@ -62,4 +62,4 @@ Anda boleh melengkapkan prosedur ini hanya jika anda melengkapkan prosedur sebel
 
 ## <a name="link-your-environments"></a><a name="link"></a>Pautkan persekitaran anda
 
-Dataverse Selepas persekitaran digunakan, anda boleh menyediakan pautan dalam apl Kewangan dan Operasi anda. Ikut langkah dalam [Gunakan wizard dwi tulis untuk memautkan persekitaran anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dataverse Selepas persekitaran digunakan, anda boleh menyediakan pautan dalam apl kewangan dan operasi anda. Ikut langkah dalam [Gunakan wizard dwi tulis untuk memautkan persekitaran anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

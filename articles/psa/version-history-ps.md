@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
-ms.translationtype: MT
+ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
+ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
+ms.translationtype: HT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959671"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "9190678"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Kemas kini jadual keluaran untuk Project Service 3. x
 
@@ -37,7 +37,7 @@ ms.locfileid: "8959671"
 
 | Penyelesaian  | Versi terkini |
 |-------|----|
-| Automasi Perkhidmatan Projek    | 3.10.75.142 |
+| Automasi Perkhidmatan Projek    | 3.10.76.168 |
 | Tambahan desktop untuk Project Service Automation                | 3.60          |
 
 Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pelan keluaran Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pe
 | Stesen  | Rantau | Versi semasa | Versi seterusnya |  Tarikh dijadualkan
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stesen 1</strong> | |  |  | |
-| | <i>Keluaran Pertama</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 01 Julai 2022
+| | <i>Keluaran Pertama</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26 Ogos 2022
 |<strong>Stesen 2</strong> | |  |  | |
-| | <i>Amerika Selatan</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>Kanada</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>India</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>Perancis</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>Afrika Selatan</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>Jerman</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>Switzerland</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>Korea Selatan</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
-| | <i>Norway</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08 Julai 2022
+| | <i>Amerika Selatan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>India</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Perancis</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Afrika Selatan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Jerman</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Switzerland</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Korea Selatan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
+| | <i>Norway</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 September 2022
 |<strong>Stesen 3</strong> | |  |  | |
-| | <i>Jepun</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 Julai 2022
-| | <i>Asia Pasifik</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 Julai 2022
-| | <i>Great Britain</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 Julai 2022
-| | <i>Oceana</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 Julai 2022
-| | <i>Emiriah Arab Bersatu</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15 Julai 2022
+| | <i>Jepun</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
+| | <i>Asia Pasifik</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
+| | <i>Great Britain</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
+| | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
+| | <i>Emiriah Arab Bersatu</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
 |<strong>Stesen 4</strong> | |  |  | |
-| | <i>Eropah</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 17 Jun 2022
+| | <i>Eropah</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29 Julai 2022
 |<strong>Stesen 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 Jun 2022
+| | <i>Amerika Utara</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 Ogos 2022
 |<strong>Stesen 6</strong> | |  |  | |
-| | <i>Awan Komuniti Kerajaan</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 Jun 2022
-| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 01 Julai 2022
+| | <i>Awan Komuniti Kerajaan</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03 Ogos 2022
+| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 Ogos 2022
 
 
 

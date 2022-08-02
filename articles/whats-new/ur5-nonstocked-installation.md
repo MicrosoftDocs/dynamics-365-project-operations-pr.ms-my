@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912481"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030046"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Kemas kini Project Operations dalam persekitaran Kewangan anda
 
@@ -119,7 +119,7 @@ Kemas kini berikut pada kelayakan keselamatan untuk entiti diperlukan sebagai se
 4. Halaman **Versi peta jadual**, gunakan versi peta baharu pada setiap tiga entiti.
 5. Pada halaman **Dwitulis**, pilih jalankan untuk mulakan semula peta.
 6. Dari senarai peta, pilih peta **Ledger (msdyn_ledgers)** yang mempunyai semua prasyarat dan pilih kotak semak **Segerak awal**. 
-7. **Dalam medan Induk untuk penyegerakan** awal, pilih **aplikasi** Kewangan dan Operasi dan kemudian pilih **Jalankan**.
+7. **Dalam medan Induk untuk penyegerakan** awal, pilih **Aplikasi** kewangan dan operasi dan kemudian pilih **Jalankan**.
  
  ![Penyegerakan peta lejar.](media/DW6.png)
  

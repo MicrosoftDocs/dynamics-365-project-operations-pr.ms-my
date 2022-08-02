@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922877"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028897"
 ---
 # <a name="project-mobile-applications-overview"></a>Gambaran keseluruhan aplikasi mudah alih projek
 
@@ -33,11 +33,11 @@ Aplikasi mudah alih Lembaran masa Projek Dynamics 365 membolehkan pengguna menye
 
 ## <a name="project-time-entry-workspace"></a>Ruang kerja Entri Masa Projek
 
-Ruang kerja Entri Masa Projek membolehkan pengguna memasukkan dan menyimpan masa terhadap projek. Namun, ia tidak membenarkan pengguna menyerahkan atau meluluskan lembaran masa projek. Ia hanya boleh digunakan untuk entri masa. Ruang kerja mudah alih ini bertujuan untuk digunakan bersama-sama dengan aplikasi mudah alih Kewangan dan Operasi.
+Ruang kerja Entri Masa Projek membolehkan pengguna memasukkan dan menyimpan masa terhadap projek. Namun, ia tidak membenarkan pengguna menyerahkan atau meluluskan lembaran masa projek. Ia hanya boleh digunakan untuk entri masa. Ruang kerja mudah alih ini bertujuan untuk digunakan bersama-sama dengan aplikasi mudah alih kewangan dan operasi.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Lembaran masa saya/Lembaran masa untuk ulasan saya
 
-Lembaran masa saya (Dioptimumkan untuk mudah alih) dan Lembaran masa untuk ulasan saya (Dioptimumkan untuk mudah alih) membuat penyelesaian yang membolehkan pekerja mencipta, menyerahkan dan meluluskan lembaran masa kerja projek pada peranti mudah alih. Pekerja boleh mengakses fungsi Kewangan melalui URL untuk aplikasi. Penyelesaian ini tidak memerlukan aplikasi mudah alih Kewangan dan Operasi.
+Lembaran masa saya (Dioptimumkan untuk mudah alih) dan Lembaran masa untuk ulasan saya (Dioptimumkan untuk mudah alih) membuat penyelesaian yang membolehkan pekerja mencipta, menyerahkan dan meluluskan lembaran masa kerja projek pada peranti mudah alih. Pekerja boleh mengakses fungsi Kewangan melalui URL untuk aplikasi. Penyelesaian ini tidak memerlukan aplikasi mudah alih kewangan dan operasi.
 
 ## <a name="for-more-information"></a>Untuk mendapatkan maklumat lanjut
 

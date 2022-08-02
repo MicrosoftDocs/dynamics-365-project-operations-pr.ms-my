@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922785"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028806"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations untuk gambaran keseluruhan pelaksanaan senario distok/berasaskan pengeluaran
 
@@ -22,10 +22,10 @@ Jenis pelaksanaan ini mempunyai keupayaan berikut untuk syarikat berasaskan proj
 
 - Perancangan projek menggunakan [Struktur pecahan kerja](work-breakdown-structures.md)
 - Dapatkan dan gunakan inventori distok untuk projek
-- Menguruskan jualan berasaskan projek menggunakan **modul Jualan dan Pemasaran** dalam aplikasi Dynamics 365 Finance and Operations
-- Harga dan kos projek menggunakan kadar kos dan konfigurasi kadar bil dalam aplikasi Kewangan dan Operasi
-- Pengurusan sumber untuk projek dalam aplikasi Kewangan dan Operasi
-- Kemajuan projek dan penjejakan masa dalam aplikasi Kewangan dan Operasi
+- Menguruskan jualan berasaskan projek menggunakan **modul Jualan dan pemasaran** dalam aplikasi kewangan dan operasi Dynamics 365
+- Harga projek dan kos menggunakan kadar kos dan konfigurasi kadar bil dalam aplikasi kewangan dan operasi
+- Pengurusan sumber untuk projek dalam aplikasi kewangan dan operasi
+- Kemajuan projek dan penjejakan masa dalam aplikasi kewangan dan operasi
 - Pengalaman pengurusan perbelanjaan untuk perbelanjaan projek dan bukan projek dengan penangkapan resit menggunakan keupayaan OCR
 - Penginvoisan menggunakan sistem cukai jualan bertaraf perusahaan dan kadar pertukaran efektif tarikh
 - Kumpulan projek boleh dikonfigurasi untuk perakaunan dan akruan WIP

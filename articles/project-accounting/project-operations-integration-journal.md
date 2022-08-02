@@ -2,22 +2,22 @@
 title: Jurnal integrasi dalam Project Operations
 description: Artikel ini memberikan maklumat tentang bekerja dengan jurnal Integrasi dalam Operasi Projek.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923889"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106286"
 ---
 # <a name="integration-journal-in-project-operations"></a>Jurnal integrasi dalam Project Operations
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Entri masa dan perbelanjaan mencipta transaksi **Aktual** yang mewakili pandangan operasi bagi kerja yang diselesaikan terhadap projek. Dynamics 365 Project Operations menyediakan akauntan dengan alat untuk menyemak semula transaksi dan melaraskan atribut perakaunan seperti yang diperlukan. Selepas kajian semula dan pelarasan selesai, transaksi akan disiarkan ke sub lejar Projek dan Lejar Am. Akauntan boleh melaksanakan aktiviti ini menggunakan jurnal Integrasi **Operasi Projek (** Dynamics 365 Finance **Projek pengurusan dan jurnal Perakaunan** > **Jurnal Integrasi** > **Operasi Projek Jurnal** > **.**
+Masa, perbelanjaan, yuran, dan penyertaan material membuat **transaksi sebenar** yang mewakili pandangan operasi kerja yang diselesaikan terhadap projek. Dynamics 365 Project Operations menyediakan akauntan dengan alat untuk menyemak semula transaksi dan melaraskan atribut perakaunan seperti yang diperlukan. Selepas kajian semula dan pelarasan selesai, transaksi akan disiarkan ke sub lejar Projek dan Lejar Am. Seorang akauntan boleh melaksanakan aktiviti ini menggunakan **jurnal Integrasi** Operasi Projek (**Dynamics 365 Finance** > **Projek pengurusan dan jurnal perakaunan** > **Jurnal** > **Integrasi** Operasi Projek Jurnal.
 
 ![Aliran jurnal integrasi.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Hanya atribut perakaunan berikut boleh dikemaskini dalam baris jurnal integrasi 
 - **Kumpulan cukai jualan pengebilan** dan **Kumpulan cukai jualan item pengebilan**
 - **Dimensi kewangan** (menggunakan tindakan **Agihkan amaun**)
 
-Baris jurnal integrasi boleh dipadamkan, walau bagaimanapun sebarang baris yang belum disiarkan akan dimasukkan ke dalam jurnal sekali lagi selepas anda menjalankan semula proses berkala **Import daripada pemeringkatan**.
+Baris jurnal integrasi boleh dipadamkan. Walau bagaimanapun, sebarang baris yang tidak diposkan akan dimasukkan ke dalam jurnal sekali lagi selepas anda menjalankan **semula Import daripada proses berkala pementasan**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Siarkan jurnal integrasi Operasi Projek
 
 Apabila anda menyiarkan jurnal integrasi, sub lejar projek dan transaksi lejar am dicipta. Ini digunakan dalam penginvoisan pelanggan hiliran, pengiktirafan hasil dan pelaporan kewangan.
 
+Jurnal integrasi Operasi Projek yang dipilih boleh disiarkan dengan menggunakan **Post** pada halaman jurnal integrasi Operasi Projek. Semua jurnal boleh disiarkan secara automatik dengan menjalankan proses di **jurnal** > **integrasi Operasi** > **Projek Berkala** Pasca Operasi Projek.
+
+Pengeposan boleh dilakukan secara interaktif atau dalam kumpulan. Perhatikan bahawa semua jurnal yang mempunyai lebih daripada 100 baris akan disiarkan secara automatik dalam kumpulan. Untuk prestasi yang lebih baik apabila jurnal yang mempunyai banyak baris disiarkan dalam kelompok, dayakan **jurnal integrasi Post Project Operations menggunakan berbilang tugas kelompok** dalam **ruang kerja pengurusan** Ciri. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Pindahkan semua baris yang mempunyai ralat pengeposan ke jurnal baru
+
+> [!NOTE]
+> Untuk menggunakan keupayaan ini, dayakan **Pindahkan semua baris dengan ralat pengeposan ke ciri jurnal** integrasi Project Operations baru dalam **ruang kerja pengurusan** Ciri.
+
+Semasa menyiarkan ke jurnal integrasi Project Operations, sistem mengesahkan setiap baris dalam jurnal. Sistem ini menyiarkan semua baris yang tidak mempunyai ralat dan mencipta jurnal baru untuk semua baris yang mempunyai ralat pengeposan. Untuk menyemak jurnal yang mempunyai garis ralat pengeposan, pergi ke **jurnal** > **integrasi Pengurusan Projek dan perakaunan** > **Jurnal** Projek Operasi, dan tapis jurnal dengan menggunakan **medan jurnal** Asal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

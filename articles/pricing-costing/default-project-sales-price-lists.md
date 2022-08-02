@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917725"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036422"
 ---
 # <a name="default-price-lists"></a>Senarai harga lalai
 
@@ -25,7 +25,7 @@ Setiap sebut harga projek dan kontrak dalam Dynamics 365 Project Operations meng
 Sistem akan melengkapkan proses berikut untuk menentukan senarai harga untuk dijadikan lalai pada sebut harga projek:
 
 1. Sistem melihat senarai harga yang dilampirkan pada senarai harga projek akaun. 
-2. Jika terdapat senarai harga projek yang dilampirkan pada rekod akaun, sistem akan melihat senarai harga jualan yang dilampirkan pada parameter projek yang sepadan dengan mata wang sebut harga projek.
+2. Sekiranya tidak ada senarai harga projek yang dilampirkan pada rekod akaun, sistem melihat senarai harga jualan yang dilampirkan pada parameter projek yang sepadan dengan mata wang sebut harga projek.
 3. Seterusnya, sistem akan menyemak tempoh kuat kuasa tarikh senarai harga yang sepadan dengan julat tarikh sebut harga projek. Khususnya, tarikh yang sebut harga dicipta.
 4. Jika terdapat berbilang senarai harga yang berkuat kuasa untuk tarikh sebut harga projek, semua senarai harga dijadikan lalai pada sebut harga projek.
 5. Jika tiada senarai harga yang berkuat kuasa untuk tarikh sebut harga projek, tidak akan ada senarai harga projek dijadikan lalai pada sebut harga projek. Mesej amaran akan muncul pada sebut harga projek. Mesej menyatakan bahawa nilai sebenar dan anggaran pada projek tidak akan diberikan harga kerana tiada senarai harga projek dilampirkan.

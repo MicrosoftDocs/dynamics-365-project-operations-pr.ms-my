@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959698"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029311"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Daftar untuk percubaan Project Operations 
 
@@ -86,11 +86,11 @@ Sebelum anda bermula, daftar masuk ke pelayar dengan akaun kerja pengguna dalam 
  
   Apabila peruntukan selesai, keadaan persekitaran anda menjadi **Bersedia**. Peruntukan persekitaran termasuk melaksanakan data demo.
  
-4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi Kewangan dan Operasi untuk mengesahkan penggunaan.
+4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi kewangan dan operasi untuk mengesahkan penggunaan.
 
 ## <a name="configuring-dual-write"></a>Mengkonfigurasikan dwitulis
 - Untuk mengkonfigurasi peranan keselamatan untuk dwi-tulis, lihat [Kemas kini seting keselamatan pada Operasi Projek dalam Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Untuk mengakses konfigurasi dwi-tulis, Navigasi ke contoh Kewangan dan Operasi, kemudian navigasi ke **Pengurusan** > **Data Dual Write**.
+- Untuk mengakses konfigurasi dwi-tulis, Navigasi ke contoh kewangan dan operasi, kemudian navigasi ke **Pengurusan** > **Data Dual Write**.
 - Untuk mengkonfigurasi peta dwi-tulis, lihat [Jalankan peta](resource-provision-new-environment.md#run-project-operations-dual-write-maps) dwi-tulis Operasi Projek.
 
 ## <a name="assign-licenses"></a>Peruntukkan lesen
@@ -117,7 +117,7 @@ Sumber berikut menyediakan panduan berguna sambil anda memulakan perjalanan anda
 
 ## <a name="frequently-asked-questions"></a>Soalan lazim
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimana jika saya memerlukan ALM atau ELM untuk persekitaran aplikasi Kewangan dan Operasi saya?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimana jika saya memerlukan ALM atau ELM untuk persekitaran aplikasi kewangan dan operasi saya?
 
 - Untuk rakan kongsi yang memerlukan keupayaan pengurusan kitaran hayat persekitaran penuh, lihat [Permintaan Lesen Kotak Pasir Rakan Kongsi](https://experience.dynamics.com/requestlicense) untuk menyemak tawaran rakan kongsi baharu. 
 - Untuk rakan kongsi yang mencari maklumat lanjut tentang Hak Penggunaan Dalaman, lihat [Manfaat awan dan perisian Hak Penggunaan Dalaman (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

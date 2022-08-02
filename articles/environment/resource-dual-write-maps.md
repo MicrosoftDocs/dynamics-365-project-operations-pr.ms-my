@@ -2,16 +2,16 @@
 title: Versi peta dwi tulis Project Operations
 description: Artikel ini menyediakan senarai peta dwi-tulis yang diperlukan untuk Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959662"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112440"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versi peta dwi tulis Project Operations
 
@@ -25,12 +25,12 @@ Peta berikut memerlukan prasyarat untuk penyelesaian Project Operations. Pastika
 
 | Peta jadual | Penyegerakan awal |
 | --- | --- |
-| Lejar (msdyn_ledgers) | Memerlukan penyegerakan awal untuk peta jadual dan semua prasyarat. Master untuk penyegerakan awal ialah aplikasi Kewangan dan Operasi. |
+| Lejar (msdyn_ledgers) | Memerlukan penyegerakan awal untuk peta jadual dan semua prasyarat. Master untuk penyegerakan awal adalah aplikasi kewangan dan operasi. |
 | Entiti sah (cdm_companies) | Tidak diperlukan. Sistem ini mengisi entiti secara automatik apabila persekitaran dipautkan menggunakan dwi tulis. |
 | Pelanggan V3 (akaun) | Tidak diperlukan untuk peruntukan. |
 | Vendor V2 (msdyn_vendors) | Tidak diperlukan untuk peruntukan. |
 
-1. Daripada senarai peta, pilih peta Lejar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak semak **Initial sync**. **Dalam medan Master untuk penyegerakan** awal, pilih **aplikasi** Kewangan dan Operasi untuk kedua-dua peta lejar dan semua peta prasyarat. Pilih **Jalankan**.
+1. Daripada senarai peta, pilih peta Lejar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak semak **Initial sync**. **Dalam medan Master untuk penyegerakan** awal, pilih **Aplikasi** kewangan dan operasi untuk kedua-dua peta lejar dan semua peta prasyarat. Pilih **Jalankan**.
 
 ![Penyegerakan peta lejar.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Peta berikut diperlukan untuk penyelesaian Project Operations. Versi peta dwitul
 | Pengepala kontrak projek (pesanan jualan) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. ||
 | Baris kontrak projek (salesorderdetails) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
 | Sumber pembiayaan projek (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. ||
-| Jadual integrasi Project Operations untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
+| Jadual integrasi projek untuk anggaran bahan (garis anggaran msdyn\_) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
 | Cadangan invois projek V2 (invois) | 1.0.0.3 | Tidak diperlukan untuk peruntukan. ||
 | Aktual integrasi Project Operations (msdyn_actuals) | 1.0.0.14 | Tidak diperlukan untuk peruntukan. ||
 | Pencapaian baris kontrak integrasi Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. ||

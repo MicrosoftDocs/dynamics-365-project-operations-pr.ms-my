@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931617"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028529"
 ---
 # <a name="provision-a-new-environment"></a>Peruntukan persekitaran baharu
 
@@ -117,7 +117,7 @@ Anda mungkin perlu menggunakan kemas kini kualiti kepada persekitaran kewangan a
 
     ![Gunakan Penyelesaian.](./media/13ApplySolutions.png)
 
-5. Pilih kedua-dua penyelesaian, **Dynamics 365 Finance and Operations Peta** Entiti Dwi Tulis dan **Dynamics 365 Project Operations Peta** Entiti Tulis Dual, kemudian pilih **Gunakan**.
+5. Pilih kedua-dua penyelesaian, **Dynamics 365 Finance Peta** Entiti Dwi Tulis dan **Dynamics 365 Project Operations Peta** Entiti Tulis Dual, kemudian pilih **Gunakan**.
 
     ![Sahkan Penyelesaian.](./media/14ConfirmSolutions.png)
 

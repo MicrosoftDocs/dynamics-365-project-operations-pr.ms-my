@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959653"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031204"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>Ciri baharu Jun 2022 - Project Operations pelaksanaan ringan
 
@@ -20,7 +20,7 @@ _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
 
-- Operasi Projek dalam versi persekitaran 4.43.0.77 Dataverse
+- Operasi Projek dalam versi persekitaran yang Dataverse 4.43.0.77 atau 4.43.0.119
 
 ## <a name="quality-updates"></a>Kemas kini kualiti
 

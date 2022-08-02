@@ -4,7 +4,7 @@ description: Cara untuk mencipta templat projek dalam Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599005"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177437"
 ---
 # <a name="create-a-project-template-project-service"></a>Cipta templat projek (Project Service)
 
@@ -35,12 +35,19 @@ Templat projek menjimatkan masa anda jika syarikat anda membida dengan kerap pad
 ## <a name="components-of-project-template"></a>Komponen templat projek
  Templat projek terdiri daripada tiga komponen:  
   
-- **Struktur pecahan kerja**: Struktur pecahan kerja dalam templat projek mempunyai set elemen yang sama seperti dalam projek. Anda boleh mencipta hierarki tugas, mengaitkan peranan dengan tugas, mentakrifkan atribut jadual, menetapkan kebergantungan dan melihat semua data dalam Gantt. Struktur pecahan kerja dalam templat projek juga menyokong mod tugas untuk setiap tugas. Tiada perbezaan antara templat projek dengan projek apabila mencipta jadual kerja.  
+- **Struktur pecahan kerja**: Struktur pecahan kerja dalam templat projek mempunyai set elemen yang sama seperti dalam projek. Anda boleh mencipta hierarki tugas, mengaitkan peranan dengan tugas, mentakrifkan atribut jadual, mengesetkan kebergantungan dan melihat semua data dalam Gantt. Struktur pecahan kerja dalam templat projek juga menyokong mod tugas untuk setiap tugas. Tidak ada perbezaan antara templat projek dan projek semasa membuat jadual kerja.  
   
 - **Anggaran projek**: Anggaran projek dalam templat mempunyai fungsi yang sama seperti dalam projek, kecuali senarai harga untuk penetapan lalai kos dan harga jualan sentiasa senarai kos dan harga jualan yang ditakrifkan dalam parameter [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Kefungsian yang lain sama seperti dalam projek.  
   
 - **Pembentukan pasukan projek**: Apabila membentuk pasukan projek untuk templat projek, anda tidak boleh menempah sumber bernama dalam templat. Anda boleh menggunakan **Jana Pasukan Projek** dalam struktur pecahan kerja untuk menjana set sumber generik. Anda juga boleh menentukan kemahiran dan kecekapan yang diperlukan untuk sumber generik. Anda tidak boleh menggantikan sumber generik dengan sumber yang boleh ditempah dalam templat projek.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Mencipta templat projek daripada projek sedia ada
+Anda boleh mencipta templat projek daripada projek dengan cara berikut:
+
+- **Struktur** pecahan kerja: Struktur pecahan kerja dalam templat yang diperoleh daripada projek akan menyalin semua tugas dan kebergantungan. Tugasan yang dibuat akan berdasarkan ahli pasukan generik yang ditambahkan ke pasukan projek apabila templat projek dibuat.
+- **Anggaran projek**: Apabila templat projek dicipta daripada projek sedia ada, anggaran daripada projek sumber disalin ke templat projek.
+- **Ahli pasukan projek**: Apabila templat dicipta daripada projek sedia ada, semua ahli pasukan yang dinamakan digantikan dengan sumber generik organisasi. Semua nama dan peranan kedudukan dikekalkan.
+
 ## <a name="create-a-project-from-a-template"></a>Cipta projek daripada templat  
  Anda boleh mencipta projek daripada templat dengan cara berikut:  
   
