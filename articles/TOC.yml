@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Ciri baharu
       items:
-        - name: Julai 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Ogos 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arkib
           items:
+            - name: Julai 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Jun 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mei 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
@@ -384,6 +386,42 @@
           items:
             - name: Gambaran keseluruhan penggunaan sumber
               href: resource-management/resource-utilization-overview.md
+    - name: Pengurusan Subkontrak
+      items:
+        - name: Pengurusan subkontrak dalam Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Konsep utama dalam subkontrak
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Menguruskan vendor dan senarai harga projek
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subkontraktor sebagai sumber boleh ditempah
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Butiran Pengepala untuk Subkontrak
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Baris subkontrak untuk masa
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Baris subkontrak untuk kategori perbelanjaan
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Baris subkontrak untuk produk
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Sumber baris subkontraktor
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Pencapaian baris subkontrak
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Ahli pasukan projek subkontrak
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Pilihan subkontrak untuk ahli pasukan projek
+          href: pro/subcontracting/subcon-options.md
+        - name: Anggaran kos tugasan sumber yang disubkontrak
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Konfigurasikan Papan Jadual untuk menunjukkan pekerja kontrak dan kapasiti yang disubkontrak
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Kakitangan projek dengan pekerja kontrak dan kapasiti yang disubkontrak
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Merekod masa, perbelanjaan dan penggunaan bahan untuk komponen yang disubkontrak'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Peralihan negeri pada subkontrak
+          href: pro/subcontracting/subcon-states.md
     - name: Masa
       items:
         - name: Gambaran keseluruhan masa
@@ -580,6 +618,8 @@
       items:
         - name: Pindahkan pencapaian pengebilan invois penuh semasa pemotongan
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Segerakkan Status Projek untuk mengelakkan entri ke projek ditutup
+          href: advanced-configuration/sync-project-status.md
     - name: Naik taraf
       items:
         - name: Peningkatan pertimbangan untuk kelulusan Moden
@@ -604,19 +644,21 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Laksanakan Project Operations - ringan
           href: environment/lite-deployment.md
-        - name: Gunakan persediaan demo dan data konfigurasi - ringan
+        - name: Gunakan persediaan tunjuk cara dan data konfigurasi - ringan
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Model keselamatan
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Ciri baharu Julai 2022 - pelaksanaan ringan
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Ciri baharu Ogos 2022 - pelaksanaan ringan
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arkib
           items:
+            - name: Ciri baharu Julai 2022 - pelaksanaan ringan
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Ciri baharu Jun 2022 - pelaksanaan ringan
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: Ciri baharu akses awal gelombang 2 tahun 2021 - pelaksanaan ringan
+            - name: Ciri baharu capaian awal gelombang 2 tahun 2021 - pelaksanaan ringan
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: Ciri baharu Mei 2022 - pelaksanaan ringan
               href: pro/whats-new/whats-new-may-2022-lite.md
