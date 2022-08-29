@@ -1,25 +1,23 @@
 ---
 title: Butiran pengepala untuk subkontrak
-description: Artikel ini menerangkan fungsi yang disediakan pada pengepala subkontrak dalam Operasi Projek.
+description: Artikel ini menerangkan kefungsian yang disediakan pada pengepala subkontrak dalam Operasi Projek.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914183"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261429"
 ---
 # <a name="header-details-for-subcontracts"></a>Butiran pengepala untuk subkontrak
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Artikel ini menerangkan fungsi yang disediakan pada pengepala subkontrak dalam Dynamics 365 Project Operations.
+Artikel ini menerangkan kefungsian yang disediakan pada pengepala subkontrak dalam Dynamics 365 Project Operations.
 
 Disebabkan Pengurus Projek merancang dan melaksanakan projek, mereka boleh menggunakan subkontraktor dan membeli produk dan perkhidmatan daripada vendor. Apabila Pengurus Projek perlu membeli produk atau perkhidmatan, mereka boleh mencipta subkontrak dalam Project Operations.
 

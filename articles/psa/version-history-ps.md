@@ -1,6 +1,6 @@
 ---
 title: Kemas kini jadual keluaran untuk Project Service 3. x
-description: Artikel ini memberikan maklumat mengenai siaran yang ada dan akan datang Dynamics 365 Project Service Automation.
+description: Artikel ini menyediakan maklumat mengenai keluaran yang tersedia dan akan datang Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
-ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
-ms.translationtype: HT
+ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "9190678"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295843"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Kemas kini jadual keluaran untuk Project Service 3. x
 
@@ -63,12 +63,12 @@ Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pe
 | | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
 | | <i>Emiriah Arab Bersatu</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 September 2022
 |<strong>Stesen 4</strong> | |  |  | |
-| | <i>Eropah</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29 Julai 2022
+| | <i>Eropah</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16 September 2022
 |<strong>Stesen 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 Ogos 2022
+| | <i>Amerika Utara</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23 September 2022
 |<strong>Stesen 6</strong> | |  |  | |
-| | <i>Awan Komuniti Kerajaan</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03 Ogos 2022
-| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 Ogos 2022
+| | <i>Awan Komuniti Kerajaan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21 September 2022
+| | <i>Kumpulan Skala Berdedikasi</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30 September 2022
 
 
 

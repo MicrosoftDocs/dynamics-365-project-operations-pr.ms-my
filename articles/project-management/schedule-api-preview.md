@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929225"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230327"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
 
@@ -42,12 +42,12 @@ OperationSet ialah corak unit kerja yang boleh digunakan apabila beberapa jadual
 
 Berikut ialah senarai API jadual Projek semasa.
 
-- **msdyn_CreateProjectV1**: API ini boleh digunakan untuk mencipta projek. Projek dan baldi projek lalai dibuat dengan serta-merta.
+- **msdyn_CreateProjectV1**: API ini boleh digunakan untuk mencipta projek. Baldi projek dan lalai dibuat serta-merta.
 - **msdyn_CreateTeamMemberV1**: API ini boleh digunakan untuk mencipta ahli pasukan projek. Rekod ahli pasukan dicipta dengan serta-merta.
 - **msdyn_CreateOperationSetV1**: API ini boleh digunakan untuk menjadualkan beberapa permintaan yang mesti dilaksanakan dalam transaksi.
-- **msdyn_PSSCreateV1**: API ini boleh digunakan untuk mencipta entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi cipta.
-- **msdyn_PSSUpdateV1**: API ini boleh digunakan untuk mengemas kini entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi kemas kini.
-- **msdyn_PSSDeleteV1**: API ini boleh digunakan untuk memadamkan entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi padam.
+- **msdyn_PssCreateV1**: API ini boleh digunakan untuk membuat entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi cipta.
+- **msdyn_PssUpdateV1**: API ini boleh digunakan untuk mengemas kini entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi kemas kini.
+- **msdyn_PssDeleteV1**: API ini boleh digunakan untuk memadam entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi padam.
 - **msdyn_ExecuteOperationSetV1**: API ini digunakan untuk melaksanakan semua operasi dalam set operasi yang diberikan.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>Menggunakan API jadual Projek dengan OperationSet
@@ -58,10 +58,10 @@ Kerana rekod dengan kedua-dua **CreateProjectV1** dan **CreateTeamMemberV1** dic
 
 | Entiti penjadualan | Cipta | Kemas kini | Delete | Pertimbangan penting |
 | --- | --- | --- | --- | --- |
-Tugas projek | Ya | Ya | Ya | Medan **Kemajuan**, **Usaha Selesai** dan **UsahaMaining** Boleh diedit dalam Project for the Web, tetapi ia tidak boleh diedit dalam Operasi Projek.  |
-| Pergantungan tugas projek | Ya |  | Ya | Rekod pergantungan tugas projek tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baru boleh dicipta. |
-| Penugasan sumber | Ya | Ya | | Operasi dengan medan berikut tidak disokong: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** dan **PlannedWork**. Rekod penugasan sumber tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baru boleh dibuat. |
-| Baldi projek | Ya | Ya | Ya | Baldi lalai dicipta dengan **menggunakan API CreateProjectV1**. Sokongan untuk mencipta dan memadam baldi projek telah ditambah dalam Kemas Kini Keluaran 16. |
+Tugas projek | Ya | Ya | Ya | Medan **Progress**, **EffortCompleted** dan **EffortRemaining** boleh diedit dalam Project for the Web, tetapi ia tidak boleh diedit dalam Operasi Projek.  |
+| Pergantungan tugas projek | Ya |  | Ya | Rekod pergantungan tugas projek tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baharu boleh dicipta. |
+| Penugasan sumber | Ya | Ya | | Operasi dengan medan berikut tidak disokong: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** dan **PlannedWork**. Rekod penugasan sumber tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baharu boleh dicipta. |
+| Baldi projek | Ya | Ya | Ya | Baldi lalai dicipta menggunakan **API CreateProjectV1**. Sokongan untuk mencipta dan memadam baldi projek telah ditambah dalam Kemas Kini Keluaran 16. |
 | Ahli pasukan projek | Ya | Ya | Ya | Untuk mencipta operasi, gunakan API **CreateTeamMemberV1**. |
 | Project | Ya | Ya |  | Operasi dengan medan berikut tidak disokong: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** dan **Duration**. |
 
@@ -75,7 +75,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 
 ### <a name="project-task"></a>Tugas projek
 
-| Nama logik                           | Boleh mencipta     | Boleh edit         |
+| Nama logik                           | Boleh buat     | Boleh edit         |
 |----------------------------------------|----------------|------------------|
 | msdyn_actualcost                       | No             | No               |
 | msdyn_actualcost_base                  | No             | No               |
@@ -86,8 +86,8 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 | msdyn_costatcompleteestimate           | No             | No               |
 | msdyn_costatcompleteestimate_base      | No             | No               |
 | msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Tidak (ya untuk Projek)             | Tidak (ya untuk Projek)               |
-| msdyn_effortremaining                  | Tidak (ya untuk Projek)              | Tidak (ya untuk Projek)                |
+| msdyn_effortcompleted                  | Tidak (ya untuk Project)             | Tidak (ya untuk Project)               |
+| msdyn_effortremaining                  | Tidak (ya untuk Project)              | Tidak (ya untuk Project)                |
 | msdyn_effortestimateatcomplete         | No             | No               |
 | msdyn_iscritical                       | No             | No               |
 | msdyn_iscriticalname                   | No             | No               |
@@ -103,7 +103,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 | msdyn_plannedsales                     | No             | No               |
 | msdyn_plannedsales_base                | No             | No               |
 | msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Tidak (ya untuk Projek)             | Tidak (ya untuk Projek) |
+| msdyn_progress                         | Tidak (ya untuk Project)             | Tidak (ya untuk Project) |
 | msdyn_remainingcost                    | No             | No               |
 | msdyn_remainingcost_base               | No             | No               |
 | msdyn_remainingsales                   | No             | No               |
@@ -130,7 +130,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 
 ### <a name="project-task-dependency"></a>Pergantungan tugas projek
 
-| Nama logik                  | Boleh mencipta     | Boleh edit     |
+| Nama logik                  | Boleh buat     | Boleh edit     |
 |-------------------------------|----------------|--------------|
 | msdyn_linktype                | No             | No           |
 | msdyn_linktypename            | No             | No           |
@@ -144,7 +144,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 
 ### <a name="resource-assignment"></a>Penugasan sumber
 
-| Nama logik                 | Boleh mencipta     | Boleh edit     |
+| Nama logik                 | Boleh buat     | Boleh edit     |
 |------------------------------|----------------|--------------|
 | msdyn_bookableresourceid     | Ya            | No           |
 | msdyn_bookableresourceidname | Ya            | No           |
@@ -174,7 +174,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 
 ### <a name="project-team-member"></a>Ahli pasukan projek
 
-| Nama logik                                     | Boleh mencipta     | Boleh edit     |
+| Nama logik                                     | Boleh buat     | Boleh edit     |
 |--------------------------------------------------|----------------|--------------|
 | msdyn_calendarid                                 | No             | No           |
 | msdyn_creategenericteammemberwithrequirementname | No             | No           |
@@ -196,7 +196,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 
 ### <a name="project"></a>Project
 
-| Nama logik                           | Boleh mencipta     | Boleh edit     |
+| Nama logik                           | Boleh buat     | Boleh edit     |
 |----------------------------------------|----------------|--------------|
 | msdyn_actualexpensecost                | No             | No           |
 | msdyn_actualexpensecost_base           | No             | No           |
@@ -255,7 +255,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 
 ### <a name="project-bucket"></a>Baldi projek
 
-| Nama logik          | Boleh mencipta      | Boleh edit     |
+| Nama logik          | Boleh buat      | Boleh edit     |
 |-----------------------|-----------------|--------------|
 | msdyn_displayorder    | Ya             | No           |
 | msdyn_name            | Ya             | Ya          |
@@ -265,7 +265,7 @@ Jadual berikut mentakrifkan medan yang dihadkan daripada **Cipta** dan **Edit**.
 ## <a name="limitations-and-known-issues"></a>Pengehadan dan isu yang diketahui
 Berikut ialah senarai pengehadan dan isu yang diketahui:
 
-- API Jadual Projek hanya boleh digunakan oleh **Pengguna dengan Lesen** Projek Microsoft. Ia tidak boleh digunakan oleh:
+- API Jadual Projek hanya boleh digunakan oleh **Pengguna dengan Lesen** Microsoft Project. Ia tidak boleh digunakan oleh:
 
     - Pengguna aplikasi
     - Pengguna sistem

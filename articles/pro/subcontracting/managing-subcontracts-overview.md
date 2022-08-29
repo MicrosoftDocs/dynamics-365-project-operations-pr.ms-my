@@ -1,25 +1,24 @@
 ---
 title: Pengurusan subkontrak dalam Project Operations
-description: Artikel ini memberikan gambaran keseluruhan proses pengurusan subkontrak hujung ke hujung biasanya dalam organisasi berasaskan projek.
+description: Artikel ini menyediakan gambaran keseluruhan proses pengurusan subkontrak hujung ke hujung biasanya dalam organisasi berasaskan projek.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911516"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261219"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Pengurusan subkontrak dalam Project Operations
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Artikel ini memberikan gambaran keseluruhan proses pengurusan subkontrak hujung ke hujung dalam organisasi berasaskan projek. Subkontrak untuk perkhidmatan biasanya mengikut aliran proses perniagaan yang ditunjukkan dalam rajah berikut.
+Artikel ini menyediakan gambaran keseluruhan proses pengurusan subkontrak hujung ke hujung dalam organisasi berasaskan projek. Subkontrak untuk perkhidmatan biasanya mengikut aliran proses perniagaan yang ditunjukkan dalam rajah berikut.
 
 ![Aliran proses subkontrak](../media/SubcontractingProcessFlow.png)
 
@@ -46,7 +45,7 @@ Baris subkontrak boleh merupakan jenis berasaskan kuantiti atau berasaskan kerja
 
 Apabila baris subkontrak adalah **berasaskan kuantiti**, kuantiti yang dibeli pada baris subkontrak untuk masa, perbelanjaan, atau bahan boleh digunakan pada mana-mana projek.
 
-Apabila baris subkontrak adalah **berasaskan kerja**, baris subkontrak dipetakan kepada badan kerja yang diwakili oleh nod dalam pelan projek. Nilai baris subkontrak ialah jumlah semua komponen yang diperlukan untuk menghantar badan kerja tersebut. Ini dimodelkan sebagai butiran baris subkontrak dan boleh merupakan koleksi masa, perbelanjaan atau bahan. Untuk baris subkontrak berasaskan kerja, baris subkontrak juga dikhususkan untuk satu projek. Jenis subkontrak ini adalah currenlty yang tidak disokong oleh Operasi Projek.
+Apabila baris subkontrak adalah **berasaskan kerja**, baris subkontrak dipetakan kepada badan kerja yang diwakili oleh nod dalam pelan projek. Nilai baris subkontrak ialah jumlah semua komponen yang diperlukan untuk menghantar badan kerja tersebut. Ini dimodelkan sebagai butiran baris subkontrak dan boleh merupakan koleksi masa, perbelanjaan atau bahan. Untuk baris subkontrak berasaskan kerja, baris subkontrak juga dikhususkan untuk satu projek. Jenis subkontrak ini tidak disokong oleh Operasi Projek.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

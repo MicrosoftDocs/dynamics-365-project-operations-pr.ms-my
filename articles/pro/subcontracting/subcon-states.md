@@ -1,36 +1,34 @@
 ---
 title: Peralihan keadaan pada subkontrak
-description: Artikel ini menerangkan peralihan negeri pada subkontrak dalam Microsoft Dynamics 365 Project Operations sebagai subkontrak dicipta, dilaksanakan dan ditutup.
+description: Artikel ini menerangkan peralihan keadaan pada subkontrak dalam Microsoft Dynamics 365 Project Operations kerana subkontrak dicipta, dilaksanakan dan ditutup.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919749"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261286"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Peralihan keadaan pada subkontrak 
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Artikel ini menerangkan peralihan negeri pada subkontrak dalam Microsoft Dynamics 365 Project Operations. Setiap negeri diwakili sebagai sama ada draf, disahkan, ditutup, atau dibatalkan. Imej berikut mewakili peralihan negeri.
+Artikel ini menerangkan peralihan keadaan pada subkontrak dalam Microsoft Dynamics 365 Project Operations. Setiap negeri diwakili sebagai sama ada draf, disahkan, ditutup, atau dibatalkan. Imej berikut mewakili peralihan negeri.
 
-![Model keadaan subkontrak](../media/SubconStates.png)  
+![Model negeri subkontrak](../media/SubconStates.png)  
 
-Jadual berikut memberikan perihalan tentang apa yang diwakili oleh setiap negeri dalam kitaran hayat subkontrak dalam Operasi Projek.
+Jadual berikut menyediakan perihalan tentang perkara yang setiap negeri wakili dalam kitaran hayat subkontrak dalam Operasi Projek.
 
 | Negeri | Description | Peralihan yang dibenarkan |
 | --- | --- | --- |
-| Draf | Ini mewakili keadaan awal subkontrak. Rundingan dengan vendor sedang berjalan. Garisan dan harga adalah tertakluk kepada pengubahsuaian. Subkontrak di negeri ini boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan. Ia juga boleh dirujuk pada masa, perbelanjaan, dan penggunaan bahan pada projek. Subkontrak dalam keadaan ini boleh diedit dan dipadamkan. | Disahkan |
-| Disahkan | Ini mewakili peringkat subkontrak selepas rundingan dengan vendor mengenai harga dan item baris yang dibeli selesai. Walau bagaimanapun, penghantaran sebenar bahan dan / atau kerja oleh sumber subkontrak masih berterusan. Subkontrak di negeri ini boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan. Ia juga boleh dirujuk pada masa, perbelanjaan, dan penggunaan bahan pada projek. Subkontrak dalam keadaan ini tidak boleh diedit atau dihapuskan. Butang **Batal** membolehkan anda membatalkan subkontrak yang disahkan. Butang **Buka** semula membolehkan anda membuka semula subkontrak untuk membawanya kembali ke **status Draf**. Gunakan butang **Tutup** untuk menutup subkontrak yang disahkan. | Tertutup <br> Dibatalkan <br> Draf |
-| Tertutup | Ini mewakili peringkat subkontrak apabila penghantaran sebenar bahan dan/atau kerja oleh sumber subkontrak selesai. Subkontrak di negeri ini tidak lagi boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan. Juga, ia tidak lagi boleh dirujuk pada masa, perbelanjaan, dan penggunaan bahan pada projek. Subkontrak dalam keadaan ini tidak boleh diedit atau dihapuskan. | Tiada |
-| Dibatalkan | Ini mewakili peringkat subkontrak apabila penghantaran sebenar bahan dan/atau kerja oleh sumber subkontrak tidak lagi diperlukan. Subkontrak di negeri ini tidak boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan dan juga tidak boleh dirujuk pada masa, perbelanjaan, dan penggunaan bahan pada projek. Subkontrak dalam keadaan ini tidak boleh diedit atau dihapuskan. | Tiada |
+| Draf | Ini mewakili keadaan awal subkontrak. Rundingan dengan vendor sedang berjalan. Garis dan harga tertakluk kepada pengubahsuaian. Subkontrak di negeri ini boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan. Ia juga boleh dirujuk mengenai masa, perbelanjaan, dan penggunaan bahan pada projek. Subkontrak dalam keadaan ini boleh diedit dan dipadamkan. | Disahkan |
+| Disahkan | Ini mewakili peringkat subkontrak selepas rundingan dengan vendor mengenai harga dan item talian yang dibeli selesai. Walau bagaimanapun, penghantaran sebenar bahan dan / atau kerja oleh sumber subkontrak masih berterusan. Subkontrak di negeri ini boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan. Ia juga boleh dirujuk mengenai masa, perbelanjaan, dan penggunaan bahan pada projek. Subkontrak dalam keadaan ini tidak boleh diedit atau dipadamkan. Butang **Batal** membolehkan anda membatalkan subkontrak yang disahkan. Butang **Buka** semula membolehkan anda membuka semula subkontrak untuk membawanya kembali ke **status Draf**. Gunakan butang **Tutup** untuk menutup subkontrak yang disahkan. | Tertutup <br> Dibatalkan <br> Draf |
+| Tertutup | Ini mewakili peringkat subkontrak apabila penghantaran sebenar bahan dan / atau kerja oleh sumber subkontrak selesai. Subkontrak di negeri ini tidak lagi boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan. Juga, ia tidak lagi boleh dirujuk mengenai masa, perbelanjaan, dan penggunaan bahan pada projek. Subkontrak dalam keadaan ini tidak boleh diedit atau dipadamkan. | Tiada |
+| Dibatalkan | Ini mewakili peringkat subkontrak apabila penghantaran sebenar bahan dan / atau kerja oleh sumber subkontrak tidak lagi diperlukan. Subkontrak di negeri ini tidak boleh digunakan untuk menganggarkan dan keperluan projek kakitangan untuk sumber dan bahan atau, tidak boleh dirujuk pada masa, perbelanjaan, dan penggunaan bahan pada sesuatu projek. Subkontrak dalam keadaan ini tidak boleh diedit atau dipadamkan. | Tiada |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

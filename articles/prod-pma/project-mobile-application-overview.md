@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan aplikasi mudah alih projek
-description: Artikel ini menyediakan maklumat umum tentang aplikasi berkaitan masa projek untuk Microsoft Dynamics 365 Project Timesheet, Kemasukan Masa Projek dan Lembaran masa saya/Lembaran Masa yang tersedia pada peranti mudah alih.
+description: Artikel ini menyediakan maklumat umum tentang aplikasi berkaitan masa projek untuk Microsoft Dynamics 365 Project Timesheet, Entri Masa Projek dan lembaran masa/Lembaran Masa saya yang tersedia pada peranti mudah alih.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028897"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316999"
 ---
 # <a name="project-mobile-applications-overview"></a>Gambaran keseluruhan aplikasi mudah alih projek
 
@@ -29,7 +29,7 @@ Tiga aplikasi mudah alih yang berkaitan dengan masa projek tersedia untuk Micros
 
 ## <a name="project-timesheet-mobile-app"></a>Aplikasi mudah alih Lembaran masa Projek
 
-Aplikasi mudah alih Lembaran masa Projek Dynamics 365 membolehkan pengguna menyerahkan dan meluluskan lembaran masa untuk projek pada peranti mudah alih mereka. Aplikasi mudah alih ini memaparkan fungsi lembaran masa dalam bidang pengurusan Projek dan perakaunan Dynamics 365 Finance. Ia membantu kami meningkatkan produktiviti dan kecekapan pengguna, dan juga membantu dengan entri dan kelulusan lembaran masa projek yang tepat.
+Aplikasi mudah alih Lembaran masa Projek Dynamics 365 membolehkan pengguna menyerahkan dan meluluskan lembaran masa untuk projek pada peranti mudah alih mereka. Aplikasi mudah alih ini memaparkan fungsi lembaran masa dalam bidang pengurusan projek dan perakaunan Dynamics 365 Finance. Ia membantu kami meningkatkan produktiviti dan kecekapan pengguna, dan juga membantu dengan entri dan kelulusan lembaran masa projek yang tepat.
 
 ## <a name="project-time-entry-workspace"></a>Ruang kerja Entri Masa Projek
 
@@ -37,14 +37,13 @@ Ruang kerja Entri Masa Projek membolehkan pengguna memasukkan dan menyimpan masa
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Lembaran masa saya/Lembaran masa untuk ulasan saya
 
-Lembaran masa saya (Dioptimumkan untuk mudah alih) dan Lembaran masa untuk ulasan saya (Dioptimumkan untuk mudah alih) membuat penyelesaian yang membolehkan pekerja mencipta, menyerahkan dan meluluskan lembaran masa kerja projek pada peranti mudah alih. Pekerja boleh mengakses fungsi Kewangan melalui URL untuk aplikasi. Penyelesaian ini tidak memerlukan aplikasi mudah alih kewangan dan operasi.
+Lembaran masa saya (Dioptimumkan untuk mudah alih) dan Lembaran masa untuk ulasan saya (Dioptimumkan untuk mudah alih) membuat penyelesaian yang membolehkan pekerja mencipta, menyerahkan dan meluluskan lembaran masa kerja projek pada peranti mudah alih. Pekerja boleh mengakses fungsi Kewangan melalui URL untuk aplikasi. Penyelesaian ini tidak memerlukan kewangan dan operasi aplikasi mudah alih.
 
 ## <a name="for-more-information"></a>Untuk mendapatkan maklumat lanjut
 
 - [Aplikasi mudah alih lembaran masa projek](project-timesheet.md)
-- [Entri masa projek]( project-time-entry-mobile-workspace.md)
+- [Entri masa projek](project-time-entry-mobile-workspace.md)
 - [Lembaran masa projek pada peranti mudah alih](Mobile-timesheets.md)
 - [Laksanakan medan tersuai untuk aplikasi mudah alih Microsoft Dynamics 365 Project Timesheet pada iOS dan Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

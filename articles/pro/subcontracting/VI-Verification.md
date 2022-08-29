@@ -1,31 +1,29 @@
 ---
 title: Pengesahan invois vendor dengan aktual yang diluluskan
-description: Artikel ini menerangkan cara pengurus projek Microsoft Dynamics 365 Project Operations membenarkan pengurus projek mengesahkan invois vendor dengan yang sebenar yang diluluskan apabila kontraktor melakukan kerja dan masa yang direkodkan, dan perbelanjaan dan bahan yang digunakan oleh ahli pasukan projek.
+description: Artikel ini menerangkan cara Microsoft Dynamics 365 Project Operations let's pengurus projek mengesahkan invois vendor dengan sebenar yang telah diluluskan sebagai kontraktor melaksanakan kerja dan masa yang direkodkan serta perbelanjaan dan bahan yang digunakan oleh ahli pasukan projek.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
-ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
+ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9204186"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261758"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Pengesahan invois vendor dengan aktual yang diluluskan
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Pengurus projek Microsoft Dynamics 365 Project Operations mari mengesahkan baris invois vendor dengan cara berikut:
+Microsoft Dynamics 365 Project Operations mari pengurus projek mengesahkan baris invois vendor dengan cara berikut:
 
-- **Gunakan medan status** Pengesahan pada baris invois vendor.
-- Jika baris invois vendor merujuk baris subkontrak, pautkan kos sebenar daripada aktiviti subkontraktor kepada baris invois vendor tersebut. Pautan ini dibuat dengan memadankan sebenarnya kos dengan baris invois vendor.
+- Gunakan medan **status** Pengesahan pada baris invois vendor.
+- Jika baris invois vendor merujuk garis subkontrak, paut kos sebenar daripada aktiviti subkontraktor kepada baris invois vendor tersebut. Pautan dibuat dengan memadankan kos sebenar kepada baris invois vendor.
 
     > [!NOTE]
-    > Walaupun status pengesahan boleh dijejaki untuk baris invois vendor yang tidak merujuk subkontrak, actual kos tidak boleh dipautkan kepada baris invois vendor tersebut.
+    > Walaupun status pengesahan boleh dijejaki untuk baris invois vendor yang tidak merujuk subkontrak, kos sebenar tidak boleh dipautkan kepada baris invois vendor tersebut.
 
 ## <a name="verification-status"></a>Status pengesahan
 
@@ -35,25 +33,25 @@ Medan **status** Pengesahan pada baris invois vendor menunjukkan status pengesah
 2. Sedang dijalankan
 3. Dilengkapkan
 
-Baris invois vendor yang mempunyai status **pengesahan Tidak dimulakan** boleh diedit.
+Baris invois vendor yang mempunyai status **pengesahan Tidak bermula** boleh diedit.
 
-Baris invois vendor yang mempunyai status **pengesahan sedang berjalan** tidak lagi boleh diedit. Untuk baris invois vendor yang merujuk subkontrak, status pengesahan ditetapkan secara automatik kepada **Sedang berjalan** sebaik sahaja kos sebenar pertama dipadankan dengan baris invois vendor.
+Baris invois vendor yang mempunyai status **pengesahan Sedang berjalan** tidak lagi boleh diedit. Untuk baris invois vendor yang merujuk subkontrak, status pengesahan disetkan secara automatik kepada **Dalam kemajuan** sebaik sahaja kos pertama sebenar dipadankan dengan baris invois vendor.
 
-Baris invois vendor yang mempunyai status **pengesahan Lengkap** tidak lagi boleh diedit. Apabila semua baris pada invois vendor mempunyai status pengesahan ini, invois vendor boleh disahkan.
+Talian invois vendor yang mempunyai status **pengesahan Selesai** tidak lagi boleh diedit. Apabila semua baris pada invois vendor mempunyai status pengesahan ini, invois vendor boleh disahkan.
 
-## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Padankan sebenar kos dengan baris invois vendor
+## <a name="match-cost-actuals-to-vendor-invoice-lines"></a>Kos perlawanan sebenar kepada talian invois vendor
 
-Pemadanan sebenar kos membantu dengan proses pengesahan pada baris invois vendor. Untuk memadankan sebenar kos dengan baris invois vendor, ikuti langkah ini.
+Pemadanan kos sebenar membantu proses pengesahan pada baris invois vendor. Untuk memadankan kos sebenar kepada talian invois vendor, ikut langkah ini.
 
-1. Buka baris invois vendor dan pilih **tab Sebenar** kos tidak sepadan. Grid menunjukkan senarai sebenar kos yang merujuk garis subkontrak yang sama seperti baris invois vendor.
-2. Pilih satu atau lebih daripada sebenar kos, kemudian pilih **Padankan** pada bar alat di atas grid. Sistem ini mengesahkan bahawa sebenar kos yang dipilih boleh dipadankan. Selepas pengesahan diluluskan, sebenar kos dipautkan kepada baris invois vendor.
+1. Buka baris invois vendor dan pilih tab **sebenar** kos tidak dapat ditandingi. Grid menunjukkan senarai kos sebenar yang merujuk garis subkontrak yang sama seperti baris invois vendor.
+2. Pilih satu atau lebih daripada kos sebenar, kemudian pilih **Padanan** pada bar alat di atas grid. Sistem ini mengesahkan bahawa kos sebenar yang dipilih boleh dipadankan. Selepas pengesahan diluluskan, kos sebenar dihubungkan dengan talian invois vendor.
 
-### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Kriteria pengesahan yang digunakan untuk memautkan sebenar kos kepada baris invois vendor
+### <a name="validation-criteria-that-are-used-to-link-cost-actuals-to-vendor-invoice-lines"></a>Kriteria pengesahan yang digunakan untuk memautkan kos sebenar ke talian invois vendor
 
-Semasa proses pemadanan, pautan antara kos sebenar dan garis invois vendor boleh diwujudkan hanya jika kedua-dua syarat berikut dipenuhi:
+Semasa proses pemadanan, pautan antara kos sebenar dan talian invois vendor boleh diwujudkan hanya jika kedua-dua syarat berikut dipenuhi:
 
-- Medan **status** Pelarasan untuk setiap kos sebenar yang dipilih mestilah kosong. Dengan kata lain, sebenar kos tidak boleh digantikan dengan sebenar kos lain semasa proses jurnal penarikan balik, pembatalan kelulusan, atau pembetulan.
-- Nilai medan berikut dipadankan antara baris invois vendor dan kos sebenar yang dipilih. Jika mana-mana medan tidak ditetapkan pada baris invois vendor, ia tidak dianggap untuk dipadankan.
+- Medan **status** Pelarasan bagi setiap kos sebenar yang dipilih mestilah kosong. Dalam erti kata lain, kos sebenar tidak boleh digantikan dengan kos sebenar lain semasa proses jurnal penarikan balik, pembatalan kelulusan, atau pembetulan.
+- Nilai medan berikut dipadankan antara baris invois vendor dan kos sebenar yang dipilih. Jika mana-mana medan tidak disetkan pada baris invois vendor, ia tidak dianggap sepadan.
 
     - Kontrak projek
     - Baris kontrak projek
@@ -66,11 +64,11 @@ Semasa proses pemadanan, pautan antara kos sebenar dan garis invois vendor boleh
     - Garis subkontrak
     - Sumber boleh ditempah
 
-## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Sebenar kos yang tidak sepadan daripada baris invois vendor
+## <a name="unmatch-cost-actuals-from-a-vendor-invoice-line"></a>Kos tidak sepadan sebenarnya dari talian invois vendor
 
-Ketidakpadanan sebenar kos juga boleh membantu proses pengesahan pada invois vendor dengan membolehkan pautan yang telah ditetapkan sebelum ini dialih keluar. Sebenar kos tidak dapat ditandingi hanya dari baris invois vendor yang mempunyai status **pengesahan Sedang berjalan**. Untuk menyahpadanankan kos sebenar daripada baris invois vendor, ikut langkah ini.
+Kos sebenar yang tidak sepadan juga boleh membantu proses pengesahan pada invois vendor dengan membolehkan pautan yang telah ditetapkan sebelum ini dialih keluar. Kos sebenar tidak dapat ditandingi hanya dari talian invois vendor yang mempunyai status **pengesahan Sedang berjalan**. Untuk mengurangkan kos sebenar daripada talian invois vendor, ikut langkah ini.
 
-1. Buka baris invois vendor dan pilih **tab Padanan kos sebenar** . Grid menunjukkan senarai sebenar kos yang merujuk baris invois vendor.
-2. Pilih satu atau lebih daripada sebenar kos, kemudian pilih **Tidak dapat ditandingi** pada bar alat di atas grid.
+1. Buka baris invois vendor dan pilih tab **sebenar** kos dipadankan. Grid menunjukkan senarai kos sebenar yang merujuk kepada baris invois vendor.
+2. Pilih satu atau lebih kos sebenar, kemudian pilih **Tiada pada bar** alat di atas grid.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

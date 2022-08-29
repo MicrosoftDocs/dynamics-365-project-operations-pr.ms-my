@@ -1,17 +1,17 @@
 ---
-title: Sediakan dan gunakan data konfigurasi dalam Common Data Service
+title: Sediakan dan gunakan data konfigurasi dalam Microsoft Dataverse
 description: Artikel ini menyediakan maklumat tentang menyediakan dan menggunakan data konfigurasi dalam Operasi Projek.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928029"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230249"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Sediakan dan gunakan data konfigurasi dalam Common Data Service 
 
@@ -21,10 +21,10 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 ## <a name="prerequisites"></a>Prasyarat
 
-Sebelum anda mula mengkonfigurasikan data dalam Common Data Service (CDS), prasyarat berikut mesti dipenuhi:
+Sebelum anda mula mengkonfigurasi data dalam Microsoft Dataverse, prasyarat berikut mesti dipenuhi:
 
-1.  Sediakan persekitaran CDS dan persekitaran yang Dynamics 365 Finance untuk Operasi Projek.
-2.  Maklumat entiti undang-undang dari Dynamics 365 Finance dikongsi ke persekitaran CDS. Ini bermaksud bahawa entiti **Syarikat** dalam CDS mempunyai rekod syarikat berikut:
+1.  Dataverse Menyediakan persekitaran dan persekitaran yang Dynamics 365 Finance untuk Operasi Projek.
+2.  Maklumat entiti undang-undang dari Dynamics 365 Finance dikongsi dengan Dataverse alam sekitar. Ini bermakna **entiti** Syarikat Dataverse mempunyai rekod syarikat berikut:
   - THPM
   - USPM
   - GBPM
