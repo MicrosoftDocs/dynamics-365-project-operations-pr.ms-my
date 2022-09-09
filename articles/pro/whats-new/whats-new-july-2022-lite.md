@@ -1,36 +1,42 @@
 ---
 title: Ciri baharu Julai 2022 - Project Operations pelaksanaan ringan
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Julai 2022 penggunaan Microsoft Dynamics 365 Project Operations lite.
+description: Artikel ini menyediakan maklumat tentang kemas kinian kualiti yang tersedia dalam keluaran Penggunaan Microsoft Dynamics 365 Project Operations lite keluaran Julai 2022.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 56692661a08cd6676e68f9715a976000cdba3fba
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: 82812f0b7f172bf7386057b5684ff5ade67a6a22
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183922"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404009"
 ---
 # <a name="whats-new-july-2022---project-operations-lite-deployment"></a>Ciri baharu Julai 2022 - Project Operations pelaksanaan ringan
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
+Artikel ini digunakan pada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
 
-- Operasi Projek dalam versi persekitaran 4.44.0.22 Dataverse
+- Operasi Projek dalam Dataverse versi persekitaran 4.44.0.22
 
 ## <a name="quality-updates"></a>Kemas kini kualiti
 
 | Bahagian ciri | Nombor rujukan | Kemas kini kualiti |
 | --- | --- | --- |
-| Pelaksanaan dan Konfigurasi | 2761472 | Ralat pemasangan Project Operations dikendalikan. |
-| Pengebilan dan Penentuan Harga | 2746940 | Nama baris subkontrak sepatutnya mempunyai panjang maksimum 100 aksara. |
-| Pengebilan dan Penentuan Harga | 2739162 | Pelanggan mesti dapat melihat butang reben dalam paparan grid sebenar. |
-| Perancangan dan Penjejakan Projek | 2730318 | Pengesahihan dikemaskini untuk aksara yang tidak disokong dalam subjek projek. |
-| Pengebilan dan Penentuan Harga | 2705361 | Sebenar jualan yang dibilkan milestone mesti disertakan dalam medan penjejakan projek. |
-| Pengebilan dan Penentuan Harga | 2675880 | Halang projek daripada dipautkan kepada garis kontrak yang tidak berasaskan kerja. |
+| Pelaksanaan dan Konfigurasi | 2761472 | Ralat pemasangan Operasi Projek dikendalikan. |
+| Pengebilan dan Penentuan Harga | 2746940 | Nama garis subkontrak harus mempunyai panjang maksimum 100 aksara. |
+| Pengebilan dan Penentuan Harga | 2739162 | Pelanggan mesti dapat melihat butang reben dalam pandangan grid sebenar. |
+| Perancangan dan Penjejakan Projek | 2730318 | Pengesahihan yang dikemas kini untuk aksara yang tidak disokong dalam subjek projek. |
+| Pengebilan dan Penentuan Harga | 2705361 | Sebenar jualan yang dibilkan tonggak mesti dimasukkan dalam bidang penjejakan projek. |
+| Pengebilan dan Penentuan Harga | 2675880 | Halang projek daripada dipautkan ke talian kontrak yang tidak berasaskan kerja. |
 | Pengebilan dan Penentuan Harga | 2664396 | Jika senarai harga sebut harga disimpan tanpa sebut harga, mesti ada ralat yang menyatakan bahawa sebut harga tidak boleh kosong. |
 | Pengebilan dan Penentuan Harga | 2184019 | Tab **Pengebilan** Berasaskan Tugas tidak boleh ditunjukkan untuk projek yang tidak mempunyai kontrak sokongan atau sebut harga. |
+| Masa dan Perbelanjaan | 2754459 | Apabila aliran awan penjadualan berulang tidak aktif, tunjukkan sepanduk dan memintas pemprosesan async. |
+| Pengebilan dan Penentuan Harga | 2724391 | Pengecualian yang salah dilemparkan apabila peraturan pengebilan pecahan kontrak projek hilang nilai pelanggan. |
+| Pengebilan dan Penentuan Harga | 2708638 | Rekod tidak ditemui semasa mencari menggunakan carian grid dalam Penggunaan Bahan dan Kelulusan untuk Penggunaan Bahan.|
+| Pengebilan dan Penentuan Harga | 2686977 | Halang pengesahihan untuk baris invois semasa penciptaan invois. |
+| Pengebilan dan Penentuan Harga | 2683032 | Penyalinan peranan dan kategori yang dikenakan tidak melebihi 5000 rekod.|
+| Pengebilan dan Penentuan Harga | 2673363 | Kos Penggunaan % ke atas Projek rosak apabila kedua-dua anggaran Usaha dan Perbelanjaan dan sebenarnya wujud untuk projek. |

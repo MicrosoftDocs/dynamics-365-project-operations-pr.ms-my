@@ -1,45 +1,85 @@
 ---
-title: Selesaikan harga kos untuk anggaran dan aktual projek
-description: Artikel ini memberikan maklumat tentang bagaimana harga kos pada anggaran projek dan sebenar diselesaikan.
+title: Tentukan kadar kos untuk anggaran projek dan sebenar
+description: Artikel ini menyediakan maklumat tentang cara kadar kos untuk anggaran projek dan sebenar ditentukan.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917541"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410161"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Selesaikan harga kos untuk anggaran dan aktual projek 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Tentukan kadar kos untuk anggaran projek dan sebenar
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Untuk menyelesaikan harga kos dan senarai harga kos bagi anggaran dan aktual, sistem ini menggunakan maklumat dalam medan **Tarikh**, **Mata Wang** dan **Unit Kontrak** untuk projek berkaitan. Selepas senarai harga kos diselesaikan, aplikasi ini menyelesaikan kadar kos.
+Untuk menentukan senarai harga kos dan kadar kos dalam anggaran dan konteks sebenar, sistem menggunakan maklumat dalam **medan Tarikh**, **Mata Wang**, dan **Unit** Kontrak projek yang berkaitan.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Menyelesaikan kadar kos pada baris aktual dan anggaran untuk Masa
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Menentukan kadar kos dalam anggaran dan konteks sebenar untuk Masa
 
-Baris anggaran untuk Masa merujuk kepada butiran sebut harga dan baris kontrak bagi tugasan masa dan sumber pada projek.
+Konteks anggaran untuk **Masa** merujuk kepada:
 
-Selepas senarai harga kos diselesaikan, medan **Peranan** dan **Unit Sumber** pada baris anggaran untuk Masa dipadankan dengan baris harga peranan dalam senarai harga. Padanan ini menganggap anda menggunakan dimensi penetapan harga standard untuk kos buruh. Jika anda mengkonfigurasi sistem untuk sepadan dengan bidang bukan atau sebagai tambahan **Peranan** dan **Unit Sumber** kemudian kombinasi berbeza akan digunakan untuk mendapatkan baris harga peranan yang berpadanan. Jika aplikasi mencari baris harga peranan yang mempunyai kadar kos untuk kombinasi **Peranan** dan **Unit Sumber** yang merupakan kadar kos lalai. Jika aplikasi tidak boleh memadankan nilai **Peranan** dan **Unit Sumber** kemudian ia akan mendapatkan baris harga peranan dengan peranan yang berpadan tetapi nilai nol **Unit Sumber**. Selepas aplikasi mendapat rekod harga peranan yang sepadan, kadar kos lalai daripada rekod itu. 
+- Petikan butiran baris untuk **Masa**.
+- Butiran talian kontrak untuk **Masa**.
+- Tugasan sumber pada projek.
+
+Konteks sebenar untuk **Masa** merujuk kepada:
+
+- Baris jurnal Kemasukan dan Pembetulan untuk **Masa**.
+- Baris jurnal yang dicipta apabila entri masa dihantar.
+
+Selepas senarai harga kos ditentukan, sistem melengkapkan langkah-langkah berikut untuk memasukkan kadar kos lalai.
+
+1. Sistem ini sepadan dengan gabungan **medan Unit** Peranan **dan** Resourcing dalam anggaran atau konteks sebenar untuk **Masa** terhadap garis harga peranan pada senarai harga. Padanan ini menganggap bahawa anda menggunakan dimensi harga standard untuk kos buruh. Jika anda telah mengkonfigurasikan sistem untuk memadankan medan selain daripada atau sebagai tambahan kepada **Unit** Peranan **dan** Resourcing, gabungan yang berbeza digunakan untuk mendapatkan semula garis harga peranan yang sepadan.
+1. Jika sistem menemui garis harga peranan yang mempunyai kadar kos untuk **gabungan Unit** Peranan **dan** Resourcing, kadar kos tersebut digunakan sebagai kadar kos lalai.
+1. Jika sistem tidak dapat memadankan **nilai Unit** Peranan **dan** Resourcing, ia mengambil garis harga peranan yang mempunyai nilai padanan untuk **medan Peranan** tetapi nilai nol untuk **medan Unit** Resourcing. Selepas sistem mempunyai rekod harga peranan yang sepadan, kadar kos dari rekod itu akan digunakan sebagai kadar kos lalai.
 
 > [!NOTE]
-> Jika anda mengkonfigurasi keutamaan **Peranan** dan **Unit Sumber** yang berbeza atau jika anda mempunyai dimensi lain yang mempunyai keutamaan lebih tinggi, tingkah laku ini akan berubah sewajarnya. Sistem akan mendapatkan rekod harga peranan dengan nilai yang sepadan dengan setiap nilai dimensi penetapan harga mengikut urutan keutamaan dengan baris yang mempunyai nilai nol bagi dimensi yang terakhir.
+> Jika anda mengkonfigurasi keutamaan yang berbeza bagi **medan Unit** Peranan **dan** Resourcing, atau jika anda mempunyai dimensi lain yang mempunyai keutamaan yang lebih tinggi, kelakuan sebelumnya akan berubah dengan sewajarnya. Sistem ini mengambil rekod harga peranan yang mempunyai nilai yang sepadan dengan setiap nilai dimensi harga mengikut keutamaan. Baris yang mempunyai nilai nol untuk dimensi tersebut menjadi terakhir.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Menyelesaikan kadar kos pada baris aktual dan anggaran untuk Perbelanjaan
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Menentukan kadar kos pada baris sebenar dan anggaran untuk Perbelanjaan
 
-Baris anggaran untuk Perbelanjaan merujuk kepada butiran sebut harga dan baris kontrak bagi perbelanjaan dan baris anggaran perbelanjaan pada projek.
+Konteks anggaran perbelanjaan **merujuk** kepada:
 
-Selepas senarai harga kos diselesaikan, sistem menggunakan kombinasi medan **Kategori** dan **Unit** pada baris anggaran perbelanjaan untuk dipadankan dengan baris **Harga Kategori** pada senarai harga yang diselesaikan. Jika sistem mencari baris harga kategori yang mempunyai kadar kos untuk kombinasi **Kategori** dan **Unit**, kadar kos dilalaikan. Jika sistem tidak dapat sepadan dengan nilai **Kategori** dan **Unit**, atau jika ia dapat mencari baris harga kategori yang sepadan tetapi kaedah penetapan harga bukan **Harga Seunit**, kadar kos lalai kepada sifar (0).
+- Sebut harga butiran baris untuk **Perbelanjaan**.
+- Butiran talian kontrak untuk **Perbelanjaan**.
+- Anggaran perbelanjaan pada projek.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menyelesaikan kadar kos pada baris aktual dan anggaran untuk bahan
+Konteks sebenar Perbelanjaan **merujuk** kepada:
 
-Baris anggaran untuk Bahan merujuk kepada butiran sebut harga dan baris kontrak untuk bahan dan baris anggaran bahan pada projek.
+- Baris jurnal Kemasukan dan Pembetulan untuk **Perbelanjaan**.
+- Baris jurnal yang dicipta apabila kemasukan perbelanjaan dikemukakan.
 
-Selepas senarai harga kos diselesaikan, sistem menggunakan gabungan medan **Produk** dan **Unit** pada baris anggaran bagi anggaran bahan untuk dipadankan dengan baris **Item Senarai Harga** pada senarai harga yang diselesaikan. Jika sistem mendapati barisan harga produk yang mempunyai kadar kos untuk gabungan medan **Produk** dan **Unit**, kadar kos ditetapkan lalai. Jika sistem tidak boleh sepadan dengan nilai **Produk** dan **Unit** atau jika ia dapat mencari baris item senarai harga yang sepadan tetapi kaedah penetapan harga adalah berdasarkan Kos standard atau Kos semasa dan tidak ditakrifkan untuk produk, kos unit ditetapkan lalai kepada sifar.
+Selepas senarai harga kos ditentukan, sistem melengkapkan langkah-langkah berikut untuk memasukkan kadar kos lalai.
 
+1. Sistem ini sepadan dengan gabungan **medan Kategori** dan **Unit** dalam anggaran atau konteks sebenar untuk **Perbelanjaan** terhadap garis harga kategori pada senarai harga.
+1. Jika sistem menemui garis harga kategori yang mempunyai kadar kos untuk **gabungan Kategori** dan **Unit**, kadar kos tersebut digunakan sebagai kadar kos lalai.
+1. Jika sistem tidak dapat memadankan **nilai Kategori** dan **Unit**, harga disetkan kepada **0** (sifar) secara lalai.
+1. Dalam konteks anggaran, jika sistem dapat mencari garis harga kategori yang sepadan, tetapi kaedah harga adalah sesuatu yang selain daripada **Harga Seunit**, kadar kos ditetapkan kepada **0** (sifar) secara lalai.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Menentukan kadar kos pada baris sebenar dan anggaran untuk Bahan
+
+Konteks anggaran bahan **merujuk** kepada:
+
+- Butiran baris sebut harga untuk **Bahan**.
+- Butiran talian kontrak untuk **Bahan**.
+- Anggaran bahan pada projek.
+
+Konteks sebenar Bahan **merujuk** kepada:
+
+- Baris jurnal Kemasukan dan Pembetulan untuk **Bahan**.
+- Baris jurnal yang dicipta apabila log penggunaan Bahan diserahkan.
+
+Selepas senarai harga kos ditentukan, sistem melengkapkan langkah-langkah berikut untuk memasukkan kadar kos lalai.
+
+1. Sistem ini menggunakan gabungan **medan Produk** dan **Unit** dalam anggaran atau konteks sebenar untuk **Bahan** terhadap baris item senarai harga pada senarai harga.
+1. Jika sistem menemui item senarai harga yang mempunyai kadar kos untuk **gabungan Produk** dan **Unit**, kadar kos tersebut digunakan sebagai kadar kos lalai.
+1. Jika sistem tidak dapat memadankan **nilai Produk** dan **Unit**, kos unit disetkan kepada **0** (sifar) secara lalai.
+1. Dalam anggaran atau konteks sebenar, jika sistem dapat mencari baris item senarai harga yang sepadan, tetapi kaedah harga adalah sesuatu yang lain daripada **jumlah** Mata Wang, kos unit ditetapkan kepada **0** secara lalai. Tingkah laku ini berlaku kerana Operasi Projek hanya **menyokong kaedah harga jumlah** Mata Wang untuk bahan yang digunakan pada projek.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

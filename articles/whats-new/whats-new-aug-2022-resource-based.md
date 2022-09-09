@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348107"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403868"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ciri baharu Ogos 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
 
@@ -38,7 +38,12 @@ Jika anda menghadapi isu apabila anda memulakan peta, ikuti arahan dalam [seksye
 | Bahagian ciri | Nombor rujukan | Kemas kini kualiti |
 | --- | --- | --- |
 | Pengurusan peluang | 2762089 | Pengendalian ralat semasa menutup kontrak sebagai hilang jika simpanan automatik dinyahdayakan dalam organisasi.|
+|Perancangan dan Penjejakan Projek | 2767841 | Telemetri mengemas kini entiti Project Mencipta atau Mengemas Kini senario.|
+|Pengebilan dan Penentuan Harga | 2771072 | Pengendalian pengecualian rujukan nol semasa memenangi sebut harga.|
+|Pengebilan dan Penentuan Harga | 2844181 |Kegagalan mendapatkan id korelasi dan menyekat penciptaan invois.|
+|Pengebilan dan Penentuan Harga | 2852836 | Intercompany sebenarnya hilang untuk Perbelanjaan Intercompany dicipta dan diluluskan dalam CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Pengurusan projek dan perakaunan dalam Kewangan
 
-Untuk maklumat tentang pembetulan pepijat yang disertakan dalam kemas kini ini, log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan lihat [artikel KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
+Untuk maklumat tentang pembetulan pepijat yang disertakan dalam kemas kini ini, log masuk ke Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS) dan lihat [artikel](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438) KB.

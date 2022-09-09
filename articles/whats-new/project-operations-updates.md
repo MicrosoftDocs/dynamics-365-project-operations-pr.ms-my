@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295890"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409950"
 ---
 # <a name="project-operations-updates"></a>Pilih kemaskinian Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations terdiri daripada dua komponen:
 
 | Project Operations pada persekitaran Dataverse | Pengurusan projek dan perakaunan dalam persekitaran aplikasi kewangan dan operasi | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Untuk senario Sumber Operasi Projek/ bukan stok, kami mengesyorkan agar anda menggunakan versi Orkestra dwi-tulis 2.3.1.15 atau lebih tinggi.
 
@@ -47,24 +47,24 @@ Kemas kini untuk Project Operations pada persekitaran Dataverse tersedia setiap 
 | Stesen | Rantau | Nombor versi semasa | Kemas kini automatik untuk pelaksanaan Ringan | Kemas kini automatik untuk pelaksanaan Sumber/bukan distok | Nombor versi seterusnya | Versi seterusnya tersedia secara am |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stesen 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Keluaran Pertama         |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 26 Ogos 2022       |
+|   &nbsp;  | Keluaran Pertama         |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 09 September 2022      |
 | Stesen 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Selatan         |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 02 September 2022       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 02 September 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 02 September 2022       |
-|   &nbsp;  | Perancis                |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 02 September 2022       |
-|   &nbsp;  | Afrika Selatan          |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 02 September 2022       |
-|   &nbsp;  | Switzerland           |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 02 September 2022       |
+|   &nbsp;  | Amerika Selatan         |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 09 September 2022       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 09 September 2022       |
+|   &nbsp;  | India                 |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 09 September 2022       |
+|   &nbsp;  | Perancis                |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 09 September 2022       |
+|   &nbsp;  | Afrika Selatan          |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 09 September 2022       |
+|   &nbsp;  | Switzerland           |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD                 | 09 September 2022       |
 | Stesen 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Jepun                 |  4.44.0.22      | Dilengkapkan      | Dilengkapkan       | 4.45.0.53                 | 19 Ogos 2022       |
-|   &nbsp;  | Asia Pasifik          |  4.44.0.22      | Dilengkapkan      | Dilengkapkan       | 4.45.0.53                 | 19 Ogos 2022       |
-|   &nbsp;  | Great Britain         |  4.44.0.22      | Dilengkapkan      | Dilengkapkan       | 4.45.0.53                 | 19 Ogos 2022       |
-|   &nbsp;  | Oceania               |  4.44.0.22      | Dilengkapkan      | Dilengkapkan       | 4.45.0.53                 | 19 Ogos 2022       |
-|   &nbsp;  | Emiriah Arab Bersatu  |  4.44.0.22      | Dilengkapkan      | Dilengkapkan       | 4.45.0.53                 | 19 Ogos 2022       |
+|   &nbsp;  | Jepun                 |  4.45.0.53      | Dilengkapkan      | Dilengkapkan       | TBD                 | 09 September 2022       |
+|   &nbsp;  | Asia Pasifik          |  4.45.0.53      | Dilengkapkan      | Dilengkapkan       | TBD                 | 09 September 2022       |
+|   &nbsp;  | Great Britain         |  4.45.0.53      | Dilengkapkan      | Dilengkapkan       | TBD                 | 09 September 2022       |
+|   &nbsp;  | Oceania               |  4.45.0.53      | Dilengkapkan      | Dilengkapkan       | TBD                 | 09 September 2022       |
+|   &nbsp;  | Emiriah Arab Bersatu  |  4.45.0.53      | Dilengkapkan      | Dilengkapkan       | TBD                 | 09 September 2022       |
 | Stesen 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eropah                |  4.44.0.22      | Dilengkapkan           | Dilengkapkan            | 4.45.0.53           | 26 Ogos 2022       |
+|   &nbsp;  | Eropah                |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD           | 16 September 2022       |
 | Stesen 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Amerika Utara         |  4.44.0.22      | Dilengkapkan           | Dilengkapkan            | 4.45.0.53           | 02 September 2022       |
+|   &nbsp;  | Amerika Utara         |  4.45.0.53      | Dilengkapkan           | Dilengkapkan            | TBD           | 16 September 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadual pelepasan untuk pengurusan dan perakaunan Projek dalam persekitaran aplikasi kewangan dan operasi
 
