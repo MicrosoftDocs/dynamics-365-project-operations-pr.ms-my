@@ -230,8 +230,10 @@
           items:
             - name: Senarai harga lalai
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Ganti senarai harga jualan projek
+            - name: Gantikan senarai harga jualan projek
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Sediakan Penggantian berkesan tarikh untuk harga tertentu dalam senarai harga
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Tentukan harga kos untuk anggaran dan aktual
               href: pricing-costing/cost-price-resolution.md
             - name: Tentukan harga jualan untuk anggaran dan aktual
@@ -542,13 +544,21 @@
           href: procurement/configure-procurement-categories.md
         - name: Dapatkan barangan dan perkhidmatan untuk projek menggunakan invois vendor yang belum selesai
           href: procurement/pending-vendor-invoices.md
-        - name: Pesanan barangan dan perkhidmatan untuk projek menggunakan pesanan pembelian projek
+        - name: Pesan barangan dan perkhidmatan untuk projek menggunakan pesanan belian projek
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Invois vendor untuk subkontrak dalam Dataverse
+          items:
+            - name: Cipta invois vendor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Pengesahan invois vendor dengan aktual yang diluluskan
+              href: pro/subcontracting/VI-Verification.md
+            - name: Sahkan invois vendor projek
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Pengekalan vendor
           items:
             - name: Gambaran keseluruhan pengekalan vendor
               href: procurement/vendor-retention-overview.md
-            - name: Menyediakan pengekalan vendor
+            - name: Sediakan pengekalan vendor
               href: procurement/set-up-vendor-retention.md
     - name: Penginvoisan
       items:
@@ -842,8 +852,10 @@
           items:
             - name: Senarai harga lalai
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: Ganti senarai harga jualan projek
+            - name: Gantikan senarai harga jualan projek
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Sediakan Penggantian berkesan tarikh untuk harga tertentu dalam senarai harga
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Tentukan harga kos untuk anggaran dan aktual projek
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Tentukan harga jualan untuk anggaran dan aktual projek
