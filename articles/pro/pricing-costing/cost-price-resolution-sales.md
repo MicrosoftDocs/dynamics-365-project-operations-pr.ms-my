@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410161"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475243"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Tentukan kadar kos untuk anggaran projek dan sebenar
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Untuk menentukan senarai harga kos dan kadar kos dalam anggaran dan konteks sebenar, sistem menggunakan maklumat dalam **medan Tarikh**, **Mata Wang**, dan **Unit** Kontrak projek yang berkaitan.
+Untuk menentukan kadar kos pada anggaran dan sebenar dalam Microsoft Dynamics 365 Project Operations, sistem mula-mula menggunakan tarikh dan mata wang dalam anggaran masuk atau konteks sebenar untuk menentukan senarai harga kos. Dalam konteks sebenar secara khusus, sistem menggunakan **medan Tarikh** Transaksi untuk menentukan senarai harga yang boleh digunakan. Nilai **tarikh** Transaksi bagi anggaran masuk atau sebenar dibandingkan dengan **nilai Effective Start (Timezone independent)** dan **Effective End (Timezone independent)** pada senarai harga. Selepas senarai harga kos ditentukan, sistem menentukan kadar kos. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Menentukan kadar kos dalam anggaran dan konteks sebenar untuk Masa
 

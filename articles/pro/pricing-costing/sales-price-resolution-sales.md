@@ -1,23 +1,23 @@
 ---
-title: Tentukan harga jualan untuk anggaran projek dan sebenar
+title: Tentukan harga jualan untuk anggaran dan aktual projek
 description: Artikel ini menyediakan maklumat tentang cara harga jualan untuk anggaran projek dan sebenar ditentukan.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410130"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475196"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Tentukan harga jualan untuk anggaran projek dan sebenar
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Tentukan harga jualan untuk anggaran dan aktual projek
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Untuk menentukan harga jualan pada anggaran dan sebenar dalam Microsoft Dynamics 365 Project Operations, sistem mula-mula menggunakan tarikh dan mata wang dalam anggaran masuk atau konteks sebenar untuk menentukan senarai harga jualan. Dalam konteks sebenar secara khusus, sistem menggunakan **medan Tarikh** Transaksi untuk menentukan senarai harga yang boleh digunakan. Selepas senarai harga jualan ditentukan, sistem menentukan kadar jualan atau bil.
+Untuk menentukan harga jualan pada anggaran dan sebenar dalam Microsoft Dynamics 365 Project Operations, sistem mula-mula menggunakan tarikh dan mata wang dalam anggaran masuk atau konteks sebenar untuk menentukan senarai harga jualan. Dalam konteks sebenar secara khusus, sistem menggunakan **medan Tarikh** Transaksi untuk menentukan senarai harga yang boleh digunakan. Nilai **tarikh** Transaksi bagi anggaran masuk atau sebenar dibandingkan dengan **nilai Effective Start (Timezone independent)** dan **Effective End (Timezone independent)** pada senarai harga. Selepas senarai harga jualan ditentukan, sistem menentukan kadar jualan atau bil.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Menentukan kadar jualan pada baris sebenar dan anggaran untuk Masa
 

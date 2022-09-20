@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230263"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446047"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Naik taraf daripada Automasi Perkhidmatan Projek kepada Operasi Projek
 
@@ -29,7 +29,7 @@ Kami teruja untuk mengumumkan fasa pertama daripada tiga fasa untuk dinaik taraf
 
 Program penyampaian naik taraf akan dibahagikan kepada tiga fasa.
 
-| Naik taraf penghantaran | Fasa 1 (Januari 2022) | Fasa 2 (Gelombang April 2022) | Fasa 3  |
+| Naik taraf penghantaran | Fasa 1 (Januari 2022) | Fasa 2 (November 2022) | Fasa 3 (Gelombang April 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Tiada kebergantungan kepada struktur pecahan kerja (WBS) untuk projek | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS dalam had Operasi Projek yang disokong pada masa ini | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Program penyampaian naik taraf akan dibahagikan kepada tiga fasa.
 
 Sebagai sebahagian daripada proses naik taraf, kami telah menambah log naik taraf ke peta laman, supaya pentadbir dapat mendiagnosis kegagalan dengan lebih mudah. Sebagai tambahan kepada antara muka baharu, peraturan pengesahihan baharu akan ditambah untuk memastikan integriti data selepas naik taraf. Pengesahihan berikut akan ditambahkan pada proses naik taraf.
 
-| Pengesahan | Fasa 1 (Januari 2022) | Fasa 2 (Gelombang April 2022) | Fasa 3  |
+| Pengesahan | Fasa 1 (Januari 2022) | Fasa 2 (November 2022) | Fasa 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS akan disahkan terhadap pelanggaran integriti data biasa (contohnya, tugasan sumber yang dikaitkan dengan tugas induk yang sama tetapi mempunyai projek induk yang berbeza). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS akan disahkan terhadap [had Projek yang diketahui untuk Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
