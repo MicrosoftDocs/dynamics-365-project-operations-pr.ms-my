@@ -2,20 +2,20 @@
 title: Anggaran kos tugasan sumber yang disubkontrak
 description: Artikel ini menerangkan beberapa cara Microsoft Dynamics 365 Project Operations mengira anggaran kos tugasan sumber subkontrak.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262071"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522667"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Anggaran kos tugasan sumber yang disubkontrak
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Tugasan tugas ahli pasukan projek subkontrak dikenakan biaya menggunakan **senarai harga Belian** yang dilampirkan pada subkontrak pada rekod ahli pasukan yang berkaitan. Ini berbeza dengan cara tugasan sumber pekerja dikenakan biaya di mana tugasan tugas sumber pekerja dikenakan biaya menggunakan **senarai harga Kos** yang dilampirkan pada unit kontrak projek. 
 

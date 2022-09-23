@@ -2,20 +2,20 @@
 title: Kakitangan projek dengan pekerja kontrak dan kapasiti yang disubkontrak
 description: Artikel ini menerangkan cara keperluan projek boleh dikendalikan menggunakan pekerja kontrak atau kapasiti subkontrak dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261266"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522447"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Kakitangan projek dengan pekerja kontrak dan kapasiti yang disubkontrak
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Ahli pasukan projek generik boleh dikendalikan dengan pekerja atau pekerja kontrak. Apabila mengendalikan projek dengan pekerja kontrak, anda boleh mengehadkan opsyen kakitangan anda kepada pekerja kontrak tertentu yang ditugaskan ke garis subkontrak. 
 

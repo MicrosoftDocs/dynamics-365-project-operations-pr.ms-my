@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918093"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524928"
 ---
 # <a name="approval-sets"></a>Set kelulusan
 
@@ -26,7 +26,7 @@ Kelulusan yang dibariskan untuk pemprosesan boleh dilihat dalam pandangan **Kelu
 
 Medan **Set Kelulusan Seumur Hidup** merekodkan bilangan baki percubaan untuk memproses set sebelum ia ditanda sebagai gagal.
 
-Set kelulusan diproses melalui pengaktifan berkala berdasarkan Aliran **Awan bernama** **Perkhidmatan Projek - Jadualkan Set Kelulusan Projek Berulang**. Ini terdapat dalam Penyelesaian **bernama** **Operasi Projek**. 
+Set kelulusan diproses melalui pengaktifan berkala berdasarkan Aliran **Awan bernama** **Perkhidmatan Projek - Set Kelulusan Projek Jadual Berulang**. Ini terdapat dalam **Penyelesaian** bernama **Operasi Projek**. 
 
 Pastikan aliran diaktifkan dengan melengkapkan langkah-langkah berikut.
 
@@ -35,8 +35,8 @@ Pastikan aliran diaktifkan dengan melengkapkan langkah-langkah berikut.
 3. Pilih **Penyelesaian** untuk menyenaraikan penyelesaian yang dipasang dalam persekitaran.
 4. Dalam senarai penyelesaian, pilih **Operasi** Projek.
 5. Tukar penapis daripada **Semua** kepada **Aliran** Awan.
-6. Sahkan bahawa **Perkhidmatan Projek – Jadualkan Berulang Set** Kelulusan Projek disetkan kepada **Hidup**. Jika tidak, pilih aliran, kemudian pilih **Hidupkan**.
-7. Sahkan bahawa pemprosesan berlaku setiap lima minit dengan **menyemak senarai Kerja** Sistem dalam **kawasan Tetapan** dalam persekitaran Operasi Dataverse Projek anda.
+6. Sahkan bahawa **aliran Perkhidmatan Projek – Set** Kelulusan Projek Jadual Berulang disetkan kepada **Hidupkan**. Jika tidak, pilih aliran, kemudian pilih **Hidupkan**.
+7. Sahkan bahawa pemprosesan berlaku setiap lima minit dengan **menyemak semula senarai Kerja** Sistem dalam **kawasan Seting** dalam persekitaran Operasi Dataverse Projek anda.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Kelulusan gagal dan set kelulusan
 Pandangan **Kelulusan Gagal** menyenaraikan semua kelulusan yang memerlukan campur tangan pengguna. Buka log set kelulusan berkaitan untuk mengenal pasti punca kegagalan.
@@ -45,14 +45,9 @@ Memilih **Cuba semula** mennambah kepada kiraan jangka hayat set kelulusan, meng
 ## <a name="configure-approval-sets"></a>Konfigurasikan set kelulusan
 
 ### <a name="enable-the-approval-sets-feature"></a>dayakan ciri set Kelulusan
-Sebelum anda mendayakan ciri set Kelulusan, sahkan bahawa tiada kelulusan diproses pada masa ini.
+Sebelum anda mendayakan ciri set Kelulusan, sahkan bahawa tiada kelulusan diproses pada masa ini. Selepas ciri ini didayakan, ciri ini tidak boleh dinyahdayakan.
 
 - Pergi ke halaman **Parameter projek** dan pilih **Kawalan Ciri** > **Dayakan Kelulusan Moden**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Matikan ciri set Kelulusan
-Sebelum anda mematikan ciri set Kelulusan, sahkan bahawa tiada kelulusan diproses pada masa ini.
-
-- Pergi ke halaman **Parameter Projek** dan pilih **Kawalan Ciri** > **Nyahdayakan Kelulusan Moden**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Mengkonfigurasi ambang tidak segerak 
 Apabila set kelulusan dicipta, pemprosesan bergerak ke latar belakang apabila bilangan rekod yang dipilih untuk diluluskan melebihi ambang yang dinyatakan. Gunakan medan **Ambang Tidak Segerak** untuk mengkonfigurasikan apabila pemprosesan kelulusan sepatutnya dijalankan secara segerak atau tidak segerak. Pilih salah satu nilai yang berikut:

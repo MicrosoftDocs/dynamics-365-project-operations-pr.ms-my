@@ -2,20 +2,20 @@
 title: Ahli pasukan projek subkontrak
 description: Artikel ini menerangkan cara subkontrak ahli pasukan projek dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261382"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522807"
 ---
 # <a name="subcontracting-project-team-members"></a>Ahli pasukan projek subkontrak
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Dalam Microsoft Dynamics 365 Project Operations, anda boleh memilih untuk subkontrak ahli pasukan projek yang tidak ditapis atau dikendalikan.
 

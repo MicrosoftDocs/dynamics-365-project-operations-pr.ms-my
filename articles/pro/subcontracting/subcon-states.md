@@ -2,20 +2,20 @@
 title: Peralihan keadaan pada subkontrak
 description: Artikel ini menerangkan peralihan keadaan pada subkontrak dalam Microsoft Dynamics 365 Project Operations kerana subkontrak dicipta, dilaksanakan dan ditutup.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261286"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522942"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Peralihan keadaan pada subkontrak 
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Artikel ini menerangkan peralihan keadaan pada subkontrak dalam Microsoft Dynamics 365 Project Operations. Setiap negeri diwakili sebagai sama ada draf, disahkan, ditutup, atau dibatalkan. Imej berikut mewakili peralihan negeri.
 

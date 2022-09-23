@@ -2,21 +2,21 @@
 title: Pengurusan subkontrak dalam Project Operations
 description: Artikel ini menyediakan gambaran keseluruhan proses pengurusan subkontrak hujung ke hujung biasanya dalam organisasi berasaskan projek.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 09/14/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b2e4518f77b2099f9818ea56623be9efb20b01f4
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261219"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522337"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Pengurusan subkontrak dalam Project Operations
 
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Artikel ini menyediakan gambaran keseluruhan proses pengurusan subkontrak hujung ke hujung dalam organisasi berasaskan projek. Subkontrak untuk perkhidmatan biasanya mengikut aliran proses perniagaan yang ditunjukkan dalam rajah berikut.
 

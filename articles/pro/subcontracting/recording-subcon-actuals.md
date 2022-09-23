@@ -2,20 +2,20 @@
 title: Merekod masa, perbelanjaan dan penggunaan bahan untuk komponen yang disubkontrak
 description: Artikel ini menerangkan cara masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dikesan oleh Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261148"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522525"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Merekodkan masa, perbelanjaan dan penggunaan bahan pada projek untuk komponen subkontrak
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 Artikel ini menerangkan cara masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dikesan oleh Microsoft Dynamics 365 Project Operations.
 

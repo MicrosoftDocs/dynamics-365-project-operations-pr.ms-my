@@ -1,8 +1,8 @@
 ---
 title: Siarkan laporan perbelanjaan
 description: Artikel ini menerangkan cara menyiarkan laporan perbelanjaan.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934515"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524881"
 ---
 # <a name="post-expense-reports"></a>Siarkan laporan perbelanjaan
 
@@ -30,5 +30,15 @@ Untuk menyiarkan laporan perbelanjaan, pada halaman **Laporan perbelanjaan yang 
 
 Anda juga boleh menyiarkan semua laporan perbelanjaan dalam senarai pada masa yang sama. Pilih semua laporan perbelanjaan dan kemudian pilih **Siarkan**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Membolehkan Keupayaan untuk menyiarkan liabiliti perbelanjaan dalam mata wang vendor untuk ciri kaedah pembayaran tunai
+
+Keupayaan **untuk menyiarkan liabiliti perbelanjaan dalam mata wang vendor untuk ciri kaedah** pembayaran tunai membolehkan laporan perbelanjaan diposkan dalam mata wang vendor untuk kaedah pembayaran tunai.
+
+Pada masa ini, apabila anda menyerahkan perbelanjaan tunai, laporan perbelanjaan dipaparkan dalam mata wang perakaunan. Kerana penukaran amaun di kalangan mata wang transaksi, mata wang perakaunan, dan mata wang vendor, jumlah yang salah dibayar kepada vendor jika tarikh transaksi perbelanjaan dan tarikh pembayaran sebenar mempunyai kadar pertukaran yang berbeza.
+
+Ciri ini akan memastikan baki vendor direkodkan dalam mata wang vendor apabila laporan perbelanjaan disiarkan.
+
+1. Pergi ke **Ruang kerja** \> **Pengurusan Ciri**.
+2. Dalam senarai, cari dan pilih **Keupayaan untuk menyiarkan liabiliti perbelanjaan dalam mata wang vendor untuk kaedah** pembayaran tunai, dan kemudian pilih **Dayakan sekarang**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
