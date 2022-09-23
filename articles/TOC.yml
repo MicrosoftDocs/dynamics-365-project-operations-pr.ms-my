@@ -504,13 +504,15 @@
           href: approvals/approvals-overview.md
         - name: Set kelulusan
           href: approvals/approval-sets.md
-        - name: Batalkan kelulusan untuk entri yang diluluskan sebelumnya
+        - name: Batalkan kelulusan untuk entri yang diluluskan sebelum ini
           href: approvals/cancelapproval.md
-        - name: Penarikan balik entri yang diluluskan sebelumnya
+        - name: Penarikan balik entri yang diluluskan sebelum ini
           href: approvals/recall-cancel.md
+        - name: Keselamatan dan kelulusan
+          href: approvals/approvals-security.md
         - name: Nota pembangun
           items:
-            - name: Nota pembangun untuk Kelulusan
+            - name: Nota pembangun untuk Approvals
               href: approvals/dev-notes-approvals.md
     - name: Aktual
       items:
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Sediakan pengekalan vendor
               href: procurement/set-up-vendor-retention.md
+            - name: Bayar apabila dibayar
+              href: procurement/Pay-when-paid.md
     - name: Penginvoisan
       items:
         - name: Gambaran keseluruhan proses penginvoisan
@@ -1098,13 +1102,15 @@
           href: approvals/approvals-overview.md
         - name: Set kelulusan
           href: approvals/approval-sets.md
-        - name: Batalkan kelulusan untuk entri yang diluluskan sebelumnya
+        - name: Batalkan kelulusan untuk entri yang diluluskan sebelum ini
           href: approvals/cancelapproval.md
-        - name: Penarikan balik entri yang diluluskan sebelumnya
+        - name: Penarikan balik entri yang diluluskan sebelum ini
           href: approvals/recall-cancel.md
+        - name: Keselamatan dan kelulusan
+          href: approvals/approvals-security.md
         - name: Nota pembangun
           items:
-            - name: Nota pembangun untuk Kelulusan
+            - name: Nota pembangun untuk Approvals
               href: approvals/dev-notes-approvals.md
     - name: Aktual
       items:
