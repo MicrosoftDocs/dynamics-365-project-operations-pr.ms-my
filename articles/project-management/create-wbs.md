@@ -1,17 +1,17 @@
 ---
 title: Cipta struktur pecahan kerja
-description: Artikel ini menerangkan cara membuat struktur pecahan kerja (WBS) termasuk kawalan asas dalam antara muka penjadualan baru.
+description: Artikel ini menerangkan cara mencipta struktur pecahan kerja (WBS) termasuk kawalan asas dalam antara muka penjadualan baharu.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932077"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655200"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Cipta struktur pecahan kerja (WBS)
 
@@ -63,7 +63,7 @@ Lengkapkan langkah berikut untuk inden atau promosikan tugas.
 
 ### <a name="move-tasks-up-and-down"></a>Gerakkan tugas ke atas dan ke bawah
 
-Tugas boleh dipindahkan ke mana-mana tahap dalam struktur pecahan kerja dalam salah satu daripada dua cara:
+Tugas boleh dipindahkan ke mana-mana peringkat dalam struktur pecahan kerja dalam salah satu daripada dua cara:
 
 - Pilih satu lagi tugas dan seretnya ke lokasi yang dikehendaki.
 - Pilih satu atau lebih tugas, klik kanan dan pilih **Potong**, pilih sel destinasi dalam jadual, dan kemudian klik kanan dan pilih **Tampal**.
@@ -113,6 +113,18 @@ Anda boleh menggunakan jadual dalam Project Operations untuk mencipta perhubunga
 
 Mod tugas tidak memberi kesan ke atas kemas kini yang dibuat pada tarikh mula dan tamat tugas pendahulu/bersandar.
 
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Memahami kesan tempoh, kalendar sumber dan kalendar projek pada tugas
+Tempoh tugas ditakrifkan sebagai bilangan jam kerja antara masa mula tarikh mula dan masa tamat tarikh tamat tugas.   Project for the web mentakrifkan unit ukuran tempoh seperti berikut:
+
+| **Ukuran Tempoh** | **Kuantiti**|
+|----------------------------------------------------|----------------------|
+| Jam sehari | 8 |
+| Jam seminggu |  40 |
+| Hari sebulan |  20 |
+
+Tugas yang tidak ditugaskan dijadualkan menggunakan kalendar projek. Walau bagaimanapun, apabila tugasan sumber awal, penjadualan tugas dikemas kini supaya ia menghormati kalendar sumber. Perubahan seterusnya kepada tugas yang mempunyai tugasan akan ditadbir oleh [mod](scheduling-modes.md) penjadualan projek. Untuk mengetahui lebih lanjut tentang pengaruh kalendar pada tugas, lihat [Kalendar Sumber dalam Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) dan [Masa Mula Tugas & Projek Anda!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
+
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Kebolehcapaian dan pintasan papan kekunci
 
 Grid **Jadual** boleh diakses sepenuhnya dan boleh digunakan dengan pembaca skrin seperti Pencerita, JAWS atau NVDA. Anda boleh bergerak melalui kawasan grid dengan menggunakan kekunci anak panah (seperti dalam Microsoft Excel), anda boleh menggunakan kekunci Tab untuk maju melalui elemen antaramuka pengguna interaktif dan anda boleh menggunakan kekunci anak panah Bawah, kekunci Enter atau Bar Ruang untuk memilih dan buka menu ke bawah.
@@ -127,7 +139,7 @@ Anda harus sedar batasan berikut jika anda menggunakan struktur pecahan kerja da
 | Jumlah sumber maksimum untuk projek              | 300                  |
 | Jumlah pautan maksimum (pengganti sahaja) untuk projek | 600                  |
 | Jumlah medan tersuai maksimum untuk projek          | 10                   |
-| Item senarai semak maksimum setiap tugas                   | 20                   |
+| Item senarai semak maksimum bagi setiap tugas                   | 20                   |
 
 **Batasan tugas**
 
