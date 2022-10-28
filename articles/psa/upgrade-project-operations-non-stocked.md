@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686987"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709456"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Naik taraf daripada Project Service Automation kepada Project Operations
 
@@ -70,7 +70,7 @@ Prasyarat untuk Fasa 3 akan dikemas kini apabila tarikh ketersediaan umum semaki
 
 ## <a name="licensing"></a>Pelesenan
 
-Jika anda mempunyai lesen aktif untuk Project Service Automation, anda boleh memasang dan menggunakan Operasi Projek, yang merangkumi semua keupayaan Automasi Perkhidmatan Projek dan banyak lagi. Anda kemudian boleh menguji keupayaan Operasi Projek dalam persekitaran yang berasingan semasa anda terus menggunakan Automasi Perkhidmatan Projek dalam pengeluaran. Selepas lesen Automasi Project Service anda tamat tempoh, anda perlu beralih kepada Operasi Projek. Apabila anda merancang peralihan ini, anda mesti mengambil kira hakikat bahawa lesen Operasi Projek tidak termasuk lesen Automasi Perkhidmatan Projek.
+Jika anda mempunyai lesen aktif untuk Project Service Automation, anda boleh memasang dan menggunakan Operasi Projek, yang merangkumi semua keupayaan Automasi Perkhidmatan Projek dan banyak lagi. Dengan cara ini, anda boleh menguji keupayaan Operasi Projek semasa anda terus menggunakan Automasi Perkhidmatan Projek dalam pengeluaran. Selepas lesen Automasi Project Service anda tamat tempoh, anda perlu beralih kepada Operasi Projek. Apabila anda merancang peralihan ini, anda mesti mengambil kira hakikat bahawa lesen Operasi Projek tidak termasuk lesen Automasi Perkhidmatan Projek. Pelanggan yang mempunyai senario di mana mereka telah menggunakan Automasi Perkhidmatan Projek dan perlu terus menggunakan atau meningkatkan lesen mereka untuk PSA semasa mereka merancang untuk berpindah ke Operasi Projek, boleh meminta lesen PSA sementara berdasarkan Lesen Operasi Projek yang dibeli. Satu lesen Automasi Perkhidmatan Projek akan dikeluarkan untuk satu lesen Operasi Projek. Lesen PSA sementara boleh diminta dengan menggunakan pautan ini: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Menguji dan memfaktorkan penyesuaian
 
