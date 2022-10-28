@@ -660,7 +660,7 @@
       items:
         - name: Gambaran keseluruhan pelaksanaan ringan
           href: pro/project-operations-overview-lite.md
-        - name: Daftar untuk langganan pratonton - (ringan)
+        - name: Daftar untuk langganan pratonton - ringan
           href: environment/lite-preview-subscription-sign-up.md
         - name: Laksanakan Project Operations - ringan
           href: environment/lite-deployment.md
@@ -1750,10 +1750,8 @@
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
             - name: Bagaimanakah saya boleh "menempah sementara" sumber (versi aplikasi 2.x)?
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: Bagaimanakah saya menyesuaikan aliran proses perniagaan Project Stages?
+            - name: Bagaimanakah saya menyesuaikan aliran proses perniagaan Peringkat Projek?
               href: psa/FAQ-customize-bpf.md
-            - name: Naik taraf pertimbangan untuk struktur pecahan kerja
-              href: psa/upgrade-considerations-tasks.md
         - name: Kertas putih
           href: psa/white-papers.md
         - name: Panduan pentadbir
