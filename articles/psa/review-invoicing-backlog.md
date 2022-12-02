@@ -1,6 +1,6 @@
 ---
 title: Semak invois yang tertunggak pada projek dan kontrak projek
-description: Artikel ini memberikan maklumat tentang cara menyemak masa, perbelanjaan dan tunggakan produk, dan cara menandakannya sebagai sedia untuk invois.
+description: Artikel ini memberikan maklumat mengenai cara untuk menyemak masa, perbelanjaan dan tunggakan produk, dan cara menandanya sebagai tersedia untuk penginvoisan.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -28,7 +28,7 @@ ms.locfileid: "8928903"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Apabila transaksi bersedia untuk mempunyai invois yang dicipta dan diproses, transaksi sepatutnya ditanda **Bersedia untuk dinvois**. Artikel ini menerangkan jenis transaksi yang boleh dibuat.
+Apabila transaksi bersedia untuk mempunyai invois yang dicipta dan diproses, transaksi sepatutnya ditanda **Bersedia untuk dinvois**. Artikel ini menghuraikan jenis urus niaga yang boleh dicipta.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Semak semula tunggakan pengebilan masa dan bahan
 

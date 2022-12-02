@@ -1,6 +1,6 @@
 ---
 title: Sediakan harga berasaskan peranan
-description: Artikel ini memberikan maklumat tentang cara menyediakan harga untuk peranan tertentu.
+description: Artikel ini menyediakan maklumat tentang penyediaan penetapan harga untuk peranan tertentu.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

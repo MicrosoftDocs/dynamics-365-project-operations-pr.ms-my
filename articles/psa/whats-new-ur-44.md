@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 44, V3
-description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Microsoft Dynamics 365 Project Service Automation Kemas Kini Keluaran 44, V3.
+description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Microsoft Dynamics 365 Project Service Automation 44, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/26/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8918691"
 
 Kami amat berbesar hati mengumumkan kemas kini terbaharu untuk apl Microsoft Dynamics 365 Project Service Automation. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Kemas kini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian dalam talian Pusat Pentadbir untuk Dynamics 365 dan pasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk Keluaran Kemas Kini Automasi Project Service 44, V3. Versi ini mempunyai nombor binaan V3.10.75.142 dan secara amnya boleh didapati melalui kemas kini sendiri pada bulan Jun 2022.
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Keluaran Kemas kini Project Service Automation 44, V3. Versi ini mempunyai nombor binaan V3.10.75.142 dan secara amnya boleh didapati melalui kemas kini sendiri pada bulan Jun 2022.
 
 ## <a name="update-release-44"></a>Keluaran Kemas kini 44
 
@@ -39,4 +39,4 @@ Isu berikut telah dibaiki.
 
 **Masa dan Perbelanjaan**
 
-- Kerja sistem yang tertangguh menghalang pemprosesan kelulusan yang belum selesai.
+- Kerja sistem tertangguh telah menghalang pemprosesan kelulusan yang belum selesai.

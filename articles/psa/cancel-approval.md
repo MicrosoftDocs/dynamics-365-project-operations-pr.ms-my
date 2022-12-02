@@ -1,6 +1,6 @@
 ---
 title: Batalkan entri masa dan perbelanjaan yang diluluskan sebelumnya
-description: Artikel ini memberikan maklumat tentang cara membatalkan transaksi masa dan perbelanjaan projek yang diluluskan.
+description: Artikel ini memberikan maklumat tentang cara membatalkan masa projek yang diluluskan dan transaksi perbelanjaan.
 author: rumant
 ms.custom:
 - dyn365-projectservice

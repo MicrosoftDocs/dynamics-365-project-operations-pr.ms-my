@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi perakaunan untuk projek boleh dibil
-description: Artikel ini memberikan maklumat mengenai pilihan perakaunan untuk projek yang boleh dibilkan.
+description: Artikel ini menyediakan maklumat tentang pilihan perakaunan untuk projek boleh dibilkan.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

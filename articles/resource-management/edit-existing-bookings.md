@@ -18,7 +18,7 @@ ms.locfileid: "8915241"
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 
-Apabila perubahan berlaku pada projek yang memerlukan anda untuk mengemas kini tempahan sedia ada, terdapat beberapa cara untuk membuat perubahan. Artikel ini menggariskan cara mengemas kini dan membuat perubahan pada tempahan.
+Apabila perubahan berlaku pada projek yang memerlukan anda untuk mengemas kini tempahan sedia ada, terdapat beberapa cara untuk membuat perubahan. Artikel ini menggariskan cara untuk mengemas kini dan membuat perubahan pada tempahan.
 
 ## <a name="resource-reconciliation"></a>Penyelarasan sumber
 

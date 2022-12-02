@@ -1,6 +1,6 @@
 ---
 title: Sebut harga dan baris sebut harga
-description: Artikel ini memberikan maklumat mengenai petikan dan baris petikan.
+description: Artikel ini memberikan maklumat tentang sebut harga dan baris sebut harga.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -39,7 +39,7 @@ Dalam Dynamics 365 Project Service Automation, terdapat dua jenis sebut harga: s
 - Sebut harga jualan tidak termasuk beberapa medan dan konsep yang disertakan pada sebut harga projek yang mempunyai medan. Medan termasuk **Unit Kontrak**, **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.  
 - Sebut harga jualan dan sebut harga projek juga dikenal pasti oleh medan berasaskan set pilihan yang dinamakan **Jenis**. Untuk sebut harga jualan, medan ini mempunyai nilai **Berasaskan item**. Untuk sebut harga projek, ia mempunyai nilai **Berasaskan kerjas**.
 
-Artikel ini akan memberi tumpuan kepada butiran petikan projek.
+Artikel ini akan memberi tumpuan kepada butiran sebut harga projek.
 
 Sebut harga projek dalam PSA boleh mempunyai berbilang baris item atau baris sebut harga. Malah, sebut harga projek mempunyai dua grid untuk item baris. Salah satu grid untuk projek berasaskan baris yang membolehkan anggaran terperinci. Grid lain ialah untuk talian berasaskan produk yang menggunakan harga unit ringkas dan pendekatan berasaskan kuantiti.
 

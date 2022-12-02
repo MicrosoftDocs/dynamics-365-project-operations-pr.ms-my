@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Oktober 2021 - Pelaksanaan Project Operations lite
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 penggunaan Project Operations lite.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 bagi pelaksanaan Project Operations lite.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8921957"
 
 _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
   - Project Operations pada persekitaran Microsoft Dataverse versi 4.25.0.91
 

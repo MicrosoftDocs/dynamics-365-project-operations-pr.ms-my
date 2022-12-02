@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran Januari 2020 Operasi Projek untuk senario berasaskan sumber / tidak berstok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Disember 2020 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029725"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Project Operations pada persekitaran Dataverse versi 4.5.0.134
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.15
@@ -61,12 +61,12 @@ Ciri berikut disertakan dalam keluaran ini:
 | Perancangan   dan Penjejakan Projek | 2057197          | Salinan baris anggaran dengan rujukan tugas tidak disokong                                                                                                     |
 | Perancangan   dan Penjejakan Projek | 2060687          | Amaran zon waktu kini hilang selepas tempoh tertentu                                                                                                      |
 | Pengurusan   sumber           | 1832887          | ID Kategori sumber lalai perlu statik untuk memastikan data boleh ulang dimuatkan untuk persekitaran Dataverse dan kewangan                                                 |
-| Masa dan   perbelanjaan              | 2081793          | **Nama kategori perbelanjaan** mesti dipetakan ke **medan perihalan** kategori Perbelanjaan dalam aplikasi kewangan dan operasi                                                  |
+| Masa dan   perbelanjaan              | 2081793          | **Nama kategori perbelanjaan** mestilah dipetakan kepada medan **Perihalan kategori perbelanjaan** dalam aplikasi kewangan dan operasi                                                  |
 | Masa dan   perbelanjaan              | 2034882          | Butang **Baharu** dipaparkan dua kali pada bar perintah untuk entri masa apabila Dynamics 365 Field Service dipasang                                          |
 | Masa dan   perbelanjaan              | 2056028          | Kemas kini halaman **Edit Masa** untuk disertakan dengan garis masa                                                                                                              |
 | Masa dan   perbelanjaan              | 1983747          | Carta entri masa menunjukkan data tambahan                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
 
 | Bahagian ciri                        | Nombor rujukan | Kemas kini kualiti                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Ciri berikut disertakan dalam keluaran ini:
 | Perjalanan   dan Perbelanjaan                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Aliran kerja penyiaran automatik laporan perbelanjaan selesai tetapi invois tidak disiarkan                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

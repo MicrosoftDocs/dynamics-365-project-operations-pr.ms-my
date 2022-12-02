@@ -1,6 +1,6 @@
 ---
 title: Invois projek proforma
-description: Artikel ini memberikan maklumat tentang invois projek proforma dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang invois projek proforma dalam Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

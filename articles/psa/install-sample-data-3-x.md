@@ -1,6 +1,6 @@
 ---
 title: Pemasangan data sampel
-description: Artikel ini memberikan maklumat tentang memasang data sampel dalam Automasi Perkhidmatan Projek.
+description: Artikel ini menyediakan maklumat tentang cara memasang data sampel dalam Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

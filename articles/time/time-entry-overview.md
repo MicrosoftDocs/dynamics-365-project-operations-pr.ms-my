@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan masa
-description: Artikel ini memberikan maklumat mengenai fungsi Masa dalam Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang kefungsian Masa dalam Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

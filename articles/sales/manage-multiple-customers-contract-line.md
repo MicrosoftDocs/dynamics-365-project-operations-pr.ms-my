@@ -1,6 +1,6 @@
 ---
 title: Urus berbilang pelanggan pada baris kontrak berasaskan projek
-description: Artikel ini memberikan maklumat tentang bekerja dengan garis kontrak dan kontrak yang mengandungi berbilang pelanggan.
+description: Artikel ini memberikan maklumat tentang bekerja dengan baris kontrak dan kontrak yang mengandungi berbilang pelanggan.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

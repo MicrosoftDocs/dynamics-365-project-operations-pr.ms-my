@@ -1,6 +1,6 @@
 ---
 title: Urus senarai harga projek pada kontrak projek
-description: Artikel ini memberikan maklumat tentang menguruskan senarai harga projek pada kontrak projek.
+description: Artikel ini menyediakan maklumat tentang pengurusan senarai harga projek pada kontrak projek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

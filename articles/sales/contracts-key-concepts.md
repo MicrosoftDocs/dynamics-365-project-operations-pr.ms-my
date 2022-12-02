@@ -1,6 +1,6 @@
 ---
 title: Kontrak projek - Konsep utama
-description: Artikel ini memberikan maklumat mengenai konsep utama kontrak projek dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang konsep utama untuk kontrak projek dalam Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 
 
-Artikel ini menyediakan konsep utama yang perlu diberi perhatian sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
+Artikel ini memberikan konsep utama untuk diketahui sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Syarikat Pemilikan
 
-Syarikat pemilik adalah entiti undang-undang dari **modul pengurusan dan perakaunan** Projek untuk Operasi Projek dari Dynamics 365 Finance. Syarikat pemilikan mewakili entiti yang sah yang akan mengambil kira kos dan hasil yang terakru daripada perjanjian.
+Syarikat pemilikan ialah entiti yang sah daripada modul **Pengurusan projek dan perakaunan** untuk Project Operations daripada Dynamics 365 Finance. Syarikat pemilikan mewakili entiti yang sah yang akan mengambil kira kos dan hasil yang terakru daripada perjanjian.
 
 ## <a name="contracting-unit"></a>Unit Pengkontrakan
 

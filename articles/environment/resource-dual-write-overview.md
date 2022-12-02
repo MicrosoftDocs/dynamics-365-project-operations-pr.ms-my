@@ -1,6 +1,6 @@
 ---
 title: Integrasi dwi tulis Project Operations
-description: Artikel ini memberikan gambaran keseluruhan integrasi dwi-tulis Project Operations.
+description: Artikel ini memberikan gambaran keseluruhan bagi integrasi dwi tulis Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927983"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Operasi Projek menggunakan [keupayaan](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) dwi-tulis untuk menyegerakkan data merentasi Microsoft Dataverse dan Dynamics 365 Finance.
+Project Operations menggunakan [keupayaan dwi tulis](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) untuk menyegerakkan data merentasi Microsoft Dataverse dan Dynamics 365 Finance.
 
 Ilustrasi berikut menunjukkan cara data disegerakkan sebagai sebahagian daripada integrasi ini antara Dataverse dan Kewangan.
 

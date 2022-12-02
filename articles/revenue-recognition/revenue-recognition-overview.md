@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan pengiktirafan hasil
-description: Artikel ini memberikan maklumat tentang pengiktirafan hasil dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang pengiktirafan hasil dalam Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8926281"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Dalam Dynamics 365 Project Operations, prinsip pengiktirafan hasil berbeza-beza berdasarkan pada kaedah pengebilan terpilih untuk projek atau bahagian projek. Artikel ini memberikan maklumat tentang pengiktirafan hasil dalam Operasi Projek.
+Dalam Dynamics 365 Project Operations, prinsip pengiktirafan hasil berbeza-beza berdasarkan pada kaedah pengebilan terpilih untuk projek atau bahagian projek. Artikel ini memberikan maklumat tentang pengiktirafan hasil dalam Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transaksi dikira menggunakan kaedah pengebilan masa dan bahan
 

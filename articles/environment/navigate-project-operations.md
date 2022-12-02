@@ -1,6 +1,6 @@
 ---
 title: Navigasi Project Operations
-description: Artikel ini memberikan maklumat tentang cara mengakses Operasi Projek daripada Perkhidmatan Kitaran Hayat.
+description: Artikel ini menyediakan maklumat tentang cara mengakses Project Operations daripada Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 Dynamics 365 Project Operations untuk senario sumber/tidak distok terdiri daripada dua komponen: 
 
  - **Project Operations pada persekitaran Common Data Service (CDS)**: Komponen ini meliputi keupayaan dan proses daripada peluang ke penginvoisan proforma. 
- - **Pengurusan projek dan perakaunan mengenai persekitaran** Dynamics 365 Finance: Komponen ini merangkumi keupayaan pengurusan perbelanjaan, perakaunan projek, dan pengiktirafan pendapatan. 
+ - **Pengurusan projek dan perakaunan pada persekitaran Dynamics 365 Finance**: Komponen ini meliputi keupayaan pengurusan perbelanjaan, perakaunan projek dan pengiktirafan hasil. 
 
-Selepas anda memperuntukkan Operasi Projek seperti yang diterangkan dalam artikel ini, halaman butiran **Persekitaran Perkhidmatan Kitaran Hayat (LCS)** menyediakan akses mudah kepada kedua-dua komponen Operasi Projek.  
+Selepas anda memperuntukkan Project Operations seperti yang diterangkan dalam artikel ini, halaman **Butiran persekitaran** Lifecycle Services (LCS) menyediakan akses mudah kepada kedua-dua komponen Project Operations.  
 
 Menggunakan nama persekitaran dalam bahagian, **Nama Persekitaran Common Data Service** untuk menavigasi ke Project Operations pada persekitaran CDS. 
 

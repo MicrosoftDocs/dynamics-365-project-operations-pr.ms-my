@@ -1,6 +1,6 @@
 ---
 title: Sediakan kadar kos dan jualan untuk perbelanjaan
-description: Artikel ini memberikan maklumat tentang cara menyediakan kos dan kadar jualan untuk kategori transaksi dan perbelanjaan.
+description: Artikel ini memberikan maklumat tentang cara menetapkan kadar kos dan jualan untuk kategori urus niaga dan perbelanjaan.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

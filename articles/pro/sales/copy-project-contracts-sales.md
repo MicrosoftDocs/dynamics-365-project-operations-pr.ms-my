@@ -1,6 +1,6 @@
 ---
 title: Salin kontrak projek
-description: Artikel ini menyediakan maklumat tentang menyalin kontrak projek dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang penyalinan kontrak projek dalam Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

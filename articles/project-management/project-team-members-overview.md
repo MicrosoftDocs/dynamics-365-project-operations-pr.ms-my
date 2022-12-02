@@ -1,6 +1,6 @@
 ---
 title: Ahli pasukan projek
-description: Artikel ini memberikan maklumat tentang cara bekerja dengan maklumat, atribut dan penjadualan ahli pasukan projek.
+description: Artikel ini menyediakan maklumat tentang cara bekerja dengan maklumat, atribut dan penjadualan ahli pasukan projek.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Project Service Automation versi 3.x gelombang 1 2020
-description: Artikel ini memberikan maklumat tentang perkara baru dan diubah dalam Project Service Automation versi 3 wave 1 2020.
+description: Artikel ini menyediakan maklumat tentang perkara baharu dan diubah dalam Project Service Automation versi 3 gelombang 1 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928627"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikel ini menyerlahkan pertimbangan naik taraf utama apabila beralih ke keluaran terkini Project Service Automation (PSA) versi 3.x wave 1 2020.
+Artikel ini menyerlahkan pertimbangan tatar utama apabila beralih ke keluaran terkini Project Service Automation (PSA) versi 3.x gelombang 1 2020.
 
 ## <a name="time-entry"></a>Entri masa
 Pengalaman entri masa telah dilanjutkan untuk menyampaikan keupayaan bagi melanjutkan entri masa ke dalam lebih banyak senario pelanggan. Ini termasuk keupayaan untuk menambah jenis entri yang kini mendorong tingkah laku khusus berdasarkan nama skema medan **Tetapan Entri Masa**, dipaparkan sebagai **Sumber Masa**. Penyelesaian baharu, yang dipanggil Masa, Perbelanjaan, Penstatusan dan Kelulusan (TESA) telah ditambah untuk menyokong fungsi ini.

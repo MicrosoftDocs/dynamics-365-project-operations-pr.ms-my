@@ -1,6 +1,6 @@
 ---
 title: Menginvois retainer atau pendahuluan
-description: Artikel ini memberikan maklumat tentang cara menginvois penahan atau pendahuluan dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara mengeluarkan invois retainer atau pendahuluan dalam Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

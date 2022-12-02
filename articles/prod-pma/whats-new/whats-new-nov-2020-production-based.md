@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu November 2020 - Project Operations untuk senario berasaskan stok/pengeluaran
-description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran November 2020 Operasi Projek untuk senario berasaskan pengeluaran stok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran November 2020 bagi Project Operations untuk senario berasaskan pengeluaran stok.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Untuk mendapatkan maklumat tentang pembetulan yang dimasukkan dalam kemas kini i
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi Dynamics 365, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi Dynamics 365, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

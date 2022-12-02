@@ -44,7 +44,7 @@ Beberapa kontrak projek menentukan bahawa berbilang pihak mempunyai tanggungjawa
 -   Projek jalan dibiayai bersama oleh dua majlis perbandaran.
 -   Projek jambatan dibiayai oleh geran kerajaan dan syarikat swasta.
 
-Dalam Dynamics 365 Finance, anda boleh membahagikan pengebilan untuk satu transaksi atau keseluruhan projek di kalangan berbilang pelanggan, geran atau organisasi. 
+Dalam Dynamics 365 Finance, anda boleh memisahkan pengebilan untuk urus niaga tunggal atau keseluruhan projek antara berbilang pelanggan, geran atau organisasi. 
 
 Dalam projek yang mempunyai berbilang pembiaya, semua pihak yang menyumbang kepada pembiayaan projek pembiayaan awal dipanggil sumber pembiayaan. Selepas pelanggan, organisasi atau pelan ditakrifkan sebagai sumber pembiayaan, ia boleh diperuntukkan kepada satu atau lebih peraturan pembiayaan. Peraturan pembiayaan mengandungi kriteria yang menentukan cara caj diperuntukkan kepada pelbagai sumber pembiayaan untuk projek. 
 

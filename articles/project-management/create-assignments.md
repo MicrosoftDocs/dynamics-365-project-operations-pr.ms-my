@@ -1,6 +1,6 @@
 ---
 title: Cipta tugas sumber
-description: Artikel ini memberikan maklumat tentang mencipta tugasan sumber generik dan bernama.
+description: Artikel ini memberikan maklumat tentang penciptaan penugasan tugas generik dan dinamakan.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
 ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8933503"
@@ -18,7 +18,7 @@ ms.locfileid: "8933503"
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
 
-Peruntukkan sumber ialah persatuan langsung ahli pasukan projek kepada tugas nod daun. Artikel ini memberikan maklumat tentang cara yang berbeza untuk menetapkan sumber.
+Peruntukkan sumber ialah persatuan langsung ahli pasukan projek kepada tugas nod daun. Artikel ini memberikan maklumat tentang cara berbeza untuk menugaskan sumber.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Cipta ahli pasukan generik melalui tugasan tugas
 

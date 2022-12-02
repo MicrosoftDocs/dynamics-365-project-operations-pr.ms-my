@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan penginvoisan antara syarikat
-description: Artikel ini memberikan maklumat dan contoh mengenai mengkonfigurasi invois antara syarikat untuk projek.
+description: Artikel ini memberikan maklumat dan contoh tentang pengkonfigurasian penginvoisan antara syarikat untuk projek.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ Dalam contoh berikut, Contoso Robotics Amerika Syarikat (USPM) ialah entiti sah 
 
 1. **Konfigurasikan perakaunan antara syarikat antara entiti sah**. Setiap pasangan entiti sah pinjaman mesti dikonfigurasikan pada Lejar umum halaman [Perakaunan antara syarikat](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. Dalam Dynamics 365 Finance, pergi ke **General Ledger** > **Posting persediaan** > **Perakaunan antara syarikat**. Cipta rekod dengan maklumat berikut:
+    1. Dalam Dynamics 365 Finance, pergi ke **Lejar Umum** > **Persediaan penyiaran** > **Perakaunan antara syarikat**. Cipta rekod dengan maklumat berikut:
 
         - **Syarikat asal** = **GBPM**
         - **Syarikat destinasi** = **USPM**

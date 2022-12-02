@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan penggunaan sumber
-description: Artikel ini memberikan maklumat tentang penggunaan sumber dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang penggunaan sumber dalam Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

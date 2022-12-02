@@ -1,6 +1,6 @@
 ---
 title: Bekerja dengan model data Project Service Automation
-description: Artikel ini memberikan maklumat tentang cara bekerja dengan model data.
+description: Artikel ini memberikan maklumat tentang cara untuk bekerja dengan model data.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

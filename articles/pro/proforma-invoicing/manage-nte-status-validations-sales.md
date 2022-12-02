@@ -1,6 +1,6 @@
 ---
 title: Urus status dan pengesahan yang tidak boleh melebihi
-description: Artikel ini memberikan maklumat tentang semakan had yang tidak melebihi yang dilakukan dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang semakan had tidak boleh dilebihi yang dilaksanakan dalam Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Anggaran kewangan untuk perbelanjaan pada projek
-description: Artikel ini memberikan maklumat mengenai menentukan atau menganggarkan perbelanjaan berasaskan projek.
+description: Artikel ini memberikan maklumat tentang mentakrifkan atau menganggarkan perbelanjaan berasaskan projek.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

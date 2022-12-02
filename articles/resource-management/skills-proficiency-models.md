@@ -1,6 +1,6 @@
 ---
 title: Kemahiran dan pensijilan
-description: Artikel ini memberikan maklumat tentang menambah ciri kemahiran dan pensijilan kepada sumber.
+description: Artikel ini menyediakan maklumat tentang menambahkan ciri kemahiran dan pensijilan kepada sumber.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

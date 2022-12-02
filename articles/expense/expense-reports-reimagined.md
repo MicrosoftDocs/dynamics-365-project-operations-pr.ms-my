@@ -1,6 +1,6 @@
 ---
-title: Laporan perbelanjaan dibayangkan semula (mengandungi video)
-description: Artikel ini menerangkan pengalaman yang direka semula dan dibayangkan semula untuk kemasukan laporan perbelanjaan.
+title: Laporan perbelanjaan digambarkan semula (mengandungi video)
+description: Artikel ini menerangkan pengalaman yang direka semula dan digambarkan semula untuk entri laporan perbelanjaan.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Untuk menghidupkan pengalaman baharu, gunakan ruang kerja **Pengurusan ciri** un
 | Simpan dan tambah baris perbelanjaan baharu | Butang **Simpan** dan **Baharu** tersedia apabila perbelanjaan baharu dimasukkan, untuk membantu anda memasukkan baris perbelanjaan dengan cepat. |
 | Keterlihatan yang lebih baik ke dalam baris yang diperincikan dan terpisah | Garis yang diperincikan dan terpisah ditambah secara langsung pada senarai perbelanjaan untuk meningkatkan keterlihatan dan membantu anda menentukan sama ada terdapat sebarang ralat dengan mudah. |
 | Lihat butiran subkategori dalam baris terbutir | Baris terperinci perbelanjaan induk menunjukkan label subkategori pada laporan perbelanjaan. Perincian tersebut membolehkan anda menyemak butiran terperinci sepintas lalu.|
-|Memperincikan perbelanjaan berulang dengan cepat | Ruang kerja perbelanjaan yang dibayangkan semula menyediakan keupayaan untuk memperincikan perbelanjaan berulang dengan cepat dengan menambah subkategori, tarikh mula dan kuantiti. Kuantiti merujuk kepada bilangan kali caj diulangi dalam tempoh yang berterusan. |
+|Senaraikan perbelanjaan berulang dengan cepat | Ruang kerja perbelanjaan yang digambarkan semula menyediakan keupayaan untuk menyenaraikan perbelanjaan berulang dengan cepat dengan menambahkan subkategori, tarikh mula dan kuantiti. Kuantiti merujuk kepada bilangan kali caj diulang sepanjang tempoh berterusan. |
 | Tunjuk resit semasa pemerincian | Resit boleh ditunjukkan semasa perincian. |
 | Pemilihan pendahuluan tunai | Pilih satu atau lebih pendahuluan tunai untuk memenuhi transaksi perbelanjaan tunggal. |
 | Baki pendahuluan tunai | Semak baki pendahuluan tunai dalam masa nyata apabila anda mencipta entri perbelanjaan terhadap pendahuluan tunai yang diluluskan dan berbayar. |

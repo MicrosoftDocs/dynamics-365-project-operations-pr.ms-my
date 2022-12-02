@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan dimensi penentuan harga
-description: Artikel ini memberikan maklumat mengenai dimensi harga dalam Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang dimensi penetapan harga dalam Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations didatangkan dengan set dimensi penetapan harga l
 
 ![Syot layar parameter Project Service dengan "Digunakan pada Jualan" diserlahkan.](media/PS-OOB-parameters.png)
 
-Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk maklumat lanjut, lihat artikel berikut. 
+Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk maklumat lanjut, lihat artikel yang berikut. 
   
   > [!NOTE]
   > Prosedur mesti dilengkapkan mengikut susunan yang disenaraikan.

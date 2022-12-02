@@ -38,7 +38,7 @@ Apabila anda mentakrifkan mod penjadualan projek, anda menetapkan salah satu dar
 | Tugas usaha tetap    | Tempoh dikira semula. | Unit dikira semula.    | Tempoh dikira semula. |
 | Tugas tempoh tetap  | Usaha dikira semula.   | Usaha dikira semula.    | Unit dikira semula.   |
 
-Untuk maklumat lanjut tentang implikasi mod diberikan, lihat [Tukar jenis tugas untuk penjadualan yang lebih tepat](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dalam artikel itu, istilah **Kerja** digunakan dan bukannya **Usaha**.
+Untuk maklumat lanjut tentang implikasi mod diberikan, lihat [Tukar jenis tugas untuk penjadualan yang lebih tepat](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Dalam artikel, istilah **Kerja** digunakan berbanding **Usaha**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Tukar mod penjadualan organisasi
 

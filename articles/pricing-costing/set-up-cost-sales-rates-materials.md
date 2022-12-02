@@ -1,6 +1,6 @@
 ---
 title: Sediakan kadar kos dan jualan untuk bahan
-description: Artikel ini memberikan maklumat tentang cara menetapkan kos dan kadar jualan untuk bahan yang digunakan pada projek.
+description: Artikel ini menyediakan maklumat tentang cara menetapkan kadar kos dan jualan untuk bahan yang digunakan pada projek.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
@@ -25,9 +25,9 @@ Bagi menyediakan kadar kos dan jualan untuk produk, lengkapkan langkah berikut.
 2. Pada **Item senarai harga**, pada menu subgrid, pilih **Item senarai harga baharu**. 
 3. Pada halaman **Cipta Pantas**, masukkan produk dan unit yang harga baharu tersebut dicipta.
 
-Untuk maklumat lanjut tentang cara menentukan harga untuk item katalog, lihat [Mentakrifkan harga produk dengan senarai harga dan item](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) senarai harga dan [Ketepatan perpuluhan dalam mata wang dan harga](/dynamics365/sales/decimal-precision-currency-pricing).
+Untuk mendapatkan maklumat lanjut tentang cara mentakrifkan harga untuk item Katalog, lihat [Takrifkan harga produk dengan senarai harga dan item senarai harga](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) dan [Ketepatan perpuluhan dalam mata wang dan penetapan harga](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations tidak menyokong semua kaedah harga untuk produk sebagai Dynamics 365 Sales. Satu-satunya kaedah harga yang disokong untuk produk yang akan digunakan pada projek adalah *Jumlah Mata Wang*.
+> Dynamics 365 Project Operations tidak menyokong semua kaedah penetapan harga untuk produk sebagai Dynamics 365 Sales. Satu-satunya kaedah penetapan harga yang disokong untuk produk yang akan digunakan pada projek ialah *Jumlah mata wang*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

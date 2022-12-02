@@ -1,6 +1,6 @@
 ---
 title: Laman utama persumberan projek
-description: Artikel ini menyediakan maklumat tentang keupayaan pengurusan sumber dalam Project Service Automation (PSA) untuk Dynamics 365.
+description: Artikel ini menyediakan pautan kepada maklumat tentang keupayaan pengurusan sumber dalam Project Service Automation (PSA) untuk Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. K
 - Mengekalkan repositori kemahiran dan kecekapan.
 
 
-Anda boleh kakitangan projek anda dengan pasukan generik atau sumber yang dinamakan dalam PSA. Anda boleh menggunakan pelbagai kaedah untuk menambah dan menugaskan ahli pasukan dan untuk menguruskan penempahan dan tugasan mereka. Untuk maklumat tambahan, lihat artikel berikut:
+Anda boleh kakitangan projek anda dengan pasukan generik atau sumber yang dinamakan dalam PSA. Anda boleh menggunakan pelbagai kaedah untuk menambah dan menugaskan ahli pasukan dan untuk menguruskan penempahan dan tugasan mereka. Untuk mendapatkan maklumat tambahan, lihat artikel berikut:
 
 - [Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugas mereka](assign-named-bookable-resource.md)
 - [Tugaskan sumber boleh ditempah generik untuk tugas dan menjana keperluan sumber](assign-generic-bookable-resource.md)

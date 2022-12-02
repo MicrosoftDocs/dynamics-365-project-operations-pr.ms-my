@@ -1,6 +1,6 @@
 ---
 title: Sumber web ditamatkan dalam Project Service Automation 3.x
-description: Artikel ini menerangkan sumber web yang tidak lagi digunakan dalam Dynamics 365 Project Service Automation 3.0.
+description: Artikel ini memerihalkan sumber web yang tidak lagi digunakan dalam Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Merekod masa, perbelanjaan dan penggunaan bahan untuk komponen yang disubkontrak
-description: Artikel ini menerangkan cara masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dikesan oleh Microsoft Dynamics 365 Project Operations.
+description: Artikel ini menjelaskan cara masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dijejak oleh Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -13,26 +13,26 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 09/15/2022
 ms.locfileid: "9522525"
 ---
-# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Merekodkan masa, perbelanjaan dan penggunaan bahan pada projek untuk komponen subkontrak
+# <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Merekod masa, perbelanjaan dan penggunaan bahan pada projek untuk komponen subkontrak
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Artikel ini menerangkan cara masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dikesan oleh Microsoft Dynamics 365 Project Operations.
+Artikel ini menjelaskan cara masa, perbelanjaan dan penggunaan bahan yang direkodkan pada projek daripada komponen subkontrak dijejak oleh Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Kos untuk masa subkontraktor pada projek
-Dalam Operasi Projek, pekerja kontrak boleh merekodkan masa pada projek dengan cara yang sama seperti pekerja. Apabila memasukkan masa pada projek dan/atau tugas projek, pekerja kontrak boleh memilih garis subkontrak dan subkontrak tertentu.
+Dalam Project Operations, pekerja kontrak boleh merekodkan masa ke atas projek dengan cara yang sama sebagai pekerja. Apabila memasukkan masa pada projek dan/atau tugas projek, pekerja kontrak boleh memilih subkontrak khusus dan baris subkontrak.
 
-Apabila masa yang dikemukakan oleh pekerja kontrak diluluskan, kos projek direkodkan menggunakan kadar kos unit yang ditetapkan untuk sumber pekerja kontrak itu **di bahagian Harga** peranan senarai harga pembelian di subkontrak.
+Apabila masa yang diserahkan oleh pekerja kontrak diluluskan, kos projek direkodkan menggunakan kadar kos unit yang ditetapkan untuk sumber pekerja kontrak pada bahagian **Harga peranan** senarai harga pembelian pada subkontrak.
 
-## <a name="costing-for-subcontracted-expenses-on-projects"></a>Kos untuk perbelanjaan subkontrak ke atas projek
-Apabila memasuki perbelanjaan yang ditanggung pada projek, anda boleh memilih garis subkontrak dan subkontrak pada kemasukan perbelanjaan. 
+## <a name="costing-for-subcontracted-expenses-on-projects"></a>Kos perbelanjaan subkontrak pada projek
+Apabila memasukkan perbelanjaan yang ditanggung atas projek, anda boleh memilih subkontrak dan baris subkontrak pada entri perbelanjaan. 
 
-Apabila kemasukan perbelanjaan ini dikemukakan dan diluluskan, kos perbelanjaan direkodkan pada projek berdasarkan kos unit yang ditetapkan untuk kategori transaksi tersebut **dalam bahagian Harga** Kategori senarai harga pembelian pada subkontrak.
+Apabila entri perbelanjaan ini diserahkan dan diluluskan, kos perbelanjaan direkodkan pada projek berdasarkan kos unit yang ditetapkan untuk kategori urus niaga tersebut dalam bahagian **Harga kategori** senarai harga pembelian pada subkontrak.
 
-## <a name="costing-for-subcontracted-materials-on-projects"></a>Kos untuk bahan subkontrak pada projek
-Apabila memasukkan penggunaan bahan pada projek, anda boleh memilih garis subkontrak dan subkontrak pada log penggunaan bahan. Apabila log penggunaan bahan dikemukakan dan diluluskan, kos bahan direkodkan pada projek berdasarkan kos unit yang ditetapkan untuk produk tersebut **dalam bahagian Item** senarai harga senarai harga dalam senarai harga subkontrak.
+## <a name="costing-for-subcontracted-materials-on-projects"></a>Kos bahan subkontrak pada projek
+Apabila memasukkan penggunaan bahan yang ditanggung atas projek, anda boleh memilih subkontrak dan baris subkontrak pada log penggunaan bahan. Apabila log penggunaan bahan diserahkan dan diluluskan, kos bahan direkodkan pada projek berdasarkan kos unit yang ditetapkan untuk produk tersebut dalam bahagian **Item senarai harga** senarai harga subkontrak.
 
-Penggunaan bahan juga boleh direkodkan untuk produk tulis dalam projek. Penggunaan bahan jenis ini juga boleh dipautkan kepada garis subkontrak dan subkontrak. Apabila merakam penggunaan bahan untuk produk tulis, anda perlu memasukkan kos seunit produk tulis. 
+Penggunaan bahan juga boleh direkodkan untuk produk masukan manual pada projek. Jenis penggunaan bahan ini juga boleh dikaitkan dengan subkontrak dan baris subkontrak. Semasa merekodkan penggunaan bahan untuk produk masukan manual, anda perlu memasukkan kos seunit produk masukan manual. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

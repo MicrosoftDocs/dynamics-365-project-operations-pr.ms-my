@@ -1,6 +1,6 @@
 ---
 title: Menganggarkan baris sebut harga berdasarkan projek
-description: Artikel ini memberikan maklumat tentang cara membuat anggaran pada baris sebut harga berasaskan projek.
+description: Artikel ini menyediakan maklumat tentang cara mencipta anggaran pada baris sebut harga berasaskan projek.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Versi peta dwi tulis Project Operations
-description: Artikel ini menyediakan senarai peta dwi-tulis yang diperlukan untuk Dynamics 365 Project Operations.
+description: Artikel ini menyediakan senarai peta dwi tulis yang diperlukan untuk Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -25,12 +25,12 @@ Peta berikut memerlukan prasyarat untuk penyelesaian Project Operations. Pastika
 
 | Peta jadual | Penyegerakan awal |
 | --- | --- |
-| Lejar (msdyn_ledgers) | Memerlukan penyegerakan awal untuk peta jadual dan semua prasyarat. Master untuk penyegerakan awal ialah aplikasi kewangan dan operasi. |
+| Lejar (msdyn_ledgers) | Memerlukan penyegerakan awal untuk peta jadual dan semua prasyarat. Induk untuk penyegerakan awal ialah aplikasi kewangan dan operasi. |
 | Entiti sah (cdm_companies) | Tidak diperlukan. Sistem ini mengisi entiti secara automatik apabila persekitaran dipautkan menggunakan dwi tulis. |
 | Pelanggan V3 (akaun) | Tidak diperlukan untuk peruntukan. |
 | Vendor V2 (msdyn_vendors) | Tidak diperlukan untuk peruntukan. |
 
-1. Daripada senarai peta, pilih peta Lejar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak semak **Initial sync**. Dalam medan **Master untuk penyegerakan** awal, pilih **Aplikasi** kewangan dan operasi untuk kedua-dua peta lejar dan semua peta prasyarat. Pilih **Jalankan**.
+1. Daripada senarai peta, pilih peta Lejar **(msdyn\_ledgers)** dengan semua prasyarat dan pilih kotak semak **Initial sync**. Dalam medan **Induk untuk penyegerakan awal**, pilih **Aplikasi kewangan dan operasi** untuk kedua-dua peta lejar dan semua peta prasyarat. Pilih **Jalankan**.
 
 ![Penyegerakan peta lejar.](media/DW6.png)
 
@@ -40,13 +40,13 @@ Peta berikut memerlukan prasyarat untuk penyelesaian Project Operations. Pastika
 
 Peta berikut diperlukan untuk penyelesaian Project Operations. Versi peta dwitulis berdaftar bermula dengan Project Operations kemas kini Mei 2021, versi 4.10.0.186.
 
-| Peta entiti | Versi terkini | Penyegerakan awal | Versi Dynamics 365 Finance yang diperlukan |
+| Peta entiti | Versi terkini | Penyegerakan awal | Versi Dynamics 365 Finance diperlukan |
 | --- | --- | --- | --- |
 | Entiti integrasi untuk perhubungan transaksi projek (msdyn\_transactionconnections) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
 | Pengepala kontrak projek (pesanan jualan) | 1.0.0.1 | Tidak diperlukan untuk peruntukan. ||
 | Baris kontrak projek (salesorderdetails) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
 | Sumber pembiayaan projek (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Tidak diperlukan untuk peruntukan. ||
-| Jadual penyepaduan projek untuk anggaran bahan (anggaran msdyn\_) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
+| Jadual integrasi projek untuk anggaran bahan (msdyn\_estimatelines) | 1.0.0.0 | Tidak diperlukan untuk peruntukan. ||
 | Cadangan invois projek V2 (invois) | 1.0.0.3 | Tidak diperlukan untuk peruntukan. ||
 | Aktual integrasi Project Operations (msdyn_actuals) | 1.0.0.15 | Tidak diperlukan untuk peruntukan. |10.0.29 atau lebih baharu|
 | Pencapaian baris kontrak integrasi Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Tidak diperlukan untuk peruntukan. ||

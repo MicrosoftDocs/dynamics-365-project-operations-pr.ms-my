@@ -1,6 +1,6 @@
 ---
 title: Harian
-description: Artikel ini memberikan maklumat tentang peraturan per diem yang digunakan dalam pengurusan Perbelanjaan.
+description: Artikel ini memberikan maklumat tentang peraturan saraan harian yang digunakan dalam pengurusan Perbelanjaan.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

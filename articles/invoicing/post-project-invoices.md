@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan proses penginvoisan
-description: Artikel ini memberikan gambaran keseluruhan proses penginvoisan dalam Operasi Projek untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini menyediakan gambaran keseluruhan proses penginvoisan dalam Project Operations untuk senario berdasarkan sumber/bukan stok.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Project Operations untuk senario berdasarkan sumber/bukan stok menawarkan keupay
 
 ![Rajah aliran penginvoisan.](./media/invoicing-flow.png)
 
-Baris kontrak projek mentakrifkan kaedah pengebilan untuk transaksi projek berkaitan. Apabila pengurus Projek meluluskan transaksi masa dan perbelanjaan, sistem merekodkan transaksi dalam **entiti Project Actuals** dan menghantar maklumat kepada **modul pengurusan dan perakaunan** Projek dalam Dynamics 365 Finance. Akauntan Projek kemudiannya menyemak dan menyiarkan rekod menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini termasuk butiran perakaunan penting untuk aktual projek, seperti pengebilan, kumpulan cukai jualan, kumpulan cukai jualan item pengebilan dan dimensi kewangan.
+Baris kontrak projek mentakrifkan kaedah pengebilan untuk transaksi projek berkaitan. Apabila pengurus Projek meluluskan transaksi masa dan perbelanjaan, sistem merekodkan transaksi dalam entiti **Aktual Projek** dan menghantar maklumat kepada modul **Pengurusan projek dan perakaunan** dalam Dynamics 365 Finance. Akauntan Projek kemudiannya menyemak dan menyiarkan rekod menggunakan [jurnal Integrasi Project Operations](../project-accounting/project-operations-integration-journal.md). Jurnal ini termasuk butiran perakaunan penting untuk aktual projek, seperti pengebilan, kumpulan cukai jualan, kumpulan cukai jualan item pengebilan dan dimensi kewangan.
 
 Pengurus Projek boleh menyemak transaksi jualan yang tidak dibilkan menggunakan kaedah pengebilan masa dan bahan dalam [Tunggakan pengebilan masa dan bahan](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) dan pengebilan harga tetap [Pencapaian harga tetap](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Paparan ini membenarkan anda menapis dan memilih transaksi yang perlu dimasukkan dalam kitaran pengebilan seterusnya dan kemudian menanda sebagai **Sedia untuk Diinvoiskan**.
 

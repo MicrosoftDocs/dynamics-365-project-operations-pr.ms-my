@@ -1,6 +1,6 @@
 ---
 title: Import anggaran ke baris kontrak berdasarkan projek - ringan
-description: Artikel ini memberikan maklumat tentang mengimport anggaran kewangan dari projek ke garis kontrak.
+description: Artikel ini menyediakan maklumat tentang cara mengimport anggaran kewangan daripada projek kepada baris kontrak.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Anggarkan baris kontrak projek
-description: Artikel ini memberikan maklumat mengenai anggaran pada baris kontrak projek.
+description: Artikel ini menyediakan maklumat tentang anggaran pada baris kontrak projek.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

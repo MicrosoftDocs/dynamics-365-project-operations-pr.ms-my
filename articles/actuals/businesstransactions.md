@@ -1,6 +1,6 @@
 ---
 title: Urus niaga perniagaan dalam Project Operations
-description: Artikel ini memberikan gambaran keseluruhan konsep transaksi perniagaan dalam Microsoft Dynamics 365 Project Operations.
+description: Artikel ini memberikan gambaran keseluruhan tentang konsep urus niaga perniagaan dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -24,7 +24,7 @@ ms.locfileid: "8923291"
 
 _**Gunakan pada:** Project Operations untuk senario berdasarkan sumber/bukan stok, Pelaksanaan ringan - urusan untuk penginvoisan proforma_
 
-Dalam Microsoft Dynamics 365 Project Operations, *transaksi* perniagaan ialah konsep abstrak yang tidak diwakili oleh mana-mana entiti. Walau bagaimanapun, beberapa medan dan proses biasa pada entiti direka bentuk untuk menggunakan konsep transaksi perniagaan. Entiti berikut menggunakan pengabstrakan ini:
+Dalam Microsoft Dynamics 365 Project Operations, *urus niaga perniagaan* ialah konsep abstrak yang tidak diwakili oleh apa-apa entiti. Walau bagaimanapun, beberapa medan dan proses biasa pada entiti direka bentuk untuk menggunakan konsep transaksi perniagaan. Entiti berikut menggunakan pengabstrakan ini:
 
 - Butiran baris sebut harga
 - Butiran baris kontrak
@@ -32,9 +32,9 @@ Dalam Microsoft Dynamics 365 Project Operations, *transaksi* perniagaan ialah ko
 - Garisan jurnal
 - Sebenar
 
-Daripada entiti ini, butiran baris Sebut Harga, Butiran baris kontrak, dan garis Anggaran dipetakan ke *fasa* anggaran dalam kitaran hayat projek. Barisan Jurnal dan entiti Actuals dipetakan ke *fasa* pelaksanaan dalam kitaran hayat projek.
+Daripada entiti ini, Butiran baris sebut harga, Butiran baris kontrak dan Baris anggaran dipetakan ke *fasa anggaran* dalam kitaran hayat projek. Garisan jurnal dan Entiti aktual dipetakan ke *fasa pelaksanaan* dalam kitaran hayat projek.
 
-Operasi Projek menganggap rekod dalam kelima-lima entiti ini sebagai transaksi perniagaan. Satu-satunya perbezaan adalah bahawa rekod dalam entiti yang dipetakan ke fasa anggaran (Butiran baris sebut harga, butiran garis kontrak, dan garis Anggaran) dianggap sebagai *ramalan* kewangan, sedangkan rekod dalam entiti yang dipetakan ke fasa pelaksanaan (Garis jurnal dan Sebenar) dianggap sebagai *fakta* kewangan yang telah berlaku.
+Project Operations menganggap rekod dalam kesemua lima entiti ini sebagai urus niaga perniagaan. Satu-satunya perbezaan adalah bahawa rekod dalam entiti yang dipetakan ke fasa anggaran (Butiran baris sebut harga, Butiran baris kontrak dan Baris anggaran) dianggap *ramalan kewangan*, manakala rekod dalam entiti yang dipetakan ke fasa pelaksanaan (Garisan jurnal dan Aktual)dianggap sebagai *fakta kewangan* yang telah berlaku.
 
 Untuk mendapatkan maklumat lanjut, lihat [Anggaran](../project-management/estimating-projects-overview.md) dan [Aktual](actuals-overview.md).
 
@@ -49,7 +49,7 @@ Konsep berikut adalah unik kepada konsep transaksi perniagaan:
 
 ### <a name="transaction-type"></a>Jenis transaksi
 
-Jenis transaksi mewakili masa dan konteks kesan kewangan ke atas projek. Ia ditakrifkan oleh set pilihan yang mempunyai nilai yang disokong berikut dalam Operasi Projek:
+Jenis transaksi mewakili masa dan konteks kesan kewangan ke atas projek. Ini ditakrifkan oleh set pilihan yang mempunyai nilai disokong berikut dalam Project Operations:
 
 - Kos
 - Kontrak projek
@@ -60,7 +60,7 @@ Jenis transaksi mewakili masa dan konteks kesan kewangan ke atas projek. Ia dita
 
 ### <a name="transaction-class"></a>Kelas transaksi
 
-Kelas transaksi mewakili jenis kos berbeza yang berlaku pada projek. Ia ditakrifkan oleh set pilihan yang mempunyai nilai yang disokong berikut dalam Operasi Projek:
+Kelas transaksi mewakili jenis kos berbeza yang berlaku pada projek. Ini ditakrifkan oleh set pilihan yang mempunyai nilai disokong berikut dalam Project Operations:
 
 - Masa
 - Perbelanjaan
@@ -70,16 +70,16 @@ Kelas transaksi mewakili jenis kos berbeza yang berlaku pada projek. Ia ditakrif
 - Cukai
 
 > [!NOTE]
-> Nilai **Milestone** biasanya digunakan oleh logik perniagaan untuk pengebilan harga tetap dalam Operasi Projek.
+> Nilai **Pencapaian** biasanya digunakan oleh logik perniagaan untuk pengebilan harga tetap dalam Project Operations.
 
 ### <a name="transaction-origin"></a>Asal transaksi
 
-Asal transaksi adalah entiti yang menyimpan asal-usul setiap transaksi perniagaan untuk membantu pelaporan dan kebolehkesanan. Apabila pelaksanaan projek bermula, setiap transaksi perniagaan mencipta satu lagi transaksi perniagaan yang seterusnya akan membuat transaksi perniagaan lain, dan sebagainya.
+Asal urus niaga ialah entiti yang menyimpan asal setiap asal urus niaga perniagaan untuk membantu dalam pelaporan dan keupayaan kesan. Apabila pelaksanaan projek dimulakan, setiap urus niaga perniagaan mencipta urus niaga perniagaan lain yang akan menghasilkan satu lagi urus niaga perniagaan dan seterusnya.
 
 ### <a name="transaction-connection"></a>Sambungan transaksi
 
-Sambungan transaksi ialah entiti yang menyimpan hubungan antara dua transaksi perniagaan yang serupa, seperti kos dan realisasi jualan yang berkaitan atau pembalikan transaksi yang dicetuskan oleh aktiviti pengebilan seperti pengesahan invois atau pembetulan invois.
+Sambungan urus niaga ialah entiti yang menyimpan hubungan antara dua urus niaga perniagaan yang sama seperti kos dan aktual jualan berkaitan atau pembalikan urus niaga yang dicetuskan oleh aktiviti pengebilan seperti pengesahan invois atau pembetulan invois.
 
-Bersama-sama, asal Transaksi dan entiti sambungan Transaksi membantu anda menjejaki hubungan antara transaksi perniagaan dan tindakan yang menyebabkan transaksi perniagaan tertentu dibuat.
+Bersama-sama, asal Urus Niaga dan entiti sambungan Urus Niaga membantu anda menjejaki perhubungan antara urus niaga perniagaan dengan tindakan yang menyebabkan penciptaan urus niaga perniagaan khusus.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

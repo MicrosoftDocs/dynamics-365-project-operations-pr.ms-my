@@ -1,6 +1,6 @@
 ---
 title: Tambah langganan Azure untuk projek LCS
-description: Artikel ini memberikan maklumat tentang cara menyambungkan langganan Azure anda ke projek LCS.
+description: Artikel ini memberikan maklumat mengenai cara untuk menyambungkan langganan Azure anda ke projek LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8912159"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Persekitaran berhos awan mesti dilaksanakan dengan menggunakan langganan Azure yang sedia ada. Artikel ini menerangkan cara menyambungkan langganan Azure sedia ada anda ke projek LCS. 
+Persekitaran berhos awan mesti dilaksanakan dengan menggunakan langganan Azure yang sedia ada. Artikel ini menjelaskan cara untuk menyambungkan langganan Azure sedia ada anda ke projek LCS. 
 
 ## <a name="grant-admin-consent"></a>Berikan persetujuan pentadbir
 
@@ -59,13 +59,13 @@ Pengesahan kini selesai.
 2. Masukkan ID langganan Azure anda. Anda boleh mencari ID langganan Azure anda dalam [Portal Azure](https://ms.portal.azure.com/), di bawah  **Tetapan**  di sebelah kiri bawah skrin.
 3. Dalam **Konfigurasi untuk menggunakan medan Pengurus Sumber Azure**, pilih **Ya**.
 4. Pastikan Langganan Azure AAD Domain Penyewa yang sepadan dengan domain-memiliki langganan Azure yang anda gunakan dan pilih **Seterusnya**.
-5. Pada skrin **Persediaan Microsoft Azure**, pilih **Seterusnya** untuk mengesahkannya. Jika anda menerima ralat pada skrin ini, kembali ke bahagian [Sediakan Perkhidmatan Penggunaan Dinamik akses kepada langganan](#provide) Azure dalam artikel ini dan pastikan anda telah melengkapkan semua langkah.
+5. Pada skrin **Persediaan Microsoft Azure**, pilih **Seterusnya** untuk mengesahkannya. Jika anda menerima ralat pada skrin ini, kembali ke bahagian [Berikan akses kepada Perkhidmatan Pelaksanaan Dynamics kepada Langganan Azure](#provide) dalam artikel ini dan pastikan anda telah melengkapkan semua langkah tersebut.
 6. Muat turun Sijil Pengurusan Azure ke folder tempatan pada komputer anda. Minta pentadbir langganan Azure anda untuk memuat naik sijil ke Portal Pengurusan Azure dengan memilih langganan dan pergi ke **Tetapan** > **Sijil Pengurusan**. Sijil ini mendayakan LCS untuk berkomunikasi dengan Azure bagi pihak anda. Anda boleh melangkau langkah ini jika pengguna anda mempunyai akses kepada langganan.
 7. Pilih  **Seterusnya**.
 8. Pilih rantau Azure untuk menggunakan dan pilih pusat data yang berdekatan dengan tempat anda merancang untuk menggunakan sistem ini.
 9.  Pilih  **Connect**.
 
-Anda telah berjaya menyambungkan langganan Azure anda. Anda kini boleh menggunakan Dynamics 365 Finance persekitaran yang dihoskan awan.
+Anda telah berjaya menyambungkan langganan Azure anda. Anda kini boleh menggunakan persekitaran berhos awan Dynamics 365 Finance.
 
 
 

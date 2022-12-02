@@ -1,6 +1,6 @@
 ---
 title: Sediakan jadual retainer
-description: Artikel ini memberikan maklumat tentang cara menyediakan jadual penahan dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang cara menyediakan jadual retainer dalam Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

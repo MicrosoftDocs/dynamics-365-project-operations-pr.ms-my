@@ -1,6 +1,6 @@
 ---
 title: Tentukan jenis pelaksanaan anda
-description: Artikel ini menyediakan maklumat untuk membantu anda menentukan jenis penggunaan operasi Projek yang betul untuk syarikat anda.
+description: Artikel ini menyediakan maklumat untuk membantu anda menentukan jenis pelaksanaan Project Operations yang betul untuk syarikat anda.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Pelanggan sedia ada Dynamics menggunakan Dynamics 365 Project Service Automation
 Project Operations termasuk keupayaan yang dihantar dengan Project Service Automation. Laluan naik taraf akan dilepaskan untuk pelanggan dalam 2021 release wave 1.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan sedia ada Dynamics 365 Finance menggunakan pengurusan projek dan perakaunan 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Pelanggan sedia ada Dynamics 365 Finance menggunakan Pengurusan projek dan perakaunan 
 
 Pelanggan sedia ada Kewangan yang menggunakan fungsi Pengurusan projek dan perakaunan boleh terus menggunakannya seperti itu. Lihat [Project Operations untuk senario pesanan stok/pengeluaran](#pma).
 

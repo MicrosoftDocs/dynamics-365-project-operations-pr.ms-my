@@ -1,6 +1,6 @@
 ---
 title: Sebut harga - Konsep utama - ringan
-description: Artikel ini memberikan maklumat tentang menggunakan sebut harga projek dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang menggunakan sebut harga projek dalam Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

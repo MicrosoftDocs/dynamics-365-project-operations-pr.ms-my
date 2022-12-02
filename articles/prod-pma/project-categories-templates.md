@@ -1,6 +1,6 @@
 ---
-title: Menyegerakkan kategori perbelanjaan projek antara kewangan dan operasi dan Automasi Perkhidmatan Projek
-description: Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Microsoft Dynamics 365 Kewangan dan Dynamics 365 Project Service Automation.
+title: Segerakkan kategori perbelanjaan projek antara kewangan dengan operasi dan Project Service Automation
+description: Artikel ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan kategori perbelanjaan projek antara Microsoft Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028943"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Menyegerakkan kategori perbelanjaan projek antara kewangan dan operasi dan Automasi Perkhidmatan Projek
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Segerakkan kategori perbelanjaan projek antara kewangan dengan operasi dan Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kategori perbelanjaan projek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
+Artikel ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan kategori perbelanjaan projek antara Dynamics 365 Finance dan Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integrasi tugas projek, kategori transaksi perbelanjaan, anggaran jam, anggaran perbelanjaan dan penguncian fungsi tersedia dalam versi 8.0.
@@ -80,10 +80,10 @@ Kategori perbelanjaan projek dikendalikan dalam Finance, dan disegerakkan kepada
 
 ### <a name="power-query"></a>Power Query
 
-Apabila anda menyegerakkan ke Project Service Automation, anda mesti menggunakan Microsoft Power Query for Excel untuk mengesetkan jenis pengebilan pada kategori transaksi. Templat kategori transaksi perbelanjaan projek (Fin dan Ops kepada PSA) menyediakan lajur dan pemetaan lalai. Jika anda mencipta templat anda sendiri, anda mesti menambah lajur bersyarat dalam Power Query. Ikut langkah ini.
+Apabila anda menyegerakkan kepada Project Service Automation, anda mesti menggunakan Microsoft Power Query for Excel untuk menetapkan jenis pengebilan pada kategori transaksi. Templat kategori transaksi perbelanjaan projek (Fin dan Ops kepada PSA) menyediakan lajur dan pemetaan lalai. Jika anda mencipta templat anda sendiri, anda mesti menambah satu lajur bersyarat dalam Power Query. Ikut langkah ini.
 
 1. Klik anak panah untuk membuka pemetaan tugas kategori perbelanjaan projek dalam Kategori transaksi perbelanjaan projek (Fin dan Ops kepada PSA).
-2. **Klik pautan Pertanyaan Pendahuluan dan Penapisan** untuk membuka Power Query.
+2. Klik pautan **Pertanyaan Lanjutan dan Penapisan** untuk membuka Power Query.
 2. Pilih **Tambah Lajur Bersyarat**.
 3. Masukkan nama untuk lajur baharu, seperti **BillingType**.
 4. Masukkan syarat berikut: **jika CATEGORYID tidak sama dengan nol, maka 19235001, Sebaliknya, nol**.

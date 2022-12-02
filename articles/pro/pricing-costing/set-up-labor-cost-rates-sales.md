@@ -1,6 +1,6 @@
 ---
 title: Sediakan kadar kos buruh - ringan
-description: Artikel ini memberikan maklumat tentang cara menetapkan kadar kos untuk buruh dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat mengenai cara untuk menetapkan kadar kos untuk dalam buruh Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

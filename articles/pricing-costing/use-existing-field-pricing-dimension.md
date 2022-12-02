@@ -1,6 +1,6 @@
 ---
 title: Medan Project Operations sebagai dimensi penentuan harga
-description: Artikel ini menyediakan maklumat menggunakan medan sebagai dimensi harga dalam Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat yang menggunakan medan sebagai dimensi penetapan harga dalam Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

@@ -35,17 +35,17 @@ Templat projek menjimatkan masa anda jika syarikat anda membida dengan kerap pad
 ## <a name="components-of-project-template"></a>Komponen templat projek
  Templat projek terdiri daripada tiga komponen:  
   
-- **Struktur pecahan kerja**: Struktur pecahan kerja dalam templat projek mempunyai set elemen yang sama seperti dalam projek. Anda boleh mencipta hierarki tugas, mengaitkan peranan dengan tugas, mentakrifkan atribut jadual, mengesetkan kebergantungan dan melihat semua data dalam Gantt. Struktur pecahan kerja dalam templat projek juga menyokong mod tugas untuk setiap tugas. Tidak ada perbezaan antara templat projek dan projek semasa membuat jadual kerja.  
+- **Struktur pecahan kerja**: Struktur pecahan kerja dalam templat projek mempunyai set elemen yang sama seperti dalam projek. Anda boleh mencipta hierarki tugas, mengaitkan peranan dengan tugas, mentakrifkan atribut jadual, menetapkan kebergantungan dan melihat semua data dalam Gantt. Struktur pecahan kerja dalam templat projek juga menyokong mod tugas untuk setiap tugas. Tiada perbezaan antara templat projek dengan projek apabila mencipta jadual kerja.  
   
 - **Anggaran projek**: Anggaran projek dalam templat mempunyai fungsi yang sama seperti dalam projek, kecuali senarai harga untuk penetapan lalai kos dan harga jualan sentiasa senarai kos dan harga jualan yang ditakrifkan dalam parameter [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Kefungsian yang lain sama seperti dalam projek.  
   
 - **Pembentukan pasukan projek**: Apabila membentuk pasukan projek untuk templat projek, anda tidak boleh menempah sumber bernama dalam templat. Anda boleh menggunakan **Jana Pasukan Projek** dalam struktur pecahan kerja untuk menjana set sumber generik. Anda juga boleh menentukan kemahiran dan kecekapan yang diperlukan untuk sumber generik. Anda tidak boleh menggantikan sumber generik dengan sumber yang boleh ditempah dalam templat projek.  
 
-## <a name="create-a-project-template-from-an-existing-project"></a>Mencipta templat projek daripada projek sedia ada
+## <a name="create-a-project-template-from-an-existing-project"></a>Cipta templat projek daripada projek sedia ada
 Anda boleh mencipta templat projek daripada projek dengan cara berikut:
 
-- **Struktur** pecahan kerja: Struktur pecahan kerja dalam templat yang diperoleh daripada projek akan menyalin semua tugas dan kebergantungan. Tugasan yang dibuat akan berdasarkan ahli pasukan generik yang ditambahkan ke pasukan projek apabila templat projek dibuat.
-- **Anggaran projek**: Apabila templat projek dicipta daripada projek sedia ada, anggaran daripada projek sumber disalin ke templat projek.
+- **Struktur pecahan kerja**: Struktur pecahan kerja dalam templat yang diperoleh daripada projek akan menyalin semua tugas dan kebergantungan. Penugasan yang dicipta akan berdasarkan ahli pasukan generik yang ditambahkan kepada pasukan projek apabila templat projek dicipta.
+- **Anggaran projek**: Apabila templat projek dicipta daripada projek sedia ada, anggaran daripada projek sumber disalin kepada templat projek.
 - **Ahli pasukan projek**: Apabila templat dicipta daripada projek sedia ada, semua ahli pasukan yang dinamakan digantikan dengan sumber generik organisasi. Semua nama dan peranan kedudukan dikekalkan.
 
 ## <a name="create-a-project-from-a-template"></a>Cipta projek daripada templat  

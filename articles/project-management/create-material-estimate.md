@@ -1,6 +1,6 @@
 ---
 title: Anggaran kewangan untuk bahan pada projek
-description: Artikel ini memberikan maklumat mengenai menentukan atau menganggarkan bahan berasaskan projek.
+description: Artikel ini menyediakan maklumat tentang mentakrifkan atau menganggarkan bahan berdasarkan projek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8925713"
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Dynamics 365 Project Operations membolehkan pengurus Projek untuk menentukan kos bahan berdasarkan projek bagi setiap projek atau tugas. Setiap anggaran bahan boleh dikaitkan dengan tugas projek tertentu. Bahan yang digunakan pada projek boleh menjadi produk atau produk tulis dari katalog produk. Untuk setiap gabungan produk dan unit, harga boleh ditakrifkan dalam senarai harga projek untuk jualan dan senarai harga projek untuk kos.  
+Dynamics 365 Project Operations membolehkan pengurus Projek untuk menentukan kos bahan berdasarkan projek bagi setiap projek atau tugas. Setiap anggaran bahan boleh dikaitkan dengan tugas projek tertentu. Bahan yang digunakan untuk projek boleh terdiri daripada produk masukan manual atau produk daripada katalog produk. Bagi setiap kombinasi produk dan unit, harga boleh ditakrifkan dalam senarai harga projek untuk jualan dan senarai harga projek untuk kos.  
 
 Lengkapkan langkah berikut untuk melihat, menambah atau memadamkan anggaran bahan projek.
 

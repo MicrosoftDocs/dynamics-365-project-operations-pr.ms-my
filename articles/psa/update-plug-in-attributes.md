@@ -1,6 +1,6 @@
 ---
 title: Kemas kini atribut pasang masuk untuk memasukkan dimensi penetapan harga baharu
-description: Artikel ini memberikan maklumat tentang mengemas kini atribut pemalam untuk dimensi harga.
+description: Artikel ini memberikan maklumat mengenai mengemas kini atribut pasang masuk untuk dimensi penetapan harga.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -27,9 +27,9 @@ ms.locfileid: "8913217"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Jika anda tidak menggunakan ciri Sebut Harga dan Kontrak Automasi Perkhidmatan Projek (PSA), anda boleh melangkau artikel ini.
+> Jika anda tidak menggunakan ciri Pesanan Harga Project Service Automation (PSA) dan Pengkontrakan, anda boleh melangkau artikel ini.
 
-Artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti](create-custom-fields-entities.md) tersuai, [Tambah medan tersuai pada persediaan harga dan entiti](field-references.md) transaksi, dan [Sediakan medan tersuai sebagai dimensi harga](set-up-pricing-dimensions.md). Sekiranya anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkannya dan kemudian kembali ke artikel ini.
+Artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti tersuai](create-custom-fields-entities.md), [Tambah medan tersuai kepada persediaan harga dan entiti transaksi](field-references.md) dan [Sediakan medan tersuai sebagai dimensi penetapan harga](set-up-pricing-dimensions.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkan mereka dan kemudian kembali ke artikel ini.
 
 Apabila butiran baris sebut harga dicipta pada halaman baris **Baris Sebut Harga** untuk baris sebut harga projek, sistem mencipta dua baris anggaran dalam latar belakang -- satu baris untuk bahagian kos anggaran dan satu untuk jualan pihak. Ini adalah sama untuk baris kontrak projek.
 

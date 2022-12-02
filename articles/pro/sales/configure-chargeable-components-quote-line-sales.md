@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan komponen boleh dikenakan bagi baris sebut harga
-description: Artikel ini memberikan maklumat tentang menyediakan komponen yang boleh dikenakan bayaran dan tidak boleh dikenakan bayaran pada baris sebut harga berasaskan projek.
+description: Artikel ini menyediakan maklumat tentang penyediaan komponen boleh dituntut dan tidak boleh dituntut pada baris sebut harga berasaskan projek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

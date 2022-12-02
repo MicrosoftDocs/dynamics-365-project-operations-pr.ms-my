@@ -1,6 +1,6 @@
 ---
 title: Anggaran
-description: Artikel ini memberikan maklumat mengenai anggaran dalam Dynamics 365 Project Service Automation.
+description: Artikel ini memberikan maklumat tentang anggaran dalam Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

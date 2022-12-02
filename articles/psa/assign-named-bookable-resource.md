@@ -1,6 +1,6 @@
 ---
 title: Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugasan
-description: Artikel ini memberikan maklumat tentang cara menempah sumber yang dinamakan kepada pasukan projek dan menugaskan mereka kepada tugas.
+description: Artikel ini memberikan maklumat tentang cara menempah sumber dinamakan kepada pasukan projek dan tugaskannya kepada tugasan.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

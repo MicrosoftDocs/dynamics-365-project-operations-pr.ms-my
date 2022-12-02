@@ -1,6 +1,6 @@
 ---
 title: Prestasi API jadual Projek
-description: Artikel ini memberikan maklumat tentang penanda aras prestasi API jadual Projek dan mengenal pasti amalan terbaik untuk kegunaan optimum.
+description: Artikel ini menyediakan maklumat mengenai penanda aras prestasi API jadual Projek dan mengenal pasti amalan terbaik untuk kegunaan optimum.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911193"
 
 _**Digunakan Untuk:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Lite - urusan untuk penginvoisan proforma, Project for the web_
 
-Artikel ini memberikan maklumat tentang penanda aras prestasi antara muka pengaturcaraan aplikasi jadual Projek (API) dan mengenal pasti amalan terbaik untuk mengoptimumkan penggunaan.
+Artikel ini menyediakan maklumat mengenai penanda aras prestasi antara muka pengaturcaraan aplikasi (API) jadual Projek dan mengenal pasti amalan terbaik untuk penggunaan optimum.
 
 ## <a name="project-scheduling-service"></a>Perkhidmatan Penjadualan Projek
 Perkhidmatan Penjadualan Projek ialah perkhidmatan berbilang penyewa yang berjalan dalam Microsoft Azure. Ia direka bentuk untuk meningkatkan interaksi dengan menyediakan pengalaman pantas dan bendalir apabila pengguna mengusahakan projek. Penambahbaikan ini dicapai dengan menerima permintaan perubahan, memproses perubahan itu, kemudian mengembalikan hasil dengan serta-merta. Perkhidmatan berlanjutan kepada Dataverse secara tidak segerak dan tidak menyekat pengguna daripada melakukan operasi lain.
 
-API jadual Projek bergantung pada Perkhidmatan Penjadualan Projek untuk menjalankan permintaan yang diterangkan dengan lebih terperinci dalam bahagian kemudian artikel ini.
+API jadual Projek bergantung pada Perkhidmatan Penjadualan Projek untuk menjalankan permintaan yang diterangkan dengan lebih terperinci dalam bahagian artikel ini yang seterusnya.
 
 API jadual Projek direka bentuk untuk berfungsi dengan entiti struktur pecahan kerja (WBS) berikut:
 

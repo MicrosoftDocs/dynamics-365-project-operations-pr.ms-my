@@ -1,6 +1,6 @@
 ---
 title: Tetapan kontrak projek - lite
-description: Artikel ini menyediakan maklumat tentang medan yang memberi kesan kepada garis kontrak dan maklumat mengenai kontrak yang diringkaskan merentasi semua item baris.
+description: Artikel ini menyediakan maklumat tentang medan yang memberi kesan kepada baris kontrak dan maklumat tentang kontrak yang diringkaskan untuk merentasi semua item baris.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917081"
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Artikel ini menyediakan maklumat tentang medan yang digunakan untuk keseluruhan kontrak projek termasuk seting yang memberi kesan kepada semua baris kontrak. Maklumat mengenai kontrak yang diringkaskan merentasi semua item baris untuk mendorong KPI kontrak projek juga disertakan.
+Artikel ini menyediakan maklumat tentang medan yang digunakan untuk seluruh kontrak projek termasuk tetapan yang memberi kesan kepada semua baris kontrak. Maklumat mengenai kontrak yang diringkaskan merentasi semua item baris untuk mendorong KPI kontrak projek juga disertakan.
 
 Jadual berikut menyenaraikan medan paada kontrak projek yang unik kepada Dynamics 365 Project Operations atau mempunyai beberapa perubahan penting dalam tingkah laku daripada pesanan jualan dalam Dynamics 365 Sales.
 
@@ -35,7 +35,7 @@ Jadual berikut menyenaraikan medan paada kontrak projek yang unik kepada Dynamic
 KPI berikut tersedia pada tab **Prestasi Kontrak** kontrak projek. 
 
 >[!NOTE]
->Semua amaun pada **tab Prestasi** Kontrak dinyatakan dalam mata wang lalai persekitaran.
+>Semua amaun pada tab **Prestasi Kontrak** dinyatakan dalam mata wang lalai persekitaran.
 
 | Medan | Lokasi | Description |
 | --- | --- | --- |

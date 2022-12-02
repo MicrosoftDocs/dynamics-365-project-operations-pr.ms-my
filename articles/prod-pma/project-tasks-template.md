@@ -1,6 +1,6 @@
 ---
-title: Segerakkan tugas projek secara langsung daripada Automasi Perkhidmatan Projek kepada kewangan dan operasi
-description: Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan tugas projek terus dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+title: Segerakkan tugas projek secara terus daripada Project Service Automation kepada kewangan dan operasi
+description: Artikel ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan tugas projek secara langsung daripada Microsoft Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028372"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Segerakkan tugas projek secara langsung daripada Automasi Perkhidmatan Projek kepada kewangan dan operasi
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Segerakkan tugas projek secara terus daripada Project Service Automation kepada kewangan dan operasi
 
 [!include[banner](../includes/banner.md)]
 
-Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan tugas projek terus dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+Artikel ini menerangkan templat dan tugas dasar yang digunakan untuk segerakkan tugas projek secara langsung daripada Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integrasi tugas projek, kategori transaksi perbelanjaan, anggaran jam, anggaran perbelanjaan dan penguncian fungsi tersedia dalam versi 8.0.
@@ -71,7 +71,7 @@ Anda mesti menggunakan Microsoft Power Query for Excel untuk menapis data jika s
 
 - Anda mempunyai rekod khusus sumber dalam tugas projek.
 
-Jika anda mesti menggunakan Power Query, ikuti garis panduan ini:
+Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 
 - Templat tugas projek (PSA untuk Fin dan Ops) mempunyai penapis lalai yang mengecualikan rekod khusus sumber daripada tugas projek dengan tetapan penapis pada **IsLineTask** kepada **Palsu**. Jika anda mencipta templat anda sendiri, anda mesti menambahkan penapis ini.
 

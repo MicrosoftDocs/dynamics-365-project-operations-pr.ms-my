@@ -1,6 +1,6 @@
 ---
 title: Sediakan penciptaan invois automatik
-description: Artikel ini memberikan maklumat tentang menyediakan dan mengkonfigurasi penciptaan automatik invois proforma.
+description: Artikel ini memberikan maklumat tentang cara menyediakan dan mengkonfigurasikan penciptaan automatik invois proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

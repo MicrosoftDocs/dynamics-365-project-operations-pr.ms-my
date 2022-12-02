@@ -1,6 +1,6 @@
 ---
 title: Buat jadual invois pada baris kontrak berdasarkan projek
-description: Artikel ini memberikan maklumat tentang cara membuat jadual invois dan peristiwa penting pada baris kontrak.
+description: Artikel ini menyediakan maklumat tentang cara mencipta jadual invois dan pencapaian pada baris kontrak.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article

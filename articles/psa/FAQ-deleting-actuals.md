@@ -1,6 +1,6 @@
 ---
 title: Mengapakah saya tidak dapat memadamkan rekod daripada entiti aktual?
-description: Artikel ini memberikan maklumat tentang sebab anda tidak boleh memadamkan rekod daripada entiti sebenar.
+description: Artikel ini memberikan maklumat tentang sebab anda tidak boleh memadam rekod daripada entiti aktual.
 author: JPBurrows
 ms.custom:
 - dyn365-projectservice

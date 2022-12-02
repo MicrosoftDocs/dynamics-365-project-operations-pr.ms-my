@@ -1,6 +1,6 @@
 ---
 title: Project Operations untuk gambaran keseluruhan pelaksanaan senario berasaskan sumber/tidak distok
-description: Artikel ini memberikan maklumat tentang jenis penggunaan, Operasi Projek untuk senario berasaskan sumber/tidak berstok.
+description: Artikel ini menyediakan maklumat tentang jenis pelaksanaan, Project Operations untuk senario berasaskan sumber/bukan stok.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Jenis pelaksanaan, Dynamics 365 Project Operations untuk senario berasaskan sumb
 - Pengiktirafan hasil projek
 - Kebolehpanjangan melalui Power Platform
 
-Jenis penggunaan ini menyediakan sambungan kepada fungsi yang disediakan oleh Dynamics 365 Finance dan Dynamics 365 Supply Chain Management aplikasi.
+Jenis pelaksanaan ini menyediakan sambungan kepada fungsian yang disediakan oleh aplikasi Dynamics 365 Finance dan Dynamics 365 Supply Chain Management.
 
 Pelaksanaan ini hendaklah memilih jangkaan Project Operations adalah untuk menggunakan kitaran hayat projek penuh yang termasuk keperluan berikut:
 

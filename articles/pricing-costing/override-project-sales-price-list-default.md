@@ -1,6 +1,6 @@
 ---
 title: Ganti senarai harga jualan projek
-description: Artikel ini memberikan maklumat tentang membuat senarai harga jualan tersuai.
+description: Artikel ini menyediakan maklumat tentang penciptaan senarai harga jualan tersuai.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

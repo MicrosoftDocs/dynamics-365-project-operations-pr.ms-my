@@ -1,6 +1,6 @@
 ---
 title: Pendahuluan tunai
-description: Artikel ini memberikan maklumat mengenai pendahuluan tunai.
+description: Artikel ini memberikan maklumat tentang pendahuluan tunai.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Sebelum anda menyerahkan laporan perbelanjaan, anda boleh memilih pendahuluan tu
  
  Apabila ciri-ciri ini didayakan:
  
-  - Anda boleh menambah satu atau lebih pendahuluan tunai untuk setiap baris perbelanjaan.
+  - Anda boleh menambahkan satu atau lebih pendahuluan tunai untuk setiap baris perbelanjaan.
   - Baki pendahuluan tunai yang tersedia dapat dilihat dalam masa nyata apabila laporan perbelanjaan disimpan. Ini membolehkan anda memproses transaksi perbelanjaan dan mengembalikan transaksi tunai pada masa yang sama.
   - Anda boleh memilih berbilang pendahuluan tunai untuk satu transaksi perbelanjaan.
   - Data penyelarasan pendahuluan tunai boleh didapati dengan menggunakan pertanyaan. 

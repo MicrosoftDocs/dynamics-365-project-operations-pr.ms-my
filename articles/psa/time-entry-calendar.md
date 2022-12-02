@@ -1,6 +1,6 @@
 ---
 title: Kalendar entri masa
-description: Artikel ini memberikan maklumat tentang cara menggunakan kalendar kemasukan masa.
+description: Artikel ini memberikan maklumat tentang cara untuk menggunakan kalendar entri masa.
 author: rumant
 ms.custom:
 - dyn365-projectservice

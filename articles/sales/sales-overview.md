@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan proses jualan
-description: Artikel ini memberikan maklumat mengenai proses jualan asas.
+description: Artikel ini memberikan maklumat tentang proses jualan asas.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview

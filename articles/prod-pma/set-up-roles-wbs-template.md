@@ -1,6 +1,6 @@
 ---
 title: Sediakan peranan pada templat Struktur pecahan kerja
-description: Artikel ini memberikan maklumat tentang menyediakan maklumat peranan pada templat struktur pecahan kerja.
+description: Artikel ini memberikan maklumat tentang menyediakan maklumat peranan pada templat Struktur pecahan kerja.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

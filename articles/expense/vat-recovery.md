@@ -1,6 +1,6 @@
 ---
 title: Pemulihan VAT dalam Pengurusan perbelanjaan
-description: Artikel ini menerangkan cara menerima bayaran balik ke atas transaksi cukai nilai tambah (VAT) yang layak.
+description: Artikel ini menerangkan cara untuk menerima bayaran balik pada transaksi cukai (VAT) nilai ditambah yang layak.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

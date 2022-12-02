@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi penciptaan invois automatik
-description: Artikel ini memberikan maklumat tentang cara mengkonfigurasi sistem untuk menjana invois secara automatik.
+description: Artikel ini menyediakan maklumat tentang cara mengkonfigurasi sistem untuk menjana invois secara automatik.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

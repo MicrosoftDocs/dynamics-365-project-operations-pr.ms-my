@@ -1,6 +1,6 @@
 ---
 title: Tarik balik entri masa atau perbelanjaan yang diluluskan
-description: Artikel ini memberikan maklumat tentang cara menarik balik transaksi masa atau perbelanjaan yang diluluskan sebelum ini.
+description: Artikel ini memberikan maklumat tentang cara untuk menarik balik urus niaga masa atau perbelanjaan yang diluluskan sebelumnya.
 author: rumant
 ms.custom: ''
 ms.author: rumant

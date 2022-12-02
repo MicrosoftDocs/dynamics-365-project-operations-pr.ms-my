@@ -1,6 +1,6 @@
 ---
 title: Menerima atau menolak sumber projek dicadangkan
-description: Artikel ini memberikan maklumat tentang cara meluluskan atau menolak sumber projek yang dicadangkan.
+description: Artikel ini memberikan maklumat tentang cara untuk menerima atau menolak sumber projek dicadangkan.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916207"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Artikel ini memberikan maklumat tentang cara meluluskan atau menolak sumber projek yang dicadangkan.
+Artikel ini memberikan maklumat tentang cara untuk menerima atau menolak sumber projek dicadangkan.
 
 Apabila pengurus sumber mencadangkan sumber yang dinamakan untuk mengisi permintaan sumber generik bagi projek, medan **Status permintaan** untuk ahli pasukan generik akan dikemas kini kepada **Perlu Semakan**. Permohonan akan dihantar kepada pengurus projek untuk kelulusan atau penolakan.
 

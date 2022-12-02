@@ -1,6 +1,6 @@
 ---
 title: Projek pesanan jualan untuk projek masa dan bahan
-description: Artikel ini menerangkan cara membuat pesanan jualan berasaskan projek untuk masa dan projek material.
+description: Artikel ini menjelaskan cara mencipta pesanan jualan berasaskan projek untuk projek masa dan bahan.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8933825"
 
 [!include[banner](../includes/banner.md)]
 
-Artikel ini menerangkan cara membuat pesanan jualan untuk projek. Pesanan jualan hanya boleh dicipta untuk projek jenis **masa dan bahan**.
+Artikel ini menerangkan cara mencipta pesanan jualan untuk projek. Pesanan jualan hanya boleh dicipta untuk projek jenis **masa dan bahan**.
 
 Jika projek masa dan bahan mempunyai pelbagai sumber pembiayaan pada kontrak projek, anda mesti mendayakan **Benarkan pesanan jualan untuk projek dengan pelbagai sumber pembiayaan** parameter pada halaman **Pengurusan projek dan parameter perakaunan**. 
 

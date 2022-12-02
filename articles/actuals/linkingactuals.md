@@ -1,6 +1,6 @@
 ---
-title: Asal transaksi - Pautkan sebenarnya ke sumber mereka
-description: Artikel ini menerangkan bagaimana konsep asal transaksi digunakan untuk memautkan sebenar kepada rekod sumber asal, seperti kemasukan masa, kemasukan perbelanjaan, atau log penggunaan bahan.
+title: Asal transaksi - Pautkan aktual kepada sumbernya
+description: Artikel ini menerangkan cara konsep asal transaksi digunakan untuk memautkan aktual kepada rekod sumber asal seperti entri masa, entri perbelanjaan atau log penggunaan bahan.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921313"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Asal transaksi - Pautkan sebenarnya ke sumber mereka
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Asal transaksi - Pautkan aktual kepada sumbernya
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Rekod asal transaksi dicipta untuk memautkan aktual ke sumber mereka, entri masa tersebut, entri perbelanjaan, log penggunaan bahan dan invois projek.
+Rekod asal transaksi dicipta untuk mengaitkan aktual kepada sumber mereka seperti entri masa, entri perbelanjaan, log penggunaan bahan dan invois projek.
 
 Contoh berikut menunjukkan pemprosesan biasa bagi entri masa dalam kitaran hayat projek Project Operations.
 
-> ![Memproses keseluruhan masa dalam Operasi Projek.](media/basic-guide-17.png)
+> ![Memproses entri masa dalam Project Operations.](media/basic-guide-17.png)
  
-1. Penyerahan entri masa menyebabkan dua baris jurnal dibuat: satu untuk kos dan satu untuk jualan yang tidak dibilkan.
-2. Kelulusan akhir kemasukan masa menyebabkan dua aktual dibuat: satu untuk kos dan satu untuk jualan yang tidak dibilkan.
+1. Penyerahan entri masa menyebabkan dua garisan jurnal dicipta: satu untuk kos dan satu untuk jualan yang belum dibilkan.
+2. Pelulus akhir bagi entri masa menyebabkan dua aktual dicipta: satu untuk kos dan satu untuk jualan yang belum dibilkan.
 3. Apabila pengguna mencipta invois projek, transaksi baris invois dicipta menggunakan data daripada aktual jualan yang tidak dibilkan.
 4. Apabila invois disahkan, dua aktual baharu dicipta: pembalikan jualan yang belum dibilkan dan aktual jualan yang dibilkan.
 
-Setiap peristiwa dalam aliran kerja pemprosesan ini mencetuskan penciptaan rekod dalam entiti asal Transaksi untuk membantu membina jejak hubungan antara rekod ini yang dicipta merentas entri masa, baris jurnal, butiran baris sebenar dan invois.
+Setiap peristiwa dalam aliran kerjai pemprosesan ni mencetuskan penciptaan rekod dalam entiti asal Transaksi untuk membantu dalam membina jejak hubungan antara rekod yang dicipta merentasi entri masa, garisan jurnal, aktual dan butiran baris invois.
 
 Jadual berikut menunjukkan rekod dalam entiti asal Transaksi untuk aliran kerja sebelumnya.
 
@@ -70,8 +70,8 @@ Jadual berikut menunjukkan rekod dalam entiti asal Transaksi untuk aliran kerja 
 | GUID Invois Pembetulan      | Invois                  | GUID Aktual Jualan Belum Dibilkan Baharu    | Aktual                            |                          |
 
 
-Ilustrasi berikut menunjukkan pautan yang dicipta antara sebenar dan sumbernya pada pelbagai acara menggunakan contoh entri masa dalam Operasi Projek.
+Ilustrasi berikut menunjukkan pautan yang dicipta antara jenis aktual dan sumbernya pada pelbagai peristiwa menggunakan contoh entri masa dalam Project Operations.
 
-> ![Cara sebenar dipautkan kepada rekod sumber dalam Operasi Projek.](media/TransactionOrigins.png)
+> ![Cara aktual dipautkan kepada rekod sumber dalam Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

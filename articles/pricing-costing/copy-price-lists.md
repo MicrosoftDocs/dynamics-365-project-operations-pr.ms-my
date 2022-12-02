@@ -1,6 +1,6 @@
 ---
 title: Salin senarai harga
-description: Artikel ini memberikan maklumat tentang cara menyalin senarai harga dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara menyalin senarai harga dalam Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

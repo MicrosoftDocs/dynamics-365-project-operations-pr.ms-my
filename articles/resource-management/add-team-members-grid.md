@@ -1,6 +1,6 @@
 ---
 title: Tambah ahli pasukan daripada grid ahli Pasukan
-description: Artikel ini memberikan maklumat tentang cara anda boleh menguruskan sumber ahli pasukan.
+description: Artikel ini menyediakan maklumat tentang cara anda dapat mengurus sumber ahli pasukan.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

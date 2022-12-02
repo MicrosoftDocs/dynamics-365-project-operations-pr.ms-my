@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau yang diubah dalam Project Operations Mac 2021 untuk senario berdasarkan stok/pengeluaran
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 Operasi Projek untuk senario berasaskan stok / pengeluaran.
+description: Artikel ini menyediakan maklumat tentang kemas kini kualiti yang tersedia pada bulan Mac 2021 keluaran Project Operations untuk senario berasaskan stok/pengeluaran.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9028759"
 
 _**Digunakan Pada:** Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.17
 
@@ -121,7 +121,7 @@ Ciri berikut disertakan dalam keluaran ini:
 | Pengurusan projek dan perakaunan | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Kaedah kelas struktur pecahan kerja (WBS) legasi, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** ditamatkan.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

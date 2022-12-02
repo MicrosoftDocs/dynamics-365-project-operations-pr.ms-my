@@ -1,6 +1,6 @@
 ---
 title: Fahami status projek
-description: Artikel ini memberikan maklumat mengenai status yang diberikan kepada projek-projek di Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang status yang diperuntukkan kepada projek dalam Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

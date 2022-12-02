@@ -1,6 +1,6 @@
 ---
 title: Sahkan invois berdasarkan projek proforma
-description: Artikel ini memberikan maklumat tentang mengesahkan invois berasaskan projek proforma.
+description: Artikel ini menyediakan maklumat tentang pengesahan invois berdasarkan projek proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

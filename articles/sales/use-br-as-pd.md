@@ -1,6 +1,6 @@
 ---
 title: Gunakan sumber boleh ditempah sebagai dimensi penentuan harga
-description: Artikel ini memberikan maklumat tentang cara menggunakan sumber yang boleh ditempah sebagai dimensi harga.
+description: Artikel ini memberikan maklumat tentang cara menggunakan sumber boleh ditempah sebagai dimensi penentuan harga.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914827"
 
  _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_ 
 
-Artikel ini memberikan maklumat tentang cara menggunakan sumber yang boleh ditempah sebagai dimensi harga. Jika strategi penentuan harga anda ditetapkan supaya setiap sumber boleh ditempah mesti mempunyai kadar harga atau kos tertentu, gunakan sumber boleh ditempah sebagai dimensi penentuan harga.
+Artikel ini memberikan maklumat tentang cara menggunakan sumber boleh ditempah sebagai dimensi penentuan harga. Jika strategi penentuan harga anda ditetapkan supaya setiap sumber boleh ditempah mesti mempunyai kadar harga atau kos tertentu, gunakan sumber boleh ditempah sebagai dimensi penentuan harga.
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum anda melengkapkan prosedur dalam artikel ini, anda mesti mempunyai penyelesaian dimensi harga baru untuk organisasi anda. Jika anda belum menciptanya, lihat [Cipta medan dan entiti tersuai](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Sebelum anda melengkapkan prosedur dalam artikel ini, anda mesti mempunyai penyelesaian dimensi penentuan harga baharu untuk organisasi anda. Jika anda belum menciptanya, lihat [Cipta medan dan entiti tersuai](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Tambahkan medan Sumber Boleh Ditempah pada borang dan pandangan
 Untuk menjadikan medan **Sumber Boleh Ditempah** boleh dilihat dalam penyelesaian dimensi penentuan harga, anda perlu menambah medan kepada semua borang dan pandangan sebagai entiti.

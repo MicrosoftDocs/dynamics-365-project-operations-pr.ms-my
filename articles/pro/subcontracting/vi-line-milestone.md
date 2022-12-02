@@ -1,6 +1,6 @@
 ---
 title: Baris invois vendor untuk pencapaian
-description: Artikel ini menerangkan cara membuat baris invois vendor untuk peristiwa penting pada subkontrak.
+description: Artikel ini menerangkan cara untuk mencipta baris invois vendor untuk pencapaian pada subkontrak.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,28 +17,28 @@ ms.locfileid: "9261039"
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Invois vendor dalam Microsoft Dynamics 365 Project Operations boleh mempunyai baris invois vendor untuk peristiwa penting yang ditakrifkan pada garis subkontrak. Pengurus projek boleh menggunakan talian invois vendor untuk peristiwa penting untuk merekodkan kos perkhidmatan yang diperoleh sebagai kos berasaskan tonggak yang ditanggung ke atas perkhidmatan atau produk yang diperoleh untuk projek itu.
+Invois vendor dalam Microsoft Dynamics 365 Project Operations boleh mempunyai baris invois vendor untuk pencapaian yang ditakrifkan pada baris subkontrak. Pengurus projek boleh menggunakan baris invois vendor bagi pencapaian untuk merekodkan kos perkhidmatan yang diperoleh sebagai kos berasaskan pencapaian yang ditanggung pada perkhidmatan atau produk yang diperoleh untuk projek.
 
-Baris invois vendor untuk peristiwa penting mesti sentiasa merujuk garis subkontrak yang mempunyai kaedah pengebilan harga tetap. Apabila baris invois vendor untuk peristiwa penting merujuk garis subkontrak, pengurus projek akan dapat memadankan dan mengesahkan kos asas masa, perbelanjaan atau bahan yang merujuk garis subkontrak terhadap peristiwa penting yang sedang diinvois oleh vendor.
+Baris invois vendor untuk pencapaian mesti sentiasa merujuk baris subkontrak yang mempunyai kaedah pengebilan harga Tetap. Apabila baris invois vendor untuk pencapaian merujuk baris subkontrak, pengurus projek akan dapat memadankan dan mengesahkan kos tersembunyi bagi masa, perbelanjaan atau bahan yang merujuk baris subkonrak terhadap pencapaian yang sedang diinvois oleh vendor.
 
-Jadual berikut menyediakan maklumat tentang medan pada baris invois vendor untuk peristiwa penting.
+Jadual berikut menyediakan maklumat tentang medan pada baris invois vendor untuk pencapaian.
 
 | Medan | Description | Kesan kefungsian |
 | --- | --- | --- |
-| Nama | Nama talian invois vendor, untuk membantu mengenal pasti. | Nama ini akan ditunjukkan sebagai lajur pertama dalam semua carian yang berdasarkan baris invois vendor. |
-| Description | Penerangan ringkas mengenai perkhidmatan yang sedang diinvois oleh vendor pada baris invois vendor. | Tiada |
-| Subkontrak | Subkontrak yang pada asalnya dipesan oleh perkhidmatan tersebut. | Apabila subkontrak dipilih untuk invois vendor, semua baris pada invois vendor akan mewarisi pemilihan tersebut. Invois vendor tidak boleh mempunyai baris invois vendor yang merujuk subkontrak yang berbeza. |
-| Garis subkontrak | Garis subkontrak yang dipesan oleh perkhidmatan tersebut. Senarai garis subkontrak yang boleh dipilih adalah terhad kepada garisan pada subkontrak yang dipilih. | Apabila baris subkontrak dipilih pada baris invois vendor untuk peristiwa penting, **medan kategori** Peranan **dan** Transaksi serta medan berkaitan produk, adalah tidak relevan dan tidak tersedia. Medan **kumpulan** Kuantiti **·**, Unit **dan** Unit juga tidak relevan untuk baris invois vendor berasaskan tonggak. |
-| Tarikh transaksi | Tarikh kos sebenar talian invois vendor akan direkodkan pada projek. | Tiada |
-| Kelas transaksi | Pilih **Milestone** untuk merakam invois vendor untuk peristiwa penting yang telah ditakrifkan pada baris subkontrak. | Tiada |
-| Pencapaian | Pilih peristiwa penting yang ditakrifkan pada baris subkontrak berkaitan yang ditandakan sebagai **Sedia untuk Invois**. | Pencapaian baris subkontrak yang mempunyai status **Sedia untuk invois** boleh dipilih pada baris invois vendor. |
-| Project | Nama projek yang perkhidmatan yang sedang diinvois telah digunakan. | Medan ini diperlukan dan tidak boleh dibiarkan kosong. |
-| Tugas | Nama tugas projek yang digunakan oleh perkhidmatan yang sedang diinvois. Medan ini tersedia hanya jika projek dipilih. Pemilihan tugas projek adalah pilihan. | Jika medan ini dibiarkan kosong, pengurus projek boleh memadankan baris invois vendor dengan kelas transaksi pada garis subkontrak berkaitan yang direkodkan pada sebarang tugas projek. Jika baris invois vendor tidak merujuk garis subkontrak, dan medan ini dibiarkan kosong, kos sebenar yang dicipta oleh baris invois vendor tidak akan dipautkan kepada mana-mana jualan sebenar yang belum dibilkan. Dalam kes ini, jika pengebilan berasaskan tugas disediakan, kos mungkin tidak dapat diinvois kepada pelanggan akhir. |
-| Jumlah pencapaian | Masukkan nilai peristiwa penting yang ditakrifkan pada baris subkontrak yang sedia untuk diinvois. | Tiada |
+| Nama | Nama baris invois vendor untuk membantu pengenalpastian. | Nama ini akan ditunjukkan sebagai lajur pertama dalam semua carian yang berdasarkan pada baris invois vendor. |
+| Description | Penerangan ringkas tentang perkhidmatan yang sedang diinvois oleh vendor pada baris invois vendor. | Tiada |
+| Subkontrak | Subkontrak yang perkhidmatan telah dipesan pada asalnya. | Apabila subkontrak dipilih untuk invois vendor, semua baris pada invois vendor akan mewarisi pemilihan tersebut. Invois vendor tidak boleh mempunyai baris invois vendor yang merujuk subkontrak berbeza. |
+| Baris subkontrak | Baris subkontrak yang perkhidmatan telah dipesan. Senarai baris subkontrak yang boleh dipilih adalah terhad kepada baris pada subkontrak yang dipilih. | Apabila baris subkontrak dipilih pada baris invois vendor untuk pencapaian, medan **Peranan** dan **Kategori urus niaga** dan medan berkaitan produk, tidak relevan dan tidak tersedia. Mendan **Kuantiti**, **Unit**, dan **Kumpulan unit** juga tidak relevan untuk garis invois vendor berasaskan pencapaian. |
+| Tarikh transaksi | Tarikh apabila aktual kos baris invois vendor akan direkodkan pada projek. | Tiada |
+| Kelas transaksi | Pilih **Pencapaian** untuk merekodkan invois vendor untuk pencapaian lengkap yang ditakrifkan pada baris subkontrak. | Tiada |
+| Pencapaian | Pilih pencapaian yang ditakrifkan pada baris subkontrak berkaitan yang ditandakan sebagai **Tersedia untuk Invois**. | Pencapaian baris subkontrak yang mempunyai status **Tersedia untuk invois** boleh dipilih pada baris invois vendor. |
+| Project | Nama projek yang digunakan pada perkhidmatan yang sedang diinvois. | Medan ini diperlukan dan tidak boleh dibiarkan kosong. |
+| Tugas | Nama tugas projek yang digunakan pada perkhidmatan yang sedang diinvois. Medan ini tersedia hanya jika projek dipilih. Pemilihan tugas projek adalah opsyenal. | Jika medan ini dibiarkan kosong, pengurus projek boleh memadankan baris invois vendor dengan kelas urus niaga pada baris subkontrak berkaitan yang direkodkan pada sebarang tugas projek. Jika baris invois vendor tidak merujuk baris subkontrak, dan medan ini dibiarkan kosong, aktual kos yang dicipta oleh baris invois vendor tidak akan dipautkan pada sebarang aktual jualan yang tidak dibilkan. Dalam kes ini, jika pengebilan berasaskan tugas ditetapkan, kos mungkin tidak dapat diinvois kepada pelanggan akhir. |
+| Jumlah pencapaian | Masukkan nilai pencapaian yang ditakrifkan pada baris subkontrak yang tersedia untuk diinvois. | Tiada |
 | Cukai jualan | Masukkan amaun cukai jualan. | Tiada |
-| Jumlah | Jumlah keseluruhan baris invois vendor, termasuk cukai. Medan ini dikira sebagai *Milestone jumlah* + *cukai* Jualan. | Tiada |
+| Jumlah amaun | Jumlah amaun baris invois vendor, termasuk cukai. Medan ini dikira sebagai *Jumlah pencapaian* + *Cukai jualan*. | Tiada |
 
 > [!NOTE]
-> Apabila baris invois vendor yang merujuk peristiwa penting baris subkontrak dicipta, status peristiwa penting subkontrak dikemas kini kepada **invois Vendor yang** dicipta. Kemudian, apabila invois vendor itu disahkan, status peristiwa penting baris subkontrak dikemas kini kepada **invois Vendor disahkan**.
+> Apabila baris invois vendor yang merujuk baris pencapaian baris subkontrak dicipta, status pencapaian subkontrak dikemas kini kepada **Invois vendor dicipta**. Kemudian, apabila invois vendor disahkan, status pencapaian baris subkontrak dikemas kini kepada **Invois vendor disahkan**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

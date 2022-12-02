@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Disember 2020 - Project Operations untuk senario berasaskan stok/pengeluaran
-description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran Operasi Projek Disember 2020 untuk senario berasaskan stok / pengeluaran.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Disember 2020 bagi Project Operations untuk senario berasaskan stok/pengeluaran.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8911377"
 
 _Digunakan Pada: Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
   - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.15
 
@@ -139,7 +139,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk maklumat tentang kemas kini kawal selia untuk Dynamics 365 Finance, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk Dynamics 365 Finance, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

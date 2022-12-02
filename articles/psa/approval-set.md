@@ -1,6 +1,6 @@
 ---
 title: Set kelulusan dalam Project Service Automation
-description: Artikel ini menyediakan maklumat tentang set kelulusan, permintaan dan subset operasi tersebut.
+description: Artikel ini menyediakan maklumat tentang set, permintaan kelulusan dan subset operasi tersebut.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

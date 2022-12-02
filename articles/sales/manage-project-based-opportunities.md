@@ -1,6 +1,6 @@
 ---
 title: Urus peluang berasaskan projek
-description: Artikel ini memberikan maklumat tentang cara bekerja dengan peluang yang berkaitan dengan projek.
+description: Artikel ini memberikan maklumat tentang cara untuk bekerja dengan peluang yang berkaitan dengan projek.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Syarikat berasaskan projek biasanya mempunyai operasi mereka untuk penghantaran tersebar merentasi berbilang negara dan di seluruh dunia. Kos pelaksanaan projek dan penghantaran mungkin berbeza mengikut geografi atau divisyen yang menguruskan penghantaran. Seterusnya, ini boleh memberi kesan pada margin urusan. Penghantaran perkhidmatan berasaskan projek biasanya melibatkan kuantiti masa sumber manusia yang lama, perbelanjaan untuk perjalanan, kos bahan dan perbelanjaan lain yang agak besar.
 
-Peluang berasaskan projek dalam Dynamics 365 Project Operations ialah direka bentuk dengan lanjutan kepada Dynamics 365 Sales. Artikel ini memberikan perincian mengenai bidang dan logik perniagaan yang berbeza yang termasuk dalam fungsi tambahan yang diperlukan oleh syarikat berasaskan projek untuk menguruskan peluang berasaskan projek.
+Peluang berasaskan projek dalam Dynamics 365 Project Operations ialah direka bentuk dengan lanjutan kepada Dynamics 365 Sales. Artikel ini memberikan butiran tentang medan dan logik perniagaan yang berbeza termasuk dalam fungsian tambahan yang diperlukan oleh syarikat berasaskan projek untuk menguruskan peluang berasaskan projek.
 
 ## <a name="view-all-project-based-opportunities"></a>Lihat semua peluang berasaskan projek
 

@@ -1,6 +1,6 @@
 ---
 title: Integrasi invois vendor
-description: Artikel ini memberikan maklumat tentang penyepaduan invois vendor dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang integrasi invois vendor dalam Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -34,7 +34,7 @@ Dalam Project Operations, invois vendor berkaitan projek disiarkan menggunakan p
      > [!NOTE]
      > Butiran invois vendor dalam Dataverse tidak boleh diedit.
 
-Subledger cukai, subledger vendor, dan siaran kewangan lain direkodkan sebagai terpakai dalam Dynamics 365 Finance apabila invois vendor disiarkan.
+Sublejar cukai, sublejar vendor dan siaran kewangan lain direkodkan sebagaimana yang berkenaan dalam Dynamics 365 Finance apabila invois vendor disiarkan.
 
 ![Integrasi invois vendor.](media/DW7VendorInvoice.png)
 

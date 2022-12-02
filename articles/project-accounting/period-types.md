@@ -1,6 +1,6 @@
 ---
 title: Jenis tempoh
-description: Artikel ini memberikan maklumat tentang cara menyediakan jenis tempoh untuk anggaran pendapatan.
+description: Artikel ini menyediakan maklumat tentang cara menyediakan jenis tempoh untuk anggaran hasil..
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930973"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Jenis tempoh mentakrifkan kekerapan hasil pada projek dianggarkan. Artikel ini memberikan maklumat tentang cara menyediakan jenis tempoh untuk anggaran pendapatan. 
+Jenis tempoh mentakrifkan kekerapan hasil pada projek dianggarkan. Artikel ini menyediakan maklumat tentang cara menyediakan jenis tempoh untuk anggaran hasil.. 
 
 ## <a name="create-and-work-with-period-types"></a>Cipta dan bekerja dengan jenis tempoh
 Untuk mencipta dan bekerja dengan jenis tempoh, lengkapkan langkah berikut:
 
-1. Dalam persekitaran Dynamics 365 Finance anda, pergi ke **Pengurusan Projek dan jenis Tempoh Anggaran** > **Persediaan Persediaan** > **Perakaunan** > **·**.
+1. Dalam persekitaran Dynamics 365 Finance anda, pergi ke **Pengurusan projek dan perakaunan** > **Persediaan** > **Anggaran** > **Jenis tempoh**.
 2. Pilih **Baharu** untuk mencipta jenis tempoh baharu. Masukkan nama dan perihalan.
 3. Dalam medan **Kekerapan**, pilih nilai:
 

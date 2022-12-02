@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan aplikasi mudah alih projek
-description: Artikel ini menyediakan maklumat umum tentang aplikasi berkaitan masa projek untuk Microsoft Dynamics 365 Project Timesheet, Entri Masa Projek dan lembaran masa/Lembaran Masa saya yang tersedia pada peranti mudah alih.
+description: Artikel ini menyediakan maklumat umum tentang aplikasi berkaitan masa projek untuk Microsoft Dynamics 365 Project Timesheet, Entri Masa Projek dan Lembaran masa saya/Lembaran masa yang tersedia pada peranti mudah alih.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ Tiga aplikasi mudah alih yang berkaitan dengan masa projek tersedia untuk Micros
 
 ## <a name="project-timesheet-mobile-app"></a>Aplikasi mudah alih Lembaran masa Projek
 
-Aplikasi mudah alih Lembaran masa Projek Dynamics 365 membolehkan pengguna menyerahkan dan meluluskan lembaran masa untuk projek pada peranti mudah alih mereka. Aplikasi mudah alih ini memaparkan fungsi lembaran masa dalam bidang pengurusan projek dan perakaunan Dynamics 365 Finance. Ia membantu kami meningkatkan produktiviti dan kecekapan pengguna, dan juga membantu dengan entri dan kelulusan lembaran masa projek yang tepat.
+Aplikasi mudah alih Lembaran masa Projek Dynamics 365 membolehkan pengguna menyerahkan dan meluluskan lembaran masa untuk projek pada peranti mudah alih mereka. Aplikasi mudah alih ini menampilkan fungsi lembaran masa dalam bahagian Pengurusan projek dan perakaunan Dynamics 365 Finance. Ia membantu kami meningkatkan produktiviti dan kecekapan pengguna, dan juga membantu dengan entri dan kelulusan lembaran masa projek yang tepat.
 
 ## <a name="project-time-entry-workspace"></a>Ruang kerja Entri Masa Projek
 
-Ruang kerja Entri Masa Projek membolehkan pengguna memasukkan dan menyimpan masa terhadap projek. Namun, ia tidak membenarkan pengguna menyerahkan atau meluluskan lembaran masa projek. Ia hanya boleh digunakan untuk entri masa. Ruang kerja mudah alih ini bertujuan untuk digunakan bersama-sama dengan aplikasi mudah alih kewangan dan operasi.
+Ruang kerja Entri Masa Projek membolehkan pengguna memasukkan dan menyimpan masa terhadap projek. Namun, ia tidak membenarkan pengguna menyerahkan atau meluluskan lembaran masa projek. Ia hanya boleh digunakan untuk entri masa. Ruang kerja mudah alih ini bertujuan untuk digunakan bersama dengan aplikasi mudah alih kewangan dan operasi.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Lembaran masa saya/Lembaran masa untuk ulasan saya
 
-Lembaran masa saya (Dioptimumkan untuk mudah alih) dan Lembaran masa untuk ulasan saya (Dioptimumkan untuk mudah alih) membuat penyelesaian yang membolehkan pekerja mencipta, menyerahkan dan meluluskan lembaran masa kerja projek pada peranti mudah alih. Pekerja boleh mengakses fungsi Kewangan melalui URL untuk aplikasi. Penyelesaian ini tidak memerlukan kewangan dan operasi aplikasi mudah alih.
+Lembaran masa saya (Dioptimumkan untuk mudah alih) dan Lembaran masa untuk ulasan saya (Dioptimumkan untuk mudah alih) membuat penyelesaian yang membolehkan pekerja mencipta, menyerahkan dan meluluskan lembaran masa kerja projek pada peranti mudah alih. Pekerja boleh mengakses fungsi Kewangan melalui URL untuk aplikasi. Penyelesaian ini tidak memerlukan aplikasi mudah alih kewangan dan operasi.
 
 ## <a name="for-more-information"></a>Untuk mendapatkan maklumat lanjut
 

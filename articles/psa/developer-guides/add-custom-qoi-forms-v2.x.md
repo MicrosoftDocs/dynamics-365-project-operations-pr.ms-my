@@ -1,6 +1,6 @@
 ---
 title: Tambah borang entiti tersuai baharu (Project Service Automation 2.x)
-description: Artikel ini menyediakan maklumat tentang cara menambah borang entiti tersuai untuk peluang, sebut harga, pesanan atau invois dalam Dynamics 365 Project Service Automation 2.x.
+description: Artikel ini memberikan maklumat tentang cara untuk menambah borang entiti tersuai untuk peluang, sebut harga, pesanan atau invois dalam Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

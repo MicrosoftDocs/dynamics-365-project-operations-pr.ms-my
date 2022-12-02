@@ -1,6 +1,6 @@
 ---
 title: Memindahkan sebut harga kepada projek
-description: Artikel ini memberikan maklumat tentang cara memindahkan sebut harga ke projek baru atau sedia ada.
+description: Artikel ini memberikan maklumat mengenai cara untuk memindahkan sebut harga kepada projek baharu atau sedia ada.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

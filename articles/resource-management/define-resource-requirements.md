@@ -1,6 +1,6 @@
 ---
 title: Takrifkan keperluan sumber
-description: Artikel ini memberikan maklumat mengenai menentukan maklumat keperluan sumber.
+description: Artikel ini memberikan maklumat tentang mentakrifkan maklumat keperluan sumber.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

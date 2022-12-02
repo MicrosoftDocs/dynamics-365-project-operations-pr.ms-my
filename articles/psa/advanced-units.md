@@ -1,6 +1,6 @@
 ---
 title: Kumpulan unit dan unit
-description: Artikel ini memberikan maklumat mengenai kumpulan unit dan unit.
+description: Artikel ini menyediakan maklumat tentang kumpulan unit dan unit.
 author: rumant
 ms.custom:
 - dyn365-projectservice

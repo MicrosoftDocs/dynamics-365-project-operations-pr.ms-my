@@ -1,6 +1,6 @@
 ---
 title: Mencipta pendahuluan ad hoc pada kontrak
-description: Artikel ini memberikan maklumat tentang membuat pendahuluan pada kontrak seperti yang diperlukan.
+description: Artikel ini memberikan maklumat tentang penciptaan pendahuluan pada kontrak seperti yang diperlukan.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

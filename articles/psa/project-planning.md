@@ -1,6 +1,6 @@
 ---
 title: Halaman utama perancangan projek
-description: Artikel ini memberikan maklumat mengenai perancangan projek.
+description: Artikel ini memberikan maklumat tentang perancangan projek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -43,7 +43,7 @@ Alat pengurusan projek dalam PSA membantu anda menjalankan projek dengan mudah. 
 - Meramal keperluan sumber untuk projek yang berada dalam talian paip
 - Berjaya menyampaikan projek dengan menjejaki kemajuan dan penggunaan kos.
 
-Artikel berikut memberikan maklumat yang akan membantu pengurus projek menganggarkan kerja, menganggarkan kos projek dan meramalkan keperluan sumber dengan menggunakan alat yang disokong dalam PSA:
+Artikel berikut memberikan maklumat yang akan membantu pengurus projek menganggarkan kerja, menganggarkan kos projek dan meramal keperluan sumber dengan menggunakan alat yang disokong dalam PSA:
 
 - [Mencipta jadual](project-creating.md)
 - [Menganggarkan kos dan hasil projek](project-estimating.md)

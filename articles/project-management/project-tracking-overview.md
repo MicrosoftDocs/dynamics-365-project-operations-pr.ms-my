@@ -1,6 +1,6 @@
 ---
 title: Penjejakan usaha projek
-description: Artikel ini memberikan maklumat tentang cara mengesan usaha projek dan kemajuan kerja.
+description: Artikel ini menyediakan maklumat tentang cara menjejaki usaha projek dan kemajuan kerja.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -45,8 +45,8 @@ Usaha pada tugas ringkasan atau tugas bekas boleh diunjurkan semula. Pengurus pr
 - EAC baharu pada setiap tugas individu sehingga ke tugas nod daun dikira. 
 - Tugas anak yang terjejas sehingga nod daun, mempunyai baki usaha dan peratusan kemajuan dikira semula berdasarkan pada nilai EAC. Ini menghasilkan unjuran baharu bagi varians usaha tugas tersebut. 
 - EAC tugas ringkasan sehingga ke nod akar dikira semula.
-- Usaha yang diluluskan pada tugas ringkasan adalah jumlah usaha yang diluluskan pada semua tugas kanak-kanak ditambah dengan usaha yang diluluskan pada tugas ringkasan.
-- Usaha yang tinggal pada tugas ringkasan adalah jumlah usaha yang tinggal pada semua tugas kanak-kanak tolak usaha yang diluluskan pada tugas ringkasan.
+- Usaha yang diluluskan pada tugas ringkasan ialah jumlah usaha yang diluluskan pada semua tugas anak serta usaha yang diluluskan pada tugas ringkasan.
+- Baki usaha pada tugas ringkasan ialah jumlah baki usaha pada semua tugas anak ditolak usaha yang diluluskan pada tugas ringkasan.
 
 ## <a name="project-status-summary"></a>Ringkasan status projek
 

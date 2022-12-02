@@ -1,6 +1,6 @@
 ---
 title: Cipta model ramalan untuk belanjawan projek
-description: Artikel ini menerangkan cara membuat model ramalan untuk baki belanjawan.
+description: Artikel ini menerangkan cara mencipta model ramalan untuk baki belanjawan.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916713"
 
 [!include [banner](../includes/banner.md)]
 
-Artikel ini menerangkan cara membuat model ramalan untuk baki belanjawan. Projek yang tertakluk kepada kawalan belanjawan menggunakan dua jenis belanjawan: asal dan selebihnya. Apabila anda mencipta belanjawan projek, anda mesti menentukan model ramalan belanjawan asal dan selebihnya yang dicipta dalam halaman **Model ramalan**. Belanjawan projek berdasarkan model yang ditentukan dicipta apabila anda melaksanakan belanjawan projek.
+Artikel ini menerangkan cara mencipta model ramalan untuk baki belanjawan. Projek yang tertakluk kepada kawalan belanjawan menggunakan dua jenis belanjawan: asal dan selebihnya. Apabila anda mencipta belanjawan projek, anda mesti menentukan model ramalan belanjawan asal dan selebihnya yang dicipta dalam halaman **Model ramalan**. Belanjawan projek berdasarkan model yang ditentukan dicipta apabila anda melaksanakan belanjawan projek.
 
 > [!NOTE]
 > Model ramalan yang digunakan untuk kawalan belanjawan tidak boleh mempunyai submodel atau digunakan sebagai submodel.

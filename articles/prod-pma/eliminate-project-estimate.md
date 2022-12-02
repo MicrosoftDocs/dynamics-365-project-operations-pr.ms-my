@@ -1,6 +1,6 @@
 ---
 title: Hapuskan anggaran projek
-description: Artikel ini memberikan maklumat tentang menghapuskan anggaran projek selepas ia selesai.
+description: Artikel ini menyediakan maklumat tentang cara menghapuskan anggaran projek selepas ia selesai.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

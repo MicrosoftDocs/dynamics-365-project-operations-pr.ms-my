@@ -1,6 +1,6 @@
 ---
 title: Import anggaran untuk projek ke baris sebut harga projek
-description: Artikel ini memberikan maklumat tentang mengimport anggaran dari projek ke baris sebut harga projek.
+description: Artikel ini menyediakan maklumat tentang cara mengimport anggaran daripada projek kepada baris sebut harga projek.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

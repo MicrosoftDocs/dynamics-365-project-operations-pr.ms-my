@@ -1,6 +1,6 @@
 ---
 title: Sediakan medan tersuai sebagai dimensi penentuan harga
-description: Artikel ini memberikan maklumat tentang cara menyediakan dimensi harga menggunakan medan tersuai.
+description: Artikel ini menyediakan maklumat tentang penyediaan dimensi penetapan harga menggunakan medan tersuai.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917587"
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Sebelum anda memulakan, artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti](create-custom-fields-entities-pricing-dimensions.md) tersuai dan [Tambah medan tersuai yang diperlukan untuk persediaan harga dan entiti transaksi](add-custom-fields-price-setup-transactional-entities.md). Sekiranya anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkannya dan kemudian kembali ke artikel ini. 
+Sebelum anda bermula, artikel ini mengandaikan bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti tersuai](create-custom-fields-entities-pricing-dimensions.md) dan [Tambah medan tersuai kepada persediaan harga dan entiti transaksi yang diperlukan](add-custom-fields-price-setup-transactional-entities.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkan mereka dan kemudian kembali ke artikel ini. 
 
-Artikel ini memberikan maklumat mengenai penyediaan dimensi harga tersuai. Pada halaman **Parameter**, tab **Dimensi Penetapan Harga Berasaskan Amaun** menunjukkan rekod dalam entiti dimensi penetapan harga. Secara lalai, terdapat dua baris dalam grid pada tab ini:
+Artikel ini memberikan maklumat tentang penyediaan dimensi penetapan harga tersuai. Pada halaman **Parameter**, tab **Dimensi Penetapan Harga Berasaskan Amaun** menunjukkan rekod dalam entiti dimensi penetapan harga. Secara lalai, terdapat dua baris dalam grid pada tab ini:
 
 - **msdyn_resourcecategory** (Peranan)
 - **msdyn_OrganizationalUnit** (Unit Organisasi)

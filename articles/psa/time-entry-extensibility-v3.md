@@ -46,7 +46,7 @@ Bahagian **Dimensi** menunjukkan, sebagai tajuk lajur, semua dimensi masa boleh 
 - Taip
 - Status Entri
 
-Bahagian **Dimensi** tidak membenarkan pengeditan sebaris. Bahagian ini disokong oleh pandangan yang mendayakan medan tersuai untuk ditambah ke grid kemasukan masa mingguan. Untuk maklumat tentang cara menambah medan tersuai, lihat bahagian "Kebolehpanjangan" kemudian dalam artikel ini.
+Bahagian **Dimensi** tidak membenarkan pengeditan sebaris. Bahagian ini disokong oleh pandangan yang mendayakan medan tersuai untuk ditambah ke grid kemasukan masa mingguan. Untuk maklumat mengenai cara untuk menambah medan tersuai, lihat bahagian "Kebolehpanjangan" kemudian dalam artikel ini.
 
 ### <a name="duration"></a>Tempoh
 Bahagian Tempoh menunjukkan hari minggu sebagai pengepala lajur. Bahagian ini membenarkan pengeditan dalam baris. Selepas baris entri masa ialah dicipta yang mempunyai dimensi yang sesuai, pengguna boleh memasukkan dengan cepat, mengikut baris, jumlah masa yang mereka belanjakan pada dimensi tersebut.

@@ -1,6 +1,6 @@
 ---
 title: Tempahan lwn penugasan
-description: Artikel ini memberikan maklumat perbezaan antara tempahan sumber dan tugasan sumber.
+description: Artikel ini memberikan maklumat tentang perbezaan antara tempahan sumber dan penugasan sumber.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

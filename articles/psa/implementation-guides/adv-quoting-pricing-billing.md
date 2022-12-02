@@ -1,6 +1,6 @@
 ---
 title: Sebut Harga, Penentuan Harga dan Pengebilan lanjutan
-description: Artikel ini memberikan maklumat tentang sebut harga, pengebilan dan harga dalam Automasi Perkhidmatan Projek.
+description: Artikel ini menyediakan maklumat tentang sebut harga, pengebilan dan penentuan harga dalam Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921819"
 
 Keupayaan mencari sumber yang betul pada masa yang betul, menempah sumber tersebut pada projek, dan memastikan sumber yang digunakan membantu organisasi mencapai sasaran hasil dan matlamat kepuasan pelanggan. 
 
-Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
+Pautan PDF yang terdapat dalam artikel ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada artikel berikut:
 
 - [Sebut harga, penentuan harga dan pengebilan](../quote-bill-price.md)
 - [Proses jualan](../basic-sales-process.md)

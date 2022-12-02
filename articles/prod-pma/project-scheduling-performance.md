@@ -1,6 +1,6 @@
 ---
 title: Prestasi penjadualan sumber projek
-description: Artikel ini memberikan maklumat tentang cara meningkatkan prestasi penjadualan sumber untuk sebilangan besar projek.
+description: Artikel ini memberikan maklumat tentang cara untuk menambah baik prestasi penjadualan sumber untuk sebilangan besar projek.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

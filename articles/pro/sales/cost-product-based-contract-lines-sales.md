@@ -1,6 +1,6 @@
 ---
 title: Kos baris kontrak berasaskan produk - ringan
-description: Artikel ini memberikan maklumat tentang mencipta
+description: Artikel ini menyediakan maklumat tentang penciptaan
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Takrifkan kemahiran dan kecekapan
-description: Artikel ini memberikan maklumat tentang cara menyediakan model kecekapan untuk menilai sumber.
+description: Artikel ini memberikan maklumat tentang cara menyediakan model kecekapan untuk menarafkan sumber.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

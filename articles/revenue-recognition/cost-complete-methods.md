@@ -1,6 +1,6 @@
 ---
 title: Kos untuk melengkapkan kaedah
-description: Artikel ini memberikan maklumat mengenai kaedah yang digunakan untuk mengira kos untuk menyelesaikan projek.
+description: Artikel ini memberikan maklumat tentang kaedah yang digunakan untuk mengira kos untuk melengkapkan projek.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920301"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini memberikan maklumat mengenai kaedah yang digunakan untuk mengira kos untuk menyelesaikan projek. Terdapat berbilang kaedah yang boleh anda gunakan untuk mengira kos untuk melengkapkan projek. 
+Artikel ini memberikan maklumat tentang kaedah yang digunakan untuk mengira kos untuk melengkapkan projek. Terdapat berbilang kaedah yang boleh anda gunakan untuk mengira kos untuk melengkapkan projek. 
 
 Apabila anda mencipta anggaran untuk projek, pada halaman **Cipta anggaran**, dalam medan **Kos untuk melengkapkan kaedah**, anda boleh memilih salah satu daripada kos berikut untuk melengkapkan kaedah.
 

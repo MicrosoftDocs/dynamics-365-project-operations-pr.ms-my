@@ -1,6 +1,6 @@
 ---
 title: Transaksi perniagaan
-description: Artikel ini memberikan maklumat mengenai transaksi perniagaan.
+description: Artikel ini menyediakan maklumat tentang urus niaga perniagaan.
 author: rumant
 ms.custom:
 - dyn365-projectservice

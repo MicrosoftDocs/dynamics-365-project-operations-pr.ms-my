@@ -1,6 +1,6 @@
 ---
 title: Anggarkan baris kontrak berasaskan projek - ringan
-description: Artikel ini memberikan maklumat tentang menganggarkan garis kontrak berasaskan projek.
+description: Artikel ini menyediakan maklumat tentang penganggaran baris kontrak berdasarkan projek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

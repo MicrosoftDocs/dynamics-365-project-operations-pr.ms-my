@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan pengurusan perbelanjaan
-description: Artikel ini menerangkan pertimbangan dan keputusan yang mesti anda buat semasa proses perancangan sebelum anda mengkonfigurasi pengurusan Perbelanjaan dalam Microsoft Dynamics 365 Kewangan.
+description: Artikel ini menerangkan pertimbangan dan keputusan yang anda mesti lakukan semasa proses perancangan sebelum anda mengkonfigurasi Pengurusan perbelanjaan dalam Microsoft Dynamics 365 Finance.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8934009"
 ---
 # <a name="configure-expense-management"></a>Konfigurasikan pengurusan perbelanjaan
 
-Artikel ini menerangkan pertimbangan dan keputusan yang mesti anda buat semasa proses perancangan sebelum anda mengkonfigurasi pengurusan Perbelanjaan. Dalam Pengurusan perbelanjaan, anda boleh menyimpan maklumat tentang kaedah pembayaran, permintaan perjalanan, laporan perbelanjaan, dasar, dan sebagainya.
+Artikel ini menerangkan pertimbangan dan keputusan yang anda mesti lakukan semasa proses perancangan sebelum anda mengkonfigurasi Pengurusan perbelanjaan. Dalam Pengurusan perbelanjaan, anda boleh menyimpan maklumat tentang kaedah pembayaran, permintaan perjalanan, laporan perbelanjaan, dasar, dan sebagainya.
 
 Disebabkan oleh kebanyakan keputusan yang anda lakukan apabila anda merancang konfigurasi anda untuk Pengurusan perbelanjaan adalah berdasarkan hierarki dan struktur kewangan organisasi anda, anda mesti merujuk kepada dokumen perancangan untuk kawasan tersebut.
 

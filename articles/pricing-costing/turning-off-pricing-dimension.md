@@ -1,6 +1,6 @@
 ---
 title: Matikan dimensi penetapan harga
-description: Artikel ini memberikan maklumat tentang cara mematikan dimensi harga.
+description: Artikel ini menyediakan maklumat tentang cara mematikan dimensi penetapan harga.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

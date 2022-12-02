@@ -1,6 +1,6 @@
 ---
 title: Lihat laporan perbelanjaan daripada Lejar Umum atau Perolehan dan sumber
-description: Artikel ini menerangkan cara melihat laporan perbelanjaan asal transaksi muncul.
+description: Artikel ini menerangkan cara untuk melihat laporan perbelanjaan asal bagi transaksi yang muncul.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Sediakan senarai harga
-description: Artikel ini memberikan maklumat tentang cara menyediakan senarai kos dan harga jualan.
+description: Artikel ini memberikan maklumat tentang cara menyediakan senarai harga jualan dan kos.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

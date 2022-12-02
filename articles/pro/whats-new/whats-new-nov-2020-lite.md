@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu November 2020 - Pelaksanaan Project Operations Lite - urusan untuk penginvoisan proforma
-description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran November 2020 project Operations Lite penggunaan - berurusan dengan proforma invois.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran November 2020 bagi pelaksanaan Project Operations Lite - urusan untuk penginvoisan proforma.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

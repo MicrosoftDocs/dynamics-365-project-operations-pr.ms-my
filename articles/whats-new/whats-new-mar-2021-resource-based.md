@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Mac 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 Operasi Projek untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mac 2021 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9028275"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Project Operations pada persekitaran Dataverse versi 4.8.0.91 
 - Pengurusan projek dan perakaunan pada persekitaran Dynamics 365 Finance versi 10.0.16 
@@ -48,7 +48,7 @@ Untuk maklumat lanjut, lihat [Perkara baharu Januari 2021 - Project Operations u
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke LCS dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke LCS dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

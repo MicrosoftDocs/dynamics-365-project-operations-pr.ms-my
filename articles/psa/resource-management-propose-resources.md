@@ -1,6 +1,6 @@
 ---
 title: Mencadangkan sumber projek
-description: Artikel ini memberikan maklumat tentang mencadangkan sumber projek.
+description: Artikel ini memberikan maklumat tentang cadangan sumber projek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

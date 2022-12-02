@@ -1,6 +1,6 @@
 ---
 title: Baris sebut harga berdasarkan produk
-description: Artikel ini memberikan maklumat mengenai baris sebut harga berasaskan produk.
+description: Artikel ini memberikan maklumat tentang baris sebut harga berdasarkan produk.
 author: rumant
 ms.custom:
 - dyn365-projectservice

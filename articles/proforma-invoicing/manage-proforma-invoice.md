@@ -1,6 +1,6 @@
 ---
 title: Urus invois berdasarkan projek proforma
-description: Artikel ini memberikan maklumat tentang cara mengurus dan bekerja dengan invois berasaskan projek proforma.
+description: Artikel ini menyediakan maklumat tentang cara mengurus dan bekerja dengan invois berdasarkan projek proforma.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

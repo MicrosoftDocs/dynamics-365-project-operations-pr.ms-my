@@ -1,6 +1,6 @@
 ---
 title: Jadual Perbelanjaan pertanyaan Anugerah Persekutuan
-description: Artikel ini memberikan maklumat mengenai Jadual Perbelanjaan siasatan Anugerah Persekutuan.
+description: Artikel ini menyediakan maklumat tentang pertanyaan Jadual Perbelanjaan Anugerah Persekutuan.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

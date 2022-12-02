@@ -1,6 +1,6 @@
 ---
 title: Gunakan Papan Jadual untuk menempah sumber projek
-description: Artikel ini memberikan maklumat tentang cara menempah sumber.
+description: Artikel ini memberikan maklumat tentang cara untuk menempah sumber.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

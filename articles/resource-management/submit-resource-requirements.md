@@ -1,6 +1,6 @@
 ---
 title: Serahkan permintaan sumber
-description: Anda boleh menyerahkan keperluan sumber yang dijana sebagai permintaan sumber. Permintaan kemudian dihantar kepada Pengurus Sumber untuk dipenuhi.
+description: Anda boleh menyerahkan keperluan sumber yang dijana sebagai permintaan sumber. Permintaan kemudian dihantar kepada Pengurus Sumber untuk pemenuhan.
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.locfileid: "9137192"
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Anda boleh menyerahkan keperluan sumber yang dijana sebagai permintaan sumber. Permintaan kemudian dihantar kepada Pengurus Sumber untuk dipenuhi.
+Anda boleh menyerahkan keperluan sumber yang dijana sebagai permintaan sumber. Permintaan kemudian dihantar kepada Pengurus Sumber untuk pemenuhan.
 
 1. Dalam Dynamics 365 Project Operations, pada halaman **Projek**, pilih tab **Pasukan** untuk melihat senarai sumber boleh ditempah. 
 2. Pilih sumber generik yang mempunyai keperluan sumber daripada senarai, dan kemudian klik **Serahkan Permintaan**.
 
 Status permintaan ahli pasukan generik akan bertukar kepada **Diserahkan.**
 
-Penerima permintaan sumber mempunyai keupayaan untuk mengisi sebahagian permintaan menggunakan satu atau lebih sumber, atau memenuhi sepenuhnya permintaan sumber.
+Penerima permintaan sumber mempunyai keupayaan untuk sama ada memenuhi sebahagian daripada permintaan menggunakan satu atau lebih sumber, atau memenuhi permintaan sumber sepenuhnya.
 
-Selepas permintaan dipenuhi, satu atau lebih sumber yang dinamakan ditambah kepada projek sebagai ahli pasukan projek. Jika keperluan sumber dipenuhi oleh satu sumber, ahli pasukan generik yang dikaitkan dengan permintaan sumber dipadamkan. 
+Selepas permintaan dipenuhi, satu atau lebih banyak sumber yang dinamakan ditambah pada projek sebagai ahli pasukan projek. Jika keperluan sumber dipenuhi dengan satu sumber, ahli pasukan generik yang berkaitan dengan permintaan sumber dipadamkan. 
 
-Selepas penerima permintaan sumber telah mencadangkan sumber dan bersedia untuk Pengurus Projek menyemak sumber yang telah dicadangkan, mereka harus mengemas kini status permintaan sumber kepada **Perlu Semakan**.
+Selepas penerima permintaan sumber telah mencadangkan sumber dan tersedia untuk Pengurus Projek menyemak sumber yang telah dicadangkan, mereka patut mengemas kini status permintaan sumber kepada **Memerlukan Semakan**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

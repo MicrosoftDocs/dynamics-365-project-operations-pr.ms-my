@@ -1,6 +1,6 @@
 ---
 title: Pemenuhan sumber untuk sumber yang dirancang
-description: Artikel ini memberikan maklumat mengenai sumber yang dirancang untuk projek.
+description: Artikel ini memberikan maklumat tentang sumber yang dirancang untuk projek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

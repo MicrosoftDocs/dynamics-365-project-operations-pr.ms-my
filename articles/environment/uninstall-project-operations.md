@@ -1,6 +1,6 @@
 ---
 title: Nyahpasang Dynamics 365 Project Operations
-description: Artikel ini memberikan maklumat tentang cara menyahpasang Dynamics 365 Project Operations.
+description: Artikel ini menyediakan maklumat mengenai cara menyahpasang Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
@@ -35,8 +35,8 @@ Untuk menyahpasang Dynamics 365 Project Operations, anda mesti ditugaskan perana
     | 6 | ProjectServiceCore_Patch                           | Tiada nota tambahan.                                                                         |
     | 7 | ProjectServiceCore                                 | Tiada nota tambahan.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Jika tidak ditemui, langkau penyelesaian ini.                                                            |
-    | 9 | FieldServiceCommon                                 | Diperlukan untuk dwi-tulis dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Diperlukan untuk dwi-tulis dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Diperlukan untuk dwi tulis dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Diperlukan untuk dwi tulis dengan Dynamics 365 Finance atau Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Diperlukan untuk Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Diperlukan untuk Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Diperlukan untuk Dynamics 365 Field Service.                                                     |

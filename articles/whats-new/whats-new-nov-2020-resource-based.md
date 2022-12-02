@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu November 2020 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang tersedia dalam keluaran November 2020 Operasi Projek untuk senario berasaskan sumber / tidak berstok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran November 2020 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9029541"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Project Operations pada persekitaran CDS versi 4.4.0.70
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.14
@@ -42,7 +42,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 | Masa dan entri perbelanjaan pantas | 2059859          | Tetingkap timbul tidak dijangka terbuka apabila mencipta entri perbelanjaan.                                                                                                                         |
 | Lain-lain                        | 2044181          | (Penyahpasangan pesanan pembelian) Apabila cuba untuk menyahpasang msdyn_ProjectServiceCore_Patch dan penyelesaian teras msdyn Project Service, berlaku ralat "Rekod tidak tersedia".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
 
 | Bahagian ciri        | Nombor rujukan | Kemas kini kualiti                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 | Perakaunan projek  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Mendayakan ciri, Berbilang baris kontrak tidak mungkin tanpa integrasi CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

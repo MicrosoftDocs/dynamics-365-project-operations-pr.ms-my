@@ -1,6 +1,6 @@
 ---
 title: Sediakan medan tersuai sebagai dimensi penetapan harga
-description: Artikel ini memberikan maklumat mengenai penyediaan dimensi harga tersuai.
+description: Artikel ini memberikan maklumat tentang penyediaan dimensi penetapan harga tersuai.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8922608"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Sebelum anda memulakan, artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti](create-custom-fields-entities.md) tersuai dan [Tambah medan tersuai pada persediaan harga dan entiti transaksi](field-references.md). Sekiranya anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkannya dan kemudian kembali ke artikel ini. 
+Sebelum anda mulakan, artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti tersuai](create-custom-fields-entities.md) dan [Tambah medan tersuai pada persediaan harga dan entiti urus niaga](field-references.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkan mereka dan kemudian kembali ke artikel ini. 
 
-Artikel ini memberikan maklumat mengenai penyediaan dimensi harga tersuai. Dalam antara muka web Project Service, pada halaman **Parameter**, tab **Dimensi Penetapan Harga Berdasarkan Jumlah** menunjukkan rekod dalam entiti dimensi penetapan harga. Secara lalai, pemasangan Project Service mencipta 2 baris dalam grid pada tab ini:
+Artikel ini memberikan maklumat tentang penyediaan dimensi penetapan harga tersuai. Dalam antara muka web Project Service, pada halaman **Parameter**, tab **Dimensi Penetapan Harga Berdasarkan Jumlah** menunjukkan rekod dalam entiti dimensi penetapan harga. Secara lalai, pemasangan Project Service mencipta 2 baris dalam grid pada tab ini:
 
 - **msdyn_resourcecategory** (Peranan)
 - **msdyn_OrganizationalUnit** (Unit Organisasi)

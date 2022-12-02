@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan mod pengurusan sumber
-description: Artikel ini memberikan maklumat mengenai fungsi pengurusan sumber dalam Dynamics 365 Project Operations.
+description: Artikel ini menyediakan maklumat mengenai kefungsian pengurusan Sumber dalam Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Untuk organisasi yang memerlukan fleksibiliti dalam peruntukan sumber, mod hibri
 
 ![Mod Hibrid.](./media/resource-management-hybrid.png)
 
-Sebagai tambahan kepada proses mod Pusat yang disokong, lihat artikel berikut untuk menguruskan semua aliran tempahan lain yang disokong dalam mod Hibrid:
+Selain daripada proses mod Pusat yang disokong, lihat artikel berikut untuk mengurus semua aliran penempahan lain yang disokong dalam mod Hibrid:
 
 Tempah sumber secara langsung kepada projek:
 - [Tempah sumber boleh ditempah dinamakan untuk pasukan projek dan menugaskan tugasan](/dynamics365/project-service/assign-named-bookable-resource)

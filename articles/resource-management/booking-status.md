@@ -1,6 +1,6 @@
 ---
 title: Status tempahan
-description: Artikel ini menyediakan pautan kepada maklumat tentang cara menyediakan status tempahan untuk Operasi Projek.
+description: Artikel ini memberikan pautan kepada maklumat tentang cara menyediakan status tempahan untuk Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

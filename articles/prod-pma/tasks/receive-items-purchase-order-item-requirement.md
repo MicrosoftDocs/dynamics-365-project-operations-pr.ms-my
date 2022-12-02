@@ -1,6 +1,6 @@
 ---
 title: Terima item pada pesanan pembelian daripada keperluan item
-description: Artikel ini menerangkan cara menerima item pada pesanan pembelian daripada keperluan item.
+description: Artikel ini menerangkan cara untuk menerima item pada pesanan pembelian daripada keperluan item.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929547"
 
 [!include [banner](../../includes/banner.md)]
 
-Artikel ini menerangkan cara menerima item pada pesanan pembelian daripada keperluan item.
+Artikel ini menerangkan cara untuk menerima item pada pesanan pembelian daripada keperluan item.
 
 Dengan menggunakan keperluan item berbanding transaksi item, anda boleh merancang untuk penghantaran hanya sebelum item itu sebenarnya digunakan, cipta pesanan pembelian, termasuk item dalam rangka kerja perjanjian perdagangan dan termasuk keperluan item dalam perancangan pengeluaran. 
 

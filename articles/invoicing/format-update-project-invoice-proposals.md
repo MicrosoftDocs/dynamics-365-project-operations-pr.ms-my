@@ -1,6 +1,6 @@
 ---
 title: Urus cadangan invois projek
-description: Artikel ini memberikan butiran tentang memproses invois yang menghadap pelanggan dengan Operasi Projek untuk senario berasaskan sumber/ bukan stok.
+description: Artikel ini memberikan butiran tentang pemprosesan invois yang menghadap pelanggan dengan Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Cipta medan tersuai dan entiti
-description: Artikel ini menerangkan cara membuat set pilihan dan entiti dalam penyelesaian anda sendiri dalam Power Apps platform.
+description: Artikel ini menerangkan cara mencipta set pilihan dan entiti dalam penyelesaian anda sendiri dalam platform Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8926925"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Lengkapkan langkah-langkah berikut pada bila-bila masa anda mahu mencipta set pilihan atau entiti tersuai pada platform Power Apps.  
-Prosedur dalam artikel ini perlu dilengkapkan menggunakan antara muka web Project Service Automation (PSA).
+Prosedur dalam Artikel ini hendaklah diselesaikan menggunakan antara muka web Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Kami mengesyorkan agar anda membuat semua perubahan dimensi penentuan harga dalam penyelesaian berasingan. Amalan terbaik penting ini memberikan kefleksibelan pada masa akan datang untuk mengemas kini atau mengalih keluar perubahan seperti yang diperlukan, akan membantu menggunakan semula kerja anda, dan memudahkan untuk port perubahan ini kepada tika lain. Selepas anda membuat semua perubahan yang diperlukan, eksport penyelesaian ini sebagai **Penyelesaian terurus** dan import ini ke dalam tika lain untuk guna semula persediaan penentuan harga anda.

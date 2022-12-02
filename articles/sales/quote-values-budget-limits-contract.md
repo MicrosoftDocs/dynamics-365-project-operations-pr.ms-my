@@ -1,6 +1,6 @@
 ---
 title: Tetapan sebut harga projek
-description: Artikel ini memberikan maklumat mengenai maklumat dan tetapan yang digunakan dan memberi kesan kepada sebut harga projek.
+description: Artikel ini memberikan maklumat mengenai maklumat dan tetapan yang berkaitan dan memberikan kesan kepada sebut harga projek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

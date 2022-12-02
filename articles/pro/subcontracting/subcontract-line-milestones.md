@@ -1,6 +1,6 @@
 ---
 title: Pencapaian baris subkontrak
-description: Artikel ini menerangkan cara mencipta dan mengekalkan jadual invois berasaskan peristiwa penting untuk subkontrak dengan vendor.
+description: Artikel ini menerangkan cara mencipta dan menyelenggara jadual invois berasaskan pencapaian untuk subkontrak dengan vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

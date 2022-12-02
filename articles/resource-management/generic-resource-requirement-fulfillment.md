@@ -1,6 +1,6 @@
 ---
 title: Pemenuhan keperluan sumber generik
-description: Artikel ini memberikan maklumat tentang cara menempah sumber yang dinamakan untuk keperluan sumber generik.
+description: Artikel ini menyediakan maklumat tentang cara menempah sumber bernama untuk keperluan sumber generik.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Baris subkontrak untuk produk
-description: Artikel ini menerangkan cara merakam garis subkontrak untuk produk dan menggunakan pelbagai bidang untuk merekodkan pembelian produk daripada vendor.
+description: Artikel ini menerangkan cara merekodkan baris subkontrak untuk produk dan menggunakan pelbagai medan untuk merekodkan pembelian produk daripada vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

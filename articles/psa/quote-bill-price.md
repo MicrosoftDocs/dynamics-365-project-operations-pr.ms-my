@@ -1,6 +1,6 @@
 ---
 title: Halaman utama penentuan sebut harga, penentuan harga dan pengebilan
-description: Artikel ini memberikan maklumat mengenai sebut harga, harga, dan pengebilan.
+description: Artikel ini memberikan maklumat tentang penentuan sebut harga, penentuan harga dan pengebilan.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926741"
 
 Penentuan sebut harga, penentuan harga dan pengebilan ialah ciri yang digunakan oleh organisasi kecil dan besar. Dengan memahami cara ciri ini berfungsi dalam aplikasi, organisasi boleh menyesuaikan konfigurasi dengan lebih mudah.
 
-Artikel berikut memberikan lebih banyak maklumat mengenai fungsi sebut harga, harga dan pengebilan dalam PSA:
+Artikel berikut memberikan lebih banyak maklumat tentang penentuan sebut harga, penentuan harga dan fungsi pengebilan dalam PSA:
 
 - [Proses jualan](basic-sales-process.md)
 - [Baris sebut harga](basic-quote-lines.md)

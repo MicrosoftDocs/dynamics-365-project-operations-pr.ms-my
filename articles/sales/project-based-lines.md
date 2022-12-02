@@ -1,6 +1,6 @@
 ---
 title: Baris peluang berdasarkan projek
-description: Artikel ini memberikan maklumat tentang bekerja dengan garis peluang berasaskan projek.
+description: Artikel ini memberikan maklumat tentang bekerja dengan baris peluang berdasarkan projek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

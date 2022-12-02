@@ -1,6 +1,6 @@
 ---
 title: Urus penugasan
-description: Artikel ini menyediakan maklumat tentang cara wakil perbelanjaan boleh mencipta dan mengurus laporan perbelanjaan untuk pekerja lain.
+description: Artikel ini memberikan maklumat tentang cara wakil perbelanjaan boleh mencipta dan mengurus laporan perbelanjaan untuk pekerja lain.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

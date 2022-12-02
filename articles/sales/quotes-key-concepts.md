@@ -1,6 +1,6 @@
 ---
 title: Sebut harga - Konsep utama
-description: Artikel ini memberikan maklumat tentang sebut harga projek dan sebut harga jualan yang tersedia dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang sebut harga projek dan jualan yang tersedia dalam Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Dalam Dynamics 365 Project Operations, terdapat dua jenis sebut harga, projek da
 - **Medan dan konsep**: Sebut harga jualan tidak termasuk beberapa medan dan konsep yang disertakan pada sebut harga projek. Medan termasuk **Unit Kontrak**, **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.  
 - **Jenis**: Sebut harga jualan dan projek juga dikenal pasti oleh medan berasaskan set pilihan, **Jenis**. Untuk sebut harga jualan, medan ini mempunyai nilai **Berasaskan item**. Untuk sebut harga projek, ia mempunyai nilai **Berasaskan kerjas**.
 
-Artikel ini memberi tumpuan kepada butiran petikan projek.
+Artikel ini menumpu kepada butiran sebut harga projek.
 
 Sebut harga projek dalam Project Operations boleh mempunyai berbilang baris item atau baris sebut harga. Malah, sebut harga projek mempunyai dua grid untuk item baris. Salah satu grid untuk projek berasaskan baris yang membolehkan anggaran terperinci. Grid lain ialah untuk talian berasaskan produk yang menggunakan harga unit ringkas dan pendekatan berasaskan kuantiti.
 

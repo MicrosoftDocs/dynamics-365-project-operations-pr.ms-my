@@ -1,6 +1,6 @@
 ---
 title: Semak sumber yang dicadangkan
-description: Artikel ini memberikan maklumat tentang cara mencadangkan sumber projek.
+description: Artikel ini memberikan maklumat tentang cara untuk mencadangkan sumber projek.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -40,8 +40,8 @@ Untuk menyemak sumber yang dicadangkan, ikut langkah berikut:
     Kemas kini status berikut berlaku:
 
     - Pada halaman **Pembantu Jadual**, penunjuk status dikemas kini untuk menunjukkan bahawa tempahan telah dicadangkan, bukan ditempah secara terjamin.
-    - Atas permintaan sumber, pengulas permintaan harus mengubah status kepada **Perlu Semakan**.
-    - **Pada tab Pasukan** projek, nilai Status **Permintaan ahli** pasukan generik ditukar secara automatik kepada **Perlu Semakan**.
+    - Pada permintaan sumber, penyemak bagi permintaan tersebut sepatutnya mengubah status kepada **Memerlukan Semakan**.
+    - Pada tab **Pasukan** projek, nilai **Status Permintaan** ahli pasukan generik ditukar kepada **Memerlukan Semakan** secara automatik.
 
 Pengurus projek boleh menerima atau menolak cadangan itu.
 

@@ -30,7 +30,7 @@ ms.locfileid: "8919243"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Setelah anda mengkonfigurasi item dalam artikel sebelumnya, anda perlu menetapkan parameter projek tambahan untuk digunakan untuk projek anda. Ketika pertama kali anda memasang [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], anda mencipta tetapan parameter untuk mencipta dahulu semua rekod yang diperlukan untuk [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] berfungsi. Kini tiba masanya untuk kembali dan mengkonfigurasi medan tambahan untuk tetapan ini.  
+Sebaik sahaja anda telah mengkonfigurasi item dalam artikel yang sebelumnya, anda perlu menetapkan parameter projek tambahan untuk digunakan pada projek anda. Ketika pertama kali anda memasang [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], anda mencipta tetapan parameter untuk mencipta dahulu semua rekod yang diperlukan untuk [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] berfungsi. Kini tiba masanya untuk kembali dan mengkonfigurasi medan tambahan untuk tetapan ini.  
   
  Anda perlu mengkonfigurasikan tetapan berikut:  
   

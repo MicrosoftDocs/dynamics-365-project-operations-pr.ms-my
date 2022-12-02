@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 15, V3
-description: Artikel ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas Kini Automasi Project Service 15, V3.
+description: Artikel ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas kini Project Service Automation 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8915655"
 
 Kami gembira untuk mengumumkan kemas kini terbaharu untuk aplikasi Dynamics 365 Project Service Automation (PSA). Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online dan pergi ke halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk PSA V3, Kemas Kini Keluaran 15. Versi ini mempunyai nombor binaan V3.10.5.28 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2020.
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3, Keluaran Kemas Kini 15. Versi ini mempunyai nombor binaan V3.10.5.28 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2020.
 
 ## <a name="update-release-15"></a>Keluaran Kemas kini 15 
 

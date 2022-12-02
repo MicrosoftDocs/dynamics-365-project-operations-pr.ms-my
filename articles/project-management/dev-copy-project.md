@@ -1,6 +1,6 @@
 ---
 title: Bangunkan templat projek dengan Salin Projek
-description: Artikel ini memberikan maklumat tentang cara mencipta templat projek menggunakan tindakan tersuai Salin Projek.
+description: Artikel ini menyediakan maklumat tentang cara untuk mencipta templat projek menggunakan tindakan tersuai Salin Projek.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,21 +25,21 @@ Apabila anda memilih **Salin Projek**, status projek sasaran akan dikemas kini. 
 
 ### <a name="name"></a>Nama 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Parameter input
 
 Terdapat tiga parameter input:
 
-- **ReplaceNamedResources** atau **ClearTeamsAndAssignments** - Tetapkan hanya satu daripada pilihan. Jangan tetapkan kedua-duanya.
+- **ReplaceNamedResources** atau **ClearTeamsAndAssignments** – Tetapkan hanya salah satu daripada pilihan. Jangan tetapkan kedua-duanya.
 
-    - **\{"ReplaceNamedResources":true\}** – Tingkah laku lalai untuk Operasi Projek. Mana-mana sumber yang dinamakan digantikan dengan sumber generik.
-    - **\{"ClearTeamsAndAssignments":true\}** – Tingkah laku lalai untuk Projek untuk Web. Semua tugasan dan ahli pasukan dialih keluar.
+    - **\{"ReplaceNamedResources":true\}** – Tingkah laku lalai untuk Project Operations. Mana-mana sumber yang dinamakan digantikan dengan sumber generik.
+    - **\{"ClearTeamsAndAssignments":true\}** – Tingkah laku lalai untuk Project for the Web. Semua tugasan dan ahli pasukan dialih keluar.
 
-- **SumberProject** - Rujukan entiti projek sumber untuk disalin. Parameter ini tidak boleh batal.
-- **Sasaran** - Rujukan entiti projek sasaran untuk disalin. Parameter ini tidak boleh batal.
+- **SourceProject** – Rujukan entiti projek sumber untuk disalin. Parameter ini tidak boleh nol.
+- **Target** – Rujukan entiti bagi projek sasaran untuk disalin kepadanya. Parameter ini tidak boleh nol.
 
-Jadual berikut menyediakan ringkasan tiga parameter.
+Jadual berikut memberikan ringkasan tiga parameter tersebut.
 
 | Parameter_                | Taip             | Nilai                 |
 |--------------------------|------------------|-----------------------|
@@ -48,17 +48,17 @@ Jadual berikut menyediakan ringkasan tiga parameter.
 | SourceProject            | Rujukan Entiti | Projek sumber    |
 | Sasaran                   | Rujukan Entiti | Projek sasaran    |
 
-Untuk lebih banyak lalai pada tindakan, lihat [Menggunakan tindakan](/powerapps/developer/common-data-service/webapi/use-web-api-actions) API Web.
+Untuk mendapatkan lebih banyak lalai pada tindakan, lihat [Gunakan tindakan API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
-### <a name="validations"></a>Pengesahan
+### <a name="validations"></a>Pensahihan
 
-Pengesahan berikut dilakukan.
+Pensahihan berikut telah dilakukan.
 
-1. Null menyemak dan mendapatkan sumber dan projek sasaran untuk mengesahkan kewujudan kedua-dua projek dalam organisasi.
-2. Sistem mengesahkan bahawa projek sasaran sah untuk disalin dengan mengesahkan syarat-syarat berikut:
+1. Semakan nol mendapatkan projek sumber dan sasaran untuk mengesahkan kewujudan kedua-dua projek dalam organisasi.
+2. Sistem mengesahkan bahawa projek sasaran adalah sah untuk penyalinan dengan mengesahkan syarat berikut:
 
-    - Tiada aktiviti sebelumnya pada projek (termasuk pemilihan **tab Tugas**), dan projek baru dibuat.
-    - Tiada salinan sebelumnya, tiada import telah diminta pada projek ini, dan projek tidak mempunyai **status Gagal**.
+    - Tiada aktiviti sebelumnya pada projek (termasuk pemilihan tab **Tugas**) dan projek baru dicipta.
+    - Tiada salinan sebelumnya, tiada Import telah diminta pada projek ini dan projek tidak mempunyai status **Gagal**.
 
 3. Operasi tidak dipanggil dengan menggunakan HTTP.
 
@@ -68,7 +68,7 @@ Apabila tindakan dipanggil, **Salin Projek** akan melihat pandangan projek **Laj
 
 ### <a name="example"></a>Contoh
 
-Contoh berikut menunjukkan cara memanggil **tindakan tersuai CopyProjectV3** dengan **set parameter removeNamedResources**.
+Contoh berikut menunjukkan cara untuk memanggil tindakan tersuai **CopyProjectV3** dengan set parameter **removeNamedResources**.
 
 ```C#
 {

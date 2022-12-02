@@ -1,6 +1,6 @@
 ---
 title: Petakan projek dan tugas kepada baris sebut harga berasaskan projek
-description: Artikel ini memberikan maklumat tentang cara memetakan projek dan tugas ke baris tugas berasaskan projek.
+description: Artikel ini memberikan maklumat tentang cara memetakan projek dan tugas kepada baris tugas berasaskan projek.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

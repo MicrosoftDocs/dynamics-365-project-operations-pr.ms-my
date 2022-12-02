@@ -1,6 +1,6 @@
 ---
 title: Senario berbilang mata wang (versi 3.x)
-description: Artikel ini memberikan maklumat mengenai senario berbilang mata wang.
+description: Artikel ini menyediakan maklumat tentang senario berbilang mata wang.
 author: rumant
 ms.custom:
 - dyn365-projectservice

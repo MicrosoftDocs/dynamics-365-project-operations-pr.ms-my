@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Mei 2021 - Project Operations untuk senario berdasarkan sumber/bukan stok
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mei 2021 Operasi Projek untuk senario berasaskan sumber/bukan stok.
+description: Artikel ini menyediakan maklumat tentang kemas kini kualiti yang tersedia pada bulan Mei 2021 keluaran Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9030000"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Project Operations pada Dynamics 365 Dataverse persekitaran versi 4.10.0.186
 - Pengurusan projek dan perakaunan dalam persekitaran aplikasi kewangan dan operasi versi 10.0.18
@@ -41,7 +41,7 @@ Senarai berikut menunjukkan peta dwi tulis yang telah diubah suai atau ditambah 
 | Entiti eksport baris invois vendor projek integrasi Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Kemas kini kualiti |
 | Projeck V2 (msdyn\_projects) | 1.0.0.2 | Kemas kini kualiti |
 
-Sentiasa jalankan versi terkini peta dalam persekitaran anda dan dayakan semua peta jadual yang berkaitan semasa anda mengemas kini penyelesaian Operasi Dataverse Projek anda dan versi penyelesaian aplikasi kewangan dan operasi. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur  **Versi**  pada halaman  **Dwi tulis**. Untuk mengaktifkan versi baharu peta dengan, pilih **Versi peta jadual**, pilih versi terkini dan kemudian simpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Sentiasa menjalankan versi terkini peta dalam persekitaran anda dan mendayakan semua peta jadual berkaitan ketika anda mengemas kini versi penyelesaian Project Operations Dataverse dan versi penyelesaian aplikasi kewangan dan operasi anda. Ciri dan keupayaan tertentu mungkin tidak berfungsi dengan betul jika versi terkini peta tidak diaktifkan. Anda boleh melihat versi aktif peta dalam lajur  **Versi**  pada halaman  **Dwi tulis**. Untuk mengaktifkan versi baharu peta dengan, pilih **Versi peta jadual**, pilih versi terkini dan kemudian simpan versi yang dipilih. Jika anda mempunyai peta jadual luar kotak tersuai, mohon semula perubahan. Untuk maklumat lanjut, lihat [Pengurusan kitaran hayat Aplikasi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu lajur jadual yang hilang pada peta](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) bagi garis panduan penyelesaian masalah Dwi-Tulis.
 
@@ -67,7 +67,7 @@ Jika anda mengalami isu dengan memulakan peta, ikuti arahan dalam bahagian [Isu 
 | Entri masa | 2202476 | Halaman **Entri Masa** kini menggunakan kawalan grid bertindak balas dan membaiki isu seperti salah jajaran grid. |
 | Entri masa | 2223377 | Kemasukan masa tersembunyi dari bahagian **Berkaitan** pada halaman **Sumber Boleh Ditempah** untuk mengelakkan kekeliruan dengan kebolehgunaan. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
 
 | Bahagian ciri | Nombor rujukan | Kemas kini kualiti |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Pindahkan projek belanjawan pada akhir tahun fiskal
-description: Artikel ini memberikan maklumat tentang cara memindahkan baki jumlah belanjawan ke tahun-tahun akan datang dan membuat butiran daftar belanjawan.
+description: Artikel ini memberikan maklumat tentang cara memindahkan baki amaun belanjawan ke tahun hadapan dan mencipta butiran daftar belanjawan.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

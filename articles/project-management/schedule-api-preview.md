@@ -1,6 +1,6 @@
 ---
 title: Gunakan API jadual Projek untuk melaksanakan operasi dengan entiti Penjadualan
-description: Artikel ini menyediakan maklumat dan sampel untuk menggunakan API jadual Projek.
+description: Artikel ini memberikan maklumat dan sampel untuk penggunaan API jadual Projek.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
@@ -47,14 +47,14 @@ Berikut ialah senarai API jadual Projek semasa.
 
 | **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | API ini digunakan untuk mencipta projek. Baldi projek dan lalai dibuat serta-merta.                         |
+| **msdyn_CreateProjectV1**               | API ini digunakan untuk mencipta projek. Projek dan baldi projek lalai dicipta dengan serta-merta.                         |
 | **msdyn_CreateTeamMemberV1**            | API ini digunakan untuk mencipta ahli pasukan projek. Rekod ahli pasukan dicipta dengan serta-merta.                                  |
-| **msdyn_CreateOperationSetV1**          | API ini digunakan untuk menjadualkan beberapa permintaan yang mesti dilakukan dalam transaksi.                                        |
+| **msdyn_CreateOperationSetV1**          | API ini digunakan untuk menjadualkan beberapa permintaan yang mesti dilaksanakan dalam transaksi.                                        |
 | **msdyn_PssCreateV1**                   | API ini digunakan untuk mencipta entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi cipta. |
-| **msdyn_PssUpdateV1**                   | API ini digunakan untuk mengemas kini entiti. Entiti boleh menjadi mana-mana entiti penjadual Projek yang menyokong operasi kemas kini  |
-| **msdyn_PssDeleteV1**                   | API ini digunakan untuk memadam entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi padam. |
+| **msdyn_PssUpdateV1**                   | API ini digunakan untuk mengemas kini entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi kemas kini  |
+| **msdyn_PssDeleteV1**                   | API ini digunakan untuk memadamkan entiti. Entiti boleh menjadi sebarang entiti penjadualan Projek yang menyokong operasi padam. |
 | **msdyn_ExecuteOperationSetV1**         | API ini digunakan untuk melaksanakan semua operasi dalam set operasi yang diberikan.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | API ini digunakan untuk mengemas kini kontur kerja tugasan sumber yang dirancang.                                                        |
+| **msdyn_PssUpdateResourceAssignmentV1** | API ini digunakan untuk mengemas kini kontur kerja terancang Tugas Sumber.                                                        |
 
 
 
@@ -66,16 +66,16 @@ Kerana rekod dengan kedua-dua **CreateProjectV1** dan **CreateTeamMemberV1** dic
 
 | **Entiti penjadualan**   | **Cipta** | **Kemas kini** | **Delete** | **Pertimbangan penting**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tugas projek            | Ya        | Ya        | Ya        | Medan **Progress**, **EffortCompleted** dan **EffortRemaining** boleh diedit dalam Project for the Web, tetapi ia tidak boleh diedit dalam Operasi Projek.                                                                                                                                                                                             |
-| Pergantungan tugas projek | Ya        | No         | Ya        | Rekod pergantungan tugas projek tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baharu boleh dicipta.                                                                                                                                                                                                                                 |
-| Penugasan sumber     | Ya        | Ya\*      | Ya        | Operasi dengan medan berikut tidak disokong: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** dan **PlannedWork**. Rekod penugasan sumber tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan dan rekod baharu boleh dicipta. API berasingan telah disediakan untuk mengemas kini kontur Tugasan Sumber. |
-| Baldi projek          | Ya        | Ya        | Ya        | Baldi lalai dicipta menggunakan **API CreateProjectV1**. Sokongan untuk mencipta dan memadam baldi projek telah ditambah dalam Kemas Kini Keluaran 16.                                                                                                                                                                                                   |
+| Tugas projek            | Ya        | Ya        | Ya        | Medan **Kemajuan**, **EffortCompleted**, dan **EffortRemaining** boleh diedit dalam Project for the Web, tetapi tidak boleh diedit dalam Project Operations.                                                                                                                                                                                             |
+| Pergantungan tugas projek | Ya        | No         | Ya        | Rekod pergantungan tugas projek tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan, dan rekod baharu boleh dicipta.                                                                                                                                                                                                                                 |
+| Penugasan sumber     | Ya        | Ya\*      | Ya        | Operasi dengan medan berikut tidak disokong: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** dan **PlannedWork**. Rekod penugasan sumber tidak dikemas kini. Sebaliknya, rekod lama boleh dipadamkan, dan rekod baharu boleh dicipta. API berasingan telah disediakan untuk mengemas kini kontur Tugas Sumber. |
+| Baldi projek          | Ya        | Ya        | Ya        | Baldi lalai dicipta menggunakan API **CreateProjectV1**. Sokongan untuk mencipta dan memadamkan baldi projek telah ditambahkan dalam Keluaran Kemas Kini 16.                                                                                                                                                                                                   |
 | Ahli pasukan projek     | Ya        | Ya        | Ya        | Untuk mencipta operasi, gunakan API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
 | Project                 | Ya        | Ya        |            | Operasi dengan medan berikut tidak disokong: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** dan **Duration**.                                                                                       |
 | Senarai Semak Projek      | Ya        | Ya        | Ya        |                                                                                                                                                                                                                                                                                                                                                         |
-| Label Projek           | No         | Ya        | No         | Nama label boleh diubah. Ciri ini hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                      |
-| Tugas Projek untuk Dilabelkan   | Ya        | No         | Ya        | Ciri ini hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Lelaran Projek          | Ya        | Ya        | Ya        | Medan **Mula** mesti mempunyai tarikh yang lebih awal daripada **medan Selesai**. Sprint untuk projek yang sama tidak boleh bertindih antara satu sama lain. Ciri ini hanya tersedia untuk Project for the Web                                                                                                                                                                    |
+| Label Projek           | No         | Ya        | No         | Nama label boleh ditukar. Fungsi ini hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                      |
+| Tugas Projek untuk Dilabelkan   | Ya        | No         | Ya        | Fungsi ini hanya tersedia untuk Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Lelaran Projek          | Ya        | Ya        | Ya        | Medan **Mula** mesti mempunyai tarikh lebih awal daripada medan **Tamat**. Lelaran untuk projek yang sama tidak boleh bertindan antara satu sama lain. Fungsi ini hanya tersedia untuk Project for the Web                                                                                                                                                                    |
 
 
 
@@ -86,7 +86,7 @@ Sifat ID adalah pilihan. Jika ia disediakan, sistem cuba untuk menggunakannya da
 
 Berikut ialah senarai pengehadan dan isu yang diketahui:
 
--   API Jadual Projek hanya boleh digunakan oleh **Pengguna dengan Lesen** Microsoft Project. Ia tidak boleh digunakan oleh:
+-   API Jadual Projek hanya boleh digunakan oleh **Pengguna dengan Lesen Microsoft Project**. Ia tidak boleh digunakan oleh:
     -   Pengguna aplikasi
     -   Pengguna sistem
     -   Pengguna integrasi
@@ -94,37 +94,37 @@ Berikut ialah senarai pengehadan dan isu yang diketahui:
 -   Setiap **OperationSet** hanya boleh mempunyai maksimum 100 operasi.
 -   Setiap pengguna hanya boleh mempunyai maksimum 10 **OperationSet** terbuka.
 -   Project Operations menyokong jumlah maksimum 500 tugas pada sesuatu projek pada masa ini.
--   Setiap Operasi Kontur Tugasan Sumber Kemas Kini dikira sebagai satu operasi.
--   Setiap senarai kontur yang dikemas kini boleh mengandungi maksimum 100 keping masa.
+-   Setiap operasi Kemas Kini Kontur Tugas Sumber dikira sebagai satu operasi.
+-   Setiap senarai kontur yang dikemas kini boleh mengandungi maksimum 100 hirisan masa.
 -   Status kegagalan **OperationSet** dan log kegagalan tidak tersedia pada masa ini.
--   Terdapat maksimum 400 pecut bagi setiap projek.
+-   Terdapat maksimum 400 lelaran setiap projek.
 -   [Had dan sempadan pada projek dan tugas](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Label kini hanya tersedia untuk Project for web.
+-   Label hanya tersedia untuk Project for the Web pada masa ini.
 
 **Pengendalian ralat**
 
 -   Untuk menyemak ralat yang dijana daripada Set Operasi, pergi ke **Tetapan** \> **Jadualkan Integrasi** \> **Set Operasi**.
 -   Untuk menyemak ralat yang dijana daripada Perkhidmatan jadual Projek, pergi ke **Tetapan** \> **Integrasi Jadual** \> **Log Ralat PSS**.
 
-**Mengedit Kontur Tugasan Sumber**
+**Mengedit Kontur Tugas Sumber**
 
-Tidak seperti semua API penjadualan projek lain yang mengemas kini entiti, API kontur tugasan sumber bertanggungjawab sepenuhnya untuk kemas kini ke satu medan, msdyn_plannedwork, pada satu entiti, msydn_resourceassignment.
+Berbeza dengan API penjadualan projek lain yang mengemas kini entiti, API kontur tugas sumber hanya bertanggungjawab sepenuhnya untuk kemas kini pada medan tunggal, msdyn_plannedwork, pada satu entiti, msydn_resourceassignment.
 
-Mod jadual yang diberikan ialah:
+Sekiranya mod jadual ialah:
 
--   **unit tetap**
--   Kalendar projek ialah 9-5p ialah 9-5pst, Mon, Tue, Thurs, Jumaat (TIADA KERJA RABUS)
--   Dan kalendar sumber ialah 9-1p PST Isnin hingga Jumaat
+-   **unit ditetapkan**
+-   kalendar projek ialah 9-5p ialah 9-5pst, Isnin, Selasa, Khamis, Jumaat (RABU TIDAK BEKERJA)
+-   dan kalendar sumber ialah 9-1p PST Isnin hingga Jumaat
 
-Tugasan ini adalah selama seminggu, empat jam sehari. Ini kerana kalendar sumber adalah dari 9-1 PST, atau empat jam sehari.
+Tugas ini adalah selama seminggu, empat jam sehari. Hal ini demikian kerana kalendar sumber adalah dari 9-1 PST atau empat jam sehari.
 
-| &nbsp;     | Tugas | Tarikh Mula | Tarikh Tamat  | Kuantiti | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Tugas | Tarikh Mula | Tarikh Tamat  | Kuantiti | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 pekerja |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+| 9-1 pekerja |  T1  | 13/6/2022  | 17/6/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-Sebagai contoh, jika anda mahu pekerja hanya bekerja tiga jam setiap hari minggu ini dan membenarkan satu jam untuk tugas lain.
+Sebagai contoh, jika anda mahu pekerja hanya bekerja selama tiga jam setiap hari pada minggu ini dan membenarkan satu jam untuk tugas lain.
 
-#### <a name="updatedcontours-sample-payload"></a>Muatan sampel UpdatedContours:
+#### <a name="updatedcontours-sample-payload"></a>Muat beban sampel UpdatedContours:
 
 ```json
 [{
@@ -138,11 +138,11 @@ Sebagai contoh, jika anda mahu pekerja hanya bekerja tiga jam setiap hari minggu
 }]
 ```
 
-Ini ialah tugasan selepas API Jadual Kontur Kemas Kini dijalankan.
+Ini ialah tugas selepas Kemas Kini API Jadual Kontur berjalan.
 
-| &nbsp;     | Tugas | Tarikh Mula | Tarikh Tamat  | Kuantiti | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Tugas | Tarikh Mula | Tarikh Tamat  | Kuantiti | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
-| 9-1 pekerja | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+| 9-1 pekerja | T1   | 13/6/2022  | 17/6/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
 **Senario sampel**

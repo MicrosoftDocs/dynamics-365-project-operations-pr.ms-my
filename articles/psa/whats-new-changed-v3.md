@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau berubah dalam Project Service Automation versi 3
-description: Artikel ini memberikan maklumat tentang perkara baru dan diubah dalam Project Service Automation versi 3.
+description: Artikel ini menyediakan maklumat tentang perkara baharu dan diubah dalam Project Service Automation versi 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926603"
 
 
 
-Artikel ini menyediakan maklumat tentang perubahan pada antara muka pengguna (UI), kefungsian dan terminologi dalam Automasi Perkhidmatan Projek antara versi 2 atau versi 1 dan versi 3.
+Artikel ini menyediakan maklumat tentang perubahan kepada antara muka pengguna (UI), fungsi dan istilah dalam Project Service Automation antara versi 2 atau versi 1 dan versi 3.
 
 ## <a name="project-scheduling"></a>Penjadualan projek
 Jadual projek yang dikenali sebagai Struktur Pecahan Kerja (WBS) dalam versi terdahulu, telah dinamakan semula sebagai Jadual dan diakses dengan mengklik tab **Jadual**. 
@@ -150,7 +150,7 @@ Apabila anda mempunyai tugasan tugas untuk sumber tanpa tempahan (kekurangan tem
 Bahagian ini menyediakan maklumat tentang perubahan dalam masa, perbelanjaan dan kelulusan dalam versi 3 Project Service Automation. sebagai sebahagian penyelesaian Dynamics 365 Project Service Automation, ciri **Entri masa** telah disegar semula untuk memanfaatkan kerangka kerja Antara Muka Disatukan. Ini mendayakan penghantaran antara muka pengguna yang konsisten dan seragam mengikut reka bentuk responsif untuk pandangan optimum pada sebarang saiz skrin atau peranti. 
 
 ### <a name="landing-page"></a>Halaman pendaratan
-Pengalaman entri masa tersuai yang tidak boleh dilanjutkan telah ditamatkan dalam versi 3. Sebaliknya, kini terdapat pengalaman grid asli yang boleh dilanjutkan dan boleh diakses. Anda boleh mengakses fungsi entri masa dengan menggunakan peta tapak di sebelah kiri. Dengan perubahan ini, anda tidak lagi boleh memasukkan masa untuk satu minggu pada satu masa. Sebaliknya, anda perlu mencipta entri masa untuk setiap hari dalam grid. Selepas beberapa kali entri telah dicipta, pengguna boleh membuat entri masa secara pukal dengan **fungsi Salin** yang dijelaskan kemudian dalam artikel ini. 
+Pengalaman entri masa tersuai yang tidak boleh dilanjutkan telah ditamatkan dalam versi 3. Sebaliknya, kini terdapat pengalaman grid asli yang boleh dilanjutkan dan boleh diakses. Anda boleh mengakses fungsi entri masa dengan menggunakan peta tapak di sebelah kiri. Dengan perubahan ini, anda tidak lagi boleh memasukkan masa untuk satu minggu pada satu masa. Sebaliknya, anda perlu mencipta entri masa untuk setiap hari dalam grid. Selepas beberapa kali entri dicipta, pengguna boleh mencipta entri masa dengan fungsi **Salin** diterangkan kemudian dalam artikel ini. 
 
 ![Halaman pendaratan entri masa.](media/time-entry-landing-page-07.png)
  

@@ -1,6 +1,6 @@
 ---
 title: Invois proforma
-description: Artikel ini memberikan maklumat tentang invois proforma dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang invois proforma dalam Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Apabila anda mencipta draf invois projek, semua transaksi jualan belum dibilkan 
 Pilih **Sahkan** untuk mengesahkan invois. Tindakan Sahkan adalah tindakah satu arah. Apabila anda pilih **Sahkan**, sistem menjadikan invois baca sahaja dan mencipta aktual jualan dibilkan dari setiap butiran baris invois untuk setiap baris invois. Jika butiran baris invois merujuk kepada aktual jualan belum dibilkan, sistem juga membalikkan aktual jualan belum dibilkan. (Sebarang butiran baris invois yang dicipta dari entri masa atau perbelanjaan akan merujuk kepada aktual jualan belum dibilkan). Sistem integrasi lejar am boleh menggunakan balikan ini untuk membalikkan projek yang sedang berjalan untuk tujuan perakaunan.
 
 > [!NOTE]
-> Invois proforma yang disahkan dan rekod yang berkaitan seperti baris invois dan butiran baris invois tidak boleh diedit atau dipadamkan. 
+> Invois yang disahkan proforma dan rekod yang berkaitan seperti baris invois dan butiran baris invois tidak boleh diedit atau dipadamkan. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Betulkan invois yang disahkan
 

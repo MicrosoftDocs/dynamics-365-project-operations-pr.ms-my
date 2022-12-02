@@ -1,6 +1,6 @@
 ---
 title: Anggaran kewangan untuk masa sumber pada projek
-description: Artikel ini memberikan maklumat tentang bagaimana anggaran kewangan untuk masa dikira.
+description: Artikel ini menyediakan maklumat tentang cara anggaran kewangan untuk masa dikira.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

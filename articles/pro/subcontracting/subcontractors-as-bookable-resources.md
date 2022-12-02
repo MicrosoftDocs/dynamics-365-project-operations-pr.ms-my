@@ -1,6 +1,6 @@
 ---
 title: Sediakan subkontraktor sebagai sumber yang boleh ditempah
-description: Artikel ini menerangkan cara menyediakan dan mengekalkan sumber subkontraktor yang dicipta daripada pengguna dan kenalan dalam sistem, supaya ia boleh dikaitkan dengan subkontrak dalam Microsoft Dynamics 365 Project Operations.
+description: Artikel ini menerangkan cara untuk menyediakan dan menyenggara sumber subkontraktor yang dicipta daripada pengguna dan kenalan dalam sistem, supaya boleh dikaitkan dengan subkontrak dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

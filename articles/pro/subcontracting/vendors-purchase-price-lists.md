@@ -1,6 +1,6 @@
 ---
 title: Pengurusan vendor dan senarai harga pembelian dalam Project Operations
-description: Artikel ini menyediakan maklumat yang akan membantu anda mencipta dan mengekalkan data vendor dan senarai harga pembelian untuk subkontrak.
+description: Artikel ini memberikan maklumat yang akan membantu anda mencipta dan mengekalkan data vendor dan senarai harga pembelian untuk subkontrak.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

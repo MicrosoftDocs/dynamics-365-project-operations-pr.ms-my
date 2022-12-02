@@ -1,6 +1,6 @@
 ---
 title: Rekodkan resit menggunakan OCR
-description: Artikel ini memberikan maklumat mengenai pemprosesan pengecaman aksara optik (OCR) untuk resit.
+description: Artikel ini menyediakan maklumat tentang pemprosesan pengecaman aksara optik (OCR) untuk resit.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Untuk mencipta perbelanjaan atau memadankan perbelanjaan daripada resit, lengkap
 
 ## <a name="installation"></a>Pemasangan
 
-Untuk menggunakan keupayaan perbelanjaan lanjutan ini, pasang tambahan Perkhidmatan Pengurusan Perbelanjaan untuk Microsoft Dynamics 365 Kewangan, dan hidupkan ciri dalam contoh anda. Anda boleh mengakses tambahan daripada projek anda dalam Microsoft Dynamics Lifecycle Services (LCS).
+Untuk menggunakan keupayaan perbelanjaan lanjutan ini, pasang tambahan Perkhidmatan Pengurusan Perbelanjaan untuk Microsoft Dynamics 365 Finance dan hidupkan ciri dalam tika anda. Anda boleh mengakses tambahan daripada projek anda dalam Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Log masuk ke dalam LCS dan buka persekitaran yang dikehendaki.
 2. Pergi ke **Butiran penuh**.
@@ -85,7 +85,7 @@ Tidak, Microsoft telah membina model pembelajaran mesin umum untuk perkhidmatan 
 
 **Di manakah ciri ini tersedia dan diproses?**
 
-Ketersediaan ciri ini di kawasan yang berbeza disenaraikan dalam jadual berikut. Sekiranya wilayah anda tidak disokong pada masa ini, serahkan permintaan untuk mengutamakan ketersediaan perkhidmatan OCR di wilayah anda. 
+Ketersediaan ciri ini dalam rantau berbeza disenaraikan dalam jadual berikut. Jika rantau anda tidak disokong pada masa ini, serahkan permintaan untuk mengutamakan ketersediaan perkhidmatan OCR di rantau anda. 
 
 | Rantau | Disokong                         |
 |--------|-----------------------------------|
@@ -93,7 +93,7 @@ Ketersediaan ciri ini di kawasan yang berbeza disenaraikan dalam jadual berikut.
 | CAN    | Ya                               |
 | UK     | Ya                               |
 | AUS    | Ya                               |
-| EU     | Sebahagian. Resit bahasa Inggeris sahaja. |
+| EU     | Separa. Resit Bahasa Inggeris sahaja. |
 | Asia   | No                                |
 | Jepun  | No                                |
 | Afrika | No                                |

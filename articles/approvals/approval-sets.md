@@ -26,17 +26,17 @@ Kelulusan yang dibariskan untuk pemprosesan boleh dilihat dalam pandangan **Kelu
 
 Medan **Set Kelulusan Seumur Hidup** merekodkan bilangan baki percubaan untuk memproses set sebelum ia ditanda sebagai gagal.
 
-Set kelulusan diproses melalui pengaktifan berkala berdasarkan Aliran **Awan bernama** **Perkhidmatan Projek - Set Kelulusan Projek Jadual Berulang**. Ini terdapat dalam **Penyelesaian** bernama **Operasi Projek**. 
+Set kelulusan diproses melalui pengaktifan berkala berdasarkan **Aliran Awan** dinamakan **Project Service - Jadualkan Set Kelulusan Projek Secara Berulang**. Ini boleh didapati dalam **Penyelesaian** yang dinamakan **Project Operations**. 
 
-Pastikan aliran diaktifkan dengan melengkapkan langkah-langkah berikut.
+Pastikan bahawa aliran diaktifkan dengan melengkapkan langkah berikut.
 
-1. Sebagai pentadbir, log masuk ke [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. Di sudut kanan atas, beralih ke persekitaran yang anda gunakan untuk Dynamics 365 Project Operations.
+1. Sebagai pentadbir, daftar masuk ke [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Di sudut kanan atas, bertukar ke persekitaran yang anda gunakan untuk Dynamics 365 Project Operations.
 3. Pilih **Penyelesaian** untuk menyenaraikan penyelesaian yang dipasang dalam persekitaran.
-4. Dalam senarai penyelesaian, pilih **Operasi** Projek.
-5. Tukar penapis daripada **Semua** kepada **Aliran** Awan.
-6. Sahkan bahawa **aliran Perkhidmatan Projek – Set** Kelulusan Projek Jadual Berulang disetkan kepada **Hidupkan**. Jika tidak, pilih aliran, kemudian pilih **Hidupkan**.
-7. Sahkan bahawa pemprosesan berlaku setiap lima minit dengan **menyemak semula senarai Kerja** Sistem dalam **kawasan Seting** dalam persekitaran Operasi Dataverse Projek anda.
+4. Dalam senarai penyelesaian, pilih **Project Operations**.
+5. Tukar penapis daripada **Semua** kepada **Aliran Awan**.
+6. Sahkan bahawa aliran **Project Service – Jadualkan Set Kelulusan Projek Secara Berulang** ditetapkan kepada **Hidup**. Jika tidak, pilih aliran, kemudian **Hidupkan**.
+7. Sahkan bahawa pemprosesan berlaku setiap lima minit dengan menyemak senarai **Kerja Sistem** dalam kawasan **Tetapan** dalam persekitaran Project Operations Dataverse anda.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Kelulusan gagal dan set kelulusan
 Pandangan **Kelulusan Gagal** menyenaraikan semua kelulusan yang memerlukan campur tangan pengguna. Buka log set kelulusan berkaitan untuk mengenal pasti punca kegagalan.
@@ -45,7 +45,7 @@ Memilih **Cuba semula** mennambah kepada kiraan jangka hayat set kelulusan, meng
 ## <a name="configure-approval-sets"></a>Konfigurasikan set kelulusan
 
 ### <a name="enable-the-approval-sets-feature"></a>dayakan ciri set Kelulusan
-Sebelum anda mendayakan ciri set Kelulusan, sahkan bahawa tiada kelulusan diproses pada masa ini. Selepas ciri ini didayakan, ciri ini tidak boleh dinyahdayakan.
+Sebelum anda mendayakan ciri set Kelulusan, sahkan bahawa tiada kelulusan diproses pada masa ini. Selepas ciri ini didayakan, ia tidak boleh dinyahdayakan.
 
 - Pergi ke halaman **Parameter projek** dan pilih **Kawalan Ciri** > **Dayakan Kelulusan Moden**.
 

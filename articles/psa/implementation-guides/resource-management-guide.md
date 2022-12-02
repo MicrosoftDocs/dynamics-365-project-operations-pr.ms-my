@@ -1,6 +1,6 @@
 ---
 title: Panduan pengurusan sumber
-description: Artikel ini menyediakan pautan kepada maklumat tentang pengurusan sumber dalam Automasi Perkhidmatan Projek
+description: Artikel ini menyediakan pautan kepada maklumat mengenai pengurusan sumber dalam Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910791"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
+Pautan PDF yang terdapat dalam artikel ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada artikel berikut:
 
 - [Halaman utama Pengurusan sumber](../resource-management-home-page.md)
 - [Konsep utama](../reports-key-concepts.md)

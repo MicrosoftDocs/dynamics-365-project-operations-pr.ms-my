@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi kategori projek
-description: Artikel ini memberikan maklumat tentang menyediakan kategori projek.
+description: Artikel ini memberikan maklumat tentang penyediaan kategori projek.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
@@ -35,7 +35,7 @@ Kategori transaksi ditakrifkan dalam modul Operasi Projek.
 
 ## <a name="shared-categories"></a>Kategori dikongsi
 
-Dynamics 365 menggunakan konsep Kategori dikongsi untuk mengkategorikan perbelanjaan dalam aplikasi yang berbeza, seperti Dynamics 365 Finance, Dynamics 365 Supply Chain, dan Dynamics 365 Project Operations. Bagi setiap kategori transaksi yang dicipta, Operasi Projek secara automatik mencipta empat kategori dikongsi yang berkaitan: Jam, Perbelanjaan, Yuran dan Item. Anda boleh menyemak dan melaraskan kategori dikongsi dengan pergi ke kategori **Pengurusan projek dan tetapan perakaunan** \> **Tetapan** \> **Kategori** \> **Kategori Dikongsi**.
+Dynamics 365 menggunakan konsep kategori dikongsi untuk mengkategorikan perbelanjaan dalam aplikasi yang berbeza, seperti Dynamics 365 Finance, Dynamics 365 Supply Chain dan Dynamics 365 Project Operations. Bagi setiap kategori transaksi yang dicipta, Operasi Projek secara automatik mencipta empat kategori dikongsi yang berkaitan: Jam, Perbelanjaan, Yuran dan Item. Anda boleh menyemak dan melaraskan kategori dikongsi dengan pergi ke kategori **Pengurusan projek dan tetapan perakaunan** \> **Tetapan** \> **Kategori** \> **Kategori Dikongsi**.
 
 ## <a name="project-categories"></a>Kategori produk
 

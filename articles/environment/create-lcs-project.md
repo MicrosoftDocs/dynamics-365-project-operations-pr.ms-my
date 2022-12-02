@@ -1,6 +1,6 @@
 ---
 title: Mulakan projek LCS baharu
-description: Artikel ini menyediakan maklumat tentang mencipta projek baru dalam LCS untuk persekitaran Operasi Projek anda.
+description: Artikel ini memberikan maklumat tentang cara mencipta projek baharu dalam LCS untuk persekitaran Project Operations anda.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Gunakan Lifecycle Services (LCS) untuk menguruskan persekitaran Dynamics 365 Pro
   ![Pilih jenis projek LCS.](./media/create-lcs-1.png)
 
 5. Namakan projek. 
-6. Pilih **Kewangan dan operasi** sebagai nama produk, dan pilih industri dan metodologi. 
+6. Pilih **Kewangan dan operasi** sebagai nama produk dan pilih industri dan metodologi. 
 7. Pilih **Cipta**.
 
 ![Cipta projek LCS.](./media/create-lcs-2.png)

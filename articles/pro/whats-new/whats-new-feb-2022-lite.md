@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu dalam Februari 2022 - Pelaksanaan Project Operations lite
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Februari 2022 penggunaan Project Operations lite.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Februari 2022 bagi pelaksanaan Project Operations lite.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -18,22 +18,22 @@ ms.locfileid: "8922831"
 
 _Gunakan Pada: Pelaksanaan lite - urusan dengan invois proforma_
 
-Artikel ini terpakai kepada komponen dan versi Microsoft Dynamics 365 Project Operations berikut :
+Artikel ini digunakan pada komponen dan versi Microsoft Dynamics 365 Project Operations berikut:
 
-- Operasi Projek dalam versi persekitaran 4.28.0.120 Dataverse
+- Project Operations dalam persekitaran Dataverse versi 4.28.0.120
 
 ## <a name="features-included-in-this-release"></a>Ciri yang disertakan dalam keluaran ini
 
-Setakat keluaran ini, anda boleh menambah sehingga 300 ahli pasukan kepada satu projek. Sebelum ini, had bilangan ahli pasukan adalah 150. Untuk maklumat lanjut, lihat [Had projek](../../project-management/create-wbs.md#project-limitations).
+Mulai daripada keluaran ini, anda boleh menambah sehingga 300 ahli pasukan untuk satu projek. Sebelum ini, had bilangan ahli pasukan ialah 150. Untuk maklumat lanjut, lihat [Had projek](../../project-management/create-wbs.md#project-limitations).
 
 ## <a name="quality-updates"></a>Kemas kini kualiti
 
 | Bahagian ciri | Nombor rujukan | Kemas kini kualiti |
 | --- | --- | --- |
-| Pengebilan dan harga | 2497369 | Pembetulan bahan mesti mengikut nilai tarikh dalam **parameter Pembetulan**. |
-| Pengebilan dan harga | 2498697 | Meningkatkan konfigurasi keselamatan untuk ingatan **masukan masa**. |
-| Pengebilan dan harga | 2517455 | Tindakan **transaksi baris invois yang disegarkan** semula tidak boleh dibenarkan dicetuskan beberapa kali serentak untuk invois yang sama. |
-| Pengebilan dan harga | 2517465 | Tindakan **Nyahaktifkan butiran** baris invois disekat kerana ia tidak disokong. |
-| Pengebilan dan harga | 2556660 | Betulkan semakan kesan tarikh yang dilakukan pada senarai harga yang dilampirkan pada rekod parameter projek. |
-| Pengurusan peluang | 2369202 | Membetulkan logik perniagaan yang mengesahkan bahawa senarai harga yang mempunyai tarikh kesan bertindih boleh dilampirkan pada kontrak projek yang sama. |
-| Pengurusan peluang | 2385965 | Membetulkan tingkah laku pada **tab** Pelanggan **halaman kontrak** Projek apabila anda memilih **Simpan dan tutup**. |
+| Pengebilan dan harga | 2497369 | Pembetulan bahan mestilah mengikut nilai tarikh dalam parameter **Pembetulan**. |
+| Pengebilan dan harga | 2498697 | Peningkatan konfigurasi keselamatan untuk **Ingat semula entri masa**. |
+| Pengebilan dan harga | 2517455 | Tindakan **Menyegar semula urus niaga baris invois** tidak boleh dibenarkan untuk dicetuskan sebanyak berbilang kali secara serentak untuk invois yang sama. |
+| Pengebilan dan harga | 2517465 | Tindakan **Nyahaktifkan butiran baris invois** disekat kerana tidak disokong. |
+| Pengebilan dan harga | 2556660 | Memperbaiki semakan kuat kuasa tarikh yang dilakukan pada senarai harga yang dilampirkan pada rekod parameter projek. |
+| Pengurusan peluang | 2369202 | Membetulkan logik perniagaan yang mengesahkan bahawa senarai harga yang mempunyai tarikh kuat kuasa bertindan boleh dilampirkan dengan kontrak projek yang sama. |
+| Pengurusan peluang | 2385965 | Membetulkan tingkah laku pada tab **Pelanggan** halaman **Kontrak projek** apabila anda memilih **Simpan dan tutup**. |

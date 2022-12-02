@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan baris sebut harga berdasarkan projek
-description: Artikel ini memberikan maklumat tentang menggunakan baris sebut harga berasaskan projek untuk kerja projek.
+description: Artikel ini menyediakan maklumat tentang menggunakan baris sebut harga berasaskan projek untuk kerja projek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Penginvoisan dalam Project Service Automation
-description: Artikel ini memberikan maklumat mengenai invois.
+description: Artikel ini memberikan maklumat tentang penginvoisan.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -94,7 +94,7 @@ Selepas **ProcessRunner** selesai berjalan, ia memanggil **ProcessRunCaller**, m
 Kerja proses kelompok untuk mencipta invois adalah kerja berulang. Jika proses kelompok ini berjalan banyak kali, berbilang tika kerja dicipta dan menyebabkan ralat. Maka, anda perlu memulakan proses kelompol hanya satu kali, dan anda hendaklah mulakan semula jika ia berhenti berjalan.
 
 > [!NOTE]
-> Penginvoisan kelompok dalam Project Service Automation hanya berjalan untuk baris kontrak projek yang dikonfigurasikan oleh jadual invois. Baris kontrak dengan kaedah pengebilan harga tetap mesti mempunyai pencapaian yang dikonfigurasikan. Baris kontrak projek dengan kaedah pengebilan masa dan bahan akan memerlukan persediaan jadual invois berdasarkan tarikh. Maklumat mengenai penyediaan frekuensi invois dalam konteks projek yang berdasarkan baris sebut harga, disediakan dalam artikel, [Petikan dan baris sebut harga](basic-quote-lines.md#invoice-schedule). Perkara yang sama digunakan pada baris kontrak berasaskan projek.      
+> Penginvoisan kelompok dalam Project Service Automation hanya berjalan untuk baris kontrak projek yang dikonfigurasikan oleh jadual invois. Baris kontrak dengan kaedah pengebilan harga tetap mesti mempunyai pencapaian yang dikonfigurasikan. Baris kontrak projek dengan kaedah pengebilan masa dan bahan akan memerlukan persediaan jadual invois berdasarkan tarikh. Maklumat tentang menyediakan frekuensi invois dalam konteks projek yang berdasarkan baris sebut harga, disediakan dalam artikel, [Sebut harga dan baris sebut harga](basic-quote-lines.md#invoice-schedule). Perkara yang sama digunakan pada baris kontrak berasaskan projek.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Edit invois PSA draf
 

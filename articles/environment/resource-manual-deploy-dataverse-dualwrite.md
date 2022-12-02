@@ -1,6 +1,6 @@
 ---
 title: Atur letak aplikasi Project Operations Dataverse secara manual dengan sokongan dwi tulis
-description: Artikel ini menerangkan cara menggunakan aplikasi Project Operations Dataverse secara manual supaya ia menyokong dwi-tulis.
+description: Artikel ini menerangkan cara untuk mengatur letak aplikasi Project Operations Dataverse secara manual supaya menyokong dwi tulis.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -17,9 +17,9 @@ ms.locfileid: "9028575"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini menerangkan cara menggunakan Microsoft Dynamics 365 Project Operations Microsoft Dataverse secara manual supaya ia menyokong dwi-tulis. Project Operations mengesan konfigurasi persekitaran dan menambahkan sokongan tambahan untuk dwi tulis jika prasyarat dipenuhi.
+Artikel ini menerangkan cara untuk mengatur letak Microsoft Dynamics 365 Project Operations dalam Microsoft Dataverse secara manual supaya menyokong dwi tulis. Project Operations mengesan konfigurasi persekitaran dan menambahkan sokongan tambahan untuk dwi tulis jika prasyarat dipenuhi.
 
-Semasa penggunaan melalui Microsoft Dynamics Perkhidmatan Kitaran Hayat (LCS), jika anda telah mengikuti arahan dalam artikel ini, anda boleh melangkau penggunaan Microsoft Power Platform penyepaduan (sebelum ini dikenali sebagai Common Data Service persekitaran).
+Semasa pelaksanaan melalui Microsoft Dynamics Lifecycle Services (LCS), jika anda telah mengikuti arahan dalam artikel ini, anda boleh melangkau pelaksanaan integrasi Microsoft Power Platform (sebelum ini dikenali sebagai persekitaran Common Data Service).
 
 Proses pelaksanaan Project Operations dalam Dataverse supaya ia menyokong dwi tulis mempunyai empat langkah utama:
 
@@ -37,7 +37,7 @@ Untuk melengkapkan prosedur ini, anda mesti mendaftar masuk sebagai pentadbir.
 3. Pilih jenis persekitaran. Jika anda telah mendaftar untuk tawaran percubaan, pilih **Percubaan (berdasarkan langganan)**.
 4. Sahkan rantau pelaksanaan.
 5. Dayakan opsyen **Cipta pangkalan data untuk persekitaran ini**. 
-6. Sahkan bahasa, dan kemudian sahkan bahawa mata wang sepadan dengan mata wang untuk aplikasi kewangan dan operasi anda.
+6. Sahkan bahasa dan kemudian sahkan bahawa mata wang sepadan dengan mata wang untuk aplikasi kewangan dan operasi anda.
 7. Dayakan opsyen **Aplikasi Dynamics 365** dan sahkan bahawa medan **Laksanakan secara automatik aplikasi ini** ditetapkan kepada **Tiada**.
 8. Tambah kumpulan keselamatan, jika kumpulan keselamatan ini diperlukan.
 9. Pilih **Simpan** untuk mencipta persekitaran.
@@ -62,4 +62,4 @@ Anda boleh melengkapkan prosedur ini hanya jika anda melengkapkan prosedur sebel
 
 ## <a name="link-your-environments"></a><a name="link"></a>Pautkan persekitaran anda
 
-Dataverse Selepas persekitaran digunakan, anda boleh menyediakan pautan dalam apl kewangan dan operasi anda. Ikut langkah dalam [Gunakan wizard dwi tulis untuk memautkan persekitaran anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Selepas persekitaran Dataverse dilaksanakan, anda boleh menyediakan pautan dalam aplikasi kewangan dan operasi anda. Ikut langkah dalam [Gunakan wizard dwi tulis untuk memautkan persekitaran anda](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

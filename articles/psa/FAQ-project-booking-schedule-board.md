@@ -1,6 +1,6 @@
 ---
 title: Cipta tempahan projek daripada papan Jadual
-description: Artikel ini memberikan maklumat tentang cara membuat tempahan projek dari papan jadual.
+description: Artikel ini memberikan maklumat tentang cara mencipta tempahan projek daripada papan jadual.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

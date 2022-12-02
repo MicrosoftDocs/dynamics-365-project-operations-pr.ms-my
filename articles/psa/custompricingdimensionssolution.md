@@ -1,6 +1,6 @@
 ---
 title: Cipta penyelesaian tersuai untuk dimensi penentuan harga
-description: Artikel ini menerangkan cara membuat penyelesaian tersuai semasa membuat dimensi harga tersuai.
+description: Artikel ini menerangkan cara mencipta penyelesaian tersuai apabila mencipta dimensi penetapan harga tersuai.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

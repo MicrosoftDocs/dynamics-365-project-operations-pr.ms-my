@@ -1,6 +1,6 @@
 ---
 title: Tambah medan tersuai untuk persediaan harga dan entiti transaksi
-description: Artikel ini menyediakan maklumat tentang menambah medan tersuai pada persediaan harga dan entiti transaksi.
+description: Artikel ini memberikan maklumat tentang menambah medan tersuai untuk persediaan harga dan entiti transaksi.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920485"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti tersuai](create-custom-fields-entities.md). Sekiranya anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkannya dan kemudian kembali ke artikel ini. 
+Artikel ini menganggap bahawa anda telah melengkapkan prosedur dalam artikel, [Cipta medan dan entiti tersuai](create-custom-fields-entities.md). Jika anda belum menyelesaikan prosedur tersebut, kembali dan lengkapkan mereka dan kemudian kembali ke artikel ini. 
 
-Dalam artikel ini, prosedur akan menunjukkan kepada anda cara menambah rujukan medan tersuai yang diperlukan kepada entiti dan elemen antara muka pengguna (UI) seperti borang dan pandangan.
+Dalam artikel ini, prosedur akan menunjukkan anda cara menambah medan tersuai diperlukan yang merujuk kepada entiti dan kepada unsur antara muka pengguna (UI) seperti borang dan pandangan.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Tambah medan dimensi penentuan harga tersuai 
 Selepas medan dan entiti tersuai dicipta, langkah seterusnya ialah untuk membuat persediaan harga dan entiti yang maklum dengan entiti tersuai atau set pilihan dengan mencipta medan keutamaan. Bergantung pada sama ada senarai dimensi penentuan harga anda memasukkan dimensi set pilihan atau dimensi entiti atau kedua-duanya, ikuti hanya langkah dalam **Dimensi penentuan harga tersuai berasaskan set pilihan** atau **Dimensi penentuan harga tersuai berasaskan entiti**, atau kedua-duanya, masing-masing.

@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan baris kontrak berasaskan produk - lite
-description: Artikel ini memberikan maklumat mengenai garis kontrak berasaskan produk.
+description: Artikel ini memberikan maklumat tentang baris kontrak berdasarkan produk.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

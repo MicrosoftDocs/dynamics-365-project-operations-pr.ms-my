@@ -1,6 +1,6 @@
 ---
 title: Sahkan kontrak projek
-description: Artikel ini memberikan maklumat cara mengesahkan kontrak dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara mengesahkan kontrak dalam Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

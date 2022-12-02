@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan pembantu jadual
-description: Artikel ini memberikan maklumat tentang bekerja dengan pembantu Jadual untuk menempah sumber.
+description: Artikel ini memberikan maklumat mengenai kerja dengan Pembantu jadual untuk menempah sumber.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Tempah sumber nama daripada keperluan sumber.
-description: Artikel ini memberikan maklumat tentang tempahan sumber bernama untuk keperluan sumber generik.
+description: Artikel ini memberikan maklumat tentang menempah sumber bernama untuk keperluan sumber generik.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Baris peluang berasaskan produk - lite
-description: Artikel ini memberikan maklumat tentang item talian peluang berasaskan produk dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang item baris peluang berdasarkan produk dalam Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

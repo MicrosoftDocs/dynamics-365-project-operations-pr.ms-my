@@ -1,6 +1,6 @@
 ---
 title: Kontrak project - Konsep utama - ringan
-description: Artikel ini memberikan maklumat mengenai konsep utama kontrak projek.
+description: Artikel ini menyediakan maklumat tentang konsep utama kontrak projek.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 
 
-Artikel ini menyediakan konsep utama yang perlu diberi perhatian sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
+Artikel ini memberikan konsep utama untuk diketahui sebelum anda mula menggunakan kontrak Projek dalam Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unit Pengkontrakan
 

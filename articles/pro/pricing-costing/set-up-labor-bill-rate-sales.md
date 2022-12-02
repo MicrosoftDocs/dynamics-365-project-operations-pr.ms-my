@@ -1,6 +1,6 @@
 ---
 title: Sediakan kadar bil buruh - ringan
-description: Artikel ini memberikan maklumat tentang menetapkan kadar pengebilan buruh dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat mengenai cara untuk menetapkan kadar pengebilan buruh dalam Project Operations.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article

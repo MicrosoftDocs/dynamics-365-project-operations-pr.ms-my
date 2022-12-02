@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan kos standard untuk buruh dan perbelanjaan
-description: Artikel ini menerangkan cara menyediakan kos standard untuk buruh dan perbelanjaan untuk projek.
+description: Artikel ini menerangkan cara menetapkan kos standard untuk buruh dan perbelanjaan untuk projek.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919524"
 
 [!include [banner](../../includes/banner.md)]
 
-Artikel ini menerangkan cara menyediakan kos standard untuk buruh dan perbelanjaan untuk projek. Tugas ini menggunakan set data USSI.
+Artikel ini menerangkan cara menetapkan kos standard untuk buruh dan perbelanjaan untuk projek. Tugas ini menggunakan set data USSI.
 
 1. Dalam anak tetingkap navigasi, pergi ke **Modul > Pengurusan dan perakaunan projek > Penyediaan > Harga > Harga kos (jam)**.
 2. Pilih **Baharu**.

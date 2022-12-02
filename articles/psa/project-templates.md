@@ -1,6 +1,6 @@
 ---
 title: Templat projek
-description: Artikel ini memberikan maklumat tentang cara menggunakan templat projek untuk persediaan projek cepat.
+description: Artikel ini memberikan maklumat tentang cara untuk menggunakan templat projek untuk persediaan projek pantas.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

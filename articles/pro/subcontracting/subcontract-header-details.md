@@ -1,6 +1,6 @@
 ---
 title: Butiran pengepala untuk subkontrak
-description: Artikel ini menerangkan kefungsian yang disediakan pada pengepala subkontrak dalam Operasi Projek.
+description: Artikel ini menerangkan fungsian yang diberikan pada pengepala subkontrak dalam Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "9522572"
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Artikel ini menerangkan kefungsian yang disediakan pada pengepala subkontrak dalam Dynamics 365 Project Operations.
+Artikel ini menerangkan fungsian yang diberikan pada pengepala subkontrak dalam Dynamics 365 Project Operations.
 
 Disebabkan Pengurus Projek merancang dan melaksanakan projek, mereka boleh menggunakan subkontraktor dan membeli produk dan perkhidmatan daripada vendor. Apabila Pengurus Projek perlu membeli produk atau perkhidmatan, mereka boleh mencipta subkontrak dalam Project Operations.
 

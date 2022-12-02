@@ -1,6 +1,6 @@
 ---
 title: Paduan Asas untuk Sebut Harga, Penentuan Harga, dan Pengebilan
-description: Artikel ini menyediakan pautan ke maklumat mengenai sebut harga asas, harga dan pengebilan dalam Automasi Perkhidmatan Projek.
+description: Artikel ini memberikan pautan ke maklumat tentang sebut harga, penentuan harga dan pengebilan asas dalam Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910809"
 
 Keupayaan mencari sumber yang betul pada masa yang betul, menempah sumber tersebut pada projek, dan memastikan sumber yang digunakan membantu organisasi mencapai sasaran hasil dan matlamat kepuasan pelanggan. 
 
-Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
+Pautan PDF yang terdapat dalam artikel ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada artikel berikut:
 
 - [Sebut harga, penentuan harga dan pengebilan](../quote-bill-price.md)
 - [Proses jualan](../basic-sales-process.md)

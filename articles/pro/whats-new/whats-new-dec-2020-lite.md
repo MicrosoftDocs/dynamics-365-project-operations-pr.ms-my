@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Disember 2020 - Pelaksanaan Project Operations Lite - urusan untuk penginvoisan proforma
-description: Artikel ini memberikan maklumat mengenai kemas kini kualiti yang terdapat dalam keluaran Disember 2020 project Operations Lite penggunaan - berurusan dengan proforma invois.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Disember 2020 bagi pelaksanaan Project Operations Lite - urusan untuk penginvoisan proforma.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924073"
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
   - Project Operations pada persekitaran Dataverse versi 4.5.0.134 
 

@@ -1,6 +1,6 @@
 ---
 title: Kemajuan projek dan penggunaan kos
-description: Artikel ini memberikan maklumat mengenai menjejaki kemajuan projek dan penggunaan kos.
+description: Artikel ini memberikan maklumat tentang penjejakan kemajuan projek dan penggunaan kos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

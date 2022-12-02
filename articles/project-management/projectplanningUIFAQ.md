@@ -1,6 +1,6 @@
 ---
 title: Selesaikan masalah kerja dalam grid Tugas
-description: Artikel ini menyediakan maklumat penyelesaian masalah yang diperlukan semasa bekerja dalam grid Tugas.
+description: Artikel ini menyediakan maklumat penyelesaian masalah yang diperlukan apabila bekerja dalam grid Tugas.
 author: ruhercul
 ms.date: 07/22/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9188243"
 
 _**Digunakan Untuk:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Lite - urusan untuk penginvoisan proforma, Project for the web_
 
-Grid Tugas yang digunakan oleh Dynamics 365 Project Operations adalah iframe yang dihoskan dalam Microsoft Dataverse. Hasil daripada penggunaan ini, keperluan khusus mesti dipenuhi untuk memastikan pengesahan, dan kebenaran berfungsi dengan betul. Artikel ini menggariskan isu umum yang boleh memberi kesan kepada keupayaan untuk menjadikan grid atau menguruskan tugas dalam struktur pecahan kerja (WBS).
+Grid Tugas yang digunakan oleh Dynamics 365 Project Operations ialah iFrame berhos dalam Microsoft Dataverse. Hasil daripada penggunaan ini, keperluan khusus mesti dipenuhi untuk memastikan pengesahan dan kelulusan berfungsi dengan betul. Artikel ini menggariskan isu lazim yang boleh mempengaruhi keupayaan untuk memaparkan grid atau mengurus tugas dalam struktur pecahan kerja (WBS).
 
 Isu lazim termasuk:
 
@@ -32,7 +32,7 @@ Isu lazim termasuk:
 
 ### <a name="mitigation-1-enable-cookies"></a>Pengurangan 1: Dayakan kuki
 
-Project Operations memerlukan kuki pihak ketiga didayakan untuk memaparkan struktur pecahan kerja. Apabila kuki pihak ketiga tidak didayakan, selain daripada melihat tugas, anda akan melihat halaman kosong apabila anda memilih **tab Tugas** pada **halaman Projek**.
+Project Operations memerlukan kuki pihak ketiga didayakan untuk memaparkan struktur pecahan kerja. Apabila kuki pihak ketiga tidak didayakan, anda tidak melihat tugas, tetapi anda akan melihat halaman kosong apabila anda memilih tab **Tugas** pada halaman **Projek**.
 
 Untuk penyemak imbas Microsoft Edge atau Google Chrome, prosedur berikut menggariskan cara mengemas kini tetapan penyemak imbas anda untuk mendayakan kuki pihak ketiga.
 
@@ -71,15 +71,15 @@ Project Operations memerlukan parameter projek merujuk Titik Tamat PEX. Titik ta
 
 4. Alih keluar medan daripada halaman **Parameter Projek**.
 
-### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigasi 3: log masuk ke project.microsoft.com
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Pengurangan 3: Daftar masuk ke project.microsoft.com
 
-Dalam pelayar anda, buka tab baharu, pergi ke project.microsoft.com dan log masuk dengan peranan pengguna yang anda gunakan untuk mencapai Project Operations. Adalah penting bahawa hanya satu pengguna yang akan log masuk ke produk Microsoft dalam penyemak imbas. Mesej ralat "login.microsoftonline.com enggan menyambung" paling kerap berlaku apabila lebih daripada satu pengguna log masuk, seperti yang ditunjukkan dalam ilustrasi berikut.
+Dalam pelayar anda, buka tab baharu, pergi ke project.microsoft.com dan daftar masuk dengan peranan pengguna yang anda gunakan untuk mengakses Project Operations. Penting untuk hanya seorang pengguna berdaftar masuk ke dalam produk Microsoft dalam pelayar. Mesej ralat "login.microsoftonline.com enggan bersambung" kerap berlaku apabila lebih daripada seorang pengguna berdaftar masuk, seperti yang ditunjukkan dalam ilustrasi berikut.
 
-![Pilih halaman daftar masuk akaun yang menunjukkan bahawa dua pengguna log masuk.](media/MULTIPLE_USERS_LOGGED_IN.png)
+![Halaman daftar masuk pilih akaun yang menunjukkan bahawa dua pengguna telah mendaftar masuk.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Isu: projek tidak dimuatkan dan UI tersekat pada spinner
 
-Untuk tujuan pengesahan, pop timbul mesti didayakan untuk grid Tugas untuk dimuatkan. Jika pop timbul tidak didayakan, skrin akan tersekat pada pemuatan spinner. Grafik berikut menunjukkan URL dengan label pop timbul yang disekat dalam bar alamat, yang mengakibatkan pemintal tersekat ketika cuba memuatkan halaman. 
+Untuk tujuan pengesahan, pop timbul mesti didayakan untuk grid Tugas untuk dimuatkan. Jika pop timbul tidak didayakan, skrin akan tersekat pada pemuatan spinner. Grafik berikut menunjukkan URL dengan label pop timbul yang disekat dalam bar alamat, yang menyebabkan simbol kemajuan tersekat apabila cuba memuatkan halaman. 
 
    ![Spinner yang tersekat dan pop timbul disekat.](media/popupsblocked.png)
 
@@ -115,7 +115,7 @@ Selain itu, anda juga boleh melengkapkan langkah berikut:
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Isu 3: Pentadbiran kelayakan untuk Project for the Web
 
-Project Operations bergantung pada perkhidmatan penjadualan luaran. Perkhidmatan ini memerlukan pengguna mempunyai beberapa peranan yang diberikan yang membolehkan mereka membaca dan menulis kepada entiti yang berkaitan dengan WBS. Entiti ini termasuklah tugas projek, tugasan sumber dan kebersandaran tugas. Jika pengguna tidak dapat memaparkan WBS apabila mereka menavigasi ke **tab Tugas**, ia mungkin kerana **Project** for **Project Operations** belum didayakan. Pengguna mungkin menerima sama ada ralat peranan keselamatan atau ralat berkaitan dengan penafian akses.
+Project Operations bergantung pada perkhidmatan penjadualan luaran. Perkhidmatan memerlukan pengguna mempunyai beberapa peranan ditugaskan yang membolehkan mereka membaca dan menulis kepada entiti yang berkaitan dengan WBS. Entiti ini termasuklah tugas projek, tugasan sumber dan kebersandaran tugas. Jika pengguna tidak boleh memaparkan WBS apabila mereka menavigasi ke tab **Tugas**, berkemungkinan kerana **Projek** untuk **Project Operations** belum didayakan. Pengguna mungkin menerima sama ada ralat peranan keselamatan atau ralat berkaitan dengan penafian akses.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Pengurangan 1: Sahkan peranan keselamatan pengguna aplikasi dan pengguna akhir
 

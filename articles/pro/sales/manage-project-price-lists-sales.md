@@ -1,6 +1,6 @@
 ---
 title: Urus senarai harga projek pada sebut harga projek
-description: Artikel ini memberikan maklumat tentang bekerja dengan senarai harga projek pada sebut harga.
+description: Artikel ini menyediakan maklumat tentang bekerja dengan senarai harga projek pada sebut harga.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Daftar untuk percubaan Project Operations
-description: Artikel ini menyediakan maklumat tentang cara menggunakan versi percubaan Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang cara melaksanakan percubaan Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -19,9 +19,9 @@ _**Digunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan st
 
 
 
-Artikel ini menerangkan cara melanggan tawaran rakan kongsi pratonton dan menggunakan Dynamics 365 Project Operations persekitaran.
+Artikel ini menerangkan cara melanggan tawaran rakan kongsi pratonton dan melaksanakan persekitaran Dynamics 365 Project Operations.
 
-Dengan percubaan Project Operations baharu, anda boleh menggunakan mana-mana satu daripada tiga senario pelaksanaan yang disokong secara automatik dengan melengkapkan soal selidik yang mencadangkan pendekatan pelaksanaan yang terbaik. Artikel ini menyediakan maklumat tentang cara untuk:
+Dengan percubaan Project Operations baharu, anda boleh menggunakan mana-mana satu daripada tiga senario pelaksanaan yang disokong secara automatik dengan melengkapkan soal selidik yang mencadangkan pendekatan pelaksanaan yang terbaik. Artikel ini memberikan maklumat tentang cara:
 
 - Menebus tawaran percubaan anda.
 - Memulakan peruntukan.
@@ -86,18 +86,18 @@ Sebelum anda bermula, daftar masuk ke pelayar dengan akaun kerja pengguna dalam 
  
   Apabila peruntukan selesai, keadaan persekitaran anda menjadi **Bersedia**. Peruntukan persekitaran termasuk melaksanakan data demo.
  
-4.  Pilih URL masing-masing Microsoft Dataverse dan URL aplikasi kewangan dan operasi untuk mengesahkan penggunaan.
+4.  Pilih URL Microsoft Dataverse dan URL aplikasi aplikasi kewangan dan operasi masing-masing untuk mengesahkan pelaksanaan.
 
 ## <a name="configuring-dual-write"></a>Mengkonfigurasikan dwitulis
-- Untuk mengkonfigurasikan peranan keselamatan untuk dwi-tulis, lihat [Mengemas kini seting keselamatan pada Operasi Projek dalam Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Untuk mengakses konfigurasi dwi-tulis, Navigasi ke contoh kewangan dan operasi, kemudian navigasi ke **Pengurusan** > **Data Dwi Tulis**.
-- Untuk mengkonfigurasi peta dwi-tulis, lihat [Jalankan Peta](resource-provision-new-environment.md#run-project-operations-dual-write-maps) dwi-tulis Operasi Projek.
+- Untuk mengkonfigurasi peranan keselamatan untuk dwitulis, lihat [Kemas kini tetapan keselamatan tentang Project Operations dalam Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Untuk mengakses konfigurasi dwitulis, Navigasi ke tika kewangan dan operasi, kemudian Navigasi ke **Pengurusan Data** > **Dwitulis**.
+- Untuk mengkonfigurasi peta dwitulis, lihat [Jalankan peta dwitulis Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Peruntukkan lesen
 
 Anda akan memerlukan akses pentadbiran ke portal Microsoft 365 organisasi anda untuk melengkapkan langkah berikut.
 
-1. Pergi ke [Microsoft 365 pusat](https://portal.office.com/) pentadbiran untuk memperuntukkan lesen kepada pengguna anda.
+1. Pergi ke [pusat pentadbir Microsoft 365](https://portal.office.com/) untuk menugaskan lesen kepada pengguna anda.
 
    ![Laman utama pusat pentadbiran](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Sumber berikut menyediakan panduan berguna sambil anda memulakan perjalanan anda
 
 ## <a name="frequently-asked-questions"></a>Soalan lazim
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimana jika saya memerlukan ALM atau ELM untuk persekitaran aplikasi kewangan dan operasi saya?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Bagaimanakah jika saya memerlukan ALM atau ELM untuk persekitaran aplikasi kewangan dan operasi saya?
 
 - Untuk rakan kongsi yang memerlukan keupayaan pengurusan kitaran hayat persekitaran penuh, lihat [Permintaan Lesen Kotak Pasir Rakan Kongsi](https://experience.dynamics.com/requestlicense) untuk menyemak tawaran rakan kongsi baharu. 
 - Untuk rakan kongsi yang mencari maklumat lanjut tentang Hak Penggunaan Dalaman, lihat [Manfaat awan dan perisian Hak Penggunaan Dalaman (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Sumber berikut menyediakan panduan berguna sambil anda memulakan perjalanan anda
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Adakah saya boleh melanjutkan percubaan saya lebih daripada 30 hari?
 Untuk melanjutkan percubaan anda, lengkapkan langkah berikut.
 
-1. **Microsoft 365 Dalam Pusat** Pentadbiran, pergi ke **Pengebilan** > **Produk** Anda.
+1. Dalam **Pusat Pentadbir Microsoft 365**, pergi ke **Pengebilan** > **Produk anda**.
 2. Pilih **Dynamics 365 Project Operations (CE) - Percubaan Pratonton**.
 3. Di bawah **Tarikh Tamat Tempoh**, pilih **Lanjutkan Tarikh**.
 

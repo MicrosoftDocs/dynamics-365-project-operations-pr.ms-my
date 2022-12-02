@@ -1,6 +1,6 @@
 ---
 title: Keperluan tempah lembut
-description: Artikel ini memberikan maklumat tentang cara keperluan buku lembut.
+description: Artikel ini memberikan maklumat tentang cara untuk memenuhi keperluan tempahan lembut.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

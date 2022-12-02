@@ -1,6 +1,6 @@
 ---
 title: Cipta medan dan entiti tersuai sebagai dimensi penentuan harga
-description: Artikel ini memberikan maklumat tentang cara mencipta set atau entiti opsyen tersuai.
+description: Artikel ini menyediakan maklumat tentang cara mencipta set pilihan atau entiti tersuai.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Salin peluang berasaskan projek
-description: Artikel ini memberikan maklumat tentang menyalin peluang berasaskan projek dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang penyalinan peluang berasaskan projek dalam Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

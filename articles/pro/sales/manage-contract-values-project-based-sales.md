@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan baris kontrak berdasarkan projek
-description: Artikel ini memberikan maklumat tentang bekerja dengan garis kontrak berasaskan projek.
+description: Artikel ini menyediakan maklumat tentang menggunakan baris kontrak berdasarkan projek.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

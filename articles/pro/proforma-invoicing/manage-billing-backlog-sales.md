@@ -1,6 +1,6 @@
 ---
 title: Urus tunggakan pengebilan projek
-description: Artikel ini memberikan maklumat tentang pelbagai pandangan yang tersedia untuk digunakan semasa menguruskan tunggakan bil pada projek.
+description: Artikel ini menyediakan maklumat tentang pelbagai pandangan yang tersedia untuk digunakan apabila menguruskan tunggakan pengebilan pada projek.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

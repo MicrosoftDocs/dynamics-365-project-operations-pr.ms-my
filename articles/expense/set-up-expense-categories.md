@@ -1,6 +1,6 @@
 ---
 title: Sediakan kategori perbelanjaan
-description: Artikel ini menyediakan maklumat tentang cara menyediakan kategori perbelanjaan dan kategori dikongsi untuk laporan perbelanjaan.
+description: Artikel ini memberikan maklumat tentang cara menyediakan kategori perbelanjaan dan kategori dikongsi untuk laporan perbelanjaan.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

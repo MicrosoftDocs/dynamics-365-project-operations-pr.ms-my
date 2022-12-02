@@ -1,6 +1,6 @@
 ---
 title: Tempah ke projek
-description: Artikel ini memberikan maklumat tentang menempah sumber ke projek.
+description: Artikel ini memberikan maklumat tentang menempah sumber kepada projek.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article

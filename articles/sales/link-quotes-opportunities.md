@@ -1,6 +1,6 @@
 ---
 title: Cipta sebut harga projek daripada peluang
-description: Artikel ini memberikan maklumat tentang membuat sebut harga projek dari peluang.
+description: Artikel ini memberikan maklumat tentang penciptaan sebut harga projek daripada peluang.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Peruntukan persekitaran baharu
-description: Artikel ini memberikan maklumat tentang cara memperuntukkan persekitaran Operasi Projek yang baru.
+description: Artikel ini memberikan maklumat tentang cara menyediakan persekitaran Project Operations baharu.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 
 
-Artikel ini memberikan maklumat tentang cara memperuntukkan persekitaran baru Dynamics 365 Project Operations untuk senario berasaskan sumber / tidak berstok.
+Artikel ini menyediakan maklumat tentang cara untuk memperuntukkan persekitaran Dynamics 365 Project Operations baharu untuk senario berasaskan sumber/bukan stok.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Dayakan peruntukan automatik Operasi Projek dalam projek LCS
 
@@ -34,7 +34,7 @@ Gunakan langkah berikut untuk mendayakan aliran peruntukan automatik Operasi Pro
 
 ## <a name="provision-a-project-operations-environment"></a>Menyediakan persekitaran Operasi Projek
 
-1. Buka persekitaran [demo Dynamics 365 Finance](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) baru atau [penggunaan persekitaran](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) kotak pasir / pengeluaran. 
+1. Buka [persekitaran demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) Dynamics 365 Finance baharu atau pelaksanaan [persekitaran kotak pasir/ pengeluaran](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Ikuti wizard **Peruntukan persekitaran**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Anda mungkin perlu menggunakan kemas kini kualiti kepada persekitaran kewangan a
 
     ![Gunakan Penyelesaian.](./media/13ApplySolutions.png)
 
-5. Pilih kedua-dua penyelesaian, **Dynamics 365 Finance Peta** Entiti Dwi Tulis dan **Dynamics 365 Project Operations Peta** Entiti Tulis Dual, kemudian pilih **Gunakan**.
+5. Pilih kedua-dua penyelesaian, **Peta Entiti Dwi Tulis Dynamics 365 Finance** dan **Peta Entiti Dwi Tulis Dynamics 365 Project Operations**, kemudian pilih **Gunakan**.
 
     ![Sahkan Penyelesaian.](./media/14ConfirmSolutions.png)
 

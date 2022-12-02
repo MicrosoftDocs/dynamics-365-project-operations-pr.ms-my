@@ -1,6 +1,6 @@
 ---
 title: Kemas kini Project Operations dalam persekitaran Kewangan anda
-description: Artikel ini memberikan maklumat tentang cara mengemas kini Operasi Projek dalam persekitaran Dynamics 365 Finance anda.
+description: Artikel ini memberikan maklumat tentang cara mengemas kini Project Operations dalam persekitaran Dynamics 365 Finance anda.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -119,7 +119,7 @@ Kemas kini berikut pada kelayakan keselamatan untuk entiti diperlukan sebagai se
 4. Halaman **Versi peta jadual**, gunakan versi peta baharu pada setiap tiga entiti.
 5. Pada halaman **Dwitulis**, pilih jalankan untuk mulakan semula peta.
 6. Dari senarai peta, pilih peta **Ledger (msdyn_ledgers)** yang mempunyai semua prasyarat dan pilih kotak semak **Segerak awal**. 
-7. **Dalam medan Induk untuk penyegerakan** awal, pilih **Aplikasi** kewangan dan operasi dan kemudian pilih **Jalankan**.
+7. Dalam medan **Induk untuk penyegerakan awal**, pilih **Aplikasi kewangan dan operasi**, kemudian pilih **Jalankan**.
  
  ![Penyegerakan peta lejar.](media/DW6.png)
  

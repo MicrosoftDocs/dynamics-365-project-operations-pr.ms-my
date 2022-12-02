@@ -1,6 +1,6 @@
 ---
 title: Petakan projek dan tugas ke baris kontrak berasaskan projek - lite
-description: Artikel ini memberikan maklumat tentang menambah dan mengalih keluar projek dan tugas ke baris kontrak.
+description: Artikel ini menyediakan maklumat tentang cara menambah dan mengalih keluar projek dan tugas kepada baris kontrak.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

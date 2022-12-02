@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Februari 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Februari 2021 Operasi Projek untuk senario berasaskan sumber/tidak berstok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Februari 2021 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029633"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Project Operations pada persekitaran Dataverse 4.7.0.95
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.16 
@@ -44,14 +44,14 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 | **Entri masa** | 2129161 | Sekatan lebih ketat digunakan untuk memastikan pengguna tidak boleh mengubah dan mengemas kini entri masa yang telah diserahkan atau diluluskan. |
 | **Entri masa** | 2103572 | Kelulusan masa untuk masukan masa bukan projek tidak boleh mencari peranan pelulus projek. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance 
 
-Untuk maklumat lanjut tentang Pengurusan projek dan perakaunan dalam Dynamics 365 Finance, lihat [Apa yang baharu Januari 2021 - Operasi Projek untuk senario berasaskan sumber/bukan stok](whats-new-jan-2021-resource-based.md).
+Untuk maklumat lanjut mengenai pengurusan projek dan perakaunan dalam Dynamics 365 Finance, lihat [Perkara baharu Januari 2021 - Project Operations untuk senario berasaskan sumber/bukan stok](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Cara lain untuk mengetahui tentang kemas kini kawal selia adalah dengan log masuk ke Lifecycle Services (LCS) dan lihat kemas kini kawal selia yang dirancang menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

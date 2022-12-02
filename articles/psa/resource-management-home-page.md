@@ -1,6 +1,6 @@
 ---
 title: Halaman utama pengurusan sumber
-description: Artikel ini memberikan maklumat tentang cara menguruskan sumber.
+description: Artikel ini memberikan maklumat tentang cara untuk mengurus sumber.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -31,7 +31,7 @@ ms.locfileid: "8913263"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. Keupayaan untuk mencari dan menempah sumber yang betul apabila anda memerlukannya, dan untuk memastikan mereka digunakan, membantu organisasi memenuhi sasaran pendapatan dan matlamat kepuasan pelanggan. Artikel berikut tertumpu kepada keupayaan Dynamics 365 Project Service Automation pengurusan sumber :
+Sumber merupakan aset paling penting dalam organisasi berasaskan perkhidmatan. Keupayaan untuk mencari dan menempah sumber yang betul apabila anda memerlukannya, dan untuk memastikan mereka digunakan, membantu organisasi memenuhi sasaran pendapatan dan matlamat kepuasan pelanggan. Artikel berikut tertumpu kepada keupayaan pengurusan sumber Dynamics 365 Project Service Automation:
 
 - [Urus sumber](manage-resources.md)
 - [Konsep utama](reports-key-concepts.md)

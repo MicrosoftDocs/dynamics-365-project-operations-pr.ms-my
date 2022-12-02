@@ -1,6 +1,6 @@
 ---
 title: Salin projek
-description: Artikel ini memberikan maklumat mengenai menyalin projek dalam Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang penyalinan projek dalam Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
@@ -32,7 +32,7 @@ Dengan Dynamics 365 Project Operations, anda boleh dengan cepat membina projek b
 
 Apabila projek disalin, nilai dalam medan berikut disalin.
 
-| Medan | Operasi Projek Bahan Tidak Berstok | Operasi Projek Lite | Projek untuk Web |
+| Medan | Bahan Bukan Stok Project Operations | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Nama | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |
@@ -47,7 +47,7 @@ Apabila projek disalin, nilai dalam medan berikut disalin.
 | Komen | :heavy_check_mark: | :heavy_check_mark: | |
 | Anggaran | :heavy_check_mark: | :heavy_check_mark: | |
 | <p>Anggaran Tarikh Mula</p><p><strong>Nota:</strong> Medan ini menentukan tarikh projek dicipta daripada salinan. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Anggaran Tarikh Selesai</p><p><strong>Nota:</strong> Tarikh dalam medan ini dilaraskan berdasarkan tarikh mula projek baru yang dibuat daripada salinan.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Anggaran Tarikh Selesai</p><p><strong>Nota:</strong> Tarikh dalam medan ini dilaraskan berdasarkan tarikh mula projek baharu yang telah dibuat daripada salinan.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Usaha (Jam) | :heavy_check_mark: | :heavy_check_mark: | |
 | Kos Buruh yang Dianggarkan | :heavy_check_mark: | :heavy_check_mark: | |
 | Kos Perbelanjaan yang Dianggarkan | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Apabila projek disalin, nilai dalam medan berikut disalin.
 
 ## <a name="work-breakdown-structure"></a>Struktur pecahan kerja
 
-Apabila projek disalin, keseluruhan struktur pecahan kerja yang dimuatkan oleh sumber akan disalin. Sumber yang dinamakan digantikan dengan sumber yang generik. Jika sumber yang dinamakan tidak mempunyai waktu kerja yang sama dengan sumber generik, jadual akan dikira semula dan tempoh tugas mungkin berubah.
+Apabila projek disalin, keseluruhan struktur pecahan kerja yang dimuatkan oleh sumber akan disalin. Sumber yang dinamakan digantikan dengan sumber yang generik. Jika sumber yang dinamakan tidak mempunyai masa kerja yang sama dengan sumber generik, jadual akan dikira semula dan tempoh tugas mungkin berubah.
 
 ## <a name="project-team-members"></a>Ahli pasukan projek
 
 Apabila pasukan projek disalin daripada projek sumber, sumber generik akan disalin. Tugasan sumber generik juga dikekalkan sebagai mana ia di dalam projek sumber. Sumber yang dinamakan akan ditukar kepada ahli pasukan generik.
 
 > [!NOTE]
-> Ahli pasukan dan tugasan tidak disalin dalam Project untuk Web.
+> Ahli pasukan dan tugasan tidak disalin dalam Project for the Web.
 
 ## <a name="estimates"></a>Anggaran
 
@@ -75,6 +75,6 @@ Untuk maklumat tentang cara mengakses Salin Projek secara programatik, lihat [Me
 
 ## <a name="quotes-and-contracts"></a>Sebut harga dan kontrak
 
-Sebut harga dan kontrak tidak dikaitkan dengan projek destinasi.
+Sebut harga dan kontrak tidak dipautkan kepada projek destinasi.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

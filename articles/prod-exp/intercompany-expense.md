@@ -1,6 +1,6 @@
 ---
 title: Perbelanjaan antara syarikat
-description: Artikel ini memberikan maklumat tentang cara menggunakan perbelanjaan antara syarikat untuk menetapkan perbelanjaan pekerja kepada entiti undang-undang yang mana kerja itu dilakukan.
+description: Artikel ini menyediakan maklumat tentang cara menggunakan perbelanjaan antara syarikat untuk menguntukkan perbelanjaan pekerja kepada entiti sah yang kerja tersebut dilaksanakan untuknya.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

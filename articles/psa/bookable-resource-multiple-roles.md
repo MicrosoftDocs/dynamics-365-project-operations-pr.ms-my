@@ -1,6 +1,6 @@
 ---
 title: Anggarkan jualan dan kos projek apabila sumber boleh ditempah mengisi berbilang peranan untuk projek
-description: Artikel ini memberikan maklumat tentang bagaimana dimensi harga dapat digunakan untuk menyokong harga dan kos untuk sumber yang mengisi pelbagai peranan pada projek.
+description: Artikel ini memberikan maklumat tentang cara dimensi penentuan harga boleh digunakan untuk menyokong penentuan harga dan kos untuk sumber yang mengisi berbilang peranan pada projek.
 author: rumant
 ms.custom:
 - dyn365-projectservice

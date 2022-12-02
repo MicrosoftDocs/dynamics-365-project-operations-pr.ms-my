@@ -1,6 +1,6 @@
 ---
 title: Tempahan sumber dan kaitannya dengan tugasan tugas
-description: Artikel ini memberikan maklumat tentang cara menguruskan sumber yang dinamakan, tempahan sumber dan tugasan tugas dan cara ia berkaitan antara satu sama lain.
+description: Artikel ini memberikan maklumat tentang cara mengurus sumber bernama, tempahan sumber dan penugasan tugas dan kaitannya antara satu sama lain.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

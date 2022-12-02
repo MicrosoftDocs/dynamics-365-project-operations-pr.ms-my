@@ -1,6 +1,6 @@
 ---
 title: Salin sebut harga berasaskan projek
-description: Artikel ini memberikan maklumat tentang cara menyalin sebut harga berasaskan projek dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara menyalin sebut harga berasaskan projek dalam Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Jurnal integrasi dalam Project Operations
-description: Artikel ini menyediakan maklumat tentang bekerja dengan jurnal Integrasi dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang bekerja dengan jurnal Integrasi dalam Project Operations.
 author: sigitac
 ms.date: 09/22/2022
 ms.topic: article
@@ -17,16 +17,16 @@ ms.locfileid: "9541089"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Masa, perbelanjaan, yuran, dan penyertaan bahan membuat **Transaksi sebenar** yang mewakili pandangan operasi kerja yang diselesaikan terhadap projek. Dynamics 365 Project Operations menyediakan akauntan dengan alat untuk menyemak semula transaksi dan melaraskan atribut perakaunan seperti yang diperlukan. Selepas kajian semula dan pelarasan selesai, transaksi akan disiarkan ke sub lejar Projek dan Lejar Am. Akauntan boleh melakukan aktiviti ini menggunakan **jurnal Integrasi** Operasi Projek (**Dynamics 365 Finance** > **Projek pengurusan dan perakaunan** > **Jurnal** > **Operasi Projek Integrasi** jurnal.
+Entri masa, perbelanjaan, yuran dan bahan mencipta transaksi **Aktual** yang mewakili pandangan operasi bagi kerja yang diselesaikan terhadap projek. Dynamics 365 Project Operations menyediakan akauntan dengan alat untuk menyemak semula transaksi dan melaraskan atribut perakaunan seperti yang diperlukan. Selepas kajian semula dan pelarasan selesai, transaksi akan disiarkan ke sub lejar Projek dan Lejar Am. Akauntan boleh melaksanakan aktiviti ini menggunakan jurnal **Integrasi Project Operations** (**Dynamics 365 Finance** > **Pengurusan projek dan perakaunan** > **Jurnal** >  jurnal **Integrasi Project Operations**.
 
 ![Aliran jurnal integrasi.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Cipta rekod dalam jurnal integrasi Project Operations
 
-Rekod dalam jurnal integrasi Project Operations dicipta menggunakan proses berkala, **Import daripada jadual pemeringkatan**. Anda boleh menjalankan proses ini dengan pergi ke **Dynamics 365 Finance** > **Projek pengurusan dan perakaunan** > **Periodic** > **Project Operations Integration** > **Import dari jadual** pementasan. Anda boleh menjalankan proses secara interaktif atau mengkonfigurasi proses untuk berjalan dalam latar belakang apabila diperlukan.
+Rekod dalam jurnal integrasi Project Operations dicipta menggunakan proses berkala, **Import daripada jadual pemeringkatan**. Anda boleh menjalankan proses ini dengan pergi ke **Dynamics 365 Finance** > **Pengurusan projek dan perakaunan** > **Berkala** > **Integrasi Project Operations** > **Import daripada jadual pemeringkatan**. Anda boleh menjalankan proses secara interaktif atau mengkonfigurasi proses untuk berjalan dalam latar belakang apabila diperlukan.
 
 Apabila proses berkala berjalan, sebarang aktual yang belum ditambah ke jurnal integrasi Project Operations ditemui. Baris jurnal untuk setiap transaksi aktual dicipta.
-Sistem ini mengumpulkan garis jurnal ke dalam jurnal berasingan berdasarkan nilai yang dipilih dalam **unit Tempoh pada bidang jurnal** Integrasi Operasi Projek (**pengurusan Projek Kewangan** > **dan perakaunan** > **Persediaan** > **Projek pengurusan dan parameter** perakaunan, **Operasi Projek pada tab Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk medan ini termasuk:
+Sistem mengumpul baris jurnal ke dalam jurnal berasingan berasaskan pada nilai yang dipilih dalam medan **Unit berkala pada jurnal Integrasi Project Operations** (tab **Finance** > **Pengurusan projek dan perakaunan** > **Persediaan** > **Parameter pengurusan projek dan perakaunan**, **Project Operations pada Dynamics 365 Customer Engagement**). Nilai yang mungkin untuk medan ini termasuk:
 
   - **Hari**: Aktual dikumpul mengikut tarikh transaksi. Jurnal berasingan dicipta untuk setiap hari.
   - **Bulan**: Aktual dikumpulkan mengikut bulan kalendar. Jurnal berasingan dicipta untuk setiap bulan.
@@ -40,37 +40,37 @@ Baris jurnal dicipta berasaskan pada aktual projek. Senarai berikut termasuk beb
   - Medan **Baucar** menunjukkan nombor baucar untuk setiap transaksi aktual. Jujukan nombor baucar ditakrifkan pada tab **Jujukan nombor** pada halaman **Parameter pengurusan projek dan perakaunan**. Setiap baris ditugaskan nombor baharu. Selepas baucar disiarkan, anda boleh melihat cara kos dan transaksi jualan tidak dibilkan dikaitkan dengan memilih **Baucar berkaitan** pada halaman **Transaksi baucar**.
   - Medan **Kategori** mewakili transaksi projek dan lalai berasaskan pada kategori transaksi untuk projek aktual berkaitan.
     - Jika **Kategori transaksi** ditetapkan dalam aktual Projek dan **Kategori projek** berkaitan wujud dalam entiti sah yang diberikan, kategori dilalaikan ke kategori projek ini.
-    - Jika **kategori** Transaksi tidak disetkan dalam Projek sebenar, sistem menggunakan nilai dalam **medan lalai** kategori Projek pada **tab Operasi Projek pada Dynamics 365 Customer Engagement** pada **halaman Parameter** pengurusan dan perakaunan Projek.
+    - Jika **Kategori transaksi** tidak ditetapkan dalam aktual Projek, sistem menggunakan nilai dalam medan **Lalai kategori projek** pada tab **Project Operations pada Dynamics 365 Customer Engagement** pada halaman **Parameter pengurusan projek dan perakaunan**.
   - Medan **Sumber** mewakili sumber projek berkaitan dengan transaksi ini. Sumber digunakan sebagai rujukan dalam cadangan invois Projek kepada pelanggan.
-  - Medan **kadar** Pertukaran lalai daripada **kadar** pertukaran Mata wang yang ditetapkan dalam Dynamics 365 Finance. Jika tetapan kadar pertukaran hilang, proses berkala **Import daripada pemeringkatan** tidak akan menambah rekod ke jurnal dan mesej ralat akan ditambah ke log pelaksanaan kerja.
-  - Medan **Sifat baris** mewakili jenis pengebilan dalam aktual Projek. Pemetaan sifat baris dan jenis pengebilan ditakrifkan pada **Tab Operasi Projek pada Dynamics 365 Customer Engagement** pada **halaman Parameter** pengurusan dan perakaunan Projek.
+  - Medan **Kadar pertukaran** lalai daripada **Kadar pertukaran mata wang** yang ditetapkan dalam Dynamics 365 Finance. Jika tetapan kadar pertukaran hilang, proses berkala **Import daripada pemeringkatan** tidak akan menambah rekod ke jurnal dan mesej ralat akan ditambah ke log pelaksanaan kerja.
+  - Medan **Sifat baris** mewakili jenis pengebilan dalam aktual Projek. Sifat baris dan pemetaan jenis pengebilan ditakrifkan pada tab **Project Operations pada Dynamics 365 Customer Engagement** pada halaman **Parameter pengurusan projek dan perakaunan**.
 
 Hanya atribut perakaunan berikut boleh dikemaskini dalam baris jurnal integrasi Project Operations:
 
 - **Kumpulan cukai jualan pengebilan** dan **Kumpulan cukai jualan item pengebilan**
 - **Dimensi kewangan** (menggunakan tindakan **Agihkan amaun**)
 
-Baris jurnal integrasi boleh dipadamkan. Walau bagaimanapun, mana-mana baris yang tidak disiarkan akan dimasukkan ke dalam jurnal sekali lagi selepas anda menjalankan **semula Import daripada pementasan** proses berkala.
+Garisan jurnal integrasi boleh dipadamkan. Walau bagaimanapun, mana-mana baris yang tidak disiarkan akan dimasukkan ke dalam jurnal sekali lagi selepas anda menjalankan semula proses berkala **Import daripada pemeringkatan**.
 
-### <a name="post-the-project-operations-integration-journal"></a>Siarkan jurnal integrasi Operasi Projek
+### <a name="post-the-project-operations-integration-journal"></a>Siarkan jurnal integrasi Project Operations
 
 Apabila anda menyiarkan jurnal integrasi, sub lejar projek dan transaksi lejar am dicipta. Ini digunakan dalam penginvoisan pelanggan hiliran, pengiktirafan hasil dan pelaporan kewangan.
 
-Jurnal integrasi Operasi Projek yang dipilih boleh disiarkan dengan menggunakan **Post** pada halaman jurnal integrasi Operasi Projek. Semua jurnal boleh disiarkan secara automatik dengan menjalankan proses di **jurnal** > **integrasi Operasi** > **Projek Berkala** Pasca Operasi Projek.
+Jurnal integrasi Project Operations yang dipilih boleh disiarkan dengan menggunakan **Siar** pada halaman jurnal integrasi Project Operations. Semua Jurnal boleh disiarkan secara automatik dengan menjalankan proses di **Berkala** > **integrasi Project Operations** > **Siarkan jurnal integrasi Project Operations**.
 
-Posting boleh dilakukan secara interaktif atau dalam satu kumpulan. Perhatikan bahawa semua jurnal yang mempunyai lebih daripada 100 baris akan disiarkan secara automatik dalam satu kumpulan. Untuk prestasi yang lebih baik apabila jurnal yang mempunyai banyak baris disiarkan dalam kelompok, dayakan **jurnal penyepaduan Operasi Pasca Projek menggunakan pelbagai ciri tugas** kelompok dalam **ruang kerja pengurusan** Ciri. 
+Siaran boleh dilaksanakan secara interaktif atau dalam kelompok. Harap maklum bahawa semua jurnal yang mempunyai lebih daripada 100 baris akan disiarkan dalam kelompok secara automatik. Untuk prestasi yang lebih baik apabila jurnal yang mempunyai banyak baris disiarkan dalam kelompok, dayakan ciri **Siarkan jurnal integrasi Project Operations menggunakan berbilang tugas kelompok** dalam ruang kerja **Pengurusan ciri**. 
 
-#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Pindahkan semua baris yang mempunyai ralat penyiaran ke jurnal baru
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Pindahkan semua baris yang mempunyai ralat penyiaran kepada jurnal baharu
 
 > [!NOTE]
-> Untuk menggunakan keupayaan ini, dayakan **Pindahkan semua baris dengan ralat pengeposan ke ciri jurnal** penyepaduan Operasi Projek baharu dalam **ruang kerja pengurusan** Ciri.
+> Untuk menggunakan keupayaan ini, dayakan ciri **Pindahkan semua baris dengan ralat penyiaran kepada jurnal integrasi Project Operations baharu** ciri dalam ruang kerja **Pengurusan ciri**.
 
-Ciri ini membantu meningkatkan pengalaman dengan jurnal integrasi Operasi Projek. Apabila diaktifkan, isu masa dwi-tulis dan isu persediaan tidak lagi menghalang jurnal yang sah daripada disiarkan. Semasa menyiarkan jurnal integrasi Operasi Projek, sistem mengesahkan setiap baris dalam jurnal. Ia menyiarkan semua baris yang tidak mempunyai kesilapan dan mencipta jurnal baru untuk semua baris yang mempunyai kesilapan penyiaran.
+Ciri ini membantu dalam meningkatkan pengalaman dengan jurnal integrasi Project Operations. Apabila didayakan, isu pemasaan dwitulis dan isu persediaan tidak lagi menghalang jurnal yang sah daripada disiarkan. Semasa penyiaran ke jurnal integrasi Project Operations, sistem mengesahkan setiap baris dalam jurnal. Ia menyiarkan semua baris yang tidak mempunyai ralat dan mencipta jurnal baharu untuk semua baris yang mempunyai ralat penyiaran.
 
-Untuk mengkaji semula jurnal yang mempunyai baris ralat penyiaran, pergi ke **jurnal** integrasi Pengurusan projek dan perakaunan \>**Journals** \>**Project** Operations, dan menapis senarai jurnal dengan menggunakan **bidang jurnal** Asal. Ilustrasi berikut menunjukkan contoh di mana jurnal pada **halaman jurnal** integrasi Operasi Projek telah ditapis dengan cara ini.
+Untuk menyemak jurnal yang mempunyai baris ralat penyiaran, pergi ke **Pengurusan projek dan perakaunan** \> **Jurnal** \> **Jurnal integrasi Project Operations** dan tapis senarai jurnal dengan menggunakan medan **Jurnal asal**. Ilustrasi berikut menunjukkan contoh apabila jurnal pada halaman **Jurnal integrasi Project Operations** telah ditapis dengan cara ini.
 
-![Jurnal asal ditunjukkan di halaman jurnal integrasi Operasi Projek.](./media/transferLines-originalJournal.png)
+![Jurnal asal ditunjukkan pada halaman jurnal integrasi Project Operations.](./media/transferLines-originalJournal.png)
 
-Sekiranya kerja kelompok berkala dikonfigurasikan untuk menyiarkan jurnal integrasi, penyiaran akan ditembusi semula, dan jurnal akan disiarkan jika isu masa telah ditetapkan. Mana-mana jurnal yang tinggal perlu disiasat secara manual dengan menyemak balak dan mengambil tindakan yang diperlukan.
+Jika kerja kelompok secara berkala dikonfigurasikan untuk menyiarkan jurnal integrasi, penyiaran akan dicuba semula dan jurnal akan disiarkan jika isu pemasaan telah dibetulkan. Mana-mana jurnal yang tinggal hendaklah disiasat secara manual dengan menyemak log dan mengambil apa-apa tindakan yang diperlukan.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

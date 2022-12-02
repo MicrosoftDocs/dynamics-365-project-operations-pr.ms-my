@@ -1,6 +1,6 @@
 ---
 title: Nota pemaju untuk Kelulusan
-description: Artikel ini memberikan maklumat pembangun tambahan tentang bekerja dengan kelulusan.
+description: Artikel ini menyediakan maklumat pembangun tambahan tentang bekerja dengan pelulus.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

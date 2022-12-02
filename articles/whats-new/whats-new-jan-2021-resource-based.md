@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Januari 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Januari 2021 Operasi Projek untuk senario berasaskan sumber/tidak berstok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Januari 2021 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9029588"
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
   - Project Operations pada persekitaran Dataverse versi 4.6.0.154
   - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.16
@@ -43,7 +43,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 | **Perancangan dan Penjejakan Projek** | 2090202 | Peraturan perniagaan bertanda tidak lagi digunakan sebagai **Ditamatkan**. |
 | **Masa dan Perbelanjaan** | 2091249 | Ketatkan kawalan supaya pengguna tidak boleh mengubah tugas pada entri masa yang telah diserahkan atau diluluskan. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
 
 | **Bahagian Ciri** | **Nombor rujukan** | **Kemas kini kualiti** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 
 ## <a name="regulatory-updates"></a>Kemas kini kawal selia
 
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

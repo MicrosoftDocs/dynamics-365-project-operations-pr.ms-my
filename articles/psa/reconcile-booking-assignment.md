@@ -1,6 +1,6 @@
 ---
 title: Menyelaraskan tempahan dan tugasan
-description: Artikel ini memberikan maklumat mengenai sebenar.
+description: Artikel ini memberikan maklumat tentang aktual.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

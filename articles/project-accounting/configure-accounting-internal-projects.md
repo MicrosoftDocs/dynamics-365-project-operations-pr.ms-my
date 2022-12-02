@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi perakaunan untuk projek dalaman
-description: Artikel ini memberikan maklumat tentang cara menyediakan amalan perakaunan untuk projek dalaman dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara menyediakan amalan perakaunan bagi projek dalaman dalam Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

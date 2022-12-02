@@ -1,6 +1,6 @@
 ---
 title: Baris subkontrak untuk kategori perbelanjaan
-description: Artikel ini menerangkan cara merekodkan garis subkontrak untuk perbelanjaan dan menggunakan medan untuk merekodkan pembelian masa daripada vendor.
+description: Artikel ini menerangkan cara merekodkan baris subkontrak untuk perbelanjaan dan menggunakan medan untuk merekodkan pembelian masa daripada vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

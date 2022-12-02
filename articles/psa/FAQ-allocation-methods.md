@@ -1,6 +1,6 @@
 ---
 title: Kaedah peruntukan tempahan dalam Project Service Automation
-description: Artikel ini memberikan maklumat tentang pelbagai cara anda boleh menempah peruntukan.
+description: Artikel ini memberikan maklumat tentang cara berbeza anda boleh menempah peruntukan.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929179"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Apabila anda menambah ahli pasukan secara terus kepada projek pada tab **Pasukan**, atau tempah sumber pada projek atau keperluan dari papan Jadualm terdapat beberapa kaedah peruntukan tempahan berbeza yang anda boleh gunakan. Artikel ini menerangkan bagaimana setiap kaedah berfungsi, dan kaedah mana yang boleh menyebabkan sumber tempahan berlebihan.
+Apabila anda menambah ahli pasukan secara terus kepada projek pada tab **Pasukan**, atau tempah sumber pada projek atau keperluan dari papan Jadualm terdapat beberapa kaedah peruntukan tempahan berbeza yang anda boleh gunakan. Artikel ini menerangkan cara setiap kaedah berfungsi dan kaedah yang boleh membawa kepada sumber tempah berlebihan.
 
 ## <a name="full-capacity"></a>Kapasiti Penuh 
 Kaedah Kapasiti Penuh menempah kapasiti penuh sumber utnuk tarikh dari dan sehingga khusus. Contohnya, jika kalendar sumber ditetapkan untuk bekerja lapan jam setiap hari, lima hari dalam semingu, menetapkan tarikh mula dan tamat yang merangkumi lima hari bekerja akan menempah sumber selama 40 jam. Tempahan dilakukan tanpa mengambil kira baki kapasiti sumber. Jika sumber telah ditempah pada projek lain semasa tempah tersebut, 40 jam ditempah sebagai jam tambahan, yang berpotensi membawa kepada tempah berlebihan.

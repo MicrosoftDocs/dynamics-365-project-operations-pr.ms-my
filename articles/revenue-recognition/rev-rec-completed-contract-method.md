@@ -1,6 +1,6 @@
 ---
 title: Uruskan anggaran pendapatan
-description: Artikel ini memberikan maklumat tentang cara bekerja dengan anggaran pendapatan untuk projek.
+description: Artikel ini menyediakan maklumat tentang cara bekerja dengan anggaran hasil untuk projek.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8928489"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Anda boleh mencipta, mengira, menyiarkan, membalikkan atau menghapuskan anggaran hasil. Anda boleh melakukan perkara ini sama ada secara manual atau dengan menggunakan proses berkala. Artikel ini memberikan maklumat tentang cara bekerja dengan anggaran pendapatan untuk projek.
+Anda boleh mencipta, mengira, menyiarkan, membalikkan atau menghapuskan anggaran hasil. Anda boleh melakukan perkara ini sama ada secara manual atau dengan menggunakan proses berkala. Artikel ini menyediakan maklumat tentang cara bekerja dengan anggaran hasil untuk projek.
 
 ### <a name="manage-revenue-estimates-manually"></a>Uruskan anggaran hasil secara manual
 

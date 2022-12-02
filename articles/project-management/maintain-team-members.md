@@ -1,6 +1,6 @@
 ---
 title: Mengekalkan ahli pasukan
-description: Artikel ini memberikan maklumat tentang menempah sumber bernama kepada pasukan projek dan menugaskan mereka kepada tugas.
+description: Artikel ini memberikan maklumat tentang tempahan sumber dinamakan kepada pasukan projek dan menugaskannya kepada tugas.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Halaman utama dimensi penetapan harga dan kos
-description: Artikel ini memberikan gambaran keseluruhan dimensi harga.
+description: Artikel ini memberikan gambaran keseluruhan dimensi penetapan harga.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Kapal PSA dengan set dimensi penetapan harga lalai. Anda boleh melihat ini denga
 > [!IMPORTANT]
 > Jika anda telah menggunakan medan peranan siap guna dan unit organisasi sebagai dimensi penetapan harga sebelum versi 3 PSA, tidak akan ada perubahan yang dapat dilihat. Anda boleh terus menggunakan Project Service seperti biasa. 
 
-Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk maklumat lanjut, lihat artikel berikut, namun ambil perhatian bahawa anda mesti melengkapkan prosedur dalam tertib yang disenaraikan di bawah:
+Jika anda perlukan harga atau kos untuk sumber anda menggunakan atribut tambahan, anda boleh mencipta medan, entiti dan dimensi tersuai. Untuk mendapatkan maklumat lanjut, lihat artikel berikut, walau bagaimanapun, sila ambil perhatian bahawa anda mesti melengkapkan prosedur dalam aturan yang disenaraikan di bawah:
 
 - [Cipta medan dan entiti tersuai](create-custom-fields-entities.md)
 - [Tambah medan tersuai kepada persediaan harga dan entiti transaksi](field-references.md)

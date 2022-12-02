@@ -1,6 +1,6 @@
 ---
 title: Urus kontrak projek
-description: Artikel ini memberikan maklumat tentang melihat kontrak berasaskan projek.
+description: Artikel ini menyediakan maklumat tentang cara melihat kontrak berasaskan projek.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Senarai semua kontrak projek boleh dilihat pada halaman senarai **Kontrak**.
 Kontrak boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
 
 > [!NOTE]
-> Kontrak yang mempunyai projek, tugas, anggaran, jurnal dan/atau sebenar yang berkaitan dengannya tidak boleh dipadamkan. 
+> Kontrak yang mempunyai projek, tugas, anggaran, jurnal dan/atau aktual yang berkaitan dengan mereka tidak boleh dipadamkan. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Sediakan dan gunakan bayar apabila pembayaran vendor dibayar
-description: Artikel ini menerangkan cara membuat terma bayar apabila dibayar (PWP) supaya anda boleh mengeluarkan pembayaran vendor separa, berdasarkan pembayaran pelanggan.
+description: Artikel ini menjelaskan cara untuk mencipta terma bayar apabila dibayar (PWP) supaya anda boleh mengeluarkan pembayaran vendor separa, berdasarkan pembayaran pelanggan.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

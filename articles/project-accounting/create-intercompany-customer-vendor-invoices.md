@@ -1,6 +1,6 @@
 ---
 title: Cipta invois pelanggan dan vendor antara syarikat
-description: Artikel ini memberikan maklumat tentang cara membuat invois pelanggan dan vendor antara syarikat.
+description: Artikel ini menyediakan maklumat tentang cara mencipta invois pelanggan dan vendor antara syarikat.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Gunakan prosedur ini untuk mencipta invois pelanggan antara syarikat untuk trans
 
 Langkah berikut mesti dilakukan dalam entiti perundangan pemberian pinjaman. 
 
-1. Dalam Dynamics 365 Finance, pergi ke **Pengurusan Projek dan perakaunan** > **Invois** > **projek Invois pelanggan antara syarikat**. Pada halaman senarai **Invois pelanggan antara syarikat**, pada Anak Tetingkap Tindakan, pilih **Baharu.**
+1. Dalam Dynamics 365 Finance, pergi ke **Pengurusan projek dan perakaunan** > **Invois projek** > **Invois pelanggan antara syarikat**. Pada halaman senarai **Invois pelanggan antara syarikat**, pada Anak Tetingkap Tindakan, pilih **Baharu.**
 2. Pada halaman **Cipta invois antara syarikat**, dalam medan **Entiti sah**, pilih entiti sah pinjaman.
 3. Pilihan: Masukkan kontrak projek tertentu dan nombor projek.
 4. Kecilkan carian dengan memilih julat tarikh. Masukkan tarikh tertentu dalam medan **Tarikh mula** dan **Tarikh tamat**. Hanya transaksi antara syarikat yang disiarkan dalam julat tarikh ini dipaparkan dalam hasil carian.

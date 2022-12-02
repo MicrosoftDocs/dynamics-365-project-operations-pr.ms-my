@@ -1,6 +1,6 @@
 ---
 title: Ramalan dan belanjawan projek
-description: Microsoft Dynamics 365 Kewangan menyediakan ramalan projek dan belanjawan projek untuk mengurus dan mengawal projek anda.
+description: Microsoft Dynamics 365 Finance menyediakan ramalan projek dan belanjawan projek untuk mengurus dan mengawal projek anda.
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article

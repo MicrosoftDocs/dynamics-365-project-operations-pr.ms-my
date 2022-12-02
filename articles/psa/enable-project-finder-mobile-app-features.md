@@ -48,11 +48,11 @@ Sumber anda boleh menggunakan aplikasi Project Finder Mobile pada telefon mereka
   
 4. Tetapkan **Benarkan kemas kini oleh sumber** kepada **Ya**.  
   
-   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Ini adalah tetapan global. Pengurus projek boleh menetapkan sama ada projek individu akan dapat dilihat pada halaman **Pasukan Projek** projek.  
   
-   ![ProjectService&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Pemberitahuan e-mel  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] menghantar e-mel berkenaan permintaan sumber kepada penerima berikut pada masa yang berikut:  

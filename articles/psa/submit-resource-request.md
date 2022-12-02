@@ -1,6 +1,6 @@
 ---
 title: Menyerahkan permintaan sumber
-description: Artikel ini memberikan maklumat tentang menghantar permintaan untuk sumber projek.
+description: Artikel ini memberikan maklumat mengenai mengemukakan permintaan untuk sumber projek.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

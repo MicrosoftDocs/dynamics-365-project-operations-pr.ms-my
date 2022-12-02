@@ -1,6 +1,6 @@
 ---
 title: Urus sumber
-description: Artikel ini memberikan maklumat tentang cara anda boleh menguruskan sumber.
+description: Artikel ini memberikan maklumat tentang cara anda boleh mengurus sumber.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Invois projek pembetulan
-description: Artikel ini memberikan maklumat tentang cara mencipta dan mengesahkan invois pembetulan dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara mencipta dan mengesahkan invois pembetulan dalam Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

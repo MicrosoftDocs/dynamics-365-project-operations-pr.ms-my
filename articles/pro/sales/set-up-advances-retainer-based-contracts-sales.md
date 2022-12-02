@@ -1,6 +1,6 @@
 ---
 title: Kontrak berasaskan pendahuluan dan retainer
-description: Artikel ini memberikan maklumat tentang model kontrak berasaskan penahan dan kemajuan dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang model kontrak berasaskan retainer dan pendahuluan dalam Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

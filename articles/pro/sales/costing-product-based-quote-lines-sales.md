@@ -1,6 +1,6 @@
 ---
 title: Penetapan kos baris sebut harga berdasarkan produk
-description: Artikel ini memberikan maklumat tentang menggunakan harga kos pada baris sebut harga berasaskan produk.
+description: Artikel ini memberikan maklumat tentang penggunaan harga kos pada barus sebut harga berdasarkan produk.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

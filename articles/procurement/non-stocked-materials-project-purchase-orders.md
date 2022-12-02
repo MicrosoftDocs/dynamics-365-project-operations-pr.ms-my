@@ -14,16 +14,16 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8929823"
 ---
-# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Perintahkan kategori perolehan atau bahan bukan stok untuk projek menggunakan pesanan pembelian projek
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Pesan kategori perolehan atau bahan bukan stok untuk projek menggunakan pesanan pembelian projek
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Jabatan perolehan dalam organisasi anda mungkin menggunakan [pesanan pembelian](/dynamics365/supply-chain/procurement/purchase-order-overview) untuk menjejak pesanan barangan dan perkhidmatan. Pesanan pembelian untuk kategori perolehan atau bahan bukan stok boleh dikaitkan dengan projek. Penginvoisan pesanan pembelian ini merekodkan kos projek itu.
+Jabatan perolehan dalam organisasi anda mungkin menggunakan [pesanan pembelian](/dynamics365/supply-chain/procurement/purchase-order-overview) untuk menjejak pesanan barangan dan perkhidmatan. Pesanan pembelian untuk kategori perolehan atau bahan bukan stok boleh diatributkan kepada projek. Penginvoisan pesanan pembelian ini merekodkan kos projek itu.
 
 ## <a name="prerequisites"></a>Prasyarat
 Lengkapkan langkah berikut untuk mendayakan kefungsian pesanan pembelian projek.
 
-1. Dalam Dynamics 365 Finance, pergi ke **ruang kerja Pengurusan** Ciri.
+1. Dalam Dynamics 365 Finance, pergi ke ruang kerja **Pengurusan Ciri**.
 2. Dalam senarai ciri, cari dan pilih ciri, **Dayakan pesanan pembelian projek pada Project Operations untuk senario berasaskan sumber/bukan stok**.
 3. Pilih **Dayakan**.
 4. Konfigurasikan bahan bukan stok dan invois vendor yang belum selesai seperti yang diterangkan dalam [Konfigurasikan bahan bukan stok dan invois vendor yang belum selesai](configure-materials-nonstocked.md).
@@ -35,12 +35,12 @@ Lengkapkan langkah berikut untuk mendayakan kefungsian pesanan pembelian projek.
 2. Pada Anak Tetingkap Tindakan, pada tab **Uruskan**, dalam kumpulan **Baharu**, pilih **Tugas item** > **Pesanan pembelian**.
 3. Pada halaman **Cipta pesanan pembelian**, pilih vendor yang anda ingin membuat pesanan pembelian, masukkan maklumat lain sewajarnya dan kemudian pilih **OK**.
 4. Pada halaman **Pesanan pembelian**, dalam grid **Baris pesanan pembelian**, pilih **Tambah baris**.
-5. Masukkan nombor item atau kategori perolehan, kuantiti, unit, harga unit, dan maklumat lain yang sesuai.
+5. Masukkan nombor item atau kategori perolehan, kuantiti, unit, harga unit dan maklumat lain sewajarnya.
 
     > [!NOTE]
-    > Hanya kategori perolehan, item tidak berstok, dan perkhidmatan boleh digunakan dengan pesanan pembelian projek. Item stok tidak disokong.
+    > Hanya kategori perolehan, item dan perkhidmatan bukan stok boleh digunakan dengan pesanan pembelian projek. Item dalam stok tidak disokong.
 
-6. Teruskan menambah item atau kategori perolehan seperti yang diperlukan, dan sahkan pesanan pembelian.
+6. Teruskan menambah item atau kategori perolehan seperti yang diperlukan dan sahkan pesanan pembelian.
 
     Resit barangan dan perkhidmatan boleh direkodkan dengan mencipta dan menyiarkan resit produk.
 

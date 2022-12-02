@@ -1,6 +1,6 @@
 ---
 title: Penjejakan kos projek
-description: Artikel ini memberikan maklumat tentang cara Operasi Projek menjejaki kemajuan terhadap kos buruh dan membelanjakan projek.
+description: Artikel ini menyediakan maklumat tentang cara Project Operations menjejak kemajuan berbanding kos buruh dan perbelanjaan pada projek.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

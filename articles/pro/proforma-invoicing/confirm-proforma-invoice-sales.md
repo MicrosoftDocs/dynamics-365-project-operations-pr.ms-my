@@ -1,6 +1,6 @@
 ---
 title: Sahkan invois projek proforma
-description: Artikel ini memberikan maklumat tentang mengesahkan invois projek proforma dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang pengesahan invois projek proforma dalam Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

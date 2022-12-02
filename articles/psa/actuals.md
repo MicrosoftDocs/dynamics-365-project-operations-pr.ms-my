@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan aktual
-description: Artikel ini memberikan maklumat mengenai sebenar projek.
+description: Artikel ini memberikan maklumat tentang aktual projek.
 author: rumant
 ms.custom:
 - dyn365-projectservice

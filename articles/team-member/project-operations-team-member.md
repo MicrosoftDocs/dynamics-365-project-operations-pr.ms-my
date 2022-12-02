@@ -1,6 +1,6 @@
 ---
-title: Aplikasi Ahli Pasukan Operasi Projek
-description: Artikel ini memberikan maklumat tentang aplikasi Ahli Pasukan Operasi Projek dalam Microsoft Dynamics 365 Project Operations.
+title: Aplikasi Ahli Pasukan Project Operations
+description: Artikel ini memberikan maklumat tentang aplikasi Ahli Pasukan Project Operations dalam Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918231"
 ---
-# <a name="project-operations-team-member-app"></a>Aplikasi Ahli Pasukan Operasi Projek
+# <a name="project-operations-team-member-app"></a>Aplikasi Ahli Pasukan Project Operations
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Aplikasi Ahli Pasukan Operasi Projek (dahulunya dikenali sebagai Hab Sumber Projek) termasuk semua keupayaan yang ditawarkan oleh Microsoft Dynamics 365 Project Operations kepada lesen pengguna Ahli Pasukan.
+Aplikasi Ahli Pasukan Project Operations (sebelum ini dikenali sebagai Hab Sumber Projek) merangkumi semua keupayaan yang Microsoft Dynamics 365 Project Operations tawarkan kepada lesen pengguna.Ahli Pasukan.
 
-Berikut adalah beberapa keupayaan aplikasi Ahli Pasukan Operasi Projek:
+Berikut adlah beberapa keupayaan aplikasi Ahli Pasukan Project Operations:
 
 - Entri masa
-- Kemasukan perbelanjaan (Penggunaan Lite)
+- Entri perbelanjaan (pelaksanaan Lite)
 - Penggunaan bahan
 - Approvals
 - Kebolehpanjangan (sehingga 15 entiti)
 
-Untuk menggunakan aplikasi Ahli Pasukan Operasi Projek, anda mesti mempunyai sama ada lesen Operasi Projek penuh atau lesen pengguna Ahli Pasukan Dynamics. Untuk maklumat lanjut tentang lesen, lihat [Panduan Pelesenan Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikasi Ahli Pasukan Operasi Projek memerlukan penggunaan Operasi Projek.
+Untuk menggunakan aplikasi Ahli Pasukan Project Operations, anda mesti mempunyai sama ada lesen Project Operations penuh atau lesen pengguna Ahli Pasukan Dynamics. Untuk mengetahui maklumat lanjut tentang lesen, lihat [Panduan Pelesenan Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Aplikasi Ahli Pasukan Project Operations memerlukan pelaksanaan Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan parameter pengurusan Perbelanjaan
-description: Artikel ini menerangkan parameter yang mengawal tingkah laku umum dalam pengurusan Perbelanjaan.
+description: Artikel ini menghuraikan parameter yang mengawal tingkah laku umum dalam pengurusan Perbelanjaan.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8931479"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini menerangkan parameter kawalan tingkah laku umum dalam pengurusan Perbelanjaan.
+Artikel ini menghuraikan parameter yang mengawal tingkah laku umum dalam pengurusan Perbelanjaan.
 
 ## <a name="general"></a>Umum
 

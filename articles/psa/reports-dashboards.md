@@ -1,6 +1,6 @@
 ---
 title: Papan pemuka
-description: Artikel ini memberikan maklumat mengenai papan pemuka pelaporan yang disertakan dalam Dynamics 365 Project Service Automation.
+description: Artikel ini memberikan maklumat tentang papan pemuka pelaporan yang disertakan dalam Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

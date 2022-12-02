@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan pelaksanaan ringan
-description: Artikel ini memberikan maklumat mengenai penggunaan Lite Dynamics 365 Project Operations.
+description: Artikel ini menyediakan maklumat tentang pelaksanaan Ringan bagi Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

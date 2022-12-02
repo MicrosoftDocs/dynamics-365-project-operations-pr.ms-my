@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 13, V3
-description: Artikel ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas Kini Automasi Project Service 13, V3.
+description: Artikel ini memberikan maklumat tentang perkara baharu dalam Keluaran Kemas kini Project Service Automation 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8930697"
 
 Kami gembira untuk mengumumkan kemas kini terbaharu untuk aplikasi Dynamics 365 Project Service Automation (PSA). Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online dan pergi ke halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk Project Service Automation V3, Kemas Kini Keluaran 13. Versi ini mempunyai nombor binaan V3.10.3.18 dan tersedia pada jadual berikut:
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas Kini 13. Versi ini mempunyai nombor binaan V3.10.3.18 dan tersedia pada jadual berikut:
 
 - **Ketersediaan umum (kemas kini kendiri):** November 2019
 - **Kemas kini automatik:** Disember 2019

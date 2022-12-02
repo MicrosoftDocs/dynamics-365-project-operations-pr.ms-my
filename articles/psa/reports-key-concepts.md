@@ -1,6 +1,6 @@
 ---
 title: Konsep utama
-description: Artikel ini memberikan maklumat tentang konsep utama untuk pengurusan sumber dalam Automasi Perkhidmatan Projek.
+description: Artikel ini memberikan maklumat tentang konsep utama bagi pengurusan sumber dalam Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

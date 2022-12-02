@@ -1,6 +1,6 @@
 ---
 title: Gunakan kategori urus niaga sebagai dimensi penetapan harga
-description: Artikel ini memberikan maklumat tentang menggunakan kategori transaksi sebagai dimensi harga.
+description: Artikel ini memberikan maklumat mengenai cara menggunakan kategori urus niaga sebagai dimensi penetapan harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8915747"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikel ini menunjukkan cara menggunakan kategori transaksi sebagai dimensi harga. Sebelum anda mulakan, jika anda belum mencipta penyelesaian dimensi penetapan harga, anda akan perlu mencipta yang baharu. Jika anda sudah mempunyai penyelesaian dimensi penetapan harga, anda boleh membuat perubahan anda dalam penyelesaian tersebut. Jika anda belum mencipta penyelesaian dimensi harga baharu untuk organisasi anda, lengkapkan prosedur dalam [artikel Cipta medan dan entiti](create-custom-fields-entities.md) tersuai.
+Artikel ini menunjukkan cara menggunakan kategori urus niaga sebagai dimensi penetapan harga. Sebelum anda mulakan, jika anda belum mencipta penyelesaian dimensi penetapan harga, anda akan perlu mencipta yang baharu. Jika anda sudah mempunyai penyelesaian dimensi penetapan harga, anda boleh membuat perubahan anda dalam penyelesaian tersebut. Jika anda belum mencipta penyelesaian dimensi penetapan harga baharu untuk organisasi anda, lengkapkan prosedur dalam artikel [Cipta medan tersuai dan entiti](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Tambah kategori urus niaga ke borang dan pandangan
 Untuk membuat kategori transaksi boleh dilihat dalam UI dalam penyelesaian dimensi penetapan harga, anda akan perlu berjalan melalui semua borang dan pandangan entiti utama dan menambah medan ini kepada borang dan pandangan entiti tersebut.

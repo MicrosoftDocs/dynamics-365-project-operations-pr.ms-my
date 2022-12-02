@@ -1,6 +1,6 @@
 ---
 title: Cipta struktur pecahan kerja
-description: Artikel ini menerangkan cara mencipta struktur pecahan kerja (WBS) termasuk kawalan asas dalam antara muka penjadualan baharu.
+description: Artikel ini menerangkan cara untuk mencipta struktur pecahan kerja (WBS) termasuk kawalan asas dalam antara muka penjadualan baharu.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Lengkapkan langkah berikut untuk inden atau promosikan tugas.
 
 ### <a name="move-tasks-up-and-down"></a>Gerakkan tugas ke atas dan ke bawah
 
-Tugas boleh dipindahkan ke mana-mana peringkat dalam struktur pecahan kerja dalam salah satu daripada dua cara:
+Tugas boleh dipindahkan ke mana-mana tahap dalam struktur pecahan kerja dalam satu daripada dua cara:
 
 - Pilih satu lagi tugas dan seretnya ke lokasi yang dikehendaki.
 - Pilih satu atau lebih tugas, klik kanan dan pilih **Potong**, pilih sel destinasi dalam jadual, dan kemudian klik kanan dan pilih **Tampal**.
@@ -95,11 +95,11 @@ Sebagai pentadbir, anda boleh menentukan medan tersuai pada entiti tugas. Walau 
 
 ## <a name="staffing-attributes"></a>Atribut kakitangan
 
-Atribut kakitangan diakses melalui medan **Sumber** dalam Jadual. Anda boleh sama ada mencari sumber sedia ada atau pilih **Cipta**, dan dalam anak tetingkap **Cipta Cepat**, tambah ahli pasukan projek sebagai sumber baharu.  Apabila anda mencari sumber menggunakan pemilih sumber dalam grid tugas, pandangan papan atau gantt, carian mengembalikan sama ada ahli pasukan projek sedia ada atau sumber boleh ditempah aktif.
+Atribut kakitangan diakses melalui medan **Sumber** dalam Jadual. Anda boleh sama ada mencari sumber sedia ada atau pilih **Cipta**, dan dalam anak tetingkap **Cipta Cepat**, tambah ahli pasukan projek sebagai sumber baharu.  Apabila anda mencari sumber menggunakan pemilih sumber dalam grid tugas, pandangan papan atau gantt, carian mengembalikan sama ada ahli pasukan projek sedia ada atau sumber boleh ditempah yang aktif.
 
 Medan **Peranan**, **Unit Sumber** dan **Nama Kedudukan** digunakan untuk menerangkan keperluan kakitangan untuk tugas tersebut. Atribut kakitangan ini, berserta dengan jadual tugas digunakan untuk mencari sumber tersedia untuk melakukan tugas ini.
 
-   - **Peranan**: Tentukan jenis sumber yang diperlukan untuk melakukan tugas.,
+   - **Peranan**: Tentukan jenis sumber yang diperlukan untuk melakukan tugas.
    - **Unit sumber**: Tentukan unit yang sumber untuk tugas perlu ditugaskan. Atribut ini memberi kesan kepada anggaran kos dan jualan bagi tugas jika kos dan kadar bil untuk sumber ditetapkan berdasarkan unit sumber.
    - **Nama kedudukan**: Masukkan nama mesra untuk sumber generik yang berfungsi sebagai ruang letak untuk sumber yang akhirnya akan melakukan kerja.
 
@@ -114,15 +114,15 @@ Anda boleh menggunakan jadual dalam Project Operations untuk mencipta perhubunga
 Mod tugas tidak memberi kesan ke atas kemas kini yang dibuat pada tarikh mula dan tamat tugas pendahulu/bersandar.
 
 ## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Memahami kesan tempoh, kalendar sumber dan kalendar projek pada tugas
-Tempoh tugas ditakrifkan sebagai bilangan jam kerja antara masa mula tarikh mula dan masa tamat tarikh tamat tugas.   Project for the web mentakrifkan unit ukuran tempoh seperti berikut:
+Tempoh tugas ditakrifkan sebagai bilangan jam kerja antara masa mula pada tarikh mula dan masa tamat pada tarikh tamat tugas.   Project for the Web mentakrifkan unit ukuran tempoh seperti berikut:
 
 | **Ukuran Tempoh** | **Kuantiti**|
 |----------------------------------------------------|----------------------|
-| Jam sehari | 8 |
-| Jam seminggu |  40 |
-| Hari sebulan |  20 |
+| Jam setiap hari | 8 |
+| Jam setiap minggu |  40 |
+| Hari setiap bulan |  20 |
 
-Tugas yang tidak ditugaskan dijadualkan menggunakan kalendar projek. Walau bagaimanapun, apabila tugasan sumber awal, penjadualan tugas dikemas kini supaya ia menghormati kalendar sumber. Perubahan seterusnya kepada tugas yang mempunyai tugasan akan ditadbir oleh [mod](scheduling-modes.md) penjadualan projek. Untuk mengetahui lebih lanjut tentang pengaruh kalendar pada tugas, lihat [Kalendar Sumber dalam Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) dan [Masa Mula Tugas & Projek Anda!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Tugas yang tidak ditugaskan dijadualkan menggunakan kalendar projek. Walau bagaimanapun, selepas penugasan sumber awal, penjadualan tugas dikemas kini supaya ia menghormati kalendar sumber. Perubahan seterusnya kepada tugas yang mempunyai penugasan akan ditadbir oleh [mod penjadualan](scheduling-modes.md) projek. Untuk mengetahui lebih lanjut tentang pengaruh kalendar pada tugas, lihat [Kalendar Sumber dalam Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) dan [Masa Mula Tugas & Projek Anda!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Kebolehcapaian dan pintasan papan kekunci
@@ -139,7 +139,7 @@ Anda harus sedar batasan berikut jika anda menggunakan struktur pecahan kerja da
 | Jumlah sumber maksimum untuk projek              | 300                  |
 | Jumlah pautan maksimum (pengganti sahaja) untuk projek | 600                  |
 | Jumlah medan tersuai maksimum untuk projek          | 10                   |
-| Item senarai semak maksimum bagi setiap tugas                   | 20                   |
+| Item senarai semak maksimum setiap tugas                   | 20                   |
 
 **Batasan tugas**
 

@@ -1,6 +1,6 @@
 ---
 title: Permintaan perjalanan
-description: Artikel ini memberikan maklumat mengenai permintaan perjalanan.
+description: Artikel ini menyediakan maklumat tentang permintaan perjalanan.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

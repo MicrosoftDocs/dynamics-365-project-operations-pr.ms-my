@@ -1,6 +1,6 @@
 ---
 title: Sumber baris subkontrak
-description: Artikel ini menerangkan cara menentukan sumber khusus yang disediakan oleh vendor untuk garis subkontrak tertentu untuk masa.
+description: Artikel ini menerangkan cara menentukan sumber khusus yang disediakan oleh vendor untuk baris subkontrak tertentu untuk masa.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

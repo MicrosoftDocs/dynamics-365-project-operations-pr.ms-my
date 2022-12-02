@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 33, V3
-description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas Kini Automasi Project Service 33, V3.
+description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas Kini Project Service Automation 33, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/30/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8915427"
 
 Kami amat berbesar hati mengumumkan kemas kini terbaharu untuk apl Microsoft Dynamics 365 Project Service Automation. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Kemas kini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian dalam talian Pusat Pentadbir untuk Dynamics 365 dan pasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk Project Service Automation V3, Kemas Kini Keluaran 33. Versi ini mempunyai nombor binaan V3.10.54.98 dan secara umumnya tersedia melalui kemas kini kendiri pada Julai 2021.
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Project Service Automation V3, Keluaran Kemas Kini 33. Versi ini mempunyai nombor binaan V3.10.54.98 dan secara umumnya tersedia melalui kemas kini kendiri pada Julai 2021.
 
 ## <a name="update-release-33"></a>Keluaran Kemas kini 33
 

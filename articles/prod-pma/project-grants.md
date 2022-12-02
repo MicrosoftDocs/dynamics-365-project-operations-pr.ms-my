@@ -1,6 +1,6 @@
 ---
 title: Pemberian projek
-description: Artikel ini menerangkan cara mencipta atau mengubah suai geran.
+description: Artikel ini menerangkan cara mencipta atau mengubah pemberian.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

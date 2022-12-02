@@ -1,6 +1,6 @@
 ---
 title: Penjejakan jualan projek
-description: Artikel ini memberikan maklumat tentang cara Operasi Projek menjejaki kemajuan terhadap hasil buruh pada projek.
+description: Artikel ini menyediakan maklumat tentang cara Project Operations menjejaki kemajuan berbanding hasil buruh pada projek.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

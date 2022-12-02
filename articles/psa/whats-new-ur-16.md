@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 16, V3
-description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas Kini Automasi Project Service 16, V3.
+description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Project Service Automation 16, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8926511"
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan.  Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati Pusat Pentadbir untuk Dynamics 365 online, halaman penyelesaian untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, Kemas kini Penyelesaian Pilihan](/dynamics365/project-service/upgrade-psa-home-page).
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk PSA V3, Kemas Kini Keluaran 16. Versi ini mempunyai nombor binaan V3.10.6.34 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2020.
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk PSA V3, Keluaran Kemas Kini 16. Versi ini mempunyai nombor binaan V3.10.6.34 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2020.
 
 
 ## <a name="update-release-16"></a>Keluaran Kemas kini 16

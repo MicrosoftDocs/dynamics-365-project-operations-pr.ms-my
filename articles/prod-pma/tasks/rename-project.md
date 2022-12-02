@@ -24,7 +24,7 @@ ms.locfileid: "8683871"
 
 [!include [banner](../../includes/banner.md)]
 
-Peringkat projek boleh dijadikan panduan kepada kitaran hayat projek. Anda boleh mentakrifkan peringkat projek yang anda mahu termasuk dalam projek anda dalam kawasan peringkat Projek dalam halaman pengurusan projek dan parameter perakaunan. Dynamics 365 Finance menyediakan lima peringkat projek yang telah ditetapkan dan tiga peringkat yang ditentukan pengguna. Anda boleh mengemas kini nama peringkat projek yang anda sedang gunakan untuk menjejaki kemajuan projek. Anda juga boleh memberikan nama untuk nama status yang ditakrifkan oleh pengguna. Tugas ini menunjukkan cara untuk menamakan semula atau mengubah suai peringkat projek dan menggunakan set data USSI.
+Peringkat projek boleh dijadikan panduan kepada kitaran hayat projek. Anda boleh mentakrifkan peringkat projek yang anda mahu termasuk dalam projek anda dalam kawasan peringkat Projek dalam halaman pengurusan projek dan parameter perakaunan. Dynamics 365 Finance menyediakan lima peringkat projek yang dipratentukan dan tiga peringkat pengguna yang ditetapkan. Anda boleh mengemas kini nama peringkat projek yang anda sedang gunakan untuk menjejaki kemajuan projek. Anda juga boleh memberikan nama untuk nama status yang ditakrifkan oleh pengguna. Tugas ini menunjukkan cara untuk menamakan semula atau mengubah suai peringkat projek dan menggunakan set data USSI.
 
 1. Pergi ke pengurusan dan perakaunan Projek > Persediaan > Pengurusan projek dan parameter perakaunan.
 2. Klik tab peringkat Projek.

@@ -1,6 +1,6 @@
 ---
 title: Produk
-description: Artikel ini memberikan maklumat tentang katalog produk yang boleh anda gunakan untuk memberikan maklumat kepada pelanggan tentang produk dan harga yang ditawarkan oleh organisasi anda.
+description: Artikel ini menyediakan maklumat tentang katalog produk yang boleh anda gunakan untuk memberikan maklumat kepada pelanggan tentang produk dan penetapan harga yang ditawarkan oleh organisasi anda.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

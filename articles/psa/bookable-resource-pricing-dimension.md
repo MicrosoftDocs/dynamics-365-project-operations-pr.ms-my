@@ -1,6 +1,6 @@
 ---
 title: Guna sumber boleh tempah sebagai dimensi penentuan harga
-description: Artikel ini memberikan maklumat tentang menggunakan sumber yang boleh ditempah sebagai dimensi harga.
+description: Artikel ini memberikan maklumat tentang menggunakan sumber boleh tempah sebagai dimensi penentuan harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8916115"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Artikel ini memberikan maklumat tentang menggunakan sumber yang boleh ditempah sebagai dimensi harga. Sebelum anda mulakan, jika anda belum mencipta penyelesaian dimensi penetapan harga, anda akan perlu mencipta yang baharu. Jika anda sudah mempunyai penyelesaian dimensi penetapan harga, anda boleh membuat perubahan anda dalam penyelesaian tersebut. Jika anda belum mencipta penyelesaian dimensi harga baharu untuk organisasi anda, lengkapkan prosedur dalam [artikel Cipta medan dan entiti](create-custom-fields-entities.md) tersuai.
+Artikel ini memberikan maklumat tentang menggunakan sumber boleh tempah sebagai dimensi penentuan harga. Sebelum anda mulakan, jika anda belum mencipta penyelesaian dimensi penetapan harga, anda akan perlu mencipta yang baharu. Jika anda sudah mempunyai penyelesaian dimensi penetapan harga, anda boleh membuat perubahan anda dalam penyelesaian tersebut. Jika anda belum mencipta penyelesaian dimensi penetapan harga baharu untuk organisasi anda, lengkapkan prosedur dalam artikel [Cipta medan tersuai dan entiti](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Tambah sumber boleh tempah pada borang dan pandangan
 Untuk membolehkan medan boleh dilihat dalam UI dalam penyelesaian dimensi penentuan harga, anda perlu meneliti semua borang dan pandangan entiti Project Service utama dan menambah medan pada borang dan pandangan entiti tersebut.

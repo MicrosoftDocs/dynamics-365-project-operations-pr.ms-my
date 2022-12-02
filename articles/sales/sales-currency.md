@@ -1,6 +1,6 @@
 ---
 title: Mata Wang
-description: Artikel ini memberikan maklumat tentang cara menambah dan mengalih keluar jenis mata wang dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara menambah dan mengalih keluar jenis mata wang dalam Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

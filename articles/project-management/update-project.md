@@ -1,6 +1,6 @@
 ---
 title: Cipta dan kemas kini projek
-description: Artikel ini memberikan maklumat tentang mengemas kini projek Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang mengemas kini projek dalam Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

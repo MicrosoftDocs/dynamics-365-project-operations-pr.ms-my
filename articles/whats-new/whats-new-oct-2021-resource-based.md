@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu Oktober 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 Operasi Projek untuk senario berasaskan sumber/tidak berstok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Oktober 2021 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8914648"
 
 *Digunakan Pada: Project Operations untuk senario berdasarkan sumber/tidak distok*
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
    - Project Operations dalam persekitaran Microsoft Dataverse versi 4.25.0.91
    - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.21

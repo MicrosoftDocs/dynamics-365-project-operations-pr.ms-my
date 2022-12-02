@@ -1,6 +1,6 @@
 ---
 title: Pengepala peluang/ringkasan
-description: Artikel ini memberikan maklumat mengenai tawaran berasaskan projek dan garis peluang berasaskan projek.
+description: Artikel ini memberikan maklumat tentang urus niaga berdasarkan projek dan baris peluang berdasarkan projek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

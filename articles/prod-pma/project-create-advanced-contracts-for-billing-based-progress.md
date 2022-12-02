@@ -1,6 +1,6 @@
 ---
 title: Cipta kontrak lanjutan untuk pengebilan berdasarkan kemajuan
-description: Artikel ini menerangkan cara membuat kontrak projek supaya anda boleh menjana invois untuk pelanggan, berdasarkan peratusan kerja yang telah siap.
+description: Artikel ini menerangkan cara untuk mencipta kontrak projek supaya anda boleh menjana invois untuk pelanggan, berdasarkan peratusan kerja yang diselesaikan.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913677"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Cipta kontrak lanjutan untuk pengebilan berdasarkan kemajuan
 [!include [banner](../includes/banner.md)]
 
-Artikel ini menerangkan cara membuat kontrak projek supaya anda boleh membuat invois untuk pelanggan, berdasarkan peratusan kerja yang telah siap. Amaun invois dikira secara automatik untuk kategori kerja belanjawan yang anda sediakan untuk projek. Masa invois ditetapkan apabila anda berunding kontrak projek dengan pelanggan.
+Artikel ini menerangkan cara untuk mencipta kontrak projek supaya anda boleh mencipta invois untuk pelanggan, berdasarkan peratusan kerja yang diselesaikan. Amaun invois dikira secara automatik untuk kategori kerja belanjawan yang anda sediakan untuk projek. Masa invois ditetapkan apabila anda berunding kontrak projek dengan pelanggan.
 
-Gunakan prosedur dalam artikel ini untuk menyediakan kontrak, projek berkaitan dan peraturan pengebilan yang mengira jumlah invois untuk kategori kerja bajet yang anda sediakan untuk projek.
+Gunakan prosedur dalam artikel ini untuk menyediakan kontrak, projek berkaitan dan peraturan pengebilan yang mengira amaun invois untuk kategori kerja belanjawan yang anda sediakan untuk projek.
 
 Selepas anda mencipta kontrak dan projek, anda boleh menyediakan butiran projek. Sebagai contoh, anda boleh mentakrifkan aktiviti dan tugaskan pekerja ke projek tersebut.
 

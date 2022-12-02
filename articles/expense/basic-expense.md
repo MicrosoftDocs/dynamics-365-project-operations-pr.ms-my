@@ -1,6 +1,6 @@
 ---
 title: Entri perbelanjaan (ringan)
-description: Artikel ini memberikan maklumat tentang cara bekerja dengan kemasukan perbelanjaan dalam penggunaan lite.
+description: Artikel ini memberikan maklumat tentang cara untuk bekerja dengan entri perbelanjaan dalam pelaksanaan ringan.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

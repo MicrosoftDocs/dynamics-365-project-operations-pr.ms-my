@@ -1,6 +1,6 @@
 ---
 title: Jenis peringkat projek
-description: Artikel ini memberikan maklumat mengenai peringkat projek.
+description: Artikel ini memberikan maklumat tentang peringkat projek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

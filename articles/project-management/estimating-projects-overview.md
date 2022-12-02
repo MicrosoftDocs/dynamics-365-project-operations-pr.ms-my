@@ -1,6 +1,6 @@
 ---
 title: Konsep anggaran kewangan
-description: Artikel ini memberikan maklumat mengenai anggaran kewangan projek dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang anggaran kewangan projek dalam Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Penyenaraian perbelanjaan
-description: Artikel ini menerangkan cara memperincikan perbelanjaan menggunakan ruang kerja Perbelanjaan yang dibayangkan semula.
+description: Artikel ini menjelaskan cara untuk menyenaraikan perbelanjaan menggunakan ruang kerja Perbelanjaan yang digambarkan semula.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -19,31 +19,31 @@ ms.locfileid: "8920945"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Organisasi sering memerlukan pekerja untuk memberikan pecahan terperinci perbelanjaan yang ditanggung semasa perjalanan. Sebagai contoh, folio hotel mungkin mengandungi beberapa garisan terperinci untuk harga bilik, cukai, tempat letak kereta, dan perbelanjaan pelbagai lain yang ditanggung setiap hari sepanjang tempoh penginapan. Atau perbelanjaan makan mungkin memerlukan anda menyediakan pecahan yang lebih terperinci untuk sarapan, makan tengah hari, atau makan malam. Walau apa pun keperluan organisasi, setiap kategori perbelanjaan boleh disediakan untuk mencerminkan subkategori atau item baris yang membentuk perbelanjaan. Walaupun pengetinan sentiasa disokong dalam **pengurusan Perbelanjaan,** ruang kerja perbelanjaan **yang dibayangkan semula membolehkan perincian yang lebih cekap apabila ciri tersebut,** Keupayaan untuk memperincikan perbelanjaan berulang dengan cepat **didayakan**.  
+Organisasi sering memerlukan pekerja untuk menyediakan butiran terperinci perbelanjaan yang ditanggung semasa perjalanan. Contohnya, folio hotel mungkin mengandungi beberapa baris yang disenaraikan untuk kadar bilik, cukai, tempat letak kereta dan perbelanjaan pelbagai lain yang ditanggung setiap hari semasa tempoh penginapan. Atau perbelanjaan hidangan mungkin memerlukan anda menyediakan butiran lebih terperinci untuk sarapan pagi, makan tengah hari atau makan malam. Apa-apa jua keperluan organisasi, setiap kategori perbelanjaan boleh disediakan untuk mencerminkan subkategori atau baris item yang membentuk perbelanjaan. Walaupun penyenaraian sentiasa disokong dalam **Pengurusan perbelanjaan**, ruang kerja **Perbelanjaang yang digambarkan semula** membolehkan penyenaraian yang lebih berkesan apabila ciri **Keupayaan untuk menyenaraikan perbelanjaan berulang dengan cepat** didayakan.  
 
-## <a name="enable-quick-itemization"></a>Mendayakan pengetinan pantas 
+## <a name="enable-quick-itemization"></a>Dayakan penyenaraian pantas 
 
-Anda boleh menggunakan **Keupayaan untuk memperincikan perbelanjaan berulang dengan cepat** untuk memperincikan perbelanjaan berulang dengan cepat sambil mengelakkan keperluan untuk memasukkan perbelanjaan harian setiap kali untuk tempoh penginapan. Lengkapkan langkah berikut untuk mendayakan pemantasan pantas.
+Anda boleh menggunakan **Keupayaan untuk menyenaraikan perbelanjaan berulang dengan cepat** untuk menyenaraikan perbelanjaan berulang dengan cepat sambil mengelakkan keperluan untuk memasukkan perbelanjaan harian setiap kali untuk tempoh penginapan. Lengkapkan langkah-langkah berikut untuk mendayakan penyenaraian pantas.
 
-1. Pergi ke **ruang kerja Pengurusan** Ciri dan dalam senarai ciri, cari dan pilih, **Laporan Perbelanjaan Dibayangkan Semula**. 
+1. Pergi ke ruang kerja **Pengurusan Ciri** dan dalam senarai ciri, cari dan pilih **Laporan Perbelanjaan yang Digambarkan Semula**. 
 2. Pilih **Dayakan sekarang**. 
-3. Dalam senarai ciri, cari dan pilih, **Keupayaan untuk memperincikan perbelanjaan berulang dengan cepat**.
+3. Dalam senarai ciri, cari dan pilih, **Keupayaan untuk menyenaraikan perbelanjaan berulang dengan cepat**.
 4. Pilih **Dayakan sekarang**. 
 
-## <a name="itemization-grid"></a>Grid itemisasi 
+## <a name="itemization-grid"></a>Grid penyenaraian 
 
-Jika kategori perbelanjaan mempunyai subkategori atau komponen yang berbeza yang membentuk perbelanjaan itu, maka ia boleh diperincikan. Untuk memperincikan perbelanjaan, pilih baris perbelanjaan dalam laporan perbelanjaan dan dalam **anak tetingkap Butiran** perbelanjaan, pilih **Saiz** > **Item Tindakan**. Slaid **Itemisasi** mendedahkan grid dengan medan. Jadual berikut menyediakan contoh setiap medan dalam grid dan cara medan diterap dalam laporan perbelanjaan. 
+Jika kategori perbelanjaan mempunyai subkategori atau komponen yang berbeza yang membentuk perbelanjaan tersebut, maka ia boleh disenaraikan. Untuk menyenaraikan perbelanjaan, pilih baris perbelanjaan dalam laporan perbelanjaan dan dalam anak tetingkap **Butiran perbelanjaan**, pilih **Tindakan** > **Senaraikan**. Penggelongsor **Penyenaraian** menunjukkan grid dengan medan. Jadual berikut menyediakan contoh setiap medan dalam grid dan cara medan ditunjukkan dalam laporan perbelanjaan. 
 
 |     Medan          |     Description                                                                                  |     Contoh              |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
-|     Subkategori    |     Senarai subkategori yang dikonfigurasikan di bawah jenis kategori perbelanjaan, **Hotel**.             |     Harga bilik harian      |
-|     Tarikh mula     |     Tarikh item perbelanjaan pertama kali ditanggung.                                           |     09/13/2021           |
+|     Subkategori    |     Senarai subkategori dikonfigurasikan di bawah jenis kategori perbelanjaan, **Hotel**.             |     Kadar bilik harian      |
+|     Tarikh mula     |     Tarikh apabila item perbelanjaan mula ditanggung.                                           |     13/09/2021           |
 |     Kadar Harian     |     Amaun yang ditanggung untuk item perbelanjaan.                                                    |     200                  |
-|     Kuantiti       |     Bilangan kali caj diulang dalam tempoh yang berterusan.                       |     3                    |
+|     Kuantiti       |     Bilangan kali caj diulang sepanjang tempoh berterusan.                       |     3                    |
 
-![Memperincikan perbelanjaan.](media/Itemization%20screen%201.png)
+![Senaraikan perbelanjaan.](media/Itemization%20screen%201.png)
 
-Apabila anda menyimpan item, anda akan melihat baris terperinci individu untuk kuantiti yang ditentukan dalam grid Itemisasi. Setiap baris bermula pada tarikh yang ditentukan dalam grid.
+Apabila anda menyimpan penyenaraian, anda akan melihat baris penyenaraian individu untuk kuantiti yang ditetapkan dalam grid Penyenaraian. Setiap baris bermula pada tarikh yang ditetapkan dalam grid.
 
-![Laporan terperinci.](media/Itemization%20screen%202.png)
+![Laporan yang disenaraikan.](media/Itemization%20screen%202.png)
 

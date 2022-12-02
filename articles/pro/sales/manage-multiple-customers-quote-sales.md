@@ -1,6 +1,6 @@
 ---
 title: Urus berbilang pelanggan pada sebut harga projek - ringan
-description: Artikel ini memberikan maklumat mengenai bekerja pada sebut harga dengan pelbagai pelanggan yang akan membiayai projek tersebut. (Sales)
+description: Artikel ini memberikan maklumat tentang penyediaan sebut harga dengan berbilang pelanggan yang akan membiayai projek itu. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

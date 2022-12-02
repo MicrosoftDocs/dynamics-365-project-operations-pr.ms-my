@@ -1,6 +1,6 @@
 ---
 title: Kemas kini atribut pasang masuk dengan dimensi penentuan harga baharu
-description: Artikel ini memberikan maklumat tentang cara mengemas kini atribut pemalam untuk dimensi harga.
+description: Artikel ini memberikan maklumat tentang cara mengemas kini atribut pasang masuk untuk dimensi harga.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,13 +15,13 @@ ms.locfileid: "8920025"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Kemas kini atribut pasang masuk dengan dimensi penentuan harga baharu
 
-Artikel ini memberikan maklumat tentang cara mengemas kini atribut pemalam untuk dimensi harga.
+Artikel ini memberikan maklumat tentang cara mengemas kini atribut pasang masuk untuk dimensi harga.
 
 > [!NOTE]
-> Artikel ini hanya terpakai kepada ciri sebut harga dan kontrak dalam Dynamics 365 Project Operations.
+> Artikel ini hanya digunakan untuk sebut harga dan ciri kontrak dalam Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Prasyarat
-Sebelum anda melengkapkan langkah-langkah dalam artikel ini, anda mesti melengkapkan prosedur dalam artikel berikut:
+Sebelum anda melengkapkan langkah dalam artikel ini, anda mesti melengkapkan prosedur dalam artikel berikut:
 
   - [Cipta medan dan entiti tersuai](create-custom-fields-entities-pricing-dimensions.md) 
   - [Tambah medan tersuai kepada persediaan harga dan entiti transaksi ](add-custom-fields-price-setup-transactional-entities.md)

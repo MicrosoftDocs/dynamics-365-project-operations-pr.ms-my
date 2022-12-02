@@ -1,6 +1,6 @@
 ---
 title: Urus bakal pelanggan
-description: Artikel ini memberikan maklumat tentang menguruskan petunjuk berasaskan projek.
+description: Artikel ini memberikan maklumat tentang mengurus bakal pelanggan berasaskan projek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

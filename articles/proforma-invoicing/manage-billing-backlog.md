@@ -1,6 +1,6 @@
 ---
 title: Urus tunggakan pengebilan
-description: Artikel ini memberikan maklumat tentang cara melihat dan bekerja dengan tunggakan pengebilan dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang cara melihat dan menyelesaikan tunggakan pengebilan dalam Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Urus berbilang pelanggan pada baris sebut harga berdasarkan projek - ringan
-description: Artikel ini menerangkan cara menguruskan berbilang pelanggan pada baris sebut harga berasaskan projek.
+description: Artikel ini menerangkan cara mengurus berbilang pelanggan pada baris sebut harga berasaskan projek.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

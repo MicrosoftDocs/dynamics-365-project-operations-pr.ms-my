@@ -1,6 +1,6 @@
 ---
 title: Import dan selenggara transaksi kad kredit
-description: Artikel ini menerangkan cara mengimport dan mengekalkan transaksi kad kredit yang berkaitan dengan perbelanjaan. Transaksi ini boleh disediakan supaya ia diimport secara automatik pada jadual yang berulang, atau ia boleh diimport secara manual mengikut keperluan.
+description: Artikel ini menerangkan cara mengimport dan menyelenggara transaksi kad kredit berkaitan perbelanjaan. Transaksi ini boleh disediakan supaya ia diimport secara automatik pada jadual yang berulang, atau ia boleh diimport secara manual mengikut keperluan.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

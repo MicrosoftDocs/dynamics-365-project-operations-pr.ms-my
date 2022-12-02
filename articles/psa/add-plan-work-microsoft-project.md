@@ -1,6 +1,6 @@
 ---
 title: Gunakan Tambahan Project Service untuk merancang kerja anda dalam Microsoft Project | MicrosoftDocs
-description: Artikel ini menyediakan maklumat tentang cara menambah, mengkonfigurasi dan menggunakan tambahan Microsoft Project untuk Microsoft Project Service.
+description: Artikel ini memberikan maklumat tentang cara untuk menambah, mengkonfigurasi dan menggunakan tambahan Microsoft Project untuk Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -26,7 +26,7 @@ ms.locfileid: "8916023"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Bahagian artikel ini memberikan maklumat mengenai perubahan yang telah dibuat kepada kawasan Dynamics 365 Project Service Automation pengurusan Sumber versi 3.x.
+Bahagian artikel ini menyediakan maklumat mengenai perubahan yang telah dibuat ke kawasan pengurusan Sumber Dynamics 365 Project Service Automation versi 3. x.
 
 ## <a name="project-estimates"></a>Anggaran projek
 

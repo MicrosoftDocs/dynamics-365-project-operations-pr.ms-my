@@ -1,6 +1,6 @@
 ---
 title: Sediakan kadar bil buruh
-description: Artikel ini memberikan maklumat tentang cara menyediakan kadar pengebilan buruh dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang cara untuk menetapkan kadar pengebilan buruh dalam Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

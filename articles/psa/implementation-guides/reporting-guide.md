@@ -1,6 +1,6 @@
 ---
 title: Panduan pelaporan
-description: Artikel ini menyediakan pautan ke maklumat mengenai pelaporan.
+description: Artikel ini memberikan pautan kepada maklumat tentang pelaporan.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8919197"
 
 Kaedah dan teknologi pelaporan dalam aplikasi ini boleh membantu anda menentukan kesihatan projek anda dan mengenal pasti apabila anda perlu mengambil tindakan pembetulan. 
 
-Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
+Pautan PDF yang terdapat dalam artikel ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada artikel berikut:
 
 - [Halaman utama pelaporan](../reports-reporting-dynamics-365-project-service.md)
 - [Papan Pemuka](../reports-dashboards.md)

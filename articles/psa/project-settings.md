@@ -1,6 +1,6 @@
 ---
 title: Tetapan projek
-description: Artikel ini memberikan maklumat tentang seting pengurusan projek.
+description: Artikel ini memberikan maklumat tentang tetapan pengurusan projek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

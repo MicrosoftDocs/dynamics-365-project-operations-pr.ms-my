@@ -1,6 +1,6 @@
 ---
 title: Penggunaan bahan rekod pada projek dan tugas projek
-description: Artikel ini memberikan maklumat tentang cara log penggunaan bahan terhadap projek dan tugas projek.
+description: Artikel ini menyediakan maklumat tentang cara untuk log penggunaan bahan untuk projek dan tugas projek.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

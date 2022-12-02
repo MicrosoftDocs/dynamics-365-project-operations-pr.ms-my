@@ -1,6 +1,6 @@
 ---
 title: Gunakan medan sedia ada dalam Project Service sebagai dimensi penentuan harga
-description: Artikel ini menyediakan maklumat tentang menggunakan medan Perkhidmatan Projek sedia ada sebagai dimensi harga.
+description: Artikel ini menyediakan maklumat tentang penggunaan medan Project Service sedia ada sebagai dimensi penentuan harga.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

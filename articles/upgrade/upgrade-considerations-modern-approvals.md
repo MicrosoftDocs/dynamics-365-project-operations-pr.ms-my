@@ -1,6 +1,6 @@
 ---
-title: Pertimbangan naik taraf untuk Kelulusan Moden
-description: Artikel ini merangkumi perkara yang harus dipertimbangkan oleh pentadbir apabila mereka mendayakan fungsi Kelulusan Moden.
+title: Peningkatan pertimbangan untuk Kelulusan Moden
+description: Artikel meliputi mata yang patut dipertimbangkan oleh pentadbir apabila mereka mendayakan fungsi Kelulusan Moden.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,39 +13,39 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8931755"
 ---
-# <a name="upgrade-considerations-for-modern-approvals"></a>Pertimbangan naik taraf untuk Kelulusan Moden 
+# <a name="upgrade-considerations-for-modern-approvals"></a>Peningkatan pertimbangan untuk Kelulusan Moden 
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Sebagai sebahagian daripada Keluaran Gelombang 1 April 2022, fungsi Kelulusan Moden akan didayakan secara lalai. Fungsi ini meningkatkan kebolehpercayaan logik kelulusan dan memastikan bahawa anda boleh menentukan sebab jika logik kelulusan gagal.
+Sebagai sebahagian daripada keluaran April 2022 Gelombang 1, fungsi Kelulusan Moden akan didayakan secara lalai. Kefungsian ini meningkatkan kebolehpercayaan logik kelulusan dan memastikan bahawa anda boleh menentukan sebab jika logik kelulusan gagal.
 
-Sebagai sebahagian daripada perubahan ini, perubahan status untuk kelulusan projek dikemas kini. Status kini pergi terus dari **Dihantar** ke **Diluluskan**. **Belum selesai** bukan lagi status untuk kelulusan. Untuk menentukan sama ada kelulusan belum selesai, sahkan bahawa kelulusan adalah sebahagian daripada set kelulusan, dan semak keadaan set kelulusan yang dilampirkan.
+Sebagai sebahagian daripada perubahan ini, perubahan status untuk kelulusan projek dikemas kini. Status kini akan terus daripada **Dihantar** kepada **Diluluskan**. **Belum selesai** bukan lagi status untuk kelulusan. Untuk menentukan sama ada kelulusan adalah belum selesai, mengesahkan bahawa kelulusan merupakan sebahagian daripada set kelulusan dan semak keadaan set kelulusan yang dilampirkan.
 
-## <a name="before-you-upgrade"></a>Sebelum anda menaik taraf
+## <a name="before-you-upgrade"></a>Sebelum anda tatar
 
-Sebelum anda menaik taraf kepada Kelulusan Moden, pastikan anda tidak mempunyai kelulusan yang belum selesai. Kelulusan Moden tidak menggunakan **status Menunggu**. Oleh itu, sebarang kelulusan yang masih ditandakan sebagai **Menunggu** selepas naik taraf tidak akan diproses.
+Sebelum anda tatar kepada Kelulusan Moden, pastikan bahawa anda tidak mempunyai kelulusan yang belum selesai. Kelulusan Moden tidak menggunakan status **Belum Selesai**. Oleh itu, sebarang kelulusan yang masih ditandakan sebagai **Belum Selesai** selepas tatar ini tidak akan diproses.
 
-## <a name="after-you-upgrade"></a>Selepas anda menaik taraf
+## <a name="after-you-upgrade"></a>Selepas anda tatar
 
-Selepas anda menaik taraf kepada Kelulusan Moden, pentadbir mesti mengesahkan bahawa aliran awan yang memproses kelulusan telah didayakan.
+Selepas anda tatar kepada Kelulusan Moden, pentadbir mesti mengesahkan bahawa aliran awan yang memproses kelulusan telah didayakan.
 
-1. Log masuk ke [flow.microsoft.com](https://flow.microsoft.com)
-2. Di bahagian atas sebelah kanan halaman, tukar persekitaran anda kepada persekitaran yang telah anda naik taraf.
+1. Daftar masuk ke [flow.microsoft.com](https://flow.microsoft.com)
+2. Di bahagian atas sebelah kanan halaman, tukar persekitaran anda kepada persekitaran yang anda telah tatar.
 3. Pilih **Penyelesaian** untuk menyenaraikan penyelesaian yang dipasang dalam persekitaran.
-4. Dalam senarai penyelesaian, pilih **Operasi** Projek atau **Perkhidmatan** Projek.
-5. Tukar penapis daripada **Semua** kepada **Aliran** Awan.
-6. Sahkan bahawa **Perkhidmatan Projek - Pilihan Set** Kelulusan Projek Jadual Berulang disetkan kepada **Hidup**. Jika tidak, pilih aliran, kemudian pilih **Hidupkan**.
-7. Sahkan bahawa pemprosesan berlaku setiap lima minit dengan **menyemak senarai Kerja** Sistem di **kawasan Tetapan**.
+4. Dalam senarai penyelesaian, pilih **Project Operations** atau **Project Service**.
+5. Tukar penapis daripada **Semua** kepada **Aliran Awan**.
+6. Sahkan bahawa pilihan **Project Service – Jadualkan Set Kelulusan Projek Secara Berulang** ditetapkan kepada **Hidup**. Jika tidak, pilih aliran, kemudian **Hidupkan**.
+7. Sahkan bahawa pemprosesan berlaku setiap lima minit dengan menyemak kawasan **Kerja Sistem** dalam **Tetapan**.
 
-## <a name="short-term-rollback"></a>Gulung balik jangka pendek
+## <a name="short-term-rollback"></a>Pengunduran balik jangka pendek
 
-Jika anda tidak dapat menerima perubahan atau jika anda menghadapi masalah yang teruk dengan ciri ini, anda boleh kembali ke aliran kelulusan asal buat sementara waktu dengan melaksanakan langkah berikut:
-1. Daftar masuk ke persekitaran anda dan sahkan bahawa tiada kelulusan yang belum selesai.
-2. Pergi ke **Tetapan** > **Parameter** Projek.
-3. Pilih **Kawalan** Ciri dan kemudian pilih **Kelulusan** Moden untuk mematikan ciri.
+Jika anda tidak dapat mengambil perubahan tersebut atau jika anda menghadapi isu yang teruk dengan ciri ini, anda boleh kembali secara sementara ke aliran kelulusan asal dengan melakukan langkah berikut:
+1. Daftar masuk ke persekitaran anda dan sahkan tiada kelulusan yang belum selesai.
+2. Pergi ke **Tetapan** > **Parameter Projek**.
+3. Pilih **Kawalan Ciri**, kemudian pilih **Kelulusan Moden** untuk memadamkan ciri.
 
 ## <a name="removing-the-feature-flag"></a>Mengalih keluar bendera ciri
 
-Dalam kemas kini Gelombang 2 Oktober 2022, keupayaan untuk mematikan ciri ini akan dialih keluar.
+Dalam kemas kini Oktober 2022 Gelombang 2, keupayaan untuk mematikan ciri ini akan dialih keluar.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

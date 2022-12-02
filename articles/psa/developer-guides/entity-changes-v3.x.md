@@ -1,6 +1,6 @@
 ---
 title: Perubahan entiti, kawalan dan antara muka pengguna (Project Service Automation 3.x)
-description: Artikel ini menerangkan perubahan penyelesaian untuk Microsoft Dynamics Automasi Perkhidmatan Projek 3.x.
+description: Artikel ini menerangkan perubahan penyelesaian untuk Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

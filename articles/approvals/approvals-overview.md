@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan kelulusan
-description: Artikel ini memberikan maklumat tentang bekerja dengan kelulusan dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang bekerja dengan kelulusan dalam Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

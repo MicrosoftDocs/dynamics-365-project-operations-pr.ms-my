@@ -1,6 +1,6 @@
 ---
 title: Betulkan perakaunan dalam draf cadangan invois projek
-description: Artikel ini menerangkan cara melaraskan maklumat berkaitan perakaunan pada draf cadangan invois.
+description: Artikel ini menerangkan cara untuk melaraskan maklumat berkaitan perakaunan pada draf cadangan invois.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -27,15 +27,15 @@ Kumpulan cukai jualan pengebilan dan kumpulan cukai jualan item lalai boleh dila
 
 ## <a name="adjust-financial-dimensions"></a>Laraskan dimensi kewangan
 
-### <a name="header-dimensions"></a>Dimensi tajuk
+### <a name="header-dimensions"></a>Dimensi pengepala
 
-Secara lalai, dimensi kewangan invois diperolehi daripada rekod transaksi projek yang belum dibilkan yang sedang diinvois. Walau bagaimanapun, tetapan sistem membolehkan anda menggunakan dimensi kewangan pada tajuk cadangan invois projek untuk menghantar baki pelanggan. Untuk mendayakan kefungsian ini, pilih **Benarkan kemas kini kepada dimensi projek untuk akaun belum terima** pada **tab Kewangan** bagi **halaman Pengurusan Projek dan parameter** perakaunan.
+Secara lalai, dimensi kewangan invois diperoleh daripada rekod transaksi projek yang belum dibilkan yang diinvois. Walau bagaimanapun, tetapan sistem membolehkan anda menggunakan dimensi kewangan pada pengepala cadangan invois projek untuk menyiarkan baki pelanggan. Untuk mendayakan fungsi ini, pilih **Benarkan kemas kini kepada dimensi projek untuk akaun belum terima** pada tab **Kewangan** halaman **Parameter pengurusan projek dan perakaunan**.
 
-Dimensi kewangan pada pengepala invois boleh diedit sebelum invois disiarkan. **Pada halaman Cadangan** invois Projek, tukar kepada **pandangan Pengepala**, kemudian edit nilai pada **tab Dimensi** kewangan.
+Dimensi kewangan pada pengepala invois boleh diedit sebelum invois disiarkan. Pada halaman **Cadangan invois projek**, tukar kepada pandangan **Pengepala** dan kemudian edit nilai pada tab **Dimensi kewangan**.
 
-Pandangan **Pengepala** tersedia hanya selepas pentadbir sistem mendayakan **borang Gunakan cadangan invois Projek dan jurnal invois dengan ciri pandangan** Pengepala dan Baris dalam **ruang kerja pengurusan** Ciri. Ciri ini memerlukan kemas kini Kewangan 10.0.25 atau lebih baru.
+Pandangan **Pengepala** hanya tersedia selepas pentadbir sistem mendayakan ciri **Gunakan Cadangan invois projek dan borang jurnal invois dengan pandangan Pengepala dan Baris** dalam ruang kerja **Pengurusan ciri**. Ciri ini memerlukan kemas kini Finance 10.0.25 atau lebih terkini.
 
-### <a name="line-dimensions"></a>Dimensi garisan
+### <a name="line-dimensions"></a>Dimensi baris
 
 Dimensi kewangan tidak boleh diedit secara langsung dalam baris cadangan invois projek. Sebaliknya, ikuti langkah ini untuk melaraskan dimensi kewangan dalam cadangan invois projek.
 

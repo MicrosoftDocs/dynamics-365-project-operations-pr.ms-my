@@ -1,6 +1,6 @@
 ---
 title: Tetapkan kadar kos buruh
-description: Artikel ini memberikan maklumat tentang cara menetapkan kadar untuk kos Operasi Projek buruh
+description: Artikel ini menyediakan maklumat mengenai cara untuk menetapkan kadar bagi kos buruh Project Operations
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

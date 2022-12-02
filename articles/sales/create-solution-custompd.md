@@ -1,6 +1,6 @@
 ---
 title: Cipta penyelesaian untuk dimensi penentuan harga tersuai
-description: Artikel ini memberikan maklumat tentang cara membuat penyelesaian untuk dimensi harga tersuai.
+description: Artikel ini memberikan maklumat tentang cara mencipta penyelesaian untuk dimensi penentuan harga tersuai.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

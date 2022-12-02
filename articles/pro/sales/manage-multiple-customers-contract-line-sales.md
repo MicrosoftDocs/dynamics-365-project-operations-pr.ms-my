@@ -1,6 +1,6 @@
 ---
 title: Urus berbilang pelanggan pada baris kontrak berasaskan projek - ringan
-description: Artikel ini memberikan maklumat tentang menguruskan berbilang pelanggan pada baris kontrak berasaskan projek.
+description: Artikel ini menyediakan maklumat tentang pengurusan berbilang pelanggan pada baris kontrak berasaskan projek.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

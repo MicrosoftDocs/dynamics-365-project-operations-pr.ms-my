@@ -1,6 +1,6 @@
 ---
 title: Urus unit kompleks untuk baris kontrak berdasarkan produk - lite
-description: Artikel ini memberikan maklumat mengenai menyokong penjualan produk berasaskan langganan.
+description: Artikel ini memberikan maklumat tentang menyokong jualan produk berasaskan langganan.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

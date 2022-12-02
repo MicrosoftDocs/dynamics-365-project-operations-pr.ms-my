@@ -1,6 +1,6 @@
 ---
 title: Pilih kemaskinian Project Operations
-description: Artikel ini menyediakan maklumat mengenai versi yang dikeluarkan Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang versi Dynamics 365 Project Operations yang dikeluarkan.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Digunakan pada:** Project Operations untuk senario berasaskan sumber/bukan st
 Dynamics 365 Project Operations terdiri daripada dua komponen:
 
 - Project Operations pada persekitaran Dataverse meliputi keupayaan daripada peluang hingga penginvoisan proforma. Dataverse digunakan dalam pelaksanaan ringan dan pelaksanaan senario berasaskan sumber/bukan stok bagi Project Operations.
-- Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance meliputi keupayaan pengurusan perbelanjaan, perakaunan projek, dan pengiktirafan pendapatan. Persekitaran aplikasi kewangan dan operasi digunakan dalam Operasi Projek untuk senario berasaskan sumber / bukan stok dan Operasi Projek untuk senario berasaskan stok / pengeluaran.
+- Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance meliputi keupayaan pengurusan perbelanjaan, perakaunan projek dan pengiktirafan hasil. Persekitaran aplikasi kewangan dan operasi digunakan dalam Project Operations untuk senario berasaskan sumber/bukan stok dan Project Operations untuk senario berasaskan stok/pengeluaran.
 
 ## <a name="project-operations-release-notes"></a>Nota keluaran Project Operations
 - Nota keluaran terkini Project Operations untuk senario [Sumber/tidak distok](whats-new-july-2022-resource-based.md).
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations terdiri daripada dua komponen:
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Untuk senario Sumber Operasi Projek/ bukan stok, kami mengesyorkan agar anda menggunakan versi Orkestra dwi-tulis 2.3.1.15 atau lebih tinggi.
+Untuk senario Sumber Project Operations/bukan stok, kami mengesyorkan agar anda menggunakan Pengaturan dwitulis versi 2.3.1.15 atau lebih tinggi.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Jadual keluaran untuk Project Operations pada persekitaran Dataverse
 
@@ -66,7 +66,7 @@ Kemas kini untuk Project Operations pada persekitaran Dataverse tersedia setiap 
 | Stesen 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Amerika Utara         |  4.46.0.60      | Dilengkapkan           | Dilengkapkan            | TBD           | 04 November 2022       |
 
-## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadual pelepasan untuk pengurusan dan perakaunan Projek dalam persekitaran aplikasi kewangan dan operasi
+## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Jadual keluaran untuk Pengurusan projek dan perakaunan dalam persekitaran aplikasi kewangan dan operasi
 
 Kemas kini untuk Pengurusan projek dan perakaunan dikeluarkan lapan kali setahun.
 

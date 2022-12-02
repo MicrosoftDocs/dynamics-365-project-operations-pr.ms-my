@@ -1,6 +1,6 @@
 ---
 title: Analisis sebut harga projek
-description: Artikel ini memberikan maklumat mengenai analisis petikan projek.
+description: Artikel ini memberikan maklumat tentang analisis sebut harga projek.
 author: rumant
 ms.custom:
 - dyn365-projectservice

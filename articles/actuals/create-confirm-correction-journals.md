@@ -1,6 +1,6 @@
 ---
 title: Cipta dan sahkan jurnal Pembetulan
-description: Artikel ini memberikan maklumat tentang cara membuat dan mengesahkan jurnal pembetulan.
+description: Artikel ini menyediakan maklumat tentang cara mencipta dan mengesahkan jurnal pembetulan.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928075"
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Kadang-kadang, kemasukan masa atau perbelanjaan mungkin dimasukkan dengan tidak betul. Sebagai contoh, perunding mungkin memilih tarikh yang salah apabila mereka mencipta entri masa, atau mereka mungkin memilih projek yang salah apabila mereka memasukkan perbelanjaan. Jika perunding tidak dapat mengemas kini entri yang dihantar, pentadbir bahagian belakang boleh membetulkan sebenar untuk projek secara langsung.
+Kadangkala, entri masa atau perbelanjaan mungkin dimasukkan dengan salah. Sebagai contoh, seorang perunding mungkin memilih tarikh yang salah apabila mereka mencipta entri masa, atau mereka mungkin memilih projek yang salah apabila mereka memasukkan perbelanjaan. Jika perunding tidak dapat mengemas kini entri yang telah diserahkan, pentadbir bahagian belakang boleh membetulkan aktual untuk projek secara langsung.
 
 ## <a name="correct-approved-time-entries"></a>Entri masa yang diluluskan yang betul     
 
@@ -73,30 +73,30 @@ Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri perbelanjaan.
 
 6. Jika nilai yang dibetulkan adalah seperti yang dijangka, pilih **Sahkan**. Dalam kotak dialog, pilih **OK.** Jika nilai tidak ditunjukkan seperti yang dijangkakan, pilih **Batalkan** untuk kembali ke senarai **Perbelanjaan yang Diluluskan**. Ulangi langkah 2 hingga 5. 
 
-7. Selepas anda mengesahkan jurnal pembetulan, kembali ke projek atau projek yang anda kemas kini untuk melihat perubahan anda.
+7. Selepas anda mengesahkan jurnal pembetulan, kembali ke projek atau projek-projek yang telah anda kemas kini untuk melihat perubahan anda.
 
-8. Pada halaman projek, pada **tab Sebenar**, semak semula **senarai Pandangan** Berkaitan Sebenar. Entri asal dan entri yang diperbetulkan disenaraikan.
+8. Pada halaman projek, pada tab **Aktual**, semak senarai **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan.
 
 
 ## <a name="correct-approved-material-usage-logs"></a>Betulkan log penggunaan bahan yang diluluskan
 
 Lengkapkan langkah berikut untuk membetulkan satu atau lebih entri log penggunaan bahan.
 
-1. Dalam kawasan **Jualan**, dalam anak tetingkap navigasi kiri, di bawah **Transaksi**, pilih **Sebenar**.
+1. Dalam kawasan **Jualan**, dalam anak tetingkap navigasi sebelah kiri, di bawah **Transaksi**, pilih **Aktual**.
 
-2. **Dalam senarai Sebenar**, gunakan penapis lajur untuk memilih **kelas transaksi Bahan**, supaya hanya sebenar untuk bahan ditunjukkan. Gunakan penapis lajur lain untuk mengehadkan lagi sebenar yang ditunjukkan. Selepas anda dapat mencari set sebenar yang dikehendaki, pilih yang sebenarnya, dan kemudian pilih **Entri yang betul**. Jurnal pembetulan baru dicipta secara automatik, dan **jenis pembetulan** Bahan diberikan.
+2. Dalam senarai **Aktual**, gunakan penapis lajur untuk memilih kelas transaksi **Bahan**, supaya hanya aktual untuk bahan ditunjukkan. Gunakan penapis lajur lain untuk mengehadkan lagi aktual yang ditunjukkan. Selepas anda boleh mencari set aktual yang dikehendaki, pilih aktual dan kemudian pilih **Betulkan entri**. Jurnal pembetulan baharu dicipta secara automatik dan jenis **Pembetulan bahan** diuntukkan.
 
-3. **Pada halaman Jurnal** Baru, dalam **medan Perihalan**, masukkan perihalan untuk pembetulan. Kemudian, pada **tab Pembetulan** Bahan, dalam **bahagian Nilai Baru untuk Bahan**, pilih medan data untuk membetulkan baris bahan yang dipilih. Sebagai contoh, anda boleh menetapkan bahan tersebut kepada projek lain, atau membetulkan produk, tarikh bahan, atau subkontrak.
+3. Pada halaman **Jurnal Baharu**, dalam medan **Perihalan**, masukkan perihalan untuk pembetulan. Kemudian, pada tab **Pembetulan Bahan**, dalam bahagian **Nilai Baharu untuk Bahan**, pilih medan data yang ingin dibetulkan untuk baris bahan yang dipilih. Sebagai contoh, anda boleh menguntukkan bahan kepada projek lain atau membetulkan produk, tarikh bahan atau subkontrak.
 
-4. Pilih **Pratonton**. Kemudian, dalam kotak dialog, pilih **OK**.
+4. Pilih **Pratonton**. Kemudian, dalam kotak dialog seterusnya, pilih **OK**.
 
-5. **Pada tab Baris** jurnal, sahkan pembetulan. Anda boleh melihat senarai sebenar asal yang berkaitan dengan entri bahan terpilih yang telah diterbalikkan dan baris sepadan yang telah diperbetulkan yang telah dicipta.
+5. Pada tab **Garisan jurnal**, sahkan pembetulan tersebut. Anda boleh melihat senarai aktual asal yang berkaitan dengan entri bahan terpilih yang telah diterbalikkan dan baris sepadan yang dibetulkan yang telah dicipta.
 
-6. Jika nilai yang dibetulkan adalah seperti yang dijangka, pilih **Sahkan**. Kemudian, dalam kotak dialog, pilih **OK**. Jika nilai tidak seperti yang dijangkakan, pilih **Batal** untuk kembali ke **senarai Sebenar**. Kemudian ulangi langkah 2 hingga 5.
+6. Jika nilai yang dibetulkan adalah seperti yang dijangka, pilih **Sahkan**. Kemudian, dalam kotak dialog seterusnya, pilih **OK**. Jika nilai tidak seperti yang dijangkakan, pilih **Batalkan** untuk kembali ke senarai **Aktual**. Kemudian ulang langkah 2 hingga 5.
 
-7. Selepas anda mengesahkan jurnal pembetulan, kembali ke projek atau projek yang anda kemas kini untuk melihat perubahan anda.
+7. Selepas anda mengesahkan jurnal pembetulan, kembali ke projek atau projek-projek yang telah anda kemas kini untuk melihat perubahan anda.
 
-8. Pada halaman projek, pada **tab Sebenar**, semak semula **senarai Pandangan** Berkaitan Sebenar. Entri asal dan entri yang diperbetulkan disenaraikan.
+8. Pada halaman projek, pada tab **Aktual**, semak senarai **Pandangan Berkaitan Aktual**. Entri asal dan entri yang diperbetulkan disenaraikan.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

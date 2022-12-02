@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 37.5, V3
-description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Microsoft Dynamics 365 Project Service Automation Kemas Kini Keluaran 37.5, V3.
+description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Microsoft Dynamics 365 Project Service Automation 37.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 11/15/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8915287"
 
 Kami amat berbesar hati mengumumkan kemas kini terbaharu untuk apl Microsoft Dynamics 365 Project Service Automation. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Kemas kini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian dalam talian Pusat Pentadbir untuk Dynamics 365 dan pasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk Keluaran Kemas Kini Automasi Project Service 37.5, V3. Versi ini mempunyai nombor binaan V3.10.58.130 dan tersedia secara umum melalui kemas kini kendiri pada bulan November 2021.
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Keluaran Kemas kini Project Service Automation 37.5, V3. Versi ini mempunyai nombor binaan V3.10.58.130 dan tersedia secara umum melalui kemas kini kendiri pada bulan November 2021.
 
 ## <a name="update-release-375"></a>Keluaran Kemas kini 37.5
 
@@ -38,4 +38,4 @@ Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk Keluar
 Isu berikut telah dibaiki.
 
 **Pengurusan Sumber**
-- Tempahan pendua dicipta apabila anda mengemas kini tempahan sedia ada dan **Proportional dipilih untuk** kaedah Peningkatan jam atau **kaedah** **Kurangkan waktu kerja**.
+- Penempahan pendua dicipta apabila anda mengemas kini penempahan sedia ada dan **Berkadar** dipilih untuk **Kaedah menambahkan jam** atau **Kaedah mengurangkan jam**.

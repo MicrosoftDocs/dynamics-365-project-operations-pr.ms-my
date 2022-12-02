@@ -1,6 +1,6 @@
 ---
 title: Pembetulan invois berdasarkan projek
-description: Artikel ini memberikan maklumat tentang cara mencipta dan mengesahkan invois berasaskan projek pembetulan dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang cara mencipta dan mengesahkan pembetulan invois berdasarkan projek dalam Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

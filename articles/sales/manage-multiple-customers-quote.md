@@ -1,6 +1,6 @@
 ---
 title: Urus berbilang pelanggan pada sebut harga projek
-description: Artikel ini memberikan maklumat mengenai bekerja pada sebut harga yang melibatkan beberapa pelanggan yang akan membiayai projek tersebut.
+description: Artikel ini memberikan maklumat tentang bekerja dengan sebut harga yang melibatkan berbilang pelanggan yang akan membiayai projek itu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

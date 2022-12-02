@@ -1,6 +1,6 @@
 ---
 title: Cipta projek baharu
-description: Artikel ini memberikan maklumat tentang cara membuat projek baru.
+description: Artikel ini memberikan maklumat tentang cara mencipta projek baharu.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

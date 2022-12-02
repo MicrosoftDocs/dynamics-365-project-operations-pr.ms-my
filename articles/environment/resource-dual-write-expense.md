@@ -1,6 +1,6 @@
 ---
 title: Integrasi pengurusan perbelanjaan
-description: Artikel ini menyediakan maklumat tentang penyepaduan laporan perbelanjaan dalam Operasi Projek menggunakan dwi tulis.
+description: Artikel ini menyediakan maklumat tentang integrasi laporan perbelanjaan dalam Project Operations menggunakan dwi tulis.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -18,19 +18,19 @@ ms.locfileid: "9528006"
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Artikel ini menyediakan maklumat tentang penyepaduan laporan perbelanjaan dalam Operasi [Projek penggunaan](../expense/expense-overview.md) perbelanjaan penuh menggunakan dwi-tulis.
+Artikel ini menyediakan maklumat tentang integrasi laporan perbelanjaan dalam Project Operations [pelaksanaan perbelanjaan penuh](../expense/expense-overview.md) menggunakan dwi tulis.
 
 ## <a name="expense-categories"></a>Kategori perbelanjaan
 
-Dalam penggunaan perbelanjaan penuh, kategori perbelanjaan dicipta dan dikekalkan dalam aplikasi kewangan dan operasi. Untuk mencipta kategori perbelanjaan baharu, lengkapkan langkah berikut:
+Dalam pelaksanaan perbelanjaan penuh, kategori perbelanjaan dicipta dan dikekalkan dalam aplikasi kewangan dan operasi. Untuk mencipta kategori perbelanjaan baharu, lengkapkan langkah berikut:
 
-1. Dalam Microsoft Dataverse, cipta kategori **Transaksi**. Integrasi dwi-tulis akan menyegerakkan kategori transaksi ini untuk aplikasi kewangan dan operasi. Untuk maklumat lanjut, lihat [Konfigurasi kategori projek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [Persediaan dan konfigurasi integrasi data Project Operations](resource-dual-write-setup-integration.md). Hasil daripada integrasi ini, sistem ini mewujudkan empat rekod kategori yang dikongsi dalam aplikasi kewangan dan operasi.
+1. Dalam Microsoft Dataverse, cipta kategori **Transaksi**. Integrasi dwi tulis akan menyegerakkan kategori urus niaga ini ke aplikasi kewangan dan operasi. Untuk maklumat lanjut, lihat [Konfigurasi kategori projek](/dynamics365/project-operations/project-accounting/configure-project-categories) dan [Persediaan dan konfigurasi integrasi data Project Operations](resource-dual-write-setup-integration.md). Hasil daripada integrasi ini, sistem mencipta empat rekod kategori dikongsi dalam aplikasi kewangan dan operasi.
 2. Dalam Kewangan, pergi ke **Pengurusan perbelanjaan** > **Persediaan** > **Kategori dikongsi** dan pilih kategori dikongsi dengan kelas transaksi **Perbelanjaan**. Tetapkan parameter **Boleh digunakan dalam Perbelanjaan** ke **Benar** dan takrifkan jenis perbelanjaan untuk digunakan.
 3. Menggunakan rekod kategori dikongsi ini, cipta kategori perbelanjaan baharu dengan pergi ke **Pengurusan perbelanjaan** > **Sediakan** > **Kategori perbelanjaan** dan memilih **Baharu**. Apabila rekod disimpan, dwi tulis menggunakan peta jadual, **Entiti eksport kategori perbelanjaan projek integrasi Project Operations (msdyn\_expensecategories)** untuk menyegerakkan rekod ini ke Dataverse.
 
   ![Integrasi kategori perbelanjaan.](./media/DW6ExpenseCategories.png)
 
-Kategori perbelanjaan dalam aplikasi kewangan dan operasi adalah khusus syarikat atau entiti undang-undang. Terdapat rekod khusus entiti undang-undang yang berasingan dan bersesuaian dalam Dataverse. Apabila pengurus projek menganggarkan perbelanjaan, mereka tidak boleh memilih kategori perbelanjaan yang dicipta untuk projek yang dimiliki oleh syarikat berbeza berbanding syarikat yang memiliki projek yang sedang mereka usahakan. 
+Kategori perbelanjaan dalam aplikasi kewangan dan operasi ialah syarikat atau entiti undang-undang khusus. Terdapat rekod khusus entiti undang-undang yang berasingan dan bersesuaian dalam Dataverse. Apabila pengurus projek menganggarkan perbelanjaan, mereka tidak boleh memilih kategori perbelanjaan yang dicipta untuk projek yang dimiliki oleh syarikat berbeza berbanding syarikat yang memiliki projek yang sedang mereka usahakan. 
 
 ## <a name="expense-reports"></a>Laporan perbelanjaan
 

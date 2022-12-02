@@ -1,6 +1,6 @@
 ---
 title: Segerakkan kontrak projek dan projek secara terus daripada Project Service Automation kepada Kewangan
-description: Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kontrak dan projek projek terus dari Microsoft Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+description: Artikel ini menghuraikan templat dan tugas asas yang digunakan untuk menyegerakkan kontrak projek dan projek secara terus daripada Microsoft Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933871"
 
 
 
-Artikel ini menerangkan templat dan tugas asas yang digunakan untuk menyegerakkan kontrak dan projek projek terus dari Dynamics 365 Project Service Automation ke Dynamics 365 Finance.
+Artikel ini menghuraikan templat dan tugas asas yang digunakan untuk menyegerakkan kontrak projek dan projek secara terus daripada Dynamics 365 Project Service Automation kepada Dynamics 365 Finance.
 
 > [!NOTE] 
 > Jika anda menggunakan Enterprise Edition 7.3.0, anda mesti memasang KB 4074835.
@@ -128,7 +128,7 @@ Gunakan Microsoft Power Query for Excel untuk menapis data jika syarat berikut d
 Jika anda mesti menggunakan Power Query, ikut garis panduan ini:
 
 - Templat Projek dan kontrak (PSA kepada Fin dan Ops) mempunyai penapis lalai yang mengandungi hanya pesanan jualan jenis **Item kerja (msdyn\_ordertype = 192350001)**. Penapis ini membantu menjamin bahawa kontrak projek tidak dicipta untuk pesanan jualan dalam Finance. Jika anda mencipta templat anda sendiri, anda mesti menambahkan penapis ini.
-- Buat penapis yang Power Query merangkumi hanya organisasi kontrak yang harus disegerakkan ke entiti undang-undang set sambungan integrasi. Contohnya, kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso US perlu disegerakkan kepada entiti sah USSI tetapi kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso Global perlu disegerakkan kepada entiti sah USMF. Jika anda tidak menambahkan penapis ini pada pemetaan tugas anda, semua kontrak projek akan disegerakkan kepada entiti sah yang ditakrifkan untuk set sambungan, tanpa mengira unit organisasi kontrak.
+- Cipta penapis Power Query yang menyertakan hanya organisasi kontrak yang perlu disegarakkan kepada entiti undang-undang bagi set sambungan integrasi. Contohnya, kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso US perlu disegerakkan kepada entiti sah USSI tetapi kontrak projek yang anda miliki dengan unit organisasi kontrak Contoso Global perlu disegerakkan kepada entiti sah USMF. Jika anda tidak menambahkan penapis ini pada pemetaan tugas anda, semua kontrak projek akan disegerakkan kepada entiti sah yang ditakrifkan untuk set sambungan, tanpa mengira unit organisasi kontrak.
 
 ## <a name="template-mapping-in-data-integration"></a>Pemetaan tempat dalam integrasi Data
 

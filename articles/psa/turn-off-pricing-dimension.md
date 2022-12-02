@@ -1,6 +1,6 @@
 ---
 title: Padamkan dimensi penetapan harga
-description: Artikel ini menunjukkan cara menyediakan dimensi harga dalam penyelesaian Project Service.
+description: Artikel ini menunjukkan cara menyediakan dimensi penetapan harga dalam penyelesaian Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

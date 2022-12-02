@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Project Operations April 2021 untuk senario berdasarkan distok/pengeluaran
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran April 2021 Operasi Projek untuk senario berasaskan stok / pengeluaran.
+description: Artikel ini menyediakan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran April 2021 Project Operations untuk senario berdasarkan distok/pengeluaran.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9028205"
 
 _**Digunakan Pada:** Project Operations untuk senario berasaskan stok/pengeluaran_
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.18
  
@@ -83,7 +83,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 | Perjalanan dan Perbelanjaan                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Apabila kategori perbelanjaan adalah kategori bukan projek, dimensi kewangan yang dipilih pada halaman **Perbelanjaan** tidak disalin ke laporan perbelanjaan.                                          |
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke LCS dan melihat kemas kini kawal selia yang dirancang dengan menggunakan alat carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

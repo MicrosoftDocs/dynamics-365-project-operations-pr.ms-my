@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi komponen boleh dicaj bagi baris kontrak berdasarkan projek
-description: Artikel ini memberikan maklumat tentang cara menambah komponen yang boleh dikenakan bayaran pada baris kontrak dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang cara menambah komponen boleh dituntut kepada baris kontrak dalam Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ciri baharu atau perubahan dalam Project Operations, Mei 2021 untuk senario berdasarkan distok/pengeluaran
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran Mei 2021 Operasi Projek untuk senario berasaskan stok / pengeluaran.
+description: Artikel ini menyediakan maklumat mengenai kemas kini berkualiti yang tersedia dalam keluaran Mei 2021 Project Operations untuk senario berasaskan stok/pengeluaran.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "9029403"
 
 _ **Digunakan Pada:** Project Operations untuk senario berdasarkan distok/pengeluaran
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
 - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.19
  
@@ -93,7 +93,7 @@ Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Oper
 | Perjalanan dan Perbelanjaan                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Terdapat isu penyegerakan dengan aplikasi mudah alih Perbelanjaan. 
 
 ### <a name="regulatory-updates"></a>Kemas kini kawal selia
-Untuk maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke Lifecycle Services (LCS) dan melihat kemas kini kawal selia yang dirancang menggunakan alat Carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
+Untuk mendapatkan maklumat tentang kemas kini kawal selia untuk aplikasi kewangan dan operasi, lihat [Kemas kini kawal selia](/dynamics365/finance/localizations/regulatory-updates). Anda juga boleh mendaftar masuk ke Lifecycle Services (LCS) dan melihat kemas kini kawal selia yang dirancang menggunakan alat Carian isu. Carian isu membolehkan anda membuat carian mengikut negara, jenis ciri dan keluaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Baris subkontrak untuk masa
-description: Artikel ini menerangkan cara merakam baris subkontrak untuk masa dan merekodkan pembelian masa daripada vendor.
+description: Artikel ini menerangkan cara merekodkan baris subkontrak untuk masa dan merekodkan pembelian masa daripada vendor.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

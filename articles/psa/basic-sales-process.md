@@ -1,6 +1,6 @@
 ---
 title: Proses jualan
-description: Artikel ini memberikan maklumat mengenai proses jualan asas.
+description: Artikel ini menyediakan maklumat mengenai proses jualan asas.
 author: rumant
 ms.custom:
 - dyn365-projectservice

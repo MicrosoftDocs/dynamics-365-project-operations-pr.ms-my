@@ -1,6 +1,6 @@
 ---
 title: Halaman utama sumber projek
-description: Artikel ini memberikan maklumat mengenai sumber semula projek.
+description: Artikel ini memberikan maklumat tentang penyumberan projek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8924027"
 
 [!include [banner](../includes/banner.md)]
 
-Artikel ini memberikan maklumat mengenai sumber semula projek.
+Artikel ini memberikan maklumat tentang penyumberan projek.
 
-Satu cabaran untuk pengurus projek dan pengurus sumber semasa peringkat perancangan projek ialah peruntukan sumber, di mana mereka mesti menentukan dan menguntukkan sumber yang betul untuk kerja projek. Dalam Dynamics 365 Finance, keupayaan penyumberan semula untuk projek membolehkan anda menentukan peranan yang dianggap sebagai sumber sementara yang boleh dikhaskan untuk penglibatan tertentu atau sebahagian daripada penglibatan. Jenis penyumberan ini membolehkan pengurus projek dan pengurus sumber melengkapkan tugas berikut:
+Satu cabaran untuk pengurus projek dan pengurus sumber semasa peringkat perancangan projek ialah peruntukan sumber, di mana mereka mesti menentukan dan menguntukkan sumber yang betul untuk kerja projek. Dalam Dynamics 365 Finance, keupayaan penyumberan untuk projek membolehkan anda mentakrifkan peranan yang dianggap sebagai sumber sementara yang boleh dibalikkan untuk penglibatan khusus atau sebahagian daripada penglibatan. Jenis penyumberan ini membolehkan pengurus projek dan pengurus sumber melengkapkan tugas berikut:
 
 - Mentakrifkan peranan yang mempunyai kecekapan yang diperlukan, supaya mudah untuk dipadankan dengan sumber.
 - Gunakan peranan untuk mentakrifkan jadual penglibatan awal yang berdasarkan sumber diperuntukkan.
@@ -41,7 +41,7 @@ Satu cabaran untuk pengurus projek dan pengurus sumber semasa peringkat perancan
 
 Semasa perancangan projek berjalan, sumber yang dirancang boleh digantikan dengan sumber diperlukan. Pengurus Projek juga boleh kembali dan mengemas kini tempahan penyumberan semasa sebarang peringkat projek.
 
-Artikel berikut memberikan maklumat tentang tugas yang perlu diselesaikan semasa anda sedang berusaha mendapatkan semula projek.
+Artikel berikut memberikan maklumat mengenai tugas yang perlu dilengkapkan apabila anda sedang mengusahakan projek penyumberan.
 
 - [Sediakan sumber projek](set-up-project-resources.md)
 - [Urus kecekapan sumber](manage-resource-competencies.md)

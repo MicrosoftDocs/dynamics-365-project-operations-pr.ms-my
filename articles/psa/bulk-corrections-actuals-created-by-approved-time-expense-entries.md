@@ -1,6 +1,6 @@
 ---
 title: Pembetulan pukal aktual yang dicipta oleh entri masa dan perbelanjaan yang diluluskan
-description: Artikel ini menerangkan cara pentadbir boleh membuat pembetulan tunggal atau pukal kepada entri masa atau perbelanjaan yang diluluskan sebelum ini jika pengebilan tidak lengkap.
+description: Artikel ini menerangkan cara pentadbir boleh membuat pembetulan tunggal atau pukal kepada entri masa atau perbelanjaan yang telah diluluskan jika pengebilan tidak lengkap.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916300"
 
 Kadangkala entri masa atau perbelanjaan boleh dimasukkan dengan salah. Sebagai contoh, seorang perunding mungkin memilih tarikh yang salah apabila mencipta entri masa atau mereka mungkin mengubah nombor apabila memasukkan perbelanjaan. Jika perunding tidak boleh membuat kemas kini kepada entri yang diserahkan, pentadbir boleh secara langsung membetulkan entri untuk projek.
 
-Untuk melengkapkan prosedur dalam artikel ini, anda memerlukan keizinan Pentadbir.
+Untuk melengkapkan prosedur dalam artikel ini, anda akan memerlukan keizinan Pentadbir.
 
 ## <a name="correct-approved-time-entries"></a>Entri masa yang diluluskan yang betul     
 

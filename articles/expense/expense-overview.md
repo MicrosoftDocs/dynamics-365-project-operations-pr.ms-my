@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan perbelanjaan
-description: Artikel ini memberikan maklumat tentang fungsi Perbelanjaan dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang fungsi Perbelanjaan dalam Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Takrifkan kalendar projek
-description: Artikel ini memberikan maklumat tentang cara menggunakan templat kalendar pada projek untuk menjejak jadual projek.
+description: Artikel ini menyediakan maklumat tentang cara menggunakan templat kalendar pada projek untuk menjejak jadual projek.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

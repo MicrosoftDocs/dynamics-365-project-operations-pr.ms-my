@@ -1,6 +1,6 @@
 ---
 title: Import anggaran kepada baris kontrak berasaskan projek
-description: Artikel ini memberikan maklumat tentang cara mengimport anggaran dari projek ke garis kontrak.
+description: Artikel ini menyediakan maklumat tentang cara mengimport anggaran daripada projek kepada baris kontrak.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Tutup sebut harga
-description: Artikel ini memberikan maklumat tentang menutup sebut harga dalam Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang penutupan sebut harga dalam Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

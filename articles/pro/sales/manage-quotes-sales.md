@@ -1,6 +1,6 @@
 ---
 title: Urus sebut harga projek
-description: Artikel ini memberikan maklumat mengenai petikan projek.
+description: Artikel ini menyediakan maklumat tentang sebut harga projek.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Senarai semua sebut harga projek boleh dilihat daripada halaman senarai **Sebut 
 Sebut harga boleh dicipta atau dipadam daripada halaman senarai ini atau halaman butiran.
 
  > [!NOTE]
- > Petikan yang mempunyai projek, tugas, anggaran, jurnal dan/atau sebenar yang berkaitan dengannya tidak boleh dipadamkan. Juga, apabila sebut harga ditutup sebagai Menang atau Hilang, ia tidak lagi boleh dipadamkan atau diubah suai. 
+ > Sebut harga yang mempunyai projek, tugas, anggaran, jurnal dan/atau aktual yang berkaitan dengan mereka tidak boleh dipadamkan. Selain itu, apabila sebut harga ditutup sebagai Menang atau Kalah, ia tidak lagi boleh dipadamkan atau diubah suai. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

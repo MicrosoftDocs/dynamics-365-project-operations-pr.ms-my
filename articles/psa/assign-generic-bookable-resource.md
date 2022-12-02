@@ -1,6 +1,6 @@
 ---
 title: Tugaskan sumber boleh ditempah generik kepada tugas dan pasukan projek
-description: Artikel ini memberikan maklumat tentang menempah sumber generik kepada tugas dan pasukan projek.
+description: Artikel ini memberikan maklumat tentang tempahan sumber generik kepada tugasan dan pasukan projek.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

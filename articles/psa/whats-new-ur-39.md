@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau diubah dalam Keluaran Kemas kini Project Service Automation 39, V3
-description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Microsoft Dynamics 365 Project Service Automation Kemas Kini Keluaran 39, V3.
+description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Keluaran Kemas kini Microsoft Dynamics 365 Project Service Automation 39, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -29,7 +29,7 @@ ms.locfileid: "8922463"
 
 Kami amat berbesar hati mengumumkan kemas kini terbaharu untuk apl Microsoft Dynamics 365 Project Service Automation. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Kemas kini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian dalam talian Pusat Pentadbir untuk Dynamics 365 dan pasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk Keluaran Kemas Kini Automasi Project Service 39, V3. Versi ini mempunyai nombor binaan V3.10.60.170 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2022.
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau diubah untuk Keluaran Kemas kini Project Service Automation 39, V3. Versi ini mempunyai nombor binaan V3.10.60.170 dan secara amnya boleh didapati melalui kemas kini kendiri pada Januari 2022.
 
 ## <a name="update-release-39"></a>Keluaran Kemas kini 39
 
@@ -39,14 +39,14 @@ Isu berikut telah dibaiki.
 
 **Umum**
 
-- Beberapa penambahbaikan telah dibuat pada peta tapak untuk terjemahan bahasa Arab.
+- Beberapa penambahbaikan telah dibuat ke atas peta tapak untuk terjemahan bahasa Arab.
 
 **Pengurusan Projek**
 
-- Ralat berlaku apabila anda menukar pengurus projek pada projek kepada pengguna yang sudah menjadi ahli pasukan dalam projek.
+- Ralat berlaku apabila anda mengubah pengurus projek pada projek kepada pengguna yang sudah menjadi ahli pasukan pada projek itu.
 
 **Jualan**
 
-- Pemilik **senarai** harga kontrak Projek tidak betul apabila senarai harga dibuat secara automatik. 
-- Kesan tarikh senarai harga tidak dihormati apabila senarai harga digunakan pada parameter projek.
-- Unit kontrak mungkin tidak mempunyai nilai lalai yang betul apabila mengedit dua sebut harga berasingan.
+- Pemilik **Senarai harga kontrak projek** adalah salah apabila senarai harga dicipta secara automatik. 
+- A tarikh kuat kuasa senarai harga tidak dihormati apabila senarai harga digunakan pada parameter projek.
+- Unit kontrak mungkin tidak mempunyai nilai lalai yang betul semasa mengedit dua sebut harga berasingan.

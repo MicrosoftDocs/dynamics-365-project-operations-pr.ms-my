@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan penyelarasan sumber
-description: Artikel ini menyediakan maklumat yang akan membantu anda memastikan bahawa tempahan sumber dan tugasan untuk projek diselaraskan.
+description: Artikel ini menyediakan maklumat yang akan membantu anda memastikan bahawa tempahan dan tugasan sumber untuk projek disejajarkan.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview

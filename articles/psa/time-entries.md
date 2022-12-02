@@ -1,6 +1,6 @@
 ---
 title: Cipta entri masa
-description: Artikel ini memberikan maklumat tentang cara membuat entri masa.
+description: Artikel ini memberikan maklumat tentang cara untuk mencipta entri masa.
 author: rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu September 2021 - Project Operations untuk senario berasaskan sumber/bukan stok
-description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran September 2021 Operasi Projek untuk senario berasaskan sumber/tidak berstok.
+description: Artikel ini memberikan maklumat tentang kemas kini kualiti yang tersedia dalam keluaran September 2021 bagi Project Operations untuk senario berasaskan sumber/bukan stok.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8923383"
 
 *Digunakan Pada: Project Operations untuk senario berdasarkan sumber/tidak distok*
 
-Artikel ini terpakai kepada komponen dan versi berikut Dynamics 365 Project Operations:
+Artikel ini digunakan pada komponen dan versi Dynamics 365 Project Operations berikut:
 
    - Project Operations dalam persekitaran Microsoft Dataverse versi 4.14.0.99.
    - Pengurusan projek dan perakaunan dalam persekitaran Dynamics 365 Finance versi 10.0.20.
@@ -45,7 +45,7 @@ Jika anda menghadapi isu memulakan peta, ikuti arahan dalam bahagian [Isu kehila
 | Pengebilan dan Penentuan Harga | 2385802 | Perbetulkan ralat yang berlaku dengan jam aktual negatif semasa jumlah projek disegar semula. |
 | Pengebilan dan Penentuan Harga | 2389675 | Tingkah laku pengesahan invois proforma dipertingkatkan. Entiti kerja jangka panjang mesti mengambil kira aktiviti yang diperlukan untuk menulis hasil pengesahan bagi perakaunan. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan di Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Pengurusan projek dan perakaunan dalam Dynamics 365 Finance
 
 | Bahagian ciri | Nombor rujukan | Kemas kini kualiti |
 | --- | --- | --- |

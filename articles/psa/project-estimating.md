@@ -1,6 +1,6 @@
 ---
 title: Kos dan hasil projek
-description: Artikel ini memberikan maklumat mengenai menganggarkan kos dan pendapatan projek.
+description: Artikel ini memberikan maklumat tentang menganggarkan kos dan hasil projek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

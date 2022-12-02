@@ -1,6 +1,6 @@
 ---
 title: Cipta anggaran pada baris sebut harga
-description: Artikel ini memberikan maklumat tentang cara membuat anggaran pada baris sebut harga untuk projek.
+description: Artikel ini menyediakan maklumat tentang cara mencipta anggaran pada baris sebut harga untuk projek.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

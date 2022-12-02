@@ -1,6 +1,6 @@
 ---
 title: Senarai harga produk
-description: Artikel ini memberikan maklumat mengenai senarai harga dalam harga katalog yang digunakan untuk sebut harga projek dan kontrak.
+description: Artikel ini menyediakan maklumat tentang senarai harga dalam penetapan harga katalog yang digunakan untuk sebut harga dan kontrak projek.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

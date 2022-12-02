@@ -1,6 +1,6 @@
 ---
 title: Gunakan perbelanjaan peribadi pada laporan perbelanjaan
-description: Artikel ini memberikan maklumat tentang cara bekerja dengan perbelanjaan peribadi yang ditanggung oleh pekerja semasa dalam perjalanan untuk tujuan perniagaan.
+description: Artikel ini menyediakan maklumat tentang cara menggunakan perbelanjaan peribadi yang ditanggung oleh pekerja semasa melakukan perjalanan bagi tujuan perniagaan.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

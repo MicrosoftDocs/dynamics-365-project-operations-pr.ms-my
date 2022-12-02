@@ -1,6 +1,6 @@
 ---
 title: Sediakan templat kos
-description: Artikel ini menyediakan maklumat tentang cara mencipta dan menggunakan templat kos dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang cara mencipta dan menggunakan templat kos dalam Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8918415"
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 
-Artikel ini menyediakan maklumat tentang cara mencipta dan menggunakan templat kos dalam Operasi Projek. Templat kos menentukan:
+Artikel ini memberikan maklumat tentang cara mencipta dan menggunakan templat kos dalam Project Operations. Templat kos menentukan:
 
 - Kategori projek untuk ramalan dan transaksi sebenar akan dimasukkan dalam peratusan pengiraan siap projek. Nilai peratusan siap digunakan untuk mengira jumlah hasil yang dikenal pasti.
 - Sama ada peratusan siap boleh diubah suai jika ia dikira secara automatik.
@@ -56,7 +56,7 @@ Menentukan pendekatan yang perlu diambil untuk mencipta templat kos boleh bergan
 ## <a name="create-cost-templates"></a>Cipta templat kos
 Untuk mencipta templat kos, ikuti langkah-langkah berikut:
 
-1. Untuk mengakses templat kos, dalam persekitaran Dynamics 365 Finance, pergi ke **Pengurusan Projek dan perakaunan** > **Persediaan Persediaan** > **Anggaran** > **Kos templat**.
+1. Untuk mengakses templat kos, dalam persekitaran Dynamics 365 Finance, pergi ke **Pengurusan projek dan perakaunan** > **Penyediaan** > **Anggaran** > **Templat kos**.
 2. Pilih **Baharu** untuk mencipta templat kos baharu. Masukkan nama dan perihalan.
 3. Berikan ID garisan kos untuk setiap jenis transaksi.
 4. Pilih kaedah penyelesaian lalai:

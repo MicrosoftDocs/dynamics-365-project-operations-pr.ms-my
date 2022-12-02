@@ -1,6 +1,6 @@
 ---
 title: Anggaran projek dan jualan
-description: Artikel ini memberikan maklumat tentang cara memanfaatkan jadual dan anggaran dalam proses jualan.
+description: Artikel ini menyediakan maklumat tentang cara memanfaatkan jadual dan anggaran dalam proses jualan.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

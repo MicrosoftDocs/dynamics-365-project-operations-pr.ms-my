@@ -1,6 +1,6 @@
 ---
 title: Urus kecekapan sumber
-description: Artikel ini memberikan maklumat tentang menyediakan kecekapan untuk sumber projek.
+description: Artikel ini memberikan maklumat tentang penyediaan kecekapan untuk sumber projek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

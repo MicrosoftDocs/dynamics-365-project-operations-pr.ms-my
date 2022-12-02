@@ -1,6 +1,6 @@
 ---
 title: Tugaskan sumber kepada tugas
-description: Artikel ini memberikan maklumat tentang cara memperuntukkan sumber kepada tugas.
+description: Artikel ini memberikan maklumat tentang cara menugaskan sumber kepada tugas.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

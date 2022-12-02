@@ -1,6 +1,6 @@
 ---
 title: Melaporkan laman utama
-description: Artikel ini memberikan maklumat mengenai pelaporan dalam Dynamics 365 Project Service Automation.
+description: Artikel ini memberikan maklumat tentang pelaporan dalam Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Bersama-sama, Microsoft Power BI dan Dynamics 365 memberikan anda cara yang heba
 
 
 ## <a name="additional-resources"></a>Sumber tambahan
-Untuk maklumat lanjut tentang pelaporan dalam PSA, lihat artikel berikut:
+Untuk mendapatkan maklumat lanjut tentang pelaporan dalam PSA, lihat artikel berikut:
 
 - [Bekerja dengan model data Project Service](reports-working-project-service-data-model.md)
 - [Papan pemuka](reports-dashboards.md)

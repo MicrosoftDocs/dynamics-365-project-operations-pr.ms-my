@@ -1,6 +1,6 @@
 ---
 title: Laporan perbelanjaan dan berbilang pelulus
-description: Artikel ini memberikan maklumat tentang laporan perbelanjaan yang memerlukan kelulusan oleh lebih daripada satu orang.
+description: Artikel ini menyediakan maklumat tentang laporan perbelanjaan yang memerlukan kelulusan oleh lebih daripada satu orang.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

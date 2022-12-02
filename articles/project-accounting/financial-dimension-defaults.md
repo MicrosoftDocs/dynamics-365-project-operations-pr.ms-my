@@ -19,7 +19,7 @@ _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan s
 
 
 
-Dynamics 365 Project Operations [menggunakan rangka kerja Dimensi](/dynamics365/finance/general-ledger/financial-dimensions) kewangan dalam Dynamics 365 Finance untuk memberikan pandangan tambahan mengenai subledger projek dan transaksi lejar am.
+Dynamics 365 Project Operations menggunakan rangka kerja [Dimensi kewangan](/dynamics365/finance/general-ledger/financial-dimensions) dalam Dynamics 365 Finance untuk menyediakan wawasan tambahan tentang sublejar projek dan transaksi lejar umum.
 
 Dimensi kewangan lalai boleh ditetapkan pada pelanggan, sumber pembiayaan projek, pencapaian, baris kontrak projek, atau projek.
 

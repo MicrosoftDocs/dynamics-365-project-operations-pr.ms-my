@@ -1,6 +1,6 @@
 ---
 title: Prestasi cadangan invois projek
-description: Artikel ini memberikan maklumat tentang peningkatan prestasi pada cadangan invois projek.
+description: Artikel ini menyediakan maklumat tentang peningkatan prestasi untuk cadangan invois projek.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

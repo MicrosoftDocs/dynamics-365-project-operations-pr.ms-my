@@ -1,6 +1,6 @@
 ---
 title: Kemas kini jadual keluaran untuk Project Service 3. x
-description: Artikel ini menyediakan maklumat mengenai keluaran yang tersedia dan akan datang Dynamics 365 Project Service Automation.
+description: Artikel ini menyediakan maklumat mengenai keluaran sedia ada dan akan datang bagi Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -65,7 +65,7 @@ Keluaran untuk maklumat tentang kemas kini lain untuk Project Service, lihat [Pe
 |<strong>Stesen 4</strong> | |  |  | |
 | | <i>Eropah</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 Oktober 2022
 |<strong>Stesen 5</strong> | |  |  | |
-| | <i>Amerika Utara</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Disember 04 2022
+| | <i>Amerika Utara</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 November 2022
 |<strong>Stesen 6</strong> | |  |  | |
 | | <i>Awan Komuniti Kerajaan</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02 November 2022
 | | <i>Kumpulan Skala Berdedikasi</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11 November 2022

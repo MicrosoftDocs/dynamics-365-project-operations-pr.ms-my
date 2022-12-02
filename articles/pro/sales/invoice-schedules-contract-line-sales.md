@@ -1,6 +1,6 @@
 ---
 title: Cipta jadual invois tentang baris kontrak berasaskan projek - lite
-description: Artikel ini memberikan maklumat tentang membuat jadual invois dan peristiwa penting.
+description: Artikel ini memberikan maklumat tentang penciptaan jadual invois dan pencapaian.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

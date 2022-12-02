@@ -1,6 +1,6 @@
 ---
 title: Sediakan perbatuan menggunakan peringkat kadar perbatuan
-description: Artikel ini memberikan maklumat mengenai kadar perbatuan dan kadar perbatuan.
+description: Artikel ini menyediakan maklumat tentang kadar perbatuan dan peringkat kadar perbatuan.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Ciri **Pengiraan jumlah Perbatuan untuk berbilang peringkat perbatuan dengan kad
 
 Selepas anda mendayakan ciri tersebut, tetapkan semula peringkat perbatuan untuk menunjukkan nilai medan kuantiti medan **Kuantiti**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Mendayakan pengiraan jumlah Perbatuan mengikut ciri tahun fiskal
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Dayakan ciri Pengiraan jumlah perbatuan mengikut tahun fiskal
 
-Pengiraan **jumlah Perbatuan mengikut ciri tahun fiskal** membolehkan tetapan baharu dalam parameter pengurusan Perbelanjaan yang melakukan pengiraan jumlah perbatuan sebanyak tahun fiskal dan bukannya tahun kalendar. Lengkapkan langkah berikut untuk mendayakan ciri ini.
+Ciri **Pengiraan jumlah perbatuan mengikut tahun fiskal** mendayakan tetapan baharu dalam parameter pengurusan Perbelanjaan yang melaksanakan pengiraan jumlah perbatuan mengikut tahun fiskal dan bukannya tahun kalendar. Lengkapkan langkah berikut untuk mendayakan ciri ini.
 
 1. Pergi ke **Tetapan** > **Pengurusan Ciri**.
 1. Dalam senarai, cari dan pilih **Pengiraan jumlah perbatuan mengikut tahun fiskal**, kemudian pilih **Dayakan sekarang**.
-1. Pergi ke **Pengurusan Perbelanjaan** > **Persediaan** > **Perbelanjaan Parameter** > **pengurusan Perbelanjaan Am**.
-1. **Pada halaman Parameter** pengurusan perbelanjaan, cari dan dayakan **Gunakan tahun fiskal untuk jumlah** perbatuan.
+1. Pergi ke **Pengurusan Perbelanjaan** > **Persediaan** > **Umum** > **Parameter pengurusan perbelanjaan**.
+1. Pada halaman **Parameter pengurusan perbelanjaan**, cari dan dayakan **Gunakan tahun fiskal untuk jumlah perbatuan**.
 
-Selepas anda mendayakan **Gunakan tahun fiskal untuk jumlah** perbatuan, jumlah perbatuan dikira mengikut tahun fiskal.
+Selepas anda mendayakan **Gunakan tahun fiskal untuk jumlah perbatuan**, jumlah perbatuan dikira mengikut tahun fiskal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

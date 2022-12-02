@@ -1,6 +1,6 @@
 ---
 title: Perancangan dan penjejakan projek
-description: Artikel ini menyediakan pautan ke maklumat mengenai perancangan dan penjejakan dalam Automasi Perkhidmatan Projek.
+description: Artikel ini menyediakan pautan kepada maklumat tentang perancangan dan penjejakan dalam Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8933273"
 
 Aplikasi Project Service membantu organisasi perkhidmatan mengenal pasti peluang, menyerahkan bidaan, menjangkau perjanjian kontrak, menguruskan sumber, menjejaki masa dan perbelanjaan, menginvois pelanggan dan menyampaikan projek tepat pada masanya dan dalam belanjawan. 
 
-Pautan PDF yang sebelum ini dalam artikel ini telah dialih keluar dan kandungan telah dialihkan ke artikel berikut:
+Pautan PDF yang terdapat dalam artikel ini sebelum ini telah dialih keluar dan kandungan telah dialih kepada artikel berikut:
 
 - [Jadual projek](../project-creating.md)
 - [Kos dan hasil projek](../project-estimating.md)

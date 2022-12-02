@@ -1,6 +1,6 @@
 ---
 title: Unit organisasi lanjutan
-description: Artikel ini memberikan maklumat mengenai unit organisasi dalam Dynamics 365 Project Service Automation.
+description: Artikel ini menyediakan maklumat tentang unit organisasi dalam Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927109"
 ---
-# <a name="about-organizational-units"></a>Mengenai unit organisasi 
+# <a name="about-organizational-units"></a>Perihal unit organisasi 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

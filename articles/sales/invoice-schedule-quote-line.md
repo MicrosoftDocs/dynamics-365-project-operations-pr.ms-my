@@ -1,6 +1,6 @@
 ---
 title: Jadual invois pada baris sebut harga berasaskan projek
-description: Artikel ini memberikan maklumat tentang membuat jadual invois dan peristiwa penting untuk baris sebut harga.
+description: Artikel ini menyediakan maklumat tentang penciptaan jadual invois dan pencapaian untuk baris sebut harga.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Mengurus unit kompleks seperti mengikut setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk - lite
-description: Artikel ini memberikan maklumat mengenai pengurusan unit kompleks untuk baris sebut harga berasaskan produk.
+description: Artikel ini menyediakan maklumat tentang mengurus unit kompleks untuk baris sebut harga berasaskan projek.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

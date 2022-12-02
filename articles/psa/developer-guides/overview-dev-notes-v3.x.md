@@ -1,6 +1,6 @@
 ---
 title: Halaman utama pembangunan (Project Service Automation 3.x)
-description: Artikel ini menyediakan pautan ke artikel yang menyediakan maklumat pembangunan untuk Dynamics 365 Project Service Automation (PSA) versi 3.x.
+description: Artikel ini menyediakan pautan kepada artikel yang menyediakan maklumat pembangunan untuk Dynamics 365 Project Service Automation (PSA) versi 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8928995"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x menawarkan ciri baru, pelaksanaan keupayaan platform baharu dan penambahbaikan kepada ciri sedia ada dalam pelbagai bidang. Artikel berikut memberikan lebih banyak maklumat tentang perubahan yang dibuat dalam versi PSA terkini:
+Dynamics 365 Project Service Automation 3.x menawarkan ciri baru, pelaksanaan keupayaan platform baharu dan penambahbaikan kepada ciri sedia ada dalam pelbagai bidang. Artikel berikut memberikan lebih banyak maklumat tentang perubahan yang dibuat dalam versi terbaharu PSA:
 
 - [Perubahan entiti, kawalan dan antara muka pengguna (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Perubahan Masa dan Perbelanjaan (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

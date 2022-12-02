@@ -1,6 +1,6 @@
 ---
 title: Unit dan kumpulan unit
-description: Artikel ini memberikan maklumat tentang cara membuat unit dan kumpulan unit di Dynamics 365 Project Operations.
+description: Artikel ini menyediakan maklumat tentang cara mencipta unit dan kumpulan unit dalam Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -28,7 +28,7 @@ _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok
 
 Unit ialah kuantiti atau ukuran yang anda gunakan untuk menjual produk atau perkhidmatan anda. Sebagai contoh, jika anda menjual bekalan berkebun, anda mungkin menjual benih dalam unit paket, kotak dan palet. Kumpulan unit ini ialah koleksi unit yang berbeza.
 
-Untuk melengkapkan langkah dalam artikel ini, pastikan anda telah ditugaskan kepada peranan Pentadbir Sistem atau Pengurus Profesional Jualan atau mempunyai keizinan yang setara.
+Untuk melengkapkan langkah dalam artikel ini, pastikan anda diuntukkan kepada Pentadbir Sistem atau peranan Pengurus Sales Professional atau mempunyai keizinan setara.
 
 ## <a name="create-a-unit-group"></a>Cipta kumpulan unit
 

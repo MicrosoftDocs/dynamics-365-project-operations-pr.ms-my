@@ -1,6 +1,6 @@
 ---
 title: Jadual projek
-description: Artikel ini memberikan maklumat tentang cara membuat jadual.
+description: Artikel ini memberikan maklumat tentang cara mencipta jadual.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

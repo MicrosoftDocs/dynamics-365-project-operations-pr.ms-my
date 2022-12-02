@@ -1,6 +1,6 @@
 ---
 title: Parameter integrasi Project Service Automation
-description: Artikel ini menerangkan cara mengkonfigurasi cara mengkonfigurasi cara data lalai dimasukkan apabila anda berintegrasi Microsoft Dynamics 365 for Project Service Automation dengan Microsoft Dynamics 365 Kewangan.
+description: Artikel ini menerangkan cara mengkonfigurasi cara data lalai dimasukkan apabila anda mengintegrasikan Microsoft Dynamics 365 for Project Service Automation dengan Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932307"
 
 [!include[banner](../includes/banner.md)]
 
-**Pada halaman parameter** integrasi Automasi Project Service, anda boleh mengkonfigurasi cara data lalai dimasukkan apabila anda berintegrasi Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Untuk projek berjaya disegerakkan daripada Project Service Automation ke Kewangan, anda mesti menetapkan medan berikut.
+Pada halaman **Parameter integrasi Project Service Automation**, anda boleh mengkonfigurasikan cara data lalai dimasukkan apabila anda mengintegrasikan Dynamics 365 Project Service Automation dengan Dynamics 365 Finance. Untuk projek berjaya disegerakkan daripada Project Service Automation ke Kewangan, anda mesti menetapkan medan berikut.
 
 Untuk membuka halaman **Parameter integrasi Project Service Automation**, pergi ke **Pengurusan dan perakaunan projek** \> **Persediaan** \> **Dynamics 365 for Project Service Automation parameter integrasi**. 
 

@@ -1,6 +1,6 @@
 ---
 title: Naik taraf laman utama
-description: Artikel ini menunjukkan di mana untuk mencari maklumat penting mengenai ciri-ciri baru dan berubah dalam Dynamics 365 Project Service Automation, dan proses untuk menaik taraf ke versi terbaru.
+description: Artikel ini menunjukkan di mana untuk mencari maklumat penting mengenai ciri baharu dan diubah dalam Dynamics 365 Project Service Automation dan proses untuk menaik taraf kepada versi terbaharu.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Sebelum ini, pelanggan yang mempunyai tika versi PSA 2.x dan perlu menaik taraf 
 Sebelum anda memulakan proses peningkatan, kami mengesyorkan anda melengkapkan tugas berikut:
 
 - Tentu sahkan sama Dynamics 365 Field Service dan Project Service Automation telah dipasang pada tika yang dikenal pasti. Jika kedua-dua penyelesaian dipasang, anda perlu merancang untuk menaik taraf sebelum anda menyambung semula kegunaan biasa tika.
-- Semak artikel berikut dengan teliti. Kesedaran dan pemahaman tentang perubahan antara versi akan membantu anda dengan proses peningkatan. Artikel ini memberikan maklumat tentang perubahan besar dalam PSA, bersama-sama dengan pertimbangan dan cadangan untuk merancang naik taraf anda kepada versi 3.x.
+- Semak semula dengan teliti artikel berikut. Kesedaran dan pemahaman tentang perubahan antara versi akan membantu anda dengan proses peningkatan. Artikel ini memberikan maklumat tentang perubahan besar dalam PSA, bersama dengan pertimbangan dan pengesyoran untuk merancang naik taraf anda kepada versi 3.x.
 
     - [Perkara baharu atau berubah dalam Project Service Automation versi 3](whats-new-changed-v3.md)
     - [Pertimbangan naik taraf - Project Service Automation versi 2.x atau 1.x kepada versi 3](upgrade-v3.md)
 
 - Naik taraf tika kotak pasir anda untuk menilai perubahan dalam pelaksanaan anda sebelum anda menaik taraf tika pengeluaran anda.
 
-Selepas anda menyemak artikel yang telah disebutkan sebelum ini dan bersedia untuk menaik taraf kepada PSA versi 3.x atau versi berasaskan UCI, serahkan permintaan kepada sokongan Microsoft untuk menjadikan naik taraf tersedia daripada pusat Pentadbiran. Dalam permintaan anda, berikan butiran tika anda.
+Selepas anda menyemak artikel yang disebutkan sebelum ini dan bersedia untuk menatar kepada PSA versi 3.x atau versi berasaskan UCI, serahkan permintaan kepada sokongan Microsoft untuk membuat peningkatan tersedia daripada Pusat pentadbir. Dalam permintaan anda, berikan butiran tika anda.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Versi lebih lama PSA (PSA versi 2.x) dalam tika yang baharu dicipta
 

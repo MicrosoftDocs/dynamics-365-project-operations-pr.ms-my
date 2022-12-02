@@ -22,7 +22,7 @@ Artikel ini memberikan maklumat tentang cara menyediakan pengekalan vendor.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Sediakan akaun pengekalan vendor dalam lejar Am
 
-1. Dalam Dynamics 365 Finance, pergi ke **Akaun persediaan** > **pengeposan lejar** > **umum untuk transaksi automatik**.
+1. Dalam Dynamics 365 Finance, pergi ke **Lejar umum** > **Penyediaan penyiaran** > **Akaun untuk urus niaga automatik**.
 2. Tambah baris baharu.
 3. Dalam medan **Jenis penyiaran**, pilih **Pengekalan vendor**.
 4. Pilih akaun utama untuk penyiaran pengekalan vendor.

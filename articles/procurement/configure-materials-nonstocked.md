@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi bahan bukan stok dan invois vendor yang belum selesai
-description: Artikel ini menerangkan cara mendayakan bahan tidak berstok dan invois vendor yang belum selesai.
+description: Artikel ini menerangkan cara mendayakan bahan bukan stok dan invois vendor yang belum selesai.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Jalankan peta Dwi tulis untuk bahan bukan stok dan integrasi invois vendor
 
-Bahagian ini menyediakan maklumat tentang peta khusus yang diperlukan untuk bahan bukan stok dan invois vendor. Sahkan bahawa peta prasyarat yang disenaraikan dalam [artikel Peruntukan persekitaran](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) baru sedang berjalan pada persekitaran anda.
+Bahagian ini menyediakan maklumat tentang peta khusus yang diperlukan untuk bahan bukan stok dan invois vendor. Sahkan bahawa peta prasyarat yang disenaraikan dalam artikel [Peruntukan persekitaran baharu](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) berjalan pada persekitaran anda.
 
 1. Pergi ke Lifecycle Services (LCS), navigasi ke projek LCS anda dan pergi ke halaman **Butiran persekitaran**.
 2. Dalam bahagian **Maklumat Persekitaran Common Data Service**, pilih **Paut ke CDS untuk Aplikasi**. Selepas anda memilih pautan tersebut, anda akan dihalakan semula ke senarai entiti dalam pemetaan.

@@ -1,6 +1,6 @@
 ---
 title: Entri masa tingkah laku UI
-description: Artikel ini memberikan maklumat mengenai tingkah laku UI untuk Kemasukan Masa.
+description: Artikel ini memberikan maklumat tentang tingkah laku UI untuk Entri Masa.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan komponen boleh dituntut bagi baris sebut harga berdasarkan projek
-description: Artikel ini memberikan maklumat tentang komponen yang disertakan, dikenakan bayaran dan tidak boleh dikenakan bayaran pada baris sebut harga berasaskan projek.
+description: Artikel ini memberikan maklumat tentang komponen yang disertakan, boleh dituntut dan tidak boleh dituntut pada baris sebut harga berdasarkan projek.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Model kemahiran dan kecekapan
-description: Artikel ini memberikan maklumat tentang cara menggunakan model kemahiran dan kecekapan.
+description: Artikel ini memberikan maklumat mengenai cara untuk menggunakan model kemahiran dan kecekapan.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

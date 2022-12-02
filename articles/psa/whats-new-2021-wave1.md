@@ -1,6 +1,6 @@
 ---
 title: Perkara baharu atau perubahan dalam Project Service Automation, Akses Awal Gelombang 1 2021, V3
-description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Project Service Automation Early Access Wave 1 2021, V3.
+description: Artikel ini menyenaraikan ciri dan pembetulan yang tersedia dalam Project Service Automation, Akses Awal Gelombang 1 2021, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -31,7 +31,7 @@ ms.locfileid: "8930743"
 
 Kami dengan sukacitanya mengumumkan kemas kini terbaharu untuk aplikasi Project Service Automation untuk Dynamics 365. Keluaran ini menyertakan beberapa penambahbaikan penting kepada kualiti, prestasi dan kebolehgunaan. Keluaran ini serasi dengan Dynamics 365 9.x. Untuk mengemas kini kepada keluaran ini, lawati halaman penyelesaian Pusat Pentadbir untuk Dynamics 365 online untuk memasang kemas kini. Untuk maklumat lanjut, lihat [Pasang, kemas kini atau alih keluar penyelesaian yang diutamakan](/power-platform/admin/install-remove-preferred-solution).
 
-Artikel ini menyenaraikan ciri dan pembetulan yang baru atau diubah untuk Project Service Automation V3, Early Access Wave 1 2021. Versi ini mempunyai nombor binaan V3.10.49.3 dan secara amnya tersedia melalui kemas kini dengan sendiri pada Februari 2021.
+Artikel ini menyenaraikan ciri dan pembetulan yang baharu atau telah diubah dalam Project Service Automation V3, Akses Awal Gelombang 1 2021. Versi ini mempunyai nombor binaan V3.10.49.3 dan secara amnya tersedia melalui kemas kini dengan sendiri pada Februari 2021.
 
 
 ### <a name="bug-fixes"></a>Pembetulan pepijat

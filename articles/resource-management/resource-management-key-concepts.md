@@ -1,6 +1,6 @@
 ---
 title: Konsep utama pengurusan sumber
-description: Artikel ini menyediakan maklumat tentang keupayaan pengurusan sumber dalam Microsoft Dynamics Operasi Projek.
+description: Artikel ini menyediakan maklumat tentang keupayaan pengurusan sumber dalam Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

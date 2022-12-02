@@ -1,6 +1,6 @@
 ---
 title: Takrifkan peranan
-description: Artikel ini menyediakan pautan kepada maklumat tentang menyediakan kategori sumber yang boleh ditempah.
+description: Artikel ini menyediakan pautan kepada maklumat tentang penyediaaan kategori sumber yang boleh ditempah.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

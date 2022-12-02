@@ -1,6 +1,6 @@
 ---
 title: Model keselamatan
-description: Artikel ini memberikan maklumat mengenai model keselamatan dalam Dynamics 365 Project Operations.
+description: Artikel ini memberikan maklumat tentang model keselamatan dalam Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ Sebagai model kerjasama Kumpulan pejabat yang berkembang, kefungsian akan ditamb
 
 Untuk mendapatkan maklumat lanjut, lihat [Keselamatan dalam Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Operasi Projek dan Microsoft Dynamics keselamatan Kewangan 365
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations dan keselamatan Microsoft Dynamics 365 Finance
 Project Operations termasuk peranan berikut:
 
 - Pengurus projek

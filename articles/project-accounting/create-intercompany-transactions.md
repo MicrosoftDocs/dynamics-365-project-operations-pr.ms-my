@@ -1,6 +1,6 @@
 ---
 title: Cipta transaksi antara syarikat
-description: Artikel ini memberikan maklumat tentang cara membuat transaksi antara syarikat.
+description: Artikel ini menyediakan maklumat tentang cara mencipta transaksi antara syarikat.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Apabila transaksi antara syarikat diluluskan, transaksi sebenar berikut dicipta
 
 Kos, kos unit sumber dan penentuan harga transaksi jualan antara organisasi dan mata wang didorong oleh **unit organisasi**. Penting untuk diingati apabila menentukan cara untuk menstrukturkan syarikat dan unit organisasi dalam pelaksanaan anda.
 
-Apabila anda mencipta peluang, sebut harga, kontrak projek dan rekod projek, sistem mengesahkan bahawa mata wang unit kontrak sepadan dengan mata wang perakaunan syarikat kontrak. Apabila tidak sama, rekod ini tidak boleh dicipta. Mata wang unit organisasi ditakrifkan dalam Dynamics 365 Project Operations dengan pergi ke **Dataverse** > **Tetapan** > **Unit organisasi**. Mata wang perakaunan syarikat ditakrifkan dalam Dynamics 365 Finance dengan pergi ke **Ledger persediaan** > **Lejar lejar** > **Am**. Mata wang disegerakkan dengan persekitaran Dataverse anda dengan menggunakan peta Dwitulis Lejar.
+Apabila anda mencipta peluang, sebut harga, kontrak projek dan rekod projek, sistem mengesahkan bahawa mata wang unit kontrak sepadan dengan mata wang perakaunan syarikat kontrak. Apabila tidak sama, rekod ini tidak boleh dicipta. Mata wang unit organisasi ditakrifkan dalam Dynamics 365 Project Operations dengan pergi ke **Dataverse** > **Tetapan** > **Unit organisasi**. Mata wang perakaunan syarikat ditakrifkan dalam Dynamics 365 Finance dengan pergi ke **Lejar umum** > **Persediaan lejar** > **Lejar**. Mata wang disegerakkan dengan persekitaran Dataverse anda dengan menggunakan peta Dwitulis Lejar.
 
 Sistem mencipta kos unit sumber dan aktual jualan unit antara organisasi dalam situasi berikut:
 
   - Apabila unit sumber berbeza daripada unit kontrak
   - Apabila unit sumber berbeza daripada syarikat kontrak
 
-Walau bagaimanapun, hanya urus niaga yang mempunyai syarikat penyumberan semula yang berbeza dari syarikat kontrak akan dipindahkan ke persekitaran Dynamics 365 Finance untuk perakaunan tambahan.
+Walau bagaimanapun, hanya transaksi yang mempunyai syarikat sumber yang berbeza daripada syarikat kontrak akan dipindahkan ke persekitaran Dynamics 365 Finance untuk perakaunan tambahan.
 
 Perakaunan untuk aktual projek direkodkan dalam jurnal integrasi Project Operations dalam Kewangan. Sistem mencipta garisan jurnal berikut.
 

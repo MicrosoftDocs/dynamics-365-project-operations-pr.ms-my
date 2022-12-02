@@ -1,6 +1,6 @@
 ---
-title: Penarikan balik entri yang diluluskan sebelumnya
-description: Artikel ini menerangkan cara ahli pasukan projek boleh meminta penarikan balik rekod masa, perbelanjaan dan penggunaan bahan yang telah diserahkan dan diluluskan sebelum ini dan cara pengurus projek boleh meluluskan atau menolak permintaan penarikan balik.
+title: Penarikan balik entri yang diluluskan sebelum ini
+description: Artikel ini menerangkan cara ahli pasukan projek boleh meminta tarik balik rekod masa yang telah diserahkan dan diluluskan sebelum ini, perbelanjaan dan penggunaan bahan dan cara pengurus projek boleh meluluskan atau menolak permintaan tarik balik.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,30 +13,30 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930375"
 ---
-# <a name="recall-previously-approved-entries"></a>Penarikan balik entri yang diluluskan sebelumnya
+# <a name="recall-previously-approved-entries"></a>Penarikan balik entri yang diluluskan sebelum ini
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Ahli pasukan projek yang menyerahkan masa, perbelanjaan atau entri penggunaan bahan boleh menarik balik entri tersebut selepas ia diluluskan. Proses penarikan balik mempunyai dua langkah utama:
+Ahli pasukan projek yang menyerahkan entri masa, perbelanjaan atau penggunaan bahan boleh menarik balik entri selepas diluluskan. Proses tarik balik mempunyai dua langkah utama:
 
 1. Penyerah meminta tarik balik.
-2. Pelulus meluluskan permintaan penarikan balik.
+2. Pelulus meluluskan permintaan tarik balik.
 
 ## <a name="request-a-recall"></a>Meminta tarik balik
 
-Ikuti langkah ini untuk meminta penarikan balik entri masa, perbelanjaan atau penggunaan bahan yang diluluskan.
+Ikut langkah ini untuk meminta tarik balik entri masa, perbelanjaan atau penggunaan bahan yang diluluskan.
 
-1. Ikuti salah satu langkah ini, bergantung pada jenis entri yang anda ingin ingat:
+1. Ikut salah satu langkah ini, bergantung pada jenis entri yang anda mahu tarik balik:
 
-    - Untuk entri masa, pergi ke **Projek** \> **Kemasukan Masa Kerja** \> **Saya** dan pilih semua entri masa untuk gabungan tertentu projek dan tugas. Secara alternatif, dalam grid, pilih sel individu untuk masa pada tarikh tertentu bagi projek tertentu.
-    - Untuk entri perbelanjaan, pergi ke **Projek** \> **Perbelanjaan Kerja Saya** \> **dan** pilih baris untuk entri perbelanjaan untuk ditarik balik.
-    - Untuk entri penggunaan bahan, pergi ke **Projek** \> **Log Penggunaan Bahan Kerja** \> **Saya**, dan pilih baris untuk entri penggunaan bahan untuk ditarik balik.
+    - Untuk entri masa, pergi ke **Projek** \> **Kerja Saya** \> **Entri Masa**, dan pilih semua entri masa untuk gabungan projek dan tugas tertentu. Secara alternatif, dalam grid, pilih sel individu untuk masa pada tarikh tertentu bagi projek tertentu.
+    - Untuk entri perbelanjaan, pergi ke **Projek** \> **Kerja Saya** \> **Perbelanjaan**, dan pilih baris bagi entri perbelanjaan untuk tarik balik.
+    - Untuk entri penggunaan bahan, pergi ke **Projek** \> **Kerja Saya** \> **Log Penggunaan Bahan**, dan pilih baris bagi entri penggunaan bahan untuk tarik balik.
 
-2. Pilih **Tarik balik**. Kotak dialog pengesahan muncul. Jika entri masa, perbelanjaan atau penggunaan bahan yang dipilih telah diluluskan, anda digesa untuk memasukkan sebab penarikan balik.
+2. Pilih **Tarik balik**. Kotak dialog pengesahan muncul. Jika entri masa, perbelanjaan, atau penggunaan bahan yang dipilih sudah diluluskan, anda digesa untuk memasukkan sebab untuk tarik balik.
 3. Masukkan sebab untuk tarik balik dan kemudian pilih **OK** untuk mengesahkan operasi. Sistem menghantar kepada individu yang meluluskan entri tersebut permintaan untuk meluluskan tarik balik.
 
 > [!IMPORTANT]
-> Anda tidak boleh mencipta permintaan penarikan balik untuk masa, perbelanjaan atau entri penggunaan bahan yang diluluskan yang telah diinvois kepada pelanggan. Jika anda mencuba, anda menerima mesej yang menyatakan bahawa masa, perbelanjaan atau entri penggunaan bahan tidak boleh ditarik balik kerana ia telah diinvois. Dalam kes ini, anda boleh meminta penarikan balik entri hanya jika invois pembetulan digunakan untuk mengeluarkan kredit penuh atau bayaran balik kepada pelanggan pada invois asal.
+> Anda tidak boleh mencipta permintaan tarik balik untuk kelulusan entri masa, perbelanjaan atau penggunaan bahan yang diluluskan sebelum ini yang telah diinvoiskan kepada pelanggan. Jika anda cuba, anda menerima mesej yang menyatakan bahawa entri masa, perbelanjaan atau penggunaan bahan tersebut tidak boleh ditarik balik kerana sudah diinvoiskan. Dalam kes ini, anda boleh meminta tarik balik entri hanya jika invois pembetulan digunakan untuk mengeluarkan kredit penuh atau bayaran balik kepada pelanggan pada invois asal.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Luluskan atau tolak permintaan tarik balik
 
@@ -52,7 +52,7 @@ Ikuti langkah ini untuk meluluskan atau menolak permintaan tarik balik.
     Jika anda memilih **Tolak**, permintaan tarik balik ditolak.
 
 > [!IMPORTANT]
-> Apabila penarikan balik diluluskan, sama seperti apabila ia diminta, sistem menyemak sebarang aktiviti invois pada masa, perbelanjaan atau entri penggunaan bahan. Jika entri telah diinvois atau jika ia berada pada invois draf, pelulus menerima mesej ralat yang menyatakan bahawa masa atau perbelanjaan tidak boleh diluluskan untuk ditarik balik kerana ia telah diinvois. Dalam kes ini, pelulus boleh meluluskan penarikan balik hanya jika invois pembetulan digunakan untuk mengeluarkan kredit penuh atau bayaran balik kepada pelanggan pada invois asal.
+> Apabila tarik balik diluluskan, sebaik sahaja diminta, sistem menyemak sebarang aktiviti penginvoisan pada entri masa, perbelanjaan, atau penggunaan bahan. Jika entri telah pun diinvoiskan, atau jika ia berada pada invois draf, pelulus menerima mesej ralat yang menyatakan bahawa masa atau perbelanjaan tersebut tidak boleh diluluskan untuk tarik balik kerana sudah diinvoiskan. Dalam kes ini, pelulus boleh meluluskan tarik balik entri hanya jika invois pembetulan digunakan untuk mengeluarkan kredit penuh atau bayaran balik kepada pelanggan pada invois asal.
 
 ## <a name="impact-of-a-recall-request"></a>Kesan daripada permintaan tarik balik
 
@@ -60,9 +60,9 @@ Apabila kelulusan ditarik balik, terdapat kesan operasi dan kesan kewangan.
 
 ### <a name="operational-impact"></a>Kesan operasi
 
-Jika permintaan tarik balik diluluskan, rekod kelulusan akan ditandakan sebagai **Ditolak.** Status entri ditukar kepada sama ada **Dikembalikan** atau **Ditolak**, bergantung kepada sama ada kemasukan masa atau kemasukan perbelanjaan atau penggunaan bahan.
+Jika permintaan tarik balik diluluskan, rekod kelulusan akan ditandakan sebagai **Ditolak.** Status entri ditukar kepada sama ada **Dikembalikan** atau **Ditolak**, bergantung pada sama ada entri tersebut ialah entri masa atau entri perbelanjaan atau entri penggunaan bahan.
 
-Ahli pasukan projek boleh melihat entri, mengedit dan kemudian menghantar semula entri, atau memadam sepenuhnya entri.
+Ahli pasukan projek boleh melihat entri, mengedit, kemudian menghantar semula entri atau memadamkan entri sepenuhnya.
 
 Jika permintaan tarik balik ditolak, status entri masih **Diluluskan** dan entri tersebut tidak boleh diedit oleh ahli pasukan projek atau pelulus bagi projek tersebut.
 
@@ -79,14 +79,14 @@ Jika permintaan tarik balik ditolak, tiada kesan kewangan pada projek tersebut.
 
 ## <a name="changes-to-time-entry-records"></a>Perubahan pada rekod entri masa
 
-Ilustrasi berikut menunjukkan perubahan yang berlaku untuk entri masa yang diluluskan dan rekod kelulusan yang sepadan apabila ia ditarik balik.
+Ilustrasi berikut menunjukkan perubahan yang berlaku bagi entri masa yang diluluskan dan rekod kelulusan yang berkenaan apabila ditarik balik.
 
-![Peralihan keadaan kemasukan masa.](media/TimeEntryStateTransitions.png)
+![Peralihan keadaan entri masa.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Perubahan kepada rekod kemasukan perbelanjaan dan penggunaan bahan
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Perubahan pada rekod entri perbelanjaan dan penggunaan bahan
 
-Ilustrasi berikut menunjukkan perubahan yang berlaku untuk perbelanjaan yang diluluskan dan entri penggunaan bahan dan rekod kelulusan yang sepadan apabila ia ditarik balik.
+Ilustrasi berikut menunjukkan perubahan yang berlaku bagi entri masa perbelanjaan dan penggunaan bahan yang diluluskan dan rekod kelulusan yang berkenaan apabila ditarik balik.
 
-![Peralihan keadaan kemasukan perbelanjaan.](media/ExpenseEntryStateTransitions.png)
+![Peralihan keadaan entri perbelanjaan.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

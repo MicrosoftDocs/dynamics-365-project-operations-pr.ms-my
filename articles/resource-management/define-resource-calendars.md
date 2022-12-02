@@ -1,6 +1,6 @@
 ---
 title: Takrifkan kalendar sumber
-description: Artikel ini menyediakan maklumat tentang cara mentakrifkan kalendar jam kerja untuk sumber dalam Operasi Projek.
+description: Artikel ini memberikan maklumat tentang cara mentakrifkan kalendar waktu kerja untuk sumber dalam Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

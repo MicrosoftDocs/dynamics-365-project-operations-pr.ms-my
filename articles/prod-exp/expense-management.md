@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan Pengurusan perbelanjaan
-description: Artikel ini memberikan maklumat umum mengenai pengurusan Perbelanjaan dan pautan ke sumber tambahan. Anda boleh menggunakan Pengurusan perbelanjaan untuk mencipta aliran kerja tersepadu yang anda boleh menyimpan maklumat kaedah pembayaran, mengimport transaksi kad kredit dan menjejak wang yang dibelanjakan oleh pekerja apabila mereka menanggung perbelanjaan untuk perniagaan anda.
+description: Artikel ini menyediakan maklumat am tentang Pengurusan perbelanjaan dan pautan kepada sumber tambahan. Anda boleh menggunakan Pengurusan perbelanjaan untuk mencipta aliran kerja tersepadu yang anda boleh menyimpan maklumat kaedah pembayaran, mengimport transaksi kad kredit dan menjejak wang yang dibelanjakan oleh pekerja apabila mereka menanggung perbelanjaan untuk perniagaan anda.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Untuk mengetahui maklumat lanjut, lihat [Laporan perbelanjaan dibentuk semula](E
 
 ### <a name="blogs"></a>Blog
 
-Anda boleh mendapatkan pendapat, berita, dan maklumat lain di [Microsoft Dynamics blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 365 dan [Microsoft Dynamics blog 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Anda boleh mencari pandangan, berita dan maklumat lain pada [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) dan [blog Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Blog Komuniti Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) memberi Microsoft Dynamics Partners satu sumber yang mereka boleh mempelajari perkara baharu dan dalam trend dalam MBS Operations.
 

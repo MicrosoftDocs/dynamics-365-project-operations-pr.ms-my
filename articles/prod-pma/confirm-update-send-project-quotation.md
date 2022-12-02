@@ -1,6 +1,6 @@
 ---
 title: Sahkan, kemas kini dan hantar sebut harga projek
-description: Artikel ini memberikan maklumat tentang menghantar sebut harga kepada pelanggan untuk pengesahan, mengubah suai berdasarkan maklum balas, dan kemudian menghantar semula sebut harga.
+description: Artikel ini memberikan maklumat tentang penghantaran sebut harga kepada pelanggan untuk pengesahan, pengubahsuaian berdasarkan maklum balas dan kemudian penghantaran semula sebut harga.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article

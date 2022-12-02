@@ -1,6 +1,6 @@
 ---
 title: Tempah lembut sumber
-description: Artikel ini memberikan maklumat tentang cara menjadualkan secara tentatif atau ahli pasukan projek buku lembut.
+description: Artikel ini memberikan maklumat tentang cara menjadualkan secara sementara atau membuat tempahan sementara ahli pasukan projek.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

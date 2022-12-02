@@ -1,6 +1,6 @@
 ---
 title: Memenuhi keperluan sumber
-description: Artikel ini memberikan maklumat tentang cara memenuhi keperluan sumber.
+description: Artikel ini memberikan maklumat tentang cara untuk memenuhi keperluan sumber.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

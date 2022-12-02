@@ -1,6 +1,6 @@
 ---
 title: Segerakkan kapasiti sumber
-description: Artikel ini memberikan maklumat tentang cara menyegerakkan kapasiti sumber merentas kalendar dan projek.
+description: Artikel ini memberikan maklumat tentang cara menyegerakkan kapasiti sumber merentasi kalendar dan projek.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

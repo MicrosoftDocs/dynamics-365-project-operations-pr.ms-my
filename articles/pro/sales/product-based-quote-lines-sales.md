@@ -1,6 +1,6 @@
 ---
 title: Gambaran keseluruhan baris sebut harga berasaskan produk - lite
-description: Artikel ini memberikan maklumat tentang bekerja dengan baris sebut harga berasaskan produk.
+description: Artikel ini menyediakan maklumat tentang bekerja dengan baris sebut harga berasaskan produk.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

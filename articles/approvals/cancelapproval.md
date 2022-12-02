@@ -1,6 +1,6 @@
 ---
-title: Batalkan kelulusan penyertaan yang diluluskan sebelum ini
-description: Artikel ini menerangkan cara pengurus projek boleh membatalkan kelulusan masa, perbelanjaan atau entri penggunaan bahan yang diluluskan sebelum ini.
+title: Batalkan kelulusan bagi entri yang diluluskan sebelum ini
+description: Artikel ini menerangkan cara pengurus projek boleh membatalkan entri masa, perbelanjaan atau penggunaan bahan yang diluluskan sebelumnya.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -13,35 +13,35 @@ ms.contentlocale: ms-MY
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8930467"
 ---
-# <a name="cancel-the-approval-of-previously-approved-entries"></a>Batalkan kelulusan penyertaan yang diluluskan sebelum ini
+# <a name="cancel-the-approval-of-previously-approved-entries"></a>Batalkan kelulusan bagi entri yang diluluskan sebelum ini
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Pengurus projek atau pelulus yang telah meluluskan masa, perbelanjaan atau entri penggunaan bahan sebelum ini boleh membatalkan kelulusan mereka terhadap entri tersebut. 
+Pengurus projek atau pelulus yang telah meluluskan entri masa, perbelanjaan atau penggunaan bahan sebelumnya boleh membatalkan kelulusan entri tersebut. 
 
-Ikuti langkah ini untuk membatalkan kelulusan masa, perbelanjaan atau entri penggunaan bahan yang diluluskan sebelum ini.
+Ikut langkah-langkah ini untuk membatalkan kelulusan entri masa, perbelanjaan atau penggunaan bahan yang diluluskan sebelumnya.
 
 1. Pergi ke **Projek** \> **Kerja Saya** \> **Kelulusan**.
-2. Halaman **senarai Kelulusan** menunjukkan semua entri masa yang sedang menunggu kelulusan. Tukar pandangan kepada **kelulusan saya yang lalu**.
-3. Pilih masa, perbelanjaan atau kelulusan bahan untuk dibatalkan. Kemudian, pada Anak Tetingkap Tindakan, pilih **Batalkan Kelulusan**.
+2. Halaman senarai **Kelulusan** menunjukkan semua entri masa yang sedang menunggu kelulusan. Tukar pandangan kepada **Kelulusan lalu saya**.
+3. Pilih kelulusan masa, perbelanjaan atau material untuk dibatalkan. Kemudian, pada Anak Tetingkap Tindakan, pilih **Batalkan Kelulusan**.
 4. Dalam kotak mesej pengesahan yang muncul, pilih **OK** untuk mengesahkan operasi.
 
 > [!IMPORTANT]
-> Anda tidak boleh membatalkan kelulusan masa, perbelanjaan dan entri penggunaan bahan yang telah diluluskan sebelum ini yang telah diinvois kepada pelanggan. Jika anda mencuba, anda menerima mesej yang menyatakan bahawa kelulusan tidak boleh dibatalkan kerana ia telah diinvois. Dalam kes ini, anda boleh membatalkan kelulusan hanya jika invois pembetulan digunakan untuk mengeluarkan kredit penuh atau bayaran balik kepada pelanggan pada invois asal.
+> Anda tidak boleh membatalkan kelulusan entri masa, perbelanjaan dan penggunaan bahan yang diluluskan sebelum ini yang telah diinvoiskan kepada pelanggan. Jika anda cuba melakukannya, anda menerima mesej yang menyatakan bahawa kelulusan tidak boleh dibatalkan kerana ia sudah diinvois. Dalam kes ini, anda boleh membatalkan kelulusan hanya jika invois pembetulan digunakan untuk mengeluarkan kredit penuh atau bayaran balik kepada pelanggan pada invois asal.
 
-## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Kesan membatalkan kelulusan kemasukan yang diluluskan sebelum ini
+## <a name="impact-of-canceling-the-approval-of-a-previously-approved-entry"></a>Kesan pembatalan kelulusan entri yang telah diluluskan sebelumnya
 
 Apabila kelulusan dibatalkan, terdapat impak operasi dan impak kewangan.
 
 ### <a name="operational-impact"></a>Kesan operasi
 
-Jika kelulusan penyertaan dibatalkan, rekod kelulusan ditandakan sebagai **Dihantar**. Status entri ditukar kepada **Dihantar**. Pada peringkat ini, ahli pasukan projek boleh menarik balik entri tanpa mengemukakan permintaan penarikan balik.
+Jika kelulusan entri dibatalkan, rekod kelulusan akan ditanda sebagai **Diserahkan**. Status entri ditukar kepada **Diserahkan**. Dalam peringkat ini, ahli pasukan projek boleh memanggil balik entri tanpa menyerahkan permintaan panggilan balik.
 
-Pelulus boleh mengubah kuantiti **boleh dibilkan** dan **nilai jenis** pengebilan, dan kemudian meluluskan entri sekali lagi.
+Pelulus boleh mengubah nilai **Kuantiti boleh dibilkan** dan **Jenis pengebilan** dan kemudian meluluskan entri sekali lagi.
 
 ### <a name="financial-impact"></a>Kesan kewangan
 
-Sekiranya kelulusan kemasukan dibatalkan, aktual yang sesuai untuk kos dan penjualan dikemas kini dengan cara berikut:
+Jika kelulusan entri dibatalkan, aktual yang berkaitan untuk kos dan jualan dikemas kini dengan cara berikut:
 
 - Medan **Status Pelarasan** dikemas kini kepada **Dilaraskan**.
 - Medan **Status Pengebilan** dikemas kini kepada **Dibatalkan**.

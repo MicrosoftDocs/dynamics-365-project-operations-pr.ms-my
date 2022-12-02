@@ -1,6 +1,6 @@
 ---
 title: Peringkat projek
-description: Artikel ini memberikan maklumat tentang peringkat projek yang tersedia dalam Microsoft Dynamics Operasi Projek.
+description: Artikel ini memberikan maklumat tentang peringkat projek yang tersedia dalam Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Apabila anda mengaitkan projek dengan sebut harga atau apabila anda mencipta pro
 
 ## <a name="plan"></a>Pelan
 
-Apabila anda menang sebut harga yang dikaitkan dengan sesuatu projek dan projek tersebut beralih ke peringkat **Kontrak**, peringkat projek dikemas kini kepada **Pelan**. Semasa projek berada dalam **peringkat Pelan**, **tab Jualan** pada **halaman Entiti** Projek menunjukkan butiran kontrak.
+Apabila anda menang sebut harga yang dikaitkan dengan sesuatu projek dan projek tersebut beralih ke peringkat **Kontrak**, peringkat projek dikemas kini kepada **Pelan**. Semasa projek berada dalam peringkat **Pelan**, tab **Jualan** pada halaman **Entiti Projek** menunjukkan butiran kontrak tersebut.
 
 ## <a name="deliver"></a>Hantar
 
