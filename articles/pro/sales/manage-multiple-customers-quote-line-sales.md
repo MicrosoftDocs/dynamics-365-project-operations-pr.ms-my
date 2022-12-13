@@ -1,23 +1,23 @@
 ---
-title: Urus berbilang pelanggan pada baris sebut harga berdasarkan projek - ringan
-description: Artikel ini menerangkan cara mengurus berbilang pelanggan pada baris sebut harga berasaskan projek.
+title: Urus berbilang pelanggan pada baris sebut harga projek
+description: Artikel ini menerangkan cara menguruskan berbilang pelanggan pada baris sebut harga projek.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927799"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824450"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Urus berbilang pelanggan pada baris sebut harga berdasarkan projek - ringan
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Urus berbilang pelanggan pada baris sebut harga projek
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Baris sebut harga berasaskan projek menyokong senario yang setiap baris sebut harga mempunyai senarai pelanggan yang membayarnya. Senarai pelanggan pada baris sebut harga berasaskan projek boleh sama dengan senarai pelanggan pada sebut harga. Anda juga boleh mengubah senarai pelanggan yang akan berbeza. Apabila sebut harga projek dimenangi, senarai pelanggan pada baris sebut harga berasaskan projek disalin ke baris kontrak berasaskan projek yang berpadanan untuk akhirnya mencipta kontrak projek. Pelanggan pada sebut harga berasaskan projek disalin ke kontrak projek.
+Garis petikan projek menyokong senario di mana setiap baris sebut harga mempunyai senarai pelanggan yang membayarnya. Senarai pelanggan pada baris sebut harga berasaskan projek boleh sama dengan senarai pelanggan pada sebut harga. Anda juga boleh mengubah senarai pelanggan yang akan berbeza. Apabila sebut harga projek dimenangi, senarai pelanggan pada baris sebut harga berasaskan projek disalin ke baris kontrak berasaskan projek yang berpadanan untuk akhirnya mencipta kontrak projek. Pelanggan pada sebut harga berasaskan projek disalin ke kontrak projek.
 
 Apabila anda menginvois kontrak projek akhir, senarai pelanggan pada baris kontrak berasaskan projek mengambil keutamaan melalui senarai pada kontrak projek. Senarai pelanggan pada kontrak projek hanya digunakan untuk melalaikan baris kontrak projek baharu.
 

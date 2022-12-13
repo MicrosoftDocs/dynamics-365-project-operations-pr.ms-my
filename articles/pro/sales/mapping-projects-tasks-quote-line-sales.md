@@ -1,23 +1,23 @@
 ---
-title: Petakan projek dan tugas kepada baris sebut harga berasaskan projek
-description: Artikel ini memberikan maklumat tentang cara memetakan projek dan tugas kepada baris tugas berasaskan projek.
+title: Memetakan projek dan tugas pada baris petikan projek
+description: Artikel ini menyediakan maklumat tentang cara memetakan projek dan tugas pada baris sebut harga projek.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917173"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824358"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Petakan projek dan tugas kepada baris sebut harga berasaskan projek
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Memetakan projek dan tugas pada baris petikan projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Pada baris sebut harga berasaskan projek, anda boleh memetakan tugas khusus projek yang sudah dikaitkan kepada baris sebut harga.
+Pada baris sebut harga projek, anda boleh memetakan tugas tertentu projek yang telah dikaitkan dengan baris sebut harga.
 
 Apabila anda memetakan tugas kepada baris sebut harga, item berikut yang anda takrifkan pada baris sebut harga hanya akan digunakan pada tugas tersebut:
 

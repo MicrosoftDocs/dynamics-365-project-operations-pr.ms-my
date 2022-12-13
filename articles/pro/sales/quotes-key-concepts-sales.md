@@ -1,17 +1,17 @@
 ---
-title: Sebut harga - Konsep utama - ringan
+title: Konsep unik untuk Sebut harga projek
 description: Artikel ini memberikan maklumat tentang menggunakan sebut harga projek dalam Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916989"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825905"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Konsep unik untuk Sebut harga projek
 
@@ -82,9 +82,13 @@ Jadual invois adalah khusus untuk setiap baris sebut harga dan juga pilihan. Jad
 
 Sebut harga Project Operations dibina pada sebut harga Dynamics 365 Sales. Walau bagaimanapun, terdapat beberapa perbezaan yang penting dalam kefungsian yang patut anda ketahui:
 
-- Tindakan **Semak Semula** dan **Aktifkan** tidak disokong.
+
 - Sebut harga Project Operations mempunyai dua jenis baris yang berbeza. Satu adalah untuk projek dan satu lagi untuk produk.
 - Sebut harga Project Operations mempunyai borang dan elemen UI, peraturan perniagaan, logik perniagaan dalam pasang masuk dan skrip bahagian klien mereka sendiri yang menjadikannya unik daripada sebut harga Sales.
+- Sebut harga jualan membolehkan anda melampirkan berbilang pesanan pada sebut harga jualan. Dalam Operasi Projek, hanya satu kontrak projek boleh dilampirkan pada sebut harga projek.
+- Apabila anda memenangi sebut harga jualan, peluang yang berkaitan boleh kekal terbuka. Selepas sebut harga projek dimenangi, peluang yang berkaitan akan ditutup.
+- Sebut harga jualan tidak termasuk beberapa bidang dan konsep yang disertakan pada sebut harga projek. Medan termasuk **Unit Kontrak**, **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.  
+- **Jenis**: Sebut harga jualan dan projek juga dikenal pasti oleh medan berasaskan set pilihan, **Jenis**. Untuk sebut harga jualan, medan ini mempunyai nilai **Berasaskan item**. Untuk sebut harga projek, ia mempunyai nilai **Berasaskan kerjas**.
 
 Untuk sebab ini, penggunaan sebut harga Sales dan sebut harga Project Operations secara bergantian tidak disyorkan.
 

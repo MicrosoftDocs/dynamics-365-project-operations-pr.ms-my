@@ -1,19 +1,19 @@
 ---
-title: Urus berbilang pelanggan pada kontrak projek
-description: Artikel ini menyediakan maklumat tentang cara mengurus berbilang pelanggan pada kontrak projek.
+title: Urus berbilang pelanggan pada kontrak berasaskan projek
+description: Artikel ini menyediakan maklumat tentang cara menguruskan berbilang pelanggan pada kontrak berasaskan projek.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928351"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825390"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Urus berbilang pelanggan pada kontrak projek
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Urus berbilang pelanggan pada kontrak berasaskan projek
 
 Artikel ini menyediakan maklumat tentang cara mengurus berbilang pelanggan pada kontrak projek. Anda boleh menggunakan kontrak projek apabila perjanjian kontrak untuk berbilang pelanggan diperlukan bagi membiayai perjanjian. Pada halaman **Kontrak Projek**, tab **Ringkasan** termasuk maklumat tentang pelanggan utama untuk urusan. Pelanggan lain yang mengambil bahagian dalam urusan boleh ditambah pada tab **Pelanggan**.
 

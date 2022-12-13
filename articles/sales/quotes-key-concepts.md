@@ -1,8 +1,8 @@
 ---
-title: Sebut harga - Konsep utama
-description: Artikel ini menyediakan maklumat tentang sebut harga projek dan jualan yang tersedia dalam Project Operations.
+title: Konsep unik untuk sebut harga berdasarkan projek
+description: Artikel ini menyediakan maklumat tentang petikan projek dalam Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912527"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824339"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Konsep unik untuk Sebut harga berdasarkan projek
+# <a name="concepts-unique-to-project-based-quotes"></a>Konsep unik untuk sebut harga berdasarkan projek
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Dalam Dynamics 365 Project Operations, terdapat dua jenis sebut harga, projek dan jualan. Dua jenis sebut harga berbeza mengikut cara berikut:
+Sebelum anda mula menggunakan sebut harga projek dalam Microsoft Dynamics 365 Project Operations, anda harus mengetahui konsep utama berikut.
 
-- **Grid untuk item baris**: Pada sebut harga jualan, terdapat hanya satu grid untuk item baris. Pada sebut harga projek, terdapat dua grid untuk item baris. Satu grid adalah untuk baris projek dan yang lain untuk baris produk.
-- **Pengaktifan dan semakan**: Sebut harga jualan menyokong pengaktifan dan semakan. Proses ini tidak disokong pada sebut harga projek.
-- **Pesanan dilampirkan**: Anda boleh melampirkan berbilang pesanan kepada sebut harga jualan. Hanya satu kontrak projek boleh dilampirkan ke sebut harga projek.
-- **Memenangi sebut harga**: Apabila anda memenangi sebut harga jualan, peluang yang berkaitan boleh kekal dibuka. Selepas sebut harga projek dimenangi, peluang yang berkaitan akan ditutup.
-- **Medan dan konsep**: Sebut harga jualan tidak termasuk beberapa medan dan konsep yang disertakan pada sebut harga projek. Medan termasuk **Unit Kontrak**, **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.  
-- **Jenis**: Sebut harga jualan dan projek juga dikenal pasti oleh medan berasaskan set pilihan, **Jenis**. Untuk sebut harga jualan, medan ini mempunyai nilai **Berasaskan item**. Untuk sebut harga projek, ia mempunyai nilai **Berasaskan kerjas**.
+## <a name="owning-company"></a>Syarikat pemilikan
 
-Artikel ini menumpu kepada butiran sebut harga projek.
+Syarikat yang memiliki mewakili entiti undang-undang yang memiliki penghantaran projek. Pelanggan pada sebut harga harus menjadi pelanggan yang sah dalam entiti undang-undang tersebut dalam aplikasi kewangan dan operasi. Mata wang syarikat yang memiliki dan mata wang unit kontrak yang dipilih pada sebut harga berasaskan projek mesti sepadan.
 
-Sebut harga projek dalam Project Operations boleh mempunyai berbilang baris item atau baris sebut harga. Malah, sebut harga projek mempunyai dua grid untuk item baris. Salah satu grid untuk projek berasaskan baris yang membolehkan anggaran terperinci. Grid lain ialah untuk talian berasaskan produk yang menggunakan harga unit ringkas dan pendekatan berasaskan kuantiti.
+## <a name="contracting-unit"></a>Unit pengkontrakan
 
-- **Berasaskan projek**: Nilai disebut harga ditentukan selepas anda menganggarkan jumlah kerja yang diperlukan. Anda boleh menganggarkan kerja pada peringkat tinggi, secara langsung sebagai butiran baris di bawah setiap baris sebut harga atau berasaskan anggaran asas dengan menggunakan projek dan pelan projek. Baris sebut harga berasaskan projek ditemui hanya dalam sebut harga berasaskan projek yang dicipta menggunakan Project Operations. Baris sebut harga jenis ini ialah borang disesuaikan bagi baris sebut harga tulis yang tersedia dalam Microsoft Dynamics 365 Sales.
+Unit kontrak mewakili bahagian atau amalan yang memiliki penyampaian projek. Anda boleh menyediakan kos sumber untuk setiap unit pengkontrakan. Apabila anda menentukan kos sumber untuk sumber dalam unit kontrak, anda boleh menetapkan kadar kos yang berbeza untuk sumber yang dipinjam oleh unit kontrak daripada, atau untuk bahagian atau amalan lain dalam perusahaan. Kadar kos ini dirujuk sebagai harga pemindahan, pinjaman sumber, atau harga pertukaran. Apabila anda menubuhkan kos meminjam sumber dari bahagian lain, anda boleh menetapkan kadar kos dalam mata wang bahagian pinjaman.
 
-- **Berasaskan produk**: Nilai disebut harga ditentukan berasaskan kuantiti unit yang dijual dan harga jualan unit. Produk pada baris berasaskan produk boleh datang dari katalog produk dalam Jualan, atau ia boleh menjadi produk yang anda takrifkan. Jenis baris sebut harga ini juga tersedia pada sebut harga berasaskan projek yang dicipta dengan menggunakan Project Operations.
+## <a name="cost-currency"></a>Mata wang kos
 
-Jumlah pada sebut harga ialah jumlah merentas baris berdasarkan produk dan baris berasaskan projek.
+Mata wang kos dalam Operasi Projek adalah mata wang yang kos dilaporkan. Mata wang ini diperoleh daripada mata wang yang dilampirkan pada medan unit **Kontrak pada** sebut harga, kontrak dan projek. Kos terhadap projek boleh direkodkan dalam mana-mana mata wang. Walau bagaimanapun, terdapat penukaran mata wang dari mata wang yang kosnya direkodkan dalam mata wang kos projek.
 
-> [!NOTE]
-> Sebut harga dan baris sebut harga tidak diperlukan dalam Project Operations. Anda boleh memulakan proses projek dengan kontrak projek (projek yang dijual). Walau bagaimanapun, peluang sentiasa diperlukan, tanpa mengira sama ada anda bermula dengan sebut harga atau kontrak projek.
+Oleh kerana kadar pertukaran pada platform tidak boleh berkuat kuasa tarikh, jumlah kos pada Dataverse skrin mungkin berubah dari semasa ke semasa jika anda mengemas kini kadar pertukaran mata wang. Walau bagaimanapun, kos yang direkodkan dalam pangkalan data kekal tidak berubah, kerana jumlahnya disimpan dalam mata wang yang mereka tanggung.
 
-## <a name="project-based-quote-lines"></a>Baris sebut harga berdasarkan projek
+## <a name="sales-currency"></a>Mata wang jualan
 
-Baris sebut harga berasaskan projek dalam Project Operations mempunyai kaedah pengebilan berikut:
+Mata wang jualan dalam Operasi Projek adalah mata wang yang anggaran dan jumlah jualan sebenar direkodkan dan ditunjukkan dalam. Ia juga merupakan mata wang yang diinvois oleh pelanggan untuk perjanjian itu. Untuk sebut harga projek, mata wang jualan lalai ditetapkan daripada rekod pelanggan atau akaun dan ia boleh diubah apabila sebut harga dibuat. Walau bagaimanapun, mata wang jualan tidak boleh diubah selepas sebut harga disimpan. Senarai harga produk dan projek lalai ditetapkan berdasarkan mata wang jualan sebut harga.
 
-- Masa dan bahan
-- Harga tetap
+Tidak seperti kos, nilai jualan boleh direkodkan **hanya** dalam mata wang jualan.
 
-### <a name="time-and-material"></a>Masa dan bahan
+## <a name="billing-method"></a>Kaedah pengebilan
 
-Masa dan kaedah pengebilan bahan adalah berdasarkan penggunaan. Apabila anda memilih kaedah pengebilan ini, pelanggan ialah diinvois sebagai kos berlaku projek. Invois dicipta berdasarkan kekerapan berkala berasaskan tarikh. Semasa proses jualan, nilai yang disebut harga bagi komponen masa dan bahan hanya memberikan anggaran kos terakhir kepada pelanggan. Vendor tidak akan melakukannya sendiri untuk melengkapkan projek pada nilai sebut harga yang disebut dengan betul. Komponen masa dan bahan meningkatkan risiko pelanggan. Pelanggan mungkin mahu berunding tambahan kepada klausa tidak melebihi untuk meminimumkan risiko mereka. Project Operations tidak menyokong tetapan tidak melebihi.
+Projek biasanya mempunyai model kontrak yuran tetap dan berasaskan penggunaan. Dalam Operasi Projek, model kontrak projek diwakili oleh kaedah pengebilan. Kaedah pengebilan mempunyai dua nilai: masa dan bahan dan harga tetap.
 
-### <a name="fixed-price"></a>Harga tetap
+- **Masa dan bahan** - Model kontrak berasaskan penggunaan di mana setiap kos yang ditanggung disokong oleh pendapatan yang sepadan. Ketika anda menganggarkan atau mengenakan lebih banyak kos, jualan anggaran dan aktual yang sepadan juga akan meningkat. Anda boleh menentukan tidak melebihi had pada baris sebut harga yang mempunyai kaedah pengebilan ini. Dengan cara ini, anda boleh mengehadkan pendapatan sebenar. Anggaran pendapatan tidak terjejas oleh had tidak melebihi had.
+- **Harga**  tetap- Model kontrak yuran tetap di mana nilai jualan adalah bebas daripada kos yang ditanggung. Nilai jualan adalah tetap dan tidak berubah ketika anda menganggarkan atau mengenakan lebih banyak kos.
 
-Dalam kaedah pengebilan Harga tetap, vendor melakukan sendiri untuk menyampaikan projek dengan kos tetap kepada pelanggan. Pelanggan dibilkan nilai yang disebut bagi talian sebut harga tetap, tanpa mengira kos yang menyebabkan vendor untuk menyampaikan baris sebut harga tersebut. Nilai baris sebut harga tetap dibilkan dalam salah satu cara berikut: 
+## <a name="project-price-lists"></a>Senarai harga projek
 
-- Sebagai jumlah sekaligus pada permulaan atau akhir projek, atau apabila pencapaian projek dicapai. 
-- Pada kekerapan berasaskan tarikh ansuran yang sama nilai tetap pada baris sebut harga. Ansuran ini dikenali sebagai pencapaian berkala.
-- Pada ansuran yang mempunyai nilai kewangan yang sejajar dengan kemajuan kerja atau pencapaian khusus yang dicapai pada projek. Dalam kes ini, nilai setiap ansuran boleh berbeza, tetapi ia mesti menambah sehingga nilai tetap pada baris sebut harga.
+Senarai harga projek ialah senarai harga yang digunakan untuk memasukkan harga lalai, bukan kadar kos, untuk masa, perbelanjaan dan komponen berkaitan projek lain. Mungkin terdapat berbilang senarai harga dan setiap senarai boleh mempunyai keberkesanan tarikhnya sendiri untuk setiap sebut harga projek. Operasi Projek tidak menyokong kesan tarikh bertindih untuk senarai harga projek.
 
-Project Operations menyokong kesemua tiga jenis jadual invois untuk baris sebut harga tetap.
+## <a name="product-price-lists"></a>Senarai harga produk
 
-## <a name="transaction-classification"></a>Pengelasan transaksi
+Senarai harga produk adalah senarai harga yang digunakan untuk memasukkan harga lalai, bukan kadar kos, untuk baris berasaskan produk pada sebut harga. Terdapat hanya satu senarai harga produk bagi setiap sebut harga.
 
-Organisasi perkhidmatan profesional biasanya sebut harga dan invois pelanggan mereka dengan pengelasan kos. Kos akan diwakili oleh pengelasan transaksi berikut:
+## <a name="transaction-classes"></a>Kelas transaksi
 
-- **Masa**: Klasifikasi ini mewakili kos buruh atau masa sumber manusia pada projek.
-- **Perbelanjaan**: Pengelasan ini mewakili semua jenis perbelanjaan lain pada projek. Kerana perbelanjaan boleh secara umum dikelaskan, kebanyakan organisasi mencipta subkategori, seperti perjalanan, sewa kereta, hotel atau bekalan pejabat.
-- **Yuran**: Pengelasan ini mewakili pelbagai overhead, penalti dan item lain yang dikenakan kepada pelanggan. 
-- **Cukai**: Pengelasan ini mewakili amaun cukai yang ditambah oleh pengguna apabila mereka memasukkan perbelanjaan.
-- **Transaksi bahan**: Pengelasan ini mewakili aktual daripada barisan produk pada invois projek yang telah disahkan.
-- **Pencapaian**: Pengelasan ini digunakan oleh logik pengebilan harga tetap.
+Project Operations menyokong empat jenis kelas transaksi:
 
-Satu atae lebih pengeleasan transaksi boleh dikaitkan dengan setiap baris sebut harga. Selepas sebut harga dimenangi, pemetaan antara klasifikasi transaksi dan baris sebut harga dipindahkan ke baris kontrak.
-  
-Sebagai contoh, sebut harga mungkin mengandungi dua baris sebut harga berikut: 
+- Masa
+- Perbelanjaan
+- Bahan
+- Yuran
 
-- Kerja perundingan yang menggunakan kaedah pengebilan masa dan bahan di mana pengelasan transaksi masa dan yuran dikenakan. Contohnya, semua transaksi masa dan yuran untuk projek contoh **Pelaksanaan Dynamics AX** ialah invois kepada pelanggan berdasarkan masa dan bahan yang digunakan. 
-- Perbelanjaan perjalanan berkaitan yang menggunakan kaedah pengebilan harga tetap. Contohnya, semua perbelanjaan perjalanan untuk projek contoh **Pelaksanaan Dynamiscs AX** ialah invois pada nilai wang tetap.
+Kos dan nilai jualan boleh dianggarkan dan ditanggung pada **kelas** transaksi Masa, Perbelanjaan **,** dan **Bahan** . **Yuran** adalah kelas transaksi pendapatan sahaja.
 
-> [!NOTE]
-> Gabungan klasifikasi projek dan transaksi **Masa**, **Perbelanjaan** dan **Yuran** yang dikaitkan dengan baris sebut harga atau baris kontrak mesti unik. Jika gabungan projek dan transaksi yang sama kelas dikaitkan dengan lebih daripada satu baris kontrak atau baris sebut harga, Project Operations tidak akan berfungsi dengan betul.
+## <a name="work-entities-and-billing-entities"></a>Entiti kerja dan entiti pengebilan
 
-## <a name="billing-types"></a>Jenis pengebilan
+Projek dan Tugas adalah entiti yang mewakili kerja. Garis sebut harga dan talian Kontrak adalah entiti yang mewakili pengebilan. Anda boleh memautkan entiti kerja yang berbeza kepada pilihan pengebilan dengan mengaitkannya dengan baris Sebut Harga atau baris Kontrak.
 
-Medan **Jenis Pengebilan** mentakrifkan konsep kebolehtuntutan. Ia ialah set pilihan yang mempunyai nilai mungkin berikut:
+## <a name="multi-customer-deals"></a>Urus niaga berbilang pelanggan
 
-- **Boleh dituntut**: Kos yang terakru oleh peranan/kategori ini adalah kos langsung yang mendorong pelaksanaan projek dan pelanggan akan membayar untuk kerja ini. Pembayaran boleh ditadbir sebagai masa dan bahan atau perkiraan harga tetap. Walau bagaimanapun, pekerja yang menghabiskan masa ini akan menerima kredit yang sesuai untuk penggunaan boleh dibilkan beliau.
-- **Tidak boleh dituntut** – Kos yang terakru oleh peranan/kategori ini adalah dianggap kos langsung yang mendorong pelaksanaan projek walaupun pelanggan tidak mengenali fakta ini dan tidak akan membayar untuk kerja ini. Pekerja yang menghabiskan masa ini tidak akan dikreditkan dengan penggunaan yang boleh dibilkan untuk itu.
-- **Percuma**: Kos yang terakru oleh peranan/kategori ini adalah dianggap kos langsung yang mendorong pelaksanaan projek dan pelanggan mengenali fakta ini. Pekerja yang menghabiskan masa ini tidak akan dikreditkan untuk penggunaan yang boleh dibilkan untuk itu. Walau bagaimanapun, kos ini tidak dicaj kepada pelanggan.
-- **Tidak tersedia**: Kos yang ditanggung ke atas projek dalaman yang tidak memerlukan penjejakan hasil dijejak dengan menggunakan pilihan ini.
+Tawaran berbilang pelanggan berlaku apabila terdapat lebih daripada satu pelanggan bagi setiap invois. Berikut adalah beberapa contoh biasa:
 
-## <a name="invoice-schedule"></a>Jadual invois
+- **Pengilang peralatan asal (OEM) perusahaan dan rakan kongsi mereka- Rakan kongsi**  dan penjual semula menjual produk yang merangkumi perkhidmatan nilai tambah. Semasa perjanjian dengan pelanggan, OEM biasanya menawarkan untuk membiayai sebahagian daripada projek.
+- **Projek**  sektor awam: Pelbagai jabatan kerajaan tempatan bersetuju membiayai sesuatu projek dan diinvois mengikut pecahan yang dipersetujui sebelum ini. Contohnya, unit pentadbiran sekolah tempatan dan jabatan kerajaan bandar atau tempatan bersetuju untuk membiayai pembinaan kolam renang.
 
-Jadual invois ialah siri tarikh apabila penginvoisan bagi projek berlaku. Anda secara pilihan boleh mencipta jadual invois pada baris sebut harga. Setiap baris sebut harga boleh mempunyai jadual invois sendiri. Untuk mencipta jadual invois, anda mesti menyediakan nilai atribut berikut:
+## <a name="invoice-schedules"></a>Jadual invois
 
-- Tarikh mula pengebilan 
-- Tarikh penghantaran yang mewakili tarikh tamat pengebilan pada projek
-- Kekerapan invois
+Jadual invois adalah khusus untuk setiap baris sebut harga dan merupakan pilihan. Jadual invois dibuat berdasarkan tarikh mula dan tamat tertentu serta kekerapan invois. Ia digunakan semasa peringkat kontrak, apabila proses penciptaan invois automatik dikonfigurasikan. Semasa peringkat sebut harga, jadual invois adalah pilihan. Jika ia dicipta semasa peringkat sebut harga, ia disalin ke kontrak projek yang dicipta apabila sebut harga projek dimenangi.
 
-Tiga nilai atribut ini digunakan untuk menjana set tentatif tarikh untuk mewujudkan penginvoisan.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Perbezaan daripada sebut harga jualan Dynamics 365
 
-## <a name="invoice-frequency"></a>Kekerapan invois
+Sebut harga Operasi Projek dibina pada sebut harga Jualan Dynamics 365. Walau bagaimanapun, terdapat beberapa perbezaan yang penting dalam kefungsian yang patut anda ketahui:
 
-Kekerapan invois ialah entiti yang menyimpan nilai atribut yang membantu menerangkan kekerapan penciptaan invois. Atribut berikut menyatakan atau mentakrifkan entiti kekerapan Invois:
+- Petikan Operasi Projek mempunyai dua jenis baris yang berbeza: satu untuk projek dan satu untuk produk.
+- Petikan Operasi Projek mempunyai halaman dan elemen antara muka pengguna (UI) mereka sendiri, peraturan perniagaan, logik perniagaan dalam pemalam, dan skrip pihak klien yang menjadikannya berbeza daripada sebut harga Jualan.
+- Dalam Jualan, anda boleh melampirkan berbilang pesanan pada sebut harga jualan tunggal. Dalam Operasi Projek, anda boleh melampirkan hanya satu kontrak projek pada sebut harga projek.
+- Apabila anda memenangi sebut harga jualan, peluang yang berkaitan boleh kekal terbuka. Selepas sebut harga projek dimenangi, peluang yang berkaitan akan ditutup.
+- Sebut harga jualan tidak termasuk beberapa bidang dan konsep yang disertakan dalam sebut harga projek. Medan termasuk **Unit Kontrak**, **Pengurus Akaun** dan **Bil kepada Nama Kenalan**.
+- Sebut harga jualan dan sebut harga projek dikenal pasti oleh medan Jenis **berasaskan** set pilihan. Untuk sebut harga jualan, nilai medan ini adalah **berasaskan** item. Untuk sebut harga projek, nilainya adalah **berasaskan** Kerja.
 
-- **Tempoh**: Tempoh bulanan, dua kali seminggu dan mingguan disokong. 
-- **Jalan setiap tempoh**: Untuk tempoh mingguan dan dua kali seminggu, anda boleh mentakrifkan hanya satu jalanan setiap tempoh. Untuk tempoh bulanan, anda boleh mentakrifkan antara satu dan empat jalanan setiap tempoh. 
-- **Hari jalanan**: Hari apabila penginvoisan patut dijalankan. Anda boleh mengkonfigurasi atribut ini dalam dua cara yang berbeza:
-  - **Hari kerja**: Contohnya, anda boleh menentukan penginvoisan dijalankan setiap Isnin atau Isnin kedua. Pelanggan yang mesti menetapkan penginvoisan untuk dijalankan pada hari kerja mungkin lebih suka konfigurasi jenis ini. 
-  - **Hari kalendar**: Contohnya, anda boleh menentukan penginvoisan dijalankan pada hari ketujuh dan dua puluh satu setiap bulan. Sesetengah organisasi mungkin lebih suka konfigurasi jenis ini, kerana ia membantu menjamin penginvoisan yang dijalankan pada jadual tetap setiap bulan.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Jadual invois untuk baris sebut harga tetap
-
-Untuk baris sebut harga tetap, anda boleh menggunakan grid **Jadual Invois** untuk mencipta pencapaian pengebilan yang sama dengan nilai baris sebut harga.
-
-- Untuk mencipta peristiwa pengebilan yang sama dibahagikan, pilih kekerapan invois, masukkan tarikh mula pengebilan pada baris sebut harga dan pilih **Tarikh Penyelesaian Diminta** diminta untuk sebut harga dalam bahagian **Ringkasan** bagi pengepala sebut harga. Kemudian pilih **Jana Pencapaian Berkala** berkala untuk mencipta pencapaian yang sama rata berdasarkan kekerapan invois yang dipilih. 
-- Untuk mencipta pencapaian pengebilan sekaligus, cipta pencapaian dan kemudian masukkan nilai baris sebut harga sebagai jumlah pencapaian.
-- Untuk mencipta pencapaian pengebilan berdasarkan tugas khusus dalam pelan projek, cipta pencapaian dan petakannya kepada elemen jadual projek dalam UI pencapaian pengebilan.
-
+Oleh kerana perbezaan ini, kami tidak mengesyorkan agar anda menggunakan sebut harga Jualan dan sebut harga Operasi Projek secara bergantian.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

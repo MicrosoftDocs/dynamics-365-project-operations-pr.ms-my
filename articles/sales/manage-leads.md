@@ -1,31 +1,29 @@
 ---
-title: Urus bakal pelanggan
+title: Menguruskan petunjuk berasaskan projek
 description: Artikel ini memberikan maklumat tentang mengurus bakal pelanggan berasaskan projek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920209"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825811"
 ---
-# <a name="manage-leads"></a>Urus bakal pelanggan
+# <a name="manage-project-based-leads"></a>Menguruskan petunjuk berasaskan projek
 
 _**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
 Bakal pelanggan berasaskan projek boleh diuruskan dan layak dalam Project Operations. Proses pengurusan bakal pelanggan termasuk mewujudkan bakal pelanggan berasaskan kerja dan melayakkan bakal pelanggan itu. 
 
-## <a name="project-sales-leads"></a>Bakal pelanggan jualan projek
-
 Dalam bahagian **Jualan**, dalam anak tetingkap navigasi kiri, buka halaman senarai **Bakal Pelanggan** untuk melihat senarai semua rekod bakal pelanggan dalam sistem. Senarai bakal pelanggan ditunjukkan adalah berasaskan kerja dan jenis bakal pelanggan lain yang boleh dicipta jika anda juga mempunyai aplikasi Dynamics 365 Sales atau Dynamics 365 Field Service.
 
 Anda boleh mencipta pandangan ditapis untuk hanya melihat bakal pelanggan berasaskan projek dengan mencipta penapis pada nilai **Jenis**. Contohnya, anda boleh memilih untuk menunjukkan hanya bakal pelanggan berasaskan kerja.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Cipta bakal pelanggan baharu untuk urusan berasaskan projek
+## <a name="create-a-new-project-based-lead"></a>Mencipta petunjuk berasaskan projek baharu 
 
 Apabila bakal pelanggan berasaskan projek layak, peluang dan akaun dicipta. Peluang berasaskan projek adalah titik permulaan untuk aktiviti mengejar jualan dalam fasa Peluang. Peluang berasaskan projek mempunyai keupayaan unik yang diperlukan untuk menjual kerja projek. Keupayaan ini termasuk:
 

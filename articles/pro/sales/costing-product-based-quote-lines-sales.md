@@ -1,21 +1,21 @@
 ---
 title: Penetapan kos baris sebut harga berdasarkan produk
 description: Artikel ini memberikan maklumat tentang penggunaan harga kos pada barus sebut harga berdasarkan produk.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932583"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825623"
 ---
 # <a name="costing-product-based-quote-lines"></a>Penetapan kos baris sebut harga berdasarkan produk
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
 
 Barisan sebut harga berasaskan produk dalam Dynamics 365 Project Operations juga mempunyai medan **Harga Kos**. Medan ini digunakan untuk menjejaki harga kos untuk produk pada baris sebut harga dan untuk pengiraan keuntungan hiliran.

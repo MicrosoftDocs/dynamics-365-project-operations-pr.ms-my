@@ -1,17 +1,17 @@
 ---
-title: Maklumat ringkasan tentang sebut harga projek - ringan
+title: Butiran pengepala untuk sebut harga projek
 description: Artikel ini memberikan maklumat mengenai maklumat dan tetapan yang berkaitan dan memberikan kesan kepada sebut harga projek. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3441348cb46804f8f76cb23b3f916fe69c3fbe99
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 645fcd38aa8307c9f5cfd6772c843dee2cf9055c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917035"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824832"
 ---
 # <a name="header-details-for-project-quotes"></a>Butiran pengepala untuk sebut harga projek
 

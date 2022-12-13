@@ -1,21 +1,21 @@
 ---
-title: Menganggarkan baris sebut harga berdasarkan projek
-description: Artikel ini menyediakan maklumat tentang cara mencipta anggaran pada baris sebut harga berasaskan projek.
+title: Anggarkan baris sebut harga projek
+description: Artikel ini menyediakan maklumat tentang cara membuat anggaran pada baris sebut harga projek.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914367"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825999"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Menganggarkan baris sebut harga berdasarkan projek
+# <a name="estimate-a-project-quote-line"></a>Anggarkan baris sebut harga projek
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Gunakan Pada:** Pelaksanaan ringan - urusan untuk penginvoisan proforma, Project Operations untuk senario berdasarkan sumber/bukan stok_
 
 Baris sebut harga berasaskan projek mempunyai butiran yang membantu menganggarkan kos dan potensi hasil kerja yang terlibat untuk menyampaikan baris sebut harga.
 
@@ -24,7 +24,7 @@ Untuk menganggarkan baris sebut harga berdasarkan projek, pada baris sebut harga
 - Buat secara manual anggaran secara langsung pada baris sebut harga menggunakan butiran baris sebut harga. 
 - Cipta projek dan pelan projek, dan kemudian kaitkan projek dan tugas pada projek ke baris sebut harga. Proses untuk mengimport anggaran ke atas pelan projek ke dalam garis sebut harga berdasarkan maklumat yang anda berikan akan didayakan.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Buat anggaran secara langsung pada baris sebut harga berasaskan projek
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Buat anggaran terus pada baris sebut harga projek
 
 Untuk mencipta anggaran pada baris sebut harga berasaskan projek, pilih tab **Butiran Baris Sebut Harga**. Item baris yang anda cipta pada tab ini akan merumuskan nilai sebut harga untuk baris sebut harga ini. 
 
@@ -68,8 +68,7 @@ Mata wang pada butiran baris sebut harga untuk kos lalai dari senarai harga unit
 
 Pengiraan keuntungan menukar jumlah pada butiran baris sebut harga untuk kos dan jualan ke asas mata wang persekitaran untuk melaporkan jumlah margin yang dianggarkan pada sebut harga tersebut.
 
-> [!NOTA
-> > Ralat pembundaran mata wang dan margin yang ditukar boleh berlaku kerana kurangnya kadar pertukaran berkesan tarikh. Gunakan pengiraan ini hanya pada kontrak projek kerana ini ialah anggaran dan bukan untuk statutori aktual atau pelaporan lain yang memerlukan ketepatan pembundaran dan kesedaran yang lebih tinggi tentang penguatkuasaan tarikh untuk kadar pertukaran.
+> [! NOTE Kesilapan pembundaran mata wang dan margin berubah boleh berlaku kerana kekurangan kadar pertukaran efektif tarikh. Gunakan pengiraan ini hanya pada kontrak projek kerana ini ialah anggaran dan bukan untuk statutori aktual atau pelaporan lain yang memerlukan ketepatan pembundaran dan kesedaran yang lebih tinggi tentang penguatkuasaan tarikh untuk kadar pertukaran.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

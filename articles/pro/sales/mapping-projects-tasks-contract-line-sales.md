@@ -1,23 +1,23 @@
 ---
-title: Petakan projek dan tugas ke baris kontrak berasaskan projek - lite
+title: Petakan projek dan tugas kepada baris kontrak projek
 description: Artikel ini menyediakan maklumat tentang cara menambah dan mengalih keluar projek dan tugas kepada baris kontrak.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932537"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825070"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Petakan projek dan tugas pada baris kontrak berdasarkan projek 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Petakan projek dan tugas kepada baris kontrak projek 
 
 _**Gunakan Pada:** Pelaksanaan ringan - urusan untuk penginvoisan proforma, Project Operations untuk senario berdasarkan sumber/bukan stok_
 
-Pada baris kontrak berasaskan projek, anda boleh memetakan tugas tertentu dalam projek ke baris kontrak.
+Pada baris kontrak projek, anda boleh memetakan tugas tertentu dalam projek ke baris kontrak.
 
 Apabila anda memetakan tugas tertentu ke baris kontrak, kaedah pengebilan, pilihan kebolehtuntutan, had tidak boleh dilebihi dan pelanggan ditakrifkan pada baris kontrak akan digunakan ke tugas tertentu itu sahaja.
 
@@ -25,7 +25,7 @@ Jika anda mempunyai senario satu fasa projek, contohnya Fasa Prototaip adalah ha
 
 Semua fasa lain dalam struktur pecahan kerja projek (WBS) anda boleh dikaitkan dengan masa dan baris kontrak berasaskan bahan.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Kaitkan tugas ke baris kontrak berasaskan projek
+## <a name="associate-tasks-to-project-contract-lines"></a>Tugas bersekutu dengan garis kontrak projek
 
 Tugas boleh dikaitkan ke baris kontrak daripada tab **Tugas Boleh Dicaj** pada halaman **Baris Kontrak** atau daripada tab **Pengebilan Tugas** pada halaman **Projek**.
 

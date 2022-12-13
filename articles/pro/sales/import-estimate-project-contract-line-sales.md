@@ -1,21 +1,21 @@
 ---
-title: Import anggaran ke baris kontrak berdasarkan projek - ringan
+title: Import anggaran daripada projek kepada baris kontrak projek
 description: Artikel ini menyediakan maklumat tentang cara mengimport anggaran kewangan daripada projek kepada baris kontrak.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924211"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824686"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Import anggaran ke baris kontrak berdasarkan projek - ringan
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Import anggaran daripada projek kepada baris kontrak projek
 
-_**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
+_**Digunakan untuk:** Penggunaan Lite - berurusan dengan invois proforma, Operasi Projek untuk senario_ berasaskan sumber/bukan stok_
 
 Dalam Dynamics 365 Project Operations, anda boleh mengimport anggaran daripada projek kepada baris kontrak berasaskan projek.
 

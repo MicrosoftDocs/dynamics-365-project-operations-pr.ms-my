@@ -1,24 +1,24 @@
 ---
-title: Baris peluang berasaskan produk - lite
-description: Artikel ini memberikan maklumat tentang item baris peluang berdasarkan produk dalam Project Operations.
+title: Barisan peluang produk
+description: Artikel ini menyediakan maklumat tentang item baris peluang produk dalam Operasi Projek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e19b371c6e821aecce38d64392db9c027b17106
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 22dd55854f6ab6014021fb073ebed8d4d8b7b4c7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917127"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825022"
 ---
-# <a name="product-based-opportunity-lines---lite"></a>Baris peluang berasaskan produk - lite
+# <a name="product-opportunity-lines"></a>Barisan peluang produk
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Baris peluang berdasarkan produk ialah item baris pada Peluang. Item baris berbeza ini terdapat dalam invois akhir yang disediakan kepada pelanggan. Invois tidak termasuk mana-mana perkhidmatan tambahan lain. Perbelanjaan dan penggunaan yang berkaitan tidak dijejak pada tugas bagi sebarang projek yang berkaitan.
+Barisan peluang produk adalah item baris pada Peluang yang tidak merujuk projek. Item baris berbeza ini terdapat dalam invois akhir yang disediakan kepada pelanggan. Invois tidak termasuk mana-mana perkhidmatan tambahan lain. Perbelanjaan dan penggunaan yang berkaitan tidak dijejak pada tugas bagi sebarang projek yang berkaitan.
 
 Baris berdasarkan produk boleh menjadi item katalog atau produk masukan manual. Kebanyakan kefungsian pada baris berdasarkan produk Peluang mengikut kefungsian yang disediakan oleh aplikasi Dynamics 365 Sales. Untuk maklumat lanjut tentang baris peluang berdasarkan produk, lihat [Tambahkan produk pada peluang](/dynamics365/sales-enterprise/add-products-opportunity).
 

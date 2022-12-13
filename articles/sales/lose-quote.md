@@ -1,19 +1,19 @@
 ---
-title: Salin sebut harga berasaskan projek
-description: Artikel ini menyediakan maklumat tentang cara menyalin sebut harga berasaskan projek dalam Project Operations.
+title: Salin sebut harga projek
+description: Artikel ini menyediakan maklumat tentang cara menyalin petikan projek dalam Operasi Projek.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6c3b964d89d6d24ae5d32dd9e5e79fcd1e90c19d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4f865a4c8a541d6a9c92c5f58a4ed2ed32891eb0
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914919"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825289"
 ---
-# <a name="copy-project-based-quotes"></a>Salin sebut harga berasaskan projek
+# <a name="copy-project-quotes"></a>Salin sebut harga projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 

@@ -1,32 +1,32 @@
 ---
-title: Anggarkan baris kontrak berasaskan projek - ringan
+title: Anggarkan garis kontrak projec
 description: Artikel ini menyediakan maklumat tentang penganggaran baris kontrak berdasarkan projek.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914413"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824779"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Anggarkan baris kontrak berasaskan projek - ringan
+# <a name="estimate-a-project-contract-line"></a>Anggarkan baris kontrak projek
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Dalam Dynamics 365 Project Operations, baris kontrak berdasarkan projek mempunyai butiran yang membantu menganggarkan kos dan potensi pendapatan kerja yang terlibat untuk menyampaikan baris kontrak.
+Dalam Dynamics 365 Project Operations, talian kontrak projek mempunyai butiran yang membantu menganggarkan kos dan potensi pendapatan kerja yang terlibat untuk menyampaikan garis kontrak.
 
-Untuk menganggarkan baris kontrak berdasarkan projek, pergi ke tab **Butiran Baris Kontrak** pada **Baris Kontrak** berdasarkan projek.  Terdapat dua cara untuk mencipta anggaran pada baris kontrak berdasarkan projek:
+Untuk menganggarkan garis kontrak projek, pergi ke **tab Butiran** Talian Kontrak pada Talian Kontrak berasaskan **projek**.  Terdapat dua cara untuk mencipta anggaran pada baris kontrak berdasarkan projek:
 
    - Cipta anggaran secara langsung pada baris kontrak dengan menambah butiran baris kontrak secara manual.
    - Cipta projek dan pelan projek dan kemudian kaitkan projek dan tugas kepada baris kontrak projek. Ini membolehkan proses yang anda boleh mengimport anggaran pelan projek ke baris kontrak berdasarkan komponen yang disertakan dalam baris kontrak.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Cipta anggaran secara langsung pada baris kontrak berdasarkan projek
 
-Untuk mencipta anggaran secara terus pada baris kontrak berdasarkan projek, ikut langkah ini:
+Untuk mencipta anggaran secara langsung pada baris kontrak projek, ikuti langkah berikut:
 
 1. Pergi ke baris kontrak dan pilih tab **Butiran Baris Kontrak**. Baris yang anda cipta pada tab ini diringkaskan dan dipaparkan sebagai **Nilai Kontrak** untuk **Baris Kontrak** ini. 
 2. Dalam subgrid **Butiran Baris Kontrak**, pilih **Butiran Baris Kontrak Baharu**. Gelangsar cipta pantas dibuka. Medan berikut tersedia pada halaman **Butiran Baris Kontrak**.

@@ -1,19 +1,19 @@
 ---
-title: Mengurus unit kompleks seperti mengikut setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk - lite
+title: Mengurus unit kompleks seperti setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk
 description: Artikel ini menyediakan maklumat tentang mengurus unit kompleks untuk baris sebut harga berasaskan projek.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 88173468cd2e898331c4aa0a398792d9a0f3df10
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50151e9a34e8608c98e406a30131c1efc4bf2f11
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929915"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825483"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Mengurus unit kompleks seperti mengikut setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk - lite
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Mengurus unit kompleks seperti setiap pengguna, setiap bulan untuk baris sebut harga berasaskan produk
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 

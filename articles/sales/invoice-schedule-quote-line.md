@@ -1,27 +1,27 @@
 ---
-title: Jadual invois pada baris sebut harga berasaskan projek
+title: Jadual invois pada baris sebut harga projek
 description: Artikel ini menyediakan maklumat tentang penciptaan jadual invois dan pencapaian untuk baris sebut harga.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918323"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825765"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Jadual invois pada baris sebut harga berasaskan projek
+# <a name="invoice-schedules-on-project-quote-lines"></a>Jadual invois pada baris sebut harga projek
 
 _**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
 
-Baris sebut harga berasaskan projek memberikan keupayaan untuk menyatakan jadual invois. Ini adalah pilihan semasa fasa sebut harga kerana aplikasi tidak menyokong penginvoisan projek apabila invois terikat dengan baris sebut harga. Penginvoisan hanya dibenarkan selepas sebut harga dimenangi. Satu-satunya kesan hiliran kerana mencipta jadual invois semasa fasa sebut harga adalah bahawa jadual invois ini disalin pada baris kontrak berasaskan projek. Jika anda tidak mencipta jadual invois semasa fasa sebut harga, anda akan dapat berbuat demikian pada baris kontrak berasaskan projek.
+Garis sebut harga projek memberikan keupayaan untuk menyatakan jadual invois. Ini adalah pilihan semasa fasa sebut harga kerana aplikasi tidak menyokong penginvoisan projek apabila invois terikat dengan baris sebut harga. Penginvoisan hanya dibenarkan selepas sebut harga dimenangi. Satu-satunya kesan hiliran kerana mencipta jadual invois semasa fasa sebut harga adalah bahawa jadual invois ini disalin pada baris kontrak berasaskan projek. Jika anda tidak mencipta jadual invois semasa fasa sebut harga, anda akan dapat berbuat demikian pada baris kontrak berasaskan projek.
 
 Pada keseluruhannya, tujuan jadual invois adalah untuk membenarkan penciptaan automatik invois draf untuk baris kontrak berasaskan projek. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Cipta jadual invois Masa dan bahan untuk baris sebut harga projek
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Mencipta jadual invois Masa dan bahan untuk baris sebut harga projek
 
 Apabila kaedah pengebilan untuk baris sebut harga berdasarkan projek ialah Masa dan bahan, sistem menjana jadual invois berdasarkan tarikh. Untuk menjana jadual invois berdasarkan tarikh secara automatik, lengkapkan langkah berikut.
 
@@ -36,7 +36,7 @@ Apabila kaedah pengebilan untuk baris sebut harga berdasarkan projek ialah Masa 
     - **Tarikh tamat urus niaga** ditetapkan pada hari sebelum **Tarikh Jalanan Invois**.
     - **Status Jalanan** ditetapkan secara automatik kepada **Jangan Jalankan**. Apabila kerja penciptaan invois automatik berjalan untuk tarikh jalanan invois tertentu, ia akan mengemas kini medan ini kepada sama ada **Jalanan Berjaya** atau **Jalanan Gagal**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Cipta jadual invois harga Tetap untuk baris sebut harga projek
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Mencipta jadual Invois harga tetap untuk baris sebut harga projek
 
 Apabila baris sebut harga berasaskan projek mempunyai kaedah pengebilan **Tetap**, sistem mencipta jadual invois berasaskan pencapaian. Lengkapkan langkah berikut untuk menjana jadual ini secara automatik untuk set pencapaian tetap yang diagihkan sama rata untuk tempoh kalendar.
 

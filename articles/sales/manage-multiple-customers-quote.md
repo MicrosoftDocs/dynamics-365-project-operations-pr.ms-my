@@ -1,23 +1,23 @@
 ---
-title: Urus berbilang pelanggan pada sebut harga projek
+title: Menguruskan berbilang pelanggan pada sebut harga berasaskan projek
 description: Artikel ini memberikan maklumat tentang bekerja dengan sebut harga yang melibatkan berbilang pelanggan yang akan membiayai projek itu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928213"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825160"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Urus berbilang pelanggan pada sebut harga projek
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Menguruskan berbilang pelanggan pada sebut harga berasaskan projek
 
-_**Gunakan Pada:** Project Operations untuk senario berasaskan sumber/bukan stok, pelaksanaan Ringan - urusan untuk penginvoisan proforma_
+_**Terpakai Kepada:** Project Operations untuk senario berasaskan sumber/bukan stok_
 
-Sebut harga projek menyokong senario bagi cadangan melibatkan berbilang pelanggan yang akan membiayai urusan itu. Tab **Ringkasan** Sebut Harga mempunyai medan **Pelanggan berpotensi** yang mengenal pasti pelanggan utama urusan. Pelanggan lain untuk urusan boleh ditetapkan pada tab **Pelanggan** sebut harga projek.
+Petikan berasaskan projek menyokong senario di mana cadangan itu melibatkan beberapa pelanggan yang akan membiayai perjanjian itu. Tab **Ringkasan** Sebut Harga mempunyai medan **Pelanggan berpotensi** yang mengenal pasti pelanggan utama urusan. Pelanggan lain untuk urusan boleh ditetapkan pada tab **Pelanggan** sebut harga projek.
 
 Semua pelanggan sebut harga pada tab **Pelanggan** sebut harga projek dilalaikan sebagai pelanggan baris sebut harga pada sebarang baris sebut harga berasaskan projek **baharu** yang dicipta untuk sebut harga. Sebarang baris sebut harga berasaskan projek sedia ada tidak akan mewarisi rekod pelanggan sebut harga baharu yang dicipta selepasnya.
 

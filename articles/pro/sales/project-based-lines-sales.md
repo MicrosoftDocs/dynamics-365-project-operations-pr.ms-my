@@ -1,29 +1,29 @@
 ---
-title: Baris peluang berasaskan projek - lite
+title: Garis peluang projek
 description: Artikel ini memberikan maklumat tentang baris peluang berdasarkan projek. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: ms-MY
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914275"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824967"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Baris peluang berasaskan projek - lite
+# <a name="project-opportunity-lines"></a>Garis peluang projek 
 
 _**Gunakan Kepada:** Pelaksanaan ringan - urusan dengan invois proforma_
 
-Baris peluang berdasarkan projek hanya tersedia dalam peluang berdasarkan projek. Rekod peluang berdasarkan projek mempunyai nilai medan **Jenis** ditetapkan kepada **Berdasarkan kerja**.
+Garis peluang projek hanya tersedia dalam peluang berasaskan projek. Rekod peluang berdasarkan projek mempunyai nilai medan **Jenis** ditetapkan kepada **Berdasarkan kerja**.
 
-Baris peluang berdasarkan projek ialah item baris yang akan disampaikan kepada pelanggan menggunakan projek. Walau bagaimanapun, projek tidak boleh terikat kepada baris peluang berdasarkan projek. Projek boleh diikat kepada item baris daripada peringkat **Sebut Harga** dan ke hadapan kerana biasanya peluang berlaku di peringkat awal dalam kitaran hayat urus niaga. Penentuan jumlah projek yang akan digunakan untuk menyampaikan kerja untuk pelanggan ialah keputusan yang dibuat kemudian dalam fasa jualan. Anda boleh menggunakan fasa peluang untuk mengenal pasti komponen penghantaran diskret untuk pelanggan. Keputusan yang melingkungi jumlah projek sebenar yang digunakan untuk menyampaikan komponen ini boleh ditolak keluar sehingga lebih banyak maklumat diketahui tentang kerja itu sendiri.
+Garis peluang projek adalah item baris yang akan dihantar kepada pelanggan menggunakan projek. Walau bagaimanapun, projek tidak boleh terikat kepada baris peluang berdasarkan projek. Projek boleh diikat kepada item baris daripada peringkat **Sebut Harga** dan ke hadapan kerana biasanya peluang berlaku di peringkat awal dalam kitaran hayat urus niaga. Penentuan jumlah projek yang akan digunakan untuk menyampaikan kerja untuk pelanggan ialah keputusan yang dibuat kemudian dalam fasa jualan. Anda boleh menggunakan fasa peluang untuk mengenal pasti komponen penghantaran diskret untuk pelanggan. Keputusan yang melingkungi jumlah projek sebenar yang digunakan untuk menyampaikan komponen ini boleh ditolak keluar sehingga lebih banyak maklumat diketahui tentang kerja itu sendiri.
 
-Di bawah ialah medan pada baris peluang berdasarkan projek:
+Berikut adalah bidang pada garis peluang projek:
 
-| **Medan** | **Lokasi** | **Perihalan** | **Kesan hiliran** |
+| **Medan** | **Location** | **Penerangan** | **Kesan hiliran** |
 | --- | --- | --- | --- |
 | Jenis Produk | Tab umum (tersembunyi) | Anda boleh memilih satu daripada pilihan yang berikut:</br>- Perkhidmatan berasaskan projek (hanya tersedia apabila Dynamics 365 Project Operations dipasang)</br>- Produk (tersedia hanya apabila Project Operations dan Dynamics 365 Sales dipasang) | Nilai medan ini ditetapkan kepada **Peluang berdasarkan projek** apabila anda mencipta baris peluang berdasarkan projek daripada grid baris berdasarkan projek pada Peluang. <br> Jika anda mengubah atau menulis ganti nilai ini, kefungsian projek tidak akan didayakan pada item baris berdasarkan projek anda. |
 | Peluang | Tab umum | Medan ini ialah baca sahaja dan rujukan rekod Peluang induk yang item baris ini digolongkan. | Tiada kesan hiliran daripada medan ini. |
