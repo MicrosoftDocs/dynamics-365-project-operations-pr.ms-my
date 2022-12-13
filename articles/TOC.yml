@@ -54,7 +54,7 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Penyepaduan invois projek
               href: environment/resource-dual-write-project-invoice.md
-            - name: Penyepaduan pengurusan perbelanjaan
+            - name: Integrasi pengurusan perbelanjaan
               href: environment/resource-dual-write-expense.md
             - name: Penyepaduan invois vendor
               href: environment/resource-dual-write-vendor-invoice.md
@@ -62,11 +62,15 @@
           href: environment/uninstall-project-operations.md
     - name: Ciri baharu
       items:
-        - name: September 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: November 2022 - Project Operations untuk senario berasaskan sumber/bukan distok
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arkib
           items:
-            - name: Ogos 2022 - Project Operations untuk senario berdasarkan sumber/bukan stok
+            - name: Oktober 2022 - Project Operations untuk senario berasaskan sumber/bukan distok
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: September 2022 - Project Operations untuk senario berasaskan sumber/bukan distok
+              href: whats-new/whats-new-sept-2022-resource-based.md
+            - name: Ogos 2022 - Project Operations untuk senario berasaskan sumber/bukan distok
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Julai 2022 - Project Operations untuk senario berdasarkan sumber/tidak distok
               href: whats-new/whats-new-july-2022-resource-based.md
@@ -122,85 +126,83 @@
               href: sales/sales-currency.md
             - name: Unit organisasi
               href: sales/OrgUnits.md
-        - name: Urus bakal pelanggan projek
+        - name: Urus bakal pelanggan berasaskan projek
           href: sales/manage-leads.md
-        - name: Urus peluang projek
+        - name: Urus peluang berasaskan projek
           items:
             - name: Urus gambaran keseluruhan peluang projek
               href: sales/manage-project-based-opportunities.md
-            - name: Butiran pengepala untuk peluang berdasarkan projek
+            - name: Butiran pengepala untuk peluang berasaskan projek
               href: sales/opportunity-header.md
-            - name: Baris peluang berdasarkan projek
+            - name: Baris peluang berasaskan projek
               href: sales/project-based-lines.md
-            - name: Cipta sebut harga projek daripada peluang
+            - name: Cipta sebut harga daripada peluang projek
               href: sales/link-quotes-opportunities.md
-            - name: Salin peluang berdasarkan projek
+            - name: Salin peluang projek
               href: sales/copy-project-based-opportunity.md
             - name: Tutup peluang projek
               href: sales/close-opportunity.md
-        - name: Urus sebut harga projek
+        - name: Urus sebut harga berasaskan projek
           items:
             - name: Urus gambaran keseluruhan sebut harga projek
               href: pro/sales/manage-quotes-sales.md
-            - name: Konsep unik untuk sebut harga berdasarkan projek
+            - name: Konsep unik untuk sebut harga berasaskan projek
               href: sales/quotes-key-concepts.md
-            - name: Butiran pengepala untuk sebut harga berdasarkan projek
+            - name: Butiran pengepala untuk sebut harga berasaskan projek
               href: sales/quote-values-budget-limits-contract.md
-            - name: Urus berbilang pelanggan pada sebut harga projek
+            - name: Urus berbilang pelanggan pada sebut harga berasaskan projek
               href: sales/manage-multiple-customers-quote.md
-            - name: Urus senarai harga projek pada sebut harga
+            - name: Senarai harga projek pada sebut harga projek
               href: pro/sales/manage-project-price-lists-sales.md
-            - name: Baris sebut harga berdasarkan projek
+            - name: Baris sebut harga berasaskan projek
               items:
-                - name: Gambaran keseluruhan baris sebut harga berdasarkan projek
+                - name: Gambaran keseluruhan baris sebut harga projek
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Urus berbilang pelanggan pada baris sebut harga berdasarkan projek
+                - name: Urus berbilang pelanggan pada baris sebut harga berasaskan projek
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Petakan projek dan tugas pada baris sebut harga berdasarkan projek
+                - name: Petakan projek dan tugas pada baris sebut harga projek
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurasikan komponen boleh dikenakan bayaran bagi baris sebut harga berdasarkan projek
+                - name: Konfigurasi komponen boleh dicaj pada baris sebut harga projek
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Konfigurasikan komponen boleh dikenakan bayaran bagi baris sebut harga projek
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Anggarkan baris sebut harga projek
-                  href: sales/create-estimate-quote-line.md
-                - name: Import anggaran daripada projek ke baris sebut harga berdasarkan projek
-                  href: sales/import-estimate-quote-line.md
-                - name: Jadual invois pada baris sebut harga berdasarkan projek
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Import anggaran daripada projek kepada baris sebut harga projek
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Jadual invois pada baris sebut harga projek
                   href: sales/invoice-schedule-quote-line.md
             - name: Salin sebut harga projek
               href: sales/lose-quote.md
             - name: Aktifkan dan semak sebut harga projek
               href: sales/activation-and-revision.md
-            - name: Tutup sebut harga projek
+            - name: Tutup sebut harga berasaskan projek
               href: sales/win-quote.md
-        - name: Urus kontrak projek
+        - name: Urus kontrak berasaskan perniagaan
           items:
-            - name: Gambaran keseluruhan mengurus kontrak projek
+            - name: Urus kontrak projek
               href: pro/sales/manage-contracts-sales.md
-            - name: Konsep unik untuk kontrak berdasarkan projek
+            - name: Konsep unik untuk Kontrak berasaskan Projek
               href: sales/contracts-key-concepts.md
-            - name: Butiran pengepala untuk kontrak berdasarkan projek
+            - name: Butiran pengepala untuk kontrak berasaskan projek
               href: sales/project-contract-settings.md
-            - name: Urus senarai harga projek pada kontrak projek
+            - name: Urus senarai harga projek pada kontrak berasaskan projek
               href: sales/contracts-manage-project-price-lists.md
-            - name: Urus berbilang pelanggan pada kontrak projek
+            - name: Urus berbilang pelanggan pada kontrak berasaskan projek
               href: sales/manage-multiple-customers-contract.md
-            - name: Baris kontrak berdasarkan projek
+            - name: Baris kontrak berasaskan projek
               items:
-                - name: Gambaran keseluruhan baris kontrak berdasarkan projek
+                - name: Gambaran keseluruhan baris kontrak projek
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Urus berbilang pelanggan pada baris kontrak berdasarkan projek
+                - name: Urus berbilang pelanggan pada baris kontrak berasaskan projek
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Petakan projek dan tugas pada baris kontrak projek
+                - name: Petakan projek dan tugas kepada baris kontrak projek
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfigurasi komponen boleh dikenakan bayaran untuk baris kontrak projek
+                - name: Konfigurasi komponen boleh dicaj bagi baris kontrak projek
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Anggarkan baris kontrak projek
+                - name: Anggarkan baris kontrak berasaskan projek
                   href: sales/create-estimate-contract-line.md
-                - name: Import anggaran daripada projek ke baris kontrak berdasarkan projek
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Cipta jadual invois pada baris kontrak berdasarkan projek
+                - name: Import anggaran daripada projek kepada baris kontrak projek
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Cipta jadual invois pada baris kontrak berasaskan projek
                   href: sales/invoice-schedules-contract-line.md
             - name: Salin kontrak berasaskan projek
               href: sales/copy-project-based-contracts-sales.md
@@ -208,17 +210,17 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Pendahuluan dan retainer
               items:
-                - name: Kontrak berdasarkan pendahuluan dan retainer
+                - name: Kontrak projek berasaskan pendahuluan dan retainer
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Sediakan jadual retainer
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Cipta pendahuluan ad hoc pada kontrak
+                - name: Cipta pendahuluan ad hoc pada kontrak projek
                   href: pro/sales/create-ad-hoc-advance-sales.md
-    - name: Penentuan harga dan kos
+    - name: Harga dan kos
       items:
         - name: Penyediaan senarai harga
           items:
-            - name: Takrifan senarai harga
+            - name: Definisi senarai harga
               href: pricing-costing/price-list-setup.md
             - name: Sediakan kadar bil buruh
               href: pricing-costing/set-up-labor-bill-rate.md
@@ -642,9 +644,11 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Segerakkan Status Projek untuk mengelakkan entri ke projek ditutup
           href: advanced-configuration/sync-project-status.md
-    - name: Naik taraf
+        - name: Penyediaan penukaran mata wang untuk mengira harga jualan daripada kadar kos
+          href: advanced-configuration/currencyconversion.md
+    - name: Tatar
       items:
-        - name: Peningkatan pertimbangan untuk kelulusan Moden
+        - name: Pertimbangan tatar untuk kelulusan Moden
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Aplikasi Project Operations
       items:
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: Daftar untuk langganan pratonton - ringan
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Laksanakan Project Operations - ringan
+        - name: Guna Project Operations Ringan
           href: environment/lite-deployment.md
         - name: Gunakan persediaan tunjuk cara dan data konfigurasi - ringan
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,13 +676,17 @@
           href: environment/security-model.md
     - name: Ciri baharu
       items:
-        - name: Ciri baharu September 2022 - pelaksanaan ringan
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Ciri baharu November 2022 - pengerahan ringan
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arkib
           items:
-            - name: Ciri baharu Ogos 2022 - pelaksanaan ringan
+            - name: Ciri baharu Oktober 2022 - pengerahan ringan
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Ciri baharu September 2022 - pengerahan ringan
+              href: pro/whats-new/whats-new-sept-2022-lite.md
+            - name: Ciri baharu Ogos 2022 - pengerahan ringan
               href: pro/whats-new/whats-new-aug-2022-lite.md
-            - name: Ciri baharu Julai 2022 - pelaksanaan ringan
+            - name: Ciri baharu Julai 2022 - pengerahan ringan
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Ciri baharu Jun 2022 - pelaksanaan ringan
               href: pro/whats-new/whats-new-june-2022-lite.md
@@ -744,23 +752,23 @@
               href: pro/sales/opportunity-header-sales.md
             - name: Urus baris peluang berdasarkan produk
               href: pro/sales/product-based-lines-sales.md
-            - name: Urus baris peluang berdasarkan projek
+            - name: Urus baris peluang berasaskan projek
               href: pro/sales/project-based-lines-sales.md
             - name: Cipta sebut harga daripada peluang projek
               href: sales/link-quotes-opportunities.md
-            - name: Salin peluang berdasarkan projek
+            - name: Salin peluang projek
               href: sales/copy-project-based-opportunity.md
             - name: Tutup peluang projek
               href: sales/close-opportunity.md
-        - name: Urus sebut harga berdasarkan projek
+        - name: Urus sebut harga projek
           items:
-            - name: Gambaran keseluruhan sebut harga berdasarkan projek
+            - name: Gambaran keseluruhan sebut harga projek
               href: pro/sales/manage-quotes-sales.md
             - name: Konsep unik untuk sebut harga projek
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Butiran pengepala untuk sebut harga projek
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Berbilang pelanggan pada sebut harga projek
+            - name: Urus berbilang pelanggan pada sebut harga projek
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Senarai harga projek pada sebut harga projek
               href: pro/sales/manage-project-price-lists-sales.md
@@ -770,41 +778,41 @@
                   href: pro/sales/product-based-quote-lines-sales.md
                 - name: Penetapan kos baris sebut harga berdasarkan produk
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: Urus unit kompleks untuk baris sebut harga berdasarkan produk
+                - name: Urus unit kompleks untuk baris sebut harga berasaskan produk
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Baris sebut harga berdasarkan projek
+            - name: Baris sebut harga projek
               items:
-                - name: Gambaran keseluruhan baris sebut harga berdasarkan projek
+                - name: Gambaran keseluruhan baris sebut harga projek
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Urus berbilang pelanggan
+                - name: Urus berbilang pelanggan pada baris sebut harga projek
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Peta projek dan tugas
+                - name: Petakan projek dan tugas pada baris sebut harga projek
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Konfigurasikan komponen boleh dikenakan
+                - name: Konfigurasi komponen boleh dicaj pada baris sebut harga projek
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Anggarkan baris sebut harga berdasarkan projek
+                - name: Anggarkan baris sebut harga projek
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Import anggaran daripada projek
+                - name: Import anggaran daripada projek kepada baris sebut harga projek
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Urus jadual invois
+                - name: Jadual invois pada baris sebut harga projek
                   href: sales/invoice-schedule-quote-line.md
-            - name: Salin sebut harga berasaskan projek
+            - name: Salin sebut harga projek
               href: sales/lose-quote.md
             - name: Aktifkan dan semak sebut harga projek
               href: sales/activation-and-revision.md
-            - name: Tutup sebut harga berasaskan projek
+            - name: Tutup sebut harga projek
               href: pro/sales/win-quote-sales.md
-        - name: Urus kontrak berasaskan perniagaan
+        - name: Urus kontrak projek
           items:
-            - name: Gambaran keseluruhan kontrak berdasarkan projek
+            - name: Gambaran keseluruhan kontrak projek
               href: pro/sales/manage-contracts-sales.md
             - name: Konsep unik untuk kontrak projek
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Butiran pengepala untuk kontrak projek
               href: pro/sales/project-contract-settings-sales.md
-            - name: Berbilang pelanggan pada kontrak projek
+            - name: Urus berbilang pelanggan pada kontrak projek
               href: pro/sales/manage-multiple-customers-contract-sales.md
-            - name: Senarai harga projek kontrak projek
+            - name: Senarai harga projek pada kontrak projek
               href: sales/contracts-manage-project-price-lists.md
             - name: Baris kontrak berdasarkan produk
               items:
@@ -812,23 +820,23 @@
                   href: pro/sales/product-based-contract-lines-overview-sales.md
                 - name: Penentuan kos baris kontrak berdasarkan produk
                   href: pro/sales/cost-product-based-contract-lines-sales.md
-                - name: Urus unit kompleks untuk baris kontrak berdasarkan produk
+                - name: Urus unit kompleks untuk baris kontrak berasaskan produk
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Baris kontrak berdasarkan projek
+            - name: Baris kontrak projek
               items:
-                - name: Gambaran keseluruhan baris kontrak berdasarkan projek
+                - name: Gambaran keseluruhan baris kontrak projek
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Urus berbilang pelanggan kontrak
+                - name: Urus berbilang pelanggan pada kontrak projek
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Petakan projek dan tugas kepada baris kontrak projek
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Konfigurasi komponen boleh dicaj pada baris kontrak berdasarkan projek
+                - name: Konfigurasi komponen boleh dicaj pada baris kontrak projek
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Anggarkan baris kontrak berdasarkan projek
+                - name: Anggarkan baris kontrak projek
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Import anggaran daripada projek kepada baris kontrak projek
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Menguruskan jadual invois pada baris kontrak projek
+                - name: Cipta jadual invois pada baris kontrak projek
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Salin kontrak projek
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,17 +844,17 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Pendahuluan dan retainer
               items:
-                - name: Pendahuluan dan kontrak berdasarkan retainer - ringan
+                - name: Kontrak berasaskan pendahuluan dan retainer
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Sediakan jadual retainer - ringan
+                - name: Sediakan jadual retainerSediakan jadual retainer
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Cipta pendahuluan ad hoc pada kontrak - ringan
+                - name: Cipta pendahuluan ad hoc pada kontrak projek
                   href: pro/sales/create-ad-hoc-advance-sales.md
-    - name: Penentuan harga dan kos
+    - name: Harga dan kos
       items:
         - name: Penyediaan senarai harga
           items:
-            - name: Takrifan senarai harga
+            - name: Definisi senarai harga
               href: pricing-costing/price-list-setup.md
             - name: Sediakan senarai harga produk
               href: pricing-costing/product-price-list.md
@@ -1154,9 +1162,9 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfigurasikan automasi invois projek
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Naik taraf
+    - name: Tatar
       items:
-        - name: Peningkatan pertimbangan untuk kelulusan Moden
+        - name: Pertimbangan tatar untuk kelulusan Moden
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Aplikasi Project Operations
       items:
@@ -1188,11 +1196,13 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Ciri baharu
       items:
-        - name: Ciri baharu September 2022 - Project Operations untuk senario berdasarkan distok/pengeluaran
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Ciri baharu Oktober 2022 - Project Operations untuk senario berasaskan distok/pengeluaran
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arkib
           items:
-            - name: Ciri baharu Julai 2022 - Project Operations untuk senario berdasarkan distok/pengeluaran
+            - name: Ciri baharu September 2022 - Project Operations untuk senario berasaskan distok/pengeluaran
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+            - name: Ciri baharu Julai 2022 - Project Operations untuk senario berasaskan distok/pengeluaran
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Ciri baharu Jun 2022 - Project Operations untuk senario berdasarkan distok/pengeluaran
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
@@ -1214,10 +1224,14 @@
               href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
             - name: Perkara baharu November 2020 - Project Operations untuk senario berdasarkan distok/pengeluaran
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
-    - name: Project Operations untuk gambaran keseluruhan pelaksanaan senario berdasarkan distok/pengeluaran
+    - name: Gambaran keseluruhan pengerahan Project Operations untuk senario berasaskan distok/pengeluaran
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Gambaran keseluruhan pengurusan projek dan perakaunan
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Perakaunan projek
+      items:
+        - name: Gambaran keseluruhan pengurusan projek dan perakaunan
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Pelarasan projek
+          href: project-accounting/project-adjustments.md
     - name: Proses jualan projek
       items:
         - name: Sebut harga projek
@@ -1230,7 +1244,7 @@
           href: prod-pma/project-contracts.md
         - name: Kebenaran projek
           href: prod-pma/project-grants.md
-    - name: Penentuan harga dan kos
+    - name: Harga dan kos
       items:
         - name: Konfigurasikan kos standard untuk buruh dan perbelanjaan
           href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
@@ -1538,9 +1552,9 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Perkara baharu atau perubahan dalam Project Service Automation versi V3
           href: psa/whats-new-changed-v3.md
-    - name: Naik taraf Project Service Automation (versi aplikasi Project Operations Ringan 4.x)
+    - name: Tatar Project Service Automation (versi aplikasi Project Operations Ringan 4.x)
       items:
-        - name: Naik taraf daripada Project Service Automation kepada Project Operations
+        - name: Tatar daripada Project Service Automation kepada Project Operations
           href: psa/upgrade-project-operations-non-stocked.md
         - name: Perubahan ciri daripada Project Service Automation kepada Project Operations
           href: psa/psa-project-operations-changes.md
@@ -1560,15 +1574,15 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Panduan pelaporan
           href: psa/implementation-guides/reporting-guide.md
-    - name: Naik taraf daripada Project Service Automation kepada Project Operations - ringan
+    - name: Tatar daripada Project Service Automation kepada Project Operations - ringan
       href: psa/upgrade-project-operations-non-stocked.md
     - name: Perubahan ciri daripada Project Service Automation kepada Project Operations
       href: psa/psa-project-operations-changes.md
-    - name: Naik taraf Project Service Automation (versi aplikasi 3.x)
+    - name: Tatar Project Service Automation (versi aplikasi 3.x)
       items:
-        - name: Naik taraf Project Service Automation
+        - name: Tatar Project Service Automation
           href: psa/upgrade-psa-home-page.md
-        - name: Pertimbangan naik taraf - versi 2.x atau 1.x ke versi 3
+        - name: Pertimbangan tatar - versi 2.x atau 1.x ke versi 3
           href: psa/upgrade-v3.md
         - name: Pembangunan (3.x)
           items:
@@ -1604,9 +1618,9 @@
               href: psa/project-settings.md
             - name: Rancang kerja anda dalam Microsoft Project dengan tambahan Project Service
               href: psa/add-in-plan-work-projects.md
-        - name: Dimensi penentuan harga dan kos
+        - name: Dimensi harga dan kos
           items:
-            - name: Laman utama dimensi penentuan harga dan kos
+            - name: Laman utama dimensi harga dan kos
               href: psa/pricing-costing-dimensions.md
             - name: Cipta penyelesaian untuk dimensi penentuan harga tersuai
               href: psa/custompricingdimensionssolution.md
