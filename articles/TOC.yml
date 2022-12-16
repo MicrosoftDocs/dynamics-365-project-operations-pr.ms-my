@@ -846,7 +846,7 @@
               items:
                 - name: Kontrak berasaskan pendahuluan dan retainer
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Sediakan jadual retainerSediakan jadual retainer
+                - name: Sediakan jadual retainer
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Cipta pendahuluan ad hoc pada kontrak projek
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,9 +1162,9 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Konfigurasikan automasi invois projek
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Tatar
+    - name: Naik taraf
       items:
-        - name: Pertimbangan tatar untuk kelulusan Moden
+        - name: Peningkatan pertimbangan untuk kelulusan Moden
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Aplikasi Project Operations
       items:
@@ -1244,7 +1244,7 @@
           href: prod-pma/project-contracts.md
         - name: Kebenaran projek
           href: prod-pma/project-grants.md
-    - name: Harga dan kos
+    - name: Penentuan harga dan kos
       items:
         - name: Konfigurasikan kos standard untuk buruh dan perbelanjaan
           href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
@@ -1552,9 +1552,9 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Perkara baharu atau perubahan dalam Project Service Automation versi V3
           href: psa/whats-new-changed-v3.md
-    - name: Tatar Project Service Automation (versi aplikasi Project Operations Ringan 4.x)
+    - name: Naik taraf Project Service Automation (versi aplikasi Project Operations Ringan 4.x)
       items:
-        - name: Tatar daripada Project Service Automation kepada Project Operations
+        - name: Naik taraf daripada Project Service Automation kepada Project Operations
           href: psa/upgrade-project-operations-non-stocked.md
         - name: Perubahan ciri daripada Project Service Automation kepada Project Operations
           href: psa/psa-project-operations-changes.md
@@ -1574,15 +1574,15 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Panduan pelaporan
           href: psa/implementation-guides/reporting-guide.md
-    - name: Tatar daripada Project Service Automation kepada Project Operations - ringan
+    - name: Naik taraf daripada Project Service Automation kepada Project Operations - ringan
       href: psa/upgrade-project-operations-non-stocked.md
     - name: Perubahan ciri daripada Project Service Automation kepada Project Operations
       href: psa/psa-project-operations-changes.md
-    - name: Tatar Project Service Automation (versi aplikasi 3.x)
+    - name: Naik taraf Project Service Automation (versi aplikasi 3.x)
       items:
-        - name: Tatar Project Service Automation
+        - name: Naik taraf Project Service Automation
           href: psa/upgrade-psa-home-page.md
-        - name: Pertimbangan tatar - versi 2.x atau 1.x ke versi 3
+        - name: Pertimbangan naik taraf - versi 2.x atau 1.x ke versi 3
           href: psa/upgrade-v3.md
         - name: Pembangunan (3.x)
           items:
@@ -1618,9 +1618,9 @@
               href: psa/project-settings.md
             - name: Rancang kerja anda dalam Microsoft Project dengan tambahan Project Service
               href: psa/add-in-plan-work-projects.md
-        - name: Dimensi harga dan kos
+        - name: Dimensi penentuan harga dan kos
           items:
-            - name: Laman utama dimensi harga dan kos
+            - name: Laman utama dimensi penentuan harga dan kos
               href: psa/pricing-costing-dimensions.md
             - name: Cipta penyelesaian untuk dimensi penentuan harga tersuai
               href: psa/custompricingdimensionssolution.md
